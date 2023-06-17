@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="137"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q34659"><!-- l4d11-q3 -->
+            <head xml:id="khj78y-q34659-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-q34659-Hd1e103" type="question-title">
+     utrum 
+     Deus possit conuertere omnem 
+     creaturam in suum corpus illo 
+     modo conuersionis, quo 
+     conuertit panem
+   </head>
+            <p xml:id="khj78y-q34659-d1e106">
+               <lb ed="#S" n="29"/>QVAESTIO TERTIA 
+      <lb ed="#S" n="30"/>De qualitate conuersionis.
+    </p>
+            <p xml:id="khj78y-q34659-d1e113">
+               <lb ed="#S" n="31"/>Thom. 3. part. q. 75. arii. 3. &amp;. 4 
+    </p>
+            <p xml:id="khj78y-q34659-d1e118">
+               <lb ed="#S" n="32"/>QVAERITVR Tertio, vtrum 
+      <lb ed="#S" n="33"/>Deus possit conuertere omnem 
+      <lb ed="#S" n="34"/>creaturam in suum corpus illo 
+      <lb ed="#S" n="35"/>modo conuersionis, quo 
+       conuer<lb ed="#S" break="no" n="36"/>tit panem. Et videtur, quod sic: quia 
+      <lb ed="#S" n="37"/>virtus Dei plus potest facere de 
+      <lb ed="#S" n="38"/>potentia obedientiali creaturae, 
+      <lb ed="#S" n="39"/>quam virtus coeli de potentia 
+       natu<lb ed="#S" break="no" n="40"/>rali materiae: sed coelum potest conuertere inuicem om 
+      <lb ed="#S" n="41"/>nia, in quibus est potentia priuationi adiuncta, sicut 
+      <lb ed="#S" n="42"/>sunt illa, quae sunt infra sphaeram actiuorum, &amp; 
+       passiuo<lb ed="#S" break="no" n="43"/>rum. ergo Deus omnem creaturam in aliam potest con 
+      <lb ed="#S" n="44"/>uertere: quia in omni creatura est potentia obedientiae. 
+    </p>
+            <p xml:id="khj78y-q34659-d1e150" n="2">
+               <lb ed="#S" n="45"/>
+               <!-- 2 -->sED Contra: Philosophus primo de generatio 
+      <lb ed="#S" n="46"/>ne dicit, quod illa sola sunt adinuicem transmutabilia: quae 
+      <lb ed="#S" n="47"/>communicant in materia.
+    </p>
+            <p xml:id="khj78y-q34659-d1e161" n="3">
+      <!-- 3 -->Item Augu. dicit, quod 
+      <lb ed="#S" n="48"/>Deus non potest corpus conuertere in spiritum. 
+    </p>
+            <p xml:id="khj78y-q34659-d1e168" n="4">
+               <lb ed="#S" n="49"/>
+               <!-- 4 -->REsPONDEO, circa istam quaestionem 
+       pri<lb ed="#S" break="no" n="50"/>mo videndum est, qualis sit ista conuersio. secundo, quod 
+      <lb ed="#S" n="51"/>non est annihilatio Tertio, quod quaeritur. 
+    </p>
+            <p xml:id="khj78y-q34659-d1e179">
+               <lb ed="#S" n="52"/>QVANTVM ad primum sunt duae conclusio 
+      <lb ed="#S" n="53"/>nes. Prima, quod est conuersio totalis. secunda, quod est 
+       super<lb ed="#S" break="no" n="54"/>natura lis. De primo sciendum, quod est conuersio totius in 
+      <lb ed="#S" n="55"/>totum: ita quod nihil de substantia remanet ex parte 
+       termi<lb ed="#S" break="no" n="56"/>ni a quo: nec additur termino ad quem: sed corrumpitur 
+      <lb ed="#S" n="57"/>tam forma, quam materia, quae dicuntur conuerti quantum 
+      <lb ed="#S" n="58"/>ad essentiam, &amp; esse.
+    </p>
+            <p xml:id="khj78y-q34659-d1e197" n="6">
+      <!-- 6 -->sed quidam dicunt 
+       for<lb ed="#S" break="no" n="59"/>mam quidem corrumpi: sed nudam materiam realiter 
+      <lb ed="#S" n="60"/>vniri corpori Christi, sicut fit in nutritione. Et similiter 
+      <lb ed="#S" n="61"/>factum fuisse, quando Christus comedit post 
+       resurrectio<lb ed="#S" break="no" n="62"/>nem: aliter non fuisset bonum argumentum resurrectionis. 
+    </p>
+            <p xml:id="khj78y-q34659-d1e210" n="7">
+               <lb ed="#S" n="63"/>
+               <!-- 7 -->sed contra: quia tunc quotidis corpus Christi auge- 
+      <!--0137.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>retur per additionem materiae, sicut illud, quod nutritur, 
+      <lb ed="#S" n="65"/>vel saltem in die coenae, quando erat corpus passibile, fuisset au 
+      <lb ed="#S" n="66"/>gmentatum, &amp; aliquid per secessum fuisset, &amp; esset 
+       emit<lb ed="#S" break="no" n="67"/>tendum, quod est absurdum.
+    </p>
+            <p xml:id="khj78y-q34659-d1e231" n="8">
+      <!-- 8 -->Nec valet, si dicatur, quod 
+      <lb ed="#S" n="68"/>augmentat inquantum quantum: hic autem quantitas non 
+       con<lb ed="#S" break="no" n="69"/>uertitur: quia augmentum quantitatis est per quantitatem, &amp; au 
+      <lb ed="#S" n="70"/>gmentum substantiae per substantiam: quia ex non substantiis 
+      <lb ed="#S" n="71"/>non fit substantia. Et quicquid sit de hoc: cum mutari sit 
+      <lb ed="#S" n="72"/>aliter se habere nunc, &amp; prius: non potest negari mutatum 
+      <lb ed="#S" n="73"/>substantialiter illud, quod habet substantiam realem, quam 
+      <lb ed="#S" n="74"/>prius non habebat: cum autem materia sit substantia realis, 
+      <lb ed="#S" n="75"/>si habet materiam manentem, quam prius non habebat. ergo 
+      <lb ed="#S" n="76"/>substantialiter est mutatum corpus Christi. Et quia ipsi ad 
+      <lb ed="#S" n="77"/>ducunt authoritatem Dam̃. dicentis, quod hic mutatio non 
+      <lb ed="#S" n="78"/>est mutatio substantialis: quia materia panis, &amp; vini fi sub 
+      <lb ed="#S" n="79"/>forma sanguinis, &amp; corporis Christi: sicut in nutritione: 
+      <lb ed="#S" n="80"/>dicendum, quod simile est quo ad corruptionem formae: non 
+      <lb ed="#S" n="81"/>quo ad permanentiam materiae: sicut nec quo ad 
+       corru<lb ed="#S" break="no" n="82"/>ptionem accidentium. Nec est verum, quod per aduentum 
+      <lb ed="#S" n="83"/>alimenti corpus non mutetur, imo mutatur se habens 
+      <lb ed="#S" n="84"/>aliter nunc, &amp; prius: quia forma informat, quod prius non 
+      <lb ed="#S" n="85"/>informabat, &amp; compositum habet partem, quam prius non 
+      <lb ed="#S" n="86"/>habebat: licet non significabilem, nec distinctam. Et sicut 
+      <lb ed="#S" n="87"/>per hoc, quod aliqua pars materiae deperditur, nutritum 
+       mu<lb ed="#S" break="no" n="88"/>tatur: sic per hoc, quod aliqua restituitur. Cum enim nutritio 
+      <lb ed="#S" n="89"/>sit quaedam mutatio. ergo nutritum inquantum huiusmodi 
+      <lb ed="#S" n="90"/>est mutatum: sed nutritum non est nutrimentum. ergo in 
+       nu<lb ed="#S" break="no" n="91"/>tritione non solum est mutatio ipsius nutrimentl, quod 
+      <lb ed="#S" n="92"/>corrumpit, sed etiam ipsius nutriti: quamuis enim mutatio 
+      <lb ed="#S" n="93"/>non respiciat materiam, sicut terminum, sed vt subiectum: 
+       for<lb ed="#S" break="no" n="94"/>mam vero, sicut terminum: tamen non solum est mutatio, quando no 
+      <lb ed="#S" n="95"/>ua forma generat, vel corrumpltur: sed etiam quando modus formae 
+      <lb ed="#S" n="96"/>praeexistentis mutat, vel variatur: sicut patet in intentione, 
+      <lb ed="#S" n="97"/>&amp; remissione. Vnde cum in nutritione forma nutriti se ha 
+      <lb ed="#S" n="98"/>beat aliternunc, &amp; prius. scilicet informando, quod prius non 
+       in<lb ed="#S" break="no" n="99"/>formabat substantialiter. ergo potest dici mutatio substan 
+      <lb ed="#S" n="100"/>tialis nutriti: quod repugnat immortalitati corporis Chri 
+      <lb ed="#S" n="101"/>sti.
+    </p>
+            <p xml:id="khj78y-q34659-d1e309" n="9">
+      <!-- 9 -->Nec valet, quod dicunt, quod in corpore Chri 
+      <lb ed="#S" n="102"/>sti post resurrectionem per comestionem non probaretur vera 
+      <lb ed="#S" n="103"/>caro, nisi esset conuersio: cum angelus in corpore assumpto 
+      <lb ed="#S" n="104"/>posset omnia facere praeter conuersionem: hoc non valet: quia 
+      <lb ed="#S" n="105"/>nec illa conuersio est aliquid sensibile Vnde per eam non 
+      <lb ed="#S" n="106"/>plus credidissent, quam sine ea: quia non videbant eam. 
+    </p>
+            <p xml:id="khj78y-q34659-d1e325" n="10">
+               <lb ed="#S" n="107"/>
+               <!-- 10 -->Praeterea, sequutum fuisset augmentum in corpore 
+      <lb ed="#S" n="108"/>Christi: quia additio materiae, vel restaurat deperditum, vel 
+      <lb ed="#S" n="109"/>causat augmentum, vel vtrunque. Et si in his, qui transierunt 
+      <lb ed="#S" n="110"/>tempus augmenti nihil augmentet, hoc est, quia totum est neces 
+      <lb ed="#S" n="111"/>sarium in restaurationem deperditi. Alias de necessitate 
+      <lb ed="#S" n="112"/>naturae videret sequi, vel augmentum, vel condensatio: si 
+      <lb ed="#S" n="113"/>plus haberet de materia, quam prius: nec esset maior quantitas, 
+      <lb ed="#S" n="114"/>quam prius.
+    </p>
+            <p xml:id="khj78y-q34659-d1e347" n="11">
+      <!-- 11 -->Ex hoc sequit secunda conclusio, quod ista 
+      <lb ed="#S" n="115"/>conuersio est supernaturalis dupliciter. Primo quo ad 
+       mo<lb ed="#S" n="116" break="no"/>dum faciendi, propter realem distantiam terminorum in 
+       inui<lb ed="#S" break="no" n="117"/>uicem transeuntium: quia virtus creata, quod non tangit, in 
+       il<lb ed="#S" break="no" n="118"/>lud non agit. Vnde virtus verborum potest attingere panem 
+      <lb ed="#S" n="119"/>ad hoc, quod desinat hic esse, sed non attingit ad coelum, &amp; per 
+      <lb ed="#S" n="120"/>consequens non agit etiam instramentaliter ad conuersionem ex parte 
+       ter<lb ed="#S" n="121" break="no"/>mini ad quem.
+    </p>
+            <p xml:id="khj78y-q34659-d1e367" n="12">
+      <!-- 12 -->secundo est supernaturalis quo ad 
+      <lb ed="#S" n="122"/>substantiam facti: licet quidam dicant contrarium dicentes, quod ista 
+       con<lb ed="#S" n="123" break="no"/>uersio est solum supernaturalis quo ad modum faciendi, quia 
+       su<lb ed="#S" break="no" n="124"/>bito agere excedit virtutem naturae, sed non quo ad genus 
+       fa<lb ed="#S" n="125" break="no"/>cti: quia natura conuertit totum in totum: generando, &amp; 
+       nutrien<lb ed="#S" n="126" break="no"/>do: &amp; sic habet ptantem super vtrumque licet non creando nec 
+       an<lb ed="#S" n="127" break="no"/>nihilando.
+    </p>
+            <p xml:id="khj78y-q34659-d1e385" n="13">
+      <!-- 13 -->sed hoc non videt: quia saltem natura, 
+      <lb ed="#S" n="128"/>nec subito, nec in tempore potest aliquid conuertere in distans.  Vnde 
+      <lb ed="#S" n="129"/>cum corpus Christi sit in coelo, &amp; hostia, vel vinum sit in altari, quod 
+      <lb ed="#S" n="130"/>isto manente hic, &amp; illo illic: fiat conuersio vnius in alterum: in 
+      <!--0138.xml-->
+      <pb ed="#S" n="138"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>mille annis natura non faceret.
+    </p>
+            <p xml:id="khj78y-q34659-d1e406" n="13">
+      <!-- 13 -->Et si dicatur 
+      <lb ed="#S" n="2"/>quod hoc pertinet ad modum faciendi, non ad substantiam 
+       fa<lb ed="#S" break="no" n="3"/>cti: dicendum, quod nec quo ad substantiam facti. Nam dicitur 
+      <lb ed="#S" n="4"/>totum conuerti in totum, quando nihil conuersi manet secundum 
+      <lb ed="#S" n="5"/>actum essendi. Vnde quando aer conuertit in ignem per sui 
+      <lb ed="#S" n="6"/>corruptionem, &amp; illius generationem: &amp; quando alimentum in nu 
+      <lb ed="#S" n="7"/>tritum: non mutatur totum in totum vniformiter, quia materia 
+       ma<lb ed="#S" break="no" n="8"/>net eiusdem rationis, sicut prius, sed non forma, nisi in 
+       pu<lb ed="#S" n="9" break="no"/>ra potentia. Hic autem sic totum conuertitur in totum, quod non 
+      <lb ed="#S" n="10"/>plus remanet materia, quam forma, sed perdit materia 
+       enti<lb ed="#S" break="no" n="11"/>tatem, sicut forma: quod natura facere non potest, auferre 
+      <lb ed="#S" n="12"/>s. materiae essentiam suam, sicut nec dare: cum sit 
+       ingenerabi<lb ed="#S" n="13" break="no"/>lis, &amp; incorruptibilis. Natura enim non potest generare, quod 
+      <lb ed="#S" n="14"/>non potest corrumpere, nec econuerso: quia omne generabile per 
+      <lb ed="#S" n="15"/>naturam est corruptibile. 1. de coelo. Vnde sicut natura 
+      <lb ed="#S" n="16"/>non potest producere animam rationalem, &amp; coelum, sic nec 
+      <lb ed="#S" n="17"/>destruere.
+    </p>
+            <p xml:id="khj78y-q34659-d1e445" n="14">
+      <!-- 14 -->Ad rationem, quae dicunt, quod si est in 
+      <lb ed="#S" n="18"/>potentia vnum ad aliud, quia communicant in materia. ergo 
+      <lb ed="#S" n="19"/>vnum potest in aliud conuerti: verum est modo naturali, qui 
+      <lb ed="#S" n="20"/>est, vt materia semper maneat incorrupta, quod non est 
+      <lb ed="#S" n="21"/>hic.
+    </p>
+            <p xml:id="khj78y-q34659-d1e458" n="15">
+      <!-- 15 -->CIRCA secundum sciendum, quod ista 
+       conuer<lb ed="#S" break="no" n="22"/>sio non est annihilatio, quia non est versio in nihil, sed in ali 
+      <lb ed="#S" n="23"/>quid: licet illud, in quod est versio, non acquirat ex versio 
+      <lb ed="#S" n="24"/>ne nouam formam, sicut cum aer vertit in ignem per 
+       generatio<lb ed="#S" break="no" n="25"/>nem, nec nouam materiam: sicut cibus conuertitur in cibatum: 
+      <lb ed="#S" n="26"/>sed sicut quando est corruptio sine generatione: vt quando lux cor 
+      <lb ed="#S" n="27"/>rumpitur ipsa forma non annihilatur: sed conuertitur in subie 
+      <lb ed="#S" n="28"/>ctum: non sic quod subiectum ex luce generetur: nec quod aliquid lu 
+      <lb ed="#S" n="29"/>cis addat essentiae subiecti: sed transit in subiectum cedens in 
+      <lb ed="#S" n="30"/>potentiam. Et quamuis non sit plus in potentia huius partis: 
+      <lb ed="#S" n="31"/>in qua cedit, quam alterius: dicit tamen plus in istam partem 
+       conuer<lb ed="#S" break="no" n="32"/>ti, vel transire. sic dicitur substantia conuerti in corpus 
+       Chri<lb ed="#S" break="no" n="33"/>sti, &amp; transsubstantiari: &amp; haec substantia in illam transire, non 
+      <lb ed="#S" n="34"/>qa in illa fiat noua forma substantialis, aut materia: sed per 
+      <lb ed="#S" n="35"/>simplicem transitionem in illam: quia ibi relinquit nouum effectum, 
+      <lb ed="#S" n="36"/>vt statim dicet.
+    </p>
+            <p xml:id="khj78y-q34659-d1e495" n="16">
+      <!-- 16 -->sed contra hoc arguunt aliqui 
+      <lb ed="#S" n="37"/>quod materia maneat quinque viis. Primo sic. Quod non est 
+      <lb ed="#S" n="38"/>magis in alio nunc, quam prius: non est magis conuersum, vel 
+      <lb ed="#S" n="39"/>mutatum in ipsum nunc, quam prius. sed si panis non manet 
+      <lb ed="#S" n="40"/>post conuersionem in corpore Christi secundum se totum, nec 
+      <lb ed="#S" n="41"/>secundum aliquid sui: puta secundum materiam, aut formam: 
+      <lb ed="#S" n="42"/>non est in ipso post conuersionem plus, quam ante. ergo non de 
+      <lb ed="#S" n="43"/>bet dici conuersum in ipsum nunc plus, quam prius. 
+    </p>
+            <p xml:id="khj78y-q34659-d1e515" n="17">
+               <lb ed="#S" n="44"/>
+               <!-- 17 -->si dicat, quod vnum manet in alio, quia communicant in 
+      <lb ed="#S" n="45"/>materia cum eo, &amp; vnum est educibile de altero virtute di 
+      <lb ed="#S" n="46"/>uina, non valet: quia simili modo maneret panis in corpore 
+      <lb ed="#S" n="47"/>Christi, si esset corruptus corruptione naturali: quia eodem 
+      <lb ed="#S" n="48"/>modo communicaret cum ipso in materia, &amp; posset educi de 
+      <lb ed="#S" n="49"/>ipso virtute diuina. secundo sic, omnis  terminus actionis 
+      <lb ed="#S" n="50"/>attingitur per actionem, sed in conuersione panis in corpus 
+      <lb ed="#S" n="51"/>Christi: corpus Christi est terminus. ergo per talem 
+       actio<lb ed="#S" break="no" n="52"/>nem attingitur. sed si nihil sit in ipso, qualiter attingatur 
+      <lb ed="#S" n="53"/>non est intelligibile, quia sic esset actio, per quam nihil 
+       age<lb ed="#S" break="no" n="54"/>retur.
+    </p>
+            <p xml:id="khj78y-q34659-d1e544" n="18">
+      <!-- 18 -->Nec valet, si dicat, quod per conuersionem fit 
+      <lb ed="#S" n="55"/>aliquid in esse corpus Christi: hoc. scilicet quod de nouo corpus 
+      <lb ed="#S" n="56"/>Christi est in sacro altaris: quia istud directe non fit per 
+       con<lb ed="#S" break="no" n="57"/>uersionem: quia si fieret conuersio totius in totum secundum 
+       sub<lb ed="#S" break="no" n="58"/>stantiam, &amp; omnia accidentia: corpus Christi non esset ibi plus, 
+      <lb ed="#S" n="59"/>quam prius, ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q34659-d1e561" n="19">
+      <!-- 19 -->Tertio sic: si in corruptione 
+      <lb ed="#S" n="60"/>materia desineret esse, quemadmodum &amp; forma: non esset cor 
+      <lb ed="#S" n="61"/>ruptio, sed annihilatio: sed secundum hanc positionem 
+       ma<lb ed="#S" break="no" n="62"/>teria panis desinit esse, sicut forma. ergo ibi est vera anni 
+      <lb ed="#S" n="63"/>hilatio, &amp; non conuersio.
+    </p>
+            <p xml:id="khj78y-q34659-d1e574" n="20">
+      <!-- 20 -->Quarto sic: qualiter 
+      <lb ed="#S" n="64"/>potest intelligi conuersio formae in formam praeesistentem Non 
+      <lb ed="#S" n="65"/>est intelligibile, quia nihil videt hic esse, nisi quod vna desinit 
+      <lb ed="#S" n="66"/>esse, alia incipit esse, ex quo per desitionem vnius nihil ad 
+      <lb ed="#S" n="67"/>uenit alteri: &amp; quod materia, quae fuit sub vna forma fit de 
+      <!--0138.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>nouo sub alia: quemadmodum dicit Philosophus 1. Physi. quod 
+       mate<lb ed="#S" break="no" n="69"/>ria primo fit sub vno contrariorum, postea sub alio, quod est 
+      <lb ed="#S" n="70"/>pro opinione contraria.
+    </p>
+            <p xml:id="khj78y-q34659-d1e598" n="21">
+      <!--21.--> Quinto sic: quia si 
+       mate<lb ed="#S" break="no" n="71"/>ria non annihilat, sed conuertitur: hoc est altero duorum 
+       mo<lb ed="#S" break="no" n="72"/>dorum, aut quia manet non in se, sed in suo simili. scilicet in mate 
+      <lb ed="#S" n="73"/>ria alterius, aut quia ex ipsa &amp; materia alterius efficitvnum. 
+      <lb ed="#S" n="74"/>Primum non potest dici: quia conuersio non defferret ab anni 
+      <lb ed="#S" n="75"/>hilatione: annihilata enim materia vnius nihilominus 
+      <lb ed="#S" n="76"/>ipsa remanet in simili in materia alterius. Nec potest dici 
+      <lb ed="#S" n="77"/>magis conuerti in mareriam alicuius determinati, quam in 
+       ma<lb ed="#S" break="no" n="78"/>teriam cuiuscunque alterius: cum materia omnium sit eiusdem 
+      <lb ed="#S" n="79"/>rationis. si vero dicatur secundum habere propositum: quia 
+      <lb ed="#S" n="80"/>sicut materia non distinguitur a materia, nisi per formam 
+      <lb ed="#S" n="81"/>sub qua est: sic non potest effici vnum cum materia alterius: 
+      <lb ed="#S" n="82"/>nisi quia vtrunque efficitur sub eadem forma.
+    </p>
+            <p xml:id="khj78y-q34659-d1e629" n="22">
+      <!-- 22 -->sed 
+      <lb ed="#S" n="83"/>dicendum ad primum per interemptionem maioris: quod imo 
+      <lb ed="#S" n="84"/>conuersum, secundum quod huiusmodi non manet secundum 
+      <lb ed="#S" n="85"/>aliquid sui. Vnde aer conuertitur in ignem, &amp; dicitur 
+       con<lb ed="#S" break="no" n="86"/>uerti secundum formam: &amp; forma dicitur conuersa secundum 
+      <lb ed="#S" n="87"/>nihil sui manens: non autem dicitur conuersus secundum 
+      <lb ed="#S" n="88"/>materiam, sed additus. Et similiter, quia hic est conuersio 
+      <lb ed="#S" n="89"/>secundum totum desinit esse: alias non esset conuersio 
+       to<lb ed="#S" break="no" n="90"/>tius in totum.
+    </p>
+            <p xml:id="khj78y-q34659-d1e651" n="23">
+      <!-- 23 -->Vel potest dici sine assertione, quod 
+      <lb ed="#S" n="91"/>Deus potest conuertere substantiam in accidens, &amp; 
+       econ<lb ed="#S" break="no" n="92"/>uerso: sicut in generatione, quae fit ex speciebus. Et tunc 
+      <lb ed="#S" n="93"/>substantia panis conuertitur in corpus Christi secundum es 
+      <lb ed="#S" n="94"/>se praesens realiter in altari: &amp; corpus Christi esse in altari 
+      <lb ed="#S" n="95"/>est in potentia obedientiali ad esse substantiam panis: 
+      <lb ed="#S" n="96"/>vt sic materia in materiam, &amp; forma in formam 
+       conuer<lb ed="#S" break="no" n="97"/>tantur: non secundum esse absolutum substantiale: sed 
+       secun<lb ed="#S" break="no" n="98"/>dum illud esse in altari. Cum enim eorum, quorum vnum est 
+      <lb ed="#S" n="99"/>in potentia ad aliud Deus possit vnum conuertere in aliud 
+      <lb ed="#S" n="100"/>si materia est in potentia ad formam, Deus potest materiam 
+      <lb ed="#S" n="101"/>conuertere in formam, &amp; econuerso, quia potest reparare, quod - 
+      <lb ed="#S" n="102"/>destruxit. Nec oportet illud, de quo fit aliud manere in 
+      <lb ed="#S" n="103"/>illo actu tanquam pars: quia de materia educitur forma: 
+       cu<lb ed="#S" break="no" n="104"/>ius pars non est materia. Et similiter cum omne accidens 
+      <lb ed="#S" n="105"/>corporeum sit in potentia materiae: de potentia materiae 
+      <lb ed="#S" n="106"/>educi potest, &amp; in illud materia conuerti potest: &amp; econ 
+      <lb ed="#S" n="107"/>uerso accidens in materiam. Et secundum hoc post 
+       conuer<lb ed="#S" break="no" n="108"/>sionem manet secundum esse potentiale totum in corpore 
+      <lb ed="#S" n="109"/>Christi secundum esse in altari. Dico autem potentiale a po 
+      <lb ed="#S" n="110"/>tentia obedientiali non a naturali. secundum autem istum 
+      <lb ed="#S" n="111"/>modum aliter manet panis in potentia post conuersionem in 
+      <lb ed="#S" n="112"/>corpore Christi, quam maneret post annihilationem: nam post 
+      <lb ed="#S" n="113"/>annihilationem fieret, vel de nihilo, vel de corpore 
+       Chri<lb ed="#S" break="no" n="114"/>sti secundum se: &amp; non de esse corpus Christi in altari: cum 
+       il<lb ed="#S" break="no" n="115"/>lud esse non esset.
+    </p>
+            <p xml:id="khj78y-q34659-d1e710" n="24">
+      <!-- 24 -->Ad secundum dicendum, quod 
+       ter<lb ed="#S" break="no" n="116"/>minus actionis, quae est conuersio, est corpus Christi esse 
+      <lb ed="#S" n="117"/>in altari. Et hic attingit, quia sicut terminus corruptionis 
+      <lb ed="#S" n="118"/>est generatio, sic terminus corruptionis panis est 
+       termi<lb ed="#S" break="no" n="119"/>nus generationis illius modi essendi in corpore Christi. 
+      <lb ed="#S" n="120"/>Et sicut Magister posuit nihil de alimento conuerti in ve 
+      <lb ed="#S" n="121"/>ritatem humanae naturae quo ad additionem: sed quo ad 
+      <lb ed="#S" n="122"/>modum essendi, vt non consumat, vel vt habeat in quid 
+      <lb ed="#S" n="123"/>agat, sic &amp; corruptio panis fit: vt non conuertatur in 
+       cor<lb ed="#S" break="no" n="124"/>pus Christi secundum esse intrinsecum ei additum: sed 
+      <lb ed="#S" n="125"/>in modum essendi eius in sacramento, &amp; hic terminus 
+      <lb ed="#S" n="126"/>attingitur. Ad probationem, quae adducitur: 
+       respon<lb ed="#S" break="no" n="127"/>sum est in praecedenti quaestione.
+    </p>
+            <p xml:id="khj78y-q34659-d1e742" n="25">
+      <!-- 25 -->Ad tertium 
+      <lb ed="#S" n="128"/>dicendum, quod licet totum desinat esse: non tamen totum est an 
+      <lb ed="#S" n="129"/>nihilatum: quia annihilatio est versio in nihil: hic autem est ver 
+      <lb ed="#S" n="130"/>sio in aliquid. Et quando aer conuertitur in ignem, non solum aer, 
+      <lb ed="#S" n="131"/>cuius aliquid manet, non dicitur annihilari: sed nec for 
+      <lb ed="#S" n="132"/>ma substantialis, nec accidentia: de quibus, nec totum, 
+      <lb ed="#S" n="133"/>nec pers manet, dicuni annihilari: sed conuerti: quia vertuntur 
+      <lb ed="#S" n="134"/>in aliquid, &amp; non in nihil. Et similiter in nutritione secundum  
+      <!--0139.xml-->
+      <pb ed="#S" n="139"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>opinionem Magistri diceretur alimentum conuerti in ma 
+      <lb ed="#S" n="2"/>gnitudinem corporis nutriti, si augeatur non in aliquid 
+      <lb ed="#S" n="3"/>intrinsecum veritatis. Et licet nihil maneat, sed totum 
+      <lb ed="#S" n="4"/>secedat: tamen propter effectum positiuum, quem 
+       relin<lb ed="#S" break="no" n="5"/>quid: dicitur non annihilari. Et similiter conuersio in 
+      <lb ed="#S" n="6"/>corpus Christi secundum esse in altari sacramentaliter, quam 
+      <lb ed="#S" n="7"/>uis nihilremaneat de conuerso: quia tamen manet in suo 
+       effe<lb ed="#S" break="no" n="8"/>ctu reali: de quo potest dici virtute reduci. ideo non an 
+      <lb ed="#S" n="9"/>nihilatur.
+    </p>
+            <p xml:id="khj78y-q34659-d1e788" n="26">
+      <!-- 26 -->Ad quartum cum dicitur: forma non 
+      <lb ed="#S" n="10"/>conuerti in formam, nisi per hoc, quod communicant sibi materiam 
+      <lb ed="#S" n="11"/>&amp; sic vnum contrarium conuertit in aliud: veru est via naturae: 
+      <lb ed="#S" n="12"/>sed dicitur hic formam conuerti in formam: non quia vna forma 
+      <lb ed="#S" n="13"/>fiat simpliciter ex alia corrupta: nec quod vna addatur alte 
+      <lb ed="#S" n="14"/>ri: tunc enim non fieret vna ex alia: sed fieret vna cum alia, 
+      <lb ed="#S" n="15"/>&amp; compositum ex duabus: sed dicitur forma panis conuerti 
+      <lb ed="#S" n="16"/>in formam corporis: quia ex decisione formae panis: fitexisten 
+      <lb ed="#S" n="17"/>tia formae corporis Christi ibit, vbi erat forma panis. 
+    </p>
+            <p xml:id="khj78y-q34659-d1e810" n="27">
+               <lb ed="#S" n="18"/>
+               <!-- 27 -->Ad quintum dicendum, quod materia neutro modo 
+      <lb ed="#S" n="19"/>conuertitur in materiam. scilicet nec per remanere in suo simili 
+      <lb ed="#S" n="20"/>tantum: quia hoc esset, etiam si vere annihilaret, nec per 
+       con<lb ed="#S" break="no" n="21"/>iungi materiae corporis Christi: sed per hoc, quod in eam 
+       trans<lb ed="#S" break="no" n="22"/>substantiatur ad esse, vbi ipsa erat. Inquantum enim per 
+      <lb ed="#S" n="23"/>desitionem materiae panis fit materia corporis: ibi reali 
+      <lb ed="#S" n="24"/>ter praesens: vbi illa erat localiter dicitur conuerti mate 
+      <lb ed="#S" n="25"/>ria in materiam.
+    </p>
+            <p xml:id="khj78y-q34659-d1e832" n="28">
+      <!-- 28 -->CIRCA tertium sunt 
+       qua<lb ed="#S" break="no" n="26"/>tuor conclusiones. Prima conclusio est, quod loquendo de 
+      <lb ed="#S" n="27"/>conuersione, quae est per immixtionem alicuius Deus non 
+      <lb ed="#S" n="28"/>potest conuertere nisi communicantia in materia. Et hoc 
+      <lb ed="#S" n="29"/>etiam verum est de conuersione, quae est per generationem: 
+      <lb ed="#S" n="30"/>sic quod aliquid conuersi maneat in principium inexistens 
+      <lb ed="#S" n="31"/>conuertentis: puta de terra facere coelum nouum, vel de 
+      <lb ed="#S" n="32"/>vel de Luna nouum solem, aut angelum, nisi sit 
+       mate<lb ed="#S" break="no" n="33"/>ria communis apta nata subiici istis formis aequaliter: 
+      <lb ed="#S" n="34"/>&amp; pari ratione de conuersione in praeexistens manente 
+      <lb ed="#S" n="35"/>materia, vt in alimento. Et hoc intelligitur de 
+       compo<lb ed="#S" break="no" n="36"/>sitis, non de formis: quia formae communicant in 
+       mate<lb ed="#S" break="no" n="37"/>ria: nec tamen vna forma fit alia, nec ex albedine fit 
+       ni<lb ed="#S" break="no" n="38"/>gredo per naturam.
+    </p>
+            <p xml:id="khj78y-q34659-d1e865" n="29">
+      <!-- 29 -->secunda conclusio est, qui 
+      <lb ed="#S" n="39"/>formam conuerti in formam, &amp; materiam in formam, &amp; econ 
+      <lb ed="#S" n="40"/>uerso, forte diuina virtute fieri potest. Ex quo enim ma 
+      <lb ed="#S" n="41"/>teria est in potentia ad formam non solum naturaliter, vt 
+      <lb ed="#S" n="42"/>de ea forma educatur: sed etiam obedientialiter videtur, 
+      <lb ed="#S" n="43"/>quod materia possit conuerti in formam, &amp; econuerso: &amp; 
+      <lb ed="#S" n="44"/>per consequens forma conuerti in formam. Et tunc si 
+       ali<lb ed="#S" break="no" n="45"/>qua non communicant in materia: dum tamen 
+       communi<lb ed="#S" break="no" n="46"/>cent in forma aliqua: potest vnum conuerti in aliud 
+       se<lb ed="#S" break="no" n="47"/>cundum esse illius formae: ita quod licet corpus Christi, &amp; 
+      <lb ed="#S" n="48"/>coelum non communicent in materia: quia tamen conueniunt 
+      <lb ed="#S" n="49"/>inesse localiter, vel praesentialiter alicubi diffinitiue quan 
+      <lb ed="#S" n="50"/>tum ad hoc poterunt conuerti in se inuicem: ita quod sicut 
+       sub<lb ed="#S" break="no" n="51"/>stantia panis potest conuerti in corpus Christi: ad hoc, quod sis 
+      <lb ed="#S" n="52"/>praesentialiter, vbi ipsa erat localiter: sic &amp; corpus coeli 
+      <lb ed="#S" n="53"/>quantum ad hoc: non autem angelus, cui non conuenit esse 
+      <lb ed="#S" n="54"/>praesens circumscriptiue etiamsi conueniret diffinitiue. Et lices 
+      <lb ed="#S" n="55"/>hoc videatur probabile: tamen communis opinio tenet simplici 
+      <lb ed="#S" n="56"/>ter, quod non possint inuicem conuerti: nisi quae communicant 
+      <lb ed="#S" n="57"/>in materia: de quorum. f. vno potest fieri aliud: quia illud 
+      <lb ed="#S" n="58"/>de quo fit aliud, est principium inexistens: non autem est 
+       ali<lb ed="#S" break="no" n="59"/>quid in angelo, vel in coelo, quod possit esse pars 
+       corpo<lb ed="#S" break="no" n="60"/>ris corruptibilis, quia nec materia, nec forma. ergo nec 
+       v<lb ed="#S" break="no" n="61"/>num in aliud videtur posse conuerti simpliciter. 
+    </p>
+            <p xml:id="khj78y-q34659-d1e920" n="30">
+               <lb ed="#S" n="62"/>
+               <!-- 30 -->sed contra hoc est: quia natura conuertit alimentum 
+      <lb ed="#S" n="63"/>in hominem, quae tamen ex alimento nunquam generaret 
+       homi<lb ed="#S" break="no" n="64"/>nem. ergo Deus potest conuertere corpus corruptibile in 
+       in<lb ed="#S" break="no" n="65"/>corruptibile, &amp; corpus in spiritum: licet ex vno non posset 
+      <lb ed="#S" n="66"/>facere aliud.
+    </p>
+            <p xml:id="khj78y-q34659-d1e937" n="31">
+      <!-- 31 -->sed dicundum, quod Deus potest 
+       fa<lb ed="#S" break="no" n="67"/>cere immediate quicquid potest mediate: natura autem mul 
+      <!--0139.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>ta potest facere mediate, quae non potest immediatem. Vnde 
+      <lb ed="#S" n="69"/>conuertit alimentum immediate in animal: ex quo tamen 
+       im<lb ed="#S" break="no" n="70"/>mediate non potest animal generare, sed mediate: quia 
+       se<lb ed="#S" break="no" n="71"/>men est superfluum alimenti. sed illud, ex quo nec media 
+      <lb ed="#S" n="72"/>te, nec immediate potest aliud generare, nunquam potest in aliud 
+      <lb ed="#S" n="73"/>conuertere: sicut nunquam conuertit vapores in corpus 
+       coe<lb ed="#S" break="no" n="74"/>leste, nec econuerso. Nec Raphael conuertebat cibum, quem 
+      <lb ed="#S" n="75"/>assumebat in seipsum, nec huiusmodi. Vnde cum Deus nec 
+       me<lb ed="#S" break="no" n="76"/>diate, nec immediate possit de non communicante in ma 
+      <lb ed="#S" n="77"/>teria facere aliud, sicut ex principio in existente. ergo 
+      <lb ed="#S" n="78"/>nec vnum in aliud conuertere. sed si faceret vnum ex alio 
+      <lb ed="#S" n="79"/>acciperetur ordinabiliter, id est, vnum post aliud. Et sic ex 
+      <lb ed="#S" n="80"/>corpore faceret angelum, id est, post corpus.
+    </p>
+            <p xml:id="khj78y-q34659-d1e976" n="32">
+      <!-- 32 -->
+       Ter<lb ed="#S" break="no" n="81"/>tia conclusio est ad propositum. scilicet quod si potest conuerti, non 
+       so<lb ed="#S" break="no" n="82"/>lum omne corpus in aliud, sed etiam in spiritum: tunc 
+       con<lb ed="#S" break="no" n="83"/>uertatur panis in corpus Christi: sic quod non solum in mate 
+      <lb ed="#S" n="84"/>riam, sed in formam, quae est anima rationalis. si autem 
+      <lb ed="#S" n="85"/>non possit corpus conuerti in spiritum, nec substantia in 
+      <lb ed="#S" n="86"/>accidens: tunc dicitur panis conuerti in corpus Christi, non 
+      <lb ed="#S" n="87"/>prout corpus dicit genus substantiae, nec prout dicit solam 
+      <lb ed="#S" n="88"/>quantitatem, nec prout dicit materiam cum quantitate, vel 
+      <lb ed="#S" n="89"/>materiam cum modo quantitatis. sed prout dicit partem, 
+      <lb ed="#S" n="90"/>id est, compositum ex materia, &amp; anima rationali: prout dat 
+      <lb ed="#S" n="91"/>esse corporeum, non sic intelligendo, quod realiter fiat 
+       con<lb ed="#S" break="no" n="92"/>uersio in animam, quae non differt nisi ratione: prout est 
+      <lb ed="#S" n="93"/>spiritus animalisrationalis, &amp; prout dat esse corporeum 
+      <lb ed="#S" n="94"/>sed ratione solius materiae dicitur conuerti in compositum: 
+      <lb ed="#S" n="95"/>sicut dicitur corpus humanum esse quantum, &amp; extensum, &amp; 
+      <lb ed="#S" n="96"/>alimentum conuerti id corpus humanum, prout dicit compo 
+      <lb ed="#S" n="97"/>situm non ratione formae, sed solius materiae
+    </p>
+            <p xml:id="khj78y-q34659-d1e1018" n="33">
+      <!-- 33 -->
+       Quar<lb ed="#S" break="no" n="98"/>ta conclusio est, quod cum panis secundum nihil fui addatur 
+      <lb ed="#S" n="99"/>corpori Christi, sicut nec corpus coeli: cum etiam 
+       substan<lb ed="#S" break="no" n="100"/>tia coeli ita possit desinere manente quantitate diuina 
+       vir<lb ed="#S" break="no" n="101"/>tute: sicut substantia panis cum etiam corpus Christi 
+       pos<lb ed="#S" break="no" n="102"/>sit esse praesens realiter in loco coeli: sicut in loco panis 
+      <lb ed="#S" n="103"/>non estratio, quare non possit coelum conuerti in corpus 
+      <lb ed="#S" n="104"/>Christi, sicut panis isto modo conuertendi.
+    </p>
+            <p xml:id="khj78y-q34659-d1e1038" n="34">
+      <!-- 34 -->si 
+      <lb ed="#S" n="105"/>dicatur, quod nihil potest conuerti transsubstantiatiue in ali 
+      <lb ed="#S" n="106"/>quid, nisi quod est in eo in potentia videtur, quod imo 
+       diui<lb ed="#S" break="no" n="107"/>na virtute possit forma coeli cedere in materiam coeli, &amp; 
+      <lb ed="#S" n="108"/>in eam conuerti: de cuius tamen potentia non educitur, 
+      <lb ed="#S" n="109"/>sicut forma corruptibilis cedit in potentiam suae 
+       mate<lb ed="#S" break="no" n="110"/>riae, quando corrumpitur. Et sic quasi transit in eam 
+       si<lb ed="#S" break="no" n="111"/>ne hoc, quod aliquid addat ei, &amp; similiter lux coeli quando 
+      <lb ed="#S" n="112"/>corrumpitur, &amp; pari ratione alia forma coeli virtute Dei. 
+      <lb ed="#S" n="113"/>Ex hoc patet solutio ad oppositum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

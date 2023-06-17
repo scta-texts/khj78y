@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="166"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q44780"><!-- l4d14-q2 -->
+            <head xml:id="khj78y-q44780-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q44780-Hd1e103" type="question-title">
+     utrum 
+     poenitentia sit virtus
+   </head>
+            <p xml:id="khj78y-q44780-d1e106">
+               <lb ed="#S" n="86"/>QVAESTIO SECVNDA. 
+      <lb ed="#S" n="87"/>De virtute poenitentiae.
+    </p>
+            <p xml:id="khj78y-q44780-d1e113">
+               <lb ed="#S" n="88"/>Thom. 3. q. si. art. 1. &amp;. 2. 
+    </p>
+            <p xml:id="khj78y-q44780-d1e118">
+               <lb ed="#S" n="89"/>SECVNDO Quaeritur, vtrum 
+       poe<lb ed="#S" break="no" n="90"/>nitentia sit virtus. Et videtur quod non: quia 
+      <lb ed="#S" n="91"/>virtus est de bono: sed poenitentia est de 
+      <lb ed="#S" n="92"/>malo. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q44780-d1e130" n="2">
+      <!-- 2 -->CONTRA 
+      <lb ed="#S" n="93"/>praecepta le. non sunt nisi de actibus virta 
+      <lb ed="#S" n="94"/>tum, sod lex Euagelica praecepit dicent: Poen itentiam agite. 
+      <lb ed="#S" n="95"/>ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q44780-d1e141" n="3">
+      <!-- 3 -->REsPONDEO, duo sunt facien 
+      <lb ed="#S" n="96"/>da: quia primo ponet vna opinio probabilis, &amp; subtilis. se 
+      <lb ed="#S" n="97"/>cundo inquiretur de quibusdam, quae implicat. 
+    </p>
+            <p xml:id="khj78y-q44780-d1e150" n="4">
+               <lb ed="#S" n="98"/>
+               <!-- 4 -->CIRCA primum sciendum est, quod aliqui 
+       praemit<lb ed="#S" break="no" n="99"/>tunt quanda distinctionem, quae fupposita probant tres 
+      <lb ed="#S" n="100"/>conclusionet de poenitentia. Et ex hoc inferunt quoddam 
+      <lb ed="#S" n="101"/>correlarium.
+    </p>
+            <p xml:id="khj78y-q44780-d1e163" n="5">
+      <!-- 5 -->Primo ergo distinguunt de 
+       poeni<lb ed="#S" break="no" n="102"/>tere, dicentes, quod cum poenitere includat dolorem de de pecca 
+      <lb ed="#S" n="103"/>to commisso, potest accipi dupliciter, vel pro dolore, qui est 
+      <lb ed="#S" n="104"/>actus senfitiue partis, vel pro displicentia voluntatis 
+       pri<lb ed="#S" break="no" n="105"/>mo modo dolere non est actus virtutis poenitentiae: saltem 
+      <lb ed="#S" n="106"/>ab ea immediate elicitus, prout. de poenitentia loquimur, 
+      <lb ed="#S" n="107"/>quia nulla potentia sensitiua apprehendit peccatum, prout est 
+      <lb ed="#S" n="108"/>Dei offensiuum, quod tamen facit poenitentia, de qua 
+       loqui<lb ed="#S" break="no" n="109"/>mur. sed poenitere secundo modo acceptu pro 
+       displicen<lb ed="#S" break="no" n="110"/>tia voluntatis est actus, de quo quaerit, ansit virtuosus. Et 
+      <lb ed="#S" n="111"/>de hoc dicunt tria. scilicet quod est virtuosus actus. secundo, quod est 
+      <lb ed="#S" n="112"/>actus virtutis moralis, &amp; non theologice. Tertio, quod 
+       per<lb ed="#S" break="no" n="113"/>tinet ad iustitiam.
+    </p>
+            <p xml:id="khj78y-q44780-d1e194" n="6">
+      <!-- 6 -->Quantum ad primum dicunt, quod 
+      <lb ed="#S" n="114"/>actus virtutis aliquando accipitur stricte. scilicet pro solo actu 
+       elici<lb ed="#S" break="no" n="115"/>to a potentia perfecta per habitum virtuosum: &amp; sic non 
+       o<lb ed="#S" break="no" n="116"/>portet, quod poenitere semper sit actus virtuosus: quandoque vero 
+      <lb ed="#S" n="117"/>sumitur pro omni actu regulato a ratione: qui vel est ell 
+      <lb ed="#S" n="118"/>citus a virtute, vel quantum est de se generatiuut, est virtu 
+      <lb ed="#S" n="119"/>tis: &amp; isto modo Poenitere semper est actus virtuosus. Pri 
+      <lb ed="#S" n="120"/>mum patet: quia habitus nunquam requiritur ad eliciendum 
+      <lb ed="#S" n="121"/>actum quantum ad essentium actus: sed solum quantum ad ponen 
+      <lb ed="#S" n="122"/>dum modum: quod patet ex diffinitione potentiae, &amp; 
+       ha<lb ed="#S" break="no" n="123"/>bitus. quia potentia est, qua possumus, habitus vero, quo 
+       be<lb ed="#S" n="124" break="no"/>ne, vel male possumus. 1. Eth. &amp;. 5. Meth. dicitur, quod habi 
+      <lb ed="#S" n="125"/>tus est, quo quis bene, vel male disponitur. Patet etiam per 
+      <lb ed="#S" n="126"/>exemplum. Ad concupiscere enim non requiritur habitus: sed 
+      <lb ed="#S" n="127"/>ad sic concupiscere: puta temperante requiritur habitus 
+       tem<lb ed="#S" n="128" break="no"/>perantiae. sed poenitere solum dicit actum quo ad 
+       substan<lb ed="#S" n="129" break="no"/>tiam actus, &amp; non modum, per quem nos habeamus sic, vel 
+      <lb ed="#S" n="130"/>aliter in dolendo. ergo non requirit aliquem habitum, a quo 
+      <!--0167.xml-->
+      <pb ed="#S" n="167"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>eliciatur. secundum patet sic: quia omnis actus ab electio 
+      <lb ed="#S" n="2"/>ne procedens cadens super debitam materiam cum debitis 
+      <lb ed="#S" n="3"/>circumstantiis potest esse virtuosus: sed poenitere de peccato 
+      <lb ed="#S" n="4"/>commisso potest esse ex electione procedens: &amp; cadit super 
+       de<lb ed="#S" break="no" n="5"/>bitam materiam: quia sicut bonum debite placet, ita malum 
+       debi<lb ed="#S" break="no" n="6"/>te displicet: potest etiam informari debitis circumstantiis: &amp; 
+      <lb ed="#S" n="7"/>prout de ipso loquimur, debite iuformatur: quia detestat 
+      <lb ed="#S" n="8"/>peccatum, vt commissum est in irreuerentiam Dei cum propo 
+      <lb ed="#S" n="9"/>sito confitendi. ergo talis actus potest esse actus virtutis. 
+       Mi<lb ed="#S" break="no" n="10"/>nor patet iam. Maior etiam patet per diffinitionem virtutis 
+      <lb ed="#S" n="11"/>2. Eth. Quia virtus est habitus electiuus immediate con 
+      <lb ed="#S" n="12"/>sistens, prout recta ratio determinabit. Veruntamen non potest 
+      <lb ed="#S" n="13"/>esse primus, &amp; principalis actus alicuius virtutis: quia pri 
+      <lb ed="#S" n="14"/>mus, &amp; principalis actus alicuius virtutis, nunquam praee 
+      <lb ed="#S" n="15"/>xigit actionem vitij in operante virtuose. Actus enim prin 
+      <lb ed="#S" n="16"/>cipalis temperantiae non requirit, quod homo prius 
+       intempera<lb ed="#S" break="no" n="17"/>te egerit: nec actus principalis liberalitatis requirit, quod 
+       ali<lb ed="#S" break="no" n="18"/>quis prius auarus fuerit, &amp; sic de singulis virtutibus. Alio 
+      <lb ed="#S" n="19"/>quin nullus posset esse virtuosus, nisi prius fuerit 
+       vitio<lb ed="#S" break="no" n="20"/>sus: quod non est verum. sed poenitere praesupponit necessa 
+      <lb ed="#S" n="21"/>rio actum vitlosum fuisse in poenitente, est enim de malo 
+      <lb ed="#S" n="22"/>commisso. Quia poenitere non est primus, &amp; principalis 
+       ac<lb ed="#S" break="no" n="23"/>cundum sic patet, quia virtus illa, quae non habet Deum 
+      <lb ed="#S" n="24"/>pro immediato obiecto non est theologica, liset moralis: 
+      <lb ed="#S" n="25"/>si tamen eius obiectum sit de agibili a nobis, sed obiectum imme 
+      <lb ed="#S" n="26"/>diatum poenitentiae non est Deus: sed peccatum operatum a no 
+      <lb ed="#S" n="27"/>bis. ergo poenitentia non est virtus theologica, sed 
+       mora<lb ed="#S" break="no" n="28"/>lis: maior, &amp; minor de se patent. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q44780-d1e303" n="8">
+      <!-- 8 -->Est 
+       ta<lb ed="#S" break="no" n="29"/>men intelligendum, quod cum virtutes morales non habeant 
+      <lb ed="#S" n="30"/>Deum pro immediato fine, sicut nec pro immediato ob 
+      <lb ed="#S" n="31"/>iecto: poenitentia tamen, vt de ipsa loquimur, habet Deum pro 
+      <lb ed="#S" n="32"/>immediato fine. sed oportet, quod hoc insit ei, prout astus 
+      <lb ed="#S" n="33"/>eius imperaturab aliqua virtute theologica. scilicet fide, &amp; spe:
+      <lb ed="#S" n="34"/>
+               <!-- likely line coord error here -->Et sic patet secundum.
+    </p>
+            <p xml:id="khj78y-q44780-d1e324" n="9">
+      <!-- 9 -->Tertium sic patet, quia 
+       om<lb ed="#S" break="no" n="35"/>nis habitus moralis, qui ordinat hominem in ratione 
+       de<lb ed="#S" break="no" n="36"/>biti pertinet ad iustitiam: sed poenitentia, vt est virtus 
+       mo<lb ed="#S" break="no" n="37"/>ralis, est huiusmodi. ergo &amp;c. Maior patet, quia aliae virtutes mo 
+      <lb ed="#S" n="38"/>rales a iustitia non ordinant hominem ad alterum, vt temperan 
+      <lb ed="#S" n="39"/>tia. Liberalitas autem &amp; si ordinat ad alterum: non tamen in ra 
+      <lb ed="#S" n="40"/>tione debiti: quia liberalis non dat ex debito: quia non tene 
+      <lb ed="#S" n="41"/>tur dare ex debito. Ad iustitiam autem pertinet ratio 
+      <lb ed="#S" n="42"/>debiti, vt ipsum nomem sonat. Ideo &amp;c. Minor probatur: 
+      <lb ed="#S" n="43"/>ga quod poenitentia ordinet hominem ad Deum iam probatum 
+      <lb ed="#S" n="44"/>est, sed quod in ratione debiti, probatur, quia homo efficitur 
+      <lb ed="#S" n="45"/>alteri debitor dupliciter. Vno modo per hoc, quod aliquid 
+      <lb ed="#S" n="46"/>voluntarie recipit: sicut in commutationibus voluntariis in 
+      <lb ed="#S" n="47"/>emptione, &amp; venditione. Alio modo per hoc, quod aliquid in 
+      <lb ed="#S" n="48"/>iuste substraxit, sicut in violentis, vt in furto, rapina, &amp; 
+      <lb ed="#S" n="49"/>percussione, &amp; huiusmodi. similiter homo efficit Deo 
+       debi<lb ed="#S" break="no" n="50"/>tor per hoc, quod aliquid ab eo recipit. Et redditio huius 
+       de<lb ed="#S" break="no" n="51"/>biti pertinet ad virtutem latriae, per quam exhibemus Deo 
+      <lb ed="#S" n="52"/>debitum honorem in oblationibus, &amp; sacrificiis, &amp; huiusmodi: 
+      <lb ed="#S" n="53"/>Alio modo per hoc, quod contra Deum peccauit. Et sic 
+       sub<lb ed="#S" break="no" n="54"/>trahit ei debitam reuerentiam, &amp; obedientiam. Et quo ad hoc 
+      <lb ed="#S" n="55"/>reddit homo poenitentiam debitam. Propter quod sicut la: 
+      <lb ed="#S" n="56"/>tria pertinet ad iustitiam, sic &amp; poenitentia, &amp; sic patet 
+       ter<lb ed="#S" break="no" n="57"/>tium.
+    </p>
+            <p xml:id="khj78y-q44780-d1e379" n="10">
+      <!-- 10 -->Ex quo patet, quod poenitentia est 
+       spiritua<lb ed="#S" break="no" n="58"/>lis virtus: quia licet generaliter consideret malum tanquam 
+       obie<lb ed="#S" break="no" n="59"/>ctum: tamen considerat in eo spiritualem rationem: quia commissum 
+      <lb ed="#S" n="60"/>contra obedientiam Deo debitam, vt est expiabilis per satis 
+      <lb ed="#S" n="61"/>fationem, quod non facit alia virtus. Ex quo etiam patet, q 
+      <lb ed="#S" n="62"/>si actus poenitentiae esset solum dolor de peccato commisso 
+      <lb ed="#S" n="63"/>quatenus est contra rationem rectam poenitere non 
+       perti<lb ed="#S" break="no" n="64"/>net ad aliquam specialem virtutem: quia per eundem actum 
+       pla<lb ed="#S" break="no" n="65"/>cet vnicuiq, quod est conueniens, quod displicet, quod est 
+       incon<lb ed="#S" break="no" n="66"/>ueniens. Et cum omnis habitus virtuosus sit concors ra- 
+  <!--    <lb ed="#S"/>possible mis placed line: "test tus alicuius virtutis. Et sic patet primum."-->
+      <!--0167.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="67"/>tioni recte per eum displicet, quicquid discordat a rest 
+      <lb ed="#S" n="68"/>ratione: haec est opinio de verbo ad verbum.
+    </p>
+            <p xml:id="khj78y-q44780-d1e414" n="11">
+      <!-- 11 -->
+       Quan<lb ed="#S" break="no" n="69"/>tum ad secundum inquirendo de praedictis videntur omnia 
+      <lb ed="#S" n="70"/>benedicta praeter sex dubia, quae implicant. Primo, quia 
+      <lb ed="#S" n="71"/>poenitere sensitiuum, siue sit ipsum plangere, vel flere, siue 
+      <lb ed="#S" n="72"/>dolor cordis, licet sit actus non a poena illicitus, quia ipsa est 
+      <lb ed="#S" n="73"/>in voluntate, &amp; nullum actum elicit extra suum subiectum ni 
+      <lb ed="#S" n="74"/>hilominus tamen potest dici actus virtutis poenitentiae simpli 
+      <lb ed="#S" n="75"/>citer: quia est ab ea per se, &amp; non per accidens intentus, &amp; 
+       im<lb ed="#S" break="no" n="76"/>peratus. Et hoc primo patet per simile: quia sicut 
+       genufle<lb ed="#S" break="no" n="77"/>xiones, &amp; huiusmodi sunt actus latriae imperati, &amp; affectio ani 
+      <lb ed="#S" n="78"/>mi interior, quamuis ipsa sit in voluntate, &amp; habeat Dei ho 
+      <lb ed="#S" n="79"/>norem pro formali obiecto, quod non potest virtus sensitiua 
+      <lb ed="#S" n="80"/>apprehendere, &amp; nihilominus dicuntur esse actus latriae sim 
+      <lb ed="#S" n="81"/>pliciter: licet non principal'r, sic licet peccatum, vt est Dei 
+      <lb ed="#S" n="82"/>offensiuum non sit a sensu cognoscibile nihilominus circa 
+      <lb ed="#S" n="83"/>boc potest actus sensitiuus imperari per se, &amp; directe, &amp; per 
+      <lb ed="#S" n="84"/>hoc esse actus virtutis simpliciter. Alias nullus actns ex 
+      <lb ed="#S" n="85"/>terior erit actus virtutis. Item si sua ratio est bona, quod 
+       dole<lb ed="#S" break="no" n="86"/>re sensibile non sit actus virtutis: quia sensus non appre 
+      <lb ed="#S" n="87"/>hendit peccatum, vt est Dei offensiuum: tunc nulla virtus 
+      <lb ed="#S" n="88"/>esset in appetitu sensitiuo: quia virtus est habitus electi 
+      <lb ed="#S" n="89"/>uus immediate consistens, vt recta ratio determinabit: 
+       sen<lb ed="#S" break="no" n="90"/>sus autem apprehendit obiectum: sed non prout est 
+       conue<lb ed="#S" break="no" n="91"/>niens rationi, vel disconueniens: &amp; tamen ordo ad rationem 
+      <lb ed="#S" n="92"/>est formale in virtute: nihilominus tamen est virtus, &amp; actus 
+      <lb ed="#S" n="93"/>virtutis in appetitu sensitiuo, sicut temperantia, &amp; 
+       fortitu<lb ed="#S" break="no" n="94"/>do, &amp; concupiscere temperate, &amp; irasci fortiter, prout recta 
+      <lb ed="#S" n="95"/>ratio dictat: ad quod sufflcit sensum obedire rationi. Nec 
+      <lb ed="#S" n="96"/>oportet sensum obiectum referre ad rationem, imo etiam 
+       vi<lb ed="#S" break="no" n="97"/>deret alicui, quod si sensus obediat rationi dolendo de pecca 
+      <lb ed="#S" n="98"/>to, sicut ratio dictat dolendum etiam propter hoc habitus, 
+      <lb ed="#S" n="99"/>qui in seusu ad hoc generabitur, erit virtutis, vel virtuo 
+      <lb ed="#S" n="100"/>sus. Et sicut habitus detestatiuus luxuriae, vt est quid tur 
+      <lb ed="#S" n="101"/>pe secundum rationem est in sensu: sic habitus penitiuus de 
+      <lb ed="#S" n="102"/>Iuxuria, vt est contra Deum, potest in eo poni: quia non 
+       ma<lb ed="#S" break="no" n="103"/>gis sensus cognoscit peccatum, vt est contra rationem, quae vt est 
+      <lb ed="#S" n="104"/>contra Deum: cum vtrunque sit supra sensum. sed sicut 
+       iu<lb ed="#S" break="no" n="105"/>stitia virtus proprie est in voluntate: sed aliquid 
+       correspon<lb ed="#S" break="no" n="106"/>dens ei est in sensu, sic de poenitentia dici potest. 
+    </p>
+            <p xml:id="khj78y-q44780-d1e501" n="12">
+               <lb ed="#S" n="107"/>
+               <!-- 12 -->Et quod Tho. dicit, quod poenitentiae passio non est 
+      <lb ed="#S" n="108"/>actus virtutis, verum est, sed prout ex electione clicitur, 
+      <lb ed="#S" n="109"/>vel imperatur, &amp; secundum rationem poenitet, est actus 
+       vir<lb ed="#S" break="no" n="110"/>totis.
+    </p>
+            <p xml:id="khj78y-q44780-d1e514" n="13">
+      <!-- 13 -->Quod autem dicit secundo, quod poenitere 
+      <lb ed="#S" n="111"/>prout est displicentia voluntatis potest esse sine habitu, &amp; 
+      <lb ed="#S" n="112"/>hoc verum est de actu virtutis politicae, &amp; acquisitae: imo 
+      <lb ed="#S" n="113"/>etiam de actu virtutis theologicae infusae, sicut credere arti 
+      <lb ed="#S" n="114"/>culos fidei, &amp; sperare, potest esse sine habitu infuso, vt in 
+      <lb ed="#S" n="115"/>haeretico, &amp; etiam sine acquisito. Et non solum poenitere ma 
+      <lb ed="#S" n="116"/>la, sicuti in Iuda, &amp; damnatis: sed etiam poenitere bonum ex 
+      <lb ed="#S" n="117"/>genere, &amp; circumstantiis: sicut patet in attrito, &amp; non 
+       con<lb ed="#S" break="no" n="118"/>trito. Et est eiusdem speciei in genere naturae, quando est sine 
+      <lb ed="#S" n="119"/>habitu, sicut qum est ex habitu, siue poenitentia sit habitus 
+      <lb ed="#S" n="120"/>acquisitus, siue infusus: quamuis differant in genere 
+       mo<lb ed="#S" break="no" n="121"/>ris: sicut actus virtutis acquisitae, &amp; infusae: quia ad alium, 
+      <lb ed="#S" n="122"/>&amp; alium finem, qui praestituuntur ab extra. scilicet a ratione: 
+      <lb ed="#S" n="123"/>sicut iactus lapidis, vel sagittae potest procedere ex diuersis 
+      <lb ed="#S" n="124"/>habitibus: &amp; secundum quod ad diuersos fines ordinatur: quia 
+      <lb ed="#S" n="125"/>erit actus eutropeliae, si ad ludum: iustitiae si ad latronem, 
+      <lb ed="#S" n="126"/>iniustitiae si ad innocentem. Vnde actus exterior, &amp; 
+       appe<lb ed="#S" break="no" n="127"/>titus sensitiuus non differunt in genere naturae, non 
+       so<lb ed="#S" break="no" n="128"/>lum diuersarum virtutum, sed nec virtutis, &amp; vitij. Irasci enim 
+      <lb ed="#S" n="129"/>bene, &amp; male non differunt specie. sed actus elicitus a 
+      <lb ed="#S" n="130"/>voluntate forte differt specie virtutis infusae, &amp; 
+       acquisi<lb ed="#S" break="no" n="131"/>tae: quia ex fine sicut obiecto principali habet actus, ille spe 
+      <lb ed="#S" n="132"/>ciem etiam naturae. Velle enim placere Deo, &amp; velle 
+       obe<lb ed="#S" break="no" n="133"/>dire ratione differunt specie.
+    </p>
+            <p xml:id="khj78y-q44780-d1e569" n="14">
+      <!-- 14 -->Quod autem di- 
+      <!--0168.xml-->
+      <pb ed="#S" n="168"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ctum est actum omnis virtutis posse esse sine habitu, est 
+      <lb ed="#S" n="2"/>dubium de charitate: cuius actus primus, &amp; 
+       principa<lb ed="#S" break="no" n="3"/>lis est diligere Deum super omnia: cum quo non stat mor 
+      <lb ed="#S" n="4"/>talis culpa, quia in illo tota lex impletur: omne autem 
+       mor<lb ed="#S" break="no" n="5"/>tale est contra aliquod praeceptum legis. ergo iste actus non 
+      <lb ed="#S" n="6"/>potest esse sine charitate consequente, quamuis possit esse non 
+      <lb ed="#S" n="7"/>elicitus ab ea, sed disponens ad eam: cum quo simul chari 
+      <lb ed="#S" n="8"/>tas infunditur, sed remissa si remisse diligit, vel intensa 
+      <lb ed="#S" n="9"/>si intense. Et si hoc est verum pari ratione videt, quod 
+       poeni<lb ed="#S" break="no" n="10"/>tere non possit esse sine virtute poenitentiae consequentiae, 
+      <lb ed="#S" n="11"/>vel remisse, vel intense, secundum quod diuersimode 
+       poeni<lb ed="#S" break="no" n="12"/>teat: quia nisi doleat de omnibus peccatis, prout offendit 
+      <lb ed="#S" n="13"/>per ea Deum, &amp; doleat plus, quam de omni alio non est tale 
+      <lb ed="#S" n="14"/>poenitere etiam in genere naturae, quale est illud, quod 
+       poe<lb ed="#S" break="no" n="15"/>nitentia elicit. si autem sic dolet, statim charitas, &amp; omnis 
+      <lb ed="#S" n="16"/>virtus infunditur, quod videtur dubium, &amp; inquisitione 
+       di<lb ed="#S" break="no" n="17"/>gnum.
+    </p>
+            <p xml:id="khj78y-q44780-d1e618" n="15">
+      <!-- 15 -->Quod autem tertio dicit, quod potest esse 
+      <lb ed="#S" n="18"/>ex habitu virtuoso: quia ex electione cum debitis 
+       circun<lb ed="#S" break="no" n="19"/>stantiis super debitam materiam. Contra illud, quod est 
+       ma<lb ed="#S" break="no" n="20"/>lum, inquantum malum non potest esse debita materia 
+       alicu<lb ed="#S" break="no" n="21"/>ius: sed peccatum inquantum est contra Deum est malum, &amp; in 
+      <lb ed="#S" n="22"/>debitum. ergo non est debita materia, sed indebita. 
+    </p>
+            <p xml:id="khj78y-q44780-d1e634" n="16">
+               <lb ed="#S" n="23"/>
+               <!-- 16 -->Dicendum, quod debitum, &amp; indebitum in materia 
+      <lb ed="#S" n="24"/>morali non dicuntur absolute, sed in relatione ad rationem. 
+      <lb ed="#S" n="25"/>Et quia per idem aliquid mouetur ad aliquid, &amp; ab eius 
+       op<lb ed="#S" break="no" n="26"/>posito cum bonum, &amp; malum sint opposita bonum, &amp; malum, 
+      <lb ed="#S" n="27"/>sunt debita materia voluntatis differenter: quia voluntas 
+       de<lb ed="#S" break="no" n="28"/>bet declinare malum, &amp; eligere bonum. Vnde bonum inquan 
+      <lb ed="#S" n="29"/>tum huiusmodi est debita materia voluntatis ad eligen 
+      <lb ed="#S" n="30"/>dum, &amp; indebita ad respuendum. Econtra est de malo. 
+      <lb ed="#S" n="31"/>Vnde peccatum est debita materia ad respuendum, &amp; 
+       dete<lb ed="#S" break="no" n="32"/>standum, sed indebita ad eligendum. Vnde actus detestans 
+      <lb ed="#S" n="33"/>peccatum cadit super debitam materiam respectu talis actus: 
+      <lb ed="#S" n="34"/>quae in se est mala respectu actus electionis, &amp; in se bona 
+      <lb ed="#S" n="35"/>respectu actus detestationis. Et secundum quod est de se 
+       ma<lb ed="#S" break="no" n="36"/>la non potestesse bona, nececonuerso.
+    </p>
+            <p xml:id="khj78y-q44780-d1e669" n="17">
+      <!-- 17 -->Quod 
+      <lb ed="#S" n="37"/>autem quarto dicit, quod non potest esse primus, &amp; principalis 
+      <lb ed="#S" n="38"/>actus virtutis: quia virtus non praesupponit vitium. 
+       Con<lb ed="#S" break="no" n="39"/>tra, quia si omnis actus ex electione procedens congruens 
+      <lb ed="#S" n="40"/>rationi, cui conuenit propria diffinitio actus virtuosi potest 
+      <lb ed="#S" n="41"/>esse primus, &amp; proprius virtutis: cum iste sit huiusmodi. ergo 
+      <lb ed="#S" n="42"/>&amp;c. Formale enim in virtute est, quod eius actus sit 
+       imme<lb ed="#S" break="no" n="43"/>diate consistens: prout recta ratio determinauit. Vnde cir 
+      <lb ed="#S" n="44"/>ea quodcumque hoc sit, illud virtuosum erit. Potest enim 
+       vir<lb ed="#S" break="no" n="45"/>tuosus rationabiliter se habere circa malum naturae, sicut 
+      <lb ed="#S" n="46"/>circa bonum naturae. Et virtuosior est actus, quem 
+       ha<lb ed="#S" break="no" n="47"/>bet circa mala, quam quae habet circa bona: puta non 
+       time<lb ed="#S" break="no" n="48"/>re mortem, quam concupiscere ordinate, &amp; huiusmodi. Et similiter 
+      <lb ed="#S" n="49"/>circa malum moris detestando potest se habere aeque virtuose: 
+      <lb ed="#S" n="50"/>sicut circa bonum moris prosequendo. si ergo detestari 
+       vi<lb ed="#S" break="no" n="51"/>tium est virtuosum, sicut amare bonum, &amp; plus debet 
+       ho<lb ed="#S" break="no" n="52"/>mo detestari suum vitium, quam alienum: igitur potest esse 
+       pri<lb ed="#S" break="no" n="53"/>mus, &amp; principalis actus alicuius virtutis.
+    </p>
+            <p xml:id="khj78y-q44780-d1e711" n="18">
+      <!-- 18 -->Et 
+      <lb ed="#S" n="54"/>quando dicitur, quod virtus non praesupponit vitium: dicendum, quod 
+      <lb ed="#S" n="55"/>non est verum de omni virtute, quia si omnis actus bonus, 
+      <lb ed="#S" n="56"/>qui habet specialem difficultatem, requirit specialem virtutem 
+      <lb ed="#S" n="57"/>detestari peccatum ad expiationem, quod est bonum: &amp; habet 
+      <lb ed="#S" n="58"/>difficultatem distinctam ab aliis, debet habere specialem 
+       vir<lb ed="#S" break="no" n="59"/>tutem. Vittus enim subuenit homini secundum quemcunque 
+      <lb ed="#S" n="60"/>statum: ita vt si a virtute cecidit, possit virtutem recupera 
+      <lb ed="#S" n="61"/>re: &amp; id, quod perdidit per peccatum. ergo licet non omnis 
+      <lb ed="#S" n="62"/>virtus supponat in virtuoso vitium: tamen illa virtus, quae per 
+      <lb ed="#S" n="63"/>ficit hominem specialiter contra defectum vitij praecedentis 
+      <lb ed="#S" n="64"/>supponit illum: ita vt sit aliqua virtus supponens vitium 
+      <lb ed="#S" n="65"/>nunquum fuisse: sicut virginitas quaedam supponens fuisse, 
+      <lb ed="#S" n="66"/>sicut poenitentia quaedam, cui hoc accidit, sicut aliae coniter. 
+    </p>
+            <p xml:id="khj78y-q44780-d1e744" n="19">
+               <lb ed="#S" n="67"/>
+               <!-- 19 -->Quod autem quinto dicit, quod est virtus motalis 
+      <!--0168.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>non theologici: excedens tamen, vt latria habens Deum pro 
+      <lb ed="#S" n="69"/>fine immediato: sed pro obiecto aliquid agibile a nobis 
+      <lb ed="#S" n="70"/>verum est: nisi quod magis proprie videretur dicendum, quod 
+       ha<lb ed="#S" break="no" n="71"/>bet pro obiecto non agibile a nobis: sed quod actum est a 
+       no<lb ed="#S" break="no" n="72"/>bis male, vel quod agi debuit, &amp; est omissum. Peccatum 
+      <lb ed="#S" n="73"/>enim actuale omissionis, vel commissionis est eius propria 
+      <lb ed="#S" n="74"/>materia, &amp; obiectum.
+    </p>
+            <p xml:id="khj78y-q44780-d1e770" n="20">
+      <!-- 20 -->Et verum dicit, quod a virtute 
+      <lb ed="#S" n="75"/>theologica ad istum finem imperatur: quia nihil proponis 
+      <lb ed="#S" n="76"/>alicui, vt finis nisi ab habitu, cuius illud est obiectum. 
+      <lb ed="#S" n="77"/>Potest tamen esse actus poenitendi sine habitu virtutis fidei, 
+      <lb ed="#S" n="78"/>spei, &amp; charitatis: si verum est, quod ipse dicit, quod potest esse, &amp; 
+      <lb ed="#S" n="79"/>sine habitu proprio: a quo magis tamen dependet, quam ab alio. 
+      <lb ed="#S" n="80"/>Item potest esse non solum infusa, sed etiam acquisita, sicut 
+       cae<lb ed="#S" break="no" n="81"/>terae morales. sed ad eius acquisitionem magis requiritur 
+      <lb ed="#S" n="82"/>fides, vel actus fidei, quam aliarum: quia finis immediatus est 
+      <lb ed="#S" n="83"/>est Deus cognitus supernaturaliter. Non enim cognitio 
+      <lb ed="#S" n="84"/>naturalis docet Deum sic placari ad euadendum gehen 
+      <lb ed="#S" n="85"/>nam, &amp; ad habendum gloriam.
+    </p>
+            <p xml:id="khj78y-q44780-d1e800" n="21">
+      <!-- 21 -->Item quando dicit, quod 
+      <lb ed="#S" n="86"/>eius finis immediatus est Deus, intelligitur de fine cuius, 
+      <lb ed="#S" n="87"/>non de fine, quo vel Deus non secundum se: sed secundum 
+      <lb ed="#S" n="88"/>quod placandus, vel Dei placatio, vel reconciliatio est eiusfi 
+      <lb ed="#S" n="89"/>nis proprius, &amp; non Deus, prout est in se. potest addi etiam ad il 
+      <lb ed="#S" n="90"/>lud, quod dictum est in. 4. arti. quod licet actus poenitentiae sup 
+      <lb ed="#S" n="91"/>ponat actum vitij: tamen habitus eius si sit infusus, non 
+       sup<lb ed="#S" break="no" n="92"/>ponit, quia in baptismo infundir: vt homo sit paratus 
+       poe<lb ed="#S" break="no" n="93"/>nitere, si vnquam inueniat se Deum offendisse. Et sic est 
+      <lb ed="#S" n="94"/>etiam in innocentibus.
+    </p>
+            <p xml:id="khj78y-q44780-d1e824" n="22">
+      <!-- 22 -->Quod autem sexto dicit, 
+      <lb ed="#S" n="95"/>&amp; bene, quod poenitentia est spiritualis virtus, videtur 
+       contra<lb ed="#S" break="no" n="96"/>dicere ei quod dixit, quod poenitere non potest esse primus, &amp; 
+      <lb ed="#S" n="97"/>principalis actus alicuius virtutis: quia omnis virtus 
+       spe<lb ed="#S" break="no" n="98"/>cialis habet aliquem actum primum, &amp; principalem, a quo 
+      <lb ed="#S" n="99"/>specificatur, &amp; propter quem est principaliter. Non est autem 
+      <lb ed="#S" n="100"/>dare alium actum poenitentiae primum, &amp; principalem, quae poeni 
+      <lb ed="#S" n="101"/>tere, sicut ipsum nomen sonat, sicut &amp; iustitiae iustae 
+       age<lb ed="#S" break="no" n="102"/>re: &amp; temperantiae temperatae, &amp; sic de aliis. ergo in hoc con 
+      <lb ed="#S" n="103"/>tradicit ei, quod dixerat in. 4ar. Ad argumentum dicendum, quod 
+       vir<lb ed="#S" break="no" n="104"/>tus est de bono formaliter, &amp; finaliter, licet possit esse de 
+      <lb ed="#S" n="105"/>malo materialiter, quia actus eius est bonus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

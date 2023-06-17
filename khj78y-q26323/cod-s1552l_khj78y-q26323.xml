@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="114"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q26323"><!-- l4d9-q1 -->
+            <head xml:id="khj78y-q26323-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-q26323-Hd1e103" type="question-title">
+     utrum peccator sumat corpus Christi
+   </head>
+            <p xml:id="khj78y-q26323-d1e106">
+               <lb ed="#S" n="58"/>DIsTINCTIO. 9. QVAESTIO I. 
+      <lb ed="#S" n="59"/>CIrca distinctionem nonam quaeruntur quatuor. 
+       Pri<lb ed="#S" break="no" n="60"/>mo, vtrum peccator possit sumere corpus Christi. 
+      <lb ed="#S" n="61"/>secundo, vtrum debeat. Tertio vtrum pollutio 
+       impe<lb ed="#S" break="no" n="62"/>diat. Quarto, vtrum peccatori sit neganda communio. 
+    </p>
+            <p xml:id="khj78y-q26323-d1e119">
+               <lb ed="#S" n="63"/>De peccatore summente corpus Christi.
+    </p>
+            <p xml:id="khj78y-q26323-d1e124">
+      <!--0114.xml-->
+               <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>Thom. 3. part. q. so. 
+    </p>
+            <p xml:id="khj78y-q26323-d1e134">
+               <lb ed="#S" n="65"/>PRIMO Ergo quaeritur, vtrum 
+      <lb ed="#S" n="66"/>peccator sumat corpus Christi. 
+      <lb ed="#S" n="67"/>Et vider, quod non: quia plus potest 
+       an<lb ed="#S" break="no" n="68"/>gelus bonus, vel malus, quae 
+       pecca<lb ed="#S" break="no" n="69"/>tor: sed nullus angelus etiam in 
+      <lb ed="#S" n="70"/>corpore assumpto potest 
+       mandu<lb ed="#S" break="no" n="71"/>care. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q26323-d1e152" n="2">
+      <!-- 2 -->CON 
+      <lb ed="#S" n="72"/>TRA. Non minus potest 
+       pecca<lb ed="#S" break="no" n="73"/>tor, quam brutum. sed mus quandoque ipsum comedit. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q26323-d1e161" n="3">
+               <lb ed="#S" n="74"/>
+               <!--3--> RESPONDEO. Circa istam quaestionem suus 
+      <lb ed="#S" n="75"/>tria videnda. Primo, de diuersis modis sumendi. secundo, 
+      <lb ed="#S" n="76"/>de creatura rationali, quomodo sumit corpus Christi. 
+      <lb ed="#S" n="77"/>Tertio, de creatura irrationali.
+    </p>
+            <p xml:id="khj78y-q26323-d1e174" n="4">
+      <!-- 4 -->CIRCA 
+       pri<lb ed="#S" break="no" n="78"/>mum sunt tres conclusiones. Prima, quod conuenienter 
+       su<lb ed="#S" break="no" n="79"/>mitur per modum manducationis: extra de sum. Trinice. 1. 
+      <lb ed="#S" n="80"/>6. pen. In misterium vnitatis: vt sumamus ipsi de suo, quod 
+      <lb ed="#S" n="81"/>accepit ipse de nostro. Non possumus autem magis 
+       sume<lb ed="#S" break="no" n="82"/>re corpus, quod a nobis sumpsit, quae per manducationem 
+      <lb ed="#S" n="83"/>per quam fit vnum ex manducande, &amp; manducato. Differēter 
+      <lb ed="#S" n="84"/>tamen in cibo, qui assumit ad cibatum, &amp; in isto, quod ad se su 
+      <lb ed="#S" n="85"/>mit: quia spiritualia continent ea, in qnibus sunt: sicut anima 
+      <lb ed="#S" n="86"/>corpus, vt dicitur in fi. primi de anima: vt ea recedente, 
+      <lb ed="#S" n="87"/>marcescat corpus: quia sicut soluto dolio funditur vinum, sic 
+      <lb ed="#S" n="88"/>cadauer redigitur in puluerem. Et ideo dictum est Aug. Nec 
+      <lb ed="#S" n="89"/>tu me mutabis in te, sicut cibum carnis tuae, sed tu 
+       muta<lb ed="#S" break="no" n="90"/>beris in me.
+    </p>
+            <p xml:id="khj78y-q26323-d1e207" n="5">
+      <!-- 5 -->secunda conclusio est, quod est duplex 
+      <lb ed="#S" n="91"/>modus manducandi. scilicet spiritualiter, &amp; sacramentaliter: de conse. dist. 
+      <lb ed="#S" n="92"/>2. c. quia passus. &amp;. c. Qui manducat. cum multis aliis. Vnde 
+      <lb ed="#S" n="93"/>aliquis manducans sacramentaliter, &amp; spiritualiter, vt in fide, &amp; 
+      <lb ed="#S" n="94"/>charitate communicans: alius neutro modo, nec sacramentaliter, 
+      <lb ed="#S" n="95"/>nec spiritualiter: sicut peccator non communicans: tertius 
+       sa<lb ed="#S" break="no" n="96"/>cramentaliter non spiritualiter, sicut peccator fidelis 
+       communi<lb ed="#S" break="no" n="97"/>cans: quartus spiritualiter, &amp; non sacramentaliter, vt iustus non 
+      <lb ed="#S" n="98"/>communicans.  sed si habet actu deuotionem ad sacramentum, vt de 
+      <lb ed="#S" n="99"/>uote audiens missam tunc magis: si autem desideret 
+       commu<lb ed="#S" break="no" n="100"/>nicare, aut celebrare, nec possit: tunc maxime. 
+    </p>
+            <p xml:id="khj78y-q26323-d1e233" n="6">
+               <lb ed="#S" n="101"/>
+               <!--6--> Tertia conclusio est, an manducatio sacramentis sit de 
+       ne<lb ed="#S" break="no" n="102"/>cessitate salutis. Dicunt Iuristae, q cum sint septem sacramenta his 
+      <lb ed="#S" n="103"/>vercibus contenta. 
+      <lb ed="#S" n="104"/>Ordinat, &amp; iungit, baptizat, chrismat, &amp; vngit. 
+      <lb ed="#S" n="105"/>Peccatum plangit, in altari sacra tangit. 
+      <lb ed="#S" n="106"/>Duo sunt voluntatis. scilicet ordo, &amp; matrimonium. Alia quinque 
+      <lb ed="#S" n="107"/>sunt necessitatis. Vnde versus. 
+      <lb ed="#S" n="108"/>Ordo voluntatis iungit dant quinque necesse. 
+      <lb ed="#S" n="109"/>Ita notat Glo. de conse. c. Veniens. &amp;. 1. q. 1. 6. sed 
+       notan<lb ed="#S" break="no" n="110"/>dum. Teologi autem communiter dicunt oppositum. scilicet quod sunt 
+      <lb ed="#S" n="111"/>duo necessitatis. scilicet baptismus, &amp; poenitentia: &amp; alia quinque 
+      <lb ed="#S" n="112"/>sunt voluntatis, nisi eucharistia, quae propter praeceptum con 
+      <lb ed="#S" n="113"/>cilij de poe. &amp; remis. c. Omnis. est de necessitate semel in 
+      <lb ed="#S" n="114"/>anno. Quod autem dicitur. Nisi manducaueritis: intelligunt 
+      <lb ed="#S" n="115"/>de spirituali manducatione, vel de illo, qui paruipendit, &amp; 
+      <lb ed="#S" n="116"/>contendit.
+    </p>
+            <p xml:id="khj78y-q26323-d1e273" n="7">
+      <!-- 7 -->Quidam vero satis probabiliter dicunt, quod 
+      <lb ed="#S" n="117"/>omnia sunt necessitatis aliquo modo, vel alicui. Dicunt 
+      <lb ed="#S" n="118"/>enim, quod sacramentum esse necessarium ad salutem potest intelligi 
+      <lb ed="#S" n="119"/>dupliciter. Vno modo ratione sui. Alio modo ratione prae 
+      <lb ed="#S" n="120"/>cepti: ratione sui quando effectus eius est necessarius ad salu 
+      <lb ed="#S" n="121"/>tem. Et sic dicendum est, quod sacramentorum quaedam sunt de neces 
+      <lb ed="#S" n="122"/>sitate salutis quantum ad communitatem: ita. scilicet quod ab aliquibus 
+      <lb ed="#S" n="123"/>vel aliquo sumantnr, non autem a qualibet persona. Et ta 
+      <lb ed="#S" n="124"/>lia sunt ordo, &amp; matrimonium: quod patet, quia effectus cuius 
+      <lb ed="#S" n="125"/>libet istorum necessarius est communitati. Nam sine ordine 
+      <lb ed="#S" n="126"/>non esset, qui ministraret sacramenta communitati, quae sunt de 
+      <lb ed="#S" n="127"/>necessitate salutis, saltem sacramentum poenitentiae quo ad lapsos 
+      <lb ed="#S" n="128"/>in peccato mortali. sine matrimonio etiam non maneres 
+      <lb ed="#S" n="129"/>cultus diuinus deficientibus fidelibus. Quia tamen pro con- 
+      <!--0115.xml-->
+      <pb ed="#S" n="115"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>munitate ad hos actus sufficiunt aliqui. ideo non quae 
+      <lb ed="#S" n="2"/>libet persona ad hoc obligat, nisi in casu, vbi tota commu 
+      <lb ed="#S" n="3"/>nitas deficeret, nisi persona suppleret.
+    </p>
+            <p xml:id="khj78y-q26323-d1e319" n="8">
+      <!-- 8 -->Alia 
+       sa<lb ed="#S" break="no" n="4"/>cra sunt necessitatis, quae respiciunt personam quamlibet, 
+       si<lb ed="#S" break="no" n="5"/>cut baptismus, quo ad omnes: poenitentia quo ad lapsos: 
+      <lb ed="#S" n="6"/>Ratio est: quia illa sacramenta sunt de necessitate salutis quo ad 
+      <lb ed="#S" n="7"/>omnem personam, quae ordinantur ad tollendum defectum 
+       incon<lb ed="#S" n="8" break="no"/>possibilem saluti: baptismus, &amp; poenitentia sunt huiusmodi: 
+       ba<lb ed="#S" break="no" n="9"/>ptismus quo ad omnes quantum ad peccatum originale: quia 
+      <lb ed="#S" n="10"/>omnes nascimur filij irae. Ephe. 2. poenitentia quo ad mor 
+      <lb ed="#S" n="11"/>tale tollendum, quo ad lapsos: vtrumque est incompossibile 
+       sa<lb ed="#S" break="no" n="12"/>luti. ergo ista sunt de necessitate salutis: vt. s.actu 
+       susci<lb ed="#S" break="no" n="13"/>piantur, vel voto: si articulus necessitatis susceptionem 
+      <lb ed="#S" n="14"/>actualem impediat.
+    </p>
+            <p xml:id="khj78y-q26323-d1e348" n="9">
+      <!-- 9 -->Alia sacramenta sunt de 
+       necessita<lb ed="#S" break="no" n="15"/>te salutis ratione praecepti. scilicet eucharistia, &amp; extrema 
+       vn<lb ed="#S" break="no" n="16"/>ctio: primo quidem ratione praecepti diuini: quia cum 
+       sacra<lb ed="#S" break="no" n="17"/>menta sint instituta propter salutem viatorum hominum, non vi 
+      <lb ed="#S" n="18"/>detur, quod absque contemptu viator poss it totaliter contem
+       ne<lb ed="#S" break="no" n="19"/>re habita copia ministri ea conferre valentis, &amp; volentis. Vn 
+      <lb ed="#S" n="20"/>de qui talia non recipit. scilicet eucharistiam, &amp; extremam vnctio 
+      <lb ed="#S" n="21"/>nem, quando probabiliter imminet ei exitus de statu viatoris, 
+      <lb ed="#S" n="22"/>&amp; qqlesiae militantis vider contemnere praeceptum diuinum. 
+      <lb ed="#S" n="23"/>Et propter hoc dictum fuit superius dist. 7. quod confirmatio 
+      <lb ed="#S" n="24"/>est de necessitate salutis, quando imminet casus confitendi fidem 
+      <lb ed="#S" n="25"/>coram persequutore: quia tunc non recipit sacramentum 
+       confirmatio<lb ed="#S" break="no" n="26"/>nis nondum receptum habita oportunitate conferentis cum pro 
+      <lb ed="#S" n="27"/>tunc indiguerit effectu eius, videtur esse contemptor sacri 
+      <lb ed="#S" n="28"/>quod est contrarium saluti. Patet ergo, quod eucharistia non 
+      <lb ed="#S" n="29"/>est de necessitate salutis ratione sui, quasi cius effectus 
+      <lb ed="#S" n="30"/>sit necessarius ad salutem: cum eius effectus sit confirmatio in 
+      <lb ed="#S" n="31"/>bono, &amp; in gratia, quod pertinet ad perfectionem magis, quae 
+      <lb ed="#S" n="32"/>ad necessitatem. Est tamen de necessitate salutis ratione 
+       prae<lb ed="#S" break="no" n="33"/>cepti diuini: item ratione praecepti ecclesiae, quae statuit, quod 
+      <lb ed="#S" n="34"/>semel in anno sumatur. scilicet in Paschate: extra de poe. &amp; remis. 
+      <lb ed="#S" n="35"/>Omnis vtriusque sexus.
+    </p>
+            <p xml:id="khj78y-q26323-d1e398" n="10">
+      <!-- 10 -->Haec positio videt 
+       pro<lb ed="#S" break="no" n="36"/>babilis in hoc, quod dicit, quod ordo, &amp; matrimonium 
+       ratio<lb ed="#S" break="no" n="37"/>ne sui sunt necessaria communitati: quia sine ordine non 
+       po<lb ed="#S" break="no" n="38"/>test poenitentia, quae necessario est perfecte ministrari: nec 
+      <lb ed="#S" n="39"/>fine matrimonio numerus electorum potest debite 
+       comple<lb ed="#S" break="no" n="40"/>ri, &amp; sic sunt necessaria communitati: sed non singulari per 
+      <lb ed="#S" n="41"/>sonae, nisi constaret ei, quod sine ea contra te, vel ordinem fusci 
+      <lb ed="#S" n="42"/>piente non posset nomerus electorum compleri. Tunc enim 
+      <lb ed="#S" n="43"/>teneretur vnusquisque : quia eadem ratione, qua in principio 
+      <lb ed="#S" n="44"/>generis humani praeceptum illud ligabat. Crescite, &amp; mul 
+      <lb ed="#S" n="45"/>tiplicamini. etiam post diluuium, &amp; quilibet primogenitus 
+      <lb ed="#S" n="46"/>tenebatur esse sacerdos forte fortiori ratione nunc 
+       tenere<lb ed="#S" break="no" n="47"/>tur ille, sine quo hic fieri non possent, si certum esset. 
+       Ratio<lb ed="#S" break="no" n="48"/>ne sui sunt necessaria singulis: baptismus quo ad om̃es: 
+      <lb ed="#S" n="49"/>poenitentia quo ad lapsos in mortale post baptismum. Et si 
+      <lb ed="#S" n="50"/>cut post concilium. Omnis vtriusque. non sufficit semel 
+       an<lb ed="#S" break="no" n="51"/>te mortem confiteri, ad quod solum obligat illud diuinum 
+       prae<lb ed="#S" break="no" n="52"/>ceptum: Confitemini alterutrum peccata vera. Iaco. vlt. sed 
+      <lb ed="#S" n="53"/>oportet semel in anno: sic post statutum de duobus 
+       tempo<lb ed="#S" break="no" n="54"/>ribus baptismi. scilicet in Pascha, &amp; Penthe. non licuit vltram 
+       dif<lb ed="#S" n="55" break="no"/>ferre:nisi ex causa, quamuis prius sufficeret semel in vita.
+    </p>
+            <p xml:id="khj78y-q26323-d1e446" n="11">
+               <lb ed="#S" n="56"/>
+               <!--11. -->Reliqua autem tria sunt necessaria non ratione 
+      <lb ed="#S" n="57"/>fui cum ad salutem sufficiat gratia, quae potest haberi non 
+       ob<lb ed="#S" break="no" n="58"/>stante originali per baptismum, nec obstante actuali per 
+       poe<lb ed="#S" break="no" n="59"/>nitentiam, sed ratione praecepti.
+    </p>
+            <p xml:id="khj78y-q26323-d1e459" n="12">
+      <!-- 12 -->Hoc autem non 
+      <lb ed="#S" n="60"/>propter rationem istius positionis, quae est, quod ea, quae sunt 
+       in<lb ed="#S" break="no" n="61"/>stituta a Deo pro salute viatorum sunt necessario sumenda 
+      <lb ed="#S" n="62"/>in vita. Nam si haec ratio esset bona, tunc homo teneret 
+      <lb ed="#S" n="63"/>ordinari, &amp; contrahere matrimonium: cum haec duo sacramenta 
+      <lb ed="#S" n="64"/>sint proptet salutem viatorum instituta non solum communicati: 
+      <lb ed="#S" n="65"/>sed cuilibet singulari, qui non esset debite in vita sine ma 
+      <lb ed="#S" n="66"/>trimonio parentum: nec haberet debite sacramenta salutis nisi 
+      <lb ed="#S" n="67"/>ab ordinato.
+    </p>
+            <p xml:id="khj78y-q26323-d1e482" n="13">
+      <!-- 13 -->si dicat, quod sunt pro salute viato 
+      <!--0115.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>rum, non sicut a quolibet suscipienda: sed a quibusdam tunc 
+      <lb ed="#S" n="69"/>est petitio principij, quod haec magis sint pro singulis. quam illa. 
+    </p>
+            <p xml:id="khj78y-q26323-d1e495" n="14">
+               <lb ed="#S" n="70"/>
+               <!-- 14 -->Praeterea consilia sunt a Deo data pro salute 
+       via<lb ed="#S" break="no" n="71"/>torum: nullus autem tenetur ea implere nisi velit. Vnde eadem 
+      <lb ed="#S" n="72"/>conclu sio aliter probatur dupliciter. Primo, quia dicit in 
+      <lb ed="#S" n="73"/>Decreto. dist. 2. In rebus, in quibus nihil certi diuina lex 
+      <lb ed="#S" n="74"/>statuit, considerandum est quid mos populi habeat, &amp; 
+       si<lb ed="#S" break="no" n="75"/>cut praeuaricatores diuinarum legum sic transgressores ec 
+      <lb ed="#S" n="76"/>clesiasticarum consuetudinum coercendi sunt. sed 
+       ecclesiasti<lb ed="#S" break="no" n="77"/>ca consuetudo est aegris dare viaticum, &amp; extremam 
+       vnctio<lb ed="#S" break="no" n="78"/>nem aliter, nisi peterent, non reputarentur boni Christiani. 
+      <lb ed="#S" n="79"/>ergo &amp;c. Et per accidens possent haec esse necessaria 
+       attri<lb ed="#S" break="no" n="80"/>butio, non contrito, non valenti confiteri, &amp; potenti communica 
+      <lb ed="#S" n="81"/>re, &amp; inunge, vel confirmari: virtute quorum sacrorum de 
+      <lb ed="#S" n="82"/>attrito fit contritus: quia ex quo fictus non est, gratia sibi 
+       in<lb ed="#S" break="no" n="83"/>funditur. Vnde si non potens loqui, habet mortale, dum 
+       mo<lb ed="#S" break="no" n="84"/>ritur: quia nescit se contritum, exponit se periculo, nisi 
+       com<lb ed="#S" break="no" n="85"/>municet, &amp; inungat. Vnde propter peccatam per negligentiam 
+      <lb ed="#S" n="86"/>oblita delenda, debet vtrunq, suscipere/
+    </p>
+            <p xml:id="khj78y-q26323-d1e537" n="15">
+      <!-- 15 -->
+       secun<lb ed="#S" break="no" n="87"/>da ratio est, quia cum sit eadem ratio de istis tribus videt, 
+      <lb ed="#S" n="88"/>quod eucharistia sit in praecepto diuino, &amp; per consequens 
+      <lb ed="#S" n="89"/>alia. De eucharistia patet, quod Papa non potest illam rem, que per 
+      <lb ed="#S" n="90"/>diuinam ordinationem cadit sub consilio tantum: ponere gene 
+      <lb ed="#S" n="91"/>raliter, &amp; vniuersaliter sub praecepto: puta praecipere, quod omnes 
+      <lb ed="#S" n="92"/>teneantur ad virginitatem, &amp; ad voluntariam paupertatem, &amp; 
+      <lb ed="#S" n="93"/>obedientiam, &amp; huiusmodi. sed ipse potest praeceptum diuinum sine 
+      <lb ed="#S" n="94"/>tempore datum determinare quo ad tempus: vt patet in 
+       con<lb ed="#S" break="no" n="95"/>fessione annua. Vnde cum potuerit praecipere 
+       communio<lb ed="#S" break="no" n="96"/>nem in Paschate. ergo illa erat in praecepto: sed tempus in 
+      <lb ed="#S" n="97"/>consilio, quod deteeminare potuit, licet alicui videretur, quod 
+      <lb ed="#S" n="98"/>qua ratione non potest ponere in praecepto substantiam 
+       fa<lb ed="#S" break="no" n="99"/>cti, quae est in consilio pari ratione, nec tempus: maxime: quia 
+      <lb ed="#S" n="100"/>obligat ad aliquid pluries faciendum, ad quod homo non 
+      <lb ed="#S" n="101"/>nisi semel tenebatur: tum etiam quia pari ratione posset 
+       obli<lb ed="#S" break="no" n="102"/>gari ad confitendum omni anno quodlibet mortale 
+       com<lb ed="#S" break="no" n="103"/>missum, ad quod confitendum homo non tenet, nisi semel: quod 
+      <lb ed="#S" n="104"/>tamen multi negarent. scilicet Papam posse obligare hominem ad 
+       plu<lb ed="#S" break="no" n="105"/>ries confitendum idem peccatum.
+    </p>
+            <p xml:id="khj78y-q26323-d1e583" n="16">
+      <!-- 16 -->Vtrum autem ille, 
+      <lb ed="#S" n="106"/>qui communicauit in Paschate, si illo anno moriturus sit, 
+      <lb ed="#S" n="107"/>teneatur tunc iterum communicare? videt quod non, quia a 
+       praece<lb ed="#S" break="no" n="108"/>pto diuino liberatus est semel in vita communicando, sicut 
+      <lb ed="#S" n="109"/>semel confitendo. Item a praecepto ecclesiae communicando in 
+      <lb ed="#S" n="110"/>Paschate illo anno. sicut ergo non tenetur iterum confiteri: 
+      <lb ed="#S" n="111"/>ita nec communicare, vt videt.
+    </p>
+            <p xml:id="khj78y-q26323-d1e601" n="17">
+      <!-- 17 -->Quod satis est 
+      <lb ed="#S" n="112"/>rationabile, si non distat multum a communione: pnta, quia 
+      <lb ed="#S" n="113"/>eadem hebdomada, vel quindena aegrotat, qua communica 
+      <lb ed="#S" n="114"/>uit. sed si diu est, quod non communicauit maxime si 
+       commu<lb ed="#S" break="no" n="115"/>nicando non congitabat se aquitare a praecepto diuinor 
+      <lb ed="#S" n="116"/>fed tantum a positiuo, vel etiam si cogitabat: tamen propter 
+       ge<lb ed="#S" break="no" n="117"/>neralem consuetudinem Christianorum morientium, qui 
+       viati<lb ed="#S" break="no" n="118"/>cum petunt, tenetur petere. Et similiter si in alia infirmi 
+      <lb ed="#S" n="119"/>tate diu est, &amp; inunctus fuit nihilominus in noua 
+       infir<lb ed="#S" break="no" n="120"/>mitate diu, &amp; postea superueniente debet iterum inungi- 
+    </p>
+            <p xml:id="khj78y-q26323-d1e625" n="18">
+               <lb ed="#S" n="121"/>
+               <!-- 18 -->CIRCAsecundum sunt tres conclusiones. Prima 
+      <lb ed="#S" n="122"/>quod peccator sumit corpus Christi vere, &amp; sacramentaliter 
+      <lb ed="#S" n="123"/>se habet fide: vel saltem id, quod res est, &amp; sacramentum. i. corpus 
+      <lb ed="#S" n="124"/>Christi verum: siue habeat fidem, siue non. Et quod dicit 
+      <lb ed="#S" n="125"/>glo. de consec. d. a. c. Tribus. quod quam cito species dentibus te 
+      <lb ed="#S" n="126"/>runtur, in coelum rapitur: licet dicat esse certum: est tamen haereti 
+      <lb ed="#S" n="127"/>cum, &amp; sibiipsi contradicit: quia prius reprehendit illos, qui 
+      <lb ed="#S" n="128"/>dicunt, quod non transit corpus Christi ad stomachum: quia 
+       di<lb ed="#S" break="no" n="129"/>citur ea. dist. c. si quis per ebrietatem. quod qui eucharistiam 
+      <lb ed="#S" n="130"/>euomuerit poeniteat sic, vel sic. Non potest autem 
+       eucha<lb ed="#S" break="no" n="131"/>ristia euomi, &amp; a stomacho reiici nisi in stomachum fit 
+      <lb ed="#S" n="132"/>traiecta. Quandia enim maneret substantia panis, si esset: 
+      <lb ed="#S" n="133"/>tandiu manet corpus Christi succedens, &amp; quandiu 
+       ma<lb ed="#S" break="no" n="134"/>neret substantia vini: tandiu manet sanguis. Quia etiam 
+      <!--0116.xml-->
+      <pb ed="#S" n="116"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>dicit glo. quod in secessum non emittitur, sed per sudorem, 
+      <lb ed="#S" n="2"/>vel aliter emanat: etiam fatuum est fingere: quia per secessum 
+      <lb ed="#S" n="3"/>taliter emittunt species, sicut emitteretur substantia panis, 
+      <lb ed="#S" n="4"/>vel vini non aliiter. Haec autem quandoque non corrupta emittun 
+      <lb ed="#S" n="5"/>tur, vt in habentibus fluxum. ergo &amp; spens. Propter quod non 
+      <lb ed="#S" n="6"/>esset danda eucharistia habenti talem fluxum: quod integrum emit 
+      <lb ed="#S" n="7"/>tit hoc, quod sumit, sicut nec habenti vomitum: cum illud 
+      <lb ed="#S" n="8"/>cederet magis in irreuerentiam, quam istud. Corpus autem, &amp; san 
+      <lb ed="#S" n="9"/>guis Christi tandiu sunt in ventre, &amp; quocuo; alibi quandiu 
+      <lb ed="#S" n="10"/>spens manent: &amp; quandiu sub eis substantia conuersa mansis 
+      <lb ed="#S" n="11"/>set, si esset· Nec propter secessum fluxus ventris corrumpuntur, 
+      <lb ed="#S" n="12"/>sicut nec per vomitum: quia si species incorruptae 
+       euomun<lb ed="#S" break="no" n="13"/>tur, vel egerunt, vere est ibi corpus Christi. Et sicut Gre 
+      <lb ed="#S" n="14"/>go. non habet pro inconuenienti, quod Christus a Diabolo per 
+      <lb ed="#S" n="15"/>miserit se in montem, &amp; supra pinnaculum templi portari: qui 
+      <lb ed="#S" n="16"/>permisit se a membris Diaboli crucifigi, sic in proposito, 
+      <lb ed="#S" n="17"/>maxime quia per omnia hoc corpus Christi manet incontami 
+      <lb ed="#S" n="18"/>natum.
+    </p>
+            <p xml:id="khj78y-q26323-d1e707" n="19">
+      <!-- 19 -->Et quod arguit, quod in maliuolam animam 
+      <lb ed="#S" n="19"/>non introibit sapientia, verum est de inhabitatione spiritua 
+      <lb ed="#S" n="20"/>li non sacramentali.
+    </p>
+            <p xml:id="khj78y-q26323-d1e716" n="20">
+      <!-- 20 -->Et quod dicit, quod iste cibus 
+      <lb ed="#S" n="21"/>non vadit in ventrem, sed in mentem, verum est finaliter: quia est 
+      <lb ed="#S" n="22"/>propter mentem non propter ventrem: sed illud vadit sacramen 
+      <lb ed="#S" n="23"/>taliter quo spens localiter.
+    </p>
+            <p xml:id="khj78y-q26323-d1e727" n="21">
+      <!-- 21 -->secunda conclusio 
+      <lb ed="#S" n="24"/>est, quod sancti patres Christum manducauerunt spiritualiter: 
+      <lb ed="#S" n="25"/>ga per fidem, &amp; charitatem sibi incorporati fuerunt. Non au 
+      <lb ed="#S" n="26"/>tem manducauerunt sacramentum hoc, nec Christum in sacramento 
+       sacra<lb ed="#S" break="no" n="27"/>mentaliter: quia non sumpserunt realiter, quod nondum erat. 
+      <lb ed="#S" n="28"/>sed nec sacramentaliter etiam si fidem explicitam habuerint, &amp; 
+       de<lb ed="#S" break="no" n="29"/>uotionem: puta Abraham recipiendo panem, &amp; vinum a 
+       Melchi<lb ed="#S" break="no" n="30"/>fedech, si intellexisset eucharistiam, sicut vidit diem Chri 
+      <lb ed="#S" n="31"/>sti, vidit, &amp; gauisus est: non propter hoc sacramentum 
+       sacramenta<lb ed="#S" break="no" n="32"/>liter manducasset, na sacim antequam esset institutum nullo 
+      <lb ed="#S" n="33"/>modo sumi potuit.
+    </p>
+            <p xml:id="khj78y-q26323-d1e753" n="22">
+      <!-- 22 -->Quod ergo dicit, bibebans 
+      <lb ed="#S" n="34"/>autem de consequenti eos petra: petra autem erat Christus: 
+       in<lb ed="#S" break="no" n="35"/>telligit de Christo secundum se, non de sacramento, nec de 
+       Chri<lb ed="#S" break="no" n="36"/>sto prout est in hoc facro.
+    </p>
+            <p xml:id="khj78y-q26323-d1e764" n="23">
+      <!-- 23 -->Tertia conclusio est, 
+      <lb ed="#S" n="37"/>quod nullus angelus bonus, nec malus etiam in corpore assum 
+      <lb ed="#S" n="38"/>pto potest corpus Christi manducare sacraliter: licet posset 
+      <lb ed="#S" n="39"/>m os ponere, &amp; masticare, &amp; traiicere, quia non est 
+       mandu<lb ed="#S" break="no" n="40"/>care cum in corpore assumpto non exorceant opera vitae. 
+      <lb ed="#S" n="41"/>similiter istud sacramentu hullus angelus potest spiritualiter 
+      <lb ed="#S" n="42"/>manducare: quia hoc non est nisi illorum, qul possunt corpora 
+      <lb ed="#S" n="43"/>litermanducare. Et praetorea bonus angelus sumendo 
+       spe<lb ed="#S" break="no" n="44"/>ciem in corpore assumpto fidem non habet, sed visionem. 
+      <lb ed="#S" n="45"/>Manducare autem Christum spiritualiter non conuenit malis 
+      <lb ed="#S" n="46"/>angelis, qui charitatem non habent. Bbnis autem competit illo 
+      <lb ed="#S" n="47"/>modo, quo vniunt Christo, sicut membra capiti: quod est 
+      <lb ed="#S" n="48"/>quantum ad rationem influentiae, non quantum ad conformi 
+      <lb ed="#S" n="49"/>tatem naturae.
+    </p>
+            <p xml:id="khj78y-q26323-d1e797" n="24">
+      <!-- 24 -->CIRCA tertium sunt tres 
+       con<lb ed="#S" break="no" n="50"/>dlasiones. Prima, quod brutum nullum sacramentum potest suscipere 
+       ni<lb ed="#S" break="no" n="51"/>suistud: quia essentia aliorum sacramentorum est actio, vel pas 
+      <lb ed="#S" n="52"/>sio hominis: puta ablutio, hominis, vnctio, &amp; huiusmodi. 
+       Vn<lb ed="#S" break="no" n="53"/>dem ablueret, vel: vngeretur brutum, non esset baptismus, 
+      <lb ed="#S" n="54"/>noc sacramentum.
+    </p>
+            <p xml:id="khj78y-q26323-d1e814" n="25">
+      <!-- 25 -->secunda conclusio est. quod potest istud 
+      <lb ed="#S" n="55"/>fatim suscipere: quia eius essentia est materiae consecratio, 
+      <lb ed="#S" n="56"/>quam bruum. vere sumit, quia vere manducat spens, sub 
+       qui<lb ed="#S" break="no" n="57"/>bus vere est corpus Christi. Et dato, quod per hoc reddantur 
+      <lb ed="#S" n="58"/>in habilos ad usum hominis, propter quem sunt:
+       nihilomi<lb ed="#S" break="no" n="59"/>nus non pppter hoc desinit ibi esse corpus Christi, sicut 
+      <lb ed="#S" n="60"/>iperhoc, q aqua congolat, qon desinit esse benedicta: sed 
+      <lb ed="#S" n="61"/>&amp; accidensest: sicutsi homo comederet hostiam 
+       consecra<lb ed="#S" break="no" n="62"/>tam, quum crederet simplicem: qui subrutum manducare non 
+       po<lb ed="#S" break="no" n="63"/>tuit, miraculum est: sicut afinus haeretici mandutare non po 
+      <lb ed="#S" n="64"/>tuit, sed flexis genibus hostiam adorauit.
+    </p>
+            <p xml:id="khj78y-q26323-d1e840" n="26">
+      <!-- 26 -->
+       Tor<lb ed="#S" break="no" n="65"/>tia conclusio est de hostia consecrata, quam mus comedit, 
+      <lb ed="#S" n="66"/>qnid faciendum sit.
+    </p>
+            <p xml:id="khj78y-q26323-d1e849" n="27">
+      <!--27 -->RESPONDEO: si 
+      <lb ed="#S" n="67"/>mus capi potest exenterari debet, &amp; mus quidem debet conhu- 
+      <!--0116.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>ri, &amp; cinis in piscinam proiici. Pars autem hostiae si homo eam 
+      <lb ed="#S" n="69"/>summere horreret, debet in tahernaculo reuerenter 
+       repo<lb ed="#S" break="no" n="70"/>ni, &amp; tandiu ibi dimitti, quousque naturaliter consummai. 
+      <lb ed="#S" n="71"/>Ipsa autem nequaquam debet in piscinam proiici, sicut quidam 
+       sa<lb ed="#S" break="no" n="72"/>cerdos fecit de micha reperta in calice post 
+       consecratio<lb ed="#S" break="no" n="73"/>nem·
+    </p>
+            <p xml:id="khj78y-q26323-d1e873" n="28">
+      <!-- 28 -->Nec etiam debet comburi, cinis in piscinam 
+      <lb ed="#S" n="74"/>proiici: sicut fecit alius sacerdos de hostiis muscidis con 
+      <lb ed="#S" n="75"/>secratis, quia hoc est immane sacrilegium. Et ideo quantum 
+      <lb ed="#S" n="76"/>cunque modica particula inueniatur cum reuerentia debet 
+      <lb ed="#S" n="77"/>reponi: quia in quantumcunque parua particula est totum 
+       cor<lb ed="#S" break="no" n="78"/>pus Christi. Et si quidem homo esset tanti feruoris, quod hmbi 
+      <lb ed="#S" n="79"/>non horrerent: sed eam sumeret, commendandus esset dum 
+      <lb ed="#S" n="80"/>tamen esset ieiunus, sicut beatus Hug. Cluniacensis commenda 
+      <lb ed="#S" n="81"/>uit Goderanum sumentem portiunculas eucharistiae, quas le 
+      <lb ed="#S" n="82"/>prosus cum vilissimo sputo euomuerat: dicens, 
+       craticu<lb ed="#S" break="no" n="83"/>lam Laurentij fuisse tolerabiliorem. Et sic dicit, de cons.di. 2. 
+      <lb ed="#S" n="84"/>c. Tribus. quod portiones fragmentorum de reliquiis 
+       commu<lb ed="#S" break="no" n="85"/>nionis populi debeant sumi a ministris, non in crastinum 
+      <lb ed="#S" n="86"/>reseruari. scilicet si sunt iciuni. Alias debent seruari in 
+       crasti<lb ed="#S" break="no" n="87"/>num sumendae. sed eucharistia integra pro infirmis reser 
+      <lb ed="#S" n="88"/>uatur. si autem non sit ieiunus propter generalem 
+       prohibitio<lb ed="#S" break="no" n="89"/>nem, quod pransus eucharistiam non sumat: quia sumere mrde 
+      <lb ed="#S" n="90"/>bet, cum sit vera excharistia in minima particula, nec ne 
+      <lb ed="#S" n="91"/>cessitas excuset, cum reseruari possit. Nam de gutta san 
+      <lb ed="#S" n="92"/>guinis stillante, quae recolligi non potest necessitas est 
+      <lb ed="#S" n="93"/>lambendi. Vnde tunc etiam pranso lambere liceret 
+       for<lb ed="#S" break="no" n="94"/>te secundum illud capitulum, de conse. dist. 2. si per ne 
+      <lb ed="#S" n="95"/>gligentiam.
+    </p>
+            <p xml:id="khj78y-q26323-d1e925" n="29">
+      <!-- 29 -->Ad argumentum in oppositum 
+      <lb ed="#S" n="96"/>dicendum, quod non est simile, sicut visum est. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

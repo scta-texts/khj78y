@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="272"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q82288"><!-- l4d21-q2 -->
+            <head xml:id="khj78y-q82288-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q82288-Hd1e103" type="question-title">
+     de generali confessione utrum deleat omnem culpam
+   </head>
+            <p xml:id="khj78y-q82288-d1e106">
+               <lb ed="#S" n="88"/>IO QVAESTIO SECVNDA. 
+      <lb ed="#S" n="89"/>De confessione in generali. 
+    </p>
+            <p xml:id="khj78y-q82288-d1e113">
+               <lb ed="#S" n="90"/>Tho. 4. d. 21. ꝗ. 2. ar. 1.
+    </p>
+            <p xml:id="khj78y-q82288-d1e118">
+               <lb ed="#S" n="91"/>QVAERITVR secundo de generali 
+      <lb ed="#S" n="92"/>confessione vtrum deleat omnem culpam. Et 
+       vi<lb ed="#S" break="no" n="93"/>detur quod non, quia culpa non remittitur ni 
+      <lb ed="#S" n="94"/>si per sacramentum, sed ista non est sacramen 
+      <lb ed="#S" n="95"/>tum, cum fiat aliquando non sacerdoti: sicut 
+      <lb ed="#S" n="96"/>lacerdos contetur adiutori, qui non est etiam forte clericus 
+      <lb ed="#S" n="97"/>sed laicus. ergo. &amp;c.
+    </p>
+            <p xml:id="khj78y-q82288-d1e137" n="2">
+      <!-- 2 -->Contra. quia frustra fieret &amp; 
+       ec<lb ed="#S" break="no" n="98"/>clesiam decipet.
+    </p>
+            <p xml:id="khj78y-q82288-d1e144" n="3">
+      <!-- 3 -->Respondeo. hic sunt tria videnda. 
+      <lb ed="#S" n="99"/>primo, de effectu generali confessionis quantum ad 
+       remis<lb ed="#S" break="no" n="100"/>sionem venialium, &amp; meritum bonorum. 2. quantum ad 
+       remis<lb ed="#S" break="no" n="101"/>sionem mortalium. 3. de virtute confessionis quae debet esse 
+      <lb ed="#S" n="102"/>in omni confessione tam generali quam speciali: tam sacra 
+      <lb ed="#S" n="103"/>mentali quam non sacramentali.
+    </p>
+            <p xml:id="khj78y-q82288-d1e160" n="4">
+      <!-- 4 -->Quantum ad primum 
+      <lb ed="#S" n="104"/>sunt tres conclusiones. Prima quod confessio generalis est actus 
+      <lb ed="#S" n="105"/>meritorius: quia virtutis charitate informatus: sed 
+       vide<lb ed="#S" break="no" n="106"/>tur non esse elicitus ab humilitate, sed a poenitentia: prout 
+      <lb ed="#S" n="107"/>est virtus siue sacramentalis siue non, quamuis ad eam 
+       con<lb ed="#S" break="no" n="108"/>currat humilitas. Ad eandem enim virtutem pertinet actus 
+      <lb ed="#S" n="109"/>interior elicitus: &amp; actus exterior imperatus ei 
+       correspon<lb ed="#S" n="110" break="no"/>dem. Vnde cum interior contritio sit actus poenitentiae 
+       vir<lb ed="#S" break="no" n="111"/>tutis, siue sit contritio specialis, siue sit contritio generalis 
+      <lb ed="#S" n="112"/>vt actus elicitus. &amp; per consequens actus exterior 
+       confessio<lb ed="#S" break="no" n="113"/>nis imperatus siue generalis sit: siue specialis, siue 
+       sacra<lb ed="#S" break="no" n="114"/>mentalis siue non.
+    </p>
+            <p xml:id="khj78y-q82288-d1e189" n="5">
+      <!-- 5 -->secunda conclusio est. quod confessio 
+      <lb ed="#S" n="115"/>generalis valet ad remissionem peccatorum venialium quoad 
+      <lb ed="#S" n="116"/>poenam: sed non sic delet omnem poenam sicut omnem culpam. 
+       si<lb ed="#S" break="no" n="117"/>cut enim sola voluntate culpa committitur: sic sola volun 
+      <lb ed="#S" n="118"/>tate quaten' culpa est deletur: sed praeter hoc poena alia 
+      <lb ed="#S" n="119"/>debetur. Quod tamen dictum est, omnem culpam venialem 
+       dele<lb ed="#S" break="no" n="120"/>ri: intelligendum est, nisi retincatur actu vel habitu in asfe 
+      <lb ed="#S" n="121"/>ctu confitentis. Valet autem ad remissionem quo ad poenam, &amp; 
+      <lb ed="#S" n="122"/>inquantum est sacramentalis: &amp; inquantum non 
+       sacramenta<lb ed="#S" break="no" n="123"/>lis: cum per quemlibet actum charitate informatum ad hoc 
+       ap<lb ed="#S" break="no" n="124"/>plicadum in remissionem huiusmodi poenae homo 
+       consequa<lb ed="#S" break="no" n="125"/>tur.
+    </p>
+            <p xml:id="khj78y-q82288-d1e218" n="6">
+      <!-- 6 -->Tertia conclusio est: quod confessio generalis va 
+      <lb ed="#S" n="126"/>let ad deletionem venialium, quo ad culpam, ex quo contra illa 
+      <lb ed="#S" n="127"/>dirigitur. cum enim tali confessione sit contritio alias est 
+       fi<lb ed="#S" break="no" n="128"/>cta: si sola contritio generalis sufficit contra venialia, 
+       mul<lb ed="#S" break="no" n="129"/>to magiscontritio cum confessione. Nam cum nullum peccatum 
+      <lb ed="#S" n="130"/>sine contritione deleatur: nunquam confessio generalis dele 
+      <lb ed="#S" n="131"/>ret sine contritione: quia nec specialis. Et quia non est ra 
+      <lb ed="#S" n="132"/>tio, quod deleat vnum &amp; non aliud, ex quo non magis contra vnum 
+      <lb ed="#S" n="133"/>quam contra aliud dirigitur: ideo quo ad culpam omnia de- 
+      <!--0273.xml-->
+      <pb ed="#S" n="273"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>let: &amp; sic sequitur, quod saepe homo est sine omni culpa: 
+       ta<lb ed="#S" break="no" n="2"/>men si minus requiritur ad dimissionem venialium quam 
+      <lb ed="#S" n="3"/>mortalium: &amp; ad dimissionem mortalium sufficit contritio &amp; 
+      <lb ed="#S" n="4"/>confessio specialis: non sequitur propter hoc, quodad dimissio 
+      <lb ed="#S" n="5"/>nem venialium sufficiat generalis: sicut aliqui arguunt: quia 
+      <lb ed="#S" n="6"/>aliter potest esse minus: quia. scilicet sufficit sola contritio 
+       spe<lb ed="#S" break="no" n="7"/>cialis sine confessione quacunque : sed supposito, quod sufficiat 
+      <lb ed="#S" n="8"/>contritio generalis: sequitur, quodmulto magis cum ea confessio 
+      <lb ed="#S" n="9"/>generalis: quia non requiritur maior specificatio in confes 
+      <lb ed="#S" n="10"/>sione, quam in contritione cum aliquando contritio sine 
+       confes<lb ed="#S" break="no" n="11"/>fione quacunque sufficiat. Videretur tamen alicui: quod sicut 
+      <lb ed="#S" n="12"/>in quolibet veniali fuit specialis &amp; distincta complacentia: 
+      <lb ed="#S" n="13"/>sic ad delendum requireretur specialis &amp; distincta 
+       displicen<lb ed="#S" break="no" n="14"/>tia: &amp; hoc quo ad venialia ex consensu deliberato commissa. 
+      <lb ed="#S" n="15"/>Alioquin non sic reordinatur voluntas fuit deordinata: 
+      <lb ed="#S" n="16"/>nec est tanta conuersio: quanta fuit auersio: quod tamen 
+      <lb ed="#S" n="17"/>videtur necessarium: secundum illud Apostoli, sicut 
+       por<lb ed="#S" break="no" n="18"/>tanimus imaginem. &amp;c. Et sicut exhibuistis membra vestra. 
+      <lb ed="#S" n="19"/>&amp;c. Et etiPaequalitas iustitiae videtur exigere, quod tantum sub 
+      <lb ed="#S" n="20"/>trahatur voluntati de placentia, quantum sibi addidit: quod 
+      <lb ed="#S" n="21"/>non est nisi toties &amp; tantum specialiter &amp; distincte sibi di 
+      <lb ed="#S" n="22"/>spliceat malum, quoties &amp; quantum sibi placuit. Quod autem 
+      <lb ed="#S" n="23"/>dicunt doctores generalem contritionem sufficere: 
+       intelligi<lb ed="#S" break="no" n="24"/>tur de peccatis venialibus subito &amp; sine deliberatione 
+       com<lb ed="#S" n="25" break="no"/>missis, vel quae consistunt in primis motibus sensualitatis 
+      <lb ed="#S" n="26"/>contra quos vnus motus voluntatis deliberatiuus 
+       praepon<lb ed="#S" n="27" break="no"/>derat. Confessio ergo generalis delet venialia, quo ad culpam. 
+      <lb ed="#S" n="28"/>quia etiam sine sacramento venialis culpa remittitur: &amp; sic per 
+      <lb ed="#S" n="29"/>confessionem generalem non sacramentalem: &amp; multo magis per 
+      <lb ed="#S" n="30"/>sacramentalem, sed cum oporteat peccata displicere, sicut 
+       pla<lb ed="#S" break="no" n="31"/>cuerunt: vel formalitervel saltem virtualiter: cum homo abun 
+      <lb ed="#S" n="32"/>det multitudine venialium raro est, quod vnquam possit 
+       habe<lb ed="#S" break="no" n="33"/>re vnum actum displicentiae: qui aequipolleat ex se tot 
+       compla<lb ed="#S" break="no" n="34"/>centijs particularibus: vt sic vna contritione deleatur 
+       om<lb ed="#S" break="no" n="35"/>nis culpa venialis: nisi forte ex adiunctione sacramenti in 
+      <lb ed="#S" n="36"/>tantum valor augeatur, vt quando communicat vel confitetur 
+      <lb ed="#S" n="37"/>de peccatis venialibus in generali sacramentaliter.
+    </p>
+            <p xml:id="khj78y-q82288-d1e327" n="7">
+      <!-- 7 -->
+               <lb ed="#S" n="38"/>secundus articulus estvidere, quomodo confessio generalis valet ad re 
+      <lb ed="#S" n="39"/>missionem peccatorum mortalium. Circa quam sunt tres conclusiones 
+      <lb ed="#S" n="40"/>pricipales, &amp; quarta corollaria.
+    </p>
+            <p xml:id="khj78y-q82288-d1e339" n="8">
+      <!-- 8 -->Prima conclusio est, 
+      <lb ed="#S" n="41"/>quod ad remissionem mortalium quo ad poenam valet confessio 
+      <lb ed="#S" n="42"/>gnalis, siue sacramentalis fiue non sacramentalis. vnde 
+       expen<lb ed="#S" break="no" n="43"/>dit, quod in generali confessione quam homo facit, intendat 
+       confite<lb ed="#S" break="no" n="44"/>ri non solum de venialibus: sed etiam de mortalibus, de quibus 
+      <lb ed="#S" n="45"/>est alias confessus &amp; absolut: in quibus tantum valet confessio 
+      <lb ed="#S" n="46"/>generalis quantum in venialibus: quia ita parum sunt de necessitate 
+       con<lb ed="#S" break="no" n="47"/>fessionis sicut venialia: &amp;per consequens nec de necessitate 
+       con<lb ed="#S" break="no" n="48"/>fessionis specialis. Magis autem expedit homini hic 
+       satisfa<lb ed="#S" break="no" n="49"/>cere de mortalibus, quam de venialibus: cum sicut vnum 
+      <lb ed="#S" n="50"/>mortale non dimissum habeat in infinitum maiorem 
+       poe<lb ed="#S" break="no" n="51"/>nam quam omnia venialia. sic per consequens mortali dimisso de 
+      <lb ed="#S" n="52"/>betur maior poena, quae innumeris venialibus dimissis: vnde 
+      <lb ed="#S" n="53"/>magis expedit hic de mortali: quam de veniali satisfacere. 
+      <lb ed="#S" n="54"/>si ergo confessio generalis delet mortalia quo ad poenam 
+       sacra<lb ed="#S" break="no" n="55"/>mentalis, &amp; non sacramentalis, quando contritio praecessit. vt Tho. 
+      <lb ed="#S" n="56"/>dicit: salua tamen distinctione, vtrum sint oblita totaliter 
+      <lb ed="#S" n="57"/>aut in speciali, vt homo faciat quod in se est, &amp; ipsam etiam negli 
+      <lb ed="#S" n="58"/>gentiam confiteatur, quia periculum est ne sit mortalis
+    </p>
+            <p xml:id="khj78y-q82288-d1e383" n="9">
+      <!-- 9 -->
+               <lb ed="#S" n="59"/>seda conclusio est: quod confessio generalis valet ad dimissionem 
+      <lb ed="#S" n="60"/>culpae mortalis oblitae: quando homo discussit conscientiam suam 
+      <lb ed="#S" n="61"/>vt debuit. Tunc enim virtute confessionis specialis dimit 
+      <lb ed="#S" n="62"/>tuntur dicta &amp; scita: virtute autem generalis oblita: sed tunc 
+      <lb ed="#S" n="63"/>oportet quod sit sacralis: quia per non sacramentalem non potest remit 
+      <lb ed="#S" n="64"/>tivnquam culpa mortalis, etiam oblita: quia sicut nihil remittit 
+      <lb ed="#S" n="65"/>originale nisi sacramentum baptismi susceptum facto vel 
+      <lb ed="#S" n="66"/>voto: sic nihil mortale actuale: nisi sacramentum poenitentiae prout 
+       su<lb ed="#S" break="no" n="67"/>scipitur facto uel voto. Delet ergo culpam mortalem oblitam 
+      <!--0273.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>si attritio praecessit: quia vi clauium mutatur attritio in contritio 
+      <lb ed="#S" n="69"/>nem, per quam dimittitur culpa mortalis spetialiter confessa: 
+      <lb ed="#S" n="70"/>&amp;per consequens mortalis oblita: cum remissio mortalium sit con 
+      <lb ed="#S" n="71"/>nexa. Et hoc est vi generalis confessionis: quia materia 
+       absolu<lb ed="#S" break="no" n="72"/>tionis non sunt nisi peccata confessa, vel in speciali vel in 
+      <lb ed="#S" n="73"/>generali.
+    </p>
+            <p xml:id="khj78y-q82288-d1e425" n="10">
+      <!-- 10 -->Tertia conclusio est, iuxta illud quod modo 
+       di<lb ed="#S" break="no" n="74"/>ctum est. quia est casus in quovi generalis sacramentalis confessionis 
+      <lb ed="#S" n="75"/>remittitur culpa mortalis, scita etiam &amp; non oblita: vt quando 
+      <lb ed="#S" n="76"/>homo confessus fuit fictus illa fictione qua impeditur fructus, 
+      <lb ed="#S" n="77"/>non tamen tenetur confiteri nisi ipraeam fictionem. si ergo postea 
+      <lb ed="#S" n="78"/>atteratur de ipsa fictione, &amp; non conteratur confitendo de 
+      <lb ed="#S" n="79"/>ipsa fictione in speciali, &amp; de peccatis tunc confessis in spe 
+      <lb ed="#S" n="80"/>ciali: in generali nunc confitetur: mutatur vi clauium 
+       at<lb ed="#S" break="no" n="81"/>tritio in contritionem: &amp; post absolutio vi istius incipit 
+       ha<lb ed="#S" break="no" n="82"/>bere effectum: ita quod per hanc generalem confessionem cul 
+      <lb ed="#S" n="83"/>pa mortalis non remissa remittitur. Quod ergo homo 
+       ne<lb ed="#S" break="no" n="84"/>scit vtrum vnquam fecerit vnam perfectam confessionem, expedit 
+      <lb ed="#S" n="85"/>quod in confessione sacramentali prius quaedam specialiter enu 
+      <lb ed="#S" n="86"/>merata, seqtur generalis clausula quae oia alia compraehendat, de 
+      <lb ed="#S" n="87"/>oibus alijs venialibus &amp; mortalibus confessis alias &amp; non confes 
+      <lb ed="#S" n="88"/>sis: &amp; sic absolutio seꝗtur: &amp; sic valebit ad deletionem 
+       poe<lb ed="#S" break="no" n="89"/>nae mortalium &amp; venialium, &amp; ad deletionem culpae etiam 
+       mor<lb ed="#S" n="90" break="no"/>talis oblitae vel ent scitae: quam tamen nonte nebatur alias in speciali 
+      <lb ed="#S" n="91"/>iterum confiteri. Et quando diciturabsoluo te a dictis &amp; oblitis, 
+      <lb ed="#S" n="92"/>itelligitur a dictis in speciali &amp; in generali: &amp; ab oblitis &amp; 
+      <lb ed="#S" n="93"/>non in speciali dictis: tamen in generali: quia a nullomodo 
+      <lb ed="#S" n="94"/>dictis non potest absolui ab homine. Vnde etiam quia talis 
+      <lb ed="#S" n="95"/>confessio valet ad deletionem venialium non oblitorum nec 
+       di<lb ed="#S" break="no" n="96"/>ctorum in speciali, sed tantum in generali: melius dicitur ab 
+      <lb ed="#S" n="97"/>omnibus peccatis simpliciter: quia omnia sunt dicta vel 
+      <lb ed="#S" n="98"/>in speciali vel in generali. Ex quo intendit fic. quod 
+       di<lb ed="#S" break="no" n="99"/>cere a dictis &amp; oblitis. Ex quo apparet conclusio 
+       quar<lb ed="#S" break="no" n="100"/>ta. scilicet quod est minus debita forma, quae communiter 
+       serua<lb ed="#S" break="no" n="101"/>tur in absoluendo: cum dicitur absoluo te a peccatis tuis 
+      <lb ed="#S" n="102"/>dictis &amp; oblitis: quia si est iste sensus absoluo te a dictis 
+      <lb ed="#S" n="103"/>in speciali &amp; in generali, &amp; ab oblitis etiam non dictis nec 
+      <lb ed="#S" n="104"/>in generali nec in speciali: error est: ua forma absolutionis 
+      <lb ed="#S" n="105"/>non se extendit vltra propriam materiam confessionis. vum peccatam 
+      <lb ed="#S" n="106"/>non confessa nec in gfali nec in speciali non sunt materia ab 
+      <lb ed="#S" n="107"/>solutionis, quae est sacim. si autem sit sensus: absoluo te a di 
+      <lb ed="#S" n="108"/>ctis in speciali, &amp; ab oblitis dictis in generali. ergo non absoluitur 
+      <lb ed="#S" n="109"/>ab aliquo peccato scito: nec quo ad culpam: nec quo ad poenam 
+      <lb ed="#S" n="110"/>quod est contra intentionem confitentis, qui in illa generali confessione 
+      <lb ed="#S" n="111"/>intendit includere non solum oblita, sed etiam scitatde qui 
+      <lb ed="#S" n="112"/>bus tamen non tenetur confiteri in speciali: nec etiam forte in 
+      genra<lb ed="#S" break="no" n="113"/>li. sicut sunt venialia &amp; mortalia semel confessa, de quibus non 
+      <lb ed="#S" n="114"/>vult confiteri in speciali: quia teneret per totum diem: &amp; tamen vniversale 
+      <lb ed="#S" n="115"/>de omnibus absolui: vt de poena omnibus debita aliquid 
+       di<lb ed="#S" break="no" n="116"/>minuatur, &amp; ipsa culpa si nondum est deleta. &amp; ideo est 
+       me<lb ed="#S" break="no" n="117"/>lior forma. Absoluo te ab omnibus peccatis de quibus 
+       con<lb ed="#S" break="no" n="118"/>sessos es, vel in generali vel in speciali, vel de quibus intendis 
+      <lb ed="#S" n="119"/>de hoc tamen plenius dicetur in distinctione proxima. 
+    </p>
+            <p xml:id="khj78y-q82288-d1e529" n="11">
+               <lb ed="#S" n="120"/>
+               <!-- 11 -->Tertius articulus prificipalis est de veritate 
+       confes<lb ed="#S" break="no" n="121"/>sionis, habens ꝗnque conclusiones.
+    </p>
+            <p xml:id="khj78y-q82288-d1e538" n="12">
+      <!-- 12 -->Prima est, quod siue sit 
+      <lb ed="#S" n="122"/>confessio sacramentalis, sine non sacralis, siue iudicialis, siue 
+      <lb ed="#S" n="123"/>alia: quod homo nunquamᷓ debet mentiri. Et siue causa humllitatis, siue 
+      <lb ed="#S" n="124"/>hypocrisis deliberatiue mentiri in iudicio confessionis, 
+      <lb ed="#S" n="125"/>cum habeat annexam irreuerentiam ad sacim, &amp; quandam 
+       blas<lb ed="#S" break="no" n="126"/>phemiam videtur mortale.
+    </p>
+            <p xml:id="khj78y-q82288-d1e554" n="13">
+      <!--13. -->secunda conclusio est. quod si 
+       ali<lb ed="#S" break="no" n="127"/>ꝗu per ignorantiam iuris diuini non confiteatur illud, de quo 
+      <lb ed="#S" n="128"/>credit non esse mortale cum sit: vel quod non teneatur 
+       confi<lb ed="#S" break="no" n="129"/>teri: cum tamen teneatur: non excusatur quin tanquam fictus 
+      <lb ed="#S" n="130"/>non consequatur effectum sacramenti, sicut &amp; ille qui non 
+      <lb ed="#S" n="131"/>sufficienter discussit conscientiam suam: tamen cum etiam per pec 
+      <lb ed="#S" n="132"/>catum veniale homo saepe perdat effectum sacramenti: non 
+      <lb ed="#S" n="133"/>oportet quod omnis fictio quae impedit hunc effectum sit 
+       mor<lb ed="#S" break="no" n="134"/>talis, nec per consequens quod sit necessarium eam confiteri. 
+    </p>
+            <p xml:id="khj78y-q82288-d1e577" n="14">
+      <!--0274.xml-->
+               <pb ed="#S" n="274"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>
+               <!-- 14 -->Tertia conclusio est. quod si quis de fictione vel alio pec 
+      <lb ed="#S" n="2"/>cato habeat conscientiam, quod sit mortale, tenetur confiteri 
+      <lb ed="#S" n="3"/>etiam si non haberet determinatam conscientia, sed dubitan 
+      <lb ed="#S" n="4"/>tem an sit mortale, eo ipso tenetur confiteri: quia 
+       conscien<lb ed="#S" break="no" n="5"/>tla erronea ligat: alias exponeret se discrimini: non tamen 
+      <lb ed="#S" n="6"/>debet dicere esse mortale illud, de quo dubitat: sed relin 
+      <lb ed="#S" n="7"/>quere pondus &amp; stateram iudicio sacerdotis librantis. si 
+      <lb ed="#S" n="8"/>etiam dubitat vtrum consenserit vel non: confiteatur sicut dubi 
+      <lb ed="#S" n="9"/>tans, non sicut certus: alias mentitur.
+    </p>
+            <p xml:id="khj78y-q82288-d1e608" n="15">
+      <!-- 15 -->Quarta 
+       conclu<lb ed="#S" break="no" n="10"/>sio est. quod si quis mentitur in confessione quae per 
+       tor<lb ed="#S" break="no" n="11"/>menta exquiritur, innocentem falso accusando, quia in al 
+      <lb ed="#S" n="12"/>terius perniciem mentitur, non excusatur a mortali: licet a 
+      <lb ed="#S" n="13"/>tanto excusetur, quia mendacium perniciosum est mortale, 
+      <lb ed="#S" n="14"/>sicut nec illi qui metu tormentorum negauerunt fidem. Qui 
+      <lb ed="#S" n="15"/>autem contra se confitetur in tormentis, se fecisse quae non 
+       fe<lb ed="#S" break="no" n="16"/>cit: licet inquantum se diffamat, videtur perniciosum: 
+       ta<lb ed="#S" break="no" n="17"/>men inquantum se a tormento liberat, videtur officiosum: 
+      <lb ed="#S" n="18"/>&amp; sic dubium est an sit mortale, quia plus debet diligerevi 
+      <lb ed="#S" n="19"/>tam quam famam, tamen quia laedit astantes falsa pro veris 
+      <lb ed="#S" n="20"/>affirmans, pernitiosum est.
+    </p>
+            <p xml:id="khj78y-q82288-d1e637" n="16">
+      <!-- 16 -->Quinta conclusio est, quod 
+      <lb ed="#S" n="21"/>si quis alios accusat fures &amp; latrones, qui sunt 
+       incorrigi<lb ed="#S" break="no" n="22"/>biles, &amp; quotidie nouis furtis &amp; latrocinijs rem publicam 
+      <lb ed="#S" n="23"/>laedunt, bene facit, quia iste est casus in quo potest occul 
+      <lb ed="#S" n="24"/>tus peccator denunciari, quando. scilicet correctio non separatur 
+      <lb ed="#S" n="25"/>&amp; peccatum est communitati nociuum. si autem socium de cuius 
+      <lb ed="#S" n="26"/>correctione iam sibi constat proderet, peccaret, nisi in 
+       ca<lb ed="#S" break="no" n="27"/>su vbi. scilicet speciali iuris ordine seruato, de illo nominatim 
+      <lb ed="#S" n="28"/>vt testis interrogaretur: tunc enim tenetur dicere veritatem. 
+    </p>
+            <p xml:id="khj78y-q82288-d1e659" n="19">
+               <lb ed="#S" n="29"/>
+               <!-- 19 -->Ad argumentum dicendum, quod culpa venialis &amp; 
+       poe<lb ed="#S" break="no" n="30"/>na venialis &amp; mortalis bene remittitur aliter quam persa 
+      <lb ed="#S" n="31"/>cramentum, &amp; sic potest remitti per confessionem generalem, 
+      <lb ed="#S" n="32"/>quae non est pars sacramenti, sed quia confessio generalis 
+      <lb ed="#S" n="33"/>quandoque est sacramentum, quandoque est pars eius. tunc non 
+      <lb ed="#S" n="34"/>solum poena aut culpa venialis remittitur, sed mortalis, 
+      <lb ed="#S" n="35"/>dum tamen oblita vel etiam scita, dum tamen non necessaria 
+      <lb ed="#S" n="36"/>confiteri specialiter, quia. sallas confessa: licet non 
+       remis<lb ed="#S" break="no" n="37"/>sa vt dictum est. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

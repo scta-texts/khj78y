@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="325"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r00531"><!-- l4d26-q3 -->
+            <head xml:id="khj78y-r00531-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-r00531-Hd1e103" type="question-title">
+     utrum matrimonium 
+     sit in praecepto
+   </head>
+            <p xml:id="khj78y-r00531-d1e106">
+               <lb ed="#S" n="28"/>QVAESTIO TERTIA. 
+      <lb ed="#S" n="29"/>De obligatione matrimonii. 
+    </p>
+            <p xml:id="khj78y-r00531-d1e113">
+               <lb ed="#S" n="30"/>Thom. 4. dist. 26. q. 1. art. 2. 
+    </p>
+            <p xml:id="khj78y-r00531-d1e118">
+               <lb ed="#S" n="31"/>TERTIO quaeritur, vtrum matrimonium 
+      <lb ed="#S" n="32"/>sit in praecepto: Et videtur quod non: quia 
+       con<lb ed="#S" break="no" n="33"/>silium non est contrarium praecepto: sed 
+      <lb ed="#S" n="34"/>consilium est de virginitate. 1. ad Cor. 7. 
+      <lb ed="#S" n="35"/>quae contrariatur matrimonio. ergo &amp;c. 
+      <lb ed="#S" n="36"/>a Contra, Crescite, &amp; multiplicamini.
+    </p>
+            <p xml:id="khj78y-r00531-d1e135" n="3">
+      <!-- 3 -->Respondeo, 
+      <lb ed="#S" n="37"/>hic sunt tria videnda. Primo, de praecepto legis diuinae 
+      <lb ed="#S" n="38"/>circa matrimonium. secundo, de praecepto legis canoni 
+      <lb ed="#S" n="39"/>cae. Tertio, de praecepto legis ciuilis, &amp; mundanae. 
+    </p>
+            <p xml:id="khj78y-r00531-d1e146" n="4">
+               <lb ed="#S" n="40"/>
+               <!-- 4 -->Quantum ad primum de necessitate matrimonij sunt 
+      <lb ed="#S" n="41"/>tres conclusiones. Prima, quod fuit aliquando in praecepto. 
+      <lb ed="#S" n="42"/>Primo quidem ante peccatum. Et in secundo post diluuium, quando 
+      <lb ed="#S" n="43"/>vtroque tempore dictum est, Multiplicamini: quia cum bonum 
+      <lb ed="#S" n="44"/>Gentis sit melius, quam bonum hominis, si praeceptum datum fuit 
+      <lb ed="#S" n="45"/>de necessario ad conseruationem indiuidui, de omni ligno 
+      <lb ed="#S" n="46"/>paradisi comedetis: multo magis de necessario ad 
+       con<lb ed="#S" break="no" n="47"/>seruationem speciei.
+    </p>
+            <p xml:id="khj78y-r00531-d1e168" n="5">
+      <!-- 5 -->secunda conclusio est, quod adhuc 
+      <lb ed="#S" n="48"/>durat praeceptum illud. Quod enim non mutatur, quare 
+      <lb ed="#S" n="49"/>statutus prohibetur. C. de testa. l sancimus. vnde cum con 
+      <lb ed="#S" n="50"/>stet praeceptum esse datum, &amp; non constet esse reuocatum, sic ut 
+      <lb ed="#S" n="51"/>praecepta ve. le. cerimonialia, &amp; iudicialia sunt 
+       reuoca<lb ed="#S" break="no" n="52"/>ta: non autem moralia, &amp; illud est morale: imo naturale 
+      <lb ed="#S" n="53"/>le. naturae non scriptae. ergo adhuc tenet. Praeceptum enim 
+      <lb ed="#S" n="54"/>tandiu durat, quandiu durat praecipiens, nisi ab ipso, vel 
+      <lb ed="#S" n="55"/>superiore reuocet.
+    </p>
+            <p xml:id="khj78y-r00531-d1e190" n="6">
+      <!-- 6 -->sed contra hoc est, quia videtur 
+       re<lb ed="#S" break="no" n="56"/>uocatum ex ipso, quod Christus dedit consilium de 
+       virgini<lb ed="#S" break="no" n="57"/>tate, &amp; in speciali matri suae, &amp; discipulo, quem de nuptiis 
+      <lb ed="#S" n="58"/>volentem nubere retraxit: &amp; in generali commendans 
+       cunu<lb ed="#S" break="no" n="59"/>chos, qui se eunuchauerut propter regnum coelorum, quem 
+      <lb ed="#S" n="60"/>sequens Apostolus De virginibus praeceptum Domini 
+      <lb ed="#S" n="61"/>non habeo, consilium autem do.
+    </p>
+            <p xml:id="khj78y-r00531-d1e208" n="7">
+      <!-- 7 -->· Item videtur reuoca 
+      <lb ed="#S" n="62"/>tum fuisse ante diluuium, quia nisi fuisset reuocatum praece 
+      <lb ed="#S" n="63"/>ptum, non oportuisset ipsum reuocari, nec replicari pos 
+      <!--0325.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>diluuium sicut fuit: propter quod dicunt aliqui, &amp; videtur 
+       Ma<lb ed="#S" break="no" n="65"/>gister innuere: quod praeceptum non solum reuocatur expresse, sed 
+      <lb ed="#S" n="66"/>etiam tacite per hoc. scilicet quod cessat causa eius: &amp; sic multiplica 
+      <lb ed="#S" n="67"/>to humano genere, propter quod eratdatum: quia 
+       cessan<lb ed="#S" break="no" n="68"/>te causa, cessat effectus, videt reuocatum: posset tamen 
+       sustine<lb ed="#S" break="no" n="69"/>ri prima opinio sic: quod per multiplicationem humani gene 
+      <lb ed="#S" n="70"/>ris non sit praeceptum reuocatum, sed tunc non obligat. sed 
+      <lb ed="#S" n="71"/>si cras constaret numerum elestorum non posse compleri, nisi 
+      <lb ed="#S" n="72"/>isto contrabente, qui non vouit oppositum, ipse teneretur: sicut 
+      <lb ed="#S" n="73"/>si nullus indigeat, praeceptum de eleemosyna non propter 
+      <lb ed="#S" n="74"/>hoc est reuocatum, sed interim nullus obligatur: 
+       superueni<lb ed="#S" break="no" n="75"/>ente autem necessitate obligat, quitumque, qui videt eam, &amp; 
+      <lb ed="#S" n="76"/>potest subuenire: ita &amp; hic, quia praeceptum, quod est de iure 
+      <lb ed="#S" n="77"/>naturali immutabiliter perseuerat. Quod autem Christus 
+      <lb ed="#S" n="78"/>dedit consilium, hoc est, quia beno praesciuit non futuram 
+      <lb ed="#S" n="79"/>necessitatem, multis volentibus contrahere, qui sufficiunt. 
+      <lb ed="#S" n="80"/>Et quod fuit replicatum, ex abundanti fuit factum. 
+    </p>
+            <p xml:id="khj78y-r00531-d1e258" n="8">
+               <lb ed="#S" n="81"/>
+               <!-- 8 -->Tertia conclusio est, quo a transgresiione praecepti 
+      <lb ed="#S" n="82"/>excusantur continentes. Primo quidem propter hoc, quia 
+      <lb ed="#S" n="83"/>praeceptum affirmatiuum non obligat nisi pro tempore neces 
+      <lb ed="#S" n="84"/>sitatis: modo autem non est necessitas, cum multi generatio 
+      <lb ed="#S" n="85"/>ni vacent. secudo, quia praeceptum recipios conseruationem 
+      <lb ed="#S" n="86"/>indiuidui ligat quemcunque: quia aliter non potest subueniri: 
+      <lb ed="#S" n="87"/>quia te comedente ego non comedens non nutrior. sed 
+      <lb ed="#S" n="88"/>praeceptum respicieus conseruationem speciei non ligat quem 
+      <lb ed="#S" n="89"/>cunq,. Tertio, propter dispensationem Christi virginitatem 
+      <lb ed="#S" n="90"/>consulentis, quia nemo peccat legis authoritate. si enim 
+      <lb ed="#S" n="91"/>Osee faciens filios fornicationum, Domino volente, non 
+       pecca<lb ed="#S" break="no" n="92"/>nit: multo minus continens consilio Christi, vel dimittens 
+      <lb ed="#S" n="93"/>vxorem causa fornicationis, vbi Christus dispensat. si autem 
+      <lb ed="#S" n="94"/>mudus deficeret, qui virginitatem vouit, secundum quosdam 
+      <lb ed="#S" n="95"/>contrahere deberet. Et quidem alij dicunt, quod si sibi de hoc 
+      <lb ed="#S" n="96"/>constaret: quia, nisi eo contrahente, mundus periret adhuc 
+      <lb ed="#S" n="97"/>contrahere non deberet: quia deberet supponere numerum 
+      <lb ed="#S" n="98"/>electorum esse completum, antequam non cessabit homo volens 
+      <lb ed="#S" n="99"/>generare: sicut nec voluntas angoli ad mouendum coelum. 
+      <lb ed="#S" n="100"/>sed si hoc ipsum sibi constaret. scilicet non esse completum nume 
+      <lb ed="#S" n="101"/>rum electorum, nec aliter, quae per se posset compleri, adhuc, ni 
+      <lb ed="#S" n="102"/>si Deus sibi praeciperet, contrahere non deberet: quia qui 
+      <lb ed="#S" n="103"/>authoritate Dei obligauit se ad votum: non debet ipsum 
+      <lb ed="#S" n="104"/>frangere, nisi authoritate eiusdem deobligetur: nisi quis 
+       di<lb ed="#S" break="no" n="105"/>cat, quod cum Dominus velit compleri numerum electorum eo ipso, q 
+      <lb ed="#S" n="106"/>innotescit isti non posse compleri: nisi per ipsum vuls 
+      <lb ed="#S" n="107"/>ipsum cotrahere.
+    </p>
+            <p xml:id="khj78y-r00531-d1e322" n="9">
+      <!-- 9 -->Quantum ad secundum sunt tres con 
+      <lb ed="#S" n="108"/>clusiones. Prima, quo praeceptum Canonum de non 
+       expri<lb ed="#S" break="no" n="109"/>mendo aliquid contrarium substantiae matrimonijfaciat 
+      <lb ed="#S" n="110"/>matrimoniu nullum, &amp; quo non. Vbi praeter id, quod dice 
+      <lb ed="#S" n="111"/>tur dist. 29. est sciendum, quod si exprimat aliquid in 
+       contra<lb ed="#S" break="no" n="112"/>hendo, quod est contra bona matrimonij, tunc refert, 
+       v<lb ed="#S" break="no" n="113"/>trum illud sit honestum, modus, vel conditio: &amp; tunc 
+       vi<lb ed="#S" break="no" n="114"/>tiat: de conditionibus appositis. c. vlt. Vnde tunc erpressa 
+      <lb ed="#S" n="115"/>nocent, non expressa non nocent. Et hoc est, ua licet ista 
+      <lb ed="#S" n="116"/>expressio non contrarietur essentiae matrimoniali, &amp; sic de 
+      <lb ed="#S" n="117"/>se non impediat: tamen propter prohibitionem ecclesiae impedi 
+      <lb ed="#S" n="118"/>tur matrimonium, quae in fauorem matrimonij tales 
+       perso<lb ed="#S" break="no" n="119"/>nas reddit inhabiles pro nunc per illum consensom ad 
+      <lb ed="#S" n="120"/>contrahendu. Prohibitio autem ecclesiae potest cadere super 
+      <lb ed="#S" n="121"/>actum exteriorem, &amp; ipsum afficere: non autem super actum 
+      <lb ed="#S" n="122"/>interiorem: vtide nisi actus interior de natura sua impe 
+      <lb ed="#S" n="123"/>diat, vel faciat matrimonium, nunquam propterecclesiae pro 
+      <lb ed="#S" n="124"/>hibitionem, vel praeceptum faciet, vel impediet 
+       matrimo<lb ed="#S" break="no" n="125"/>nium: ex quo autem non respicit esientiam matrimonij non 
+      <lb ed="#S" n="126"/>habet de natura sua impedire. si autem id, quod exprimi 
+      <lb ed="#S" n="127"/>tur, sit honestu quantuncumque bonis matrimonij contrarium 
+      <lb ed="#S" n="128"/>non puto, quod impediat, quod expressum est, sicut nec taci 
+      <lb ed="#S" n="129"/>tum: vnde sicut in vero matrimonio iam contracto, &amp; 
+       eti<lb ed="#S" n="130" break="no"/>am consummato: lices dicere communi consensu, vel ob for- 
+      <!--0326.xml-->
+      <pb ed="#S" n="326"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>nicationem, &amp; ante copulam indistincte: sic etiam non 
+       vi<lb ed="#S" break="no" n="2"/>deo, quid prohibeat sic dicere: Contraho tecum matrimo 
+      <lb ed="#S" n="3"/>nium, ita tamen quod non decipiaris: quia intrabo religionem, si mihi 
+      <lb ed="#S" n="4"/>videaturante copulam, aut post, te consentiente, vel fornican 
+      <lb ed="#S" n="5"/>te, vel etiam sub tali pacto, vt nec petas, nec reddas debitum: 
+      <lb ed="#S" n="6"/>sed viuamus in virginitate, vt frater, &amp; soror, &amp; in omnibus 
+      <lb ed="#S" n="7"/>aliissimus veri coniuges. Hoc enim ecclesia non 
+       prohi<lb ed="#S" break="no" n="8"/>buit, sicut prohibuit contrahi inhoneste: quia illud superue 
+      <lb ed="#S" n="9"/>niens matrimonio semper vituperatur: hoc autem laudatur: 
+       vn<lb ed="#S" break="no" n="10"/>de ecclesia commendat eum, qui derelicto thoro maritali 
+      <lb ed="#S" n="11"/>consentiente vxore continet: vnde quod laudat post 
+       ma<lb ed="#S" break="no" n="12"/>trimonium, non prohibet ante matrimonium, nec vnquam pa 
+      <lb ed="#S" n="13"/>ctum de re licita prohibetur: vnde si res, de qua est pactum, 
+      <lb ed="#S" n="14"/>sit licita, &amp; non prohibita, per consequens &amp; pactum, 
+      <lb ed="#S" n="15"/>qa actus habet bonitatem ex obiecto: vnde non potest dici: li 
+      <lb ed="#S" n="16"/>cet quidem continere, sed non licet pacisci de continentia: 
+       li<lb ed="#S" break="no" n="17"/>cet aliquando in symonia, &amp; vsura aliquid cum pacto est peccatum 
+      <lb ed="#S" n="18"/>vel maius, quod sine pacto non esset peccatum.
+    </p>
+            <p xml:id="khj78y-r00531-d1e422" n="10">
+      <!-- 10 -->secunda 
+      <lb ed="#S" n="19"/>conclusio ex praedictis est de matrimonio spirituali. Per prae 
+      <lb ed="#S" n="20"/>dicta enim patet ad eum, qui ingreditur religionem, quod quan 
+      <lb ed="#S" n="21"/>tuncumque intendat fieriepiscopus, vel fornicari, vel 
+       fura<lb ed="#S" break="no" n="22"/>ri, vel rebellare: quia tamen faciendo professionem, &amp; 
+       in<lb ed="#S" break="no" n="23"/>tendens esse verus religiosus, licet malus intendit se 
+       ob<lb ed="#S" break="no" n="24"/>ligare ad vota, licet non intendat soluere, quod promittit: 
+      <lb ed="#S" n="25"/>tamen consentit in promittendo: sola autem obligatio ad vota 
+      <lb ed="#S" n="26"/>non impletio est de essentia religionis. Nam 
+       essentiali<lb ed="#S" break="no" n="27"/>ter, &amp; vere potest esse religiosus, &amp; tamen erit fornicator, proprie 
+      <lb ed="#S" n="28"/>tarius, &amp; inobediens: propter quod etiam videt, quod Papa non 
+      <lb ed="#S" n="29"/>possit dispensare in voto continentiae solemnizato per profei 
+      <lb ed="#S" n="30"/>sionem: quia in praeceptis negatiuis nunquam quandiu 
+       ma<lb ed="#S" break="no" n="31"/>net obligatio ad non faciendum licet facere. Nunquam enim 
+      <lb ed="#S" n="32"/>licet mihi occidere, quando teneor non occideee. Vnde cum 
+      <lb ed="#S" n="33"/>obligatio ad non coeundum sit essentialis religioni, 
+       quam<lb ed="#S" n="34" break="no"/>diu manet religiosus: quod est vsque ad mortem, semper ma 
+      <lb ed="#S" n="35"/>net obligatio ad non coeundum: vnde impossibile est, quod 
+      <lb ed="#S" n="36"/>tandiu liceat coire, quia tunc liceret, &amp; non liceret. sed 
+       for<lb ed="#S" break="no" n="37"/>te potest Papa de religioso facere non religiosum, &amp; tunc 
+       ces<lb ed="#S" break="no" n="38"/>set obligatio: quia ipse posset destruere omnem religionem, 
+      <lb ed="#S" n="39"/>sicut destruxit aliquas: quia non reputatur religio nisi ap 
+      <lb ed="#S" n="40"/>probata a Papa, qui in approbando non potest sibi legem im 
+      <lb ed="#S" n="41"/>ponere a qua sibi non liceat recedere, sicut nec testator 
+      <lb ed="#S" n="42"/>in testando. ff. de legatis. l. si quando. si vero non solum non 
+       in<lb ed="#S" break="no" n="43"/>tenderet caste viuere: imo nec intenderet se obligare ad 
+      <lb ed="#S" n="44"/>hoc tunc non esset professus: quia haec intentio repugnat es 
+      <lb ed="#S" n="45"/>sentiae religionis. Et idem est de aliis votis. si vero 
+       expri<lb ed="#S" break="no" n="46"/>mat aliquid repugnans inhonestum, &amp; essentiale: puta, q 
+      <lb ed="#S" n="47"/>non intendat se obligare ad castitatem, vel aliquid tale non 
+      <lb ed="#S" n="48"/>valet professio, sicut nec valeret propter solam intentionem. 
+      <lb ed="#S" n="49"/>Et idem est, si dicat: Non intendo seruare castitatem promis 
+      <lb ed="#S" n="50"/>sam, quantumcunque promittam, &amp; haec expressa noceret: non 
+      <lb ed="#S" n="51"/>expressa non noceret ad similitudinem matrimonij carna 
+      <lb ed="#S" n="52"/>lis. si autem exprimat aliquid licitum: puta, quod de licentia 
+      <lb ed="#S" n="53"/>praelati custodiam pecuniam, vel aliquid tale, hoc non 
+       repu<lb ed="#S" break="no" n="54"/>gnat religioni, nec bonis eius, vnde non impedit 
+       profes<lb ed="#S" break="no" n="55"/>sionem. Non enim sic potest esse aliquid melius in 
+       religio<lb ed="#S" break="no" n="56"/>ne contrarium bonis religionis: sicut in matrimonio 
+       ali<lb ed="#S" break="no" n="57"/>qua sunt meliora contraria bonis matrimonij, vt 
+       conti<lb ed="#S" break="no" n="58"/>nentia, quam coitus.
+    </p>
+            <p xml:id="khj78y-r00531-d1e513">
+      <!--11--> Tertia conclusio est de matrimo 
+      <lb ed="#S" n="59"/>nio beatae Virginis &amp; Ioseph: quod fuit corporale, &amp; spi 
+      <lb ed="#S" n="60"/>rituale aliquo modo: quia per praedicta non patiemur diffi 
+      <lb ed="#S" n="61"/>cultatem in saluando veritatem matrimonij beatae Virginis, 
+      <lb ed="#S" n="62"/>&amp; perpetuitatem virginitatis etiam mente: quia licet proposuis 
+      <lb ed="#S" n="63"/>set contrahendo seruare virginitatem, si etiam expressisset non 
+      <lb ed="#S" n="64"/>propter hoc minus fuisset verum matrimonium: vnde 
+       vo<lb ed="#S" break="no" n="65"/>uenti virginitatem liceret matrimonium contrahere sub 
+       ta<lb ed="#S" break="no" n="66"/>li pacto, vt non petat debitum, nec exigat.
+    </p>
+            <p xml:id="khj78y-r00531-d1e535" n="12">
+      <!-- 12 -->Quantum 
+      <lb ed="#S" n="67"/>ad tertium sunt trea conclusiones. Prima, quod praeceptum, 
+      <!--0326.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>vel prohibitio iuris ciuilis scripti, vel consuetudinis 
+       cuius<lb ed="#S" break="no" n="69"/>cunque locorum nihil facit licitum, siue illicitum debitum, vel 
+      <lb ed="#S" n="70"/>necessarium in contractu matrimonij si est contra legem 
+      <lb ed="#S" n="71"/>Euangelij, sicut quod possit dari libellus repudij: excepta so 
+      <lb ed="#S" n="72"/>la causa fornicationis. extra de spons. c. 1. Imo etiam si est 
+      <lb ed="#S" n="73"/>contra Canones sanctorum Patrum: quia leges non 
+       dedi<lb ed="#S" break="no" n="74"/>gnantur sacros Canones imitari. 2.q. 3. Euthenium. 5. 
+      <lb ed="#S" n="75"/>1. in fi. de iudi. at si clerici. Vnde lex, quae obuiat sacrae 
+      <lb ed="#S" n="76"/>scripturae, &amp; decretis Papae, &amp; bonis moribus nullius 
+       de<lb ed="#S" break="no" n="77"/>bet esse momenti. dist. 10. Non licet. &amp; quatuor. c. sequen 
+      <lb ed="#S" n="78"/>tibus: quia diuina, &amp; canonica superior est ciuili. dist. 10. 
+      <lb ed="#S" n="79"/>Lege. Vnde lex, quae virginitatem, vel vidultatem tollit: &amp; le 
+      <lb ed="#S" n="80"/>gatum relictum sub conditione viduitatis, vel virginitatis 
+      <lb ed="#S" n="81"/>parum facit: quia est contra legem Euangelij, non tenet: 
+      <lb ed="#S" n="82"/>vergi gratia, secundum leges si vir relinquebat vxori 
+       lega<lb ed="#S" break="no" n="83"/>tum sub conditione, si permaneret in viduitate, lucraba 
+      <lb ed="#S" n="84"/>tur legatum, etiam contrahendo. C. de indicta 
+       viduita<lb ed="#S" break="no" n="85"/>te tollenda. I. Vna. quod erat contra viduitatem in fauorem ma 
+      <lb ed="#S" n="86"/>trimonij. Hoc autem est contra Euangelium, quod plus 
+      <lb ed="#S" n="87"/>fauet virginitati, quam viduitati: &amp; viduitati, quam matrimonio 
+      <lb ed="#S" n="88"/>secundum parabolam fructus centesimi, sexagesimi, &amp; trige 
+      <lb ed="#S" n="89"/>simi. Item mulier nubens infra annum tempore mortis pri 
+      <lb ed="#S" n="90"/>mi erat infamis, non est autem: imo Apostolus permittit 
+      <lb ed="#S" n="91"/>de secundis nuptiis. c. vlt. &amp; sic de similibus.
+    </p>
+            <p xml:id="khj78y-r00531-d1e598" n="13">
+      <!-- 13 -->secun 
+      <lb ed="#S" n="92"/>da conclusio est, quod praeceptum, &amp; ordinatio quaecunque legis 
+      <lb ed="#S" n="93"/>humanae, &amp; consuetudinis in matrimonio non habet effe 
+      <lb ed="#S" n="94"/>ctum, non solum si est contra ius diuinum, &amp; canonicum: imo 
+      <lb ed="#S" n="95"/>etiam si non est iure canonico approbata: quia causa 
+       matri<lb ed="#S" break="no" n="96"/>monij est spiritualis, &amp; ecclesiastica. Laicis autem in rebus 
+       ec<lb ed="#S" break="no" n="97"/>clesiasticis ordinandis non est tributa facultas: a quibus si 
+      <lb ed="#S" n="98"/>quid in talibus constitutum fuerit, nullius est firmitatis, 
+      <lb ed="#S" n="99"/>nisi ab ecclesia fuit approbatum. extra de constit. c. Eccle 
+      <lb ed="#S" n="100"/>sia sanctae Mariae. sciendum est tamen, quod si aliquid fuerit 
+       reli<lb ed="#S" break="no" n="101"/>ctum mulieri sub conditione si nubat, lucratur legatum, si 
+      <lb ed="#S" n="102"/>intret religionem, etiam iure ciuili nouissimo. secus autem 
+      <lb ed="#S" n="103"/>si in saeculo manens, vellet virginitatem seruare, quia non 
+       in<lb ed="#S" break="no" n="104"/>uenit expressum.
+    </p>
+            <p xml:id="khj78y-r00531-d1e631" n="14">
+      <!-- 14 -->Tertia conclusio est corollaria ex 
+      <lb ed="#S" n="105"/>supradictis, quod. scilicet nullo statuto, vel consuetudine 
+       excusan<lb ed="#S" break="no" n="106"/>tur, qui ped agiant clericos: quia sicut in personis 
+       ecclesiasti<lb ed="#S" break="no" n="107"/>cis nihil possunt laici statuere: sic nec consuetudine intro 
+      <lb ed="#S" n="108"/>ducere. Et hoc est argumentum ad quaestionem nobilis, qui a tempo 
+      <lb ed="#S" n="109"/>re, a quo non extat, memoria consueuit in certo loco 
+       leua<lb ed="#S" break="no" n="110"/>re pedagium a laicis, &amp; clericis indistincte, in tantum, vt etiam 
+      <lb ed="#S" n="111"/>in contradictorio iudicio obtentum fuerit pro 
+       consuetudi<lb ed="#S" break="no" n="112"/>ne contra episcopum litigantem in curia Regis Franciae. Et dicunt 
+      <lb ed="#S" n="113"/>quidam, quod non est excommunicatus: quia Papa non potest aufet 
+      <lb ed="#S" n="114"/>re ius laicorum: &amp; quia non est nouum pedagium, sed antiquum: 
+      <lb ed="#S" n="115"/>contra hoc est directe symon in consilio Bituricen. Cum 
+      <lb ed="#S" n="116"/>enim omnes noua pedagia etiam in laicos instituentes sine 
+      <lb ed="#S" n="117"/>authoritate principis sunt excommunicati singulis annis 
+      <lb ed="#S" n="118"/>a Papa, etiam ipse excommunicat leuantes antiqua a clericis 
+      <lb ed="#S" n="119"/>non pro rebus mercatiuis. de immunitate ecclesiarum. c. 
+      <lb ed="#S" n="120"/>1. In consti. eiusdem legati, &amp; Bonifacij contraria consuetu 
+      <lb ed="#S" n="121"/>dine non obstante. de immu eccle. c. Quamquam. lib. 6. 
+       ex<lb ed="#S" break="no" n="122"/>communicat omnes singulares, &amp; interdicit vniuersitates 
+       con<lb ed="#S" break="no" n="123"/>traria facientes. Et non valet, quod dicitur ius acquisitum: quia 
+      <lb ed="#S" n="124"/>est contra legem naturalem, &amp; diuinam. Nam sicut decimae 
+      <lb ed="#S" n="125"/>sunt de iure naturali, vt qui seminant spiritualia, metant tem 
+      <lb ed="#S" n="126"/>poralia: sic contra ius naturale est, vt econtra clerici 
+       sol<lb ed="#S" break="no" n="127"/>uant pedagia laicis. vnde ab hac conditione terra 
+       sacer<lb ed="#S" break="no" n="128"/>dotum erat libera. Nec valet, quod dicitur Papae iniuste haec 
+      <lb ed="#S" n="129"/>statuisse: etia si sit sententia pastoris iniusta, &amp; iniqua 
+       ti<lb ed="#S" break="no" n="130"/>menda est, &amp; seruanda. Nec potest dici, quod habeat intolerabi 
+      <lb ed="#S" n="131"/>lem errorem expressum, cum multi periti dubitent. si enim 
+      <lb ed="#S" n="132"/>in his, quae sunt de apicibus iuris, vbi sunt contrariae 
+       do<lb ed="#S" break="no" n="133"/>ctorum sententiae, vel opiniones ferantur sententiae 
+       contra<lb ed="#S" break="no" n="134"/>tiae neutra diceretur nulla, quamuis oporteat alteram esse 
+      <!--0327.xml-->
+      <pb ed="#S" n="327"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>contra ius. Alias ius non est sufficiens ars aequi, &amp; boni, 
+       li<lb ed="#S" break="no" n="2"/>citum ab illicito separans: multo magis temerarium est di 
+      <lb ed="#S" n="3"/>cere sententiam iuris corpore clausam esse erroneam. Nec 
+      <lb ed="#S" n="4"/>valet, quod dicunt clericos ad pedagia teneri, sicut ad 
+       re<lb ed="#S" break="no" n="5"/>fectionem itinerum, &amp; pontium, quia causa pedagiorum est 
+      <lb ed="#S" n="6"/>tutela rerum, ad quarum restitutionem dominus tenet, si in terra 
+      <lb ed="#S" n="7"/>sua perdanturt quia illis de terra sua dominus gratis debet tute 
+      <lb ed="#S" n="8"/>lam pro reditibus, quos habet: vnde suis subditis non 
+       de<lb ed="#S" break="no" n="9"/>bet leuare vectigal, Matth. 19. ergo liberi sunt filij, sed 
+      <lb ed="#S" n="10"/>ab alienis, nec a quibuscunque, sed solum ab illis, qui causa 
+      <lb ed="#S" n="11"/>negotiationis: sed clericos tenet gratis tueri. extra de sententia 
+      <lb ed="#S" n="12"/>excom. Quantae. vnde licite nullus ab eis mercedem 
+       re<lb ed="#S" break="no" n="13"/>cipit pro tuendo, quos gratis tueri debet. sunt etiam 
+       ex<lb ed="#S" break="no" n="14"/>communicati illi, qui pro consuetudine iudicarunt, &amp; eam 
+      <lb ed="#S" n="15"/>seruari fecerunt: quia est contra libertatem ecclesiae, vt dicitur 
+      <lb ed="#S" n="16"/>in illa constitutione Greg. sanguisugaet sed contra de prae 
+      <lb ed="#S" n="17"/>script. c. 1. in. fi. lib. 6. quia non oportet allegare titulum ei, 
+      <lb ed="#S" n="18"/>qui habet praescriptionem temporis a quo non extat memo 
+      <lb ed="#S" n="19"/>ria &amp;c.
+    </p>
+            <p xml:id="khj78y-r00531-d1e749" n="15">
+      <!-- 15 -->solutio, tenet in decimis, &amp; aliis, quae 
+       lai<lb ed="#S" break="no" n="20"/>cis concedi solent: non autem quando praescriptio, vel con 
+      <lb ed="#S" n="21"/>suetudo est reprobata. Et licet clerici ad refectionem 
+      <lb ed="#S" n="22"/>itinerum &amp;c. non tamen Papa inconsulto: tamen de 
+       fa<lb ed="#S" break="no" n="23"/>cto legati confirmauerunt quandam talem talleam, 
+       impo<lb ed="#S" break="no" n="24"/>sitam clericis Carnotensibus pro pauimento vici. 
+       Argu<lb ed="#S" break="no" n="25"/>mentum in oppositum solutum est in primo articulo. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

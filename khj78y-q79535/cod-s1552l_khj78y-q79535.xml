@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="265"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q79535"><!-- l4d20-q4 -->
+            <head xml:id="khj78y-q79535-Hd1e101">Quaestio 4</head>
+            <head xml:id="khj78y-q79535-Hd1e103" type="question-title">
+     de indulgentiis, utrum tantum valeant, quantum sonant
+   </head>
+            <p xml:id="khj78y-q79535-d1e106">
+      <!--0265.xml-->
+               <pb ed="#S" n="265"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>QVAESTIO QVARTA. 
+      <lb ed="#S" n="2"/>De indulgentiis si valeant tantum, quantum sonant. 
+    </p>
+            <p xml:id="khj78y-q79535-d1e119">
+               <lb ed="#S" n="3"/>Thom. 4. distin. 20. q. 1. art. 3. 
+    </p>
+            <p xml:id="khj78y-q79535-d1e124">
+               <lb ed="#S" n="4"/>QVAERITVR quarto de indulgentiis, 
+      <lb ed="#S" n="5"/>vtrum tantum valeant, quantum sonant. Et vide 
+      <lb ed="#S" n="6"/>tur quod nūt quia aliquando dat indulgetia non to 
+      <lb ed="#S" n="7"/>lum plena, vel plenior, sed etia plentuima: 
+      <lb ed="#S" n="8"/>tunc enim sonat, quod sit immunis ab omni 
+      <lb ed="#S" n="9"/>poena, &amp; puia, quod non videt: quia etia ea fucrantibr impone 
+      <lb ed="#S" n="10"/>bai onia Romae.
+    </p>
+            <p xml:id="khj78y-q79535-d1e143" n="2">
+      <!-- 2 -->Contra, quia alias ecoleim aeciperes 
+      <lb ed="#S" n="11"/>homines.
+    </p>
+            <p xml:id="khj78y-q79535-d1e150">
+      <!--3 -->Respondeo, hic sunt tria facienda. Primo agendum est 
+      <lb ed="#S" n="12"/>de valore indulgentiarum. secundo, de authontate qs 
+       pos<lb ed="#S" break="no" n="13"/>sit eas dare. Tertio, de susceptione, cui scilicet prosunt.
+    </p>
+            <p xml:id="khj78y-q79535-d1e159" n="4">
+      <!-- 4 -->
+       Quan<lb ed="#S" break="no" n="14"/>tum ad orimum sunt tria vidanda: primo, de causa 
+       valoris<lb ed="#S" break="no" n="15"/>secundo, de valore in generali. tertio, i ipeciali.
+    </p>
+            <p xml:id="khj78y-q79535-d1e168" n="5">
+      <!-- 5 -->
+       Qua<lb ed="#S" break="no" n="16"/>tum ad primum sciendum, quod in valore indulgentiaru eat eri 
+      <lb ed="#S" n="17"/>plex causa: vna ex parte Chri, alia ex parte ictorum, tertia 
+      <lb ed="#S" n="18"/>ex narte ecclesiae. Ex parte Chriiti, quia Lmitus dotaun 
+      <lb ed="#S" n="19"/>ecclesiam sponsam suam nobili thesauro, de quo ista lumunt. 
+      <lb ed="#S" n="20"/>Primum ouidem est meritum, &amp; satisfactio Christi: cuius vna 
+      <lb ed="#S" n="21"/>abtea saneuinis suffecisset. vnde infinitus thelaurus. 
+       ec<lb ed="#S" break="no" n="22"/>clesiae restat ad mut uandūgratis peccatorib vnde toui 
+      <lb ed="#S" n="23"/>saciant: secunda causa est merita sanctorum, poenae, 
+       poenalita<lb ed="#S" n="24" break="no"/>teu &amp; pastiones eorum, qui multa supererogauerut, quam 
+       me<lb ed="#S" break="no" n="25"/>inerint octam eorum: tertia causa ex parte ecclenae aliqd. i. 
+      <lb ed="#S" n="26"/>pium opus spirituale, vel temporale: &amp; hoc nisi sit iuita cauta 
+      <lb ed="#S" n="27"/>tantae indulgentiae peccat concedens, quasi dilapidator tam 
+      <lb ed="#S" n="28"/>preciosi thesauri. videt tamen ei valere, qui conditionem imple 
+      <lb ed="#S" n="29"/>ret: nisi &amp; ipse illa impetraret: quia tunc &amp; ipse peccaret 
+      <lb ed="#S" n="30"/>fine causa suffiuienti impetrans. si ergo Papa proprio motu 
+      <lb ed="#S" n="31"/>morientem absolueret ab omni poena per modum indulgentiae: &amp; 
+      <lb ed="#S" n="32"/>illepie crederet, ille auolatet si nullam culpam haberet: etiam 
+      <lb ed="#S" n="33"/>si Papa iustam causam non haberet, licet si Papa sacramenta 
+      <lb ed="#S" n="34"/>liter finedigna pura absolueret, ille immunis non esset: quia 
+      <lb ed="#S" n="35"/>non est proprie debitum Deo quitare, sed ipsi' est sibi a Deo 
+      <lb ed="#S" n="36"/>traditum aliis dispensare, secundum illud. Dispensatio mihi 
+      <lb ed="#S" n="37"/>tradita est. vnde sicut verum sacramentum confert peccando: sic &amp; 
+      <lb ed="#S" n="38"/>veram indulgentiam. Alij dicunt, quod sicut non tenet alienatio 
+      <lb ed="#S" n="39"/>bonorum corporalium facta a dispensatore contra voluntatem 
+      <lb ed="#S" n="40"/>domini: sic nec valet collatio indulgentiarum facta a quocun 
+      <lb ed="#S" n="41"/>que fine iusta, &amp; rationabili causa, quia sit contra voluntatem 
+      <lb ed="#S" n="42"/>Dei.
+    </p>
+            <p xml:id="khj78y-q79535-d1e231" n="6">
+      <!-- 6 -->sed hic sunt tria dubia, primum est de merito san 
+      <lb ed="#S" n="43"/>ctorum: quia contra hoc arguunt quidam, quod merita 
+       sancto<lb ed="#S" break="no" n="44"/>rum non pertinent ad thesaurum ecclesiae sic. Illud quod 
+      <lb ed="#S" n="45"/>est plene remuneratum, vel remunerandum in faciente, non 
+      <lb ed="#S" n="46"/>videi satisfactorium pro alio: sed quicquid poenae sustinue 
+      <lb ed="#S" n="47"/>runt scti, vltra quam meruissent, est plene remuneratum, vel re 
+      <lb ed="#S" n="48"/>munerabitur resumpto corpore. ergo de illo nihil restat 
+      <lb ed="#S" n="49"/>pro nobis ad fatisfaciendum: &amp; possunt dicere cum prudentibus 
+      <lb ed="#S" n="50"/>virginibus: ne forte non sufficiat nobis, &amp; vobis. &amp; illud 
+      <lb ed="#S" n="51"/>Ezoch. Animas suas liberabunt, non filiorum: sed meritum 
+      <lb ed="#S" n="52"/>Christi est totus thesaurus ecclesiae: de cuius 
+       plenitudi<lb ed="#S" break="no" n="53"/>ne omnes accepimus &amp;c.
+    </p>
+            <p xml:id="khj78y-q79535-d1e260" n="7">
+      <!--7. -->sed contra, quia Deus nec 
+       Chri<lb ed="#S" break="no" n="54"/>stum, nec alium remunerat citra meritum, sed magis vltra. vnde 
+      <lb ed="#S" n="55"/>praemium correspondet merito, maxime si est meritum 
+       con<lb ed="#S" break="no" n="56"/>digni: quod si est in aliquo, fuit in Christo: in iustitia vide 
+      <lb ed="#S" n="57"/>retur, quod Christus plus meruisset, quae percepisset: quantum enim 
+      <lb ed="#S" n="58"/>sibi meruit tantum in se recepit: &amp; quantum aliia meruit, tan 
+      <lb ed="#S" n="59"/>tum in se recipient. vnde oem meritum est perfeste remunera 
+      <lb ed="#S" n="60"/>tum, vel remunerandum, in persona illius, pro quo factum 
+      <lb ed="#S" n="61"/>est. vnde si propter hoc nihil restat demeritis sanctorum: per 
+      <lb ed="#S" n="62"/>consequens nec de merito Christi, qui habet non solum quod 
+      <lb ed="#S" n="63"/>meruit, sed plusquam meruit, scilicet gloriam animae.
+    </p>
+            <p xml:id="khj78y-q79535-d1e287" n="8">
+      <!-- 8 -->
+       Prae<lb ed="#S" break="no" n="64"/>terea non est magis remuneratum, vel remunerandum, quod 
+      <lb ed="#S" n="65"/>fecerunt sancti, quam illud, quod nunc faciunt viui: sed non 
+      <!--0265.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="66"/>obstante, quod oratio in sinum orantis conuertat: &amp; quod omne 
+       bo<lb ed="#S" break="no" n="67"/>num, quod honfacit pro se, vel pro alio, super caput eius ad ple 
+      <lb ed="#S" n="68"/>nam remunerationem reuertatur: nihilominus tamen vnus pro alio 
+      <lb ed="#S" n="69"/>potest fatisfacere, &amp; satisfactio prodestalij: quando vnus pro alio 
+      <lb ed="#S" n="70"/>satissacere intendit. ergo quia sancti non solum pro se, sed eti 
+      <lb ed="#S" n="71"/>am pro corpore Christi: quod ost ecclefia, tota agere 
+       bo<lb ed="#S" break="no" n="72"/>na, &amp; pati mala volebant: sicot Paulus dicit. Omnia 
+       susti<lb ed="#S" break="no" n="73"/>neo propter electos, vt &amp; ipsi salutem consequantur, licet eis sit 
+      <lb ed="#S" n="74"/>remuneratum: nihilominus pro nobis potest esset satisfacto 
+      <lb ed="#S" n="75"/>rium.
+    </p>
+            <p xml:id="khj78y-q79535-d1e322" n="9">
+      <!-- 9 -->Vnde dicendum est ad argumentum, quod opus 
+       bo<lb ed="#S" break="no" n="76"/>num poenale sanctorum potest dupliciter confiderari: vno modo 
+      <lb ed="#S" n="77"/>inquantum est meritorium: &amp; sic non transgreditur personam, nisi 
+      <lb ed="#S" n="78"/>solum meritum Christi, qui sibi, &amp; aliis meruit. Caeterum vero 
+      <lb ed="#S" n="79"/>meritum sibi soli prodest: &amp; sic nullus alius a Christo plus 
+      <lb ed="#S" n="80"/>meruit, quae receperit, vel recenturus sit in seipso. scdlo mo 
+      <lb ed="#S" n="81"/>do prout est satisfactorium: &amp; sic iusti plus satisfecerunt, quae de 
+      <lb ed="#S" n="82"/>buerunt. Licet enim poena purgatorij sit maior omni poe 
+      <lb ed="#S" n="83"/>na mundi, non tamen sequitur: tale peccatum  meretur talem poenam ia 
+      <lb ed="#S" n="84"/>bureatorio. ereo grauissimam in mundo: alias nullus vos 
+      <lb ed="#S" n="85"/>set pati poenam vltra culpam: cum a veniali nullus sit 
+       immu<lb ed="#S" break="no" n="86"/>nis:cum tamen dicat Iob. Vtinam appenderent peccatum, quibus 
+      <lb ed="#S" n="87"/>iram mereor, &amp; calamitas, quam patior in statera: quasi 
+       a<lb ed="#S" break="no" n="88"/>rena maris haec grauiter apparerer.
+    </p>
+            <p xml:id="khj78y-q79535-d1e355" n="10">
+      <!-- 10 -->Item licet 
+       ho<lb ed="#S" break="no" n="89"/>mo non possit facere bonum pro alio, quin mereat, sic tum 
+      <lb ed="#S" n="90"/>potest pro alio soluere, quod non liberat se:sed illum solum. Vnde 
+      <lb ed="#S" n="91"/>fatisfactio, qua homo pro alio facit sibi quidem est meritoria, 
+      <lb ed="#S" n="92"/>&amp; non illi, sed illi est liberatoria, &amp; non sibi. Quia igitsan 
+      <lb ed="#S" n="93"/>cti plus sustinuerunt, quam meruerunt: hic autem non solu 
+       ani<lb ed="#S" break="no" n="94"/>mo merendi, sed satisfaciendi per se quidem primo: deinde pro 
+      <lb ed="#S" n="95"/>oibus indigētibus secundum ordinem ecclesiae. ideo illis primo 
+      <lb ed="#S" n="96"/>cedit in fatisfactionem secundum  aequalitatem culpae, &amp; poene 
+      <lb ed="#S" n="97"/>taliter soluta, vel perditum fuit, quod non est dicendum, vel re 
+      <lb ed="#S" n="98"/>feruai nobis indigentibus. sicut enim homo soluat conide 
+      <lb ed="#S" n="99"/>bitori, plusquam debeat dicent, quod si totum a se non deben 
+       ce<lb ed="#S" break="no" n="100"/>dat in solutum residuum pro socio: sic acquitat eum. sic 
+       er<lb ed="#S" break="no" n="101"/>ao in proposito. &amp; ideo &amp;c. In hoc ergo conueniunt sancti 
+      <lb ed="#S" n="102"/>cum Christo in his, quae fuerunt supererogationis, quod aliquid 
+      <lb ed="#S" n="103"/>ponunt in thesauro ecclesiae sicut Christus: sed in hoc dis 
+      <lb ed="#S" n="104"/>conueniunt, quod tota satisfactio Christi cesiit in thesaurum 
+      <lb ed="#S" n="105"/>pro caeteris, &amp; nihil pro se:ꝗa nullius debitor fuit, nec poe 
+      <lb ed="#S" n="106"/>nae priginalis, noc actualis: &amp; quia ab eo est thesaurus infi 
+      <lb ed="#S" n="107"/>nitus. Alij dutem sancti non: beata autem virgo medio modo 
+      <lb ed="#S" n="108"/>se habet, quia de suis poenalitatibus illud pro ea satisfecit, 
+      <lb ed="#S" n="109"/>quod erat poena peccati originalis, sicut mors naturae, 
+      <lb ed="#S" n="110"/>cuius ipsa debitrix fuit: reliquae autem eius poenalitates 
+      <lb ed="#S" n="111"/>sponte assumptae totae nobis cedunt, non illi, quae nullius 
+       cul<lb ed="#S" break="no" n="112"/>pae actualis rea fuit. Et idem est de martyrio innocentum, &amp; 
+      <lb ed="#S" n="113"/>aliorum, qui nec venialiter peccauerunt.
+    </p>
+            <p xml:id="khj78y-q79535-d1e414" n="11">
+      <!-- 11 -->Quod autem 
+      <lb ed="#S" n="114"/>aliqui dicunt, quod nec diminutio, nec remissio in sacramentis est, 
+      <lb ed="#S" n="115"/>nisi per solutionem factam de passione Christi non martyrum, 
+       ve<lb ed="#S" break="no" n="116"/>rum est, quia i baptismo non est poenae solutio, nec a Christo, 
+      <lb ed="#S" n="117"/>nec ab alio, quia dicit Ambro. quod in baptismo gratia Christi 
+      <lb ed="#S" n="118"/>omnia gratis condonat. Vbi autem est plena solutio, non est gratia 
+      <lb ed="#S" n="119"/>tuita condonatio vel remissio.
+    </p>
+            <p xml:id="khj78y-q79535-d1e432" n="12">
+      <!-- 12 -->sed'm dubium est de 
+      <lb ed="#S" n="120"/>merito Christi, &amp; quo ad poenam damni, &amp; quo ad poenansem 
+      <lb ed="#S" n="121"/>sus: quia quicquid sit de poena actualis pcti, quae ad poenam sensus, 
+      <lb ed="#S" n="122"/>non vr, quod poenam damni Christus soluerit qui illa non sustinuit 
+    </p>
+            <p xml:id="khj78y-q79535-d1e443" n="13">
+               <lb ed="#S" n="123"/>
+               <!-- 13 -->Item cum &amp; actuali mortali debeat̃ poena aeterna non 
+       fa<lb ed="#S" n="124" break="no"/>it tantum de poenalitate in morte Chri, nec intensiue, nec 
+       exten<lb ed="#S" break="no" n="125"/>siue, quantum est in poena sensui eterna, quae est in inferno. Vnde 
+      <lb ed="#S" n="126"/>cum aequalitas satisfactionis attendat secundum  comparationem 
+       poe<lb ed="#S" break="no" n="127"/>nae ad poenam: Christus quidem potuit mereri dimissionem poe 
+      <lb ed="#S" n="128"/>nae aeternae totalem damni, &amp; sensus: quae fit in baptismo adulti 
+      <lb ed="#S" n="129"/>peccatoris, &amp; commutationem aeternae in temporalem, quae fit in poenitentia: quia 
+      <lb ed="#S" n="130"/>in meredo diuinitas cooperata est: quia Deus agere, &amp; con 
+      <lb ed="#S" n="131"/>gere potest, &amp; sic meritum fuit infinitum, sed non potuit: vt 
+       vi<lb ed="#S" break="no" n="132"/>det satisfacere pro poena aeterna: quis non potuit ex huma- 
+      <!--0266.xml-->
+      <pb ed="#S" n="266"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>nitate sustinere tantam poenam, quanta est illa inferni: nec 
+      <lb ed="#S" n="2"/>diuinitas compassa est: quia pati non pontrimo videt, quod nec so 
+      <lb ed="#S" n="3"/>lutio poenae temporalis fieri potuit: quia non potuit esse tantus do 
+      <lb ed="#S" n="4"/>lor in morte Christi, qᷓtus est dolor debitus omnibus peccatis 
+      <lb ed="#S" n="5"/>confessis, &amp; confitendis etiam in hac vita.
+    </p>
+            <p xml:id="khj78y-q79535-d1e488" n="14">
+      <!-- 14 -->Dicendum est 
+      <lb ed="#S" n="6"/>igitur, quod Christus non solum omnibus meruitt sed pro omnibus 
+       sa<lb ed="#S" break="no" n="7"/>tisfecit: quia suppositum agebat, &amp; patiebat. Vnde non solum 
+       a<lb ed="#S" break="no" n="8"/>ctio merens: sed etiam pastio: satisfaciens infinita est. Non est 
+      <lb ed="#S" n="9"/>ergo ex insufficientia, quod pasiio Christi in sacramentis non soluit: 
+      <lb ed="#S" n="10"/>sed ex Dei ordinatione, qui gratis remittit. Et quod dicit, quod 
+      <lb ed="#S" n="11"/>reatus poenae non dimittit, nisi quia poena soluit, non est ve 
+      <lb ed="#S" n="12"/>rum: quia sicut tota obligatio ad poenam potest tolli liberali qui 
+      <lb ed="#S" n="13"/>tatione creditoris sine totali solutione, sic etiam pars potest 
+      <lb ed="#S" n="14"/>rom itti sine partiali solutione. Dicere aunt, quod. Deus in 
+       sa<lb ed="#S" break="no" n="15"/>cramentis, in quibus maxime liberalis existit, vnde &amp; sacra grae 
+      <lb ed="#S" n="16"/>vocanturi nihil gratis remittit, nec condonat, nisi quantum 
+      <lb ed="#S" n="17"/>sibi soluit, aut de thesauro coni ecclesiae, aut de bono 
+       the<lb ed="#S" n="18" break="no"/>sauro cordis, vel corporis, vel oris proprie est dicere De 
+      <lb ed="#S" n="19"/>um minus liberalem: &amp; licet in hoc esset liberalitas hominis  
+      <lb ed="#S" n="20"/>Christi nobis conicantis diuitias suae prooen alitatis: in hoc 
+      <lb ed="#S" n="21"/>tamen in nullo est liberalitas Dei, qui nihil de suo nobis do 
+      <lb ed="#S" n="22"/>nat: propter quod melius dicit, quod in sacramentis est liberaio a poena 
+      <lb ed="#S" n="23"/>tota, vel partiali, nou ex solutione, sicut in indulgentiis: 
+      <lb ed="#S" n="24"/>sed ex liberali Dei remissione. Ex merito quidem Christi 
+      <lb ed="#S" n="25"/>i.amore Christi, sed noo ex solutione Christi, q &amp; si pro 
+      <lb ed="#S" n="26"/>peccato naturae soluit, &amp; satisfecit, non sic tamen pro peccato personae. 
+      <lb ed="#S" n="27"/>sed cum vltra infinitum nihil sit, &amp; vnum infinitum aliud consu 
+      <lb ed="#S" n="28"/>mat, vel attingat, &amp; poena originalis esset infinita, &amp; 
+       in<lb ed="#S" break="no" n="29"/>tensiue: quia priuat bono infinito, &amp; extensiue quantum est de se: 
+      <lb ed="#S" n="30"/>vt patet de pueris in limbo, quorum poenia non finiet: ergo 
+      <lb ed="#S" n="31"/>fatisfactio quis fuerit infinita: exhausta tum fuit tollendo 
+      <lb ed="#S" n="32"/>poenam infinitam in baptisatis. nihil ergo remanetad solaem 
+      <lb ed="#S" n="33"/>dum in indulgentiis, vel pro actualibus pctie.
+    </p>
+            <p xml:id="khj78y-q79535-d1e553" n="15">
+      <!-- 15 -->Ad quod 
+      <lb ed="#S" n="34"/>dicendum est, quodi infinitis, quae sunt eiusdem rationis, σnum aliud 
+      <lb ed="#S" n="35"/>non excedit: sed infinitas Dei, quae est interminabilis vitae to 
+      <lb ed="#S" n="36"/>ta simul, &amp; perfecta possefiio, omnem aliam, &amp; lofinitas alias, si 
+      <lb ed="#S" n="37"/>essent, excedit: quin omnis infinitatis entis, &amp; possi bilis est cau 
+      <lb ed="#S" n="38"/>sa aequi uoca principalis. ergo maior. Item causa volunturia: 
+      <lb ed="#S" n="39"/>&amp; sic potest finire omne, quod est infinitum. vnde virtus 
+       diui<lb ed="#S" break="no" n="40"/>ne infinitatis ad infinita se praet extendere: &amp; adhuc illa xxce 
+      <lb ed="#S" n="41"/>dit, cum omnia ad enim comparata sint finita: imo sintmihil: quia 
+      <lb ed="#S" n="42"/>potest illorum infinitatem ad fiuitatem recbutere, t illotu entita 
+      <lb ed="#S" n="43"/>tem ad nihilitatem. Igit pascio Christi inquantum meritoria 
+      <lb ed="#S" n="44"/>&amp; inquantu satiffactoria, est infinita rartione  suppositi, quod 
+      <lb ed="#S" n="45"/>oent infinitates ex istentes, &amp; possibiles excedit: quia omnem poe 
+      <lb ed="#S" n="46"/>namdamni, &amp; sensus infinitam, &amp; finitam, &amp; nullam facere pont: 
+      <lb ed="#S" n="47"/>alioquin similiter argui posset, quod passio Christi pro vno so 
+      <lb ed="#S" n="48"/>lo posset satisfacere, cuius poeua est infinita, &amp; non pro duo 
+      <lb ed="#S" n="49"/>bus, sicut prius arguebat, quod pro originali, &amp; non actuali: ni 
+      <lb ed="#S" n="50"/>si diceret, quod dictum est.
+    </p>
+            <p xml:id="khj78y-q79535-d1e595" n="16">
+      <!-- 16 -->Tertium dubium est, quia ad 
+       po<lb ed="#S" break="no" n="51"/>testatem excellentiae Christi pertinet dare effectu sacramenti sine 
+      <lb ed="#S" n="52"/>sacro. ergo purus homo per indulgentias, quae non sunt sacramenta, non 
+      <lb ed="#S" n="53"/>potest dimittere poenam, quod est effestus sacramenti.
+    </p>
+            <p xml:id="khj78y-q79535-d1e606" n="17">
+      <!-- 17 -->Ad 
+      <lb ed="#S" n="54"/>quod dicunt quidam, quod potestas excellentiae est conferre prin 
+      <lb ed="#S" n="55"/>cipalem effectum sacramenti, qui est culpae remissio sine 
+       sa<lb ed="#S" break="no" n="56"/>cro: sed potestas ministerij potest conferre sine sacramento 
+       contra<lb ed="#S" break="no" n="57"/>rium effectum, qui est poenae dimissio. Vel dici potest, quod 
+       si<lb ed="#S" break="no" n="58"/>ne sacro habito in voto, vel in facto: nullus effectus 
+       sa<lb ed="#S" break="no" n="59"/>cramenti necessarij proprius conferri potuit, vel potest, nisi 
+      <lb ed="#S" n="60"/>a Christo: sed sacramento habito de facto, vel in voto, 
+       con<lb ed="#S" break="no" n="61"/>tingit effectum habere fine sacramento, si enim aliquis 
+      <lb ed="#S" n="62"/>sit contritus, &amp; antequam sit in mora confitendi, vel 
+       con<lb ed="#S" break="no" n="63"/>terendo, vel aliter poenitendo condignam poenitentiam 
+      <lb ed="#S" n="64"/>fecerit, a satisfaciendo non confitendo absoluitur: sicut 
+      <lb ed="#S" n="65"/>ergo sine sacramento actu suscepto potuit satisfacere pro 
+      <lb ed="#S" n="66"/>se de suo: sic &amp; per alium, vel per se de bonis spiritualibus 
+      <lb ed="#S" n="67"/>ab alio sibi concessis: &amp; maxime quando sacramentum suscepis 
+      <!--0266.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>voto, &amp; facto: &amp; de his, ad quae per sacramentum obligatus est. 
+      <lb ed="#S" n="69"/>Vnde sicut sine nouo sacramento ipsemet satisfacit: qui 
+      <lb ed="#S" n="70"/>non habet potestatem excellentiae, sic si Papa, vel alius 
+       ec<lb ed="#S" break="no" n="71"/>clesiae minister dat sibi, vnde soluat: non est hoc 
+       supple<lb ed="#S" break="no" n="72"/>re vicem sacramenti, quod etiam sine potestate ministerij fieri 
+      <lb ed="#S" n="73"/>pont.
+    </p>
+            <p xml:id="khj78y-q79535-d1e658" n="18">
+      <!-- 18 -->Quantum ad secundum. s de valore in generali 
+      <lb ed="#S" n="74"/>sunt tres conclusiones. Prima, quod tautum valent quantum 
+       so<lb ed="#S" break="no" n="75"/>nantetiam in foro Dei, hic, &amp; in purgatorio sic intelligen 
+      <lb ed="#S" n="76"/>do,quod qui lueratur indulgentias. 20. annorum, tantum sibi 
+       va<lb ed="#S" break="no" n="77"/>let ad remistione poenae pro peccatis suis, quantum valuisserit 
+      <lb ed="#S" n="78"/>illi: ro. anni in poenitentia iniuncti: si illis. 20: annis poeni 
+      <lb ed="#S" n="79"/>tuisset: aliter ecclesia deciperet. sed sicut poenitentia quando fit in 
+      <lb ed="#S" n="80"/>malori charitate tanto est magis satisfactoria: sic etiam isti. 
+      <lb ed="#S" n="81"/>2o. apni lucrati tamto sunt isti plus, vel minus satistacto 
+      <lb ed="#S" n="82"/>rij, quae illi, quanto poenitentia istius fuisset magis, vel minus fatis 
+      <lb ed="#S" n="83"/>factoria, quae illius. Et propter hoc maxime sunt vtiles indul 
+      <lb ed="#S" n="84"/>gentlae, &amp; securae pctoribus, qui saepe recidiuant, &amp; non 
+      <lb ed="#S" n="85"/>facile abstinent per totum annum a mortali, sicut abstinent 
+      <lb ed="#S" n="86"/>vno die, vel hora: propter quod prosunt eis saepe indulgen 
+      <lb ed="#S" n="87"/>tiae: quia illa hora sunt in statu bono:quibus non prodest 
+      <lb ed="#S" n="88"/>diutina poenitentia saepe per mortale mortificata
+    </p>
+            <p xml:id="khj78y-q79535-d1e695" n="19">
+      <!-- 19 -->
+       se<lb ed="#S" break="no" n="89"/>cunda conclusio, quod de poenitendis iniunctis est dubium, vtrum 
+      <lb ed="#S" n="90"/>solae iniunctae intelligantur: quibusdam probabile videt, quod de 
+      <lb ed="#S" n="91"/>poetritentiis iniungendis quasi diceret codies de tali poenitentia 
+      <lb ed="#S" n="92"/>qualis claue non errante debet iniungi: vt. L40. dies lucrati 
+      <lb ed="#S" n="93"/>em̃ sibi valeant, quantum illi. 40. dies, qui deberent ininm 
+      <lb ed="#S" n="94"/>gi valuissent, si in iuncti, &amp; facti fuissent: &amp; tunc non sequi 
+      <lb ed="#S" n="95"/>tur inaequalitat:qa quibusdam iniunguntur. 40. dies fine 
+      <lb ed="#S" n="96"/>ceruisia, &amp; nihil plus, aliis sine carnibus, aliis in pane, &amp; 
+      <lb ed="#S" n="97"/>aqua. Et tunc plus valerent de poenitentiis iniunctis vni, quae 
+      <lb ed="#S" n="98"/>alij, vel vnus habet iniunctam, &amp; alius non. Vnde est proba 
+      <lb ed="#S" n="99"/>bilis opinio. Alij dicunt, quod indulgentiae tantum valent, quan 
+      <lb ed="#S" n="100"/>tum sonant, &amp; plus, si plus intendit ille, qui dat: dum tamen 
+      <lb ed="#S" n="101"/>possit, concurrentibus tribus, de quibus dicet. sed si non 
+      <lb ed="#S" n="102"/>intendat dare, nisi quantum sonantetunc non relaxantur nisi 
+      <lb ed="#S" n="103"/>pniae iniunctae in foro poenitentiali. Vnde dicit, vere 
+       poenitenti<lb ed="#S" break="no" n="104"/>bus, &amp; confessis de iniunctis poenitentiis relaxamus. Vnde 
+      <lb ed="#S" n="105"/>&amp; si nihil est iniunctum, nihil remittii. si aliquid, tantum remirti 
+      <lb ed="#S" n="106"/>tur, quantum dicunt indulgentiae, vel pars, si non tantum est 
+      <lb ed="#S" n="107"/>iniunctum: quia in maiori summa minor inest. sed quando dai 
+      <lb ed="#S" n="108"/>plena, aut plenior, vel plenissima indulgentia peccatorum: 
+      <lb ed="#S" n="109"/>tuuc omnis  poena iniuncta, vel iniungenda in foro Dei, &amp; 
+      <lb ed="#S" n="110"/>ecclesiae remittii. i. soluit &amp; hic, &amp; in futuro. Alij dicunt, 
+      <lb ed="#S" n="111"/>quod videt iste esse sensus verborum. Remitto tibi vnum andum 
+      <lb ed="#S" n="112"/>de poenitentia iniucta. i. tantum minus punieris in purgatorio, 
+       quan<lb ed="#S" n="113" break="no"/>tum esset, si vno anno continue egisses poenitentiam in hac 
+       vita<lb ed="#S" break="no" n="114"/>Nec credunt, quod ppter has indulgentias generales minus 
+      <lb ed="#S" n="115"/>teneantur agere poenitentiam in hac vita. Et horum dictum satis vi 
+      <lb ed="#S" n="116"/>detur concordare aequitati: vt notat Inno. extra de poe. &amp; 
+      <lb ed="#S" n="117"/>re. c. Quod autem. Et ad argumentum contratium dicunt, quod 
+      <lb ed="#S" n="118"/>ex quo forma indulgentiarum non distinguit quantacum 
+      <lb ed="#S" n="119"/>qi sit poenitentia iniuocta, pro diebus, uel annis remittitur aequa 
+      <lb ed="#S" n="120"/>liter minor, vel maior: non quia plus merear vnus, q aliust 
+      <lb ed="#S" n="121"/>sed ex impotetia distinguendi: ex parte indulgentiam 
+       con<lb ed="#S" break="no" n="122"/>cedentis, qui non potest poenitentiaedistinguere. Et ideo eligit, 
+      <lb ed="#S" n="123"/>quod om̃ibus est commune, puta dies, vel annus, aut pars 
+      <lb ed="#S" n="124"/>quota, quae etiam diuersa est secundum diuersitatem peccantium, 
+      <lb ed="#S" n="125"/>&amp; sic (licet per accidens) maior peccator plus lucratur. 
+    </p>
+            <p xml:id="khj78y-q79535-d1e781" n="20">
+               <lb ed="#S" n="126"/>
+               <!-- 20 -->Tertia conclusio est, quod si de poenitentiis tantum iniunctis 
+      <lb ed="#S" n="127"/>intelligit: tunc homo iturus ad indulgentias deberet 
+       con<lb ed="#S" break="no" n="128"/>fiteri oia pottata sua, &amp; facere sibi iniungi tot dies in pa 
+      <lb ed="#S" n="129"/>ne, &amp; aqua, quot habet illa indulgentia sub 
+       disiunctio<lb ed="#S" break="no" n="130"/>ne: &amp; tunc intentione se aquitandi, &amp; satisfaciendi ire illuc: 
+      <lb ed="#S" n="131"/>&amp; tantum sibi valeret, quantum illi dies si fecisset. semper enim 
+      <lb ed="#S" n="132"/>tutum est, quod poenitentia sub disiunctione imponatur, vel aequipol 
+      <lb ed="#S" n="133"/>lens indulgentia, &amp; tunc erit magis securus de 
+       indulgen<lb ed="#S" break="no" n="134"/>tia, quam de poenitentia: quia magis potest scire: se fuis- 
+      <!--0267.xml-->
+      <pb ed="#S" n="267"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>se in bono statu hora vna, quam multo tempore.
+    </p>
+            <p xml:id="khj78y-q79535-d1e814" n="21">
+      <!-- 21 -->Quantum 
+      <lb ed="#S" n="2"/>ad tertium. scilicet de valore in speciali sunt. 4. conclusiones. 
+       Pri<lb ed="#S" break="no" n="3"/>ma, de paupere, &amp; diuite, quia certum est, si est 
+       determina<lb ed="#S" break="no" n="4"/>ta indulgentia, &amp; taxata quantitas eleemosynae, sicut nunc 
+       ho<lb ed="#S" break="no" n="5"/>spitalariorum. qui dat. 24. denarios, habet. 24annos: qui au 
+      <lb ed="#S" n="6"/>tem non dat tantum: quia non potest, non lucratur indulgentiam. 
+       Li<lb ed="#S" break="no" n="7"/>cet enim alias bona voluntas sufficiat ad merendum: sed ad 
+      <lb ed="#S" n="8"/>satisfaciendum non sic. Nam qui morit paratus satisfacere: 
+      <lb ed="#S" n="9"/>non propter hoc est immunis: ita &amp; velle lucrari 
+       indul<lb ed="#S" break="no" n="10"/>gentias non facit eas lucrari. si autem simpliciter dicatur, 
+      <lb ed="#S" n="11"/>quod indulgentiam habeat, qui tali pio loco subuenerit, intel 
+      <lb ed="#S" n="12"/>ligit secundum suam conditionem.
+    </p>
+            <p xml:id="khj78y-q79535-d1e843" n="22">
+      <!-- 22 -->secunda conclusio est, quod 
+      <lb ed="#S" n="13"/>cum datur indulgentia visitandi talem ecclesiam, tot dies lucrat, q 
+      <lb ed="#S" n="14"/>venit de vico, quantum qui venit de vltra mare? sed sicut 
+      <lb ed="#S" n="15"/>plus valerent quatuor dies de poenitentia cum labore datae 
+       pere<lb ed="#S" break="no" n="16"/>grinationis, quae cum vno solo passu, vel duobus: sic &amp; plus 
+      <lb ed="#S" n="17"/>valent indulgentiae illi, quae isti.
+    </p>
+            <p xml:id="khj78y-q79535-d1e859" n="23">
+      <!-- 23 -->Tertia conclusio est, quia 
+      <lb ed="#S" n="18"/>dubitat, vtrum qualibet die lucret.
+    </p>
+            <p xml:id="khj78y-q79535-d1e866" n="24">
+      <!-- 24 -->Dicendum est, quod 
+      <lb ed="#S" n="19"/>sic quantum est de vi verborum: quia ita visitat, vel dat quis 
+       se<lb ed="#S" break="no" n="20"/>cunda vice eiusdem diei, sicut prima. vnde eandem ratione lucra 
+      <lb ed="#S" n="21"/>tur secunda vice, &amp; tertia, sicut pma: nisi allud appareat de 
+      <lb ed="#S" n="22"/>mente concedentis, vltra quam indulgentia non se extendit. In pe 
+      <lb ed="#S" n="23"/>remnibus ergo non apparet, quod magis voluerit de prima die, 
+      <lb ed="#S" n="24"/>quam de secunda, sicut nec de primo anno, quam de aliis: quia non 
+      <lb ed="#S" n="25"/>minus voluit visitari ecclesiam, cui dedit indulgentiam 
+       pe<lb ed="#S" break="no" n="26"/>rennem, quae illam, cui dedit temporalem. Vnde si ibi lucratur quoli 
+      <lb ed="#S" n="27"/>bet anno, ita &amp; hic: qua ratione autem quolibet anno, 
+       ea<lb ed="#S" n="28" break="no"/>dem ratione  quolibet die, &amp; mense. sed pluries in die non vi 
+      <lb ed="#S" n="29"/>dei sensisse: quia posset cedere in derisionem: quia non faceret 
+      <lb ed="#S" n="30"/>homo nisi ponere pedem, &amp; exire, &amp; redire. Videret etiam 
+      <lb ed="#S" n="31"/>non rationabile, si toties lucraret, &amp; supponendum, quod Papa 
+      <lb ed="#S" n="32"/>non potuit, vel noluit dare indulgentiam pro causa non 
+       iu<lb ed="#S" break="no" n="33"/>sta: sed de tpalibus videi voluisse, nisi semel.
+    </p>
+            <p xml:id="khj78y-q79535-d1e903" n="25">
+      <!-- 25 -->
+       Quar<lb ed="#S" break="no" n="34"/>ta conclusio est, vtrum indulgentiae datae durent post mortem 
+      <lb ed="#S" n="35"/>concedentis. Dicendum est de Papa, quod sic si hoc intendebat: 
+      <lb ed="#S" n="36"/>puta, si dixit quolibet anno simpliciter. si autem dixit 
+       vs<lb ed="#S" break="no" n="37"/>que ad quinquennium: vsque tunc valent, &amp; non plus, si 
+       supui<lb ed="#S" break="no" n="38"/>uat: nec minus si ante moriatur: quia gratiae non spirant per 
+      <lb ed="#S" n="39"/>mortem concedentis: &amp; de episcopis idem videt. Nam quas concedunt 
+      <lb ed="#S" n="40"/>in dedicationibus ecclesiarum perpetuo praedicamus. si autem 
+      <lb ed="#S" n="41"/>concederentur personae, puta vni conuerso ad illius vitam 
+       du<lb ed="#S" break="no" n="42"/>rant, non plus, sed locus est immortalis. vnde concesse, lo 
+      <lb ed="#S" n="43"/>co tandiu durant quantum locus: propter quod si ecclesia sic 
+      <lb ed="#S" n="44"/>destruat, quod oporteat eam dedicare iterum: per illam 
+       destru<lb ed="#S" break="no" n="45"/>ctionem primae indulgentiae destruunt.
+    </p>
+            <p xml:id="khj78y-q79535-d1e935" n="26">
+      <!-- 26 -->secundus arti 
+      <lb ed="#S" n="46"/>culus principalis est videre, quis possit dare, vbi sunt. 4
+      <lb ed="#S" n="47"/>conclusiones.
+    </p>
+            <p xml:id="khj78y-q79535-d1e944" n="27">
+      <!-- 27 -->Prima, quod Papa in hoc habet plenitudinem 
+      <lb ed="#S" n="48"/>potestatis: summus poenitentiarius, qui dat centum dies: 
+       lega<lb ed="#S" break="no" n="49"/>tus potest dare in sua prouincia indulgentias peremnes. de of 
+      <lb ed="#S" n="50"/>fi. le. c. vl. in glo. eps, &amp; superiores. 40. dies communiter: in 
+      <lb ed="#S" n="51"/>dedicatione autem vnum annum siue sit vnus, siue plures: sed 
+      <lb ed="#S" n="52"/>pro anniuersario non nisi. 40. dies. de priuil. c. cum ex eo. Ab 
+      <lb ed="#S" n="53"/>bas autem non potest dare indulgentias. de ex. praela. c. 
+       acceden<lb ed="#S" break="no" n="54"/>tibus. nec quicumque inferiores episcopis. Item archiepraes potest dare 
+      <lb ed="#S" n="55"/>per totam prouinciam indulgentias. de priuile. c. nostro. lib. 
+      <lb ed="#S" n="56"/>5. &amp;. c. 1. lib. 6. Quicunque autem potest dare nihilominus 
+      <lb ed="#S" n="57"/>potest dare, si est pctor, quam si sit iustus: quia siue pertineat ad 
+      <lb ed="#S" n="58"/>alterum forum, siue simul ad vtrunque, aequaliter potest quis 
+       il<lb ed="#S" break="no" n="59"/>la, quae sunt ordinis, &amp; iurisdictionis si sit malus, sicut bo 
+      <lb ed="#S" n="60"/>nus, nisi fit ab ecclesia praecisus. Qui autem esset ab 
+       eccle<lb ed="#S" break="no" n="61"/>sia praecisus non posset dare indulgentiam: quia indulgentiae 
+      <lb ed="#S" n="62"/>non prosunt nisi subditis. extra eo. Quod autem. Praecisus 
+      <lb ed="#S" n="63"/>autem non habet subditos, saltem quo ad vsum 
+       iurisdictio<lb ed="#S" break="no" n="64"/>nis: ex quo patet, quod vel solum sunt iurisdictiois, vel si sunt 
+      <lb ed="#S" n="65"/>ordinis cum hoc sunt iurisdictionis.
+    </p>
+            <p xml:id="khj78y-q79535-d1e988" n="28">
+      <!-- 28 -->secunda 
+       conclu<lb ed="#S" break="no" n="66"/>sio est, quod quidam dicunt, quod nullus potest dare indulgentias, ni 
+      <lb ed="#S" n="67"/>si sit sacerdos. Vnde si diaconus cardinalis dat, non debet 
+      <!--0267.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>dare: sed denunciare, sicut quaestores non dant, qui 
+       ali<lb ed="#S" break="no" n="69"/>quando sunt laici: sed solum denunciant: quia non potest in femissio 
+      <lb ed="#S" n="70"/>nem poenae fori poenitentiae, nisi qui potest id remissionem culpae. 
+      <lb ed="#S" n="71"/>Vnde Deus, qui remittit culpam pricipaliter remittit poe 
+      <lb ed="#S" n="72"/>nam aeternam. Absoluens autem, qui dispositiue remittit 
+       cul<lb ed="#S" break="no" n="73"/>Iitint qout tert iertrtiut tute sut ue fertiu t 
+      <lb ed="#S" n="74"/>dulgentiam remittitur poena non pertinens ad forum 
+       conten<lb ed="#S" n="75" break="no"/>tiosum laicum: quia cruco signatus, licet sit absolutus ab 
+      <lb ed="#S" n="76"/>omni poena: nihilominus suspendet, si prius meruit, nec quo 
+      <lb ed="#S" n="77"/>ad forum ecclesiasticum. Vnde poenitentiae iniunctae in capitulo 
+      <lb ed="#S" n="78"/>non propter hoc relaxantur: &amp; sic pertinent ad forum 
+       conscien<lb ed="#S" break="no" n="79"/>tiae. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1027" n="29">
+      <!-- 29 -->sed quod nullus, nec electus in Papam 
+      <lb ed="#S" n="80"/>possit dare indulgentias, nec ex authoritate, nec ex commis 
+      <lb ed="#S" n="81"/>sione, nisi consecratus in sacerdotem, vel in Papam, aut epraem, 
+      <lb ed="#S" n="82"/>non videtur verum de commissione. Videmus enim diaconos 
+      <lb ed="#S" n="83"/>cardinales indulgentias non solum denunciare: vt 
+       quae<lb ed="#S" break="no" n="84"/>stores faciunt, sed etiam conferre.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1043" n="30">
+      <!-- 30 -->Et ideo ad rationem 
+      <lb ed="#S" n="85"/>dicendum, quod proprie loquendo de diminutione poenae, quae 
+      <lb ed="#S" n="86"/>aamgee teonstencititutussus hatr gecstui tiat 
+      <lb ed="#S" n="87"/>in dando vnde soluat, potest quilibet, &amp; ipsemet poenitens, 
+      <lb ed="#S" n="88"/>qui se aquitat soluendo, &amp; alius priuatus, qui satistacit pro 
+      <lb ed="#S" n="89"/>eo.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1059" n="31">
+      <!-- 31 -->Praeterea ille, qui dat indulgentias, sic agit ad 
+      <lb ed="#S" n="90"/>remissionem, vel magis ad solutionem poenae, quod nihil agit ad 
+      <lb ed="#S" n="91"/>remissionem culpae. Illa ergo remissio poenae non supponis 
+      <lb ed="#S" n="92"/>in remittente potestatem remissionis culpae: sed in 
+       recipien<lb ed="#S" break="no" n="93"/>te indulgentias supponit remissionem culpae.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1073" n="32">
+      <!-- 32 -->Tertia 
+      <lb ed="#S" n="94"/>conclusio est, quod dicunt quidam, quod solus Papa iure ordinario 
+      <lb ed="#S" n="95"/>eas dat: &amp; si episcopus alicui concedat, illi denunciat, non dat: quia 
+      <lb ed="#S" n="96"/>delegat' non potest subdelegare.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1084" n="33">
+      <!-- 33 -->sed contra, quia summus 
+      <lb ed="#S" n="97"/>pniarius dixit me praesente, authoritate nostra 
+       ordina<lb ed="#S" break="no" n="98"/>ria damus vobis centum dies de indulgentia: qui potest dici 
+      <lb ed="#S" n="99"/>ordinarius in spiritualibus, sicut legat dicitur ordinarius in 
+      <lb ed="#S" n="100"/>tpalibus.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1097" n="34">
+      <!-- 34 -->Item delegatus a principe in his, quae sunt 
+       fi<lb ed="#S" break="no" n="101"/>dei, non potest subdelegare: sed episcopus committit praedicatoribus 
+      <lb ed="#S" n="102"/>dare indulgentias. ergo etiam est ordinarius in hoc, &amp; non de 
+      <lb ed="#S" n="103"/>legatus.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1108" n="35">
+      <!-- 35 -->Item lex dat ordinarie iurisdictionem, sed a 
+      <lb ed="#S" n="104"/>iure est, quod episcopus det. 40. dies. ergo authoritate ordinaria 
+      <lb ed="#S" n="105"/>hoc faciunt.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1117" n="36">
+      <!-- 36 -->sed contra hoc arguunt quidam sic. Ille so 
+      <lb ed="#S" n="106"/>lus potest dispensare thesaurum conem totius ecclesiae, qui praeest 
+      <lb ed="#S" n="107"/>toti ecclesiae, sed solus Papa est huiusmodi. &amp; indulgetiae 
+       dan<lb ed="#S" break="no" n="108"/>tur de coni thesauro. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1128" n="37">
+      <!-- 37 -->Dicendum, quod ad illum; 
+      <lb ed="#S" n="109"/>qui praeest ecclesiae toti pertinet dispensare generaliter 
+       omni<lb ed="#S" n="110" break="no"/>bus thesaurum ecclesiae: sed ad illum, qui praeest ecclesiae 
+       particu<lb ed="#S" break="no" n="111"/>lariter pertinet dispensare thesaurum non vniuersaliter, sed 
+       par<lb ed="#S" break="no" n="112"/>ticulariter. Vnde epraes solis subditis. Archiepraes per 
+       prouin<lb ed="#S" break="no" n="113"/>tiam, Papa per totum orbem potest dare. Item inferior Papa 
+      <lb ed="#S" n="114"/>non potest dare plenam, &amp; integram indulgentiam, sed partialem, 
+      <lb ed="#S" n="115"/>vt dictum est. Cum enim inter thesauros ecclesiae computent 
+       sa<lb ed="#S" break="no" n="116"/>cra: tunc nisi epraes iure suo thesaurum ecclesiae dispensaret: 
+      <lb ed="#S" n="117"/>iure suo non conferret omnia sacramenta, &amp; omnes consecrationes. 
+      <lb ed="#S" n="118"/>Et quod dicunt, quod nisi Papa sit consecratus in Papam, vel in 
+      <lb ed="#S" n="119"/>sacerdotem, quod non pont: est contra vsum ecclesiae: quia si esset hoc 
+      <lb ed="#S" n="120"/>ordinis sacerdotalis: tunc omni sacerdoti habenti subditos 
+      <lb ed="#S" n="121"/>competeret iure suo: sicut absoluere, quod est secundum  istos 
+      <lb ed="#S" n="122"/>de thesauro Christi soluere. vnde secundum istos cum in 
+       ba<lb ed="#S" n="123" break="no"/>pstutuu pueu us faues 
+      <lb ed="#S" n="124"/>zat, &amp; absoluit. Et quod dicunt, quod episcopus non est sponsus 
+       to<lb ed="#S" break="no" n="125"/>tius ecclesiae, sed sibi commissae. Vnde illius solius habet: 
+      <lb ed="#S" n="126"/>bona dispensare, non valet: quia cum ecclesia sit vna ipse potest 
+      <lb ed="#S" n="127"/>dici sponsus totius ecclesiae.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1175" n="38">
+      <!-- 38 -->Vel dicendum, quod in qua 
+      <lb ed="#S" n="128"/>libet ecclesia est thesaurus totius ecclesiae conis omnibus 
+       eccle<lb ed="#S" n="129" break="no"/>siis, quantum ad singularum ecclesiarum regimen est necesse. 
+      <lb ed="#S" n="130"/>Vnde de thesauro totius ecclesiae potest iste suae ecclesiae 
+       di<lb ed="#S" break="no" n="131"/>stribuere, &amp; dispensare, sed non alij.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1188" n="39">
+      <!-- 39 -->Et quod dicunt, quod 
+      <!--0268.xml-->
+      <pb ed="#S" n="268"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Papae conuenit rartione  ordinis, &amp; rartione  curae vniuersalis 
+       si<lb ed="#S" break="no" n="2"/>muli&amp; ideo nulli alteri, cui deest alterum, competit. 
+       Dicen<lb ed="#S" break="no" n="3"/>dum, quod imo ratione solius iurisdictionis vniuersalis 
+       vni<lb ed="#S" break="no" n="4"/>uersaliter, particularis particulariter.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1208" n="40">
+      <!-- 40 -->Et quod dicunt 
+      <lb ed="#S" n="5"/>quod iurisdictio solum respicit forum contentiosum: dicendum, quod 
+      <lb ed="#S" n="6"/>imo respicit forum pruae, quia non potest ligari, nec solui, nisi 
+      <lb ed="#S" n="7"/>subditus, nec sacramenta debent ministrari, nisi subdito, nec epraet 
+      <lb ed="#S" n="8"/>consecrationes facere, nisi in locis subditis. Quae omnia cum 
+      <lb ed="#S" n="9"/>sint spiritualia non pertinent ad forum contentiosum. ergo ad 
+       a<lb ed="#S" break="no" n="10"/>liquid iurisdictio se extendit: &amp; potest dici iurisdictio 
+       tempo<lb ed="#S" break="no" n="11"/>ralis, &amp; spiritualis, secundum quod tpalia, &amp; spiritualia subiectione re 
+      <lb ed="#S" n="12"/>quirunt.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1230" n="41">
+      <!-- 41 -->sed contra est, quia si epraes habet dare ex 
+       offi<lb ed="#S" break="no" n="13"/>cio indulgentias, sicut habet ordines conferre: tunc Papa non 
+      <lb ed="#S" n="14"/>posset eius idulgentias limitare, nec ad certum populum, nec 
+      <lb ed="#S" n="15"/>ad certam quantitatem: quin si contra faceret, teneret: sicut nec 
+      <lb ed="#S" n="16"/>potest facere, quod epraes ordinem verum non conficiat, vel conferat, 
+      <lb ed="#S" n="17"/>cum facit contra eius ordinationem, vel prohibitionem, puta 
+      <lb ed="#S" n="18"/>suspenso, vel extraneo.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1248" n="42">
+      <!-- 42 -->Dicendum, quod non est simile: quia 
+      <lb ed="#S" n="19"/>vtrumque quidem competit ex officio, sed alterum ratione ordinis 
+      <lb ed="#S" n="20"/>in quo non subest Papae, alterum ratione iurisdictionis: quam 
+       po<lb ed="#S" break="no" n="21"/>test ei Papa auferre, vel io totum, vel in partem si vult. Vnde 
+      <lb ed="#S" n="22"/>sicut Papa potest facere, quod sententia ab episcopo lata sit nul 
+      <lb ed="#S" n="23"/>la, sic &amp; quod indulgentia, de poe. &amp; re. c. vlt. lib. 6. 
+       Indulgen<lb ed="#S" break="no" n="24"/>tiae vires non obtinent si statutum excesserint concilij gene 
+      <lb ed="#S" n="25"/>ralis.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1268" n="43">
+      <!-- 43 -->Quarta conclusio est, vtrum aliquo modo possint 
+      <lb ed="#S" n="26"/>plures episcopi dare cidem loco, pro eandem causa vltra annum. Et vi 
+      <lb ed="#S" n="27"/>det quod non, quia causa propter quam conceduntur maiores, est 
+       de<lb ed="#S" break="no" n="28"/>dicatio: &amp; tamen pro illa etiam plures episcopi non possunt vltra annum. 
+      <lb ed="#S" n="29"/>de poe. &amp; re. c. vl. lib. 6. Et dicendum, quod imo. vnde si. xx. epraei 
+      <lb ed="#S" n="30"/>dent quilibet. 40. dies loco nostro in festo beati Dominici, 
+      <lb ed="#S" n="31"/>quilibet subditus cuiuslibet illorum lucrabitur. 40. diet, quia 
+      <lb ed="#S" n="32"/>licitum est eis tantum dare subditis suis, &amp; tantum vni quantum 
+      <lb ed="#S" n="33"/>alteri: ita autem punt dare loco extraneo, vel exempto, sicut 
+      <lb ed="#S" n="34"/>subdito: quia loco non acquiritur: sed solum subdito. vnde ita 
+      <lb ed="#S" n="35"/>posset dare epraes Parisiensis illis de sua diccesi indulgentias 
+      <lb ed="#S" n="36"/>pro eundo ad Vallem viridem, sicue pro eundo ad beatam 
+       vir<lb ed="#S" break="no" n="37"/>ginem: si autem episcopus loci confirmaret, tunc illi de dicecesi con 
+      <lb ed="#S" n="38"/>firmuntis lucrarentur. xx. quadragenas. Potest enim epraes 
+       v<lb ed="#S" break="no" n="39"/>nus de licentia alterius dare indulgentiam nomine suo, &amp; non 
+      <lb ed="#S" n="40"/>nomine licentiantis: sicut alienus sacerdos de licentia pprii 
+      <lb ed="#S" n="41"/>absoluit, sed non iure suo, iste autem praebet sibi materiam. 
+      <lb ed="#S" n="42"/>Tunc igit si pro festo, &amp; octaua patroni ecclesiae plures 
+      <lb ed="#S" n="43"/>epi vel simul, vel scorsum dant indulgentiam, &amp; epraes loci 
+      <lb ed="#S" n="44"/>approbat: videt etiam, quod valeat vltra. 40. dies: quamuis episcopus 
+      <lb ed="#S" n="45"/>non possit dare per se, nisi. 40. dies: quia isti episcopi dant nomine 
+      <lb ed="#S" n="46"/>suo: licet iste det eis materiam: &amp; quilibet iure suo, dum 
+      <lb ed="#S" n="47"/>tum habeat materiam subditam, potest dare. 40. dies: etiam si iste 
+      <lb ed="#S" n="48"/>quadragenae excedant annum, quia sicut extensio anni non 
+      <lb ed="#S" n="49"/>extenditur nisi ad dedicationem, sic nec restringitur. vnde si 
+      <lb ed="#S" n="50"/>cut vnus epraes in alio festo, quam dedicationis non potest 
+       da<lb ed="#S" break="no" n="51"/>re annum: sic non prohibentur in alio festo plures dare vl 
+      <lb ed="#S" n="52"/>tra annum, dum tamen nullusdet vltra 40. dies.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1332" n="44">
+      <!-- 44 -->Ter 
+      <lb ed="#S" n="53"/>tius articulus principalis est quibus indulgentiae prosint, 
+      <lb ed="#S" n="54"/>&amp; quibus non, vbi sunt sex conclusiones.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1341" n="45">
+      <!-- 45 -->Prima, 
+      <lb ed="#S" n="55"/>quod non prosunt existentibus in mortali peccato: vbi dicitur 
+      <lb ed="#S" n="56"/>in eis, vere poenitentibus, &amp; confessis: intelligo autem 
+       con<lb ed="#S" break="no" n="57"/>fessis in proposito, quia non oportet de facto, contra quod 
+       ta<lb ed="#S" break="no" n="58"/>mem est, quia in quibusdam exprimitur, vel quia infra mensem 
+       fue<lb ed="#S" break="no" n="59"/>rint confessi. vnde videtur ex mente, &amp; pactione ecclesiae con 
+      <lb ed="#S" n="60"/>cedentis, quod qui quando implet conditionem non est in statu, 
+      <lb ed="#S" n="61"/>postea recedente fictione recipiat effectum.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1361" n="46">
+      <!-- 46 -->secunda 
+      <lb ed="#S" n="62"/>conclusio, quod non implenti conditionem non prosunt 
+       si<lb ed="#S" break="no" n="63"/>ue paupertate, siue impotentia impediuntur, qm̃ non hoc 
+      <lb ed="#S" n="64"/>princeps vult, qm̃ qui iturus vltra mare moritur: nisi for 
+      <lb ed="#S" n="65"/>ma hoc habeat non consequitur. Antiqua enim forma, 
+      <lb ed="#S" n="66"/>quam ponit Hosti. de Iudaeis. ad liberandam. quotidie mu 
+      <lb ed="#S" n="67"/>tatur, &amp; innouat. si ergo daret indulgentia omnibus crucem 
+      <!--0268.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>sumentibus: eoipso, quod eam sumeret, &amp; si plus non faceret eam 
+      <lb ed="#S" n="69"/>lucrat. sed si dicai transfretantibus, non habet antequam sit vl 
+      <lb ed="#S" n="70"/>tra. si autem dicat euntibus: consequitur in via: &amp; sic de 
+       a<lb ed="#S" break="no" n="71"/>liis modis. si tamen vadat existens in mortali fructum non per 
+      <lb ed="#S" n="72"/>cipit, quousque sit poenitens, sed tunc sic. si quis autem 
+       su<lb ed="#S" break="no" n="73"/>mendo crucem non intendat ire, nisi dominus suus vadat, cum 
+      <lb ed="#S" n="74"/>quo ire intendit, illo mortuo, vel ire nolente non tenetur 
+      <lb ed="#S" n="75"/>ire: quia deficit conditio intenta: sed tale propositum quo vult 
+      <lb ed="#S" n="76"/>ire non simpliciter, sed sub conditione si interim moriatur, 
+      <lb ed="#S" n="77"/>non facit eum lucrari indulgentiam, quam lucraretur, si 
+       si<lb ed="#S" break="no" n="78"/>ne conditione ire decreuisset.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1407" n="47">
+      <!-- 47 -->Tertia conclusio est, 
+      <lb ed="#S" n="79"/>quod non prosunt non subdito, nisi de licentia proprij episco 
+      <lb ed="#S" n="80"/>pi, aut proprij ludicis. extra. eo. Quod autem. vnde videtur 
+      <lb ed="#S" n="81"/>sufficere licentia curati. sicut enim curatus non sacerdos 
+      <lb ed="#S" n="82"/>potest licentiare, vt non curatus sacerdos absoluat: quamuis 
+      <lb ed="#S" n="83"/>ipse non possit absoluere: quia allus iure suo absoluit, cum sit 
+      <lb ed="#S" n="84"/>sacerdos: dum tamen habeat materiam, sic &amp; hic sibi subdi 
+      <lb ed="#S" n="85"/>tum alteri tradit: &amp; ille cum sit epraes iure suo dat indulgen 
+      <lb ed="#S" n="86"/>tiam, quam iste tradens non posset dare: propter quod curati 
+      <lb ed="#S" n="87"/>absoluentes debent ei iniungere omnes indulgentias, quas 
+      <lb ed="#S" n="88"/>poterit obtinere.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1433" n="48">
+      <!-- 48 -->Quarta conclusio est, quod exemptis 
+      <lb ed="#S" n="89"/>prosunt non solum de licentia suorum superiorum, sed iure 
+      <lb ed="#S" n="90"/>communi: qui quo ad hoc non videntur exempti: quia hoc 
+       no<lb ed="#S" break="no" n="91"/>luerunt impetrare, quod esset malum suum, nec eximens conce 
+      <lb ed="#S" n="92"/>dere, quis non possint absolui ab episcopo in foro 
+       con<lb ed="#S" break="no" n="93"/>scientiae: quia ibi oportet ligari, &amp; non possunt ab eo ligari: sed 
+      <lb ed="#S" n="94"/>dans indulgentia ad nihil ligat, nec proprie soluit, sed the 
+      <lb ed="#S" n="95"/>saurum solum dispensat. Quia verodispensatio sibi tradita 
+      <lb ed="#S" n="96"/>est pro tota sua dicecesi, vt illud dispenset thesaurum 
+       Chri<lb ed="#S" break="no" n="97"/>sti: inde est, quod etia exemptis potest dispensari: quia sunt a sua 
+      <lb ed="#S" n="98"/>dicecesi: licet non subditi, quia etiam subditi suffraganeori 
+      <lb ed="#S" n="99"/>non sunt subditi metropolitano, a quo tamen indulgen 
+      <lb ed="#S" n="100"/>tias consequuntur: sed non potest epraes dare illis, quae non sunt 
+      <lb ed="#S" n="101"/>de sua diccesi, quia pro illis dispensationem non suscipit. 
+    </p>
+            <p xml:id="khj78y-q79535-d1e1466" n="49">
+               <lb ed="#S" n="102"/>
+               <!-- 49 -->Quinta conclusio est, quod illi qui dedit indulgentiam va 
+      <lb ed="#S" n="103"/>let, si implet conditionem: quia sibi potest homo accipere de 
+       bo<lb ed="#S" break="no" n="104"/>nis communibus, sicut aliis dispensare, quamuis sibi non possit 
+      <lb ed="#S" n="105"/>dare: quia inter dantem, &amp; accipientem debet esse differentia 
+       per<lb ed="#S" break="no" n="106"/>sonalis. Quod autem quidam dicunt, quod secum potest dispensare, 
+       si<lb ed="#S" break="no" n="107"/>cut cum alio, non videt: quia qui potest cum alio in irregularita 
+      <lb ed="#S" n="108"/>te dispensare, puta epraes, non propter hoc secum, nisi quantum 
+      <lb ed="#S" n="109"/>ius permittit. vnde proprie loquendo nullus secum dispensat: 
+      <lb ed="#S" n="110"/>licet authoritate iuris, vel superius vtat dispensatione. 
+    </p>
+            <p xml:id="khj78y-q79535-d1e1491" n="50">
+               <lb ed="#S" n="111"/>
+               <!-- 50 -->sexta conclusio est, quod indulgentia non solum valet illi, 
+      <lb ed="#S" n="112"/>qui implet conditionem: imo etiam alij pro quo hoc fit, siue 
+      <lb ed="#S" n="113"/>sit viuus, siue mortuus: dum tamen forma indulgentiae hoc ha 
+      <lb ed="#S" n="114"/>beat: puta, quod dicatur quicumque hoc feterit, vel pro quocunque 
+      <lb ed="#S" n="115"/>hoc fecerit siue viuus, siue mortuus, habeat tantum de 
+       indul<lb ed="#S" break="no" n="116"/>gentiis. secus autem si forma hoc non habeat: quia ille, qui 
+      <lb ed="#S" n="117"/>dat indulgentiam, est dispensator, &amp; applicat, cui vult: non 
+      <lb ed="#S" n="118"/>autem ille, qui implet conditionem. vnde, quod dicunt aliqui, quod 
+      <lb ed="#S" n="119"/>indulgentia ex intentione suscipientis transfertur in illum, qest 
+      <lb ed="#S" n="120"/>in purgatorio: non videtur nisi forma concedentis hoc habeat 
+      <lb ed="#S" n="121"/>quia sicut non extenditur vltra quantitatem non expressam, sic 
+      <lb ed="#S" n="122"/>nec personam transgrediunt, sed sunt stricti iuris: sed inten 
+      <lb ed="#S" n="123"/>tio dispensantis hoc facit: quia sicut bona viuorum eis commu 
+      <lb ed="#S" n="124"/>nicantur, sic &amp; thesaurus mortuorum. tamen Innocen. 
+       ex<lb ed="#S" break="no" n="125"/>tra cap. Quod autem. dicit, quod solius Papae indulgentia 
+       va<lb ed="#S" break="no" n="126"/>let defuncto.
+    </p>
+            <p xml:id="khj78y-q79535-d1e1530" n="51">
+      <!-- 51 -->Ad argumentum est dicendum, quod plena 
+      <lb ed="#S" n="127"/>indulgentia liberat ab omni poena peccatis debita, &amp; hanc 
+      <lb ed="#S" n="128"/>aequalitater omnes percipiunt, nisi quod si plus debet, ei plus di 
+      <lb ed="#S" n="129"/>mittit, sed hoc est per accidens. sed quomodo distinguan 
+      <lb ed="#S" n="130"/>tur illi gradus quo ad remissionem poenae, non apparet 
+      <lb ed="#S" n="131"/>nisi dicatur plena respectu poenae mortalium: plenior 
+       re<lb ed="#S" break="no" n="132"/>spectu poenae iniunctae mortalium, &amp; venialium, plenissima 
+      <lb ed="#S" n="133"/>respectu poenitentiarum iniunctarum, &amp; iniungendarum. 
+      <lb ed="#S" n="134"/>l. quae fuerunt iniunctae: &amp; debuerunt, &amp; potuerunt iniungi. 
+      <!--0269.xml-->
+      <pb ed="#S" n="269"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>vel sic, quod plena sit respectu poenae mortalium, plenior 
+       respe<lb ed="#S" n="2" break="no"/>ctu poenae mortalium, &amp; venialium, plenissima sit respectu 
+      <lb ed="#S" n="3"/>culpae venialium, quia potest remitti poena mortali debita, non 
+      <lb ed="#S" n="4"/>rem issa poena debita veniali, sicut &amp; culpa. &amp; potest sol 
+      <lb ed="#S" n="5"/>ni poena vnius peccati alia non soluta, &amp; plenior est solu 
+      <lb ed="#S" n="6"/>tio, vel remissio vtriusq, quam alterius tantum. potest etiam 
+      <lb ed="#S" n="7"/>vt videtur per indulgentiam, inquantum habet rationem 
+       cu<lb ed="#S" break="no" n="8"/>iusdam absolutionis remitti veniale quo ad culpam, sicut 
+      <lb ed="#S" n="9"/>&amp; per confesiionem generalem non sacramentalem: sed ad hoc requirit 
+      <lb ed="#S" n="10"/>contritio, &amp; quantum ad hoc potest saluari, quod ibi dice 
+      <lb ed="#S" n="11"/>batur, quod vn usquisque secundum quod magis, vel minus 
+       deuo<lb ed="#S" break="no" n="12"/>te accederet, ob hoc plenius, vel minus plene reciperet 
+      <lb ed="#S" n="13"/>quod de remissione poenae plenaria dici non pont: sed solum 
+      <lb ed="#S" n="14"/>de remistione culpae, quam Papa ad plenum non potest re 
+      <lb ed="#S" n="15"/>mittere, nisi homo ad plenum conteratur: sed aliqua 
+       con<lb ed="#S" break="no" n="16"/>tritio est plene adiuncta Papali absolutione, quae per se 
+      <lb ed="#S" n="17"/>non esset: &amp; coniuncta benedictione episcopali: quae per 
+      <lb ed="#S" n="18"/>se non sufficeret. sed quod dicit, quod poenitentiarius 
+       iniunge<lb ed="#S" break="no" n="19"/>bat poenitentiam, Papa eis mandauit, quod non plus iniungerent. 
+      <lb ed="#S" n="20"/>quia inuitis imponi non debebat, sed voluntariis poterat. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

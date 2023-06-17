@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="246"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q73103"><!-- l4d18-q8 -->
+            <head xml:id="khj78y-q73103-Hd1e101">Quaestio 8</head>
+            <head xml:id="khj78y-q73103-Hd1e103" type="question-title">
+     de inter 
+     dicto: utrum violans interdictum sit 
+       irregularis
+   </head>
+            <p xml:id="khj78y-q73103-d1e106">
+               <lb ed="#S" n="79"/>QVAESTIO OCTAVA. 
+      <lb ed="#S" n="80"/>De interdicto.
+    </p>
+            <p xml:id="khj78y-q73103-d1e113">
+               <lb ed="#S" n="81"/>OCTAVO &amp; vltimo quaeritur de inter 
+      <lb ed="#S" n="82"/>dicto: vtrum violans interdictum sit 
+       irregula<lb ed="#S" break="no" n="83"/>ris? Et videtur quod non: quia violans 
+       cessatio<lb ed="#S" break="no" n="84"/>nem, vel pollutionem non est ita irregularis, 
+      <lb ed="#S" n="85"/>quae pari passu currunt. ideo, &amp;c. Contra 
+      <lb ed="#S" n="86"/>de sen. excommunicationis Is qui. li. 6.
+    </p>
+            <p xml:id="khj78y-q73103-d1e129" n="2">
+      <!-- 2 -->Respondeo. circa hanc quaestio 
+      <lb ed="#S" n="87"/>nem sunt quatuor videnda. Primo, de interdictis &amp; pollu 
+      <lb ed="#S" n="88"/>tionibus latis a iure. secundo, de licitis &amp; illicitis tempore 
+      <lb ed="#S" n="89"/>interdicti. tertio, de effectu ipsius &amp; poena violantium. quar 
+      <lb ed="#S" n="90"/>to, subijcientur tractatus quorundam de interdicto.
+    </p>
+            <p xml:id="khj78y-q73103-d1e143" n="3">
+      <!-- 3 -->
+               <lb ed="#S" n="91"/>Circa primum sunt quatuor facienda. Primo, videndum est 
+      <lb ed="#S" n="92"/>de locis prophanis quae interdicta sunt: secundo, in quibus 
+      <lb ed="#S" n="93"/>casibus populus estinterdictus: tertio, in quibus casibus 
+      <lb ed="#S" n="94"/>loca sacra: puta Ecclesia vel cimiteria sunt a iure interdi 
+      <lb ed="#S" n="95"/>cta. quarto, in quibus casibus loca sacra polluuntur.
+    </p>
+            <p xml:id="khj78y-q73103-d1e159" n="4">
+      <!-- 4 -->
+               <lb ed="#S" n="96"/>Quantum ad primum sont quinque conclusiones secundum quin 
+      <lb ed="#S" n="97"/>que casus qui in his versibus continentur. Interdicuntur 
+       lo<lb ed="#S" break="no" n="98"/>ca per quinq, quae sequuntur. Foenus, pedagia, suburbia, 
+      <lb ed="#S" n="99"/>cardine, Papa.
+    </p>
+            <p xml:id="khj78y-q73103-d1e172" n="5">
+      <!-- 5 -->Primus. Foenus. Quicunq, domini in ter 
+      <lb ed="#S" n="100"/>ris suis vsurarios publicos aliunde oriundos habitare per 
+      <lb ed="#S" n="101"/>mittunt, per tres menses incurrunt sententiam suspensionis: si 
+      <lb ed="#S" n="102"/>sunt episcopi: excommunicationis si sunt clerici, 
+       interdi<lb ed="#S" break="no" n="103"/>cti si vniuersitas: quoniam si per mensem sustinuerit animo 
+      <lb ed="#S" n="104"/>indurato, extunc terrae ipsorum quandiu in ipsis ijdem vsurarij 
+      <lb ed="#S" n="105"/>commorantur, Ecclesiastico subiacent interdicto. de vsur. 
+      <lb ed="#S" n="106"/>c. 1. li. 6. vbi videtur, quod terrae laicorum non sunt interdictae 
+      <lb ed="#S" n="107"/>sed interdicendae: sicut &amp; domini non excommunicati, sed excom-
+       i<lb ed="#S" break="no" n="108"/>candi, vt ibidem dicitur, licet clerici non episcopi siut 
+       excom<lb ed="#S" n="109" break="no"/>municati ibidem.
+    </p>
+            <p xml:id="khj78y-q73103-d1e198" n="6">
+      <!-- 6 -->secundus. pedagia. Vniuersitas 
+       ciui<lb ed="#S" break="no" n="110"/>tatis, Castri seu loci alterius cuiuscunque, quae exigi facit 
+      <lb ed="#S" n="111"/>pedagia a personis Ecclesiasticis, pro rebus quas non met 
+      <lb ed="#S" n="112"/>cationis causa deferunt, sic punitur: quod ciuitas, vel castrum, 
+      <lb ed="#S" n="113"/>vel loc' eius Ecclesiastico subiaceat interdicto, quod non 
+      <lb ed="#S" n="114"/>potest relaxari donec exacta restituerint, &amp; de transgressio 
+      <lb ed="#S" n="115"/>ne eius satisfacerint competenter. Et mirum videtur quod 
+       perso<lb ed="#S" break="no" n="116"/>nae quae deliquunt non sunt iterdictae, sed locus. de censibus. c. 
+       qua<lb ed="#S" n="117" break="no"/>quam. li. 6.
+    </p>
+            <p xml:id="khj78y-q73103-d1e220" n="7">
+      <!-- 7 -->Tertius. suburbia. de sententia ex. c. si ciuitas. lib. 6. 
+      <lb ed="#S" n="118"/>si ciuitas, castrum, aut villa Ecclesiastico interdicto subijcia 
+      <lb ed="#S" n="119"/>turillorum suburbia &amp; continentia. 1. contigua aedificia eo ipo 
+      <lb ed="#S" n="120"/>intelligi volumus interdicta. Nam licet praedicta videantur 
+      <lb ed="#S" n="121"/>alias murorum abitu terminari, hoc tamen casu ne vilipendi 
+      <lb ed="#S" n="122"/>valeat interdicti sententia, quod fieret si posset ipsorum subur 
+      <lb ed="#S" n="123"/>bijs, vel continentibus aedificijs licite celebrari, vt prius 
+       ex<lb ed="#S" break="no" n="124"/>pedit interpretationem fieri latiorem. Vnde si principalis lo 
+      <lb ed="#S" n="125"/>cus est interdictus a iure, tunc totum est interdictum a iure. si 
+      <lb ed="#S" n="126"/>autem principalis locus est interdictus ab homine, 
+       accesso<lb ed="#S" break="no" n="127"/>rius est interdictus a iure. sed quia sublato principali re 
+      <lb ed="#S" n="128"/>mouetur accessorium: inde est quod relaxato vela moto 
+       inter<lb ed="#S" break="no" n="129"/>dicto, quo ad ciuitatem vel castrum, intelligitur amotum quo 
+      <lb ed="#S" n="130"/>ad suburbium, etiam si amonens erat talis, qui non potuisses 
+      <lb ed="#S" n="131"/>amouere interdictum iure principaliter positum, puta 
+       infe<lb ed="#S" break="no" n="132"/>rior episcopo: quia quaedam cum vniuersitate transeunt, qun 
+      <!--0247.xml-->
+      <pb ed="#S" n="247"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>alids non tranfirent.
+    </p>
+            <p xml:id="khj78y-q73103-d1e266" n="8">
+      <!-- 8 -->Quartus, Cardine. Ciuitas om 
+      <lb ed="#S" n="2"/>nis praeter vrbem: quae insequentibus hostiliter cardinalem, 
+      <lb ed="#S" n="3"/>consilium dederit, auxilium, vel fauorem, vel intra mensem 
+       ma<lb ed="#S" break="no" n="4"/>lefactores huiusmodi sicut debuerit, &amp; potuit non 
+       punie<lb ed="#S" break="no" n="5"/>rit: pontificali dignitate priuata est: &amp; nihilominus 
+       in<lb ed="#S" break="no" n="6"/>terdicta. de poenit. c. Felicis. in. fi. li. 6.
+    </p>
+            <p xml:id="khj78y-q73103-d1e283" n="9">
+      <!-- 9 -->Quintus. 
+       Pa<lb ed="#S" break="no" n="7"/>pa. quando in aliqua ciuitate imminet electio summi 
+       pon<lb ed="#S" n="8" break="no"/>tificis facienda, Dominus alijque rectores &amp; officiales ciui 
+      <lb ed="#S" n="9"/>tatis debent cardinales modo debito includere: Et 
+       sem<lb ed="#S" break="no" n="10"/>per his conuocatis clero &amp; populo luramentum praestare: 
+      <lb ed="#S" n="11"/>quod si non obseruent ea quae debent, vel fraudem committam, ci 
+      <lb ed="#S" n="12"/>uitas illa est interdicta &amp; pontifice priuata. de elec. c. vbi. 
+      <lb ed="#S" n="13"/>li. 6. De interdicto autem loci &amp; terrae videtur quod sic 
+       affi<lb ed="#S" break="no" n="14"/>ciat locum, quod quando terra alicuius Domini interdicitur, 
+      <lb ed="#S" n="15"/>sola terra quam possidet tempore sententiae latae est affe 
+      <lb ed="#S" n="16"/>cta. ita quod si postea nouam acquirat: illa non afficitur senten 
+      <lb ed="#S" n="17"/>tia antiqua: quia cautio damni infecti non extenditur ad 
+      <lb ed="#S" n="18"/>domos nouiter acquisitas. Et si alienauerit terram antiquam, 
+      <lb ed="#S" n="19"/>illa transit cum onere interdicti. Et similiter videtur 
+       quan<lb ed="#S" n="20" break="no"/>do est familia interdicta, vel de iure quod est raro: vel ab 
+      <lb ed="#S" n="21"/>homine, sicut saepe fit de consuetudine: qui tunc erat de 
+      <lb ed="#S" n="22"/>familia si recedat non desinit esse interdictus: &amp;qui de 
+       no<lb ed="#S" n="23" break="no"/>uo aduenit non incipit esse interdictus.
+    </p>
+            <p xml:id="khj78y-q73103-d1e325" n="10">
+      <!--10-->Quantum ad 
+      <lb ed="#S" n="24"/>secundum sunt etiam quatuor conclusiones, secundum quatuor 
+      <lb ed="#S" n="25"/>tasus: qui in his versibus continentur. Interdicuntur 
+       homi<lb ed="#S" n="26" break="no"/>nes quatuor quae sequuntur. Populus, atque locus: nec non 
+      <lb ed="#S" n="27"/>repressalia, foenus. Primus. populus dicitur de sententia ex. c. 
+      <lb ed="#S" n="28"/>si sententia. li. 6. quod interdicto populo, non interdicitur nec 
+      <lb ed="#S" n="29"/>clerus, nec econuerso. sed quando populus est interdictus, 
+      <lb ed="#S" n="30"/>quocumque vadat secum fert suum interdictum, nec debet 
+       admit<lb ed="#S" n="31" break="no"/>ti ad diuina. quando autem terra est interdicta, tūc illi de 
+      <lb ed="#S" n="32"/>terra alibi admittuntur. Item quando ad homines non 
+       interdi<lb ed="#S" n="33" break="no"/>stos veniunt homines, interdicit ille populus ad quem 
+       ve<lb ed="#S" n="34" break="no"/>nit homo interdictus, ex hoc ipso fit a iure interdictus, 
+      <lb ed="#S" n="35"/>quandiu ille ibi est: quia a iure est prohibitum, ne homo 
+      <lb ed="#S" n="36"/>interdictus admittatur ad diuina:imo suspenditur ab 
+       in<lb ed="#S" break="no" n="37"/>Ees: Iudste qu taules tite supns aiste estemee uett 
+      <lb ed="#S" n="38"/>alterius populi interdicti: &amp; multo magis si totus 
+       popu<lb ed="#S" break="no" n="39"/>lus: quia illo praesente sibi interdicuntur diuina. de priui 
+      <lb ed="#S" n="40"/>le. episcoporum.
+    </p>
+            <p xml:id="khj78y-q73103-d1e367" n="11">
+      <!--11 -->Secundus. Atq, locus. Eo ipso quod 
+       ho<lb ed="#S" break="no" n="41"/>mo declinat ad locum interdictum, fit interdictus quandiu 
+      <lb ed="#S" n="42"/>ibi est, quantum ad hoc quod ibi interdicuntur sibi diuina, etiam 
+      <lb ed="#S" n="43"/>plus quam illis de loco, qui si sunt clerici aut religiosi, intra 
+      <lb ed="#S" n="44"/>suam Ecclesiam possunt audire diuina. hic autem non: imo si 
+      <lb ed="#S" n="45"/>aliquis habet priuilegium celelebrandi tempore interdicti, li 
+      <lb ed="#S" n="46"/>cet possit admittere familiares suos, si est singularis 
+       per<lb ed="#S" break="no" n="47"/>sona: quod non potest conuentus, cuius aliquando 
+       familia<lb ed="#S" break="no" n="48"/>res sunt effrenata multitudo: tamen extraneum non habentem 
+      <lb ed="#S" n="49"/>super hoc priuilegium nullus admittere potest: de priuile. 
+      <lb ed="#S" n="50"/>e. licet. li. 6. Vnde nec isto casu admittentes talem 
+       interdi<lb ed="#S" break="no" n="51"/>ctum incurreret poenam iuris: quia non est proprie interdictum.
+    </p>
+            <p xml:id="khj78y-q73103-d1e396" n="12">
+               <lb ed="#S" n="52"/>
+               <!--12. -->Tertius. <sic>Repressalia</sic>. Vniuersitas quae aduersus 
+       per<lb ed="#S" break="no" n="53"/>sonas Ecclesiasticas concesserit repressalias, quibus alius 
+      <lb ed="#S" n="54"/>pro alio pignoratur, sicut habet consuetudo nundinarum 
+      <lb ed="#S" n="55"/>campaniae, quod mercatore deficiente quicumque de sua ciuitate 
+      <lb ed="#S" n="56"/>inuentus in corpore, &amp; in rebus capitur: nisi infra 
+       men<lb ed="#S" break="no" n="57"/>sem reuocauerit subiacet interdicto. de. iniur. ca. 1. li. 6. 
+    </p>
+            <p xml:id="khj78y-q73103-d1e416" n="13">
+               <lb ed="#S" n="58"/>
+               <!-- 13 -->Quartus. foenus. Vniuersitas quae vltra tres menses 
+      <lb ed="#S" n="59"/>ermittit alienigenas publice foenerantes in terra sua 
+       ha<lb ed="#S" break="no" n="60"/>bitare: ipso facto est interdicta. Et nihilominus terra eius 
+      <lb ed="#S" n="61"/>fit interdicta, si per mensem sustinuerit animo indurato 
+      <lb ed="#S" n="62"/>populus suum primum inter iudicium personale. Et istud 
+       sa<lb ed="#S" n="63" break="no"/>cundum locale interdictum durat, quandiu illi non 
+       expellun<lb ed="#S" break="no" n="64"/>tur: quod etiam videtur valde graue dem ciuitatibus 
+      lombar<lb ed="#S" break="no" n="65"/>diae, quae habent maximum districtum, vt si propter vnum vsura 
+      <lb ed="#S" n="66"/>rium inuno angulo toleratum, tota terra eorum sit interdi- 
+      <!--0247.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="67"/>cta. Et magis si Rex Franciae vnicum vsurarium in vno angu 
+      <lb ed="#S" n="68"/>lo regni sui sustineat, quod propter hoc totum regnum subiaceas 
+      <lb ed="#S" n="69"/>interdicto: propter quod videtur aliquibus, quod terra illa 
+      <lb ed="#S" n="70"/>in qua eum sustinet est interdicta, non alia: vt puta si Parisijs 
+      <lb ed="#S" n="71"/>sustinet, tota praepositura Parifijs uon plus: vt si capiatur 
+      <lb ed="#S" n="72"/>terra. scilicet illa portio in qua vsurarius sustinetur, secundum 
+      <lb ed="#S" n="73"/>diuisionem domini consuetam. Alijs videtur, quod sicut provni 
+      <lb ed="#S" n="74"/>co crimine etiam extra terram commisso, vel invno angulo de 
+      <lb ed="#S" n="75"/>quo esset incorrigibilis, tota terra regni iuste interdicere 
+      <lb ed="#S" n="76"/>tur: sic &amp; hic. sed hic notandum, quod aliquid singulare vide 
+      <lb ed="#S" n="77"/>tur esse in interdicto hominum, quia quando populus 
+       inter<lb ed="#S" break="no" n="78"/>dicituride quo dicitur: aquae sunt populi: in apocalip. 
+      <lb ed="#S" n="79"/>17. sicut estvna aqua numero, quauis continue varietur: 
+      <lb ed="#S" n="80"/>&amp; quae accedit reputatur, eadem: &amp; quae recedit diuersa. 
+      <lb ed="#S" n="81"/>sic in populo interdicto videtur, quod quicumque incipit esse 
+      <lb ed="#S" n="82"/>de nouo de hoc populo, hoc ipso sit interdictus sine noua 
+      <lb ed="#S" n="83"/>sententiae prolatione: &amp; econuerso: quando desinit de nouo 
+      <lb ed="#S" n="84"/>esse de populo, desinit esse iterdictus: quia si aliter esset: 
+      <lb ed="#S" n="85"/>tunc si populus ad quem talis de nouo accedit esset 
+       interdi<lb ed="#S" break="no" n="86"/>ctus, ipse esset ligatus duplici interdicto contra intentionem 
+      <lb ed="#S" n="87"/>ferentium, qui nolebant ligare illos qui non erant: &amp; plus: quia 
+      <lb ed="#S" n="88"/>sic contingeret populum primum omnibus primis mortuis 
+      <lb ed="#S" n="89"/>&amp; alijs subrogatis mutari, cessaret interdictum quod non 
+      <lb ed="#S" n="90"/>videtur: imo etiam qui nascuntur ex interdictis reputantur 
+      <lb ed="#S" n="91"/>interdicti, sicut &amp; si essent nati tempore lati primo interdi 
+      <lb ed="#S" n="92"/>cti: quia vniuersitas in quantum huiusmodi interdicitur, &amp; 
+      <lb ed="#S" n="93"/>non personae singulares, nisi per accidens. Quod 
+       autendici<lb ed="#S" break="no" n="94"/>tur extra. c. si sententia. 9. fi. qui singuli extra euntes de po 
+      <lb ed="#S" n="95"/>pulo interdicto non admittutur ad diuina: hoc est: quia 
+      <lb ed="#S" n="96"/>non recedunt animo illum populum deserendi: &amp; tunc est verum 
+      <lb ed="#S" n="97"/>quandio sunt de populo interdicto, sunt interdicti: non an 
+      <lb ed="#S" n="98"/>tem postquam desinunt esse de populo interdicto, licet 
+       se<lb ed="#S" break="no" n="99"/>cus sit de terra interdicta, vt dictum est: quia illa vt res sin 
+      <lb ed="#S" n="100"/>gularis afficitur, non vniuersitas. Et pari ratione secus de 
+      <lb ed="#S" n="101"/>familia interdicta, quae non est proprie collegium: nec 
+       vnl<lb ed="#S" break="no" n="102"/>nersitas vt dictum est iu fine primi articuli.
+    </p>
+            <p xml:id="khj78y-q73103-d1e523" n="14">
+      <!-- 14 -->Quantum 
+      <lb ed="#S" n="103"/>ad tertium sunt tres conclusiones, secundum tres casus qui in 
+      <lb ed="#S" n="104"/>his versibuscontinentur. Interdicuntur loca sacra, tribusque 
+      <lb ed="#S" n="105"/>sequuntur. Funerat inducens, haeret lealem, quoq, tangens.
+    </p>
+            <p xml:id="khj78y-q73103-d1e535" n="15">
+      <!-- 15 -->
+               <lb ed="#S" n="106"/>Primus Funerat inducens. Quando homo inducit ad ele 
+      <lb ed="#S" n="107"/>ctionem sepulturae alium per votum iuramentum: &amp; 
+       promistio<lb ed="#S" break="no" n="108"/>nem vel huiusmodi, quae liberam electionem vel mutationem 
+      <lb ed="#S" n="109"/>impediunt sic. scilicet quod sine peccato mutare non potest ex hoc 
+      <lb ed="#S" n="110"/>ipso electio non valet. sed ille tumulandus est illic, vbi erat 
+      <lb ed="#S" n="111"/>sepoltura non electa. si vero in Ecclesijs vel cimiterijs in 
+      <lb ed="#S" n="112"/>ducentium fuerint sepulti, sepelientes obligantur ad re 
+      <lb ed="#S" n="113"/>quiudiutit ru lut eugteut sigeuitue deumuimei 
+      <lb ed="#S" n="114"/>eosdem, infra dicendum integraliter faciendum. Quam nisi fa 
+      <lb ed="#S" n="115"/>cerit, ecclesiae ipsae apud quas sepulti fuerint, nec non &amp; ci 
+      <lb ed="#S" n="116"/>miteria earundem ex tunc eo ipso sint, &amp; tandiu maneant 
+       Ec<lb ed="#S" n="117" break="no"/>clesiastico supposita interdicto, donec ab eis facta fueris 
+      <lb ed="#S" n="118"/>restitutio plenaria praedictorum. de sepul. c. 1. li. 6. Vbi 
+       di<lb ed="#S" break="no" n="119"/>cunt quidam, quod intelligitur si in Ecclesia fuerit sepultus, 
+      <lb ed="#S" n="120"/>quia tunc Ecclesia cum cimiterio fit interdicta. si autem 
+       se<lb ed="#S" break="no" n="121"/>pultus fuerit talis in coemeterio, non propter hoc Ecclesia 
+      <lb ed="#S" n="122"/>fit interdicta, sed solum coemeterium. Item intelligunt de coeme 
+      <lb ed="#S" n="123"/>terio contiguo non alio, argumentum eius quod de pollutio 
+      <lb ed="#S" n="124"/>ne dicitur. de consec. Eccle. c. 1. li. 6. Et simile babetur de 
+      <lb ed="#S" n="125"/>interdicto. de sententia ex. si ciultas. 6. vlt. li. 6. Alijvero dicus 
+      <lb ed="#S" n="126"/>indifferenter, quod in quocumque illorum sepeliatur, vtrumque illorum 
+      <lb ed="#S" n="127"/>vbicumq, sit iterdicto subijcitur: sc3 Ecclefia &amp; coemeterium 
+      <lb ed="#S" n="128"/>ipsorum iducentium sepelientium: quia hic expraesse vtrumque se iterdi 
+      <lb ed="#S" n="129"/>cit. secus autem aliqf alterum tamen exprimitur. Nam tunc magis di 
+      <lb ed="#S" n="130"/>gnum trahit ad se minus dignum contiguum non econuerso, nec 
+       a<lb ed="#S" break="no" n="131"/>siem &amp; sic loquuntur iura illa: &amp; haec em verior opio. si autem 
+      <lb ed="#S" n="132"/>sine dolo, &amp; fraude, &amp; obligatione homo alium inducas 
+      <!--0248.xml-->
+      <pb ed="#S" n="248"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ad eligendum: vel mutandum sepulturam, non ipsum obligans 
+      <lb ed="#S" n="2"/>ad non mutandum locum non habet locum haec constitutio. Vbi 
+      <lb ed="#S" n="3"/>dubium est si ipsemet curatus hanc inductionem faciat, apud 
+      <lb ed="#S" n="4"/>quem erat de iure tumulandus, vtrum Ecclesia vel 
+       coemete<lb ed="#S" break="no" n="5"/>rium sint interdicta: &amp; videtur quod delictum suum non noceat 
+      <lb ed="#S" n="6"/>Ecclesiae, quando ibi sepeliatur.
+    </p>
+            <p xml:id="khj78y-q73103-d1e618" n="16">
+      <!-- 16 -->secunda 
+       haeretica<lb ed="#S" break="no" n="7"/>lem: quando haereticalis traditur scien. Ecclesiasticae sepul 
+      <lb ed="#S" n="8"/>turae, locus ille perpetua careat sepultura, ita quod reconcilia 
+      <lb ed="#S" n="9"/>tio hic nihil valet. Nec videtur, quod episcopus posset istud 
+      <lb ed="#S" n="10"/>interdictum amouere. quia quando dicit perpetua, amoues 
+      <lb ed="#S" n="11"/>inferioribus dispensationem. de haeret. c. quicumque. li. 6.
+    </p>
+            <p xml:id="khj78y-q73103-d1e634" n="17">
+      <!-- 17 -->
+               <lb ed="#S" n="12"/>Tertius. Quoque tangens, sicut in duobus primis casibus em 
+      <lb ed="#S" n="13"/>Ecclesia interdicta, vel coemeterium indistincte: scilicet 
+       il<lb ed="#S" break="no" n="14"/>le locus in quo aliquis sepultus erat interdictus, vel hae 
+      <lb ed="#S" n="15"/>reticalis. ita hic quando Ecclesia est interdicta ab homine 
+      <lb ed="#S" n="16"/>vel a iure, eo ipso coemeterium contiguum, capella contigua 
+      <lb ed="#S" n="17"/>reputantur interdicta: sicut ciuitate interdicta, suburbia 
+      <lb ed="#S" n="18"/>sunt interdicta. secus autem si non sunt contigua. extra. e. si 
+      <lb ed="#S" n="19"/>ciuitas. q. ratione lib. 6. Dico autem contigua, quorum vltima 
+      <lb ed="#S" n="20"/>sunt simul: vnde si inter Ecclesiam ex vna parte, &amp; capellam 
+      <lb ed="#S" n="21"/>&amp; coemeterium ex alia non est nisi paries medius, contigua 
+      <lb ed="#S" n="22"/>sunt: quia vltimum Ecclesiae est suus paries, qui est simul 
+      <lb ed="#S" n="23"/>cum terra capellae &amp; coemeterij: quia vtriusque superficies 
+      <lb ed="#S" n="24"/>est simul cum nihil solidum sit medium. si etiam paries capellae 
+      <lb ed="#S" n="25"/>&amp; coemeterij contigeret parietem Ecclesiae: idem esset. secus si 
+      <lb ed="#S" n="26"/>esset aliqua terra media inter duos parietes: quia illa so 
+      <lb ed="#S" n="27"/>la esset interdicta. 
+    </p>
+            <p xml:id="khj78y-q73103-d1e673" n="18">
+      <!--I8 -->Quantum ad quartum sunt sex 
+       con<lb ed="#S" break="no" n="28"/>clusiones, fecundum sex casus qui in his versibus 
+       continen<lb ed="#S" break="no" n="29"/>tur. sed polluuntur loca sacra sex quae sequuntur. 
+       san<lb ed="#S" break="no" n="30"/>guis: adulterium: sit principaleque tactum. sacrans, sepultus, gens 
+      <lb ed="#S" n="31"/>aut excommunicatus.
+    </p>
+            <p xml:id="khj78y-q73103-d1e686" n="19">
+      <!-- 19 -->Prima sanguis. Ecclesia &amp; 
+       cimete<lb ed="#S" break="no" n="32"/>rium reputantur polluta per sanguinis effusionem ibi factam 
+      <lb ed="#S" n="33"/>violenter, &amp; iniuriose: sicut per homicidium, &amp; 
+       mutila<lb ed="#S" break="no" n="34"/>tionem, vel aliam vulnerationem. de conse. di. 1. c. si motum. &amp;. 
+      <lb ed="#S" n="35"/>c. se. nec dt celebrari, nec ibidem sepeliri quousque reconcilie 
+      <lb ed="#S" n="36"/>tur. de pri. c. Tuarum. si autem homo sine alterius violentia, &amp; per 
+      <lb ed="#S" n="37"/>se ibidem emittat sanguinem per nares, non propter hoc polluitur. 
+      <lb ed="#S" n="38"/>Econuerso. si quis intra eam suspenditur, aut sine sanguinis effu 
+      <lb ed="#S" n="39"/>sione suffocatur, nihilominus reconciliatione indiget. si vero 
+      <lb ed="#S" n="40"/>alibi vulneratus illuc fugiens adhuc sanguinaret, vel mo 
+      <lb ed="#S" n="41"/>reretur, non propter hoc pollueretur. Econuerso, si ibivul. 
+      <lb ed="#S" n="42"/>neratus antequam ad terram sanguis decurreret exiret: 
+      <lb ed="#S" n="43"/>nihilominus: quia infra eam sanguinis effusionis causa 
+      <lb ed="#S" n="44"/>facta est, reconciliatione indiget. Et si martyr in ea occisus 
+      <lb ed="#S" n="45"/>est reconciliatione indiget: quia per mortem eius plus fit in 
+      <lb ed="#S" n="46"/>iuria Ecclesiae ex parte saeuientium: licet per pasiionem 
+       Ec<lb ed="#S" break="no" n="47"/>clesia honoretur, vt est illud. Actio displicuit passio 
+       gra<lb ed="#S" break="no" n="48"/>ta fuit: hoc est intelligendum de enormi, &amp; non de modica, 
+      <lb ed="#S" n="49"/>&amp; leui percussione: puta cum vnguibus, vel de naribus, aut 
+      <lb ed="#S" n="50"/>dentibus, &amp; huiusmodi. si autem lapis de superioribus ca 
+      <lb ed="#S" n="51"/>dens ibi hominem vulnerauerit. vel occiderit: vel furiosus 
+      <lb ed="#S" n="52"/>non habensvsum rationis haec ibi fecerit in se vel in alio: 
+      <lb ed="#S" n="53"/>non est homicidium, vbi deest mala voluntas hominis: ideo non 
+      <lb ed="#S" n="54"/>indiget reconciliatione. si vero aliquis suae mentis com 
+      <lb ed="#S" n="55"/>pos seipsum occideret, verum homicidium esset: vnde recon 
+      <lb ed="#S" n="56"/>ciliatione indiget.
+    </p>
+            <p xml:id="khj78y-q73103-d1e745" n="20">
+      <!-- 20 -->secundus. Adulterium. Emissio 
+       se<lb ed="#S" break="no" n="57"/>minis siue per adulterium, siue per simplicem fornicationem 
+      <lb ed="#S" n="58"/>polluit Ecclesiam, &amp; coemeterium: de conse. di. 1. Eccle. de con 
+      <lb ed="#S" n="59"/>se. eccl. c. vlt. de adu. significauit. Non autem si custos 
+       Ec<lb ed="#S" break="no" n="60"/>clesiae ibidem nocturno somno polluatur. si vero vir ibi 
+      <lb ed="#S" n="61"/>vxori debitum reddat, vel causa prolis debitum ibi petat, 
+       ni<lb ed="#S" break="no" n="62"/>hilominus ratione loci fit sacrilegium: quod alibi esset lici 
+      <lb ed="#S" n="63"/>tum. &amp; violatur locus &amp; polluitur: siue sint ibi, inclusi tem 
+      <lb ed="#S" n="64"/>pore guerrae, non audentes exire, siue alias. Cum autem vitium 
+      <lb ed="#S" n="65"/>sodomiticu sit grauius peccatum, quam adulterium: cum etiem sit cum se 
+      <lb ed="#S" n="66"/>minis effusione: reconciliatione indiget. Prepter occultam 
+      <lb ed="#S" n="67"/>autem seminis effusionem quantumcunque illicitam, &amp; innomi 
+      <!--0248.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>nabilem, quandiu occulta est. reconcilianda non est: sed ille 
+      <lb ed="#S" n="69"/>occulte puniendus est. Vnde sicut solemnis poenitentia 
+       num<lb ed="#S" n="70" break="no"/>quam pro occulto crimine imponenda est: ita cum reconcilia 
+      <lb ed="#S" n="71"/>tio Ecclesiae semper fiat cum solennitate: nunquam 
+       fa<lb ed="#S" break="no" n="72"/>cienda est nisi pro pollutione solenniter diuulgata. de 
+      <lb ed="#S" n="73"/>adult. c. significasti. si autem sacerdos sciat tantum per 
+      <lb ed="#S" n="74"/>confessionem Ecclesiam pollutam nec etiam in occulto tenetur 
+      <lb ed="#S" n="75"/>abstinere a celebrando ibidem: nec episcopo debet dicere 
+      <lb ed="#S" n="76"/>vt dicunt quidam: quod reconciliet Ecclesiam causa non expressas 
+      <lb ed="#S" n="77"/>quia ex his quae scit tanquam Deus, non prohibetur ipse vt 
+      <lb ed="#S" n="78"/>homo, nec arctatur ad aliquid faciendum vel omittendum- 
+    </p>
+            <p xml:id="khj78y-q73103-d1e803" n="21">
+               <lb ed="#S" n="79"/>
+               <!-- 21 -->Tertius. sit principalequetactum. quando Ecclesia 
+       pol<lb ed="#S" break="no" n="80"/>luitur quoquomodo, eo ipso intelliguntur polluta coeme 
+      <lb ed="#S" n="81"/>terium &amp; capella contigua, sicut de interdicto dictum fuit, non 
+      <lb ed="#S" n="82"/>autem econuerso: quia magis dignum trahit ad se minus 
+       di<lb ed="#S" break="no" n="83"/>gnum. secus autem si non sit contigua: sed eorum extrema 
+       adin<lb ed="#S" break="no" n="84"/>uicem separata: &amp; duorum coemeteriorum pariete 
+       disiun<lb ed="#S" break="no" n="85"/>ctorum: licet per ostium de vno ad aliud trenseantur, 
+       pol<lb ed="#S" break="no" n="86"/>lutio vnius non inficit aliud: de consecr. Ecclesi. capi. 
+       1<lb ed="#S" break="no" n="87"/>li. 6.
+    </p>
+            <p xml:id="khj78y-q73103-d1e827" n="22">
+      <!-- 22 -->Quartus. sacrans. si consecrans Ecclesiam, vel 
+      <lb ed="#S" n="88"/>benedicens cemoeterium sit publice excommunicatus, indiget 
+       re<lb ed="#S" break="no" n="89"/>conciliatione. Et hoc notat host. de conse. Eccle. 
+       cosului<lb ed="#S" n="90" break="no"/>sti. si autem excommunicatus publice ibi celebret, vel sepeliat, 
+      <lb ed="#S" n="91"/>non propter hoc necessaria est reconciliatio. de sacra. ite. c. 
+      <lb ed="#S" n="92"/>A nobis.
+    </p>
+            <p xml:id="khj78y-q73103-d1e843" n="23">
+      <!-- 23 -->Quintus. sepultus. gens. i. getilis: quia si 
+      <lb ed="#S" n="93"/>haereticus tunc videtur loc' non solum pollutus: sed 
+       interdi<lb ed="#S" break="no" n="94"/>ctus: quia dicitur de haereticis. c. 2. lib. 6. quodlocus ille 
+      <lb ed="#S" n="95"/>perpetua careat sepultura: quod non est de polluto, in 
+      <lb ed="#S" n="96"/>quo post reconciliationem potest sepeliri: quia haereticus 
+      <lb ed="#S" n="97"/>est deterior gentili. de hoc de conse. di. 1. Ecclesiam. de consec, 
+      <lb ed="#S" n="98"/>Eccle. c. consuluisti. si autem cathecuminus ante baptismum 
+      <lb ed="#S" n="99"/>ibi sepeliatur, licet fieri non debeat, tamen non polluitur 
+      <lb ed="#S" n="100"/>locus: quoniam non reputatur infidelis: sed creditur habuis 
+      <lb ed="#S" n="101"/>se baptismum flaminis: sicut nec de illo qui in suo 
+       sangui<lb ed="#S" break="no" n="102"/>ne baptizatur, &amp; tanquam martyr sepelitur: licet in tracta 
+      <lb ed="#S" n="103"/>tu de matrimonio quando dicitur, cultus disparitas 
+       diri<lb ed="#S" break="no" n="104"/>mit matrimonium, ibi accipitur fidelis cum ifideli. i. baptiza 
+      <lb ed="#S" n="105"/>tus cum non baptizato: etiam fideli. sed de puero filio fidelium 
+      <lb ed="#S" n="106"/>mortuo ante baptismum est consuetudo quorundam, quod nisi 
+      <lb ed="#S" n="107"/>mater in partu moriatur, non sepelitur in coemeterio 
+       be<lb ed="#S" break="no" n="108"/>nedicto. Nulli enim datur ecclesiastica sepultura, nisi de 
+      <lb ed="#S" n="109"/>quo creditur quod tunc vel quandoque intrabit in requiem 
+       Ec<lb ed="#S" break="no" n="110"/>clesiae triumphantis: non tame indiget reconciliatione: quia 
+      <lb ed="#S" n="111"/>licet non est fidelis: non tamen sit proprie gentilis vel 
+       infide<lb ed="#S" break="no" n="112"/>lis: ex quo est filius fidelium. Puer autem filius infidelium 
+       tu<lb ed="#S" break="no" n="113"/>mulatus bene pollueret, sicut si esset magnus. quando au 
+      <lb ed="#S" n="114"/>tem mater moritur in partu, enixum mortuum vel qui sta 
+      <lb ed="#S" n="115"/>tim ante baptismum moritur, consuetum est vt sepeliatur cum 
+      <lb ed="#S" n="116"/>ea, licet sciamus ipsum damnatum: quia reputatur quasi pars 
+      <lb ed="#S" n="117"/>viscerum: &amp; pro honore matris Christianae coniunguntur 
+      <lb ed="#S" n="118"/>in sepultura, quasi fuerint coniuncti &amp; nunquam separati 
+      <lb ed="#S" n="119"/>in vita: &amp; in morte, &amp; ideo non polluitur locus.
+    </p>
+            <p xml:id="khj78y-q73103-d1e906" n="24">
+      <!-- 24 -->
+       sex<lb ed="#S" break="no" n="120"/>tus. Aut excommunicatus. Ecclesia vel coemeterium vbi 
+       excommunica<lb ed="#S" break="no" n="121"/>tus publice sepelitur, eo ipso polluuntur. vt in dictis. c. 
+      <lb ed="#S" n="122"/>de conse. dist. 1. Ecclesiam de conse. Eccle. consuluisti. Verum est, 
+      <lb ed="#S" n="123"/>quod cum hic officiales aliquando ratione sepulturae excoicati 
+      <lb ed="#S" n="124"/>subijciunt locum interdicto: quamuis autem is cui est ingressus 
+      <lb ed="#S" n="125"/>Ecclesiae interdictus, si moriatur hoc interdicto durante, 
+      <lb ed="#S" n="126"/>non debet in Ecclesia vel coemeterio sepeliri, nisi 
+       poeni<lb ed="#S" break="no" n="127"/>tuerit: non tamen ibi sepultus facit locum pollutum, cum non sis. 
+      <lb ed="#S" n="128"/>excommunicatus. Et sic intellige. de sententia exco. c. Is cui. 6. 1. sed 
+      <lb ed="#S" n="129"/>de interdicto simpliciter qui non debet sepeliri, si non sit 
+      <lb ed="#S" n="130"/>clericus si sepeliatur dubium est vtrum locus per hoc pollus 
+      <lb ed="#S" n="131"/>tur. Et videtur quod non: quia non est in iure expressum.
+    </p>
+            <p xml:id="khj78y-q73103-d1e937" n="25">
+      <!--25. -->
+               <lb ed="#S" n="132"/>Quantum ad secundum principale, scilicet quae tempore gene 
+      <lb ed="#S" n="133"/>ralis interdicti permittuntur, &amp; quae prohibentur, sunt. 
+      <lb ed="#S" n="134"/>duae conclusiones. Prima conclusio. quod baptisiuttam paruu- 
+      <!--0249.xml-->
+      <pb ed="#S" n="249"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>lorum quam etiam adultorum solum quo ad substantiam: sed quo ad 
+      <lb ed="#S" n="2"/>solennitatem omnem tam cathecismi quam exorcismi permittitur.
+    </p>
+            <p xml:id="khj78y-q73103-d1e959" n="26">
+      <!-- 26 -->
+               <lb ed="#S" n="3"/>secunda conclusio. confirmatio, &amp; ratione eius etiam in coena domini 
+       chris<lb ed="#S" n="4" break="no"/>ma conficiendum est. de sententia ex. c. Q. li. 6. vbi tria praedicta 
+      <lb ed="#S" n="5"/>que ordinem continentur.
+    </p>
+            <p xml:id="khj78y-q73103-d1e971" n="27">
+      <!-- 27 -->Tertia conclusio. poenitentia quae licet 
+      <lb ed="#S" n="6"/>olim solis morientibus concederetur: nunc autem etiam sanis qui 
+      <lb ed="#S" n="7"/>non dederunt causam interdicto. Et illi etiam si posse suum 
+      <lb ed="#S" n="8"/>faciunt de satisfaciendo, &amp; meritor quia istud facim est 
+       ne<lb ed="#S" break="no" n="9"/>cessitatis, sicut baptismus, &amp; plusquam confirmatio. Vnde ma 
+      <lb ed="#S" n="10"/>gis debet concedi non solum femel in anno, sed iterum 
+      <lb ed="#S" n="11"/>&amp; iterum, &amp; quoties opus erit, vel placitum confiteri. 
+       ex<lb ed="#S" break="no" n="12"/>tra. ca. Alma: Quarta conclusio. Matrimonium 
+       concedi<lb ed="#S" break="no" n="13"/>tur: sed non benedictio nuptialis: imo negatur.
+    </p>
+            <p xml:id="khj78y-q73103-d1e993" n="28">
+      <!-- 28 -->
+               <lb ed="#S" n="14"/>Quinta conclusio. extrema quidem vnctio negatur omnibus 
+      <lb ed="#S" n="15"/>laicis: &amp; solum clericis &amp; religiosis est concessa. Ex quo 
+      <lb ed="#S" n="16"/>videtur non esse necessitatis: quia tunc non negaretur, sicus 
+      <lb ed="#S" n="17"/>nec baptismus nec poenitentia. Quidam autem dicūt, quod nec cleri 
+      <lb ed="#S" n="18"/>cis nec religiosis extrema vnctio conceditur tēpore 
+       inter<lb ed="#S" break="no" n="19"/>dicti, quia prohibētur omnia diuina, nisi illa quae specialiter per 
+      <lb ed="#S" n="20"/>mittūtur. Nunquam aūt specialiter iuenitur vnctio concessa 
+      <lb ed="#S" n="21"/>quibuscūque. Nam extra. de poe. &amp; re. Quod in te. priusquam 
+      <lb ed="#S" n="22"/>dixerat, quod vnctio &amp; sepultura omnibus interdicitur: dicit quod 
+      <lb ed="#S" n="23"/>sepultura clericis conceditur. Vnde tacendo de 
+       vnctio<lb ed="#S" break="no" n="24"/>ne, videtur eam in sua phibitione retinere. Alij dicunt, eo 
+      <lb ed="#S" n="25"/>ipso concedi vnctionem quae anime est necessaria, quod concedis 
+      <lb ed="#S" n="26"/>sepultoram soli corpori proficua.
+    </p>
+            <p xml:id="khj78y-q73103-d1e1026" n="29">
+      <!-- 29 -->serta conclusio de 
+      <lb ed="#S" n="27"/>ordine: quia cum ordines non nisi in missa solemni dentur, &amp; 
+      <lb ed="#S" n="28"/>missa non debeat solenniter celebrari: ideo nec ordines 
+      <lb ed="#S" n="29"/>in terra interdicta debent celebrari: etiam quando licet 
+       solem<lb ed="#S" break="no" n="30"/>niter celebrari in quatuor festis, quando minores ordines 
+      <lb ed="#S" n="31"/>alias dari possunt, nec in sabbato sancto quando alias 
+       maio<lb ed="#S" break="no" n="32"/>res dantur: quia iure antiquo erat prohibitum &amp;iure nouo 
+      <lb ed="#S" n="33"/>non est concessum.
+    </p>
+            <p xml:id="khj78y-q73103-d1e1046" n="30">
+      <!-- 30 -->septima conclusio de 
+       Euchari<lb ed="#S" break="no" n="34"/>stia, de qua iure nouo sic dicitur: In singulis monasterijs 
+      <lb ed="#S" n="35"/>diuina officia debent dici submissa voce, ianuis clausis, 
+      <lb ed="#S" n="36"/>interdictis exclusis. In Paschate autem &amp; Pentecoste, &amp; 
+      <lb ed="#S" n="37"/>Natali, &amp; assumptione beatae virginis, licet alta voce 
+       ia<lb ed="#S" break="no" n="38"/>nuis apertis solis excoicatis exclusis. sic tamem, quod illi qui 
+      <lb ed="#S" n="39"/>dederunt causam interdicto non appropinquent ad altare. 
+      <lb ed="#S" n="40"/>Vbi primo est sciendum: quia de monasterijs solum videtur 
+      <lb ed="#S" n="41"/>Hloqui: quod idem intelligendum est de Ecclesijs collegiatis in 
+      <lb ed="#S" n="42"/>quibus dlebus singulis est missa celebranda solenniter. 
+      <lb ed="#S" n="43"/>de cele mis. c. Cum creatura. Et similiter tempore interdicti 
+       cam<lb ed="#S" n="44" break="no"/>panis non pulsatis: sed lanuis clausis. &amp;c. Idem etiam, est 
+      <lb ed="#S" n="45"/>de prioratibus non conuentualibus: quia monasteria dicum 
+      <lb ed="#S" n="46"/>tur: sed in simplicibus parochijs videntur seruanda iura 
+      <lb ed="#S" n="47"/>antiqua, vt tantum semel in septimana licet celebrare, pro 
+      <lb ed="#S" n="48"/>Eucharistia pro infirmis seruanda. Item quod dicitur ad altare 
+      <lb ed="#S" n="49"/>nunquam appropinquet: quidam intelligunt de oblatione ad 
+      <lb ed="#S" n="50"/>altare, ad quam interdicti qui nonfuerunt causa possunt 
+       admit<lb ed="#S" break="no" n="51"/>ti: non autem illi qui fuerunt cansa: licet admittantur infra 
+       Ec<lb ed="#S" break="no" n="52"/>clesiam ad audiendum missam i sicut vsurarij manifesti, 
+      <lb ed="#S" n="53"/>qui non sunt excommunicati, nec ab ingressu Ecclesiae suspensi 
+      <lb ed="#S" n="54"/>sed tum ab altari. de vsurarijs. c. Quia ia omnibus. non autem in 
+      <lb ed="#S" n="55"/>telligunt hoc de conione quam dicunt hoc tpe interdicti 
+       nul<lb ed="#S" break="no" n="56"/>li debere dari: nisi in mortis articulo. sicut olim de 
+       poe<lb ed="#S" break="no" n="57"/>nitem. &amp; remis. Quod in te. quia in hoc nihil est immutatum. 
+      <lb ed="#S" n="58"/>Alijs autem videtur, quod statutum generalis concilij necessitatem 
+      <lb ed="#S" n="59"/>imponit semel in anno conicandi. Vnde cum sacramenta 
+       necesii<lb ed="#S" break="no" n="60"/>tatis, adminus in quantum sunt necessitatis, concedantur 
+      <lb ed="#S" n="61"/>tpe interdicti, per consequens conio semel in anuo maxime: quia 
+      <lb ed="#S" n="62"/>insepabiliter se concomitantur: &amp; appellatione poenitentiae 
+       via<lb ed="#S" break="no" n="63"/>ticum continet, vt in dicta decre. dicitur. Quod in te. Putarem 
+      <lb ed="#S" n="64"/>autem Papam super hoc consulendam. sed vtrum religiosi secundum 
+      <lb ed="#S" n="65"/>suam consuetudinem possint saepins communicare. Nam quod 
+       pos<lb ed="#S" break="no" n="66"/>sint sacerdotes in collegijs sicut prius celebrare, bene in 
+      <lb ed="#S" n="67"/>nnis decreta. non sic autem de simplici communiono. De hoc 
+      <!--0249.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>etiam putarem Papam consulendum. De festis autem illis videtur 
+      <lb ed="#S" n="69"/>festum omnium sanctorum quod est de maximis excipi debuisse, 
+      <lb ed="#S" n="70"/>quod est maius quam assumptionis: quia est de beata virgine &amp; 
+      <lb ed="#S" n="71"/>de omnibus sanctis, &amp; de Deo etium sicut officium ostendis 
+      <lb ed="#S" n="72"/>etiam commemoratio omnium fidelium defunctorum: quia sicutvna 
+      <lb ed="#S" n="73"/>communitate interdicta alia non interdicitur, sic non videtur propter 
+      <lb ed="#S" n="74"/>pctam viuentium: debere offerri suffragia defunctorum, qui sum 
+      <lb ed="#S" n="75"/>de alio foro, specialiter quod semel in anno tantum sit pro 
+       omni<lb ed="#S" n="76" break="no"/>bus. sed lex quamquam dura seruanda est, vt non extenda 
+      <lb ed="#S" n="77"/>tur plusquam extensa sit. Quod autem dicūt quidam a vespera 
+      <lb ed="#S" n="78"/>vsque ad vesperam debere intelligi, cum exclusione 
+       com<lb ed="#S" break="no" n="79"/>pletorij vltimi in illis quatuor festiuitatibus, non 
+       videtur<lb ed="#S" break="no" n="80"/>Nam si in illis festiuitatibus licet alta voce celebrare omnia 
+      <lb ed="#S" n="81"/>diuina, cum completorium diei sit pars magis quam 
+       completo<lb ed="#S" break="no" n="82"/>rium: vigiliae: &amp; festum quod habet secundas vesperas, semper habes 
+      <lb ed="#S" n="83"/>completorium cum eadem solemnitate: nec minori quam primum 
+      <lb ed="#S" n="84"/>completorium secundum ritum Ecclefiae: ideovtrumque includitur. simi 
+      <lb ed="#S" n="85"/>liter, quia licet officium communiter solennitatis incipiat a primis 
+      <lb ed="#S" n="86"/>vesperinquia tamen officium solemnitatis paschalis &amp;gaudia 
+      <lb ed="#S" n="87"/>amcipit i missa sabbati vbi etiam dicitur: Deus qui hac sacra 
+      <lb ed="#S" n="88"/>tissimam noctem: ideo tunc alta voce &amp; ianuis apertis hoc 
+      <lb ed="#S" n="89"/>potest fieri. quia si in vesperis potest, cum vesperae sint infra misiam, 
+      <lb ed="#S" n="90"/>ad missam videntur pertiuere: vnde vtrique debetur par 
+       ho<lb ed="#S" break="no" n="91"/>nor. Et similiter de Pentecoste: vnde &amp; in missa de vlgilia 
+      <lb ed="#S" n="92"/>dicitur praefatio sicut &amp; in die. similiter videtur de natalis 
+      <lb ed="#S" n="93"/>ua in missa devigilia solemnitas incipit. sed de assumptio 
+      <lb ed="#S" n="94"/>no bene diciuga solemnitas incipit in vesperis.
+    </p>
+            <p xml:id="khj78y-q73103-d1e1187" n="31">
+      <!-- 31 -->Octaua 
+      <lb ed="#S" n="95"/>conclusio. de bundictionibus est dicendum. quod omnis  solemnis 
+       benedi<lb ed="#S" break="no" n="96"/>ctio, sicut abbatum, abbatissarum, &amp; virginum, quae cum 
+       solenni<lb ed="#S" break="no" n="97"/>tate publice fieri solent, &amp;cum missa: vnde tpraee interdicti 
+      <lb ed="#S" n="98"/>cessant multo magis quam bundictio nuptialis, quae est mi 
+      <lb ed="#S" n="99"/>nor. Poene tamen qui interdictum posuit in eo dispensure pro 
+      <lb ed="#S" n="100"/>certo loco, &amp; tpraee, &amp; personis: nec per hoc soluitur interdictum 
+      <lb ed="#S" n="101"/>sicut dicitur in. c. Alma. quod quando interdicti admittuntur ad 
+      <lb ed="#S" n="102"/>poenitentiam, non propter hoc fit simpliciter relaxatio 
+       inter<lb ed="#S" break="no" n="103"/>dicti, vt propter hoc iterum oporteat sniam ferri. Vnde si 
+      <lb ed="#S" n="104"/>ille qui posuit interdictum tempore paschatis, vel amore 
+       fra<lb ed="#S" break="no" n="105"/>trum praedicatorum, vel minorum, relaxat ipsum in die festi 
+      <lb ed="#S" n="106"/>eorum, quo ad ipsos volentes interesse: ita tamen quod postea 
+      <lb ed="#S" n="107"/>remaneat, sicut prius potest facere: nec est suspensus si 
+      <lb ed="#S" n="108"/>hoc facit sine noua monitione: quia non est noua suia. Et fimi 
+      <lb ed="#S" n="109"/>liter dispensatine relaxando in pte, potest ept bundicere monia 
+      <lb ed="#S" n="110"/>les vel abbates &amp; huiusmodi: si tamen tulis interdictum vel talis fit, 
+      <lb ed="#S" n="111"/>cuius suiam ipe potest tollere alias non. In interdicto enim inter 
+      <lb ed="#S" n="112"/>dicitur omnibus hominibus in tota tali terra, toto tali tempore perticipa 
+      <lb ed="#S" n="113"/>tio diuinorum. sicut ergo potest amoueri ab omnibus, &amp; tota ter 
+      <lb ed="#S" n="114"/>ra, &amp; toto epe: ita &amp; a quibusdam, &amp; a quadam pte terrae, &amp; quo 
+      <lb ed="#S" n="115"/>domin die.
+    </p>
+            <p xml:id="khj78y-q73103-d1e1237" n="32">
+      <!-- 32 -->Nona conclusio. videtur quod similiter de 
+       excommunica<lb ed="#S" break="no" n="116"/>tione sit dominandum, licet quidam negent: quia licet episcopus non possit dare 
+      <lb ed="#S" n="117"/>lniam conicandi cum excommunicato. quamdiu excommunicat em:si tamen em talis 
+      <lb ed="#S" n="118"/>excommunicatio a qua ipse potest totaliter absoluere, &amp; 
+       respe<lb ed="#S" break="no" n="119"/>ctu omnium: siue quia ipe tulit: siue quia alias sibi competit: ita potest 
+      <lb ed="#S" n="120"/>eam partialiter tollere. Non est enim aliud excommunicatio, 
+       ni<lb ed="#S" break="no" n="121"/>si quoddam iurisvinculum eius rationis tantum quo iste prohibe 
+      <lb ed="#S" n="122"/>tur communicare omnibus, &amp; omnes illi. Absoluere vero non est 
+      <lb ed="#S" n="123"/>aliud, quae dare sibi licentiam conicandi omnibus, &amp; omnibus illi. si 
+      <lb ed="#S" n="124"/>autem potest interdici allcul colo omnium, multo magis coio 
+      <lb ed="#S" n="125"/>quorundam tantum: &amp; sic potest excommunicari partialiter respectu ho 
+      <lb ed="#S" n="126"/>minum, vel terrarum, sicut excommunicatio minor partialiter 
+      <lb ed="#S" n="127"/>excommunicat respectu cuium. Et similiter si potest licentiari vs 
+      <lb ed="#S" n="128"/>communicet cum oibus, quod est absolui simpliciter: pari rartione  ad 
+      <lb ed="#S" n="129"/>communionem in isto, vel cum isto loco vel tempore: quod est 
+       ab<lb ed="#S" break="no" n="130"/>solui partialiter. Et similiter de interdicto. Potest enim 
+      <lb ed="#S" n="131"/>ferri partialiter, puta, quod vbicumque talis erit, ꝗ̊diu ibi erit, 
+      <lb ed="#S" n="132"/>locus sit interdictus. Tunc enim illo intrante locus 
+       inci<lb ed="#S" break="no" n="133"/>pit esse interdictus, &amp; eo exeunte desinit, &amp; redeunte 
+       re<lb ed="#S" break="no" n="134"/>dit. Et similites potest partialiter telaxari. 
+      <!--0250.xml-->
+      <pb ed="#S" n="250"/>
+               <cb ed="#S" n="a"/>
+            </p>
+            <p xml:id="khj78y-q73103-d1e1290" n="33">
+               <lb ed="#S" n="1"/>
+               <!-- 33 -->Decima conclusio: quia quod dicitur in decreta. 
+       Al<lb ed="#S" break="no" n="2"/>ma. nihil immutat in sepultura. vnde soli clerici &amp; 
+       reli<lb ed="#S" break="no" n="3"/>giosi habent sepulturam in coemeterio benedicto, licet cum 
+      <lb ed="#S" n="4"/>flentio sine cantu debeat fieri officium. de peni. ouoam 
+      <lb ed="#S" n="5"/>in te. Laici vero extra coemererium interim sunt 
+       sepeli<lb ed="#S" break="no" n="6"/>non sunt transferendi:quia cui non communicam uo vioa 
+      <lb ed="#S" n="7"/>di. soluto autem interdictoad coemeterium vbi elegorant, 
+      <lb ed="#S" n="8"/>nec mortuo. Vnde sicut viui carent ingressu Ecclesiae: sic 
+      <lb ed="#S" n="9"/>mortuii coemeterio &amp; plus: quia si etiam morerentur. in qua 
+      <lb ed="#S" n="10"/>tuor festiuitatib', in quibus viui ingrediuntur Ecclesiam, non 
+      <lb ed="#S" n="11"/>propter hoc haberent tunc Ecclesiasticam sepulturam: ga vtrumque 
+      <lb ed="#S" n="12"/>at prius interdictum, &amp; modo alterum tantum legitur 
+       per<lb ed="#S" break="no" n="13"/>missum. Clerici vero sicut viui habent ingressum 
+       Eccle<lb ed="#S" break="no" n="14"/>siae, sed sine solemnitate, sic &amp; sepulturam, &amp; plus: quia si ex 
+      <lb ed="#S" n="15"/>craneus clericus vel religiosus veniat, qui quia 
+       priuile<lb ed="#S" break="no" n="16"/>giatus non est, non debet admitti ad diuina: nisi forte 
+      <lb ed="#S" n="17"/>psset samiliaris personae singolari ex speciali priaileeio 
+      <lb ed="#S" n="18"/>celebranti: nihilominus hic ad sepulturam Ecclesiasticam 
+      <lb ed="#S" n="19"/>admitteretur: quia iure antiquo hoc permittebatur, &amp; 
+      <lb ed="#S" n="20"/>a iure pouo non sic prohibetur admitti ad sepulturam, 
+      <lb ed="#S" n="21"/>sicus viuus ad missam, quamuis autem priuilegia quibos 
+      <lb ed="#S" n="22"/>cunque concessa ante decretalem Alma. sint per eam 
+       reno<lb ed="#S" break="no" n="23"/>cata, non tamen concedenda. vnde decret. de prini. licet ai 
+      <lb ed="#S" n="24"/>hil operatur quo ad priuilegia antiqua: sed quo ad 
+       con<lb ed="#S" break="no" n="25"/>cessa post decretalem. Alma.
+    </p>
+            <p xml:id="khj78y-q73103-d1e1349" n="34">
+      <!-- 34 -->Vndecima conclusio. quod 
+      <lb ed="#S" n="26"/>si est alicui postea concessum celebrare diuina tomporo 
+       in<lb ed="#S" break="no" n="27"/>terdicti, non debet admittere ad ea aliquem extraneum, nisi 
+      <lb ed="#S" n="28"/>ille priuilegium habeat postea similiter impetratum, vel nisi 
+      <lb ed="#S" n="29"/>sit suns familiaris. si vero esset conuentus habens istud 
+      <lb ed="#S" n="30"/>qii ilegium, qui potest habore nimis multos famillarea, &amp; 
+      <lb ed="#S" n="31"/>fort omnis de villa, qui per literas sunt ad beneficia recepti: &amp; 
+      <lb ed="#S" n="32"/>ficfrustraretur interdictuminon licet familiares istos ne 
+      <lb ed="#S" n="33"/>cipere copuentui plusquam extraneos: sed solo priuilegia 
+      <lb ed="#S" n="34"/>1os. Dicuntur autem famuli &amp; officiales inquisitorum 
+       pri<lb ed="#S" break="no" n="35"/>uilagiati, quod audiant diuina tempore interdicti. sed nisi 
+      <lb ed="#S" n="36"/>istud priuilegium sit renouatum post decretalem 
+       Alma<lb ed="#S" break="no" n="37"/>reuocatum est. si autem sit renouatum, tunc ipsi cum 
+       pri<lb ed="#S" break="no" n="38"/>uilegium non determinet sibi locum, vbique possunt 
+       ad<lb ed="#S" break="no" n="39"/>mitti ad diuina, quamuis sint extranei.
+    </p>
+            <p xml:id="khj78y-q73103-d1e1384" n="35">
+      <!-- 35 -->Quantum ad 
+      <lb ed="#S" n="40"/>tertium principale: quae scilicet sitpoena interdictum vio 
+      <lb ed="#S" n="41"/>lantium sunt septem conclusiones. Prima conclusis et 
+      <lb ed="#S" n="42"/>quod celebrans in Ecclesia interdicta, vel in coemeterio 
+       in<lb ed="#S" break="no" n="43"/>terdicto est irregularis. de sententia excommunicationis Is qui. nec potest ni 
+      <lb ed="#S" n="44"/>si per Papam dispensari. Et idem est in quocunque loco 
+       co<lb ed="#S" break="no" n="45"/>lebret, si ille locus est interdict ut &amp; cum hoc est 
+       sospen<lb ed="#S" break="no" n="46"/>sus ab ingressu Ecclesiae donec satisfaciat ad arbitrium 
+      <lb ed="#S" n="47"/>iudicis qui tulit sententiam interdicti, vel ad arbitrium episcopi si 
+      <lb ed="#S" n="48"/>est interdictum iuris. Vnde peccat mortaliter, quoties 
+       au<lb ed="#S" break="no" n="49"/>dit missam in Ecclesia, vel coemeterio quouso, 
+       satisfece<lb ed="#S" break="no" n="50"/>rit. Et hoc plus operatur suspensio, quam irregularitas.
+    </p>
+            <p xml:id="khj78y-q73103-d1e1413" n="36">
+               <lb ed="#S" n="51"/>
+               <!--36.-->Secunda conclusio est. quod si celebrat aliquis scienter coram 
+      <lb ed="#S" n="52"/>publice interdicto, propter hoc non est irregularis: sed est 
+      <lb ed="#S" n="53"/>sospensus ab ingressu Ecclesiaeve prius. de priuil. c. Epraeorum: 
+      <lb ed="#S" n="54"/>li. 6. &amp; est argumentum, quod si homo celebrat in Ecclesta in ous 
+      <lb ed="#S" n="55"/>episcopus excommunicabat oem qui ibi celebrabat sine sua licentia 
+      <lb ed="#S" n="56"/>speciali: non est irregularis: quia non est irregularis nisi pro 
+      <lb ed="#S" n="57"/>pter celebrare in excommuniratione. sed cum causa prior 
+      <lb ed="#S" n="58"/>sit effectu, ipse qui celebrauit est excommunicandus, non 
+      excommuni<lb ed="#S" break="no" n="59"/>catus. sicut homo non est irregularis prima vice, qua ce 
+      <lb ed="#S" n="60"/>lebrat coram interdicto: sed suspensus. sed si postea cele 
+      <lb ed="#S" n="61"/>brat, tunc est irregularis. Argumentum tamen contra: quia qui 
+      <lb ed="#S" n="62"/>ordine furtiue suscepit quando est excommunicatio lata ipse est 
+      <lb ed="#S" n="63"/>irregularis: ita quod cpraes potest quidme a snia absoluere: sed 
+      <lb ed="#S" n="64"/>non ab irregularitate, nisi Papa dispensaret, &amp; tamen non est 
+      <lb ed="#S" n="65"/>drregularis: nisi quia in excoicatione ordines suscepit. 
+      <lb ed="#S" n="66"/>Et dicendum quod ille est irregularis, non quia sit ordinaee e-- 
+      <lb ed="#S" n="67"/>communicans: sed quia scienter a non suo:le quo dicitur de tpi- 
+      <!--0250.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>ordi. lib. 6. manere perpetuo suspensos Perpetua autem su: 
+      <lb ed="#S" n="69"/>spensio est irregularitas. Vel dicendum, pepiscopus enesi 
+      <lb ed="#S" n="70"/>ca uerat omnem accedentem ad ordines, &amp; non solum omnem suscu 
+      <lb ed="#S" n="71"/>pientem: unde eo ipso quod açoessit ordinandlus, antequa ora 
+      <lb ed="#S" n="72"/>naretur erat excommunicatus. Et ita esset hic fi epraes 
+       excommuni<lb ed="#S" break="no" n="73"/>casset omnem q ibi aliquod diuinum officium exeroeret: quia tunc 
+      <lb ed="#S" n="74"/>statim in principio enissae fuisset excommonicat. sed qua. 
+      <lb ed="#S" n="75"/>do dixitoem q celebrauerit: quia non 
+       celebramiehuouse<lb ed="#S" break="no" n="76"/>missa finita fuit. ideo. &amp;c.
+    </p>
+            <p xml:id="khj78y-q73103-d1e1478" n="37">
+      <!--37. -->Tertia conclusio e ouuam 
+      <lb ed="#S" n="77"/>q publice iterdictum admittit adEcclefiasticam sepuleuram. 
+      <lb ed="#S" n="78"/>uel ad diuina nfficia, vel Ecclesiastica facia suspensus ed 
+      <lb ed="#S" n="79"/>vt prius: de priui. c. Episcoporum. li. c. Vnces eset abum 
+      <lb ed="#S" n="80"/>potens dare minorerordines, qui interdiceret 
+       aco<lb ed="#S" break="no" n="81"/>lytum, ipfe esset irregularis: quia peopter prianum erdina 
+      <lb ed="#S" n="82"/>tuisset suspensuae quia ad perfectucim bdmisissen postes 
+      <lb ed="#S" n="83"/>autem conferando alios iam suspensus esset istegulanit 
+       ii<lb ed="#S" break="no" n="84"/>co aut abbas: quia epa hanc poeham to incumita quianio es 
+      <lb ed="#S" n="85"/>expressum.
+    </p>
+            <p xml:id="khj78y-q73103-d1e1502" n="38">
+      <!-- 38 -->Quarto. poena estam dectetali nouiiima 
+      <lb ed="#S" n="86"/>Clementisq n eeuuites intirdiets Ema 
+      <lb ed="#S" n="87"/>sunt ipso facto excommunicati: &amp; similiter non cussimen e 
+      <lb ed="#S" n="88"/>sante: cum tamen dfiur contra cessationem faciens non ficiet 
+       irre<lb ed="#S" break="no" n="89"/>gularis. sed circae cessationem solum hoc est innouatum, 
+      <lb ed="#S" n="90"/>&amp; nihil aliod. Ideo sicut prius tempore cessationis non 
+       li<lb ed="#S" break="no" n="91"/>cebat celebrare etiam submissa voce, sic nec modo: nisi 
+      <lb ed="#S" n="92"/>prout consuetudo tempere cessationis in illa Ecclesia habe 
+      <lb ed="#S" n="93"/>bat. Plura auntliceret epe interdicti, &amp; tamen est vna poena 
+      <lb ed="#S" n="94"/>ecommunicationis vtrobique, quamuis non sit idem modus 
+       uiolan<lb ed="#S" break="no" n="95"/>di vtrumq, Verids tamen videtur, quod tempore cessationis non 
+       mi<lb ed="#S" break="no" n="96"/>nus liceat &amp; debeant dicere &amp; dici diuino officiu, quam 
+       tem<lb ed="#S" n="97" break="no"/>pore interdicti quod est arctius seruandum. sciendum tamen quod illa 
+      <lb ed="#S" n="98"/>noua decretalis Clementis: non intelligitur de 
+       cessationi<lb ed="#S" break="no" n="99"/>bus praelatorum, nisi sint vera interdicta: quia illi pfu ponere 
+      <lb ed="#S" n="100"/>verum interdictum: sed de cessationi bus capitulorum quae non 
+      <lb ed="#S" n="101"/>habet aliud remedium. Vnde in alijs cessationibus nec iure 
+      <lb ed="#S" n="102"/>nouo aliquid immutatum est de iure antiquo: nec est 
+       ali<lb ed="#S" break="no" n="103"/>qua excommtinicatio, nec suspensio, nec irregularitas. 
+    </p>
+            <p xml:id="khj78y-q73103-d1e1547" n="39">
+               <lb ed="#S" n="104"/>
+               <!-- 39 -->Quinto: quod celebrans in Ecclesia vel coemeterio pol 
+      <lb ed="#S" n="105"/>lutis, vel quodcumque aliud diuinum faciens, certum est quod non 
+      <lb ed="#S" n="106"/>est irregularis nec fuspensus. de sententia ex. ls qui. lib. 6.
+    </p>
+            <p xml:id="khj78y-q73103-d1e1558" n="40">
+      <!-- 40 -->
+               <lb ed="#S" n="107"/>sexto videtur dubium, vtrum sepeliens in loco interdicto 
+      <lb ed="#S" n="108"/>sit irregularis. Et dicunt quidam quod sic, si est interdictum ab 
+      <lb ed="#S" n="109"/>homine: secus si iure: quia mitius agitur cum lege, quam cum le 
+      <lb ed="#S" n="110"/>gis ministro. sed hoc non videtur: quia non inuenitur: sed 
+      <lb ed="#S" n="111"/>verum est, quod celebrans vel faciens celebrari diuina in loco in 
+      <lb ed="#S" n="112"/>terdicto, est suspensus. de priui. c. Episcoporum. Diuina 
+      <lb ed="#S" n="113"/>autem sunt non solum missa: sed etiam alia diuina officia. 
+      <lb ed="#S" n="114"/>Vnde videtur: quod sit suspensus talis qui solemniter: sepelit: 
+      <lb ed="#S" n="115"/>cum hoc inter diuina computetur. Vnde &amp; propter hoc simo 
+      <lb ed="#S" n="116"/>nia committitur.
+    </p>
+            <p xml:id="khj78y-q73103-d1e1584" n="41">
+      <!-- 41 -->septimo. quod de illo cui iterdictus est 
+      <lb ed="#S" n="117"/>sol' igressus Ecclesiae certum est, quod celebrans in Ecclesia vel 
+      <lb ed="#S" n="118"/>coemeterioest irregularis: no autem si alibi: vt supra dictum 
+      <lb ed="#S" n="119"/>est. sed si esset suspesus non solum ab ingressu Ecclesiae: sed 
+      <lb ed="#S" n="120"/>cum hoc a diuinis, tunc vbicumque diuina celebraret fieret 
+      <lb ed="#S" n="121"/>irregularis, sicut de sententia excommunicationis c. 1. li. 6.
+    </p>
+            <p xml:id="khj78y-q73103-d1e1600" n="41">
+      <!-- 42 -->
+       Cir<lb ed="#S" break="no" n="122"/>ca quartum principale. primo videndum est quid sit inter 
+      <lb ed="#S" n="123"/>dictum. scdo, quot modis dicatur. Tertio, quot sunt species 
+      <lb ed="#S" n="124"/>eius. Quarto, quam ob causam possit poni. Quito, qs possis 
+      <lb ed="#S" n="125"/>iterdicere. sexto, qs non possit. septimo, quo ordino 
+       pos<lb ed="#S" break="no" n="126"/>sit fieri siue debeat. Octauo, sub qua forma verborum. 
+      <lb ed="#S" n="127"/>Nono, quas poenat generaliter iferat. Decimo, quas speciali 
+      <lb ed="#S" n="128"/>ter. Vndecimo, quibus concedat gratias generaliter. Duodecimo, 
+      <lb ed="#S" n="129"/>quas permitrit gras episcopis. Decimotertio, qs religiosis. 
+       Deci<lb ed="#S" break="no" n="130"/>moquarto, quas saecularibus clericis. Decimoꝗnto, qs 
+       lai<lb ed="#S" break="no" n="131"/>cis. Decimosexto, de sepulturis interdictorum. 
+       Decimose<lb ed="#S" break="no" n="132"/>ptimo, in quoviolutur interdictum. Decimooctauo, de po 
+      <lb ed="#S" n="133"/>na temet violantium interdictum. Decimonono, de absolu 
+      <lb ed="#S" n="134"/>tione interdicti. Vigesimo, de confirmationo elusdema
+    </p>
+            <p xml:id="khj78y-q73103-d1e1633" n="43">
+      <!--0251.xml-->
+               <pb ed="#S" n="251"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>
+               <!-- 43 -->Quantum ad primum est sciendum, quod interdictum est censu 
+      <lb ed="#S" n="2"/>ra Ecclefiastica in poenam contumaciae vel offensae lata: 
+       ar<lb ed="#S" break="no" n="3"/>cens praecipue populum ne conicet sacramentis. Ecclesiastica poni 
+      <lb ed="#S" n="4"/>tur ad differentiam interdictorum legalium: quae olim erant 
+       soleo<lb ed="#S" break="no" n="5"/>nes verborum conceptiones quibus praetor aliquid fieri iube 
+      <lb ed="#S" n="6"/>bat: maxime cum de possessionerel quasi inter aliquos 
+       conten<lb ed="#S" break="no" n="7"/>debatur. Et ex illis quaedam erant restitutoria, quaedam exhibito 
+      <lb ed="#S" n="8"/>ria. vt insti. eo. ti. Et per totum. sacramentis ponitur, ad 
+       differen<lb ed="#S" break="no" n="9"/>tiam effectus maioris excommunicationis: quae separat etiam a 
+      <lb ed="#S" n="10"/>communione fidelium. Habet ergo similitudinem cum 
+       excom<lb ed="#S" n="11" break="no"/>municatione minori, quae a sacramentis tantum separat. 3. 
+      <lb ed="#S" n="12"/>q. 4. Engeltrudam. &amp; tamen excommunicatio minor ab alia 
+       reces<lb ed="#S" break="no" n="13"/>sit, &amp; interdictum quodammodo in eius locum mutato nomine 
+      <lb ed="#S" n="14"/>surrexisse videtur.
+    </p>
+            <p xml:id="khj78y-q73103-d1e1675" n="44">
+      <!-- 44 -->Quantum ad secundum sciendum, quod 
+      <lb ed="#S" n="15"/>dicitur haec censura quandoque interdictum, quandoque suspensio 
+      <lb ed="#S" n="16"/>diuinorum, quandoque cessatio a diuinis. vt extra de offi. or. Irre 
+      <lb ed="#S" n="17"/>fregabili. extra de cons. Eccle. vel alta. si Ecclesia. Proprie 
+      <lb ed="#S" n="18"/>autem suspendi dicuntur diuina propter violationem 
+       Eccle<lb ed="#S" break="no" n="19"/>siae: vel pensionem non solutam: vt extra de appel. Dilecti 
+      <lb ed="#S" n="20"/>filij. Quaeritur si aliquis alius praeter ipsos canonicos ee 
+      <lb ed="#S" n="21"/>lebraret in eiusmodi Ecclesia: imo etiam si aliquis de ipsis 
+      <lb ed="#S" n="22"/>canonicis ibi celebraret: non incurreret irregularitatem 
+      <lb ed="#S" n="23"/>quia non est interdictum iure ordinario, vt dicit Inno. su 
+      <lb ed="#S" n="24"/>per. eo. ca. Dilectus. Idem est quando Ecclesia clauditur: &amp; 
+      <lb ed="#S" n="25"/>asportantur reliquiae a praelato propter defensionem 
+       pa<lb ed="#S" break="no" n="26"/>tronorum. vt notauit Inno. super. c. Tanta. extra. de 
+       exces<lb ed="#S" break="no" n="27"/>praelatorum. Peccaret tamen alter: quia temere in Ecclesia 
+      <lb ed="#S" n="28"/>violata vel clausa contra voluntatem canonicorum ibi cele 
+      <lb ed="#S" n="29"/>braret: excepto proprio episcopo, qui potest quotiesvult 
+      <lb ed="#S" n="30"/>celebrare in Ecclesia cathedrali: si canonici absque 
+       mani<lb ed="#S" break="no" n="31"/>festa &amp; rationabili causa, maxime in contemptum ipsius episcopi 
+      <lb ed="#S" n="32"/>essant a diuinis: vt extra de offi. ord. Plus dico, quod si 
+       ali<lb ed="#S" break="no" n="33"/>qui vel aliquis de canonicis ponerent sine consensu 
+       episco<lb ed="#S" n="34" break="no"/>pi &amp; aliorum fratrum veri nominis interdictum in aliquam Ecclesiam 
+      <lb ed="#S" n="35"/>epraes non debet obseruare, nec sustinere quod ab alijs 
+       obserue<lb ed="#S" break="no" n="36"/>tur. extra de his quae fiunt a maiori parte. ca. c. Quaesiuit. 
+    </p>
+            <p xml:id="khj78y-q73103-d1e1728" n="45">
+               <lb ed="#S" n="37"/>
+               <!-- 45 -->Quantum ad tertium sciendum, quod interdictorum duae sunt 
+      <lb ed="#S" n="38"/>pecies. Nam aliud est generale: aliud speciale. Generale 
+      <lb ed="#S" n="39"/>non solum est quando regnum, prouincia, vel terra interdici 
+      <lb ed="#S" n="40"/>tur: verum etiam quando castrum interdicitur. extra de verbo. 
+      <lb ed="#S" n="41"/>fig. Cum in partibus. speciale vero est, cum inter plures 
+      <lb ed="#S" n="42"/>Ecclesias paucae vel vna interdicuntur. sed si villa vel 
+       ca<lb ed="#S" break="no" n="43"/>strum vnam tantum habet Ecclesiam: &amp; illa interdicto 
+       suppo<lb ed="#S" break="no" n="44"/>nitur, vocatur generale. Et pro tanto dicitur ne hi qui 
+      <lb ed="#S" n="45"/>habent priuilegium, quod tempore generalis interdicti 
+       pos<lb ed="#S" break="no" n="46"/>sunt celebrare ianuis clausis: submissa voce: dicunt hoc es 
+      <lb ed="#S" n="47"/>fe generale: cum regnum vel prouincia interdicitur, tanquam 
+      <lb ed="#S" n="48"/>hoc fitspeciale. sic enim quidam fecerunt sumentes a 
+      <lb ed="#S" n="49"/>contrario sensu, quod de vno negatur: de alio conceditur: 
+      <lb ed="#S" n="50"/>extra de praesump. Nonne. Et hoc dicit Inno. super illud 
+      <lb ed="#S" n="51"/>capitulum. Cum in partibus. extra. de verb. sig.
+    </p>
+            <p xml:id="khj78y-q73103-d1e1765" n="46">
+      <!-- 46 -->
+               <lb ed="#S" n="52"/>Quantum ad quartum: scilicet quam ob causam posset 
+      <lb ed="#S" n="53"/>poni interdictum, non esset facile perstringere: cum hoc 
+      <lb ed="#S" n="54"/>sit de officio iudicum: quorum officium latissimum est. 
+      <lb ed="#S" n="55"/>sed hoc est certum, quod propter penfionem non solutam, 
+      <lb ed="#S" n="56"/>vel delictum vnius clerici, vel laici non debet Ecclesia 
+       su<lb ed="#S" break="no" n="57"/>bijci interdicto: quia peccatam suos actores tenere debent: &amp;poena 
+      <lb ed="#S" n="58"/>non est vlterius extendenda quam delictum in extendente 
+       re<lb ed="#S" break="no" n="59"/>peritur. extra quae fiunt a maiori parte caprae. c. Quaesiuit. 
+    </p>
+            <p xml:id="khj78y-q73103-d1e1787" n="47">
+               <lb ed="#S" n="60"/>
+               <!-- 47 -->Quantum ad quintum, quis scilicet possit interdicere. 
+      <lb ed="#S" n="61"/>Est sciendum, quod Papa interdicit. Extra de exces. praelat. Tam 
+      <lb ed="#S" n="62"/>ta. Legatus. extra de officio legati. Nouit. Delegatus. 
+       ex<lb ed="#S" break="no" n="63"/>tra de officio delegati. sape. Alij Ecclesiarum praelati 
+       ex<lb ed="#S" break="no" n="64"/>tra de officio ordi. Cum ab Ecclesiarum. Praelati quoque qui 
+      <lb ed="#S" n="65"/>non habent iurisdictionem ab episcopis, seu a collegijs vel 
+      <lb ed="#S" n="66"/>ab alijs: &amp; si non possunt excommunicare: possunt tamen 
+       interdi<lb ed="#S" break="no" n="67"/>cerervt notat Innoc. super. ca. extra de officio archidi. Ar- 
+      <!--0251.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>chidiaconus. Item clericus confirmatus quamuis non receperit 
+      <lb ed="#S" n="69"/>consecrationem, praet interdicere: quia hoc est iurisditionis. 
+      <lb ed="#S" n="70"/>extra de trailationibus. Transmissa. vacante Ecclesia inter 
+      <lb ed="#S" n="71"/>dicit capitulum. extra. de officio ordin. Episconus. a8 
+      <lb ed="#S" n="72"/>Quantum ad sextum: scilicet quis non possit interdicere 
+       scien<lb ed="#S" break="no" n="73"/>dum, quod solus episcopus &amp; non iferior praelat potest locum 
+       in<lb ed="#S" break="no" n="74"/>terdictosupponere sine consesu capituli: nisi habeat aliud 
+      <lb ed="#S" n="75"/>ex priullegio, vel ex consuetudine praescripta. Inno. super 
+      <lb ed="#S" n="76"/>Capitulum. Cum inter. extra de consuetudine. Item sine 
+       iudi<lb ed="#S" break="no" n="77"/>cio capituli non debent interdici Ecclesiae subditorum ab 
+      <lb ed="#S" n="78"/>epis. Addit Inno. Verum est hoc quod non potest epraes 
+       Eccle<lb ed="#S" break="no" n="79"/>sias interdicere in perpetuum, vel ad multum longum tpraes sine 
+      <lb ed="#S" n="80"/>consensu capituli. Et hoc maxime obtinet, vbi procedit 
+      <lb ed="#S" n="81"/>ex officio contra absentem, vel contra praesentem 
+       contuma<lb ed="#S" break="no" n="82"/>cem. Nam tunc est cum maiori maturitate procedendum. 
+      <lb ed="#S" n="83"/>sed in iudicio solus Epraes, vel quilibet alius iudex potest 
+      <lb ed="#S" n="84"/>hoc facere. extra de officio deleg. sane. Item abbas qui 
+      <lb ed="#S" n="85"/>ex consuetudine iurisdictionem habet: sed possit 
+       canoni<lb ed="#S" break="no" n="86"/>cos &amp; clericos sibi subiectos suspendere ab offiicio &amp; be 
+      <lb ed="#S" n="87"/>neficio, non tamen poterit interdictum iuris ponere, sicus 
+      <lb ed="#S" n="88"/>nec excommunicare: vt notat Inno. super. c. Dilecto. extra 
+      <lb ed="#S" n="89"/>de offi. ordi. Item interdictum ab vno canonicorum, vel 
+      <lb ed="#S" n="90"/>pluribus, sine consensu episcopi &amp; aliorum fratrum inecclesiam 
+      <lb ed="#S" n="91"/>aliquam positum, episcopus seruare non debet: nec permitte 
+      <lb ed="#S" n="92"/>re quod ab alijs obseruetur. extra de his quae a maiori parte capi 
+      <lb ed="#S" n="93"/>tuli fiunt. Quaesiuit. Ex consuetudine autem potest induci, 
+      <lb ed="#S" n="94"/>vt quilibet canonicus habeat iurisdictionem in aliquos 
+      <lb ed="#S" n="95"/>hoens, super quos habet praelationem aliquam: puta quia sunt 
+      <lb ed="#S" n="96"/>vel habitant in praebenda: &amp; tunc non poterit secundum consuetudi 
+      <lb ed="#S" n="97"/>nem nisi tantum interdicere certos homines vel excommuuicare. 
+      <lb ed="#S" n="98"/>sed non terram. sed hoc non potest consuetudine induci, quod 
+       pro<lb ed="#S" break="no" n="99"/>factis quibuslibet Ecclesiae quilibet canonicus iterdicat, vel 
+      <lb ed="#S" n="100"/>excommunicet homines Ecclesiae. Nec enim olibet de cabit: est dominus 
+      <lb ed="#S" n="101"/>hominum Ecclesiae: sed vniuersitas. 12. q. 2. Qui manumittum 
+      <lb ed="#S" n="102"/>tur. Inno. super. c. Quaesiuit. extra de his quae fiunt a 
+       maio<lb ed="#S" break="no" n="103"/>re parte capituli. Possunt igitur interdici subditi a 
+       praela<lb ed="#S" break="no" n="104"/>to suo ordinario: siue ab alio habente iurisdictionem de 
+      <lb ed="#S" n="105"/>legatam. extra de iudicijs. Ac si. extra de officio delega. 
+      <lb ed="#S" n="106"/>sane. alias snia a non suo iudice lata non tenet: vt ibidem 
+      <lb ed="#S" n="107"/>dicitur. Exempti autem secundum formam exemptiois suae interdici non 
+      <lb ed="#S" n="108"/>pnt. extra depriui. capel. &amp;. c. 4. In quo et. c. caueturvt cum 
+      <lb ed="#S" n="109"/>praelati religlosos exemptos interdicere non possint, in eorum 
+      <lb ed="#S" n="110"/>odio non interdicant alios eorundem familiares &amp; amicos. 
+    </p>
+            <p xml:id="khj78y-q73103-d1e1907" n="49">
+               <lb ed="#S" n="111"/>
+               <!-- 49 -->Quantum ad septimum, scilicet quo ordine ferri debeat 
+      <lb ed="#S" n="112"/>sciendum, quod rationabiliter debet ferri. Alioquia lator in 
+      <lb ed="#S" n="113"/>cideret in poenam illius. extra de sen excommunicationis sacro. &amp; cum 
+      <lb ed="#S" n="114"/>medicinalis. vt dicit Inno. super. c. Cum ad ecclesiatum. 
+      <lb ed="#S" n="115"/>extra de offi. ordi. Poena autem illius concilij est, quod qui 
+       com<lb ed="#S" break="no" n="116"/>petenti monitione non praemissa sententiam promulgat, 
+       ingres<lb ed="#S" break="no" n="117"/>sum Ecclesiae per mensem sibi nouerit iterdictu. alia 
+       nihi<lb ed="#S" n="118" break="no"/>lominus poena mulctandum, si visum fuerit expedire. Item 
+      <lb ed="#S" n="119"/>in scriptis ferri debet, &amp; causa exprimi. Exemplum vero 
+       scri<lb ed="#S" break="no" n="120"/>pturae tenebitur interdictis tradere intra mensem sententiae latae. 
+      <lb ed="#S" n="121"/>Quod si quis temere violauerit, per mensem vnum ab 
+       introi<lb ed="#S" break="no" n="122"/>tu Ecclesiae nouerit se suspensum. superior vero ad ouem 
+      <lb ed="#S" n="123"/>recurritur sine difficultate relaxet: latorem siue 
+       interdicen<lb ed="#S" break="no" n="124"/>tem ad expensas oent, &amp; ad interesse condemnet. si vero in 
+      <lb ed="#S" n="125"/>tra mensem quo suspensus est diuina officia prosequitur: si 
+      <lb ed="#S" n="126"/>cut prius irregularitatem non effugiet, super qua non nisi pe 
+      <lb ed="#S" n="127"/>summum pontificem poterit dispensari. extra de sententia excommunicationis 
+      <lb ed="#S" n="128"/>Cum medicinalis ex verbo. Haec eadem. in sententijs ex 
+      <lb ed="#S" n="129"/>communicationis, suspensionis, &amp;interdicti volumus 
+       obser<lb ed="#S" n="130" break="no"/>uari. Item iudex cum temperamento debet procedere 
+       cir<lb ed="#S" break="no" n="131"/>ca maiores personas. verbi gratia. si est epraes qui puniendus 
+      <lb ed="#S" n="132"/>est primo ingressum Ecclesiae, vel sacerdotale officium 
+       in<lb ed="#S" break="no" n="133"/>terdicat: aut etiam terram quae ad iurisdictionem suam pertines 
+      <lb ed="#S" n="134"/>specialiter interdicto supponat; extra de officio delega. 
+      <!--0252.xml-->
+      <pb ed="#S" n="252"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>sane. Debet lator quique sententiae discretus esse puniendorum 
+      <lb ed="#S" n="2"/>circunstantias indagando. extra de verb. sig. Querenti. 
+    </p>
+            <p xml:id="khj78y-q73103-d1e1975" n="50">
+               <lb ed="#S" n="3"/>
+               <!-- 50 -->Quantum ad octauum sub qua forma. sciendum est, quod 
+      <lb ed="#S" n="4"/>forma interdicti talis est. Nos propter talem causam 
+       ciuita<lb ed="#S" n="5" break="no"/>tem, vel terram Ecclesiastico supponimus interdicto. 
+       Interdi<lb ed="#S" break="no" n="6"/>ctum igitur nomem est iuris, &amp; plus importat quam verbi 
+       proprie<lb ed="#S" break="no" n="7"/>tas sonet. &amp; Inno. super. ca. Tanta. extra de exces. praelat. 
+      <lb ed="#S" n="8"/>Aliter interdictum ad arbitrium latoris potest formari 
+       sen<lb ed="#S" break="no" n="9"/>tentia. videlicet vt interdicat celebrationem missarum cum 
+      <lb ed="#S" n="10"/>tu, vel celebrationem vesparum seu solemnitates alias, vel se 
+      <lb ed="#S" n="11"/>pulturam tantum. Potest enim excipere quos vult, vt dicit 
+      <lb ed="#S" n="12"/>Ino super. c. Ecclesiastica. extra de priuil.
+    </p>
+            <p xml:id="khj78y-q73103-d1e2001" n="51">
+      <!--51. -->
+       Quan<lb ed="#S" break="no" n="13"/>tum ad nonum: scilicet quae sit poeua generaliter interdicti, 
+      <lb ed="#S" n="14"/>sciendum est quod multae sunt. Nam vniuersa sacramenta negan 
+      <lb ed="#S" n="15"/>tur eis, praeter baptismum paruulorum, &amp; poenitentias morientium, 
+      <lb ed="#S" n="16"/>quibus etiam conceditur viaticum. extra de sententia excommunicationis 
+       Respon<lb ed="#S" n="17" break="no"/>so. de poe. &amp; re: Quod in te. extra de sponsali. Non est no 
+      <lb ed="#S" n="18"/>bis, de sententia excommunicationis Permittimus. quibus benedictio 
+       nega<lb ed="#S" break="no" n="19"/>tor &amp; Ecclesiastica sepultura. extra de poe. Quod in te. 
+    </p>
+            <p xml:id="khj78y-q73103-d1e2022" n="52">
+               <lb ed="#S" n="20"/>
+               <!-- 52-->Quantum ad decimum: scilicet quae sit specialis poena. 
+       scien<lb ed="#S" break="no" n="21"/>dum quod specialiter puniuntur nominatim interdicti. Nam illi 
+      <lb ed="#S" n="22"/>sunt arctius euitandi. extra de priuilegijs. Cum &amp; 
+       planta<lb ed="#S" break="no" n="23"/>re. Isti etiam admittuntur ad diuina, quando aperiuntur eccle 
+      <lb ed="#S" n="24"/>siae etiam alijs interdictis semel in anno. Oui iocundo 
+       ad<lb ed="#S" break="no" n="25"/>uentu hospitalariorum. extra de priuil. Vt priuilegia. nec 
+      <lb ed="#S" n="26"/>gaudebunt priuilegijs cruce signatorum quod est in cap. 
+      <lb ed="#S" n="27"/>Quod in te. de poe. &amp; re. Nominatim autem interdicti sunt, 
+      <lb ed="#S" n="28"/>qui proprio nomine, vel sufficienti exprimuntur 
+       circumlocu<lb ed="#S" n="29" break="no"/>tione &amp; indubitata. Instit. de priui. Item Inno. super. cap. 
+      <lb ed="#S" n="30"/>In lateran. extra de praeben. &amp; digni. Nominatim interdicti 
+      <lb ed="#S" n="31"/>dicuntur, de quibus cuique constat, quod sunt interdicti. Vnde 
+      <lb ed="#S" n="32"/>dicuntur nominatim interdicti etiamsi castrum: vel villa sit in 
+      <lb ed="#S" n="33"/>terdicta. i. populus vnius caftri: vel ciuitatis. non nomina 
+      <lb ed="#S" n="34"/>tim autem interdicti vel excommunicati sunt, quando sic dicitur: 
+       Excommuni<lb ed="#S" n="35" break="no"/>co talem cum fautoribus suis vol particibus suis. Participes 
+      <lb ed="#S" n="36"/>enim non sunt noiatim interdicti vel excommunicati: &amp; ideo non 
+      <lb ed="#S" n="37"/>tenetur ꝗsvitare cos. vt. 3. q. 1. c. 2. &amp;. 3. nisi forte esset no 
+      <lb ed="#S" n="38"/>aoria participatio eorum, &amp; non esset inficiationi locus. 
+    </p>
+            <p xml:id="khj78y-q73103-d1e2068" n="53">
+               <lb ed="#S" n="39"/>
+               <!-- 53 -->Quantum ad vndecimum: scilicet quas gratias quibusdam con 
+      <lb ed="#S" n="40"/>cedat generaliter. Et sciendum. quod grae quae generaliter 
+       concedun<lb ed="#S" break="no" n="41"/>tur tempore interdicti sunt, vt dictum est, baptismus paruuio 
+      <lb ed="#S" n="42"/>rum, poenitentiae morientum: confirmatio: &amp; viaticum 
+       de<lb ed="#S" break="no" n="43"/>cedentium. extrade poe. &amp; rem. Quod in te. extra de sententia ex. 
+      <lb ed="#S" n="44"/>Responso. Matrimonium etiam credimus posse fieri, cum 
+      <lb ed="#S" n="45"/>sit etiam apud infideles. Ordo quoq, consertur clericis, cum 
+      <lb ed="#S" n="46"/>non sint interdicti, sed non laicis. Inno. super. c. Anobis 
+      <lb ed="#S" n="47"/>extra desponsa. Item sine scrupulo conscientiae possunt 
+      <lb ed="#S" n="48"/>conuocari laici apud Ecclesiam ad audiendum verbum 
+      <lb ed="#S" n="49"/>Dei, cum viderint expedire. extra de sententia excommu. 
+       Re<lb ed="#S" break="no" n="50"/>sponso. super quod dicit Innocem. notabile esse, quod ad 
+      <lb ed="#S" n="51"/>praedicationem excommunicati etiam intrant Ecclesiam, 
+      <lb ed="#S" n="52"/>dummodo nullum ibi dinum audiant officium. Vnde colant 
+      <lb ed="#S" n="53"/>culicem qui eo tempore extra &amp; non intra praedicare volunt. 
+    </p>
+            <p xml:id="khj78y-q73103-d1e2105" n="54">
+               <lb ed="#S" n="54"/>
+               <!-- 54 -->Quantum ad duodecimum: scilicet q́s permittat gras episcopis, 
+      <lb ed="#S" n="55"/>sciendum, quod speciales sunt gratiae eporum qui tempore interdicti 
+      <lb ed="#S" n="56"/>possunt quandoque ianuis clausis, suppressa voce, non 
+       pulsa<lb ed="#S" break="no" n="57"/>tis campanis, excommunicatis &amp; interdictis exclusis, diuina 
+      <lb ed="#S" n="58"/>officia celebrare: nisi hoc eis expresse fuerit interdictum: 
+      <lb ed="#S" n="59"/>verum hoc illis conceditur, qui causam aliquam non praestite 
+      <lb ed="#S" n="60"/>runt interdicto: nec quicquam fraudis ingesserunt. extra 
+      <lb ed="#S" n="61"/>de priu. Quod null'. Idem dicit Inno. quod clerici: scilicet 
+       fa<lb ed="#S" break="no" n="62"/>miliares episcopis, vel alijs hoc modo priuilegiatis possunt ad 
+      <lb ed="#S" n="63"/>mitti ad officium. Quod videtur tamen concedi eis quod suis fami 
+      <lb ed="#S" n="64"/>liaribus dicant. extra de priui. In his. si autem conuentui 
+      <lb ed="#S" n="65"/>concedatur priuilegium, familiares non debent admitti 
+      <lb ed="#S" n="66"/>cum eis ad celebrandum officium vel audiendum, nisi illi 
+      <lb ed="#S" n="67"/>habeant priuilegium, q possint admitti in locis priuile- 
+      <!--0252.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>giatis. Item priuilegium episcoporum est, quod ipi &amp; alij 
+       superio<lb ed="#S" break="no" n="69"/>res nullius constitutionis sententiae seu mandati occasione 
+      <lb ed="#S" n="70"/>incurrunt suiam suspensionis, seu inendicti ipo facto: nisi 
+      <lb ed="#S" n="71"/>de ipsis expraessa mentio habeatur. extra de sententia excommunicationis Quia. 
+    </p>
+            <p xml:id="khj78y-q73103-d1e2153" n="55">
+               <lb ed="#S" n="72"/>
+               <!-- 55 -->Quantum ad tertium decimum. scilicet quae gratiae religiosis 
+       con<lb ed="#S" n="73" break="no"/>cedantur. Est sciendum, quod priuilegium hospitalariorum est, quod 
+      <lb ed="#S" n="74"/>fratribus eorum missis ad recipiendum fraternitates, seu col 
+      <lb ed="#S" n="75"/>lectam, aperiri debent Ecclesiae si forte locus ille sit ad 
+      <lb ed="#S" n="76"/>minus officijs interdictus, vt excommunicatis exclusis diuina 
+      <lb ed="#S" n="77"/>ibi officia celebrentur: hoc tamen intelligendum est. quod in ea 
+      <lb ed="#S" n="78"/>em ciuitate: vel castro: vel vico vna tantum aperiatur. &amp; si 
+      <lb ed="#S" n="79"/>plures ibi sunt Ecclefiae. extra de priuilegijs. Vt praemissa 
+      <lb ed="#S" n="80"/>priu ilegia Inno. ibi dicit quod tunc cantabunt, pulsabunt, 
+       aper<lb ed="#S" break="no" n="81"/>tas ianuas tenebunt: quia populi aliter non possunt in eorum 
+       offi<lb ed="#S" break="no" n="82"/>cio iocundari. Item Inno. cam dicat litera excommunicati exclu 
+      <lb ed="#S" n="83"/>dantur: videtur quod interdicti admittantur. Hoc verum est de 
+      <lb ed="#S" n="84"/>illis, qui non nominatim interdicti: siue deliqᷓrint siue non 
+      <lb ed="#S" n="85"/>Argu. e 3. q.4. si habes. Item restringendum est ad illos, qui 
+      <lb ed="#S" n="86"/>non dederunt causam interdicto. sic ergo vides. quod licet sit lo 
+      <lb ed="#S" n="87"/>cus interdictus, tamen possunt ibi celebrari diuina de licentia 
+      <lb ed="#S" n="88"/>iuris: &amp; etiam de licentia hominis. extra de appel. c. Dilectis. 
+      <lb ed="#S" n="89"/>&amp;sic suspenditur interdictum, vel potius non est positum: &amp; im 
+      <lb ed="#S" n="90"/>proprie in tali locutione sumuntur verba: &amp; est sensus. 
+      <lb ed="#S" n="91"/>Interdico Ecclesiam, id est, celebrantes in ea. &amp; ab hac 
+       sen<lb ed="#S" break="no" n="92"/>tentia excipere potest quando volt, &amp; quos vult. Aliorum autem re 
+      <lb ed="#S" n="93"/>gularium priuilegium est, vt cum generale fuerit tenendum 
+      <lb ed="#S" n="94"/>interdictum, liceat eis ianuis clausis, excommunicatis &amp; 
+       interdi<lb ed="#S" break="no" n="95"/>ctis exclusis, non pulsatis campanis, suppressa voce 
+       diui<lb ed="#S" break="no" n="96"/>na celebrare. Quorundam tamen priuilegium est non solum 
+      <lb ed="#S" n="97"/>in locis suis: sedvbicunq, quod celebrare diuina possunt tempore 
+      <lb ed="#S" n="98"/>gnalis interdicti ianuis clausis. &amp;c.
+    </p>
+            <p xml:id="khj78y-q73103-d1e2216" n="56">
+      <!-- 56 -->Aliorum autem 
+      <lb ed="#S" n="99"/>priuilegium est. quod in locis vbi celebratur ex priuilegijs, quod 
+      <lb ed="#S" n="100"/>posiunt recipere sacra: &amp; hoc possunt secundum foraz priuilegiorum 
+    </p>
+            <p xml:id="khj78y-q73103-d1e2225" n="57">
+               <lb ed="#S" n="101"/>
+               <!-- 57 -->Quantum ad quartundecimum: scilicet quod sit priuilegium 
+       cle<lb ed="#S" n="102" break="no"/>ricorum secularium. Est sciendum, quod eorum priuilegium est, quod in 
+      <lb ed="#S" n="103"/>conuentualibus Ecclesijs bini &amp; bini, vel simul tres horas 
+      <lb ed="#S" n="104"/>canonicas possunt legere potius quam cantare, ianuis clausis, 
+      <lb ed="#S" n="105"/>excommunicatis &amp; interdictis exclusis, voce ita demissa quod 
+      <lb ed="#S" n="106"/>exterius audiri non possint.
+    </p>
+            <p xml:id="khj78y-q73103-d1e2244" n="58">
+      <!-- 58 -->Ex isto nota quod 
+       interdi<lb ed="#S" break="no" n="107"/>cti non possunt nec debent auscultare ad perietes ecclesiae. Item 
+      <lb ed="#S" n="108"/>his non prohibetur pulsatio campanarum ad horas, sicut eis 
+      <lb ed="#S" n="109"/>prohibetur cum dicuntsemel in hebdomada missam vti 
+       pro<lb ed="#S" break="no" n="110"/>ximis. Item sicut feculares dicunt bini &amp; bini: ita religiosi 
+      <lb ed="#S" n="111"/>possunt omnes simul dicere. Rursus permittitur Ecclesiarum mistris 
+      <lb ed="#S" n="112"/>quod semel in hebdomada tpraee interdicti pulsatis campanis, 
+      <lb ed="#S" n="113"/>voce submissa, ianuis clausis, excommunicatis &amp; interdictis 
+      <lb ed="#S" n="114"/>exclusis possint missarum solemnia celebrare, causa conficien 
+      <lb ed="#S" n="115"/>di corpus domini, quod decedentibus in poenitentia non negatur. extra 
+      <lb ed="#S" n="116"/>de sen. excommunicationis Permittimus. Inno. ibidem. Cum hoc tantum 
+      <lb ed="#S" n="117"/>concedatur ministris, videtur quod non possunt alijs 
+       committe<lb ed="#S" break="no" n="118"/>re. Arg. extra de officijs delega. c. vlti. sed dic quod possunt 
+      <lb ed="#S" n="119"/>alijs committere quod celebrent, quia quod per alios faciunt: per 
+      <lb ed="#S" n="120"/>se ipsos facere videntur. ff. de admi. tu. Ita gesaisse.
+    </p>
+            <p xml:id="khj78y-q73103-d1e2279" n="59">
+      <!-- 59 -->
+               <lb ed="#S" n="121"/>Quantum ad quintundecimum: scilicet quae sit gratia laicorum: 
+       scien<lb ed="#S" break="no" n="122"/>dum, quod priuilegium cruce signatorum est, quod poenitentia cis cum 
+      <lb ed="#S" n="123"/>postulauerint non negatur. extra de poeni. &amp; re. Quod in 
+      <lb ed="#S" n="124"/>te. Inno. ibidem. Etiam hoc facit eis antequam 
+       proficiscan<lb ed="#S" break="no" n="125"/>tur quoties voluerint. Alijs autem peregrinis quibus vt 
+      <lb ed="#S" n="126"/>idem dicit. c. potest. poenitentia misericorditer indulgeri non datur, 
+      <lb ed="#S" n="127"/>nisi cum proficiscuntur. Quidam tamen dicunt, quod si cruce 
+       signati<lb ed="#S" break="no" n="128"/>sint principales, vel noiatim interdicti, denegatur eis poenitentia 
+      <lb ed="#S" n="129"/>De omnibus autem priuilegijs supradictis sciendum em, quod sunt 
+       reuo<lb ed="#S" break="no" n="130"/>cata, nisi quantum concordant cum q̊cre. Alma. vt ibidem dicitur. 
+    </p>
+            <p xml:id="khj78y-q73103-d1e2305" n="60">
+               <lb ed="#S" n="131"/>
+               <!-- 60 -->Quantum ad sextundecimum: scilicet de sepultura est 
+       scien<lb ed="#S" break="no" n="132"/>dum, quod gratia sepulturae est generaliter laicis interdicta 
+      <lb ed="#S" n="133"/>vt dicit Inno. super. c. Vt priuilegia. Quod si Ecclesia 
+       inter<lb ed="#S" break="no" n="134"/>dicta fuerit propi populum. i. in poenam populi temporalem q eis ifli 
+      <!--0253.xml-->
+      <pb ed="#S" n="253"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>gitur etiam si non deliquerint ipsi: sed eorum domini vel aliqui 
+      <lb ed="#S" n="2"/>ex ipsis: &amp; si non omnes sepulturam parochiani non possunt eli 
+      <lb ed="#S" n="3"/>gere in non interdictis Ecclesijs. si autem Ecclesia esset iter 
+      <lb ed="#S" n="4"/>dicta propter delictum clericorum, vel violationem, vel 
+       cessa<lb ed="#S" break="no" n="5"/>retur in ea diuinis: vt supra circa principium: tunc quisque 
+      <lb ed="#S" n="6"/>possit ibi eligere sepulturam. Item Inno. super. ca. 
+       Tanta<lb ed="#S" break="no" n="7"/>extra de exces. praela. dicit, quod licet in loco interdicto non de 
+      <lb ed="#S" n="8"/>beant celebrari diuina: nec Ecclesiastica sacra: tamen pote 
+      <lb ed="#S" n="9"/>runt ibi clerici &amp; non alij etiam non interdicti sepeliri apud 
+      <lb ed="#S" n="10"/>Ecclesiam in coemeterio. extra de poe. &amp; re. Quod in te. nisi 
+      <lb ed="#S" n="11"/>priuilegiati. extra de priuilegijs. Vt priuilegia. Quidam 
+      <lb ed="#S" n="12"/>tamen dicunt, quod nulli etiam clerici vel priuilegiati possunt 
+      <lb ed="#S" n="13"/>in Ecclesia iterdicta sepeliri. extra de prini. Cum &amp; plantare. 
+      <lb ed="#S" n="14"/>Quod si templarij. sed secus est si terra est interdicta. vt 
+      <lb ed="#S" n="15"/>extra de poe. &amp; re. Quod in te. Item homines interdicti etiam si 
+      <lb ed="#S" n="16"/>poenitentiam acceperint in loco interdicto non sepelientur: nec 
+      <lb ed="#S" n="17"/>in loco non interdicto: nec extremam vnctionem accipient: 
+      <lb ed="#S" n="18"/>vt in. c. Quod in te. quia licet peccatores non sint: tamen interdici 
+      <lb ed="#S" n="19"/>possunt pro peccatis aliorum. 33. q. 3. si habes. 17. q. 4. Miror. 
+      <lb ed="#S" n="20"/>sed illi qui inter interdictos excommunicantur specialit, licet 
+      <lb ed="#S" n="21"/>ab excommunicatione absoluantur remanent interdicti quousque 
+      <lb ed="#S" n="22"/>soluatur generale interdictum.
+    </p>
+            <p xml:id="khj78y-q73103-d1e2372" n="61">
+      <!-- 61 -->Et nota. quod cum locus iter 
+      <lb ed="#S" n="23"/>dictus est, si in morientibus apparent signa poenitentiae post 
+      <lb ed="#S" n="24"/>solutum interdictum erunt in coemeterio sepeliendi. Arg. 
+       ex<lb ed="#S" break="no" n="25"/>tra de sententia ex. Cum illorum. Et si sepulti erant apud 
+       Eccle<lb ed="#S" break="no" n="26"/>siam dum erant interdicti, post solutum interdictum non erunt 
+      <lb ed="#S" n="27"/>extumulandi, cum ad eum statum venerit res a quo incipere 
+      <lb ed="#S" n="28"/>potuit. Ab his autem interdictis post poenitentiam licet 
+       mortua<lb ed="#S" break="no" n="29"/>ria recipere: quia &amp;proeis orandum est. 11. q. 3. Quicumq.. Et 
+      <lb ed="#S" n="30"/>si poenitentiam non receperint, non est pro eis orandum, nec mor 
+      <lb ed="#S" n="31"/>tuaria recipienda. 88. di. c. fi. Eadem quae diximus de loco 
+      <lb ed="#S" n="32"/>interdicto intelligimus etiam si parochia fuerit interdi 
+      <lb ed="#S" n="33"/>cta. Hucusq, Inno. Clerici autem qui seruauerunt 
+       interdi<lb ed="#S" break="no" n="34"/>ctum, possunt sepeliri in coemeterio sine campanarum pulsatio 
+      <lb ed="#S" n="35"/>ne cum silentio cessantibus solemnibus omnibus. extra de poe. 
+      <lb ed="#S" n="36"/>&amp; re. Quod in te. Confratres religiosorum sepeliantur apud 
+      <lb ed="#S" n="37"/>ipsorum regularium Ecclesias, vel aliorum non interdictas. Quod 
+      <lb ed="#S" n="38"/>intelligendum est de his qui manentes in seculo ordini sunt 
+      <lb ed="#S" n="39"/>oblati, mutato habitu seculari: vel se &amp; sua bona eis de 
+      <lb ed="#S" n="40"/>derunt inter viuos, retento sibi quamdiu vixerint in seculo vsu 
+      <lb ed="#S" n="41"/>fructu. Inno. Bona omnia alij dicunt sufficere si maiorem 
+      <lb ed="#S" n="42"/>partem. Nec opertetquod isti confratres assumant habitum religio 
+      <lb ed="#S" n="43"/>sorum: sed mutent saecularem, vel sumant eorum habitum 
+       pro<lb ed="#S" break="no" n="44"/>fessione. Ar. extra de regula consulti.
+    </p>
+            <p xml:id="khj78y-q73103-d1e2424" n="62">
+      <!--62--> Quantum ad 
+      <lb ed="#S" n="45"/>decimumseptimum, scilicet in quo violatur interdictum, 
+      <lb ed="#S" n="46"/>sciendum: quod interdictum violat qui officium suum 
+       exe<lb ed="#S" break="no" n="47"/>quitur in missa, vel offerendo calicem, vrceos &amp; huiusmodi: vel 
+      <lb ed="#S" n="48"/>celebrando aliud officium: mantutinum: vesperas, &amp; 
+       huiusmo<lb ed="#S" break="no" n="49"/>di. 11. q. 3. si quis eps. in fi. Nec credim' irregularitatem, 
+      <lb ed="#S" n="50"/>vel suspesionem incurrere, qui officio interest &amp; cantat: non tamen 
+      <lb ed="#S" n="51"/>celebrat, nec aliquid facit tanquam officium suum agens: cum hoc 
+      <lb ed="#S" n="52"/>nusquam iueniatur. &amp; satis inuit capitulum praedictum: licet pec 
+      <lb ed="#S" n="53"/>cet legere Psalterium, vel docere Euangelium ad nouum, vel 
+      <lb ed="#S" n="54"/>retus testamentum in terra interdicta non est prohibitum, cum etiam 
+      <lb ed="#S" n="55"/>ibi praedicari possit. extra de sententia excommunicationis Responsio. In officio autem 
+      <lb ed="#S" n="56"/>suo quis agere intelligitur, &amp; qui in ordine suo agit quod ei 
+      <lb ed="#S" n="57"/>competit: siue in maiori siue in minori ordine sit. Et quid 
+      <lb ed="#S" n="58"/>dices de officialibus vel ministris alijs: puta si magister 
+      <lb ed="#S" n="59"/>scholarum exerceat officium suum: forte idem quod de ordinibus. 
+      <lb ed="#S" n="60"/>Bundicendo autem mensam dicunt quaedam, quod non fit irregularis: 
+      <lb ed="#S" n="61"/>cum hoc sit nulli ordini deputatum. 54. di. fi. c. secus in 
+      <lb ed="#S" n="62"/>benedictione aquae. Absoluere autem excommunicatum per sen 
+      <lb ed="#S" n="63"/>tentiam non est ordinis, sed iurisdictionis, sicut econuerso. 
+      <lb ed="#S" n="64"/>2. q. 1. Nemo. sed absolutioni solennia exhibere, sicut 
+      <lb ed="#S" n="65"/>sunt orationes cum stola &amp; psalmis poenitentialibus: ac intro 
+      <lb ed="#S" n="66"/>ducere in Ecclesiam ordinis est officium. Ar. extra de sententia 
+      <lb ed="#S" n="67"/>exco. Nuper. in fi. 11. ꝗ. 3.c. debent. A. c. scij. Item videtur, quod fi 
+      <!--0253.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>diaconus legat epistolam, vel acolytus in loco vbi est 
+       con<lb ed="#S" break="no" n="69"/>suetudo, quod generaliter epistola legatur per subdiaconum, quod sit 
+      <lb ed="#S" n="70"/>irregularis: quia generaliter sequitur illud capitulum. si quid de 
+      <lb ed="#S" n="71"/>sacro mysterio contingat. 11. q. 3. si quisepiscopusdamnat 
+      <lb ed="#S" n="72"/>sed hoc intelligendum videtur de his quae in certo suo or 
+      <lb ed="#S" n="73"/>dine sunt deputata, vel a iure vel a consuetudine Ecclesiae, 
+      <lb ed="#S" n="74"/>vel constitutione: vt si cantat responsoria, vel legat 
+       lectio<lb ed="#S" break="no" n="75"/>nes, non sit irregularis. Vnde videtur quod si in aliqua Eccle 
+      <lb ed="#S" n="76"/>sia consuetudo est, quod sine distinctione ordinis quisque 
+       le<lb ed="#S" break="no" n="77"/>gat epistolam, vel portet vrceos: vel quicquid aliud 
+       perti<lb ed="#S" break="no" n="78"/>nens ad aliquod officium faciat, non erit irregularis qui 
+       il<lb ed="#S" break="no" n="79"/>lud officium facit. Arg. contra extra de homic. sicut dignum. 
+      <lb ed="#S" n="80"/>Vbi dicitur quod homicidae nec etiam responsoria cantare de 
+      <lb ed="#S" n="81"/>bent separati. sed hoc fuit propter enormitatem 
+       criminis<lb ed="#S" break="no" n="82"/>Inno. super. c. Tanta. extra de priuile.
+    </p>
+            <p xml:id="khj78y-q73103-d1e2515" n="63">
+      <!-- 63 -->Quantum ad 
+      <lb ed="#S" n="83"/>decimumoctauum: scilicet quae sit poena violantium 
+       interdi<lb ed="#S" break="no" n="84"/>ctum: sciendum ꝗest multiplex. Nam qui non seruat inter 
+      <lb ed="#S" n="85"/>dictum est ineligibilis, &amp; remouendus a beneficio. extra de 
+      <lb ed="#S" n="86"/>priui. Ad haec. extra de cle. ex. mi. postulanti. est 
+       suspen<lb ed="#S" break="no" n="87"/>sus &amp; irregularis. Hoc videtur satis dicere capitulum. Cum 
+      <lb ed="#S" n="88"/>inter licet. extra de elec. si quis epraes damnatus. Inno. 
+       super<lb ed="#S" break="no" n="89"/>capi. de postula. Ad hoc. si tamen appellatio 
+       praeueni<lb ed="#S" break="no" n="90"/>ret interdictum, non ligaret. Item electio facta ab interdicto 
+      <lb ed="#S" n="91"/>vel interdictis non valet. extra de clectioum. Cum inter. 
+      <lb ed="#S" n="92"/>Item interdictum trahit secum suam executionem, sicut 
+      excommuni<lb ed="#S" break="no" n="93"/>catio. Vnde per appellationem non suspenditur. Inno. 
+       su<lb ed="#S" break="no" n="94"/>per. c. Ad haec. extra de appel. Item qui temere violat 
+       inter<lb ed="#S" break="no" n="95"/>dictum, &amp; alios ad violandum inducit, vel compellit. si 
+       prae<lb ed="#S" break="no" n="96"/>latus est, omnis  eius institutio destituitur, collatio praebendarum 
+      <lb ed="#S" n="97"/>beneficiorum, dignitatum, &amp; sniae sunt irritae &amp; inanes. extra 
+      <lb ed="#S" n="98"/>de exces. praela. tanta. Inno. Ibidem: quia violans interdictum 
+      <lb ed="#S" n="99"/>ipso iure est suspensus, &amp; irregularis. suspensus a iurisdi 
+      <lb ed="#S" n="100"/>tione. Irregularis ab officij executione. Vnde non potest 
+      <lb ed="#S" n="101"/>aemissa. Et idem forte dicendum est in alijs spiritualibus, 
+      <lb ed="#S" n="102"/>sicut nec ipsis conferri possunt: ita nec ab eis facta 
+       colla<lb ed="#S" break="no" n="103"/>tio valet.
+    </p>
+            <p xml:id="khj78y-q73103-d1e2566" n="64">
+      <!-- 64 -->Qui autem extra celebrat vere irregularis 
+      <lb ed="#S" n="104"/>non est: sed in excommunicationem minorem, sicut in locutione vel 
+      <lb ed="#S" n="105"/>aliter excommunicato participans non in diuinis: Inno. hoc 
+       po<lb ed="#S" break="no" n="106"/>nit in glo. super. c. Tanta.
+    </p>
+            <p xml:id="khj78y-q73103-d1e2577" n="65">
+      <!-- 65 -->Item qui postquam sunt 
+       ex<lb ed="#S" break="no" n="107"/>communicati vel interdicti, diuina praesumunt officia 
+       celebra<lb ed="#S" break="no" n="108"/>re si multi sunt: illi qui magis dederunt causam delisto, 
+       per<lb ed="#S" break="no" n="109"/>petua depositione sunt deponendi. extra de cleri. ex. 
+       mi<lb ed="#S" break="no" n="110"/>latores. Inno. ibidem, quod non potest cum talibus dispensari, nist 
+      <lb ed="#S" n="111"/>ex speciali auctoritate domini Papae.
+    </p>
+            <p xml:id="khj78y-q73103-d1e2593" n="66">
+      <!-- 66 -->Item religiosrsi 
+      <lb ed="#S" n="112"/>contra canonicas eporum sententias, &amp; tenores priuilegiorum 
+      <lb ed="#S" n="113"/>suorum venire praesumpserint, Ecclesiae in quibus ista praesum 
+      <lb ed="#S" n="114"/>pserint subiaceant interdicto Glo. Inno. recipiendo excommuni 
+      <lb ed="#S" n="115"/>catos &amp; interdictos ad officia, &amp; celebrando in Ecclesia 
+      <lb ed="#S" n="116"/>aliter quam licet ipsis ex priuilegio. glos. Hic non credi: 
+      <lb ed="#S" n="117"/>mus canonem latae sententiae. extra de priuil. Cum &amp; 
+       planta<lb ed="#S" break="no" n="118"/>re. Item religiosi post latam fententiam interdicti ab episcopo, 
+      <lb ed="#S" n="119"/>si ibi celebrant poena suspensionis inuolui debent ab 
+       eo<lb ed="#S" break="no" n="120"/>dem. extra de priuil. Cum &amp; plantare.
+    </p>
+            <p xml:id="khj78y-q73103-d1e2617" n="67">
+      <!-- 67 -->Item 
+       violam<lb ed="#S" n="121" break="no"/>tes interdictum si clerici sunt: sunt beneficijs 
+       Ecclesiasticis<lb ed="#S" break="no" n="122"/>spoliandi. Monachi &amp; moniales ad agendum poenitentiam, 
+      <lb ed="#S" n="123"/>in arctius monasterium sunt intrudendi. extra de cleri. ex 
+      <lb ed="#S" n="124"/>co. &amp; inter. mi. Postulastis. Laici violando interdicta, 
+       quam<lb ed="#S" n="125" break="no"/>quam irregularitatem vel suspensionem non incurrant, cum 
+      <lb ed="#S" n="126"/>nec ordinem habeant vel officium: bene tamen aliter punium 
+      <lb ed="#S" n="127"/>tur. extra de cleri. excommuni. c. 2. quia ad requisitionem 
+       Ercle<lb ed="#S" break="no" n="128"/>siae debent regis iudicio exilio condemnari vt ibidendicitur. 
+    </p>
+            <p xml:id="khj78y-q73103-d1e2639" n="68">
+               <lb ed="#S" n="129"/>
+               <!-- 68 -->Quantum ad decimumnonum, quomodo absoluendi sunt. 
+       scien<lb ed="#S" break="no" n="130"/>dum, quod suia interdicti improuide lata sine difficultate 
+      <lb ed="#S" n="131"/>est relaxanda. extra de offi. or. Grauem. Et de sententia excommunicationis 
+      <lb ed="#S" n="132"/>Cum medicinalis. Item si quis pro contumacia vel 
+       alia<lb ed="#S" break="no" n="133"/>causa interdicto tenetur astrictus, &amp; offert se ad 
+       iustitiam<lb ed="#S" n="134" break="no"/>de his pro ꝗb' patitur ipsam sententiam index, supple, qeam tu 
+      <!--0254.xml-->
+      <pb ed="#S" n="254"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>lit, ne in sententia decedat, eum absoluere poterit. Et si persad 
+      <lb ed="#S" n="2"/>versa non absoluatur appellationis obstaculum interponat. 
+      <lb ed="#S" n="3"/>recepta cautione, quod iuris pareat aequitati. extra de appel. 
+      <lb ed="#S" n="4"/>Qua fronte. Hic tamen aduerte, quod si interdictum multos 
+       con<lb ed="#S" n="5" break="no"/>stringit, &amp; aliqui volut satisfacere, quod non sunt recipiendi: 
+      <lb ed="#S" n="6"/>pisi principales sint: quia alij qui non dederunt causam 
+       in<lb ed="#S" break="no" n="7"/>terdicto nec peccauerunt: vnde satisfacere non tenentur: cum 
+      <lb ed="#S" n="8"/>tentum pro peccato patiantur alieno. Inno. Quod ex te. ex 
+      <lb ed="#S" n="9"/>tra de poe. &amp; re.
+    </p>
+            <p xml:id="khj78y-q73103-d1e2683" n="69">
+      <!-- 69 -->Quantum ad vigesimum. s de robore 
+      <lb ed="#S" n="10"/>&amp; confirmatione interdicti: sciendum, quod maiores debent 
+      <lb ed="#S" n="11"/>sententias interdicti a minoribus latas facere inuiolabi 
+      <lb ed="#S" n="12"/>liter obseruari, vsque ad satisfactionem condignam: &amp; non de 
+      <lb ed="#S" n="13"/>bent eas absque latorum conscientia relaxare. extra de offi. 
+      <lb ed="#S" n="14"/>ord. Cum ab Ecclesiarum. similiter de sententia ex. Rom. vbi 
+       dici<lb ed="#S" break="no" n="15"/>tur quod maiores uero relaxent sententias interdicti ab inferio 
+      <lb ed="#S" n="16"/>ribus latas ipsis omissis: nisi aliud obtineat consuetudo. 
+      <lb ed="#S" n="17"/>Io summa nota. quod cum mandatur alicui, quod tales per censu 
+      <lb ed="#S" n="18"/>ram Ecclesiasticam compellat, vel compescat: nomine censurae 
+      <lb ed="#S" n="19"/>intelligitur excommunicatio, suspensio, &amp; interdictum. extra de 
+      <lb ed="#S" n="20"/>ver. sig. Quaerenti. Item nullus praet praetendere consuetudinem, vt li 
+      <lb ed="#S" n="21"/>ceat eis pulsatis campanis: apertis ianuis: alta voce tempore 
+       ge<lb ed="#S" break="no" n="22"/>neralis interdicti celebrare. extra de consuetu. Cum inter 
+      <lb ed="#S" n="23"/>nos. Item actio interdicti violati publica siue populare 
+      <lb ed="#S" n="24"/>est, &amp; quilibet admittitur ad eam, sicut dicit Inno. super. c. 
+      <lb ed="#S" n="25"/>Cum internos. extra de consuet. Item sufficit quod sententia 
+       in<lb ed="#S" break="no" n="26"/>terdicti publice promulgetur. vt nullum excuset 
+       ignoran<lb ed="#S" break="no" n="27"/>tia: nec oportet quod singulorum auribus inculcetur, vel per literas 
+      <lb ed="#S" n="28"/>innotescat. extra de postula. Ad hoc. Item cum supponitur 
+      <lb ed="#S" n="29"/>terra alicuius interdicto, interpretatur ius omnem terram tempore 
+      <lb ed="#S" n="30"/>latae sententiae illi propter quem fertur adhaerentem inuolui. Ad 
+      <lb ed="#S" n="31"/>aeret autem qui iurisditioni suae subest, &amp; adhaeret: qui in 
+       cri<lb ed="#S" n="32" break="no"/>mine fon it eidem: sicut dicit Inno. super illud. c. Ad hoc.
+    </p>
+            <p xml:id="khj78y-q73103-d1e2739" n="70">
+               <lb ed="#S" n="33"/>
+               <!--70· -->Item. in summa no. quod rum interdicitur locus, nihil aliud 
+      <lb ed="#S" n="34"/>est dicere, nisi iter dicere huies ibi habitantes a sacramentis 
+      <lb ed="#S" n="35"/>ibi accipiendis &amp; clericos ibi celebrantes: vel quod melius 
+       vide<lb ed="#S" n="36" break="no"/>tur, clerici prohibentur ibi celebrare, &amp; sacramenta conferre: cum 
+      <lb ed="#S" n="37"/>locus, tanquam res inanimata nec sacrorum sit nec officiorum 
+      <lb ed="#S" n="38"/>susceptibilis. Inno. sup. ca. Tanta, de exces. praelatorum. 
+      <lb ed="#S" n="39"/>etiam non solum clerici indigenae: sed etiam alienigenae in loco 
+      <lb ed="#S" n="40"/>interdicto celebrare non debenti nisi sint priuilegiati. 
+       ex<lb ed="#S" break="no" n="41"/>tra de priui. Quod nonnullis. &amp; vt priui. In alijs autem 
+       lo<lb ed="#S" n="42" break="no"/>cis possunt clerici celebrare. Inno. super. c. Cum inter. extra 
+      <lb ed="#S" n="43"/>de consus. Quod si sic dicatur Interdicimus talem Ecclesiam 
+      <lb ed="#S" n="44"/>credimus irregularitatem incurrere qui ibi celebrant. sed 
+      <lb ed="#S" n="45"/>derici vbique poterunt celebrare: &amp; laici vbique audire, nisi 
+      <lb ed="#S" n="46"/>aliud fuerit additum. Inno, super c. Tanta. de exces. praela. 
+    </p>
+            <p xml:id="khj78y-q73103-d1e2774" n="31">
+               <lb ed="#S" n="47"/>
+               <!-- 31 -->Item nota. quod si ex celebratione priuilegiatorum 
+       ori<lb ed="#S" break="no" n="48"/>tur standalum: videlicet. vt templarij semel in anno 
+       aper<lb ed="#S" break="no" n="49"/>tis ia uis celebrant, vel immane esset factum illud propter 
+      <lb ed="#S" n="50"/>qnod interdictum positum est, non debent celebrare. Inno. 
+       su<lb ed="#S" break="no" n="51"/>per. c. Quod nonnullis. de priu.
+    </p>
+            <p xml:id="khj78y-q73103-d1e2790" n="72">
+      <!-- 72 -->Quid si homines 
+       manen<lb ed="#S" break="no" n="52"/>tes in terra interdicta exeunt de illa, nunquam possint alibi 
+      <lb ed="#S" n="53"/>audire diuina. Respundeo. si propter aliquos 
+       punien<lb ed="#S" break="no" n="54"/>dos, vel alium in eis veluti dominum vel familiam positum sit 
+      <lb ed="#S" n="55"/>interdictum: etiam extra terram: non possunt audire officium. si 
+      <lb ed="#S" n="56"/>aunt non deliqᷓrunt, nec causam aliquam praestiterunt: quare ter 
+      <lb ed="#S" n="57"/>ra interdiceretur: si terra: prouincia: vel villa pro alio 
+       deli<lb ed="#S" n="58" break="no"/>cto interdicta est: tunc secus est. in hoc casu non sunt 
+       perso<lb ed="#S" break="no" n="59"/>nae interdictae: vel si sunt: adhuc tamen sunt interdictae: 
+       ne<lb ed="#S" n="60" break="no"/>ibi accipiant sacramenta vel audiant diuina. Et ideo bene 
+       au<lb ed="#S" n="61" break="no"/>dient diuina extra terram interdictam: imo &amp; ibi audire 
+      <lb ed="#S" n="62"/>possunt apud eos: qui tale habent priuilegium, ꝗquossibet non 
+      <lb ed="#S" n="63"/>interdictos possunt admittere ad diuina officia, &amp; sacra tempore 
+      <lb ed="#S" n="64"/>generalis interdicti. Ar. pro his de poen. &amp; re. Quod in te. 
+      <lb ed="#S" n="65"/>vbi dicitur quod possunt pegrinari, &amp; in pegrinationibus pl. 
+      <lb ed="#S" n="66"/>consueuerunt homines intendere diuinis officijs. Item 
+       suffi<lb ed="#S" break="no" n="67"/>cit quod no est a iure prohibitum, q non posiint audire diui- 
+      <!--0254.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>na: quia poenae non sunt extendende: de poe c. poenae. Item 
+       vide<lb ed="#S" n="69" break="no"/>tur quibusdam, quod hoc habet locum vbi interdicta terra: 
+       vil<lb ed="#S" break="no" n="70"/>la: vel prouincia vel Ecclesia. sec' autem si interdicatur 
+       ali<lb ed="#S" n="71" break="no"/>quis specialiter, vel iterdicatur familia vel domus 
+       alicu<lb ed="#S" n="72" break="no"/>ius, vel populus alicuius ville: quia hec personae intelliguntur 
+      <lb ed="#S" n="73"/>interdictae: &amp; ideo nusquam debent diuina officia audire nec 
+      <lb ed="#S" n="74"/>sacramenta recipere. Ar. 17. q. 4. si habes. extra de sententia excommunicationis 
+      <lb ed="#S" n="75"/>Quod diebus. Inno. super. c. Vt priuilegia. extra de pri. 
+      <lb ed="#S" n="76"/>Et hoc est expresse declaratum iure nouo. extra de sententia 
+      <lb ed="#S" n="77"/>excommunicationis. c. si sententia. lib. 6. Posset etiam sacerdos proprius 
+      <lb ed="#S" n="78"/>cum talibus exire ad locum non interdictum: &amp; eis ibi 
+       cele<lb ed="#S" n="79" break="no"/>brare de licentia illius loci plebani: nisi esset forte propter 
+      <lb ed="#S" n="80"/>scandalum omittendum. Alius etiam quamuis cum in loco non 
+      <lb ed="#S" n="81"/>interdicto celebrat, non debet tales excludere: non tamen 
+      <lb ed="#S" n="82"/>potest eos ad se trahere, cum non habeat eos subditos vel 
+      <lb ed="#S" n="83"/>praebere ecclesiastica sacramenta: posset tamen facere praebere quibus 
+      <lb ed="#S" n="84"/>dam de quibus certum esset: quod propter eos non esset positum inter 
+      <lb ed="#S" n="85"/>dictum: gratiam in audiendis diuinis etiam sacramentis de licentia 
+      <lb ed="#S" n="86"/>vtriusque plebani conferendis, eius videlicet cuius sunt subditi, 
+      <lb ed="#S" n="87"/>&amp; eius in cuius ecclesia ista fierent. Ar. extra de vsu pal. Ex 
+      <lb ed="#S" n="88"/>tuarum. de parochijs &amp; alijs paro. Vt dominicis. caueat tamen 
+      <lb ed="#S" n="89"/>de scandalo. Item introductio mulierum post partum non 
+       debe<lb ed="#S" break="no" n="90"/>ret fieri a sacerdote. Item confessiones audiendae non sunt, 
+       ni<lb ed="#S" n="91" break="no"/>si forte fieri per modum consilij: quia tria capitula de poenis 
+      <lb ed="#S" n="92"/>morientium: videlicetvt illud. extra de spo. non est nobis. de 
+      <lb ed="#S" n="93"/>poe. &amp; re. Quod in te. de. sen. excommunicationis Responsio. licet quidam vt Tancre 
+      <lb ed="#S" n="94"/>dus &amp; alij velint, quod possint recipi pnice sanorum, quorum 
+       o<lb ed="#S" break="no" n="95"/>pinio em confirmata iure nouo: vt dictum est. sup.
+    </p>
+            <p xml:id="khj78y-q73103-d1e2894" n="73">
+      <!-- 73 -->Quid 
+      <lb ed="#S" n="96"/>si inter excommunicatos vel non interdictos admissos ad 
+      <lb ed="#S" n="97"/>officium priuilegiatorum sunt literati: non priuilegiate 
+      <lb ed="#S" n="98"/>nec interdicti, siue clerici, siue laici, nunquid cum eis 
+       po<lb ed="#S" n="99" break="no"/>terunt in suo officio dicere vel cebrare? Respondeo quod non: 
+      <lb ed="#S" n="100"/>quia cum virtus interdicti hoc habeat: quod non inter 
+      <lb ed="#S" n="101"/>dicti in loco interdicto celebrare non possint per fe: vt 
+      <lb ed="#S" n="102"/>dictum est: non videmus qua ratione possint cum aliis 
+      <lb ed="#S" n="103"/>cantare vel legere in suo officio: quia nec sacerdos 
+       cele<lb ed="#S" break="no" n="104"/>brare, nec diaconus etiam legere &amp; audire: quia etiam 
+       si<lb ed="#S" n="105" break="no"/>ne eis possunt in Ecclesia orare. &amp; hoc habet locum in his 
+      <lb ed="#S" n="106"/>priuilegiatis, qui habent priuilegium. quod in terris 
+       interdi<lb ed="#S" n="107" break="no"/>ctis celebrent. secus autem videtur in templarijs &amp; 
+       hospiti<lb ed="#S" break="no" n="108"/>larijs, qui priuilegiati sunt non tantum vt ipsi celebrent: sed 
+      <lb ed="#S" n="109"/>indiffinite &amp; personaliter eis concessum est, vt semel in 
+       ad<lb ed="#S" n="110" break="no"/>uentu eorum celebrent diuina: non per eos tantum: sed per quos 
+      <lb ed="#S" n="111"/>tunque : &amp; tunc omnes recipi possumt: nisi sint 
+       excommunica<lb ed="#S" n="112" break="no"/>ti vel interdicti vt dictum est. Inno. super.. Vt priuilegia. 
+       ex<lb ed="#S" n="113" break="no"/>tra de priui. Laici enim qui habeur priuilegium, quod tempor 
+      <lb ed="#S" n="114"/>interdicti possint audire diuina non gaudebunt illo si cau 
+      <lb ed="#S" n="115"/>sam dederunt interdicto vel aliquid fraudis ingesserint. 
+      <lb ed="#S" n="116"/>Priuilegium autem praedictum est reuocatum per decretalem 
+       Alma<lb ed="#S" break="no" n="117"/>Item si propter aliquorum instantiam positum est interdictum: 
+      <lb ed="#S" n="118"/>illi cum alijs licet pro ipsis positum non sit, illud obseruare 
+      <lb ed="#S" n="119"/>debent ne de aliorum fletu ipsi ridere videatur. extra de 
+      <lb ed="#S" n="120"/>priu. Peristis. Item si interdicitur terra alicuius: ripse post 
+      <lb ed="#S" n="121"/>latam sententiam emit terram non interdictam, illa non 
+       sorti<lb ed="#S" break="no" n="122"/>tur conditionem terrae interdictae: nisi lator sententiae 
+       volue<lb ed="#S" break="no" n="123"/>rit intendere tam de terra quam habuit: quam de terra: quam 
+      <lb ed="#S" n="124"/>habiturus esset. sed sivendat terram suam interdictam quamuis 
+      <lb ed="#S" n="125"/>transeat dominium, inhaeret tamen onus sententiae loco 
+      <lb ed="#S" n="126"/>vel loci populo: donec relaxetur. Argu. Ad hoc extra de 
+      <lb ed="#S" n="127"/>postu. ad hoc.
+    </p>
+            <p xml:id="khj78y-q73103-d1e2968" n="74">
+      <!-- 74 -->Ad argumen. in oppositum patet 
+       so<lb ed="#S" break="no" n="128"/>lutio ex dictis. Quando haeclauesdantur, &amp; quibus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

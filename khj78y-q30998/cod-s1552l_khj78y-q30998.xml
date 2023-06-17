@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="127"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q30998"><!-- l4d10-q4 -->
+            <head xml:id="khj78y-q30998-Hd1e101">Quaestio 4</head>
+            <head xml:id="khj78y-q30998-Hd1e103" type="question-title">
+     utrum 
+     Christus sit in altari visibiliter
+   </head>
+            <p xml:id="khj78y-q30998-d1e106">
+               <lb ed="#S" n="36"/>QVAESTIO QVARTA 
+      <lb ed="#S" n="37"/>De modo inuisibili, quo Christus est in altari
+    </p>
+            <p xml:id="khj78y-q30998-d1e113">
+               <lb ed="#S" n="38"/>Thom. 3. q. 76. art. 7. &amp;. S.
+    </p>
+            <p xml:id="khj78y-q30998-d1e118">
+               <lb ed="#S" n="39"/>QVAERITVR Quarto, vtrum 
+      <lb ed="#S" n="40"/>Christus sit in altari visibiliter. 
+      <lb ed="#S" n="41"/>Et videtur quod sic: quia aliquando 
+       appa<lb ed="#S" break="no" n="42"/>ret in specie pueri, vel carnis 
+      <lb ed="#S" n="43"/>crudae, vel sanguinis.
+    </p>
+            <p xml:id="khj78y-q30998-d1e132" n="2">
+               <lb ed="#S" n="44"/>
+               <!--2--> CONTRA: quia 
+       fi<lb ed="#S" break="no" n="45"/>des est de non visis. Et propter 
+      <lb ed="#S" n="46"/>hoc dicitur mysterium fidei: quia 
+      <lb ed="#S" n="47"/>aliud ibi videt, &amp; aliud creditur: extram eo. cum Marthe.
+    </p>
+            <p xml:id="khj78y-q30998-d1e145" n="3">
+               <lb ed="#S" n="48"/>
+               <!-- 3 -->RESPONDEO, tria sunt videnda. Primo, 
+      <lb ed="#S" n="49"/>vtrum videatur oculo corporali. Secundo, vtrum oculo 
+       men<lb ed="#S" n="50" break="no"/>tali. Tertio, de specie visibili apparente aliquid dicetur 
+      <lb ed="#S" n="51"/>propter argumenti solutionem.
+    </p>
+            <p xml:id="khj78y-q30998-d1e158" n="4">
+      <!--4 -->QVANTVM 
+      <lb ed="#S" n="52"/>ad primum sunt quinque conclusiones. Prima, quod oculo cor 
+      <lb ed="#S" n="53"/>porali mortali non videtur, secundum quod est ibi. Et ratio est: 
+      <lb ed="#S" n="54"/>qa velatum est speciebus opacis, vltra quas acies visus 
+       fi<lb ed="#S" break="no" n="55"/>gi non potest: etiam si esset ibi localiter, quasi in poris, vel 
+       con<lb ed="#S" n="56" break="no"/>cauitate, sicut in medicina cooperta nebula non videtur.
+    </p>
+            <p xml:id="khj78y-q30998-d1e174" n="5">
+               <lb ed="#S" n="57"/>
+               <!--5 -->Secunda conclusio est, quod nec etiam videtur oculo 
+       im<lb ed="#S" break="no" n="58"/>mortali beatae Virginis: dato etiam, quod opacitas medij 
+       in<lb ed="#S" break="no" n="59"/>terpositi non impediret visum oculi glorificati, vt quod 
+       exi<lb ed="#S" n="60" break="no"/>stentes in coelo sine motu viderent damnatos in inferno 
+      <lb ed="#S" n="61"/>non obstante opacitate terrae: quod forte esset possibile 
+      <lb ed="#S" n="62"/>si non ab obiecto speciem recipit oculus: sicut nunc, sed a 
+      <lb ed="#S" n="63"/>Deo, quod hic esse non potest: quia esse sensatum non potest, nisi 
+      <!--0127.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>quod sensibile est: sensibile autem proprium non est sine sen 
+      <lb ed="#S" n="65"/>sibili communi: quia albedo non quanta visibilis non est. Idem 
+      <lb ed="#S" n="66"/>autem est esse non quantum, &amp; non habere modum quantitati 
+      <lb ed="#S" n="67"/>uum, quantum ad propositum: propter quod Christus 
+       quan<lb ed="#S" n="68" break="no"/>tus aequaliter est in parua hostia, ac si non esset quantus: 
+      <lb ed="#S" n="69"/>quia non est ibi modo quantitatis. ergo nec oculus 
+       glo<lb ed="#S" break="no" n="70"/>rificatus potest videre ibi corpus Christi: vbi non est 
+       mo<lb ed="#S" break="no" n="71"/>do quantitatiuo, sicut non posset videre ipsum ibi, vbi es 
+      <lb ed="#S" n="72"/>set sine quantitate.
+    </p>
+            <p xml:id="khj78y-q30998-d1e218" n="6">
+      <!--6 -->Tertia conclusio est, quod nec 
+      <lb ed="#S" n="73"/>oculus Christi: quamuis Tho. hoc dicat arguendo, &amp; soluen 
+      <lb ed="#S" n="74"/>do, dicit enim, quod si esset extra, quod non videret se nisi per 
+      <lb ed="#S" n="75"/>miraculum: vbi tamen non asserit, quod existens intra, se videat, 
+      <lb ed="#S" n="76"/>nec per miraculum. Et ideo primo ostendo, quod non videt se 
+      <lb ed="#S" n="77"/>prout est extra: quia oculus Christi est localiter extra, &amp; in 
+      <lb ed="#S" n="78"/>tra sacramentaliter: quia licet oculus Christi prout est ex 
+      <lb ed="#S" n="79"/>tra hoc sacramentum, localiter sit visiuus: non tamen est visiuus esse, 
+      <lb ed="#S" n="80"/>intelligibilis, sed esse sensibilis: cum ergo nullum esse sub 
+      <lb ed="#S" n="81"/>stantiale sit sensibile, nisi mediante accidentali: ista muta 
+      <lb ed="#S" n="82"/>tio, prout substantialis est in nullo attingens accidens: non 
+      <lb ed="#S" n="83"/>est sensibilis: maxime sensu exteriori: quod dico propter ali 
+      <lb ed="#S" n="84"/>quos, qui dicunt substantiam indluidualem sentiri per 
+       co<lb ed="#S" break="no" n="85"/>gitatiuam. Cum ergo accidens Christi non fiat hic nisi per 
+      <lb ed="#S" n="86"/>substantiam. ergo nec suum fieri est hic cognoscibile: nisi 
+      <lb ed="#S" n="87"/>per fieri sustantiae quia eadem sunt principia essendi, &amp; co 
+      <lb ed="#S" n="88"/>gnoscendi. Vlterius autem si mutatio non est sensibilis: 
+      <lb ed="#S" n="89"/>nec per consequens mutatum esse, vel terminus eius, ita enim 
+      <lb ed="#S" n="90"/>est sensibilis dealbatio, sicut albedo. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q30998-d1e262" n="7">
+               <lb ed="#S" n="91"/>
+               <!--7--> Praeterea corpus Christi secundum esse sacramenta 
+      <lb ed="#S" n="92"/>le non est praesens, sed absens oculo Christi secundum 
+       es<lb ed="#S" break="no" n="93"/>se locale. ergo oportet, quod ei praesentet. Aut ergo secundum 
+      <lb ed="#S" n="94"/>modum, quo est in sacramento, &amp; ille non est modus visibilis: cum 
+      <lb ed="#S" n="95"/>secundum figuram pyramidalem nata sit fieri visio, &amp; non 
+       se<lb ed="#S" break="no" n="96"/>cundum modum indiuisibilem, aut representabir aliter, quae sit: 
+      <lb ed="#S" n="97"/>&amp; sic non videbit, prout ibi est.
+    </p>
+            <p xml:id="khj78y-q30998-d1e283" n="8">
+      <!--8--> Quarta con-
+       clu<lb ed="#S" break="no" n="98"/>sio est, quod nec etiam videt se, prout est intra sacramentaliter. 
+      <lb ed="#S" n="99"/>Ratio est, quia non est ibi oculus Christi modo visiuo: cum 
+      <lb ed="#S" n="100"/>de ratione oculi, vt visiuus est, sit extentio. Oculus autem 
+      <lb ed="#S" n="101"/>Christi non est in sacramento modo quantitatis, sicut nec 
+       cor<lb ed="#S" break="no" n="102"/>pus Christi: ita quod nec corpus Christi est hic modo 
+       visibi<lb ed="#S" break="no" n="103"/>bili, nee oculus modo visiuo: quia neutrum est ibi modo 
+      <lb ed="#S" n="104"/>quantitatis, qui solus est modus visibilis, &amp; visiuus. Et ideo 
+      <lb ed="#S" n="105"/>oculus Christi absolute loquendo videbat Christum 
+       exi<lb ed="#S" break="no" n="106"/>stentem in sacramento in coena, &amp; nunc etiam videt se existentent 
+      <lb ed="#S" n="107"/>sed non videt oculus Christi, prout est extra localiter, vel 
+      <lb ed="#S" n="108"/>intra sacramentaliter, vel quomodolibet aliter Christum pro 
+      <lb ed="#S" n="109"/>ut est in sacramento. i. secundum esse sacramentale: sed secundum es 
+      <lb ed="#S" n="110"/>se naturale oculus Christi prout est extra hoc sacramentum, 
+       sem<lb ed="#S" n="111" break="no"/>per cum videre potest: secundum autem esse, quod habet hic: 
+      <lb ed="#S" n="112"/>non conuenit ei videri, nec videre.
+    </p>
+            <p xml:id="khj78y-q30998-d1e320" n="9">
+      <!--9--> Quinta 
+       con<lb ed="#S" n="113" break="no"/>clusio est, quod nec etiam per miraculum hoc fieri potest: quia non 
+      <lb ed="#S" n="114"/>potest fieri, quod potentia feratur, nisi in suum obiectum. Cum igi 
+      <lb ed="#S" n="115"/>tur obiectum visus sit quantitas, &amp; qualitas inquantum huiusmodi: 
+      <lb ed="#S" n="116"/>non substantia quantitas, quae est hic per modu substantiae, 
+      <lb ed="#S" n="117"/>est inuisibilis. Et licet Deus possit facere sine obiecto 
+      <lb ed="#S" n="118"/>speciem visibilem tamen species, quam Deus faceret: si 
+       represen<lb ed="#S" break="no" n="119"/>taret corpus Christi, prout ibi est: non representaret cum 
+      <lb ed="#S" n="120"/>modo visibili. Vnde sicut non potest fieri per miraculum, 
+      <lb ed="#S" n="121"/>quod oculus videat spiritum: sic nec, quod videat corpus 
+       secun<lb ed="#S" break="no" n="122"/>dum quod habet modum spiritus. Nisi forte diceret, quod si 
+       ali<lb ed="#S" break="no" n="123"/>quis sensus interior cognoscat substantiam: potest Deus face 
+      <lb ed="#S" n="124"/>re, quod sensus exterior cognoscat eam, vel quantitatem, vt ha 
+      <lb ed="#S" n="125"/>bet modum substantiae, sed nec istud sequit: quia Deus non 
+      <lb ed="#S" n="126"/>potest facere, quod oculus videat sonum, quamuis sonus sit 
+       per<lb ed="#S" break="no" n="127"/>ceptibilis aliquo sensu.
+    </p>
+            <p xml:id="khj78y-q30998-d1e357" n="10">
+      <!--10--> Praeterea, cum corpus 
+      <lb ed="#S" n="128"/>Christus sit ibi modo spirituali non corporali, quia non est 
+      <lb ed="#S" n="129"/>ibi situaliter, nec localiter, nec hic, nec nunc proprie: sub 
+      <lb ed="#S" n="130"/>quibus conditionibus tantum sensus apprehendit. ideo
+      <!--0128.xml-->
+      <pb ed="#S" n="128"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>est ibi insensibiliter.
+    </p>
+            <p xml:id="khj78y-q30998-d1e377" n="11">
+      <!-- 11 -->Non videtur etiam verum 
+      <lb ed="#S" n="2"/>illud, quod statim supponebatur. scilicet quod sensus aliquis quantum 
+      <lb ed="#S" n="3"/>cunque altus possit substantiam apprehendere: quia 
+       substan<lb ed="#S" break="no" n="4"/>tia non est sensibile proprium, nec commune: quae sola 
+       sen<lb ed="#S" break="no" n="5"/>tiuntur sensibus exterioribus, &amp; interioribus excepta es 
+      <lb ed="#S" n="6"/>timatiua: quia illa sunt formae accidentales, vt patet 
+       discur<lb ed="#S" break="no" n="7"/>rendo per omnia illa: nec etiam per estimatiuam: quia illa appre 
+      <lb ed="#S" n="8"/>hendit formas intentionales: sed tamen accidentales. Vnde 
+      <lb ed="#S" n="9"/>nullus sensus apprehendit, quod quid est substantiae, quod 
+      <lb ed="#S" n="10"/>est proprium obiectum intellectus, vt dicitur. 3. de anima. 
+    </p>
+            <p xml:id="khj78y-q30998-d1e401" n="12">
+               <lb ed="#S" n="11"/>
+               <!-- 12 -->QVANTVM ad secundum, cum sit triplex 
+       ocu<lb ed="#S" break="no" n="12"/>lus mentalis scilicet viatoris, angeli, &amp; beati hominis: tres sunt 
+      <lb ed="#S" n="13"/>conclusiones.
+    </p>
+            <p xml:id="khj78y-q30998-d1e412" n="13">
+      <!-- 13 -->Prima, quod oculns viatoris non 
+      <lb ed="#S" n="14"/>videt corpus Christi in sacramento: quia oculus viatoris non 
+       vi<lb ed="#S" break="no" n="15"/>det proprie: nisi aut immediate prima principia, aut 
+       me<lb ed="#S" break="no" n="16"/>diatae conclusiones per illa. sicut oculus corporalis 
+       vi<lb ed="#S" break="no" n="17"/>det lucem immediate, &amp; colorem mediante luce. Neutro autem 
+      <lb ed="#S" n="18"/>modo videtur hic: quod est sacramenti fidei: quia non est per se notum: 
+      <lb ed="#S" n="19"/>nec est demonstrabile. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q30998-d1e431" n="14">
+      <!-- 14 -->secunda 
+       con<lb ed="#S" break="no" n="20"/>clusio est de oculo naturali angeli boni, vel mali, quod nec 
+      <lb ed="#S" n="21"/>iste corpus Christi in altari videre potest clare, &amp; immedia 
+      <lb ed="#S" n="22"/>te, &amp; directe: quia est de supernaturalibus intelligibilibus: 
+      <lb ed="#S" n="23"/>quia supernaturalia sensibilia angelus nouit: cum etiam ad 
+      <lb ed="#S" n="24"/>oculum homo videat ea: puta mortuum resuscitatum, vel ocu 
+      <lb ed="#S" n="25"/>lum restitutu: supernaturalia, aut intelligibilia angelus 
+      <lb ed="#S" n="26"/>non videt naturaliter: tale autem est esse corporis Christi 
+      <lb ed="#S" n="27"/>in altari. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q30998-d1e453" n="15">
+      <!-- 15 -->sed quod aliqui dicunt, quod ex 
+      <lb ed="#S" n="28"/>naturalibus angelus cognoscit hic esse accidens sine 
+       sub<lb ed="#S" break="no" n="29"/>iecto: non autem hic esse corpus Christi, dubium est: quia ipse 
+      <lb ed="#S" n="30"/>potest scire, quid factum est de substantia, quod non est annihila 
+      <lb ed="#S" n="31"/>ta, &amp; quod est conuersa in corpus Christi: sicut quod cibus 
+       con<lb ed="#S" break="no" n="32"/>uertitur in cibatum, &amp; huiusmodi. scit enim generationem, &amp; cor 
+      <lb ed="#S" n="33"/>ruptionem rerum naturalium. scilicet corpus Christi non hic: nisi 
+      <lb ed="#S" n="34"/>per hoc, quod in ipsum est conuersum id, qnod erat hic. 
+       er<lb ed="#S" break="no" n="35"/>go &amp;c.
+    </p>
+            <p xml:id="khj78y-q30998-d1e475" n="16">
+      <!-- 16 -->sed potest dici, quod angelus scit, vel scire 
+      <lb ed="#S" n="36"/>pont: nisi prohibeatur specialiter quicquid fit in naturalibus 
+      <lb ed="#S" n="37"/>modo naturali, sed quod fit modo supernaturali non 
+       opor<lb ed="#S" break="no" n="38"/>tet. Nec apparet, quare plus cognoscat accidens esse sine 
+      <lb ed="#S" n="39"/>subiecto, quam conuersionem factam in corpus Christi cum vtrumque 
+      <lb ed="#S" n="40"/>sit praeter cursum naturae,
+    </p>
+            <p xml:id="khj78y-q30998-d1e491" n="17">
+      <!-- 17 -->Vel dicendum, quod 
+       si<lb ed="#S" break="no" n="41"/>cut cognoscimus sensibilia, sic ipse intelligibilia. Vnde 
+      <lb ed="#S" n="42"/>sicut videmus accidentia corporea non esse, sed non vide 
+      <lb ed="#S" n="43"/>mus quid de eis factum est: cu appareat in forma carnis, 
+      <lb ed="#S" n="44"/>vel pueri: sic angelus videt substantiam ibi non esse: sed non 
+      <lb ed="#S" n="45"/>videt, vtrum sit annihilata, vel conuersa. sed huiusmodi 
+       super<lb ed="#S" break="no" n="46"/>naturalia possunt ipsi citius, quae nos coniicere indirecte 
+      <lb ed="#S" n="47"/>per miracula fctam, quae ipsi sciunt esse vera, nos autem non: quia qui 
+      <lb ed="#S" n="48"/>nobis videt suscitatus: forte est angelus in corpore 
+       assum<lb ed="#S" break="no" n="49"/>pto, sed talis deceptio non cadit in angelo: vnde credunt, 
+      <lb ed="#S" n="50"/>&amp; contremiscunt: credunt, quia non vident illud in se, sicut 
+      <lb ed="#S" n="51"/>nec Trinitatem, nec vnionem verbi in carne: tamen sciunt 
+       indi<lb ed="#S" break="no" n="52"/>recte: quia per miracula coniecturant, quod impossibile est non 
+      <lb ed="#S" n="53"/>esse verum: sicut aliter cognosco puerum natum: quod in se 
+       vi<lb ed="#S" break="no" n="54"/>deo: aliter quando adhuc est in vtero tumescente, sed nescio quid 
+      <lb ed="#S" n="55"/>sit determinate: an viuum, an mortuum, an masculus, an 
+      <lb ed="#S" n="56"/>foemina. Et sic est de supernaturalibus respectu 
+       daemo<lb ed="#S" break="no" n="57"/>num, quae per miracula cadentia sub eorum naturali 
+       euiden<lb ed="#S" break="no" n="58"/>tia sunt probata. Oculus ergo naturalis angeli non videt 
+      <lb ed="#S" n="59"/>clare hic esse corpus Christi, sed coniicit infallibiliter ex 
+      <lb ed="#S" n="60"/>miraculis sensibilibus, quae clare videt fieri ad 
+       testimo<lb ed="#S" break="no" n="61"/>nium veritatis.
+    </p>
+            <p xml:id="khj78y-q30998-d1e541" n="18">
+      <!-- 18 -->Tertia conclusio est de oculo 
+      <lb ed="#S" n="62"/>beato hominis, &amp; angeli, quod vterque videt hoc clare, 
+       homi<lb ed="#S" break="no" n="63"/>nis quidem: quia quod audiuit hic, &amp; credidit: illic clare vi 
+      <lb ed="#S" n="64"/>debit, secundum illud nisi credideritis, non intelligetis, &amp; 
+      <lb ed="#S" n="65"/>sicut audiuimus, sic vidimus: idem de oculo angeli: quia 
+       ie<lb ed="#S" break="no" n="66"/>rarchia nostra illuminabit a ierarchia coelesti, a qua differt 
+      <lb ed="#S" n="67"/>in luce, &amp; enigmate. Vnde ipsi clare vident omnia, de quibus 
+      <!--0128.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>credendis nos illuminant: credibilia vero nobis, &amp; eis pro 
+      <lb ed="#S" n="69"/>statu viae commnnia, sicut Ttrinitatem, &amp; huiusmodi: meruerunt 
+      <lb ed="#S" n="70"/>ipsi videre, sicut &amp; nos. Credibilia autem nobis propria: 
+       si<lb ed="#S" break="no" n="71"/>cut articulos incarnationis videns per relationem: vnde de 
+      <lb ed="#S" n="72"/>omnibus mysteriis grae, de quibus nos illuminant ad 
+       fi<lb ed="#S" break="no" n="73"/>dem, habent ipsi gratuitam visionem.
+    </p>
+            <p xml:id="khj78y-q30998-d1e576" n="19">
+      <!-- 19 -->
+       QVAN<lb ed="#S" break="no" n="74"/>TVM ad tertium sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-q30998-d1e584" n="20">
+      <!-- 20 -->Prima 
+      <lb ed="#S" n="75"/>quod illae spens carnis, vel pueri apparentis: non sunt proprie 
+      <lb ed="#S" n="76"/>spens Christi apparentis in propria effigie, plus, quam prius: quia 
+      <lb ed="#S" n="77"/>tunc oporteret ipsum descendere de coelo, &amp; cu illae spens 
+      <lb ed="#S" n="78"/>aliquando diu fuerint sub claue reseruertae: tandiu corpus 
+      <lb ed="#S" n="79"/>Christi fuisset incarceratum, sed sunt spens superinductae 
+      <lb ed="#S" n="80"/>prioribus corruptis. Vnde nec tunc videi in propria 
+       spe<lb ed="#S" break="no" n="81"/>tie: quia nec ipse est in forma pueri, vel carnis, vel 
+       sangui<lb ed="#S" break="no" n="82"/>ni venis, sed totus integer.
+    </p>
+            <p xml:id="khj78y-q30998-d1e606" n="21">
+      <!-- 21 -->secunda conclusio 
+      <lb ed="#S" n="83"/>est, ibi corpus Christi verum: non obstante ratione quorun 
+      <lb ed="#S" n="84"/>dam dicentium, quod non manet sacramentum, quia ibi mutant species 
+      <lb ed="#S" n="85"/>sensibiles, q sunt de ratione sacri. ergo Christus non ma 
+      <lb ed="#S" n="86"/>net sub sacio. Nam si istud argumentum verum concluderet, 
+      <lb ed="#S" n="87"/>runc ecclesia idololatraret, quae huius species adorat. 
+    </p>
+            <p xml:id="khj78y-q30998-d1e622" n="22">
+               <lb ed="#S" n="88"/>
+               <!-- 22 -->Et ideo ad rationem eorum dicendum est, quod quanuis 
+      <lb ed="#S" n="89"/>qualitates mutentur: puta, quod spens a fumo denigrentur, vel 
+      <lb ed="#S" n="90"/>species vini infrigident, aut calefiant, aut rarefiant: dum 
+      <lb ed="#S" n="91"/>tamen quantitas maneat, semper est ibi corpus Christi. ergo 
+      <lb ed="#S" n="92"/>cum hic quantitas remaneat, eadem numero semper manet cor 
+      <lb ed="#S" n="93"/>pus Christi: quia licet spens sensibilis sit de rartione  sacri: tamen non 
+      <lb ed="#S" n="94"/>ista vl' illa determinate: d'ratione enim sacri altaris est quam 
+      <lb ed="#S" n="95"/>titas cum aliquo colore, &amp; figura. sed accidit ei, quod sit iste 
+      <lb ed="#S" n="96"/>color, vel contrarius isti: ista figura, vel alia. Vnde muta 
+      <lb ed="#S" n="97"/>tio circa ista: dum tamen maneat quantitas, non mutat sacramentum: 
+      <lb ed="#S" n="98"/>tandiu enim ibi manet corpus Christi: quandiu ibi mansis 
+      <lb ed="#S" n="99"/>set substantia panis. sed manente substantia panis, Deus 
+      <lb ed="#S" n="100"/>potuisset ibi facere talem apparitionem, secundum 
+       mutatio<lb ed="#S" break="no" n="101"/>nem coloris, &amp; figurae: sicut panifici de panibus possunt 
+      <lb ed="#S" n="102"/>effigiare pueros, &amp; quicquid volut. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q30998-d1e659" n="23">
+      <!-- 23 -->
+       Ter<lb ed="#S" break="no" n="103"/>tia conclusio est, quicquid faciendum sit de huiusmodi speciebus. 
+    </p>
+            <p xml:id="khj78y-q30998-d1e666" n="34">
+               <lb ed="#S" n="104"/>
+               <!-- 34 -->Dicendum, quod non debet eas minister sumere 
+       pro<lb ed="#S" n="105" break="no"/>pter honorem, &amp; excusatur a praecepto ecclesiae, quod celebrantes 
+      <lb ed="#S" n="106"/>communicent, quia ad insolutum non refertur, vel conficiat in 
+      <lb ed="#S" n="107"/>alia materia, vt infra dicetur di. proxima. q. de materia. 
+       De<lb ed="#S" n="108" break="no"/>bet autem reseruari in loco, vbi est verum corpus Christi, cum 
+      <lb ed="#S" n="109"/>sit verum corpus Christi. Et sic patet solutio ad oppositum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

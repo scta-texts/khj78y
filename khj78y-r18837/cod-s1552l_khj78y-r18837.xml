@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="378"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r18837"><!-- l4d33-q2 -->
+            <head xml:id="khj78y-r18837-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-r18837-Hd1e103" type="question-title">
+     de virginitate 
+     utrum fit dignissima virtutum
+   </head>
+            <p xml:id="khj78y-r18837-d1e106">
+               <lb ed="#S" n="110"/>QVAESTIO SECVNDA. 
+    </p>
+            <p xml:id="khj78y-r18837-d1e111">
+               <lb ed="#S" n="111"/>De virginitate. 
+      <lb ed="#S" n="112"/>Ino. 4. Dijtincs. 3. q. 3. arti. 3. 
+    </p>
+            <p xml:id="khj78y-r18837-d1e118">
+               <lb ed="#S" n="113"/>SECVNDO quaeritur de virginitate 
+      <lb ed="#S" n="114"/>vtrum fit dignissima virtutum. Et 
+       vide<lb ed="#S" break="no" n="115"/>tur quod sic: quia dicit Ambrosius quod est prin 
+      <lb ed="#S" n="116"/>cipalis virtus. a Contra, quia magis pla 
+      <lb ed="#S" n="117"/>cuit Deo humilitas beatae virginis quam sua 
+      <lb ed="#S" n="118"/>virginitas secundum Bernardum. Responsio, hic videnda 
+      <lb ed="#S" n="119"/>sunt sex. Primo, quid sit virginitas. secundo, quod est licita. 
+      <lb ed="#S" n="120"/>Tertio, quod est per se bona. Quarto, quod est virt. Quinto de 
+      <lb ed="#S" n="121"/>comparatione eius ad alias virtutes. sexto de comparatione 
+      <lb ed="#S" n="122"/>eius ad coniugium.
+    </p>
+            <p xml:id="khj78y-r18837-d1e143" n="3">
+      <!-- 3 -->Quantum ad primum. scilicet quid sit 
+       vir<lb ed="#S" break="no" n="123"/>ginitas, sunt sex conclusiones.
+    </p>
+            <p xml:id="khj78y-r18837-d1e150" n="4">
+      <!-- 4 -->Prima de descriptione. 
+      <lb ed="#S" n="124"/>Aug. penes illud quod est in virginitate corporale: vnde di 
+      <lb ed="#S" n="125"/>citur. Virginitas est continentia qua integritas carnis ipsi 
+      <lb ed="#S" n="126"/>creatori animae &amp; carnis vouei, consecratur &amp; conseruatur. Di 
+      <lb ed="#S" n="127"/>cit autem continentia· i. completa abstinentia: non prout diuiditur 
+      <lb ed="#S" n="128"/>contra temperantiam: quia illa non est virtus perfecta qua 
+       in<lb ed="#S" break="no" n="129"/>tegritas carnis, ad differentiam continentiae vidualis: ipsi 
+       crea<lb ed="#S" break="no" n="130"/>tori animae et carnis, ad differentiam consecratarum, idolis vouetur: 
+      <!-- TODO: update reading order in ocr4all -->
+      <!--0379.xml-->
+        <pb ed="#S" n="379"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ex hoc habet rationem laudis, quia Deo dicata: consecratur 
+        <lb ed="#S" n="2"/>etiam per votum solenne, &amp; seruatur, vouete &amp; reddite. 
+        <lb ed="#S" n="3"/>In hac igitur descriptione intelligendum est quod 
+       integri<lb ed="#S" break="no" n="4"/>tas carnis dicit materiam remotam, et continentia 
+       ele<lb ed="#S" break="no" n="5"/>ctionem: vouetur igitur per votum simplex, &amp; 
+       consecra<lb ed="#S" break="no" n="6"/>tur per solenne, sicut enim sponsa plus diligitur quam non 
+        <lb ed="#S" n="7"/>sponsa, &amp; vxor plus caeteris parius, sic per virginitatem est 
+        <lb ed="#S" n="8"/>anima Deo grata et Del amica, sed per votum simplex 
+        <lb ed="#S" n="9"/>fit Dei sponsa: &amp; sic gratior per votum solenne, quasi vxor 
+        <lb ed="#S" n="10"/>agni &amp; serua charissima.
+      </p>
+            <p xml:id="khj78y-r18837-d1e200" n="5">
+        <!--5 -->Notandum est autem quod 
+        <lb ed="#S" n="11"/>Tho. in scripto dicit votum de essentia virginitatis non 
+        <lb ed="#S" n="12"/>esse, in summa vero videtur dicere oppositum, sicut enim 
+        <lb ed="#S" n="13"/>seruare castitatem: paupertatem, obedientiam sine voto, 
+        <lb ed="#S" n="14"/>vt nouitius non faceret religiosum, sic virginitas sine 
+       vo<lb ed="#S" break="no" n="15"/>to non daret aureolam.
+      </p>
+            <p xml:id="khj78y-r18837-d1e216" n="6">
+        <!--6 -->Sed contra, quia licet 
+       propo<lb ed="#S" break="no" n="16"/>situm nubendi impediret quis proponeret non illicite 
+        <lb ed="#S" n="17"/>corrumpi: tamen firmum propositum perpetus continendi 
+        <lb ed="#S" n="18"/>etiam sine voto, facit virtutem virginitatis, nec votum 
+        <lb ed="#S" n="19"/>trahit ad aliam virtutem quam ad suam. s. latriam alias 
+       age<lb ed="#S" break="no" n="20"/>ret vltra spem. Vnde bene concedo quod votum non facit de 
+        <lb ed="#S" n="21"/>actu non virtuoso virtuosum, &amp; quod actum trahat ad 
+       altio<lb ed="#S" break="no" n="22"/>rem virtutem non in eodem genere, sed alio: sicut votum 
+        <lb ed="#S" n="23"/>trahit ieiunium ad altiorem virtutem quam sit abstinentia 
+        <lb ed="#S" n="24"/>vel sobrietas, sed hoc non est in genere temperantiae, sed 
+        <lb ed="#S" n="25"/>iustitiae: vnde votum non facit ieiunium esse specialem 
+        <lb ed="#S" n="26"/>virtutem: sed trahi ad latriam, sic &amp; in proposito, si virgi 
+        <lb ed="#S" n="27"/>nitas haberet ex voto rationem virtutis, non esset species 
+        <lb ed="#S" n="28"/>temperantiae se habens ad castitatem, sicut magnificētia 
+        <lb ed="#S" n="29"/>ad liberalitatem, sed solum esset actus castitatis elicitiuae 
+        <lb ed="#S" n="30"/>&amp; latriae imperatiuae
+      </p>
+            <p xml:id="khj78y-r18837-d1e253" n="7">
+        <!--7 -->Propterea, sic se habet 
+       virgini<lb ed="#S" break="no" n="31"/>tas ad castitatem, sicut magnificentia ad liberalitatem: 
+        <lb ed="#S" n="32"/>sed illa est specialis virt' non ex hoc quod vota, sed solum quia 
+        <lb ed="#S" n="33"/>habet specialem difficultatem et bonitatem, ergo &amp;c.
+      </p>
+            <p xml:id="khj78y-r18837-d1e264" n="8">
+        <!--8-->
+               <lb ed="#S" n="34"/>Ad argu. dicendum quod non est simile: quia ad religionem non 
+        <lb ed="#S" n="35"/>sufficit firmitas propositi, sed requiritur firmitas facti: vnde 
+        <lb ed="#S" n="36"/>nouitius qᷓuis firmiter proponat remanere, non est religio 
+        <lb ed="#S" n="37"/>sus: quia de facto potest fieri non religiosus, &amp; religio 
+       no<lb ed="#S" break="no" n="38"/>minat statum ad quem requiritur immobilitas facti, &amp; 
+        <lb ed="#S" n="39"/>per conseques potest, et etiam solennis: vnde etiam si nouitius 
+        <lb ed="#S" n="40"/>votum simplex emisit, nondum em religiosus, sed ad rationem vir 
+        <lb ed="#S" n="41"/>tutis non requirit immobilitas facti, cum quis possit a ve 
+        <lb ed="#S" n="42"/>ra virtute decidere, et mutari de vere virtuoso in vere vi 
+        <lb ed="#S" n="43"/>tiosum: &amp; ideo si virginitas diceret statum &amp; non 
+       habi<lb ed="#S" break="no" n="44"/>tum posset videri quod requireretur votum: sed si dicat 
+       ha<lb ed="#S" break="no" n="45"/>bitum virtutis specialis non requirit votum quodcumque. Et cer 
+        <lb ed="#S" n="46"/>tum est quod non est simile de virginitate &amp; religione quo ad 
+        <lb ed="#S" n="47"/>affinitatem, tum quia non potest fieri de vero religioso non 
+       re<lb ed="#S" break="no" n="48"/>ligiosus, sicut de virgine non virgo: vnde etiam ibi 
+       requi<lb ed="#S" break="no" n="49"/>ritur votum solenne, hic aunt saltem sufficeret votum simplex. 
+        <lb ed="#S" n="50"/>Vnde Augu. ponit hic aliqua quae non sunt de necessitate: sed 
+        <lb ed="#S" n="51"/>de perfectione: quia sponsata Christo per votum est perfectior.
+      </p>
+            <p xml:id="khj78y-r18837-d1e309" n="9">
+               <lb ed="#S" n="52"/>
+               <!-- 9 -->Secunda conclusio est de secunda descriptione 
+       Augu<lb ed="#S" break="no" n="53"/>stini, penes illud quod est in virginitate formale est 
+       prin<lb ed="#S" n="54" break="no"/>cipale. Virginitas est in carne corruptibili 
+       incorruptio<lb ed="#S" break="no" n="55"/>nis perpetua meditatio. dicit ergo in carne: vnde in 
+       an<lb ed="#S" break="no" n="56"/>gelis proprie non est virginitas, quia opposita nata sunt 
+        <lb ed="#S" n="57"/>fieri circa idem. In illis autem non est luxuria: ergo nec 
+        <lb ed="#S" n="58"/>virginitas proprie: quia spiritus carnem &amp; ossa non 
+       ha<lb ed="#S" break="no" n="59"/>bet. Corruptibili. tanto difficilius per naturam. s. vnde &amp; 
+        <lb ed="#S" n="60"/>post resurrectionem virginitas erit purior: sed non 
+       diffi<lb ed="#S" break="no" n="61"/>cilis, incorruptionis, tripliciter vt post dicetur. sed de 
+       op<lb ed="#S" n="62" break="no"/>pressis virginibus in ipso actu consentientibus, non 
+       vi<lb ed="#S" break="no" n="63"/>detur quod perdant virginitatem, quia tunc non habent iudicium 
+        <lb ed="#S" n="64"/>rationis, sicut nec per pollutiqnem sommi in vigilia 
+       termi<lb ed="#S" n="65" break="no"/>natam: perpetua, quo ad propositum meditatio: vnde pueri 
+        <lb ed="#S" n="66"/>qui non habent vsum rationis, &amp; nesciunt quid faciunt non 
+        <lb ed="#S" n="67"/>terdunt virginitatem: vt si infans tentauit quod complere non 
+        <!--0379.xml-->
+        <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>potuit. Vnde abusus eorum vel incestus non 
+       intelligi<lb ed="#S" break="no" n="69"/>tur retineri per retentationem casuum episcopalium: quia 
+        <lb ed="#S" n="70"/>nec per hoc tollitur virginitas, nec causat affinitas nec 
+        <lb ed="#S" n="71"/>publicae honestatis iustitia, quando non praecesserunt 
+       spon<lb ed="#S" n="72" break="no"/>salia, alias sic, de spon. c. Iuuenis. fic autem dicitur virgi 
+        <lb ed="#S" n="73"/>nitas perpetua meditatio incorruptionis, sicut iustitia, 
+        <lb ed="#S" n="74"/>perpetua et constans voluntas ius vnicuique suum tribuens: 
+        <lb ed="#S" n="75"/>&amp; sicut matrimonium dicitur indiuiduam vitae 
+       consue<lb ed="#S" break="no" n="76"/>tudinem retinens. s. quantum ad propositum animi, non 
+        <lb ed="#S" n="77"/>autem semper quo ad factum.
+      </p>
+            <p xml:id="khj78y-r18837-d1e374" n="10">
+        <!--10 -->Notandum est autem 
+        <lb ed="#S" n="78"/>quod homo potest corrumpi tripliciter: vno modo carne tam 
+        <lb ed="#S" n="79"/>tum, et sic non perditur virginitas, sicut si muliet arcta 
+        <lb ed="#S" n="80"/>scindatur, &amp; obstetrix probando frangat claustra, plusquam 
+        <lb ed="#S" n="81"/>fi pes amputetur aut vir circuncidatur, etiam si praeter 
+        <lb ed="#S" n="82"/>spem et consensum seminatio sequatur. secundo, 
+       corrum<lb ed="#S" break="no" n="83"/>pitur homo solum mente, quando consentit in libidinem, 
+        <lb ed="#S" n="84"/>&amp;sic perditur sed recuperabiliter. tertio, quando vtroq́; 
+        <lb ed="#S" n="85"/>modo corrumpitur, &amp; sic perditur irrecuperabiliter.
+      </p>
+            <p xml:id="khj78y-r18837-d1e396" n="11">
+        <!--11-->
+               <lb ed="#S" n="86"/>Tertia conclusio est de tertia descriptione, quae est 
+       Am<lb ed="#S" break="no" n="87"/>bro. Virginitas est expers contagionis integritas. Dicit 
+        <lb ed="#S" n="88"/>autem expers, non pro experientia, sed pro 
+       inexperien<lb ed="#S" break="no" n="89"/>tia quasi extra partem, quia nec licitas delitias admittit, 
+        <lb ed="#S" n="90"/>vt coniugium, nec aliqua parte temporis: vt vidua, contagio 
+        <lb ed="#S" n="91"/>nis: morbus contagiosus est actus carnalis, qul inficit 
+       car<lb ed="#S" break="no" n="92"/>nem suam &amp; alienam: quia qui fornitatur in corpus suum 
+        <lb ed="#S" n="93"/>peccat, integritas. s. carnis: vnde haec diffinitio tangit 
+       ma<lb ed="#S" break="no" n="94"/>teriam remotam, quae est carnis integritas, &amp; propinquam 
+        <lb ed="#S" n="95"/>delectationem siue contagium. Notandum est autem quod 
+        <lb ed="#S" n="96"/>virginitas perditur non solum per corruptionem 
+       natu<lb ed="#S" break="no" n="97"/>ralem, sed multo plus per innaturalem. Cum enim luxu 
+        <lb ed="#S" n="98"/>ria opponatur castitati &amp; maxime virginitati, &amp; contraria 
+        <lb ed="#S" n="99"/>non sunt simul, luxuria contra naturam, quae maxime 
+       con<lb ed="#S" n="100" break="no"/>trariat ut castitati: maxime tollit virginitatem, sed ad hoc 
+        <lb ed="#S" n="101"/>quod vir perdat virginitatem irrecuperabiliter requiritur, 
+        <lb ed="#S" n="102"/>quod corrumpatur mente et corpore per seminis emissionem, 
+        <lb ed="#S" n="103"/>vnde pueri &amp; puellae adinuicem se caltantes antequam 
+       pos<lb ed="#S" break="no" n="104"/>sint seminare non perdunt ex toto virginitatem, quin pos 
+        <lb ed="#S" n="105"/>sint recuperare.
+      </p>
+            <p xml:id="khj78y-r18837-d1e444" n="12">
+        <!--12 -->Quarta conclusio est de 
+       volunta<lb ed="#S" break="no" n="106"/>ria &amp; irrecuperabili amissione virgiuitatis in muliere. 
+        <lb ed="#S" n="107"/>Vbi est notandum, quod mulier perdit virginitatem per hoc 
+        <lb ed="#S" n="108"/>quod corrumpitur mente &amp; corpore altero de tribus mo 
+        <lb ed="#S" n="109"/>dis puta, per hoc quod solum claustra frangantur, etiam si 
+        <lb ed="#S" n="110"/>nec seminaret nec semen reciperet. Nam concubina 
+       spa<lb ed="#S" break="no" n="111"/>donis deuirginauit iuuenculam, qui licet non posset 
+       se<lb ed="#S" break="no" n="112"/>minare poterat tamem claustra infringere. secundo modo 
+        <lb ed="#S" n="113"/>per seminis naturalis susceptionem, quia si ita reciperet: 
+        <lb ed="#S" n="114"/>saluo claustro, sicut menstruum emittit, nec etiam semina 
+        <lb ed="#S" n="115"/>ret, nihilominus virgo non esset, quia sic posset concipere: 
+        <lb ed="#S" n="116"/>praegnantem aunt per naturam nullus diceret virginem, 
+        <lb ed="#S" n="117"/>quia mulieres aliquae concipiunt quae non seminant. ter 
+        <lb ed="#S" n="118"/>tio modo si ex vehementia ardoris sine fractione claustri 
+        <lb ed="#S" n="119"/>ipsa seminat, &amp; sine hoc quod semem viri recipiat. Quibusdam 
+        <lb ed="#S" n="120"/>tamen videtur quod seminatio non defloret mulierem, sed seminis 
+       re<lb ed="#S" n="121" break="no"/>ceptio: sed quia seminis receptio deseruit proli, sed seminis 
+        <lb ed="#S" n="122"/>emissio voluptati, &amp; amor voluptatis directius opponit 
+        <lb ed="#S" n="123"/>virginitati: quam amare prolem, quia amare prolem &amp; horrere 
+        <lb ed="#S" n="124"/>voluptatem stant simul in beata virgine, sed amare volu 
+        <lb ed="#S" n="125"/>ptatem et horrere eam sunt contraria: ideo verius dicitur 
+        <lb ed="#S" n="126"/>quod dictis tribus modis perditur in muliere virginitas.
+      </p>
+            <p xml:id="khj78y-r18837-d1e494">
+               <lb ed="#S" n="127"/>
+               <!--13 -->Quinta conclusio est de corruptione inuoluntaria. 
+        <lb ed="#S" n="128"/>Vbi considerandum est quod non perditur virginitas per 
+        <lb ed="#S" n="129"/>quamcunque corruptionem corporis inuoluntariam, etiam 
+        <lb ed="#S" n="130"/>triplicem in muliere, vt quando opprimitur et 
+       frangu<lb ed="#S" break="no" n="131"/>tur claustra pudoris, et etiam semen viri recipitur, etiam 
+        <lb ed="#S" n="132"/>si inde concipiat &amp; pariat. Item nec per propriam semina 
+        <lb ed="#S" n="133"/>tionem quando non procedit ex consensu nec 
+       accepta<lb ed="#S" break="no" n="134"/>tur a consensu, quando habetur iudicium rationis. Si 
+      <!--0380.xml-->
+      <pb ed="#S" n="380"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>enim dormiens vir vel mulier polluatur: non perditur 
+      <lb ed="#S" n="2"/>etiam si in vigilia terminetur: nisi postquam terminata est 
+       con<lb ed="#S" break="no" n="3"/>placeat, nisi quod alicui videretur: cum virginitas mentis 
+      <lb ed="#S" n="4"/>respiciat futurum: quod si quis complaceat sibi in praeterita pol 
+      <lb ed="#S" n="5"/>lutione quae non ex electione processit: virginitas non 
+      <lb ed="#S" n="6"/>perdit corpore, sed tin mente, pro tunc enim non 
+       perdi<lb ed="#S" break="no" n="7"/>tur corpore, quia illa corruptio transit: prius autem non fuit 
+      <lb ed="#S" n="8"/>perdita, quia consensus defuit. Requiritur ergo quod consensus 
+      <lb ed="#S" n="9"/>praecedet, vt si sentiens se calefactum vellet obdormire vt 
+      <lb ed="#S" n="10"/>pollueretur: &amp; mulier vt opprimeret, vel requiritur vt concur 
+      <lb ed="#S" n="11"/>rat: sed pro tempore quo potest contradicere: nam durante se 
+      <lb ed="#S" n="12"/>minatione non habet iudicium rationis: &amp; mulier quae op 
+      <lb ed="#S" n="13"/>primitur sic suscipiendo semen, vel alias quandocunque consenti 
+      <lb ed="#S" n="14"/>at, nisi in illo solo tempore quo ipsa inuita excitata 
+       semi<lb ed="#S" break="no" n="15"/>nat: quando sine culpasua caret iudiciorationis perdit virgi 
+      <lb ed="#S" n="16"/>nitatem.
+    </p>
+            <p xml:id="khj78y-r18837-d1e557" n="14">
+      <!-- 14 -->sexta conclusio est iuxta hoc de consecratio 
+      <lb ed="#S" n="17"/>ne mulieris, &amp; bigamia viri, quomodo  hae corruptiones se 
+       ha<lb ed="#S" break="no" n="18"/>beant ad illa. Dicendum est quod si mulier fuit corrupta a vi 
+      <lb ed="#S" n="19"/>ro quantumcunque vi oppressa, non debet benedici: quia vere 
+      <lb ed="#S" n="20"/>ost corrupta &amp; vere non integra, licet sine peccato: &amp; per 
+      <lb ed="#S" n="21"/>consequens non potest significare integritatem sponsae 
+       Chri<lb ed="#S" break="no" n="22"/>sti. Et similiter cuicunque nubat facit ipsum bigamum: quia 
+      <lb ed="#S" n="23"/>vere diuisit carnem suam in plures, licet sine peccato suo, 
+      <lb ed="#S" n="24"/>sicut si habuisset prius licite alium virum: quia in 
+       tali<lb ed="#S" break="no" n="25"/>bus non considerat sanctitas animi, quia vidua 
+       quantun<lb ed="#S" break="no" n="26"/>cunque, sancta non debet consecrari: &amp; virgo quantuncun 
+      <lb ed="#S" n="27"/>que alias peccatrix potest consecrari. Et similiter in 
+       bi<lb ed="#S" break="no" n="28"/>gamia non culpa respicit: alias magis per fornicationem 
+      <lb ed="#S" n="29"/>causaretur: sed defectus mysterij. sed in alio est 
+       differen<lb ed="#S" break="no" n="30"/>tia: quia si mulier corrumpit seipsam, vel ab alia 
+       mulie<lb ed="#S" break="no" n="31"/>re corrupta est, non potest consecrari: quia non potest consecrari 
+      <lb ed="#S" n="32"/>nisi quae virgo est: non est autem virgo quae luxuriosissima 
+      <lb ed="#S" n="33"/>est, huiusmodi autem est ista: &amp; peius quam si virgo esset cogni 
+      <lb ed="#S" n="34"/>ta. ideo &amp;c. Quod autem aliqui dicunt, quod est virgo quasi 
+      <lb ed="#S" n="35"/>virum agens. i. repellens: ex quo a viro cognita non est: non 
+      <lb ed="#S" n="36"/>valet, quia illa nominis interpretatio, &amp; etymologia sum 
+      <lb ed="#S" n="37"/>pta est a proprietate, quae communiter accidit, &amp; naturaliter, 
+      <lb ed="#S" n="38"/>sed latior est impositio nominis: quia ad significandum inte 
+      <lb ed="#S" n="39"/>gritatem carnis electam, &amp; non violatam quoncunque est 
+       imposi<lb ed="#S" break="no" n="40"/>ta. ideo &amp;c. sed ista nubendo clerico non facit eum 
+       biga<lb ed="#S" break="no" n="41"/>mum licet sit corrupta: quia non diuisit carnem suam in 
+       plu<lb ed="#S" break="no" n="42"/>res viros: sicut contrahendo cum prius a se corrupta: licet 
+      <lb ed="#S" n="43"/>contrahat cum vera meretrice, non fit bigamus, quia non 
+      <lb ed="#S" n="44"/>diuisit carnem suam in alium virum: sic &amp; hic, quia licet 
+       con<lb ed="#S" break="no" n="45"/>trahat cum corrupta &amp; luxuriosa: quia tamen non coha 
+      <lb ed="#S" n="46"/>bitauit alij viro non fit bigamus.
+    </p>
+            <p xml:id="khj78y-r18837-d1e628" n="15">
+      <!--15 -->Quantum ad 
+       se<lb ed="#S" break="no" n="47"/>cundum articulum, an virginitas sit licita, sunt quinque 
+      <lb ed="#S" n="48"/>conclusiones.
+    </p>
+            <p xml:id="khj78y-r18837-d1e637" n="30">
+      <!-- <sic>30</sic> -->Prima quod ipsa est licita de se &amp; 
+       abso<lb ed="#S" break="no" n="49"/>lute loquendo, quod patet dupliciter. Primo, ex parte me 
+      <lb ed="#S" n="50"/>dij, quia licet non liceat tenere extremum in delectationibus 
+      <lb ed="#S" n="51"/>gustus: licet tamen in his quae sunt actus prout distinguitur 
+      <lb ed="#S" n="52"/>a gustu: quia non potest saluari indiuiduum sine illis, sicut potest 
+      <lb ed="#S" n="53"/>sine istis, &amp; melius, vt patet in equis virginibus, qui sunt 
+      <lb ed="#S" n="54"/>pulchriores, &amp; meliores equis emissariis. similiter 
+       longio<lb ed="#S" break="no" n="55"/>ris vitae sunt masculi foemellis &amp; auibus: nisi sint 
+       coiti<lb ed="#S" break="no" n="56"/>ui vt in passeribus. secundo, ex parte finis. Nam sicut 
+       ab<lb ed="#S" break="no" n="57"/>stinere licet a delectationibus gustus propter sanitatem 
+      <lb ed="#S" n="58"/>corporis, vt infirmi tenent diaetam, aut studium: vt alij 
+      <lb ed="#S" n="59"/>abstinent a prandio vt melius studeant de die, alij a coe 
+      <lb ed="#S" n="60"/>na, vt melius de nocte: aut propter salutem animae, vt in 
+      <lb ed="#S" n="61"/>Quadragesima quantum potest salua consistentia 
+       subie<lb ed="#S" break="no" n="62"/>cti, &amp; bona valitudine: vnde etiam qui posset viuere 
+       si<lb ed="#S" break="no" n="63"/>ne hoc non peccaret abstinendo ab hoc, vel omnino vt 
+      <lb ed="#S" n="64"/>Christus, Moyses, &amp; Helias. 40. diebus aut communibus 
+      <lb ed="#S" n="65"/>cibis, vt Ioannes in deserto, sic abstinere a 
+       delectationi<lb ed="#S" break="no" n="66"/>bus tactus omnino, quod est possibile &amp; vtile ad bonam 
+      <lb ed="#S" n="67"/>valitudinem corporis: &amp; valet ad scientiam, &amp; virtutes, 
+      <!--0380.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>est laudabile.
+    </p>
+            <p xml:id="khj78y-r18837-d1e689" n="31">
+      <!-- 31 -->secunda conclusio est, an fuisset 
+       li<lb ed="#S" break="no" n="69"/>cita in statu innocentiae? Et dicendum quod in illo statu non 
+      <lb ed="#S" n="70"/>licuisset continere vsque ad sufficientem multiplicationem 
+      <lb ed="#S" n="71"/>humani generis, quia tunc erat praeceptum. Crescite et 
+      <lb ed="#S" n="72"/>multiplicamini: nec tamen peccauit Adam continendo 
+      <lb ed="#S" n="73"/>in paradiso: quia modico tempore ibi fuit: quia nec per 
+      <lb ed="#S" n="74"/>dimidium diem post formationem Euae, et praeceptum 
+      <lb ed="#S" n="75"/>affirmatiuum non obligat ad semper: imo peccasset si 
+       pri<lb ed="#S" break="no" n="76"/>mo die eam cognouisset, quia creatus fuit non superfluo 
+      <lb ed="#S" n="77"/>semine: sicut cum superflua costa respectu indiuidui, sed 
+      <lb ed="#S" n="78"/>necessaria respectu speciei: quia ipse aliter poterat 
+       habe<lb ed="#S" break="no" n="79"/>re semen. scilicet via naturali per nutrimentum. Contra ratio 
+      <lb ed="#S" n="80"/>nem autem fecisset accedendo ad vxorem non habens 
+       se<lb ed="#S" break="no" n="81"/>men. Non habuit autem semen quousque comedit tantum 
+      <lb ed="#S" n="82"/>quod per virtutem nutritiuam fuit generatum, ante autem quam 
+      <lb ed="#S" n="83"/>hoc factum fuerit peccauit. vnde licet comederit ibi 
+       ci<lb ed="#S" break="no" n="84"/>bum illicitum praeueniendofamem, non tamen 
+       cogno<lb ed="#S" break="no" n="85"/>uit eam, quia nondum habebat semen maturum vsque ad 
+      <lb ed="#S" n="86"/>diem crastinam, quia digestio maxime celebrat in nocte 
+      <lb ed="#S" n="87"/>secundum vitam animalem quam habuit: tamen quod immisit 
+       domi<lb ed="#S" break="no" n="88"/>nus soporem in Adam non fuit propter digestionem: quia forte 
+      <lb ed="#S" n="89"/>nondum comederat, sed propter formationem mulieris &amp; 
+       my<lb ed="#S" break="no" n="90"/>sterium. sed Tho. dicit, quod post multiplicationem sine peccato 
+      <lb ed="#S" n="91"/>potuisset quis esse virgo. Contra, quia tunc praeferebatur 
+      <lb ed="#S" n="92"/>communiugium virginitati, quia habebat puritatem cum fecundi 
+      <lb ed="#S" n="93"/>tate. Fuisset ante contra rationem eligere minus bonum: et 
+      <lb ed="#S" n="94"/>ipsi non erant facturi contra rationem. Propterea tot 
+       fuis<lb ed="#S" break="no" n="95"/>sent masculi quot foeminae, vt esset vna vnius, ergo si con 
+      <lb ed="#S" n="96"/>tinuisset alter fecisset contra finem matrimonij et pacis, 
+      <lb ed="#S" n="97"/>semper etiam fuisset multiplicatio necessaria: quia non 
+      <lb ed="#S" n="98"/>videtur probabile quod parentes primi retardarentur a gloria 
+      <lb ed="#S" n="99"/>vsque ad finem mundi: cum solum peccatum sit causa 
+       retarda<lb ed="#S" break="no" n="100"/>tionis: vt originale, vel actuale aut poena: vnde primis 
+      <lb ed="#S" n="101"/>parentibus translatis in gloriam oportebat quod successores 
+      <lb ed="#S" n="102"/>vacarent generationi, sicut primi vacauerant.
+    </p>
+            <p xml:id="khj78y-r18837-d1e767" n="32">
+      <!-- 32 -->Tertia 
+       con<lb ed="#S" break="no" n="103"/>clusio est de virginitate naturae lapsae. Vbi sciendum quod 
+      <lb ed="#S" n="104"/>tempore legis naturae fuit virginitas licita, multiplicato 
+      <lb ed="#S" n="105"/>genere humano, sed semper ante Euangelium melius erat 
+      <lb ed="#S" n="106"/>coniugium nisi vbi specialiter reuelabatur. In paruulis autem 
+      <lb ed="#S" n="107"/>erat virginitas carnis non mentis. Tempore autem naturae 
+       la<lb ed="#S" break="no" n="108"/>psae ante multiplicationem fuit in praecepto prohibitiuo: vnde 
+      <lb ed="#S" n="109"/>dicunt quidam, quodAdam inspirante Deo fregit votum de castitate 
+      <lb ed="#S" n="110"/>emissum propter Abel nec tamen Abel peccauit virgo moriens 
+      <lb ed="#S" n="111"/>quia adhuc iuueniserat nec aptus coniugio quando mor 
+      <lb ed="#S" n="112"/>tuus fuit. Nam nec Caym libidinosus adhuc generaueras 
+      <lb ed="#S" n="113"/>fuit tamen Abel mortuus virgo carne sed non in 
+       men<lb ed="#S" break="no" n="114"/>te, quia tunc non erat tempus virginitatis, nisi quis 
+       di<lb ed="#S" break="no" n="115"/>cat quod Deus praescius mortis eius sibi inspirauit 
+       vir<lb ed="#S" break="no" n="116"/>ginitatem, vt caput Ecclesiae primum haberet 
+       virginita<lb ed="#S" break="no" n="117"/>tem: &amp; sic haberet aureolam virginitatis: sed post 
+       multi<lb ed="#S" break="no" n="118"/>plicationem licuit, non tamen habemus exemplum. Nec 
+      <lb ed="#S" n="119"/>in Enoch qui per coitum generans &amp; per coitum genitus est, 
+      <lb ed="#S" n="120"/>nec in alio forte tempore ante diluuium, sicut prius fuit 
+      <lb ed="#S" n="121"/>illicita vsque ad multiplicationem hominum, postea vero licita: 
+      <lb ed="#S" n="122"/>non tum extat exemplum, nisi forte de Melchisedech quem qui 
+      <lb ed="#S" n="123"/>dandicuntreputatum fuisse angelum prae nimia sanctitate: vt 
+      <lb ed="#S" n="124"/>etiam Iohannes Baptista, quod nemo credidisset si vxorem 
+      <lb ed="#S" n="125"/>habuisset et filios. sed hoc non consonat dictis Hebraeo 
+      <lb ed="#S" n="126"/>rum qui dicunt eum sem fuisse: nec obstat quod non 
+       legi<lb ed="#S" break="no" n="127"/>tur filios habuisse sub hoc nomine, quia etiam nec patrem 
+      <lb ed="#S" n="128"/>nec matrem. Hebrae. 7. sine patre &amp; matre et sine genea 
+      <lb ed="#S" n="129"/>logia, et tamen certum est quod habuit patrem et matrem. 
+    </p>
+            <p xml:id="khj78y-r18837-d1e830" n="33">
+               <lb ed="#S" n="130"/>
+               <!-- 33 -->Quarta conclusio est de virginitate legis scriptae. 
+      <lb ed="#S" n="131"/>Vbi sciendum quod tempore legis Moysi licuit 
+       serua<lb ed="#S" break="no" n="132"/>re virginitatem: quia iam filij Israel multiplicati 
+       creue<lb ed="#S" break="no" n="133"/>rant nimis, vt arena maris et stellae coeli, non tamen 
+      <lb ed="#S" n="134"/>laudabatur: imo filia lepte fleuit virginitatem, &amp; ma- 
+      <!--0381.xml-->
+      <pb ed="#S" n="381"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ledictus erat non relinquens semen, nisi consilio. ss. vt 
+       He<lb ed="#S" break="no" n="2"/>lias non per coitum generans, &amp; leremias virginitate sua 
+      <lb ed="#S" n="3"/>virum Euangelicum Christi Ecclesiae dedicans secundu Hicro. licet 
+      <lb ed="#S" n="4"/>posset responderi ad illud Ieremiae. 16. non habebis vxorem 
+      <lb ed="#S" n="5"/>neque filios: quia sequit. in loco isto, &amp; sic alius locus forte 
+      <lb ed="#S" n="6"/>non videtur excludi, sed apud gentiles error increbuerat, 
+      <lb ed="#S" n="7"/>quia dedit eos Deus in reprobum sensum: vt licita 
+       puta<lb ed="#S" break="no" n="8"/>rent illicita, &amp; illicita licita, vt fornicationem, &amp; 
+       idolola<lb ed="#S" break="no" n="9"/>triam. &amp;c. Plato vero sanctificauit se: non quia reputaret 
+      <lb ed="#S" n="10"/>virginitatem illicitam: vnde non deseruit, sed vt satisfaceret 
+      <lb ed="#S" n="11"/>plebi. Nam opinio fuit apud philoso. propter scandalum 
+      <lb ed="#S" n="12"/>vitandum facere multa quae sciebant non facienda, sicut 
+      <lb ed="#S" n="13"/>adorabant idola quamuis scirent nihil esse religionis in 
+       stipi<lb ed="#S" break="no" n="14"/>te, ne lapidarentur: sicut Pythagoras apud Athenas reus 
+      <lb ed="#S" n="15"/>habitus est: quia vocauit solem lapidem, ignem ardentem. Ipsi 
+      <lb ed="#S" n="16"/>enim nesciebant aliam vitam, &amp; propter hoc timebant nimis 
+      <lb ed="#S" n="17"/>perdere istam.
+    </p>
+            <p xml:id="khj78y-r18837-d1e889" n="34">
+      <!-- 34 -->Quinta conclusio est de 
+       virginita<lb ed="#S" break="no" n="18"/>te tempore Euangelij, quia tempore gratiae semper licuit 
+      <lb ed="#S" n="19"/>&amp; licebit. Vnde lo. Lucifer fuit ante solem et non Venus. 
+      <lb ed="#S" n="20"/>Maria etiam primiceria virginitatis fuit: vnde adduceren 
+      <lb ed="#S" n="21"/>tur regi virgines, post eam, tempore etiam gloriae omnis 
+      <lb ed="#S" n="22"/>erunt virgines: quia nec nubent nec nubentur, imo tem 
+      <lb ed="#S" n="23"/>pore gratiae quasi res melior cadit sub consilio: vnde 
+       pri<lb ed="#S" break="no" n="24"/>mae ad Cor. 7. De virginibus praeceptum a domino non habeo, 
+      <lb ed="#S" n="25"/>consilium autem do.
+    </p>
+            <p xml:id="khj78y-r18837-d1e912" n="35">
+      <!-- 35 -->Quantum ad. 3. art. an virginitas fie 
+      <lb ed="#S" n="26"/>per se bona, dicunt aliqui quod aliquid est per se bonu: aliquid 
+      <lb ed="#S" n="27"/>per accidens: quia remouet id quod est malum vel discoueniens: 
+      <lb ed="#S" n="28"/>primo modo cibus sanus est corpori: secundo modo medi 
+      <lb ed="#S" n="29"/>cina. Dicut ergo quod virginitas non est bona primo modo: 
+      <lb ed="#S" n="30"/>sed secundo, quod declarant tripliciter, primo sic. 
+       Abstine<lb ed="#S" break="no" n="31"/>re ab eo quod est secundum se conueniens &amp; bonum, non potest 
+      <lb ed="#S" n="32"/>esse bonum de se. sed per virginitatem abstinetur a matrimonio 
+      <lb ed="#S" n="33"/>quod est de se bonum: ergo virginitas non est bona de se. est 
+      <lb ed="#S" n="34"/>tamen bona vt medicina, matrimonium enim propter 
+       distractio<lb ed="#S" break="no" n="35"/>nem mentis &amp; curas adiunctas, reddit hominem quasi 
+       infir<lb ed="#S" break="no" n="36"/>mum ad vacandu contemplationi diuinorum. virginitas autem 
+      <lb ed="#S" n="37"/>haec impedimenta tollit qᷓsi medicina. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r18837-d1e943" n="36">
+      <!-- 36 -->secum 
+      <lb ed="#S" n="38"/>do sic, illud non est bonum secundum se, sed solum per modum 
+      <lb ed="#S" n="39"/>medicinae: quod non fuisset bonum in statu innocentiae siue na 
+      <lb ed="#S" n="40"/>turae sanae, sed infirmae: sed virginitas non fuisset bona in 
+      <lb ed="#S" n="41"/>statu innocentiae: quo natura fuit sana. est autem bona in sta 
+      <lb ed="#S" n="42"/>tu naturae infirmae. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r18837-d1e959" n="37">
+      <!-- 37 -->Tertio sic, sicut se 
+       ha<lb ed="#S" break="no" n="43"/>bet ieiunare ad comodere, sic virginitas ad matrimonium: 
+      <lb ed="#S" n="44"/>sed comedere adhibitis debitis circumstantijs est bonum de 
+      <lb ed="#S" n="45"/>se. ieiunare autem non est bonum nisi per modum medicinae in 
+      <lb ed="#S" n="46"/>quantum per ieiunium consumuntur in corpore superfluitates 
+       hu<lb ed="#S" break="no" n="47"/>morum, vel redditur corpus melius dispositum ad actus virtutum 
+      <lb ed="#S" n="48"/>moralium per repressionem concupiscentiarum, &amp; per consoquens 
+      <lb ed="#S" n="49"/>ad actus virtutum intellectualium, ergo similiter virginitas 
+      <lb ed="#S" n="50"/>non est bona secundum se, sed solum per modum medicinae: 
+       in<lb ed="#S" break="no" n="51"/>quantum per eam tolluntur impedimenta q distrahunt hominem a con 
+      <lb ed="#S" n="52"/>templatione supernorum: vnde primae ad. Cor. 7. Mulier 
+       innu<lb ed="#S" break="no" n="53"/>pta &amp; virgo cogitat quae sunt domini, vt sit sctam corpore &amp; spum. 
+    </p>
+            <p xml:id="khj78y-r18837-d1e988" n="38">
+               <lb ed="#S" n="54"/>
+               <!-- 38 -->sed licet ista opio sit probabilis, contraria tamen opiniovi 
+      <lb ed="#S" n="55"/>detur communior: quia omnes concedunt quod virginitas est virtus 
+      <lb ed="#S" n="56"/>etiam specialis, vt in seq. art. patebit. sed omnis virtus est de per 
+      <lb ed="#S" n="57"/>se bonis &amp; honestis: etiam illa quae supponit malum vt 
+       peniten<lb ed="#S" break="no" n="58"/>tia. ergo &amp; virginitas: &amp; secundum hoc potest ad rationes eorum 
+      <lb ed="#S" n="59"/>responderi.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1006" n="39">
+      <!-- 39 -->Ad primum est dicendum: quod maior est vera, 
+      <lb ed="#S" n="60"/>quando illud bonum quod tollitur non est priuatiuum maioris 
+       bo<lb ed="#S" break="no" n="61"/>ni: quod per priuationem redditur, sicut transmutatio quae ex 
+      <lb ed="#S" n="62"/>aere fit ignis sit quoddam malum priuans aliquid se 
+       bo<lb ed="#S" break="no" n="63"/>num: puta, formam aeris: tamen quia loco eius reddit melius. scilicet 
+      <lb ed="#S" n="64"/>formam ignis quae non compatiebatur secum formam aeris corruptam: 
+      <lb ed="#S" n="65"/>ideo est secundum se bonum, &amp; similiter quia virginitas priuat, 
+      <lb ed="#S" n="66"/>sic matrimonium quod est bonum minus: puta, corporisvt 
+       isti<lb ed="#S" break="no" n="67"/>met domini quod reddit bonum animae &amp; rationis: quod est 
+      <!--0381.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>melius, quod actus matrimonij secum non compatiebatur. inde 
+      <lb ed="#S" n="69"/>est quod virginitas est secundum se bona: vt pote generatiua 
+      <lb ed="#S" n="70"/>maioris boni per corruptionem minoris boni.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1039" n="40">
+      <!-- 40 -->Ad 
+      <lb ed="#S" n="71"/>secundum dicendum, quod maior est falsa: quia secundum eos 
+       matri<lb ed="#S" break="no" n="72"/>monium est secundum se bonu, &amp; tamen non erit in statu naturae 
+      <lb ed="#S" n="73"/>sanissimae. i. in statu gloriae vbi nec nubent nec nubentur, 
+      <lb ed="#S" n="74"/>similiter nec cibus nec potus. Vel dicendum quod ma. est vera 
+      <lb ed="#S" n="75"/>inquantum huiusmodi. Cum aut in virginitate sunt duo. scilicet vnum 
+      <lb ed="#S" n="76"/>malum vt priuatio declarationis: aliud bonum, liber vsus ra 
+      <lb ed="#S" n="77"/>tionis &amp; contemplationis, ipsa fuisset in statu innocentiae 
+      <lb ed="#S" n="78"/>quo ad secundum &amp; non quo ad primum: quia tunc esset maior 
+      <lb ed="#S" n="79"/>delectatio quam nunc, &amp; etiam maior contemplatio sine ea quam nunc 
+      <lb ed="#S" n="80"/>&amp; sic sequii quod virginitas non est secundum se totam bona, sed 
+      <lb ed="#S" n="81"/>secundum partem non bona, quae naturae sanae non conuenit: &amp; 
+      <lb ed="#S" n="82"/>secundum aliam bona quae naturae sanae conuenit. ex hoc autem 
+      <lb ed="#S" n="83"/>quae est finis eius denominatur simpliciter bona.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1073" n="41">
+      <!-- 41 -->Ad. 3. 
+      <lb ed="#S" n="84"/>dicendum, quod simile est quantum ad hoc, quod sicut cibus est ad 
+       con<lb ed="#S" break="no" n="85"/>seruationem indiuidui sic matrimonium ad conseruationem spe 
+      <lb ed="#S" n="86"/>ciei, vt dicitur in litera. sed dissimile est quantum ad hoc quod 
+      <lb ed="#S" n="87"/>comestio non absorbet rationem, sicut ille actus: sed potest 
+      <lb ed="#S" n="88"/>homo contemplari comedendo. Vnde Aug. Ne solae vobis 
+      <lb ed="#S" n="89"/>fauces sumant cibum: sed &amp; aures esuriant Dei verbum: 
+       pro<lb ed="#S" break="no" n="90"/>pter hoc enim legitur in mensa religiosis, &amp; sic in isto 
+       bo<lb ed="#S" break="no" n="91"/>no non est priuatio maioris boni: sicut in 
+       matrimonio<lb ed="#S" break="no" n="92"/>Item secundo, quia comestio est necessaria cuilibet ad salutem 
+      <lb ed="#S" n="93"/>boni proprij: non autem matrimonium: vnde non est simile. 
+    </p>
+            <p xml:id="khj78y-r18837-d1e1099" n="42">
+               <lb ed="#S" n="94"/>
+               <!-- 42 -->Quantum ad quartum arti. an virginitas sit virtus: 
+      <lb ed="#S" n="95"/>dicunt quidam quod non est specialis virtus, sed virtutis status: 
+      <lb ed="#S" n="96"/>qui tamen nihilominus de virginitatis dignitate vel 
+       me<lb ed="#S" break="no" n="97"/>rito sentiebant: vnde obseruantiae regulares non sunt virtus 
+      <lb ed="#S" n="98"/>specialis: sed status quae sunt maioris meriti quam quando sunt 
+       vir<lb ed="#S" break="no" n="99"/>tus &amp; non status: vt magnificentia &amp;c. sed communiter te 
+      <lb ed="#S" n="100"/>netur quod virginitas est specialis virtus: quia virtus est 
+       vl<lb ed="#S" break="no" n="101"/>timum de potentia. vnde non omnis habitus laudabilis 
+      <lb ed="#S" n="102"/>meretur nomem virtutis: sed qui est vltimu et summu in 
+      <lb ed="#S" n="103"/>illo genere, propter quod laudabilis est castitas coniuga 
+      <lb ed="#S" n="104"/>lis, sed laudabilior vidualis, supraema virginalis: vnde hic 
+      <lb ed="#S" n="105"/>sola meretur nome virtutis.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1130" n="43">
+      <!-- 43 -->Contra hoc tamen 
+       ar<lb ed="#S" break="no" n="106"/>guitur quadrupliciter. Primo ex parte acquisitionis quia 
+      <lb ed="#S" n="107"/>omnis aut virtus est acquisita aut infusa, et nulla est a 
+       na<lb ed="#S" break="no" n="108"/>tiuitate vel natura: sed virginitas est a natura, ergo non 
+      <lb ed="#S" n="109"/>est virtus.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1143" n="44">
+      <!-- 44 -->solutio, virtus potest considerari 
+       dupli<lb ed="#S" break="no" n="110"/>citer: vno modo quo ad seminarium &amp; initium, &amp; sic omnis 
+      <lb ed="#S" n="111"/>virt est a natura: alio modo quo ad materiam propinquam 
+      <lb ed="#S" n="112"/>vel remotam, &amp; sic aliae non insunt a natura nisi per accidens: 
+      <lb ed="#S" n="113"/>sicut posthumus regis mox natus habet materiam libera 
+      <lb ed="#S" n="114"/>litatis. sed hoc est rarum: sed materia remota virginitatis quae 
+      <lb ed="#S" n="115"/>est integritas, &amp; propinqua. i. experientia voluptatis pro 
+      <lb ed="#S" n="116"/>se in omni inest a natura &amp; a natiuitate: &amp; ideo plus 
+       vi<lb ed="#S" break="no" n="117"/>tuperantur voluntarij corrupti quam alij, sicut vendens 
+       here<lb ed="#S" break="no" n="118"/>ditatem patrum suorum quam conquestus: vnde, filius vsurarij 
+       ma<lb ed="#S" break="no" n="119"/>gis inuitus reddit vsuras, quas quasi iure haereditario 
+       pos<lb ed="#S" break="no" n="120"/>sidet quam pater. Et ideo frustra confidit pater quod filius 
+       red<lb ed="#S" break="no" n="121"/>dat, quod ipse reddere non vult. Nam vidimus vsurarios 
+      <lb ed="#S" n="122"/>qui libenter reddebant vsuras suas: sed nullo modo 
+       paren<lb ed="#S" break="no" n="123"/>tum suorum, exemplum de Naboth qui maluit lapidari quam ven 
+      <lb ed="#S" n="124"/>dere vineam haereditariam. tertio modo quo ad 
+       complemen<lb ed="#S" break="no" n="125"/>tum actuale vel habituale, &amp; sic virginitas non est a 
+       na<lb ed="#S" break="no" n="126"/>tiuitate vel a natura plusquam aliae virtutes. Nam puer 
+       nas<lb ed="#S" break="no" n="127"/>cens non habet actum vel habitum virginitatis plusquam 
+       li<lb ed="#S" break="no" n="128"/>beralitatis: sed est sicut aliae motales per acquisitionem 
+      <lb ed="#S" n="129"/>&amp; infusionem. Non enim quicunque habet integritatem 
+       car<lb ed="#S" break="no" n="130"/>nis cum venerit ad annos pubertatis, si eligat in carne 
+       cor<lb ed="#S" break="no" n="131"/>ruptibili incorruptibiliter viuere: statim per hoc habet 
+      <lb ed="#S" n="132"/>habitum virginitatis: sed quando cum hoc habituali 
+       pro<lb ed="#S" break="no" n="133"/>posito frequenter domauerit motus carnis: aggeneratur 
+      <lb ed="#S" n="134"/>iin eo: sic nec vidua statim mortuo marito habet habitum 
+      <!--0382.xml-->
+      <pb ed="#S" n="382"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>continentiae vidualis: licet eligat sic viuere, sed per 
+       fre<lb ed="#S" break="no" n="2"/>quentem domationem passionum, cum proposito 
+       habi<lb ed="#S" break="no" n="3"/>tum acquirit differentem ab habitu castitatis 
+       coniuga<lb ed="#S" break="no" n="4"/>lis: non tamen meretur nomen virtutis specialis: quia 
+      <lb ed="#S" n="5"/>non peruenit ad perfectum. Est igitur continentia 
+       vi<lb ed="#S" break="no" n="6"/>dualis habitus differens a continentia coniugali, habens 
+      <lb ed="#S" n="7"/>specialem rationem boni &amp; difficultatis: quia quibusdam 
+      <lb ed="#S" n="8"/>est facile et placitum viuere in coniugio caste, quib' non 
+      <lb ed="#S" n="9"/>est facile nec placitum viuere vel abstinere a coniugio: sed 
+      <lb ed="#S" n="10"/>tamen non est virtus specialis: imo castitas est vna 
+       vir<lb ed="#S" break="no" n="11"/>tus quae minorem gradum habet in matrimonio, &amp; 
+       per<lb ed="#S" break="no" n="12"/>fectus saluatur in viduitate. similiter castitas 
+       coniuga<lb ed="#S" break="no" n="13"/>lis non statim innascitur cum quis eligit ab aliena 
+       absti<lb ed="#S" break="no" n="14"/>nere, sed cum frequenter de aliena tentatus eligit non 
+       ac<lb ed="#S" break="no" n="15"/>quiescere, &amp; sic de alijs. Item virginitas inest per infusio 
+      <lb ed="#S" n="16"/>nem, sicut aliae virtutes morales: non tamen credendum est 
+      <lb ed="#S" n="17"/>quod infunderetur per circuncisionem aut praecedens reme 
+      <lb ed="#S" n="18"/>dium: quia per illa solum illud quod erat de necessitate 
+      <lb ed="#S" n="19"/>salutis infundebatur: nec tunc etiam erat tempus 
+       virgi<lb ed="#S" break="no" n="20"/>nitatis, &amp; pari ratione non perBaptismum flaminis aut 
+      <lb ed="#S" n="21"/>sanctificationem. Nam Iacob qui dilectus est in vtero: 
+      <lb ed="#S" n="22"/>non recepit virginitatem quam nec seruaturuserat: sed 
+      <lb ed="#S" n="23"/>ex speciali gratia satis videtur, quod Ioamnes Baptista, &amp; 
+       bea<lb ed="#S" break="no" n="24"/>ta virgo, &amp; Hieremias in vtero per sanctificationem rece 
+      <lb ed="#S" n="25"/>perint virginitatem, quam erant seruaturi: sed de Baptismo 
+      <lb ed="#S" n="26"/>fluminis et sanguinis in quibus infunduntur non solum 
+      <lb ed="#S" n="27"/>necessaria ad salutem: sed omnia perfectiua in quibus non 
+      <lb ed="#S" n="28"/>est obex in recipiente: vt remissio culpae venialis &amp; poe 
+      <lb ed="#S" n="29"/>nae, videtur quod in paruulis in quibus nullus est obex 
+       infun<lb ed="#S" break="no" n="30"/>ditur virginitas, &amp; in innocentibus: non tamen merentur 
+      <lb ed="#S" n="31"/>aureolam: quia illa respicit actum non habitum. De 
+       adul<lb ed="#S" break="no" n="32"/>tis autem videtur quod Deus sua liberalitate infundat omni 
+      <lb ed="#S" n="33"/>homini id, ad quod se disponit: vnde qui cum proposito 
+      <lb ed="#S" n="34"/>virginitatis venit ad Baptismum vel ad aliud sacramentum, 
+      <lb ed="#S" n="35"/>recepit habitum virginitatis: sicut et caeteras virtutes. 
+      <lb ed="#S" n="36"/>Quia igitur in omni sacramento nouae legis infunditur 
+      <lb ed="#S" n="37"/>non solum id quod est necessarium ad salutem: sed etiam 
+      <lb ed="#S" n="38"/>quod est vtile secundum capacitatem &amp; dispositionem 
+       di<lb ed="#S" break="no" n="39"/>gne recipientis: inde est quod recipiens sacramentum nouae 
+      <lb ed="#S" n="40"/>legis non contrarium virginitati, quod dico propter 
+       ma<lb ed="#S" break="no" n="41"/>trimonium recipit omnem virtutem ad quam est dispositus, &amp; cu 
+      <lb ed="#S" n="42"/>ius est capax. si autem est corruptus mente et corpore quamuis 
+      <lb ed="#S" n="43"/>poeniteat: non est capax virginitatis quae reparari non 
+      <lb ed="#S" n="44"/>potest. sed si non est corruptus nisi mente et poenitens, 
+      <lb ed="#S" n="45"/>proponens perpetuo continere, tunc recipit.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1306" n="45">
+      <!-- 45 -->
+       secun<lb ed="#S" break="no" n="46"/>da iustantia est ex parte amissionis vel perditionis: quia 
+      <lb ed="#S" n="47"/>virginitas perditur sine peccato, ergo non est virtus: quia 
+      <lb ed="#S" n="48"/>nihil tollitur nisi a suo contrario.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1317" n="46">
+      <!-- 46 -->Dico quod nihil 
+       im<lb ed="#S" break="no" n="49"/>pedit virtutem nisi culpa vel poena eius: vnde virtus 
+       ne<lb ed="#S" break="no" n="50"/>cessaria ad salutem tollitur per peccatum et non sine 
+       pec<lb ed="#S" break="no" n="51"/>cato: sed virtus non necessaria ad salutem tollitur bene 
+       si<lb ed="#S" break="no" n="52"/>ne peccato mortali &amp; veniali: sicut magnificentia aut 
+      <lb ed="#S" n="53"/>liberalitas. Potest enim aliquis multo tempore esse 
+       pau<lb ed="#S" break="no" n="54"/>per: licet prius acquisierit liberalitatem aut 
+       magnificen<lb ed="#S" break="no" n="55"/>tiam per frequentem vsum: perdit eam quia non habet 
+      <lb ed="#S" n="56"/>vsum: sicut etiam appellatio multas amicitias soluit. 
+       Po<lb ed="#S" break="no" n="57"/>test igitur perdi integritas carnis: &amp; inexperientia 
+       volu<lb ed="#S" break="no" n="58"/>ptatis. &amp; electio, actualis per violentiam demonum, vel 
+      <lb ed="#S" n="59"/>hominis infirmiter somniantis et huiusmodi: sed per hoc 
+      <lb ed="#S" n="60"/>non perditur virtus: vnde bene potest esse pater virgo per 
+      <lb ed="#S" n="61"/>semen emissum a dormiente, demone succuborecipiente, 
+      <lb ed="#S" n="62"/>&amp; postea per eundem daemonem factum incubum transtu 
+      <lb ed="#S" n="63"/>sum, cum etiam suscipiendo semen virile saluo claustro 
+      <lb ed="#S" n="64"/>mulier possit concipere: sed in partu perdit integritatem: 
+      <lb ed="#S" n="65"/>sed virginitatis virtutem retinet pater praedictus: &amp; vi 
+      <lb ed="#S" n="66"/>etiam oppressa pariens, &amp; aureolam etiam 
+       vterquehabe<lb ed="#S" break="no" n="67"/>bit: vnde Lucia, si me feceris inuitam violari castitas 
+      <!--0382.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>mihi duplicabitur ad coronam: sed virtus virginitatis potest 
+      <lb ed="#S" n="69"/>perdi sine peccato per electionem matrimonij: quia sicut ca 
+      <lb ed="#S" n="70"/>lidum corrumpitur: non solum a frigido, sed etiam a magis calido: 
+      <lb ed="#S" n="71"/>sic virginitas non solum a luxuria sed etiam a matrimonio: sed 
+      <lb ed="#S" n="72"/>in hoc est dissimile, qui ibi magis tale corrumpitur minus tale 
+      <lb ed="#S" n="73"/>non autem econuerso: hic autem minus tale corrumpit magis tale: 
+      <lb ed="#S" n="74"/>nec est inconueniens quod Ioamnes Euangelista virginitatem 
+       per<lb ed="#S" break="no" n="75"/>diderit si prius eam habuit volendo contrahere: quia credo qui 
+      <lb ed="#S" n="76"/>intendebat concumbere: quod tamen beata virgo non intendit sed 
+      <lb ed="#S" n="77"/>non est talis necessitas perdendi virginitatem vi ablata 
+      <lb ed="#S" n="78"/>integritate, sicut vi ablata materia magnificentiae: quia 
+      <lb ed="#S" n="79"/>aequales passiones &amp; maiores habet contra quas pugnet 
+      <lb ed="#S" n="80"/>virgo, erepta sibi carnis integritate, sicut ante: non 
+      <lb ed="#S" n="81"/>aunt sic habet pauper materiam magnificentiae in qua se 
+      <lb ed="#S" n="82"/>exerceat.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1401" n="47">
+      <!-- 47 -->Tertia instantia est ex parte recuperatio 
+      <lb ed="#S" n="83"/>nis, quia virginitas amissa non recuperatur per 
+       poenit<lb ed="#S" break="no" n="84"/>tiam, sed per poenitentiam recuperat omnis virtus, ergo 
+      <lb ed="#S" n="85"/>&amp;c.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1412" n="48">
+      <!-- 48 -->solutio, dico quod potest recuperari quo ad 
+       for<lb ed="#S" break="no" n="86"/>male, non autem quo ad materiale: sed haec solutio non 
+      <lb ed="#S" n="87"/>valet: quia electio non est impossibilium simpliciter, sed 
+      <lb ed="#S" n="88"/>depauperatus potest adhuc recuperare bene 
+       magnifi<lb ed="#S" break="no" n="89"/>centiam et retinere: sed corruptus non: vnde maior est 
+      <lb ed="#S" n="90"/>vera de necessarijs ad salutem non autem de alijs, tamen 
+      <lb ed="#S" n="91"/>materia remota recuperabilis est per miraculum: vnde 
+      <lb ed="#S" n="92"/>in resurrectione Magdalena, et omnes corrupti futuri 
+      <lb ed="#S" n="93"/>sunt integri, praeterito autem non valet nec in carne 
+      <lb ed="#S" n="94"/>nec in mente annullari etiam a Deo: quia factae causae 
+      <lb ed="#S" n="95"/>pro infactis haberi non possunt, decap. &amp; praelatis. l. in 
+      <lb ed="#S" n="96"/>libello. 6. factae: sed tamen virginitas mentis potest recu 
+      <lb ed="#S" n="97"/>perari non carnis, quia virginitas carnis respicit 
+       praete<lb ed="#S" break="no" n="98"/>ritum. i. non fuisse corruptum, mentis vero non nisi 
+      <lb ed="#S" n="99"/>futurum, sed habitus virtutis non videtur posse recupe 
+      <lb ed="#S" n="100"/>rari: quia potentia subtrahitur, vt dicit Tho. de poeni. 
+      <lb ed="#S" n="101"/>dist 14 q. 2. &amp; de virginitate distinct. 33. q. 3. electio 
+      <lb ed="#S" n="102"/>non est impossibilium: non est tamen dubium quin Deus 
+      <lb ed="#S" n="103"/>eundem habitum numero vel specie qui est virginitas 
+       pos<lb ed="#S" break="no" n="104"/>set reparare in corrupto: imo etiam per naturam 
+       videre<lb ed="#S" break="no" n="105"/>tur alicui quod possit recuperari, quia potest dolere quod 
+      <lb ed="#S" n="106"/>perdidit, et eligere seruare ac si nunquam perdidisset, &amp; cum 
+      <lb ed="#S" n="107"/>sint eaedem passiones specie erit eadem virtus: quia 
+       pro<lb ed="#S" break="no" n="108"/>prius actus fit in propria materia. sed dicendum, quod 
+       si<lb ed="#S" break="no" n="109"/>ue sit idem habitus re siue non: non est tamen idem 
+       nomi<lb ed="#S" break="no" n="110"/>ne, quia vlrginitas est habitus quo quis eligit 
+       incorru<lb ed="#S" break="no" n="111"/>ptionem in carne incorrupta: vnde in resurrectione cor 
+      <lb ed="#S" n="112"/>ruptus hic semel non erit proprie et simpliciter virgo- 
+    </p>
+            <p xml:id="khj78y-r18837-d1e1475" n="49">
+               <lb ed="#S" n="113"/>
+               <!-- 49 -->Quarta instantia est ex parte connexionis: quia 
+      <lb ed="#S" n="114"/>omnes virtutes sunt connexae, sic quod qui habet vnam vir 
+      <lb ed="#S" n="115"/>tutem moralem habet omnes: sed multi habent omnes 
+      <lb ed="#S" n="116"/>virtutes theologicas et alias morales, qui tamen non 
+      <lb ed="#S" n="117"/>habent virginitatem, vt omnes saucti coniugati et 
+       cor<lb ed="#S" break="no" n="118"/>rupti, ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1493" n="20">
+      <!-- <sic>20</sic> -->solutio, illae virtutes quarum vsus 
+      <lb ed="#S" n="119"/>vel actus est necessarius ad salutem, et bonitatem 
+       mo<lb ed="#S" break="no" n="120"/>ralem connectitur. Nam metu mortis perdidisset 
+       casti<lb ed="#S" break="no" n="121"/>tatem susanna si caruisset fortitudine, &amp; Agnes si fuisses 
+      <lb ed="#S" n="122"/>auara muneribus oblatis, etiam si castitatem perse 
+       amas<lb ed="#S" break="no" n="123"/>set: sed in alijs non oportet. Qui enim nunquam fuit diues 
+      <lb ed="#S" n="124"/>non habet habitum magnificentiae acquisitum, ad quem 
+      <lb ed="#S" n="125"/>non sufficit frequenter elegisse magna dare si haberet, 
+      <lb ed="#S" n="126"/>quia multi in paupertate clegerunt hoc, qui facti 
+       Episco<lb ed="#S" break="no" n="127"/>pi detestantur hoc, &amp; maior est tentatio retrahens illum qui 
+      <lb ed="#S" n="128"/>potest quam qui non potest: vnde qui semper fuit pauper nunquam 
+       ha<lb ed="#S" break="no" n="129"/>buit habitum magnificentiae acquisitum, similiter 
+       theolo<lb ed="#S" break="no" n="130"/>gice loquendo connexio virtutum est in charitate: vnde non 
+      <lb ed="#S" n="131"/>oportet habere habitum virginitatis in habitu, nec in 
+       prae<lb ed="#S" break="no" n="132"/>paratione animi absoluta, ued conditionali secundum 
+       in<lb ed="#S" break="no" n="133"/>digentiam charitatis. scilicet quod homo sit paratus seruare 
+       castita<lb ed="#S" break="no" n="134"/>tem si Deus mandaret, &amp; sic eam Abraham habuit qui &amp; 
+      <!--0383.xml-->
+      <pb ed="#S" n="383"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>proptium fllium interficere paratus fuit: sed habere simpli 
+      <lb ed="#S" n="2"/>citer in praeparatione animi qui seruaret si posset non est ne 
+      <lb ed="#S" n="3"/>cesse, alias omnis  virgo contrahes peccaret contra illud quod 
+      <lb ed="#S" n="4"/>dicit Apostolus. Non percat virgo si nubat.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1547" n="21">
+      <!-- <sic>21</sic> -->Quantum 
+      <lb ed="#S" n="5"/>tum ad. 5. arti. de comparatione eius ad alias virtutes, est 
+      <lb ed="#S" n="6"/>triplex conclusio.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1556" n="22">
+      <!-- 22 -->Prima quae virtutes praeferantur sibi in 
+      <lb ed="#S" n="7"/>nobilitate. Et dicendum est primo, quod omnes theologicae, &amp; in 
+      <lb ed="#S" n="8"/>tellectuales &amp; morales quae sunt in voluntate &amp; 
+       irascibi<lb ed="#S" break="no" n="9"/>li: hic igitur praeeminentia potest attendi ex parte obiecti. 
+      <lb ed="#S" n="10"/>Et sic omnes virtutes intellectuales praetellunt, quia 
+       ha<lb ed="#S" break="no" n="11"/>bent obiectum vniuersalius, scientia enim moralis licet 
+      <lb ed="#S" n="12"/>ratione finis postponatur virtuti morali, quia est propter 
+      <lb ed="#S" n="13"/>eam sicut propter finem: tamen ratione obiecti 
+       praefer<lb ed="#S" break="no" n="14"/>tur, quia obiectum virtutis moralis non est nisi passio vel 
+      <lb ed="#S" n="15"/>operatio sui subiecti, sed obiectum scientiae moralis est 
+      <lb ed="#S" n="16"/>omnis passio &amp; operatio sui &amp; extranel subiecti: vnde per 
+      <lb ed="#S" n="17"/>habitum temperantiae modifico passiones meas tantum 
+      <lb ed="#S" n="18"/>&amp; non alienas: sed perscientiam temperantiae scio 
+       modifi<lb ed="#S" break="no" n="19"/>rare meas, &amp; alienas, docendo nec minus alienas quam 
+      <lb ed="#S" n="20"/>meas: iuxta illud dicunt decoratissimas orationes &amp; 
+      <lb ed="#S" n="21"/>voluntcontraria. Vnde frater moriens dixit: Facile in 
+      <lb ed="#S" n="22"/>lingua, difficile in manu, &amp; sic eriam praeferuntur 
+       virgi<lb ed="#S" break="no" n="23"/>nitati omnes virtutes theologicae habentes Deum pro 
+      <lb ed="#S" n="24"/>obiecto. secundo ex parte subiecti, &amp; sic prudentia quae 
+      <lb ed="#S" n="25"/>est in intellectu praefertur omni alij virtuti quae est in 
+      <lb ed="#S" n="26"/>appetitu: sicut apprehensiua appetiuti, &amp; iustitia caeteris: 
+      <lb ed="#S" n="27"/>sicut voluntas senfualitati, &amp; fortuna temperantiae, &amp; 
+      <lb ed="#S" n="28"/>per consequem virginitati: quia irscibilis propinquior 
+      <lb ed="#S" n="29"/>est rationi, quae quasi ordinati in aliud appetendo illud 
+      <lb ed="#S" n="30"/>quod non est appetibile per se, sed propter aliud: nec 
+       ob<lb ed="#S" break="no" n="31"/>stat quod irascibilis dicitur esse propter concupiscentiam, quia 
+      <lb ed="#S" n="32"/>exponendum est. i. propter rem concupitam quia conice 
+      <lb ed="#S" n="33"/>pita sunt necessaria indiuiduo vel speciei: vnde maxime 
+      <lb ed="#S" n="34"/>propter cibum &amp; coitum pugnant animalia, quorum vnum 
+      <lb ed="#S" n="35"/>necessarium est ad indiuiduum, aliud. ad speciem: quiae ergo 
+      <lb ed="#S" n="36"/>virtus est quae perficit habentem &amp; est dispositio perfecti 
+      <lb ed="#S" n="37"/>ad optimum, &amp; intellectuales sunt in intellectu, &amp; 
+       theq<lb ed="#S" break="no" n="38"/>logicae partim in intellectu &amp; partim in voluntate, &amp; 
+       for<lb ed="#S" break="no" n="39"/>Vtudo in irascibili quae subiesta omnia excedunt concu 
+      <lb ed="#S" n="40"/>piscibilem in qua est virginitas: inde est quod omnes istae 
+      <lb ed="#S" n="41"/>virtutes excedunt virgimtatem. Tertio ex parte finis, &amp; 
+      <lb ed="#S" n="42"/>sic latria &amp; poenitentia praeferuntur quae habent Deum 
+      <lb ed="#S" n="43"/>pro immediatb fine. Quarto ox parte arduitatis: siue dif 
+      <lb ed="#S" n="44"/>ficultatis, &amp; sic martyrium praefertur: vnde illa aureola 
+      <lb ed="#S" n="45"/>praefert quia ibi grauior pugna, licet hic crebrior. Quinto 
+      <lb ed="#S" n="46"/>ratione propinquitatis dispositiuae ad salutem: 
+       humili<lb ed="#S" break="no" n="47"/>tas praefertur virginitati, quia malti virgines sunt in 
+       in<lb ed="#S" break="no" n="48"/>ferno: vt Plato forte, sed de hoc quod virgo dixit, respexit 
+      <lb ed="#S" n="49"/>humilitatem ancillae suae, dicont quidam. ivilltatem ne 
+      <lb ed="#S" n="50"/>videatur se de tanta virtute iactare: sed melius de 
+       virtu<lb ed="#S" break="no" n="51"/>te humilitatis, quia certus de virtute sua potestalijs eam 
+      <lb ed="#S" n="52"/>innotescere ante aedificationem: sicut Paulus, 2.ad. 
+       Cor<lb ed="#S" break="no" n="53"/>1i, &amp; lob. 29. sexto, ratione voiuersalitatis, quia religio 
+      <lb ed="#S" n="54"/>se &amp; sua dedicat offerens holocaustum, vt Nazargus: 
+       vir<lb ed="#S" break="no" n="55"/>ginitas autem vt sic, offert solum corpus.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1668" n="23">
+      <!-- 23 -->secunde 
+      <lb ed="#S" n="56"/>conclusio est videre quibus virtutibus ipsa virginitas prae 
+      <lb ed="#S" n="57"/>feratur. Et dicendum quod praefertur simpliciter omnibus 
+      <lb ed="#S" n="58"/>virtutibus quae sunt in concupifiabili. Primo quia 
+       apti<lb ed="#S" break="no" n="59"/>mum est, cui oppositum pessimum sed vitiu oppositum 
+      <lb ed="#S" n="60"/>virginitati est quid peius &amp; vorecundius &amp; turpius, ergo 
+      <lb ed="#S" n="61"/>&amp;c. infusa quidem infusis preferi &amp; acquisita acquisitis: non 
+      <lb ed="#S" n="62"/>aunt acquisita infusis quae a tota specie praecellunt: infusa etiam non 
+      <lb ed="#S" n="63"/>praefertur donis ibi existentibus: quae etiam a toto 
+       gene<lb ed="#S" break="no" n="64"/>re praecellunt. Haec ante praeeminentia apparet quantum 
+      <lb ed="#S" n="65"/>ad. 6. primo, quantum ad praemium accidentale quod 
+      <lb ed="#S" n="66"/>est aureola &amp; fructus, quia nulli temperantiae partim 
+      <lb ed="#S" n="67"/>fructus debetur, nec aureola nisi castitati: nec auteola &amp; 
+      <!--0383.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>fructus centesimus, nisi soli virginitati. secundo quo ad 
+      <lb ed="#S" n="69"/>scientiam: quia maxime disponit plus quam fortitudo. Nam 
+      <lb ed="#S" n="70"/>milites nostros arma scite volumus non leges: passio enim 
+      <lb ed="#S" n="71"/>irae secundum actum turbat iudicium rationis, sed non 
+      <lb ed="#S" n="72"/>semper excaecat maxime quando est ira per zelum: vnde 
+      <lb ed="#S" n="73"/>irati minus praeuident, &amp; ira impedit animum ne possit 
+      <lb ed="#S" n="74"/>cernere verum, dicit Cato: vnde cautela est in 
+       disputati<lb ed="#S" break="no" n="75"/>do turbare socium, sicut in aqua turbida minus 
+       appa<lb ed="#S" break="no" n="76"/>rerent imagines, sed passio transiens non diu dimittit 
+      <lb ed="#S" n="77"/>inordinatum animum, etiam scientia ad iram disponit non 
+      <lb ed="#S" n="78"/>quidem manentem. Nam sic animi turbatio non cadit, 
+      <lb ed="#S" n="79"/>in sapientem, sed transeuntem, quia studium rarefacit 
+       ce<lb ed="#S" break="no" n="80"/>rebrum, &amp; studiosi sunt capitosi, sed non exequuntur. 
+      <lb ed="#S" n="81"/>Exemplum de philoso. percuterem te nisi essem iratus, sed 
+      <lb ed="#S" n="82"/>delectatio venereorum in actu totaliter rationem 
+       absor<lb ed="#S" break="no" n="83"/>bet: &amp; pollutio sine peccato dormiendotransiens 
+       deordi<lb ed="#S" break="no" n="84"/>natam naturam derelinquit vsque ad 24 horas, sed sumptio 
+      <lb ed="#S" n="85"/>cibi maxime moderata non, nec quo ad actum, nec quo 
+      <lb ed="#S" n="86"/>ad vestigium: quia digesto cibo vel potu est homo aptus 
+      <lb ed="#S" n="87"/>ad studium, licet passio ebrietatis sit diuturnior quam vene 
+      <lb ed="#S" n="88"/>reorum, &amp; studium quidem disponit ad continendum, 
+      <lb ed="#S" n="89"/>non sic autem ad abstinendum: sed magis ad comedendum 
+      <lb ed="#S" n="90"/>nam frequensmeditatio carnis est afflictio: sed verum est 
+      <lb ed="#S" n="91"/>quodetiam sobrietas confert: vnde quidam etiam abstinent a 
+      <lb ed="#S" n="92"/>prandio vt magis studeant de die: alij a coena vt magisde 
+      <lb ed="#S" n="93"/>nocte, &amp; vinum modicem sumptum acdit ingenium: quia mol 
+      <lb ed="#S" n="94"/>les carne aptos mente dicimus? vnde delicata cibaria per 
+      <lb ed="#S" n="95"/>se quidem conferunt homini, per accidens nocent: quia 
+      <lb ed="#S" n="96"/>si vnusquisque abstinet secundum statum suum, quamuis vtatur 
+       ci<lb ed="#S" break="no" n="97"/>bis grossioribus &amp; magis rudificantibus Deus supplet resi 
+      <lb ed="#S" n="98"/>duum: vnde illud. Flli concupiscens sapientiam serua 
+       iuffi<lb ed="#S" break="no" n="99"/>tiu, et Deus. &amp;c. Exempiu de tribus pueris abitinentib, 
+      <lb ed="#S" n="100"/>quibus Deus dedit sapieiitia, &amp;c. Danlelis. 1. tertio quo 
+      <lb ed="#S" n="101"/>ad pulchritudinem, &amp;c. non quia passiones sint communes 
+      <lb ed="#S" n="102"/>nobis &amp; brutis: quia similiter passiones irascibilis: sicut 
+      <lb ed="#S" n="103"/>esse furibundum in cane, &amp; vindicatiuum in leont, sed quia 
+      <lb ed="#S" n="104"/>magis absorbent iudiciumrationis quae est pulchritudo 
+      <lb ed="#S" n="105"/>hominis, in qua consistit imago Dei: sedtunc est 
+       instan<lb ed="#S" break="no" n="106"/>tia de ebrictate quae magis tollit et diutius iudicium ratio 
+      <lb ed="#S" n="107"/>nis. Quarto, quo ad similitudinem quo ad plurae: quia hi 
+      <lb ed="#S" n="108"/>sequuntur agnum quocumq, ierit, &amp; iucorruptio facit esse pro 
+      <lb ed="#S" n="109"/>rimom Deo mente &amp; corpore. Quinto, quo ad 
+       simulta<lb ed="#S" break="no" n="110"/>em, quia ista vittus non est sine alijs: sed bene econuerso, 
+      <lb ed="#S" n="111"/>vt in Magdalena: vnde virgines praeferuntur non 
+       virgi<lb ed="#S" break="no" n="112"/>nibus, sicuttotum parti. selto quo ad raritatem, de proba 
+      <lb ed="#S" n="113"/>tionibus capituloltiPridslegium quasi priuata lex. Apoc. 
+      <lb ed="#S" n="114"/>7. Vidi turbam magnam quam dinumerare nemo 
+       pote<lb ed="#S" break="no" n="115"/>rat. &amp;c. Vbi ponit certum numerum virginum non quia sint tos 
+      <lb ed="#S" n="116"/>futuri, nec plures, nec pauciores: sed quia sint pauciores 
+      <lb ed="#S" n="117"/>nec incertum non virginum, quia sint futuri infiniti, sed 
+      <lb ed="#S" n="118"/>quia sunt plures: nam maior numerus est innumera 
+       bi<lb ed="#S" break="no" n="119"/>lior quam paruus. Et quia aliae virtutei posset recuperari non ista: 
+      <lb ed="#S" n="120"/>secundo, quia difficilior hic quam aliae etiam fortitudo ratide 
+      <lb ed="#S" n="121"/>crebrae victoriae &amp; frequentis pugnae: omne autem raruin 
+      <lb ed="#S" n="122"/>preciosum: vnde non est digna ponderatio, &amp;c.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1822" n="40">
+      <!-- <sic>40</sic> -->Te 
+      <lb ed="#S" n="123"/>tia conclusto est de duabus iustantijs. prima talis, si est me 
+      <lb ed="#S" n="124"/>lius &amp; pulchrius: cuius oppositum est peius &amp; turpitis, cum 
+      <lb ed="#S" n="125"/>malitia &amp; turpitudo in moribus sit ex cotrarietate ad ra 
+      <lb ed="#S" n="126"/>tionem. Nam aliqua naturalia turpiora sunt &amp; 
+       verecun<lb ed="#S" break="no" n="127"/>diora, quae sunt sine peccato: ebrietas quae est contraria 
+       so<lb ed="#S" break="no" n="128"/>brietati videtur peius et turpius, quae multo intentius et 
+       diu<lb ed="#S" break="no" n="129"/>tius absorbet iudicium rationis quam luxuria. Et dicendum est 
+      <lb ed="#S" n="130"/>primo, quod ebrietas cum sit propria hominum: non est ita bestiale 
+      <lb ed="#S" n="131"/>ctin: sicut, luxuria. secundo, quia potus est necessarius 
+      <lb ed="#S" n="132"/>homini ex quo nascitur ebrietas, &amp; sic a principio quod 
+      <lb ed="#S" n="133"/>est necessarium veniam meretur: sed non sic luxuria. tertio quia 
+      <lb ed="#S" n="134"/>luxuria aut est contra naturam, et illa omnia in malitia vincis 
+      <!--0384.xml-->
+      <pb ed="#S" n="384"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>aut naturalis: et sic est peior ebrietate, quia ista sibi soli no 
+      <lb ed="#S" n="2"/>cet per se: licet per accidens sit causa omnium vitiorum, illa autem 
+       si<lb ed="#S" break="no" n="3"/>mul masculo et foeminae.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1866">
+      <!--41 -->secunda instantia est de 
+       diffi<lb ed="#S" break="no" n="4"/>cultate, quia virtus est de bono &amp; de difficili. vnde vbi est ma 
+      <lb ed="#S" n="5"/>ior difficultas, ibi maior est virtus in consimili materia: si 
+      <lb ed="#S" n="6"/>cut magnificentia liberalitate: sed quibusdam est facile conti 
+      <lb ed="#S" n="7"/>nere &amp; difficile ieiunare, &amp; sobrie viuere vel temperare se 
+      <lb ed="#S" n="8"/>in ludis: sicut. 3. dialogorum dicit; quod Isaac excedebat in 
+      <lb ed="#S" n="9"/>risu. solutio, licet per accidens aliqui magis inclinentur 
+      <lb ed="#S" n="10"/>ad luxuriam, aliqui magis ad gulam: tamen per se loquendo 
+       ma<lb ed="#S" break="no" n="11"/>ior videtur esse temperantia luxuriae quam gulae: quia 
+       natu<lb ed="#S" break="no" n="12"/>ra magis intendit conseruationem specici quam indiuiduit nec 
+      <lb ed="#S" n="13"/>obstat quod natura prius retinet necessaria ad nutritiuam et 
+      <lb ed="#S" n="14"/>augmentatiuam, quantransmittat ad generatiuam: quia hoc non 
+      <lb ed="#S" n="15"/>est quasi sit magis sollicita de idiuiduo quam de specie: imo 
+      <lb ed="#S" n="16"/>econuerso, quia aliter non ageret indiuiduum ad conserua 
+      <lb ed="#S" n="17"/>tionem speciei, nisi consisteret: vnde quod est hic prius intem 
+      <lb ed="#S" n="18"/>tione est posterius generatione. sed hoc est quia virtuosi 
+      <lb ed="#S" n="19"/>minus student sobrietati quam castitati: &amp; propter exercitium 
+      <lb ed="#S" n="20"/>fit facile quod est difficile inexperto, quare autem se exercent 
+      <lb ed="#S" n="21"/>magis hic quam ibi, est quia non possunt deficere a castitate sine 
+      <lb ed="#S" n="22"/>mortali: possunt autem deficere a sobrietate per veniale: quia 
+      <lb ed="#S" n="23"/>ista consistit in medio quod est latum, illa in extremo quod 
+      <lb ed="#S" n="24"/>est indiuisibile: si tum sic se exercent in sobrietate, poena 
+      <lb ed="#S" n="25"/>eis esset ad oppositum, vnde in Vitis patrum propter 
+       consue<lb ed="#S" break="no" n="26"/>tudinem, quidam iam ante vesperam non poterant 
+       sume<lb ed="#S" break="no" n="27"/>re cibum, secundo, quia certum est quod non possunt excedere in 
+      <lb ed="#S" n="28"/>virgimitate: sed possunt excedere in sobrictate: vnde ibi 
+      <lb ed="#S" n="29"/>timent esse agrestes &amp; indiscreti: vel potest dici, quod 
+       diffi<lb ed="#S" break="no" n="30"/>cilius est seruare virginitatem &amp; castitatem quam sobrietatem, sed 
+      <lb ed="#S" n="31"/>facilius est perdere virginitatem cum sit in extremo, quae 
+       sobrie<lb ed="#S" break="no" n="32"/>tatem quae est in medio: sed difficilius est seruare 
+       sobrieta<lb ed="#S" break="no" n="33"/>tem in summo, quae virginitatem in summp, hoc autem est necesse 
+      <lb ed="#S" n="34"/>his qui eam vouerunt, &amp; non primum: vpde quibus est 
+       diffi<lb ed="#S" break="no" n="35"/>cile non excedere in potu vel esu peryeniale, est facile non 
+      <lb ed="#S" n="36"/>inebriari aut frangere iciuqium Ecclesiae.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1942" n="42">
+      <!--42. -->Quantum 
+      <lb ed="#S" n="37"/>ad sextum articulum de comparatione virginitatis ad 
+       coniu<lb ed="#S" break="no" n="38"/>glum est triplex conclusio.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1951" n="43">
+      <!-- 43. -->Prima quod antiquitus 
+       con<lb ed="#S" break="no" n="39"/>iugium virginitati praeferebatur: quia erat tempus 
+       propa<lb ed="#S" break="no" n="40"/>gandicultum Del per generationem: vnde quando 
+       virgi<lb ed="#S" break="no" n="41"/>tas erat illicita, sicut quando quilibet 
+       ligabaturprae<lb ed="#S" break="no" n="42"/>cepto. Crescite et multiplicamini ante diluuium, vel 
+      <lb ed="#S" n="43"/>post propter raritatem hominum praeferebatur 
+       couiu<lb ed="#S" break="no" n="44"/>gium, sicut bonum malo, postquam autem multiplicato 
+       hu<lb ed="#S" break="no" n="45"/>mano genere ante vel post licita fuit virginitas etiam tunc 
+      <lb ed="#S" n="46"/>erat minus bonum, oisi quando speciali consilio. ss. contine 
+      <lb ed="#S" n="47"/>bant, vt Helias &amp; Hieremias, quia consilium. ss. cuicunque de 
+      <lb ed="#S" n="48"/>tur semper est de meliori illi: alias esset consilium fatuum. 
+      <lb ed="#S" n="49"/>Et signum primi est, quia illud quod meliores &amp; sapientio 
+      <lb ed="#S" n="50"/>res faciunt pro tunc videtur melius: sed patriarchae 
+       san<lb ed="#S" break="no" n="51"/>ctiores sic faciebant qui maluissent continere: ergo pro 
+      <lb ed="#S" n="52"/>tunc illud erat melius, &amp; multomagis tempore 
+       innocen<lb ed="#S" break="no" n="53"/>tiae etiam si virginitas fuisset licita, non tamen aeque bona 
+      <lb ed="#S" n="54"/>propter bonum prolis &amp; delectationis quod habet matrimo 
+      <lb ed="#S" n="55"/>nium, &amp; tunc nihil min' de bonorationis, ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r18837-d1e1993" n="44">
+      <!-- 44 -->
+               <lb ed="#S" n="56"/>secunda cpclusio est, quod virginitas modernorum non 
+       prae<lb ed="#S" break="no" n="57"/>fertur coniugio antiquorum quo ad primum essentiale: quod 
+      <lb ed="#S" n="58"/>est aurea, sed non quo ad accidentale quod est aurcola. 
+      <lb ed="#S" n="59"/>Primum patet, quia qui di uetsimode seruiunt regi 
+       aequa<lb ed="#S" break="no" n="60"/>liter tamen secundum beneplacitum regis, qui modo vult 
+      <lb ed="#S" n="61"/>vnum modo aliud, aequalem mercedem accipiunt: sed 
+      <lb ed="#S" n="62"/>Deus qui nunc consulit virginitatem, tunc consulebas 
+      <lb ed="#S" n="63"/>matrimonium. ergo. &amp;c. secundum patet: quia aureola 
+      <lb ed="#S" n="64"/>debetur virginitati secundum actum quomodo non stat 
+      <lb ed="#S" n="65"/>cum matrimonio, sed non quo ad habitum, vel 
+       praepara<lb ed="#S" break="no" n="66"/>tionem animi quomodo tunc stabat.
+    </p>
+            <p xml:id="khj78y-r18837-d1e2023" n="45">
+      <!-- 45 -->Tertia <sic>
+       con<lb ed="#S" break="no" n="67"/>conclusio</sic> est, quia tempore moderno virginitas sim- 
+      <!--0384.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>pliciter est melior. Primo, quia est consulta a Christo 
+      <lb ed="#S" n="69"/>et ab Apostolo: et seruata a Christo et electa a matre, &amp; 
+      <lb ed="#S" n="70"/>discipulo praedilecto. Quod autem consulitur a sapientia 
+      <lb ed="#S" n="71"/>et eligitur a sapientioribus est melius. Et quod est etiam 
+      <lb ed="#S" n="72"/>similius melioribus, est melius, virginitas est huiusmodi 
+      <lb ed="#S" n="73"/>ergo. &amp;c.
+    </p>
+            <p xml:id="khj78y-r18837-d1e2050" n="46">
+      <!-- 46 -->Praeterea bonum diuinum et animae est 
+      <lb ed="#S" n="74"/>melius, quam bonum humanum et corporis. Matrimonium 
+      <lb ed="#S" n="75"/>autem licet sit bonum diuinum et corporis, per hoc quod 
+      <lb ed="#S" n="76"/>causat gratiam ex opere operato, quod non facit virgini 
+      <lb ed="#S" n="77"/>tas propositi vel voti simplicis vel solennis: nisi in 
+       sus<lb ed="#S" break="no" n="78"/>cipiendo sacrum ordinem, qui est sacramentum: caetera 
+      <lb ed="#S" n="79"/>vero non sunt sacramentum, sed vel sacramentale: vt 
+       pro<lb ed="#S" break="no" n="80"/>fessio: vel non sacramentale, vt simplex votum, vel 
+       pro<lb ed="#S" break="no" n="81"/>positum: nihilominus tamen exopere operato seruans 
+      <lb ed="#S" n="82"/>virginitatem est aptus et dispositus ad maiorem gratiam, 
+      <lb ed="#S" n="83"/>&amp; gloriam essentialiter, quam sit illa gratia quam dat 
+       matri<lb ed="#S" break="no" n="84"/>monium ex opere operato digne contrahenti: vel potest 
+      <lb ed="#S" n="85"/>dici, quod non fit comparatio matrimonij prout est 
+       sacramen<lb ed="#S" break="no" n="86"/>tum ad virginitatem, prout est virtus: quia sic non sunt 
+      <lb ed="#S" n="87"/>vnius generis, sed fit comparatio castitatis coniugalis 
+      <lb ed="#S" n="88"/>ad castitatem virginalem, quia sic illi praefertur. Et si 
+      <lb ed="#S" n="89"/>arguatur bonum multitudinis est melius quam vnius 
+      <lb ed="#S" n="90"/>ergo &amp;c. Dicendum, quod sicut ordo est quid melius quam 
+       ma<lb ed="#S" break="no" n="91"/>trimonium: quia licet corporaliter non fit nisi bonum istius 
+      <lb ed="#S" n="92"/>qui forte propter hoc habet beneficium, tamen ost bonum 
+      <lb ed="#S" n="93"/>spirituale multitudinis, sic &amp; virglnitas quae reddit 
+       ho<lb ed="#S" break="no" n="94"/>minem vtiliorem communitati quam matrimonium, quia 
+      <lb ed="#S" n="95"/>confert quo ad spiritualia, quae sunt meliora: illud quo ad 
+      <lb ed="#S" n="96"/>carnalia, licet multi virgines parum. conferant 
+       spiritua<lb ed="#S" break="no" n="97"/>liter, sicut et multi coniuges corporaliter, quia forte sum 
+      <lb ed="#S" n="98"/>steriles.
+    </p>
+            <p xml:id="khj78y-r18837-d1e2109" n="47">
+      <!-- 47 -->Ad argumentum dicendum quod est principalis 
+      <lb ed="#S" n="99"/>virtus respectu illarum quae sunt in concupiscibili.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

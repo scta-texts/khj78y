@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="117"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q27582"><!-- l4d9-q3 -->
+            <head xml:id="khj78y-q27582-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-q27582-Hd1e103" type="question-title">
+     Utrum polluto liceat sumere corpus Christi
+   </head>
+            <p xml:id="khj78y-q27582-d1e106">
+               <lb ed="#S" n="121"/>QVAESTIO. TERTIA. 
+      <lb ed="#S" n="122"/>De pollutione sumptionem eucharistiae impediente. 
+    </p>
+            <p xml:id="khj78y-q27582-d1e113">
+               <lb ed="#S" n="123"/>Thom. 3. q. so. 
+    </p>
+            <p xml:id="khj78y-q27582-d1e118">
+               <lb ed="#S" n="124"/>TERTIO Quaeritur, vtrum 
+       pol<lb ed="#S" break="no" n="125"/>luto liceat sumere corpus 
+       Chri<lb ed="#S" break="no" n="126"/>sti. Et videtur, quod sic: quia plus est 
+      <lb ed="#S" n="127"/>pollutio maritalis, naturalis, 
+      <lb ed="#S" n="128"/>vel carnalis, quae somnialis, sed 
+      <lb ed="#S" n="129"/>nulla illaru impedit, vt videtur. 
+      <lb ed="#S" n="130"/>ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q27582-d1e137" n="2">
+      <!-- 2 -->CONTRA 
+      <lb ed="#S" n="131"/>quia non licet immund: s tangere 
+      <!--0118.xml-->
+      <pb ed="#S" n="118"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>sancta: sed iste est immundus secundum legem, qui somno 
+      <lb ed="#S" n="2"/>nocturno est pollutus, sicut &amp; ipsum nomen sonat. ergo 
+      <lb ed="#S" n="3"/>&amp;c.
+    </p>
+            <p xml:id="khj78y-q27582-d1e157" n="3">
+      <!-- 3 -->RESPONDEO, tria sunt hic 
+       viden<lb ed="#S" break="no" n="4"/>da. Primum de nocturna pollutione. secundum de 
+       mari<lb ed="#S" break="no" n="5"/>tali. Tertium de immundicia corporali.
+    </p>
+            <p xml:id="khj78y-q27582-d1e166" n="4">
+      <!-- 4 -->
+       QVAN<lb ed="#S" break="no" n="6"/>TVM ad primum sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-q27582-d1e173" n="5">
+      <!-- 5 -->Prima 
+      <lb ed="#S" n="7"/>quomodo nocturna pollutio sit peccatum. Vbi sciendum 
+      <lb ed="#S" n="8"/>est, quod pollutio inchoata, &amp; determinata in somnis nunquam 
+      <lb ed="#S" n="9"/>est peccatum: licet quandoque sit signum, &amp; effectus peccati, quia tunc 
+      <lb ed="#S" n="10"/>non est perfectus vsus rationis. Vnde ille clericus, cuius 
+      <lb ed="#S" n="11"/>virtus gressiua dormientis soluta est, &amp; iuit ad domum 
+       ini<lb ed="#S" break="no" n="12"/>mici, &amp; occidit eum, rediens semper dormiuit vsque mane. 
+      <lb ed="#S" n="13"/>Audito clamore, &amp; conscius odij praecedentis, &amp; consuetu 
+      <lb ed="#S" n="14"/>dinis antiquae inuenit ensem sanguinolentum: &amp; statim 
+      <lb ed="#S" n="15"/>fugit ad ecclesiam: non est homicida ipso facto: licet forte sit 
+      <lb ed="#S" n="16"/>irregularis, sicut ebrius homicida, maxime quia fuit in 
+       cau<lb ed="#S" break="no" n="17"/>sa rixa praecedens. Alias secus esset, vt in furioso forte. 
+       si<lb ed="#S" break="no" n="18"/>militer si terminetur in vigilia, quia nec quandiu durat, ha 
+      <lb ed="#S" n="19"/>bet homo iudicium rationis, imo minus quam in passione 
+       som<lb ed="#S" break="no" n="20"/>ni. Delectatio enim concupiscentiae corrumpit 
+       extimatio<lb ed="#S" break="no" n="21"/>nem prudentiae. sed si placeat postea propter 
+       delectatio<lb ed="#S" break="no" n="22"/>nem est peccatum veniale.
+    </p>
+            <p xml:id="khj78y-q27582-d1e212" n="6">
+      <!-- 6 -->Non autem videt mortale 
+      <lb ed="#S" n="23"/>etiam cum deliberatione: quia consensus in delectationem 
+       li<lb ed="#S" break="no" n="24"/>citam non est peccatum. si enim maritus concupiscat 
+       cogno<lb ed="#S" break="no" n="25"/>scere vxorem propter delectationem, vel complaceat sibi in 
+      <lb ed="#S" n="26"/>delectatione praeterita erit quidem peccatum  veniale, sed non 
+      <lb ed="#S" n="27"/>mortale, sicut &amp; ipse actus. Et similiter si quis appetat 
+       dele<lb ed="#S" break="no" n="28"/>ctationem pollutionis nocturnae, vel complaceat sibi in ea: 
+      <lb ed="#S" n="29"/>ita tamen, quod scit eam non esse peccatum, &amp; vellet delectari sine 
+      <lb ed="#S" n="30"/>peccato nullo modo complaciturus sibi in eo: nec appetitu 
+      <lb ed="#S" n="31"/>rus eam, si esset peccatum, videt, quod non sit peccatum mortale: sed 
+      <lb ed="#S" n="32"/>tamen peccat venialiter, quamuis pollutio in se non sit peccatum 
+      <lb ed="#S" n="33"/>veniale: quia ipse nunc habet iudicium rationis: quo 
+       ni<lb ed="#S" break="no" n="34"/>hil inordinatum est appetendum. sed si vellet, quod ex sua co 
+      <lb ed="#S" n="35"/>gitatione praecedente sequeretur illa pollutio: tunc ipse 
+      <lb ed="#S" n="36"/>consentiret in peccatum  contra naturam: quia esset sibi volunta 
+      <lb ed="#S" n="37"/>rie causa pollutionis. Et quia praecedens consensus potest esse 
+      <lb ed="#S" n="38"/>causa, non autem sequens. ideo qui deliberate appetit in 
+       vigi<lb ed="#S" break="no" n="39"/>lia pollui in somno, ex hoc ipso peccat: quamuis non face 
+      <lb ed="#S" n="40"/>ret hoc, nec obdormiret in tali consensu, si sciret ex hoc 
+      <lb ed="#S" n="41"/>sequi pollutionem, quia. scilicet periculo se exponit.
+    </p>
+            <p xml:id="khj78y-q27582-d1e258" n="7">
+      <!-- 7 -->Et 
+      <lb ed="#S" n="42"/>dicendum est verius, quod consensus deliberatibus in 
+       delecta<lb ed="#S" break="no" n="43"/>tionem pollutionis nocturnae praeteritae, vel futurae propter 
+      <lb ed="#S" n="44"/>se est peccatum mortale, quia quando causa, quae excusat pollutionem 
+      <lb ed="#S" n="45"/>a peccato, concurrit in consensu, excusat consensus a peccato, si 
+      <lb ed="#S" n="46"/>cut pollutio. Qum autem non, tunc pollutio non est peccatum: 
+      <lb ed="#S" n="47"/>consensus tamen in ea est peccatum, quia vbi eadem ratio, ibi idem ius: 
+      <lb ed="#S" n="48"/>vbi vero diuersa diuersum, quia manente causa, manet ef 
+      <lb ed="#S" n="49"/>fectus: &amp; cessante, cessat. Vnde sicut furiosus occidendo 
+      <lb ed="#S" n="50"/>hominem non peccat, sic nec consentiendo in mortem 
+       praete<lb ed="#S" break="no" n="51"/>ritam, uel futuram peccat, quia defectus iudicij rationis, q 
+       ex<lb ed="#S" break="no" n="52"/>cusabat actum, concurrit ad consensum. Vnde pariter 
+       ex<lb ed="#S" break="no" n="53"/>cusat. si autem in lucido interuallo consentiat deliberate 
+      <lb ed="#S" n="54"/>occidere hominem in furia sequente, vel complaceat sibi in 
+      <lb ed="#S" n="55"/>homicidio praeterito peccat mortaliter. sed maritus con 
+      <lb ed="#S" n="56"/>sentiens in pollutionem cum vxore praeteritam, vel futuram pro 
+      <lb ed="#S" n="57"/>pter delectationem non peccat mortaliter, quis 
+       delibera<lb ed="#S" break="no" n="58"/>te consentiat: dum tamen non excedat limites matrimonij: 
+      <lb ed="#S" n="59"/>sicut nec cognocendo propter delectationem: quia eadem ratio 
+      <lb ed="#S" n="60"/>est, vtrobiq, in excusando. scilicet bonum matrimonij, non defe 
+      <lb ed="#S" n="61"/>ctus iudicij rationis. si enim in actu coniugali posset 
+      <lb ed="#S" n="62"/>habere actu iudicium rationis, &amp; consentiret, non propter 
+      <lb ed="#S" n="63"/>hoc peccaret nisi forte venialiter, quia limitem matrimonij 
+      <lb ed="#S" n="64"/>non excedit consensus, sicut nec actus.
+    </p>
+            <p xml:id="khj78y-q27582-d1e314" n="8">
+      <!-- 8 -->sed pol 
+      <lb ed="#S" n="65"/>lutionem nocturnam excusat a peccato non aliquod 
+       bo<lb ed="#S" break="no" n="66"/>num extrinsecum, quia inde proles sequi non potest, quod est 
+      <lb ed="#S" n="67"/>bonum speciei, nec etiam bonum indiuidui. scilicet alleuiatio na 
+      <!--0118.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>turae: quia non licet propter hanc causam eam sibi extorque 
+      <lb ed="#S" n="69"/>re. sicut nec propter prolem, licet fornicari: sedsolum defectus 
+      <lb ed="#S" n="70"/>liberi arbitrij, &amp; iudicij rationis secundum omnes doctores. 
+      <lb ed="#S" n="71"/>sed supponit, quod consensus praecedens, vel sequens habet iu 
+      <lb ed="#S" n="72"/>dicium rationis concomittans.  ergo causa, quae excusabat actum 
+      <lb ed="#S" n="73"/>non excusat consensum. ergo consensus est peccatum, non au 
+      <lb ed="#S" n="74"/>tem actus: magis autem praecedens, qui potest esse causa, quam sequens 
+      <lb ed="#S" n="75"/>qui non.
+    </p>
+            <p xml:id="khj78y-q27582-d1e347" n="9">
+      <!-- 9 -->Nec obstat de soluto, qui appetit dele 
+      <lb ed="#S" n="76"/>ctationem propter se cum vxore futura: quia &amp; huic consensui 
+      <lb ed="#S" n="77"/>coniungitur bonum fidei, quod excusabit actum futurum, 
+       consen<lb ed="#S" break="no" n="78"/>sui autem in pollutionem somni non coniungitur defectus iu 
+      <lb ed="#S" n="79"/>dicij, qui excusabat pollutionem.
+    </p>
+            <p xml:id="khj78y-q27582-d1e360" n="10">
+      <!-- 10 -->De illo autem 
+      <lb ed="#S" n="80"/>qui appetit pollutionem propter exonerationem naturae, 
+       di<lb ed="#S" break="no" n="81"/>xerunt aliqui, quod non peccat, nisi suus consensus sit 
+       cau<lb ed="#S" break="no" n="82"/>sa eius. sicut enim consensus sequens propter exonerationem 
+      <lb ed="#S" n="83"/>non est peccatum, sic nec praecedens. sed hoc habet praecedens 
+      <lb ed="#S" n="84"/>vltra sequentem: quia potest esse causa, &amp; tunc est peccatum: sicut 
+      <lb ed="#S" n="85"/>aliquis appetens mortem inimici propter bonum finem, non pec 
+      <lb ed="#S" n="86"/>cat, nisi suus consensus sit causa: vt puta, quia expressit 
+       vo<lb ed="#S" break="no" n="87"/>luntatem suam coram his, qui animati sunt ad occidendum. 
+      <lb ed="#S" n="88"/>Cui enim non licet occidere, propter queneuque finem ei non 
+      <lb ed="#S" n="89"/>licet consentire in necem, propter quemcunque finem: ita quod suus 
+      <lb ed="#S" n="90"/>consensus sit causa mortis, nisi consensus habeat 
+       excusa<lb ed="#S" break="no" n="91"/>tionem, quam non haberet factum. Vnde si priuatus consulat 
+      <lb ed="#S" n="92"/>iudici mortem latronis, &amp; ob hoc latro suspendatur, quem 
+      <lb ed="#S" n="93"/>priuatus non posset suspendere, non peccat consulemndo, 
+      <lb ed="#S" n="94"/>qui tamen peccaret suspendendo, quia consilium habet non solum 
+      <lb ed="#S" n="95"/>finem, sed modum debitum suspendendo, aut non. Alij autem 
+       con<lb ed="#S" break="no" n="96"/>cordant, quod pollutio in se nunquam est peccatum, siue terminetur 
+      <lb ed="#S" n="97"/>in vigilia, siue in somno: sed consensus in eam futuram 
+       se<lb ed="#S" break="no" n="98"/>cundum eos semper est peccatum, vel mortale, si propter volupta 
+      <lb ed="#S" n="99"/>tem deliberate consenserit, vel ven iale si subito propter 
+      <lb ed="#S" n="100"/>illam, vel etiam si deliberate propter bonum. sed consensus 
+      <lb ed="#S" n="101"/>in praeteritam propter exonerationem naturae, vel aliam bonam 
+      <lb ed="#S" n="102"/>causam non est peccatum: propter voluptatem autem semper est 
+      <lb ed="#S" n="103"/>peccatum, vel veniale, si subitus, vel mortale si deliberatus. 
+    </p>
+            <p xml:id="khj78y-q27582-d1e417" n="11">
+               <lb ed="#S" n="104"/>
+               <!-- 11 -->secunda conclusio est, quod impedit sumptionem 
+       hu<lb ed="#S" break="no" n="105"/>ius sacramenti: &amp; ratione delicti, si ex delicto procedit, &amp; ratio 
+      <lb ed="#S" n="106"/>ne immunditiae, quae semper est, si citra mediam noctem acci 
+      <lb ed="#S" n="107"/>dit, vel forte, si citra. 24. horas secundum Thomam impedit 
+      <lb ed="#S" n="108"/>etiam ratione distractionis mentis si est. Et siquidem est cum 
+      <lb ed="#S" n="109"/>peccati mortali impedit quousque sit contritus, &amp; confessus: 
+      <lb ed="#S" n="110"/>sicut dictum est in quaestione proxima praecedente. Nec etiam 
+      <lb ed="#S" n="111"/>eodem die peccati mortalis est conicandum: quamuis contritus, 
+      <lb ed="#S" n="112"/>&amp; confessus. si tamen faceret, credo, quod non mortaliter 
+       pec<lb ed="#S" break="no" n="113"/>caret. similiter immunditia, &amp; distractio impediunt: nisi 
+      <lb ed="#S" n="114"/>deuotio recompenset, aut scandalum immineat. si tamen cum his 
+      <lb ed="#S" n="115"/>celebret, aut communicet, ex quo mortale non adest 
+       mor<lb ed="#S" break="no" n="116"/>taliter non peccat.
+    </p>
+            <p xml:id="khj78y-q27582-d1e450" n="12">
+      <!-- 12 -->Tertia conclusio est, quod si 
+      <lb ed="#S" n="117"/>homo probabiliter credat, quod ex illusione daemonis sibi con 
+      <lb ed="#S" n="118"/>tingit: non propter hoc debet dimittere celebrationem, nec 
+      <lb ed="#S" n="119"/>communionem: vtpote si contra eam specialiter, &amp; ex proposito 
+      <lb ed="#S" n="120"/>suo ratione munierit: nec pro ea aliquid fecerit, non debet 
+      <lb ed="#S" n="121"/>abstinere tunc, quia tunc faceret voluntatem daemonis. Et quod 
+      <lb ed="#S" n="122"/>dictum est in primo membro: quod propter complacentiam 
+       sequen<lb ed="#S" break="no" n="123"/>tem est peccatum: verum est, si complaceat propter delectationem. 
+      <lb ed="#S" n="124"/>sed si propter naturae exonerationem: aut propter hoc ne die 
+      <lb ed="#S" n="125"/>proxima magis deuota ci contingat: &amp; a celebratione 
+       im<lb ed="#S" break="no" n="126"/>pediatur, &amp; deuotionem perdat: tunc non est peccatum. 
+    </p>
+            <p xml:id="khj78y-q27582-d1e476" n="13">
+               <lb ed="#S" n="127"/>
+               <!-- 13 -->CIRCA secundum sunt tres conclusione. 
+       Pri<lb ed="#S" break="no" n="128"/>ma, quod illud, quod dicitur de cons. dist. 2. c. Omnis homo qui 
+      <lb ed="#S" n="129"/>debet communicare ab vxore tribus, vel quatuor, aut 
+      <lb ed="#S" n="130"/>quinque diebus abstineat. est consilium, non praeceptum, vt 
+      <lb ed="#S" n="131"/>ibi dicit gl. Nisi, quod diebus ieiuniorum, &amp; orationum non 
+       de<lb ed="#S" break="no" n="132"/>bet homo petere debitum, &amp; maxime septimana sancta: 
+      <lb ed="#S" n="133"/>quando imminet communio.
+    </p>
+            <p xml:id="khj78y-q27582-d1e497" n="14">
+      <!-- 14 -->secunda conclusio est, 
+      <lb ed="#S" n="134"/>quod sicut dicit Greg. 33. 4. 4. c. vir cum propria vxore: qui co 
+      <!--0119.xml-->
+      <pb ed="#S" n="119"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>gnou it vxorem reddendo debitum, vel causa prolis de com 
+      <lb ed="#S" n="2"/>municando est suo iudicio relinquendus: quia nullum peccatum 
+      <lb ed="#S" n="3"/>est. si autem causa delectationis petiit, debet abstinere: 
+      <lb ed="#S" n="4"/>quia licet solum veniale, aut sola pollutio non impediat, 
+      <lb ed="#S" n="5"/>vtrunq, tamen simul impedit. Vnde &amp; sacerdotes in 
+       hebdo<lb ed="#S" break="no" n="6"/>mada sua, quando ministrabant, ab vxoribus abstinebant. Nec 
+      <lb ed="#S" n="7"/>licebat comedere panes sanctos, nisi mundis a 
+       mulieri<lb ed="#S" break="no" n="8"/>bus: &amp; multo minus sancta sanctorum: cum tamen non esset 
+      <lb ed="#S" n="9"/>peccatum mortale, sicut nec illud est mortale.
+    </p>
+            <p xml:id="khj78y-q27582-d1e530" n="14">
+      <!-- 14 -->
+       Ter<lb ed="#S" break="no" n="10"/>tia conclusio est, an die communionis liceat petere 
+       debi<lb ed="#S" break="no" n="11"/>tum causa prolis: quia causa voluptatis nunquam. Videtur, 
+      <lb ed="#S" n="12"/>quod non propter reuerentiam, tamen non est forte mortale. 
+       Red<lb ed="#S" break="no" n="13"/>dere autem omni tempore petenti est licitum, imo debitum. 
+    </p>
+            <p xml:id="khj78y-q27582-d1e543" n="15">
+               <lb ed="#S" n="14"/>
+               <!-- 15 -->CIRCA tertium sunt tres conclusiones. Prima 
+      <lb ed="#S" n="15"/>quod si immum ditia corporalis sit perpetua, vel diuturna, vt 
+    </p>
+            <p xml:id="khj78y-q27582-d1e552">
+               <lb ed="#S" n="16"/>epra, vel fluxus seminis, vel fanguinis menstrui 
+       conti<lb ed="#S" break="no" n="17"/>nuus non impedit, nec ex hoc abstinere debet, nec 
+       prohi<lb ed="#S" break="no" n="18"/>bet: quia afflictio non est addenda afflicto.
+    </p>
+            <p xml:id="khj78y-q27582-d1e561" n="16">
+      <!-- 16 -->secun 
+      <lb ed="#S" n="19"/>da conclusio est, quod si illa immunditia est ad tempus modicum: 
+      <lb ed="#S" n="20"/>vt est menstruum mulieris naturale, vel aliquid 
+       huiusmo<lb ed="#S" break="no" n="21"/>di, melius est abstinere propter reuerentiam. si tamen velit, 
+      <lb ed="#S" n="22"/>non debet prohiberi, ne poena vertatur in culpam. Vnde 
+      <lb ed="#S" n="23"/>&amp; puerpera potest, si vult, ante purgationem communicare: de 
+      <lb ed="#S" n="24"/>purificatione post partum. c. 1.
+    </p>
+            <p xml:id="khj78y-q27582-d1e579" n="17">
+      <!-- 17 -->Tertia tonclusio 
+      <lb ed="#S" n="25"/>est de leproso sacerdote. De quo est dicendum, quod si vult in 
+      <lb ed="#S" n="26"/>occulto celebrare, non est prohibendus: dum tamen 
+       possirsi<lb ed="#S" break="no" n="27"/>ne periculo, non tamen in publico propter scandalum. 
+    </p>
+            <p xml:id="khj78y-q27582-d1e591" n="18">
+               <lb ed="#S" n="28"/>
+               <!-- 18 -->Ex his patet solutio ad oppositum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

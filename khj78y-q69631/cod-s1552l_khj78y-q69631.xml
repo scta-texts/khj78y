@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="236"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q69631"><!-- l4d18-q4 -->
+            <head xml:id="khj78y-q69631-Hd1e101">Quaestio 4</head>
+            <head xml:id="khj78y-q69631-Hd1e103" type="question-title">
+     de effectu 
+     excommunicationis
+   </head>
+            <p xml:id="khj78y-q69631-d1e106">
+               <lb ed="#S" n="15"/>QVAESTIO QVARTA. 
+      <lb ed="#S" n="16"/>De effectu excommunicationis. 
+    </p>
+            <p xml:id="khj78y-q69631-d1e113">
+               <lb ed="#S" n="17"/>Tho. 4. d. i8. q. 2ar. 1. 
+    </p>
+            <p xml:id="khj78y-q69631-d1e118">
+               <lb ed="#S" n="18"/>QVAERITVR quarto de effectu 
+       excom<lb ed="#S" break="no" n="19"/>municationis. Et videtur quod non 
+       pos<lb ed="#S" break="no" n="20"/>bi sit habere aliquem effectum: quia non ens 
+      <lb ed="#S" n="21"/>q vel priuatio non est causa alicuius entis: 
+      <lb ed="#S" n="22"/>&amp; sed per hoc quod aliquis excommunicatur 
+      <lb ed="#S" n="23"/>nihil ut in eo nisi relatiorationis, &amp; priuatio 
+       commu<lb ed="#S" break="no" n="24"/>hionis. ergo, &amp;c. Contra quia tradit hominem sathanae: 
+      <lb ed="#S" n="25"/>vt dicit apostolus. Respondeo dicendum: quod in 
+       gene<lb ed="#S" break="no" n="26"/>rali excommunicatio duos habet effectus. Primus &amp; ma 
+      <lb ed="#S" n="27"/>ximus. est separatio a diuinis. secundus est. separatio a 
+      <lb ed="#S" n="28"/>quocunque legitimo actu &amp; consortio fidelium. Nam 
+       con<lb ed="#S" break="no" n="29"/>fortium infidelium est iure diuino: etiam non 
+       excommu<lb ed="#S" break="no" n="30"/>nicato prohibitum. 2.ad Corin. vj. Nolite iugum 
+       duce<lb ed="#S" break="no" n="31"/>re cum infidelibus. Vnde non est propter hoc concessum 
+      <lb ed="#S" n="32"/>excommunicanti: sed secundum iuristas 
+       excommunica<lb ed="#S" break="no" n="33"/>tio habet quinque inter alios effectus notabiles.
+    </p>
+            <p xml:id="khj78y-q69631-d1e156" n="2">
+      <!-- 2 -->
+       Pri<lb ed="#S" break="no" n="34"/>mus. quod non debet Ecclesiam intrare etiam si non 
+       di<lb ed="#S" break="no" n="35"/>tantur ibi diuina. 1. q. 1. Non liccat. 24. q. 3. sicut olim 
+      <lb ed="#S" n="36"/>immundo non licebat intrare templum. &amp; hoc nisi cau 
+      <lb ed="#S" n="37"/>fa praedicationis audiendae: qua audita statim exeat. 
+       ex<lb ed="#S" break="no" n="38"/>tra eo.
+    </p>
+            <p xml:id="khj78y-q69631-d1e172" n="3">
+      <!-- 3 -->Respondeo. si etiam per Ecclesiam sit 
+       com<lb ed="#S" break="no" n="39"/>munis viae transitus, causa itineris transire potest: non 
+      <lb ed="#S" n="40"/>causa orationis: maxime quando non dicuntur ibi diui 
+      <lb ed="#S" n="41"/>na. Item non debet de foris ad ostium auscultare. de poe. 
+      <lb ed="#S" n="42"/>quod in te. de priuile. quod nonnullis. &amp; clerici non de 
+      <lb ed="#S" n="43"/>bent eis sic audientibus celebrare: quia audire diuina 
+      <lb ed="#S" n="44"/>est participare diuinis. similiter nec licet eis videre 
+       cor<lb ed="#S" break="no" n="45"/>pus Christi.
+    </p>
+            <p xml:id="khj78y-q69631-d1e192" n="4">
+      <!-- 4 -->secundus effectus est. quia non potest 
+      <lb ed="#S" n="46"/>eligere nec eligi: non solum loquendo de dignitate 
+       Ec<lb ed="#S" break="no" n="47"/>clesiassica regulari vel saeculari: sed etiam laica. vnde in 
+      <lb ed="#S" n="48"/>regem vel imperatorem non potest eligi. de elec. per 
+       ve<lb ed="#S" break="no" n="49"/>herabilem. similiter non potest conferre beneficium. 
+      <lb ed="#S" n="50"/>de exces. praela. Tanta. nec potest recipere. de cle. excom 
+      <lb ed="#S" n="51"/>mu. Postulastis. de aeta. &amp; quali. Cum bene imo 
+       quan<lb ed="#S" break="no" n="52"/>dio est excommunicatus non facit fructus suos. de 
+       ap<lb ed="#S" break="no" n="53"/>pel. Pastoralis in fine. si quis autem est iniuste 
+       excom<lb ed="#S" break="no" n="54"/>municatus: vel facit posse suum de impetrando ab 
+       solu<lb ed="#S" break="no" n="55"/>tionem ab iniusta excommunicatione, in foro conscien 
+      <lb ed="#S" n="56"/>liae facit fructus suos: &amp; in foro exteriori debet cum eo 
+      <lb ed="#S" n="57"/>dispensari. Et per simplicem dispensationem secum factam 
+      <lb ed="#S" n="58"/>etiam pro tempore in quo in mora erat, potest fructus per 
+      <lb ed="#S" n="59"/>cipere. secus autem si tempore electionis, vel confirmatio 
+      <lb ed="#S" n="60"/>nis, vel collationis erat excommunicatus, quia tunc nullum 
+      <lb ed="#S" n="61"/>ius fuit acquisitum: propter quod non sufficit dispensatio: 
+      <lb ed="#S" n="62"/>sed requiritur noua collatio. vnde si est beneficium 
+       perti<lb ed="#S" break="no" n="63"/>nens ad collationem Episcopi: vel simpliciter: vel pro tunt 
+      <lb ed="#S" n="64"/>ratione delicti: quia contulit excommunicato non sufficit eius di 
+      <!--0236.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="65"/>spensatio: sed dispensatio Papae: vel alterius qui potest 
+       con<lb ed="#S" break="no" n="66"/>ferre ex certa scientia facta sufficit: &amp; habetur pro noua 
+      <lb ed="#S" n="67"/>collatione, absolutus autem non ex hoc ipso facit 
+       fru<lb ed="#S" break="no" n="68"/>ctus suos medio tempore perceptos: nisi cum eo super 
+      <lb ed="#S" n="69"/>hoc fuerit specialiter dispensatum, vel iniuse fuisset 
+      <lb ed="#S" n="70"/>excommunicatus. 2. q. 5. super causas. vel non fuisset in 
+      <lb ed="#S" n="71"/>mora petendi vt dictum est.
+    </p>
+            <p xml:id="khj78y-q69631-d1e257" n="5">
+      <!-- 5 -->Tertius effectus est: quia 
+      <lb ed="#S" n="72"/>non potest iudicare nec committere: quia non habet 
+       of<lb ed="#S" break="no" n="73"/>ficium iurisdictionis. de offi. dele. licet, nec 
+       valentsen<lb ed="#S" break="no" n="74"/>tentiae ab eis latae: nec statuta per excommunicatos 
+       fa<lb ed="#S" break="no" n="75"/>cta. Et hoc verum est si sunt excommuntcati publice: de 
+      <lb ed="#S" n="76"/>sen. &amp; re iudi. c. Ad probandum. quia facta &amp; iudicata 
+      <lb ed="#S" n="77"/>per occulte excommunicatum valent. Vnde &amp; in 
+       spiri<lb ed="#S" break="no" n="78"/>tualibus non valet quod fit ab excommunicato. de 
+       ap<lb ed="#S" break="no" n="79"/>pel. constitutus. Et tamen quandiu tolerantur praelati: 
+      <lb ed="#S" n="80"/>&amp; sunt occulte excommunicati, valet quod fit ab eis. 8. q. 4
+      <lb ed="#S" n="81"/>Vnde si contulit beneficium, vel confirmauit electionem, 
+      <lb ed="#S" n="82"/>tenet. Et similiter si absoluit in foro conscientiae vt 
+       di<lb ed="#S" break="no" n="83"/>ctum fuit. 17. dist. q. an repenul. Non sic autem videtur 
+      <lb ed="#S" n="84"/>ex parte ipsius recipientis beneficium spirituale vel tem 
+      <lb ed="#S" n="85"/>porale: quia quantumcunq, sit occulte excommunicatus: &amp; 
+       pro<lb ed="#S" break="no" n="86"/>babiliter ignoret videtur tamen nihil recipere, nisi distin 
+      <lb ed="#S" n="87"/>guatur inter beneficium extrinsecum &amp; intrinsecum. Potest 
+      <lb ed="#S" n="88"/>enim aliquis sine culpa sua fieri non capax beneficij 
+       Ec<lb ed="#S" break="no" n="89"/>clesiastici non sacramentalis. sicut per irregularitatem quae 
+      <lb ed="#S" n="90"/>interdum contrahitur sine peccato &amp; etiam cum merito 
+      <lb ed="#S" n="91"/>sed quod homo sine culpa perdat beneficium sacramen 
+      <lb ed="#S" n="92"/>ti necessarij ad salutem: quod dico propter ordinem: 
+       vi<lb ed="#S" break="no" n="93"/>detur absurdum. Vnde cum sacramentum poenitentiae 
+      <lb ed="#S" n="94"/>sit necessarium: ille qui non est in culpa aliqua: sed est 
+      <lb ed="#S" n="95"/>iniuste excommnnicatus. vel si est iuste excommunicatus: ip 
+      <lb ed="#S" n="96"/>se tamen probabiliter ignoscat se esse excommunicatum, &amp; 
+      <lb ed="#S" n="97"/>de culpa illa confitetur: &amp; facit quod potest. videtur quod sit ab 
+      <lb ed="#S" n="98"/>solutus: &amp; quod non teneatur plus confiteri. Alias esset iniusta 
+      <lb ed="#S" n="99"/>sententia Ecclesiae si vellet aut innocentem punire: aut 
+      <lb ed="#S" n="100"/>ignorantiam inuincibilem condemnare.
+    </p>
+            <p xml:id="khj78y-q69631-d1e325" n="6">
+      <!-- 6 -->Quartus effectus 
+      <lb ed="#S" n="101"/>est. quod non potest ordinare, nec ordinari quo ad execu 
+      <lb ed="#S" n="102"/>tionem etiam si ignoret: vnde ordinati ab episcopo 
+       ex<lb ed="#S" break="no" n="103"/>communicato etiam ignoranter indigent dispensatione: quo ad 
+      <lb ed="#S" n="104"/>executionem ordinis. de eo qui renum. c. vlt. quod intelliaeo 
+      <lb ed="#S" n="105"/>quando erat publice excommunicatus. licet isti probabiliter igno 
+      <lb ed="#S" n="106"/>rarent: quod est possibile. secus autem si esset occulte 
+       excommunica<lb ed="#S" break="no" n="107"/>tus. similiter qui excommunicatus publice siue ignorans ius, 
+      <lb ed="#S" n="108"/>siue factum ordinatur: non suscipit executionem. de sententia ex 
+      <lb ed="#S" n="109"/>co. Cum illorum.
+    </p>
+            <p xml:id="khj78y-q69631-d1e349" n="7">
+      <!-- 7 -->Quintus effectus. quod si celebrat: 
+      <lb ed="#S" n="110"/>vel ordines recipit fit irregularis. Et hoc verum est, nisi 
+      <lb ed="#S" n="111"/>probabilis ignorantia excuset. de cleri. excommu. mi. c. 
+      <lb ed="#S" n="112"/>Apostolice. siue autem suscipiat ordinem sacrum, siue 
+      <lb ed="#S" n="113"/>non sacrum in excommunicatione irregularis est: quia non 
+      <lb ed="#S" n="114"/>distinguitur. extra. e. Cum illorum. Et licet ibi non distingua 
+      <lb ed="#S" n="115"/>tur inter errorem iuris &amp; facti, quod ad incursionem 
+       irre<lb ed="#S" break="no" n="116"/>gularitatis: si tamen error facti, esset probabilis 
+       excusa<lb ed="#S" break="no" n="117"/>ret: cum grauius sit celebrare excommunicatum quam ordinari. 
+      <lb ed="#S" n="118"/>Vnde si probabilis ignorantia praeseruat ab 
+       irregulari<lb ed="#S" break="no" n="119"/>tate celebrantem: pari ratione ordinatum. si autem est igno 
+      <lb ed="#S" n="120"/>rantia non probabilis abbas dispensat. si vero saecularis 
+      <lb ed="#S" n="121"/>est solus papa. vt ibidem: &amp; quanuis aliqui restringant 
+       il<lb ed="#S" break="no" n="122"/>lum casum ad excomunicatum propter iniectionem, 
+       ta<lb ed="#S" break="no" n="123"/>men quacunque de causa aliquis sit excommunicatus, vide 
+      <lb ed="#S" n="124"/>tur eadem ratione quod abbas possit dispensare. Qui autem exi 
+      <lb ed="#S" n="125"/>stens excommunicatus non celebrat: sed in suo officio exe 
+      <lb ed="#S" n="126"/>quens, sicut prius ingerit se diuinis irregularis efficitur: 
+      <lb ed="#S" n="127"/>ita vt non nisi per papam cum eo dispensetur. 2. q. 3. c. 
+      <lb ed="#S" n="128"/>penul. Vnde sacerdos solenniter baptizando: aut etiam in 
+      <lb ed="#S" n="129"/>conscientiae foro absoluendo irregularitatem contrahit. Et · 
+      <lb ed="#S" n="130"/>sicut non refert vtrum dicat missam cantando publice, vel 
+      <lb ed="#S" n="131"/>oeculte: sic nec quomodo absoluat in foro conscientiae: quia ista 
+      <!--0237.xml-->
+      <pb ed="#S" n="237"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>duo semper sunt actus ordinis sacerdotalis, non magis 
+      <lb ed="#S" n="2"/>publice quam occulte. sed si baptizaret in necessitate, in 
+       ca<lb ed="#S" break="no" n="3"/>su in quo &amp; vetula non incurreret. Et similiter si priuate 
+      <lb ed="#S" n="4"/>dicat epistolam, vel etiam solemniter sine manipulo, tamen vbi est 
+      <lb ed="#S" n="5"/>consuetudo quod fiat per non ordinatum. Item si actum Minorum 
+       or<lb ed="#S" break="no" n="6"/>dinum etiam solemniter exerceat. Cum hoc etiam per non 
+       ordi<lb ed="#S" break="no" n="7"/>natum licite fieri possit non incurrit. si autem sicut sacerdos 
+      <lb ed="#S" n="8"/>officiaret Ecclesiam solemniter in matutinis: vesperis, vel 
+      <lb ed="#S" n="9"/>alijs horis incurreret. secus si psalmodicando cum alijs: 
+      <lb ed="#S" n="10"/>quod etiam laici faciunt. si autem episcopus excommunicauit cele 
+      <lb ed="#S" n="11"/>brantem in aliqua capella sine licentia sua, sic celebrans se 
+      <lb ed="#S" n="12"/>cunda vice fit irregularis, sed non prima: quia prima vice 
+      <lb ed="#S" n="13"/>non est excommunicatus quousque celebrasset: quia causa 
+       praece<lb ed="#S" break="no" n="14"/>dit effectum, &amp; sic celebrauit nondum excommunicatus. Et hoc pa 
+      <lb ed="#S" n="15"/>tet: quia sicut excommunicatus celebrans est irregularis: sic &amp; il 
+      <lb ed="#S" n="16"/>le cui est ingressus Ecclesiae interdictus. extra. e. Ne cui. 
+      <lb ed="#S" n="17"/>li. 6. sed ille, qui excommunicatum publice admittit ad 
+       diui<lb ed="#S" break="no" n="18"/>na, hoc faciendo suspenditur ab ingressu Ecclesiae: non tamen 
+      <lb ed="#S" n="19"/>propter hoc est irregularis: nisi postea ingerat se diuinis. 
+      <lb ed="#S" n="20"/>extra. de priuile. episcoporum: &amp; de sententia ex. Is qui. li. 6. sed 
+      <lb ed="#S" n="21"/>si capella esset simpliciter interdicta: &amp; cum hoc epraes 
+       tulis<lb ed="#S" break="no" n="22"/>set sententiam in omnes ibi celebrantes: tunc excommunicationem 
+      <lb ed="#S" n="23"/>incurreret &amp; irregularitatem contraheret: etiam si non esset 
+      <lb ed="#S" n="24"/>lata sententia. extra. de sententia ex. c. Is qui. li. 6.
+    </p>
+            <p xml:id="khj78y-q69631-d1e461" n="8">
+      <!-- 8 -->Ad 
+       ar<lb ed="#S" break="no" n="25"/>gumentum in contrarium dicendum quod excommunicatio habet 
+       ali<lb ed="#S" break="no" n="26"/>quos effectus iuris positiui, qui non sunt reales, sed priua 
+      <lb ed="#S" n="27"/>tio vel relatio rationis: sicut esse irregularem &amp; 
+       huiusmo<lb ed="#S" break="no" n="28"/>di: quae sunt ab homine. Habet autem alios effectus iuris diui 
+      <lb ed="#S" n="29"/>ni, vt quod tradatur sathanae: &amp; illud causatur virtute diui 
+      <lb ed="#S" n="30"/>na vel angelica non ipsius excommunicationis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

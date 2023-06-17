@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="39"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q13945"><!-- l4d4-q4 -->
+            <head xml:id="khj78y-q13945-Hd1e101">Quaestio 4</head>
+            <head xml:id="khj78y-q13945-Hd1e103" type="question-title">
+     De carentibus usu rationis, utrum sint baptizandi
+   </head>
+            <p xml:id="khj78y-q13945-d1e106">
+               <lb ed="#S" n="111"/>QAEsTIO QVARTA. 
+      <lb ed="#S" n="112"/>De quarentious vsu rationis, an sint papnizanas: 
+    </p>
+            <p xml:id="khj78y-q13945-d1e113">
+               <lb ed="#S" n="113"/>Thom. 3. q. 68. art. 1o. &amp;. 1I. 
+    </p>
+            <p xml:id="khj78y-q13945-d1e118">
+               <lb ed="#S" n="114"/>QVARTO Quaeritur de 
+       caren<lb ed="#S" break="no" n="115"/>tibus vsu rationis, vtrum sint 
+       ba<lb ed="#S" break="no" n="116"/>ptizandi. Et videtur, quod non, quia 
+      <lb ed="#S" n="117"/>non minus indiget paruuli 
+       in<lb ed="#S" break="no" n="118"/>fidelium saluari, quam fidelium: sed 
+      <lb ed="#S" n="119"/>illi non sunt baptizandi. ergo 
+      <lb ed="#S" n="120"/>nec isti.
+    </p>
+            <p xml:id="khj78y-q13945-d1e137" n="2">
+      <!-- 2 -->CONTRA, 
+      <lb ed="#S" n="121"/>baptismus succefiit 
+       circuncisio<lb ed="#S" break="no" n="122"/>ni, sed illa dabat intanti octo dierum/ ergo &amp; baptismus- 
+    </p>
+            <p xml:id="khj78y-q13945-d1e146" n="3">
+               <lb ed="#S" n="123"/>
+               <!-- 3 -->Respondeo, primo videndum est de puulis fidelium. Vbi 
+      <lb ed="#S" n="124"/>sciendum est, &amp; paruuli fidelium non solu possunt in pueritia 
+      <lb ed="#S" n="125"/>baptizari, imo dicunt, &amp; laudabilius est, quae expestare aeta- 
+      <!--0040.xml-->
+      <pb ed="#S" n="40"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>tem perfectam, &amp; hoc propter tres rationes. Primo, quia pro 
+      <lb ed="#S" n="2"/>pter imbecillitatem naturae de facili possunt mori. &amp; dam 
+      <lb ed="#S" n="3"/>nari. Vnde, vt damnationis periculum euitetur, dicunt baptii 
+      <lb ed="#S" n="4"/>mo praeueniri. secundo propter infestationes daemonum, qui 
+      <lb ed="#S" n="5"/>non habent tantam potestatem in pueris baptizatis ab origi 
+      <lb ed="#S" n="6"/>nali mundatis, quantam in illis, qui adhuc habent 
+       origina<lb ed="#S" break="no" n="7"/>le: neque quantum ad nocumenta spiritualia: neque quantum ad 
+      <lb ed="#S" n="8"/>corporalia. Tertio, quia in pueritia facilius homo ad alia 
+      <lb ed="#S" n="9"/>inducitur, &amp; firmius inhaeret, secundum  quod dicit Philosophus 
+      <lb ed="#S" n="10"/>2. Ethi. d. Non parum differt sic, vel sic ex iuuene confestim 
+      <lb ed="#S" n="11"/>assuefieri, sed multum: magis autem omne. Et hanc causam 
+      <lb ed="#S" n="12"/>assignat Diony. in fine Ecclefiasticae hierarchyae dicens: 
+      <lb ed="#S" n="13"/>Tradit autem puerum sacramentis symbolis. i. sacramentali bussignis sum 
+      <lb ed="#S" n="14"/>mus sacerdos, vt cum eis conuerset, &amp; non formet vita altera 
+      <lb ed="#S" n="15"/>nisi diuina contemplantem semper.
+    </p>
+            <p xml:id="khj78y-q13945-d1e196" n="4">
+      <!-- 4 -->sECVNDO 
+      <lb ed="#S" n="16"/>videndum est, vtrum furiosi amentes, &amp; huiusmodi baptizandi sint? 
+      <lb ed="#S" n="17"/>Vbi distinguendum est, quia quidam sunt, qui sunt ex 
+       natiui<lb ed="#S" break="no" n="18"/>tate amentes, &amp; nunquam habuerunt lucida interualla. Et de 
+      <lb ed="#S" n="19"/>talibus videt idem iudicium, quod de pueris. Quidam autem de 
+      <lb ed="#S" n="20"/>mentiam incurrerunt ex infirmitate, vel ex aliquo huiusmodi, &amp; 
+      <lb ed="#S" n="21"/>habent aliqua lucida interualla. Et de istis dicendum est, 
+      <lb ed="#S" n="22"/>quod si antequam istam dementiam incurrerent: vel dum habent 
+       luci<lb ed="#S" break="no" n="23"/>da interualla, fuerunt in proposito baptismum suscipiendi, si 
+      <lb ed="#S" n="24"/>necessitas sit, possunt baptizari, &amp; baptizati sacramentum 
+       susci<lb ed="#S" break="no" n="25"/>piunt, &amp; rem sacri eriam si tunc actu dislentiat in amentia 
+      <lb ed="#S" n="26"/>existeres, quando baptizantur. Vnde frenetici, qui ante 
+       petiue<lb ed="#S" break="no" n="27"/>runt, immergunt. Alias extra casum necessitatis non sunt 
+      <lb ed="#S" n="28"/>baptiaandi. si autem ante amentiam contradixerunt non reci 
+      <lb ed="#S" n="29"/>piunt sacim, nec rem sacramenti. In primo autem casu si 
+       infir<lb ed="#S" break="no" n="30"/>mus legatur, vt ei corporaliter medeatur: multo magis, vt 
+      <lb ed="#S" n="31"/>animae, &amp; in baptismo necessitatis esset ligandus quantum 
+      <lb ed="#S" n="32"/>cunque etiam irreuerentiam sacro exhiberet, etiam si mingeret 
+      <lb ed="#S" n="33"/>in aqua, in qua esset baptizandus. sed neophiti 
+       assisten<lb ed="#S" break="no" n="34"/>tes, ibi essent propter scandalum mouendi. Eucharistia vero, 
+      <lb ed="#S" n="35"/>&amp; extrema vnctio, quae non sunt necessitatis frenetico qui 
+      <lb ed="#S" n="36"/>dem, qui prius petiit, exhi bentur: dum tamen irreuerentiam non 
+      <lb ed="#S" n="37"/>exhibeat: &amp; praecipue hoc est de eucharistia, quam posset 
+       ex<lb ed="#S" break="no" n="38"/>puere. sed de extrema vnctione non sic oportet 
+       irreueren<lb ed="#S" break="no" n="39"/>tiam timere: sed magis animae languenti subuenire. 
+    </p>
+            <p xml:id="khj78y-q13945-d1e253" n="5">
+               <lb ed="#S" n="40"/>
+               <!-- 5 -->TER TIO, videndum est de dormientibus, de qui 
+      <lb ed="#S" n="41"/>bus eodem modo dicendum est, sicut de amentibus, &amp; 
+       furio<lb ed="#S" break="no" n="42"/>sis, quod ipsi in periculo sunt baptizandi, si in vigilia 
+       appa<lb ed="#S" break="no" n="43"/>ruit propositu, quod vellent baptizari. Et ideo hic potest sumi ar 
+      <lb ed="#S" n="44"/>gumentum, quod si dormiens, qui in vigilia habuit intentionem 
+      <lb ed="#S" n="45"/>quod propositum percutiendi clericum: licet ipsum tunc non 
+       per<lb ed="#S" break="no" n="46"/>cusserit post modum dormiens surgat ipsum. &amp; percutiat, quod 
+      <lb ed="#S" n="47"/>sit irregularis, &amp; hoc ratione volutatis, &amp; propositi 
+       antece<lb ed="#S" break="no" n="48"/>dentis. Et forte est excommunicatus: cum illud, quod fit in somno, 
+      <lb ed="#S" n="49"/>procedit ex malitia, quam vigilans conceperat: sicut proiiciens 
+      <lb ed="#S" n="50"/>lapide: licet mox ante percussionem poeniteat, non 
+       eua<lb ed="#S" break="no" n="51"/>dit excommunicationem: sicut nec ille, qui mandauit, &amp; ante 
+       poe<lb ed="#S" break="no" n="52"/>nitcat: sed mandatu non reuocauit, etiam si non potuit. Et 
+      <lb ed="#S" n="53"/>hic est casus, in quo sententia iuris incipit ligare etiam 
+       iu<lb ed="#S" break="no" n="54"/>stum.
+    </p>
+            <p xml:id="khj78y-q13945-d1e290" n="6">
+      <!--6 -->Ad argumentum in oppositum est dicendum, 
+      <lb ed="#S" n="55"/>quod circa pueros infidelum est distinguendu: quia aut habent 
+      <lb ed="#S" n="56"/>vsum rarionis, &amp; tunc possunt baptizari etiam inuitis 
+       paren<lb ed="#S" break="no" n="57"/>tibus: licut &amp; mrimoniu contrahere, aut non habent, &amp; tunc 
+      <lb ed="#S" n="58"/>tirca hoc est triplex opinio vtrum. scilicet sint inuiti parentibus 
+      <lb ed="#S" n="59"/>baptizandi.
+    </p>
+            <p xml:id="khj78y-q13945-d1e306" n="7">
+      <!-- 7 -->Prima dicentium duo. scilicet quod principes 
+      <lb ed="#S" n="60"/>terreni possunt licite, imo &amp; meritorie auferre pueros 
+      <lb ed="#S" n="61"/>Iudaeorum, qui sunt in dominiis suis, &amp; eos baptismo 
+       of<lb ed="#S" break="no" n="62"/>ferre. Et hoc est primum dictum. secundo, dicunt, quod pueri sic 
+      <lb ed="#S" n="63"/>baptizati, suscipiunt verum baptismum.
+    </p>
+            <p xml:id="khj78y-q13945-d1e320" n="8">
+      <!-- 8 -->Primum 
+      <lb ed="#S" n="64"/>probat, primo sic: Res, &amp; bona seruorum sunt dominorum 
+       suo<lb ed="#S" break="no" n="65"/>rum: sed Iud aei sunt serui dominorum, in quorum terris 
+       habi<lb ed="#S" break="no" n="66"/>tant: vt habet extra de Iudaeis, &amp; sarracenis. c. etiam si 
+       Iu<lb ed="#S" break="no" n="67"/>daeos. ergo res, &amp; bona Iudaeorum sunt Principum Christia 
+      <!--0040.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>norum, in quorum terris habitant: sed filij sunt res quaedam 
+      <lb ed="#S" n="69"/>parentu. ergo pueri Iudaeorum sunt in potestate Principum, 
+      <lb ed="#S" n="70"/>vt res quaeda eorum. Possunt ergo eis vti, vt placet offeren 
+      <lb ed="#S" n="71"/>do eos.
+    </p>
+            <p xml:id="khj78y-q13945-d1e346" n="9">
+      <!-- 9 -->secundo sic: Princep Christianus Dominus 
+      <lb ed="#S" n="72"/>Iudaeoru potest filios eorum vendere in seruitutem terrenam. 
+      <lb ed="#S" n="73"/>ergo fortiori ratione potest eos offerre in seruitutem diui 
+      <lb ed="#S" n="74"/>nam: quod fit per baptismum, imo videntur in hoc mereri, sed 
+      <lb ed="#S" n="75"/>hoc faciunt propter salutem puerorum, &amp; honorem Dei, non vt 
+      <lb ed="#S" n="76"/>parentes cogant ad credendum, quia illud non est licitum. 
+    </p>
+            <p xml:id="khj78y-q13945-d1e362" n="10">
+               <lb ed="#S" n="77"/>
+               <!-- 10 -->secundum probatur sic, quia ad susceptionem baptis 
+      <lb ed="#S" n="78"/>mi sufficit, quod non inueniatur obex contrariae voluntatis, vt 
+      <lb ed="#S" n="79"/>patet in paruulis Christianorum, sed in paruulo Iudaei, vel 
+      <lb ed="#S" n="80"/>infidelis non est obex contrariae voluntatis. ergo suscipiunt 
+      <lb ed="#S" n="81"/>verum baptismum. Et dico contrariae voluntatis in suscipien 
+      <lb ed="#S" n="82"/>te, &amp; non in parente, quia alias peccata proximorum parentum 
+      <lb ed="#S" n="83"/>nocerent, &amp; transirent ad filios, quod non est verum. sed hae ra 
+      <lb ed="#S" n="84"/>tiones parum cogunt: prima non, quia non licetre sua vti ad 
+      <lb ed="#S" n="85"/>omnem vsum. Non enim licet vti ancilla ad concubitu, sed 
+      <lb ed="#S" n="86"/>ad seruitium, quia ad hoc est sua, non ad illud. Vnde nec 
+       in<lb ed="#S" break="no" n="87"/>uitam potest dominus accipere, vel dare in vxorem. similiter Iu 
+      <lb ed="#S" n="88"/>daeus est seruus Principis non plus filius, quam pater: imo 
+       fi<lb ed="#S" break="no" n="89"/>lius non est seruus, nisi quia pater, vel mater: quia partus 
+       se<lb ed="#S" break="no" n="90"/>quitur ventrem. sicut ergo patrem non potest cogere ad ba 
+      <lb ed="#S" n="91"/>ptismum, quamuis sit res sua: ita non potest cogere patrem in filio 
+      <lb ed="#S" n="92"/>Voluntas enim pris voluntas filij reputatur. Et sic pater 
+       te<lb ed="#S" break="no" n="93"/>statur filio, sicut &amp; sibi, &amp;eligit ei sepulturam, sicut, &amp; sibi. 
+      <lb ed="#S" n="94"/>Vnde sicut filium adultum contra eius voluntatem baptizare 
+      <lb ed="#S" n="95"/>non potest, nec debet contra voluntatem ipsius filij, sic nec filium 
+      <lb ed="#S" n="96"/>impuberem contra voluntatem patris, quae est dispositiua de 
+      <lb ed="#S" n="97"/>filio. quia illo iure valet testamentum pupillare factum a patre, 
+      <lb ed="#S" n="98"/>quo testm̃ adulti sui iuris factum ab eo.
+    </p>
+            <p xml:id="khj78y-q13945-d1e414" n="11">
+      <!-- 11 -->Per 
+      <lb ed="#S" n="99"/>idem patet ad secundum, quia in his, quae sunt iuris humani ad 
+      <lb ed="#S" n="100"/>quae se extendit seruitus, potest disponere Princeps de filio 
+      <lb ed="#S" n="101"/>patre inuito: sicut &amp; de ipso patre, sed non in his, quae sunt de 
+      <lb ed="#S" n="102"/>iure naturali, vel diuino: nam non posset contrahere 
+       spon<lb ed="#S" break="no" n="103"/>salia pro filio, vel pro filia patre inuito, sicut nec ipsum 
+       pa<lb ed="#S" break="no" n="104"/>trem inuitum posset vxorare.
+    </p>
+            <p xml:id="khj78y-q13945-d1e432" n="12">
+      <!-- 12 -->Ad tertium 
+       dicen<lb ed="#S" break="no" n="105"/>dum, quod est obex voluntas parentum. &amp; ideo non baptizatur. 
+      <lb ed="#S" n="106"/>Et cum dicitur, quod peccata parentum non transeunt ad filios: 
+      <lb ed="#S" n="107"/>verum est directe, quasi, quod nascendo ab eis contrahunt pec 
+      <lb ed="#S" n="108"/>cata eorum, sicut cotrahunt peccatum Adae: sed indirecte, &amp; 
+      <lb ed="#S" n="109"/>per accidens bene potest pater imperare bonum filij etiam 
+       spiritua<lb ed="#S" n="110" break="no"/>le.
+    </p>
+            <p xml:id="khj78y-q13945-d1e450" n="13">
+      <!-- 13 -->Et ideo est secunda opi. huic contraria, quae 
+      <lb ed="#S" n="111"/>ponit, quod non est licitum paruulos Iudaeorum parentibus aufer 
+      <lb ed="#S" n="112"/>ri, &amp; eos baptismo offerre. Et si de facto baptizent, non 
+      <lb ed="#S" n="113"/>suscipiunt baptismum. Ratio prima est, quia quamuis aliqui 
+      <lb ed="#S" n="114"/>possint esse serui aliorum quantum ad opera, in his tamen, quae 
+      <lb ed="#S" n="115"/>cis competunt iure naturali, &amp; diuino non sunt serui, sed 
+      <lb ed="#S" n="116"/>liberi. potest enim seruus comedere, &amp; bibere inuito domino, 
+      <lb ed="#S" n="117"/>&amp; matrimonium contrahere, vt dictum est. Et habetur extra de 
+      <lb ed="#S" n="118"/>coniugio seruorum. c. 1. Haec cm̃ competunt eis de iure 
+       na<lb ed="#S" break="no" n="119"/>turali. Et similiter potest inuito domino credere in Deum, &amp; 
+      <lb ed="#S" n="120"/>huiusmodi, quae pertinent ad ius diuinum: sed baptizari 
+       perti<lb ed="#S" break="no" n="121"/>net ad ius diuinum. ergo cum cura paruulorum de iure natu 
+      <lb ed="#S" n="122"/>rali, &amp; diuino competat quantum ad hoc parentibus 
+       manife<lb ed="#S" break="no" n="123"/>stum est, quod non possunt eis licite auferri, vt baptizent: 
+       li<lb ed="#S" break="no" n="124"/>cot possint eis auferri, vt vendant, sicut &amp; caeterae res, &amp; 
+      <lb ed="#S" n="125"/>opera ciuilia.
+    </p>
+            <p xml:id="khj78y-q13945-d1e488" n="14">
+      <!-- 14 -->secundo, quia non minorem 
+       pote<lb ed="#S" break="no" n="126"/>statem habent domini temporales super Iudaeo, quam super eius 
+       fi<lb ed="#S" break="no" n="127"/>lium, imo quasi maiorem, quia a seruitute parentis 
+       deriua<lb ed="#S" break="no" n="128"/>tur seruitus filij. sed constat, quod Princeps non posset lici 
+      <lb ed="#S" n="129"/>te Iudaeum cumpelle ad cultum baptismi suscipiendum in se, 
+      <lb ed="#S" n="130"/>vt habet dist. 45. ex concilio Toletano, vbi dicitur sic: de Iu 
+      <lb ed="#S" n="131"/>daeis praecepit sancta synodus nemini ad credendum vim in 
+      <lb ed="#S" n="132"/>ferre. ergo non potest eis inferre vim auferendo filium, vt 
+       ba<lb ed="#S" break="no" n="133"/>ptizetur: cum voluntas filij paruuli sit voluntas patris quousque 
+      <lb ed="#S" n="134"/>habeat vsum rationis.
+    </p>
+            <p xml:id="khj78y-q13945-d1e512" n="15">
+      <!-- 15 -->Tertio, quia si hoc esset 
+      <!--0041.xml-->
+      <pb ed="#S" n="41"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>licitum, credendum est, quod primitiui sancti, &amp; rectores 
+       ec<lb ed="#S" break="no" n="2"/>clesiae hoc consuluissent terrenis principibus, quos habue 
+      <lb ed="#S" n="3"/>runt valde fauorabiles, vt syluester Constantinum, &amp; An 
+      <lb ed="#S" n="4"/>brosius Theodosium, qui nunquam leguntur hoc fecisse. ergo non 
+      <lb ed="#S" n="5"/>est probabile, quod hoc possit licite fieri.
+    </p>
+            <p xml:id="khj78y-q13945-d1e534" n="16">
+      <!-- 16 -->Quarto, 
+      <lb ed="#S" n="6"/>quia hoc non esset securum, sed valde periculosum: quia puer 
+      <lb ed="#S" n="7"/>baptizatus dum veniret ad aetatem adultam posset de facili 
+      <lb ed="#S" n="8"/>resilire ab eo, quod fecisset ignorans contra voluntatem 
+       ha<lb ed="#S" break="no" n="9"/>bentium curam eius. Ex quibus patet, quod non est licitum 
+      <lb ed="#S" n="10"/>Principibus terrarum auferre filios Iudaeorum, &amp; offerre eos 
+      <lb ed="#S" n="11"/>baptismo.
+    </p>
+            <p xml:id="khj78y-q13945-d1e552" n="17">
+      <!--17. -->secundum probat sic. scilicet quod si 
+       baptiza<lb ed="#S" break="no" n="12"/>rent, non suscipiunt baptismum: quia ad susceptionem baptis 
+      <lb ed="#S" n="13"/>mi non sufficit, quod non inueniat obex contrariae voluntatis 
+      <lb ed="#S" n="14"/>in eo, qui debet baptizari: sed requiritur intentio suscipien 
+      <lb ed="#S" n="15"/>di baptismum directa, vel interpretatiua. Quod patet, quia si 
+      <lb ed="#S" n="16"/>adultus aliquis sic nutritus esset, quod nihil omnino audisset 
+      <lb ed="#S" n="17"/>de fide, &amp; esset in solo originali: si talis dormiret, &amp; 
+       dor<lb ed="#S" break="no" n="18"/>miendo bapti zarei, constat, quod nihil fieret, vt patet ex 
+       praece<lb ed="#S" break="no" n="19"/>dentibus: &amp; tamen in voluntate eius baptismus nullu obicem 
+      <lb ed="#S" n="20"/>inueniret. Plus ergo requiritur. scilicet intentio suscipiedi baptis 
+      <lb ed="#S" n="21"/>mum directa, vel interpraetatiua: directa in adulto, 
+       inter<lb ed="#S" break="no" n="22"/>pretatiua in paruulo. sola autem volutas parentum est 
+       vo<lb ed="#S" break="no" n="23"/>luntas interptatiua paruulorum, antequam habeant vsum 
+       ra<lb ed="#S" break="no" n="24"/>tionis: propter quod consueuit dici, quod antiquitus ante 
+       da<lb ed="#S" break="no" n="25"/>tam circuncisionem saluabantur in fide parentum, non autem 
+      <lb ed="#S" n="26"/>aliorum: nisi, qui gerebant vicem parentum. Quaerit, si inuitis 
+      <lb ed="#S" n="27"/>parentibus, baptizarei paruulus nihil, videretur fieri cum 
+       de<lb ed="#S" break="no" n="28"/>sit voluntas eorum directa, &amp; interpraetatiua.
+    </p>
+            <p xml:id="khj78y-q13945-d1e594" n="18">
+      <!-- 18 -->sed 
+      <lb ed="#S" n="29"/>licet hae rationes saltem duae primae sint tactae superius con 
+      <lb ed="#S" n="30"/>tra aliam opinionem: tamen ad eas posset sic instari, &amp; primo con 
+      <lb ed="#S" n="31"/>tra primam. Vnde posset sic dici ad minorem, quod educatio li 
+      <lb ed="#S" n="32"/>berorum est de iure naturali, quod omnia alia docet: sed 
+       do<lb ed="#S" break="no" n="33"/>ctrina in moribus de iure gentium. si tamen pater vellet 
+       do<lb ed="#S" break="no" n="34"/>cere filium malos mores non esset permittendus: puta, quod 
+       es<lb ed="#S" break="no" n="35"/>set moechandu, quod esset furandum, &amp; huiusmodi: imo iniuste 
+      <lb ed="#S" n="36"/>haec sibi prohiberent, &amp; sibi tutela filij auferretur, &amp; meri 
+      <lb ed="#S" n="37"/>to priuaretur iure patriae potestati:: sicut dominus prostituens an 
+      <lb ed="#S" n="38"/>cillam. Cale episcopi.  au. si lenones. Et si pater liber esset 
+       auferen<lb ed="#S" break="no" n="39"/>da esset sibi filia, quam vellet prostituere. Cum ergo 
+       fornica<lb ed="#S" break="no" n="40"/>tio spiritualis sit peior, &amp; magis noceat ciuilitati 
+       Christia<lb ed="#S" break="no" n="41"/>nae, multo magis auferenda est sibi proles, quam vult facere a 
+      <lb ed="#S" n="42"/>fide adulteram.
+    </p>
+            <p xml:id="khj78y-q13945-d1e629" n="19">
+      <!-- 19 -->Ad secundam rationem potest sic 
+       re<lb ed="#S" break="no" n="43"/>sponderi, quod contra voluntatem suam directam, vel 
+       interpre<lb ed="#S" break="no" n="44"/>tatiuam nullus est baptizandus: sed voluntas patris non est vo 
+      <lb ed="#S" n="45"/>luntas filij, nisi in bonis filij, &amp; inquantum se exhibet pium 
+      <lb ed="#S" n="46"/>patrem, non autem hostem, sicut tutores, &amp; curati dicuntur 
+      <lb ed="#S" n="47"/>domini, quando bene administrant, non autem quando pupillum spoliant. 
+    </p>
+            <p xml:id="khj78y-q13945-d1e646" n="20">
+               <lb ed="#S" n="48"/>
+               <!-- 20 -->Praeterea si voluntas parentum non requirit ad 
+       ba<lb ed="#S" break="no" n="49"/>ptismum. ergo contraria voluntas non impedit baptismum: quia 
+      <lb ed="#S" n="50"/>si oppositum in opposito: &amp; propositum in proposito: sed si puer 
+      <lb ed="#S" n="51"/>non habet patrem, nec matrem: sed ambo sunt mortui: cum 
+      <lb ed="#S" n="52"/>non desit remedium salutis, siue sit fidelium filius potest, &amp; 
+       de<lb ed="#S" break="no" n="53"/>bet baptizari, &amp; parentis gorens officium, qui eius curam 
+       ge<lb ed="#S" break="no" n="54"/>rit, hoc facere habet: sicut ex pietate nutritur puer 
+       exposi<lb ed="#S" break="no" n="55"/>tus, cuius parentes ignorant. si igitur sine voluntate 
+       paren<lb ed="#S" break="no" n="56"/>tum potest esse verus baptismus, &amp; contra voluntatem corum 
+      <lb ed="#S" n="57"/>similiter. In habente enim usum rationis eorum voluntas 
+      <lb ed="#S" n="58"/>non requiritur ad effectum, &amp; per consequens nec contraria 
+       vo<lb ed="#S" break="no" n="59"/>luntas impedit effectum: licet ad hoc potest dici, quod voluntas 
+      <lb ed="#S" n="60"/>non requiritur, nec per oppositum impeditur, quando non habet 
+      <lb ed="#S" n="61"/>parentes, vel quando finita est tutela parentum. sed quamdiu viuunt, 
+      <lb ed="#S" n="62"/>&amp; curae eorum incumbunt, secus videt.
+    </p>
+            <p xml:id="khj78y-q13945-d1e683" n="21">
+      <!-- 21 -->Ad tertium 
+      <lb ed="#S" n="63"/>dicendum, quod propter scandalum in principio ecclesiae multa 
+      <lb ed="#S" n="64"/>omittebantur, &amp; dissimulabant, quae modo non dissimulam 
+      <lb ed="#S" n="65"/>tur. Tunc enim haeretici ad fidem non cogebant, qui tamen 
+       iu<lb ed="#S" break="no" n="66"/>ste poterant, nec videret fides viribus, non virtutibus 
+       pro<lb ed="#S" break="no" n="67"/>sperari. Tunc enim ecclesia pugnabat solum gladio oris: 
+      <!--0041.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>nunc autem etinm gladio materiali pugnat contra hostes 
+      <lb ed="#S" n="69"/>fidei.
+    </p>
+            <p xml:id="khj78y-q13945-d1e707" n="22">
+      <!-- 22 -->Ad quartum, potest dici, quod magis est 
+       verissi<lb ed="#S" break="no" n="70"/>mile, quod non redeat ad fidem, in qua non est nutritus, quam si es 
+      <lb ed="#S" n="71"/>set in ea nutritus, quia adolescens iuxta viam suam &amp;c. Vnde 
+      <lb ed="#S" n="72"/>magis probabiliter timet, quod manens in Iudaismo in perpe 
+      <lb ed="#S" n="73"/>tuum non conuertat, vel quod conuersus peruertatur, sicut 
+       sae<lb ed="#S" break="no" n="74"/>pe accidit, quam si a puero esset conuersus, &amp; inter 
+       Christia<lb ed="#S" break="no" n="75"/>nos solos conuersatus: quia tunc raro ad iudaismum redit. 
+      <lb ed="#S" n="76"/>si dicatur, quod hoc videtur contra naturam sicut mulier habens 
+      <lb ed="#S" n="77"/>filiu suum mortuum: quae alterius filium surripuit, cui iusto 
+      <lb ed="#S" n="78"/>iudicio redditus fuit, &amp; in perdicibus vna alterius oua 
+      <lb ed="#S" n="79"/>surripit, &amp; quae non peperit, fouet: ad vocem tamen verae matris 
+      <lb ed="#S" n="80"/>redit illa spreta, quae fouerat: dicendum, quod non est simile in 
+      <lb ed="#S" n="81"/>proposito: quia pia fraus est hic, &amp; nutrix est mater: mater 
+      <lb ed="#S" n="82"/>autem nouerca.
+    </p>
+            <p xml:id="khj78y-q13945-d1e740" n="23">
+      <!-- 23 -->Quinta ratio in hoc verum 
+       di<lb ed="#S" break="no" n="83"/>cit in maiore, quod requiritur intentio vera, vel interpretatiua: 
+      <lb ed="#S" n="84"/>nec sufficit non habere obicem: sicut in illo, qui haberet le 
+      <lb ed="#S" n="85"/>gem naturalem, &amp; fidem. sed in minori posset dici, quod 
+       inten<lb ed="#S" break="no" n="86"/>tio interptatiua uero est solum parentum carnalium: sed magis 
+      <lb ed="#S" n="87"/>spiritualium, sicut olim saluabani in fide parentum. i. 
+       eccle<lb ed="#S" break="no" n="88"/>siae: quae tunc erat, non solum parentum carnalium: sed magis 
+      <lb ed="#S" n="89"/>parentum legalium, siue spiritualium, vel adoptantium. Vnde 
+      <lb ed="#S" n="90"/>cum iste, qui agit curam salutis animae exhibeat se patrem, ali 
+      <lb ed="#S" n="91"/>vero hostem: ex quo iste, qui quasi adoptat ed, exhibet se 
+      <lb ed="#S" n="92"/>patrem, &amp; ille tanquam patrinus pro eo respondit, qui geris 
+      <lb ed="#S" n="93"/>typum ecclesiae intentio, &amp; voluntas interpraetatiua parentum 
+      <lb ed="#S" n="94"/>spiritualium interuenit, &amp; hoc sufficit. si enim tutor 
+       per<lb ed="#S" break="no" n="95"/>sonae, &amp; curator rerum succedit loco parentum, multo magis 
+      <lb ed="#S" n="96"/>isti, qui quasi parentibus furiosis existentibus tutelam, &amp; 
+       cu<lb ed="#S" break="no" n="97"/>ran filiorum suscipiunt:
+    </p>
+            <p xml:id="khj78y-q13945-d1e777" n="24">
+      <!--24 -->Tertia opinio est, quae 
+      <lb ed="#S" n="98"/>tenet viam mediam. scilicet quod hon est licitum baptizare filios 
+       Iu<lb ed="#S" break="no" n="99"/>daeorum inuitis parentibus: si tamen fiat, vere baptizati sunt. 
+      <lb ed="#S" n="100"/>Primum probat, vt supram in secunda opinione. secundum pro 
+      <lb ed="#S" n="101"/>batur sic: quia non potius habet ius infidelis supra filium, 
+      <lb ed="#S" n="102"/>quam fidelis, sed si filius fidelis Christiani baptizetur inuito pa 
+      <lb ed="#S" n="103"/>rente recipit verum baptismum. ergo similiter si baptizetur 
+      <lb ed="#S" n="104"/>filius infidelis saraceni, vel Iudaei, recipit verum 
+       sacramentum<lb ed="#S" break="no" n="105"/>Pro hac opinione videtur esse, quod dicit de conse. dist. 
+      <lb ed="#S" n="106"/>4. c. Paruuli fideles vocant, vbi videtur insinuari, quod paruu 
+      <lb ed="#S" n="107"/>lis sufficit fides offerentium nulla facta mentione de fide pa 
+      <lb ed="#S" n="108"/>rentum,
+    </p>
+            <p xml:id="khj78y-q13945-d1e806" n="25">
+      <!-- 25 -->Primus articulus communiter conceditur 
+      <lb ed="#S" n="109"/>siꝗ non licet principibus Christianis paruulos 
+       Iudaeo<lb ed="#S" break="no" n="110"/>rum auferre parentibus, &amp; eos baptismo offerre. sed 
+       qui<lb ed="#S" break="no" n="111"/>dam hoc concesso secundum articulum reputant dubium. scilicet quod 
+      <lb ed="#S" n="112"/>si batizei, quod sit vere baptizatus. Vnde soluunt rationes ad 
+      <lb ed="#S" n="113"/>hoc inductas, sic. Cum enim dicit, quod filius parentis 
+       Chri<lb ed="#S" break="no" n="114"/>stiani potest baptizari inuitis parentibus: &amp; suscipiet baptis 
+      <lb ed="#S" n="115"/>mum veru. ergo similiter filius infidelis: dicendum, quod non 
+      <lb ed="#S" n="116"/>valet: quia ecclesia praeest fidelibus non solum in actibus ci 
+      <lb ed="#S" n="117"/>uilibus, sed in his, quae ad cultum Dei pertinent. ideo si Chri 
+      <lb ed="#S" n="118"/>stianus vtaturre sua contra diuinum cultum, non iniuriatur 
+      <lb ed="#S" n="119"/>ei ecclesia, si priuet eum re sua, &amp; deputet eam ad diuinum cul 
+      <lb ed="#S" n="120"/>tum. Et in hoc casu voluntas ecclesiae est voluntas paruu 
+      <lb ed="#S" n="121"/>li interpraetatiua, quia in hoc casu ecclesia habet interpraetari 
+      <lb ed="#S" n="122"/>voluntatem parentum: imo, vt verius dicatur voluntas 
+       eccle<lb ed="#S" break="no" n="123"/>siae est magis voluntas paruuli interpretatiua, quam voluntas 
+      <lb ed="#S" n="124"/>parentis carnalis, eo quod de iure voluntas parentis fidelis sub 
+      <lb ed="#S" n="125"/>est voluntati ecclesiae. Non sic autem est de paruulis 
+       infide<lb ed="#S" break="no" n="126"/>lium: quia ante baptifmum non sunt ecclesiae, nec ratione fui, 
+      <lb ed="#S" n="127"/>nec ratione parentelae, vt sic voluntas ecclesiae possit esse 
+       vo<lb ed="#S" break="no" n="128"/>luntas eorum interptatiua quoquo modo.
+    </p>
+            <p xml:id="khj78y-q13945-d1e855" n="26">
+      <!-- 26 -->
+       De<lb ed="#S" break="no" n="129"/>cretum etiam allegatum non cogit: quia offerentes paruulum non 
+      <lb ed="#S" n="130"/>offerunt eum vice sua, cum nihil iuris habeant in filio 
+       alie<lb ed="#S" break="no" n="131"/>no: ulsi hoc procedat de voluntate parentum, cum suppona 
+      <lb ed="#S" n="132"/>mus ex titulo questionis, quod offerat eum inuitis parentibus, 
+      <lb ed="#S" n="133"/>nec vice ecclesiae. Cum ante baptismum non habeat 
+       iu<lb ed="#S" break="no" n="134"/>in paruulo parentis infidelis. Canon igitur allegatus lo- 
+      <!--0042.xml-->
+      <pb ed="#S" n="42"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>quitur in casu, in quo offerentes gerunt vicem parentum, 
+      <lb ed="#S" n="2"/>aut ecclesiae, quod potest esse in paruulis Cristianorum 
+      <lb ed="#S" n="3"/>non autem in paruulis Iudaeorum, vel quoruncumque infidelium 
+      <lb ed="#S" n="4"/>Et confirmo, quod non est simile de fideli, &amp; infideli: quia non so 
+      <lb ed="#S" n="5"/>lum illud est possibile: imo est licitu, &amp; debitum, nec esset 
+      <lb ed="#S" n="6"/>acquiescendum fidelibus purentibus, similiter nec haereti 
+      <lb ed="#S" n="7"/>cis si nollent filium baptizari, sed de filio infidelis quicqd 
+      <lb ed="#S" n="8"/>sit de facto, saltem de iure certum est, quod baptizari non debet 
+      <lb ed="#S" n="9"/>ergo non est simile.
+    </p>
+            <p xml:id="khj78y-q13945-d1e899" n="27">
+      <!-- 27 -->Praeterea rogante fideli 
+      <lb ed="#S" n="10"/>matre, vt Aug. baptizaretur, sed renuente gentili patre baptis 
+      <lb ed="#S" n="11"/>ma dilatum est, quasi ecclesia noluerit eum baptizare ihus 
+      <lb ed="#S" n="12"/>to pro, quamuis hoc mater vellet. ergo multo minus vtroque 
+      <lb ed="#S" n="13"/>parite inuito.
+    </p>
+            <p xml:id="khj78y-q13945-d1e912" n="28">
+      <!-- 28 -->sed quicquid sit de paganis, 
+      <lb ed="#S" n="14"/>videt, quod ecclesia possit compellere Iudaeos, quod filios eorum 
+      <lb ed="#S" n="15"/>ad baptismum, sicut filios Christianorum, quia patres eorum 
+      <lb ed="#S" n="16"/>Christiani fuerunt: &amp; ad legem Moysi, &amp; ad susceptionem 
+      <lb ed="#S" n="17"/>Christi pro se, &amp; pro tota posteritate sua se obligauerunt: 
+      <lb ed="#S" n="18"/>cum sit endem fides modernorum, &amp; antiquorum, &amp; eadem de 
+      <lb ed="#S" n="19"/>ecclesia, um est vna columba. ergo sicut haeretici ab ecclesia 
+      <lb ed="#S" n="20"/>gentiu exeuntes ad eam cogi possunt, &amp; ipsis inuitis forte 
+      <lb ed="#S" n="21"/>filij Graecorum adritum nim licite attrahuntur: sit &amp; Iudaei 
+      <lb ed="#S" n="22"/>filij sauctorum patrum, maxime na &amp; ipsi ad legem Moysi se 
+      <lb ed="#S" n="23"/>obligant. Exequutio autem pertinet ad iudicium ecclesiae 
+      <lb ed="#S" n="24"/>le. ve. sicut &amp; legis nouae. sicut ergo haereticos legis 
+       no<lb ed="#S" break="no" n="25"/>nae professores eoelesia cogit ad ipsius obseruantiam secum 
+      <lb ed="#S" n="26"/>dum verum ipsus intellectum, &amp; sensum, quia obligando se 
+      <lb ed="#S" n="27"/>ad eam obligant se ad verum intellectum. quamuis ipsi non ob 
+      <lb ed="#S" n="28"/>ligent se ad cam, secundum vorum intellectum, &amp; sensum suum, 
+      <lb ed="#S" n="29"/>similiter Iudaei professores legis Moysi, quaeuis non 
+       obliga<lb ed="#S" break="no" n="30"/>uorint. se ad. legem. Moysi secundum  veru intellectum, sed secundum 
+      <lb ed="#S" n="31"/>suum cogendi tamen sunt: vt videi ad hoc ipsum, &amp; etiam liberi 
+      <lb ed="#S" n="32"/>eorum. iduo &amp; c. Videt etiam, quod omnis paganus posset cogi. 
+      <lb ed="#S" n="33"/>sicut enim omnis paganus posset puniri a Principe 
+       catho<lb ed="#S" n="34" break="no"/>lico propter crimen. Vnde saracenus fi homicidium committe 
+      <lb ed="#S" n="35"/>ret. Parisius iuste suspenderetur: ita cum infidelitas sit 
+       ma<lb ed="#S" break="no" n="36"/>ius peccatum, cum ipse teneatur ad suscipiendum legem Christi, 
+      <lb ed="#S" n="37"/>&amp; fulem non suscipiendo eam peccat. Cum igit peccatum omissio 
+      <lb ed="#S" n="38"/>nis, sit peccatum poena dignum, sicut peccatum commissionis: sicut 
+      <lb ed="#S" n="39"/>posset ab erclesia puniri de blasphemia, &amp; de contumelia 
+      <lb ed="#S" n="40"/>creatoris, sicut quotidie puniunt Iudaei, vt discant non 
+      <lb ed="#S" n="41"/>blasphemare: sic possunt omnes infideles puniri: quia non 
+       reci<lb ed="#S" n="42" break="no"/>piunt nec nde, nec lacra ecclenae, vt sic indirecte eam 
+       su<lb ed="#S" n="43" break="no"/>scipiant. Et quia ritus Iudaeorum est idololatria: hoc saltem, 
+      <lb ed="#S" n="44"/>vt videtur punire potest ecclesia.
+    </p>
+            <p xml:id="khj78y-q13945-d1e984" n="29">
+      <!-- 29 -->sed licet 
+      <lb ed="#S" n="45"/>ita videat esse secundum rationem: aliter tamen est secundum diuinam 
+      <lb ed="#S" n="46"/>prohibitionem. A sanctis eum traditum habemus, quod non est 
+      <lb ed="#S" n="47"/>volutas Dei, vt occidunt. ps. Ne occidas eos, neq non 
+       obli<lb ed="#S" n="48" break="no"/>uiscant populi mei, vt smaneat memoria mortis 
+       Chrl<lb ed="#S" break="no" n="49"/>sti. Item secundum  prophetias praedicationo Enoch, &amp; Heliae 
+      <lb ed="#S" n="50"/>sunt conuertendi: vnde vsque tuncivrir Deus eos in sua cae 
+      <lb ed="#S" n="51"/>citate tolerari. si autem vel ipsi, vel eorum filij, ipsis innitis, 
+      <lb ed="#S" n="52"/>baptizarentur, tunc nullo tempore Enoch, &amp; Heliae inueni 
+      <lb ed="#S" n="53"/>rentur, nec per concequeos propheti ae verificarentur. 
+       simili<lb ed="#S" break="no" n="54"/>ter idem videtur de aliis infidelibus quia ab apostolis 
+       tradi<lb ed="#S" break="no" n="55"/>tum habemus, vt ad fulem nemo inuitus trahatur, vel 
+       co<lb ed="#S" break="no" n="56"/>gatur, sicut patet, quod beatos Iacobus dicit haec 
+       Hermo<lb ed="#S" break="no" n="57"/>geni, &amp; fileto. Et apostolua dicit: Quid ad nos do his, quae 
+      <lb ed="#S" n="58"/>foris sunt iudicare? Vnde non hominos armatos, fortos, &amp; 
+      <lb ed="#S" n="59"/>patientes, sed infirma, &amp; contumptibilia mundi elegit Deus, 
+      <lb ed="#S" n="60"/>vt gladio oris non materiali homines ehuertat. Vnde do 
+      <lb ed="#S" n="61"/>aliis criminibus possunt. iuste iufideles a fidelibus puni 
+      <lb ed="#S" n="62"/>ri: quia Deus non prohibuit; &amp; caiioi naturalis dictat: de 
+      <lb ed="#S" n="63"/>crimine autem infidelitatis non. Vnde sicut mulier si 
+       or<lb ed="#S" break="no" n="64"/>dinetur, non solum peccat, sed etiam nihil recipit: quia Dous 
+      <lb ed="#S" n="65"/>ordinauit, quod vir, &amp; non mulier ordinet: sic Deus 
+       ordina<lb ed="#S" break="no" n="66"/>uit, quod adultus volens, &amp; paruubus voluntate parentum bapti 
+      <lb ed="#S" n="67"/>actur. Vnde aliter nihi agit. Vtde sicut brutum non est 
+      <!--0042.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>capax baptisini, sic nec puer sine voluntate parentum. 
+      <lb ed="#S" n="69"/>sed istud exemplum nihil valet: quia ex quo homo est susce 
+      <lb ed="#S" n="70"/>ptiuus baptismi est: sed praeter hoc ad essentiam baptisini 
+      <lb ed="#S" n="71"/>requiritur intentio sua, vel illius: ideo non est proprium 
+       ex<lb ed="#S" break="no" n="72"/>emplum.
+    </p>
+            <p xml:id="khj78y-q13945-d1e1054" n="30">
+      <!-- 30 -->sed quod dicunt, quod decretum ecclesiae 
+      <lb ed="#S" n="73"/>nihil iuris habet in paruulis non baptizatis: sed in 
+       par<lb ed="#S" break="no" n="74"/>uulis baptizatorum, non videtur: quia coipso quod homo commit 
+      <lb ed="#S" n="75"/>ecclesia habet aliquid iuris in eo, &amp; fit de foro ecclesiae. 
+      <lb ed="#S" n="76"/>Cum igitur peccatum  originale solo iudicio ecclesiae possit pur 
+      <lb ed="#S" n="77"/>gari. scilicet sacramento baptisini, quod est ecclesiae solius. ergo eoipso 
+      <lb ed="#S" n="78"/>quod habet originale? habet in eo aliquid ecclesia, imo cum 
+      <lb ed="#S" n="79"/>nihil possit solui, aut ligari, nisi a superiore, nisi esset 
+       ec<lb ed="#S" break="no" n="80"/>elesiae subditus, non posset ecclesia per aliquod sacramentum ei 
+      <lb ed="#S" n="81"/>exhibitum ipsum soluere a culpa, nec am poena. sed ad hoc 
+      <lb ed="#S" n="82"/>dicerei, quod adultus se subiicit: paruulus autem se subdere 
+      <lb ed="#S" n="83"/>non potest. Vnde oportet, quod parens cum subdat: cui 
+       natu<lb ed="#S" break="no" n="84"/>ra eum subiicit, &amp; procuratorem fecit. si dicat, quod illud crimen 
+      <lb ed="#S" n="85"/>non contraxit in terra ecclesiae, quando non est natus de ventre 
+      <lb ed="#S" n="86"/>fideli, nec de patre fideli, non vider valere, quia dictum est 
+      <lb ed="#S" n="87"/>Petro: Quodcumque solueris super terram &amp;c. Vnde mundus 
+      <lb ed="#S" n="88"/>totus est ei pro nauicula. Ita enim habuit sedem in 
+       Anthio<lb ed="#S" break="no" n="89"/>chia, sicut in Roma: &amp; vbicumque, vult potest esse sedes sua 
+      <lb ed="#S" n="90"/>etiam in Babylonia. Vnde cum habeat plenitudinem 
+       pote<lb ed="#S" break="no" n="91"/>statis in omni terram, &amp; in omni homine eam habet, &amp; si nec 
+      <lb ed="#S" n="92"/>parentes, nec ipsi se subiiciant: Deus tamen subiicit sibi omnem 
+      <lb ed="#S" n="93"/>hominem: vnde non hoc facit defectus iuris, sed prohibitio 
+      <lb ed="#S" n="94"/>superioris. vnde &amp; de aliis criminibus punit infideles, 
+      <lb ed="#S" n="95"/>sed de isto non, quia Deus prohibet: cui coacta seruitia non 
+      <lb ed="#S" n="96"/>placent. Et sic ecclesia potest de his, quae foris sunt 
+       iudica<lb ed="#S" break="no" n="97"/>re: sicnt potest arcere infideles a communione fidelium 
+       pro<lb ed="#S" break="no" n="98"/>pter pcti in moribus non propter petin in fide, quod est in 
+      <lb ed="#S" n="99"/>corum ritu.
+    </p>
+            <p xml:id="khj78y-q13945-d1e1117" n="31">
+      <!-- 31 -->Et si arguatur contra ea, quae 
+       di<lb ed="#S" break="no" n="100"/>cta sunt, quod magis est occurrendum periculo mortis 
+       aeter<lb ed="#S" break="no" n="101"/>nae, quae temporalis, sed puero existeri in periculo mortis 
+       tem<lb ed="#S" break="no" n="102"/>poralis sabueniendu est contra voluntatem parentum: etiam si 
+      <lb ed="#S" n="103"/>ex malitia vellent oppositum. ergo multo magis 
+       subueni<lb ed="#S" break="no" n="104"/>endum est pueris infidelium contra periculum mortis aeter 
+      <lb ed="#S" n="105"/>nae: etiam inuitis parentibus. Respondei &amp; bene, quod nulli sub 
+      <lb ed="#S" n="106"/>ueniendum est in periculo corporali contra ordinem iuris 
+      <lb ed="#S" n="107"/>ciuilis. Vnde si quis asuo iudice rite condemnetur ad 
+       mor<lb ed="#S" break="no" n="108"/>tem non est per violentiam diripiendus. Et similiter contra 
+      <lb ed="#S" n="109"/>ordinem iuris naturalis, &amp; diuini: quo filius est sub cura 
+      <lb ed="#S" n="110"/>parentum: non est eripiendus, vt liberetur a periculo mortis 
+      <lb ed="#S" n="111"/>aeternae. Non enim sunt facienda mula, vt eueniant bona. 
+      <lb ed="#S" n="112"/>Hoc autem fieret, si filius infidelis parentibus auferret: quo 
+      <lb ed="#S" n="113"/>rum curae subest quantum est de iure naturali, &amp; diuino: 
+      <lb ed="#S" n="114"/>qn sicut non esset auferenda aqua propria alicui, eo inuito, 
+      <lb ed="#S" n="115"/>ad puerum baptizandum, si nollet cam dare gratis: nec pro 
+      <lb ed="#S" n="116"/>pecunia: quia euet contra iuitit:a, nc nec puer aureredus eit 
+      <lb ed="#S" n="117"/>patri propter baptismu. Nec obstat, si licet auferre panem 
+      <lb ed="#S" n="118"/>propter necessitatem proximi releuandum extremam, vel aquam 
+      <lb ed="#S" n="119"/>propter sitim: quia aqua, &amp; panis sunt ad hoc ex sua natura, 
+      <lb ed="#S" n="120"/>vt succurrant corpori, sed ad subueniendum animae: non 
+      <lb ed="#S" n="121"/>nisi ex positiua institutione: sictit propter mortem licet 
+       re<lb ed="#S" break="no" n="122"/>cipere eleemosynam ab excommuhicato, non tum ei loqui, 
+      <lb ed="#S" n="123"/>tar ad missam eum recipere si aliter mortem inteptet. 
+       ex<lb ed="#S" break="no" n="124"/>tra de his, q vi, vel metu. c. sacramentis. quia cibus est de se, &amp; per 
+      <lb ed="#S" n="125"/>se in remedium contra mortem, &amp; similiter potus, non sic 
+       au<lb ed="#S" break="no" n="126"/>tem loquela, vel missa, sicut non licuit susannae 
+       adulte<lb ed="#S" break="no" n="127"/>rari, vt mortem euaderet: imo si medici dicerent, &amp; verum 
+       es<lb ed="#S" break="no" n="128"/>set: nisi infirmus fornic:tionem fecerit, morietur: nullo 
+       mo<lb ed="#S" break="no" n="129"/>do fornicari liceret. sed nec contrihere liceret religioso, 
+      <lb ed="#S" n="130"/>vel voto obligato propter tale periciilum. sed propter tale 
+      <lb ed="#S" n="131"/>periculum contrahere liceret non obligato ad continentiam. 
+      <lb ed="#S" n="132"/>sed de aqua videreem, quod posset aufferri propter puerum bapti 
+      <lb ed="#S" n="133"/>zandum: quia &amp; si vsus eins non sit per se ad lauandu 
+       ani<lb ed="#S" break="no" n="134"/>tit crimen haeresis, cuius cognitio pertinet ad ecclesiam: 
+      <!--0043.xml-->
+      <pb ed="#S" n="43"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>mam: est tamen ad lauandum corpus, &amp; lotione etiam cor 
+      <lb ed="#S" n="2"/>poris indiget pro corporis salute in resurrectione. Vnde 
+      <lb ed="#S" n="3"/>sicut si vita pueri sine balneo non posset seruari, propter 
+      <lb ed="#S" n="4"/>hoc posset aqua auferri: ita videt, &amp; hic. sed non est simi 
+      <lb ed="#S" n="5"/>le: quia lotio corporis de natura sua est materia balnei: non 
+      <lb ed="#S" n="6"/>sic autem est causa resurrectionis: nisi ex diuina institutio 
+      <lb ed="#S" n="7"/>ne.
+    </p>
+            <p xml:id="khj78y-q13945-d1e1220" n="32">
+      <!-- 32 -->si vero secundo contra dicta arguatur: quia qui 
+      <lb ed="#S" n="8"/>libet homo magis est Dei: a quo habet animam, quae patris, a 
+      <lb ed="#S" n="9"/>quo habet corpus, non igitur, videtur iniustum, si pueri in 
+      <lb ed="#S" n="10"/>fidelibus auferantur &amp; Deo per baptisinum consecrentur. 
+       Res<lb ed="#S" break="no" n="11"/>pondetur, &amp; bene, quia homo ordinatur in Deum per 
+       ratio<lb ed="#S" break="no" n="12"/>nem, per quam potest Deum cognoscere. Et ideo puer 
+       an<lb ed="#S" break="no" n="13"/>tequam habeat vsum rationis, ordinatur in Deum per rationem 
+      <lb ed="#S" n="14"/>parentum: quorum curae naturaliter subiacet: propter quod 
+      <lb ed="#S" n="15"/>secundum eorum dispositionem sunt circa eum agenda 
+       di<lb ed="#S" break="no" n="16"/>uina. Vnde si puer parentes non habeat, vel non comparent: 
+      <lb ed="#S" n="17"/>quicunque vult loco parentis ei fit: &amp; sicut in nutriendo sic 
+      <lb ed="#S" n="18"/>in baptizando, &amp; sufficit, quod non apparcat voluntas parentum 
+      <lb ed="#S" n="19"/>contraria. Et siquidem pater, &amp; mater Iudaei mortui essent, 
+      <lb ed="#S" n="20"/>sicut aliquando pater moritur relicta vxore praegnante, quae etiam 
+      <lb ed="#S" n="21"/>morit in partu, vel moriuntur, antequam puer habeat vsum 
+      <lb ed="#S" n="22"/>rationis: tunc propinquiora de genere sunt tutores legiti 
+      <lb ed="#S" n="23"/>mi loco parentum: Vnde non deberet, nec posset 
+       baptiza<lb ed="#S" break="no" n="24"/>ri ipsis inuitis, sicut nec parentibus inuitis. sed si non ap 
+      <lb ed="#S" n="25"/>parent, nec parentes, nec propinqui: tunc loco parentum suc 
+      <lb ed="#S" n="26"/>cedit, quicunque vult. Et ideo quicumque vellet, posset eum 
+      <lb ed="#S" n="27"/>tunc baptismo offerre, quia naturalis ratio dictat: vt cui 
+      <lb ed="#S" n="28"/>parens deficit alius parens sit, sicut vna auis alios pullos 
+      <lb ed="#S" n="29"/>nutrit quando mater deficit
+    </p>
+            <p xml:id="khj78y-q13945-d1e1272" n="33">
+      <!-- 33 -->Ex his omnibus colli 
+      <lb ed="#S" n="30"/>git: quia sicut parentes non possunt cogi ad ea, quae sunt 
+      <lb ed="#S" n="31"/>purae fidei, supra legem naturae, &amp; si coacti non 
+       consentien<lb ed="#S" break="no" n="32"/>tes recipiant, nihil est factum: licet ad ea, quae sunt legis natu 
+      <lb ed="#S" n="33"/>rae, possit cogi, sic filij contra eorum voluntatem in his, quae 
+      <lb ed="#S" n="34"/>sunt legis naturae, possunt coerceri, vt. scilicet eis non subiician 
+      <lb ed="#S" n="35"/>tur. sed in his, quae sunt pure iuris diuini, &amp; voluntatem 
+       ve<lb ed="#S" break="no" n="36"/>ram requirunt, vel interpretatiuam, non debet fieri, nec 
+       fa<lb ed="#S" break="no" n="37"/>ctum valet. sed quicunque parentum consentit cuiuscunque 
+      <lb ed="#S" n="38"/>aetatis paruulus existat in fauorem fidei, videretur baptizan 
+      <lb ed="#S" n="39"/>dus: quia de patre expressum est de conuersione infidelis. 
+      <lb ed="#S" n="40"/>c. ex literis. de matre: videtur contrarium de facto in Au. 
+      <lb ed="#S" n="41"/>sed sicut secundum leges, qum pater egit ad diuortiu, &amp; est ti 
+      <lb ed="#S" n="42"/>mor, ne machinet in prolem odio alterius, penes matrem 
+      <lb ed="#S" n="43"/>debet potius educari: sic hic debet matri dari. Vnde quia 
+      <lb ed="#S" n="44"/>ille, qui non vult conuerti, dat causam diuortij. ideo apud 
+      <lb ed="#S" n="45"/>conuersum debet educari, siue sit pater, siue mater, siue 
+      <lb ed="#S" n="46"/>maior triennio, siue minor. Ar. C. de diuortiis. auth. si 
+      <lb ed="#S" n="47"/>mater. quia pupillus non debet educari apud illas personas. 
+      <lb ed="#S" n="48"/>quae ipsius pudicitiae possunt insidiari. ff. vbi pupillus 
+       e<lb ed="#S" break="no" n="49"/>ducari debeat. l. vlt. sicut matrimoniu in dicto. c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

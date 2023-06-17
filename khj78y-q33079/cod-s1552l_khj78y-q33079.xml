@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="132"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q33079"><!-- l4d11-q2 -->
+            <head xml:id="khj78y-q33079-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q33079-Hd1e103" type="question-title">
+     Vtrum conuersio sit completa ratio 
+     essendi corpus Christi in altari realiter
+   </head>
+            <p xml:id="khj78y-q33079-d1e106">
+               <lb ed="#S" n="119"/>QVAESTIO sECVNDA. 
+    </p>
+            <p xml:id="khj78y-q33079-d1e111">
+               <lb ed="#S" n="120"/>
+               <!-- line coord error -->De conuersione panis. 
+      <lb ed="#S" n="121"/>
+               <!-- line coord error -->Thom. 3. q. 75. arti. scilicet 
+    </p>
+            <p xml:id="khj78y-q33079-d1e122">
+               <lb ed="#S" n="122"/>QVAERITVR secundo de 
+       conuersio<lb ed="#S" break="no" n="123"/>ne. Vtrum conuersio sit completa ratio 
+       es<lb ed="#S" break="no" n="124"/>sendi corpus Christi in altari realiter. Et 
+      <lb ed="#S" n="125"/>videtur quod non: quia illud, quod per conuersio 
+      <lb ed="#S" n="126"/>nem incipit in loco conuersi: cum prius 
+      <lb ed="#S" n="127"/>ibi non ere:est terminus per generationem de nouo 
+       pro<lb ed="#S" break="no" n="128"/>ductus, &amp; non aliquid praeexistens, sicut quando ignis 
+       gene<lb ed="#S" break="no" n="129"/>ratur ex aere: dicitur aer conuerti in ignem, &amp; vbi prius erat 
+      <lb ed="#S" n="130"/>conuersum, ibi est terminus conuersionis: quia idem est lo- 
+      <!--0133.xml-->
+      <pb ed="#S" n="133"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>cus corrupti, &amp; generati: sicut in animali idem est locus 
+      <lb ed="#S" n="2"/>hominis viui, &amp; cadaueris eo mortuo in lecto, vel alibi: 
+      <lb ed="#S" n="3"/>sed substantia panis, &amp; vini conuertuntur in corpus, &amp; san 
+      <lb ed="#S" n="4"/>guinem Christi non per nouam generationem illorum ex 
+      <lb ed="#S" n="5"/>istis, quemadmodum fuerunt formata ex purissimis sangui 
+      <lb ed="#S" n="6"/>nibus Viginis. &amp; ideo vere fuerunt in corpore Virginis: 
+      <lb ed="#S" n="7"/>sed si est ibi conuersio, est in praeexistens. ergo non 
+       opor<lb ed="#S" break="no" n="8"/>tet, quod terminus conuersionis sit in loco rei conuerse.
+    </p>
+            <p xml:id="khj78y-q33079-d1e169" n="2">
+               <lb ed="#S" n="9"/>
+               <!-- 2 -->CONTRA est Magister in litera per multas 
+      <lb ed="#S" n="10"/>authoritates.
+    </p>
+            <p xml:id="khj78y-q33079-d1e178" n="3">
+      <!-- 3 -->REsPONDEO, circa istam 
+      <lb ed="#S" n="11"/>quaestionem tria sunt facienda: quia primo recitabitur vna opi 
+      <lb ed="#S" n="12"/>nio' cum suit motiuis, &amp; reprobabitur. secundo, alia, &amp; 
+      <lb ed="#S" n="13"/>reprobabitur. Tertio, quid sentiendum de quaestione, &amp; 
+      <lb ed="#S" n="14"/>respondebitur ad argumenta.
+    </p>
+            <p xml:id="khj78y-q33079-d1e191" n="4">
+      <!-- 4 -->CIRCA 
+       pri<lb ed="#S" break="no" n="15"/>mum quatuor sunt facienda. Primo, ponci opinio cum 
+      <lb ed="#S" n="16"/>suis motiuis propriis. secundo, ponetur confirmatio quo 
+      <lb ed="#S" n="17"/>rundam. Tertio, arguetur contra opinionem, &amp; respondebi 
+      <lb ed="#S" n="18"/>tur ad rationes eius. Quarto, respondebitur ad rationes 
+      <lb ed="#S" n="19"/>confirmationis.
+    </p>
+            <p xml:id="khj78y-q33079-d1e207" n="5">
+      <!-- 5 -->Est igitur opinio quorundam 
+      <lb ed="#S" n="20"/>dicentium, quod conuersio si est, nihil facit, nisi dispositiue, &amp; 
+      <lb ed="#S" n="21"/>quod Deus sine conuersione potest aeque facere ibi esse 
+       cor<lb ed="#S" break="no" n="22"/>pus Christi, sicut facit cum conuersione. Et primo 
+       suppo<lb ed="#S" break="no" n="23"/>nit, quod per carentiam quantitatis est angelus praesens omni 
+      <lb ed="#S" n="24"/>corpori: quia sola quantitas facit distare, &amp; esse absens, &amp; 
+      <lb ed="#S" n="25"/>per consequens priuatio quantitatis facit realiter esse 
+       prae<lb ed="#S" break="no" n="26"/>sens. Et idem conueniret homini, si esset sine quantitate, 
+       si<lb ed="#S" break="no" n="27"/>cut angelo. Et idem in omni quanto: si non vteret 
+       quan<lb ed="#S" break="no" n="28"/>titate respectu omnium, vel si absolueretur ab vsu 
+       quanti<lb ed="#S" break="no" n="29"/>tatis respectu huius, &amp; non illius, isti esset praesens, &amp; illi 
+      <lb ed="#S" n="30"/>absens.
+    </p>
+            <p xml:id="khj78y-q33079-d1e236" n="6">
+      <!-- 6 -->secundo ostendunt, quid conuersio 
+       fa<lb ed="#S" break="no" n="31"/>ciat: nam quia substantia conuertit, &amp; accidentia manent: acci 
+      <lb ed="#S" n="32"/>dentia remanentia faciunt esse ibi corpus Christi 
+       sacra<lb ed="#S" break="no" n="33"/>mentaliter: quia significant ipsum, sicut prius significabant 
+      <lb ed="#S" n="34"/>ibi esse substantiam suam. sed hoc non est ibi esse realiter, 
+      <lb ed="#S" n="35"/>sed esse sicut in signo: conuersio vero substantiae in corpus 
+      <lb ed="#S" n="36"/>Christi facit quidem habere habitudinem ad istas species 
+      <lb ed="#S" n="37"/>immediatam. sed ex hoc non sequit, quod corpus Christi sit 
+      <lb ed="#S" n="38"/>hic realiter: quia licet conuersio fiat in corpus Christi 
+       dire<lb ed="#S" break="no" n="39"/>cte ex vi sacramenti, prout est substantia: fit tamen consequenter ex 
+      <lb ed="#S" n="40"/>naturali concomittantia in corpus, quod est quantitas. Et sic 
+      <lb ed="#S" n="41"/>cum corpus Christietiam sit quantum, prout est terminus 
+      <lb ed="#S" n="42"/>conuersionis, non potest per hoc hic esse realiter praesens, 
+      <lb ed="#S" n="43"/>cum secum ferat quantitatem, per quam distat, &amp; est realiter 
+      <lb ed="#S" n="44"/>absens.
+    </p>
+            <p xml:id="khj78y-q33079-d1e271" n="7">
+      <!-- 7 -->Tertio dicunt, quod diuina virtus 
+       absol<lb ed="#S" break="no" n="45"/>uens quantitatem ab vsu quantitatis, quod est facere distare, 
+      <lb ed="#S" n="46"/>&amp; esse absens completiue, &amp; vltimate facit hic esse corpus 
+      <lb ed="#S" n="47"/>Christi: illud enim, quod est realiter, &amp; est non absens, nec 
+      <lb ed="#S" n="48"/>distans realiter alicui: est enim praesens realiter. Vnde quia 
+      <lb ed="#S" n="49"/>conuersio facit habere corpus Christi habitudinem ad 
+      <lb ed="#S" n="50"/>istas species, &amp; non ad lapidem, qui non est in ipsum 
+       con<lb ed="#S" break="no" n="51"/>uersus inde est, quod absolutio ab vsu quantitatis: quam sola 
+      <lb ed="#S" n="52"/>diuina virtus facit, est respectu istarum specierum tantum. 
+      <lb ed="#S" n="53"/>Propter quod est ibi praesens, vbi est facta conuersio, &amp; 
+      <lb ed="#S" n="54"/>non alibi. si autem vbique facta esset conuersio, vbique esset: 
+      <lb ed="#S" n="55"/>non quod conuersio faciat ipsum esse ibi: sed solum 
+       determi<lb ed="#S" break="no" n="56"/>nat absolutionem ab vsu quantitatis, per quam est ibi. 
+    </p>
+            <p xml:id="khj78y-q33079-d1e303" n="8">
+               <lb ed="#S" n="57"/>
+               <!-- 8 -->Quarto dicunt, quod Deus nulla conuersione facta 
+      <lb ed="#S" n="58"/>potest facere istam absolutionem ab vsu quantitatis, sicut 
+       fe<lb ed="#S" break="no" n="59"/>cit, quando intrauit ad discipulos ianuis clausis. quando 
+      <lb ed="#S" n="60"/>enim erat in codem loco cum ianuis: non erat ibi 
+       locali<lb ed="#S" break="no" n="61"/>ter, vel ianuae non erant ibi localiter: quia duo corpora 
+       es<lb ed="#S" break="no" n="62"/>se simul localiter: est duo contraria esse simul: quod est 
+       im<lb ed="#S" break="no" n="63"/>possibile: sed alterum priuatur vsu quantitatis, ne locum 
+       occu<lb ed="#S" break="no" n="64"/>pet, quod est effectus non formalis: cum vltima sphera in 
+       su<lb ed="#S" break="no" n="65"/>perficie connexa non occupet locum. Et quia ianuae videban 
+      <lb ed="#S" n="66"/>tur, &amp; non corpus Christi. ideo pro tunc ianuae quidem 
+      <lb ed="#S" n="67"/>erant in loco suo localiter: corpus autem Christi erat cum 
+      <!--0133.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>eis simul, sicut esset vnus specie non localiter, nec per mo 
+      <lb ed="#S" n="69"/>tum localem, per quem ad discipulos sensibiliter venit, sed 
+      <lb ed="#S" n="70"/>per absolutionem ab vsu quantitatis effectiue, &amp; per realem 
+      <lb ed="#S" n="71"/>exhibitionem praesentiae suae formaliter. Vnde si ianuae 
+       si<lb ed="#S" break="no" n="72"/>gnificassent Christum, fuisset ibi sacramentaliter. Nunc au 
+      <lb ed="#S" n="73"/>tem propter defectum signi fuit tantum realiter praesens, &amp; 
+      <lb ed="#S" n="74"/>non sacramentaliter. sed illud fuit non conuersione facta 
+      <lb ed="#S" n="75"/>alicuius in corpus Christi. ergo corpus Dei virtute per 
+      <lb ed="#S" n="76"/>solam absolutionem ab vsu quantitatis, fit realiter praesens 
+      <lb ed="#S" n="77"/>sine conuersione.
+    </p>
+            <p xml:id="khj78y-q33079-d1e358" n="9">
+      <!-- 9 -->Quinto declarant hoc sic: quia 
+      <lb ed="#S" n="78"/>Deus potest facere effectum, qui est res absoluta, vel 
+       rela<lb ed="#S" break="no" n="79"/>tio sine causa eius in fieri: sicut generationem sine 
+       altera<lb ed="#S" break="no" n="80"/>tione. Vnde si ex conuertione causatur ista habitudo in cor 
+      <lb ed="#S" n="81"/>pore Christi ad species, per quam dicitur praesens realiter 
+       lo<lb ed="#S" break="no" n="82"/>co specierum cum esse hic remaneat in corpore Christi tran 
+      <lb ed="#S" n="83"/>seunte conuersione. ergo sine conuersione potest Deus 
+       cau<lb ed="#S" break="no" n="84"/>sare in corpore Christi istam ha bitudinem: quae est esse hic 
+      <lb ed="#S" n="85"/>realiter praesens, &amp; sic habet propositum.
+    </p>
+            <p xml:id="khj78y-q33079-d1e380" n="10">
+      <!-- 10 -->
+       Qui<lb ed="#S" break="no" n="86"/>dam autem videntur velle confirmare hanc positionem: non quod 
+      <lb ed="#S" n="87"/>sit de facto, sed quod de possibili. s-quod possit esse corpus 
+       Chri<lb ed="#S" break="no" n="88"/>sti in altari, nulla facta conuersione, sed manente substan 
+      <lb ed="#S" n="89"/>tia. Et praemittunt quandam diuisionem, ex qua postea 
+       for<lb ed="#S" break="no" n="90"/>mant argumenta sua: quia si conuersio requireret, hoc esset 
+      <lb ed="#S" n="91"/>propter alteram istarum trium causarum, aut quia corpus Christi 
+      <lb ed="#S" n="92"/>non potest esse simul sub illis speciebus cum alio corpore 
+      <lb ed="#S" n="93"/>aut quia corpus Christi non posset esse in sacramento, nisi substam 
+      <lb ed="#S" n="94"/>tia panis mutaretur in ipsum, aut quia non saluaretur 
+       veri<lb ed="#S" break="no" n="95"/>tas verborum sacramentalium, sed nullo istorum modorum 
+      <lb ed="#S" n="96"/>impeditur. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q33079-d1e409" n="11">
+      <!-- 11 -->Quod non propter 
+       pri<lb ed="#S" break="no" n="97"/>mum probatur primo sic: Corpus, quod potest simul esse 
+      <lb ed="#S" n="98"/>cum aliena quantitate, potest simul esse cum substantia subiecta 
+      <lb ed="#S" n="99"/>illi quantitati: non enim repugnat duobus corporibus 
+      <lb ed="#S" n="100"/>esse simul, nisi ratione quantitatis, cuius est excludere ab 
+      <lb ed="#S" n="101"/>eodem situ aliam quantitatem: sed corpus Christi potest esse 
+      <lb ed="#S" n="102"/>simul cum quantitate panis, vt ponit communis opinio: 
+      <lb ed="#S" n="103"/>quae tenet corpus Christi esse in hoc sacramento. ergo aeque fa 
+      <lb ed="#S" n="104"/>ciliter potest esse cum substantia panis.
+    </p>
+            <p xml:id="khj78y-q33079-d1e431" n="12">
+      <!-- 12 -->Non 
+      <lb ed="#S" n="105"/>etiam propter secundum debet poni: quia conuersio panis in 
+      <lb ed="#S" n="106"/>corpus Christi si ponat, non esset ratio, quare corpus Chri 
+      <lb ed="#S" n="107"/>sti sit ibi de nouo, quod patet dupl'r. Primo, quia si propter con 
+      <lb ed="#S" n="108"/>uersionem panis in corpus Christi esset corpus Christi, 
+      <lb ed="#S" n="109"/>vbi fuit prius substantia panis eadem ratione, si totus panis 
+      <lb ed="#S" n="110"/>quo ad substantiam, &amp; quantitatem conuerteret in substan 
+      <lb ed="#S" n="111"/>tiam, &amp; quantitatem corporis Christi: corpus Christi, &amp; sua 
+      <lb ed="#S" n="112"/>quantitas ex vi talis conuersionis essent de nouo ibi, vbi 
+      <lb ed="#S" n="113"/>fuit prius panis: hoc autem est falsum: quia tunc oporteret, 
+      <lb ed="#S" n="114"/>quod corpus Christi mutaretur secundum locum: compararetur enim 
+      <lb ed="#S" n="115"/>circunscriptiue ad locum, vbi fuit prius panis: quia non 
+       con<lb ed="#S" break="no" n="116"/>pararetur ad ipsum ratione substantiae, sed ratione suae 
+      <lb ed="#S" n="117"/>quantitatis: cum conuersio esset non solum substantiae in 
+       sub<lb ed="#S" break="no" n="118"/>stantiam, sed quantitatis in quantitatem. ergo similiter vide 
+      <lb ed="#S" n="119"/>tur, quod propter solam conuersionem substantiae panis in corpus 
+      <lb ed="#S" n="120"/>Christi: non sit, vbi fuit prius panis.
+    </p>
+            <p xml:id="khj78y-q33079-d1e470" n="13">
+      <!-- 13 -->secundo, 
+      <lb ed="#S" n="121"/>quia per conuersionem alicuius rei in aliquam praeexistentem vi 
+      <lb ed="#S" n="122"/>detur magis fieri, quod res conuersa sit, vbi prius erat res, in 
+      <lb ed="#S" n="123"/>quam conuertitur, quae econuerso: sicut cum conuertitur 
+       alimen<lb ed="#S" break="no" n="124"/>tum in substantiam comedentis, alimentum fit, vbi erat come 
+      <lb ed="#S" n="125"/>dens, &amp; non econuerso. Cum ergo substantia panis conuer 
+      <lb ed="#S" n="126"/>titur in corpus Christi tanquam in aliquid praeexistens: ma 
+      <lb ed="#S" n="127"/>gis fit virtute conuersionis, quod panis sit, vbi erat corpus 
+       Chri<lb ed="#S" break="no" n="128"/>sti, quam econuerso.
+    </p>
+            <p xml:id="khj78y-q33079-d1e493" n="14">
+      <!-- 14 -->Propter tertium similiter non 
+      <lb ed="#S" n="129"/>oportet dicere, quod substantia panis non remaneat: quia ex 
+      <lb ed="#S" n="130"/>quo ponitur corpus Christi realiter esse in hoc sacramento pro 
+      <lb ed="#S" n="131"/>ipso potest reddi vera locutio, vt non solum dicatur corpus 
+      <lb ed="#S" n="132"/>Christi esse hic: sed dicatur hoc. i. contentum sub hoc, est cor 
+      <lb ed="#S" n="133"/>pus meum, quia indefinita verificatur pro vno solo, nec opor 
+      <lb ed="#S" n="134"/>teret, quod demonstraret substantia panis, dato quod esset ibi: 
+      <!--0134.xml-->
+      <pb ed="#S" n="134"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>sicut non fit demonstratio specierum ibidem existentium. 
+    </p>
+            <p xml:id="khj78y-q33079-d1e519" n="15">
+               <lb ed="#S" n="2"/>
+               <!-- 15 -->se l haec opinio videtur totaliter deficere. Primo, 
+      <lb ed="#S" n="3"/>in eo, quod primo assumunt, quia secundum eos in angelo 
+      <lb ed="#S" n="4"/>sunt causae: quare ipse est omni corpori praesens reali ex 
+      <lb ed="#S" n="5"/>hibitione sui. scilicet carentia quantitatis actu, &amp; aptitudine, quae 
+      <lb ed="#S" n="6"/>est solum causa, sine qua non &amp; immediatus ordo ad oem 
+       cor<lb ed="#S" break="no" n="7"/>pus, quod potest ipse mouere immediate, propter quod 
+      <lb ed="#S" n="8"/>secundum eos anima separata est quidem nusquam propter 
+      <lb ed="#S" n="9"/>carentiam quantitatis: sed non est alicubi presens propter 
+      <lb ed="#S" n="10"/>nullu ordinem mouendi ad corpus. Vnde si substantia cor 
+      <lb ed="#S" n="11"/>porea, quae est nata esse quanta, sit separata actu a quantita 
+      <lb ed="#S" n="12"/>te: dato quod per hoc sit nusquam, &amp; indistans, quia quantitas 
+      <lb ed="#S" n="13"/>sola facit distare localiter: non tamen propter hoc erit 
+       reali<lb ed="#S" break="no" n="14"/>ter praesens cuilibet corpori, quia non ex se habet 
+       imme<lb ed="#S" break="no" n="15"/>diatuordinem mouendi quolibet corpus, sicut nec 
+       ani<lb ed="#S" break="no" n="16"/>ma senarata. Et per consequens absolutio ab vsu quantitatis 
+      <lb ed="#S" n="17"/>non facit eam praesentem alicubi. Et licet faciat non distam 
+      <lb ed="#S" n="18"/>tem, vel non absentem: tamen oportet dare aliquod positiuum, 
+      <lb ed="#S" n="19"/>quod faciat eam praesentem: quia substantia, quae est nata esse 
+      <lb ed="#S" n="20"/>quanta: non est nata esse praesens, vel absens, nisi per 
+       quan<lb ed="#S" n="21" break="no"/>titatem, aut nisi sibi detur modus spiritus: quod forte de 
+       so<lb ed="#S" break="no" n="22"/>lo Christi corpore posset verificari secundum illum modum: 
+      <lb ed="#S" n="23"/>quia si corpus Christi habet virtutem mouendi omne corpus 
+      <lb ed="#S" n="24"/>immediate, sicut angelus, &amp; absoluatur ab vsu 
+       quantita<lb ed="#S" break="no" n="25"/>tis: tunc eadem ratione, qua &amp; angelus erat realiter prae 
+      <lb ed="#S" n="26"/>sens omni corpori: corpus Christi de se sine aliqua 
+       con<lb ed="#S" break="no" n="27"/>conuersione esset praesens omni corpori. sed istum 
+       mo<lb ed="#S" break="no" n="28"/>dum ipsi non ponunt, nec etiam sufficit in angelo, vt dictum 
+      <lb ed="#S" n="29"/>est in lib. 1. dist. 37. de loco angeli. Et si sufficeret in 
+       an<lb ed="#S" break="no" n="30"/>gelo. qui non est natus distare: non tamen in corpore, quod 
+      <lb ed="#S" n="31"/>est natum distare, &amp; maxime, quod actu distat, quia si anima 
+      <lb ed="#S" n="32"/>quandiu est infra corpus haberet potentiam mouendi om 
+      <lb ed="#S" n="33"/>ne aliud corpus immediate: non propter hoc minus 
+       di<lb ed="#S" break="no" n="34"/>staret a corpore exteriore, quam prius. Ab omni enim corpore 
+      <lb ed="#S" n="35"/>distat: quantum suum corpus distat, quandiu est forma eius, 
+      <lb ed="#S" n="36"/>&amp; corpus eius vtitur quantitate. Vnde cum corpus Christi 
+      <lb ed="#S" n="37"/>sit subiectum quantitatis, per quam est localiter in loco. scilicet in 
+      <lb ed="#S" n="38"/>coelo, &amp; si non absoluatur ab vsu quantitatis, quia locum occupat 
+      <lb ed="#S" n="39"/>in coelo: videtur sola absolutio respectu panis, non facere 
+      <lb ed="#S" n="40"/>ipsum minus distare, quae prius. Aliud ergo quaerendum est. 
+    </p>
+            <p xml:id="khj78y-q33079-d1e608" n="16">
+               <lb ed="#S" n="41"/>
+               <!-- 16 -->Ad secundum dicendum, quod verum est remanentia acci 
+      <lb ed="#S" n="42"/>dentia non plus facere, quae dicit, sed falsum est 
+       conuersio<lb ed="#S" break="no" n="43"/>nem substantiae hoc non facere, quod facit: quia facit termi 
+      <lb ed="#S" n="44"/>num conuersionis loco conuersi succedere. Nec est verum, 
+      <lb ed="#S" n="45"/>quod fiat conuersio in quantitatem ex consequenti: quia terminus 
+      <lb ed="#S" n="46"/>iste. scilicet substantia non conuertitur in accidens, nec econuerso, da 
+      <lb ed="#S" n="47"/>to quod quantitas possit conuerti in quantitatem. Vnde cum con 
+      <lb ed="#S" n="48"/>uersum sit substantia non quantitas, non est conuersio, nisi 
+      <lb ed="#S" n="49"/>in substantiam. Nec sequit, si quantitas est ibi, quod sit ibi, sicut 
+      <lb ed="#S" n="50"/>terminus conuersionis, sicut patet de deitate, in quam ni 
+      <lb ed="#S" n="51"/>hil conuerti potest, quae tamen est ibi. Nec requiritur ibi 
+       ab<lb ed="#S" break="no" n="52"/>solutio ab vsu quantitatis, vbi quantitas non est quod se: sed 
+      <lb ed="#S" n="53"/>per substantiam: quia sicut substantiam esse alicubi per 
+       quanti<lb ed="#S" break="no" n="54"/>tatem sine alio facit eam ibi esse modo quantitatiuo, sic 
+       econ<lb ed="#S" n="55" break="no"/>uerso, quantitatem esse alicubi persubstantiam, facit eam ibi 
+      <lb ed="#S" n="56"/>esse modo substantiuo.
+    </p>
+            <p xml:id="khj78y-q33079-d1e647" n="17">
+      <!-- 17 -->Ad tertium 
+       conceden<lb ed="#S" break="no" n="57"/>dum, quod determinata conuersio non solum dat habitudinem 
+      <lb ed="#S" n="58"/>ad aliquid determinatum, sed plus, quia datetiam ibi esse rea 
+      <lb ed="#S" n="59"/>liter per hoc, quod facit succedere illi, quod hic erat realiter. 
+    </p>
+            <p xml:id="khj78y-q33079-d1e658" n="18">
+               <lb ed="#S" n="60"/>
+               <!-- 18 -->Ad quartum dicendum, quod potest Deus absoluere 
+      <lb ed="#S" n="61"/>quantitatem ab vsu occupandi locum, sed per hoc quantitas, 
+      <lb ed="#S" n="62"/>&amp; res quanta non erit, nisi vbi prius erat. Et nisi corpus 
+      <lb ed="#S" n="63"/>Christi fuisset motum de loco, vbi prius erat: absolutio ab 
+      <lb ed="#S" n="64"/>vsu quantitatis non fecisset ipraem esse, vbi prius non erat, sicut 
+      <lb ed="#S" n="65"/>vltima sphera non est, nisi vbi esset, si haberet corpus conti 
+      <lb ed="#S" n="66"/>nens materialiter, &amp; tantum distat a caeteris, quantum dista 
+      <lb ed="#S" n="67"/>ret, si circunscriberet, &amp; occuparet locum. absolutio ergo 
+      <!--0134.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>ab vsu quantitatis non dat realem praesentiam: sed illa suppo 
+      <lb ed="#S" n="69"/>sita facit non esse localiter, vbi esset local'r.
+    </p>
+            <p xml:id="khj78y-q33079-d1e689" n="19">
+      <!-- 19 -->Ad 
+      <lb ed="#S" n="70"/>quintum dicendum, quod dato, quod Deus corpori existenti in coe 
+      <lb ed="#S" n="71"/>lo possit dare illud, vbi numero, quod haberet existens 
+      <lb ed="#S" n="72"/>in terra: non tamen p proter hoc esset in terra, sicut si posset ho 
+      <lb ed="#S" n="73"/>mini dare paternitatem: sine hoc, quod genuisset: non tamen esset 
+      <lb ed="#S" n="74"/>pater, quia non est esse patrem habere paternitatem, sicut esse 
+      <lb ed="#S" n="75"/>album, habere albedinem, sed est genuisse. Vnde &amp; 
+       Chri<lb ed="#S" break="no" n="76"/>stus est filius virginis, non per habere filiationem, sed per 
+      <lb ed="#S" n="77"/>esse geniti. sic etiam licet Deus possit dare corpori Chri 
+      <lb ed="#S" n="78"/>sti, idem vbi sacramentale numero, quod in eo causat ex con 
+      <lb ed="#S" n="79"/>uersione, si est aliqua res differens: tamen non esset hic reali 
+      <lb ed="#S" n="80"/>ter, quanuis haberet ipsum esse hic: quia esse hic sacraliter 
+      <lb ed="#S" n="81"/>realiter est succedere, vel successisse hic ei, quod hic erat 
+      <lb ed="#S" n="82"/>local'r, quod sine conuersione esse non pont.
+    </p>
+            <p xml:id="khj78y-q33079-d1e723" n="20">
+      <!-- 20 -->Non 
+      <lb ed="#S" n="83"/>valent etiam argumenta eorum, qui eos iuuare nitunt. Vnde 
+      <lb ed="#S" n="84"/>ad primum dicendum, quod corpus Christi bene esse potest in 
+      <lb ed="#S" n="85"/>altari cum sustatia panis localiter descendendo de coelo: 
+      <lb ed="#S" n="86"/>Deo faciente duo corpora esse in eodem loco, sed quod 
+       ma<lb ed="#S" break="no" n="87"/>nens in coelo localiter sit in altari cum substantia panis 
+       sa<lb ed="#S" break="no" n="88"/>craliter non potest esse.
+    </p>
+            <p xml:id="khj78y-q33079-d1e741" n="21">
+      <!-- 21 -->Ad formam ergo 
+       dicen<lb ed="#S" break="no" n="89"/>dum, quod maior est vera de esse locali, &amp; falsa de esse 
+       sacia<lb ed="#S" break="no" n="90"/>li. Esse enim cum alio localiter quantitas impedit, non 
+       au<lb ed="#S" break="no" n="91"/>tem sacramentaliter, quia non est ibi modo quantitatis. 
+       Mi<lb ed="#S" break="no" n="92"/>nor est vera de esse sacramentali, non locali. Et sic conclusio 
+      <lb ed="#S" n="93"/>non sequit, quia corpus Christi potest esse cum quantitate panis 
+      <lb ed="#S" n="94"/>sacraliter, per hoc, quod succedit substantiae eius. ergo potest es 
+      <lb ed="#S" n="95"/>se cum substantia, non sequit.
+    </p>
+            <p xml:id="khj78y-q33079-d1e761" n="22">
+      <!-- 22 -->Ad secundum 
+       dicen<lb ed="#S" break="no" n="96"/>dum, quod non sequit, quod si propter conuersionem substantiae in 
+      <lb ed="#S" n="97"/>substantiam est, vbi prius panis erat substanti aliter, &amp; sacramenta 
+      <lb ed="#S" n="98"/>liter. ergo per conuersionem substantiae cum quantitate esset, 
+      <lb ed="#S" n="99"/>vbi prius non erat situaliter, &amp; circumscriptiue: imo tunc 
+      <lb ed="#S" n="100"/>non esset ibi aliquo modo, nec quo ad substantiam, nec 
+      <lb ed="#S" n="101"/>quo ad quantitatem, nec modo substantiali, nec modo quam 
+      <lb ed="#S" n="102"/>titatiuo: quia pro tanto ponitur esse, vbi erat substantia in se 
+      <lb ed="#S" n="103"/>conuersa, quia ibi manent species locum occupantes: sicut prius, 
+      <lb ed="#S" n="104"/>mediantibus quibus substantia conuersa ibi erat. Et quia cor 
+      <lb ed="#S" n="105"/>pus Christi succedit substantiae in se conuersae, non quantum 
+      <lb ed="#S" n="106"/>ad inhaerentiam: sed quantum ad immediatam praesentiam. ideo 
+      <lb ed="#S" n="107"/>sicut non esset ibi substantia panis, nisi essent species, ita 
+      <lb ed="#S" n="108"/>nec corpus Christi. Vnde si panis conuerteretur in corpus 
+      <lb ed="#S" n="109"/>Christi, &amp; accidentia eius annihilarentur: non esset ibi 
+       cor<lb ed="#S" break="no" n="110"/>pus Christi, &amp; quia per conuersionem quantitatis non 
+       re<lb ed="#S" break="no" n="111"/>manet quantitas. ideo per hoc non esset ibi corpus 
+       Chri<lb ed="#S" break="no" n="112"/>sti.
+    </p>
+            <p xml:id="khj78y-q33079-d1e803" n="23">
+      <!-- 23 -->Ad tertium dicendum, quod per conuersionem fit 
+      <lb ed="#S" n="113"/>conuersum in loco termini non econuerso, &amp; si est 
+       conuer<lb ed="#S" break="no" n="114"/>sio in praeexistens: quod verum est, quando conuersum secundum 
+       ni<lb ed="#S" break="no" n="115"/>hil sui remanet in loco priori, &amp; secundum aliquid sui ad 
+      <lb ed="#S" n="116"/>ditur ad conuertens, sicut in alimento. sed quando conuersum 
+      <lb ed="#S" n="117"/>sic transsubstantiatur: quod nihil eius remanet additum conuer 
+      <lb ed="#S" n="118"/>tenti, &amp; aliquid eius remanet in loco priori: tunc 
+       con<lb ed="#S" break="no" n="119"/>uersum non potest dici esse in loco conuertentis: nec 
+       secun<lb ed="#S" break="no" n="120"/>dum id, quod manet: quia illud conuersum non est, sed est 
+      <lb ed="#S" n="121"/>a conuertente separatum, nec secundum id, quod conuersum est, 
+      <lb ed="#S" n="122"/>quia id non manet, &amp; quod nihil est in se, nihil est in alio. 
+      <lb ed="#S" n="123"/>sed econuerso conuertentes potest dici in loco conuersi: quia per 
+      <lb ed="#S" n="124"/>conuersionem factam in se succedit secundum praesentialitatem 
+      <lb ed="#S" n="125"/>ipsi, quod in ipsum conuersum est. Et sic sicut illud erat ibi, 
+      <lb ed="#S" n="126"/>sic &amp; istud ibi fit, quamuis istud imaginationem transcendat, 
+      <lb ed="#S" n="127"/>&amp; nihil tale videamus in naturalibus.
+    </p>
+            <p xml:id="khj78y-q33079-d1e840" n="24">
+      <!--24--> Ad 
+      <lb ed="#S" n="128"/>quartum dicendum, quod bene verum est, quod si corpus Christi 
+       es<lb ed="#S" break="no" n="129"/>set ibi, posset dici: Hoc est corpus meum, manente 
+       substan<lb ed="#S" break="no" n="130"/>tia panis: sicut si esset ibi localiter vtrunque corpus: vtrun 
+      <lb ed="#S" n="131"/>que posset demonstrari, &amp; ad vtrunq, demonstratio fierit 
+      <lb ed="#S" n="132"/>ad sensum si sensibiliter ad intellectum si solum sacramentali 
+      <lb ed="#S" n="133"/>ter. Et si posset demonstrari, non obstante substantia, sicus 
+      <lb ed="#S" n="134"/>nunc non obstante quantitate, &amp; qualitate: similiter posses 
+      <!--0135.xml-->
+      <pb ed="#S" n="135"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>aderari sine idololatria non obstante substantia, sicut nunc 
+      <lb ed="#S" n="2"/>non obstante quantitate, quia quicquid ibi sit cum corpore 
+      <lb ed="#S" n="3"/>Christi, siue accidens, siue substantia, siue vtrunque: 
+       sacer<lb ed="#S" break="no" n="4"/>dos non intendit praesentare ad adorandum, nec populus 
+      <lb ed="#S" n="5"/>adorare intendit, nisi corpus Christi. sed probatu est, quod 
+      <lb ed="#S" n="6"/>manente substantia panis, non potest ibi fieri corpus 
+       Chri<lb ed="#S" break="no" n="7"/>sti. ergo ibi non potest esse aliquid realiter: nisi aut per 
+       il<lb ed="#S" break="no" n="8"/>lapsum quemadmodum Deus est in omnibus spiritibus, 
+      <lb ed="#S" n="9"/>&amp; spiritus creatus in corpore assumpto, aut localiter: quem 
+      <lb ed="#S" n="10"/>admodum per miraculum duo corpora sunt simul, aut per 
+      <lb ed="#S" n="11"/>conuersionem. si ergo est hic corpus Christi, cum non 
+       pos<lb ed="#S" break="no" n="12"/>sit hic esse per illapsum: si non est hic per conuersionem, 
+      <lb ed="#S" n="13"/>erit hic per locationem: sicut fuit, quando exiuit clauso 
+       Virgi<lb ed="#S" break="no" n="14"/>nis vtero, &amp; sepulchro, &amp; hostio, &amp; sic non erit simul in 
+      <lb ed="#S" n="15"/>caelo, nec in pluribus altaribus, quod est erroneum. 
+    </p>
+            <p xml:id="khj78y-q33079-d1e899" n="25">
+               <lb ed="#S" n="16"/>
+               <!-- 25 -->QVANTVM ad secundam opinionem singula 
+      <lb ed="#S" n="17"/>rem sic procedet. Primo recitabitur modus ponendi. secun 
+      <lb ed="#S" n="18"/>do ponent rationes, &amp; authoritates, quas addunt. Tertio, 
+      <lb ed="#S" n="19"/>ponetur defensio eorum ab haeresi, in quam videntur 
+       incide<lb ed="#S" break="no" n="20"/>re. Quarto ostendetur quomodo opinio deficit in se. Quin 
+      <lb ed="#S" n="21"/>to, quomodo  deficit in suis motiuis. sexto concludetur veritas. 
+    </p>
+            <p xml:id="khj78y-q33079-d1e918" n="26">
+               <lb ed="#S" n="22"/>
+               <!-- 26 -->Est igitur opinio quorundam dicentium, quod est hic, 
+      <lb ed="#S" n="23"/>vel esse potest corpus Christi per assumptionem paneitatis 
+      <lb ed="#S" n="24"/>mediante corpore, quod est pars, &amp; non toto supposito, nec 
+      <lb ed="#S" n="25"/>humanitate, vt sit communicatio idiomatum corporis, &amp; pa 
+      <lb ed="#S" n="26"/>nis, sicut nunc Dei, &amp; hominis, quia immediate 
+       assum<lb ed="#S" break="no" n="27"/>psit humanitatem: non autem assumentis ad assumptum: quia 
+      <lb ed="#S" n="28"/>reputatur erroneum dicere verbum impanatum, sicut verbum 
+      <lb ed="#S" n="29"/>incarnatum, sicut dicit album, cui albedo inest mediante 
+      <lb ed="#S" n="30"/>tota superficie, &amp; aet hiops dicitur albus dentem, quia dens 
+      <lb ed="#S" n="31"/>eius albus est: quia est pars, mediante qua albedo inest, 
+      <lb ed="#S" n="32"/>sed non ipse, quia non secundum totum sui coniungitur 
+       albedi<lb ed="#S" break="no" n="33"/>ni.
+    </p>
+            <p xml:id="khj78y-q33079-d1e949" n="27">
+      <!-- 27 -->secundo dicunt, quod ex hoc sequitur corpus 
+      <lb ed="#S" n="34"/>Christi de Virgine natum, crucifixum esse hic realiter: quia 
+      <lb ed="#S" n="35"/>quaecumque praedicantur de praedicato, &amp; de subiecto. Cum er 
+      <lb ed="#S" n="36"/>go panis sit hic, quia corpus Christi est panis: per consequens 
+      <lb ed="#S" n="37"/>corpus illud est hic, sicut quia homo erat in praesepio, vel 
+      <lb ed="#S" n="38"/>in cruce, vel in vtero, ibi erat Deus, qui erat homo. Et 
+       si<lb ed="#S" break="no" n="39"/>cut quia Deus est ille homo, qui est passus, mortuus &amp;c. 
+      <lb ed="#S" n="40"/>Deus est ille, sic per consequens, quia panis manducat, 
+       fran<lb ed="#S" break="no" n="41"/>gitur, &amp; diuiditur corpus Christi, quod est panis frangit &amp;c. 
+    </p>
+            <p xml:id="khj78y-q33079-d1e971" n="28">
+               <lb ed="#S" n="42"/>
+               <!-- 28 -->Tertio dicunt, quod nihilominus saluant 
+       authori<lb ed="#S" break="no" n="43"/>tates sanctorum de conuersione cum assumptione. Cum enim 
+      <lb ed="#S" n="44"/>esse differat ab esientia secundum eos, vnum potest assumi 
+      <lb ed="#S" n="45"/>alio non assumpto. Vnde non sic est verbum incarnatum, sicut 
+      <lb ed="#S" n="46"/>impanatum: quia in illa assumptione praeuenta fuit essentia 
+      <lb ed="#S" n="47"/>assumpta, antequam haberet esse. Vnde nunquam habuit 
+      <lb ed="#S" n="48"/>esse aliud ab esse diuino sibi communicato, propter quod fuit 
+      <lb ed="#S" n="49"/>assumptio sine conuersione aliqua assumpti in assumens, 
+      <lb ed="#S" n="50"/>&amp; econuerso. Vnde non conuersione deitatis in carnem, nec 
+      <lb ed="#S" n="51"/>supple econuerso, sed assumptione humanitatis in Deo. 
+      <lb ed="#S" n="52"/>sed panis praeexistens habet esse, &amp; essentiam, &amp; assumptio 
+      <lb ed="#S" n="53"/>ad vnitatem suppositi consumit ipsum subsistere, non per 
+      <lb ed="#S" n="54"/>annihilationem, sed per conuersionem. Vnde per conuersio 
+      <lb ed="#S" n="55"/>nem esse substantia lis, &amp; per assumptionem essentiae sub 
+      <lb ed="#S" n="56"/>stantialis perficitur istud mysterum. Et sic omnes 
+       authorita<lb ed="#S" break="no" n="57"/>tes de transsubstantiatione loquentes, &amp; conuersione possunt 
+      <lb ed="#S" n="58"/>referri ad esse, non ad essentiam. Et authoritates, quod post 
+      <lb ed="#S" n="59"/>consecrationem non manet panis: sed fuit: verum est secun 
+      <lb ed="#S" n="60"/>dum esse, sed solu secundum essentiam. sic igitur dicunt, 
+      <lb ed="#S" n="61"/>quod ita veraciter potest esse in altari, &amp; sacramentaliter corpus 
+       Chri<lb ed="#S" break="no" n="62"/>sti sine conuersione per assumptionem paneitatis: sicut mo 
+      <lb ed="#S" n="63"/>do communiter ponitur per conuersionem.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1023" n="29">
+      <!-- 29 -->Et confirmant 
+      <lb ed="#S" n="64"/>hoc rationibus, postea authoritatibus: primo sic. 
+       Quae<lb ed="#S" break="no" n="65"/>cunque sunt idem supposito limitata, vbicumque est vnum, ibi 
+      <lb ed="#S" n="66"/>est &amp; reliquum, sicut vbicumque est musica sortis: ibi est cius 
+      <lb ed="#S" n="67"/>albedo, dico autem limitata, quia si vnum esset limitatum, &amp; 
+      <!--0135.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>aliud illimitatum: quamuis vbicunque esset limitatum, ibi esset il 
+      <lb ed="#S" n="69"/>limitatum, non tamen econuerso, vbicunque esset illimitatum, 
+      <lb ed="#S" n="70"/>esset limitatum, nec identitas suppositi sufficeret ad hoc: 
+      <lb ed="#S" n="71"/>verbi gratia, licet enim vbicumque est corpus Christi ibi sit 
+      <lb ed="#S" n="72"/>Christus: non tamen vbicumque est Christus secundum deitatem, 
+      <lb ed="#S" n="73"/>ibi est sua humanitas, sed pane assumpto, corpus Christi 
+      <lb ed="#S" n="74"/>humauum, &amp; corpus panis essent vnum supposito, &amp; vtrumque 
+      <lb ed="#S" n="75"/>est limitatum. ergo cum in altari esset panis assumptus per 
+      <lb ed="#S" n="76"/>consequens esset ibi corpus Christi.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1060" n="30">
+      <!-- 30 -->Praeterea 
+      <lb ed="#S" n="77"/>medium est propinquius, quam extremum: sed si Christus 
+       assu<lb ed="#S" break="no" n="78"/>meret pancitatem, hoc faceret mediante sua corporeitate: 
+      <lb ed="#S" n="79"/>qa indignius assu mptibile est mediante digniore secun 
+      <lb ed="#S" n="80"/>dum congruitatem aliumptionis. ergo cum suppositum Chri 
+      <lb ed="#S" n="81"/>sti assumens esset in altari cum pane assumpto: multo 
+       ma<lb ed="#S" break="no" n="82"/>gis ibi esset corpus Christi, quod esset medium assumptionis. 
+    </p>
+            <p xml:id="khj78y-q33079-d1e1078" n="31">
+               <lb ed="#S" n="83"/>
+               <!-- 31 -->Praeterea, ibi est Christus sacraliter, vbi est virtu 
+      <lb ed="#S" n="84"/>te sacramenti directe: sed directus fit Christus in altari per 
+       as<lb ed="#S" break="no" n="85"/>sumptionem, quae per conuersionem: ꝗe forma huius sacramenti, quae 
+      <lb ed="#S" n="86"/>efficit significando, directius, &amp; vetius efficit id, quod ma 
+      <lb ed="#S" n="87"/>gis proprie significat: haec autem est vnio per assumptionem, 
+      <lb ed="#S" n="88"/>quae communicantur idiomata: ita vt hoc sit id, quod sonant 
+      <lb ed="#S" n="89"/>verba formae, hoc est corpus meum: non auto vnio conuer 
+      <lb ed="#S" n="90"/>sionis, quia per illam panis non est Christus, nec 
+       econuer<lb ed="#S" break="no" n="91"/>so, sed panis fit Christus, vel conuertitur in ipsum. vnde &amp;c. 
+    </p>
+            <p xml:id="khj78y-q33079-d1e1103" n="32">
+               <lb ed="#S" n="92"/>
+               <!-- 32 -->Confirmatur autem haec positio quibusda autho 
+      <lb ed="#S" n="93"/>ritatibus. Primo authoritate Dam̃. 4. libr. c. 5. vbidicit, q 
+      <lb ed="#S" n="94"/>panis assumit, &amp; vnitur deitati: in hac esca spirituali, 
+       si<lb ed="#S" break="no" n="95"/>cut carbo est lignum vnitum igni, &amp; humanitas Deo in 
+       in<lb ed="#S" break="no" n="96"/>carnatione.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1119" n="33">
+      <!-- 33 -->Item Apostolus. I. Corin. 1o. 
+       Pa<lb ed="#S" break="no" n="97"/>nis, quem communicamus &amp;c. Item in lib.anti. inuenta est 
+      <lb ed="#S" n="98"/>haec opinio, non solum de possibilitate, sed de entitate. Et 
+      <lb ed="#S" n="99"/>ratio eius, quia per hanc positionem plures difficultates tol 
+      <lb ed="#S" n="100"/>luntur. sola enim difficultas de vnione est hic. Cum igi 
+      <lb ed="#S" n="101"/>tur pauciora inconuenientia sint ponenda in articulis 
+       fi<lb ed="#S" break="no" n="102"/>dei: &amp; illa, quae saluant apparentia, apparent autem esse 
+       pa<lb ed="#S" break="no" n="103"/>nis, &amp; vinum, quae conuersio non saluat, sed assumptio, &amp; 
+       as<lb ed="#S" break="no" n="104"/>sumptio est specialis articulus fidei, non conuersio. ergo 
+      <lb ed="#S" n="105"/>&amp;c. Et propter hoc confessio Berengarij est, quod corpus Chri 
+      <lb ed="#S" n="106"/>sti sensibiliter frangitur. Nec obstat, quod non esset ibi veritas: 
+      <lb ed="#S" n="107"/>na sicut dicis substantiam panis non manere. i. substantiam 
+      <lb ed="#S" n="108"/>quae est panis, vt creatura salis, sic dicimus corpus 
+       Chri<lb ed="#S" break="no" n="109"/>sti, id est corpus quod est Christus, &amp; hoc est corpus meum, 
+      <lb ed="#S" n="110"/>quod pro vobis tradetur.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1154" n="34">
+      <!-- 34 -->Dicunt etiam hanc 
+      <lb ed="#S" n="111"/>opinionem in multis differre ab illa, quae ponit 
+       substan<lb ed="#S" break="no" n="112"/>tiam panis manere, quae reputatur haeretica, &amp; 
+       impossi<lb ed="#S" break="no" n="113"/>bilis: primo, quia illa ponit post consecrationem duo suppo 
+      <lb ed="#S" n="114"/>sita: haec autem vnum solum in tribus naturis. secundo, quia 
+      <lb ed="#S" n="115"/>illa ponit manere panis subsistentiam: haec autem substan 
+      <lb ed="#S" n="116"/>tiam per modum accidentis, non substantiae. Tertio, quia illa 
+      <lb ed="#S" n="117"/>ponit manere panem, quo ad esse proprium, hoc quo ad 
+       es<lb ed="#S" break="no" n="118"/>sentiam tantum. Quarto, quia illa ponit eundum panem, &amp; idem 
+      <lb ed="#S" n="119"/>vinum: hoc vero alium panem, &amp; aliud vinum: licet eandem pa 
+      <lb ed="#S" n="120"/>neitatem, quod vineitatem. Quinto, quia ex illa sequitur 
+       veraci<lb ed="#S" break="no" n="121"/>ter in altari de nouo corpus Christi non esse: cum nec ipsum 
+      <lb ed="#S" n="122"/>mutetur, nec aliud in ipsum: hic autem sic: quia ponit panem 
+      <lb ed="#S" n="123"/>mutari quo ad esse. sexto, quia ex ilia non est communicatio 
+      <lb ed="#S" n="124"/>idiomatum cum sint duo supposita. Ex ista autem sic. septimo 
+      <lb ed="#S" n="125"/>qa ex illa non adoratur quicquid est in altari adoratione la 
+      <lb ed="#S" n="126"/>triae: ex ista a utem sit propter vnitatem suppositi. Octauo, quia 
+      <lb ed="#S" n="127"/>illa dicit sic esse: hic autem non sic esse, sed posse esse. 
+    </p>
+            <p xml:id="khj78y-q33079-d1e1196" n="35">
+               <lb ed="#S" n="128"/>
+               <!-- 35 -->sed haec opinio non valet in se, nec in suis 
+       mo<lb ed="#S" break="no" n="129"/>tiuis. In se quidem apparet falsa: primo, quia aut assumeret 
+      <lb ed="#S" n="130"/>panem cum accidentibus, aut solam substantiam. si primo mo 
+      <lb ed="#S" n="131"/>do quamuis hoc sit possibile secundum illos, qui dicunt, quod 
+      <lb ed="#S" n="132"/>de potentia absoluta Deus potest assumere naturam 
+       irratio<lb ed="#S" break="no" n="133"/>nalem: tum per hoc non esset in altari sacramentaliter, sed localiter 
+      <lb ed="#S" n="134"/>per quantitatem cum substantia assumptam in altari, nec in- 
+      <!--0136.xml-->
+      <pb ed="#S" n="136"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>de motam: sicut localiterfuit in vtero per quantitatem. 
+      <lb ed="#S" n="2"/>cum humanitate ibi assumptam. si secundo modo forte 
+      <lb ed="#S" n="3"/>hoc est impossibile: quia quod non est per se factibile, nec 
+      <lb ed="#S" n="4"/>substentabile quacumque virtute: vt relatio, vel aliquid hu 
+      <lb ed="#S" n="5"/>iusmodi, non est per se assumptibile: substantia autem 
+       cor<lb ed="#S" break="no" n="6"/>poralis sine quantitate fieri non potest, quae est suus 
+       termi<lb ed="#S" break="no" n="7"/>nus, &amp; propria passio: magis, quam quantitas sine figura 
+       secun<lb ed="#S" n="8" break="no"/>dum quosdam.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1240" n="36">
+      <!-- 36 -->Praeterea, dato quod esset possibi 
+      <lb ed="#S" n="9"/>le adhuc non faceret ibi esse corpus Christi, ua aliud est 
+      <lb ed="#S" n="10"/>dicere corpus, quod est Christus: hoc enim est genus ad 
+      <lb ed="#S" n="11"/>animal, &amp; dicit totum suppositum Christi: aliud corpus Chri 
+      <lb ed="#S" n="12"/>sti, quod dicit partem humanitatis. Licet autem corpus vtro 
+      <lb ed="#S" n="13"/>que modo sumptum sit, in altari tamen differenter: quia corpus 
+      <lb ed="#S" n="14"/>quod  est suppositum: est ibi tantum secundario ex naturali conco 
+      <lb ed="#S" n="15"/>mittantia. sed corpus, quod est per se pars: est ibi virtute 
+      <lb ed="#S" n="16"/>sacramenti, &amp; ex vi verborum directe: quod patet ex forma 
+      <lb ed="#S" n="17"/>consecrationis ipsius corporis, qua dicitur: Hoc est corpus 
+      <lb ed="#S" n="18"/>meum: quod non potest intelligi de corpore, quod est genus: sed so 
+      <lb ed="#S" n="19"/>lum de corpore, quod est pars: quia genus non praedicatur 
+       posses<lb ed="#S" break="no" n="20"/>siue de inferiori, sicnt pars de toto. Bene enim dico 
+       hu<lb ed="#S" break="no" n="21"/>manitas mea, &amp; manus mea: non autem animal meum, vel 
+      <lb ed="#S" n="22"/>homo meus de meipso.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1275" n="37">
+      <!-- 37 -->Hoc idem patet ex con 
+      <lb ed="#S" n="23"/>secratione sanguinis, qua dicitur: Hic est calix sanguinis 
+      <lb ed="#S" n="24"/>mei. sanguis enim non est aequiuocum ad genus, &amp; ad pat 
+      <lb ed="#S" n="25"/>tem, sicut corpus, sed tantum sumitur pro parte. Datoergo 
+      <lb ed="#S" n="26"/>quod corpus, quod est Christus per illam assumptionem esset 
+      <lb ed="#S" n="27"/>ex vi sacramenti in altari: non tamen corpus Christi, quod est pars: 
+      <lb ed="#S" n="28"/>nisi tantum ex naturali concomitantia: quia per 
+       assumptio<lb ed="#S" break="no" n="29"/>nem non fieret vnio in naturis, sed tantum in persona: vnde per 
+      <lb ed="#S" n="30"/>illam assumptionem fieret, quod panis esset corpus, quod est Chri 
+      <lb ed="#S" n="31"/>stus: non autem corpus Christi, sicut nec modo diuinitas 
+      <lb ed="#S" n="32"/>est humanitas.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1302" n="38">
+      <!-- 38 -->Praeterea corpus Christi non 
+      <lb ed="#S" n="33"/>incipit esse realiter, nisi mutatione facta in ipso: puta si 
+      <lb ed="#S" n="34"/>secundum locum de coelo moueatur, vel mutatione facta in 
+      <lb ed="#S" n="35"/>ipsum, sed neutrum contingit per assumptionem: quia licet 
+       pa<lb ed="#S" break="no" n="36"/>nis assumptus mutaretur perdendo subsistentiam propriam: non 
+      <lb ed="#S" n="37"/>tamen mutaretur in Christum, nec in corpus Christi, vt postea 
+      <lb ed="#S" n="38"/>dicetur. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1320" n="39">
+      <!-- 39 -->Praeterea, paneitas assumpta 
+      <lb ed="#S" n="39"/>corruptis speciebus, cum quibus fuit assumpta, maneret 
+      <lb ed="#S" n="40"/>omnino frustra in aeternum. Non enim corrumpi posset: cum 
+      <lb ed="#S" n="41"/>careret qualitatibus contrariis, nec sumi posset in vsum fi 
+      <lb ed="#S" n="42"/>delium: proptet quod tamen fit consecratio. Et sit si maneret, fru 
+      <lb ed="#S" n="43"/>stra maneret-
+    </p>
+            <p xml:id="khj78y-q33079-d1e1336" n="40">
+      <!-- 40 -->si dicant, quod non maneret. 
+       con<lb ed="#S" break="no" n="44"/>tra, quia sicut corpus hominis assumptum non debuit corrum 
+      <lb ed="#S" n="45"/>pi, nec putrefieri, nec in substantia, nec in quantitate, sic 
+      <lb ed="#S" n="46"/>nec deberet corrumpi panis, si assumeretur.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1347" n="41">
+      <!-- 41 -->
+       Prae<lb ed="#S" break="no" n="47"/>terea, si assumeret vna natura, semper esset distincta ab 
+      <lb ed="#S" n="48"/>alia: ita quod vna non esset forma alterius, cum duae naturae 
+      <lb ed="#S" n="49"/>substantiales perfectae non possint se informare. sed ma 
+      <lb ed="#S" n="50"/>nente distinctione naturarum, &amp; finitate vtriusque 
+       identita<lb ed="#S" break="no" n="51"/>tis suppositi non facit ibi esse vnum, vbi est reliquum. Non 
+      <lb ed="#S" n="52"/>enim si Christus assumit lapidem Romae: &amp; lignum 
+       Pari<lb ed="#S" break="no" n="53"/>sius, propter hoc lapis est Parisius, nec econuerso. eraeo 
+       quam<lb ed="#S" n="54" break="no"/>uis panis assumptus sit in altari: non tamen propter hoc cor 
+      <lb ed="#S" n="55"/>pus Christi humanum est ibi.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1371" n="42">
+      <!-- 42 -->Praeterea non 
+       pos<lb ed="#S" break="no" n="56"/>set assumere mediante primo corpore: quia aut esset medium 
+      <lb ed="#S" n="57"/>in substantificando: ita quod prius substantificaretur in 
+       corpo<lb ed="#S" break="no" n="58"/>re Christi postea in supposito diuino, quod non possibile: 
+      <lb ed="#S" n="59"/>tum quia suppositum finitum non potest substantificare alienam 
+      <lb ed="#S" n="60"/>naturam: tum quia suppositum humanum non habet ibi 
+       subsi<lb ed="#S" break="no" n="61"/>stentiam propria. Vnde omnem naturam a Deo assumptam 
+       opor<lb ed="#S" break="no" n="62"/>tet immediate substantificari in supposito aeterno: aut 
+       es<lb ed="#S" break="no" n="63"/>set medium congruitatis propter dignitatem, &amp; hoc non est 
+      <lb ed="#S" n="64"/>possibile: cum vnum non sit forma alterius: quia formae 
+       sub<lb ed="#S" break="no" n="65"/>stantialis non est alia forma, nec materiae est materia. 
+    </p>
+            <p xml:id="khj78y-q33079-d1e1397" n="43">
+               <lb ed="#S" n="66"/>
+               <!-- 43 -->Praeterea, si esset meditatio nihil faceret ad 
+       propo<lb ed="#S" break="no" n="67"/>situm. Non enim esset maior vnio panis ad corpus, quam fue- 
+      <!--0136.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>rit vnio animae ad corpus in triduo: quia cum ibi 
+       man<lb ed="#S" break="no" n="69"/>serit vnio insupposito, si haec esset maior: oporteret, quod 
+       es<lb ed="#S" break="no" n="70"/>set in natura: ita quod vnum conuerteret in aliud, vel per 
+       con<lb ed="#S" break="no" n="71"/>positionem vnum esset forma alterius, quod est impossibile, 
+      <lb ed="#S" n="72"/>sed in triduo per consecrationem: anima non fuisset in 
+       sa<lb ed="#S" break="no" n="73"/>ero ad minus ex vi sacramenti: quamuis in sacramento esset corpus exani 
+      <lb ed="#S" n="74"/>me. ergo nec hic esset corpus, quanuis esset panis. 
+    </p>
+            <p xml:id="khj78y-q33079-d1e1427" n="44">
+               <lb ed="#S" n="75"/>
+               <!-- 44 -->Praeterea, falsitas esset in sacro veritatis, qua 
+       di<lb ed="#S" break="no" n="76"/>citur: Hoc est corpus meum: quia contentum sub speciebus: quamuis 
+      <lb ed="#S" n="77"/>esset corpus, quod est Christus, non tamen corpus Christi, vt 
+      <lb ed="#S" n="78"/>dictum est.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1440" n="45">
+      <!-- 45 -->Nec valent eorum motiua, nam prima 
+      <lb ed="#S" n="79"/>ratio adducta, tenet solum in his, quae sunt in loco per 
+       ac<lb ed="#S" break="no" n="80"/>cidens. secus autem est de his, quae sunt in loco per se, vt 
+      <lb ed="#S" n="81"/>dictum est de duobus corporibus.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1451" n="46">
+      <!-- 46 -->Aliae autem 
+      <lb ed="#S" n="82"/>rationes si bene considerentur: solutae sunt per iam dicta, &amp; 
+      <lb ed="#S" n="83"/>deducenda.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1460" n="47">
+      <!-- 47 -->Non valet etiam illud, quod in 
+       prin<lb ed="#S" break="no" n="84"/>cipio opinionis ponebatur: quia licet corpus assumptum sit 
+       me<lb ed="#S" break="no" n="85"/>diante anima, non tamen propter hoc corpus est anima: nec 
+      <lb ed="#S" n="86"/>econuerso. Nunquam enim vna pars praedicat de alia sub 
+      <lb ed="#S" n="87"/>nom ine partis, quis sint idem supposito, nisi solum denomi 
+      <lb ed="#S" n="88"/>natiue: quia sic importat totum.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1476" n="48">
+      <!-- 48 -->Praeterea, sic 
+       dici<lb ed="#S" break="no" n="89"/>tur in duobus accidentibus, vel in substantia, &amp; 
+       acciden<lb ed="#S" break="no" n="90"/>te: vt album musicum, &amp; Deus albus: non sic autem in duabus 
+      <lb ed="#S" n="91"/>partibus substantialibus. Vnde non dicitur caput 
+       pedita<lb ed="#S" break="no" n="92"/>tum, nec pes capitatus, nec tibia peditata, quis pes insit 
+      <lb ed="#S" n="93"/>mediante tibia. Et sic propter hanc mediationem posset dici 
+      <lb ed="#S" n="94"/>tibia peditata, aut brachium manuatum, non tamen potest 
+       diciti<lb ed="#S" break="no" n="95"/>bia pes, nec brachium manus, nec econuerso, sed magis 
+       di<lb ed="#S" break="no" n="96"/>citur homo pedatus: sic igitur propter illam mediationem 
+      <lb ed="#S" n="97"/>posset dici corpus Christi forte paneum, vel paneatum: non 
+      <lb ed="#S" n="98"/>tamen posset dici panis. sed totum suppositum diceretur 
+       im<lb ed="#S" break="no" n="99"/>panatum, vel paneatum, aut paneum, sicut dicitur corporeu a 
+      <lb ed="#S" n="100"/>corpore: imo cum panis dicat suppositum, quia panis est quod 
+      <lb ed="#S" n="101"/>dam corpus: posset dici, quod suppositum est panis: &amp; sic esset 
+      <lb ed="#S" n="102"/>communicatio idiomatu respectu assumentis, &amp; assumpti: 
+      <lb ed="#S" n="103"/>non respectu medij assumptionis. Hocenim nonfacit 
+       im<lb ed="#S" break="no" n="104"/>mediatio assumptionis, sed identitas suppositi, &amp; 
+       mo<lb ed="#S" break="no" n="105"/>dus praedicandi: quia concretum significat modum totius non 
+      <lb ed="#S" n="106"/>partis.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1520" n="49">
+      <!-- 49 -->Nec valet secundum, quia sublata communi 
+      <lb ed="#S" n="107"/>catione idiomatum destruit, quod inexistentia vnius non veri 
+      <lb ed="#S" n="108"/>ficat praedicationem inexistentiae alterius. Dato etiam, quod esset 
+      <lb ed="#S" n="109"/>ibi communicatio idiomatum: non sequeretur corpus Christi 
+      <lb ed="#S" n="110"/>magis esse in altari, quam econuerso, panem esse in coelo: quia si 
+      <lb ed="#S" n="111"/>cut Deus est mortuus: per hoc, quod Deus est ille homo: ita 
+      <lb ed="#S" n="112"/>filius hominis est in coelo: per hoc, quod Deus est in coelo: 
+      <lb ed="#S" n="113"/>quod ipsi non dicunt. Nec hoc est essentiam corporis Christi 
+      <lb ed="#S" n="114"/>esse realiter hic, sed suppositum corporis: quia esse corporis, 
+      <lb ed="#S" n="115"/>&amp; sanguinis non est vsquam nisi vel localiter, vel per 
+       con<lb ed="#S" break="no" n="116"/>uersionem.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1547" n="50">
+      <!-- 50 -->Tertium etiam non valet, quia si propter 
+      <lb ed="#S" n="117"/>hoc quod essentia panis non habet proprium, esse posset dici 
+      <lb ed="#S" n="118"/>non manere, sed transire pari ratione in incarnatione pos 
+      <lb ed="#S" n="119"/>set dici humana natura transire, non manere: quia 
+       secun<lb ed="#S" break="no" n="120"/>dum eos non habet ibi proprium esse.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1560" n="51">
+      <!-- 51 -->Praeterea 
+      <lb ed="#S" n="121"/>cum conuersio non sit nisi communicantium in materia 
+       se<lb ed="#S" break="no" n="122"/>cundum eos si in Deo non est nisi vnum esse. scilicet diuinum, cum 
+      <lb ed="#S" n="123"/>inesse diuinum nihil possit conuerti. ergo non est in quod , 
+      <lb ed="#S" n="124"/>illud esse panis conuertat.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1573" n="52">
+      <!-- 52 -->Et quod dicunt, quod 
+       pa<lb ed="#S" break="no" n="125"/>nis fit corpus Christi, &amp; corpus Christi fit panis, quod non 
+      <lb ed="#S" n="126"/>esset, nisi maneret: exponendum est. i. vbi erat panis, ibi fis 
+      <lb ed="#S" n="127"/>corpus Christi.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1584" n="53">
+      <!-- 53 -->Quod autem Dio. vocat hoc 
+       sa<lb ed="#S" n="128" break="no"/>cramentum assumptionis, hoc est, quia species assumuntur ad vsum 
+      <lb ed="#S" n="129"/>mysterij, &amp; substantia conuertitur, sicut dicit̃cibus 
+       sum<lb ed="#S" break="no" n="130"/>ptus, vel assumptus, qui tamen non manet.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1595" n="54">
+      <!-- 54 -->Quod 
+      <lb ed="#S" n="131"/>autem Dam̃. dicit: Deus coniugauit deitatem pani: dicendum, 
+      <lb ed="#S" n="132"/>quod non per assumptionem: sed sicut cibus conlungitur 
+       ci<lb ed="#S" break="no" n="133"/>bato, quia conuertitur in ipsum.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1606" n="55">
+      <!-- 55 -->Ad 
+       authorita<lb ed="#S" break="no" n="134"/>tem Dama. superius positam dicendum, quod est simile quan- 
+      <!--0137.xml-->
+      <pb ed="#S" n="137"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>tum ad hoc: quia in carbone lignum conuertitur in ignem 
+      <lb ed="#S" n="2"/>quando perfecte accenditur: &amp; tunc non manet lignum, &amp; 
+      <lb ed="#S" n="3"/>in incarnatione sanguis Virginis est conuersus in 
+       cor<lb ed="#S" break="no" n="4"/>pus Christi. sed non est simile quantum ad alia, vel sic est 
+      <lb ed="#S" n="5"/>hic, sicut ibi. i. ita vere est hic Deus, &amp; homo: sicut ibi, 
+      <lb ed="#S" n="6"/>sed per alium modum. 56. Quod autem inducunt 
+      <lb ed="#S" n="7"/>Berengarium, quod corpus Christi frangitur, exponendum 
+      <lb ed="#S" n="8"/>est, id est, manet sub speciebus, quae franguntur, quandiu 
+      <lb ed="#S" n="9"/>manent in quantacuuque modica parte.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1640" n="57">
+      <!-- 57 -->sic 
+       igi<lb ed="#S" break="no" n="10"/>tur digo, quod Deus posset panem, &amp; vinum assumere, sicut 
+      <lb ed="#S" n="11"/>potest conuertere, &amp; quod posset verba instituere: ad quorum 
+      <lb ed="#S" n="12"/>prolationem sequeretur assumptio, sicut nunc ad horum 
+      <lb ed="#S" n="13"/>prolationem sequitur conuersio: non tamen dedit hanc 
+       virtu<lb ed="#S" break="no" n="14"/>tem istis verbis, nec posset saluari sensus modernus 
+       ver<lb ed="#S" break="no" n="15"/>borum, si fieret assumptio non conuersio. Authoritates, vt 
+      <lb ed="#S" n="16"/>dictum est, exponendae sunt.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1660" n="58">
+      <!-- 58 -->Dicendum etiam 
+      <lb ed="#S" n="17"/>quod articulus de eucharistia potest esse specialis sub illo 
+      <lb ed="#S" n="18"/>verbo: sanctorum communionem, &amp; illa assumptio magis 
+      <lb ed="#S" n="19"/>saluaret apparentia ad sensum: sed conuersio magis 
+       sal<lb ed="#S" break="no" n="20"/>nat apparentia ad intellectum, id est, verba Euangelij: 
+      <lb ed="#S" n="21"/>quae melius est saluare: quia non possunt mentiri, sicut 
+      <lb ed="#S" n="22"/>sensus potest decipi.
+    </p>
+            <p xml:id="khj78y-q33079-d1e1678" n="59">
+      <!-- 59 -->Ad argumentum in 
+       oppo<lb ed="#S" break="no" n="23"/>situm dicendum, quod aliud est esse in loco conuersi locali 
+      <lb ed="#S" n="24"/>ter, quod non conuenit, nisi generatio, vt arguitur: aliud 
+      <lb ed="#S" n="25"/>est esse in loco conuersi sacramentaliter, quod conuenit 
+      <lb ed="#S" n="26"/>ei, quod est terminus conuersionis substantiae: licet non 
+      <lb ed="#S" n="27"/>generetur. Isto autem modo est corpus Christi in altari 
+      <lb ed="#S" n="28"/>per conuersionem, &amp; non primo modo. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

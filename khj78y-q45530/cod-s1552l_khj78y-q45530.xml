@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="168"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q45530"><!-- l4d14-q3 -->
+            <head xml:id="khj78y-q45530-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-q45530-Hd1e103" type="question-title">
+     de poenitentia 
+     in comparatione ad alias virtutes
+   </head>
+            <p xml:id="khj78y-q45530-d1e106">
+               <lb ed="#S" n="106"/>QVAESTIO TERTIA. 
+      <lb ed="#S" n="107"/>De subiecto poenitentiae.
+    </p>
+            <p xml:id="khj78y-q45530-d1e113">
+               <lb ed="#S" n="108"/>Thom. 3. q. sa. art. 6. &amp;. s5. art. 6. 
+    </p>
+            <p xml:id="khj78y-q45530-d1e118">
+               <lb ed="#S" n="109"/>TERTIO Quaeritur de poenitentia 
+      <lb ed="#S" n="110"/>in comparatione ad alias virtutes. Et 
+       vide<lb ed="#S" break="no" n="111"/>tur, quod sit prima omnium virtutum: quia 
+       cau<lb ed="#S" break="no" n="112"/>sa est prior effectu, sed per poenitentiam ac 
+      <lb ed="#S" n="113"/>quiruntur, &amp; causantur in pectore omnes 
+      <lb ed="#S" n="114"/>virtutes. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q45530-d1e135" n="2">
+      <!-- 2 -->CONTRA: 
+       fundamen<lb ed="#S" break="no" n="115"/>tum est prima pars aedificij: sed fides est fundamentum 
+       to<lb ed="#S" break="no" n="116"/>tius spūalis aedificij. ergo, &amp; prima.
+    </p>
+            <p xml:id="khj78y-q45530-d1e144" n="3">
+      <!-- 3 -->
+       RESPON<lb ed="#S" break="no" n="117"/>DEO, hic sunt quinque conclusiones. Prima, quod poeniten 
+      <lb ed="#S" n="118"/>tia timore concipitur: quia Oderunt peccare boni virtu 
+      <lb ed="#S" n="119"/>tis amore. Oderunt peccare mali formidine poenae: itaque 
+      <lb ed="#S" n="120"/>cum sint plures mali, quam boni, vt in pluribus concipitur 
+      <lb ed="#S" n="121"/>timore poenae: licet in aliquibus bonis concipiatur 
+       vir<lb ed="#S" break="no" n="122"/>tutis amore.
+    </p>
+            <p xml:id="khj78y-q45530-d1e162" n="4">
+      <!-- 4 -->secunda conclusio est, quomodo  ipsa est 
+      <lb ed="#S" n="123"/>prima virtutum: quia licet omnes virtutes simul 
+       infundan<lb ed="#S" break="no" n="124"/>tur quantum ad habitum: vna tamen est prior altera quantum 
+      <lb ed="#S" n="125"/>ad ordinem secundum actum. Et ideo ex actibus ista prioritas 
+      <lb ed="#S" n="126"/>est attendenda. Motum autem voluntatis cuiusmodi est 
+       mo<lb ed="#S" break="no" n="127"/>tus virtutum moralium praecedit motus cognitionis: quia 
+       ap<lb ed="#S" break="no" n="128"/>petibile imaginatum, vel intellectum mouet appetitum, vt 
+       di<lb ed="#S" break="no" n="129"/>citur in tertio de anima: &amp; iterum extimatio possibilitatis 
+      <lb ed="#S" n="130"/>quia electio, quae est principalis motus virtutis non potest 
+      <!--0169.xml-->
+      <pb ed="#S" n="169"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>esse de impossibili extimato. Motus autem appetitus in 
+      <lb ed="#S" n="2"/>duobus consistit, in fuga mali, &amp; in prosequutione boni. 
+      <lb ed="#S" n="3"/>Et haec duo diuersimode generant. Quandoque enim 
+       ali<lb ed="#S" break="no" n="4"/>quis fugit malum propter desiderium boni: quandoque enim eli 
+      <lb ed="#S" n="5"/>quis fugit malum propter desiderium boni: quando alio mo 
+      <lb ed="#S" n="6"/>do. Et hic motus est frequentius in reuersione peccatoris 
+      <lb ed="#S" n="7"/>ad Deum per poenitentiam. Et ideo motum poenitentiae prae 
+      <lb ed="#S" n="8"/>cedit motus fidei: quia accedentem ad Deum oportet crede 
+      <lb ed="#S" n="9"/>re. Hebr. 2. &amp; iterum motus spei coniunctus motui timoris, 
+      <lb ed="#S" n="10"/>propter quem fit extimatio de possibilitate veniae 
+       conse<lb ed="#S" break="no" n="11"/>quendae. Et ideo dicit Grego. quod poenitens mouetur 
+       in<lb ed="#S" break="no" n="12"/>ter spem, &amp; timorem: deinde vt in pluribus sequitur 
+       mo<lb ed="#S" break="no" n="13"/>dus poenitentiae: de inde motus charitatis, &amp; aliarum virtu 
+      <lb ed="#S" n="14"/>tum per ordinem. Quandoque etiam motus praecedit motum 
+       poeni<lb ed="#S" break="no" n="15"/>tentiae: vt dictum est. sed ille amor non est charitatis: quia 
+      <lb ed="#S" n="16"/>charitas amissa non recuperatur: nisi per contritionem de 
+      <lb ed="#S" n="17"/>peccatis praecedentibus, quae est motus poenitentiae 
+       virtu<lb ed="#S" break="no" n="18"/>tis. secundum hoc ergo dicendum est, quod poenitentia est prior 
+      <lb ed="#S" n="19"/>quibusdam virtutibus. scilicet charitate, &amp; sequentibus ipsam, &amp; 
+      <lb ed="#S" n="20"/>posteor fide, &amp; spe.
+    </p>
+            <p xml:id="khj78y-q45530-d1e234" n="5">
+      <!-- 5 -->Tertia conclusio est, quod 
+       poe<lb ed="#S" break="no" n="21"/>nitentia potest dici fundamentum. Ad cuius euidentiam 
+      <lb ed="#S" n="22"/>est sciendum, quod fundamentum dicitur in spiritualibus ad 
+      <lb ed="#S" n="23"/>similitudinem fundamenti corporalis: quod duas habet 
+      <lb ed="#S" n="24"/>proprietates. Prima est, quod ipsum est prima pars aedificij. 
+      <lb ed="#S" n="25"/>Alia, quod fundamento totum aedincium sustetatur. Et ideo 
+      <lb ed="#S" n="26"/>in spiritualibus fundamentum dicit aliquid, vel ratione 
+      <lb ed="#S" n="27"/>prioritatis, vel ratione conseruationis aliorum, &amp; 
+       sustenta<lb ed="#S" break="no" n="28"/>tionis, aut etiam ratione vtriusque. Prioritas autem potest 
+       at<lb ed="#S" break="no" n="29"/>tendi dupliciter. Vno modo quantum ad discliplinanspiri 
+      <lb ed="#S" n="30"/>tualium, &amp; sic illa, quae primo occutrunt edocenda in Chri 
+      <lb ed="#S" n="31"/>stiana religione fundamentum dicuntur Hebr. 6. Alio 
+      <lb ed="#S" n="32"/>modo quantum ad vitam spiritualem: &amp; sicfides dicitur 
+       simpli<lb ed="#S" break="no" n="33"/>citer fundamentum: sed timor, &amp; poenitentia in genere 
+       eo<lb ed="#S" break="no" n="34"/>rum, quae adeffectum pertinent quantum ad fugam mali: cha 
+      <lb ed="#S" n="35"/>ritas autem quantum ad prosequutionem boni: proutdicitur 
+      <lb ed="#S" n="36"/>Ephe. 4. In charitate radicati, &amp; fundati. sed ratione su 
+      <lb ed="#S" n="37"/>stentationis in prosperis dicitur humilitas fundamentum, 
+      <lb ed="#S" n="38"/>in aduersis fortitudo. Poenitentia autem, &amp; timor in 
+       rece<lb ed="#S" break="no" n="39"/>dendo a malo diuersimode sunt fundamenta: quia timor 
+      <lb ed="#S" n="40"/>est primum in isto genere, quod est recedendo a malo 
+       com<lb ed="#S" break="no" n="41"/>misso. Et ideo etiam timor praecedit poenitentiam, sicut prin 
+      <lb ed="#S" n="42"/>cipia generis praecedunt principia speciei.
+    </p>
+            <p xml:id="khj78y-q45530-d1e286" n="6">
+      <!-- 6 -->
+       Quar<lb ed="#S" break="no" n="43"/>ta conclusio est, quod poenitentia dicit secunda tabula post nau 
+      <lb ed="#S" n="44"/>fragium secundum Hiero. &amp; est metaforica locutio. Illi enim 
+      <lb ed="#S" n="45"/>qui prospero itinere mare nauigant, prima tabula susten 
+      <lb ed="#S" n="46"/>tantur. sipsa naui integra. sed naufragium passi 
+       alicu<lb ed="#S" break="no" n="47"/>ius tabulae nauis fractae auxilio ad portum salutis 
+       ducun<lb ed="#S" break="no" n="48"/>tur. Et haec secunda tabula dicit, quae est post naufragium: 
+      <lb ed="#S" n="49"/>non quod sit secunda post naufragium: sed quia existens post 
+      <lb ed="#S" n="50"/>naufragium est secunda a prima, quae erat ante 
+       naufra<lb ed="#S" break="no" n="51"/>gium. Gratia igitur baptismalis, per quam in ecclesia 
+       col<lb ed="#S" break="no" n="52"/>locamur: cuius figura fuit archa Noe: dicitur prima 
+       ta<lb ed="#S" break="no" n="53"/>bula ante naufragium. sed quia per peccatum mortale nau 
+      <lb ed="#S" n="54"/>fragium passis, &amp; a gratia innocentiae cadentibus non 
+       re<lb ed="#S" break="no" n="55"/>stat aliquod remedium, nisi poenitentia. ideo poenitentia 
+      <lb ed="#S" n="56"/>secunda tabula dicitur.
+    </p>
+            <p xml:id="khj78y-q45530-d1e321" n="7">
+      <!-- 7 -->Quinta conclusio est, 
+      <lb ed="#S" n="57"/>quod poenitentia multipliciter diffinitur. Prima est Ambr. 
+      <lb ed="#S" n="58"/>&amp; Greg. quia Poenitentia est inala praeterita plangere, &amp; plan 
+      <lb ed="#S" n="59"/>genda iterum non committere. Quam diffinitionem 
+       Magi<lb ed="#S" break="no" n="60"/>ster ad forman debitam renducens dicit, quod poenitentia est 
+      <lb ed="#S" n="61"/>virtus, quam commissa mala plangimus cum 
+       emendatio<lb ed="#S" break="no" n="62"/>nis proposito: vbi primo ponitur genus: quod virtus. Alia 
+      <lb ed="#S" n="63"/>duo pertinent ad differentiam. scilicet dolor de peccatis praeteri 
+      <lb ed="#S" n="64"/>tis, quod tangit in hoc, quod dicitur: qua commissa mala 
+      <lb ed="#S" n="65"/>plangimus, &amp; propositum de futura emendatione cum emen 
+      <lb ed="#S" n="66"/>dationis proposito. Et haec duo perfecte recompensant 
+       di<lb ed="#S" break="no" n="67"/>ninam offensam exterius. sic igitur haec diffinitio com- 
+      <!--0169.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>pletissima est, quia tangit &amp; genus, &amp; actum, &amp; obiestum, 
+      <lb ed="#S" n="69"/>&amp; vtrunque illorum, quae ad emendationem Deo 
+       exhiben<lb ed="#S" break="no" n="70"/>da requiruntur. Alia diffinitio est Aug. quae in litera 
+       po<lb ed="#S" break="no" n="71"/>nitur: quae quasi est eadem cum ista: nisi quod magis exprimit 
+      <lb ed="#S" n="72"/>proximum genus ipsius, &amp; proximas magis 
+       differontias<lb ed="#S" break="no" n="73"/>Dicit enim, quod poenitentia est quaedam vindicta dolentis &amp;c. 
+      <lb ed="#S" n="74"/>proximum genus: quia ponit ipsam non solum in genere 
+      <lb ed="#S" n="75"/>virtutis, sed iustitiae in hoc, quod dicit vindicta, &amp; 
+       diffe<lb ed="#S" break="no" n="76"/>rentias in hoc, quod addit rationem punitionis, &amp; dolorem. 
+      <lb ed="#S" n="77"/>Alia autem est diffinitio Amb. quod poenitentia em dolor cordis, 
+      <lb ed="#S" n="78"/>&amp; amaritudo animae pro malis, quae quisque commisit. Et 
+      <lb ed="#S" n="79"/>est quasi eadem praedictis, nisi quod non ponit nisi vnum eorum, 
+      <lb ed="#S" n="80"/>quae ponunt praedictae diffinitiones. scilicet detestationem 
+       pec<lb ed="#S" break="no" n="81"/>cati commissi. Alia est, qua dicitur, quod poenitentia est res 
+      <lb ed="#S" n="82"/>optima, quae omnes defectus reuocat ad perfectum. Et 
+       da<lb ed="#S" break="no" n="83"/>tur haec diffinitio per effectum. Dicitur etiam res optima 
+      <lb ed="#S" n="84"/>non simpliciter: sed in genere declinationis a malo post 
+      <lb ed="#S" n="85"/>peceatum commissum. Alia est Damasceni, qua dicitur, quod 
+      <lb ed="#S" n="86"/>Poenitentia est remotio ab eo, quod est contra naturam ad 
+      <lb ed="#S" n="87"/>id, quod est secundum naturam. Et in idem redit: quia est etium 
+      <lb ed="#S" n="88"/>per effectum. Pctm̃ enim quod dicebatur in prima defectus 
+      <lb ed="#S" n="89"/>nunc in ista dicitur, quod est contra naturam. status autem 
+      <lb ed="#S" n="90"/>gratiae. vel virtutis, qui in prima diffinitione dicit perfe 
+      <lb ed="#S" n="91"/>ctio: in ista dicitur secundum naturam esse: quia ad hoc natura est 
+      <lb ed="#S" n="92"/>ordinata. Ad argumentum dicendum, quod quando per actum 
+      <lb ed="#S" n="93"/>poenitentiae recuperantur virtutes, illum praecedit actus 
+      <lb ed="#S" n="94"/>fidei, &amp; spei, vt dictum est. Vnde illesunt priores. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

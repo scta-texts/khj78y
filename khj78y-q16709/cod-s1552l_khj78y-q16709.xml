@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="47"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q16709"><!-- l4d5-q2 -->
+            <head xml:id="khj78y-q16709-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q16709-Hd1e103" type="question-title">
+     Utrum malus minister possit baptizare
+   </head>
+            <p xml:id="khj78y-q16709-d1e106">
+               <lb ed="#S" n="102"/>QVAESTIO SECVNDA. 
+    </p>
+            <p xml:id="khj78y-q16709-d1e111">
+               <lb ed="#S" n="103"/>Thom. 3. q. 64. art. 5. 
+    </p>
+            <p xml:id="khj78y-q16709-d1e116">
+               <lb ed="#S" n="104"/>SECVNDO Quaeritur vtrum 
+      <lb ed="#S" n="105"/>malus minister possit baptizare. 
+      <lb ed="#S" n="106"/>Et videt primo, quod non: quia non 
+      <lb ed="#S" n="107"/>minus requirit in sacio minister, 
+      <lb ed="#S" n="108"/>quam materia, &amp; forma: sed 
+       indebi<lb ed="#S" break="no" n="109"/>ta materia, &amp; indebita forma 
+       e<lb ed="#S" break="no" n="110"/>uacuat sacramentum, ergo &amp;c. 
+    </p>
+            <p xml:id="khj78y-q16709-d1e135" n="2">
+               <lb ed="#S" n="111"/>
+               <!-- 2 -->secudo, quia mebrum 
+       ari<lb ed="#S" break="no" n="112"/>dum non percipit actionem corporis: sed baptizare est actio 
+      <lb ed="#S" n="113"/>corporis mystici. ergo minister malus, qui est sicut 
+       mem<lb ed="#S" break="no" n="114"/>brum aridum hanc actionem non poterit exercere. 
+    </p>
+            <p xml:id="khj78y-q16709-d1e148" n="3">
+               <lb ed="#S" n="115"/>
+               <!-- 3 -->CONTRA patet per Aug. in litera dicentem. 
+      <lb ed="#S" n="116"/>Non timeo adulterum, non ebriosum, non homicidam: quia 
+       co<lb ed="#S" break="no" n="117"/>lumbam attendo, per quam mihil dicit: Hic est qui 
+       bapti<lb ed="#S" break="no" n="118"/>2at.
+    </p>
+            <p xml:id="khj78y-q16709-d1e161" n="4">
+      <!-- 4 -->RESPONDEO, hic sunt duo 
+       viden<lb ed="#S" break="no" n="119"/>da. Primo de ministro. secundo de bonitate ministri. 
+      <lb ed="#S" n="120"/>Quantum ad primum sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-q16709-d1e170" n="5">
+      <!--5--> Prima 
+      <lb ed="#S" n="121"/>quod tam ordinatus, quae non ordinatus, Iudaeus, vel paganus, 
+      <lb ed="#S" n="122"/>scismaticus, vel non baptizatus potest verit baptisinu 
+       confer<lb ed="#S" break="no" n="123"/>re: quia dicit Aug. quod Iudas baptiaauit, &amp; Christus 
+       baptiza<lb ed="#S" break="no" n="124"/>uit per eum, imo omnis homo, omnis mulier, omnis etiam hermofro 
+      <lb ed="#S" n="125"/>ditus dummodo sit homo, baptizare pont si debitam formam, 
+      <lb ed="#S" n="126"/>&amp; debitam materiam adhibeat, &amp; erit vorus baptismus, &amp; 
+      <lb ed="#S" n="127"/>quo ad sacramentum, &amp; quo ad rem sucramenti: sicut baptls 
+      <lb ed="#S" n="128"/>mus Petri, vel Pauli. Vnde extra de sum. Trini. c. 1. 6. vl. 
+      <lb ed="#S" n="129"/>
+               <!-- possible line coord error -->
+               <!--0048.xml-->
+               <pb ed="#S" n="48"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>dicitur, quod baptismi sacramentum in forma eccclesiae a quocumque 
+      <lb ed="#S" n="2"/>rite collatum proficit ad salutem.
+    </p>
+            <p xml:id="khj78y-q16709-d1e207" n="6">
+      <!-- 6 -->secunda conclusio 
+      <lb ed="#S" n="3"/>est, quod ex officio solus sacerdos habet baptizare. Propter 
+      <lb ed="#S" n="4"/>quod  extra necessitatem nulla mulier, nullus laicus, nullus 
+      <lb ed="#S" n="5"/>clericus, nullus archidiaconus, nec diaconus, cardinalis 
+      <lb ed="#S" n="6"/>debet baptizare. Quod si fecerit quicumque vir non sacerdos 
+      <lb ed="#S" n="7"/>extra necessitatem irregularis efficitur: extra de clerico non 
+      <lb ed="#S" n="8"/>ordinato minis. c. 1. Nullus etiam sacerdos extra necessita 
+      <lb ed="#S" n="9"/>tem debet baptizare nisi parochianum suum, vel nisi de 
+       licen<lb ed="#S" break="no" n="10"/>tia curati: nisi super hoc priuilegium habeat a superiore: 
+      <lb ed="#S" n="11"/>quia sacramenta a suis presbyteris parochialibus sunt recipienda: 
+      <lb ed="#S" n="12"/>vt dicit. 16. q. 1. Interdicimus. sed sicut epraes potest, 
+       inui<lb ed="#S" break="no" n="13"/>to curato, absoluere, &amp; potestatem absoluendi dare: sic vide 
+      <lb ed="#S" n="14"/>tur, quod inuito curato, possit eius parochianum baptizare, &amp; 
+      <lb ed="#S" n="15"/>potestatem baptizandi alteri dare. Non tamen sequit, &amp; si aliquis 
+      <lb ed="#S" n="16"/>habeat potestatem absoluendi, quod propter hoc habeat potesta 
+      <lb ed="#S" n="17"/>tem baptizandi, vel alia sacramenta ministrandi. sed verum est, quod 
+      <lb ed="#S" n="18"/>baptizans non subditum, non fit irregularis, nec etiam suspensus, 
+      <lb ed="#S" n="19"/>sicut ordinans alienum: quia hoc non est expressum in iure, 
+       si<lb ed="#S" break="no" n="20"/>cut est de aliis.
+    </p>
+            <p xml:id="khj78y-q16709-d1e251" n="7">
+      <!-- 7 -->Tertia conclusio est, quod in casu 
+      <lb ed="#S" n="21"/>necessitatis: omnis  vir, vel mulier, qui scit baptizare, licite 
+       po<lb ed="#S" break="no" n="22"/>test baptizare: nisi, quod si plures concurrant, minor debet ce 
+      <lb ed="#S" n="23"/>dere maiori, &amp; extraneus curato, &amp; clericus presbytero: 
+      <lb ed="#S" n="24"/>&amp; laicus clerico, &amp; mulier viro: nisi superiores nescirent 
+      <lb ed="#S" n="25"/>formam, &amp; inferiores scirent: puta, quod mulier sciret formam 
+      <lb ed="#S" n="26"/>baptismi, vbi vir ignoraret: quam non omnes scire tenentur: nisi 
+      <lb ed="#S" n="27"/>quibus incumbit ex officio, vt curatus, vel obstetrix, cui 
+      <lb ed="#S" n="28"/>saepe incumbit. Et non solum hi possunt baptizare in casu 
+      <lb ed="#S" n="29"/>necessitatis, sed debent: quia si non succurreres morti 
+       corpo<lb ed="#S" break="no" n="30"/>ris, cum posses, esses reus mortis: sic multo magis si non suc 
+      <lb ed="#S" n="31"/>curras morti animae: vnde si homines appetunt diuitias cor 
+      <lb ed="#S" n="32"/>porales, vt inde faciant eleemosynas, multo magis debe 
+      <lb ed="#S" n="33"/>ront appetere scientiam, de qua possent facere 
+       elcemosy<lb ed="#S" break="no" n="34"/>nas spirituales: quae meliores sunt.
+    </p>
+            <p xml:id="khj78y-q16709-d1e287" n="8">
+      <!-- 8 -->sECVNDO, 
+      <lb ed="#S" n="35"/>videndum est de bonitate, vel malitia ministrorum. Et hic 
+      <lb ed="#S" n="36"/>sunt tres conclusiones. Prima quo ad veritatem sacramenti. secun 
+      <lb ed="#S" n="37"/>da quo ad rem sacramenti. Tertia quo ad culpam, &amp; 
+       excusatio<lb ed="#S" break="no" n="38"/>nem ministri,
+    </p>
+            <p xml:id="khj78y-q16709-d1e300" n="9">
+      <!-- 9 -->Quantum ad primam est sciendum 
+      <lb ed="#S" n="39"/>primo, quod differt esse bonu bonitate moris: quae est bonitas 
+      <lb ed="#S" n="40"/>simpliciter: de qua communiter homines loquuntur, &amp; esse bo 
+      <lb ed="#S" n="41"/>num artificem, quae est bonitas secundum  quid, &amp; cum 
+       additio<lb ed="#S" break="no" n="42"/>ne Aliquis enim est bonus faber, q non est bonus simplici 
+      <lb ed="#S" n="43"/>ter. Et econuerso alius est bonus simpliciter, q non est bo 
+      <lb ed="#S" n="44"/>nus faber, sed malus: hae enim duae bonitates se habent 
+      <lb ed="#S" n="45"/>per accidens adinuicem: ita, quod non licet in his ex diuisis 
+       in<lb ed="#S" break="no" n="46"/>ferre coniunctum, vel ex coniunctis diuisum. Vnde si dicas 
+      <lb ed="#S" n="47"/>iste est bonus, &amp; est faber. ergo est bonus faber, non sequi 
+      <lb ed="#S" n="48"/>tur, imo est fallacia accidentis. sic est de bonitate his 
+       in<lb ed="#S" break="no" n="49"/>quantum est minister, &amp; de bonitate eius simpliciter. 
+    </p>
+            <p xml:id="khj78y-q16709-d1e329" n="10">
+               <lb ed="#S" n="50"/>
+               <!-- 10 -->Dicendum est, igit, quod a malo ministro, si est malus 
+      <lb ed="#S" n="51"/>inquantum minister: nullum verum sacramentum potest conferri, sed a 
+      <lb ed="#S" n="52"/>malo simpliciter contingit verum sacramentum conferri: sicut a 
+       bo<lb ed="#S" break="no" n="53"/>no: primum probatur sic. Nullus est malus minister, nisi sit 
+      <lb ed="#S" n="54"/>lefectuosus in aliquo particulari ad suum ministeriu per 
+      <lb ed="#S" n="55"/>tinente: sed defectus eorum, quae pertinent ad sacramentum euacuat 
+      <lb ed="#S" n="56"/>sacramentum. ergo &amp;c. Maior patet, quia cum malum sit priuatio 
+      <lb ed="#S" n="57"/>alicuius rei debitae: non potest esse malus minister, cui non 
+      <lb ed="#S" n="58"/>deficit aliquid pertinens ad ministerium suum. Minor 
+       pro<lb ed="#S" break="no" n="59"/>batur, quia ad ministerium cuiuscumque artificij non concurrunt 
+      <lb ed="#S" n="60"/>ex parte ministri in generali, nisi tria. scilicet scire, velle, siue 
+       in<lb ed="#S" break="no" n="61"/>tendere, &amp; posso. ergo non est malus minister, nisi qui in 
+      <lb ed="#S" n="62"/>his est defectuosus. sed quocunque istorum defficiente nullum 
+      <lb ed="#S" n="63"/>est sacramentum, vt qui nescit, nec intendit: nec potest proferre verba 
+      <lb ed="#S" n="64"/>non potest conferre sacramentum. ergo &amp;c. Et hoc intelligendum est, 
+      <lb ed="#S" n="65"/>quando est malus in isto genere simpliciter: quia si secundum quid, vt 
+      <lb ed="#S" n="66"/>si nescit ita bene proferre, sicut clericus, vel quia non exper 
+      <lb ed="#S" n="67"/>tus, vel blesus, vel linguae Latinae ignarus: sicut dicitur 
+      <!--0048.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>de conse. di. 4. c. pe. qui baptizat in nomine patria &amp;c. nihilo 
+      <lb ed="#S" n="69"/>minus esset verum sacramentum: quia defectus secundum quid non 
+      <lb ed="#S" n="70"/>aufert effectum simpliciter. Licet autem in ministro respectu 
+      <lb ed="#S" n="71"/>sacramenti baptismi non requiratur: vt dictum est, nisi velle, scire, &amp; 
+      <lb ed="#S" n="72"/>posse facti, tamen respectu aliorum sacramentorum requiritur scire, vel 
+      <lb ed="#S" n="73"/>le, &amp; posse, non solum facti, imo etiam iuris: sicut ad 
+       conficien<lb ed="#S" break="no" n="74"/>dum, vel ordinandum: non solum sufficit, quod sciat, &amp; velit, &amp; 
+      <lb ed="#S" n="75"/>possit verba proferre: sed quod receperit illa, quae sunt de 
+       es<lb ed="#S" break="no" n="76"/>sentia sacramenti ordinis, &amp; consecrationis epalis: ita, quod si aliquid 
+      <lb ed="#S" n="77"/>de essentialibus desit, nihil agit. si autem aliquid eorum, quae 
+      <lb ed="#S" n="78"/>sunt accidentalia: puta, quae non sunt de necessitate sacramenti, sed 
+      <lb ed="#S" n="79"/>praecepti, sine illis quidem confert sacramentum, sed male confert 
+      <lb ed="#S" n="80"/>quantum ad se: nec alius si sciret, deberet recipere. 
+    </p>
+            <p xml:id="khj78y-q16709-d1e405" n="11">
+               <lb ed="#S" n="81"/>
+               <!-- 11 -->secundum patet. scilicet quod a malis malitia moris potest 
+      <lb ed="#S" n="82"/>conferri verus baptismus. Primo, quia ea, quae pertinent ad 
+       sa<lb ed="#S" break="no" n="83"/>cramenta necessitatis debent esse communissima, &amp; notissi 
+      <lb ed="#S" n="84"/>ma baptismus est huiusmodi: praecipue quo ad puulos, q non 
+      <lb ed="#S" n="85"/>habent aliud remedium salutis. Bonitas autem moralis, quae 
+      <lb ed="#S" n="86"/>est per gratiam, non est communissima, nec notissima: sed est 
+      <lb ed="#S" n="87"/>valde rara, &amp; ignorata. ergo non requiritur in sacramento 
+       baptis<lb ed="#S" break="no" n="88"/>mi. secundo, quia illud, quod consistit in opere operato, non 
+      <lb ed="#S" n="89"/>vitiatur ex merito operantis: si tamen concurrunt, quae sunt de 
+       ne<lb ed="#S" break="no" n="90"/>cessitate operis: sed omne sacramentum consistit in opere 
+       opera<lb ed="#S" break="no" n="91"/>to. ergo non vitiat ex malitia, vel demerito operantis mini 
+      <lb ed="#S" n="92"/>stri. Hoc idem dicit Aug. super Ioan. parte prima: Home. 5. 
+      <lb ed="#S" n="93"/>Et recitatur de consec. 4. d. Ego digo, &amp; nos dicimus, quod 
+       iu<lb ed="#S" break="no" n="94"/>stos oportet esse tanti iudicis ministros. sint aute 
+       mini<lb ed="#S" break="no" n="95"/>stri iusti, si volunt: si autem nolunt esse iusti, qui in cathedra 
+      <lb ed="#S" n="96"/>Moysi sedent, securum me fecit magister meus: de quo dicit 
+      <lb ed="#S" n="97"/>spiritussanctus. Hic est, qui baptistat. Et idem habet eadem 
+      <lb ed="#S" n="98"/>dist. Romanus Pontifex, &amp; pluribus aliis locis. Et sic 
+       pa<lb ed="#S" break="no" n="99"/>tet prima conclusio.
+    </p>
+            <p xml:id="khj78y-q16709-d1e451" n="12">
+      <!-- 12 -->secunda conclusio est: quod ma 
+      <lb ed="#S" n="100"/>lus minister etiam confert rem sacramenti, &amp; aequalem, sicut bonus: 
+      <lb ed="#S" n="101"/>illam, inquam, quae est ex opere operato, licet aliam: pu 
+      <lb ed="#S" n="102"/>ta, quod baptizando sanetur leprosus, aut huiusmodi: quae sunt per acci 
+      <lb ed="#S" n="103"/>dens: possit maiorem habere ex bonitate ministri. Ratio 
+      <lb ed="#S" n="104"/>est, quia sicut adhibens ignem conburit, nec diuersificatur 
+       com<lb ed="#S" break="no" n="105"/>bustio propter diuersitatem adhibentium: sic &amp; hic vbi 
+       mini<lb ed="#S" break="no" n="106"/>ster sacramenti non est nisi adhibens, sicut in baptismo. Vbi autem 
+      <lb ed="#S" n="107"/>in ministrorequiritur aliquid speciale: puta, quod sit sacerdos 
+      <lb ed="#S" n="108"/>vel epraes: tunc similiter sicut ex bona arte facit homo ma 
+      <lb ed="#S" n="109"/>lus bonam archam: sic ex bono charactere malus sacerdos, 
+      <lb ed="#S" n="110"/>vel episcopus facit bonum opus operatum, quod est sacramentum. 
+    </p>
+            <p xml:id="khj78y-q16709-d1e480" n="13">
+               <lb ed="#S" n="111"/>
+               <!-- 13 -->Tertia conclusio est, quod malus peccat conferendo sa 
+      <lb ed="#S" n="112"/>cramentum baptismi. Et quia ista est dubia: ideo circa eam 
+      <lb ed="#S" n="113"/>sic procedet: quia primo ponetur circa hoc opinio communis. 
+      <lb ed="#S" n="114"/>secundo opinio contraria singularis: tertio arguitur contra eam. 
+      <lb ed="#S" n="115"/>quarto respondebitur ad argumenta secundae opinionis. Est 
+      <lb ed="#S" n="116"/>ergo conis opinio, quod peccator peccat baptizando, vt minister, 
+      <lb ed="#S" n="117"/>&amp; cum solemnitate: non autem in casu necessitatis, &amp; sine solem 
+      <lb ed="#S" n="118"/>nitate.
+    </p>
+            <p xml:id="khj78y-q16709-d1e503" n="14">
+      <!-- 14 -->Ratio primi est: quia irreuerentia circa 
+      <lb ed="#S" n="119"/>sacramentum videtur esse peccatum mortale: sed mali conferendo sacramentum 
+      <lb ed="#S" n="120"/>faciunt irreuerentiam sacramento: est enim irreuerentia cum vasa 
+      <lb ed="#S" n="121"/>sanctitatis tractant ab immundis. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q16709-d1e514" n="15">
+      <!-- 15 -->
+       Con<lb ed="#S" break="no" n="122"/>firmatur hoc per Dio. de coelesti Hierarchia, qui dicit, quod 
+      <lb ed="#S" n="123"/>immundis sacra symbola, &amp; firma sacramentalia tractare, vel 
+       tan<lb ed="#S" n="124" break="no"/>gere, nephas est.
+    </p>
+            <p xml:id="khj78y-q16709-d1e525" n="16">
+      <!-- 16 -->secundo, quia minus malum fuit, 
+      <lb ed="#S" n="125"/>vt videt accedere ad sacramenta ve. le. cum immunditia prohibita 
+      <lb ed="#S" n="126"/>in lege, quam accedere ad sacramenta no. le. cum immunditia 
+       conscien<lb ed="#S" break="no" n="127"/>tiae: sed praemum fuit peccatum mortale. ergo &amp; secundum. Minor proba 
+      <lb ed="#S" n="128"/>tur per illud Leuit. 22. Omnis homo de stirpe vestra: in quo 
+      <lb ed="#S" n="129"/>est immunditia: qui accesserit ad consecrata peribit coram 
+      <lb ed="#S" n="130"/>Domino. Hoc dicunt canones. 1. q. 1. c. Remissionem peccatorum. 
+      <lb ed="#S" n="131"/>vbi dicit, quod quis sacramentum admodum lucis ab immundis 
+       conta<lb ed="#S" break="no" n="132"/>minari non possit: ipsi tamen pernitiose agunt: quamquam aliis salu 
+      <lb ed="#S" n="133"/>briter, &amp; vtiliter administrent. Et ea. q. c. per Esaiam dicit, 
+      <lb ed="#S" n="134"/>quod sacramenta obsunt indigne tractantibus: prosunt tamen per eos di 
+      <!--0089.xml-->
+      <pb ed="#S" n="89"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>gne sumentibus.
+    </p>
+            <p xml:id="khj78y-q16709-d1e560" n="17">
+      <!-- 17 -->Ratio secundi est, quia qui ba 
+      <lb ed="#S" n="2"/>ptizat in casu necessitatis, &amp; sine solennitate, non 
+       bapti<lb ed="#S" break="no" n="3"/>2at, vt minister: sed sicut vetula baptizaret. ideo nihil in 
+      <lb ed="#S" n="4"/>debitum videtur agere contra ministerium suum. Excusat etiam 
+      <lb ed="#S" n="5"/>eum casus necessitatis.
+    </p>
+            <p xml:id="khj78y-q16709-d1e573" n="18">
+      <!-- 18 -->secundo ponenda est 
+      <lb ed="#S" n="6"/>opinio singularis. Dicunt enim alij contra istos, quod in nullo 
+      <lb ed="#S" n="7"/>casu malus minister potest baptizare quin peccet: quia 
+       sem<lb ed="#S" break="no" n="8"/>per baptizat, vt minister, nec casus necessitatis eum 
+       ex<lb ed="#S" break="no" n="9"/>cusat, quod probant sic.
+    </p>
+            <p xml:id="khj78y-q16709-d1e586" n="19">
+      <!-- 19 -->Quod non potest aliquis 
+       fa<lb ed="#S" break="no" n="10"/>cere, nisi sit minister, non potest aliquis facere, nisi vt mini 
+      <lb ed="#S" n="11"/>ster, sed administrare quodcumq, sacramentum: non potest, nisi 
+       mini<lb ed="#S" break="no" n="12"/>ster tantum ille. scilicet qui ex ordine diuino est minister, quia mi 
+      <lb ed="#S" n="13"/>nister est de necessitate sacramenti: sicut materia, vel forma. er 
+      <lb ed="#S" n="14"/>no nullus potest ministrare sacramentum: nisi, vt minister. Ideo 
+       o<lb ed="#S" break="no" n="15"/>portet, quod quicunque baptizat, si est verus baptismus, quod sit 
+      <lb ed="#S" n="16"/>minister baptismi, &amp; quod baptizet, vt minister: licet non in 
+      <lb ed="#S" n="17"/>solemnitate ab ecclesia instituta. solemnitas enim non dat ei 
+      <lb ed="#S" n="18"/>esse ministrum, sed est signum ministerij sui.
+    </p>
+            <p xml:id="khj78y-q16709-d1e611" n="20">
+      <!-- 20 -->Ex 
+      <lb ed="#S" n="19"/>quo probrant secundo, quod nullus casus necessitatis 
+       excu<lb ed="#S" break="no" n="20"/>sat eum, quia casus euitabilis non est casus necessarius excu 
+      <lb ed="#S" n="21"/>sabilitatis a peccato, quia est voluntarius: siue non tollit 
+      <lb ed="#S" n="22"/>rationem voluntarij: sed talis videtur iste casus, quia si incumbit 
+      <lb ed="#S" n="23"/>alicui baptizare puerum morientem, &amp; est sibi conscius de 
+      <lb ed="#S" n="24"/>peccato mortali, eius est habere displicentiam de illo 
+       pec<lb ed="#S" break="no" n="25"/>cato, &amp; tunc potest sine scrupulo puerum baptizare. igitur 
+      <lb ed="#S" n="26"/>talis casus necessitatis non excusat baptizantem, quin pec 
+      <lb ed="#S" n="27"/>cet.
+    </p>
+            <p xml:id="khj78y-q16709-d1e635" n="21">
+      <!-- 21 -->Tertio arguendum est contra opinionem istam 
+      <lb ed="#S" n="28"/>sic: quia quando ad administrationem sacramenti requirit sanctitas 
+      <lb ed="#S" n="29"/>ministri, solet ad hoc ipsum minister sanctificari. 
+       Quan<lb ed="#S" break="no" n="30"/>do autem ad administrationem sacramenti non oportet 
+       mini<lb ed="#S" break="no" n="31"/>strum sanctificari exterius: &amp; per consequens non oportet 
+      <lb ed="#S" n="32"/>ipsum esse santum interius: cum exterior sanctificatio sit 
+       si<lb ed="#S" break="no" n="33"/>gnum interloris, &amp; ad eam ordinetur, sicut ad finem propter 
+      <lb ed="#S" n="34"/>quod sacramenta, quae non possunt ministrari nisi a ministro 
+      <lb ed="#S" n="35"/>sanctificato exterius videtur, quod nullo modo possint 
+       mi<lb ed="#S" break="no" n="36"/>nistrari, nisi a ministro sctificato interius. Et sic quicunque 
+      <lb ed="#S" n="37"/>celebrat, vel iniungit, confirmat, vel ordinat, vel absoluit 
+      <lb ed="#S" n="38"/>in mortali existens, mortaliter peccat. sed ministrare 
+       il<lb ed="#S" break="no" n="39"/>la: ad quorum per se administrationem non requirit 
+       sancti<lb ed="#S" break="no" n="40"/>ficatio ministri exterius, sine interiori sanctitate: 
+       maxi<lb ed="#S" break="no" n="41"/>me in necessitate, non videtur peccatum mortale: vnde audi 
+      <lb ed="#S" n="42"/>re confessionem morientis sine absolutione indicatiua: quod 
+      <lb ed="#S" n="43"/>potest etiam non sacerdos: item baptizare in necessitate, quod potest 
+      <lb ed="#S" n="44"/>etiam gentilis, videt non esse peccatum. Et si peccator sine pec 
+      <lb ed="#S" n="45"/>cato potest contingere corpus Domini, quod cedidit in lutum: ne bru 
+      <lb ed="#S" n="46"/>tum ipsum conculcet, vel comedat, in quo est sanctitas for 
+      <lb ed="#S" n="47"/>maliter: multo magis ne anima paruuli pereat, potest pec 
+      <lb ed="#S" n="48"/>cator tangere id in quo non est sanctitas, nisi virtualiter. scilicet 
+      <lb ed="#S" n="49"/>aquam baptismi.
+    </p>
+            <p xml:id="khj78y-q16709-d1e687" n="22">
+      <!-- 22 -->Praeterea non uidetur, quod peccator con 
+      <lb ed="#S" n="50"/>trahens matrimonium peccet: cum tamen essentia matrimonij 
+      <lb ed="#S" n="51"/>consistat in mutuo consensu per verba vnius alteri expraessa, hic 
+      <lb ed="#S" n="52"/>enim consensus sacramentum ministrat: non autem sacerdos benedi 
+      <lb ed="#S" n="53"/>cens, qui solum sacramentale quoddam adhibet.
+    </p>
+            <p xml:id="khj78y-q16709-d1e700" n="23">
+      <!-- 23 -->
+       Quar<lb ed="#S" break="no" n="54"/>to respondendum est ad argumenta secundae opinionis, &amp; di 
+      <lb ed="#S" n="55"/>cendum, quod maior primi argumenti quantum est ex forma, est 
+      <lb ed="#S" n="56"/>falsa: quia homo non potest baptizare, nisi sit coloratus: quia si non 
+      <lb ed="#S" n="57"/>sit coloratus, non est homo: non tamen baptizat inquantum 
+       colo<lb ed="#S" break="no" n="58"/>ratus: tamen concedendum est gratia materiae, quod homo non bapti 
+      <lb ed="#S" n="59"/>zat, nisi vt minister Christi, &amp; sacramenti, nec tamen iudex: qui vt 
+      <lb ed="#S" n="60"/>minister Christi, &amp; legis suspendit latronem iudicando, &amp; cat 
+      <lb ed="#S" n="61"/>nifex exercendo actum propter hoc peccant: posito etiam, quod sint 
+      <lb ed="#S" n="62"/>in peccato. sed qui facit aliquid inquantum minister 
+       ec<lb ed="#S" break="no" n="63"/>clesiae sanctus, &amp; sanctificatus: ille nisi sanctus sit, peccat. 
+      <lb ed="#S" n="64"/>sed si facit aliquid: non inquantum minister ecclesiae: ad 
+      <lb ed="#S" n="65"/>hoc ipsum sanctificatus exterius, quia hoc idem de volun 
+      <lb ed="#S" n="66"/>tate ecclesiae facit minister non sanctificatus, tunc secus 
+      <lb ed="#S" n="67"/>est. Vnde si mancus videret puerum morientem: consulere de 
+      <!--0089.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>beret peccatori, etiam dicenti se nolle de peccato poenitere, vt 
+      <lb ed="#S" n="69"/>baptizaret eum, &amp; tamen nulli consulendum est, quod peccet. 
+    </p>
+            <p xml:id="khj78y-q16709-d1e744" n="24">
+               <lb ed="#S" n="70"/>
+               <!-- 24 -->Praeterea Decretalis dicit recipiendam esse 
+       confes<lb ed="#S" break="no" n="71"/>sionem eius, qui etiam dicit se de peccato non poenitere, &amp; sic 
+      <lb ed="#S" n="72"/>etiam consulit ei, licet immundo sacramentum tangere. sed hoc non 
+      <lb ed="#S" n="73"/>facit, vt minister ad hoc sanctificatus, sicut sacerdos, qui 
+      <lb ed="#S" n="74"/>absoluit.
+    </p>
+            <p xml:id="khj78y-q16709-d1e760" n="25">
+      <!-- 25 -->Item dicit Inno. extra de poe. &amp; re. c. 
+      <lb ed="#S" n="75"/>quod inte. quod sacerdos peccator in necessitate communicans 
+      <lb ed="#S" n="76"/>morientem excusat a peccato. similiter si aliquis non 
+       solen<lb ed="#S" break="no" n="77"/>niter dicat epistolam, sicut &amp; laicus faceret, quamuis sit subdia 
+      <lb ed="#S" n="78"/>conus excommunicatus. irregularis non est, quia non 
+       admi<lb ed="#S" break="no" n="79"/>nistrat in suo ordine solemniter, sicut prius. ergo a simili 
+      <lb ed="#S" n="80"/>in proposito. Vnde tunc peccat quando administrat solemniter 
+       sa<lb ed="#S" n="81" break="no"/>cramentum solemnitate ab ecclesia instituta, quia sic ministrare non 
+      <lb ed="#S" n="82"/>debet, nisi qui ad hoc est solemniter consecratus. Et licet solem 
+      <lb ed="#S" n="83"/>nitas sacri, quod dat, non faciat ipsum ministrum, tamen 
+       suppo<lb ed="#S" break="no" n="84"/>nit eum, vt requirir ministrum solennem, &amp; solemniter 
+       sanctifi<lb ed="#S" break="no" n="85"/>catum. Vnde solemnitas sacramenti requirit solennitatem ministri. 
+      <lb ed="#S" n="86"/>Et sicut solemnitas requirit solemnitatem, sic sanctitas 
+       sancti<lb ed="#S" break="no" n="87"/>ficationem.
+    </p>
+            <p xml:id="khj78y-q16709-d1e794" n="26">
+      <!-- 26 -->Ad secundum de necessitate 
+       dicen<lb ed="#S" break="no" n="88"/>dum, quod imo fuit possibile tale esse impedimentum, quod ipse 
+      <lb ed="#S" n="89"/>non potest amouere, vt si est cathecumenus, non 
+       baptiza<lb ed="#S" break="no" n="90"/>tus, non potest seipsum baptizare, faltem baptismo fluminis. 
+      <lb ed="#S" n="91"/>Item si est excommun icatus, non potest seipsum absoluere, &amp; 
+      <lb ed="#S" n="92"/>sit necessitatur in suo impedimento remanere. Et tamen hoc non 
+      <lb ed="#S" n="93"/>obstante potest, &amp; debet baptizare multo magis, quae fame 
+       mo<lb ed="#S" break="no" n="94"/>rientem pascere. Et tamen excommunicatus est magis separatus 
+      <lb ed="#S" n="95"/>a sanctis, quam peccator. Plus enim peccaret sciens se excom 
+      <lb ed="#S" n="96"/>municatum, si celebraret antequam absolueretur dato, quod Deo 
+      <lb ed="#S" n="97"/>omni peccato esset contritus, quam non excommunicatus si in peccato 
+      <lb ed="#S" n="98"/>mortali celebraret. Et quicquid sit de hoc ad minus 
+       episco<lb ed="#S" break="no" n="99"/>pus conferens ordines, plus peccaret excommunicatus, quam in 
+      <lb ed="#S" n="100"/>peccato mortali existens. Vnde plus punitur, &amp; ipse: &amp; qui sci 
+      <lb ed="#S" n="101"/>enter ab ipso reciperet. Et tamen non obstante, quod magis sit pro 
+      <lb ed="#S" n="102"/>hibitum excommunicato conferre sacramentum, quam peccatori: tamen 
+       excom<lb ed="#S" n="103" break="no"/>municatus in necessitate baptizans non peccat. ergo 
+       mul<lb ed="#S" break="no" n="104"/>to minus peccator.
+    </p>
+            <p xml:id="khj78y-q16709-d1e836" n="27">
+      <!-- 27 -->Item potest dici, quod sola 
+       ne<lb ed="#S" break="no" n="105"/>cessitas non excusat quia non est necessitas absolute, 
+       si<lb ed="#S" break="no" n="106"/>cut bene arguitur: quia ita habet sacerdos necesse baptiza 
+      <lb ed="#S" n="107"/>re puerum solenniter: quando requiritur in ecclesia, sicus 
+      <lb ed="#S" n="108"/>vetula, quando moritur. Et sic peccaret mortaliter si 
+       renue<lb ed="#S" break="no" n="109"/>ret. Nec propter hoc excusatur, si est in peccato mortali: 
+      <lb ed="#S" n="110"/>quia potest poenitere. sed quando necessitas est tanta, quod ipse sa 
+      <lb ed="#S" n="111"/>cramentum ministrat: sine tamen solemnitate illa, quae est propria 
+      <lb ed="#S" n="112"/>ministro ecclesiae, qui ad hoc est consecratus, talis necessi 
+      <lb ed="#S" n="113"/>tas excusat: quia tunc non ministrat, vt minister 
+       sanctifica<lb ed="#S" break="no" n="114"/>tus, &amp; per consequens non requirit, quod sit ipse sanctus 
+       inte<lb ed="#S" break="no" n="115"/>rius, sicut nec quod sanctificatus exterius. Item necessitas 
+       fa<lb ed="#S" break="no" n="116"/>cit, quod ipse non ex contemptu hoc facit: sed cum dolore, &amp; in 
+      <lb ed="#S" n="117"/>uitus timens, quod plus peccaret, si omitteret, &amp; sic non 
+       exhi<lb ed="#S" break="no" n="118"/>bet irreuerentiam sacramento, nec contemptum, sicut ille, qui 
+      <lb ed="#S" n="119"/>nulla necessitate imminente se sponte ingerit. Qui etiam 
+       so<lb ed="#S" break="no" n="120"/>lenniter sacramenta ministrat, mentitur facto in eo, quod est 
+      <lb ed="#S" n="121"/>Christianae religionis, ostendens se sanctum in vestibus 
+      <lb ed="#S" n="122"/>sacramentis, saltem stola: cum tamen sanctus non sit. sed qui, vt ve 
+      <lb ed="#S" n="123"/>tula baptizat nullam sanctitatem ostentat: sed solum hic est, quod 
+      <lb ed="#S" n="124"/>sacramentum pollutus tangit: sicut &amp; ille, qui corpus Dominicum cu 
+      <lb ed="#S" n="125"/>metu, &amp; tremore, licet peccator de luto recolligit. 
+    </p>
+            <p xml:id="khj78y-q16709-d1e886" n="28">
+               <lb ed="#S" n="126"/>
+               <!-- 28 -->Vel potest dici, quod est hic necessitas, quia de quolibes 
+      <lb ed="#S" n="127"/>peccato mortali debet homo in speciali conteri. Et ideo 
+      <lb ed="#S" n="128"/>magnus peccator si deberet dolere de singulis, 
+       ante<lb ed="#S" break="no" n="129"/>quam de singulis doluiesset, contingeret paruulum bapti 
+      <lb ed="#S" n="130"/>zandum, quandoque sine baptismo mori. Vnde si tunc 
+      <lb ed="#S" n="131"/>dolore cordis contritus in generali currat, &amp; ipsum 
+       ba<lb ed="#S" break="no" n="132"/>ptizet, cum proposito confitendi, &amp; conterendi postea in 
+      <lb ed="#S" n="133"/>speciali melius facit. Et ideo posset inueniri via media 
+      <lb ed="#S" n="134"/>talis, de illo qui est in necessitate, &amp; sine solemnitate bapti 
+      <!--0090.xml-->
+      <pb ed="#S" n="90"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>zat: quia aut recolit de peccato, nec atteritur, nec 
+       conte<lb ed="#S" break="no" n="2"/>ritur de peccato, sed vult in peccato remanere, &amp; nihilo 
+      <lb ed="#S" n="3"/>minus vult baptizare, &amp; tunc si est talis, qui scire debeat, 
+      <lb ed="#S" n="4"/>quod huiusmodi a peccatoribus contingi non deberent, quamuis 
+      <lb ed="#S" n="5"/>non ex libidine, nec ex contemptu baptizet, sed intuitu ne 
+      <lb ed="#S" n="6"/>cessitatis hoc facit, non excusatur ab irreuerentia, &amp; contem 
+      <lb ed="#S" n="7"/>ptu, quia sic conscientia ei dicebat, vel dicere debebat, 
+       immu<lb ed="#S" break="no" n="8"/>de, tu nunc sancta contractas. Et sic est vera superior 
+       opi<lb ed="#S" break="no" n="9"/>nio: quia &amp; minister est, &amp; necesse, non debet cum peccato ba 
+      <lb ed="#S" n="10"/>ptizare: licet necesse habeat baptizare. si autem cum metu, 
+      <lb ed="#S" n="11"/>&amp; tremore, &amp; dolens de peccato in generali: licet propter 
+      <lb ed="#S" n="12"/>hoc sciat se de peccato non mundari: sub spe tamen ad plenum 
+      <lb ed="#S" n="13"/>conterendi, vel quia est excommunicatus, &amp; non potest absolui: 
+      <lb ed="#S" n="14"/>propter aliquid huiusmodi hoc facit: tunc excusatur: at 
+      <lb ed="#S" n="15"/>gumento illorum, qui immundi manducauerunt pascha: 
+      <lb ed="#S" n="16"/>quia non ita cito forte poterant purificari, pro quibus 
+      <lb ed="#S" n="17"/>Ezechias orauit, &amp; Deus cito remisit. Et sic est vera 
+       opi<lb ed="#S" break="no" n="18"/>nio Tho. sed qui solemniter baptizat ex quo non est 
+       peri<lb ed="#S" break="no" n="19"/>culum in mora, prius debet se perfecta poenitentia lauare, 
+      <lb ed="#S" n="20"/>vel saltem si sacerdos non adest, debet se lauare per 
+       perfe<lb ed="#S" break="no" n="21"/>ctam contritionem. si autem non recoleret, non faceret 
+       ir<lb ed="#S" break="no" n="22"/>reuerentiam sacramenti, &amp; excusatur.
+    </p>
+            <p xml:id="khj78y-q16709-d1e964" n="29">
+      <!-- 29 -->Ad 
+       ratio<lb ed="#S" break="no" n="23"/>nes in oppositum est dicendum. Ad primam, quod esse indebitum 
+      <lb ed="#S" n="24"/>ministrorum quo ad substantiam ministerij facit 
+       sacramen<lb ed="#S" break="no" n="25"/>tum nullum: sicut indebita materia, &amp; indebita forma 
+      <lb ed="#S" n="26"/>substantialiter. sicut enim in non aqua non est 
+       baptis<lb ed="#S" break="no" n="27"/>mus: sic a non homine: puta ab angelo bono, vel malo, 
+      <lb ed="#S" n="28"/>vel anima separata, non est baptismus: sed indebitus mi 
+      <lb ed="#S" n="29"/>nister quo ad circunstantia per accidens se habentem facit 
+      <lb ed="#S" n="30"/>quidem sibi malum baptismum, non in se &amp; absolute, sicut est 
+      <lb ed="#S" n="31"/>de materia immunda, &amp; forma corrupta. Non enim de sub 
+      <lb ed="#S" n="32"/>stantia ministri in baptismo est plus: nisi humanitas, &amp; 
+      <lb ed="#S" n="33"/>intentio, &amp; tactus materiae, sicut de substantia formae est 
+      <lb ed="#S" n="34"/>platio, &amp; significatio, &amp; de substantia materiae, quod sit aqua, 
+      <lb ed="#S" n="35"/>quae possit abluere, &amp; immergere, vel aspergere. Vnde 
+      <lb ed="#S" n="36"/>glacies, quae etiam manet infra speciem aquae durante tali 
+      <lb ed="#S" n="37"/>dispositione non videtur conueniens materia: quia de 
+       cey<lb ed="#S" break="no" n="38"/>stallo, quae desinit esse aqua: non est dubium. sed &amp; de aqua 
+      <lb ed="#S" n="39"/>benedicta videtur, quod si est congelata, non habeat effectum 
+      <lb ed="#S" n="40"/>suum: quia ad aspergendum benedicit, &amp; aspergere non potest. 
+      <lb ed="#S" n="41"/>sed quia ad suam naturam redire pont: non desinit esse bene 
+      <lb ed="#S" n="42"/>dicta: quia resoluta non est iterum benedicenda. similiter 
+      <lb ed="#S" n="43"/>etiam fons baptisterij: licet in hyeme quandiu est 
+       congela<lb ed="#S" break="no" n="44"/>tus, non possit in eo vere baptizari, nisi igne dissoluat: 
+      <lb ed="#S" n="45"/>postquam tamen liquaefactus est sine iterata benedictione, 
+       li<lb ed="#S" break="no" n="46"/>cet inde baptizari.
+    </p>
+            <p xml:id="khj78y-q16709-d1e1021" n="30">
+      <!-- 30 -->Ad secundam dicendum, o 
+      <lb ed="#S" n="47"/>malus homo est membrum aridum quo ad meritum, non quo 
+      <lb ed="#S" n="48"/>ad ministerium. Vel potest dici, quod ad hoc, quod proficiat sibi 
+      <lb ed="#S" n="49"/>est membrum aridum: sed ad hoc, quod alij proficiat non, quia sicut 
+      <lb ed="#S" n="50"/>carnifex baptizat martirem in sanguine: ita malus homo 
+      <lb ed="#S" n="51"/>in flumine: nisi quod ibi est occasio: hic autem est causa per 
+      <lb ed="#S" n="52"/>se, &amp; non causa sine qua non.
+    </p>
+            <p xml:id="khj78y-q16709-d1e1039" n="31">
+      <!-- 31 -->Vel potest dici, quod 
+      <lb ed="#S" n="53"/>membrum aridum non potest in ea, quae sunt proptia membra, vt 
+      <lb ed="#S" n="54"/>viuum est, vel, vt membrum est: quia est membru aequiuoce, 
+       si<lb ed="#S" break="no" n="55"/>cut oculus caecus est oculus aequiuoce. Dico autem non 
+      <lb ed="#S" n="56"/>quo ad substantiam: sicut homo mortuus, sed quo ad acci 
+      <lb ed="#S" n="57"/>dentalem proprietatem, quae est propria membro: sed illa 
+      <lb ed="#S" n="58"/>quae possunt non membrum: non oportet tollere a membro 
+      <lb ed="#S" n="59"/>arido, sicut cum eo tangere, sicut cum baculo. Baptizare 
+      <lb ed="#S" n="60"/>autem non est proprium membri Christi: quia Iudaeus, 
+      <lb ed="#S" n="61"/>vel paganus hoc possunt, qui non sunt membra Christi. 
+      <lb ed="#S" n="62"/>ergo malus Christianus, qui est membrum aridum Chri 
+      <lb ed="#S" n="63"/>sti, propter hoc non impeditur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="469"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r50431"><!-- l4d44-q5 -->
+            <head xml:id="khj78y-r50431-Hd1e101">Quaestio 5</head>
+            <head xml:id="khj78y-r50431-Hd1e103" type="question-title">
+     Vtrum corpora gloriosa habeant 
+     claritatem
+   </head>
+            <p xml:id="khj78y-r50431-d1e106">
+               <lb ed="#S" n="25"/>QVAESTIO QVINTA. 
+    </p>
+            <p xml:id="khj78y-r50431-d1e111">
+               <lb ed="#S" n="26"/>De dote claritatis. 
+    </p>
+            <p xml:id="khj78y-r50431-d1e116">
+               <lb ed="#S" n="27"/>Thom. 4. Dist. 44. q. 2. art. 4. 
+    </p>
+            <p xml:id="khj78y-r50431-d1e122">
+               <lb ed="#S" n="28"/>QVINTO quaeritur de dote claritatis. 
+      <lb ed="#S" n="29"/>Vtrum corpora gloriosa habeant 
+       clarita<lb ed="#S" break="no" n="30"/>tem. Et arguitur quod non, quia lux &amp; color 
+      <lb ed="#S" n="31"/>requirunt in corpore contrarias 
+       disposi<lb ed="#S" break="no" n="32"/>tiones, quia lux requirit corpus perspicu 
+      <lb ed="#S" n="33"/>um non terminatum per opacum: color autem requirit 
+       per<lb ed="#S" break="no" n="34"/>spicuum terminati, vt patet ex libro de sensu &amp; sensato, 
+      <lb ed="#S" n="35"/>sed constat quod corpora gloriosa erunt colorata cum color 
+      <lb ed="#S" n="36"/>pertineat ad pulchritudinem corporis: ergo non erunt 
+       cla<lb ed="#S" break="no" n="37"/>ra seu lucentia.
+    </p>
+            <p xml:id="khj78y-r50431-d1e146" n="2">
+      <!-- 2 -->Item corpus lucidum non est 
+       per<lb ed="#S" break="no" n="38"/>uium visui, sed occultat quod est post se, vt patet de 
+       cor<lb ed="#S" break="no" n="39"/>poribus astrorum, &amp; de igne apud nos, sed corpora 
+       glo<lb ed="#S" break="no" n="40"/>riosa erunt peruia visui. Dicit enim Grego. 18. Moralium 
+      <lb ed="#S" n="41"/>exponens illud Iob. 28. Non adaequabitur ei aurum aut vi 
+      <lb ed="#S" n="42"/>trum, quod patebit corporalibus oculis, ipsa etiam inte 
+      <lb ed="#S" n="43"/>rior harmonia: ergo vt videtur illa corpora non erunt 
+      <lb ed="#S" n="44"/>lucentia.
+    </p>
+            <p xml:id="khj78y-r50431-d1e166" n="3">
+      <!-- 3 -->Item corpus clarum seu lucens praesens 
+      <lb ed="#S" n="45"/>visui ex necessitate videtur, sed corpus Christi erat tunc 
+      <lb ed="#S" n="46"/>gloriosum praesens visui discipulorum cuntium in Emaus, 
+      <lb ed="#S" n="47"/>&amp; non fuit visum clarum seu lucens. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-r50431-d1e177" n="4">
+      <!-- 4 -->In 
+       con<lb ed="#S" break="no" n="48"/>trarium est scriptura in quam pluribus locis. Dicitur enim 
+      <lb ed="#S" n="49"/>sap. 3. quod fulgebunt iusti tanquam scintillae &amp;c. Et Matth. 
+      <lb ed="#S" n="50"/>19. Fulgebunt iusti sicut sol &amp;c. 1. Corin. 15. stella 
+       dif<lb ed="#S" break="no" n="51"/>fert a stella in claritate, sic &amp; resurrectio mortuorum. 
+    </p>
+            <p xml:id="khj78y-r50431-d1e190" n="5">
+               <lb ed="#S" n="52"/>
+               <!-- 5 -->Respondeo, ad euidentiam quaestionis tria sunt 
+       vi<lb ed="#S" break="no" n="53"/>denda. Primo, de claritate corporum gloriosorum. 
+       secun<lb ed="#S" break="no" n="54"/>do, de colore &amp; peruietate. Tertio, de sufficientia dotium. 
+    </p>
+            <p xml:id="khj78y-r50431-d1e201" n="6">
+               <lb ed="#S" n="55"/>
+               <!-- 6 -->Quantum ad primum est aduertendum, quod nomen 
+       cla<lb ed="#S" break="no" n="56"/>ritatis quantum ad primam sui impositionem importat 
+       pro<lb ed="#S" break="no" n="57"/>prietatem luminis sicut &amp; suum oppositum. scilicet obscuritas 
+       im<lb ed="#S" break="no" n="58"/>portat conditionem seu proprietatem oppositam contrarie 
+      <lb ed="#S" n="59"/>vel priuatiue lumini: sed quia mediante lumine perfici 
+      <lb ed="#S" n="60"/>tur in nobis potissima cognitio sensitiua exterior quam 
+      <lb ed="#S" n="61"/>habemus, scilicet, visiua per quam res nobis potissime 
+      <lb ed="#S" n="62"/>manifestantur: &amp; cuius nomen transfertur ad omnes ali 
+      <lb ed="#S" n="63"/>as cognitiones, per quas nobis aliqua veritas 
+       manifesta<lb ed="#S" break="no" n="64"/>tur: ideo nomen claritatis trausfertur ad omnem mani- 
+      <!--0469.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="65"/>festationem veritatis: vnde omnem veritatem nobis ma 
+      <lb ed="#S" n="66"/>nifestam dicimus esse claram, &amp; per consequens omne quod 
+      <lb ed="#S" n="67"/>est sui bene manifestatiuum dicimus esse clarum. Et 
+       secun<lb ed="#S" n="68" break="no"/>dum hoc potest dici, quod claritas dupliciter erit in 
+       corpo<lb ed="#S" break="no" n="69"/>ribus gloriosis. Primo, secundum vltimum modum 
+       sci<lb ed="#S" break="no" n="70"/>licet, inquantum clarum dicitur illud quod seipsum 
+       ma<lb ed="#S" break="no" n="71"/>nifestat tanquam habens puritatem naturae specici suae. sic 
+      <lb ed="#S" n="72"/>enim corpora gloriosa erunt clara, quia qualitates eorum 
+      <lb ed="#S" n="73"/>maxime ad visum pertinentes, vt color &amp; figura erunt pu 
+      <lb ed="#S" n="74"/>rissimae nihl impuritatis habentes admixtum, &amp; hoc 
+       nul<lb ed="#S" break="no" n="75"/>lus negat. sed quantum ad primum modum potest dici, quod 
+      <lb ed="#S" n="76"/>claritas erit in corporibus gloriosis dupliciter: vno 
+       mo<lb ed="#S" break="no" n="77"/>do sicut est claritas in corporibus bene tersis &amp; politis, 
+      <lb ed="#S" n="78"/>&amp; ex incidentia radiorum solis vel alterius corporis lu 
+      <lb ed="#S" n="79"/>minosi: quae claritas est valde magna si corpus sit valde 
+      <lb ed="#S" n="80"/>politum &amp; tersum, vt vitrum vel argentum vel aliquid 
+      <lb ed="#S" n="81"/>huiusmodi. Constat autem quod corpora gloriosa erunt 
+       mul<lb ed="#S" break="no" n="82"/>tum polita &amp; tersa propter quod ex incidentia solis vel 
+      <lb ed="#S" n="83"/>aliorum luminarium fulgebunt maxima claritate, nec 
+      <lb ed="#S" n="84"/>adhuc est aliqua dubitatio. secundo modo ponitur a 
+      <lb ed="#S" n="85"/>quibusdam claritas in corporibus gloriosis dicentibus, 
+      <lb ed="#S" n="86"/>quod sicut lux est intrinseca qualitas solis vel alterius 
+       cor<lb ed="#S" break="no" n="87"/>poris luminosi, sic claritas est intrinseca qualitas 
+       corpo<lb ed="#S" break="no" n="88"/>ris gloriosi: &amp; istud est difficilius ad intelligendum: 
+       pri<lb ed="#S" break="no" n="89"/>mo, quia talis claritas non videtur ponenda in corpori 
+      <lb ed="#S" n="90"/>bus gloriosis propter hoc quod magis delectet visum 
+       aspi<lb ed="#S" break="no" n="91"/>cientium: quia nos experimur quod maior delestatio est 
+      <lb ed="#S" n="92"/>pulchritudinem coloris &amp; figurae hominis aspiclendo, qua 
+      <lb ed="#S" n="93"/>claritatem solis, etiam si aspectus inde non laederetur. 
+      <lb ed="#S" n="94"/>secundo, quia difficile est videre quomodo  color &amp; lux inten 
+      <lb ed="#S" n="95"/>sa qualis secundum hanc opinionem ponitur in beatis 
+      <lb ed="#S" n="96"/>(ponitur enim aequalis luci solis) possit stare com 
+       colo<lb ed="#S" break="no" n="97"/>re: nihilominus propter hoc non est negandum: quin De 
+      <lb ed="#S" n="98"/>us possit dare talem claritatem corporibus gloriosis: 
+       cu<lb ed="#S" break="no" n="99"/>ius ratio est, quia illa quae secundum naturam possunt sta 
+      <lb ed="#S" n="100"/>re simul vtroq, vel altero existente in gradu remisso suae 
+      <lb ed="#S" n="101"/>speciei, possunt virtute diuina simul esse vtroque 
+       existen<lb ed="#S" break="no" n="102"/>te in gradu suae speciei intensissimo: sed lux &amp; color per 
+      <lb ed="#S" n="103"/>naturam sunt simul in eodem subiesto vtroque vel altero, sal 
+      <lb ed="#S" n="104"/>tem existente in gradu remisso suae speciei: ergo virtute 
+      <lb ed="#S" n="105"/>diuina possunt esse simul vtroq, existente in gradu suae spe 
+      <lb ed="#S" n="106"/>ciei intesissimo. Maior patet, quia illa quae sunt diuersarum 
+      <lb ed="#S" n="107"/>specierum &amp; compatiuntur se in aliquo gradu non habent 
+      <lb ed="#S" n="108"/>formalem oppositionem, quia formalis oppositio seruatur in 
+      <lb ed="#S" n="109"/>toto ambitu speciei: quae autem non habent formalem oppo 
+      <lb ed="#S" n="110"/>sitionem possunt secundum totum ambitum speciei simul esse 
+      <lb ed="#S" n="111"/>virtute diuina, quia in nullo implicatur contradictio 
+       lo<lb ed="#S" break="no" n="112"/>quendo de formis diuersarum specierum. Minor similiter 
+      <lb ed="#S" n="113"/>declaratur, quia in noctilucis stant color &amp; lux vt apparet 
+      <lb ed="#S" n="114"/>ad sensum, &amp; sic videtur quod virtute diuina corpora 
+       glo<lb ed="#S" break="no" n="115"/>riosa possunt esse colorata &amp; lucentia. Erunt ergo 
+       cor<lb ed="#S" break="no" n="116"/>pora gloriosa lucida non solum per refulgentiam solis, vel 
+      <lb ed="#S" n="117"/>alterius luminaris incidentem super illa tersa &amp; 
+       politissi<lb ed="#S" break="no" n="118"/>ma plus quam vitrum: sed per intrinsecam inhaerentiam lucis 
+      <lb ed="#S" n="119"/>manentis impressae: alias non lucerent nisi praesente alio 
+      <lb ed="#S" n="120"/>illuminante vt sol, contra illud, Ciuitas illa non eget 
+       so<lb ed="#S" break="no" n="121"/>le nec Luna.
+    </p>
+            <p xml:id="khj78y-r50431-d1e356" n="7">
+      <!-- 7 -->Ad rationem de delectatione, dicendum est 
+      <lb ed="#S" n="122"/>quod per interemptionem, quia pulchritudinem candoris lucis 
+      <lb ed="#S" n="123"/>delectabilis admirabitur oculus supposito quod non laedat 
+      <lb ed="#S" n="124"/>sed confortet plus quam quemcunque colorem seu figuram, quia 
+      <lb ed="#S" n="125"/>delectatio causatur ex coniunctione conuenientis cum 
+      <lb ed="#S" n="126"/>conuenienti. Nihil autem est conuenientius potentiae, quae 
+      <lb ed="#S" n="127"/>suum primarium obiectum: primum autem obiectum 
+       vi<lb ed="#S" break="no" n="128"/>sus non est figura quae est sensibile non proprium, sed com 
+      <lb ed="#S" n="129"/>mune: nec color sed lux, quia primum in vnoquoque genere 
+      <lb ed="#S" n="130"/>est causa aliorum: videtur autem color per lucem &amp; non econuerso 
+      <lb ed="#S" n="131"/>vnde non potest videri color sine luce: &amp; ideo dulce lumen &amp; de 
+      <!--0470.xml-->
+      <pb ed="#S" n="470"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>lectabile est oculis videre solem, plus quam aliquem colorem. 
+    </p>
+            <p xml:id="khj78y-r50431-d1e391" n="8">
+               <lb ed="#S" n="2"/>
+               <!-- 8 -->Quantum ad secundum de colore &amp; peruietate eorum 
+      <lb ed="#S" n="3"/>sunt tres conclusiones. Prima, quod non solum erunt 
+       fulgi<lb ed="#S" break="no" n="4"/>da &amp; lucentia, imo colorata pulcherrimis coloribus &amp; 
+       vi<lb ed="#S" n="5" break="no"/>uacissimis, &amp; lux cum hoc inerit perfectissima &amp; 
+       vtrun<lb ed="#S" n="6" break="no"/>que simul videbitur, quia quicquid pulchritudinis &amp; 
+      <lb ed="#S" n="7"/>nobilitatis est in aliis excellenter debet in eis esse: 
+       con<lb ed="#S" break="no" n="8"/>stat autem quod lux est decor totius mundi, color etiam est 
+       pul<lb ed="#S" n="9" break="no"/>chritudo omnis mixti terminati, vnde vtrunque erit ibi. 
+    </p>
+            <p xml:id="khj78y-r50431-d1e413" n="9">
+               <lb ed="#S" n="10"/>
+               <!-- 9 -->secunda conclusio est, quod non solum erunt lucida &amp; co 
+      <lb ed="#S" n="11"/>lorata: imo cum hoc erunt peruia non propter poros tan 
+      <lb ed="#S" n="12"/>tum, quia licet sint ibi futura foramina oris, aurium, &amp; 
+      <lb ed="#S" n="13"/>huiusmodi, quae pertinent ad perfectionem naturae: tamen pori per 
+      <lb ed="#S" n="14"/>quos sudor exit, &amp; huiusmodi non erunt quia perfectio non 
+      <lb ed="#S" n="15"/>erit: hoc autem est imperfectionis: vnde coeli solidissimi 
+      <lb ed="#S" n="16"/>quasi aere fusi sunt sine poris quod est perfectionis ineis, 
+      <lb ed="#S" n="17"/>igitur erunt corpora peruia sicut vitrum, vt dicit Greg. &amp; 
+      <lb ed="#S" n="18"/>Apoc. penul. Ciuitas illa comparatur vitro mundo, non 
+      <lb ed="#S" n="19"/>vtique quo ad fragilitatem, sed quo ad puritatem &amp; 
+       peruieta<lb ed="#S" break="no" n="20"/>tem.
+    </p>
+            <p xml:id="khj78y-r50431-d1e442" n="10">
+      <!-- 10 -->Tertia conclusio est, de possibilitate simulta 
+      <lb ed="#S" n="21"/>tis lucis radiosae &amp; peruietatis. Vbi notandum, quod non est 
+      <lb ed="#S" n="22"/>difficile quomodo  cum ista peruietate luceant, vt aer, sed quomodo  
+      <lb ed="#S" n="23"/>fulgeant aut radios emittat: hoc enim cum sit 
+       perfectio<lb ed="#S" break="no" n="24"/>nis in luminaribus non est cis negandum: vnde &amp; corpus 
+      <lb ed="#S" n="25"/>Christi vocatur Lucerna in Apoc. Lucerna eius est Agnus: 
+      <lb ed="#S" n="26"/>&amp; ibi sunt duo magna luminaria corpus eius &amp; matris 
+      <lb ed="#S" n="27"/>suae: caeteri vero erunt sicut stellae propter quae non indi 
+      <lb ed="#S" n="28"/>gent luminaribus. Videmus autem in corporibus lucere 
+      <lb ed="#S" n="29"/>&amp; illuminare simul sola corpora opaca: vt stella quae est 
+      <lb ed="#S" n="30"/>densior parssui orbis: non autem transparentia: vt ignis in 
+      <lb ed="#S" n="31"/>sphaera sua est peruius siue diaphanus: propter quod non 
+      <lb ed="#S" n="32"/>impedituidere coelum &amp; stellas, sed in materia aliena est 
+      <lb ed="#S" n="33"/>opacus: vnde impedit videre parietem posteriorem in camino, 
+      <lb ed="#S" n="34"/>&amp; in sphera lucet &amp; non illuminat, in aliena autem 
+       mate<lb ed="#S" break="no" n="35"/>ria puta in flamma illuminat. Et dicendum, quod opacitas non 
+      <lb ed="#S" n="36"/>est causa illuminandi, quia quanto forma perfectior est tan 
+      <lb ed="#S" n="37"/>to magis se multiplicat: vnde si esset ita perfecta lux in 
+      <lb ed="#S" n="38"/>diaphano sicut in opaco ita illuminaret sicut opacum, sed 
+      <lb ed="#S" n="39"/>respectu naturae possibile est quod opacum sit magis natum 
+      <lb ed="#S" n="40"/>habere in gradu perfecto lucem, quae diaphanum in 
+       coelesti<lb ed="#S" break="no" n="41"/>bus quamuis econuerso sit hic in quibusdam, licet etiam de 
+      <lb ed="#S" n="42"/>igne dictum sit idem. sed Deus sicut potest facere perfectum 
+      <lb ed="#S" n="43"/>colorem &amp; lucem in eodem subiecto, quae respectu naturae 
+       re<lb ed="#S" break="no" n="44"/>quirunt diuersas dispositiones &amp; contrarias, sic &amp; hoc in 
+      <lb ed="#S" n="45"/>corporibus sanctorum peruiis facit lucem intensissimam &amp; 
+      <lb ed="#S" n="46"/>per consequens radiatiuam.
+    </p>
+            <p xml:id="khj78y-r50431-d1e503">
+      <!--11 -->Quantum ad tertium de 
+      <lb ed="#S" n="47"/>sufficientia dotium dicendum, quod gratia perficit naturam 
+       se<lb ed="#S" break="no" n="48"/>cundum modum eius, sicut ergo corporis natura constat 
+      <lb ed="#S" n="49"/>ex quatuor clementis &amp; humoribus, sic &amp; eius gloria ex 
+      <lb ed="#S" n="50"/>quatuor integratur: vnde quia finis debet esse nobilior 
+      <lb ed="#S" n="51"/>his quae sunt ad finem, &amp; excellentius continere bonitates 
+      <lb ed="#S" n="52"/>illorum &amp; perfectiones. Corpora autem sanctorum sunt finis 
+      <lb ed="#S" n="53"/>omnium corporum: ideo debent habere perfectiones alio 
+      <lb ed="#S" n="54"/>rum. Cum igitur corpus humanum, &amp; sit corpus, &amp; sit 
+       cor<lb ed="#S" break="no" n="55"/>pus animatum: animatum autem differat ab inanimato 
+      <lb ed="#S" n="56"/>motu &amp; sensu: inde est quod quia in corporibus inanimatis 
+      <lb ed="#S" n="57"/>perfectionis est in corpore, quia propter longe distare a 
+      <lb ed="#S" n="58"/>Deo fiunt entia corruptibilia: &amp; lux est purissima quali 
+      <lb ed="#S" n="59"/>tatum propter quae duo corpora coelestia eminent: ita cor 
+      <lb ed="#S" n="60"/>pus gloriosum debet habere dotem impassibilitatis 
+       pre<lb ed="#S" break="no" n="61"/>pter primu, &amp; dotem claritatis propter secundum. In ani 
+      <lb ed="#S" n="62"/>matis autem animalia propter sensum eminent plantis, &amp; 
+      <lb ed="#S" n="63"/>inter illa quae plures habent sensus &amp; perspicatiores. Item 
+      <lb ed="#S" n="64"/>inter ipsa quae habent motum progressiuum sunt 
+       perfectio<lb ed="#S" break="no" n="65"/>ra: &amp; sic corpus inquantum animatum habet dotem subtili 
+      <lb ed="#S" n="66"/>tatis, per quam redditur ad omnes operationes sensitiuas 
+      <lb ed="#S" n="67"/>paratissimum, vt visu excedat lyncem &amp; aquilam &amp; sic de 
+      <!--0470.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>aliis, &amp; per dotem agilitatis aquilis &amp; vento velociores 
+      <lb ed="#S" n="69"/>sint, secundum illud, volauit super pennas ventorum &amp;c. 
+    </p>
+            <p xml:id="khj78y-r50431-d1e562" n="12">
+               <lb ed="#S" n="70"/>
+               <!-- 12 -->Ad argumenta ad primum dicendum, quod color &amp; lux 
+      <lb ed="#S" n="71"/>non requirunt necessario oppositas dispositiones in 
+       sub<lb ed="#S" break="no" n="72"/>iecto absolute: sed per comparationem ad causam natura 
+      <lb ed="#S" n="73"/>lem effectiuam, quae non potest causare colorem vel lucem 
+       in<lb ed="#S" break="no" n="74"/>subiecto, nisi mediantibus aliis quae respectu coloris &amp; 
+      <lb ed="#S" n="75"/>lucis ponunt contrarias dispositiones: claritas autem quae 
+      <lb ed="#S" n="76"/>erit in corporibus gloriosis non erit a causa naturali: sed 
+      <lb ed="#S" n="77"/>immediate a Deo: &amp; ideo non requirit in subiecto 
+       dispo<lb ed="#S" break="no" n="78"/>sitionem colori contrariam, &amp; si quis quaerat quid istorum 
+      <lb ed="#S" n="79"/>videbitur in corpore glorioso lux vel color, Dicendum 
+      <lb ed="#S" n="80"/>est quod vtrunque simul. Quod enim ista non simul 
+       videan<lb ed="#S" break="no" n="81"/>tur in nocte lucis causa est, quia de die quando color eorum vide 
+      <lb ed="#S" n="82"/>tur lux seu claritas eorum quae minima est non appares 
+      <lb ed="#S" n="83"/>propter praesentiam maioris claritatis. scilicet solis: de nocte 
+       ve<lb ed="#S" break="no" n="84"/>ro videtur eorum lux &amp; non color, quia color non percipi 
+      <lb ed="#S" n="85"/>tur nisi medium sufficienter illuminetur. Est enim color 
+      <lb ed="#S" n="86"/>motiuus secundum actum lucidi, vt dicit. 2. de Anima. Lux 
+      <lb ed="#S" n="87"/>autem talium non sufficit ad illuminandum medium: sic vt 
+       co<lb ed="#S" break="no" n="88"/>lor eorum videatur, quamuis sufficiat ad immutandum 
+       vi<lb ed="#S" break="no" n="89"/>sum quo ad seipsum &amp; medium.
+    </p>
+            <p xml:id="khj78y-r50431-d1e611" n="13">
+      <!-- 13 -->Ad secundum dicunt 
+      <lb ed="#S" n="90"/>quidam, quod corpora beatorum possunt esse peruia respe 
+      <lb ed="#S" n="91"/>ctu oculi beati propter poros subtilissimos in eis 
+       existen<lb ed="#S" break="no" n="92"/>tes, qui propter efficaciam oculi glorificati sufficiunt ad 
+      <lb ed="#S" n="93"/>manifestandum interiora corporisquantum oportet. Et 
+       ni<lb ed="#S" break="no" n="94"/>hilominus cum hac peruietate optime stat quod sint colora 
+      <lb ed="#S" n="95"/>ta seu lucentia. sed non bene apparet quo possint esse 
+      <lb ed="#S" n="96"/>simul peruia secundum totum, vt vitrum, &amp; lucentia sicut 
+      <lb ed="#S" n="97"/>sol: sed visa est possibilitas huius in tertia conclusione 
+      <lb ed="#S" n="98"/>2. arti. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-r50431-d1e635" n="14">
+      <!-- 14 -->Ad tertium dicunt quidam, quod corpus 
+      <lb ed="#S" n="99"/>clarum seu lucens praesens visui bene disposito 
+       necessa<lb ed="#S" break="no" n="100"/>rio videtur: nisi virtute diuina impediatur actio visibilis in 
+      <lb ed="#S" n="101"/>visu: sed quia beatis ad nutum assistet diuina virtus: ideo 
+      <lb ed="#S" n="102"/>beati non ex se sed &amp; ex diuina virtute assistente possunt 
+      <lb ed="#S" n="103"/>facere, quod claritas corum praesens visui non immutet ipsum 
+      <lb ed="#S" n="104"/>nec apparet quomodo  hoc posset fieri esse corpus gloriosum 
+      <lb ed="#S" n="105"/>virtute animae, quia non est in potestate virtutis creatae su 
+      <lb ed="#S" n="106"/>spendere astionem naturalem actiui in passiuum 
+       approxi<lb ed="#S" break="no" n="107"/>matum &amp; dispositum, sicut non est in potestate hominis vel 
+      <lb ed="#S" n="108"/>angeli quod ignis appositus stuppae non conburat ipsam, &amp; 
+       si<lb ed="#S" break="no" n="109"/>militer non videtur quod sit in potestate animae 
+       quantum<lb ed="#S" break="no" n="110"/>cunque glorificatae, quod corpus suum si sit lucens &amp; clarum &amp; 
+       prae<lb ed="#S" break="no" n="111"/>sens visui non immutet ipsum, quamuis hoc possit fieri 
+       vir<lb ed="#S" break="no" n="112"/>tute diuina: non est dubium virtute Dei assistente 
+       impedi<lb ed="#S" break="no" n="113"/>ri posse ne videatur quando volunt.
+    </p>
+            <p xml:id="khj78y-r50431-d1e672" n="15">
+      <!-- 15 -->sed si possit ei da 
+      <lb ed="#S" n="114"/>re virtus per quam non patianturab illis a quibus alias 
+       ha<lb ed="#S" break="no" n="115"/>bent pati: sic &amp; ne agant in quibus alias habent agere. 
+      <lb ed="#S" n="116"/>si enim datur animae vt membra quae contra voluntatem 
+      <lb ed="#S" n="117"/>eius solent moueri non moueantur nisi eius imperio: pa 
+      <lb ed="#S" n="118"/>ri ratione quod color corporis sui vel lux non possit 
+       moue<lb ed="#S" break="no" n="119"/>re medium, nisi ad suum beneplacitum, potest ei confer 
+      <lb ed="#S" n="120"/>ri: licet ille motus respiciat animam, vt est sensitiua vel ve 
+      <lb ed="#S" n="121"/>getatiua: iste autem de quo quaeritur respiciat eam, vt est 
+      <lb ed="#S" n="122"/>forma corporeitatis vel mixti: quia per dotes vtroque mo 
+      <lb ed="#S" n="123"/>mo perficitur corpus in comparatione ad eam. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

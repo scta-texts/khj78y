@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="280"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q85009"><!-- l4d22-q2 -->
+            <head xml:id="khj78y-q85009-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q85009-Hd1e103" type="question-title">
+     utrum damnato 
+     ad mortem, petenti confessionem debeat 
+       negari
+   </head>
+            <p xml:id="khj78y-q85009-d1e106">
+               <lb ed="#S" n="37"/>QVAESTIO sECVNDA. 
+      <lb ed="#S" n="38"/>De confessione non neganda damnato ad mortem. 
+    </p>
+            <p xml:id="khj78y-q85009-d1e113">
+               <lb ed="#S" n="39"/>SECVNDO quaeritur, vtrum damnato 
+      <lb ed="#S" n="40"/>ad mortem, petenti confessionem debeat nega 
+      <lb ed="#S" n="41"/>ri? Et videtur quod sic: quia manifesta peccatam non 
+      <lb ed="#S" n="42"/>sunt occulta correctione purganda. 
+       ex<lb ed="#S" break="no" n="43"/>tra de poe. &amp; re. c. 1. ergo cum iam sit 
+       mani<lb ed="#S" break="no" n="44"/>testum per confessionem in iure, &amp; per sniam eos esse reos, 
+      <lb ed="#S" n="45"/>non occulta confessione, sed palam coram omnibus debent fate 
+      <lb ed="#S" n="46"/>ri.
+    </p>
+            <p xml:id="khj78y-q85009-d1e133" n="2">
+      <!-- 2 -->Contram, quia ecclesia non claudit gremium redeunti. 
+      <lb ed="#S" n="47"/>Respondeo, hic sunt tres conclusiones. Prima de hoc, quod 
+      <lb ed="#S" n="48"/>quaerii, quod non solum a iudice ecclesiastico, qui esset 
+       depo<lb ed="#S" break="no" n="49"/>nendus, si contrarium fateret: sed nec a quocunque iudice 
+      <lb ed="#S" n="50"/>Christiano neganda est confessio Christiano, qui eam petit, 
+      <lb ed="#S" n="51"/>&amp; paratus est facere, quicquid debet: quamuis sepultura de 
+      <lb ed="#S" n="52"/>neget: sicut morienti in torneamentis negatur sepultura: sed 
+      <lb ed="#S" n="53"/>non ecclesiastica sacramenta, etiam si timeret, ne superueniret, a 
+      <lb ed="#S" n="54"/>eriperet: quia vtilius scandalum nasci permittit, quam veritas 
+      <lb ed="#S" n="55"/>relinquat, secundum Greg. extra de reg. iur. c. Qui 
+       scanda<lb ed="#S" break="no" n="56"/>lizauerit. nisi crederet, quod ipse non ex deuotione sub 
+       pati<lb ed="#S" break="no" n="57"/>bulo peteret sacerdotem, sed vt eriperetur iterum ab amicis su 
+      <lb ed="#S" n="58"/>peruenientibus, qui in carcere nunq petit confiteri. vnde 
+      <lb ed="#S" n="59"/>rei sunt animarum praepositi, &amp; balliui, qui illis, quos ad 
+      <lb ed="#S" n="60"/>mortem ducunt petentibus confessionem illam negant: cum 
+      <lb ed="#S" n="61"/>dicatur de haereticis. c. super eo. lib. 6. quod etiam relapsis, qui 
+      <lb ed="#S" n="62"/>sine audientia tradendi sunt iustitiae seculari, ecclesia non 
+      <lb ed="#S" n="63"/>claudit gremium: quin. scilicet poenitentiam, &amp; viaticum administret. 
+      <lb ed="#S" n="64"/>Vnde sicut baptismus non negaretur: sic nec poenitentia, nec via 
+      <!--0280.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="65"/>ticum, nisi ecclesia reputaret excommunicatum, &amp; ipse hoc 
+      <lb ed="#S" n="66"/>non negaret. Et sic negata sibi absolutione ab 
+       excommu<lb ed="#S" break="no" n="67"/>nitatione: per consequens alia est neganda, sicut in Templariis 
+      <lb ed="#S" n="68"/>factum fuit.
+    </p>
+            <p xml:id="khj78y-q85009-d1e191" n="4">
+      <!-- 4 -->secunda conclusio est, de confessione 
+       iudi<lb ed="#S" break="no" n="69"/>ciali extorta a damnatis: vbi videntur excusari illi laici, qui 
+      <lb ed="#S" n="70"/>a suspendendo requirunt socios criminum, &amp; alios malefacto 
+      <lb ed="#S" n="71"/>res, quos nouit, &amp; ille tenereos prodere, si credit eos incor 
+      <lb ed="#S" n="72"/>rigibiles: cum illorum crimen sit nociuum communitati: quia 
+       fu<lb ed="#S" break="no" n="73"/>res sulit, &amp; latrones. si autem iam sciret eos correctos, vel 
+      <lb ed="#S" n="74"/>speraret corrigendos, antequam plus noceant communitati: 
+      <lb ed="#S" n="75"/>tunc si est casus, in quo praepositus de illis possit 
+       inqui<lb ed="#S" break="no" n="76"/>rere: vt quia sunt diffamati, vel sibi denunciati: tenet 
+       ad<lb ed="#S" break="no" n="77"/>huc prodere, alias non, sicut dictum est supra dist. 19. de cor 
+      <lb ed="#S" n="78"/>rectione fraterna: licet leges prohibeant damnatos de aliis 
+      <lb ed="#S" n="79"/>inquiri.
+    </p>
+            <p xml:id="khj78y-q85009-d1e220" n="5">
+      <!-- 5 -->Tertia conclusio est de falsa confessione 
+       illo<lb ed="#S" break="no" n="80"/>rum, qui per tormenta sibi, &amp; aliis falsa imponunt. vnde 
+      <lb ed="#S" n="81"/>de illo, qui in tormento se, &amp; alios innocentes falso accusate 
+      <lb ed="#S" n="82"/>respectu aliorum videt mortale pctmn, quia perniciosum men 
+      <lb ed="#S" n="83"/>dacium: &amp; ideo nullo metu debuit dicere, sicut nec Chri 
+      <lb ed="#S" n="84"/>stum negare, licet excusetur a tanto: sed respectu sui non vi 
+      <lb ed="#S" n="85"/>dei nisi veniale: quia plus tenetur vitae suae, quam famae. vnde si 
+      <lb ed="#S" n="86"/>propter vitam, quam in tormontis timetperdere, vel ledere: 
+      <lb ed="#S" n="87"/>consentit laedere famam, peccat quidem mentiendo: sed 
+      <lb ed="#S" n="88"/>videtur officiosum mendacium, &amp; sic veniale: sed de hoc 
+      <lb ed="#S" n="89"/>supr a dicti est. 21. dist.
+    </p>
+            <p xml:id="khj78y-q85009-d1e246" n="6">
+      <!-- 6 -->Ad argumentum dicendum, quod 
+      <lb ed="#S" n="90"/>secreta confessio non liberat eum per se a publica poene 
+      <lb ed="#S" n="91"/>suspendij. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

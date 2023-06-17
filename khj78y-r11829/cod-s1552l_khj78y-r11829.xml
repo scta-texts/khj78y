@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="358"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r11829"><!-- l4d30-q1 -->
+            <head xml:id="khj78y-r11829-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-r11829-Hd1e103" type="question-title">
+     de 
+       errore, an impediat, et dirimat 
+     matrimonium
+   </head>
+            <p xml:id="khj78y-r11829-d1e106">
+               <lb ed="#S" n="97"/>DIsTINCTIO. 30. QAEsTIO. I. 
+    </p>
+            <p xml:id="khj78y-r11829-d1e111">
+               <lb ed="#S" n="98"/>CIrca distinctionem. 30. quaeruntur duo. Primo, de 
+      <lb ed="#S" n="99"/>impedimento erroris. secundo, de matrimonio bea 
+      <lb ed="#S" n="100"/>tae Virginis. 
+    </p>
+            <p xml:id="khj78y-r11829-d1e120">
+               <lb ed="#S" n="101"/>De errore, qui cuacuas consensum. 
+    </p>
+            <p xml:id="khj78y-r11829-d1e126">
+               <lb ed="#S" n="102"/>D. IDom. Dac eadem Distincs. 
+    </p>
+            <p xml:id="khj78y-r11829-d1e131">
+               <lb ed="#S" n="103"/>PRIMO igitur, quaeritur de 
+       er<lb ed="#S" break="no" n="104"/>rore, an impediat, &amp; dirimat 
+      <lb ed="#S" n="105"/>matrimonium? &amp; videt quod non: quia 
+      <lb ed="#S" n="106"/>multi decipiuntur putantes se 
+      <lb ed="#S" n="107"/>ducere virgines diuites, alias 
+      <lb ed="#S" n="108"/>non ducturi, qui postea sunt 
+      <lb ed="#S" n="109"/>decepti, nec propter hoc matri 
+      <lb ed="#S" n="110"/>monium separatur.
+    </p>
+            <p xml:id="khj78y-r11829-d1e151" n="3">
+      <!-- 3 -->Contra, 
+      <lb ed="#S" n="111"/>non est matrimonium sine consensu, quia nuptias. non 
+       con<lb ed="#S" break="no" n="112"/>cubitus, sed consensus facit: sed nihil est contrarium tam 
+      <lb ed="#S" n="113"/>consensui, quantum error, qui imperitiam detegit: vt dicit 
+      <lb ed="#S" n="114"/>f. de iur. o. iu. l. si per errorem. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r11829-d1e164" n="4">
+      <!-- 4 -->Respondeo, 
+      <lb ed="#S" n="115"/>hic tria sunt videnda secundum triplicem errorem. Primi, de 
+      <lb ed="#S" n="116"/>errore substantiae, vel personae. secundo, de errore condi 
+      <lb ed="#S" n="117"/>tionis. Tertio, de errore fortunae, vel qualitatis alterius 
+    </p>
+            <p xml:id="khj78y-r11829-d1e175" n="5">
+               <lb ed="#S" n="118"/>
+               <!-- 5 -->Circa primum est solum vna conclufo, quia est error quidam, 
+      <lb ed="#S" n="119"/>qui respicit illud, quod est de sobstantia matrimonij: ficus 
+      <lb ed="#S" n="120"/>sunt personae, quae sunt materia quo ad substantiam: &amp; iste 
+      <lb ed="#S" n="121"/>errorimpedit, &amp; dirimit matrimonium de iure diuino: quia 
+      <lb ed="#S" n="122"/>ius humanum non posset facere, quod illa, in quam non consen 
+      <lb ed="#S" n="123"/>si, sit vxor mea: quia sicut non est matrimonium nisi per 
+       con<lb ed="#S" break="no" n="124"/>fensum, sic non est matrimonium cum ista: nisi per consensum 
+      <lb ed="#S" n="125"/>in istam, &amp; econuerso.
+    </p>
+            <p xml:id="khj78y-r11829-d1e197" n="6">
+      <!-- 6 -->secundus articulus de errore 
+      <lb ed="#S" n="126"/>conditionis, quae respicit bona matrimonij: habet etiam 
+       v<lb ed="#S" break="no" n="127"/>nitam conclusionem, quia est ertor in illis, quae respiciunt 
+      <lb ed="#S" n="128"/>bona matrimonij, quantum ad finem principalem, vel 
+       secun<lb ed="#S" break="no" n="129"/>darium: sicut error conditlonis deterioris, per quam impedi 
+      <!--0359.xml-->
+      <pb ed="#S" n="359"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>tur libera debiti petitio frequenter, &amp; bonum prolis: 
+      <lb ed="#S" n="2"/>quia est seruus forte, vel error impotentiae coeundi, vel 
+      <lb ed="#S" n="3"/>aliouid tale, &amp; talis impedit per statutum ecclesiae: &amp; non 
+      <lb ed="#S" n="4"/>de lure diuino, nec quo ad primum, quia seruitus est de 
+      <lb ed="#S" n="5"/>iure humano: nec quantum ad vtrunque: quia non 
+       per<lb ed="#S" break="no" n="6"/>tinet ad substantiam matrimonij: &amp; inde est, quod si 
+       sci<lb ed="#S" break="no" n="7"/>uerit, est verum matrimonium: cum tamen non esset, si 
+      <lb ed="#S" n="8"/>deesset aliqua id de essentia matrimonij. Cum enim prin 
+      <lb ed="#S" n="9"/>cipalis finis matrimonij sit proles, non vitatio 
+       fornica<lb ed="#S" break="no" n="10"/>tionis: si posse coire esset de substantia matrimonij: mul 
+      <lb ed="#S" n="11"/>to magis posse generare: &amp; sic senes non possent 
+       contra<lb ed="#S" break="no" n="12"/>here. sublata enim causa essentiali matrimonij, quae 
+      <lb ed="#S" n="13"/>est materialis, non manet matrimonium, quamuis 
+       tran<lb ed="#S" break="no" n="14"/>seunte causa efficiente, vt consensus maneat: sicut 
+       mor<lb ed="#S" break="no" n="15"/>te naturali, vel ciuili superueniente: quia homo, vt est 
+      <lb ed="#S" n="16"/>animal ciuile politicum, est materia huius sacramenti. 
+      <lb ed="#S" n="17"/>Et quia secundum quod est pars communitatis, subiacet 
+      <lb ed="#S" n="18"/>potestati, vel ordinationi factoris communitatis: inde est, 
+      <lb ed="#S" n="19"/>quod potest fieri habilis, &amp; inhabilis, secundum ordinem rectoris, 
+      <lb ed="#S" n="20"/>sed contracto matrimonio etiam non consummato, si vir 
+      <lb ed="#S" n="21"/>cunuchetur, non soluitur matrimonium: ergo posse coire 
+      <lb ed="#S" n="22"/>non pertinet ad essentiam, sed tantum ad bonum fidei, &amp; prolis. 
+      <lb ed="#S" n="23"/>7 Tertius articulus de errore qualitatis, &amp; fortunae ha 
+      <lb ed="#S" n="24"/>bet sex conclusiones.
+    </p>
+            <p xml:id="khj78y-r11829-d1e270" n="8">
+      <!-- 8 -->Prima, quia est error qualitatis, 
+      <lb ed="#S" n="25"/>&amp; fortunae, qui non cadit super aliquid, quod sit de essen 
+      <lb ed="#S" n="26"/>tia matrimonij, nec pertinet ad bona mrimonij: &amp; si iste 
+      <lb ed="#S" n="27"/>sit absolutus, non impedit, nec de iure diuino: quia 
+       concur<lb ed="#S" break="no" n="28"/>runt essentialia: nec de iure humano, quia non est statu 
+      <lb ed="#S" n="29"/>tum.
+    </p>
+            <p xml:id="khj78y-r11829-d1e286" n="9">
+      <!-- 9 -->secunda conclusio est, quod si poneret per modum 
+      <lb ed="#S" n="30"/>conditionis, quae est honesta, &amp; postibilis ea stante, 
+       sta<lb ed="#S" break="no" n="31"/>ret: non stante, non staret: puta, contraho tecum, si tu es ita 
+      <lb ed="#S" n="32"/>diues sicut ego, vel sicut dictum est mihi, vel ita nobilis: 
+      <lb ed="#S" n="33"/>puta sic, vel sic.
+    </p>
+            <p xml:id="khj78y-r11829-d1e299" n="10">
+      <!-- 10 -->Tertia conclusio, quod dato etiam, quod esset 
+      <lb ed="#S" n="34"/>conditio impossibilis, vel inhonesta, nunquam in foro 
+       conscien<lb ed="#S" break="no" n="35"/>tiae est matrimonium, si non intendebat consentire, sed 
+       ve<lb ed="#S" break="no" n="36"/>rum est, quod etiam in defectu illius conditionis tener 
+       contra<lb ed="#S" break="no" n="37"/>here: &amp; sic illud matrimonium habet vim sponsaliorum: quia 
+      <lb ed="#S" n="38"/>vnusquisque verba, quae cum alio conueniendo emittit: 
+       te<lb ed="#S" break="no" n="39"/>netur implere secundum intellectu iuris, quauis aliud 
+       in<lb ed="#S" break="no" n="40"/>tenderet, nisi hoc ipsum expresserit: vnde cum iura 
+       inter<lb ed="#S" break="no" n="41"/>pretent matrimonium adiecta conditione impossibili, vel 
+      <lb ed="#S" n="42"/>inhonesta, quae non est contra bona matrimonij: etiam si 
+       il<lb ed="#S" break="no" n="43"/>la sit falsa: inde est, quod tenetur implere sic cam, quod sit verum 
+      <lb ed="#S" n="44"/>matrimonium, quod non est nisi contrahat.
+    </p>
+            <p xml:id="khj78y-r11829-d1e328" n="11">
+      <!-- 11 -->Quarta 
+       conclu<lb ed="#S" break="no" n="45"/>sio est, quod si expressisset, contraho tecum, si coelum digito te 
+      <lb ed="#S" n="46"/>tigeris, vel si feceris furtum: alias non intendo tecum con 
+      <lb ed="#S" n="47"/>trahere, nec punc, nec alias: tunc ga scienti dolus non in 
+      <lb ed="#S" n="48"/>fertur: &amp; in incertis locus est coniecturae, nec est 
+       matri<lb ed="#S" break="no" n="49"/>monium, ncc tenetur ad matrimonium in aliquo foro.
+    </p>
+            <p xml:id="khj78y-r11829-d1e344">
+               <lb ed="#S" n="50"/>12. Quinta conclusio est, quod si est conditio necessaria, si 
+      <lb ed="#S" n="51"/>eius existentia est contraria essentiae matrimonij, non est 
+      <lb ed="#S" n="52"/>matrimonium, nec sponsalia, sicut si esset inhonesta contra 
+      <lb ed="#S" n="53"/>bona mrimonij, &amp; prolis: vt si dicat, contraho tecum, si mor 
+      <lb ed="#S" n="54"/>tuus fuero, vel fueris, est enim necessaria: sed 
+       impossibi<lb ed="#S" break="no" n="55"/>le est, quod cuncius existentia stet essentia matrimonij: &amp; 
+       id<lb ed="#S" break="no" n="56"/>eo nihil est actum.
+    </p>
+            <p xml:id="khj78y-r11829-d1e362">
+      13. sexta conclusio, quod si eius 
+       exi<lb ed="#S" break="no" n="57"/>stentia non est contraria matrimonio, tunc habetur pro 
+      <lb ed="#S" n="58"/>impleta iudicio ecclesiae: vt si dicat, contraho tecum, si sol 
+      <lb ed="#S" n="59"/>cras oriatur, statim est matrimonium, sed in fore conscien 
+      <lb ed="#S" n="60"/>tiae si intelligit, quod matrimonium non sit statim: sed quod sit 
+      <lb ed="#S" n="61"/>tunc primum, vel quod tunc sint sponsalia, non est 
+       matrimo<lb ed="#S" break="no" n="62"/>nium, vltra quod intendit: sed tenetur contrahere, &amp; facere, 
+      <lb ed="#S" n="63"/>quod statim sit matrimonium, vt verificet dictum suum secun 
+      <lb ed="#S" n="64"/>dum sensum ecclesiae, nisi contrarium exprimat, vt 
+       di<lb ed="#S" break="no" n="65"/>ctum est.
+    </p>
+            <p xml:id="khj78y-r11829-d1e385" n="14">
+      <!-- 14 -->Ad secundum patet solutio per 
+       Distin<lb ed="#S" break="no" n="66"/>ctionem.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

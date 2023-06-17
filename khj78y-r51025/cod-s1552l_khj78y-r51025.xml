@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="470"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r51025"><!-- l4d44-q6 -->
+            <head xml:id="khj78y-r51025-Hd1e101">Quaestio 6</head>
+            <head xml:id="khj78y-r51025-Hd1e103" type="question-title">
+     utrum corpora damnatorum post 
+       resurrectionem patiantur ab igne passione 
+     proprie dicta
+   </head>
+            <p xml:id="khj78y-r51025-d1e106">
+               <lb ed="#S" n="124"/>QVAESTIO sEXTA. 
+      <lb ed="#S" n="125"/>De passione corporum damnatorum.
+    </p>
+            <p xml:id="khj78y-r51025-d1e113">
+               <lb ed="#S" n="126"/>Thom. 4. Dist. 44. q. 3. art. I. &amp;. 2. 
+    </p>
+            <p xml:id="khj78y-r51025-d1e118">
+               <lb ed="#S" n="127"/>QVAERITVR sexto quantum ad damna 
+      <lb ed="#S" n="128"/>tos, vtrum corpora damnatorum post 
+       resurre<lb ed="#S" break="no" n="129"/>ctionem patiantur ab igne passione 
+       pro<lb ed="#S" break="no" n="130"/>prie dicta: &amp; videtur quod non, quia nullum 
+      <lb ed="#S" n="131"/>incorruptibile est passibile passione pro- 
+      <!--0471.xml-->
+      <pb ed="#S" n="471"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>prie dicta: sed corpora damnatorum post resurrectionem 
+      <lb ed="#S" n="2"/>erunt incorruptibilia: ergo non erunt pasiibilia 
+       passio<lb ed="#S" break="no" n="3"/>ne proprie dicta. Maior patet per Philosophum, quia 
+       pas<lb ed="#S" break="no" n="4"/>sio magis facta abiicit a substantia. 6. Topicorum: &amp; 
+       tan<lb ed="#S" break="no" n="5"/>dem inducit corruptionem propter quod omne passibile 
+      <lb ed="#S" n="6"/>finaliter est corruptibile: minor probatur per illud quod 
+      <lb ed="#S" n="7"/>habetur. Apoc. 9. In diebus illis quaerent homines mor 
+      <lb ed="#S" n="8"/>tem &amp; non inuenient eam: &amp; desiderabunt mori &amp; 
+       fu<lb ed="#S" break="no" n="9"/>giet mors ab eis.
+    </p>
+            <p xml:id="khj78y-r51025-d1e158" n="2">
+      <!-- 2 -->Item sublato eo quod est 
+       princi<lb ed="#S" break="no" n="10"/>pium omnis realis actionis, remouetur omnis realis actio: 
+      <lb ed="#S" n="11"/>sed post resurrectionem cessabit motus coell qui est princi 
+      <lb ed="#S" n="12"/>pium omnis realis actionis, quare &amp; omnis realis 
+       pas<lb ed="#S" break="no" n="13"/>sio. maior de se patet, sed minor probat, quia sicut se 
+       ha<lb ed="#S" break="no" n="14"/>bet motus cordis in animali ad alios motus in animali: 
+      <lb ed="#S" n="15"/>ita se habet motus coeli ad alios motus inferiores: sed 
+       mo<lb ed="#S" break="no" n="16"/>tu cordis cessante necessario cessatomnis motus 
+       anima<lb ed="#S" break="no" n="17"/>lit: ergo motu coeli cessante cessabunt omnes motus infe 
+      <lb ed="#S" n="18"/>riores. minor illius pro simili clara est: sed maior patet 
+      <lb ed="#S" n="19"/>per Philosophum. 8. Physicorum in principio, &amp; per Rabbi 
+      <lb ed="#S" n="20"/>Moysen qui comparat motum coeli motui cordis.
+    </p>
+            <p xml:id="khj78y-r51025-d1e187" n="3">
+      <!-- 3 -->Item 
+      <lb ed="#S" n="21"/>omnis causa vniuoca reducitur ad aequiuocam: alioquin 
+      <lb ed="#S" n="22"/>posset esse processus in infinitum cum inter vniuoca non 
+      <lb ed="#S" n="23"/>sit ordo per se: sed actio &amp; passio quae inuenitur in istis 
+      <lb ed="#S" n="24"/>inferioribus est secundum vniuocationem, sicut cum cali 
+      <lb ed="#S" n="25"/>dum calefacit aliud: quia forma agentis &amp; terminus actio 
+      <lb ed="#S" n="26"/>nis sunt eiusdem speciei: ergo oportet quod reducatur in cau 
+      <lb ed="#S" n="27"/>sam aequiuocam non nisi in motum coeli vt videtur: ergo eo 
+      <lb ed="#S" n="28"/>cessante cessabit talis actio &amp; passio, sed non ponitur 
+       a<lb ed="#S" break="no" n="29"/>lia in damnatis, ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r51025-d1e211" n="4">
+      <!-- 4 -->Item contrarium arguitur, 
+      <lb ed="#S" n="30"/>quia sicut corpus cooperatur ad meritum: ita 
+       coopera<lb ed="#S" break="no" n="31"/>tur ad demeritum: sed in bonis in quibus corpus coopera 
+      <lb ed="#S" n="32"/>tum est ad meritum, corpus glorificatur &amp; non solum ani 
+      <lb ed="#S" n="33"/>ma: ergo in malis in quibus corpus fuit cooperatum ad 
+       de<lb ed="#S" break="no" n="34"/>meritum, punietur non solum quo ad animam, sed quo ad cor 
+      <lb ed="#S" n="35"/>pus, hoc autem non fieret si corpus esset impassibile. ergo 
+      <lb ed="#S" n="36"/>&amp;c.
+    </p>
+            <p xml:id="khj78y-r51025-d1e231" n="5">
+      <!-- 5 -->Respondeo, ad huius quaestionis euidentiam tria 
+      <lb ed="#S" n="37"/>sunt videnda. Primo, de igne inferni. secundo, de loco. Ter 
+      <lb ed="#S" n="38"/>tio, de poena quo ad corpora.
+    </p>
+            <p xml:id="khj78y-r51025-d1e240" n="6">
+      <!-- 6 -->Quantum ad primum 
+      <lb ed="#S" n="39"/>dicendum est, quod quamuis non possit conuinci infallibiliter 
+      <lb ed="#S" n="40"/>per scripturam vel per creaturam ignem inferui esse 
+       corpo<lb ed="#S" break="no" n="41"/>reum: est tamen hoc tenendum authoritate Gregorij. 4. 
+      <lb ed="#S" n="42"/>Dial. dicentis, Ignem corporeum esse non ambigas in quo 
+      <lb ed="#S" n="43"/>certum est damnatorum corpora cruciari. sec undo, hoc te 
+      <lb ed="#S" n="44"/>nendum est ratione probabili, quia poena damnatorum 
+       de<lb ed="#S" break="no" n="45"/>bet proportionabiliter correspondere praemio beatorum: 
+      <lb ed="#S" n="46"/>sed beati non solum praemiabuntur in anima, sed etiam in cor 
+      <lb ed="#S" n="47"/>pore: ergo mali non solum punientur in anima sed in corpore: 
+      <lb ed="#S" n="48"/>sed ille ignis nisi esset corporalis non affligeret corpora 
+      <lb ed="#S" n="49"/>damnatorum. Item ex quo ignis necessario ponitur per 
+       au<lb ed="#S" break="no" n="50"/>thoritatem scripturae, qui cruciabit damnatos 
+       conuenien<lb ed="#S" break="no" n="51"/>tius est ponere ipsum esse eiusdem speciei cum igne nostro 
+      <lb ed="#S" n="52"/>cum talis ignis habeat ex se corpus sensitiuum affligere: quam 
+      <lb ed="#S" n="53"/>fingere nouum ignem &amp; nouam afflictionem, &amp; hac de 
+      <lb ed="#S" n="54"/>causa confitetur Augustinus ignem quo affliguntur cor 
+      <lb ed="#S" n="55"/>pora damnatorum esse corporeum: &amp; non obstat quod dicit Dam. 
+      <lb ed="#S" n="56"/>lib. 4. c. vlt. tradetur Diabolus &amp; daemones eius &amp; homo 
+      <lb ed="#S" n="57"/>eius. scilicet Antichristus &amp; impij peccatores In ignem aeternum 
+      <lb ed="#S" n="58"/>non materialem qualis est apud nos, sed qualem vtique nouit 
+      <lb ed="#S" n="59"/>Deus: quia forte Damas. haesitauit an ignis inferni esset 
+      <lb ed="#S" n="60"/>corporeus, &amp; ita fatetur se nescire qualis sit. Vel potest di 
+      <lb ed="#S" n="61"/>ci, quod non negat simpliciter illum esse materialem: sed quod non 
+      <lb ed="#S" n="62"/>est materialis sicut ille qui est apud nos, quia non luces 
+      <lb ed="#S" n="63"/>nec indiget fomentis sicut ignis noster, quamuis sit eiusdem 
+      <lb ed="#S" n="64"/>speciei quo ad substantiam, sicut ignis in sua sphaera non 
+      <lb ed="#S" n="65"/>nutritur: qui inferius indiget nutriri. Licet autem sit 
+       cor<lb ed="#S" break="no" n="66"/>pus nihilominus diuersimode affliget: vnde Grego. 4. 
+      <lb ed="#S" n="67"/>Dial. Vnus quidem est gehennae ignis: sed non vno modo 
+      <!--0471.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>omnes cruciat peccatores, vniuscuiusque enim quantum 
+      <lb ed="#S" n="69"/>exigit culpa tantum sentiet de poena: quia sicut corpora bea 
+      <lb ed="#S" n="70"/>torum erunt differentis gloriae secundum differentiam me 
+      <lb ed="#S" n="71"/>rltorum: sic corpora damnatorum erunt magis vel minus 
+      <lb ed="#S" n="72"/>passibilia respectu poenae, &amp; vnus &amp; idem ignis 
+       aequali<lb ed="#S" break="no" n="73"/>ter agens quantum est ex parte sua, inaequaliter affliget 
+      <lb ed="#S" n="74"/>corpora damnatorum propter di uersam passibilitatem eo 
+      <lb ed="#S" n="75"/>rum. Vel sicut alij dicunt, ignis ille non solum aget ex 
+      <lb ed="#S" n="76"/>virtute naturae suae: sed vt instrumentum diuinae 
+       iusti<lb ed="#S" break="no" n="77"/>tiae propter quod actum eius modificabitur a 
+       principa<lb ed="#S" break="no" n="78"/>li agente, vt plus crucientur qui plus peccauerunt. 
+    </p>
+            <p xml:id="khj78y-r51025-d1e336" n="7">
+               <lb ed="#S" n="79"/>
+               <!-- 7 -->Quantum ad. 3. de loco inferni consimiliter 
+       dicen<lb ed="#S" break="no" n="80"/>dum est, quod non potest sciri per certitudinem vbi sit: vt 
+       pa<lb ed="#S" break="no" n="81"/>tet per Aug. in litera, &amp; per Greg. 4. Dial. Dicit enim de 
+      <lb ed="#S" n="82"/>hac re temere definire nihil audeo. Quidam tamen 
+       di<lb ed="#S" break="no" n="83"/>cunt infernum esse in superficie terrae ex parte opposita 
+      <lb ed="#S" n="84"/>nostrae habitabili, quam partem vocant orbem tristem, &amp; 
+      <lb ed="#S" n="85"/>hoc videtur sensisse Isido. qui dicit, quod sol &amp; Luna 
+       post<lb ed="#S" break="no" n="86"/>resurrectionem in ordine quo creati sunt stabunt ne im 
+      <lb ed="#S" n="87"/>pij in tormentis positi fruantur luce eorum, quae ratio 
+      <lb ed="#S" n="88"/>nulla esset si infernus esset infra terram, quia cum terra 
+      <lb ed="#S" n="89"/>sit opaca vbicumque staret sol &amp; Luna impossibile esset 
+       lu<lb ed="#S" break="no" n="90"/>men eorum ad infernum pertingere. Ista tamen opinio 
+      <lb ed="#S" n="91"/>non tenetur communiter, quin potius creditur quod ex op 
+      <lb ed="#S" n="92"/>posito nostrae habitabilis non sit nisi aqua, quae secundum 
+      <lb ed="#S" n="93"/>naturam circularem ambit tetram, nisi quantum ex proui 
+      <lb ed="#S" n="94"/>dentia diuina nostra habitabilis est aquis discooperta 
+      <lb ed="#S" n="95"/>propter vitam hominum, &amp; aliorum animalium respirantium 
+      <lb ed="#S" n="96"/>conseruandam. Vnde communiter tenetur quod infernus est 
+      <lb ed="#S" n="97"/>intra terram, cui alludit dictum scripturae in pluribus 
+       lo<lb ed="#S" break="no" n="98"/>cis. Dicitur enim Isai. 14. Infernus subtus conturbatus 
+      <lb ed="#S" n="99"/>est in occursum tui. Item articulus dicit, quod Christus 
+       de<lb ed="#S" break="no" n="100"/>scendit ad inferna, quem quasi exponens Apostolus ad 
+      <lb ed="#S" n="101"/>Ephe. 3. dicit de Christo quid est quod ascendit uisi quia de 
+      <lb ed="#S" n="102"/>scendit primum ad inferiores partesterrae: hoc est ad 
+       in<lb ed="#S" break="no" n="103"/>fernum? in quo insinuatur infernum esse infra terram. 
+      <lb ed="#S" n="104"/>Ipsum etiam nomen hoc sonat inferus vel infernus, quia 
+      <lb ed="#S" n="105"/>inferius iacet. Persuadetur etiam probabili ratione: quia 
+      <lb ed="#S" n="106"/>sicut se habent grauitas &amp; leuitas in corporibus, sic 
+       laeti<lb ed="#S" break="no" n="107"/>tia &amp; tristitia in spiritualibus: letitia enim &amp; tristitia sunt 
+      <lb ed="#S" n="108"/>quasi pondus in spiritualibus &amp; inclinatio, sed per 
+       gra<lb ed="#S" break="no" n="109"/>uitatem corpora tendunt deorsum: per leuitatem vero 
+      <lb ed="#S" n="110"/>sursem: ergo locus conueniens similiter spiritibus 
+       exi<lb ed="#S" break="no" n="111"/>stentibus in perpetua laetitia maxime resumptis corpori 
+      <lb ed="#S" n="112"/>bus debet esse sursum: locus autem conueniens 
+       spiriti<lb ed="#S" break="no" n="113"/>bus existentibus in perpetua tristitia debet esse 
+       deor<lb ed="#S" break="no" n="114"/>sum: beati autem nunc &amp; post resurrectionem erunt in 
+      <lb ed="#S" n="115"/>perpetua laetitia: damnati vero in perpetua miseria &amp; 
+      <lb ed="#S" n="116"/>tristitis: propter quod sicut locus conueniens beatorum 
+      <lb ed="#S" n="117"/>erit sursum in coelo: sic locus damnatorum erit deorsum 
+      <lb ed="#S" n="118"/>in profundo terrae: &amp; istum locum communiter 
+       voca<lb ed="#S" break="no" n="119"/>mus infernum. Hanc persuasionem tangit beatus 
+       Au<lb ed="#S" break="no" n="120"/>gustinus super Gene. ad literam. Ned obstat quod 
+       ipse<lb ed="#S" break="no" n="121"/>met Augustinus dicit. 12. super Gene. ad literam, 
+       spiri<lb ed="#S" break="no" n="122"/>tualem arbitror esse locum ad quem defertur anima post 
+      <lb ed="#S" n="123"/>mortem non corporalem: quia Augustinus loquitur de 
+      <lb ed="#S" n="124"/>anima separata quae non exigit necessario locum corpo 
+      <lb ed="#S" n="125"/>ralem. Nam Deus potuit tam angelos, quam animas pro 
+      <lb ed="#S" n="126"/>duxisse ante mundum corporeum: &amp; sic si semper 
+       rema<lb ed="#S" break="no" n="127"/>neret anima: ita quod nunquam corpori reuniretur, 
+      <lb ed="#S" n="128"/>non oporteret ad eius punitionem assignare locum cor 
+      <lb ed="#S" n="129"/>poralem. Vel potest dici, quod locus ille ad quem 
+       ani<lb ed="#S" break="no" n="130"/>mae deferuntur post mortem: dicitur ab Augustino non 
+      <lb ed="#S" n="131"/>esse corporeus, non quidem secundum se, sed ratione 
+      <lb ed="#S" n="132"/>continentiae: quia anima in eo corporaliter non existit. 
+      <lb ed="#S" n="133"/>vel dicendum est secundum alios, quod Augustinus 
+       lo<lb ed="#S" break="no" n="134"/>quitur non determinando sed opinando, quamuis ver- 
+      <!--0472.xml-->
+      <pb ed="#S" n="472"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ba eius videantur sonare assertionem.
+    </p>
+            <p xml:id="khj78y-r51025-d1e472" n="8">
+      <!-- 8 -->Quantum 
+      <lb ed="#S" n="2"/>ad tertium quod principalius quaeritur sciendum est, 
+      <lb ed="#S" n="3"/>quod quaestio ista apud fideles non est dubia quantum 
+      <lb ed="#S" n="4"/>ad conclusionem, quia fides tenet quod damnati 
+       grauissi<lb ed="#S" break="no" n="5"/>me affligentur non solum in anima sed in corpore: &amp; non 
+      <lb ed="#S" n="6"/>solum vna poena sensibili sed pluribus, secundum illud 
+      <lb ed="#S" n="7"/>Iob. 24. Transibunt ab aquis niuium ad calorem nimium: 
+      <lb ed="#S" n="8"/>de modo autem passionis est diuersitas. Et circa hoc sic pro 
+      <lb ed="#S" n="9"/>ceditur, quia primo ponetur vna Distinctio de passione 
+      <lb ed="#S" n="10"/>alia a supradicta saltem quo ad verba, &amp; deinde 
+       ponen<lb ed="#S" break="no" n="11"/>tur diuersae opiniones circa modum patiendi.
+    </p>
+            <p xml:id="khj78y-r51025-d1e498" n="9">
+      <!-- 9 -->Quan 
+      <lb ed="#S" n="12"/>tum ad primum dicitur sic, quod cum pati sit quoddam 
+       reci<lb ed="#S" break="no" n="13"/>pere: duplex est modus passionis secundum quod aliquid in ali 
+      <lb ed="#S" n="14"/>quo potest dupliciter recipi. Vno modo materialiter secun 
+      <lb ed="#S" n="15"/>dum esse naturale, sicut calor ignis recipitur in aere vel 
+      <lb ed="#S" n="16"/>in ligno, &amp; secundum hunc modum receptionis est vnus mo 
+      <lb ed="#S" n="17"/>dus passionis qui dicitur passio. Alio modo recipit 
+       ali<lb ed="#S" break="no" n="18"/>quid in aliquo secundum modum intentionalem: sicut simi 
+      <lb ed="#S" n="19"/>litudo coloris recipitur in aere vel in oculo, &amp; secundum 
+      <lb ed="#S" n="20"/>hunc modum receptionis est alius modus passionis qui 
+      <lb ed="#S" n="21"/>vocatur passio animae.
+    </p>
+            <p xml:id="khj78y-r51025-d1e524" n="10">
+      <!-- 10 -->Hac Distinctione supposita 
+      <lb ed="#S" n="22"/>sciendum est, quod duplex modus dicendi est circa passionem 
+      <lb ed="#S" n="23"/>damnatorum. Vnus est, corpora damnatorum patientur passio 
+      <lb ed="#S" n="24"/>ne animali non reali, qua aliquid transmutatur a sua na 
+      <lb ed="#S" n="25"/>turali dispositione: vnde non calefient ab igne sed solum 
+      <lb ed="#S" n="26"/>intentionaliter immutabuntur recipiendo eius similitudi 
+      <lb ed="#S" n="27"/>nem, &amp; quia appraehendent eum vt nociuum, ideo 
+       affli<lb ed="#S" break="no" n="28"/>gentur. Corpora verogloriosa quamuis recipient similitu 
+      <lb ed="#S" n="29"/>dinem eius: non tamen erunt passibilia, quia nihil recipient 
+      <lb ed="#S" n="30"/>per modum afflictiui val laesiui. Ratio autem per quam 
+      <lb ed="#S" n="31"/>probant quod corpora damnatorum non immutabuntur ab 
+      <lb ed="#S" n="32"/>igne naturali immutatione, sed solum spirituali, est ista, quia 
+      <lb ed="#S" n="33"/>primum alterans in cuius virtute omnia alia alterantia 
+      <lb ed="#S" n="34"/>agunt, quasi ab ipso mota, est corpus coeleste per motum 
+      <lb ed="#S" n="35"/>suum, sed motus coeli cessabit post resurrectionem: ergo 
+      <lb ed="#S" n="36"/>tunc cessabit omnis actio naturalis corporum inferiorum 
+      <lb ed="#S" n="37"/>ab inuicem: ita &amp; nullum possit alterum transmutare a 
+      <lb ed="#S" n="38"/>sua naturali dispositione. sed quia cessante motu coeli 
+      <lb ed="#S" n="39"/>adhuc aer a sole illuminabitur, &amp; differentiam colorum 
+      <lb ed="#S" n="40"/>ad visum deferet: ideo remanebit passio animalis quae 
+      <lb ed="#S" n="41"/>consistit in receptione specierum sensibilum, per quam solum 
+      <lb ed="#S" n="42"/>affliguntur corpora damnatorum, quia sensibile non solum 
+      <lb ed="#S" n="43"/>natum est delectare vel affligere sensum, secundum quod agit 
+      <lb ed="#S" n="44"/>actione naturae confortando vel corrumpendo organum: 
+      <lb ed="#S" n="45"/>sed etiam secundum quod agit actione spirituali seu intentionali: 
+      <lb ed="#S" n="46"/>quia quando sensibile est in debita proportione ad sentientem 
+      <lb ed="#S" n="47"/>delectat: econuerso autem se habet in superabundantia &amp; de 
+      <lb ed="#S" n="48"/>fectu: vnde &amp; colores medij &amp; voces consonantes sunt de 
+      <lb ed="#S" n="49"/>lectabiles, &amp; inconsonantes offendunt auditum.
+    </p>
+            <p xml:id="khj78y-r51025-d1e589">
+      <!--11 -->
+       Con<lb ed="#S" break="no" n="50"/>tra modum istum arguitur ab aliis. Primo contra conclu 
+      <lb ed="#S" n="51"/>sionem quae ponitur, &amp; secundo contra causam, qnae 
+       as<lb ed="#S" break="no" n="52"/>signatur. Contra conclusionem arguit primo sic, Illud quod 
+      <lb ed="#S" n="53"/>nihil reale abiicit sed solum ponit illud quod est naturae 
+      <lb ed="#S" n="54"/>conueniens: non affligit nec inducit veram passionem quae 
+      <lb ed="#S" n="55"/>sit vere afflictiua, sed per immutationem spiritualem nihil 
+      <lb ed="#S" n="56"/>reale abiicitur sed solum ponitur id quod est naturae 
+       con<lb ed="#S" break="no" n="57"/>ueniens, quia talis receptio est perfectio sensuum: ergo per 
+      <lb ed="#S" n="58"/>talem immutationem nihil affligitur, nec talis receptio est 
+      <lb ed="#S" n="59"/>passio vere afflictiua. Vtraque praemissarum de se patet. 
+    </p>
+            <p xml:id="khj78y-r51025-d1e615" n="12">
+               <lb ed="#S" n="60"/>
+               <!-- 12 -->secundo sic, Per illud quod est commune beatis &amp; 
+       da<lb ed="#S" break="no" n="61"/>mnatis non potest poni afflictio damnatorum: sed 
+       immuta<lb ed="#S" break="no" n="62"/>tiospiritualis sensuum a sensibilibus est communis beatis &amp; 
+      <lb ed="#S" n="63"/>damnatis: ergo per illam non potest fieri afflictio damnatorum. 
+      <lb ed="#S" n="64"/>Maior patet, quia posita causa comm uni ponitur effectus 
+      <lb ed="#S" n="65"/>communis: &amp; ideo si causa afflictionis esset similitor in bea 
+      <lb ed="#S" n="66"/>tis &amp; damnatis, sequeretur quod afflctio similiter esset eis 
+       commu<lb ed="#S" break="no" n="67"/>nis, quod non est verum. Minor vero similiter de se patet, 
+      <!--0472.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>quia sensus beatorum similiter immutabuntur a 
+       sensibili<lb ed="#S" break="no" n="69"/>bus sicut sensus damnatorum. Alioquin non cognoscerent 
+      <lb ed="#S" n="70"/>sensibilia quae damnati cognoscunt, quod est inconueniens. 
+      <lb ed="#S" n="71"/>si autem dicat sicut tactum est, quod beati appraehendent ignem 
+      <lb ed="#S" n="72"/>seu immutabuntur ab ipso sicut damnati, non tamen 
+       appraehen<lb ed="#S" break="no" n="73"/>dent ipsum vt nociuum sibi vel laesiuum quomodo  damnati ipsum 
+      <lb ed="#S" n="74"/>appraehendent.
+    </p>
+            <p xml:id="khj78y-r51025-d1e657" n="13">
+      <!-- 13 -->Contra, quia aut ille igniserit in cor 
+      <lb ed="#S" n="75"/>poribus damnatorum laesiuus aut non: si non &amp;tu dicis quod 
+      <lb ed="#S" n="76"/>appraehendent eum vt laesiuum: ergo ista appraehensio erit 
+      <lb ed="#S" n="77"/>falsa: &amp; sic non affligentur secundum veritatem ab igne, sed 
+      <lb ed="#S" n="78"/>solum ex sua falsa appraehensione seu existimatione: quod 
+      <lb ed="#S" n="79"/>est inconueniens. Et iterum, vnde inerit damnatis haec falsa 
+      <lb ed="#S" n="80"/>existimatio quod iudicent ignem eis nociuum, si in veritate non 
+      <lb ed="#S" n="81"/>sit eis nociuus. Non potest dici qui a Deo, quia Deus nulli 
+      <lb ed="#S" n="82"/>immittit falsum iudicium, sicut nec peruersum appetitum, 
+      <lb ed="#S" n="83"/>nec ex seipsis, quia damnati postresurrectionem erunt aeque 
+      <lb ed="#S" n="84"/>perfecti seu perfectiores sicut nunc sunt: &amp; ideo sicut nunc 
+      <lb ed="#S" n="85"/>possunt recte iudicare de igne vtrum sit eis nociuus vel 
+      <lb ed="#S" n="86"/>non, ita tunc poterunt vt videtur. Et iterum, quicquid sit 
+      <lb ed="#S" n="87"/>de aliis sensibus aliorum sensuum maxime visus: quod possunt 
+      <lb ed="#S" n="88"/>immutare sensum intentionaliter sine reali &amp; naturali 
+      <lb ed="#S" n="89"/>immutatione quod non omnes concedunt: sensibilia 
+       ta<lb ed="#S" break="no" n="90"/>men tactus &amp; maxime calor non videtur immutare sen 
+      <lb ed="#S" n="91"/>sum tactus nisi naturali immutatione, vel saltem non si 
+      <lb ed="#S" n="92"/>ne causa. Calor enim non videtur causare in medio vel in 
+      <lb ed="#S" n="93"/>organo nisi calorem: vel si causet aliud non tamen sine calore 
+      <lb ed="#S" n="94"/>propter quod non bene apparet quomodo  calor ignis possit 
+      <lb ed="#S" n="95"/>sensum tactus immutare spualiter &amp; non naturaliter. si 
+      <lb ed="#S" n="96"/>vero ille ignis sit vere eis laesiuus: habetur propositum. scilicet quod 
+      <lb ed="#S" n="97"/>damnati affliguntur vera passione naturali illata ab igne: 
+      <lb ed="#S" n="98"/>quod patet sic: Obiectum tempore vel natura praecedit 
+      <lb ed="#S" n="99"/>actum potentiae, sed ignis vt vere laesiuus imo vtactu 
+       lae<lb ed="#S" break="no" n="100"/>dens est obiectum actualis appraehensionis, uel actualis 
+      <lb ed="#S" n="101"/>afflictionis sequentis. In damnatis ergo prius tempore vel sal 
+      <lb ed="#S" n="102"/>tem natura ignis laedit corpora damnatorum, quam appraehen 
+      <lb ed="#S" n="103"/>datur &amp; quam sequatur dolor in eis: sed illa laesio ex quo prae 
+      <lb ed="#S" n="104"/>cedit omnem immutationem spiritualem non potest esse nisi per 
+      <lb ed="#S" n="105"/>immutationem reale &amp; naturalem. quare &amp;c. sic igitur 
+       pa<lb ed="#S" break="no" n="106"/>tet quod dolor sensibilis vel qualis ponitur in damnatis non po 
+      <lb ed="#S" n="107"/>test causari per solam immutationem spiritualem seu intentio 
+      <lb ed="#S" n="108"/>nalem. Et quod dicitur quod sensibilia proportionata delectant, 
+      <lb ed="#S" n="109"/>improportionata vero offendunt dato quod non immutens 
+      <lb ed="#S" n="110"/>immutatione naturali, vt colores &amp; soni non valet: quia 
+      <lb ed="#S" n="111"/>quamuis tristitia possit causari ex omnibus illis quae 
+       no<lb ed="#S" break="no" n="112"/>bis nolentibus accidunt, vt dicit beatus Aug. 14. deciui 
+      <lb ed="#S" n="113"/>tate Dei, dolor tamen sensibilis secundum eundem non est nisi 
+      <lb ed="#S" n="114"/>ex laesione carnis proueniens. Praedicta igitur sensibilia 
+      <lb ed="#S" n="115"/>quantumcunque improportionata causare possent tristitiam 
+      <lb ed="#S" n="116"/>seu displicentiam, sed dolorem sensibilem nihil potest causare ni 
+      <lb ed="#S" n="117"/>si quod immutat corpus realiter.
+    </p>
+            <p xml:id="khj78y-r51025-d1e756" n="14">
+      <!-- 14 -->Contra rationem 
+      <lb ed="#S" n="118"/>etiam quam isti assignant arguitur. Dicunt enim, quod quia coelum 
+      <lb ed="#S" n="119"/>per motum suum est primum alterans: ideo cessante motu 
+      <lb ed="#S" n="120"/>coeli cessabit omnis alteratio. Istud enim non potest 
+       tene<lb ed="#S" break="no" n="121"/>ri saltem Parisiis, cum sit articulus condemnatus. Dicit 
+      <lb ed="#S" n="122"/>enim articulus quod dicere quod cessante motu coeli si ignis es 
+      <lb ed="#S" n="123"/>set iuxta stuppam non conbureret eam, error. Item ratio 
+      <lb ed="#S" n="124"/>videtur repugnare positioni, quia primum alterans est cau 
+      <lb ed="#S" n="125"/>sa omnis alterationis, &amp; non cuiusdam tantum. si ergo per 
+      <lb ed="#S" n="126"/>cessationem motus caeli tanquam primi alterantis cessent aliae 
+      <lb ed="#S" n="127"/>alterationes: potest dici quod omnes cessent non quaedam &amp; quae 
+      <lb ed="#S" n="128"/>dam non, quod est contra eos qui dicunt quod cessa bit 
+       o<lb ed="#S" break="no" n="129"/>mnis actio naturalis non autem intentionalis. Ista etiam 
+       di<lb ed="#S" break="no" n="130"/>stinctio alterationum seu passionum est satis dubia: quia 
+       o<lb ed="#S" break="no" n="131"/>mnis alteratio quam facit sensibile in medium vel in 
+       sen<lb ed="#S" break="no" n="132"/>sum, videtur esse naturalis &amp; realis. Naturalis quidem est, 
+      <lb ed="#S" n="133"/>quia est ex principiis naturalibus &amp; naturaliter 
+       agenti<lb ed="#S" break="no" n="134"/>bus. Realis vero, quia per eam fit vera &amp; realis forma in 
+      <!--0473.xml-->
+      <pb ed="#S" n="473"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>susceptiuo, quae habet totum suum esse, circunscripta 
+       o<lb ed="#S" break="no" n="2"/>mni operatione animae. Verum quia immutatio talium sensi 
+      <lb ed="#S" n="3"/>bilium non corrumpit aliquid per se: sed solum illa quae 
+      <lb ed="#S" n="4"/>est a sensibilibus tactus, quia consistentia corporis per se 
+      <lb ed="#S" n="5"/>dependet ex qualitatibus tangibilibus &amp; non ex aliis sensi 
+      <lb ed="#S" n="6"/>bilibus: ideo immutationes qualitatum tangibilium possunt 
+      <lb ed="#S" n="7"/>per se pertinere ad corruptionem corporis: non autem illae 
+      <lb ed="#S" n="8"/>quae fiunt ab aliis, propter hoc tamen non debet dici quod immu 
+      <lb ed="#S" n="9"/>tatio quae fit a qualitatibus tangibilibus sit realis &amp; 
+       na<lb ed="#S" break="no" n="10"/>turalis: illa vero quae fit ab aliis sensibilibus non sit 
+       rea<lb ed="#S" break="no" n="11"/>lis &amp; naturalis sed solum intentionalis. Omnes enim sunt 
+      <lb ed="#S" n="12"/>reales &amp; naturales &amp; aequaliter dependent a primo alte 
+      <lb ed="#S" n="13"/>rante: &amp; ideo si immutatio aliorum sensibilium puta co 
+      <lb ed="#S" n="14"/>loris &amp; soni potest esse cessante motu coeli: eandem ratione 
+      <lb ed="#S" n="15"/>poterit esse immutatio naturalis secundum qualitates tan 
+      <lb ed="#S" n="16"/>gibiles.
+    </p>
+            <p xml:id="khj78y-r51025-d1e839" n="15">
+      <!-- 15 -->Praeterea nullo modo videtur quod coelum 
+       ra<lb ed="#S" break="no" n="17"/>tione sui motus localis sit causa alicuius alterationis, nec 
+      <lb ed="#S" n="18"/>illius quae est ab illo immediate nec cuiuscumque alterius. 
+      <lb ed="#S" n="19"/>Primo, quia principium quo alterans alterat naturaliter est 
+      <lb ed="#S" n="20"/>aliqua qualitas alterantis siue vniuoca cum termino al 
+      <lb ed="#S" n="21"/>terationis siue aequiuoca: sed motus localis non est 
+       ali<lb ed="#S" break="no" n="22"/>qua qualitas corporis coelestis nec aliqua forma 
+       absolu<lb ed="#S" break="no" n="23"/>ta: ergo non potest esse principium seu ratio alicuius 
+       altera<lb ed="#S" break="no" n="24"/>tionis. Maior patet, quia sola forma potest esse principium quo 
+      <lb ed="#S" n="25"/>aliquid agit, illa autem respectu alterationis non potest esse 
+      <lb ed="#S" n="26"/>forma substantialis, vt patet per Aristo. lib. de sensu &amp; sen 
+      <lb ed="#S" n="27"/>sato: nec quantitas, quia illa nullius actionis est principiunt 
+      <lb ed="#S" n="28"/>imo abstrahit ab omni actione &amp; passione: nec relatio, 
+      <lb ed="#S" n="29"/>vt patet ex. 5. Physi. relinquitur ergo quod sit aliqua qualitas: 
+      <lb ed="#S" n="30"/>&amp; sic patet. Minor de se est manifesta: &amp; nihilominus ha 
+      <lb ed="#S" n="31"/>betur. 4. Physic. vbi dicitur qui motus localis nihil variat 
+      <lb ed="#S" n="32"/>in coelo: &amp; ideo solus ille motus ei attribuitur.
+    </p>
+            <p xml:id="khj78y-r51025-d1e878" n="16">
+      <!-- 16 -->
+       secun<lb ed="#S" break="no" n="33"/>do, quia impossibile est quod aliquid habens principium 
+       agen<lb ed="#S" break="no" n="34"/>di aequae perfectum vt prius, &amp; passum aeque dispositum vt 
+      <lb ed="#S" n="35"/>prius non possit agere sicut prius, sed cessante motu 
+       coe<lb ed="#S" break="no" n="36"/>li ignis remanebit ita calidus sicut prius, &amp; stuppa aeque 
+      <lb ed="#S" n="37"/>disposita vt calefiat sicut prius: ergo eis approximatis ne 
+      <lb ed="#S" n="38"/>cessario ignis conburet stuppam sicut prius. Et eodem 
+       mo<lb ed="#S" break="no" n="39"/>do cum corpora damnatorum sint vere passibilia, carent enim 
+      <lb ed="#S" n="40"/>dote impassibilitatis quam habent corpora beatorum, potue 
+      <lb ed="#S" n="41"/>runt vere calefieri &amp; immutari ab igne sicut nunc immu 
+      <lb ed="#S" n="42"/>tantur. Cessatio ergo motus coeli non impediet veram &amp; 
+      <lb ed="#S" n="43"/>naturalem alterationem corporum: quia motus eius ead eam 
+      <lb ed="#S" n="44"/>non requiritur quamuis requiratur ad alterationem generationis 
+      <lb ed="#S" n="45"/>&amp; corruptionis &amp; aliarum mutationum: per hoc quod adducit 
+      <lb ed="#S" n="46"/>alterans. scilicet solem &amp; alia astra respectu diuersarum 
+       par<lb ed="#S" break="no" n="47"/>tium terrae, quae sui praesentia agunt vbi prius non 
+       age<lb ed="#S" break="no" n="48"/>bant, &amp; propter absentiam suam non agunt vbi prius 
+       age<lb ed="#S" break="no" n="49"/>bant.
+    </p>
+            <p xml:id="khj78y-r51025-d1e920" n="17">
+      <!-- 17 -->Dicunt igitur alij, quod corpora damnatorum 
+      <lb ed="#S" n="50"/>vere patientur ab igne per veram &amp; naturalem alteratio 
+      <lb ed="#S" n="51"/>nem calefactionis, quae tunc esse poterit vt probatum est: 
+      <lb ed="#S" n="52"/>nihilominus tamen nunquam corrumpentur virtute 
+       di<lb ed="#S" break="no" n="53"/>uina faciente, quod alteratio talis praecise maneat in 
+       limiti<lb ed="#S" break="no" n="54"/>bus suis, ita quod ad eam non sequatur corruptio. Et quod hoc 
+      <lb ed="#S" n="55"/>sit possibile, probatur sic, quia quandocunq, duae 
+       actio<lb ed="#S" break="no" n="56"/>nes sunt diuersae, &amp; ad diuersos terminos virtute diuina 
+      <lb ed="#S" n="57"/>potest fieri quod vna sit sine alia &amp; maxime prior sine poste 
+      <lb ed="#S" n="58"/>riore: sed alteratio &amp; corruptio formae substantialis in 
+      <lb ed="#S" n="59"/>materia sunt duae actiones habentes diuersos terminos. 
+      <lb ed="#S" n="60"/>Nam terminus alterationis est qualitas: terminus vero 
+      <lb ed="#S" n="61"/>corruptionis est priuatio formae substantialis: alteratio 
+      <lb ed="#S" n="62"/>etiam est praeuia corporum: ergo virtute diuina potest 
+      <lb ed="#S" n="63"/>fieri quod sit vera alteratio, &amp; non sequatur corruptio: 
+      <lb ed="#S" n="64"/>sic fiet in poena damnatorum vt perpetua vita naturae 
+      <lb ed="#S" n="65"/>sit eis ad perpetuam durationem poenae.
+    </p>
+            <p xml:id="khj78y-r51025-d1e959" n="18">
+      <!-- 18 -->Ad primum 
+      <lb ed="#S" n="66"/>argumentum principale in oppositum, patet responsio ex 
+      <lb ed="#S" n="67"/>hoc quod statim dictum est.
+    </p>
+            <p xml:id="khj78y-r51025-d1e968" n="19">
+      <!-- 19 -->Ad secundum dicen- 
+      <!--0473.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>dum est, per interpretationem minoris, quia motus 
+       coe<lb ed="#S" break="no" n="69"/>li per se non est principium alicuius actionis realis, sed 
+      <lb ed="#S" n="70"/>requiritur ad alterationem actionum: puta 
+       generatio<lb ed="#S" break="no" n="71"/>nis &amp; corruptionis, quia adducit &amp; abducit generans, vt 
+      <lb ed="#S" n="72"/>dicitur in fine. 2. de Generatione. Et quia in tali 
+       altera<lb ed="#S" break="no" n="73"/>tione stat consistentia mundi secundum distinctionem 
+      <lb ed="#S" n="74"/>quam videmus: ideo motus coeli comparatur motui cor 
+      <lb ed="#S" n="75"/>dis in animali, &amp; non propter hoc quod motus coeli sit 
+      <lb ed="#S" n="76"/>per se causa alicuius actionis, quis nec motus cordis 
+       ta<lb ed="#S" break="no" n="77"/>lem causalitatem habet.
+    </p>
+            <p xml:id="khj78y-r51025-d1e1000" n="20">
+      <!-- 20 -->Ad tertium dicendum, quod 
+      <lb ed="#S" n="78"/>causa aequiuoca ad quam actiones inferiores 
+       reducun<lb ed="#S" break="no" n="79"/>tur: non est motus coeli, sed ipsum coelum cuius actio 
+      <lb ed="#S" n="80"/>non totaliter cessabit cessante eius motu. Nam si cessaret 
+      <lb ed="#S" n="81"/>totaliter forte nihil corporale saltem mixtum stare 
+       pos<lb ed="#S" break="no" n="82"/>set, siue remanere naturaliter loquendo, &amp; si remaneret 
+      <lb ed="#S" n="83"/>hoc non esset per naturam sed per miraculum: &amp; tunc si 
+      <lb ed="#S" n="84"/>cut haberet naturam quam prius, &amp; non a coelo posset 
+      <lb ed="#S" n="85"/>agere &amp; pati sicut prius non obstante cessatione totali 
+      <lb ed="#S" n="86"/>influentiae coeli, quae non requiritur ad actiones 
+       infe<lb ed="#S" break="no" n="87"/>riorum nisi quia conseruat virtutes eorum.
+    </p>
+            <p xml:id="khj78y-r51025-d1e1026" n="21">
+      <!-- 21 -->si quis 
+      <lb ed="#S" n="88"/>autem vult sustinere primam opinionem potest sic 
+       ar<lb ed="#S" break="no" n="89"/>guere contra secundam, quae ponit corpora affligenda 
+      <lb ed="#S" n="90"/>per passionem naturae non animae a Deo corruptionem 
+      <lb ed="#S" n="91"/>impediente, quia calor immissus aut differt specie a calo 
+      <lb ed="#S" n="92"/>re naturali, aut non. si differt specie ergo non sentitur 
+      <lb ed="#S" n="93"/>a sensu eiudem rationis: sicut a visu non perciperetur 
+       cla<lb ed="#S" break="no" n="94"/>ritas gloriosa si differret a luce communi. si autem sensus il 
+      <lb ed="#S" n="95"/>lum calorem non perciperet nec appetitus doleret. si 
+       au<lb ed="#S" break="no" n="96"/>tem eiusdem speciei cum calore communi: per consequent 
+      <lb ed="#S" n="97"/>est eiusdem speciei cum calore mixti &amp; naturalis corporis 
+      <lb ed="#S" n="98"/>humani: nam sicut grauitas quam contrahit corpus hu 
+      <lb ed="#S" n="99"/>manum est eiusdem speciei cum grauitate elementorum 
+      <lb ed="#S" n="100"/>grauium, a quorum praedominio secundum quantitatem 
+      <lb ed="#S" n="101"/>eam trahit: sic &amp; calor quam trahit ab elementis leuibus 
+      <lb ed="#S" n="102"/>praedominantibus secundum virtutem est eiusdem speciei 
+      <lb ed="#S" n="103"/>cum eis: duo autem accidentia elusdem speciei non sunt in 
+      <lb ed="#S" n="104"/>eodem subiecto, vt calor febrilis non est alius numero a 
+      <lb ed="#S" n="105"/>calore naturali cum sit idem specie, quia eodensensu 
+       perci<lb ed="#S" break="no" n="106"/>pitur &amp; est in eodem subiecto: vnde quando febricitans est in ca 
+      <lb ed="#S" n="107"/>lore non est aliud quam calor naturalis innaturaliter &amp; 
+       im<lb ed="#S" break="no" n="108"/>moderate &amp; improportionabiliter intensus: similiter quando 
+      <lb ed="#S" n="109"/>haereticus conburitur non est alius calor quam corporis intensus 
+      <lb ed="#S" n="110"/>cum quaelibet pars mixti sit mixta &amp; per consequens calida: 
+      <lb ed="#S" n="111"/>sicut si tepidum calefiat non est caloris immissio sed intensio 
+      <lb ed="#S" n="112"/>supposito quod tepiditas sit eiusdem speciei cum calore: hoc au 
+      <lb ed="#S" n="113"/>tem est inconueniens ponere in corpore damnatorum. scilicet quod 
+       ha<lb ed="#S" break="no" n="114"/>beat febrem continuam: &amp; quod naturalis calor eorum ponatur 
+       ex<lb ed="#S" break="no" n="115"/>tra naturam suam in quibus naturalia debent manere inte 
+      <lb ed="#S" n="116"/>gra: &amp; sicut membra ita &amp; quatuor humores in debita pro 
+      <lb ed="#S" n="117"/>portione perpetuo conseruari.
+    </p>
+            <p xml:id="khj78y-r51025-d1e1096" n="22">
+      <!-- 22 -->Tenendo autem istam 
+      <lb ed="#S" n="118"/>opinionem potest responderi ad. 5. rationes factas contra conclu 
+      <lb ed="#S" n="119"/>sionem.
+    </p>
+            <p xml:id="khj78y-r51025-d1e1105" n="23">
+      <!-- 23 -->Ad primam qua dicitur passio non affligit quae 
+      <lb ed="#S" n="120"/>non abiicit sed perficit. solutio, verum est per se vel de se: 
+      <lb ed="#S" n="121"/>sed ratione suae causae sic quia posita remota: sicut manente 
+      <lb ed="#S" n="122"/>luce in Luna, annullato sole ipsa illuminaret aerem: 
+      <lb ed="#S" n="123"/>ignis autem mediante calore impresso causat sensationem 
+      <lb ed="#S" n="124"/>&amp; illa mediante dolore, quando est calor immoderatus. 
+       sup<lb ed="#S" break="no" n="125"/>posito ergo quod calor impressus desit si tamen adsit illa 
+       sen<lb ed="#S" break="no" n="126"/>satio quam solet causare calor immoderatus: sequitur idem 
+      <lb ed="#S" n="127"/>effectus, sicut sol solet illuminando calefacere &amp; calesa 
+      <lb ed="#S" n="128"/>ciendo generare. si ergo profundum terrae non 
+       illumi<lb ed="#S" break="no" n="129"/>nat, quia opacum non est illuminabile: illud tamen 
+       calefa<lb ed="#S" break="no" n="130"/>cit &amp; calefaciendo generat mineralia in visceribus terrae: 
+      <lb ed="#S" n="131"/>ita calor ignis qui calefaciendo solet sensum immutare, 
+      <lb ed="#S" n="132"/>&amp; per hoc appetitum contristare si non calefaciat sed 
+       im<lb ed="#S" break="no" n="133"/>mediate sentire faciat aequaliter affliget. Quod autem 
+       af<lb ed="#S" break="no" n="134"/>flictio immediate causei a sensatione non a calefactione 
+      <!--0474.xml-->
+      <pb ed="#S" n="474"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>apparet: quia appetitus animalis a nullo mouetur nisi 
+      <lb ed="#S" n="2"/>mediante appraehensione. Et quod Deus possit facere 
+      <lb ed="#S" n="3"/>sensationem sine calefactione probabitur in quinto argu 
+      <lb ed="#S" n="4"/>mento: sed quod ignis hoc possit diuina virtute apparet, quia 
+      <lb ed="#S" n="5"/>vtrunque est in virtute ignis licet ordine quodam: vnde 
+       si<lb ed="#S" break="no" n="6"/>cut dispositione subiecti praecedente lucem solis sol 
+       fa<lb ed="#S" break="no" n="7"/>cit secundum effectum, &amp; tertium sine primo aequalem in vi 
+      <lb ed="#S" n="8"/>sceribus terrae generando mineralia: pari modo virtute 
+      <lb ed="#S" n="9"/>diuina vel ordinatione impediente primum effectum ignis 
+      <lb ed="#S" n="10"/>qui est calefacere: nihilominus habebit secundum qui est 
+      <lb ed="#S" n="11"/>sensum immutare, &amp; tertium qui est dolor appetitus. 
+    </p>
+            <p xml:id="khj78y-r51025-d1e1173" n="24">
+               <lb ed="#S" n="12"/>
+               <!-- 24 -->Ad secundum dicendum, cum dicitur quod est commune 
+      <lb ed="#S" n="13"/>damnatis &amp; beatis, non est causa afflictionis damnatis. 
+       Re<lb ed="#S" break="no" n="14"/>spondeo, verum est nisi per aliquod adiunctum vel amo 
+      <lb ed="#S" n="15"/>tum ex altera parte. Potest enim effectus alicuius causae 
+      <lb ed="#S" n="16"/>impediri dupliciter. Vno modo propter agens 
+       contra<lb ed="#S" break="no" n="17"/>rium. Alio modo propter dispositionem contrariam. Vnde 
+      <lb ed="#S" n="18"/>ignis qui combussit Chaldaeos non combussit pueros: 
+      <lb ed="#S" n="19"/>sed eorum vincula, &amp; contristauit Chaldaeos &amp; 
+       laetifica<lb ed="#S" break="no" n="20"/>uit pueros: hoc autem non fuit quia non esset calor 
+       eius<lb ed="#S" break="no" n="21"/>dem rationis, vel quia non fuerit perceptio caloris hinc 
+      <lb ed="#S" n="22"/>&amp; inde: sed quia natura ignis quae est conburere fuit 
+       impe<lb ed="#S" break="no" n="23"/>dita in pueris a Deo, non in ministris Regis propter 
+       eo<lb ed="#S" break="no" n="24"/>rum saeuitiam, in illis propter eorum innocentiam: ita &amp; hic 
+      <lb ed="#S" n="25"/>corpus beati positum in igne non minus sentiret tactu ca 
+      <lb ed="#S" n="26"/>lorem ignis immoderatum quam corpus damnati: sed non 
+       se<lb ed="#S" break="no" n="27"/>queretur afflictio in iusto Deo impediente propter eius 
+      <lb ed="#S" n="28"/>innocentiam, quae sequeretur in altero propter suam 
+       na<lb ed="#S" break="no" n="29"/>turam Deo non impediente, sed permittente propter culpam. 
+      <lb ed="#S" n="30"/>secundo modo propter contrariam dispositionem: sicut ad 
+      <lb ed="#S" n="31"/>calefactionem cerae sequitur rarefactio: quia natura 
+       calefa<lb ed="#S" break="no" n="32"/>ctionis est rarefacere subiectum non contrario modo di 
+      <lb ed="#S" n="33"/>spositum: sed in ouo non sequitur rarefactio sed condensa 
+      <lb ed="#S" n="34"/>tio propter contrariam dispositionem, ita &amp; in damnatis 
+       sen<lb ed="#S" break="no" n="35"/>satio immoderati caloris sequitur afflictio naturaliter, 
+      <lb ed="#S" n="36"/>quia non est ibi dos impassibilitatis qui impediat 
+       forma<lb ed="#S" break="no" n="37"/>liter, sed non sic in beatis propter dotem impedientem. 
+    </p>
+            <p xml:id="khj78y-r51025-d1e1234" n="25">
+               <lb ed="#S" n="38"/>
+               <!-- 25 -->Ad tertium dicendum, quando dicitur quod appraehendent ve 
+      <lb ed="#S" n="39"/>ro vel falso &amp;c. Potest solui dupliciter. Primo, non 
+       pro<lb ed="#S" break="no" n="40"/>pter diuersimode appraehendere sed propter 
+       diuersimo<lb ed="#S" break="no" n="41"/>de recipere. Nam corpus beati recipit sensationem non vt 
+      <lb ed="#S" n="42"/>laesiuam: sed vt laetificatiuam Deo impediente vel dispositio 
+      <lb ed="#S" n="43"/>ne sibi inhaerente: corpus vero damnati vt laesiuam Deo 
+      <lb ed="#S" n="44"/>non impediente nec dote qua carent, ita quod prius est affli 
+      <lb ed="#S" n="45"/>ctio &amp; laesio quam appraehendant, &amp; sic non affliguntur nec 
+      <lb ed="#S" n="46"/>laeduntur per hoc quod iudicantse laedi vel affligi. Vel 
+       po<lb ed="#S" break="no" n="47"/>test dici secundo, quod beatus si manum poneret in igne 
+       iu<lb ed="#S" break="no" n="48"/>dicaret ignem laesiuum aptitudine non laedentem aut 
+       lae<lb ed="#S" break="no" n="49"/>surum actu, &amp; sic nec timet nec dolet. scit enim quod nec 
+      <lb ed="#S" n="50"/>laedit nec laedet propter alteram de causis dictis vel vtranque. 
+      <lb ed="#S" n="51"/>Tactus autem damnati percipit calorem ignis coniuncti 
+      <lb ed="#S" n="52"/>non sibi impressi, &amp; iudicat quod laedet ipsum semper in 
+      <lb ed="#S" n="53"/>futurum, &amp; ideo semper horret &amp; timet respectu futuri. 
+      <lb ed="#S" n="54"/>Item ad istam sensationem sequitur posterius natura, sed 
+      <lb ed="#S" n="55"/>simul tempore afflictio vel dolor.
+    </p>
+            <p xml:id="khj78y-r51025-d1e1279" n="26">
+      <!-- 26 -->Tertio 
+       apprae<lb ed="#S" break="no" n="56"/>henditur &amp; vt laedens actu, vel laesionem ipsam veram &amp; 
+      <lb ed="#S" n="57"/>sic non est falsum iudicium, nec obiectum est post actum 
+      <lb ed="#S" n="58"/>sed ante: sicut etiam homo prius dolet quam percipiat se do 
+      <lb ed="#S" n="59"/>lere: non tamen prius dolet quam percipiat materialiter 
+       il<lb ed="#S" break="no" n="60"/>lud quod est causa doloris: in quo tamen non oportet quod 
+       iu<lb ed="#S" break="no" n="61"/>dicet ipsum esse causam doloris quousque experiatur. 
+    </p>
+            <p xml:id="khj78y-r51025-d1e1297" n="27">
+               <lb ed="#S" n="62"/>
+               <!-- 27 -->Ad quartum cum dicitur, quod tactus non est sine 
+       natura<lb ed="#S" break="no" n="63"/>li immutatione &amp;c. dicendum est, quod ista ratio est contra eos 
+      <lb ed="#S" n="64"/>quia tunc sensus corporis glorificati non perciperet id a 
+      <lb ed="#S" n="65"/>quo non potest calefieri: vnde dicendum est, quod omnis  sensatio fit 
+      <lb ed="#S" n="66"/>per mutationem intentionalem per se &amp; formaliter etiam in 
+      <lb ed="#S" n="67"/>sensu tactus: quia manifestum est quicquid sit de specie calo 
+      <!--0474.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>ris quod sentire calorem non est calefieri: sed quidam sensus 
+      <lb ed="#S" n="69"/>cum immutatione spirituali habent etiam naturalem &amp; substam 
+      <lb ed="#S" n="70"/>tialem vel praecedentem sicut olfactus: quia odor non defer 
+      <lb ed="#S" n="71"/>tur ad organum nisi cum quadam fumali euaporatione, 
+      <lb ed="#S" n="72"/>vel sequentem, sicut gustabile per nutritiuam corrumpitur sed 
+      <lb ed="#S" n="73"/>prius gustatur: auditus vero cum motu locali immutatur 
+      <lb ed="#S" n="74"/>a sono quem tamen aliquando deserit, &amp; vbi cessat motus 
+       lo<lb ed="#S" break="no" n="75"/>calis species soni vltra transit: sicut species odoris vltra 
+      <lb ed="#S" n="76"/>euaporationem, vt commentator dicit foetorem 
+       cadaue<lb ed="#S" break="no" n="77"/>rum de vltra mare vultures sensibile vsque ad quem locum 
+      <lb ed="#S" n="78"/>non potuit quaecunque resolutio se extendere. similiter 
+      <lb ed="#S" n="79"/>multi dicunt corpora sanctorum sine resolutione odoran 
+      <lb ed="#S" n="80"/>da per solam immutationem spiritualem, ita &amp; hic quamuis per 
+      <lb ed="#S" n="81"/>naturam calor non immutet tactum sine calefactione: super 
+      <lb ed="#S" n="82"/>naturaliter tamen sic: imo quandoque naturaliter, sicut ces 
+      <lb ed="#S" n="83"/>sante posteriore quandoque durat prius, sicut quandoque etiam 
+      <lb ed="#S" n="84"/>durat posterius in actionibus &amp; effectibus priori 
+       subla<lb ed="#S" break="no" n="85"/>to: sic cursus naturae est nutriri primo, augeri secundo, 
+       ge<lb ed="#S" break="no" n="86"/>nerare tertio: naturale autem est quod cessantibus duobus vl 
+      <lb ed="#S" n="87"/>timis manet primum: sicut animalia semper nutriuntur: 
+      <lb ed="#S" n="88"/>non semper autem augmentantur, sed qum deficit 
+       augmen<lb ed="#S" break="no" n="89"/>tum quod est secundum potest esse generatio: sic &amp; hic calor 
+      <lb ed="#S" n="90"/>potest ad sentiendum immutare, quando non potest ad calefacien 
+      <lb ed="#S" n="91"/>dum. Ad quintum cum dicitur dolor sensibilis non est 
+       ni<lb ed="#S" break="no" n="92"/>si ex laesione carnis proueniens, verum est secundum 
+       cur<lb ed="#S" break="no" n="93"/>sum naturae, sed Deus potest aliter facere, quia laesio carnis 
+      <lb ed="#S" n="94"/>quae est calefactio non est causa formalis doloris sensibi 
+      <lb ed="#S" n="95"/>lis, cum dolor sensibilis non possit esse nisi in appetitu: 
+      <lb ed="#S" n="96"/>calor autem est in elemento &amp; mixto &amp; in animato: 
+       er<lb ed="#S" break="no" n="97"/>go non est effectus formalis eius qui nunquam potest sub 
+      <lb ed="#S" n="98"/>trahi a sua causa. Vbicunque enim est calor, ibi est calere: 
+      <lb ed="#S" n="99"/>licet non vbicunque est, sit rarescere vel huiusmodi, qui sunt ef 
+      <lb ed="#S" n="100"/>fectus differentes &amp; non formales. Item non est causa 
+       ma<lb ed="#S" break="no" n="101"/>terialis quare appetitus non sit natus informari dolore 
+      <lb ed="#S" n="102"/>nisi disponatur per calefacere, quia proprium susceptibile 
+      <lb ed="#S" n="103"/>non recipitur mediante extraneo &amp; communi: vnde cum 
+      <lb ed="#S" n="104"/>proprium susceptiuum visionis sit potentia visiua: commune 
+      <lb ed="#S" n="105"/>autem speciei quae est in aere sicut in oculo: male dicitur quod 
+      <lb ed="#S" n="106"/>species disponat oculum passiue ad visionem, sicut lux 
+       di<lb ed="#S" break="no" n="107"/>sponit ad speciem passiue &amp; receptiue secundum quosdam: 
+      <lb ed="#S" n="108"/>quamuis alij hoc negent. Et similiter si in organo tactus 
+      <lb ed="#S" n="109"/>recipiatur calor non est dispositio passiua ad 
+       recipien<lb ed="#S" break="no" n="110"/>dum dolorem, maxime cum cognitio cadat media: &amp; quia 
+      <lb ed="#S" n="111"/>ille calor non est noua qualitas addita sed naturalis 
+       in<lb ed="#S" break="no" n="112"/>tensa: Deus autem potest facere effectum sine causa formali 
+      <lb ed="#S" n="113"/>&amp; materiali: ideo virtute Dei dici potest esse dolor 
+       sensibi<lb ed="#S" break="no" n="114"/>lis sine alia laesione carnis.
+    </p>
+            <p xml:id="khj78y-r51025-d1e1421" n="28">
+      <!-- 28 -->si quis autem vellet susti 
+      <lb ed="#S" n="115"/>nere rationem positionis, quod cessationis passionis maxime 
+      <lb ed="#S" n="116"/>sit causa efficiens cessatio motus coeli, potest responderi 
+      <lb ed="#S" n="117"/>ad quinque argumenta contraria.
+    </p>
+            <p xml:id="khj78y-r51025-d1e1432" n="29">
+      <!-- 29 -->Ad primum de 
+      <lb ed="#S" n="118"/>articulo dici potest, quod error est dicere quod cessante motu 
+      <lb ed="#S" n="119"/>coeli ignis non combureret stuppam etiam virtute diui 
+      <lb ed="#S" n="120"/>na, quasi ignis aliquid possit in virtute motus coeli quod 
+      <lb ed="#S" n="121"/>non potest in virtute Dei, &amp; sic intendebant illi qui con 
+      <lb ed="#S" n="122"/>tra argumentum de igne inferni probabant, quod cessante 
+       mo<lb ed="#S" break="no" n="123"/>tu coeli ignis nullo modo posset affligere: sed docere quod 
+      <lb ed="#S" n="124"/>ignis non possit hoc per naturam suam: non est erroneum 
+      <lb ed="#S" n="125"/>sicut nec dicere virginem non posse parere per naturam 
+      <lb ed="#S" n="126"/>suam: dum tamen non dicatur quod nec etiam pervirtutem 
+       diui<lb ed="#S" break="no" n="127"/>nam: quia etiam non iudicatur erroneum quod aliqui dicunt, nul 
+      <lb ed="#S" n="128"/>lam creaturam posse effectum aliquem producere, sed Deum 
+      <lb ed="#S" n="129"/>omnia agere: &amp; creaturam esse solum causam sine qua Deus 
+      <lb ed="#S" n="130"/>non vult agere, &amp; non causam agentem vel dantem esse, sed 
+      <lb ed="#S" n="131"/>solum transmutantem: vt Auicem. ponens omnes formas ab ex 
+      <lb ed="#S" n="132"/>trinseco.
+    </p>
+            <p xml:id="khj78y-r51025-d1e1469" n="30">
+      <!-- 30 -->Ad secundum cessante prima causa omnis  alte 
+      <lb ed="#S" n="133"/>rationis cessat omnis alteratio, sicut cessante actione Dei 
+      <lb ed="#S" n="134"/>cessaret omnis actio. solutio, coelum est primum agenare 
+      <!--0475.xml-->
+      <pb ed="#S" n="475"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>spectu omnis actionis corpore sed differenter, quia actio 
+      <lb ed="#S" n="2"/>nis quae est motus vt alteratio proprie dicta, &amp; quae per 
+      <lb ed="#S" n="3"/>se est terminus motus coelum est causa per suum motum: 
+      <lb ed="#S" n="4"/>vnde quia motus localis coeli per se est primus motus, &amp; 
+      <lb ed="#S" n="5"/>primum est causa aliorum: inde est quod illo motu cessante 
+      <lb ed="#S" n="6"/>cessaret omnis motus naturalis, non autem motus violen 
+      <lb ed="#S" n="7"/>tus vel progressiuus, vel quo angelus mouet corpus qui 
+      <lb ed="#S" n="8"/>non sic habent ordinem ad illum, sed illarum actionum 
+      <lb ed="#S" n="9"/>quae non sunt motus, nec per se sed per accidens termini 
+      <lb ed="#S" n="10"/>motus: coelum est causa per simplicem influxum suae 
+       lu<lb ed="#S" break="no" n="11"/>cis siue magis alterius virtutis, talis autem est immutatio 
+      <lb ed="#S" n="12"/>spiritualis. Vnde durante illuminatione poterit esse visio, 
+      <lb ed="#S" n="13"/>quae nullam aliam immutationem requirit: hanc autem non 
+      <lb ed="#S" n="14"/>requirunt alij sensus: alias non haberent operationes suas 
+      <lb ed="#S" n="15"/>in tenebris, quod falsum est. sed sicut visibile non nisi in 
+      <lb ed="#S" n="16"/>virtute lucis coeli a quo est omne lumem immutat visum, 
+      <lb ed="#S" n="17"/>sic &amp; in coelo est aliqua virtus in cuius virtute sensibilia 
+      <lb ed="#S" n="18"/>alia immutant intentionaliter, quae virtus agit non per mo 
+      <lb ed="#S" n="19"/>tum sicut nec lumen. Nam quod influxus Lunae sit 
+       conflu<lb ed="#S" break="no" n="20"/>xus &amp; refluxus maris, non est per lumen suum secundum 
+      <lb ed="#S" n="21"/>quosdam, quia etiam in defectu lucis habet hunc effectum: &amp; 
+      <lb ed="#S" n="22"/>non erit post diem iudicij quando erit lux Lunae sicut lux solis: 
+      <lb ed="#S" n="23"/>licet posset dici, quod illud erit propter aliam dispositionem ma 
+      <lb ed="#S" n="24"/>ris quae ambiet ex omni parte terram: vnde tunc erit tanta 
+      <lb ed="#S" n="25"/>profunditas aquae vt radius non pertingat vsque ad profun 
+      <lb ed="#S" n="26"/>dum: propter quod in profundissimo mari non est salse 
+      <lb ed="#S" n="27"/>do: radio solis non potente penetrare vsq, ad profundum: 
+      <lb ed="#S" n="28"/>ad eleuandum vaporem terrae cuius admixtio est causa 
+       sal<lb ed="#S" break="no" n="29"/>sedinis. Nam quod dispositio diuersa sit, causa patet, quia 
+      <lb ed="#S" n="30"/>propter hoc mare Mediterraneum non habet fluxum nec 
+      <lb ed="#S" n="31"/>refluxum. Nec illa solutio bona est, quia aqua erit ita lim 
+      <lb ed="#S" n="32"/>pida &amp; perspicua quod superficiem terrae illuminabunt sol &amp; 
+      <lb ed="#S" n="33"/>Luna: sed vtrum est quod ex superficie terrae solidatae nullus 
+      <lb ed="#S" n="34"/>vapor resoluetur, qui sit causa salsedinis vel fluxus sicut 
+      <lb ed="#S" n="35"/>nunc: tamen quicquid sit de hoc, non est Luna per lucem 
+       cau<lb ed="#S" break="no" n="36"/>sa omnium, sed etiam per aliam virtutem, quia cum nulla sub 
+      <lb ed="#S" n="37"/>stantia destituai sua propria operatione: corpora coelestia 
+      <lb ed="#S" n="38"/>quae aliquando destituuntur lumine habent aliam virtutem a 
+       lu<lb ed="#S" break="no" n="39"/>mine. sicut ergo illuminatio non dependet a motu 
+       coe<lb ed="#S" break="no" n="40"/>li: sicut nec influentia aliarum virtutum quae respicit 
+       actio<lb ed="#S" break="no" n="41"/>nes, quae non sunt motus sed simplices mutationes, &amp; quae 
+      <lb ed="#S" n="42"/>sunt salus &amp; perfectio.
+    </p>
+            <p xml:id="khj78y-r51025-d1e1576" n="31">
+      <!-- 31 -->sed tunc videtur quod cessante 
+      <lb ed="#S" n="43"/>motu coeli non possit esse aliqua sensatio alia a visu: cum 
+      <lb ed="#S" n="44"/>oens aliae sint cum motu naturali quod est vel corruptio vel 
+      <lb ed="#S" n="45"/>alteratio, vel motus localis, sicut etiam cessabit generatio 
+      <lb ed="#S" n="46"/>&amp; corruptio, quae non sunt motus sed per se termini mo 
+      <lb ed="#S" n="47"/>tus.
+    </p>
+            <p xml:id="khj78y-r51025-d1e1593" n="32">
+      <!-- 32 -->Et dicendum, quod non est simile, quia generationi 
+      <lb ed="#S" n="48"/>&amp; corruptioni per se debetur motus, non solum propter 
+      <lb ed="#S" n="49"/>agens: sed propter hoc quod oportet contrarias dispositiones 
+      <lb ed="#S" n="50"/>expellere &amp; proprias inducere, omnis  autem sensus est 
+       imme<lb ed="#S" break="no" n="51"/>diate dispositus ad sensationem, quae non habet contrarium 
+      <lb ed="#S" n="52"/>in sensu:&amp; ideo sensationi accidit quod ipsa sit terminus mo 
+      <lb ed="#S" n="53"/>tus ex defectu agentis vel alia causa, propter quod sine mo 
+      <lb ed="#S" n="54"/>tu erunt istae immutationes.
+    </p>
+            <p xml:id="khj78y-r51025-d1e1613" n="33">
+      <!-- 33 -->Ad tertium cum dicit, quod 
+      <lb ed="#S" n="55"/>distinctio nulla, quia omnis  immutatio naturalis &amp;c. 
+       Dicen<lb ed="#S" break="no" n="56"/>dum quod considerando de quibus arguit potest dici, quod 
+       immu<lb ed="#S" break="no" n="57"/>tatio intentionalis est immutatio naturalis vera &amp; 
+       rea<lb ed="#S" break="no" n="58"/>lis, sicut alia: imo magis naturalis, quia perficit naturam: 
+      <lb ed="#S" n="59"/>illa destruit: &amp; magis realis, quia nobilior res est sensatio 
+      <lb ed="#S" n="60"/>qualitatis quam ipsa qualitas, sed distinguitur passio animae 
+      <lb ed="#S" n="61"/>a passione naturae eo modo quo. 2. de Anima, forma quae 
+      <lb ed="#S" n="62"/>est anima distinguit a forma quae est natura, quae est 
+       ter<lb ed="#S" break="no" n="63"/>minata ad vnum, illa autem non. Vnde vocatur passio 
+       na<lb ed="#S" break="no" n="64"/>turae quae est rei non inquantum estanimata: sed 
+       inquan<lb ed="#S" break="no" n="65"/>tum habet aliquam conditionem etiam competentem inanimatis 
+      <lb ed="#S" n="66"/>passio vero animae quae est propria animatorum: sicut 
+       ca<lb ed="#S" break="no" n="67"/>leficri est commune animatis &amp; inanimatis, sed sentire ca 
+      <!--0475.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>lorem est proprium animatorum, propter quod illa est 
+       pas<lb ed="#S" break="no" n="69"/>sio naturae, haec animae. Dicitur autem passio haec natura 
+      <lb ed="#S" n="70"/>lis, &amp; illa animalis, vel propter hoc quia natura est 
+       prin<lb ed="#S" break="no" n="71"/>cipium motus &amp; quietis: vnde illa quae est per motum 
+       vo<lb ed="#S" break="no" n="72"/>catur naturalis: quae autem per simplicem &amp; instantaneam 
+      <lb ed="#S" n="73"/>mutationem animalis, vel quia illa est destructiua naturae, 
+      <lb ed="#S" n="74"/>ista saluatiua animae: sed dicitur intentionalis non realis, 
+      <lb ed="#S" n="75"/>quia non est illa res quae sentitur sed eius similitudo, quia 
+      <lb ed="#S" n="76"/>lapis non est in anima sed species lapidis: quae tamen 
+       spe<lb ed="#S" break="no" n="77"/>cies est vera res siue differat ab actu siue non.
+    </p>
+            <p xml:id="khj78y-r51025-d1e1672" n="34">
+      <!-- 34 -->Ad 
+      <lb ed="#S" n="78"/>quartum cum dicitur, quod non sit in coelo ratio agendi, 
+      <lb ed="#S" n="79"/>quia qualitas &amp;c. dicendum, quod sicut quantitas non 
+      <lb ed="#S" n="80"/>est ratio nec principium calefaciendi: est tamen causa sine 
+      <lb ed="#S" n="81"/>qua non: vnde calor separatus non est natus calefacere, 
+      <lb ed="#S" n="82"/>sic licet motus localis non sit virtus coeli qua agit, nec 
+      <lb ed="#S" n="83"/>etiam per ipsum acquiratur virtus coelo, sicut aliquid ex 
+      <lb ed="#S" n="84"/>motu locali calefacit, &amp; sic potest calefacere: est tamen 
+      <lb ed="#S" n="85"/>causa sine qua non coelo: respectu alterationis motuum 
+      <lb ed="#S" n="86"/>proprie dictorum inferius, &amp; illorum qui perse sunt ter 
+      <lb ed="#S" n="87"/>minus motuum horum: ita quod sicut cor non 
+       viuifica<lb ed="#S" break="no" n="88"/>ret nisi moueretur: &amp; cessante motu cordis cessaret eius 
+      <lb ed="#S" n="89"/>viuificatio, quamuis non per motum viuificet ita in coe 
+      <lb ed="#S" n="90"/>lo. Et quidem non oportet dicere quod si ignis non mo 
+      <lb ed="#S" n="91"/>tus non calefaciat, quod similiter coelum faceret, quia 
+      <lb ed="#S" n="92"/>cum sit corpus quintae essentiae potest in agendo 
+       diuer<lb ed="#S" break="no" n="93"/>sificari sicut in essendo, vt sicut habet aliam naturam ad 
+      <lb ed="#S" n="94"/>essendum: sic aliam naturam ad motum: vt, scilicet, non 
+      <lb ed="#S" n="95"/>possit mouere nisi motum: vt non solum ad diuersitatem 
+      <lb ed="#S" n="96"/>actionis eius requiratur motus, sed etiam propter substan 
+      <lb ed="#S" n="97"/>tiam actionis quod patet manifeste in motu primi 
+       mo<lb ed="#S" break="no" n="98"/>bilis. Constat enim quod ille motus non est frustra, aut 
+       igi<lb ed="#S" break="no" n="99"/>tur motus ille est propter actionem illius mobilis aut al 
+      <lb ed="#S" n="100"/>terius: quia cum non sit propter esse vel conseruari, opor 
+      <lb ed="#S" n="101"/>tet quod sit propter operari ipsiusmet coeli Crystallini vel 
+      <lb ed="#S" n="102"/>alterius, quia non potest dici quod hoc sit propter hoc, quod 
+       ali<lb ed="#S" break="no" n="103"/>quando elongetur a terra vel ei appropinquet, sicut est 
+      <lb ed="#S" n="104"/>de planetis quorum sphaerae vel circuli sunt excentrici, 
+      <lb ed="#S" n="105"/>quia illa sphaera est concentrica: nec propter aliquam 
+      <lb ed="#S" n="106"/>suarum partium elongandam vel approximandam, quia 
+      <lb ed="#S" n="107"/>omnes sunt vniformes: vnde tantum valet pars dextera 
+       si<lb ed="#S" break="no" n="108"/>cut sinistra: vnde cum non requiratur propter diuersita 
+      <lb ed="#S" n="109"/>tem operationis: ergo propter substantiam. si dicatur quod 
+      <lb ed="#S" n="110"/>motus eius est propter diuersitatem operationum non 
+      <lb ed="#S" n="111"/>eius sed coelorum stellatorum: vt puta ad hunc finem qui 
+      <lb ed="#S" n="112"/>firmamentum duos motus habeat, quia angelus qui mo 
+      <lb ed="#S" n="113"/>uet immediate coelum Crystallinum &amp; mediante eo 
+       fir<lb ed="#S" break="no" n="114"/>mamentum motu raptus: multo magis posset mouere fir 
+      <lb ed="#S" n="115"/>mamentum motu illo immediate: &amp; nihilominus moue 
+      <lb ed="#S" n="116"/>retur motu alio ab alio motore sicut nunc: ergo motus 
+      <lb ed="#S" n="117"/>eius non solum est propter differenter agere sed propter 
+      <lb ed="#S" n="118"/>agere.
+    </p>
+            <p xml:id="khj78y-r51025-d1e1766" n="35">
+      <!-- 35 -->Ad quintum cum dicitur, quod aeque perfectum 
+      <lb ed="#S" n="119"/>&amp;c. solutio. sicut elementa &amp; mixta quod ad esse depen 
+      <lb ed="#S" n="120"/>dent ab esse coeli: &amp; extra eius continentiam non sunt 
+      <lb ed="#S" n="121"/>nata conseruari, sicut nec generari: sic eorum operatio 
+      <lb ed="#S" n="122"/>dependet ab operatione coeli: vnde cum operatio coeli 
+      <lb ed="#S" n="123"/>quae est ad motum supponat motum, nullum agens infe 
+      <lb ed="#S" n="124"/>rius est bene dispositum ad mouere nec patiens ad 
+       mo<lb ed="#S" break="no" n="125"/>ueri, nisi supposito motu coeli sine quo non est actio illa 
+      <lb ed="#S" n="126"/>coeli a qua dependent motus inferiorum.
+    </p>
+            <p xml:id="khj78y-r51025-d1e1788" n="36">
+      <!-- 36 -->
+       Argu<lb ed="#S" break="no" n="127"/>menta ad questionem fuerunt soluta. ideo &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

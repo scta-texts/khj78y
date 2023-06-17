@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="359"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r12122"><!-- l4d30-q2 -->
+            <head xml:id="khj78y-r12122-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-r12122-Hd1e103" type="question-title">
+     de matrimonio 
+     beatae Virginis, utrum fuerit verum 
+     matrimonium
+   </head>
+            <p xml:id="khj78y-r12122-d1e106">
+      <!--0359.xml-->
+               <cb ed="#S" n="b"/>
+               <lb ed="#S" n="67"/>QVAESTIO SECVNDA. 
+      <lb ed="#S" n="68"/>De matrimonio Beatissimae virginis mariae. 
+    </p>
+            <p xml:id="khj78y-r12122-d1e117">
+               <lb ed="#S" n="69"/>s. Thom. 4. dist. 30. q. 2. art. 2. 
+    </p>
+            <p xml:id="khj78y-r12122-d1e122">
+               <lb ed="#S" n="70"/>QVAERITVR secundo de matrimonio 
+      <lb ed="#S" n="71"/>beatae Virginis, vtrum fuerit verum 
+       matri<lb ed="#S" break="no" n="72"/>monium, &amp; videtur quod non: quia fuit ibi ali 
+      <lb ed="#S" n="73"/>quid contra bonum fidei, &amp; prolis, quia non 
+      <lb ed="#S" n="74"/>intendebant adinu item conuenire.
+    </p>
+            <p xml:id="khj78y-r12122-d1e136" n="2">
+      <!-- 2 -->
+       Con<lb ed="#S" break="no" n="75"/>tra, Matthae. 1. Noli timere accipere Mariam coniugem 
+      <lb ed="#S" n="76"/>tuam.
+    </p>
+            <p xml:id="khj78y-r12122-d1e145" n="3">
+      <!-- 3 -->Respondeo, hic sunt tria videnda. Primo, quo 
+      <lb ed="#S" n="77"/>contrarietas in contrahendo matrimonium quo ad bona 
+      <lb ed="#S" n="78"/>matrimonij faciat matrimonium nullum. secundo, de 
+       ma<lb ed="#S" break="no" n="79"/>trimonio beatae Virginis: Tertio, de fine inhonesto. 
+    </p>
+            <p xml:id="khj78y-r12122-d1e156" n="4">
+               <lb ed="#S" n="80"/>
+               <!-- 4 -->Quantum ad primum sunt quatuor conclusiones.
+    </p>
+            <p xml:id="khj78y-r12122-d1e163" n="5">
+      <!-- 5 -->
+       Pri<lb ed="#S" break="no" n="81"/>ma de intentione, quia aut est contraria non solum bonis ma 
+      <lb ed="#S" n="82"/>trimonij, sed etiam ipsi essentiae matrimonij: puta, quia non 
+      <lb ed="#S" n="83"/>intenditcontrahere, sed decipere: vel si intendit contrahere, 
+      <lb ed="#S" n="84"/>intendit tamen non statim, sed ad tempus, vel aliquid huiusmodi: 
+      <lb ed="#S" n="85"/>&amp; tunc non est matrimonium: quia nisi sit consensus in tota es 
+      <lb ed="#S" n="86"/>sentia matrimonij, non est matrimonium. Item quando est 
+       con<lb ed="#S" break="no" n="87"/>sensus, &amp; dissensus, sicut si homo vult esse homo, &amp; non ha 
+      <lb ed="#S" n="88"/>bere animam, non simpliciter consentit: vnde non est 
+       matri<lb ed="#S" break="no" n="89"/>monium. si autem contrarietur bonis matrimonii: sed non es 
+      <lb ed="#S" n="90"/>sentiae est verum matrimonium, sicut supra dictum est. 
+    </p>
+            <p xml:id="khj78y-r12122-d1e189" n="6">
+               <lb ed="#S" n="91"/>
+               <!-- 6 -->secunda conclusio est de expressione contrarij: quia 
+      <lb ed="#S" n="92"/>aut exprimitur aliquid contrarium essentiae, &amp; non est matri 
+      <lb ed="#S" n="93"/>monium: sicut si dicat, accipio te in meam, dum tamen ego non 
+      <lb ed="#S" n="94"/>sim maritus tuus, vel quod matrimonium dissoluat quam cito 
+      <lb ed="#S" n="95"/>inuenero pulchriorem, &amp; meliorem, vel huiusmodi: &amp; sic non est 
+      <lb ed="#S" n="96"/>matrimonium, sed adulterium: sicut dicit Aug. 31. dist. Aut 
+      <lb ed="#S" n="97"/>non est contra essentiam, sed contra aliquod de tribus bonis: 
+      <lb ed="#S" n="98"/>&amp; tunc si est aliquid illicitum non est matrimonium. si 
+       au<lb ed="#S" break="no" n="99"/>tem id, quod exprimit, sit non honestum, non impedit: sicut 
+      <lb ed="#S" n="100"/>contraho tecum: ita quod non petas debitum: quia pacisci de 
+       de<lb ed="#S" break="no" n="101"/>bito non petendo, nec reddendo non respicit essentiam: cum 
+      <lb ed="#S" n="102"/>petere, &amp; reddere sint actus consequentes matrimonium: 
+      <lb ed="#S" n="103"/>imo etium pacisci, quod non teneat petere, vel reddere non est 
+      <lb ed="#S" n="104"/>contra essentiam: cum salua essentia matrimonij possittol 
+      <lb ed="#S" n="105"/>li ius poeendi, &amp; obligatio reddendi, vt dicet proxima dis. 
+      <lb ed="#S" n="106"/>ꝗ. Lart. 13. conclusione vlt. sed ponere conditionem, vel mo 
+      <lb ed="#S" n="107"/>dum de non reddendo, vitiat matrimonium, ua conditio tur 
+      <lb ed="#S" n="108"/>pis, &amp; inhonesta, &amp; contraria.
+    </p>
+            <p xml:id="khj78y-r12122-d1e233" n="7">
+      <!-- 7 -->Tertia conclusio est, quo 
+      <lb ed="#S" n="109"/>potest controhere, qui. voult castitatem, quia vouit non contra 
+      <lb ed="#S" n="110"/>here, nullo modo potest contrahere, nisi dispensatione Papae, 
+      <lb ed="#S" n="111"/>qui solus dispesat in simplici voto castitatis ppetuo pro 
+      <lb ed="#S" n="112"/>pter plenitudinem porestatis. si autem vouit castitatem 
+       exi<lb ed="#S" break="no" n="113"/>stens virgo, vel viduz, &amp; senex vult cum ea contrabere, 
+      <lb ed="#S" n="114"/>vt habeat patrimonium eius, vel econuerso ista, vt habeat 
+      <lb ed="#S" n="115"/>defensorem: si in contrahendo dicat sic, contraho tecum, est ma 
+      <lb ed="#S" n="116"/>trimonium, ita to quod caste viuamus, valet. Facilius est enim 
+      <lb ed="#S" n="117"/>iuri futurp, &amp; acquirendo renunciare, q iuri ia acquisito: 
+      <lb ed="#S" n="118"/>qa multa impediunt contrahentia, quae non dirimunt iam 
+      <lb ed="#S" n="119"/>contracta: vnde si contracto matrimonio, postquam obligati 
+      <lb ed="#S" n="120"/>sunt mutuo ad redelendum, punt se per pactum ab ista obliga 
+      <lb ed="#S" n="121"/>tione liberare manente essentia matrimonij, pari ratione 
+      <lb ed="#S" n="122"/>in contrahendosalua essentia poterunt ab obligatione 
+      <lb ed="#S" n="123"/>praeseruari. Nec obstat, si dicatur, quod in eo, quod est contra 
+      <lb ed="#S" n="124"/>rium bono matrimonij: &amp; est illicitum, deficiat ratiorquia 
+      <lb ed="#S" n="125"/>si post matrimonium fiat illud pactum, non tollitur 
+       matri<lb ed="#S" break="no" n="126"/>monii, quod est: si autem in contrahendo exprimat, non con 
+      <lb ed="#S" n="127"/>trahittur matrimonij, quia hoc propter statuti ecclesa, 
+      <lb ed="#S" n="128"/>quae potuit facere, q non contraherei, sed non vt 
+       soluen<lb ed="#S" break="no" n="129"/>tur iam contrastū,
+    </p>
+            <p xml:id="khj78y-r12122-d1e284" n="8">
+      <!-- 8 -->Quarta conclusio, videt 
+       corolla<lb ed="#S" break="no" n="130"/>rie posse inferri ex praedictis, quod Papa possit dispen- 
+      <!--0360.xml-->
+      <pb ed="#S" n="360"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>sare in solenni voto religionis, quia qua ratione obligatio 
+      <lb ed="#S" n="2"/>ad actum matrimonialem non est essentialis matrimonio: 
+      <lb ed="#S" n="3"/>eandem ratione obligari ad castitatem non est essentialis 
+      <lb ed="#S" n="4"/>ad religionem, sed sicut in matrimonio est ipse contractus 
+      <lb ed="#S" n="5"/>transiens, ex quo causaivinculum, quod est essentiale 
+       ma<lb ed="#S" break="no" n="6"/>trimonij, quod consequit obligatio ad reddendum debitum, &amp; 
+      <lb ed="#S" n="7"/>ius petendi, quasi actio: sic in religione est ipsa professio, 
+      <lb ed="#S" n="8"/>quasi contractus facti transiens, ex qua innascitur vinculum 
+      <lb ed="#S" n="9"/>ad ipsam religionem per quam, quandiu viuit, dicit religio 
+      <lb ed="#S" n="10"/>sus talis religionis, sicut coniunx talis coniugis: nisi quod 
+      <lb ed="#S" n="11"/>vinculum matrimoniale est quaedam res absoluta, vel rela 
+      <lb ed="#S" n="12"/>ta: sicut character, vel ornatus in aliis sacramentis: vinculum autem 
+      <lb ed="#S" n="13"/>religionis non est res, sed relatio rationis, sicut esse 
+       conse<lb ed="#S" break="no" n="14"/>cratum in calice, vel altari. Item ipsam essentiam religionis 
+      <lb ed="#S" n="15"/>consequit obligatio ad actus religionis, &amp; positiuos, vt 
+      <lb ed="#S" n="16"/>est obedire, &amp; priuatiuos, vt non habere proprium, &amp; non 
+      <lb ed="#S" n="17"/>vti coniugio: sicut obligatio ad actus coniugij sequitur vin 
+      <lb ed="#S" n="18"/>culum coniugij, nisi quod in matrimonio obligatio est 
+       fir<lb ed="#S" break="no" n="19"/>mata de iure diuino non solum secundum se, sed secundum qui 
+      <lb ed="#S" n="20"/>est accessoria sacri a Deo instituti: sed obligatio ad ea, 
+      <lb ed="#S" n="21"/>quae sunt religionis, est quidem de iure diuino secundum se: 
+      <lb ed="#S" n="22"/>quia dicit: Vouete, &amp; reddite Deo vestro: &amp; non de ratione 
+      <lb ed="#S" n="23"/>eius, quod sequit, quod non est sacramentum, sed quaedam 
+       conse<lb ed="#S" break="no" n="24"/>cratio ab homine adinuenta, sicut non vti calice 
+       consecra<lb ed="#S" break="no" n="25"/>to ad vsus prophanos secundum se supposita consecratione 
+      <lb ed="#S" n="26"/>est de iure diuino, quod prohibet sancta prophanari: sed 
+      <lb ed="#S" n="27"/>non ratione consecrationis, quae est per hominem: ita quod 
+       si<lb ed="#S" break="no" n="28"/>cut Papa potest dispensare, vt calix vendatur etiam non 
+       con<lb ed="#S" break="no" n="29"/>flatus: sic quod monachus manens monachius vxoretur: quia 
+      <lb ed="#S" n="30"/>supra votum simplex non habet professio, nisi quod est positi 
+      <lb ed="#S" n="31"/>uum: sed in votis simplicibus potest Papa dispensare: ergo 
+      <lb ed="#S" n="32"/>&amp; in ista ratione voti: sed obligatione, prout est ex statu 
+      <lb ed="#S" n="33"/>tuto ecclesiae potest ipse remittere: ergo &amp; tollere, sed de 
+      <lb ed="#S" n="34"/>hoc dicetur infra. 38. Distin.
+    </p>
+            <p xml:id="khj78y-r12122-d1e371" n="9">
+      <!-- 9 -->Quantum ad secundum 
+      <lb ed="#S" n="35"/>articulum de matrimonio beatae Virginis sunt. 5. conclu 
+      <lb ed="#S" n="36"/>siones.
+    </p>
+            <p xml:id="khj78y-r12122-d1e380" n="10">
+      <!-- 10 -->Prima de eius virginitate, quia debuit 
+       es<lb ed="#S" break="no" n="37"/>se Virgo in re, &amp; ex voto cordis, &amp; oris conditionato: &amp; 
+      <lb ed="#S" n="38"/>similiter Ioseph. Primum patet, quia decuit, vt maxima puri 
+      <lb ed="#S" n="39"/>tate niteret. Est autem maior virginis, quam corruptae quomo 
+      <lb ed="#S" n="40"/>docunque : ergo debuit esse virgo: cum &amp; prima mulier esset 
+      <lb ed="#S" n="41"/>virgo, quando fuit damnationis origo. secundum patet, quod ex 
+       vo<lb ed="#S" break="no" n="42"/>to, quia illam virginatem debuit habere, quae est Iaudabilior, 
+      <lb ed="#S" n="43"/>huiusmodi autem est, quae est ex voto. August. Virginitas lauda 
+      <lb ed="#S" n="44"/>tur, non quia virginitas, sed quia Deo dicata: quod prids cor 
+      <lb ed="#S" n="45"/>de tantum, &amp; occulte fecit: quia tunc praeferebatur coniugium 
+       vir<lb ed="#S" break="no" n="46"/>ginitati propter expectationem seminis venturi. Nec obstat, 
+      <lb ed="#S" n="47"/>quod illud erat de Virgine nasciturum: quia de vna sola erat 
+      <lb ed="#S" n="48"/>nasciturum: vnde illam solam oportebat esse Virginem: 
+       cae<lb ed="#S" break="no" n="49"/>teras autem generationi vacare, vt populus esset multus, 
+      <lb ed="#S" n="50"/>de cuius generatione esset Christus: cum propter hoc in 
+      <lb ed="#S" n="51"/>illo populo fuerit specialiter dispensatum in pluralitate 
+      <lb ed="#S" n="52"/>vxorum: quod non esset, si propter hoc, quod Christus erat de 
+      <lb ed="#S" n="53"/>Virgine nasciturus, virginitas praeferret matrimonio: vt 
+      <lb ed="#S" n="54"/>sic omnes continerent, nec esset, vnde illa mater Domini nascere 
+      <lb ed="#S" n="55"/>tur. Tertium patet, quod sub conditione. scilicet nisi Deus aliter ordi 
+      <lb ed="#S" n="56"/>naret, quia non sciebat, quid cogitasset super illam Deus: 
+      <lb ed="#S" n="57"/>&amp; communis cursus erat etiam sanctarum mulierum contrahere. 
+    </p>
+            <p xml:id="khj78y-r12122-d1e430" n="11">
+               <lb ed="#S" n="58"/>
+               <!-- 11 -->sed contra istud dicunt quidam, quod illud non oportet di 
+      <lb ed="#S" n="59"/>cere: quia illa conditio non tollit, quin virginitatis votum 
+      <lb ed="#S" n="60"/>fuerit simplex, cuius ratlo est: quia generalis, &amp; necessaria 
+      <lb ed="#S" n="61"/>conditio, quae in omni promissione intelligitur, si expri 
+      <lb ed="#S" n="62"/>matur, non facit promissionem conditionatam: alioquin 
+      <lb ed="#S" n="63"/>nulla promissio esset absoluta, nec aliquod votum, sed ge 
+      <lb ed="#S" n="64"/>neralis, &amp; necessaria conditio, quae intelligit in omni pro 
+      <lb ed="#S" n="65"/>missione, &amp; voto est, si Dominus voluerit, &amp; pariratione, nisi 
+      <lb ed="#S" n="66"/>oppositum Dominus iusserit: ergo talis conditio non facit, quin 
+      <lb ed="#S" n="67"/>votum virginitatis fuerit simpliciter emissum: vnde ili- 
+      <!--0360.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>cunt, quod beata Virgo vouit virginitatem simpliciter: 
+       vnd<lb ed="#S" break="no" n="69"/>dixit angelo, Virum non cognosco. i. me non cognituram 
+      <lb ed="#S" n="70"/>propono.
+    </p>
+            <p xml:id="khj78y-r12122-d1e467" n="12">
+      <!-- 12 -->Et dicendum, quod licet conditio diuinae vo 
+      <lb ed="#S" n="71"/>luntatis intelligi debeat in omni voto, &amp; proposito: tamen 
+      <lb ed="#S" n="72"/>perfectionis est illam exprimere, &amp; sic fuit hic. Quartum 
+      <lb ed="#S" n="73"/>patet. scilicet quod postea verbis expressit. scilicet quando per angelum 
+       certifi<lb ed="#S" break="no" n="74"/>cata fuit. Et quia extunc periculum nullum fuit, &amp; vir suus 
+      <lb ed="#S" n="75"/>consensit. Quinto, quod etiam Ioseph virgo mortuus fuit: quia 
+      <lb ed="#S" n="76"/>enim iustus fuit, &amp; fornicatio in iustum non cadit, nec 
+      <lb ed="#S" n="77"/>aliam vxorem habuit, &amp; ista virgo in aeuum permansit: ergo 
+      <lb ed="#S" n="78"/>&amp; ipie virgo fuit, &amp; ex voto: quia communi cosensu castitas 
+      <lb ed="#S" n="79"/>inter eos permansit, secundum Hieronymum contra 
+       Hesui<lb ed="#S" break="no" n="80"/>dium.
+    </p>
+            <p xml:id="khj78y-r12122-d1e493" n="13">
+      <!-- 13 -->secunda conclusio est de consensu beatae 
+       Vir<lb ed="#S" break="no" n="81"/>ginis in matrimonium: quia ipsa consensit non solum in 
+       coha<lb ed="#S" break="no" n="82"/>bitationem domus, sed etiam in copulam coniugalem 
+       simplici<lb ed="#S" break="no" n="83"/>ter: in copulam autem carnalem sub conditione, si Deus eam 
+       iu<lb ed="#S" break="no" n="84"/>beret: &amp; sic non fregit votum, &amp; sic dicuntquidam de Ioanne 
+      <lb ed="#S" n="85"/>Euangerita. rrimu patet, quia coienius in iolu couictum, 
+      <lb ed="#S" n="86"/>vel cohabitationem non faceret matrimonium: alias inter 
+      <lb ed="#S" n="87"/>fratres, &amp; sorores, parentes, &amp; liberos posset esse 
+       matrimo<lb ed="#S" break="no" n="88"/>nium. secundum patet, quia in copula coniugali est essentia 
+      <lb ed="#S" n="89"/>matrimonij: vnde consensus in illam solam, etiam si de nullo 
+      <lb ed="#S" n="90"/>alio cogitet, facit matrimonium verum: quod potest esse inter 
+      <lb ed="#S" n="91"/>steriles habentes impotentiam coeundi scienter: multo 
+       ma<lb ed="#S" break="no" n="92"/>gis inter potentes, sed nolentes carnaliter commisceri: sicut 
+      <lb ed="#S" n="93"/>esset verus baptismus, si intenderet baptizari: licet non 
+       cu<lb ed="#S" break="no" n="94"/>raret de re sacri, propter quam tamen est principaliter 
+       baptis<lb ed="#S" break="no" n="95"/>mus. Tertium patet: scilicet quod non consensit in carnalem copulam 
+      <lb ed="#S" n="96"/>simpl'r, &amp; explicite: quia hoc fuisset contra votum virginitat 
+      <lb ed="#S" n="97"/>tis: nec exclusit eam simpliciter, &amp; explicite: quia irritasset 
+      <lb ed="#S" n="98"/>matrimonium secundum communem opinionem: quia fuisset 
+       con<lb ed="#S" break="no" n="99"/>tra substantiam, vel saltem contra bona matrimonij, &amp; infinem 
+      <lb ed="#S" n="100"/>principalem, qui aliter haberi non potest, vel si non irritasset 
+      <lb ed="#S" n="101"/>matrimonium, quia non est conditio inhonesta: licet con 
+      <lb ed="#S" n="102"/>traria, vt dictum fuit supra: saltem non debuit exprimere all 
+      <lb ed="#S" n="103"/>quid absolute in matrimonio, quod lege communi effet 
+      <lb ed="#S" n="104"/>contra matrimonium, antequam sibi fuisset reuelatum. Quartum 
+      <lb ed="#S" n="105"/>patet. scilicet quod non fecit contra votum, quia vel nihil cogitauit de 
+      <lb ed="#S" n="106"/>carnali copula, vel non consensit in eam nisi sub condi 
+      <lb ed="#S" n="107"/>tione: si Deus eam iuberet, sperans sibi a Domino 
+       reuelan<lb ed="#S" break="no" n="108"/>dum, quid faciendum esset: &amp; ipsa non vouerat non contra 
+      <lb ed="#S" n="109"/>here matrimonium: sed non cognoscere vtrum, nisi Deus 
+      <lb ed="#S" n="110"/>ordinaret. Quintum patet de Ioan. Euangelista. Nam quia 
+      <lb ed="#S" n="111"/>virgo fuit Virginis custos: probabiliter credit consimili 
+      <lb ed="#S" n="112"/>modo se habuisse in consensu nuptiali, sicut Virgo beata, 
+      <lb ed="#S" n="113"/>quod tamen non sic est necesse: quia non sic habebat votum vir 
+      <lb ed="#S" n="114"/>ginitatis, sicut ipsa.
+    </p>
+            <p xml:id="khj78y-r12122-d1e572" n="14">
+      <!-- 14 -->Tertia conclusio est de causa 
+      <lb ed="#S" n="115"/>propter quam debuit desponsari, quae quintuplex 
+       assigna<lb ed="#S" break="no" n="116"/>tur.
+    </p>
+            <p xml:id="khj78y-r12122-d1e581">
+      <!--15. -->Primo, ex parte exempli, ne virgines aliae se 
+       ex<lb ed="#S" break="no" n="117"/>cusarent: vt filia Iudaei inclusa a clerico impregnata: 
+       di<lb ed="#S" break="no" n="118"/>xit se a Deo impraegnata: vnde Iudaei Messiam expectabant 
+      <lb ed="#S" n="119"/>quousque mulier edita est: sic etiam Paulina amando, 
+       do<lb ed="#S" break="no" n="120"/>lo Liddae sub speciae Dei decepta est: &amp; vxor Philippi a 
+      <lb ed="#S" n="121"/>Mago. secundo, ex parte sacri: quia hoc matrimonium 
+       per<lb ed="#S" break="no" n="122"/>fectius significat coniunctionem Christi, &amp; ecclesiae, quam 
+      <lb ed="#S" n="123"/>quodcumque propter foecunditatem, simul &amp; integritatem: 
+       li<lb ed="#S" break="no" n="124"/>cet aliud perfectius conlunctiose Christi, &amp; humanae nam 
+      <lb ed="#S" n="125"/>turae, quae defecit a similitudine matrimonij propter 
+       vni<lb ed="#S" break="no" n="126"/>tatem personae secundum Grego. io Home. de nuptiis filij 
+      <lb ed="#S" n="127"/>Regis. Tertio, ex parte viri, vt genealogia texeret, &amp; vt 
+      <lb ed="#S" n="128"/>obsequium praestaret Mariae, &amp; pueri in Aegyptum &amp;c. 
+       Quar<lb ed="#S" break="no" n="129"/>to, ex parte ipsi Virginis, ne lapidaret tanquam filia sacerdo 
+      <lb ed="#S" n="130"/>tir i. tremaret, vel moreret: quia tribus Regia, &amp; sacerdotalis 
+      <lb ed="#S" n="131"/>erant permixtae. Quinto, ex parte nati, vt Diabolo part ce 
+      <lb ed="#S" n="132"/>iaretur per impedimentu, &amp; vt nuptias approbaret. Et Ii 
+      <lb ed="#S" n="133"/>cet Deus posset aliter celare: hic tamen fuit modus con 
+      <lb ed="#S" n="134"/>uenientior, quia rarius conniuges sunt virgines. 
+    </p>
+            <p xml:id="khj78y-r12122-d1e625" n="16">
+      <!--0361.xml-->
+               <pb ed="#S" n="361"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>
+               <!-- 16 -->Quarta conclusio est de perfectione matrimonij: quia 
+      <lb ed="#S" n="2"/>fuit perfectum, &amp; quantum ad essentiam, &amp; quantum ad tria bo 
+      <lb ed="#S" n="3"/>na. scilicet fidei, prolis, &amp; sacramenti: non autem quantum ad secundam 
+      <lb ed="#S" n="4"/>perfectionem, quae est eius operatio, vt carnalis copula. 
+      <lb ed="#S" n="5"/>Primum patet, quia fuit consensus expressus per verba de prae 
+      <lb ed="#S" n="6"/>senti in copulam coniugalem, quod solum est verum, &amp; perfectum 
+      <lb ed="#S" n="7"/>matrimonium essentialiter. secundum patet, quia vbi nullum 
+      <lb ed="#S" n="8"/>adulterium, sed summa castitas, ibi bonum fidei, &amp; nulla 
+       in<lb ed="#S" break="no" n="9"/>fidelitas. Tertium patet, quia prolis bonum fuit in semine, in 
+      <lb ed="#S" n="10"/>quo omnes gentes benedicereni. Et licet non processerit ex hoc 
+      <lb ed="#S" n="11"/>matrimonio: erat tamen illud matrimonium ad hoc ordinatum prin 
+      <lb ed="#S" n="12"/>cipaliter: vt in ipso, &amp; sub ipso talis ples generaret, &amp; edu 
+      <lb ed="#S" n="13"/>caret: non sic autem est de partu supposito, vel adulterino 
+      <lb ed="#S" n="14"/>ad quem matrimonium non ordinatur: sed ad oppositum: vnde 
+      <lb ed="#S" n="15"/>ibi non est bonum prolis. Quartum apparet: quia bonum sacramenti 
+      <lb ed="#S" n="16"/>est inseparabilitas: ipsi autem non fuerunt separati vsque 
+      <lb ed="#S" n="17"/>ad mortem: vnde in passione Christi conuincitur Ioseph mor 
+      <lb ed="#S" n="18"/>tuus, quando mater fuit alteri commendata, quintum autem 
+       pro<lb ed="#S" break="no" n="19"/>babitur in sequenti conclusione.
+    </p>
+            <p xml:id="khj78y-r12122-d1e677" n="17">
+      <!-- 17 -->Quinta conclusio est, 
+      <lb ed="#S" n="20"/>quod illud matrimonium nunquam fuit per carnalem copulam 
+       con<lb ed="#S" break="no" n="21"/>summatum: quia aut hoc fuisset ante Christi natiuitatem aut 
+      <lb ed="#S" n="22"/>post, non ante, quia expresse dicit. Matth. 1. Non 
+       cognosce<lb ed="#S" break="no" n="23"/>bat eam, donec peperit filium suum primogenitum: &amp; haec est 
+      <lb ed="#S" n="24"/>est impietas Iudaei: qui dicit Christum ex Ioseph semine 
+      <lb ed="#S" n="25"/>esse natum: nec obstat, quod dicit in Marco, Nonne hic est filius 
+      <lb ed="#S" n="26"/>fabri? Io. 1. Iesum filium Ioseph, &amp; multa huiusmodi. Ad quae 
+      <lb ed="#S" n="27"/>omnia respondetur. Lucae. 3. vbi dicit, vt putabatur filius 
+       lo<lb ed="#S" break="no" n="28"/>seph. Item non obstat, quod mater dixit Lucae. 2. Pater tuus, &amp; 
+      <lb ed="#S" n="29"/>ego dolentes &amp;c. quia eius nutritius fuit: ideo dicitur pater hic 
+      <lb ed="#S" n="30"/>cura, vel sicut dicitur Matth. 14. Pro affectu Iudaeorum, pater 
+      <lb ed="#S" n="31"/>appellabatur, vel quia pater adoptiuus: quod tamen non vide 
+      <lb ed="#S" n="32"/>tur: quia praesumptio fuisset talem filium velle sibi subiicere: 
+      <lb ed="#S" n="33"/>sicut adoptio subdit filium adoptanti: tamen ipse Iesus erat sub 
+      <lb ed="#S" n="34"/>ditus illis, vel quia erat verus maritus matris. Item non 
+       co<lb ed="#S" break="no" n="35"/>gnouit eam post partum, quia fuisset ingratissima, &amp; ille 
+       te<lb ed="#S" break="no" n="36"/>meratissimus si templum Domini violasset, &amp; portam templl, per 
+      <lb ed="#S" n="37"/>quam solus dominus exiuit: &amp; ad homines intrauit. Eze. 44. Nec 
+      <lb ed="#S" n="38"/>obstat, Peperit filium suum primogenitum. scilicet a patre, nec illud, 
+      <lb ed="#S" n="39"/>Fratres elus Iacobus, &amp; Ioseph: quia consobrini, sicut vbi de 
+      <lb ed="#S" n="40"/>spartiatis, &amp; Iudaeis, quod sunt fratres: nec illud, Donec 
+       pe<lb ed="#S" break="no" n="41"/>perit filium suum, quia non sequitur: ergo postea, sicut ibi, Do 
+      <lb ed="#S" n="42"/>nec ponam ini. t. sca. pedom tuorum. Non enim tunc 
+       cessa<lb ed="#S" break="no" n="43"/>bit sedere, sed apertius tunc sedebit.
+    </p>
+            <p xml:id="khj78y-r12122-d1e734" n="18">
+      <!-- 18 -->sed videt, quod 
+      <lb ed="#S" n="44"/>beata Maria virgo non debuerit desponsari: quia nullus 
+      <lb ed="#S" n="45"/>debet simulare velle illud, quod non vult: cum hoc sit men 
+      <lb ed="#S" n="46"/>tiri facto, vt hypocritae: sed ipsa nolebat carnalem copulam, 
+      <lb ed="#S" n="47"/>quam matrimonium praetendit. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r12122-d1e747" n="19">
+      <!-- 19 -->solutio, 
+       di<lb ed="#S" break="no" n="48"/>cendum, quod sicut is, qui non tenetur dicere veritatem proferen 
+      <lb ed="#S" n="49"/>do verbum verum secundum suam intentionem, licet falsum secun 
+      <lb ed="#S" n="50"/>dum intentionem audientium, non mentit, vt Christus dicens, sol 
+      <lb ed="#S" n="51"/>uite templum hoc &amp;c. sic etiam faciens aliquod factum, non vt 
+      <lb ed="#S" n="52"/>fallat, sed vt veritatem significet, vel ad aliquod bonum: licet 
+      <lb ed="#S" n="53"/>ex illo facto aliqui eliciant significatiue aliquod falsum, 
+      <lb ed="#S" n="54"/>non mentit facto, sicut Christus, quando se finxit longius ire. 
+      <lb ed="#S" n="55"/>Non enim hoc fecit ad decipiendum, nec ad significandum 
+      <lb ed="#S" n="56"/>itinerationem, quam facere nolebat: sed ad prouocandum 
+      <lb ed="#S" n="57"/>eos ad instantiam hospitalitatis, &amp; ad significandum, quod di 
+      <lb ed="#S" n="58"/>stabant ab eo infidelitate, sicut &amp; alibi volebat eos 
+       prae<lb ed="#S" break="no" n="59"/>terire. Et similiter beata Virgo non tenebat dicere, qua in 
+      <lb ed="#S" n="60"/>tentione contraheret: vnde licet non intenderet matrimonium 
+      <lb ed="#S" n="61"/>consummare, quod videntes credebant: non est mentita facto, 
+      <lb ed="#S" n="62"/>&amp; istud est ar. sicut ille, qui ponit vitru ad os, non vt alij 
+      <lb ed="#S" n="63"/>putent eum bibere, sed vt non percipiant eius abstinentiam, vel 
+      <lb ed="#S" n="64"/>vt seruet concordiam, quamuis alij ex hoc iudicent eum bibere, 
+      <lb ed="#S" n="65"/>quod non peccat: &amp; ad illum, qui remanet in ecclesia, non vt oret, 
+      <lb ed="#S" n="66"/>sed vt alios non scandalizet, vol aedificet ad assistendum 
+      <lb ed="#S" n="67"/>Deo.
+    </p>
+            <p xml:id="khj78y-r12122-d1e796" n="20">
+      <!-- 20 -->Quantum ad tertium articulum de fine indebito 
+      <!--0361.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>matrimonij, sunt quinque conclusiones.
+    </p>
+            <p xml:id="khj78y-r12122-d1e807" n="21">
+      <!-- 21 -->Prima, quod 
+       du<lb ed="#S" break="no" n="69"/>plex est finis in matrimonio, vnus per se, qui proprie est 
+      <lb ed="#S" n="70"/>finis ipsius matrimonij intentus ab illo, qui matrimonium 
+      <lb ed="#S" n="71"/>institu it: &amp; ab omni recte matrimonium contrahente, 
+       secun<lb ed="#S" break="no" n="72"/>dum potissimum statum matrimonij per se acceptum, &amp; iste 
+      <lb ed="#S" n="73"/>est generatio prolis: vnde Adam prophetizans de hoc 
+       di<lb ed="#S" break="no" n="74"/>xit. Adhaerebit vir vxori suae, &amp; erunt duo in carne vna 
+      <lb ed="#S" n="75"/>s. generanda, &amp; Deus benedictionem nuptialem tribuens 
+      <lb ed="#S" n="76"/>dixit, Crescite, &amp; multiplicamini. Alius est finis per acci 
+      <lb ed="#S" n="77"/>dens. scilicet quem intendit contrahens, &amp; hic est finis proprie 
+      <lb ed="#S" n="78"/>non ipsius matrimonij: sed ipsius contrahentis, &amp; iste est quandoque 
+      <lb ed="#S" n="79"/>bon', quandoquemalus, sicut sibi placet, sicut finis domus est inha 
+      <lb ed="#S" n="80"/>bitatio, finis domificantis forte lucrum.
+    </p>
+            <p xml:id="khj78y-r12122-d1e838" n="22">
+      <!-- 22 -->secunda 
+       con<lb ed="#S" break="no" n="81"/>clusio est, quod matrimonium semper est bonum: quia vel est 
+      <lb ed="#S" n="82"/>matrimonium ex primo fine, vel ex secundo: sed vterque 
+       fi<lb ed="#S" break="no" n="83"/>nis est bonus, ergo matrimonium est bonum: quia cuius 
+       fi<lb ed="#S" break="no" n="84"/>nis bonus est, ipsum quoque bonum est, loquendo de fine 
+      <lb ed="#S" n="85"/>per se, non per accidens: sicut scientia medicinae, &amp; iuris 
+      <lb ed="#S" n="86"/>sunt scientiae bonae: quia finis per se est bonus, vt sanitas 
+      <lb ed="#S" n="87"/>corporis, &amp; iusta distributio temporalium, licet habentes sci 
+      <lb ed="#S" n="88"/>entiam possint esse mali ex abusu, &amp; mala intentione. 
+    </p>
+            <p xml:id="khj78y-r12122-d1e860" n="23">
+               <lb ed="#S" n="89"/>
+               <!-- 23 -->Tertia conclusio est, quod finis matrimonij per se merito 
+      <lb ed="#S" n="90"/>rie intenditur, siue sit per se, &amp; primo finis eius: vt est bo 
+      <lb ed="#S" n="91"/>num prolis, siue sit finis per se, sed non primo, sed 
+       secun<lb ed="#S" break="no" n="92"/>dario, sicut est vitatio fornicationis. Nam sola generatio 
+      <lb ed="#S" n="93"/>prolis dicitur finis matrimonij per se, &amp; primo, quia iste 
+      <lb ed="#S" n="94"/>fuit finis in primaria institutione, etiam in statu innocen 
+      <lb ed="#S" n="95"/>tiae: de isto omnes concedunt, quod sine peccato, imo cum merito 
+      <lb ed="#S" n="96"/>potest intendi principaliter. Vitatio autem fornicationis, 
+      <lb ed="#S" n="97"/>licet sit finis per se: non tamen primus, sed secundarius: quia 
+      <lb ed="#S" n="98"/>post peccatum fuit matrimonium institutum, non solum in offi 
+      <lb ed="#S" n="99"/>cium sicut prius, sed etiam in remedium, dicente Apostolo: Ha 
+      <lb ed="#S" n="100"/>beat vnusquisque suam propter fornicationem vitandam, &amp; si 
+      <lb ed="#S" n="101"/>iste secundario intendat, certum est, quod adhuc meritorium est, 
+      <lb ed="#S" n="102"/>non peccatum, quia nulla deordinatio est, sed si vitatio fornica 
+      <lb ed="#S" n="103"/>tionis principaliter intendatur, adhuc non est peccatum 
+       mor<lb ed="#S" break="no" n="104"/>tale: quia nec tali fine cognoscere vxorem est mortale. sed 
+      <lb ed="#S" n="105"/>ad sciendum, an sit veniale, videtur distinguendum: quia aut 
+      <lb ed="#S" n="106"/>est talis, qui potest habere prolem secundum spem conem: &amp; 
+      <lb ed="#S" n="107"/>tunc venialiter peccat contra rationis ordinem agens, finem 
+      <lb ed="#S" n="108"/>secundarium praeponens fini primo, &amp; principali: sicut etiam 
+      <lb ed="#S" n="109"/>pecccaret cognoscens vxorem propter hanc causam, non 
+       cu<lb ed="#S" break="no" n="110"/>rans de prole, vbi crederet se posse generare: sed quando senex 
+      <lb ed="#S" n="111"/>est, nec potest generare, nec est spes de prole, sed timor de 
+      <lb ed="#S" n="112"/>fornicatione, tunc nullum peccatum videtur: quia alio modo 
+      <lb ed="#S" n="113"/>senes non possent contrahere matrimonium sine peccato. 
+      <lb ed="#S" n="114"/>Ridiculum enim est, quod illi, qui non sperant, nec credunt se 
+      <lb ed="#S" n="115"/>posse generare, contrahant sola, vel principali intentione 
+      <lb ed="#S" n="116"/>gignendi: cum spes, vel intentio, vel electio non sint de 
+      <lb ed="#S" n="117"/>impossibili, sublato autem fine principali, licet facere de 
+      <lb ed="#S" n="118"/>secundario principali plus, quam de tertio, vel quarto: vn 
+      <lb ed="#S" n="119"/>de cum post prolem primus finis sit vitatio fornicationis, 
+      <lb ed="#S" n="120"/>illa potest principaliter licite intendi, vbi proles existimat 
+      <lb ed="#S" n="121"/>impossibile haberi.
+    </p>
+            <p xml:id="khj78y-r12122-d1e936" n="24">
+      <!-- 24 -->Quarta conclusio est de aliis 
+       cau<lb ed="#S" break="no" n="122"/>sis. Et quidem pacis reformatio est causa honesta in se: 
+       li<lb ed="#S" break="no" n="123"/>cet non est honesta in matrimonio, si primo, &amp; per se intem 
+      <lb ed="#S" n="124"/>datur: cum matrimonium non sit per se ad hoc ordinatus sicut vir 
+      <lb ed="#S" n="125"/>cognoscens vxorem propter sanitatem tantum peccat: &amp; similiter a 
+      <lb ed="#S" n="126"/>baptizat, vt sanet: sed secundario potest illud intendi, non tamen es 
+      <lb ed="#S" n="127"/>set peccatum mortale, nisi illud principaliter intenderet, sicut 
+      <lb ed="#S" n="128"/>nec diuitias, aut pulchritudinem, cum homo nolit talia nisi 
+      <lb ed="#S" n="129"/>modo licito: etiam si alias non esset contracturus: sicut ille, 
+      <lb ed="#S" n="130"/>qui cognoscit vxorem propter delectationem: tamen infra 
+       limi<lb ed="#S" break="no" n="131"/>tes matrimonij. Vider autem allis, quod cum matrimonium sit 
+      <lb ed="#S" n="132"/>verum sacramentum: quod non potest sine mortali peccato principaliter 
+      <lb ed="#S" n="133"/>intendi in eo finis extraneus, &amp; per accidens totaliter 
+      <lb ed="#S" n="134"/>omni institutioni matrimonij: sicut si quis principaliter 
+      <!--0362.xml-->
+      <pb ed="#S" n="362"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>vellet baptizari, vt sanaretur, vel quaestum haberet non 
+      <lb ed="#S" n="2"/>curans de gratia baptismalit hoc enim non est sine 
+       con<lb ed="#S" break="no" n="3"/>temptu, &amp; iniuria, &amp; irreuerentia, &amp; abusu sacramenti. 
+      <lb ed="#S" n="4"/>sed ista sententia est multum dura: quia multos inuoluit. 
+      <lb ed="#S" n="5"/>Et videtur esse contra illud, quod habetur. 3. Reg. 1. cap. 
+      <lb ed="#S" n="6"/>vbi Dauid duxit vxorem Abysaac sunamitem, solum vt 
+      <lb ed="#S" n="7"/>calefaceret eum: &amp; non spe prolis, nec timore 
+       fornicatio<lb ed="#S" break="no" n="8"/>nis: quia non cognouit eam, nec polluit. Diuitiae autem 
+      <lb ed="#S" n="9"/>si secundario intendantur, vt proles melius educetur, &amp; 
+      <lb ed="#S" n="10"/>onera matrimonij melius sustineantur, nullum est 
+       pec<lb ed="#S" break="no" n="11"/>carum. Et similiter pulchritudo secundario intenta ad 
+       for<lb ed="#S" break="no" n="12"/>nicationem vitandam in casu, in quo illa vitatio potest 
+       princi<lb ed="#S" break="no" n="13"/>paliter intendi, non facit peccatum etiam veniale: sed si 
+       secun<lb ed="#S" n="14" break="no"/>dario intendatur ad voluntatem, facit peccatum  veniale: &amp; 
+       simi<lb ed="#S" break="no" n="15"/>ter diuitiae immoderatae, licet secundario intentae. 
+    </p>
+            <p xml:id="khj78y-r12122-d1e1008" n="25">
+               <lb ed="#S" n="16"/>
+               <!-- 25 -->Quinta conclusio est, quod dato, quod contrahere propter 
+      <lb ed="#S" n="17"/>voluptatem principaliter esset peccatum  mortale: non propter 
+      <lb ed="#S" n="18"/>hoc cognoscere vxorem propter voluptatem esset mortale, 
+      <lb ed="#S" n="19"/>dum tamen non esset idem cum alia facturus: quia non est 
+      <lb ed="#S" n="20"/>itam damnabilis abusus rei conis, sicut rei sacrae, sicut bibens 
+      <lb ed="#S" n="21"/>cum scypho coni propter voluptatem non peccat, nisi 
+       venia<lb ed="#S" break="no" n="22"/>liter, sed non propter hoc sequitur, quin portans calicem 
+      <lb ed="#S" n="23"/>ad tabernam, &amp; bibens propter voluptatem non peccet 
+      <lb ed="#S" n="24"/>mortaliter. Qui autem contrahit matrimonium per verba 
+      <lb ed="#S" n="25"/>de praesenti propter finem indebitum abutitur re sacra: quia 
+      <lb ed="#S" n="26"/>essentia sacri: sed qui cognoscit vxorem fine indebito 
+       abu<lb ed="#S" break="no" n="27"/>titur muliere non sacra, quia essentia sacramenti transit. Vnde 
+      <lb ed="#S" n="28"/>non adeo peccat. Et est illud argumentum, quod si iudex 
+       poe<lb ed="#S" break="no" n="29"/>na pecuniaria punit malefactores: dum tamen esset alias 
+       pu<lb ed="#S" break="no" n="30"/>niturus, licet quaerat pecuniam, vel non cogitans actu de 
+      <lb ed="#S" n="31"/>iustitia: dum tamen non sit facturus nisi iuste, non est 
+      <lb ed="#S" n="32"/>nisi veniale. Nam si praeponeret expresse, &amp; explicite 
+       pe<lb ed="#S" break="no" n="33"/>cuniam iustitiae, non esset excusatus a mortali. Et similiter 
+      <lb ed="#S" n="34"/>canonicus non alias iturus ad ecclesiam nisi lucretur 
+       di<lb ed="#S" break="no" n="35"/>stributionem: non peccat mortaliter, dum tamen nollet 
+       illici<lb ed="#S" break="no" n="36"/>te lucrari: &amp; esset paratus ire sine ea, si Deus praeciperet: 
+      <lb ed="#S" n="37"/>nec etiam venialis si ipsam itinerationem vult esse 
+       pro<lb ed="#S" break="no" n="38"/>pter Deum, non pecuniam, quod intendere est in 
+       potesta<lb ed="#S" break="no" n="39"/>te sua.
+    </p>
+            <p xml:id="khj78y-r12122-d1e1066" n="26">
+      <!-- 26 -->Ad argumentum dicendum, quod nihil fuit in 
+       con<lb ed="#S" break="no" n="40"/>trahendo expressum contra bona matrimonij, item 
+       fue<lb ed="#S" break="no" n="41"/>runt ibi expresse tria bona matrimonij, vt visum fuit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

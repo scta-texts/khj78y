@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="158"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q42034"><!-- l4d13-q3 -->
+            <head xml:id="khj78y-q42034-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-q42034-Hd1e103" type="question-title">
+     de haereticis, utrum 
+     sint exterminandi
+   </head>
+            <p xml:id="khj78y-q42034-d1e106">
+               <lb ed="#S" n="122"/>QVAESTIO TERTIA 
+      <lb ed="#S" n="123"/>De haereticorum exterminatione. 
+    </p>
+            <p xml:id="khj78y-q42034-d1e113">
+               <lb ed="#S" n="124"/>Thom. 2. 2. II. arti. 3.
+    </p>
+            <p xml:id="khj78y-q42034-d1e118">
+               <lb ed="#S" n="125"/>TERTIO Quaeritur de haereticis, vtrum 
+      <lb ed="#S" n="126"/>sint exterminandi. Et videtur quod non. 
+       si<lb ed="#S" break="no" n="127"/>cut enim illi erant circa nouum 
+       Testa<lb ed="#S" break="no" n="128"/>mentum, sic Iudaei circa vetus, &amp; 
+       sarace<lb ed="#S" break="no" n="129"/>ni circa vtrunque: sed Iudaei non debent 
+      <lb ed="#S" n="130"/>exterminari: secundum  illud praes. Ne occidas, ne quando obliuiscant 
+      <lb ed="#S" n="131"/>populi mei: simil' nec saraceni, qui in multis regnis Chria 
+      <lb ed="#S" n="132"/>nitatis cum suis ritibus tollerantur, igitur nec haeretici. 
+    </p>
+            <p xml:id="khj78y-q42034-d1e139" n="2">
+      <!--0159.xml-->
+               <pb ed="#S" n="159"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>
+               <!-- 2 -->CONTRA, omnis haereticus est scismaticus, 
+      <lb ed="#S" n="2"/>&amp; apostata fide: sed scismatici tanquam infructuosi palmites 
+      <lb ed="#S" n="3"/>succidendi sunt: de scismaticis. c. 2. li. 6. &amp; apostatae a fide se 
+      <lb ed="#S" n="4"/>cundum leges capite plectenti sunt, igitur &amp; haeretici. 
+    </p>
+            <p xml:id="khj78y-q42034-d1e159" n="3">
+               <lb ed="#S" n="5"/>
+               <!-- 3 -->REsPONDEO, circa istam quaestionem quin 
+      <lb ed="#S" n="6"/>que videnda sunt. Primo de hereticis. secundo de scisma 
+      <lb ed="#S" n="7"/>ticis. Tertio de apostatis. Quarto de Iudaeis. Quinto 
+      <lb ed="#S" n="8"/>de saracenis.
+    </p>
+            <p xml:id="khj78y-q42034-d1e172" n="4">
+      <!-- 4 -->QVANTVM ad primum sunt 
+      <lb ed="#S" n="9"/>nouem conclusiones. Prima, quid est haereticus, &amp; vnde 
+      <lb ed="#S" n="10"/>dicatur. Dicitur enim haereticus ab haerendo, &amp; haeresis est 
+       se<lb ed="#S" break="no" n="11"/>cta, vel diuisio, &amp; a prohaeresi, quod est electio. Vnde quando 
+      <lb ed="#S" n="12"/>ex electione, &amp; non ex simplici ignorantia quis diuidit se 
+      <lb ed="#S" n="13"/>a fide catholica in quocumq, articulo, quem explicite 
+       tene<lb ed="#S" break="no" n="14"/>tur scire, vel alio per ecclesiam declarato cum pertinacia, 
+       ip<lb ed="#S" break="no" n="15"/>se est haereticus vere. Dico autem per ecclesia vniuersalem, 
+      <lb ed="#S" n="16"/>vel Romanam: quia ad particularem ecclesiam non pertinet de 
+      <lb ed="#S" n="17"/>fide vniuersaliter iudicare: extra de bap. c. Maiores. 
+       Vn<lb ed="#S" break="no" n="18"/>de dicens contra articulos vnius episcopi 
+       excommunica<lb ed="#S" break="no" n="19"/>tionem potest incurrere, sed non haeresim. Vtrum aliquis ex 
+      <lb ed="#S" n="20"/>emptus, vel etiam extra diocesim propter hoc etiam 
+       excommu<lb ed="#S" break="no" n="21"/>nicationem incurrat, dubium est.
+    </p>
+            <p xml:id="khj78y-q42034-d1e205" n="5">
+      <!-- 5 -->secunda 
+       con<lb ed="#S" break="no" n="22"/>clusio est, quod haereticus interpretatiue est, qui pro 
+       contu<lb ed="#S" break="no" n="23"/>macia, vel fautoria in causa haeresis per annum excommu 
+      <lb ed="#S" n="24"/>nicatus extitit: extra de haereti. c. Ex contumacia. lib. 6. &amp; 
+      <lb ed="#S" n="25"/>qui probabiliter suspectus infra annum non se purgauit, 
+      <lb ed="#S" n="26"/>&amp; multa huiusmodi.
+    </p>
+            <p xml:id="khj78y-q42034-d1e221" n="6">
+      <!-- 6 -->Tertia conclusio est, quod 
+       poe<lb ed="#S" break="no" n="27"/>na haeretici, qui manifeste in haeresi deprehensus est, 
+       ni<lb ed="#S" break="no" n="28"/>si mox arbitrio ecclesiae satisfaciat, si sit laicus statim: si 
+      <lb ed="#S" n="29"/>sit clericus prius a suis ordinibus degradatus debent ex 
+      <lb ed="#S" n="30"/>poni iustitiae seculari: animaduersione debita puniendi: 
+      <lb ed="#S" n="31"/>ne ouis morbida inficiat totum gregem: extra eo. Ad abolen 
+      <lb ed="#S" n="32"/>dam. Dicunt autem in haeresi deprehendedi tripliciter. scilicet 
+      <lb ed="#S" n="33"/>per facti euidentiam, si publice dogmatizauit, vel alias in 
+      <lb ed="#S" n="34"/>actu haeresis fuit captus. secundo si legitime per testes, 
+      <lb ed="#S" n="35"/>vel instrumenta est conuictus. Tertio si coram iudice spon 
+      <lb ed="#S" n="36"/>te est confessus. Nam in tormentis, aut metu tormentorum 
+      <lb ed="#S" n="37"/>extorta confessio suspitionem facit, non plenam fidem. si 
+       au<lb ed="#S" break="no" n="38"/>tem haeretici poenitent, perpetuo sunt vitandi: de 
+       haere<lb ed="#S" break="no" n="39"/>ticis. c. vlti. &amp; magis religiosi, quae alij. de haereticis. Accusa 
+      <lb ed="#S" n="40"/>tus. lib. 6. licet misericorditer possit cum eis mitius agi. 
+      <lb ed="#S" n="41"/>Hoc autem intelligendum est de haereticis relapsis. 
+    </p>
+            <p xml:id="khj78y-q42034-d1e258" n="7">
+               <lb ed="#S" n="42"/>
+               <!-- 7 -->Quarta conclusio est, quod illi, qui sunt relapsi statim 
+      <lb ed="#S" n="43"/>sine audientia exponendi sunt iustitiae seculari. si autem 
+      <lb ed="#S" n="44"/>sunt clerici, prius sunt degradandi. sed si poenitent, quod ab 
+      <lb ed="#S" n="45"/>solui petunt, non sunt eis neganda poenitentiae, &amp; 
+       euchari<lb ed="#S" break="no" n="46"/>stiae sacramenta: quia ecclesia non claudit gremium redeunti: 
+       ex<lb ed="#S" break="no" n="47"/>tra eo. super eo. lib. 6.
+    </p>
+            <p xml:id="khj78y-q42034-d1e277" n="8">
+      <!-- 8 -->Quinta conclusio est, quod 
+      <lb ed="#S" n="48"/>relapsi dicuntur, qui post abiuratam haeresim, &amp; 
+       reconci<lb ed="#S" break="no" n="49"/>liationem ecclesiae solennem reincidunt in primam haeresim, 
+      <lb ed="#S" n="50"/>vel aliam quancunq,. si autem post priuatam poenitetiam an 
+      <lb ed="#S" n="51"/>te publicam reinciderent, relapsi non essent quo ad forum 
+      <lb ed="#S" n="52"/>contentiosum. Et sic intelligendum est illud. c. Accusatus. 
+      <lb ed="#S" n="53"/>in princip.
+    </p>
+            <p xml:id="khj78y-q42034-d1e295" n="9">
+      <!-- 9 -->sexta conclusio est, quod relapsi 
+       inter<lb ed="#S" break="no" n="54"/>praetatiue sunt, qui post abiuratam haeresim, vt prius fauo 
+      <lb ed="#S" n="55"/>rem quemcunque haereticis impediunt. Et quia fauorem non so 
+      <lb ed="#S" n="56"/>lum facto, sed verbo, qui prius confessus est de se, vel de 
+      <lb ed="#S" n="57"/>alio: si postea negat de se, vel de alio asserens aliu bonum, 
+      <lb ed="#S" n="58"/>videtur relapsus. arg. illius. ô. quoque. c. Accusatus. arg. 
+       con<lb ed="#S" break="no" n="59"/>tra de praesum. c. literis. vbi ille, qui prius confessus fuerat 
+      <lb ed="#S" n="60"/>se, &amp; fratrem fuum esse haereticum, &amp; postea de haeresi purga 
+      <lb ed="#S" n="61"/>uit fratrem suspectus quidem ex hoc haeresi vehementer habe 
+      <lb ed="#S" n="62"/>tur, &amp; per consequens de relapsu. Non tamen vult eum pap. ex 
+      <lb ed="#S" n="63"/>praesumptionibus condemnare. Et potest dici, quod illud fuit 
+       an<lb ed="#S" break="no" n="64"/>te abiurationem, licet post confessionem, vel ita erat iure 
+       an<lb ed="#S" break="no" n="65"/>tiquo. sed iure nouo reputaretur iuris fictione relapsus. 
+    </p>
+            <p xml:id="khj78y-q42034-d1e326" n="10">
+               <lb ed="#S" n="66"/>
+               <!-- 10 -->septima conclusio est, quod credentes sunt, qui licet 
+      <lb ed="#S" n="67"/>nulli haeresi explicite adhaereant, tamen credunt haereticos es- 
+      <!--0159.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>se bonos homines, &amp; habere bonam fidem: sicut sunt apud 
+      <lb ed="#S" n="69"/>nos simplices, non habentes fidem explicitum: sicut quidam 
+      <lb ed="#S" n="70"/>haereticus captus cum vno heretico perfecto interrogatus 
+      <lb ed="#S" n="71"/>dicebat: Volo mori in fide Domini Guillelmi Lanterij. sic 
+      <lb ed="#S" n="72"/>enim vocabatur ille perfectus. Iste aliquis erat credes 
+       pro<lb ed="#S" break="no" n="73"/>prie habens perfidiam corum implicita, non explicitam. 
+    </p>
+            <p xml:id="khj78y-q42034-d1e352" n="11">
+               <lb ed="#S" n="74"/>
+               <!-- 11 -->Defensatores autem sunt, qui personam defendunt: 
+      <lb ed="#S" n="75"/>vt aduocati praestando patrocinium, vel tabelliones 
+       facien<lb ed="#S" break="no" n="76"/>do instrumenta, vel iuuantes in causa.
+    </p>
+            <p xml:id="khj78y-q42034-d1e363" n="12">
+      <!-- 12 -->Qui au 
+      <lb ed="#S" n="77"/>tem non personam, sed haeresim defendit haeresiarcha est- 
+    </p>
+            <p xml:id="khj78y-q42034-d1e370" n="13">
+               <lb ed="#S" n="78"/>
+               <!-- 13 -->Receptatores vero sunt, qui in domo, vel terra 
+      <lb ed="#S" n="79"/>sua eos recipiunt, semel, vel pluries: publice, vel priuate. 
+    </p>
+            <p xml:id="khj78y-q42034-d1e380" n="14">
+               <lb ed="#S" n="80"/>
+               <!-- 14 -->Fautores autem sunt, qui aliqum faueut facto: 
+       mit<lb ed="#S" break="no" n="81"/>tendo alimoniam, vel huiusmodi, vel aliquando verbo: vt dicendo, isti 
+      <lb ed="#S" n="82"/>sunt boni homines, iniuste agit contra eos, &amp; inquisnores 
+      <lb ed="#S" n="83"/>imponunt eis maligne conficta, &amp; huiusmodi. Item omissione, quando 
+      <lb ed="#S" n="84"/>qui potestate fungitur in capiendo, &amp; aliis non fauent inqui 
+      <lb ed="#S" n="85"/>fitoribus, sicut debent, quia qui non est mecum, contra me est. 
+    </p>
+            <p xml:id="khj78y-q42034-d1e398" n="15">
+               <lb ed="#S" n="86"/>
+               <!-- 15 -->Octaua conclusio est, quod omnes isti sunt excommu 
+      <lb ed="#S" n="87"/>nicati ipso facto, sicut haeretici: quod intelligendum est: dum 
+      <lb ed="#S" n="88"/>tamen vitium sum aliquo actu exteriori prodant publice, vel 
+      <lb ed="#S" n="89"/>occulte. Aliterpro solo actu interiori, licet sit perfecte hae 
+      <lb ed="#S" n="90"/>reticus quo ad Deum: non tamen excommunicatus est quo ad 
+      <lb ed="#S" n="91"/>ecclesiam, quae videt illa, quae foris parent. sed pro actu 
+       ex<lb ed="#S" break="no" n="92"/>teriori, licet occulto bene incurrit homo poenam iuris in 
+      <lb ed="#S" n="93"/>generali prolatam. Qui vero in potestate existens omittit 
+      <lb ed="#S" n="94"/>facere, quod debet: licet nihil exterius agat, incurrit: quia 
+      <lb ed="#S" n="95"/>ad idem iudicium pertinet habitus, &amp; priuatio.
+    </p>
+            <p xml:id="khj78y-q42034-d1e424" n="16">
+      <!-- 16 -->
+       No<lb ed="#S" break="no" n="96"/>na conclusio est, quod bona haereticorum confiscantur exhaereda 
+      <lb ed="#S" n="97"/>tis filiis: extra ea. Vergentis. sed confiscationis exequutio, 
+      <lb ed="#S" n="98"/>seu bonorum occupatio differtur, quousque per sententiam 
+       ec<lb ed="#S" break="no" n="99"/>clesiae sint tanquam haeretici condemnati. c. Cum secundum lib. 
+      <lb ed="#S" n="100"/>6. Et filij eorum vsque ad secundam generationem ad beneficia 
+      <lb ed="#S" n="101"/>ecclesiastica non promouentur, si in haeresi decesserunt. 
+      <lb ed="#S" n="102"/>Filij autem per lineam maternam vsque ad primam tantum genera 
+      <lb ed="#S" n="103"/>tionem puniuntur. c. statutum Felicis. lib. 6. Et beneficia ad 
+      <lb ed="#S" n="104"/>eorum preces collata vacant: extra eo. c. 3. lib. 6. 
+    </p>
+            <p xml:id="khj78y-q42034-d1e448" n="18">
+               <lb ed="#S" n="105"/>
+               <!-- 18 -->QVANTVM ad secundum sunt duae 
+       conclu<lb ed="#S" break="no" n="106"/>siones. Prima, quod scismaticus proprie est, qui ab vnitate to 
+      <lb ed="#S" n="107"/>tius ecclesiae se diuidit, vel qui ab obedietia Romanae ec 
+      <lb ed="#S" n="108"/>clesiae se subtrahit totaliter. Qui vero in vno articulo 
+      <lb ed="#S" n="109"/>non obedit, non propter hoc statim scismaticus reputat: 
+      <lb ed="#S" n="110"/>puta si non statim dimittit adulteram, vel huiusmodi. Qui autem 
+      <lb ed="#S" n="111"/>dicit Papae non esse obediendum: &amp; ita sentit non tam scis 
+      <lb ed="#S" n="112"/>maticus, quam haereticus reputatur.
+    </p>
+            <p xml:id="khj78y-q42034-d1e470" n="18">
+      <!-- 18 -->secunda 
+       con<lb ed="#S" break="no" n="113"/>clusio est de poena scismatici, quae est excommunicatio, &amp; 
+      <lb ed="#S" n="114"/>suspensio ordinatorum ab eis: &amp; annullatio alienationum 
+      <lb ed="#S" n="115"/>factaru ab eis, &amp; huiusmodi-
+    </p>
+            <p xml:id="khj78y-q42034-d1e481" n="19">
+      <!-- 19 -->CIRCA tertium sunt 
+      <lb ed="#S" n="116"/>tres conclusiones. Prima, quod triplex est apostasia. Vna a 
+       fi<lb ed="#S" break="no" n="117"/>de. secunda a clero. Tertia a monasterio· De prima dicen 
+      <lb ed="#S" n="118"/>dum est, quod licet omnis haereticus sit apostata, secundum 
+      <lb ed="#S" n="119"/>quid non tamen simpliciter, sed magis econuerso, 
+       om<lb ed="#S" break="no" n="120"/>nis apostata est haereticus: quia proprie est apostata, qui ex 
+      <lb ed="#S" n="121"/>toto dimittit legem Christi, &amp; fit Iudaeus, vel sarracenus, 
+      <lb ed="#S" n="122"/>vel Paganus. Vnde omnis paena, quae debetur haeretico, de 
+      <lb ed="#S" n="123"/>betur isti, &amp; maior. Qui vero metu tormentorum non cor 
+      <lb ed="#S" n="124"/>de, sed ore apostatant mentientes etiam mortaliter peccant: 
+      <lb ed="#S" n="125"/>qa Deum blasphemant: sicut &amp; illi, qui contra alios metu 
+      <lb ed="#S" n="126"/>tormentorum mentiuntur accusando, quod est perniciosum 
+      <lb ed="#S" n="127"/>mendacium. similiter etiam qui se dicunt falso crimen quod 
+      <lb ed="#S" n="128"/>cunque commisisse, quia seipsos diffamant.
+    </p>
+            <p xml:id="khj78y-q42034-d1e515" n="20">
+      <!-- 20 -->
+       secun<lb ed="#S" break="no" n="129"/>da est de secunda apostasia, q sine peccato esse potest. Vbi 
+       scien<lb ed="#S" break="no" n="130"/>dum quod si homo transferat se ad actum omnino incompossi 
+      <lb ed="#S" n="131"/>bilem: puta ad bigamium statim exuitur omni priuilegio 
+      <lb ed="#S" n="132"/>clericali. similiter si in iudicio conuentus recuset se 
+       re<lb ed="#S" break="no" n="133"/>spondere coram iudice ecclesiastico: publice se negans 
+       vel<lb ed="#S" break="no" n="134"/>le clericaliter viuere. Nudar etiam omni priuilegio cle- 
+      <!--0160.xml-->
+      <pb ed="#S" n="160"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ricali: tertio si laicaliter se gerens admonitus tertio, redi 
+      <lb ed="#S" n="2"/>re noluerit. Idem quarto si sic agit per omnia, vt laicus, 
+      <lb ed="#S" n="3"/>non vt clericus. Et de hoc dicit. 18. di.
+    </p>
+            <p xml:id="khj78y-q42034-d1e546" n="21">
+      <!-- 21 -->Tertia 
+      <lb ed="#S" n="4"/>conclusio est de apostasia a religione: quod ipso facto sunt 
+      <lb ed="#S" n="5"/>excommunicati, si habitum reliquerunt, &amp; requirendi, &amp; 
+       reci<lb ed="#S" break="no" n="6"/>piendi sunt, nisi sit tale crimen, propter quod possent 
+       ex<lb ed="#S" break="no" n="7"/>pelli: quia cui damus actionem, multo magis exceptionem. 
+      <lb ed="#S" n="8"/>quando autem inuiti reducunt, incarcerant, ne fugiant: 
+       si<lb ed="#S" break="no" n="9"/>cut dixit lex serui fugitiui pede amputato debilitatur. 
+      <lb ed="#S" n="10"/>Qui autem sponte redeunt, nequaquam. Bona vero in 
+       apo<lb ed="#S" break="no" n="11"/>stasia acquisita sunt monasterij: quod non eos expulit, 
+      <lb ed="#S" n="12"/>nec recipere recusauit.
+    </p>
+            <p xml:id="khj78y-q42034-d1e570" n="22">
+      <!-- 22 -->QVANVTM ad 
+      <lb ed="#S" n="13"/>quartum sunttres conclusiones. Prima, quod Iudaei non de 
+      <lb ed="#S" n="14"/>bet habere Christianum mancipium, nec seruientem, nec 
+       nu<lb ed="#S" break="no" n="15"/>tricem in domo: licet possint habere colonum, vel 
+       merce<lb ed="#S" break="no" n="16"/>narium in agro: nec debent habere officium, vel potesta 
+      <lb ed="#S" n="17"/>tem super Christianos, nec communicare cohabitando, 
+       co<lb ed="#S" break="no" n="18"/>medendo, ab eis medicinas recipiendo: quorum 
+       familiari<lb ed="#S" break="no" n="19"/>tas talem retributionem nobis praestat, qualem mus in pe 
+      <lb ed="#S" n="20"/>ra, serpens in gremio, &amp; ignis in sinu suis solent 
+       hospiti<lb ed="#S" break="no" n="21"/>bus exhibere: extra de Iudaeis. c. &amp; si Iudaeos. 
+    </p>
+            <p xml:id="khj78y-q42034-d1e594" n="23">
+               <lb ed="#S" n="22"/>
+               <!-- 23 -->secunda conclusio est, quod ipsi non sunt in 
+       perso<lb ed="#S" break="no" n="23"/>nis, aut rebus, aut sepulturis molestandi, nisi iuste per 
+       pu<lb ed="#S" break="no" n="24"/>blicam potestatem, &amp; sunt permittendi synagogas in 
+       anti<lb ed="#S" break="no" n="25"/>quo statu tenere, non nouas erigere, sed antiquas repara 
+      <lb ed="#S" n="26"/>re, &amp; in suo ritu perdurare: dum tum in parasceue non 
+       ex<lb ed="#S" break="no" n="27"/>eant: nec hostia, aut fenestras habeant apertas. Bona 
+       ve<lb ed="#S" break="no" n="28"/>ro eorum iuste acquisita domini possunt accipere, sicut 
+      <lb ed="#S" n="29"/>seruorum suorum: dum tamen eis victum, &amp; vestitum reseruent, quae 
+      <lb ed="#S" n="30"/>seruis etiam malis tenentur maxime de peculio suo labore 
+      <lb ed="#S" n="31"/>acquisitoexhibere. Acquisita vero vsurarie possunt, &amp; 
+      <lb ed="#S" n="32"/>debent his auferre, non ad lucrum suum: alias furti sunt 
+      <lb ed="#S" n="33"/>participes, nec ius acquirunt: quia nemo potest plus iuris in 
+      <lb ed="#S" n="34"/>alterum transferre, quam ipse habeat: de reg. iur. l. Nemo plus 
+      <lb ed="#S" n="35"/>iuris. Nec pari ratione possunt ab eis de talibus munera 
+      <lb ed="#S" n="36"/>recipere, nec predicatores, sicut ab aliis vsurariis: quia non 
+      <lb ed="#S" n="37"/>est spes, quod reducere eos possint ad restitutionem: vt sic 
+       vti<lb ed="#S" break="no" n="38"/>liter gerant negocium creditorum. sed si principes 
+       acci<lb ed="#S" break="no" n="39"/>piunt, vt faciant, quod illi facere tenent, bene faciunt: puta, 
+      <lb ed="#S" n="40"/>vt restituant certis personis, si inueniri possunt. sinautem 
+      <lb ed="#S" n="41"/>in pios vsus expendant, maxime pauperum. In quo casu 
+      <lb ed="#S" n="42"/>maxime si communitas indigeat prodefensione regni, tunc 
+      <lb ed="#S" n="43"/>solum potest retinere non aliter: &amp; hoc maxime si de licen 
+      <lb ed="#S" n="44"/>tia episcopi ad illum vsum applicentur. Aliter non video, quod 
+      <lb ed="#S" n="45"/>collectae factae super Iudaeos, qui nihil habent nisi de vsu 
+      <lb ed="#S" n="46"/>ris possint excusari.
+    </p>
+            <p xml:id="khj78y-q42034-d1e653" n="24">
+      <!-- 24 -->Tertia conclusio est de 
+      <lb ed="#S" n="47"/>conuersione ipsorum. Vbi est sciendum, quod cogi non debent, 
+      <lb ed="#S" n="48"/>nec possunt. si tamen metu inducti sunt ad fidem, sunt cogen 
+      <lb ed="#S" n="49"/>di fidem seruare: &amp; apostatantes tanquam haeretici lapsi: 
+      <lb ed="#S" n="50"/>non relapsi sunt censendi: extram de haereticis. c. Contra. lib. 
+      <lb ed="#S" n="51"/>6. Conuersi vero non debent cohabitare Iudaeis: quia dictum 
+      <lb ed="#S" n="52"/>est Loth: Ne stes in omni circa regionem. sed &amp; filius 
+       con<lb ed="#S" break="no" n="53"/>munis parenti conuerso, siue sit pater, siue mater, est 
+       tra<lb ed="#S" break="no" n="54"/>dendus, qui rationis capax non est. Alias liber est in 
+       se<lb ed="#S" break="no" n="55"/>quendo, quem vult, perfidum. scilicet vel fidelem. Conuersus 
+       au<lb ed="#S" break="no" n="56"/>tem despici non debet, nec in aliquo irregularis est, nec 
+      <lb ed="#S" n="57"/>vt dicunt quidam bonis suis spoliandus est: quia multi ha 
+      <lb ed="#S" n="58"/>bent fidem exosam, quando conuersi spoliant, qui peruersi non 
+      <lb ed="#S" n="59"/>spoliabantur. Et si quidem sunt bona vsuraria, non sunt spo 
+      <lb ed="#S" n="60"/>liandi, nisi, vt reddantur: si autem iuste acquisita: vbi dominus 
+      <lb ed="#S" n="61"/>sciens baptizando non fuit protestatus de bonis, videt 
+      <lb ed="#S" n="62"/>peculium perdere, vel donare: sicut qui scienter permittit 
+      <lb ed="#S" n="63"/>seruum ordinari, vel monachari perditeum. Nam si 
+       ne<lb ed="#S" break="no" n="64"/>sciuit, vel expresse dixit se bona sua velle habere videt, 
+      <lb ed="#S" n="65"/>quod possit eum, sicut prius suis bonis spoliare: quia seruo 
+      <lb ed="#S" n="66"/>manumisso non tenetur peculium dare: imo videt, quod 
+       baptis<lb ed="#S" break="no" n="67"/>mus non eximat eos a sernitute Christiani: licet a serui- 
+      <!--0160.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>tute Iudaei secundum leges propter periculum cohabitandi. 
+    </p>
+            <p xml:id="khj78y-q42034-d1e710" n="25">
+               <lb ed="#S" n="69"/>
+               <!-- 25 -->QVANTVM ad quintum sunt etiam tres conclu 
+      <lb ed="#S" n="70"/>siones. Prima, &amp; saracenis non licet communicare, sicut 
+      <lb ed="#S" n="71"/>nec Iudaeis, nec licet ire ad eos, nec cum eis communicari, 
+      <lb ed="#S" n="72"/>nisi praedicatoribusspe conuersionis: aut nisi illis, qui 
+       va<lb ed="#S" break="no" n="73"/>dunt ad redimendum captiuos: quod etiam tempore guerrae li 
+      <lb ed="#S" n="74"/>citum est: dum tamen tunc nihil aliud commertij cum eis habeam. 
+      <lb ed="#S" n="75"/>si autem tempore guerrae quodcumque aliud commercium cum eis 
+      <lb ed="#S" n="76"/>habent etiam sine armis, &amp; huiusmodi etiam excommunicati 
+      <lb ed="#S" n="77"/>sunt. Qui autem quocunque tempore eisarma vendunt 
+       mit<lb ed="#S" break="no" n="78"/>tunt, vel tradunt: excommunicati sunt, &amp; serui capientium 
+      <lb ed="#S" n="79"/>bona eorum confiscantur, qui nec absolui possunt, nisi 
+       du<lb ed="#S" break="no" n="80"/>plum dent in subsidium terrae sanctae: extra. c. Ad 
+       liberan<lb ed="#S" break="no" n="81"/>dam.
+    </p>
+            <p xml:id="khj78y-q42034-d1e744" n="26">
+      <!-- 26 -->secunda conclusio est, quod non debet 
+       ha<lb ed="#S" break="no" n="82"/>bere dominium super Christianos, sicut nec Iudaei, &amp; 
+       de<lb ed="#S" break="no" n="83"/>bent habitu distingui. De eo autem, quod arguit de ritu 
+      <lb ed="#S" n="84"/>eorum certum est in Aragonia, &amp; in Nauarra ritus eorum 
+      <lb ed="#S" n="85"/>tolerari a Christianis: non minus, quam Iudaeorum, quamuis non 
+      <lb ed="#S" n="86"/>videatur rationabile: tamen quia illi. scilicet Iudaei non sunt 
+       idolo<lb ed="#S" break="no" n="87"/>latrae, sicut isti, sed verum Deum colunt. &amp; ideo melius to 
+      <lb ed="#S" n="88"/>lerantur.
+    </p>
+            <p xml:id="khj78y-q42034-d1e764" n="27">
+      <!-- 27 -->Tertia conclusio est: quod illi, qui terram 
+      <lb ed="#S" n="89"/>Christi sanguine consecratam Christianis auferre 
+       nitun<lb ed="#S" break="no" n="90"/>tur, &amp; a Deo nobis collatam, qui filij veri Abrahae sumus 
+      <lb ed="#S" n="91"/>de lapidibus suscitati a nobis iuste ab illa haereditate 
+       pel<lb ed="#S" break="no" n="92"/>luntur: &amp; iusto bello occiduntur: quicquid sit de aliis: 
+      <lb ed="#S" n="93"/>sed Iudaei propter memoriam Christi, &amp; propter reliquias 
+      <lb ed="#S" n="94"/>Israel reseruantur. Argumentum solutum est. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

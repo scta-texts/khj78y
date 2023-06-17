@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="108"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q24088"><!-- l4d8-q1 -->
+            <head xml:id="khj78y-q24088-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-q24088-Hd1e103" type="question-title">
+     Utrum eucharistia sit sacramentum
+   </head>
+            <p xml:id="khj78y-q24088-d1e106">
+               <lb ed="#S" n="18"/>DISTINCTIO. scilicet QVAESTIO I. 
+      <lb ed="#S" n="19"/>CIrca octauam distinctionem tria quaeruntur. 
+       Pri<lb ed="#S" break="no" n="20"/>Amo, vtrum eucharistia sit sacramentum, quomodo 
+      <lb ed="#S" n="21"/>praefiguratum, &amp; quando institutum? secundo, de 
+       susci<lb ed="#S" n="22" break="no"/>pientibus, vtrum debeant esse iciuni. Tertio, de forma. 
+    </p>
+            <p xml:id="khj78y-q24088-d1e119">
+               <lb ed="#S" n="23"/>De verabili sacramento eucharistiae. 
+      <lb ed="#S" n="24"/>
+               <!-- possible line coord error in coords file-->Thom. 3. q. 73.
+    </p>
+            <p xml:id="khj78y-q24088-d1e128">
+               <lb ed="#S" n="25"/>QVAERITVR Ergo primo: 
+      <lb ed="#S" n="26"/>vtrum eucharistia sit sacramentum? Et 
+      <lb ed="#S" n="27"/>videtur quod non: quia sacramenti 
+      <lb ed="#S" n="28"/>non est sanctitatem habere in se: 
+      <lb ed="#S" n="29"/>sed in alio causare: vnde, &amp; 
+       dici<lb ed="#S" break="no" n="30"/>tur a sacrando actiue: sed 
+       cucha<lb ed="#S" break="no" n="31"/>ristia continet in se essentialiter 
+      <lb ed="#S" n="32"/>sanctum sanctorum. ergo non est 
+       sa<lb ed="#S" break="no" n="33"/>cramentum, sed potius sanctuarium.
+    </p>
+            <p xml:id="khj78y-q24088-d1e151" n="2">
+      <!-- 2 -->CONTRA 
+      <lb ed="#S" n="34"/>quia eucharistia dicitur sacramentum progredientium vnde 
+       dici<lb ed="#S" n="35" break="no"/>tur viaticum. 26. q. 6. Qui recedunt. &amp;. c. De hiis. 
+    </p>
+            <p xml:id="khj78y-q24088-d1e160" n="3">
+               <lb ed="#S" n="36"/>
+               <!-- 3 -->RESPONDEO: Circa istam quaestionem tria 
+      <lb ed="#S" n="37"/>sunt consideranda. Primo, vtrum eucharistia sit 
+       sacramen<lb ed="#S" break="no" n="38"/>tum? secundo, de praefiguratione huius sacramenti. 
+      <lb ed="#S" n="39"/>Tertio, de institutione.
+    </p>
+            <p xml:id="khj78y-q24088-d1e173" n="4">
+      <!-- 4 -->QVANTVM ad 
+      <lb ed="#S" n="40"/>primum sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-q24088-d1e180" n="5">
+      <!-- 5 -->Prima, quod est sa 
+      <lb ed="#S" n="41"/>cramentum dignissimum, &amp; plusquam sacramentu. Est enim 
+      <lb ed="#S" n="42"/>aliquid sanctum tantum, &amp; non sacramentum, nec sacramentale: 
+       si<lb ed="#S" break="no" n="43"/>cut illud, quod habet in se sanctita tem formaliter, &amp; 
+       subie<lb ed="#S" n="44" break="no"/>ctiue: non autem effectiue, nec significatiue, vt homo 
+       san<lb ed="#S" break="no" n="45"/>ctus. secundo, est aliquid sacramentale tantum: vt quod habet 
+      <lb ed="#S" n="46"/>habitudinem dispositiuam ad sacramentum ante, vel post: 
+       si<lb ed="#S" break="no" n="47"/>cut illa, quae pertinent ad solennitatem cuiuslibet 
+       sacramen<lb ed="#S" n="48" break="no"/>ti: vt cathecismus, &amp; huiusmodi. Tertio, est aliquod 
+       sacramen<lb ed="#S" n="49" break="no"/>tum inperfectum: vt sacramenta ve. le. in quibus non erat 
+      <lb ed="#S" n="50"/>sanctitas, nec effectiue, nec actiue: sed tantum 
+       significati<lb ed="#S" break="no" n="51"/>ue. Quarto, est aliquod sacramentum perfectum, in quo est 
+       sancti<lb ed="#S" n="52" break="no"/>tas, &amp; significatiue, &amp; causatiue: vt in. 6. de sacramentis nouae 
+      <lb ed="#S" n="53"/>le. haec est enim tota, &amp; perfecta ratio sacramenti: vt sit 
+       in<lb ed="#S" break="no" n="54"/>uisibilis gratiae visibilis forma, vt imaginem gerat, &amp; 
+       cau<lb ed="#S" break="no" n="55"/>sa existat. Quinto, est aliquod, quod est sacim: quia est 
+      <lb ed="#S" n="56"/>causa, &amp; signum sanctitatis, &amp; plusquam sacramentum: quia intra se 
+      <lb ed="#S" n="57"/>continet essentialiter sanctitatem: &amp; tale est eucharistia. 
+      <lb ed="#S" n="58"/>Propter quod, sicut Ioannes Bapti. fuit propheta 
+       praedi<lb ed="#S" break="no" n="59"/>cendo futura, &amp; plusquam propheta demonstrando 
+       prae<lb ed="#S" break="no" n="60"/>sentia: puta agnum Dei digito: sic est in proposito de eu-
+      <!--0108.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="61"/>charistia.
+    </p>
+            <p xml:id="khj78y-q24088-d1e235" n="6">
+      <!-- 6 -->Ex quo statim apparet solutio ad 
+       ar<lb ed="#S" break="no" n="62"/>gumentum in oppositum: quia eucharistia est sacramentum 
+      <lb ed="#S" n="63"/>ratione signi, &amp; effectus, &amp; plusquam sacramentum ratione 
+       conten<lb ed="#S" n="64" break="no"/>ti, quia est sanctuarium.
+    </p>
+            <p xml:id="khj78y-q24088-d1e246" n="7">
+      <!-- 7 -->secunda conclusio est, 
+      <lb ed="#S" n="65"/>quod vnum est sacramentum: quia vnum idem est, quod 
+       indi<lb ed="#S" n="66" break="no"/>uisum est in se, &amp; diuisum ab alio. Istud autem 
+       sacramen<lb ed="#S" break="no" n="67"/>tum est indiuisum, non quidem ratione materiae, &amp; 
+       for<lb ed="#S" break="no" n="68"/>mae: quia illa bene sunt diuisa, &amp; diuersa in se: sed ratio 
+      <lb ed="#S" n="69"/>ne, qua sacramentum est indiuisum. sratione signi, &amp; causae: quia 
+      <lb ed="#S" n="70"/>omnia, quae hic sunt ad vnum, &amp; idem praefigurandum 
+       or<lb ed="#S" n="71" break="no"/>dinantur: &amp; ad idem causandum: siue illud sit res, &amp; sacramentum: 
+      <lb ed="#S" n="72"/>sicut corpus, &amp; sanguis Christi, quae sunt vnum supposito, 
+      <lb ed="#S" n="73"/>&amp; subiecto, quomodo forte non fuisset vnum, si fuisset 
+       con<lb ed="#S" break="no" n="74"/>secratum tempore mortis suae, quando sanguis erat a corpore 
+       sepa<lb ed="#S" n="75" break="no"/>ratus, siuc quo ad illud, quod est res tantu: siue in 
+       gene<lb ed="#S" break="no" n="76"/>rali. scilicet corpus Christi mysticum, quod est vnum ordine, siue 
+      <lb ed="#S" n="77"/>in speciali. scilicet animae perfecta refectio: sicut dicit vnum 
+       pran<lb ed="#S" break="no" n="78"/>dium, vna coena, illud in quo multa concurrunt ad vnam 
+      <lb ed="#S" n="79"/>refectionem. scilicet cibi, &amp; potus. secundo, est vnum, quia ab aliis 
+      <lb ed="#S" n="80"/>diuisum, &amp; distinctum. scilicet a baptismo, &amp; confirmatione, quia 
+      <lb ed="#S" n="81"/>quiuis vna esset potentia generatiua, nutritiua, &amp; 
+       aug<lb ed="#S" break="no" n="82"/>mentatiua, &amp; vnum instrumentum: puta calor, &amp; vna 
+      <lb ed="#S" n="83"/>materia: puta alimentum, nihilominus diuerse sunt 
+       ac<lb ed="#S" break="no" n="84"/>tiones, generare, nutrire, &amp; augmentare: vnde animalia 
+      <lb ed="#S" n="85"/>semper quidem nutriuntur: non semper autem augentur 
+      <lb ed="#S" n="86"/>vel generantur. similiter quamuis vna sit principalis 
+       po<lb ed="#S" n="87" break="no"/>tentia Dei, quod vnum instrumentum character episcopalis, 
+      <lb ed="#S" n="88"/>&amp; vna materia. i. gratia gratum faciens, quibus homo idem 
+      <lb ed="#S" n="89"/>primo generatur in baptismo: secundo augmentatur in 
+      <lb ed="#S" n="90"/>confirmatione: tertio nutritur per eucharistiam: in vtroque 
+      <lb ed="#S" n="91"/>tamen diuersae sunt actiones, regenerare, perficere, &amp; reficere: 
+      <lb ed="#S" n="92"/>vnde cum sacramenta sint actiones quaedam exteriores 
+       or<lb ed="#S" break="no" n="93"/>dinatae ad istas diuersas interiores: per consequens 
+       diuer<lb ed="#S" n="94" break="no"/>sa sunt sacramenta.
+    </p>
+            <p xml:id="khj78y-q24088-d1e317" n="8">
+      <!-- 8 -->Tertia conclusio est, quod licet 
+       il<lb ed="#S" n="95" break="no"/>lud sacramentum sit vnum perfectione, &amp; ordine: est tum diuersis 
+      <lb ed="#S" n="96"/>nominibus nuncupatum. Primo enim inquantum est reme 
+      <lb ed="#S" n="97"/>moratiuum Dominicae passionis dicitur sacrificium, hostia, 
+       ob<lb ed="#S" n="98" break="no"/>latio. vnde dicitur sacrificium altaris. 13. q. 2. Non 
+       estime<lb ed="#S" n="99" break="no"/>mus. Et quod omnia sacrificia praecellit corpus, &amp; sanguis 
+      <lb ed="#S" n="100"/>Christi: de consec. dist. 2. Nihil. De tertio dicitur de conse. di. 
+      <lb ed="#S" n="101"/>2. Tribus. in fi. quod est oblatio spiritualiter corpus, &amp; 
+       san<lb ed="#S" n="102" break="no"/>guis Christi: &amp; quod oblatio eucharistiae, quae pure 
+       spiritua<lb ed="#S" n="103" break="no"/>lis est, praecedit omnem oblationem: de consecr. dist. 2. Nihil. 
+      <lb ed="#S" n="104"/>Et ab hac oblatione prohibent immundi. 82. dist. 
+       Pro<lb ed="#S" break="no" n="105"/>posuisti. secundo, quo ad rem significatam, &amp; contentam 
+      <lb ed="#S" n="106"/>eucharistia quasi bona gratia: quia continet fontem gratiae. 
+      <lb ed="#S" n="107"/>Eucharistia enim Graece, Latine bona gratiae interpreta 
+      <lb ed="#S" n="108"/>tur. 1. q. 1. Multi. Et ibidem ante medium. Quia caro Christi 
+      <lb ed="#S" n="109"/>inter alia sacramenta eucharistia dicitur: tertio quo ad finem in 
+      <lb ed="#S" n="110"/>via dicitur communio: quia sicut cibus vnitur omnibus membris 
+      <lb ed="#S" n="111"/>ad quae singula defertur, &amp; sic quaelibet pars aucti, aucta 
+      <lb ed="#S" n="112"/>est: sic per hoc sacramentum non solum Christo capiti: sed 
+      <lb ed="#S" n="113"/>etiam omnibus membris eius vnimur, vt simus omnes vnum 
+      <lb ed="#S" n="114"/>corpus in Christo: vnde ab illis, qui in vnione ecclesiae 
+      <lb ed="#S" n="115"/>sunt, recipitur eucharistia spiritualiter, &amp; si non recipiatur 
+       sa<lb ed="#S" n="116" break="no"/>cramentaliter: de consec. dist. 2. quia passus. &amp;. c. quia quid est: 
+       quar<lb ed="#S" break="no" n="117"/>to, quo ad finem in patria, ad quem perducit, dicitur viaticum: 
+      <lb ed="#S" n="118"/>quia substentat in via quousque perueniamus: viaticum enim 
+      <lb ed="#S" n="119"/>dicitur eucharistia. d. l. his vero. &amp; quod viaticum in morte 
+      <lb ed="#S" n="120"/>nulli est negandum: di. ead. Poenitentes. 27. q. 1. 
+       virgini<lb ed="#S" break="no" n="121"/>bus. 26. q. 6. his qui.
+    </p>
+            <p xml:id="khj78y-q24088-d1e380" n="9">
+      <!-- 9 -->QVANTVM ad secun 
+      <lb ed="#S" n="122"/>dum sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-q24088-d1e387" n="10">
+      <!-- 10 -->Prima, quod 
+       sacra<lb ed="#S" break="no" n="123"/>mentorum no. le. tria praecesserunt realiter: licet non secundum  
+      <lb ed="#S" n="124"/>ritum sacramentalem: quem habent in le. no. sicut matrimonium, 
+      <lb ed="#S" n="125"/>poenitentia, &amp; ordo, quia &amp; matrimoniu ab initio fuit in 
+       of<lb ed="#S" n="126" break="no"/>ficium, &amp; post peccatum in remedium: sed habebat aliquas 
+       perso<lb ed="#S" n="127" break="no"/>nas tunc habiles, quae nunc sunt inhabiles: vt quae in ter 
+      <!--0109.xml-->
+      <pb ed="#S" n="109"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>tio, &amp; quarto gradu: &amp; vxor fratris sine liberis mortui, 
+      <lb ed="#S" n="2"/>tunc habilis, nunc inhabilis. Et poenitentia tunc non 
+       requi<lb ed="#S" n="3" break="no"/>rebat hominem homini confiteri, sed soli Deo, qui nondum 
+      <lb ed="#S" n="4"/>erat homo. Et ordo non habebat characterem, nec vera 
+       sa<lb ed="#S" n="5" break="no"/>cramenta dispensabat. Baptismus autem, &amp; eucharistia prae 
+      <lb ed="#S" n="6"/>cesserunt non realiter, sed figuraliter: sed extrema vnctio 
+      <lb ed="#S" n="7"/>&amp; confirmatio neutro modo: quia sunt plenitudinis 
+       gra<lb ed="#S" break="no" n="8"/>tiae, nec sunt necessaria, nec quo ad se, vt baptismus, nec 
+      <lb ed="#S" n="9"/>quo ad fidem rei continente, saltem explicitam, vt 
+       eucha<lb ed="#S" break="no" n="10"/>ristia: quamuis posset dici praefiguratam esse confirmationem 
+      <lb ed="#S" n="11"/>in benedictione filiorum Israel a sacerdotibus. Numeri. 6. 
+      <lb ed="#S" n="12"/>vel in benediction ibus Iacob, &amp; Moysi, &amp; similibus: aut 
+      <lb ed="#S" n="13"/>in electione pugnatorum, &amp; remissione 
+       formidoloso<lb ed="#S" break="no" n="14"/>rum a pugna: extremam vero vnctionem, qua quis intra 
+      <lb ed="#S" n="15"/>turus est coelum in vnctione vasorum tabernaculi, quae 
+       fie<lb ed="#S" break="no" n="16"/>bat de oleo vnctionis, priusquam inferrent in 
+       tabernacu<lb ed="#S" break="no" n="17"/>lum ad aliquem vsum.
+    </p>
+            <p xml:id="khj78y-q24088-d1e446" n="11">
+      <!-- 11 -->secunda conclusio est, quod 
+      <lb ed="#S" n="18"/>eucharistia fuit multipliciter praefigurata: quia quantum 
+      <lb ed="#S" n="19"/>ad illud, cuius rememoratiua est per omnia sacrificia ve 
+      <lb ed="#S" n="20"/>te. leg. quae erant figurae hostiae factae in ara Crucis 
+       prae<lb ed="#S" break="no" n="21"/>cipue per iuge sacrificium agni, quod figurabat iugem huius 
+      <lb ed="#S" n="22"/>sacrificij representationem, secundo quo ad sacramentum tantum: 
+      <lb ed="#S" n="23"/>per oblationem Melchisedech: tertio, quo ad rem sacra 
+      <lb ed="#S" n="24"/>mentalem per agnum Paschalem: quarto, quo ad vsum 
+       fide<lb ed="#S" break="no" n="25"/>lium in manna: quinto, quo ad finem vltimum in ligno 
+      <lb ed="#S" n="26"/>vitae.
+    </p>
+            <p xml:id="khj78y-q24088-d1e470" n="12">
+      <!-- 12 -->Tertia conclusio est, quod propter hoc dicit 
+      <lb ed="#S" n="27"/>Christus sacerdos inaeternum secundum ordinem Melchise 
+      <lb ed="#S" n="28"/>dech potius, quam secundu ordinem Aaron: quia Aaros 
+      <lb ed="#S" n="29"/>suo sacerdotio sacerdotium summi Pontificis representat. 
+      <lb ed="#S" n="30"/>dist. 21. c. 1. nihilominus tamen in hoc deficit: quia 
+       pec<lb ed="#S" n="31" break="no"/>cauit. dist. 50. Econtra in lumbis Abrahae decimatus fuit: 
+      <lb ed="#S" n="32"/>&amp; sacerdos Aaronicus iu maximo sacrificio vitulae 
+       im<lb ed="#S" break="no" n="33"/>mundus fiebat. Melchisodech autem non sic: sed quando 
+      <lb ed="#S" n="34"/>obtulit panem, &amp; vinum benedicens recepit decimas ab 
+      <lb ed="#S" n="35"/>Abraham. sic Christus innocens impollutus in hoc 
+       sa<lb ed="#S" break="no" n="36"/>crameuto perfectam nobis benedictionem tribuit: quod 
+      <lb ed="#S" n="37"/>oblario Melchisedech expressius quo ad ritum sacrificij 
+      <lb ed="#S" n="38"/>figura uit: praeter alias causas, quas apostolus 
+       prosequi<lb ed="#S" break="no" n="39"/>tur ad hebraeos.
+    </p>
+            <p xml:id="khj78y-q24088-d1e503" n="13">
+      <!--13 -->QVANTVM ad tertium 
+      <lb ed="#S" n="40"/>suntares conclusiones. Prima, quod debuit institui 
+       sacramen<lb ed="#S" break="no" n="41"/>tum, in quo Christus contineretur essentialiter, &amp; 
+       reali<lb ed="#S" break="no" n="42"/>ter: quia ad perfectionem membrorum requiritur, quod capiti 
+      <lb ed="#S" n="43"/>vniantur: &amp; quia sacramentis Deo iungimur: sacramentum 
+      <lb ed="#S" n="44"/>autem ost signum sensibile, sicut ad hoc, quir anima perficiat 
+      <lb ed="#S" n="45"/>sensibus praeter sensibilia, quae sibi coniunguntur per 
+       so<lb ed="#S" break="no" n="46"/>lami similitudinem distantia medlo separato, vt color, &amp; 
+      <lb ed="#S" n="47"/>olor, &amp; sonus, quibus assimilantur sacramenta vet. leg. qua 
+      <lb ed="#S" n="48"/>erant tantum signa diuinae gratiae, &amp; non causa, sunt 
+       sensi<lb ed="#S" n="49" break="no"/>bilia, quae per realem virtutem coniunguntur sensui per 
+       mo<lb ed="#S" break="no" n="50"/>dinm coniunctum: quae tum non fiunt vnum cum eo: vt imta 
+      <lb ed="#S" n="51"/>stu patet: quibus asiimilantur sacramenta no. le. in quibus 
+      <lb ed="#S" n="52"/>diuina virtus interius operatur. Est autem vlterius gustus, 
+      <lb ed="#S" n="53"/>quo sensibile nobis realiter coniungit, &amp; nobis 
+       incorpo<lb ed="#S" n="54" break="no"/>ratur: &amp; vnum efficitur por conuersionem ipsius in nos sio 
+      <lb ed="#S" n="55"/>dobuit hec sacramentum institui, in quo caput 
+       coniunga<lb ed="#S" break="no" n="56"/>mur, &amp; incorporemur, &amp; eius membra efficiamur: non per 
+      <lb ed="#S" n="57"/>eius conuersionem in nos, sed econuerso secundum quod 
+      <lb ed="#S" n="58"/>Aug. dictum fuit.
+    </p>
+            <p xml:id="khj78y-q24088-d1e550" n="14">
+      <!--14 -->secunda conclusio est, quod non 
+      <lb ed="#S" n="59"/>debuit institui ame Christi aduentum: quia continet verbum 
+      <lb ed="#S" n="60"/>incarnatum: &amp; ideo ante verbi incarnationem institui non 
+      <lb ed="#S" n="61"/>potuit: quia nihil potest conuerti in id, quod non est. Ideo 
+      <lb ed="#S" n="62"/>cum status ecclesiae sit medius inter statum legis antiquae 
+      <lb ed="#S" n="63"/>&amp; gloriae prius eratur rerum sperandarum figura non veritas: 
+      <lb ed="#S" n="64"/>sed in patria est veritas sine figura: nunc autem est 
+       veri<lb ed="#S" break="no" n="65"/>tas cum figura: quia ie speculo in en igmate maxime in 
+      <lb ed="#S" n="66"/>facramento eucharistiae.
+    </p>
+            <p xml:id="khj78y-q24088-d1e572" n="15">
+      <!-- 15 -->Tertia conclusio est, 
+      <lb ed="#S" n="67"/>quod institui debuit in coena Domini, sicut fuit. Primo, quia 
+      <!--0109.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>quando ostendi: cessare virtutem legalium in agno Paschali 
+      <lb ed="#S" n="69"/>debuit ostendere virtutem nouorum in maximo 
+       sacramen<lb ed="#S" break="no" n="70"/>to. secundo, quia quando erat recessurus, visibiliter debuit 
+      <lb ed="#S" n="71"/>remanere spiritualiter. Tertio, vt altius cortsibus 
+       infige<lb ed="#S" n="72" break="no"/>retur, quod vltimo traderetur. Quarto, in memoriam 
+       im<lb ed="#S" n="73" break="no"/>minentis passionis.
+    </p>
+            <p xml:id="khj78y-q24088-d1e596" n="16">
+      <!-- 16 -->Argumentum in 
+       opposi<lb ed="#S" break="no" n="74"/>tum solutum fuit in prima conclusione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

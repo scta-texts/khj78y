@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="400"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r26446"><!-- l4d38-q1 -->
+            <head xml:id="khj78y-r26446-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-r26446-Hd1e103" type="question-title">
+     utrum 
+     bene definiatur votum a 
+       Magistro in litera dicente, quod votum 
+     est etc
+   </head>
+            <p xml:id="khj78y-r26446-d1e106">
+               <lb ed="#S" n="58"/>DIsTINCTIO. 38. QVAESTIO I.
+    </p>
+            <p xml:id="khj78y-r26446-d1e111">
+               <lb ed="#S" n="59"/>CIrca. 38. Dist. quaeruntur sex. Primo, de voti 
+       defi<lb ed="#S" break="no" n="60"/>Qnitione. sccundo, de diuisione. Tertio, de voti 
+       obli<lb ed="#S" break="no" n="61"/>gatione. Quarto, de liberatione. Quinto, de voti 
+       compa<lb ed="#S" break="no" n="62"/>ratione. sexto, de scandalo. 
+    </p>
+            <p xml:id="khj78y-r26446-d1e122">
+               <lb ed="#S" n="63"/>De voto. 
+    </p>
+            <p xml:id="khj78y-r26446-d1e128">
+               <lb ed="#S" n="64"/>Thom. 4. Dist. 38. art. 1.
+    </p>
+            <p xml:id="khj78y-r26446-d1e133">
+      <!--0400.xml-->
+               <cb ed="#S" n="b"/>
+               <lb ed="#S" n="65"/>PRIMO igitur quaeritur, vtrum 
+      <lb ed="#S" n="66"/>bene definiatur votum a 
+       Magi<lb ed="#S" break="no" n="67"/>stro in litera dicente, quod votum 
+      <lb ed="#S" n="68"/>est &amp;c. &amp; videtur quod non, quia vnius 
+      <lb ed="#S" n="69"/>rei vna est definitio tantum: sed 
+      <lb ed="#S" n="70"/>multae aliae de voto 
+       inueniun<lb ed="#S" break="no" n="71"/>tur. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r26446-d1e155" n="2">
+      <!-- 2 -->Contra est 
+       au<lb ed="#S" break="no" n="72"/>thoritas Magistri.
+    </p>
+            <p xml:id="khj78y-r26446-d1e162" n="3">
+      <!-- 3 -->
+       Respon<lb ed="#S" break="no" n="73"/>deo, hic sunt sex videda, secuodum sex descriptiones quae 
+       dan<lb ed="#S" break="no" n="74"/>tur de voto.
+    </p>
+            <p xml:id="khj78y-r26446-d1e171" n="4">
+      <!-- 4 -->Prima est Hugo. de. scilicet Victore dicentis, 
+      <lb ed="#S" n="75"/>quod votum est sponsio animi voluntaria, &amp; Deo facta 
+       pollici<lb ed="#S" break="no" n="76"/>tatio: vnde votum quasi voluntarie factum, ex quo tres 
+       conclu<lb ed="#S" break="no" n="77"/>siones eliciuntur.
+    </p>
+            <p xml:id="khj78y-r26446-d1e182" n="5">
+      <!-- 5 -->Prima, de votis mulierum in partu 
+      <lb ed="#S" n="78"/>vel in infirmitate, vel virorum in quibuscunque angustiis 
+      <lb ed="#S" n="79"/>propriis, vel suorum aut turbatione, si habueruntintentio 
+      <lb ed="#S" n="80"/>nem obligandi se Deo, cogitantes etiam de causa, quae 
+       mo<lb ed="#S" break="no" n="81"/>uebat eos ad vouendum. scilicet in infirmitate, vel periculo, &amp; 
+      <lb ed="#S" n="82"/>de fine eo. scilicet de euasione periculi propter quod euitandum 
+       vo<lb ed="#S" break="no" n="83"/>uebant: tenenda sunt, licet in tribulatione, &amp; perturbatione sint 
+      <lb ed="#S" n="84"/>emissa: vnde Israel seruauit votum quo se astrixit instante bel 
+      <lb ed="#S" n="85"/>li periculo. Nume. 21. &amp; praes Reddam tibi vota mea quae 
+       distin<lb ed="#S" break="no" n="86"/>xerunt &amp;c. Et locutum est os meum in tribulatione mea, ar. 
+      <lb ed="#S" n="87"/>17. q.4. sunt qui opes. nec fiunt huiusmodi vota sine deliberatione: 
+      <lb ed="#S" n="88"/>ex quo vonentes sunt in sana mente. Idem est de iuramentis 
+      <lb ed="#S" n="89"/>quae non vergunt in deteriorem exitum. Deo, quia ei fit vo 
+      <lb ed="#S" n="90"/>tum &amp; ei redditur, extra eo. Magne. 5. 1. Facta 
+       pollicita<lb ed="#S" break="no" n="91"/>tio: quia si tantum facere proponeret non obligaretur, extra eo. 
+      <lb ed="#S" n="92"/>literaturam. secus si iam deliberasset &amp; firmiter proposuis 
+      <lb ed="#S" n="93"/>set promittendo corde, licet non ore, quia obligaret, quo ad 
+      <lb ed="#S" n="94"/>Deum. 17. q. 1. Quia bona.
+    </p>
+            <p xml:id="khj78y-r26446-d1e225" n="6">
+      <!-- 6 -->secunda conclusio est de eo qui me 
+      <lb ed="#S" n="95"/>tu mortis vouet intrare religionem: obligatur enim si promittat 
+      <lb ed="#S" n="96"/>Deo. seciis autem si homini mortem intentanti, vel si intrat metu 
+      <lb ed="#S" n="97"/>mortis non habens animum intrandi quo ad eum. ff. Quod 
+       me<lb ed="#S" break="no" n="98"/>causa. l. 1. de regularibus. c. 1. vnde hic minus est liberum ma 
+      <lb ed="#S" n="99"/>trimonium spirituale quam carnale, quia ibi met' annullatetiam illa 
+      <lb ed="#S" n="100"/>tus ab alio quam cum quo contrahit. Nec obstat. 27. q. 2. 
+       Consal<lb ed="#S" break="no" n="101"/>dus. vbi dicit quod praesbyter qui in infirmitate promisitse mona 
+      <lb ed="#S" n="102"/>chum fieri, potest nihilominus si vult beneficium retine 
+      <lb ed="#S" n="103"/>re, quia ibi non negatur quin teneatur intrare, sed quod non 
+      <lb ed="#S" n="104"/>tenetur fieri monachus. sper professionem, quia non con 
+      <lb ed="#S" n="105"/>stat quod promiserit fieri monachus animo remanendi, &amp; quia 
+      <lb ed="#S" n="106"/>nouitius existens non perdit beneficium, sed retinet quod 
+      <lb ed="#S" n="107"/>ante professionem conferri non debet, inde est quod si ante 
+      <lb ed="#S" n="108"/>professionem exeat beneficium percipiet.
+    </p>
+            <p xml:id="khj78y-r26446-d1e260" n="7">
+      <!-- 7 -->Tertia 
+       con<lb ed="#S" break="no" n="109"/>clusio est, quod promissio homini facta metu mortis suae, vel 
+      <lb ed="#S" n="110"/>filij non obligat cum effectu, sed promissio facta Deo 
+       eti<lb ed="#S" break="no" n="111"/>am metu mortis, sic quia Deus mortem iuste infert, nec 
+      <lb ed="#S" n="112"/>tenetur non inferre nec intentatam ab alio propulsare: 
+      <lb ed="#S" n="113"/>vnde sicut si promittit rem dare alicui vt me liberaret a 
+      <lb ed="#S" n="114"/>morte in casu in quo non tenetur: puta medico 
+       obliga<lb ed="#S" break="no" n="115"/>ret, sic qui promittit Deo. ff. quod met' causa. l. 3. 5. sed vim 
+      <lb ed="#S" n="116"/>accipimus atrocem, &amp; eam quae aduersus bonos mores 
+      <lb ed="#S" n="117"/>sit, non cam quam magistratus recte intulit. Item. l. 
+       me<lb ed="#S" break="no" n="118"/>tum. ☿. fi. licet ibi si quo magis te de vi hostium vel latro 
+      <lb ed="#S" n="119"/>num vel populi tuerer, vel liberarem aliquid a te 
+       acce<lb ed="#S" break="no" n="120"/>pero, velte obligauero, non debere me hoc edicto 
+       tene<lb ed="#S" break="no" n="121"/>ri, nisi ego ipse hanc tibi vim submisi. Caeterum si alius 
+      <lb ed="#S" n="122"/>submiserit vim nec me teneri non debere: ego enim ope 
+      <lb ed="#S" n="123"/>rae potius meae mercedem accepisse videor, vt patet in 
+       pu<lb ed="#S" break="no" n="124"/>gilibus qui pro aliis pugnant. In edicto enim quod metus 
+      <lb ed="#S" n="125"/>causa: non sufficit iustus metus ex parte promittentis vel dam 
+      <lb ed="#S" n="126"/>tis, nisi etiam sit turpitudo ex parte recipientis: quod est ar 
+      <lb ed="#S" n="127"/>gumentum, quod aliquis non tenetur liberare pugnando facto 
+      <lb ed="#S" n="128"/>aliquem ab alio aggressum ad mortem: alias turpiter recipe 
+      <lb ed="#S" n="129"/>ret pecuniam pro eo quod facere tenet, vel debet gratis. ff. de 
+      <lb ed="#S" n="130"/>condi. ob turpem causam. l. Item. 5. penu. &amp; vltimo. Deo 
+      <lb ed="#S" n="131"/>ergo potest promitti pro liberatione a morte violenta, 
+      <!--0401.xml-->
+      <pb ed="#S" n="401"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>quia illa ab alio infertur. Item pro liberatione a morte 
+      <lb ed="#S" n="2"/>naturali: quia illa a Deo iuste sicut a magistratu.
+    </p>
+            <p xml:id="khj78y-r26446-d1e325" n="8">
+      <!-- 8 -->sed 
+      <lb ed="#S" n="3"/>quia votum non est de quolibet, sed de bono: ideo est se 
+      <lb ed="#S" n="4"/>cunda diffinitio Iuristarum, quod votum est alicuius boni cum 
+      <lb ed="#S" n="5"/>deliberatione facta promissio. Dico autem cum deliberatione 
+      <lb ed="#S" n="6"/>quia subitum non obligat ad peccatum perfectum: nec ad bo 
+      <lb ed="#S" n="7"/>num perfectum: vnde est hic triplex conclusio.
+    </p>
+            <p xml:id="khj78y-r26446-d1e341" n="9">
+      <!-- 9 -->Prima de 
+      <lb ed="#S" n="8"/>puero qui irat patri vel magistro vouet, vel iurat 
+       intra<lb ed="#S" break="no" n="9"/>re religionem, vel de illo qui bene potatus quod non tenetur: quia 
+      <lb ed="#S" n="10"/>quod calore iracundiae fit pro non facto haberi debet, quod 
+      <lb ed="#S" n="11"/>verum est si sic subito fit, quod non per deliberationem a sententia 
+      <lb ed="#S" n="12"/>rationis, quae non requirit magnam moram temporis: sed quando 
+      <lb ed="#S" n="13"/>sciens quid iurat vel vouet teneturinisi tamen cum eo dispen 
+      <lb ed="#S" n="14"/>seturratione minus plenae deliberationis: sicut etiam qui 
+      <lb ed="#S" n="15"/>calore concupiscentiae inflammatus, aut bene potatus non 
+      <lb ed="#S" n="16"/>tamen perfecte ebrius iurat vxorem ducere: compellitur eam duce 
+      <lb ed="#S" n="17"/>re nisi omnino ebrius esset.
+    </p>
+            <p xml:id="khj78y-r26446-d1e367" n="10">
+      <!-- 10 -->secunda de confirma 
+      <lb ed="#S" n="18"/>tione istius: quia sicut requiritur deliberatio ad votum, 
+      <lb ed="#S" n="19"/>sic ad mortale peccatum, &amp; tamen licet iratus aut potat 
+       oc<lb ed="#S" break="no" n="20"/>cidat hominem excusatur a tanto sed non a toto, quin sit 
+      <lb ed="#S" n="21"/>mortale ex quo non sic fuit extra se quin sciret quid 
+       fa<lb ed="#S" break="no" n="22"/>ceret, licet statim postea poeniteat &amp; nollet fecisse, quia 
+      <lb ed="#S" n="23"/>esset statim poenitiuum bene arguit quod non sit factum ex 
+      <lb ed="#S" n="24"/>habitu: sed quod non quid sit factum ex electione, licet 
+       pas<lb ed="#S" break="no" n="25"/>sione turbante iudicium rationis. Illa igitur deliberatio 
+      <lb ed="#S" n="26"/>temporis vel aetatis, quae sufficeret ad obligandum 
+       diabo<lb ed="#S" break="no" n="27"/>lo per mortale, sufficit ab obligandum Deo per votum. 
+    </p>
+            <p xml:id="khj78y-r26446-d1e393" n="11">
+               <lb ed="#S" n="28"/>
+               <!-- 11 -->Tertia conclusio est, de hoc quod dicit promissio. 
+      <lb ed="#S" n="29"/>Nam votum obligat non ante propositum, nisi in casu. scilicet quando 
+      <lb ed="#S" n="30"/>intrat religionem cum proposito remanendi, &amp; Deo per 
+      <lb ed="#S" n="31"/>petuo famulandi quod aequipollet voto simplici: sed non 
+      <lb ed="#S" n="32"/>solenni: de regularibus. c. consulti. vbi dicitur quod tenetur 
+      <lb ed="#S" n="33"/>saltem aliam religionem intrare. sed quidam dicunt op 
+      <lb ed="#S" n="34"/>positum: quia propositum annexum voto licet obliget, vt 
+      <lb ed="#S" n="35"/>cum quis vouet intrare con proposito remanendi, licet non 
+      <lb ed="#S" n="36"/>vouerit remanere, tamen quando id quod proponitur quam 
+      <lb ed="#S" n="37"/>tuncunque firmetur non promittitur nec promisso 
+       annecti<lb ed="#S" break="no" n="38"/>tur non ligatur. vnde decre. debet intelligi de illo qui 
+       in<lb ed="#S" break="no" n="39"/>trat cum voto. sed quia decreta. loquitur indistincte dicens 
+      <lb ed="#S" n="40"/>quod qui intrat animo perpetuo abrenun tiandi saeculo, non 
+      <lb ed="#S" n="41"/>potest ad saeculum redire: sed vel ad aliam religionem debet 
+      <lb ed="#S" n="42"/>transire: ideo primo dicto magis videtur standum.
+    </p>
+            <p xml:id="khj78y-r26446-d1e431" n="12">
+      <!-- 12 -->
+               <lb ed="#S" n="43"/>Tertia diffinitio est, quod votum est conceptio boni propositi 
+      <lb ed="#S" n="44"/>cum deliberatione, quae quis ad aliquid faciendum vel non fa 
+      <lb ed="#S" n="45"/>ciendum Deo se obligat. Ex qua. 3. conclusiones clici 
+       pos<lb ed="#S" break="no" n="46"/>sent.
+    </p>
+            <p xml:id="khj78y-r26446-d1e444" n="13">
+      <!-- 13 -->Prima, quod obligatio voti fit Deo principaliter 
+      <lb ed="#S" n="47"/>&amp; finaliter, licet fiat in manu hominis: vnde si allquis 
+       pro<lb ed="#S" break="no" n="48"/>mittit alicui quod intrabit religionem, non illi, sed Deo 
+       sa<lb ed="#S" break="no" n="49"/>cta est obligatio. vnde Dei est retinere non illius, siue sit 
+      <lb ed="#S" n="50"/>de religione, siue alius sicut aliqui sibiinuicem iurant 
+       ali<lb ed="#S" break="no" n="51"/>quando, quia promissio in mano serui facta acquirit do 
+      <lb ed="#S" n="52"/>mino non seruo, &amp; seruus non potest remittere, sed dominus. Omnes 
+      <lb ed="#S" n="53"/>autem sunt serui Dei, &amp; sic per omnes potest actio Deo 
+       ac<lb ed="#S" break="no" n="54"/>quiri.
+    </p>
+            <p xml:id="khj78y-r26446-d1e466" n="14">
+      <!-- 14 -->secunda conclusio est, quod si aliquis promisit 
+      <lb ed="#S" n="55"/>intrarereligionem ad requisitionem alicuius, illo non 
+       re<lb ed="#S" n="56" break="no"/>quirente intrare non tenet, sed illo mortuo videtur quod teneatur, 
+      <lb ed="#S" n="57"/>nisi per modum conditionis dixerit. si me requisierit &amp;c. sed si 
+      <lb ed="#S" n="58"/>dixit promitto intrare quandocumque me requisieris, videt 
+       pro<lb ed="#S" break="no" n="59"/>missio in diem. vnde illo mortuo non plus habet 
+       dilatio<lb ed="#S" break="no" n="60"/>rem, quia non expectatur requisitio.
+    </p>
+            <p xml:id="khj78y-r26446-d1e484" n="15">
+      <!-- 15 -->Tertia 
+       conclu<lb ed="#S" break="no" n="61"/>sio est, quod quia Deus intuetur cor, &amp; sibi fit obligatio voti 
+      <lb ed="#S" n="62"/>ideo non solum per stipulationem sed per nudam 
+       promissio<lb ed="#S" break="no" n="63"/>nem et pollicitationem homo efficaciter obligatur: imo etiam 
+      <lb ed="#S" n="64"/>sola cordis promissione sine oris expressione.
+    </p>
+            <p xml:id="khj78y-r26446-d1e497" n="16">
+      <!-- 16 -->
+       Quar<lb ed="#S" break="no" n="65"/>ta diffinitio parum differt ab ista quae talis est. Votum est 
+       alicu<lb ed="#S" break="no" n="66"/>ius rei licitae faciendae vel non faciendae cum 
+       delibera<lb ed="#S" break="no" n="67"/>tione animi Deo tacita pollicitatio: &amp; hanc est Hosti. et ex, 
+      <!--0401.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>hac etiam eliciuntur tres conclusiones.
+    </p>
+            <p xml:id="khj78y-r26446-d1e515" n="17">
+      <!-- 17 -->Prima quod de 
+      <lb ed="#S" n="69"/>re illicita non tenet votum: vnde dicit licite: quia in 
+       turpi<lb ed="#S" n="70" break="no"/>voto muta decretum. 24q. 4. in malis. Et in talibus 
+       ma<lb ed="#S" break="no" n="71"/>gis placent Deo transgressores quam obseruatores, etiam si 
+      <lb ed="#S" n="72"/>interueniat iuramentum, vt in auct. instenutis, nullis non 
+      <lb ed="#S" n="73"/>solum sed filiuspatre: vt sed etiam si iusiurandum detur sine 
+      <lb ed="#S" n="74"/>periculo discedere, &amp; in rubro et in nigro. coll. quinta. 
+    </p>
+            <p xml:id="khj78y-r26446-d1e534" n="18">
+               <lb ed="#S" n="75"/>
+               <!-- 18 -->secunda, quod votum non est de praesenti nec de 
+       praete<lb ed="#S" break="no" n="76"/>rito, sed de futuro faciendo vel non faciendo: quia omnis  promissio 
+      <lb ed="#S" n="77"/>ad alterum horum reducit, &amp; dare et non dare. ff. de praescrip. 
+      <lb ed="#S" n="78"/>naturali. de non ob. l. 4. 5. cato.
+    </p>
+            <p xml:id="khj78y-r26446-d1e547" n="19">
+      <!-- 19 -->Tertia conclusio, quod vo 
+      <lb ed="#S" n="79"/>tum debet fieri cum deliberatione: vnde dicit cum delibera 
+      <lb ed="#S" n="80"/>tione animi: quia votum quod ex facilitate animi potius quam 
+      <lb ed="#S" n="81"/>ex arbitrio discretionis emittitur, non est obligatorium vsque 
+      <lb ed="#S" n="82"/>quaq, extra. c. c. Venientis, de regularibus. c. Ad nostram. de 
+      <lb ed="#S" n="83"/>conuer. coniug. c. rarissimus. &amp;. c. Veniens.
+    </p>
+            <p xml:id="khj78y-r26446-d1e563" n="20">
+      <!-- 20 -->Quinta 
+      <lb ed="#S" n="84"/>diffinitio est magistri · Quod votum est testificatio quaedam 
+      <lb ed="#S" n="85"/>promissionis spotaneae q Deo et dehis quae Dei sunt 
+       pro<lb ed="#S" break="no" n="86"/>prie fieri debet, ex quo etiam elici potest triplex conclusio.
+    </p>
+            <p xml:id="khj78y-r26446-d1e574" n="21">
+      <!-- 21 -->
+               <lb ed="#S" n="87"/>Prima, quod castitas quae facit maxime esse proximum est Deo 
+       spe<lb ed="#S" break="no" n="88"/>cialis, &amp; propria materia voti: quia de his quae Dei sunt. sed 
+      <lb ed="#S" n="89"/>quia malum non est materia voti: cum malum sit priuatio boni, 
+      <lb ed="#S" n="90"/>videtur quod non valeat votum quo aliquis vouet non contrahere ma 
+      <lb ed="#S" n="91"/>trimonium: quia contrahere matrimonium est quoddam bonum, non 
+      <lb ed="#S" n="92"/>contrahere autem est priuatio boni, &amp; sic malum.
+    </p>
+            <p xml:id="khj78y-r26446-d1e592" n="22">
+      <!-- 22 -->Et 
+       di<lb ed="#S" break="no" n="93"/>cendum, quod priuatio boni quae includit maius bonum est bona: sic 
+      <lb ed="#S" n="94"/>est hic quia matrimonium habet actum carnalem et distractionem 
+      <lb ed="#S" n="95"/>mentis: &amp; licet non contrahere marimonium non includat 
+       va<lb ed="#S" break="no" n="96"/>care Deo, tamen secundum communem modum loquendi in 
+       voue<lb ed="#S" break="no" n="97"/>re non contrahere matrimonium, includitur disponi me 
+      <lb ed="#S" n="98"/>lius in Deum, &amp; non impediri a Deo impedimentis quae 
+      <lb ed="#S" n="99"/>matrimonium causant.
+    </p>
+            <p xml:id="khj78y-r26446-d1e612" n="23">
+      <!-- 23 -->secunda conclusio est, q 
+      <lb ed="#S" n="100"/>vouere etiam paupertatem est perfectum votum: quia 
+      <lb ed="#S" n="101"/>est de his quae Dei sunt: quia deus eam consulit verbo 
+      <lb ed="#S" n="102"/>et tenuit facto, quia vouere paupertatem implicat 
+       amo<lb ed="#S" break="no" n="103"/>tionem impedimenti quod diuitiae solent causare: sicus 
+      <lb ed="#S" n="104"/>vouere abstinere, et omnia huiusmodi quae vt videntur 
+      <lb ed="#S" n="105"/>non exprimere nisi priuationem boni: implicant tamen 
+      <lb ed="#S" n="106"/>priuationem mali illi bono incluso oppositam: et sic 
+      <lb ed="#S" n="107"/>quia priuatio mali habet priuationem boni: per 
+       conse<lb ed="#S" break="no" n="108"/>quens est materia iuramenti &amp; voti.
+    </p>
+            <p xml:id="khj78y-r26446-d1e637" n="24">
+      <!-- 24 -->Tertia 
+       con<lb ed="#S" break="no" n="109"/>clusio, est quod etiam propria materia voti est obedientia 
+      <lb ed="#S" n="110"/>dicente Christo, Abneget semetipsum, &amp;c. Haec autem tria 
+      <lb ed="#S" n="111"/>Apostoli habuerunt non tamen proposito &amp; facto: sed etiam 
+      <lb ed="#S" n="112"/>voto quamuis scriptura non exprimat: sicut nec de beata 
+       vir<lb ed="#S" break="no" n="113"/>gine, quam tamen credimus virginitatem vouisse, imo etiam 
+      <lb ed="#S" n="114"/>Apostoli videntur habuisse votum solemne paupertatis: quia 
+      <lb ed="#S" n="115"/>ad pedes eorum omnia ponebantur, nec quisqᷓ; proprium habebat. 
+    </p>
+            <p xml:id="khj78y-r26446-d1e657" n="25">
+               <lb ed="#S" n="116"/>
+               <!-- 25 -->secunda diffinitio est magistralis. Votum est 
+       pro<lb ed="#S" break="no" n="117"/>missio melioris boni animi deliberatione firmata: ex qua 
+      <lb ed="#S" n="118"/>eliciuntur. 5. conclusiones.
+    </p>
+            <p xml:id="khj78y-r26446-d1e668" n="26">
+      <!-- 26 -->Prima, quod votum de 
+      <lb ed="#S" n="119"/>non intrando religionem non valet: quia non est de 
+      <lb ed="#S" n="120"/>meliori bono, sed de opposito. De hoc tamen sic 
+       di<lb ed="#S" break="no" n="121"/>cit Hosti. nunquid valet votum si quis voueret non 
+       in<lb ed="#S" break="no" n="122"/>trare religionem? videtur quod non, quia impeditur 
+       am<lb ed="#S" break="no" n="123"/>plitudo charitatis &amp; diuina inspiratio extra de 
+       regula<lb ed="#S" break="no" n="124"/>ribus: licet. 26· q. 2. Contra, quia seruari potest sine dam 
+      <lb ed="#S" n="125"/>natione, sicut et iuramentum. Item videtur Gratianus 
+      <lb ed="#S" n="126"/>dicere, quod qui iurauit clericatus tonsuram: vel religionis 
+      <lb ed="#S" n="127"/>habitum non suscipere, non debet prohiberi seruare. 22. 
+      <lb ed="#S" n="128"/>q. 4 cap. vlt. 61. distinct. c. 2. soluit autem dicens, quod votum 
+      <lb ed="#S" n="129"/>tenetur seruare quamuis fuerit indiscretum: nisi sibi postea 
+      <lb ed="#S" n="130"/>ad non contrarium inspiretur. Illectus ergo non intret 
+      <lb ed="#S" n="131"/>20. q. 3. Constituit. de conuer. coniug. Dudum. Ex 
+       re<lb ed="#S" break="no" n="132"/>uelatione secure intret. de diuorti. Gaudemus. Et hic 
+      <lb ed="#S" n="133"/>distinct. probatur. 22. q. 2. Beatus. 16. q. 1. in 
+       paro<lb ed="#S" break="no" n="134"/>chia. 27. q. 2. Beata mater. de iureiur. cap. 3. quid. 
+    </p>
+            <p xml:id="khj78y-r26446-d1e707" n="27">
+      <!--0402.xml-->
+               <pb ed="#S" n="402"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>
+               <!-- 27 -->sed contra hoc est, quia non est votum de re minus 
+       bo<lb ed="#S" break="no" n="2"/>na: haec autem est minus bona: quod autem non est 
+      <lb ed="#S" n="3"/>votum non obligat vt votum. Item non est iuramentum 
+      <lb ed="#S" n="4"/>quando non est de re bona: sed pura priuatio boni nihil 
+      <lb ed="#S" n="5"/>habet boni. Nec obstat, quod potest seruari sine detrimento 
+      <lb ed="#S" n="6"/>&amp;c. quia illud est verum quando habuit tres comites. 
+      <lb ed="#S" n="7"/>Vel dicendum, quod detrimentum salutis est non solum quod 
+      <lb ed="#S" n="8"/>interimit salutem: sed quod impedit perfectionem salutis. 
+      <lb ed="#S" n="9"/>Vel quando dicitur, quod omne votum &amp; iuramentum est 
+       ser<lb ed="#S" break="no" n="10"/>uandum, quod seruatum non vergit in detrimentum sa 
+      <lb ed="#S" n="11"/>lutis aeternae: dicendum quod verum est quando habuit ma 
+      <lb ed="#S" n="12"/>teriam propriam: sic non est hic: vel ad minorem 
+       dicen<lb ed="#S" break="no" n="13"/>dum, quod cum detrimentum &amp; augmentum sint opposita 
+      <lb ed="#S" n="14"/>circa idem, priuatio vnius est positio alterius: vnde cum 
+      <lb ed="#S" n="15"/>religio sit in augmentum salutis aeternae priuatio eius est 
+      <lb ed="#S" n="16"/>in detrimentum eiusdem.
+    </p>
+            <p xml:id="khj78y-r26446-d1e753" n="28">
+      <!-- 28 -->Ad illud quod. 22. q.
+       4<lb ed="#S" break="no" n="17"/>c. vlti. potest ibi negari Gratianus, sicut ab omnibus 
+       ne<lb ed="#S" break="no" n="18"/>gatur in illo quod immediate ibidem praecedit. scilicet quod si quis 
+      <lb ed="#S" n="19"/>post votum simplex de castitate iurauit alicui quod accipe 
+      <lb ed="#S" n="20"/>ret eam in vxorem, quod propter iuramentum potest eam 
+       ac<lb ed="#S" break="no" n="21"/>cipere: quod omnes negant quia votum simplex perimis 
+      <lb ed="#S" n="22"/>sponsalia post contracta: quia iurauit rem illicitam. Qui 
+      <lb ed="#S" n="23"/>cle. vel vouem. c. Rursus. vel dicendum quod magister ibi 
+       di<lb ed="#S" break="no" n="24"/>cit, quod non est cogendum frangere iuramentum: sed potest 
+      <lb ed="#S" n="25"/>seruare si vult: nec tamen cogendus est etiam seruare, quasi 
+      <lb ed="#S" n="26"/>dicat: potest seruare si vult, &amp; potest non seruare esset si 
+      <lb ed="#S" n="27"/>ne dispensatione
+    </p>
+            <p xml:id="khj78y-r26446-d1e782" n="29">
+      <!-- 29 -->secunda conclusio est declarati 
+      <lb ed="#S" n="28"/>ua istius, quod quando per votum vel iuramentum 
+       excludi<lb ed="#S" break="no" n="29"/>tur directe &amp; principaliter bonum aliquid conferens ad 
+      <lb ed="#S" n="30"/>salutem, &amp; non includitur aliquod bonum quod per se 
+      <lb ed="#S" n="31"/>posset esse materia iuramenti, iuramentum nullum est &amp; non 
+      <lb ed="#S" n="32"/>obligat: licet possit seruari cum salute: vt si quis iuret se 
+      <lb ed="#S" n="33"/>non facturum aliquod bonum, nisi illud quod sine 
+       pec<lb ed="#S" break="no" n="34"/>cato omitti non potest: similiter dicode voto tanto magis 
+      <lb ed="#S" n="35"/>quanto votum requirit materiam meliorem: quando autem iura 
+      <lb ed="#S" n="36"/>mentum principaliter includit aliquod bonum quod potest 
+      <lb ed="#S" n="37"/>esse materia iuramenti, licet illud bonum excludat ex con 
+      <lb ed="#S" n="38"/>sequenti meliora bona: tunc iuramentum ligat: vt si quis 
+      <lb ed="#S" n="39"/>iuret matrimonium contrahere &amp; consummare, quod 
+       contra<lb ed="#S" break="no" n="40"/>riatur virginitati quod est maius bonum. similiter in 
+       vo<lb ed="#S" break="no" n="41"/>to si quis voueat se intraturum &amp; perseueraturum in 
+       re<lb ed="#S" break="no" n="42"/>ligione laxiori: licet ex hoc melior via precludatur: quia 
+      <lb ed="#S" n="43"/>tamen religio promissa est sufficiens materia voti 
+       respe<lb ed="#S" break="no" n="44"/>ctu saeculi cui praeeminet: licet non respectu aliarum 
+       reli<lb ed="#S" break="no" n="45"/>gionum valet.
+    </p>
+            <p xml:id="khj78y-r26446-d1e827" n="30">
+      <!-- 30 -->Tertia conclusio est applicare supra 
+      <lb ed="#S" n="46"/>dictam distinctionem ad. 3. casus. Primo, quod valet votum &amp; iura 
+      <lb ed="#S" n="47"/>mentum, si quis iuret iutrare hanc religionem si quam intret: quia 
+      <lb ed="#S" n="48"/>hic non principaliter excludut aliae sed principaliter 
+       in<lb ed="#S" break="no" n="49"/>cludit ista: &amp; si non pure tamen sub conditione. scilicet si vellt aliquam 
+      <lb ed="#S" n="50"/>intrare: sed si promitteret se nullam aliam intraturum, &amp; non pro 
+      <lb ed="#S" n="51"/>mitteret istam intrare: nec pure nec sub conditione: non 
+      <lb ed="#S" n="52"/>valeret, &amp; peccaret vouens &amp; inducens. Vnde dicit Tho. 
+      <lb ed="#S" n="53"/>5. quotlib. 27. q. quod de re licita potest esse illicita 
+       obliga<lb ed="#S" break="no" n="54"/>tio: sicut cum quis iurat non ieiunare: non dare eleaemo 
+      <lb ed="#S" n="55"/>synam, non intrare religionem: quia per hoc homo quantum 
+      <lb ed="#S" n="56"/>in se est obfirmat se contra gratiam. scilicet s. quae facit hominem in 
+      <lb ed="#S" n="57"/>corde suo ascensiones disponere: huic etiam iuramento 
+      <lb ed="#S" n="58"/>deest iudicium rationis, quia retrahit a maiori bono. Ali 
+      <lb ed="#S" n="59"/>ter esset probat: quia impedimentum spiritualis profectus 
+      <lb ed="#S" n="60"/>non ex Deo: sed iuramentum quod est seruandum est ex Deo, 
+      <lb ed="#S" n="61"/>ergo iuramentum non est seruandum inquantum impedit 
+       spi<lb ed="#S" break="no" n="62"/>ritualem profectum.
+    </p>
+            <p xml:id="khj78y-r26446-d1e869" n="31">
+      <!-- 31 -->Quarta conclusio est, quod peccant 
+      <lb ed="#S" n="63"/>parentes inducentes filios quos mittunt ad saeculi 
+       scho<lb ed="#S" break="no" n="64"/>las ad iurandum, vel vouendum quod non intrabunt 
+       religio<lb ed="#S" break="no" n="65"/>nem: nec ibunt ad praedicatores et minores, nec ad 
+       audien<lb ed="#S" break="no" n="66"/>dum sermonem: vnde nec tenentur seruare. Et videtur 
+      <lb ed="#S" n="67"/>grauius vouere malum, quam frangere votum bonum: sicut in- 
+      <!--0402.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>rare falsum quam frangere iuramentum. Vt dicit Tho. 3. 
+       quo<lb ed="#S" break="no" n="69"/>libet. q. 14 quod si quis ex certa causa per aliquam horam impe 
+      <lb ed="#S" n="70"/>diret aliquem intrare religionem, posset aliquando 
+       excu<lb ed="#S" break="no" n="71"/>sari a peccato: tamen quod hoc impediat hominem ne vnqᷓ; 
+      <lb ed="#S" n="72"/>possit religionem intrare: est spiritui sancto resistere, quia pro 
+      <lb ed="#S" n="73"/>positum intrandi religionem est a spum sancto. 19. c. 
+      <lb ed="#S" n="74"/>Duae: vnde Math. 23. ve vobis qui clauditis regnum coelo 
+      <lb ed="#S" n="75"/>rum ante homines: ipsi autem non intratis, nec sinitis alios 
+      <lb ed="#S" n="76"/>intrare: vnde non solum parentibus, sed aliis omnibus alios 
+      <lb ed="#S" n="77"/>inducentibus ad iurandum, vel vouendum se non 
+       intra<lb ed="#S" break="no" n="78"/>turos religionem est mortale.
+    </p>
+            <p xml:id="khj78y-r26446-d1e913" n="32">
+      <!-- 32 -->Quinta conclusio ex 
+      <lb ed="#S" n="79"/>praemissis oriens est dubia. scilicet vtrum mulier quae vouet non 
+      <lb ed="#S" n="80"/>contrahere suo ribaldo: non quia intendat caste viuere li 
+      <lb ed="#S" n="81"/>getur voto: videtur quod non erat res bona de se, sed priuatio 
+      <lb ed="#S" n="82"/>boni, nec vt intendit. Alij tamen dicunt quod ligatur: quia 
+      <lb ed="#S" n="83"/>licet finis quem intendit sit malus, tamen res vota est bona, 
+      <lb ed="#S" n="84"/>&amp; si non de se formaliter: tamen ex hoc ad quod de se &amp; per 
+      <lb ed="#S" n="85"/>se nata est ordinari: puta ad cogitandum de Deo: licet ista 
+      <lb ed="#S" n="86"/>non ordinet.
+    </p>
+            <p xml:id="khj78y-r26446-d1e935" n="33">
+      <!-- 33 -->Ad argumentum dicendum est, quod vnius 
+      <lb ed="#S" n="87"/>rei vna est diffinitio, verum est secundum vnam conside 
+      <lb ed="#S" n="88"/>rationem: sed secundum diuersas considerationes dantur 
+      <lb ed="#S" n="89"/>multae descriptiones diuersae sicut vnum et idem aliter 
+      <lb ed="#S" n="90"/>diffinit logicus, physicus, medicus, &amp; mathematicus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

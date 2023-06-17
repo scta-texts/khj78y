@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="243"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q72154"><!-- l4d18-q7 -->
+            <head xml:id="khj78y-q72154-Hd1e101">Quaestio 7</head>
+            <head xml:id="khj78y-q72154-Hd1e103" type="question-title">
+     de suspensione: utrum impediat absolutionem
+   </head>
+            <p xml:id="khj78y-q72154-d1e106">
+               <lb ed="#S" n="104"/>&gt;QVAESTIO SEPTIMA. 
+      <lb ed="#S" n="105"/>De suspensione &amp; eius effectibus. 
+    </p>
+            <p xml:id="khj78y-q72154-d1e113">
+               <lb ed="#S" n="106"/>QVAERITVR septimo de 
+       suspen<lb ed="#S" break="no" n="107"/>sione: vtrum impediat absolutionem. Et 
+       vide<lb ed="#S" break="no" n="108"/>tur quod non: quia suspensus ab ingressu 
+       Eccle<lb ed="#S" break="no" n="109"/>siae: quia excommunicat sine monitione, 
+       absol<lb ed="#S" break="no" n="110"/>uit illum ad se remissum. extra: eo. sacro. 
+    </p>
+            <p xml:id="khj78y-q72154-d1e126" n="2">
+               <lb ed="#S" n="111"/>
+               <!-- 2 -->Contra. quia suspensus a iurisdictione non habet vsum 
+      <lb ed="#S" n="112"/>eius.
+    </p>
+            <p xml:id="khj78y-q72154-d1e136" n="3">
+      <!-- 3 -->Respondeo: tria circa hoc videnda sunt. Primo, 
+      <lb ed="#S" n="113"/>in quibus casibus ipso facto sint sospensi episcopi &amp; 
+       superio<lb ed="#S" break="no" n="114"/>res. secundo, in quibus casibus inferiores episcopis. Tet 
+      <lb ed="#S" n="115"/>tio, effectu suspensionis.
+    </p>
+            <p xml:id="khj78y-q72154-d1e147" n="4">
+      <!-- 4 -->CIRCA primum est 
+       scien<lb ed="#S" break="no" n="116"/>dum, quod episcopi &amp; superiores nec sententia hominis, nec iuris, nec sta 
+      <lb ed="#S" n="117"/>tuti, quae sit suspensio vel interdictum singulare ligantur: 
+      <lb ed="#S" n="118"/>nisi fiat expressa mentio de eis. extra. e. Quia 
+       periculo<lb ed="#S" break="no" n="119"/>som. li. 6. sed in sententia maioris excommunicationis nullum ha 
+      <lb ed="#S" n="120"/>bent priuilegium. Nominatim vero sunt suspensi in casibus 
+      <lb ed="#S" n="121"/>sex, qui continentur in istis versibus. Ordine, corona, 
+       foe<lb ed="#S" break="no" n="122"/>nus, confir. lapi. dona. Poutifices ista suspendunt crimina 
+      <lb ed="#S" n="123"/>magna. Ordine, episcopus qui sine licentia alterius 
+       epi<lb ed="#S" break="no" n="124"/>scopi vel superioris, clericum alterius dictesis scienter, 
+       vel<lb ed="#S" break="no" n="125"/>ignorantia affectata ordinat: per annum a collatione 
+       ordi<lb ed="#S" break="no" n="126"/>num est suspensus. extra de tem. ordi. ca. 2. li. 6. Vbi non 
+       di<lb ed="#S" break="no" n="127"/>stinguitur quem ordinem contulerit, sacrum vel non sacrum. 
+       Noc<lb ed="#S" break="no" n="128"/>est suspensus tantum ab ordine quem contulit: sed a 
+       collatio<lb ed="#S" break="no" n="129"/>ne omnis ordinis. Corona, episcopus qui confert coronam 
+       infan<lb ed="#S" break="no" n="130"/>ti, nisi religionem intranti, seu illiterato: vel alterius 
+       dicece<lb ed="#S" break="no" n="131"/>sis sine superioris licentia, vel conlugato, nisi volenti reli- 
+      <!--0244.xml-->
+      <pb ed="#S" n="244"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>giohem intrare matrimonio non consummato, vel volente 
+      <lb ed="#S" n="2"/>vxore ad sacros ordines promoueri, a collatione clerica 
+      <lb ed="#S" n="3"/>lis tonsurae dumtaxat per annum est suspensus. e. ti. c. vlti. 
+      <lb ed="#S" n="4"/>Foenus. Episcopus qui interris suis alienigenas vsurarios 
+      <lb ed="#S" n="5"/>publicos habitare permittit, nec infra tres menses 
+       expel<lb ed="#S" break="no" n="6"/>lit, vel domum tradit eis ad foenerandum, suspensus est 
+       sim<lb ed="#S" break="no" n="7"/>pliciter. de vsur. c. 1. li. 6. Vsurarum. Confir. Archiepiscopus 
+      <lb ed="#S" n="8"/>qui confirmat electionem consecrans clericum, non cognito vtrum 
+      <lb ed="#S" n="9"/>per aliquam prauitatem sit ab appellatione recessum, quae 
+      <lb ed="#S" n="10"/>erat interposita ad Papam, suspensus est per annum a 
+       cofir<lb ed="#S" break="no" n="11"/>matione &amp; consecratione episcoporum. de clec. c. Prouida. 
+      <lb ed="#S" n="12"/>lib. 6. Et hoc bene verum est si vtrumque fecit. si autem alterum: 
+      <lb ed="#S" n="13"/>puta, quod solum confirmauit, illo solo suspenditur: tamen nec con 
+      <lb ed="#S" n="14"/>irmatio nec consecratio valet. Vbi est vnum dubium si ille 
+      <lb ed="#S" n="15"/>ordinaret, an characterem imprimeret. Et videtur quod sic: 
+      <lb ed="#S" n="16"/>quia non potest facere Papa: quin haereticus ordinet 
+       epi<lb ed="#S" break="no" n="17"/>scopum: licet confirmationem quae est iuris humani possit 
+       ir<lb ed="#S" break="no" n="18"/>ritare. Videtur etiam, quod ille non prohi beatur confirmare 
+       ab<lb ed="#S" break="no" n="19"/>bates &amp; abbatissas &amp; benedicere: quia dicitur ibi: vt in 
+      <lb ed="#S" n="20"/>quo peccauerint puniantur: tamen quia peccauit in 
+       confir<lb ed="#S" break="no" n="21"/>matione, non ab illa numerali: sed ab omni specie 
+       differen<lb ed="#S" break="no" n="22"/>te, dicunt alij eum suspendi. Lapi. Episcopi &amp; superiores va 
+      <lb ed="#S" n="23"/>cantibus dignitatibus, prioratibus, personatibus vel 
+       Ec<lb ed="#S" break="no" n="24"/>clesijs quibuscunque sibi subiectis, seu ad collationem, 
+       prae<lb ed="#S" break="no" n="25"/>sentationem, ordinationem, vel custodiam pertinentibus 
+       eo<lb ed="#S" break="no" n="26"/>rundem, qui bona earum morientibus rectoribus vel 
+       mini<lb ed="#S" break="no" n="27"/>stris in ipsis inuenta, vel vacationis tempore obuenlentia 
+      <lb ed="#S" n="28"/>quae in vtilitatem eorum expendi debent, vel futuris successo 
+      <lb ed="#S" n="29"/>ribus reseruari occupare, aut in vsus suos conuertere 
+       prae<lb ed="#S" break="no" n="30"/>sumunt: nisi de speciali priuilegio vel consuetudine iam 
+      <lb ed="#S" n="31"/>aescripta legitime, seu alia sine rationabili causa hoc 
+      <lb ed="#S" n="32"/>eis competere dignoscatur: ab ingressu Ecclesiae tandiu sunt 
+      <lb ed="#S" n="33"/>suspensi, quousque restitutionem fecerint de praedictis. 
+       Ta<lb ed="#S" break="no" n="34"/>lis ergo dilapidans bona est suspensus. de offi. ordin. 
+       Prae<lb ed="#S" break="no" n="35"/>senti. Dona. Episcbpi &amp; superiores qui visitantes 
+       reci<lb ed="#S" break="no" n="36"/>piunt dona, aut visitationis officio non impenso procura 
+      <lb ed="#S" n="37"/>tionem recipientes in pecunia vel victualibus: nisi duplum 
+      <lb ed="#S" n="38"/>eius quod receperint, infra mensem restituerint Ecclesiae 
+      <lb ed="#S" n="39"/>a qua id receptum fuerit: ex tunc ingressum Ecclesiae sibi 
+      <lb ed="#S" n="40"/>sentiant interdictum, quousque, de duplo huius grauatis Ec 
+      <lb ed="#S" n="41"/>clesiis plenariam satisfactionem impendant, nulla eis dantium 
+      <lb ed="#S" n="42"/>in hoc remissione, liberalitate, seu gratia valitura: de cen. 
+      <lb ed="#S" n="43"/>c. Exigit. lib. 6.
+    </p>
+            <p xml:id="khj78y-q72154-d1e286" n="5">
+      <!-- 5 -->secundo videndi sunt casus, in 
+       qui<lb ed="#S" break="no" n="44"/>bus inferiores episcopis sunt suspensi, qui continentur in 
+      <lb ed="#S" n="45"/>istis versibus. Eligit, vsurpat, conseruat, simone, donat. 
+      <lb ed="#S" n="46"/>Obligo, non obstat, diuinis, ordine, praestat. Forni, monique, 
+      <lb ed="#S" n="47"/>grauat, scriptum, suspensio damnat. suspensio damnat hos. 14. 
+    </p>
+            <p xml:id="khj78y-q72154-d1e299" n="6">
+               <lb ed="#S" n="48"/>
+               <!-- 6 -->Primus. Eligit. Canonici qui eligut ad episcopatum, 
+      <lb ed="#S" n="49"/>vel acchiepiscopatum scienter indignum, vel arbiter ab 
+       ei<lb ed="#S" break="no" n="50"/>electus qui hoc facit: per triennium sunt suspensi ab omnibus 
+      <lb ed="#S" n="51"/>benoficijs, quae obtinent in illa Ecclesia: de elec. Cum in 
+      <lb ed="#S" n="52"/>cunctis. li. 1. &amp;. c. si compromissarius. li. 6. Haec autem poena 
+      <lb ed="#S" n="53"/>vt ibidem dicitur: non habet locum, nisi in electione 
+       episco<lb ed="#S" break="no" n="54"/>porum &amp; superiorum. Dicitur autem indignus qui habet 
+       de<lb ed="#S" break="no" n="55"/>fectum aetatis: vitae, &amp; scientiae, illegitimus, vel aliter 
+       irre<lb ed="#S" break="no" n="56"/>gularis. Dico autem elegerint, quia si ex nominatione 
+       commu<lb ed="#S" break="no" n="57"/>nis clectio non fuerit subsetuta: quia nec tales priuantur 
+      <lb ed="#S" n="58"/>potestate eligendi: extra. e. perpetuae. li. 6. nec pari ratione 
+      <lb ed="#S" n="59"/>sunt a beneficijs suspensi. Non etiam sunt ab officio 
+       suspen<lb ed="#S" break="no" n="60"/>i, sed poterunt officiare Ecclesiam, &amp; forte 
+       distributio<lb ed="#S" break="no" n="61"/>nes percipere, licet non grossos fructus. Item qui in 
+       pro<lb ed="#S" break="no" n="62"/>batione defeceriteius, quod obijcit personam electi 
+       cuius<lb ed="#S" break="no" n="63"/>cuoque a qui buscunque beneficijs Ecclesiasticis triennio no 
+      <lb ed="#S" n="64"/>uerit se suspensut. Ad quae si infra illud tempus propria 
+      <lb ed="#S" n="65"/>temeritate se ingefserit, illis perpetuo sit priuaturnullam 
+      <lb ed="#S" n="66"/>super hoc spem, vel fiduciam de misericordia. i. 
+       dispensatio<lb ed="#S" break="no" n="67"/>ne habiturus: nisi manifestissimis constiterit documentis: 
+      <!--0244.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>quod ipsum a calumniae vitio causa probabilis &amp; sufficiens 
+      <lb ed="#S" n="69"/>excusaret. de elec. c. 1. li. 6. Item si eligentes electionem 
+       in<lb ed="#S" break="no" n="70"/>fra octo dies vel postquam commode poterunt, ipsis electis 
+       prae<lb ed="#S" break="no" n="71"/>sentare distulerint ipsos, qui in hoc culpabiles extiterint, 
+      <lb ed="#S" n="72"/>per triennium continuum volumus esse suspensos: intra quod 
+      <lb ed="#S" n="73"/>si perceperint perpetuo sint priuati. eo. c. Cupientes. li. 6. 
+    </p>
+            <p xml:id="khj78y-q72154-d1e364" n="7">
+               <lb ed="#S" n="74"/>
+               <!-- 7 -->secundus vsurpat. Quicunque de collegio vacantibus 
+      <lb ed="#S" n="75"/>Ecclesijs collegiatis quibuscunque occupant aliquid de 
+      <lb ed="#S" n="76"/>bonis illis, tandiu sunt ab officio &amp; beneficijs suspensi 
+       qui<lb ed="#S" break="no" n="77"/>buscumque, donec restituant ad plenum, contraria consuetudine 
+      <lb ed="#S" n="78"/>non obstante: de ele. Quia. li. 6. Et non solum beneficijs in 
+       il<lb ed="#S" break="no" n="79"/>la Ecclesia: sed etiam in alijs, quia suspensi sunt ab officio, 
+      <lb ed="#S" n="80"/>&amp; per consequens ab omni beneficio. Qui autem 
+       vacanti<lb ed="#S" break="no" n="81"/>bus dignitatibus, prioratibus quibuscunque, vel Ecclesijs 
+      <lb ed="#S" n="82"/>sibi subiectis, seu ad suam collationem, praesentationem vel 
+      <lb ed="#S" n="83"/>custodiam spectantibus, morientibus rectoribus bona inuen 
+      <lb ed="#S" n="84"/>ta, vel interim obuenientia occupant: nisi hoc habeant de 
+      <lb ed="#S" n="85"/>priuilegio, vel consuetudiue, vel alia causa rationabili, si 
+      <lb ed="#S" n="86"/>sunt inferiores episcopis ab officio &amp; beneficio tandiu sunt 
+       su<lb ed="#S" break="no" n="87"/>spensi, quousque restitutionem fecerint de praedictis: de 
+       offi<lb ed="#S" break="no" n="88"/>ordi. praesenti. li. 6.
+    </p>
+            <p xml:id="khj78y-q72154-d1e401" n="8">
+      <!-- 8 -->Tertius, conseruat. 
+       Conseruato<lb ed="#S" break="no" n="89"/>res qui aliquibus vt a manifestis iniurijs &amp; violentijs te 
+      <lb ed="#S" n="90"/>nentur eosdem a sede Apostolica deputantur: si de alijs quam de 
+      <lb ed="#S" n="91"/>manifestis iniurijs &amp; violentijs se intromiserint, seu ad 
+      <lb ed="#S" n="92"/>alia quae ad iudicialem indaginem exigunt suam extenderint 
+      <lb ed="#S" n="93"/>potestatem, eo ipso per vnum annum ab officio sunt suspensi: 
+      <lb ed="#S" n="94"/>de elec. c. vlti. li. 6.
+    </p>
+            <p xml:id="khj78y-q72154-d1e420" n="9">
+      <!-- 9 -->Quartus, simone. simoniaci in 
+      <lb ed="#S" n="95"/>ordinatione ipso iure sunt suspensi, etiam si sint occulti: sed 
+      <lb ed="#S" n="96"/>simoniaci aliter nisi sint notorij, non sunt suspensi. 1. q. 1. 
+      <lb ed="#S" n="97"/>Quicumque . &amp;. c. reperiuntur. sed hic est dubium vtrum qui per 
+      <lb ed="#S" n="98"/>simoniam consecratur eps, an sit suspensus. Et videtur quod sic: 
+      <lb ed="#S" n="99"/>quia episcopalis ordo est ordo. Contra: quia non est expressum: 
+      <lb ed="#S" n="100"/>&amp; prius est episcopus quam debeat ligari. De hoc dicetur infra de 
+      <lb ed="#S" n="101"/>simoniacis.
+    </p>
+            <p xml:id="khj78y-q72154-d1e440" n="10">
+      <!-- 10 -->Quintus, donat: quicuque non epraes ordi 
+      <lb ed="#S" n="102"/>nario iure subiectus visitare habens, si visitationis officio 
+      <lb ed="#S" n="103"/>non impenso procurationem in victualibus, aut aliquid 
+      <lb ed="#S" n="104"/>aliud procurationis occasione receperint, aut si in 
+       visi<lb ed="#S" break="no" n="105"/>tando ipsi vel quisquam suorum aliquod munus quodcunque 
+      <lb ed="#S" n="106"/>sit, &amp; qualitercunque offeratur receperunt: nisi infra 
+       men<lb ed="#S" break="no" n="107"/>sem duplum illi Ecclesiae reddiderint, remissione dantium 
+      <lb ed="#S" n="108"/>nil valente, ex tunc omnes inferiores episcopis ab officio &amp; 
+       benefi<lb ed="#S" break="no" n="109"/>cio sunt suspensi, quousque Ecclesiae grauatae satisfecerint: 
+      <lb ed="#S" n="110"/>de censibus. c. exigit li. 6. sed quidam excipiunt religiosos: 
+      <lb ed="#S" n="111"/>quia in decretali praecedente cuius illa est executiua &amp; 
+      <lb ed="#S" n="112"/>vallatiua, &amp; per consequens non punitnisi compraehensos in 
+      <lb ed="#S" n="113"/>illa dicit sic. saluis super haec rationabilibus &amp; approba 
+      <lb ed="#S" n="114"/>tis religiosorum consuetudinibus, &amp; regularibus institutis. 
+      <lb ed="#S" n="115"/>sed per hoc magis includuntur regulares, quae excludantur: 
+      <lb ed="#S" n="116"/>quia non dicit exceptis regularibus, sed eorum consuetudini 
+      <lb ed="#S" n="117"/>bus. si cm̃ est consuetudo, quod visitanti detur non solum 
+       procu<lb ed="#S" break="no" n="118"/>ratio in domo, sed dentur etiam expensae pro via, quis 
+       fe<lb ed="#S" break="no" n="119"/>cit vel faciet &amp; huiusmodi est bona causa, sed non est 
+       con<lb ed="#S" break="no" n="120"/>suetudo, quod occulte munera recipiat, vt iudicia 
+       subuer<lb ed="#S" break="no" n="121"/>tat. Vnde si in hoc peccat, nulla corruptela excusat, quin 
+      <lb ed="#S" n="122"/>poenam incurrat. sed verum est quod loquitur de ordinario 
+      <lb ed="#S" n="123"/>iure visitantibus: non de visitatoribus a praelato, vel conci 
+      <lb ed="#S" n="124"/>lio, aut capitulo missis. sextus. Obligo. Ile qui pro 
+       alie<lb ed="#S" break="no" n="125"/>nis debitis Ecclesiam suam grauat, aut literas seu sigilla 
+       con<lb ed="#S" break="no" n="126"/>cedit: quibus possent Ecclesiae obligari, ab 
+       administra<lb ed="#S" break="no" n="127"/>tione spiritualium &amp; temporalium est suspensus. de solutioni 
+      <lb ed="#S" n="128"/>bus. c. secundo. Verbi gratia. si ipse mutuum recipit sub 
+       si<lb ed="#S" break="no" n="129"/>gillo Ecclesiae suae, &amp; nomine eius confitem in vtilitatem eius 
+      <lb ed="#S" n="130"/>esse conuersum: quod ipse dedit pro maritanda nepte, vel pro 
+      <lb ed="#S" n="131"/>guerra amici sui vel huiusmodi. Idem videtur si pro seipso in 
+      <lb ed="#S" n="132"/>casu illicito, &amp; non pro vtilitate Ecclesiae: quia est debitum 
+      <lb ed="#S" n="133"/>alienum ab Ecclesia licet non ab ipso. Et est intelligendu: 
+      <lb ed="#S" n="134"/>quod obligatio non valet si potest probari: sed qum confitetur 
+      <!--0245.xml-->
+      <pb ed="#S" n="245"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>conuersum in vrilitatem Ectlefiae statur concessioni: uist con 
+      <lb ed="#S" n="2"/>trarium probetur, &amp; sic possunt literae nocere Ecclesiae. 
+       se<lb ed="#S" break="no" n="3"/>ptimus. non obstat. praelati non episcopi qui Ecclesias sibi 
+      <lb ed="#S" n="4"/>commissas, sea bona ipsarum aut iura ipsarum subiiciunt, vel 
+      <lb ed="#S" n="5"/>supponunt, absque consensu capituli, &amp; sedis apostolicae 
+       licen<lb ed="#S" break="no" n="6"/>tia speciali, recognoscendo ea ab ipsis sicut a 
+       superiori<lb ed="#S" break="no" n="7"/>bus se tenere, vel ipsos aduocando: ipso facto ab officio &amp; 
+      <lb ed="#S" n="8"/>administratione simpliciter sunt suspensi. Clerici qui 
+       scien<lb ed="#S" break="no" n="9"/>tes huiusmodi nouam aduocationem superiori non 
+       denun<lb ed="#S" break="no" n="10"/>eiant: a perceptione beneficiorum quae in illa Ecclesia sic 
+      <lb ed="#S" n="11"/>supposita obtinet, triemnio suspensi sunt. de. re. Eccle. non 
+      <lb ed="#S" n="12"/>alie. c. 2. li. 6. quando autem aliqui guardiam seu custodiam in 
+      <lb ed="#S" n="13"/>quibuscunque piis locis de nouo vfurpando, bona illorum 
+      <lb ed="#S" n="14"/>vacantium occupant, clerici qui se vt debent talia 
+       facienti<lb ed="#S" break="no" n="15"/>bus, non se opponunt: de prouentibus illarum Ecclesiarum 
+      <lb ed="#S" n="16"/>protempore quo praemissa sine contradictione fieri 
+       permi<lb ed="#S" break="no" n="17"/>serunt: nihil recipere debent de elec. c. generali. li. 6. Octa 
+      <lb ed="#S" n="18"/>uus. diuinis. Iste casus est de priu. c. episcoporum. li. 6. Om 
+      <lb ed="#S" n="19"/>nes exempti qui scienter celebrant, vel celebrari faciunt diui 
+      <lb ed="#S" n="20"/>na, nisi quatenus a iure conceditur in locis interdictis ab 
+      <lb ed="#S" n="21"/>homine, vel a iure. Item qui excommunicatos publice, vel 
+      <lb ed="#S" n="22"/>interdictos publice, ad diuina officia, vel Ecclesiastica 
+       sa<lb ed="#S" n="23" break="no"/>cramenta, siue ad Ecclesiasticam sepulturam admittunt: sunt suspensi 
+      <lb ed="#S" n="24"/>ab ingressu Ecclesiae: donec de trangressione huiusmodi 
+      <lb ed="#S" n="25"/>ad arbitrium eius cuius sententiam contempserunt, 
+       satisfece<lb ed="#S" n="26" break="no"/>runt competenter. Non est autem admittere ad diuina, audi 
+      <lb ed="#S" n="27"/>re cu eo minam: icu ei uicere minam: nec itare cu eo in 
+      <lb ed="#S" n="28"/>choro, nisi quo ad illum qui habet regere chorum. Nec ad se 
+      <lb ed="#S" n="29"/>pulturam admittere, interesse sepulturae: sed illi cuius est 
+      <lb ed="#S" n="30"/>recipere vel repellere, &amp; consentire quod sepellatur. Item non 
+       ha<lb ed="#S" n="31" break="no"/>bet locum: nisi in exemptis, sed glosa dicit contrarium: quia 
+       di<lb ed="#S" break="no" n="32"/>citur ibi quantuncunque exempti: quasi dicat, multo magis si 
+      <lb ed="#S" n="33"/>non sunt exempti: &amp; in primo incurritur solum suspensio &amp; 
+       ir<lb ed="#S" break="no" n="34"/>regularitas: in aliis sola suspensio prima vice. Nonus. ordi 
+      <lb ed="#S" n="35"/>ne. Quicunque ordinatur a non suo episcopo sine licentia 
+      <lb ed="#S" n="36"/>sui: nisi sub spe ratihabitionis verisimiliter, est suspensus 
+      <lb ed="#S" n="37"/>perpetuo sine spe dispensationis: de tempo. ordi. c. 1. li. 7. 
+       li<lb ed="#S" break="no" n="38"/>cet videatur loqui solum de citramontanis, qui ab italicis 
+      <lb ed="#S" n="39"/>ordinantur: sed idem intelligitur de aliis. Decimus. praestat. 
+      <lb ed="#S" n="40"/>Omnes qui manifestos vsurarios recipiunt adEcclesiasti 
+      <lb ed="#S" n="41"/>cam sepuitura antequa tatisrecerint. vei de iatisractione 
+      <lb ed="#S" n="42"/>idoneam dederint cautionem: suspensi sunt ab officio sui exe 
+      <lb ed="#S" n="43"/>cttione, donec satisfecerint ad arbitrium su episcopi. de 
+      <lb ed="#S" n="44"/>vsuris capitulo vltimo. li. 6. sed antiquit' prohibebatur 
+      <lb ed="#S" n="45"/>quod nec ad communionem altaris reciperentur tales, nec 
+       obla<lb ed="#S" break="no" n="46"/>tionem eorum quisquam reciperet: alioquin suspensus esset vt 
+      <lb ed="#S" n="47"/>prius. sed Hostiem. dicit non esse canonem latae sententiae, sed 
+      <lb ed="#S" n="48"/>ferendae. de vsuris. capitulo. Quia in omnibus. Qui etiam 
+      <lb ed="#S" n="49"/>eos recipit ad diuina vel Ecclesiastica sacramenta, in 
+       re<lb ed="#S" break="no" n="50"/>gno Franciae suspensus est ab ingressu Ecclesiae: donec 
+       sa<lb ed="#S" break="no" n="51"/>tisfecerint omnibus quorum interest, vt in constitotionibus 
+      <lb ed="#S" n="52"/>simonis legati de priuilegiis. capit. 1. vbi loquitur solum 
+      <lb ed="#S" n="53"/>de exemptis. Vndecimus. Forni. sacerdos qui est notorius 
+      <lb ed="#S" n="54"/>fornicator &amp; concubinarius, est suspensus ab offiicio: quia 
+      <lb ed="#S" n="55"/>nullus debet eius missam audire, nec ab eo sacramenta re 
+      <lb ed="#S" n="56"/>cipere. de cohabitatione clericorum. cap. vlt. Non enim 
+       re<lb ed="#S" break="no" n="57"/>fert vtrum habeat concubinam vnam publice, an publico sit quod 
+      <lb ed="#S" n="58"/>ipse habeat plures. vel vadat publice ad lupamnar. 
+       Paro<lb ed="#S" break="no" n="59"/>chianus vero qui scit, videtur excusatus dissimulante prae 
+      <lb ed="#S" n="60"/>lato qui aeque bene scit, &amp; non contra eum aliquid agit. Duo 
+      <lb ed="#S" n="61"/>decimus. Moni. Iudex qui monitione non praemissavel non 
+      <lb ed="#S" n="62"/>adhibitis debitis testibus: &amp; idoneis profert sententiam ex 
+      <lb ed="#S" n="63"/>communicationis vel interdicti: est suspensus ab ingressu Ec 
+      <lb ed="#S" n="64"/>clesiae per mensem. de senten. excommunica. sacro. Tertius 
+      <lb ed="#S" n="65"/>decimus. que grauat. Iudex Ecclesiasticus qui in iudicio 
+      <lb ed="#S" n="66"/>aliquid facit per gratiam, vel per sordes contra iostitiam &amp; 
+      <lb ed="#S" n="67"/>tonsciemiam, in grauamem partis: ab executione ufficij pe- 
+      <!--0245.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>vnum annium nouerit se suspensum. de sentem. &amp; re iudicata. &amp; 
+      <lb ed="#S" n="69"/>r. lib. 6. Quartusdecimus. seriptum. Iudex Ecclesiasticus qui 
+      <lb ed="#S" n="70"/>profert sententiam excommunicationis: vel suspensionis vel 
+      <lb ed="#S" n="71"/>interdicti sine scriptis: vel sine causae expressione, vel 
+       re<lb ed="#S" break="no" n="72"/>quisitus non facit copiam infra mensem: est suspensus ab ingres 
+      <lb ed="#S" n="73"/>su Ecclesiae &amp; diuinis per mensem. de sententia excommunicatio 
+      <lb ed="#S" n="74"/>nis. cap. t. lib. 6. Praeter autem praedictos casus aliqui 
+       assi<lb ed="#S" break="no" n="75"/>gnant primum de simonia. cap. si quis ordinauerit. vbi di 
+      <lb ed="#S" n="76"/>citur. quod ordinans sub tali pacto promissione simplici: vel 
+      <lb ed="#S" n="77"/>luramento vallato: quod super promissione sua non inquientet 
+      <lb ed="#S" n="78"/>eum ordinator, a collatione ordinum per triennium est 
+       suspen<lb ed="#S" break="no" n="79"/>sus: &amp; licet hic non exprimatur episcopus: tamen quia 
+       nul<lb ed="#S" break="no" n="80"/>lus est ordinator, maxime sacrorum ordinum in quibus 
+       ordi<lb ed="#S" break="no" n="81"/>nans tenetur prouidere ordinato, nisi Episcop: ideo 
+       Epi<lb ed="#S" break="no" n="82"/>scopus est ibi suspensus. secundo, praesentator qui consimi 
+      <lb ed="#S" n="83"/>li pacto praesentauit: ab executione ordinum per triennium 
+      <lb ed="#S" n="84"/>est suspensus: ibidem. Tertio, sic ordinatus est suspensus: do 
+      <lb ed="#S" n="85"/>nec per Papam fuerit cum eo dispensatum. Tertio, videndum est 
+      <lb ed="#S" n="86"/>de eius effectu, vbi sunt vndecim conclusiones.
+    </p>
+            <p xml:id="khj78y-q72154-d1e713" n="11">
+      <!--11-->
+       Pri<lb ed="#S" break="no" n="87"/>ma conclusio. quod si suspensus ab ingressu Ecclesiae ingerat se 
+      <lb ed="#S" n="88"/>diuinis: ita est irregularis ac si esset excommunicatus extra 
+      <lb ed="#S" n="89"/>eodem. Nec cui. Nec debet habere Ecclesiasticam 
+       sepultu<lb ed="#S" break="no" n="90"/>ram sicut ibi dicitur.
+    </p>
+            <p xml:id="khj78y-q72154-d1e726" n="12">
+      <!-- 12 -->Hoc autem verum est, si ipse 
+       suspen<lb ed="#S" break="no" n="91"/>sus celebrauerit intra Ecclesiam: quia si sub dio vel 
+       ex<lb ed="#S" break="no" n="92"/>tra Ecclesiam celebret, non est irregularis: cum extra Ecclesiam 
+      <lb ed="#S" n="93"/>nihil fit sibi prohibitum: vt dicitur in glosa ibidem. Cimiterium 
+      <lb ed="#S" n="94"/>autem per consequens est sibi interdictum: vnde si ibi sepeliat, 
+      <lb ed="#S" n="95"/>vel celebret irregularis est: siue sit contiguum siue non, quia 
+      <lb ed="#S" n="96"/>hoc est interdictum hominis non loci. si autem esset suspen 
+      <lb ed="#S" n="97"/>sus etiam a diuinit, vbicumque celebraret: ipse fieret 
+       irregula<lb ed="#S" break="no" n="98"/>ris. Item suspensus ab ingressu Ecclesiae non debet intrare Ec 
+      <lb ed="#S" n="99"/>clesiam plusquam excommunicatus, sed beneficia potest percipere 
+      <lb ed="#S" n="100"/>omnia: quorum perceptio ingressum Ecclesiae non requirit: 
+      <lb ed="#S" n="101"/>licet quidam probabiliter dicant, quodcum priuatus ab ingresse 
+      <lb ed="#S" n="102"/>Ecclesiae: sit per consequens priuatus ab officio intra Eccle 
+      <lb ed="#S" n="103"/>siam. quia etiam a benefitio.
+    </p>
+            <p xml:id="khj78y-q72154-d1e759" n="13">
+      <!-- 13 -->secunda conclusio. quod si 
+       ali<lb ed="#S" break="no" n="104"/>quis est suspensus a beneficio tantum, &amp; ingerat se diuinis 
+      <lb ed="#S" n="105"/>nec peccat, nec est irregularis. de electione. Cum in cunctis. 
+      <lb ed="#S" n="106"/>&amp; cap. 1. &amp; cupientes. lib. 6. &amp; cap. c Generali: &amp; de rebus 
+      <lb ed="#S" n="107"/>Ecclesiae non alienandis. cap. 2. quia non est prohibitus ab 
+      <lb ed="#S" n="108"/>illis. sed si ingerat se illis quibus est priuatus: aliam poenam 
+      <lb ed="#S" n="109"/>potest incurrere, sed non irregularitatem: quae non incurritur 
+      <lb ed="#S" n="110"/>ex hoc, quod homo ingerit se diuinis: nisi hoc sit in actu 
+       ali<lb ed="#S" break="no" n="111"/>cuius ordinis sacri, per se requisiti de iure vel consuetodi 
+      <lb ed="#S" n="112"/>ne, vel saltem ordinis Episcopalis vt multis videtur. Dico 
+      <lb ed="#S" n="113"/>autem actum ordinarium de iure vel de consuetudine: quiavbi 
+      <lb ed="#S" n="114"/>est consuetum, quod solus sacerdos incipit Deus in adiutorium: 
+      <lb ed="#S" n="115"/>si suspensus ab ingressu, vel a diuinis, vel ab officio, ibi in 
+      <lb ed="#S" n="116"/>ciperet solenniter, irregularis fieret.
+    </p>
+            <p xml:id="khj78y-q72154-d1e792" n="14">
+      <!--14 -->Tertia 
+       conclu<lb ed="#S" break="no" n="117"/>sio, quod si est aliquis suspensus ab officio: &amp; per consequens a 
+      <lb ed="#S" n="118"/>beneficio, quod est propter officium: tunc perinde est ac si 
+      <lb ed="#S" n="119"/>osset sospensus ab vtroque : quia &amp; in vtroque casu, fi ingeras 
+      <lb ed="#S" n="120"/>se diuinis est irregularis: de sententia &amp;re iudicata: cap. 
+       1<lb ed="#S" break="no" n="121"/>li. 6.
+    </p>
+            <p xml:id="khj78y-q72154-d1e809" n="15">
+      <!-- 15 -->Quarta conclusio. quando est suspensus ab officio 
+      <lb ed="#S" n="122"/>non simpliciter, sed secundum quid: est dubium, vtrum incur 
+      <lb ed="#S" n="123"/>rat irregularitatem: &amp; certum est quod non si in alio officio agat, 
+      <lb ed="#S" n="124"/>quam in illo a quo est suspensus. Vnde si est suspensus a col 
+      <lb ed="#S" n="125"/>latione ordinum, &amp; omnia alia praeter ordines agat, nullum 
+      <lb ed="#S" n="126"/>poenam incurrit: &amp; sic de alijs.
+    </p>
+            <p xml:id="khj78y-q72154-d1e825" n="16">
+      <!-- 16 -->Quinta conclusio est, 
+      <lb ed="#S" n="127"/>Quod si i illo ordine a cuius executione est suspensus agat 
+      <lb ed="#S" n="128"/>&amp; non est sacer videtur dubium. Vnde episcopus qui 
+       suspen<lb ed="#S" break="no" n="129"/>sus est a collatione tonsurae per annu: si eam tonferat, 
+       vide<lb ed="#S" break="no" n="130"/>tur magis nihil agere, quam poenam incurrere. Quid enim 
+      <lb ed="#S" n="131"/>conatus affuit qui no habuit effectum. ffquod quisque iure. 
+       le<lb ed="#S" break="no" n="132"/>ge prima. 6. statuit. De temporibus ordinandorum. cap. 
+       vle<lb ed="#S" break="no" n="133"/>lib. 6. similiter si suspensus a confirmatione confirmet: nihil 
+      <lb ed="#S" n="134"/>est actum: &amp; non videtur incurrert irregolamatem.
+    </p>
+            <p xml:id="khj78y-q72154-d1e847" n="17">
+      <!--17--> 
+      <!--0246.xml-->
+               <pb ed="#S" n="246"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Sexta conclusio. quod si suspensus a consecratione vel 
+       ordi<lb ed="#S" break="no" n="2"/>natione, consecret vel ordinet: tunc est aliquid actum: quod 
+      <lb ed="#S" n="3"/>Papa non potuit impedire, saltem de charactere ordinis, 
+      <lb ed="#S" n="4"/>vnde punitur de irregularitate.
+    </p>
+            <p xml:id="khj78y-q72154-d1e867" n="18">
+      <!-- 18 -->septima 
+       conclu<lb ed="#S" break="no" n="5"/>sio. quod suspensus ab officio si ingerat se officio non ordinis 
+      <lb ed="#S" n="6"/>quod habet: puta quia iudex est: nullam poenam incurrit: 
+      <lb ed="#S" n="7"/>sed nihil est quod agit. De offi. deleg. cap. vlti. li. 6. &amp; 
+       fi<lb ed="#S" break="no" n="8"/>milibus. sed si officio diuino se ingerit, tunc 
+       irregularita<lb ed="#S" break="no" n="9"/>tem incurrit non aliter. Et sic debet intelligi de senten. &amp; re 
+      <lb ed="#S" n="10"/>iudicata. c. 1. licet quidam dicant, quod prior suspensus si teneat 
+      <lb ed="#S" n="11"/>capitulum fit irregularis. Item suspensus a beneficio si fructus 
+      <lb ed="#S" n="12"/>capiat, non est irregularis: quia nec facit eos suos: sed quam 
+      <lb ed="#S" n="13"/>doque aliter punitur, vt de electi. c. 1. li. 6. &amp;. c. Cupientes 
+      <lb ed="#S" n="14"/>igitur caeterum: vbi beneficijs perpetuo priuantur, qui 
+       su<lb ed="#S" break="no" n="15"/>spensione ab illis durante illis se ingerunt.
+    </p>
+            <p xml:id="khj78y-q72154-d1e896" n="19">
+      <!-- 19 -->Octaua 
+      <lb ed="#S" n="16"/>conclusio. quod suspensus a beneficio vel ab officio in diuinis 
+      <lb ed="#S" n="17"/>nisi sit suspensus ab executione iurisdictionis potest absol 
+      <lb ed="#S" n="18"/>uere: &amp; excommunicare. de senten. excommunicationis sacro. Et per hoc 
+      <lb ed="#S" n="19"/>patet solutio ad argumentum. sed si est suspesus 
+       simplici<lb ed="#S" break="no" n="20"/>ter, intelligitur ab omni officio &amp; beneficio suspensus &amp; 
+      <lb ed="#S" n="21"/>nihil potest quod homo prohibere potest, &amp; ingerens se 
+      <lb ed="#S" n="22"/>diuinis est irregularis: suspensus vero a determinato 
+       of<lb ed="#S" break="no" n="23"/>ficio, in alijs tantum potest quantum ante. Et suspensusa 
+       be<lb ed="#S" break="no" n="24"/>neficico in nullo officio, habet impedimentum plusquam ante. 
+    </p>
+            <p xml:id="khj78y-q72154-d1e920" n="20">
+               <lb ed="#S" n="25"/>
+               <!-- 20 -->Nona conclusio. Quod si Papa committat abbati 
+       confir<lb ed="#S" break="no" n="26"/>mare, &amp; conferre minores ordines, &amp; postea suspendat eum 
+      <lb ed="#S" n="27"/>ab vtroque, ille ordinando vel confirmando: nullum 
+       characte<lb ed="#S" break="no" n="28"/>rem confert: imo nihil agit plusquam delegatus a delegan 
+      <lb ed="#S" n="29"/>te suspensus: qui excommunicando nihil agit. vnde 
+       irregulari<lb ed="#S" break="no" n="30"/>tatem non incurrit. sed si episcopus qui iure suo confirmat, 
+      <lb ed="#S" n="31"/>vel ordinat minores ordines, a collatione istorum 
+       suspen<lb ed="#S" break="no" n="32"/>datur: nihilominus confirmando &amp; ordinando verum charactem 
+      <lb ed="#S" n="33"/>rem imprimit: &amp;ideo irregularitatem incurrit. Licet autem iure 
+      <lb ed="#S" n="34"/>suo conferat tonsuram: quia tum illa est iuris positiui sicut iurisdi 
+      <lb ed="#S" n="35"/>tio. sicut suspensus a iurisditione exercendo eam nihil agit: ita 
+      <lb ed="#S" n="36"/>videtur, quod epraes iure papali a collatione tonsurae suspensus, eam 
+      <lb ed="#S" n="37"/>conferendo nihil agat. Decima conclusio. quod suspensio proprie 
+      <lb ed="#S" n="38"/>dicta est, quae aliquis prohibetur vti iure suo, no autem qua prohibe 
+      <lb ed="#S" n="39"/>tur vti iure prohibentis, quia illud em magis inhibitio vel reuo 
+      <lb ed="#S" n="40"/>catio. Vnde si officialis prohibeat curatum celebrare, vel confes 
+      <lb ed="#S" n="41"/>siones audire, quae ipse facit iure suo, si ex commissione of 
+      <lb ed="#S" n="42"/>ficialis est suspesio proprie dicta: propter quod si hoc 
+       fa<lb ed="#S" break="no" n="43"/>ciat officialis, sine scriptis vel sine monitione suspensionem 
+      <lb ed="#S" n="44"/>incurrit: de sententia excommunicationis c. sacro. li. 5. Cum medicinalis. li. 6. 
+      <lb ed="#S" n="45"/>si episcopus qui dedit potestatem suam fratribus, vel saecula 
+      <lb ed="#S" n="46"/>ribus, suspendat eos ab audientia confessionum nomine suo: 
+      <lb ed="#S" n="47"/>non est suspensio, sed mandati reuocatio. Vnde si abbas vel 
+      <lb ed="#S" n="48"/>prior, cuius solius auctoritate fratres se mutuo absoluunt 
+      <lb ed="#S" n="49"/>suspendat aliquem ab audientia allorum fratrum sine scriptis &amp; 
+      <lb ed="#S" n="50"/>monitione, nullam poenam incurrit: quia totam potestatem si 
+      <lb ed="#S" n="51"/>vellet posset reuocare nudo verbo, sicut dedit &amp; multo 
+      <lb ed="#S" n="52"/>magis partem. sed si a potestate audiendi saeculares, quam 
+      <lb ed="#S" n="53"/>habet a Papa vel episcopo, cum prohiberet: proprie dicta 
+      <lb ed="#S" n="54"/>suspensio esset. Et sic sine scriptis &amp; sine monitione hoc fa 
+      <lb ed="#S" n="55"/>ciens incurreret, nisi quis dicat, quod adhuc nec istud esset 
+      <lb ed="#S" n="56"/>suspensio proprie dicta, quia sine licentia praelati, nec aucto 
+      <lb ed="#S" n="57"/>ritate Papae nec auctoritate episcopi audire debet. Vum si. 
+      <lb ed="#S" n="58"/>cut a principio poterat solo verbo inhibere ne audiret: 
+      <lb ed="#S" n="59"/>sic etiam ex post facto. si autem dicat in generali: quicunque 
+      <lb ed="#S" n="60"/>fecerit hoc vel illud, suspendo eum ab vsu clauium: videtur 
+      <lb ed="#S" n="61"/>non incurrere suspensionem, dato quod illud sit suspensio proprie 
+      <lb ed="#S" n="62"/>dicta: si vera est opinio dicentium, quod illa decretalis sacro. 
+      <lb ed="#S" n="63"/>&amp;. Cum medicinasis. non intelligitur de sententia quae fertur 
+      <lb ed="#S" n="64"/>pro futuro facto, sub conditione &amp; in generali.
+    </p>
+            <p xml:id="khj78y-q72154-d1e1012" n="21">
+      <!-- 21 -->
+       Vn<lb ed="#S" break="no" n="65"/>decima conclusio, de absolutione a suspensione, de qua 
+       iu<lb ed="#S" break="no" n="66"/>ra non faciunt multum mentionem: quia communiter in iure 
+      <lb ed="#S" n="67"/>ponitur tempus suspensionis, quo posito ante illud tempas 
+      <!--0246.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>nullus nisi Papa potest hominem absoluere. quia si 
+       dica<lb ed="#S" break="no" n="69"/>tur per mensem, aut per annum, aut terminum, aut quousque 
+      <lb ed="#S" n="70"/>fecerit hoc vel illud sit suspensus, si posset interi absolui, 
+      <lb ed="#S" n="71"/>mox absolutus iterum esset suspensus, quousque ille terminus 
+      <lb ed="#S" n="72"/>esset expletus. sed Papa sic posset absoluere, quod nec postea 
+      <lb ed="#S" n="73"/>incurreret qui iuri non subest. Vbi autem homo in iure 
+       su<lb ed="#S" break="no" n="74"/>spenditur, &amp; terminus nunquam praefigitur: tunc episcopus 
+      <lb ed="#S" n="75"/>potest absoluere, sicut ab excommunicatione ex quo conditor non 
+      <lb ed="#S" n="76"/>reseruat. Quando vero homo suspendit ipse vel superiore 
+      <lb ed="#S" n="77"/>a bsoluere potest, &amp; successor &amp; non alius, sicut de 
+       excommunica<lb ed="#S" break="no" n="78"/>tione dictum est. Argumentum solutum est. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

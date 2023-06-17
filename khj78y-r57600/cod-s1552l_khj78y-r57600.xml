@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="490"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r57600"><!-- l4d45-q3 -->
+            <head xml:id="khj78y-r57600-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-r57600-Hd1e103" type="question-title">
+     de receptaculis 
+     animarum post mortem
+   </head>
+            <p xml:id="khj78y-r57600-d1e106">
+               <lb ed="#S" n="32"/>QVAESTIO TERTIA. 
+      <lb ed="#S" n="33"/>De receptaculis animarum post mortem. \
+    </p>
+            <p xml:id="khj78y-r57600-d1e113">
+               <lb ed="#S" n="34"/>Thom. 4. Distin. 45. Quaelt. I. ar. I. 
+    </p>
+            <p xml:id="khj78y-r57600-d1e118">
+               <lb ed="#S" n="35"/>QVAERITVR tertio de receptaculis 
+      <lb ed="#S" n="36"/>animarum post mortem. Et videtur quod non 
+      <lb ed="#S" n="37"/>sint plura: quia omnes animae sunt vnius 
+      <lb ed="#S" n="38"/>speciei: sed omnibus corporibus vnius spe 
+      <lb ed="#S" n="39"/>ciei debetur vnus locus: ergo similiter 
+       omni<lb ed="#S" break="no" n="40"/>bus animabus.
+    </p>
+            <p xml:id="khj78y-r57600-d1e135" n="2">
+      <!-- 2 -->Contra, quia diues sepultus est in in 
+      <lb ed="#S" n="41"/>ferno et Lazarus in sinu Abrahae.
+    </p>
+            <p xml:id="khj78y-r57600-d1e142" n="3">
+      <!-- 3 -->Respondeo, hic 
+      <lb ed="#S" n="42"/>sunt tria videnda. Primo, de receptaculis quantum ad situm 
+      <lb ed="#S" n="43"/>in generali. secundo, de distinctione situum in speciali. 
+      <lb ed="#S" n="44"/>Tertio, de sufficientia &amp; differentia introitus &amp; exitus il 
+      <lb ed="#S" n="45"/>lorum.
+    </p>
+            <p xml:id="khj78y-r57600-d1e155" n="4">
+      <!-- 4 -->Quantum ad primum sunt tres conclusiones. 
+      <lb ed="#S" n="46"/>Prima, quod inter ista receptacula coelum est sursum: alia qua 
+      <lb ed="#S" n="47"/>tuor deorsum: &amp; videtur probabilius quod sub terra circa 
+      <lb ed="#S" n="48"/>centrum: quia quamuis Aug. arbitretur neminem scire: 
+       pro<lb ed="#S" break="no" n="49"/>bat tamen Grego. 4. dialo. sub terra esse infernum. Primo, 
+      <lb ed="#S" n="50"/>quia itio ad infernum vocatur descensius: descendit ad 
+       in<lb ed="#S" break="no" n="51"/>feros. &amp;c. Iacob &amp; lob. Item, eruisti animam meam ex inferno 
+      <lb ed="#S" n="52"/>inferiori. Item Isaiae. 14. Infernus subtus &amp; conturbatus 
+      <lb ed="#S" n="53"/>est. Nec obstat quod coelum plenum est electis qui sunt pauci 
+      <lb ed="#S" n="54"/>vt impleatur domus Dei: &amp; tamen terra est quasi centrum: 
+      <lb ed="#S" n="55"/>&amp; stultorum infinitus est numerus: quia illud intelligitur, 
+      <lb ed="#S" n="56"/>non de plenitudine co:npustationis, sed pulchritndinis 
+      <lb ed="#S" n="57"/>qua dicetur coelu plenum si. llis, &amp; mare piscibus, &amp; mun 
+      <lb ed="#S" n="58"/>dus hominiubs.
+    </p>
+            <p xml:id="khj78y-r57600-d1e188" n="5">
+      <!-- 5 -->secunda conclusio est, quomodo capiat 
+      <lb ed="#S" n="59"/>infernus tantum multit: inem hominum. Ad quod dicunt 
+      <lb ed="#S" n="60"/>quidam quod omnes homines qui non vint vix capiunt imo non 
+      <lb ed="#S" n="61"/>capiunt millesimam partem terrae: &amp; simul esset sine aliqua 
+      <lb ed="#S" n="62"/>distantia non replerent millesimam nostrae habitabilis: cum 
+      <lb ed="#S" n="63"/>sub omni climate plus appareat de campis vaculs quum de 
+      <!--0490.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>villis plenis sine comparatione: si ergo omnes homines qui 
+      <lb ed="#S" n="65"/>fuerunt ab initio mundi vel erunt vsque in finem, vix 
+       exce<lb ed="#S" break="no" n="66"/>dunt homines qui nunc sunt in millecupla proportione, 
+      <lb ed="#S" n="67"/>omnes homines praeteriti, praesentes &amp; futuri vix occupa 
+      <lb ed="#S" n="68"/>rent superficiem terrae. si ergo concauitas maioris capaci 
+      <lb ed="#S" n="69"/>tatis est quam sit superficies terrae, multo magis poterunt 
+      <lb ed="#S" n="70"/>capi in cocauitatibus terrae: quae quamuis nobis non 
+       ap<lb ed="#S" break="no" n="71"/>pareant: tamen multae sunt, sicut ostendit decursus aqua 
+      <lb ed="#S" n="72"/>rum de montibus &amp; concussiones terrae motuum. Et licet 
+      <lb ed="#S" n="73"/>tota superficies terrae culuscunque maior sit concaditate 
+       si<lb ed="#S" break="no" n="74"/>cunt circumferentia centro, tamen illa quae est habitabilis 
+      <lb ed="#S" n="75"/>non, quia aqua &amp; aestus maiorem partem reddunt 
+       inha<lb ed="#S" break="no" n="76"/>bitabilem. Item quia non creditur plus mundus durare 
+      <lb ed="#S" n="77"/>post aduentum Christi quam durauerit ante: quia nouissi 
+      <lb ed="#S" n="78"/>ma hora &amp; vndecima est, &amp; ponatur quod tantum debeat 
+       du<lb ed="#S" break="no" n="79"/>rare vt sint quinque milia ante: &amp; quinque post, secundum 
+      <lb ed="#S" n="80"/>illud: In medio annorum notum facies, tamen non tot 
+       mo<lb ed="#S" break="no" n="81"/>riuntur quot nascuntur, nec omnes homines generant nec foeminae 
+      <lb ed="#S" n="82"/>dens pariunt: vnde si paruus angulus nostrae terrae habitabilis 
+      <lb ed="#S" n="83"/>continet omnes simul viuentes, nihil praerohibet totum sinum terrae 
+      <lb ed="#S" n="84"/>qui etiam dilatabitur compraehendere omnia corpora damnatorum 
+      <lb ed="#S" n="85"/>&amp; damnandorum, nam de spiritibus qui locum non occupant nulla 
+      <lb ed="#S" n="86"/>est quaestio: vel potest dici quod plura corpora erunt in 
+       co<lb ed="#S" break="no" n="87"/>dem loco Deo faciente ad eorum poenam, quod facit in 
+      <lb ed="#S" n="88"/>coelo ad sanctorum gloriam quorum corpora cum ipso coelo in 
+      <lb ed="#S" n="89"/>diuiso erunt in eodem loco.
+    </p>
+            <p xml:id="khj78y-r57600-d1e264" n="6">
+      <!-- 6 -->Tertia conclusio est, quod 
+      <lb ed="#S" n="90"/>licet in homine nobilior pars sit in medio: sic tamen non 
+      <lb ed="#S" n="91"/>est in vniuerso, sicut in inferno. Dicunt tameg quidam, 
+      <lb ed="#S" n="92"/>quod corpus solis est in medio mundi, sicut cor in medio 
+       ani<lb ed="#S" n="93" break="no"/>malis: &amp; secundum hoc terra non videatur media sed extre 
+      <lb ed="#S" n="94"/>ma, vnde est vilior &amp; coelum nobilius sicut caput respectu 
+      <lb ed="#S" n="95"/>pedis. Vel potest dici, quod non est simile, quia cum 
+       vniuer<lb ed="#S" break="no" n="96"/>sum sit orbiculare &amp; circunferentia sit eiusdem naturae: 
+      <lb ed="#S" n="97"/>quodlibet extremum tenet rationem superioris. Vnde 
+       to<lb ed="#S" break="no" n="98"/>tum coelum dicitur esse sursum ex omni parte suae circum
+       fe<lb ed="#S" break="no" n="99"/>rentiae respectu terrae, &amp; ideo medium tenet rationem infimi. 
+      <lb ed="#S" n="100"/>In homine autem non sic: quia vna extremitas vt caput 
+      <lb ed="#S" n="101"/>dicitur esse superius, alia vt pes dicitur esse inferius: &amp; 
+      <lb ed="#S" n="102"/>ideo mediocritas nec inferius nec superius est: sed habet 
+      <lb ed="#S" n="103"/>influentia ad vtrumque : ideo in homine nobilior pars debet 
+      <lb ed="#S" n="104"/>situari in medio, non sic autem in vniuerso: sed in extremo. 
+    </p>
+            <p xml:id="khj78y-r57600-d1e301" n="7">
+               <lb ed="#S" n="105"/>
+               <!-- 7 -->Quantum ad secundum, quantum ad distinctionem situs in 
+      <lb ed="#S" n="106"/>speciali quantum ad inferna sunt tres conclusiones. Pri 
+      <lb ed="#S" n="107"/>ma certa &amp; quam omnes concedunt: scilicet infernum 
+      <lb ed="#S" n="108"/>damnatorum esse sub omnibus, limbum vero patrum esse 
+      <lb ed="#S" n="109"/>super omnia, vt sit maxima distantia secundum situm 
+       in<lb ed="#S" break="no" n="110"/>ter loca poenarum, iuxta illud: Vidit Abraham a longe, 
+      <lb ed="#S" n="111"/>&amp; chaos magnum inter nos &amp; vos. Non enim habet 
+       poe<lb ed="#S" break="no" n="112"/>nam sensus sicut purgatorij, nec etiam damni aeternam 
+      <lb ed="#S" n="113"/>sicut limbum puerorum, vnde debet esse super omnes con 
+      <lb ed="#S" n="114"/>tinuus vel contiguus inferno.
+    </p>
+            <p xml:id="khj78y-r57600-d1e328" n="8">
+      <!-- 8 -->secunda conclusio est 
+      <lb ed="#S" n="115"/>dubia de duobus modis: quia Tho. in tertio supponit lim 
+      <lb ed="#S" n="116"/>bum puerorum propter aeternitatem: &amp; ne locus 
+       cua<lb ed="#S" break="no" n="117"/>cuetur extremis repletis. sed Petrus de Tharantasia 
+       con<lb ed="#S" break="no" n="118"/>tra sic. Diferentia locorum post mortem assignatur 
+       se<lb ed="#S" break="no" n="119"/>cundum differentiam statuum. Vnde existentibus in 
+       poe<lb ed="#S" break="no" n="120"/>nali statu assignatur locus poenalis: existentibus in 
+       sta<lb ed="#S" break="no" n="121"/>tu delectabili locus delectabilis. status autem 
+       poena<lb ed="#S" break="no" n="122"/>lis dupliciter diuidi potest, vel secundum differentiam 
+      <lb ed="#S" n="123"/>poenae in genere: &amp; sic differt status eorum qui 
+       puniun<lb ed="#S" break="no" n="124"/>tur poena sensus ab his qui poenam damni tantum habent 
+      <lb ed="#S" n="125"/>vel secundum differentiam poenae in differente gradu eiusdem 
+      <lb ed="#S" n="126"/>generis: &amp; sic differt status eorum qui puniuntur poena 
+       tem<lb ed="#S" break="no" n="127"/>porali eadem ab his qui poena aererna. Prima differentia con 
+      <lb ed="#S" n="128"/>stituit loca diuersa secundum sobstatiam, secunda vero non secum 
+      <lb ed="#S" n="129"/>dum sustantiam: sed secundum gradum superioris, &amp; inferioris. Vnde 
+      <lb ed="#S" n="130"/>quia patres &amp; pueri puniebantur eadem poena: sed in gratia 
+      <!--0491.xml-->
+      <pb ed="#S" n="491"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>du differenti: quia patres cum spe liberationis, pueri sine 
+      <lb ed="#S" n="2"/>spe: ideo idem erat locus vtrorumq,: sed patres erant in 
+       lo<lb ed="#S" break="no" n="3"/>co superiori iuxta illud: Vadam ad portas inferi, pueri 
+       ve<lb ed="#S" break="no" n="4"/>ro in inferiori.
+    </p>
+            <p xml:id="khj78y-r57600-d1e382" n="9">
+      <!-- 9 -->sed contra, quia in luce gratiae plus 
+      <lb ed="#S" n="5"/>conueniunt purgandi cum patribus. Econtram, quia cum sit 
+      <lb ed="#S" n="6"/>idem locus animarum &amp; corporum resumptorum non videtur 
+      <lb ed="#S" n="7"/>locus puerorum esse sub terra: quia nec post diem iudicij 
+      <lb ed="#S" n="8"/>erit vt videtur sub terra quoniam ibi non poterunt esse 
+      <lb ed="#S" n="9"/>sine poeua: nisi quis dicat quod erunt in parte tam 
+       propin<lb ed="#S" break="no" n="10"/>qua superficiei terrae quod illuminabuntur eorum oculi a 
+      <lb ed="#S" n="11"/>sole: quia terra in superficie illuminabitur in qua etiam 
+      <lb ed="#S" n="12"/>vitro similabitur. Item non videtur quod pueri sint sub pur 
+      <lb ed="#S" n="13"/>gandis, quia tunc vel ignis purgatorij non continuaretur 
+      <lb ed="#S" n="14"/>igni inferni, &amp; sic non esset vn' numero vel essent in igne 
+      <lb ed="#S" n="15"/>animae eorum, quod non videtur, licet non affligerentur, 
+      <lb ed="#S" n="16"/>sicut pueri in camino: vnde videtur probabilius quod 
+       supe<lb ed="#S" break="no" n="17"/>rior simpliciter sit limbus patrum in quibus simpliciter 
+      <lb ed="#S" n="18"/>minus erat de culpa &amp; de poena, post quem limbus 
+       puero<lb ed="#S" break="no" n="19"/>rum in quibus erat minus de vtroquesaltem intensiue: &amp; haec 
+      <lb ed="#S" n="20"/>duo receptacula sunt sine igne, alias frustra ibi esset 
+       pur<lb ed="#S" break="no" n="21"/>gatorium pro tertio loco, infernus pro. 4
+    </p>
+            <p xml:id="khj78y-r57600-d1e424" n="10">
+      <!--10 -->Tertia 
+       con<lb ed="#S" break="no" n="22"/>clusio est, quod quia centrum est deorsum omnia autem 
+       suntsur<lb ed="#S" break="no" n="23"/>sum, dicendum est quod infernus damnatorum est circa 
+       cen<lb ed="#S" break="no" n="24"/>trum aequaliter ex omni parte, post quem similiter 
+       orbicu<lb ed="#S" break="no" n="25"/>lariter purgatorium: tertio, limbus puerorum: quarto 
+       lim<lb ed="#S" break="no" n="26"/>bus patrum sic semper circulando. Post iudicium autem 
+       de<lb ed="#S" break="no" n="27"/>scendente igne conflagrationis augebitur ignis inferni: 
+      <lb ed="#S" n="28"/>ita vt impleat omnia quatuor receptacula praedicta, ita 
+      <lb ed="#S" n="29"/>quod &amp; limbi patrum &amp; puerorum &amp; purgatorium erunt plena 
+      <lb ed="#S" n="30"/>corporibus damnatorum, &amp; forte simul erunt ignis 
+       affli<lb ed="#S" break="no" n="31"/>gens &amp; corpus afflictum miraculose vt magis penetret: 
+      <lb ed="#S" n="32"/>rpora autem damnatorum non erunt in eodem loco pro 
+      <lb ed="#S" n="33"/>prio: sed communi cum summa pressura. Poterit etiam Deus 
+      <lb ed="#S" n="34"/>facere quod plura illorum sint simul si loci angustia requirat 
+      <lb ed="#S" n="35"/>secundum illud, Alligate ea, fasciculos ad conburendum. 
+      <lb ed="#S" n="36"/>sed quia secundum hoc pueri non haberent ex nunc 
+       lo<lb ed="#S" break="no" n="37"/>cum suum, videtur aliis quod limbus puerorum a 
+       resurrectio<lb ed="#S" break="no" n="38"/>ne Christi dilatatus compraehendit limbum patrum: &amp; sic 
+      <lb ed="#S" n="39"/>vterquereplebitur corporibus eorum resumptis habens 
+      <lb ed="#S" n="40"/>aerem inclusum, qui naturaliter corporibus eorum 
+       ce<lb ed="#S" break="no" n="41"/>dat. Infernus vero continebit purgatorium habens ignem 
+      <lb ed="#S" n="42"/>pro acre.
+    </p>
+            <p xml:id="khj78y-r57600-d1e474" n="11">
+      <!--11 -->Quantum ad tertium de sufficientia &amp; clau 
+      <lb ed="#S" n="43"/>sura sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-r57600-d1e481" n="12">
+      <!-- 12 -->Prima de sufficientia 
+      <lb ed="#S" n="44"/>numeri, quia quinque secundum quod vnaquaeque digna est glo 
+      <lb ed="#S" n="45"/>ria vel: aerumna siue poena: locus gloriae est coelum, locus 
+      <lb ed="#S" n="46"/>poenae aut secundum poenam damni, sic est limbus: aut sensus, 
+      <lb ed="#S" n="47"/>sic est infern': &amp; vtrumque membrum subdiuiditur: quia qui 
+      <lb ed="#S" n="48"/>poenam damni patiuntur: aut simpliciter &amp; aeternaliter: 
+      <lb ed="#S" n="49"/>&amp; hi in limbo puerorum: aut ad tempus, sic in limbo patrum. 
+      <lb ed="#S" n="50"/>Et similiter qui poenam sensus perpetuam in inferno, qui 
+      <lb ed="#S" n="51"/>ad tempus in purgatorio sufficientiam etiam ex parte cul 
+      <lb ed="#S" n="52"/>pae ponit Tho.
+    </p>
+            <p xml:id="khj78y-r57600-d1e505" n="13">
+      <!-- 13 -->secunda conclusio est de introitu 
+      <lb ed="#S" n="53"/>in receptacula: vbi sciendum est, quod introitus coeli 
+       duplici<lb ed="#S" break="no" n="54"/>terdiffertur: vno modo propter peccatum naturae &amp; sic 
+      <lb ed="#S" n="55"/>dilatus fuit vsque ad Christi ascensionem antequam nulla 
+      <lb ed="#S" n="56"/>anima ad coelum ascendit, sed sic postea non differtur. Alio 
+      <lb ed="#S" n="57"/>modo propter purgationem, quia nihil inquinatum in 
+      <lb ed="#S" n="58"/>illam incurrit. Vnde post ascensionem Christi nulla ani 
+      <lb ed="#S" n="59"/>ma purgata differtur ab ingressu coeli, &amp; contrarium 
+       di<lb ed="#S" break="no" n="60"/>recte est haeresis Graecorum, qui dicunt nullum 
+       beatifi<lb ed="#S" break="no" n="61"/>cari ante diem iudicij: contra quod Christus dixit 
+       latro<lb ed="#S" break="no" n="62"/>ni: hodie mecum eris in paradiso. Ingressus vero 
+       purga<lb ed="#S" break="no" n="63"/>torij in purgando non differtur, nec in limbum patrum vel 
+      <lb ed="#S" n="64"/>puerorum nec infernorum. Nam solus coeli vel 
+       paradi<lb ed="#S" break="no" n="65"/>si ingressus differri potest, alij in puncto ad inferna 
+       descen<lb ed="#S" break="no" n="66"/>dunt. sed gloria corporis differtur vt non sine nobis con 
+      <lb ed="#S" n="67"/>summarentur, qui ex vno fecit omne hominum genusse 
+      <!--0491.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>cundum corpus qui finxit sigillatim corda torum secundum 
+      <lb ed="#S" n="69"/>animas.
+    </p>
+            <p xml:id="khj78y-r57600-d1e552" n="14">
+      <!-- 14 -->Tertia conclusio est de exitu. Vbi sciendum 
+      <lb ed="#S" n="70"/>est quod simpliciter &amp; in perpetuum non exibunt de coelo, in 
+      <lb ed="#S" n="71"/>ferno, &amp; limbo puerorum: quia in inferno nulla est redem 
+      <lb ed="#S" n="72"/>ptio: &amp; beatitudo est status &amp; pueri sunt in termino: vn 
+      <lb ed="#S" n="73"/>de secus de Traiano, &amp; his qui non per finalem 
+       senten<lb ed="#S" break="no" n="74"/>tiam fuerunt damnati. De limbo autem egressi sunt patres 
+      <lb ed="#S" n="75"/>in die resurrectionis in perpetuum non redituri. De 
+       pur<lb ed="#S" break="no" n="76"/>gatorio autem singulis diebus singulariter exeunt, &amp; 
+      <lb ed="#S" n="77"/>post diem iudicij nullus erit: sed ignis inferni forte vt di 
+      <lb ed="#S" n="78"/>ctum est illa duo receptacula replebit iuxta illud: 
+       Dila<lb ed="#S" break="no" n="79"/>tauit infernus animam suam. ad tempus autem secundum 
+      <lb ed="#S" n="80"/>legem communem de omnibus omnes exibunt in die 
+       iu<lb ed="#S" break="no" n="81"/>dicij etiam pueri: secundum illud, omnes astabimus ante 
+      <lb ed="#S" n="82"/>tribunal Christi. &amp;c. Et de aere daemones, secundum autem 
+      <lb ed="#S" n="83"/>dispensationem sancti ad libitum: purgandi ad Dei nutum: 
+      <lb ed="#S" n="84"/>damnati etiam frequenter apparent: vt de Benedicto pa 
+      <lb ed="#S" n="85"/>pa refert Grego. &amp; vmbra sordida latronis in vita beati 
+      <lb ed="#S" n="86"/>Martini. Item de limbo quandoque dispensatiue exibant, 
+      <lb ed="#S" n="87"/>vt patet, in suscitatione samuelis &amp; apparitione Moysi 
+      <lb ed="#S" n="88"/>in transfiguratione Domini: &amp; in somno Iudae Macchabaei. 
+      <lb ed="#S" n="89"/>sed quia in visione somni non fit apparitio secundum ve 
+      <lb ed="#S" n="90"/>ram praesentiam illa autem somnum fuit: ideo verius est quod 
+      <lb ed="#S" n="91"/>Onias &amp; Hieremias ab eo visi non propter hoc exiuerunt 
+      <lb ed="#S" n="92"/>de limbo: sed no sic legitur aliquos egredi de limbo 
+       pue<lb ed="#S" break="no" n="93"/>rorum.
+    </p>
+            <p xml:id="khj78y-r57600-d1e609" n="15">
+      <!-- 15 -->Ad argumentum in oppositum dicendum, 
+      <lb ed="#S" n="94"/>quod non est simile de corporibus quae locantur secundum 
+      <lb ed="#S" n="95"/>potentiam naturalem quae ad vnum est determinata: &amp; 
+      <lb ed="#S" n="96"/>de animabus quae secundum liberum arbitrium quod est 
+      <lb ed="#S" n="97"/>ad opposita &amp; diuersa. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

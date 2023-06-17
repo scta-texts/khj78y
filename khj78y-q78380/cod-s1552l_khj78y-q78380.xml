@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="261"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q78380"><!-- l4d20-q1 -->
+            <head xml:id="khj78y-q78380-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-q78380-Hd1e103" type="question-title">
+      utrum aliquis in morte 
+      possit vere poenitere
+    </head>
+            <p xml:id="khj78y-q78380-d1e106">
+               <lb ed="#S" n="118"/>QVAESTIO PRIMA. 
+      <lb ed="#S" n="119"/>De poenitentia in morte.
+    </p>
+            <p xml:id="khj78y-q78380-d1e113">
+               <lb ed="#S" n="120"/>Tho. 4 d. 20. q. I. ar. 1.
+    </p>
+            <p xml:id="khj78y-q78380-d1e118">
+               <lb ed="#S" n="121"/>CIRCA vigesimam distinctionem 
+       quaerun<lb ed="#S" break="no" n="122"/>tur quatuor. Primo. vtrum aliquis in morte 
+      <lb ed="#S" n="123"/>possit vere poenitere. secundo. vtrum 
+       imple<lb ed="#S" break="no" n="124"/>ta poenitentia a qualicumque iniuncta sit 
+       poe<lb ed="#S" break="no" n="125"/>nitens ab omni alia immunis Tertio, vtrum 
+      <lb ed="#S" n="126"/>vnus possit satisfacere pro alio? Quarto de indulgentijs.
+    </p>
+            <p xml:id="khj78y-q78380-d1e135" n="2">
+               <lb ed="#S" n="127"/>
+               <!--2-->De primo videtur, quod in morte non possit quis vere 
+      <lb ed="#S" n="128"/>poenitere: quia Antiochus poenituit in morte nec 
+       ha<lb ed="#S" break="no" n="129"/>buit veniam, de quo dicitur. Orabat scelestus Deum a quo 
+      <lb ed="#S" n="130"/>non esset misericordiam consecuturus. 2. Mach. 9. &amp; Iudas de 
+      <lb ed="#S" n="131"/>de quo dicitur: Poenitentia ductus retulit triginta argen- 
+      <!--0262.xml-->
+      <pb ed="#S" n="262"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>teos. &amp;t.
+    </p>
+            <p xml:id="khj78y-q78380-d1e159" n="3">
+      <!-- 3 -->Contra: latro in morte poenituit &amp;audire me 
+      <lb ed="#S" n="2"/>ruit Hodie mecum eris in paradiso.
+    </p>
+            <p xml:id="khj78y-q78380-d1e166" n="4">
+      <!-- 4 -->Respondeo hic 
+       viden<lb ed="#S" break="no" n="3"/>da sunt tria. Primo. quod in morte potest esse vera poenitentia 
+      <lb ed="#S" n="4"/>&amp; salutifera. secundo, quomodo in morte quisque a 
+       quo<lb ed="#S" break="no" n="5"/>libet quemlibet potest absoluere. Tertio. quomodo mors 
+      <lb ed="#S" n="6"/>sit satisfactoria.
+    </p>
+            <p xml:id="khj78y-q78380-d1e179" n="5">
+      <!-- 5 -->Primum patet: quia licet liberum 
+       arbi<lb ed="#S" break="no" n="7"/>trium Dei sit infleribile ante &amp; post: iuxta illud. ego de 
+      <lb ed="#S" n="8"/>&amp; non mutor: Angeli autem sit vertibile ante: non post. tamen 
+      <lb ed="#S" n="9"/>liberum arbitrium hominis est vertibile vsque ad mortem. 
+       Vn<lb ed="#S" break="no" n="10"/>de legistae dicunt, quod deambulatoria est hominis voluntas 
+      <lb ed="#S" n="11"/>vsq, ad vltimum vitae exitum: sic intelligendo, quod vsque tunc po 
+      <lb ed="#S" n="12"/>test homo eligere quod prius refutauit, &amp; econuerso. Et 
+      <lb ed="#S" n="13"/>sic cum homo possit poenitere: per consequens veniam etiam 
+       ha<lb ed="#S" break="no" n="14"/>bere: quia quacunque hora ingemuerit peccator. &amp;c. ideo. 
+      <lb ed="#S" n="15"/>&amp;c. sed raro est quod in morte incipiat esse vera poenitentia: 
+      <lb ed="#S" n="16"/>quia si homo moritur ita subitatus, quod non aduertat se mo 
+      <lb ed="#S" n="17"/>ri sicut dormiendo: expedita res est. vbi te inuenero: ibi 
+      <lb ed="#S" n="18"/>te iudicabo: quia si ceciderit lignum ad austrum. &amp;c. si autem 
+       ad<lb ed="#S" break="no" n="19"/>uertat se mori: sed per vnam horam &amp; morulam modicam: quia 
+      <lb ed="#S" n="20"/>in repentinis homo operatur secundum habitum: vnde non 
+      <lb ed="#S" n="21"/>videtur quod habituatus in peccato tam repente fiat bonus 
+      <lb ed="#S" n="22"/>Alij vero moriuntur languore praecedente, &amp; quia cum 
+       ha<lb ed="#S" break="no" n="23"/>bitu amatiuo sui plus quam Dei concurrit languor &amp; do 
+      <lb ed="#S" n="24"/>lor amati, vix tunc homo poenitet: si tamen sic vere 
+       poeni<lb ed="#S" break="no" n="25"/>teret saluaretur. Vnde eiam qui se ipsos interficiunt: quia 
+      <lb ed="#S" n="26"/>tamen possunt in vltimo momento poenitere: licet non 
+      <lb ed="#S" n="27"/>sint sepeliendi: nec pro eis publice orandum: tamen 
+       occul<lb ed="#S" break="no" n="28"/>te potest orari pro eis ab illis qui credunt quod forte dum 
+      <lb ed="#S" n="29"/>occideret eos quaerebant eum &amp; reuertebantur.
+    </p>
+            <p xml:id="khj78y-q78380-d1e234" n="6">
+      <!-- 6 -->
+               <lb ed="#S" n="30"/>Quantum ad secundum, quod quilibet ab omni vinculo &amp; pec 
+      <lb ed="#S" n="31"/>cato in morte possit absolui, sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-q78380-d1e243" n="7">
+      <!--7. -->
+               <lb ed="#S" n="32"/>Prima. quod hoc est de iure diuino: quia quod quilibet 
+       Christia<lb ed="#S" break="no" n="33"/>nus peccans mortaliter sit obligatus de hoc satisfacere 
+      <lb ed="#S" n="34"/>ad arbitrium Petri: intelligitur quando potest arbitrium 
+      <lb ed="#S" n="35"/>Petri vel sui vicarij habere: aliter non. quia tunc esset obli 
+      <lb ed="#S" n="36"/>gatus ad impossibile: quia cum vi clauium debet absolui: 
+      <lb ed="#S" n="37"/>illiusauctoritate quem iuenit: qui claues habet: solui potest. 
+      <lb ed="#S" n="38"/>Item auctoritate iuris: quia hoc Papa committit etiam in ca 
+      <lb ed="#S" n="39"/>sibus quos reseruat: quod in mortis articulo quilibet 
+       sacer<lb ed="#S" break="no" n="40"/>dos absoluat quemlibet: non sic videtur de vinculo 
+       excommuni<lb ed="#S" break="no" n="41"/>cationis. quia homo potest absolui ab excommunicatione post 
+      <lb ed="#S" n="42"/>mortem ab illo a quo prius. Vnde quo ad corpus non est 
+      <lb ed="#S" n="43"/>necesse vt tunc absoluatur. quo ad animam vero non est neces 
+      <lb ed="#S" n="44"/>se, nisi vt a peccatis absoluatur: a quibus non potest absolui 
+      <lb ed="#S" n="45"/>quousque fuerit absolutus ab excommunicatione. Et sic cum 
+      <lb ed="#S" n="46"/>Papa non possit committere non sacerdoti absoluere a 
+       pec<lb ed="#S" break="no" n="47"/>catis, sicut nec celebrare: licet non sacerdoti potuisset con 
+      <lb ed="#S" n="48"/>mittere absoluere ab excommunicatione: non tamen commisit 
+      <lb ed="#S" n="49"/>pro tunc: quia necesse non fuit: &amp; sic soli sacerdoti commisit 
+      <lb ed="#S" n="50"/>vt in mortis articulo possit absoluere ab omni vinculo &amp; 
+      <lb ed="#S" n="51"/>peccato: sicut Papa posset. non autem morienti potest dare in 
+      <lb ed="#S" n="52"/>dulgentiam: sicut Papa posset. non enim inuenitur quod propter 
+      <lb ed="#S" n="53"/>necessitatem possit dare aliquis indulgentiam: qui alias 
+      <lb ed="#S" n="54"/>non posset.
+    </p>
+            <p xml:id="khj78y-q78380-d1e299" n="8">
+      <!-- 8 -->Tertia conclusio est. quod si ille conualescat: 
+      <lb ed="#S" n="55"/>vel mortis periculum euadat: quia non distinguitur ex qua 
+      <lb ed="#S" n="56"/>causa sit mortis periculum: vtrum ex infirmitate sicut in 
+       con<lb ed="#S" break="no" n="57"/>tinua vel acuta: an ex violentia: sicut si intraturus est 
+       bel<lb ed="#S" break="no" n="58"/>lum: aut decollandus: vel in naufragio. sic enim 
+       intelli<lb ed="#S" break="no" n="59"/>gitur mortis articulus: non quod homo semper in periculo est 
+      <lb ed="#S" n="60"/>moriendi: nec certitudinem cras viuendi, sed quando est 
+      <lb ed="#S" n="61"/>in tali articulo, quod aeque indifferenter solent vt communi 
+      <lb ed="#S" n="62"/>ter homines inde mori, sicut euadere: non quod intrans mare 
+       sta<lb ed="#S" break="no" n="63"/>tim dicatur esse in mortis articulo. vt dicit glo. de offic. 
+      <lb ed="#S" n="64"/>ordi. Pastoralis. Igitur transacto mortis articulo: nisi 
+       ab<lb ed="#S" break="no" n="65"/>solutus ab excommunicatione praesentet se illi a quo de iu 
+      <lb ed="#S" n="66"/>re communi fuerat absoluendus: quam cito commode poterit 
+      <lb ed="#S" n="67"/>illius iussui pariturus, reincidit in eandem sententiam. de 
+      <!--0262.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>sen. excommunicationis Eos qui. li. 6. De peccatiiantem non oportet o am 
+      <lb ed="#S" n="69"/>plius confiteaturt nec propter absolutione cum sit rere abso 
+      <lb ed="#S" n="70"/>lutus, nec propter poenitentiam: quia illa fuit sibi 
+       innote<lb ed="#S" break="no" n="71"/>scenda: &amp; si no imponenda, etiam si essent casus retenti: 
+       qui<lb ed="#S" break="no" n="72"/>non est iurecautum: nec forte caueri potuit, q bia 
+       aecrs<lb ed="#S" break="no" n="73"/>haberet confiteri: sed si confessor non foitsacerdos, tenetur 
+      <lb ed="#S" n="74"/>iterum confiteri, propter absolutionem consequondam &amp; 
+       poe<lb ed="#S" break="no" n="75"/>nitentiam imponendam: quorum ille neutrum facere potuit: q 
+      <lb ed="#S" n="76"/>claues no habuitiper quas solasregnum aperitur illi, cui per 
+      <lb ed="#S" n="77"/>mortale clauditur. Et idem est si poeuitentiam oblir fuerit: 
+      <lb ed="#S" n="78"/>vel si sibi imposita velindicta non fuit:quia tenetur ad 
+      <lb ed="#S" n="79"/>arbitrium sacerdotis satisfacere. &amp; per consequens ipsum re 
+      <lb ed="#S" n="80"/>quirere toties quod ipsam possit consequi.
+    </p>
+            <p xml:id="khj78y-q78380-d1e364" n="9">
+      <!-- 9 -->Quantum 
+      <lb ed="#S" n="81"/>ad tertium. de satisfactione mortis sunt tres conclusiones. 
+      <lb ed="#S" n="82"/>Prima de morte naturali. quia mors etiam patienter 
+       susce<lb ed="#S" break="no" n="83"/>pta non liberat ab omni poena, sed restat purgatorium. quia 
+      <lb ed="#S" n="84"/>iustitia Dei non dimittit peccatum impunitum: sicut nec mi 
+      <lb ed="#S" n="85"/>sericordia remittit incondonatum. aut enim Deus punit 
+      <lb ed="#S" n="86"/>aut homo secundum Augu. si ergo homo hic condigne non 
+      <lb ed="#S" n="87"/>punit: illic luit vbi Deus punit. Est igitur mors naturalis. 
+      <lb ed="#S" n="88"/>quae quia tota est debita pro peccato originali non potest 
+      <lb ed="#S" n="89"/>satisfacere pro actuali: quia eadem solutio non parit duas 
+      <lb ed="#S" n="90"/>liberationes. vnde si Christus contraxisset originale: mors 
+      <lb ed="#S" n="91"/>sua nobis non profuisset: sed quantum est de dolore &amp; 
+       lan<lb ed="#S" break="no" n="92"/>guore illud acceptatum bene satisfacit pro actuali: quo il 
+      <lb ed="#S" n="93"/>Iud non debetur originalis secundum actum, sed secundum 
+       aptitu<lb ed="#S" break="no" n="94"/>dinem. vnde qui deficiunt senio non dolentes mortis debitum 
+       psol<lb ed="#S" break="no" n="95"/>uunt. &amp; Iohannes Euangelista a dolore mortis extraneus 
+      <lb ed="#S" n="96"/>mortis debitum integre persoluit: sicut fames sitis &amp; huiusmodi 
+      <lb ed="#S" n="97"/>poenalitates sunt poena debita secundum aptitudinem: non 
+      <lb ed="#S" n="98"/>secundum actum. vnde fiue acceptentur fiue assumantur quo 
+      <lb ed="#S" n="99"/>ad actum satisfaciunt.
+    </p>
+            <p xml:id="khj78y-q78380-d1e410" n="10">
+      <!-- 10 -->secunda conclusio est de mor 
+      <lb ed="#S" n="100"/>te violenta iusta. Mors onim violenta inquantum 
+       huiusmo<lb ed="#S" break="no" n="101"/>di: non est debita pro peccato originali, cui non debetur 
+      <lb ed="#S" n="102"/>poena sensus, si ergo sit iuste illata pro aliquo peccato 
+      <lb ed="#S" n="103"/>actuali digno morte: sicut dicit Apostolus. Qui talia agunt 
+      <lb ed="#S" n="104"/>digni sunt morte. tunc pari ratione quia illa est debita 
+      <lb ed="#S" n="105"/>pro alio in foro mundi: sic non potest esse satisfactiua pro 
+      <lb ed="#S" n="106"/>alio peccato in foro Dei, sicut ieiunium quadragesimale 
+      <lb ed="#S" n="107"/>quia est debitum ex statuto Ecclesiae non praet esse 
+       satisfacto<lb ed="#S" break="no" n="108"/>rium pro alijs peccatis: licet sit meritorium. nec latro 
+       euola<lb ed="#S" break="no" n="109"/>uit propter satisfactionem mortis: licet patienter 
+       portaue<lb ed="#S" break="no" n="110"/>rit dicens. Nos quidem digne vel iuste. nam digna factis 
+      <lb ed="#S" n="111"/>recipimus, sed propter magnitudinem contritionis &amp; libe 
+      <lb ed="#S" n="112"/>ralitatis Dei.
+    </p>
+            <p xml:id="khj78y-q78380-d1e443" n="11">
+      <!-- 11 -->Tertia conclusio est de morte iniusta. 
+      <lb ed="#S" n="113"/>quia mors iniuste illata si quidem attingat vsque ad titulum 
+      <lb ed="#S" n="114"/>&amp; triumphum martyrij, certum est quod satlsfacit pro omni poena: vnde 
+      <lb ed="#S" n="115"/>iniuriam facit martyri qui orat pro martyre. sed si non sit cau 
+      <lb ed="#S" n="116"/>sa martyrij: sed poena tantum &amp; innocentia si homo pro 
+      <lb ed="#S" n="117"/>alijspeccatis suis illam accipiat multum satisfacit. sed quia 
+      <lb ed="#S" n="118"/>non est voluntarie assumpta: quia sic esset illicita: ideo 
+       li<lb ed="#S" break="no" n="119"/>cet excedat omnem aliam poenam quae posset esse 
+       liberato<lb ed="#S" break="no" n="120"/>ria totaliter am poena debita: non tamen ex toto satirfacit 
+      <lb ed="#S" n="121"/>sed secundum quod magis vel minus homo conteritur. 
+    </p>
+            <p xml:id="khj78y-q78380-d1e467" n="12">
+               <lb ed="#S" n="122"/>
+               <!-- 12 -->Ad argumentum dicendum, quod illi non 
+       poenitue<lb ed="#S" break="no" n="123"/>runt vere. Nam Antiochus solum amore carnis suae: 
+       cu<lb ed="#S" break="no" n="124"/>ius sanitatem optabat: Iudas vero desperauit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

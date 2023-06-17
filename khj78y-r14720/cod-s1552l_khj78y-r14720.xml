@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="366"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r14720"><!-- l4d31-q3 -->
+            <head xml:id="khj78y-r14720-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-r14720-Hd1e103" type="question-title">
+     utrum fine praedictis 
+     bonis possit actus matrimonij excusari
+   </head>
+            <p xml:id="khj78y-r14720-d1e106">
+               <lb ed="#S" n="124"/>QVAESTIO TERTIA. 
+      <lb ed="#S" n="125"/>De vsu matrimonij meritorio, &amp; demeritorio. 
+    </p>
+            <p xml:id="khj78y-r14720-d1e113">
+               <lb ed="#S" n="126"/>Thom. vbi suprd art. 2.
+    </p>
+            <p xml:id="khj78y-r14720-d1e118">
+               <lb ed="#S" n="127"/>TERTIO quaeritur, vtrum fine praedictis 
+      <lb ed="#S" n="128"/>bonis possit actus matrimonij excusari, 
+      <lb ed="#S" n="129"/>&amp; videtur quod sic: ga qui vtitur re sua ad 
+       libi<lb ed="#S" break="no" n="130"/>tum non facit contra iustitiam, &amp; sic non peccat, 
+      <lb ed="#S" n="131"/>ra videt: sed per matrimonium vxorefficii re- 
+      <!--0367.xml-->
+      <pb ed="#S" n="367"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>viri, &amp; econuerso. ergo si se inuicem ad libitum vtantur, etiam 
+      <lb ed="#S" n="2"/>propter delectationem non videtur esse peccatum. ergo &amp;c. 
+    </p>
+            <p xml:id="khj78y-r14720-d1e143" n="2">
+               <lb ed="#S" n="3"/>
+               <!-- 2 -->Contram, cessante causa, cessat effectus, sed causae 
+       excu<lb ed="#S" break="no" n="4"/>santes actum illum, sunt illa tria bona: igitur vbi nullum 
+      <lb ed="#S" n="5"/>illorum concurrit, semper peccatum est.
+    </p>
+            <p xml:id="khj78y-r14720-d1e154" n="3">
+      <!-- 3 -->Respondeo, tria 
+      <lb ed="#S" n="6"/>sunt hic videnda. Primo, in generali de actu coniugali 
+      <lb ed="#S" n="7"/>quantum ad meritum, &amp; demeritum. secundo, in speciali quan 
+      <lb ed="#S" n="8"/>tum ad peccatum mortale. Tertio, quantum ad peccatum 
+       ve<lb ed="#S" break="no" n="9"/>niale.
+    </p>
+            <p xml:id="khj78y-r14720-d1e167" n="4">
+      <!-- 4 -->Quantum ad primum est sciendum, quod actus coniu 
+      <lb ed="#S" n="10"/>galis quandoque est mortale peccatum, &amp; de hoc dicetur in 
+       se<lb ed="#S" break="no" n="11"/>cundo articulo: quandoque veniale, &amp; de hoc in tertio: 
+      <lb ed="#S" n="12"/>quandoque est meritorius. scilicet in quatuor casibus.
+    </p>
+            <p xml:id="khj78y-r14720-d1e178" n="5">
+      <!-- 5 -->
+       Pri<lb ed="#S" break="no" n="13"/>mus, cum quis habens gratiam reddit debitum, quod est iusti 
+      <lb ed="#S" n="14"/>tiae.
+    </p>
+            <p xml:id="khj78y-r14720-d1e187" n="6">
+      <!-- 6 -->sec undus, quando petit causa prolis tempore, &amp; loco, 
+      <lb ed="#S" n="15"/>&amp; modo debitis, quod est latriae.
+    </p>
+            <p xml:id="khj78y-r14720-d1e194" n="7">
+      <!-- 7 -->Tertius, quando causa 
+      <lb ed="#S" n="16"/>praeseruandi comparem a fornicatione, quod est 
+       charita<lb ed="#S" break="no" n="17"/>tis.
+    </p>
+            <p xml:id="khj78y-r14720-d1e204" n="8">
+      <!-- 8 -->Quartus, quando causa vitandae fornicationis, in se 
+      <lb ed="#S" n="18"/>quam probabiliter credit aliter non vitandam: vt dictum fuit 
+      <lb ed="#S" n="19"/>in praecedenti quaestione. Quod autem in istis. 4. casibus sit 
+      <lb ed="#S" n="20"/>meritorius apparet: quia omnis  actus virtutis charitate infor 
+      <lb ed="#S" n="21"/>matus est meritorius: huiusmodi est actus coniugalis in his qua 
+      <lb ed="#S" n="22"/>tuor casibus. ideo &amp;c. Quandoque autem est indifferens. i. nec 
+      <lb ed="#S" n="23"/>meritorius, nec demeritorius: puta, cum coniunx carens 
+      <lb ed="#S" n="24"/>gratia vno de quatuor modis dictis actum illum 
+       exer<lb ed="#S" break="no" n="25"/>cet: quia omnis actus, qui est meritorius habenti gratiam, est 
+      <lb ed="#S" n="26"/>indifferens non habenti. Non enim est meritorius propter 
+      <lb ed="#S" n="27"/>carentiam gratiae, nec demeritorius propter carentiam 
+       cul<lb ed="#S" break="no" n="28"/>pae, cui solum debei poena.
+    </p>
+            <p xml:id="khj78y-r14720-d1e233" n="9">
+      <!-- 9 -->Quantum ad secundum  de 
+       mor<lb ed="#S" break="no" n="29"/>tali videtur copula carnalis in coniugio esse peccatum 
+      <lb ed="#S" n="30"/>mortale in sex casibus.
+    </p>
+            <p xml:id="khj78y-r14720-d1e242" n="10">
+      <!-- 10 -->Primus propter 
+       inordina<lb ed="#S" break="no" n="31"/>tionem intentionis efficientiae libidinis: quando limites matri 
+      <lb ed="#S" n="32"/>monij excedit: idem facturus cum quacumque alia, dum tamen 
+      <lb ed="#S" n="33"/>aeque pulchra: sed quia habitibus non demeremur, sed 
+       acti<lb ed="#S" break="no" n="34"/>bus. hoc est, quando actu sic cogitat.
+    </p>
+            <p xml:id="khj78y-r14720-d1e255" n="11">
+      <!-- 11 -->secundus ratione 
+      <lb ed="#S" n="35"/>abortus tempore conceptus, vel partus si probabiliter 
+       ti<lb ed="#S" break="no" n="36"/>metur: quia contra charitate est, quod quis velit delectari cum 
+      <lb ed="#S" n="37"/>pernicie vitae prolis: sed de hoc iterum dicetur in 
+       sequen<lb ed="#S" break="no" n="38"/>ti Dist.
+    </p>
+            <p xml:id="khj78y-r14720-d1e268" n="12">
+      <!-- 12 -->Tertius, ratione periculi infectionis 
+       tempo<lb ed="#S" break="no" n="39"/>re menstrui, tunc enim secundum quosdam exigere scienter 
+      <lb ed="#S" n="40"/>est mortale, sed reddere cum dolore, &amp; displicentia non: sed 
+      <lb ed="#S" n="41"/>si mulier timeat scandalizare virum, ne forte perpetuo ha 
+      <lb ed="#S" n="42"/>beat eam exosam, si reuelet ei foeditatem suam, non tenerei 
+      <lb ed="#S" n="43"/>reuelare: sed si aliter non potest subterfugere, cum dolore red 
+      <lb ed="#S" n="44"/>dat, &amp; ille non peccabit mortaliter, quia ignorat, nec ipsa 
+      <lb ed="#S" n="45"/>quia dolens hoc tolerat. Vel dicendum, quod non est mortale 
+      <lb ed="#S" n="46"/>etiam scienter exigere: quia licet videatur esse contra 
+       chari<lb ed="#S" break="no" n="47"/>tatem, quod quis plus velit sui corporis voluptatem, quam 
+       alte<lb ed="#S" break="no" n="48"/>rius sanitatem, &amp; qui tempore menstrui generat, quandoque 
+      <lb ed="#S" n="49"/>leprosus efficitur, qui sanus erat nasciturus, si vir 
+       gene<lb ed="#S" break="no" n="50"/>rare distulisset: tunc sicut alibi dicitur: quem culpant alij, 
+      <lb ed="#S" n="51"/>temet laudare necesse est: quia ille idem, qui naturam infe 
+      <lb ed="#S" n="52"/>ctam accepit, non potest conqueri, cum melius sit ei habere, 
+      <lb ed="#S" n="53"/>sic, quam non habere, &amp; forte pater postea non generasset, 
+      <lb ed="#S" n="54"/>vel non potest dici, quod eundem, quia non entibus non est vnitas. 
+    </p>
+            <p xml:id="khj78y-r14720-d1e307" n="13">
+               <lb ed="#S" n="55"/>
+               <!-- 13 -->Quartus, in loco sacro si potest alius locus haberi: tunc 
+      <lb ed="#S" n="56"/>enim non solum petens peccat mortaliter, sed etiam reddens 
+      <lb ed="#S" n="57"/>in loco sacro, quod est haereticos imitari in suis 
+       conuenticu<lb ed="#S" break="no" n="58"/>lis, qui ad se, vt proci indistincte accedunt.
+    </p>
+            <p xml:id="khj78y-r14720-d1e321" n="14">
+      <!-- 14 -->si 
+       au<lb ed="#S" break="no" n="59"/>tem alius locus haberi non potest, non peccat. Alij dicut, quod 
+      <lb ed="#S" n="60"/>in loco sacro: puta, ecclesia, vel coemeterio benedicto est 
+      <lb ed="#S" n="61"/>peccatum sacrilegij, &amp; mortale petere, vel reddere: quia 
+       reconci<lb ed="#S" break="no" n="62"/>liari debent secundum veriorem opinionem. si autem propter 
+      <lb ed="#S" n="63"/>necessitatem guerrarum exire non possent huiusmodi loca magno 
+      <lb ed="#S" n="64"/>tempore, tunc non peccant: sed si paruo tempore, tunc 
+       conti<lb ed="#S" break="no" n="65"/>nere debent tepore necessitatis, &amp; tribulationis, sicut, &amp; 
+      <lb ed="#S" n="66"/>bruta, quando sunt capta in foueam: &amp; sic Noe, &amp; filij eius, &amp; 
+      <lb ed="#S" n="67"/>omnia animalia in archa contituerunt. sed istae duae Di- 
+      <!--0367.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>stinctiones non valent: quia si non potest alium locum habere, 
+      <lb ed="#S" n="69"/>non debet propter hoc locum sacrum polluere, cum illud 
+      <lb ed="#S" n="70"/>non sit necessitatis, sicut est facere vrinam. siue ergo 
+      <lb ed="#S" n="71"/>habeatur alius locus, siue non, cum iniuria loci sacri certum 
+      <lb ed="#S" n="72"/>est, quod non licet petere: sed nec reddere tenetur homo id, quod 
+      <lb ed="#S" n="73"/>non potest sine irreuerentia loci sacri, qui &amp; propter hoc 
+       in<lb ed="#S" break="no" n="74"/>diget reconciliari, quantum est ex natura facti: licet per acci 
+      <lb ed="#S" n="75"/>dens si est occultum, non egeatilicet cm̃ iura antiqua non 
+      <lb ed="#S" n="76"/>faciant mentionem nisi de pollutione per adulterium. de 
+      <lb ed="#S" n="77"/>adulteris. c. significasti. tamen iura noua dicunt de 
+       conta<lb ed="#S" break="no" n="78"/>minatione sanguinis, &amp; effusione seminis: vnde sicut 
+       ef<lb ed="#S" break="no" n="79"/>fusio sanguinis contaminat, non solum si fiat a priuato: 
+      <lb ed="#S" n="80"/>imo etiam si a iudice, qui decapitat latronem, vel amputas 
+      <lb ed="#S" n="81"/>auriculam in coemeterio, quia facit, vbi non licet: &amp; si faciat 
+      <lb ed="#S" n="82"/>quod licet, sic etiam seminis effusio, siue a suo, siue ab exte 
+      <lb ed="#S" n="83"/>ro polluit: vnde etiam si sanguis non cadat in terram, idem 
+      <lb ed="#S" n="84"/>est, ac si caderet: sicut non requiritur, quod semen fundat inter 
+      <lb ed="#S" n="85"/>ram, ex quo simile est do vtroque : sed aliquis diceret, 
+       simi<lb ed="#S" break="no" n="86"/>le est quo ad aliquid, sed non quo ad omnia.
+    </p>
+            <p xml:id="khj78y-r14720-d1e391" n="15">
+      <!-- 15 -->
+       Quin<lb ed="#S" break="no" n="87"/>tus casus est, si mutat naturalem vsum in eum, qui est contra 
+       na<lb ed="#S" break="no" n="88"/>turam: vt quando vas debitum praetermittit, quod semper est 
+       peo<lb ed="#S" break="no" n="89"/>catum mortale, quia proles sequi non pont: vnde totaliter 
+       amn<lb ed="#S" break="no" n="90"/>tentio naturae frustrat. Alio modo quantum ad situ, &amp; tunc 
+      <lb ed="#S" n="91"/>excusat, quando dispositio coporis, vel infirmitas alium modum 
+      <lb ed="#S" n="92"/>non patitur. Dicunt ergo quidam, quod peccat mortaliter vir 
+      <lb ed="#S" n="93"/>si cognoscat vxorem non consueto modo, etiam in vase 
+       natu<lb ed="#S" break="no" n="94"/>rali: si fiat causa maioris volupratis quaerendae sic: si aut 
+      <lb ed="#S" n="95"/>vxor pregnans est, &amp; timetur de suffocatione partus, &amp; pro 
+      <lb ed="#S" n="96"/>pter hoc non audet accedere ad cam ex parte anterit 
+      <lb ed="#S" n="97"/>non peccat mortaliter ex alia parte accedens: 
+       dummodo<lb ed="#S" break="no" n="98"/>vasculo muliebri non abutat aliter, nec semen extra sci-- 
+      <lb ed="#S" n="99"/>enter effundat. Item si propter aliam mulieris infirmitatem 
+      <lb ed="#S" n="100"/>hoc faciat. Qui autem ideo semen extra fundit, ne habeat 
+      <lb ed="#S" n="101"/>plures filios, quos nutrire non possit: detestabilem rem cum 
+      <lb ed="#S" n="102"/>filio Iudae operatur. Gen. 38. si autem ante completionem 
+      <lb ed="#S" n="103"/>actus se retrahit, nec semen emittit eandem intentione, non 
+      <lb ed="#S" n="104"/>videt mortaliter peccare, nisi ex hoc forte mulier ad 
+       se<lb ed="#S" break="no" n="105"/>minandum prouocaretur. similiter si propter hoc omittit co 
+      <lb ed="#S" n="106"/>gnoscere vxorem, &amp; ex communi consensu, nec negat debitum: 
+      <lb ed="#S" n="107"/>non videt, quod peccet etiam venialiter, quia licet appeteret ha 
+      <lb ed="#S" n="108"/>bere plures liberos, quam possit nutrire: nec ipse tenet 
+       debi<lb ed="#S" break="no" n="109"/>tum petere, nec inchoatum actum consummare, nisi vrore 
+      <lb ed="#S" n="110"/>petente. si ergo sit tanta innaturalitas, quod non posuit 
+       se<lb ed="#S" break="no" n="111"/>qui proles ex natura facti, siue quia abutitur vastulo 
+       mu<lb ed="#S" break="no" n="112"/>liebri, siue quia vir nubit in foeminam secundum situm se sup 
+      <lb ed="#S" n="113"/>ponendo, vt Daemon succubus, mortale est: alias autem 
+      <lb ed="#S" n="114"/>si loco debito scienter, &amp; quocunque se agat aliter innatu 
+      <lb ed="#S" n="115"/>raliter: si faciat hoc in casu, vbi naturaliter non peccaret: 
+      <lb ed="#S" n="116"/>puta propter bonum prolis, vel fidei, &amp; necessitas 
+       infirmi<lb ed="#S" break="no" n="117"/>tatis alterius, vel impraegnatio hoc requirit, nec patitur, 
+      <lb ed="#S" n="118"/>quod aliter faciat, excufatur: sed in casu, vbi alias esset 
+       ve<lb ed="#S" break="no" n="119"/>niale, &amp; necessitas non patit modum naturalem, non videtur 
+      <lb ed="#S" n="120"/>naturale, sed est grauius veniale, quando ab ista innaturalita 
+      <lb ed="#S" n="121"/>te non se temperat ad tempus: quia secus si esset perpetuum 
+       im<lb ed="#S" break="no" n="122"/>pedimentum. si autem propter voluptatem sine necessitate 
+      <lb ed="#S" n="123"/>immutat modum naturalem: licet non quo ad vas mortale 
+      <lb ed="#S" n="124"/>est: quia non est vxor eius nisi ad actus naturales: aliter ab 
+      <lb ed="#S" n="125"/>utitur sacro coniugij, sicut qui peruerteret vsum, &amp; ritum 
+      <lb ed="#S" n="126"/>alterius sacri scienter esset transgressor praecepti, non solum 
+      <lb ed="#S" n="127"/>in essentialibus, sed etiam in accidentalibus. sed de quadam. 
+      <lb ed="#S" n="128"/>praegnante, quam vir continere non valens sodomitice a 
+      <lb ed="#S" n="129"/>tergo propter puerum cognouit, cum non fuisset forte peius 
+      <lb ed="#S" n="130"/>occidere puerum, consultum fuit, quod nullo modo 
+       permitte<lb ed="#S" break="no" n="131"/>ret se sic cognosci, sed prius occidi, aut illum adulterari, 
+      <lb ed="#S" n="132"/>vel iumento humiliari: sed si aliter nollet continere, 
+       do<lb ed="#S" break="no" n="133"/>ceret eum commisceri secundum situm longitudinis 
+       oppo<lb ed="#S" break="no" n="134"/>situm, &amp; sic praeseruatus est a peccato sodomitico, &amp; pro 
+      <!--0368.xml-->
+      <pb ed="#S" n="368"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>pter necessitatem excusatur.
+    </p>
+            <p xml:id="khj78y-r14720-d1e508" n="16">
+      <!-- 16 -->sextus, quando coniunx 
+       vo<lb ed="#S" break="no" n="2"/>luptatem praeuenit, &amp; prouocat eam manibus, vel 
+       cogi<lb ed="#S" break="no" n="3"/>tatione, vel vtendo calidis, &amp; incentiuis, vt possit pluries 
+      <lb ed="#S" n="4"/>cum vxore coire.
+    </p>
+            <p xml:id="khj78y-r14720-d1e519" n="17">
+      <!-- 17 -->sed notandum, quod istud potest fieri 
+      <lb ed="#S" n="5"/>tripliciter. Primo, sine omni peccato: puta, si quis causa pro 
+      <lb ed="#S" n="6"/>lis generandae, vel fornicationis in vxore vel in se 
+       vitan<lb ed="#S" break="no" n="7"/>dae, aut debiti reddendi: cum alias sit impotens se prouocet 
+      <lb ed="#S" n="8"/>vsu, vel potu calefactiuorum, aut osculis, vel amplexibus, 
+       q<lb ed="#S" break="no" n="9"/>busetiam animalia se pronocant: vt vrsi, &amp; columbi: vel 
+       ali<lb ed="#S" break="no" n="10"/>quibus aliis tactibus, in quibus non quaerat propter se de 
+      <lb ed="#S" n="11"/>lectari: sed sulum. ad actum illum praeparari non videtur pee 
+      <lb ed="#S" n="12"/>catum: quia licet iuuare naturam corporis ad obediendum 
+       re<lb ed="#S" break="no" n="13"/>cte rationi. secundo modo, vt sit potens cognoscere 
+       vxo<lb ed="#S" break="no" n="14"/>rem propter delectationem, quam tamen nollet cum alia experi 
+      <lb ed="#S" n="15"/>xi: &amp; tunc licet grauius peccet praeueniendo tentationem, 
+      <lb ed="#S" n="16"/>non tamen mortaliter, quia non quaerit in hac prouocatione de 
+      <lb ed="#S" n="17"/>lectari, sed solum in actu coniugali: vnde videtur idem 
+       spe<lb ed="#S" break="no" n="18"/>cie, quod de fine. Tertio, quando in talibus praeparatoriis pro 
+      <lb ed="#S" n="19"/>pter se delectatur: vt si confricationibus impudicis 
+       mem<lb ed="#S" break="no" n="20"/>bra attrectando, sequatur pollutio, non est dubium, quod 
+      <lb ed="#S" n="21"/>est mortale: quia omnis pollutio extraordinaria peccatum mor 
+      <lb ed="#S" n="22"/>tale est, quae vigilando procuratur: sed in primo casu videtur 
+      <lb ed="#S" n="23"/>etiam, quod si tactibus innaturalibus se prouocet, qui aliter 
+      <lb ed="#S" n="24"/>non posset: dum tamen non faciat hoc propter voluptatem: quia ne 
+      <lb ed="#S" n="25"/>cessitas excusat: non peccat eriam venialiter, sicut nec is, a 
+      <lb ed="#S" n="26"/>causa prolis, vel reddendo debitum cognoscit innaturali 
+      <lb ed="#S" n="27"/>ter, quando aliter non potest, dum tamen non praetermittat vas 
+       de<lb ed="#S" break="no" n="28"/>bitum. Nam si ipsa habeat morbum in illo membro, sic quod 
+      <lb ed="#S" n="29"/>non possit ibi cognosci, non propter hoc potest alibi 
+       cogno<lb ed="#S" break="no" n="30"/>sci. sed cognoscere innaturaliter, quando aliter non potest 
+       pro<lb ed="#S" break="no" n="31"/>pter voluptatem, non est mortale: dum tamen vas non omittat, 
+      <lb ed="#S" n="32"/>sed est grauius veniale, sic &amp; hic: quia senex vel frigldus non 
+      <lb ed="#S" n="33"/>prootest coire, nisi se prouocet tali modo, quamuis 
+       volupta<lb ed="#S" break="no" n="34"/>tem quaerat, quia tum nec cum extranea faceret: grauius 
+       qui<lb ed="#S" break="no" n="35"/>dem peccat praeueniendo, sed non mortaliter: si enim 
+       oscu<lb ed="#S" break="no" n="36"/>1, &amp; amplexus ideo solum sunt mortalia in solutis, quia ipse 
+      <lb ed="#S" n="37"/>actus esset mortalis: ergo in coniugatis, in quibus actus 
+      <lb ed="#S" n="38"/>non esset mortalis, nec incitatio ad ipsum est mortalis. 
+    </p>
+            <p xml:id="khj78y-r14720-d1e597" n="18">
+               <lb ed="#S" n="39"/>
+               <!-- 18 -->Quantum ad tertium de veniali sciendum, quod qficunq: vo 
+      <lb ed="#S" n="40"/>luptas quaeritur praeter praedictos sex casus semper est ve 
+      <lb ed="#S" n="41"/>niale. In speciali autem possunt notari sex casus, in quibus actus 
+      <lb ed="#S" n="42"/>coniugalis est tantum veniale. Primus, quandocunque prae 
+      <lb ed="#S" n="43"/>cdit aliqua deordinatio rationis: sed non tanta, sicut in 
+      <lb ed="#S" n="44"/>praedictis sex casibus: puta petere tempore sacro, &amp; si 
+       respe<lb ed="#S" break="no" n="45"/>ct sit ad delectationem, grauis est culpa: si ad lubricum, vel 
+      <lb ed="#S" n="46"/>Infirmitatem suam, cuius est sibi conscius, vel conscia 
+       venia<lb ed="#S" break="no" n="47"/>le: tamen vix contingit, quod in praecipuis diebus non sit graue 
+      <lb ed="#S" n="48"/>peccatum secundum Bonauenturam.
+    </p>
+            <p xml:id="khj78y-r14720-d1e623" n="19">
+      <!-- 19 -->secundus, petere 
+      <lb ed="#S" n="49"/>cansa delectationis infra limites: tamen semper est veniale, 
+      <lb ed="#S" n="50"/>sicut comedere propter voluptatem. Quod enim cibus ad 
+      <lb ed="#S" n="51"/>salutem hominis, hoc coitus ad salutem generis. 
+       Augusti<lb ed="#S" break="no" n="52"/>nus. 33. Di. in litera. c. 1.
+    </p>
+            <p xml:id="khj78y-r14720-d1e637" n="20">
+      <!-- 20 -->Tertius petere causa forni 
+      <lb ed="#S" n="53"/>cationis vitandae, sicut fuit dictum in praecedenti quaestio 
+      <lb ed="#S" n="54"/>ne, licet hac intentione contrahere non fit veniale.
+    </p>
+            <p xml:id="khj78y-r14720-d1e646" n="21">
+               <lb ed="#S" n="55"/>
+               <!--21 -->Quartus, causa infirmitatis vitandae: quia quamuis 
+      <lb ed="#S" n="56"/>vtrunque seorsum liceat appetere, non tamen vnum propter 
+      <lb ed="#S" n="57"/>alterum, quia ista cauda non est istius vituli.
+    </p>
+            <p xml:id="khj78y-r14720-d1e657" n="22">
+      <!-- 22 -->
+       Quin<lb ed="#S" break="no" n="58"/>tus, si quando incepit petere, vel reddere bona intentione, post 
+      <lb ed="#S" n="59"/>ea mutet intentionem: ita, scilicet, quod nunc vellet istam li 
+      <lb ed="#S" n="60"/>bidinem propter se, etiam si quidem actu hoc cogitet extra 
+      <lb ed="#S" n="61"/>horam decisionis seminis, quia tunc non habet vsum ra 
+      <lb ed="#S" n="62"/>tionis.
+    </p>
+            <p xml:id="khj78y-r14720-d1e673" n="23">
+      <!-- 23 -->sextus, quandocunque aliud intendat, quam 
+      <lb ed="#S" n="63"/>ad quod ordinatur coniugium. scilicet vel ad prolem, vel ad 
+       red<lb ed="#S" break="no" n="64"/>dendum debitum.
+    </p>
+            <p xml:id="khj78y-r14720-d1e682" n="24">
+      <!-- 24 -->Ad argumentum in oppositum est di 
+      <lb ed="#S" n="65"/>cendum, quod cum vna circumstantia non sufficiat ad bonita 
+      <lb ed="#S" n="66"/>tem actus, non oportet quod qualitercunque quis vtatur re 
+      <lb ed="#S" n="67"/>sua, quod vsus semper sit bonus, nisi vbi concurrunt omnes cir- 
+      <!--0368.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>cunstantiae: quae debent inesse: hoc autem non est quando 
+      <lb ed="#S" n="69"/>quis vtitur vxore sua solum propter delectationem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

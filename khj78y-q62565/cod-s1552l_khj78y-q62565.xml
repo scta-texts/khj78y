@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="216"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q62565"><!-- l4d17-q6 -->
+            <head xml:id="khj78y-q62565-Hd1e101">Quaestio 6</head>
+            <head xml:id="khj78y-q62565-Hd1e103" type="question-title">
+     utrum omne impedimentum quod 
+     si esset manifestum faceret confessionem itera 
+     ri, quando est occultum facit similiter 
+     iterari
+   </head>
+            <p xml:id="khj78y-q62565-d1e106">
+               <lb ed="#S" n="73"/>QVAESTIO SEXTA. 
+      <lb ed="#S" n="74"/>De impedimento ministri occulto. 
+    </p>
+            <p xml:id="khj78y-q62565-d1e113">
+               <lb ed="#S" n="75"/>SEXTO quaeritur illud quod in 
+       secun<lb ed="#S" break="no" n="76"/>do argumento praecedentis quaestionis fuit 
+      <lb ed="#S" n="77"/>actum, sed vtrum omne impedimentum quod 
+      <lb ed="#S" n="78"/>si esset manifestum faceret confessionem itera 
+      <lb ed="#S" n="79"/>ri, quando est occultum facit similiter 
+       itera<lb ed="#S" break="no" n="80"/>ri. Verbi gratia. Vtrum confessus curato suo habenti 
+       occul<lb ed="#S" break="no" n="81"/>tum impedimentum alias absoluendi, teneatur comperto 
+       impe<lb ed="#S" break="no" n="82"/>dimento iterum confiteri. Et videtur quod sic, quia dicitur 
+       ex<lb ed="#S" break="no" n="83"/>tra, de electione. c. Dudum secundo. De quodam habente 
+       im<lb ed="#S" break="no" n="84"/>pedimentum occultum, quod per ipsum animae miserabiliter sunt 
+      <lb ed="#S" n="85"/>deceptae, quod non fuisset si fuissent sic absolutae: quod non 
+      <lb ed="#S" n="86"/>teneretur amplius confiteri. Ergo. &amp;c.
+    </p>
+            <p xml:id="khj78y-q62565-d1e142" n="2">
+      <!-- 2 -->Contra, quia 
+      <lb ed="#S" n="87"/>sententia lata a seruo qui putabatur publice liber &amp; prae 
+      <lb ed="#S" n="88"/>tor rata est, ac si impedimentum nullum fuisset. Ergo a 
+       simi<lb ed="#S" break="no" n="89"/>li in proposito.
+    </p>
+            <p xml:id="khj78y-q62565-d1e154" n="3">
+      <!-- 3 -->Respondeo, circa istam quaestionem tria 
+      <lb ed="#S" n="90"/>sunt facienda Primo ponentur certa. secundo ponentur 
+      <lb ed="#S" n="91"/>dubia. Tertio signabunt quaedam contraria.
+    </p>
+            <p xml:id="khj78y-q62565-d1e163" n="4">
+      <!-- 4 -->Circa 
+       pri<lb ed="#S" break="no" n="92"/>mum sunt quinque conclusiones. Prima, si est tale 
+       impedimen<lb ed="#S" break="no" n="93"/>tum quod non est impedimentum, nisi quando est publicum, vt 
+      <lb ed="#S" n="94"/>fornicatio sacerdotis, tunc si est occultum non oportet quod 
+       ite<lb ed="#S" break="no" n="95"/>retur, quia non est impedimentum, quia a tali scienter &amp; in 
+      <lb ed="#S" n="96"/>publico licet recipere sacramenta de coha. cle. Nra. Vnde Host. 
+      <lb ed="#S" n="97"/>videtur hanc quaestionem mouere de elect. Dudum. De coha. 
+      <lb ed="#S" n="98"/>cle. Nostra: contradicens Bernardo. sed illa dudum. Nihil fa 
+      <lb ed="#S" n="99"/>cit pro Bernar. quia loquitur Papa allegationes recitan 
+      <lb ed="#S" n="100"/>do: cum dicit quod per ipsum animae miserabiliter sunt deceptae, 
+      <lb ed="#S" n="101"/>non asserendo: vel potest dici, quod ibi non erat occultum 
+       impedi<lb ed="#S" break="no" n="102"/>mentum: quia non poterat communiter latere, quod ipse publice 
+       ha<lb ed="#S" break="no" n="103"/>beret personatum &amp; curas quas tenebat. Vnde erat error 
+      <lb ed="#S" n="104"/>iuris qui non excusat. similiter non facit ad propositum. De 
+      <lb ed="#S" n="105"/>coha. cle. Nostra. quia ibi est tale factum quod in publico 
+      <lb ed="#S" n="106"/>habet impedimentum, non autem in occulto. Licet enim 
+       forni<lb ed="#S" break="no" n="107"/>catio occulta sit eiusdem rationis cum manifesta, tamen fornica 
+      <lb ed="#S" n="108"/>tioni manifestae est annexa suspensio: etiam talis, quod causat 
+      <lb ed="#S" n="109"/>irregularitatem si celebret indispensabilem, citra Papam, 
+       se<lb ed="#S" break="no" n="110"/>eundum Host. non autem occulta. Hic autem est vnum &amp; idem im 
+      <lb ed="#S" n="111"/>pedimentum occultum &amp; manifestum. sicut est excommunicatio, 
+      <lb ed="#S" n="112"/>quia non minus secundum rei veritatem est excommunicatus 
+       occul<lb ed="#S" break="no" n="113"/>tus, quam publicus. Illa autem de conse. Eccl. Aquam. non facit ad 
+      <lb ed="#S" n="114"/>propositum: quia ibi error conis non facit Ecclesias esse 
+       re<lb ed="#S" break="no" n="115"/>conciliatas, sed Papae dissimulatio, &amp; tacita ratihabitio. 
+      <lb ed="#S" n="116"/>Nec etiam ibi est error facti sed iuris.
+    </p>
+            <p xml:id="khj78y-q62565-d1e222" n="5">
+      <!-- 5 -->secunda 
+       conclu<lb ed="#S" break="no" n="117"/>sio est, quod si est impedimentum ex parte confitentis, siue scitum 
+      <lb ed="#S" n="118"/>siue oblitum vel ignoratum probabiliter, oportet iterum 
+       confi<lb ed="#S" break="no" n="119"/>teri: vt puta quia erat ligatus maiori vel minori 
+       excommunica<lb ed="#S" break="no" n="120"/>tione: licet nesciret &amp; postea sciuerit: tenetur iterum 
+       confi<lb ed="#S" break="no" n="121"/>teri absoluendus: quia ligatus absolui non potuit. Et 
+       pro<lb ed="#S" break="no" n="122"/>babilis quidem ignorantia praeseruat a culpa &amp; a poena 
+       ir<lb ed="#S" break="no" n="123"/>regularitatis. de cle. ex. mi. Apostolice. sed non facit eum non 
+      <lb ed="#S" n="124"/>excommunicatum. Propter quod si tunc eligeretur, vel beneficium 
+      <lb ed="#S" n="125"/>sibi conferretur: ignorantia non faceret, &amp; sibi aliquod ius 
+      <lb ed="#S" n="126"/>acquireretur: sicut dicitur in glo. Est autem minus capax 
+      <lb ed="#S" n="127"/>sacramentorum, a quorum participatione directe 
+       excludi<lb ed="#S" break="no" n="128"/>tur, quam quorumcunque aliorum. Et ideo absolutio nulla. 
+    </p>
+            <p xml:id="khj78y-q62565-d1e253" n="6">
+               <lb ed="#S" n="129"/>
+               <!-- 6 -->Tertia conclusio est, quod si ex parte sacerdotis est 
+       impe<lb ed="#S" break="no" n="130"/>dimentum iuris diuini: vt quia non baptizatus, vel non 
+       sa<lb ed="#S" break="no" n="131"/>cerdos, illo comperto tenetur iterum confiteri, quia nec in hoc 
+      <!--0217.xml-->
+      <pb ed="#S" n="217"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Papa posset dispensare. de presby. non bap. c. 11. Vnde ali 
+      <lb ed="#S" n="2"/>qui distinguunt concordantes Ber. &amp; Hostiem. quia aut erat 
+      <lb ed="#S" n="3"/>impedimentum quo ad claues iurisdictionis: &amp; sic verum 
+      <lb ed="#S" n="4"/>dicit Hostien. quod non oportet iterum confiteri, aut quo ad cla 
+      <lb ed="#S" n="5"/>ues ordinis, &amp; sic veru dicit Bernardus, quod iterum oportet. 
+      <lb ed="#S" n="6"/>sed istud excluditur per hoc quod dicitur impedimentum. 
+      <lb ed="#S" n="7"/>Nam impedimentum agendi snpponit potentiam, sed 
+       impe<lb ed="#S" break="no" n="8"/>ditam, sicut caecus non dicitur impeditus videre, sed 
+       impo<lb ed="#S" break="no" n="9"/>tens ad videndum, videns autem in tenebris dicitur impedirl. 
+      <lb ed="#S" n="10"/>Et sic non sacerdos, cui deest prima potentia absoluendi non 
+      <lb ed="#S" n="11"/>est impeditus: sed sacerdos qui vel non habet 
+       iurisdictio<lb ed="#S" break="no" n="12"/>nem, vel magis non habet executionem. sed haec exclusio non 
+      <lb ed="#S" n="13"/>videtur valere per illud quod habetur. ff. de iudicijs. l. 
+      <lb ed="#S" n="14"/>Cum praetor. 3. q. 5. Tria sunt quae impediunt esse 
+       iudi<lb ed="#S" break="no" n="15"/>ces, natura, iure, &amp; moribus. &amp;c. Vbi dicitur impediri etiam 
+      <lb ed="#S" n="16"/>qui non habet potentiam, sed aliud est impediri esse iudex: 
+      <lb ed="#S" n="17"/>quod fit per priuationem aptitudinis ad illud officium: aliud 
+      <lb ed="#S" n="18"/>impediri iudicare quo ad actum: sicut homo impeditur ne 
+      <lb ed="#S" n="19"/>sit videns per caecitatem, sed impeditur ne videat per 
+       impe<lb ed="#S" break="no" n="20"/>dimentum appositum oculo. &amp;c.
+    </p>
+            <p xml:id="khj78y-q62565-d1e314" n="7">
+      <!-- 7 -->Quarta conclusio est, quod 
+      <lb ed="#S" n="21"/>si erat impedimentum iuris positiui, quod poenitens 
+       scie<lb ed="#S" break="no" n="22"/>bat nihilominus tenetur iterum confiteri: quia scienti dolus 
+      <lb ed="#S" n="23"/>non infertur. Vnde videtur esse distinguendum: primo ex par 
+      <lb ed="#S" n="24"/>te confitentis: quia aut sciuit impedimentum hoc, aut non. si 
+      <lb ed="#S" n="25"/>sciuit vt id quod erat alijs communiter ignotum esset sibi 
+       cogni<lb ed="#S" break="no" n="26"/>tum, sicut dicitur crimem occultum: quamuis sciatur ab aliquo, vt 
+      <lb ed="#S" n="27"/>patet in denunciatione, quam debet praecedere secreta cor 
+      <lb ed="#S" n="28"/>rectio: tunc tenetur iterum confiteri. si autem ignorauit, sicut 
+      <lb ed="#S" n="29"/>&amp; caeteri: excusatur. ff. de eo qui fal. tu. ge. l. 2. in fi. 6. Ait 
+      <lb ed="#S" n="30"/>praetor. vbi sic dicitur: siue actor ignorauit dabo in 
+       in<lb ed="#S" break="no" n="31"/>te. resti. sed in integrum restitutio scienti non subuenit 
+       meri<lb ed="#S" break="no" n="32"/>to, quia ipse se decepit: &amp; sequitur. Labora inquit. Et si 
+       di<lb ed="#S" break="no" n="33"/>ctu sit ei vt bona fide non credidit: &amp;. l. interdum. &amp; scientia 
+      <lb ed="#S" n="34"/>non noceat tamen restitutio facienda erit, si compulsus est ad 
+       in<lb ed="#S" break="no" n="35"/>dicium accipiendum: sic si ignorauit excusatur, etiam si 
+       audi<lb ed="#S" break="no" n="36"/>uit credere non oportuit: vel si sciuit &amp; compulsus fuit per 
+      <lb ed="#S" n="37"/>curatum qui ingressum Ecclesiae negabat, quia non 
+       confite<lb ed="#S" break="no" n="38"/>batur, alias non valet: quia quod iuris est de toto ad totum: idem 
+      <lb ed="#S" n="39"/>est de parte ad partem. Vnde sicut publice excommunicatus nullum 
+      <lb ed="#S" n="40"/>potest absoluere, sic nec occulte illum qui scit: quia sicus 
+      <lb ed="#S" n="41"/>publice excommunicatum omnes debent vitare: etiam in publico: 
+       pro<lb ed="#S" break="no" n="42"/>pter quod iudex praet ipsum repellere, etiam si pars omittat. 
+      <lb ed="#S" n="43"/>similiter occulte excommunicatum sciens debet vitare in 
+       occul<lb ed="#S" break="no" n="44"/>to, nihil autem est magis occultum quam iudicium conscientiae. Vnde 
+      <lb ed="#S" n="45"/>licet in foro exteriori occultus non sit vitandus: tamen in inte 
+      <lb ed="#S" n="46"/>riori sic. Vnde confitens illi quenscit excommunicatum, etiam 
+       occul<lb ed="#S" break="no" n="47"/>te est fictus: mortaliter peccatus sibi communicando in diuinis. 
+      <lb ed="#S" n="48"/>vnde tenetur iterum confiteri, etiam secundum illos qui dicunt: 
+      <lb ed="#S" n="49"/>quod ficte confitens non tenetur iterum confiteri, quia verum est de 
+      <lb ed="#S" n="50"/>fictione per fubtractionem necessarij, quae est attritio, non 
+      <lb ed="#S" n="51"/>per positionem contrarij, quod impedit potestatem absoluen 
+      <lb ed="#S" n="52"/>tis, non tantum habilitatem recipientis. Nec obstat. ff. de iudi. l. 2. 
+      <lb ed="#S" n="53"/>circa principium de iur. omni iudi. l. si per errorem. Vbi videtur 
+      <lb ed="#S" n="54"/>distinguere ex opposito: quod quando iudex non habet potestatem 
+      <lb ed="#S" n="55"/>iudicandi, nisi ex consensu partium: quia non consentiunt qui 
+      <lb ed="#S" n="56"/>errant: tunc scientia partium dat robur processui, error 
+       impe<lb ed="#S" break="no" n="57"/>dit: quando autem iudex non habet a partibus sed a iure: fauore 
+      <lb ed="#S" n="58"/>tamen partium ne errantes laedantur: tunc partibus scientibus non 
+      <lb ed="#S" n="59"/>valet: errantibus valet, vt hoc, ne detrimentum ante 
+       prohi<lb ed="#S" n="60" break="no"/>bitionem possint ignorantes incurrere, quod eos postmodum 
+      <lb ed="#S" n="61"/>dignum est vetitos sustinere. extra. de consti. c. 2. sed haec 
+       di<lb ed="#S" n="62" break="no"/>stinctio licet sit bona: tamen excluditur per verbum, comperto, 
+      <lb ed="#S" n="63"/>per quod innuitur quod prius ignorabat: vnde 
+       restringi<lb ed="#S" break="no" n="64"/>tur ad ignorantem, sed per hoc ostenditur quod decretalis 
+       no<lb ed="#S" break="no" n="65"/>stra nihil facit ad propositum: quia in casu illius refert. 
+      <lb ed="#S" n="66"/>inter cofitentem, sciente, &amp; ignorantem: quia scienter 
+       con<lb ed="#S" break="no" n="67"/>fitens curato suo occulte fornicanti est vere absolutus. 
+    </p>
+            <p xml:id="khj78y-q62565-d1e421" n="8">
+      <!--0217.xml-->
+               <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>
+               <!-- 8 -->Quinta conclusio est, quod si ipse nesciebat sed tamen 
+       sci<lb ed="#S" break="no" n="69"/>re debebat idem: quia lata culpa dolo comparatur. Quidam 
+      <lb ed="#S" n="70"/>tamem distinguunt: quia aut illud impedimentum est 
+       occul<lb ed="#S" break="no" n="71"/>tum per ignorantiam facti: vt quia percusserat clericum nul 
+      <lb ed="#S" n="72"/>lo vidente: &amp; tunc valet absolutio, aut propter ignoran 
+      <lb ed="#S" n="73"/>tiam iuris: vt quia percusserat coram tota vicinia, vbi non 
+      <lb ed="#S" n="74"/>erant nisi idiotae non credentes eum propter hoc 
+       excommunica<lb ed="#S" break="no" n="75"/>tum, vel nihilominus credebant quod posset confessiones 
+      <lb ed="#S" n="76"/>audire, &amp; tunc non valet. de conse. Eccl. aquam. Et haec qui 
+      <lb ed="#S" n="77"/>dem distinctio vera est, sed non est ad propositum, quia non 
+      <lb ed="#S" n="78"/>dicitur occultum proprie, quod est publice factum: licet sit 
+      <lb ed="#S" n="79"/>ignoratus iuris effectus: sicut percutiens clericum coram to 
+      <lb ed="#S" n="80"/>ta vicinia, vel in foro dicitur publice vel notorie 
+      excommuni<lb ed="#S" break="no" n="81"/>catus: licet nullus praesentium sciat propter hoc ipsum 
+       li<lb ed="#S" break="no" n="82"/>gari: vnde dicitur impedimentum notorium, licet ius non sit 
+      <lb ed="#S" n="83"/>notorium, quia iura certa sunt.
+    </p>
+            <p xml:id="khj78y-q62565-d1e466" n="9">
+      <!-- 9 -->QVANTVM 
+       ad<lb ed="#S" break="no" n="84"/>fecundum articulum de his quae sunt dubia. sciendum quod 
+       cir<lb ed="#S" break="no" n="85"/>ca occultum impedimentum confessoris sunt quinque 
+       opinio<lb ed="#S" break="no" n="86"/>nes. Prima, distinguens inter potestatem ordinariam &amp; 
+       dele<lb ed="#S" break="no" n="87"/>gatam: quae habet locum in foro animarum, sicut in exteriori. 
+      <lb ed="#S" n="88"/>Aut igitur confessor iste erat ordinarius, puta, quia 
+       ha<lb ed="#S" break="no" n="89"/>bebat parochiam sibi intitulatam: &amp; tunc valet absolutio 
+      <lb ed="#S" n="90"/>per eum impensa, aut delegatus: vt quia habebat commen 
+      <lb ed="#S" n="91"/>datam: &amp; tunc non valet sicut in foro exteriori. Quod 
+       pro<lb ed="#S" break="no" n="92"/>batur dupliciter. Primo, quia vtilitas publica praefertur 
+      <lb ed="#S" n="93"/>priuatae: vnde. &amp;c. propter vtilitatem eorum quae apud eum 
+      <lb ed="#S" n="94"/>gesserunt. fde offi. praeto. l. Barbarius Philippus. quae es 
+      <lb ed="#S" n="95"/>in iudice ordinario, coram quo tota communitas habet liti 
+      <lb ed="#S" n="96"/>gare, &amp; melius est vnum impunitum relinquere, quam tot 
+       inno<lb ed="#S" break="no" n="97"/>centes laedere, sed ex parte iudicis delegati, quae non 
+       ha<lb ed="#S" break="no" n="98"/>bet cognoscere nisi inter priuatos, versatur vtilitas 
+       pri<lb ed="#S" break="no" n="99"/>nata, nec debet rigor iuris conis relaxari propter vtilitatem 
+      <lb ed="#S" n="100"/>paucorum: cum publice intersit maleficia puniri.
+    </p>
+            <p xml:id="khj78y-q62565-d1e508" n="10">
+      <!-- 10 -->
+       se<lb ed="#S" break="no" n="101"/>cundo: quia ex consensu interpretatiuo litigantium, qui non 
+      <lb ed="#S" n="102"/>praesumuntur velle iactare pecuniam, nec perdere expensas: 
+      <lb ed="#S" n="103"/>vnde potuit populus Romanus si sciuisset hunc facere li 
+      <lb ed="#S" n="104"/>erum. sed priuatorum consensus iudicem non facit illum, qui 
+      <lb ed="#S" n="105"/>nulli praeest iurisdictioni. &amp;c. vnde etiam cum falso 
+       procu<lb ed="#S" break="no" n="106"/>ratore nullum est iudicium quantumcunque credatur, quia est 
+      <lb ed="#S" n="107"/>vtilitas priuata. Nec obstat de re iudi. ad probandum 
+       per<lb ed="#S" break="no" n="108"/>locum a contrario sensu: quia bene verum est qum vnus ex 
+       mul<lb ed="#S" break="no" n="109"/>tis iudicibus delegatus est occulte excommunicatus non 
+       vitia<lb ed="#S" break="no" n="110"/>tur sententia: quia valet ex virtute aliorum non 
+       excommunicato<lb ed="#S" break="no" n="111"/>rum, sicut &amp; valeret eo contradicente cum illa clausula: quod 
+       fi<lb ed="#S" break="no" n="112"/>non oent: sed si omnes fuissent excommunicati, vel vnus solus iudex 
+      <lb ed="#S" n="113"/>excommunicatus nulla esset, vel annullanda: quia non esset cuius 
+      <lb ed="#S" n="114"/>virtute haberet efficaciam, sicut electio facta a maltis 
+       quo<lb ed="#S" break="no" n="115"/>rum vnicus erat occulte excommunicatus, non vitiatur vtile per: 
+      <lb ed="#S" n="116"/>inutile: sed si omnes essent excommunicati nulla esset, 
+      <lb ed="#S" n="117"/>vel annullauda: cum indistincte iura dicant, quod electio: 
+      <lb ed="#S" n="118"/>celebrata ab excommunicatis vel interdictis sit 
+       inuali<lb ed="#S" break="no" n="119"/>da.
+    </p>
+            <p xml:id="khj78y-q62565-d1e554" n="11">
+      <!-- 11 -->sed contra. C. de sententia &amp; interlo. omni. iudi. l. 2. 
+      <lb ed="#S" n="120"/>Nec valet alia lectura glo. quia contrariatur textui. in 
+       ser<lb ed="#S" break="no" n="121"/>uitute morabatur. &amp;c. &amp; legi canonizatae. 3. q. 7. 6. 
+       Verum<lb ed="#S" n="122" break="no"/>quae sumpta videtur ex illa: si seruus putabatur. &amp;c. 
+       vbi<lb ed="#S" break="no" n="123"/>dicitur quod fi feruus qui putabatur liber ex delegatione 
+      <lb ed="#S" n="124"/>ius dixerit valet sententia. Nec obstat de vtilitate publi 
+      <lb ed="#S" n="125"/>ca, quia saltem habet efficaciam in delegatis ad 
+       vniuer<lb ed="#S" break="no" n="126"/>sitatem causarum, in quibus quandoque est maior vtilitas 
+      <lb ed="#S" n="127"/>quam in ordinarijs eorum, &amp; in foro exteriori &amp; interiori: si 
+      <lb ed="#S" n="128"/>cut plures laederentur si occultum impedimentum 
+       offi<lb ed="#S" break="no" n="129"/>cialis, vel poenitentiarij irritaret eius processum, &amp; 
+       con<lb ed="#S" break="no" n="130"/>fessiones quam archidiaconi vel episcopi, qui pauciores cau 
+      <lb ed="#S" n="131"/>sas &amp; confestiones audiunt. Quod autem dicunt secundo de 
+      <lb ed="#S" n="132"/>consenso litigantium, non valet: tum quia lex illa Barbarius 
+      <lb ed="#S" n="133"/>non haberet locum nisi in popolo Romano, qui solus 
+       alie<lb ed="#S" break="no" n="134"/>num seruum potest facere liberum, tum etiam quia non consentiuns· 
+      <!--0218.xml-->
+      <pb ed="#S" n="218"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>qui errant. Vnde iudex tunc demum accipit potestatem iudicandi 
+      <lb ed="#S" n="2"/>partes a consensu partium: quam alias non habebat, quando partes 
+      <lb ed="#S" n="3"/>scientes se non subditas illi, ipsum eligunt sponte prorogando, 
+      <lb ed="#S" n="4"/>quando vero errantes &amp; credentes se subditas sic litigant cora 
+       il<lb ed="#S" break="no" n="5"/>lo, &amp; alias si scirent non litigarent nequam. ff. de iur. omni iudi. 
+      <lb ed="#S" n="6"/>l. si per errorem. ff. de iudi. l. 2. Nec est verisimile, quod popu 
+      <lb ed="#S" n="7"/>lus Romanus si sciuisset eum seruum, fecisset eum liberum &amp; 
+      <lb ed="#S" n="8"/>praetorem: quin potius abiecisset &amp; vnum nobilem elegisset.
+    </p>
+            <p xml:id="khj78y-q62565-d1e615" n="12">
+               <lb ed="#S" n="9"/>
+               <!--12 -->Et quod dicunt tertio de falso procuratore, dico quod vbi 
+      <lb ed="#S" n="10"/>est prohabilis ignorantia: vt quia prius fuit verus, postea 
+      <lb ed="#S" n="11"/>occulte fuit reuocatus, valet: de solutionibus vero insti. 
+      <lb ed="#S" n="12"/>man. 6. Et huic simile quod dicunt. C. si a non compe. iudi. per 
+      <lb ed="#S" n="13"/>totum agitur de leg. vbi dicitur non valere, nec 
+       distingui<lb ed="#S" break="no" n="14"/>tur vtrum esset incompetentia publica vel occulta: &amp;. l. vlti. 
+      <lb ed="#S" n="15"/>dicitur quod in priuatorum causis &amp; non suo iudice lata 
+       senten<lb ed="#S" break="no" n="16"/>tia, non tenet: quasi diceret secus in lata in causis omnium de 
+      <lb ed="#S" n="17"/>communitate: non obstat quod ibi dicatur &amp; in priuatorum, quia 
+      <lb ed="#S" n="18"/>exponitur pro etiam: quasi dicat: non solum in alijs. Vnde 
+       lo<lb ed="#S" break="no" n="19"/>quitur in habente impedimentum manifestum, quod poterat 
+      <lb ed="#S" n="20"/>patere ex forma commissionis: vt si datus de proprietate 
+      <lb ed="#S" n="21"/>cognoscat de possessione: &amp; sic de alijs, dato etiam quod haec 
+      <lb ed="#S" n="22"/>distinctio vera esset: tum excluditur per hoc, quod dicitur cu 
+      <lb ed="#S" n="23"/>rato suo: qui licet non sit per lectionem habet tamen ordinariam 
+      <lb ed="#S" n="24"/>iurisdictionem: cuius signum est, quod potest delegare: licet enim non 
+      <lb ed="#S" n="25"/>possit instituere vicarium perpetuum, nisi de assensu epi: tum 
+      <lb ed="#S" n="26"/>potest ad tpraes, quod non potest delegatus in foro animarum, nec ad 
+      <lb ed="#S" n="27"/>vniuersitatem causarum: vt poenitentiarius episcopi,  nec a 
+       princi<lb ed="#S" break="no" n="28"/>pe, vt simplices poenitentiarij Papae.
+    </p>
+            <p xml:id="khj78y-q62565-d1e663" n="13">
+      <!-- 13 -->secunda opinio 
+      <lb ed="#S" n="29"/>est distinguens, vtrum curatus sciret vel non, quia aut ipse 
+       scie<lb ed="#S" break="no" n="30"/>bat ipsum suum impedimentum, quod alij iguorabant: &amp; tunc 
+      <lb ed="#S" n="31"/>non valet quod agit, aut ignorabat sicut &amp; caeteri: &amp; tunc 
+      <lb ed="#S" n="32"/>sic per simile de appellationibus. c. si duobus. vbi valet 
+      <lb ed="#S" n="33"/>excommunicationis latae ab inferiore iudice appellatio, quando 
+      <lb ed="#S" n="34"/>ignorat suum impedimentum. scilicet quod sit appellatum ad maius tri 
+      <lb ed="#S" n="35"/>bunal, non autem si sciat.
+    </p>
+            <p xml:id="khj78y-q62565-d1e683" n="14">
+      <!-- 14 -->sed contra, quia licet quo 
+      <lb ed="#S" n="36"/>ad ipsum sacramenta ministrantem multum referat, vtrum sciat 
+      <lb ed="#S" n="37"/>se excommunicatum vel non, quia in primo casu incurrit 
+       irregu<lb ed="#S" break="no" n="38"/>laritatem, non in secundo, quando. scilicet probabiliter ignorabat. de 
+       cle<lb ed="#S" break="no" n="39"/>ri. ex. mi. c. Apostolice: tum ex quo communiter ignorabat, non 
+       re<lb ed="#S" break="no" n="40"/>fert quo ad suscipientem sacramentum, de quo aeque iustum est 
+      <lb ed="#S" n="41"/>quod non laedatur sacerdote sciente, sicut nesciente: &amp; ad hoc. ff. 
+      <lb ed="#S" n="42"/>de eo qui protu. vel cu. gessit. l. 1. vbi in vtroque casu prae 
+      <lb ed="#S" n="43"/>tor actionem scripsit in fauorem pupilli: vt si tutor est qui 
+       ges<lb ed="#S" break="no" n="44"/>sit siue non, siue putet se tutorem, siue scit non esse: fingit tamen 
+      <lb ed="#S" n="45"/>esse: supple ex quo publice credii esse. Item. ffde iudi. l. 2. 
+      <lb ed="#S" n="46"/>licot referat ex parte litigantium: vtrum sciat se subditos vel 
+      <lb ed="#S" n="47"/>non: tum ex parte iudicis non refert, vtrum sciat illos esse 
+       ex<lb ed="#S" break="no" n="48"/>traneos aut credat subditos. 1.q. 3. Ita fit. &amp;. c. per Esaiant 
+      <lb ed="#S" n="49"/>vbi dicit Aug. quod per ministrum reprobum &amp; fictu spiritus 
+      <lb ed="#S" n="50"/>sanctus operatur remissionem peccatorum. Nec obstat 
+       de<lb ed="#S" break="no" n="51"/>cretalis: si duobus, quia ibi loquitur de scientia &amp; 
+       igno<lb ed="#S" break="no" n="52"/>rantia iudicis secundum quod iudex: vt quia de appellatione 
+      <lb ed="#S" n="53"/>facta ad Papum fuerat sibi facta fides, &amp; si non per 
+       contuma<lb ed="#S" break="no" n="54"/>ce forte per Apostolos eius, ex quo extitit appellatum, vel 
+      <lb ed="#S" n="55"/>aliter per ipsius literas, &amp; tunc notorium erat citatum non 
+      <lb ed="#S" n="56"/>esse de iurisdictione vocantis vel non. si autem &amp; tunc ratio 
+      <lb ed="#S" n="57"/>ne dubij vocatus debuit venire: vnde ibi non refert inter 
+      <lb ed="#S" n="58"/>scientiam &amp; ignorantiam iudicis, sed inter publicumper se &amp;. 
+      <lb ed="#S" n="59"/>occultum: nisi dicatur speciale, ibi in odium eius qui 
+      <lb ed="#S" n="60"/>Papae non detulit, quia alias quandocunq́, est dubium, 
+      <lb ed="#S" n="61"/>vocatus tenetut venire, alias potest puniri a vocante, nec 
+      <lb ed="#S" n="62"/>distinguitur vtrum vocans sciat vel non. ff. si quis in ius 
+      <lb ed="#S" n="63"/>vo. non ierit. l. 2.
+    </p>
+            <p xml:id="khj78y-q62565-d1e749" n="15">
+      <!-- 15 -->Tertia opinio est distinguens ex 
+      <lb ed="#S" n="64"/>parte iterationis: quia aut quaeritur: vtrum oeneatur 
+       ite<lb ed="#S" break="no" n="65"/>rum confiteri ante annum: &amp; tunc dicendum est quod non, 
+      <lb ed="#S" n="66"/>ant ytrum simpliciter quandocunque:&amp; tunc dicendum 
+      <lb ed="#S" n="67"/>est quod sic: quia ad confitendum sine temporis praefmitie- 
+      <!--0218.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>ne est quis obligatus iure diuino, sed ad confitendum an 
+      <lb ed="#S" n="69"/>te annum iure positiuo: potest autem error conis liberare 
+      <lb ed="#S" n="70"/>ab obligatione iuris positiui, &amp; tollere cius impedimen 
+      <lb ed="#S" n="71"/>ta: vt quod absolutus a seruo non sit amplius obligatus, 
+       si<lb ed="#S" break="no" n="72"/>cut nec absolutus a libero, quia a iure positiuo est, quod ser 
+      <lb ed="#S" n="73"/>uus non possit habere personam standi in iudicio, nec vt 
+      <lb ed="#S" n="74"/>pars nec vt iudex: quia ius ciuile iudicia ordinat, &amp; non 
+      <lb ed="#S" n="75"/>a iure naturali quo omnes homines liberi nascebantur. 
+      <lb ed="#S" n="76"/>Vnde iure ciuili certis ex causis serui habent personam 
+      <lb ed="#S" n="77"/>standi in iudicio: quod non esset si iure naturali 
+       prohibe<lb ed="#S" break="no" n="78"/>rentur, quia iura naturalia sunt immutibilia: non autem 
+      <lb ed="#S" n="79"/>ab obligatione iuris diuini: vnde nullus error liberat 
+       ali<lb ed="#S" break="no" n="80"/>quam a datione decimarum: restitutione vsurarum. &amp;c. 
+      <lb ed="#S" n="81"/>nec in simonia vetus error excusat.
+    </p>
+            <p xml:id="khj78y-q62565-d1e797" n="16">
+      <!-- 16 -->secundo sic, 
+      <lb ed="#S" n="82"/>quia non plus potest error quam consensus tacitus vel 
+       expres<lb ed="#S" break="no" n="83"/>sus, sed consensus tacitus populi non potest facere, quod 
+       confes<lb ed="#S" break="no" n="84"/>sio facta alij quam cui iure diuino facienda est valeat: quia 
+      <lb ed="#S" n="85"/>nulla consuetudine introduci potest, quod aliquis sine licen 
+      <lb ed="#S" n="86"/>tia proprij sacerdotis eligere valeat confessorem: de poe. &amp; 
+      <lb ed="#S" n="87"/>re. c. fi. li. vi. Et qui sic confessus esset: nihilominus tenetur 
+      <lb ed="#S" n="88"/>iterum confiteri proprio sacerdoti, ergo. &amp;c.
+    </p>
+            <p xml:id="khj78y-q62565-d1e817" n="17">
+      <!-- 17 -->Tertio, 
+      <lb ed="#S" n="89"/>quia non plus error conis facit ius quam error principis ff. de 
+      <lb ed="#S" n="90"/>supell. le. l 1. in fine: sed error principis non plus facit quam 
+      <lb ed="#S" n="91"/>scientia. Imo plus potest princeps claue non errante, quam et 
+      <lb ed="#S" n="92"/>rantes etiam loquendo de errore facti: vnde Papa salutan 
+      <lb ed="#S" n="93"/>do ignoranter excommunicatum non absoluit, sed Papa ex certa 
+      <lb ed="#S" n="94"/>scientia non potest dispensare, quod aliquis non teneatur 
+       sim<lb ed="#S" break="no" n="95"/>pliciter confiteri: potest autem quod non ante annum. Vnde per hoc 
+      <lb ed="#S" n="96"/>quodstatuit, quod impedimentum iudicis occultum non impediat 
+      <lb ed="#S" n="97"/>acta per eum: bene consequetur iste confitens, quod sic sit 
+       abso<lb ed="#S" break="no" n="98"/>lutus, quod non teneatur iterum confiteri inquantu iure 
+       positi<lb ed="#S" break="no" n="99"/>no tenebatur, sed non quin iure diuino.
+    </p>
+            <p xml:id="khj78y-q62565-d1e846" n="18">
+      <!-- 18 -->sed 
+       con<lb ed="#S" break="no" n="100"/>tra, quia aut est absolutus totaliter. i. quo ad vtrunque fo 
+      <lb ed="#S" n="101"/>rum, &amp; tunc non tenetur plus confiteri quo ad Deum, quam quo 
+      <lb ed="#S" n="102"/>ad Ecclesiam aut quantum ad neutrum: &amp; tunc aequaliter quo 
+      <lb ed="#S" n="103"/>ad vrrumque iterum tenetur, aut quo ad forum Ecclesiae, &amp; non 
+      <lb ed="#S" n="104"/>Dei. &amp; hoc stare non potest in proposito, vel sequitur idem, 
+      <lb ed="#S" n="105"/>quia licet multoties aliquis sit absolutus quo ad 
+       Eccle<lb ed="#S" break="no" n="106"/>siam, qui est reus quo ad Deum &amp; econuerso: tamen hic magis sup 
+      <lb ed="#S" n="107"/>ponitur, quod sit absolutus quo ad Deum propter contritione: 
+      <lb ed="#S" n="108"/>quae absoluit etiam sine confessione, quia Deus intuer cor: 
+      <lb ed="#S" n="109"/>quam quo ad Ecclesiam quae videt ea quae patent: &amp; si est 
+       abso<lb ed="#S" break="no" n="110"/>lutus quo ad Ecclesiam propter hoc quod impedimentum latet, 
+      <lb ed="#S" n="111"/>ex alia parte est absolutus quo ad Deum propter deuotio 
+      <lb ed="#S" n="112"/>nem. Vlterius etia Ecclesia semper vult se conformare iudi 
+      <lb ed="#S" n="113"/>cio diuino: &amp; quando inuenit se errasse &amp; deuiasse a iudicio 
+      <lb ed="#S" n="114"/>diuino: redit ad ipsum illud idem statuens errore detecto, 
+      <lb ed="#S" n="115"/>quod statuisset si ertor non fuisset: sicut si iudicauit non 
+      <lb ed="#S" n="116"/>esse matrimonium inter aliquos, &amp; eos separauit, &amp; postea 
+      <lb ed="#S" n="117"/>inuenit se deceptam, iudicabit fuisse matrimoniu &amp; praeci 
+      <lb ed="#S" n="118"/>piet cohabitare, non quandocunque, sed infra duos menses, 
+      <lb ed="#S" n="119"/>sicut a principio fecisset. Et similiter est in proposito si 
+      <lb ed="#S" n="120"/>Ecclesia reputabat istum rite absolutum, quia ignorabat im 
+      <lb ed="#S" n="121"/>pedimentum absoluentis: postea inueniat absoluentem 
+       ha<lb ed="#S" break="no" n="122"/>buisse legitimum impedimentu, &amp; iudicet non esse veram 
+      <lb ed="#S" n="123"/>absolutionem, sicut iudicabit iterum confitendum secundum 
+      <lb ed="#S" n="124"/>praeceptum Domini, sic iudicabit esse confitendum ante annum 
+      <lb ed="#S" n="125"/>secundum praeceptum concilij.
+    </p>
+            <p xml:id="khj78y-q62565-d1e907" n="19">
+      <!-- 19 -->Ad rationes opinionis 
+      <lb ed="#S" n="126"/>est dicendum: ad primam, quod hanc liberationem non facit 
+       dire<lb ed="#S" break="no" n="127"/>ste, nec error alicuius nec consensus alicuius hominis  
+       maxi<lb ed="#S" break="no" n="128"/>me confitentis: nam in foro coscientiae, nunquam habet locum 
+      <lb ed="#S" n="129"/>prorogatio, nec vnquam confitens dat confessori potestatem se 
+      <lb ed="#S" n="130"/>audiendi: etiam quando epraes eligit confessorem, non ab eligente, sed 
+      <lb ed="#S" n="131"/>a iure habet potestatem: quando vero Papa eligit sibi con 
+      <lb ed="#S" n="132"/>fessorem, habet ille immediate potestatem a Deo: nec 
+      <lb ed="#S" n="133"/>etiam consensus principis: sed indirecte haec omnia 
+       ope<lb ed="#S" break="no" n="134"/>rantur: quia princeps propter bonam cone ue ignoruntes de- 
+      <!--0219.xml-->
+      <pb ed="#S" n="219"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>cipiantur, statuit vt acta per iudicem occulte impeditum 
+       va<lb ed="#S" break="no" n="2"/>leant. Nec refert vtrum iudex ille sit institutus a tali, qui praet 
+      <lb ed="#S" n="3"/>amouere illud impedimentum: sicut princeps vel 
+       popu<lb ed="#S" break="no" n="4"/>susRomanus, qui fecit praetorem seruum, an ab alio vt. C. de 
+      <lb ed="#S" n="5"/>sen. &amp; inter. l. si arbiterdatus a magistratibus: quia hoc non 
+      <lb ed="#S" n="6"/>habet a dante vt dans est, quia errans in eo quod errat, nihil vult 
+      <lb ed="#S" n="7"/>dare, maxime si sciens non erat daturus, sed a iure. 
+       Qui<lb ed="#S" break="no" n="8"/>cumq, autem est absolutus ab eo qui potuit absoluere. vtroque 
+      <lb ed="#S" n="9"/>iure liberatur: &amp; princeps bene potest facere quod aliquis 
+      <lb ed="#S" n="10"/>habeat potestatem, qui non habebat, &amp; econuerso.
+    </p>
+            <p xml:id="khj78y-q62565-d1e959" n="20">
+      <!-- 20 -->
+       secun<lb ed="#S" break="no" n="11"/>da ratio aeque probat, quod infra annum sicut quandocunque. 
+    </p>
+            <p xml:id="khj78y-q62565-d1e967" n="21">
+               <lb ed="#S" n="12"/>
+               <!-- 21 -->Quarta opinio est quod tenetur: quia ius non exprimit 
+      <lb ed="#S" n="13"/>quod occultum impedimentum habeatur pro nullo in foro poeni 
+      <lb ed="#S" n="14"/>tentiali, sicut exprimit in foro iudiciali, licet magis esset 
+      <lb ed="#S" n="15"/>declarandum hic quam ibi: quia maius periculum. Licet ergo sen 
+      <lb ed="#S" n="16"/>tentia lata in foro exteriori ab occulto excommunicato 
+       va<lb ed="#S" break="no" n="17"/>leat, quia expressum est in iure non solum ciuili. ff. de offi. 
+      <lb ed="#S" n="18"/>praeto. l. Barbarius. C. de sententia &amp; inter. omni iu. l 2. quia istud 
+      <lb ed="#S" n="19"/>non sufficeret, quia quicquid a laicis in spiritualibus vel 
+       Eccle<lb ed="#S" n="20" break="no"/>siasticis fuerit statutum, nullius firmitatis existit, nisi ab 
+       Ec<lb ed="#S" n="21" break="no"/>clesia fuerit approbatum: extram. de consti. c. Ecclesia sanctae 
+      <lb ed="#S" n="22"/>Mariae. Imoetiam iure Canonico. 3. q. 7. 6. Verum. vbi 
+       dici<lb ed="#S" break="no" n="23"/>tur valere sententia lata a seruo occulto: tum neutro iure 
+      <lb ed="#S" n="24"/>aliquid est cautum de foropoenitentiali: &amp; sic stat ius 
+       Eccle<lb ed="#S" n="25" break="no"/>siae quod dixit excommunicatum non posse absoluere nec ligare. 
+      <lb ed="#S" n="26"/>sed ista opinio non valet vt videt, quia illud quod a iure 
+      <lb ed="#S" n="27"/>statuitur in vno casu, eo ipso statutum reputatur iti 
+       simi<lb ed="#S" break="no" n="28"/>li: vnde cum supposita potestate ordinis, vtrumque forum quo 
+      <lb ed="#S" n="29"/>ad potestatem iurisdictionis sit eiusdem rationis: quod in 
+      <lb ed="#S" n="30"/>vno statuerquo ad hoc, in alio reputabit statutum.
+    </p>
+            <p xml:id="khj78y-q62565-d1e1013" n="22">
+      <!-- 22 -->Et 
+      <lb ed="#S" n="31"/>ideo est quinta opinio, quod confessus bona fide habenti 
+       oc<lb ed="#S" break="no" n="32"/>cultum impedimentum iuris positiui, non tenetur amplius 
+       con<lb ed="#S" break="no" n="33"/>fiteri, quod probatur sic. Confessus ei qui potuit 
+       absolue<lb ed="#S" break="no" n="34"/>re de iure, &amp; absolutus ab eo de facto, non tenetur amplius 
+      <lb ed="#S" n="35"/>confiteri, sed proprius sacerdos qui non habet impedimen 
+      <lb ed="#S" n="36"/>tum absoluendi nisi occultum, potest aeque absoluere de iure, 
+      <lb ed="#S" n="37"/>ac si nullum haberet impedimentum: ergo confessus ei &amp; 
+       ab<lb ed="#S" break="no" n="38"/>solutus non tenetur amplius confiteri Maior patet: quia 
+      <lb ed="#S" n="39"/>aullum sacramentum est necessitatis, quantum ad iterationem ex 
+       na<lb ed="#S" break="no" n="40"/>tura sacramenti: licet multa sint necessitatis quantum ad prima 
+      <lb ed="#S" n="41"/>riam susceptionem, vt baptismus &amp; poenitentia. sed quaedam non 
+       ite<lb ed="#S" break="no" n="42"/>rantur: vt imprimentia characterem: quaedam de congruitate 
+      <lb ed="#S" n="43"/>iterantur, non necessitate: vt poenitentia. Dico autem ex natura 
+       sa<lb ed="#S" break="no" n="44"/>cramenti: quia per statutum Ecclesiae quandoque est aliter: sicut si 
+      <lb ed="#S" n="45"/>homo multis annis viuat tenetur iterare conionem, qᷓnis 
+      <lb ed="#S" n="46"/>in conione non sit essentia sacramenti. Et si poenitentia iteratur 
+      <lb ed="#S" n="47"/>ppter recidiuum non proprie iterat: quia est de alia 
+       mate<lb ed="#S" break="no" n="48"/>ria, quia de alio peccato. Et de duabus vltimis partibus 
+      <lb ed="#S" n="49"/>pniae certum est, quia confessio &amp; satisfactio rite semel factae 
+      <lb ed="#S" n="50"/>non necessario de eodem iteranturcontritio autem sic: non 
+       in<lb ed="#S" break="no" n="51"/>quantum est pars sacramenti, sed inquantum est actus virtutis, quae 
+      <lb ed="#S" n="52"/>inclinat ad dolendum de peccato quotiescunquehomo 
+       re<lb ed="#S" break="no" n="53"/>colit. Aliter nouum peccatu comitteret, nisi saltem sibi non 
+      <lb ed="#S" n="54"/>complaceret in pcto. semel ergo rite confessus &amp; 
+       absolu<lb ed="#S" break="no" n="55"/>tus sacramentaliter non tenetur amplius confiteri.
+    </p>
+            <p xml:id="khj78y-q62565-d1e1072" n="23">
+      <!-- 23 -->Nec 
+      <lb ed="#S" n="56"/>obstat quod confessus laico tenetur si euadat confiteri: quia 
+      <lb ed="#S" n="57"/>non fuit sacraliter absolutus, confessus vero sacerdoti 
+       ha<lb ed="#S" break="no" n="58"/>bens casum episcopalem vel papalem tenetur se praesentare 
+       il<lb ed="#S" break="no" n="59"/>lis post articulum, si enadat, no absoluendus, sed mandatis 
+      <lb ed="#S" n="60"/>paritur: vnde non est ibi confesio sacramentalisinec illud 
+      <lb ed="#S" n="61"/>est de absolutione a peccato, sed a vinculo, sicut patet: 
+      <lb ed="#S" n="62"/>de sen. excb. c. Bos qui. l: 6. in principio: &amp; in fine. Nos au 
+      <lb ed="#S" n="63"/>tem loquimur de confessione quae expectat absolutionem, 
+       si<lb ed="#S" break="no" n="64"/>cut materia formam. Nec etiam directe est ibi sigillum 
+       confes<lb ed="#S" break="no" n="65"/>sionis: licut teneatur celare. Quae eriam remissio ibi pro 
+       tan<lb ed="#S" n="66" break="no"/>to loco habot, quia sacerdos tui committitur absoluere a 
+      <lb ed="#S" n="67"/>culpa, vel sententia propter periculi iaia &amp; perditionem suf- 
+      <!--0219.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>fragiorum Ecclesiae, non sic absoluit a poena quam nec tunc de 
+      <lb ed="#S" n="69"/>bet iniungere, nec est necesse facere, quia in purgatorio fiet, 
+      <lb ed="#S" n="70"/>propter quod remittit ad superiorem, sed hic non est maior 
+      <lb ed="#S" n="71"/>difficultas absoluere a poena, vel imponere poenam quam 
+       ab<lb ed="#S" break="no" n="72"/>soluere a culpa, quia non ponimus quod iste habeat casum 
+      <lb ed="#S" n="73"/>aliquem superiori reseruatum. Vnde si de tecto 
+       impedimen<lb ed="#S" break="no" n="74"/>to non habet ad aliquem recurrere absoluendus: pari ratione 
+      <lb ed="#S" n="75"/>nec poenitentiam accepturus. Probatio minoris 
+       triplici<lb ed="#S" break="no" n="76"/>ter. Primo sic: Omnis haereticus occultus habet tale impedi 
+      <lb ed="#S" n="77"/>mentum, quod si esset publicum non posset absoluere nec ligare, 
+      <lb ed="#S" n="78"/>cum omnis  haereticus etiam occultus, sit excommunicatus. de haeret. 
+      <lb ed="#S" n="79"/>Ad abolendam, sentire vel docere praesumunt. &amp;c. sed omnis 
+       hae<lb ed="#S" n="80" break="no"/>reticus occultus potest dispensare Ecclesiastica sacramen 
+      <lb ed="#S" n="81"/>ta, sicut catholicus, &amp; ab eo licite possunt recipi: ergo. &amp;c. 
+    </p>
+            <p xml:id="khj78y-q62565-d1e1137" n="24">
+               <lb ed="#S" n="82"/>
+               <!-- 24 -->secundo sic. Quicumque potest absoluere &amp; ligare in 
+       fo<lb ed="#S" break="no" n="83"/>ro exteriori Ecclesiastico, potest absoluere &amp; ligare in foro 
+      <lb ed="#S" n="84"/>aiae: dum tamen habeat claues ordinis, quibus habitis nihil plus 
+      <lb ed="#S" n="85"/>requirit vnum iudicium quam aliud, quia clauis iurisdictionis 
+      <lb ed="#S" n="86"/>vtrique foro est conis aequaliter. Nullus enim praeter ligare vel 
+      <lb ed="#S" n="87"/>absoluere non subditum, &amp; in vtroque foro a non suo iudice 
+      <lb ed="#S" n="88"/>lata sententia non tenet: nec similiter confessio facta coram 
+      <lb ed="#S" n="89"/>eo. de iudi. Ac si clerici. sed iudex habens occultum 
+       impe<lb ed="#S" break="no" n="90"/>dimentum in foro exteriori, aeque praeter absoluere &amp; ligare si 
+      <lb ed="#S" n="91"/>tut habens nullum: ergo a simili in foro interiori. Minoris 
+      <lb ed="#S" n="92"/>probatio per exemplum: nam si officialis occulte excommunicatus 
+      <lb ed="#S" n="93"/>citat aliquem qui non comparet, &amp; propter hoc ipsum 
+      excommuni<lb ed="#S" break="no" n="94"/>cat. Dico quod sententia tenet ita vt detecto errore sit 
+       neces<lb ed="#S" break="no" n="95"/>saria absolutio, quia ista sunt paria: aliquem non esse 
+       iudi<lb ed="#S" break="no" n="96"/>cem, &amp; poblice iudicem putari, &amp; aliquem esse iudicem 
+       impedi<lb ed="#S" break="no" n="97"/>tu: &amp; publice ignorari. ff. de eo quod fal. tu. l. 1. 6. Quid 
+      <lb ed="#S" n="98"/>enim si tutor fuerit: qui auctoritatem accommodare non 
+       po<lb ed="#S" break="no" n="99"/>tuit: puta furiosus vel ad aliam regionem datus? quasi dicat 
+      <lb ed="#S" n="100"/>idem erit, ac si tutor non fuerit. Et si deberet referri, magis 
+      <lb ed="#S" n="101"/>videretur quod habens impedimentum respiciens 
+       iurisdictio<lb ed="#S" break="no" n="102"/>nem, per quod si non suus iudex partium irritaret processum 
+      <lb ed="#S" n="103"/>suum quam impedimentum respiciens actum iurisdictionis, per 
+      <lb ed="#S" n="104"/>quod non desinit esse suus iudex, sed perdit vsum, sed si 
+      <lb ed="#S" n="105"/>haberet occultum impedimentum essendi Iudex, vt quia pu 
+      <lb ed="#S" n="106"/>taretur iudex communiter &amp; non esset: valeret sententia secundum 
+      <lb ed="#S" n="107"/>oens ratione dubij. ff. si quis in ius. vo. non ie. l. Ex quacumque 
+      <lb ed="#S" n="108"/>causa. multomagis quando vere est iudex, sed dubium est vtrum 
+      <lb ed="#S" n="109"/>sit excommunicatus, quod si esset non porderet iurisdictionem, sed so 
+      <lb ed="#S" n="110"/>lum exercitium.
+    </p>
+            <p xml:id="khj78y-q62565-d1e1205" n="25">
+      <!-- 25 -->Tertio sic. Oiscui debet fieri consest 
+      <lb ed="#S" n="111"/>fio praecise vel disiunctiue, potest absoluere confitentem, 
+      <lb ed="#S" n="112"/>quia nullus tenetur confiteri praecise illi qui non potost eum 
+      <lb ed="#S" n="113"/>absoluere: vt laico in necessitate, cum necessitas eorum quae 
+      <lb ed="#S" n="114"/>sunt ad finem accipiatur ex fine, secundum quem in tm sunt 
+      <lb ed="#S" n="115"/>necessaria, inquantum finis potest haberi per illa &amp; homo 
+       si<lb ed="#S" break="no" n="116"/>ne illis. Nam si finis possot haberi per aliud medium, non 
+      <lb ed="#S" n="117"/>esset necesse vti illo medio, &amp; sic est de confessione, qdae li 
+      <lb ed="#S" n="118"/>cet habeat effectum ex hamilitate &amp; erubescentia 
+       confiten<lb ed="#S" break="no" n="119"/>tis sine absolutione, non tamen habet effectum sacramentalem 
+      <lb ed="#S" n="120"/>sine absolutione quae est sua forma, nec et iantenetur quij 
+      <lb ed="#S" n="121"/>sub discunctione confiteri illi, qui non potest eum absoluere. 
+      <lb ed="#S" n="122"/>verbi gratia: Quilibet tenetur confiteri proprio 
+       sacerde<lb ed="#S" break="no" n="123"/>ti, qui es curatus, epraet, Papa. quando ergo isti tres possunt 
+       ab<lb ed="#S" break="no" n="124"/>soluere: tonc non tenetur praecise alicui ex illis confiterit 
+      <lb ed="#S" n="125"/>sed omnibus sub disiunctione: vt puta tenetur confiteri, vel 
+      <lb ed="#S" n="126"/>curato, vel epo, vel Papae, vel de licentia eorum. si dutem 
+      <lb ed="#S" n="127"/>curatus fiat impotens absoluere, &amp; sciatur coniter, tunt 
+      <lb ed="#S" n="128"/>retendit obligatio in persona aliorum. Vnde non iam 
+       tene<lb ed="#S" break="no" n="129"/>tur confiteri curato, vel episcopo vel Papae, siont priux 
+      <lb ed="#S" n="130"/>quia cum in alternatiuis sit elostio debitoris: &amp; ad 
+       verita<lb ed="#S" break="no" n="131"/>tem disiunctiue sufficit alteram: partem esse veram, si 
+       confitemo<lb ed="#S" break="no" n="132"/>tur curato, quem scit non posse absoluere, liberator, quod 
+      <lb ed="#S" n="133"/>falsum est, sed tantum tenetur confiteri alteri de du-- 
+      <lb ed="#S" n="134"/>bus potentibus absoluere? &amp; fisaecundus fieret imoporens 
+      <!--0220.xml-->
+      <pb ed="#S" n="220"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>teneretur praecise tertio: sicut, si debeo decem Titio, vel 
+      <lb ed="#S" n="2"/>Maeuio, vel sempronio soluere, mortuo vno teneor solue 
+      <lb ed="#S" n="3"/>re vni de superstitibus, sed mortuis duobus teneor 
+       prae<lb ed="#S" break="no" n="4"/>cilc soluere tertio: sed iite qui corenus eit curato, teneda 
+      <lb ed="#S" n="5"/>tur ei consiteri &amp; si non praecise, quia poterat confiteri epo vel 
+      <lb ed="#S" n="6"/>Papae vel eorum vicarijs, saltem sub disiunctione. scilicet curato, 
+      <lb ed="#S" n="7"/>vel epo, vel Papae, vel eorum poenitentiarijs, sicut prius quando 
+      <lb ed="#S" n="8"/>nullum habebat impedimentum. Probatio, quia nullus 
+       te<lb ed="#S" break="no" n="9"/>netur praecise illi de quo probabiliter credit non praecise 
+      <lb ed="#S" n="10"/>teneri. Nullus enim tenetur ad id cuius oppositum credit 
+      <lb ed="#S" n="11"/>probabiliter, quia omnis  ignorantia probabilis excusat a pecca 
+      <lb ed="#S" n="12"/>to mortali, quicumque autem non facit id ad quod tenet, peccat 
+      <lb ed="#S" n="13"/>mortaliter. Iste autem quamdiu probabiliter credit, quod curatus 
+      <lb ed="#S" n="14"/>possit ipsum absoluere, tandiu probabiliter credit, quod non 
+      <lb ed="#S" n="15"/>teneatur praecise alij a curato confiteri: quia contradictio 
+      <lb ed="#S" n="16"/>esset, quod teneretur praecise soluere vni &amp; nihilominus 
+       li<lb ed="#S" break="no" n="17"/>beraretur soluendo alteri, quia stricta ratione iuris 
+       libe<lb ed="#S" break="no" n="18"/>rari non possunt, qui alij soluerunt quam cui soluere debuerunt. 
+       In<lb ed="#S" break="no" n="19"/>sti. man. 6. Et huic simile. Vnde nemo tenetur ex 
+       praece<lb ed="#S" break="no" n="20"/>pto facere aliquid, quod probabiliter nescit sibi praeceptum, 
+      <lb ed="#S" n="21"/>ga statuta ciuiu no ligat ignorates. n. de decr. ab or. fac. 
+      <lb ed="#S" n="22"/>l. vlti. de consti. c. 2. ergo curatus potuit eum absoluere, cui 
+      <lb ed="#S" n="23"/>tenebatur sub disiunctione confiteri, &amp; non praecise alij cura 
+      <lb ed="#S" n="24"/>to.
+    </p>
+            <p xml:id="khj78y-q62565-d1e1320" n="26">
+      <!-- 26 -->Pro hac ratione videtur facere: quod habet de 
+      <lb ed="#S" n="25"/>haeret. c. vlt. vbi lapsis in haeresim manifese dominis, vasalli 
+      <lb ed="#S" n="26"/>ab homagio absoluuntur, quasi dicat, secus si occulte, sed 
+      <lb ed="#S" n="27"/>diceret aliquis quod haereticus occultus retinet 
+       iurisdictio<lb ed="#S" break="no" n="28"/>nem, sed non vsum, manifestus autem perdit vtrumque, sed hoc 
+      <lb ed="#S" n="29"/>eit contra lege Bardarius: quae eit rundamentu in nac ma 
+      <lb ed="#S" n="30"/>teria.
+    </p>
+            <p xml:id="khj78y-q62565-d1e1339" n="27">
+      <!-- 27 -->QVANTVM ad tertium articulum iustatur 
+      <lb ed="#S" n="31"/>contra uicta opinione multipiiciter. rrimo initatur nc. 
+      <lb ed="#S" n="32"/>Contrahens cum habente occultum impedimentum 
+       contrahen<lb ed="#S" break="no" n="33"/>di, non facit matrimonium verum sacramentum, nisi comperto 
+      <lb ed="#S" n="34"/>impedimento iterum de nouo consentiat &amp; contrahat: vt 
+       pa<lb ed="#S" break="no" n="35"/>tet in coniugio liberi cum ancilla, quae putabatur libera. et 
+      <lb ed="#S" n="36"/>go a simili. &amp;c.
+    </p>
+            <p xml:id="khj78y-q62565-d1e1357" n="28">
+      <!-- 28 -->sed dicendum quod in fauorem 
+       ignoran<lb ed="#S" break="no" n="37"/>tium est introductum, vt error veritatis praeiudicet. Vude 
+      <lb ed="#S" n="38"/>quando eis expedit, vt res valeat, vt in iudicijs: valet: qn non, 
+      <lb ed="#S" n="39"/>nontne quod in fauorem eorum est introductum, in ipsorum 
+       lae<lb ed="#S" break="no" n="40"/>sionem retorqueatur. Hic autem non expedit. Vnde si liber 
+      <lb ed="#S" n="41"/>vellet consentire, ancilla resilire non posset.
+    </p>
+            <p xml:id="khj78y-q62565-d1e1373" n="29">
+      <!-- 29 -->secundo 
+      <lb ed="#S" n="42"/>sic. Furiosus non pocest alienare occultus, sicut nec 
+       mani<lb ed="#S" break="no" n="43"/>festus: ergo a simili. &amp;c.
+    </p>
+            <p xml:id="khj78y-q62565-d1e1382" n="30">
+      <!-- 30 -->sed dicendum est: quod 
+       aliena<lb ed="#S" break="no" n="44"/>tio furiosi non valeat, est introductum in fauorem eius, quia 
+      <lb ed="#S" n="45"/>caret consensu, no autem in fauore alterius cotranentis. Es 
+      <lb ed="#S" n="46"/>propter hoc est eadem ratio, siue occultus siue manifestus. 
+      <lb ed="#S" n="47"/>Hic autem secus est. Vnde quod occultum impedimentum aliter 
+      <lb ed="#S" n="48"/>se habeat quam manifestum, est introductum in fauorem ignoran 
+      <lb ed="#S" n="49"/>tium, qui de occultis non poterant diuinare.
+    </p>
+            <p xml:id="khj78y-q62565-d1e1400" n="31">
+      <!-- 31 -->Tertio 
+      <lb ed="#S" n="50"/>sie. Episcopus occulte excommunicatus non minus confert 
+       ordi<lb ed="#S" break="no" n="51"/>nando quam publicus, quia vtrobique confertur character, sed 
+      <lb ed="#S" n="52"/>non executio, licet in altero casu dispensetur faciliter pro 
+      <lb ed="#S" n="53"/>pter ignorantiam probabilem: ergo a simili. &amp;c.
+    </p>
+            <p xml:id="khj78y-q62565-d1e1413" n="32">
+      <!-- 32 -->sed 
+      <lb ed="#S" n="54"/>dicendum quod causa vniuoca communicat formam suam secundum mo 
+      <lb ed="#S" n="55"/>dum quem habet. Et quia in conferondis ordinibus se habet 
+      <lb ed="#S" n="56"/>eps quodammodo vt causa vuiuoca, non potest conferre 
+       execu<lb ed="#S" break="no" n="57"/>tionem, quando eam non habet, sed in collatione poenitentiae se habet 
+       sa<lb ed="#S" break="no" n="58"/>cerdorvt aequiuocum instrumentum conferendo gratiam: etiam 
+      <lb ed="#S" n="59"/>si non habet: ideo. &amp;c.
+    </p>
+            <p xml:id="khj78y-q62565-d1e1432" n="33">
+      <!-- 33 -->Quarto sio: sicut confessio 
+       ha<lb ed="#S" break="no" n="60"/>beo determinatum mi uistrum: ita videtur habere determina 
+      <lb ed="#S" n="61"/>tam materiam. si confessionem verbi: per quam peccata 
+       manife<lb ed="#S" break="no" n="62"/>stuntur, sed confitens propter impedimentum proprium potest con 
+      <lb ed="#S" n="63"/>fiteri sine verbo, &amp; tantum valet: ergo &amp; minister impeditus 
+      <lb ed="#S" n="64"/>absoluere potestac si impeditui non esset.
+    </p>
+            <p xml:id="khj78y-q62565-d1e1448" n="34">
+      <!-- 34 -->sed 
+       di<lb ed="#S" break="no" n="65"/>cendum quod illud quod assumitur ad matoriam sacramentorum, semper 
+      <lb ed="#S" n="66"/>est id cui prius competit ratio nominis: vt dictu fuit: cum de 
+       sa<lb ed="#S" break="no" n="67"/>cramento Eucharistim ageiei. Matetia autem in sacramento confes- 
+      <!--0220.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>sionis est signum quo peccatum  aperitur. Inter signa autem 
+       vo<lb ed="#S" break="no" n="69"/>ces obtinent principatum, &amp; alia inuenta sunt ad 
+       supplemen<lb ed="#S" break="no" n="70"/>tum vocum: &amp; ideo in potente loqui necesse est confiteri 
+       ver<lb ed="#S" break="no" n="71"/>bo. si autem loqui non potest debet confiteri per signum magis 
+      <lb ed="#S" n="72"/>congruu &amp; eit vera corcisio. Materia aut in iacramento 
+      <lb ed="#S" n="73"/>confessionis non est vna secundum  speciem: vt aqua in baptisino, 
+      <lb ed="#S" n="74"/>led eit vna vnitate analogiae, quae eit inter ugna, nc en quod 
+      <lb ed="#S" n="75"/>principalius assumatur de possibilibus. Cuius ratio est: quia 
+      <lb ed="#S" n="76"/>in his sacramentis puta in baptismo, confirmatione, &amp; ordine, 
+      <lb ed="#S" n="77"/>ninii requiritur ex parte recipietis, nin quod no ponat 
+       im<lb ed="#S" break="no" n="78"/>pedimentu. Et ideo quicquid extriniecu apponit, totu 
+      <lb ed="#S" n="79"/>est determinatum in specie vna ex ordinatione diuina. 
+      <lb ed="#S" n="80"/>deo in pma requiritur per ie acrus poeniteris. 1.quod 
+       manue<lb ed="#S" break="no" n="81"/>itet peccata iua iaceruoti, &amp; quia Deus no requirit a 
+       no<lb ed="#S" break="no" n="82"/>bis nisi quod possumus, ideo sufficit quod peccator manifestet pe 
+      <lb ed="#S" n="83"/>cata sua sacerdoti per praecipuum signum, quod est sibi possi 
+      <lb ed="#S" n="84"/>bile, quamuis non sit semper vnius rationis. Et ideo quando non praet 
+       ver<lb ed="#S" break="no" n="85"/>bo, sufficit quod scripto vel nutu. quando autem linguam terrae non 
+      <lb ed="#S" n="86"/>habet: sufficit quod per interpretem. sed in absoluente non suffi 
+      <lb ed="#S" n="87"/>cit.
+    </p>
+            <p xml:id="khj78y-q62565-d1e1507" n="35">
+      <!-- 35 -->Et per hoc patet quod aliud argumentum non est ad 
+      <lb ed="#S" n="88"/>propontu: tum, quia in coreisione iota per interprete eit 
+      <lb ed="#S" n="89"/>catus, qn poteit prodari alique ene coreuum iurncieter: 
+      <lb ed="#S" n="90"/>scilicet per duos testes interpretem &amp; auditorem, &amp; quia con 
+      <lb ed="#S" n="91"/>fessus sufficiens probari non potest, ideo merito statutum 
+      <lb ed="#S" n="92"/>est in decretali noua. Inter cunctas, quod debet homini credi 
+       di<lb ed="#S" break="no" n="93"/>ceri ie corenum rratribus: tu quia eit talis rei de qua no 
+      <lb ed="#S" n="94"/>pt cortare auter ad plenu: tu quia de illius rei solius prae 
+      <lb ed="#S" n="95"/>iudicio agitur: tu quia taus eit res. i. aia in qua et 
+       credi<lb ed="#S" break="no" n="96"/>tur pro se &amp; contra se: vnde si ei creditur dicenti se non 
+       habe<lb ed="#S" break="no" n="97"/>re peccatum, multo magis diceti se confeslum: qnia 
+       mi<lb ed="#S" break="no" n="98"/>nus est. Dicere autem quod magis expedit confessis signum quod 
+      <lb ed="#S" n="99"/>curatis exhiberent, esset materia derisionis sacramenti: quia 
+      <lb ed="#S" n="100"/>vnus alteri mereiiu mutaret vt ie corenum proparet. Di 
+      <lb ed="#S" n="101"/>cere etiam quod nomem peteret &amp; scriberet sicut aliqui faciunt, 
+      <lb ed="#S" n="102"/>isset aliquos verecundos a confessione retrahere, qui ideo 
+      <lb ed="#S" n="103"/>ad extraneos vadunt: quia nolunt a suis cognosci: &amp; 
+       eru<lb ed="#S" break="no" n="104"/>bescunt aliqando luis curatis conhteri, &amp; eru bescunt eis 
+      <lb ed="#S" n="105"/>scientibus ad alios ire. Vnde &amp; dissimulato habitu 
+       quam<lb ed="#S" n="106" break="no"/>doque veniunt.
+    </p>
+            <p xml:id="khj78y-q62565-d1e1553" n="36">
+      <!-- 36 -->Ad argumentum in ista quaestione 
+      <lb ed="#S" n="107"/>motum patet solutio ex dictis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

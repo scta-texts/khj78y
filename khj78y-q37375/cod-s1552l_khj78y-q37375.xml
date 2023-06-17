@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="144"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q37375"><!-- l4d12-q2 -->
+            <head xml:id="khj78y-q37375-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q37375-Hd1e103" type="question-title">
+     utrum 
+     Deus possit facere accidens sine 
+     subiecto
+   </head>
+            <p xml:id="khj78y-q37375-d1e106">
+               <lb ed="#S" n="93"/>QVAESTIO. sECVNDA. 
+      <lb ed="#S" n="94"/>De accidente per diuinam potentiam a 
+      <lb ed="#S" n="95"/>subiecto separabili. 
+    </p>
+            <p xml:id="khj78y-q37375-d1e115">
+               <lb ed="#S" n="96"/>Thom. 3. q. 62. 
+    </p>
+            <p xml:id="khj78y-q37375-d1e120">
+               <lb ed="#S" n="97"/>QVAERITVR secundo, vtrum 
+      <lb ed="#S" n="98"/>Deus possit facere accidens sine 
+      <lb ed="#S" n="99"/>subiecto. Et videtur quod non: quia sicut 
+      <lb ed="#S" n="100"/>se habet accidens absolutum ad sub 
+      <lb ed="#S" n="101"/>iectum: sic respectiuum ad 
+       obie<lb ed="#S" break="no" n="102"/>ctum: quia sicut accidentis esse est 
+      <lb ed="#S" n="103"/>inesse: sic relationis esse est 
+       ades<lb ed="#S" break="no" n="104"/>se: sed Deus non potest facere 
+       rela<lb ed="#S" break="no" n="105"/>tionem sine termino: quia relatiua posita se ponunt. ergo 
+      <lb ed="#S" n="106"/>nec accidens sine subiecto.
+    </p>
+            <p xml:id="khj78y-q37375-d1e145" n="2">
+      <!-- 2 -->CONTRA, quia 
+      <lb ed="#S" n="107"/>sicut accidenti per naturam debetur esse in alio, &amp; non per se: 
+      <lb ed="#S" n="108"/>sic econuerso substantiae perfectae primae debet per se esse, &amp; 
+      <lb ed="#S" n="109"/>non in alio: sed humanitas Christi, quae est prima 
+       sub<lb ed="#S" break="no" n="110"/>stantia, &amp; hoc aliquid non subsistit per se, sed in diuino 
+      <lb ed="#S" n="111"/>supposito sustentat. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q37375-d1e161" n="3">
+      <!-- 3 -->REsPONDEO, 
+      <lb ed="#S" n="112"/>cum duplex sit accidens. scilicet absolutum, &amp; respectiuum: &amp; 
+       ab<lb ed="#S" break="no" n="113"/>solutum duplex, quantitas, &amp; qualitas. Ideocirca istam 
+       quae<lb ed="#S" break="no" n="114"/>stionem tria sunt videnda. Primo, de quantitate. secundo, 
+      <lb ed="#S" n="115"/>de qualitate. Tertio de relatione. scilicet vtrum Deus ista 
+       po<lb ed="#S" break="no" n="116"/>sit sine subiecto facere.
+    </p>
+            <p xml:id="khj78y-q37375-d1e177" n="4">
+      <!-- 4 -->QVANTVM ad 
+       pri<lb ed="#S" break="no" n="117"/>mum sunt tria videnda. Primo de quantitate continua 
+      <lb ed="#S" n="118"/>permanente. secundo, de successiua. Tertio, da discreta. 
+      <lb ed="#S" n="119"/>Qantum ad primum videt, quod Deus possit separare quanti 
+      <lb ed="#S" n="120"/>tatem continuam remanentem a subiecto: quod probant 
+       ali<lb ed="#S" break="no" n="121"/>qui sic: Deus potest facere omnem effectum immediate sine 
+      <lb ed="#S" n="122"/>causa extrinseca: puta efficiente, &amp; finali: quia ipse est 
+       pri<lb ed="#S" break="no" n="123"/>mum principium, &amp; finis vltimus omnium: &amp; sic potest 
+       sup<lb ed="#S" break="no" n="124"/>plere vicem harum causarum: non autem sine causa intrinseca: 
+      <lb ed="#S" n="125"/>puta materia, &amp; forma: quia ipse neutra harum est: sicut 
+       ho<lb ed="#S" break="no" n="126"/>minem potest facere sine homine, non sine anima, &amp; cor 
+      <lb ed="#S" n="127"/>pore: sed in substentando accidens subiectum est causa ex 
+      <lb ed="#S" n="128"/>trinseca: cum non sit forma, nec materia, ex qua. ergo &amp;c. 
+    </p>
+            <p xml:id="khj78y-q37375-d1e208" n="5">
+               <lb ed="#S" n="129"/>
+               <!-- 5 -->sed ista ratio, vt mihi videt, non valet: quia sic pos 
+      <lb ed="#S" n="130"/>set Deus facere relationem sine subiecto, &amp; termino: prae- 
+      <!--0145.xml-->
+      <pb ed="#S" n="145"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>cipue si disserunt realiter a subiecto. Nec esset tunc 
+       ali<lb ed="#S" break="no" n="2"/>qua instantia.
+    </p>
+            <p xml:id="khj78y-q37375-d1e228" n="6">
+      <!-- 6 -->secunda ratio consueuit adduci: 
+      <lb ed="#S" n="3"/>qa Deus potest conseruare i mmediate, quicquid seruat 
+       me<lb ed="#S" break="no" n="4"/>diante alio, non material'r, nec formaliter: sed effectiue, sed 
+      <lb ed="#S" n="5"/>sic conseruat accidens med iante substantia, non formaliter: quia 
+      <lb ed="#S" n="6"/>accidens non habet esse formaliter a subiecto, sed 
+       ccon<lb ed="#S" break="no" n="7"/>uerso, nec materialiter: quia non vt est subiectu sustentat, 
+      <lb ed="#S" n="8"/>&amp; conseruat, quia tunc nihil nisi subiectu sustentaret, cuius 
+      <lb ed="#S" n="9"/>contrarium est in Christo, &amp; omne subiectum sustentaret: 
+       cu<lb ed="#S" break="no" n="10"/>ius contrarium apparet in materia prima. ergo conseruat 
+      <lb ed="#S" n="11"/>effectiue.
+    </p>
+            <p xml:id="khj78y-q37375-d1e252" n="7">
+      <!-- 7 -->Et si dicat, hoc non potest dici de 
+       sub<lb ed="#S" break="no" n="12"/>iecto violento, vt de aqua respectu caloris: dicendum, quod 
+      <lb ed="#S" n="13"/>imo, quia sicut terra naturaliter sustentat aquam: quia nata 
+      <lb ed="#S" n="14"/>est substerni: &amp; tectum sustentat tegulas violenter: sic subie 
+      <lb ed="#S" n="15"/>ctum sustentat accidens proprium naturaliter: sed violen 
+      <lb ed="#S" n="16"/>tum violenter eadem violentia, qua recipit.
+    </p>
+            <p xml:id="khj78y-q37375-d1e269" n="8">
+      <!-- 8 -->sed 
+      <lb ed="#S" n="17"/>nec ista ratio cogit, quia sicut calor nulla violentia 
+       frigefa<lb ed="#S" break="no" n="18"/>cit, sic nec aqua violentia aliqua se calefacit, sed calefit: &amp; 
+      <lb ed="#S" n="19"/>per consequens nulla violentia conseruat actiue in se 
+       calo<lb ed="#S" break="no" n="20"/>rem, sed magis destruit. Vnde potest dici, quod licet subiici, 
+      <lb ed="#S" n="21"/>non sit praecisa, &amp; tota causa sustentandi: propter quod non 
+      <lb ed="#S" n="22"/>subiectum aliquod sustentat, &amp; subiectum aliquod non 
+       su<lb ed="#S" break="no" n="23"/>stentat, vt arguitur: nihilominus tamen substantiae creatae 
+      <lb ed="#S" n="24"/>subiici est ratio sustentandi: quia per hoc, quod subiicitur 
+       acciden<lb ed="#S" break="no" n="25"/>ti ipsa alteri non innixa sustentat ipsum. Et quicquid sit 
+      <lb ed="#S" n="26"/>de hoc, certum est, quod quantitas non substentat qualitatem, cui 
+      <lb ed="#S" n="27"/>subiicitur effectiue: sed solum materialiter, &amp; subiectiue, 
+       si<lb ed="#S" break="no" n="28"/>cut materia formam. sed hic est materia extrinseca, quam 
+      <lb ed="#S" n="29"/>Deus supplere potest: puta faciendo formam 
+       substantia<lb ed="#S" break="no" n="30"/>lem sine materia, &amp; qualitatem sine quantitate, vt post dice 
+      <lb ed="#S" n="31"/>tur: quia cum vnum non sit de ratione alterius, nulla 
+       contra<lb ed="#S" break="no" n="32"/>dictio implicatur. Tertia ratio est, quod quando 
+      <lb ed="#S" n="33"/>aliqua sunt sic adinuicem diuisa: quod vnum non implicat 
+      <lb ed="#S" n="34"/>aliud, nec in sua essentia, nec in suo esse, nec sicut partem, 
+      <lb ed="#S" n="35"/>nec aliter nulla contradictio est vnum esse sine alio: &amp; per 
+      <lb ed="#S" n="36"/>consequens Deus illa seorsum facere potest, sic est in pro 
+      <lb ed="#S" n="37"/>posito. ergo &amp;c. maior patet: quia solum propter hoc Deus non 
+      <lb ed="#S" n="38"/>potest facere materiam sine forma, quia materia implicat 
+       for<lb ed="#S" break="no" n="39"/>mam: &amp; si non quantum ad essentiam, in qua est distincta 
+       sal<lb ed="#S" break="no" n="40"/>tem quantum ad esse: quia esse est quaedam forma, cum sit actus, 
+      <lb ed="#S" n="41"/>&amp; non solum, quia est vnum esse vtriusque: quia tunc pro hoc non 
+      <lb ed="#S" n="42"/>posset facere formam sine materia, sicut nec econuerso. Nunc 
+      <lb ed="#S" n="43"/>autem potest facere formam sine materia, &amp; non econuerso: quia 
+      <lb ed="#S" n="44"/>materia non est esse formae, nec est causa formalis ipsius: 
+      <lb ed="#S" n="45"/>forma autem vel est ipsum esse, vel est causa formalis 
+       ip<lb ed="#S" break="no" n="46"/>sius, &amp; Deus non potest facere effectum formalem sine causa: 
+      <lb ed="#S" n="47"/>pnta esse album sine albedine, &amp; pari ratione nec esse sine 
+      <lb ed="#S" n="48"/>forma absolute: nec esse substantiale sine forma substan 
+      <lb ed="#S" n="49"/>tiali: constat autem, quod illud esse non potest esse nisi 
+       substan<lb ed="#S" break="no" n="50"/>tiale: cum materia, quae est primum subiectum, non possit 
+       in<lb ed="#S" break="no" n="51"/>haerere. Probatio minoris, quia quantita: est diuisibilis in 
+      <lb ed="#S" n="52"/>ea, quae insunt. Vnde si ea, quae per se, &amp; primo conueniunt 
+      <lb ed="#S" n="53"/>quantitati: vt puta habere partem, vel quae secundo: vt 
+       pu<lb ed="#S" break="no" n="54"/>ta habere situm, &amp; huiusmodi: omnia considerentur aequaliter 
+       conue<lb ed="#S" n="55" break="no"/>niunt quantitati separatae, sicut coniunctae: siue per 
+       possi<lb ed="#S" n="56" break="no"/>bile, siue per impossibile separatur. Ex quo etiam potest sumi 
+      <lb ed="#S" n="57"/>alia ratio ad principale: quia sicut philosophus arguit 
+       ani<lb ed="#S" n="58" break="no"/>mam separabilem a corpore naturaliter: quia naturaliter 
+       ha<lb ed="#S" n="59" break="no"/>bet operationem subiectiue, &amp; actiue separatam a corpore: 
+      <lb ed="#S" n="60"/>ita illud, quod posset habere supernaturaliter 
+       operatio<lb ed="#S" break="no" n="61"/>nem subiectiue, &amp; actiue separatam a substantia: videt ab 
+      <lb ed="#S" n="62"/>ea separabile supernaturaliter. sic autem est hic: quia 
+       quan<lb ed="#S" n="63" break="no"/>titas si esset separata, non minus esset qualis, nec minus 
+      <lb ed="#S" n="64"/>etia ageret intentionaliter, &amp; realiter, quam si esset cum 
+       substan<lb ed="#S" n="65" break="no"/>tia. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q37375-d1e380" n="10">
+      <!-- 10 -->secundo de quantitate successiua 
+      <lb ed="#S" n="66"/>continua, quae est motus, videt dicendum: quod cum motus sit es 
+      <lb ed="#S" n="67"/>sentialiter fluxus formae, &amp; non forma potest intelligi flu- 
+      <!--0145.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>xus sormae: vel cuius est, vt subiecti, vel cuius est, vt 
+       ter<lb ed="#S" break="no" n="69"/>mini. Potest igitur motus esse sine termino: dum tamen sit in 
+      <lb ed="#S" n="70"/>subiecto: sicut Deus posset vltimam spheram mouere: &amp; ille 
+      <lb ed="#S" n="71"/>motus in superficie conuexa existens non haberet terminum, 
+      <lb ed="#S" n="72"/>qui est vbi: cum ipsa sit nusquam, &amp; incircuscripta, sed habe 
+      <lb ed="#S" n="73"/>ret subiectum.
+    </p>
+            <p xml:id="khj78y-q37375-d1e406" n="11">
+      <!-- 11 -->secundo econuerso in omni 
+       for<lb ed="#S" break="no" n="74"/>ma, quam Deus potest facere sine subiecto, potest esse motus 
+       si<lb ed="#S" break="no" n="75"/>ne subiecto: sicut quando rarefiunt, &amp; condensantur spens in 
+       sa<lb ed="#S" break="no" n="76"/>cramento altaris: rarefactio quidem, &amp; condensatio habent pro 
+      <lb ed="#S" n="77"/>subiecto quantitatem, &amp; pro termino qualitatem: sed 
+       augmen<lb ed="#S" break="no" n="78"/>tum, &amp; decrementum, quae sequuntur istas alterationes sunt ibi 
+      <lb ed="#S" n="79"/>sine subiecto: quia habent quantitatem proterminor non autem 
+      <lb ed="#S" n="80"/>sstantiam pro subiecto, quia ibi non est, nec quantitatem: quia 
+      <lb ed="#S" n="81"/>idem re non est subiectum, &amp; terminus. Nec est maior 
+       dif<lb ed="#S" break="no" n="82"/>ficultas facere accidens fluens sine subiecto, quam accidens stans 
+      <lb ed="#S" n="83"/>cum vtrunque sit eiusdem actualitatis specie: licet in gradu 
+      <lb ed="#S" n="84"/>perfecto, &amp; imperfecto differant: imo aliquod accidens 
+       flu<lb ed="#S" break="no" n="85"/>ens est actualius, quam aliquod stans: sicut albedo fluens a 
+      <lb ed="#S" n="86"/>gradu imperfecto ad perfectum est perfectior, quae quiescens 
+      <lb ed="#S" n="87"/>in gradu imperfecto. Vnde cum hoc possit sustentari sine 
+      <lb ed="#S" n="88"/>substantia multo magis illa.
+    </p>
+            <p xml:id="khj78y-q37375-d1e443" n="12">
+      <!-- 12 -->Tertio, non potest 
+      <lb ed="#S" n="89"/>esse motus sine vtroq,. scilicet sine termino, &amp; subiecio: quia es 
+      <lb ed="#S" n="90"/>set diffinitum sine diffinitione. sfluxus formae, &amp; non es 
+      <lb ed="#S" n="91"/>set forma fluens, nec vt subiectum, nec vt terminus. 
+    </p>
+            <p xml:id="khj78y-q37375-d1e454" n="13">
+               <lb ed="#S" n="92"/>
+               <!-- 13 -->Tertin, de quantitate discreta, quae est numerus 
+      <lb ed="#S" n="93"/>in continuis permanentibus: videt, quod non possit fieri sine 
+      <lb ed="#S" n="94"/>numeratis: quia non est aliqua res praeter illa. Cum enim 
+      <lb ed="#S" n="95"/>vnitas, quae est principium numeri super continuum non addat 
+      <lb ed="#S" n="96"/>rem, sed priuationem tantum: puta in diuisionnem: numerus 
+      <lb ed="#S" n="97"/>qui non ast aliud, quam vnitates, nonaddet aliquid super om 
+      <lb ed="#S" n="98"/>nia, nisi quantum vnitas super singula: &amp; sic non addit ni 
+      <lb ed="#S" n="99"/>si priuationem. Et si addit aliquod  positiuum illud: est ens 
+       ra<lb ed="#S" break="no" n="100"/>tionis. Facere autem aliquid realiter esse sine sua 
+       realita<lb ed="#S" break="no" n="101"/>te est contradictio. Vnde cum numerus praeterres 
+       numera<lb ed="#S" break="no" n="102"/>tas non dicat rem. ergo non est per se factibilis. 
+    </p>
+            <p xml:id="khj78y-q37375-d1e483" n="14">
+               <lb ed="#S" n="103"/>
+               <!-- 14 -->secundo, de quantitatediscreta, quae est tempus, 
+      <lb ed="#S" n="104"/>quod est numerus prioris, &amp; posterioris in motu videtur 
+      <lb ed="#S" n="105"/>idem: quia aut non addit aliquid super motum, aut illud, 
+      <lb ed="#S" n="106"/>quod addit, est ab anima, vt philosophus videtur innuere: 
+      <lb ed="#S" n="107"/>qa si addit, haec est ratio mensurae · Relatio autem mensurae est 
+      <lb ed="#S" n="108"/>rationis tantum. Datoetiam quod relatio, qua addit, esset 
+       rea<lb ed="#S" break="no" n="109"/>lis: adhuc tamen relatio non potest fieri sine subiecto: vt 
+       dice<lb ed="#S" break="no" n="110"/>tur in. 3. membro. Et tamen non videt probabile, quod tempus super 
+      <lb ed="#S" n="111"/>motum addat relationem realem: quia tunc non esset spens 
+       quanti<lb ed="#S" break="no" n="112"/>tatis distincta a motu, sed magis species relationis. 
+    </p>
+            <p xml:id="khj78y-q37375-d1e510" n="15">
+               <lb ed="#S" n="113"/>
+               <!-- 15 -->Tertio videt idem de quantitate discreta, quae est 
+      <lb ed="#S" n="114"/>oratio: quia cum illa non sit quantitas, nisi prout est in voce, 
+      <lb ed="#S" n="115"/>quae est sonus cum motu continuo delatus, vel cum 
+       disconti<lb ed="#S" break="no" n="116"/>nuo, ipsa est quidam numerus. Vnde super quantitatem, vel 
+      <lb ed="#S" n="117"/>quantitares continuas non addit, plusquam numerus super res 
+      <lb ed="#S" n="118"/>manentes: imo non videtur, quod super sonum, sed super 
+      <lb ed="#S" n="119"/>quantitatem continuam fundetur immediate. Et sic super 
+      <lb ed="#S" n="120"/>sonum vocis, &amp; quantitatem nullam rem absolutam addit, 
+       pro<lb ed="#S" break="no" n="121"/>pter quod scorsum fieri non potest.
+    </p>
+            <p xml:id="khj78y-q37375-d1e534" n="16">
+      <!-- 16 -->
+       QVAN<lb ed="#S" break="no" n="122"/>TVM ad secundum principale sunt tria videnda. Primo, 
+      <lb ed="#S" n="123"/>de qualitate sensibili, in tertia, &amp; secunda specie. 
+       secun<lb ed="#S" break="no" n="124"/>do, de qualitate, quae est sensibile commune, q est in 
+       quar<lb ed="#S" break="no" n="125"/>ta specie. Tertio, de qualitate spuali.
+    </p>
+            <p xml:id="khj78y-q37375-d1e547" n="17">
+      <!-- 17 -->Primo 
+      <lb ed="#S" n="126"/>ergo de qualitate in tertia specie, quae est passio, &amp; 
+       pasii<lb ed="#S" break="no" n="127"/>bilis qualitas, de quibus aliquae sunt, in secunda simul &amp; 
+      <lb ed="#S" n="128"/>in tertia: sicut illae, quae habent actionem naturalem, &amp; 
+       ani<lb ed="#S" break="no" n="129"/>malem, vt primae qualitates actiue, de his videtur, quod 
+       pos<lb ed="#S" break="no" n="130"/>sint diuina virtute separari, eadem ratione, qua, &amp; quanti 
+      <lb ed="#S" n="131"/>tas. sed tunc qualitas illa non erit sensibilis actu, sed 
+       tan<lb ed="#S" break="no" n="132"/>tum aptitudine, nisi virtute diuina: quia esse sensibile non 
+      <lb ed="#S" n="133"/>est ratio intrinseca coloris, sicut nec esse disgregatiuum: 
+      <lb ed="#S" n="134"/>ga esse sensibile est esie motiuum sensus. Et ideo si separa- 
+      <!--0146.xml-->
+      <pb ed="#S" n="146"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>retu, esset quidem sensibilis: licet non actu sentiretur: sicut 
+      <lb ed="#S" n="2"/>aliquis ignis posset esse ita paruulus, quod actu non calefa 
+      <lb ed="#S" n="3"/>ceret, quae uis esiet aptus natus calefacere, sicut oculus aeger 
+      <lb ed="#S" n="4"/>non potest videre lucem excedentem: quamuis sit aptus natus 
+       vi<lb ed="#S" break="no" n="5"/>dere secundu quod visus.
+    </p>
+            <p xml:id="khj78y-q37375-d1e589" n="19">
+      <!-- 19 -->sed vtrum Deus posset 
+      <lb ed="#S" n="6"/>facere videri colorem separatum est dubium. Et videt, quod sic quia 
+      <lb ed="#S" n="7"/>diuina virtute prius potest separari a posteriori. Vnde cum 
+      <lb ed="#S" n="8"/>qualitas prius sentiatur, &amp; quantitas posterius: videtur, quod Deus 
+      <lb ed="#S" n="9"/>posset facere videri qualitatem sine quantitate, &amp; per conse 
+      <lb ed="#S" n="10"/>quens facere videri qualitatem, quae esset sine quantitate. 
+      <lb ed="#S" n="11"/>Cum etiam quidam dicant posse Dei virtute videri, quod non 
+      <lb ed="#S" n="12"/>est sicut, &amp; fantasiari: quia certum est, quod speciem potest Deus cau 
+      <lb ed="#S" n="13"/>sare, vel conseruare sine obiecto. si ergo propter nihil aliud 
+      <lb ed="#S" n="14"/>est imaginatio rei absentis: non autem visio, quia manet spe 
+      <lb ed="#S" n="15"/>cies in imaginatione re absente, non autem in visu, cum 
+      <lb ed="#S" n="16"/>Deus possit re absente seruare speciem in visu: per 
+       conse<lb ed="#S" break="no" n="17"/>quens facit rem absentem, vel non entem videri: maxime si 
+      <lb ed="#S" n="18"/>videre non est sola habitudo ad esse rei visae: sed actus 
+       ab<lb ed="#S" break="no" n="19"/>solutusterminatus ad rem, vt visa est, non secundum id, 
+      <lb ed="#S" n="20"/>quod est. Potest enim Deus talem visionem conseruare. Et 
+      <lb ed="#S" n="21"/>sic non potest Deus facere, quod ego videam rem, &amp; res non sit 
+      <lb ed="#S" n="22"/>visa: sed potest facere, quod ego videarem, &amp; res non sit in rerum na 
+      <lb ed="#S" n="23"/>tura: ficutres opinata, &amp; scita est quidem cognita, sed non 
+      <lb ed="#S" n="24"/>oportet, quod sit in rerum natura: quia esse cognitum intellectu, 
+      <lb ed="#S" n="25"/>vel sensu in ipso quidem cognoscente ponitens rei. scilicet cogni 
+      <lb ed="#S" n="26"/>tionem ipsam: sed in ipso cognito non ponit nisi 
+       ensra<lb ed="#S" break="no" n="27"/>tionis: quod non requirit pro fundamento ens reale: nisi 
+      <lb ed="#S" n="28"/>in aliquibus secundum cursum naturae, quam Deus posset 
+      <lb ed="#S" n="29"/>immutare.
+    </p>
+            <p xml:id="khj78y-q37375-d1e646" n="20">
+      <!-- 20 -->Praeterea, quantitas propter hoc est 
+      <lb ed="#S" n="30"/>separabilis in esse, quia est separabilis in operari. si ergo 
+      <lb ed="#S" n="31"/>qualitas separata per possibile, vel impossibile, nullam 
+      <lb ed="#S" n="32"/>habeat operationem. ergo non erit separabilis secundum 
+      <lb ed="#S" n="33"/>esse.
+    </p>
+            <p xml:id="khj78y-q37375-d1e659" n="21">
+      <!-- 21 -->sed ad hoc posset dici, quod non sequitur: quia 
+      <lb ed="#S" n="34"/>licet separabile secundum operationem sit separabile secun 
+      <lb ed="#S" n="35"/>dum esse, non tamen econuerso. De hoc autem dictum est supra 
+      <lb ed="#S" n="36"/>dist. 10.
+    </p>
+            <p xml:id="khj78y-q37375-d1e671" n="22">
+      <!-- 22 -->secundo, de qualitate, quae est sensibi 
+      <lb ed="#S" n="37"/>le commune: quae est in quarta specie qualitatis, &amp; forma, 
+      <lb ed="#S" n="38"/>&amp; circa aliquid coustans figura, vt curuitas, rectitudo, &amp; 
+      <lb ed="#S" n="39"/>hu iusmodi: quia si iste qualitates differunt re absoluta a 
+      <lb ed="#S" n="40"/>quantitate possunt fieri, &amp; separari: sicut aliae qualitates 
+      <lb ed="#S" n="41"/>secundae, &amp; tertiae speciei. si autem non differantre absolu 
+      <lb ed="#S" n="42"/>ta, non possunt tunc fieri sine quantitate continua 
+       perma<lb ed="#S" break="no" n="43"/>nente: sicut nec quantitas discreta. supposito igitur, quod 
+      <lb ed="#S" n="44"/>differant, potest fieri, aliter non. sed supposito, quod 
+       diffe<lb ed="#S" break="no" n="45"/>rant, adhuc est distantia de figura, quae cum sit terminatio 
+      <lb ed="#S" n="46"/>corporis limitati, &amp; cum impossibile sit corpus esse 
+       infini<lb ed="#S" break="no" n="47"/>tum, impossibile est esse finitum, &amp; non habere terminum. 
+      <lb ed="#S" n="48"/>Et ideo contradictio esset, quod Deus faceret corpus finitum 
+      <lb ed="#S" n="49"/>sine figura. ergo multo magis econuerso.
+    </p>
+            <p xml:id="khj78y-q37375-d1e704" n="23">
+      <!-- 23 -->Et 
+       di<lb ed="#S" break="no" n="50"/>cendum secundum illos, qui distinguunt vnum ab alio, quod est 
+      <lb ed="#S" n="51"/>raedicatio per causam, &amp; est aequiuocatiode figura: quia 
+      <lb ed="#S" n="52"/>essentialiter figura differt ab illa terminatione, quae est pri 
+      <lb ed="#S" n="53"/>uatio vlterioris quantitatis. Figura autem est aliquid reale 
+      <lb ed="#S" n="54"/>positiuum. Vnde figura est aequiuocum ad vtrunque, propter 
+      <lb ed="#S" n="55"/>quod Deus non potest facere corpus finitum sine figura: 
+      <lb ed="#S" n="56"/>prout figura dicit illam priuationem: sed potest Deus 
+       face<lb ed="#S" break="no" n="57"/>re corpus finitum sine figura: prout dicit illud reale 
+       posi<lb ed="#S" break="no" n="58"/>tiuum consequens illam priuationem vlterioris quantitatis, 
+      <lb ed="#S" n="59"/>&amp; econuerso. &amp; similiter est de curuitate, &amp; rectitudine 
+      <lb ed="#S" n="60"/>lineae: quia, vt dicunt, priuationem hanc, quae est, quod medium 
+      <lb ed="#S" n="61"/>non exit ab extremis, vel istam positionem quod exit: non est 
+      <lb ed="#S" n="62"/>medium inter illa: non potest Deus facere lineam, quae non 
+      <lb ed="#S" n="63"/>sit recta, vel curua secundum istum modum: sed prout 
+       recti<lb ed="#S" break="no" n="64"/>tudo dicit rem absolutam, quae consequitur lineam, secundum quod 
+      <lb ed="#S" n="65"/>eius medium non exit ab extremis, &amp; curuitas eandem prout 
+      <lb ed="#S" n="66"/>exit, sic Deus potest facere lineam sine rectitudine, &amp; 
+       curui<lb ed="#S" break="no" n="67"/>tate, &amp; econuerso: &amp; sic erit linea recta sine rectitudine: 
+      <!--0146.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>&amp; curua sine curuitate propter aequiuocationem: sicut dici 
+      <lb ed="#S" n="69"/>tur, quod Christus est filius Virginis, non propter filiationem, 
+      <lb ed="#S" n="70"/>quam habeat, sed quia ab ea genitus est, sicut &amp; Deus dicit 
+      <lb ed="#S" n="71"/>Dominus, non propter relationem, quam in se habeat, sed quia est ter 
+      <lb ed="#S" n="72"/>minus relationis oppositae.
+    </p>
+            <p xml:id="khj78y-q37375-d1e763" n="24">
+      <!-- 24 -->Tertio, de 
+       quali<lb ed="#S" break="no" n="73"/>tate spirituali, quae est in prima, &amp; tertia specie, vt habitus, 
+      <lb ed="#S" n="74"/>&amp; actus, vel in secunda specie, vt potentia, de quibus omni 
+      <lb ed="#S" n="75"/>bus videt, quod diuina virtute fieri possint sine subiecto: quia 
+      <lb ed="#S" n="76"/>differunt a subiesto re absoluta secundum communem opi 
+      <lb ed="#S" n="77"/>nionem: &amp; non sunt minus entia, quam qualitates corporales. 
+      <lb ed="#S" n="78"/>Vnde si illae, vbi differunt, possunt separari a suis 
+       subie<lb ed="#S" break="no" n="79"/>ctis multo magis iste.
+    </p>
+            <p xml:id="khj78y-q37375-d1e783" n="25">
+      <!-- 25 -->sed tunc est instantia, 
+      <lb ed="#S" n="80"/>qa intellectus separatus poterit intelligere, &amp; sic beatifi 
+      <lb ed="#S" n="81"/>cari, quod est absurdum, quia non est ad imaginem Dei. Et 
+       simi<lb ed="#S" break="no" n="82"/>liter absurdius est de habitu, vel de actu separato, qui est 
+      <lb ed="#S" n="83"/>super se reflexiuus. Et si possit dici, quod actus, vel habitus 
+      <lb ed="#S" n="84"/>non possint intelligere: quia non habent potentiam, nec sunt 
+      <lb ed="#S" n="85"/>potentia, nec potentia ipsa possit: quia principalis potentia in 
+      <lb ed="#S" n="86"/>telligendi est ipsa substantia animae, vel angeli, non valet: 
+      <lb ed="#S" n="87"/>quia saltem Deus posset intellectui separato imprimere eun 
+      <lb ed="#S" n="88"/>dem habitum gloriosum, &amp; eandem beatitudinem, quam con 
+      <lb ed="#S" n="89"/>iuncto, &amp; tuncesset beatus, habens essentiam beatitudinis 
+      <lb ed="#S" n="90"/>subiectiue. Et dicendum, quod verum est, quia vno inconuenienti 
+      <lb ed="#S" n="91"/>dato alia contingunt: sed esset beatus tunc sicut 
+       poten<lb ed="#S" break="no" n="92"/>tia beatificabilis est: non autem sicut perfecta creatura ra 
+      <lb ed="#S" n="93"/>tionalis.
+    </p>
+            <p xml:id="khj78y-q37375-d1e818" n="26">
+      <!-- 26 -->QVANTVM ad tertium, de 
+       rela<lb ed="#S" break="no" n="94"/>tione sunt quatuor conclusiones. Prima, quod relatio nullo 
+      <lb ed="#S" n="95"/>modo potest fieri sine subiecto: quia illud accidens, quod 
+       impli<lb ed="#S" break="no" n="96"/>cat subiectum, non potest esse sine subiecto: quin sit 
+       contradi<lb ed="#S" break="no" n="97"/>ctio: quamuis subiectum sit extra essentiam eius, sicut non potest 
+      <lb ed="#S" n="98"/>Deus facere album sine subiecto: quia licet album solam 
+       qua<lb ed="#S" break="no" n="99"/>litatem significet: tamen album implicat subiectum significans albe 
+      <lb ed="#S" n="100"/>dinem insubiecto, propter quod esse album sine subiecto est 
+      <lb ed="#S" n="101"/>esse albedinem sine subiecto, &amp; in subiecto. similiter si sit 
+      <lb ed="#S" n="102"/>accidens, quod in abstracto implicet subiectum, idem dicen 
+      <lb ed="#S" n="103"/>dum est: sicut symitas est nasi curuitas. Vnde quaecunque 
+      <lb ed="#S" n="104"/>curuitas fieret sine naso ipsa non esset symitas. Ita cum 
+      <lb ed="#S" n="105"/>relatio secundum quidditatem suam sit modus, &amp; habitudo 
+      <lb ed="#S" n="106"/>huius rei: &amp; similiter omne accidens relatiuum impossibile 
+      <lb ed="#S" n="107"/>est esse accidens respectiuum sine eo, quod per ipsum 
+       formali<lb ed="#S" break="no" n="108"/>ter refertur: puta paternitatem sine patre, &amp; similitudinem 
+      <lb ed="#S" n="109"/>sine qualitate.
+    </p>
+            <p xml:id="khj78y-q37375-d1e857" n="27">
+      <!-- 27 -->sed contra hoc videtur esse: quasi 
+      <lb ed="#S" n="110"/>potest esse in speciebus altaris augmentum, &amp; 
+       decremen<lb ed="#S" break="no" n="111"/>tum sine substantia: tunc est ibi augmentari, &amp; diminui, 
+      <lb ed="#S" n="112"/>quae sunt pati, &amp; non est ibi subiectum eorum, &amp; similiter au 
+      <lb ed="#S" n="113"/>gmentare, &amp; diminuere. sed de hoc dicetur infram, cum age 
+      <lb ed="#S" n="114"/>tur de actione, &amp; passione specierum.
+    </p>
+            <p xml:id="khj78y-q37375-d1e874" n="28">
+      <!-- 28 -->secunda 
+      <lb ed="#S" n="115"/>conclusio est de relatione reali in abstracto: quod sicut non potest 
+      <lb ed="#S" n="116"/>esse sine subiecto, ita nec sine termino: sed esse absolutum, 
+      <lb ed="#S" n="117"/>non dico relatum: quia relatio est ipsum esse ad aliud. Vnde 
+      <lb ed="#S" n="118"/>si non est aliud, aliud non est relatio: sed sufficit illud es 
+      <lb ed="#S" n="119"/>se secundum id, quod est. Non oportet autem, quod secundum re 
+      <lb ed="#S" n="120"/>spectum habeat esse reale, cum possit esse vna relatio realis, 
+      <lb ed="#S" n="121"/>quando alia est tantum rationis, sicut relatio scientiae ad sibile 
+      <lb ed="#S" n="122"/>mensurati ad mensuram.
+    </p>
+            <p xml:id="khj78y-q37375-d1e896" n="29">
+      <!-- 29 -->Tertia conclusio est 
+      <lb ed="#S" n="123"/>de relatiuo secundum esse, de quo idem videtur dicendum, 
+      <lb ed="#S" n="124"/>quod. s non potest esse realitertale. Et dico realitate relationis 
+      <lb ed="#S" n="125"/>vel etiam realitate fundamenti, nisi habeat extremum 
+       distin<lb ed="#S" break="no" n="126"/>ctum in esse reali, vel fundamenti, vel relatiui, sicut non 
+      <lb ed="#S" n="127"/>potest esse realiter filius, vel Dominus, nisi habeat realiter paren 
+      <lb ed="#S" n="128"/>tem, vel seruuum: siue illa realitas sit a realitate 
+       generatio<lb ed="#S" break="no" n="129"/>nis, &amp; subiectionis, siue a realitate relationis. 
+    </p>
+            <p xml:id="khj78y-q37375-d1e916" n="30">
+               <lb ed="#S" n="130"/>
+               <!-- 30 -->Quarta conclusio est de relatiuo secundum dici, 
+      <lb ed="#S" n="131"/>quod ipsum requirit extremum semper: non quidem in esse rea 
+      <lb ed="#S" n="132"/>li distincto absoluto, vel relato, sicut ipsum requirunt 
+       re<lb ed="#S" break="no" n="133"/>latio realis, &amp; relatiuum secundum esse, siue sit rationis, siue 
+      <lb ed="#S" n="134"/>rei, vt dictum est, sed inesse relatiui, sic intelligendo, quod in ta 
+      <!--0147.xml-->
+      <pb ed="#S" n="147"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>li esse ipsum requirit in quali, ipsum denotat, &amp; respicit, 
+      <lb ed="#S" n="2"/>verbi gratia, scientia, &amp; potentia sunt relatiua secundum 
+      <lb ed="#S" n="3"/>dici semper: quandoque autem secundum rem, vt in creaturis 
+       con<lb ed="#S" break="no" n="4"/>muniter: quandoque secundum rationem, vt scientia, &amp; potentia Dei 
+      <lb ed="#S" n="5"/>respectu creaturarum. Impossibile tamen est esse scientiam, vel 
+      <lb ed="#S" n="6"/>potentiam alicuius: nisi vt illud sit mox inesse scibili, vel 
+      <lb ed="#S" n="7"/>possibili. sed non oportet ipsum esse in esse reali: nec ite 
+      <lb ed="#S" n="8"/>rum oportet ipsum esse in esse distincto realiter, cum in 
+      <lb ed="#S" n="9"/>Deo sit realis scientia respectu suiipsius, &amp; realis 
+       poten<lb ed="#S" break="no" n="10"/>tia intelligendi, &amp; volendi, &amp; generandi, &amp; spirandi, quae non 
+      <lb ed="#S" n="11"/>distinguuntur ab obiecto. Et per hoc patet solutio ad 
+      <lb ed="#S" n="12"/>primum.
+    </p>
+            <p xml:id="khj78y-q37375-d1e964" n="31">
+      <!-- 31 -->Ad argumentum in oppositum 
+       di<lb ed="#S" break="no" n="13"/>cendum, quod non est simile: quia accidens respectiuum in 
+      <lb ed="#S" n="14"/>sui significato etiam abstractiue sum implicat obiectum, 
+      <lb ed="#S" n="15"/>non sic autem accidens absolutum implicat subiectum, 
+      <lb ed="#S" n="16"/>vt patet per dicta. ideo &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

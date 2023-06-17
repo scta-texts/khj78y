@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="443"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r41523"><!-- l4d43-q3 -->
+            <head xml:id="khj78y-r41523-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-r41523-Hd1e103" type="question-title">
+     utrum illud 
+     cuius essentia periit totaliter per 
+     annihilationem, vel in parte per corruptionem, 
+     vt sunt omnia corporalia sub homine pos 
+     sit virtute diuina idem numero 
+     reparari
+   </head>
+            <p xml:id="khj78y-r41523-d1e106">
+               <lb ed="#S" n="25"/>QVAESTIO TERTIA. 
+      <lb ed="#S" n="26"/>De annihilato, an Deus possit idem numero reparare. 
+    </p>
+            <p xml:id="khj78y-r41523-d1e113">
+               <lb ed="#S" n="27"/>QVAERITVR tertio, vtrum illud 
+       cu<lb ed="#S" break="no" n="28"/>ius essentia periit totaliter per 
+       annihila<lb ed="#S" break="no" n="29"/>tionem, vel in parte per corruptionem, 
+      <lb ed="#S" n="30"/>vt sunt omnia corporalia sub homine pos 
+      <lb ed="#S" n="31"/>sit virtute diuina idem numero 
+       repara<lb ed="#S" break="no" n="32"/>ri. Et arguitur quod sic, quia cui non repugnat esse nunc 
+      <lb ed="#S" n="33"/>&amp; prius, ei non repugnatfieri nunc &amp; prius, quia fieri 
+       or<lb ed="#S" break="no" n="34"/>dinatur ad esse: sed angelo vel lapidi non repugnat esse 
+      <lb ed="#S" n="35"/>nunc &amp; prius, ergo nec fieri nunc &amp; prius: hoc autem non 
+      <lb ed="#S" n="36"/>potest esse sine media annihilatione &amp; corruptione: 
+       er<lb ed="#S" break="no" n="37"/>go Deus potest angelum annullatum vel lapidem corruptum 
+      <lb ed="#S" n="38"/>eundem secundum numerum reparare. a Item si 
+       mun<lb ed="#S" break="no" n="39"/>dus esset annihilatus Deus posset saltem eundem 
+       secun<lb ed="#S" break="no" n="40"/>dum speciem reparare: sed reparando eundem mundum se 
+      <lb ed="#S" n="41"/>cundum speciem necessario repararet aliquam partem eius 
+      <lb ed="#S" n="42"/>eandem secundum numerum. ergo &amp;c. Probatio minoris, quia 
+      <lb ed="#S" n="43"/>aliquae species sunt in quibus non potest esse nisi vnicum 
+       in<lb ed="#S" break="no" n="44"/>diuiduum, vt in angelis: illas ergo oportet reparare secun 
+      <lb ed="#S" n="45"/>dum idem indiuiduum quod praecessit.
+    </p>
+            <p xml:id="khj78y-r41523-d1e157" n="3">
+      <!-- 3 -->Item sicut se 
+      <lb ed="#S" n="46"/>habet locatum ad locum, ita temporale ad tempus, sed Deus 
+      <lb ed="#S" n="47"/>potest facere quod corpus locale sit in locis distantibus, da 
+      <lb ed="#S" n="48"/>to quod non sit in loco medio: vt patet de corpore existente 
+      <lb ed="#S" n="49"/>in coelo &amp; sacramento altaris: ergo similiter potest facere quod 
+      <lb ed="#S" n="50"/>res temporalis sit in diuersis temporibus distantibus, dato, quod 
+      <lb ed="#S" n="51"/>non sit in tempore medio: hoc autem non posset fieri nisi 
+      <lb ed="#S" n="52"/>per reparationem rei corruptae. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r41523-d1e178" n="4">
+      <!-- 4 -->Item agens 
+      <lb ed="#S" n="53"/>manens idem secundum se &amp; secundum omnia quae concur 
+      <lb ed="#S" n="54"/>runt ad actionem qualitercumq, potest idem numero 
+       face<lb ed="#S" break="no" n="55"/>re: sed supposito quod mundus sit nunc annihilatus, &amp; quae 
+      <lb ed="#S" n="56"/>cunque pars ipsius: Deus esset idem quiprius erat antequam 
+      <lb ed="#S" n="57"/>mundum faceret, vel aliquid in mundo: &amp; codem modo se 
+      <lb ed="#S" n="58"/>haberet in se &amp; in omnibus concurrentibus ad actionem 
+      <lb ed="#S" n="59"/>qualitercunque : quia nihil concurreret ad productionem cu 
+      <lb ed="#S" n="60"/>iuscunque rei: nisi Deus in quo nulla potest esse varietas: 
+      <lb ed="#S" n="61"/>ergo Deus posset facere vel reparare eundem mundum 
+      <lb ed="#S" n="62"/>quem fecit prius, vel aliquam partem eius si esset 
+       annihila<lb ed="#S" break="no" n="63"/>ta.
+    </p>
+            <p xml:id="khj78y-r41523-d1e207" n="5">
+      <!-- 5 -->Item probatur idem per <quote xml:id="khj78y-r41523-Qd1e211">Aug. 22. de ciuitate Dei</quote>, 
+      <lb ed="#S" n="64"/>vbi dicit, quod si illa materia de qua homo factus est 
+       dedis<lb ed="#S" break="no" n="65"/>set omnino in nihil &amp; non mansisset in illis naturae late 
+      <!--0443.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="66"/>ribus, adhuc Deus posset eundem numero reparare.
+    </p>
+            <p xml:id="khj78y-r41523-d1e225" n="6">
+      <!-- 6 -->Item 
+      <lb ed="#S" n="67"/>si illud quod corruptum est non potest idem numero re 
+      <lb ed="#S" n="68"/>parari, sequitur quod omnia accidentia quae fuerunt &amp; non 
+      <lb ed="#S" n="69"/>remanent in anima separata, sint alia secundum numerum 
+      <lb ed="#S" n="70"/>in homine resurgente: hoc autem est inconueniens saltem 
+      <lb ed="#S" n="71"/>de propria passione. Non enim videtur possibile quod idem 
+      <lb ed="#S" n="72"/>subiectum numero habeat vicissim aliam &amp; aliam 
+       pas<lb ed="#S" break="no" n="73"/>sionem numero. quare &amp;c.
+    </p>
+            <p xml:id="khj78y-r41523-d1e245" n="7">
+      <!-- 7 -->In contrarium 
+       argui<lb ed="#S" break="no" n="74"/>tur, quia non minoris virtutis est Deus respectu successi 
+      <lb ed="#S" n="75"/>uorum quam respectu permanentium: sed Deus non potest re 
+      <lb ed="#S" n="76"/>parare successiua corrupta: ita vt sint eadem secundum 
+       nu<lb ed="#S" break="no" n="77"/>merum, vt communiter ponitur. Non enim posset eundem 
+      <lb ed="#S" n="78"/>numero motum reparare. ergo nec permanentia.
+    </p>
+            <p xml:id="khj78y-r41523-d1e261" n="8">
+      <!-- 8 -->
+       Re<lb ed="#S" break="no" n="79"/>spondeo, sicut tactum est in vltimo argumento: entium quae 
+      <lb ed="#S" n="80"/>dam sunt permanentia, vt angelus, bos, lapis: quaedam 
+      <lb ed="#S" n="81"/>transeuntia vel successiua, vt tempus, motus, &amp; illa quae 
+      <lb ed="#S" n="82"/>ad motum &amp; tempus pertinent: vt sunt omnia quae 
+       secun<lb ed="#S" break="no" n="83"/>dum naturam non possunt secundum idem pluries 
+       sumi<lb ed="#S" break="no" n="84"/>Primo igitur Inquiretur de successiuis siue 
+       transeunti<lb ed="#S" break="no" n="85"/>bus, an possint eadem secundum numerum reparari. secun 
+      <lb ed="#S" n="86"/>do, de permanentibus.
+    </p>
+            <p xml:id="khj78y-r41523-d1e283" n="9">
+      <!-- 9 -->Quantum ad primum est 
+       commu<lb ed="#S" break="no" n="87"/>nis opinio, quod successiua non possunt eadem numero repa 
+      <lb ed="#S" n="88"/>rari, cuius ratio assignatur duplex.
+    </p>
+            <p xml:id="khj78y-r41523-d1e293" n="10">
+      <!-- 10 -->Prima, illud 
+      <lb ed="#S" n="89"/>quod ad sui vnitatem essentialem requirit continuationem 
+      <lb ed="#S" n="90"/>durationis non potest esse idem interrupta duratione: sed 
+      <lb ed="#S" n="91"/>omne succissiuum vt motus &amp; tempus requirit ad sui vni 
+      <lb ed="#S" n="92"/>tatem essentialem continuationem durationis, quia sua 
+      <lb ed="#S" n="93"/>vnitas est sua continuitas: ergo interrupta sua 
+       duratio<lb ed="#S" break="no" n="94"/>ne non potest esse idem numero.
+    </p>
+            <p xml:id="khj78y-r41523-d1e311" n="11">
+      <!--I1 -->secunda ratio ta 
+      <lb ed="#S" n="95"/>lis est, ponatur quod aliquis moueatur ab. a. in. c. per. b. si 
+       mo<lb ed="#S" break="no" n="96"/>tus potest idem secundum numerum reparari sequet, quod quando mo 
+      <lb ed="#S" n="97"/>bile motum est ab. a. vsque ad. b. &amp; deinde mouet ab. a. in. 
+       c<lb ed="#S" break="no" n="98"/>quod tunc posset primus motus quo mouebatur ab. a. in. b. 
+       re<lb ed="#S" break="no" n="99"/>parari hoc autem est impossibile: quia tunc idem moueretur si 
+      <lb ed="#S" n="100"/>mul diuersis motibus eiusdem speciei: &amp; iterum plures 
+       par<lb ed="#S" break="no" n="101"/>tes eiusdem motus essent simul quorum vtrunque est impossi 
+      <lb ed="#S" n="102"/>bile: ergo impossibile est eundum motum numero reparari. 
+    </p>
+            <p xml:id="khj78y-r41523-d1e333" n="12">
+               <lb ed="#S" n="103"/>
+               <!-- 12 -->Has autem rationes quidam impugnant dicentes, quod 
+       quic<lb ed="#S" break="no" n="104"/>quid sit de conclusione: tamen rationes istae sunt solubiles. 
+      <lb ed="#S" n="105"/>Cum enim primo dicit, quod omne successiuum ad sui vni 
+      <lb ed="#S" n="106"/>tatem essentialem requirit continuitatem: es quod sua vnitas 
+      <lb ed="#S" n="107"/>est continuitas, dicunt quod continuitasquae requiritur ad vni 
+      <lb ed="#S" n="108"/>tatem motus non est continuitas eius cum alio motu, quia 
+      <lb ed="#S" n="109"/>sine hac quilibet motus est vnus in se: nec est 
+       continui<lb ed="#S" break="no" n="110"/>tas eiusdem motus ad seipsum, quia idem non continuat sibiipsi: 
+      <lb ed="#S" n="111"/>sed est continuitas partium concurrentium ad eundem motum. 
+      <lb ed="#S" n="112"/>sola igitur interruptio huic continuitati contraria soluit 
+      <lb ed="#S" n="113"/>vnitatem motus: nunc autem ita est quod interruptio quae esset 
+      <lb ed="#S" n="114"/>inter primum motum &amp; eius reparationem non solueret illam 
+      <lb ed="#S" n="115"/>continuitatum, nec esset ei contraria. Ponimus enim quod sicut 
+      <lb ed="#S" n="116"/>prima vice partes motus fuerunt continuatae: ita &amp; in cius 
+      <lb ed="#S" n="117"/>reparatione. Interruptio ergo quae poneretur solum argue 
+      <lb ed="#S" n="118"/>ret quod motus primo existens &amp; postea reparatus non 
+       es<lb ed="#S" break="no" n="119"/>sent duo motus continuati constituentes per suam continua 
+      <lb ed="#S" n="120"/>tionem vnum tertium motum: sed non argueret quin esset 
+      <lb ed="#S" n="121"/>idem motus primo existens &amp; postea reparatus. Quod autem pri 
+      <lb ed="#S" n="122"/>mo assumitur, quod motus requirit ad sui vnitatem continui 
+      <lb ed="#S" n="123"/>tatem essendi, dicunt quod continuitas essendi quam 
+       requi<lb ed="#S" break="no" n="124"/>rit motus non est quod sit continue &amp; semper, alioquin nun 
+      <lb ed="#S" n="125"/>quam terminaretur: sed est quod continue duret quandiu est: &amp; 
+      <lb ed="#S" n="126"/>hoc potest poni dato quod motus corruptus idem numero 
+      <lb ed="#S" n="127"/>repararetur: quia tam prima vice quam secunda ponitur quod 
+      <lb ed="#S" n="128"/>eius duratio esset continua successione partium suarum 
+       con<lb ed="#S" break="no" n="129"/>tinua. Dicunt etiam quod secunda ratio clare deficit: quia cum 
+       di<lb ed="#S" break="no" n="130"/>citur quod si Deus posset reparare eundem motum secundum nu 
+      <lb ed="#S" n="131"/>merum, tunc prima pars motus quae transit ab. a. in. b. posset 
+      <lb ed="#S" n="132"/>reparari dum adhuc secunda pars duraret. s.a. b. in. c. Dicen 
+      <!--0444.xml-->
+      <pb ed="#S" n="444"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>dum, quod non est verum quod etiam patet in permanentibus. 
+      <lb ed="#S" n="2"/>si enim ponamus quod Deus posset reparare albedinem cor 
+      <lb ed="#S" n="3"/>ruptam in aliquo cui successisset nigredo opposita, vel 
+       a<lb ed="#S" break="no" n="4"/>lia albedo numero differens ad primam: tamen non diceremus 
+      <lb ed="#S" n="5"/>quod Deus posset reparare eandem albedinem stante 
+       nigredi<lb ed="#S" break="no" n="6"/>ne in eodem subiecto, vel alia albedine numero differen 
+      <lb ed="#S" n="7"/>te. Non enim possunt opposita simul in eodem subiecto 
+      <lb ed="#S" n="8"/>esse, nec duo accidentia solo numero differentia. simul in 
+      <lb ed="#S" n="9"/>proposito prima pars motus non potest reparari manente 
+       ter<lb ed="#S" n="10" break="no"/>tia: sed nullum argumentum est. Non potest hoc modo reparari: 
+       er<lb ed="#S" break="no" n="11"/>go nullo modo, imo est fallacia consequentis procedendo 
+      <lb ed="#S" n="12"/>a destructione inferioris ad destructionem superioris. 
+       Ali<lb ed="#S" n="13" break="no"/>quid enim implicat contradictionem vno modo quod non 
+      <lb ed="#S" n="14"/>implicat alio modo.
+    </p>
+            <p xml:id="khj78y-r41523-d1e440" n="13">
+      <!-- 13 -->Et ideo eandem conclusionem 
+      <lb ed="#S" n="15"/>ipsi nitunt aliter probare praemittentes quomodo  successiua vel 
+      <lb ed="#S" n="16"/>transeuntia different a permanentibus: ex quibus 
+       argu<lb ed="#S" break="no" n="17"/>unt ad propositum. Prima differentia est, quod res permanens 
+      <lb ed="#S" n="18"/>duratione sua non interrupta potest pluries sumi secundum 
+      <lb ed="#S" n="19"/>se totam &amp; secundum quamlibet partem sui, vt homo vel lapis: 
+      <lb ed="#S" n="20"/>successiua vero &amp; generaliter omnia transeuntia non possunt 
+      <lb ed="#S" n="21"/>pluries sumi secundum se nec secundum aliquid sui duratio 
+      <lb ed="#S" n="22"/>ne sua non interrupta: vtrum autem ea interrupta possint ite 
+      <lb ed="#S" n="23"/>rato sumi inquiretur: quia haec quaestio quaerit. Nunc autem 
+      <lb ed="#S" n="24"/>sumamus absque, petitione illud quod de se clarum est inducen 
+      <lb ed="#S" n="25"/>do in omnibus.
+    </p>
+            <p xml:id="khj78y-r41523-d1e469" n="14">
+      <!-- 14 -->secunda differentia est, quod res permanentes sunt 
+      <lb ed="#S" n="26"/>res propriae &amp; simpliciter, vt homo, lapis, albedo, nigredo, &amp; sic de 
+      <lb ed="#S" n="27"/>caeteris. Res autem successiuae non suntres propriae &amp; fimpl'r: 
+      <lb ed="#S" n="28"/>sed solum quaedam rerum habitudines, vel quaedam reales modi 
+      <lb ed="#S" n="29"/>essendi, cuius ratio est, quia illud quod adueniens alicui non 
+      <lb ed="#S" n="30"/>reddit ipsum magis compositum quam prius non est res proprie &amp; 
+      <lb ed="#S" n="31"/>simpliciter: sed talia sunt omnia transeuntia &amp; successiua, vt 
+      <lb ed="#S" n="32"/>motus &amp; tpraes &amp; huiusmodi: non enim coelum est magis compositum quam 
+      <lb ed="#S" n="33"/>si staret, quia motus ad locum nihil variat circa rem vt dicitur 
+      <lb ed="#S" n="34"/>8. Phy. &amp; idem est de motu ad formam, quantum est praecise 
+      <lb ed="#S" n="35"/>de natura motus, quia nullam compositionem ponit secundum se 
+      <lb ed="#S" n="36"/>circa subiectum praeter illam quae est formae terminantis 
+       mo<lb ed="#S" break="no" n="37"/>tum, vt est res permanens. Ex prima differentia arguuat sic 
+      <lb ed="#S" n="38"/>minus est rem iam existentem conseruare ne corrumpatur quam 
+      <lb ed="#S" n="39"/>corruptum reparare: sed in successiuis &amp; transeuntibus Deus 
+      <lb ed="#S" n="40"/>non potest rem conseruare ne corrumpat: ergo fortiori ratione 
+      <lb ed="#S" n="41"/>nec potest corruptum reparare: maior videtur manifesta sed 
+      <lb ed="#S" n="42"/>minor probatur: quia si aliquod successiuum vel transiens 
+       pos<lb ed="#S" break="no" n="43"/>set conseruari dum est in esse corrumperet: tunc pluries potest 
+      <lb ed="#S" n="44"/>sumi, &amp; sic esset permanens &amp; non transiens.
+    </p>
+            <p xml:id="khj78y-r41523-d1e515" n="15">
+      <!-- 15 -->sed 
+       dice<lb ed="#S" break="no" n="45"/>ret aliquis quod de ratione transeuntis est quod non pos 
+      <lb ed="#S" n="46"/>sit pluries sumi continue &amp; non interrupta sua 
+       duratio<lb ed="#S" break="no" n="47"/>ne: quia tunc esset stans &amp; non transiens: sed nihil prohibet 
+      <lb ed="#S" n="48"/>quin pluries possit sumi ea interrupta, nec propter hoc 
+      <lb ed="#S" n="49"/>erit stans: sed qualibet vire erit fluens &amp; transiens propter 
+      <lb ed="#S" n="50"/>quod maior videtur falsa: quia magis videt contra rationem 
+      <lb ed="#S" n="51"/>successiui vel transeuntis quod possit permanere ne corrum 
+      <lb ed="#S" n="52"/>patur, quam quod possit reparari postquam corruptum est.
+    </p>
+            <p xml:id="khj78y-r41523-d1e538" n="16">
+      <!-- 16 -->sed 
+      <lb ed="#S" n="53"/>illud non valet, quia si idem successiuum, puta idem 
+       mo<lb ed="#S" break="no" n="54"/>tus numero potest reparari: verum esset dicere quod mobile 
+      <lb ed="#S" n="55"/>subiectum esset bis motum realiter: illud autem non dicere 
+      <lb ed="#S" n="56"/>tur ratione numerationis subiecti, quia illud est vnum: nec 
+      <lb ed="#S" n="57"/>ratione numerationis spatij: quod similiter est vnum: 
+       er<lb ed="#S" break="no" n="58"/>go oportet quod sit ratione numerationis motus vel 
+       dura<lb ed="#S" break="no" n="59"/>tionis eius aut mensurae extrinsecae: si ratione 
+       numera<lb ed="#S" break="no" n="60"/>tionis motus habetur propositum: quia omnis realis nu 
+      <lb ed="#S" n="61"/>merus est plurium realiter: &amp; ita motus praecedens &amp; sequens 
+      <lb ed="#S" n="62"/>non essent vnus motus realiter: sed plures quod esset 
+       no<lb ed="#S" break="no" n="63"/>strum propositum.
+    </p>
+            <p xml:id="khj78y-r41523-d1e567" n="17">
+      <!-- 17 -->si dicatur quod hoc est propter 
+       nu<lb ed="#S" break="no" n="64"/>merationem durationis, in idem redit: quia duratio motus 
+      <lb ed="#S" n="65"/>non est aliud quam motus: &amp; ideo si vnum numeratur reali 
+      <lb ed="#S" n="66"/>ter &amp; reliquum, nec ratione mensurae extrinsecae, vel cuius 
+      <lb ed="#S" n="67"/>libet alterius extrinseci, quia Deus posset facere quod esset 
+      <!--0444.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>solum motus primi mobilis, &amp; illum posset 
+       interrumpe<lb ed="#S" break="no" n="69"/>re &amp; iterato reparare: &amp; esset verum dicere quod coelum esset 
+      <lb ed="#S" n="70"/>realiter bis motum, non per numerationem alicuius men 
+      <lb ed="#S" n="71"/>surae extrinsecae: quia nulla esset, nec propter numeratio 
+      <lb ed="#S" n="72"/>nem subiecti vel spatij aut mouentis: ergo per 
+       numera<lb ed="#S" break="no" n="73"/>tionem motus vel ducationis, quod idem est.
+    </p>
+            <p xml:id="khj78y-r41523-d1e598" n="18">
+      <!-- 18 -->Item 
+      <lb ed="#S" n="74"/>eundem motum posse reparari vel simpliciter est 
+       possi<lb ed="#S" break="no" n="75"/>bile vel simpliciter impossibile, si possibile simpliciter: 
+      <lb ed="#S" n="76"/>ergo erit possibile virtute naturae. Probatio, quia quando 
+      <lb ed="#S" n="77"/>cunque aliquis effectus est simpliciter possibilis, &amp; causa 
+      <lb ed="#S" n="78"/>est aeque potens nunc &amp; prius: ex tali causa potest idem 
+       effe<lb ed="#S" break="no" n="79"/>ctus produci nunc sicut prius: si ergo reparatio eiusdem 
+      <lb ed="#S" n="80"/>motus sit effectus simpliciter possibilis: ergo causa natu 
+      <lb ed="#S" n="81"/>ralis quae primo facit &amp; eo corrupto remanet aeque potens 
+      <lb ed="#S" n="82"/>sicut prius: posset illum motum eundem secundum numerum 
+       re<lb ed="#S" break="no" n="83"/>parare: hoc autem est falsum: relinquitur ergo quod reparatio 
+      <lb ed="#S" n="84"/>eiusdem motus secundum numerum est effectus simpliciter impos 
+      <lb ed="#S" n="85"/>sibilis, talis autem effectus subterfugit omnem causam: ergo 
+      <lb ed="#S" n="86"/>per nullam virtutem potest motus idem numero reparari.
+    </p>
+            <p xml:id="khj78y-r41523-d1e631" n="19">
+      <!-- 19 -->Item 
+      <lb ed="#S" n="87"/>si motus posset idem numero reparari, eodem modo posset &amp; 
+      <lb ed="#S" n="88"/>tempus: &amp; sic dies quae praeteriit posset statim reparari, &amp; non 
+      <lb ed="#S" n="89"/>solum semel sed semper, &amp; ita totus decursus temporis, esto quod 
+      <lb ed="#S" n="90"/>duraret in infinitum: non esset realiter nisi vnus dies, imo 
+      <lb ed="#S" n="91"/>vna breuissima hora vel breuissima pars vnius horae: quia 
+      <lb ed="#S" n="92"/>idem argumentum potest fieri de hora vel de parte horae si 
+      <lb ed="#S" n="93"/>cut de tota die, qᷓomnia sunt absurda. quare &amp;c.
+    </p>
+            <p xml:id="khj78y-r41523-d1e651" n="20">
+      <!-- 20 -->Ex 
+      <lb ed="#S" n="94"/>secunda differentia sic arguit, licet idem subiectum possit esse 
+      <lb ed="#S" n="95"/>successiue sub oppositis formis vel habitudinibus, impos 
+      <lb ed="#S" n="96"/>sibile tamen est &amp; contradictionem implicat, quod oppositarum for 
+      <lb ed="#S" n="97"/>marum &amp; habitudinum vna sit alia, nec simul nec 
+       succes<lb ed="#S" break="no" n="98"/>siue, sicut possibile est quod eadem aqua primo sit calida &amp; 
+      <lb ed="#S" n="99"/>postea frigida, vel quod idem homo sedeat &amp; postea stet: sed 
+      <lb ed="#S" n="100"/>impossibile est quod caliditas sit frigiditas, vel quod sedere sit 
+      <lb ed="#S" n="101"/>stare: sed si idein successiuum vel transiens posset reparari: 
+      <lb ed="#S" n="102"/>sequeret quod vna habitudo esset alia: ergo impossibile est 
+      <lb ed="#S" n="103"/>quod idem successiuum vel transiens reparetur. Minor probat, quia 
+      <lb ed="#S" n="104"/>sicut dictum fuit successiua non sunt proprie res, sed 
+       habi<lb ed="#S" break="no" n="105"/>tudines rerum, sicut motus essentialiter est successio vel 
+      <lb ed="#S" n="106"/>habitudo successionis mobilis in loco, &amp; per eandem ratio 
+      <lb ed="#S" n="107"/>nem partes motus sunt essentialiter partes successionis: 
+      <lb ed="#S" n="108"/>partes autem successionis sunt prius &amp; posterius vel potius 
+      <lb ed="#S" n="109"/>prioritas &amp; posterioritas, ita quod quando dicitur quod vna pars 
+      <lb ed="#S" n="110"/>motus est prior, &amp; alia posterior, non est praedicatio deno 
+      <lb ed="#S" n="111"/>minatiua alicuius habitudinis additae ad partes motus, 
+      <lb ed="#S" n="112"/>sed est essentialis, quia partes motus sunt essentialiter habi 
+      <lb ed="#S" n="113"/>tudo ipsa prioritatis &amp; posterioritatis existentiae mobilis 
+      <lb ed="#S" n="114"/>secundum aliam &amp; aliam partem in loco, sicut motus est essen 
+      <lb ed="#S" n="115"/>tialiter successio eius per totum locum: si ergo pars motus 
+      <lb ed="#S" n="116"/>quae praeteriit posset eadem numero reparari, tunc habi 
+      <lb ed="#S" n="117"/>tudo prioritatis efficeretur habitudo posterioritatis, quod 
+      <lb ed="#S" n="118"/>est impossibile vt dictum fuit. Patet ergo quod successiua vt 
+      <lb ed="#S" n="119"/>tempus &amp; motus non possunt eadem numero reparari. 
+    </p>
+            <p xml:id="khj78y-r41523-d1e712" n="21">
+               <lb ed="#S" n="120"/>
+               <!-- 21 -->sed sustinendo rationes primas potest dici, quod instan 
+      <lb ed="#S" n="121"/>tia ad primam rationem non valet, quia ille motus non 
+      <lb ed="#S" n="122"/>est vnius cuius partes non copulantur ad aliquem vnum 
+      <lb ed="#S" n="123"/>communem terminum, cum ista sit definitio continui, sed 
+      <lb ed="#S" n="124"/>motus secundum naturam interrupti, propter hoc solum 
+      <lb ed="#S" n="125"/>partes non copulant ad vnum, quia est interruptus, nec 
+      <lb ed="#S" n="126"/>alia ratio: ergo si motus qui fuit ante heri &amp; non heri, re 
+      <lb ed="#S" n="127"/>aretur hodie propter interruptionem diei hesternae, nulla 
+      <lb ed="#S" n="128"/>pars hodierni cum parte ante hesterni copulabitur ad 
+       ter<lb ed="#S" break="no" n="129"/>minum communem: ergo impossibile est quod isti duo motus 
+      <lb ed="#S" n="130"/>sint vnum quorum omnes partes adinuicem sunt 
+       discon<lb ed="#S" break="no" n="131"/>tinuatae. Ad instantiam secundae rationis posset dici, quod 
+      <lb ed="#S" n="132"/>non est simile, quia non est contrarietas inter duas partes 
+      <lb ed="#S" n="133"/>eiusdem motus, sicut inter album &amp; nigrum, cum illae duae 
+      <lb ed="#S" n="134"/>sint motus vnus nunieru &amp; specie: istae autem duae formae 
+      <!--0445.xml-->
+      <pb ed="#S" n="445"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>numero &amp; specie differentes, nec essentiales partes alicu 
+      <lb ed="#S" n="2"/>ius vnius numero. Et similiter duo accidentia permanen 
+      <lb ed="#S" n="3"/>tia esse simul plus repugnat quam duo successiua in eodem 
+      <lb ed="#S" n="4"/>subiecto, quia illa nullo alio distinguuntur nisi subiecto: 
+      <lb ed="#S" n="5"/>hic autem non solum subiecto sed tempore &amp; termino. 5. Phy 
+      <lb ed="#S" n="6"/>sicorum. sed secundum veritatem non valet, quia prima 
+      <lb ed="#S" n="7"/>pars motus puta ab. a. in. b. &amp; secunda a. b. in. c. 
+       contrari<lb ed="#S" break="no" n="8"/>antur, quia moueri ad aliquid &amp; ab aliquo contradicunt: 
+      <lb ed="#S" n="9"/>vnde contradictio maior esset idem mobile simul moueri 
+      <lb ed="#S" n="10"/>ad. a. &amp; ab. a. quam esse album &amp; nigrum, &amp; tamen primum 
+       contin<lb ed="#S" break="no" n="11"/>geret si durante secunda parte motus, reformaretur 
+       pri<lb ed="#S" break="no" n="12"/>ma. similiter quamuis illud sit verum, tamen si durante secunda 
+      <lb ed="#S" n="13"/>parte motus prima repararet, non esset tempus quo 
+       distin<lb ed="#S" break="no" n="14"/>guerentur, quia essent simul tempore. si autem termino 
+       distin<lb ed="#S" break="no" n="15"/>guerentur, tunc sequeret quod simul &amp; semel terminus parti 
+      <lb ed="#S" n="16"/>ciparetur magis &amp; minus, quod est impossibile.
+    </p>
+            <p xml:id="khj78y-r41523-d1e791" n="22">
+      <!-- 22 -->
+       Pos<lb ed="#S" break="no" n="17"/>sent etiam impugnari aliquae rationes eorum, quia ad suam 
+      <lb ed="#S" n="18"/>rationem ipsimet bene instant nec soluunt ad instantiam, sed 
+      <lb ed="#S" n="19"/>contra arguunt adducentes nouam rationem ad conclusionem, &amp; 
+      <lb ed="#S" n="20"/>potest instantia sic conformari. Plus enim videtur aliquid de 
+       no<lb ed="#S" break="no" n="21"/>uo producere quod nunquam habuit esse, quam illud quod 
+       ali<lb ed="#S" break="no" n="22"/>quod esse habuit illo perdito reparat. si ergo plus est ali 
+      <lb ed="#S" n="23"/>quid corruptum reparare quam existens ne corrumpat conseruare, 
+      <lb ed="#S" n="24"/>similiter maius est illud quod nunquam fuit producere quam produ 
+      <lb ed="#S" n="25"/>ctum conseruare, sed motum qui nunquam fuit Deus de nouo 
+      <lb ed="#S" n="26"/>potuit producere, ergo multo magis productum ne flueret 
+      <lb ed="#S" n="27"/>&amp; desineret conseruare, consequens est falsum, ergo &amp; 
+       ante<lb ed="#S" break="no" n="28"/>cedens. Et sic ratio bene concludit quod motus non potest post 
+      <lb ed="#S" n="29"/>quam fuit reparari: ita concludit quod antequam non fuit non 
+       po<lb ed="#S" break="no" n="30"/>tuit produci. Propter quod est dicendum quod maior est vera 
+      <lb ed="#S" n="31"/>ex parte agentis, quia non est minoris virtutis producere 
+      <lb ed="#S" n="32"/>&amp; reparare quam productum conseruare: sed ex parte effectus 
+      <lb ed="#S" n="33"/>sunt aliqui quibus repugnat conseruari eodem modo nunc &amp; 
+      <lb ed="#S" n="34"/>prius sicut successiua, non autem produci: &amp; ideo possunt 
+      <lb ed="#S" n="35"/>produci ad essendum, non autem conseruari in essendo. Item 
+      <lb ed="#S" n="36"/>talibus repugnat reparari in identitate numerali, quia cum 
+      <lb ed="#S" n="37"/>sit facilius esse paruo tempore quam multo: &amp; omne in se indi 
+      <lb ed="#S" n="38"/>uisum sit fortius diuiso, illud quod non potest nisi semel 
+      <lb ed="#S" n="39"/>sumi dum est in suo esse cum suis partibus: multo minus 
+       ali<lb ed="#S" break="no" n="40"/>as, &amp; si non post motus sic esse in isto die vnus vt pars pri 
+      <lb ed="#S" n="41"/>or sit posterior multo minus per dies diuisus.
+    </p>
+            <p xml:id="khj78y-r41523-d1e850" n="23">
+      <!-- 23 -->Ad 
+      <lb ed="#S" n="42"/>secundam rationem potest instari, quia ex sola numeratione 
+      <lb ed="#S" n="43"/>habitionis vel habitudinis potest dici aliquid bis habitum 
+      <lb ed="#S" n="44"/>sine hoc quod habens vel habitum sit multiplicatum, sicut 
+       cor<lb ed="#S" break="no" n="45"/>pus Christi humanum fuit in resurrectione bis animatum 
+      <lb ed="#S" n="46"/>vel viuum sine binario corporum &amp; animarum ex sola habitu 
+      <lb ed="#S" n="47"/>dine eorum adinuicem multiplicata, ita &amp; in proposito. 
+    </p>
+            <p xml:id="khj78y-r41523-d1e868" n="24">
+               <lb ed="#S" n="48"/>
+               <!-- 24 -->Item si vltima sphaera moueret nihil esset ibi habens 
+      <lb ed="#S" n="49"/>nisi coelum, nec habitum nisi motus, nec vbi, nec aliquis 
+      <lb ed="#S" n="50"/>terminus: &amp; tamen sic diceretur bis motus si eius motus inter 
+      <lb ed="#S" n="51"/>rumperet, sicut alia corpora quae mouentur ad vbi &amp; locum. Ra 
+      <lb ed="#S" n="52"/>tio tertia tanget in sequenti quaestione.
+    </p>
+            <p xml:id="khj78y-r41523-d1e884" n="25">
+      <!-- 25 -->Quarta 
+       be<lb ed="#S" break="no" n="53"/>ne concludit, nisi quod est petitio principij, quia cum 
+       conti<lb ed="#S" break="no" n="54"/>nuitas sit tota causa vnitatis in omni successiuo &amp; motu 
+      <lb ed="#S" n="55"/>&amp; tempore, nullus dixerit tempus posse reparari qui nega 
+      <lb ed="#S" n="56"/>ret de motu. sed si dicatur quod post diem iudicij erit vna dies 
+      <lb ed="#S" n="57"/>nihil ad propositum, quia loquimur de die quae est motus 
+      <lb ed="#S" n="58"/>coeli, tunc autem non erit. sed aliquis diceret quod nullum est 
+      <lb ed="#S" n="59"/>inconueniens si sit idem dies numero heri &amp; hodie, 
+       si<lb ed="#S" break="no" n="60"/>cut non est inconueniens si est idem asinus germani 
+       su<lb ed="#S" break="no" n="61"/>scitatus &amp; mortuus: &amp; oculus perditus &amp; restitutus. 
+    </p>
+            <p xml:id="khj78y-r41523-d1e908" n="26">
+               <lb ed="#S" n="62"/>
+               <!-- 26 -->Ad quintum videtur qui supponat multa falsa in prolo 
+      <lb ed="#S" n="63"/>go suo. Primo quod res permanentes sunt res proprie &amp; sim 
+      <lb ed="#S" n="64"/>pliciter dictae, quia hoc est contra eum, quia relatio est res 
+      <lb ed="#S" n="65"/>permanens quae tamen est habitudo, &amp; per consequens non res 
+      <lb ed="#S" n="66"/>proprie &amp; simpliciter secundum eum, &amp; secundum eum 
+       se<lb ed="#S" break="no" n="67"/>quentia sex praedicamenta non sunt res sed habitudines 
+      <!--0445.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>quorum tamen situs, habitus, &amp; vbi, possunt habere esse 
+      <lb ed="#S" n="69"/>ermanens quod est contra suam Distinctionem. secundo, 
+      <lb ed="#S" n="70"/>quia cum motus sit actus entis in potentia, &amp; ex actu &amp; 
+      <lb ed="#S" n="71"/>potentia proprie dictis fit compositio proprie &amp; vera: vide 
+      <lb ed="#S" n="72"/>tur quod omnis motus cum suo mobili faciat compositionem 
+      <lb ed="#S" n="73"/>veram. Nec obstat quod dicit, quod non veniat ad aliquid 
+      <lb ed="#S" n="74"/>circa subiectum: quia verum est de motu ad vbi nisi per 
+       acci<lb ed="#S" break="no" n="75"/>dens in mobili corporali quod per motum calefit: 
+       mo<lb ed="#S" break="no" n="76"/>tus autem ad formam per se variat aliquid circa subiectum 
+      <lb ed="#S" n="77"/>quantum ad accidentalia: sed quantum ad substantiam non ni 
+      <lb ed="#S" n="78"/>si peraccidens inquantum generatio &amp; corruptio sunt ter 
+      <lb ed="#S" n="79"/>mini alterationis extrinseci. Tertio, quod continuitas 
+       suc<lb ed="#S" break="no" n="80"/>cessiua quae per essentiam est motus non est habitudo, 
+       si<lb ed="#S" break="no" n="81"/>cut nec continuitas manens, vt linea, superficies, corpus, 
+      <lb ed="#S" n="82"/>quia simul istae species quantitatis ponuntur in 
+       praedi<lb ed="#S" break="no" n="83"/>camentis: &amp; sicut diuisibilitas in ea quae insunt est ratio 
+      <lb ed="#S" n="84"/>omnis quantitatis, ita continuitas omnis quantitatis con 
+      <lb ed="#S" n="85"/>tinuae tam permanentis quam successiuae: differentia au 
+      <lb ed="#S" n="86"/>tem diuisa alicuius praedicamenti non videtur esse species 
+      <lb ed="#S" n="87"/>alterius, cum praedicamenta sint impermixta: vnde cum 
+      <lb ed="#S" n="88"/>continuitas &amp; prioritas sint differentiae quantitatis: quia 
+      <lb ed="#S" n="89"/>prima diuidit contra discretam. secunda contra permanen 
+      <lb ed="#S" n="90"/>tem, videt quod ista non sint essentialiter habitudines quae 
+      <lb ed="#S" n="91"/>sunt de genere relationis.
+    </p>
+            <p xml:id="khj78y-r41523-d1e982" n="27">
+      <!-- 27 -->Tertij adducunt tres ali 
+      <lb ed="#S" n="92"/>as rationes, quae etiam videntur solubiles quod idem numero 
+      <lb ed="#S" n="93"/>successiuo non potest reparari. Primo, quia sicut continuitas 
+      <lb ed="#S" n="94"/>est de ratione lineae: sic de ratione :emporis: sed Deus non 
+      <lb ed="#S" n="95"/>potest facere quod linea discontinua sit vna, quia cum numerus 
+      <lb ed="#S" n="96"/>causerex diuisione continui, contradictio est quod sit 
+       conti<lb ed="#S" break="no" n="97"/>nuum actu diuisum &amp; non sit ibi numerus, &amp; sic esset 
+       v<lb ed="#S" break="no" n="98"/>num &amp; non vnum, sed multa: ergo similiter ex quo est mo 
+      <lb ed="#S" n="99"/>tus interruptus non est vnus.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1005" n="28">
+      <!-- 28 -->sed contra istam ra 
+      <lb ed="#S" n="100"/>tionem est, quia sicut Deus non potest facere quod duae lineae simul 
+      <lb ed="#S" n="101"/>existentes actu diuisae sint vna: sic etiam non pontfacere quod 
+      <lb ed="#S" n="102"/>duo motus simul existentes discontinuati sint vnus, nec de 
+      <lb ed="#S" n="103"/>hoc est quaestio: sed sicut potest facere quod linea annihilata 
+      <lb ed="#S" n="104"/>eadem repararetur &amp; habebit eandem numero 
+       continuita<lb ed="#S" break="no" n="105"/>tem quam prius, non obstante discontinuitate temporis quae 
+      <lb ed="#S" n="106"/>fuit media, sic &amp; motum qui fuit cum sua continuitate 
+       repa<lb ed="#S" break="no" n="107"/>rabit: non obstante quod sua continuitas fuerit interrupta: 
+       si<lb ed="#S" break="no" n="108"/>cut &amp; continuitas lineae fuit annihilata.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1029" n="29">
+      <!-- 29 -->secunda 
+       ra<lb ed="#S" break="no" n="109"/>tio est, quod Deus non potest facere speciem generis alicuius 
+       si<lb ed="#S" break="no" n="110"/>mul cum speciebus oppositis: sicut non posset facere aliquod  
+      <lb ed="#S" n="111"/>animal quod simul esset rationale &amp; irrationale: aut 
+       co<lb ed="#S" break="no" n="112"/>lorem simul album &amp; nigrum, licet de socrate qui fuit animal 
+      <lb ed="#S" n="113"/>rationale posset facere irrationale, aut de nigro album, tamen non 
+      <lb ed="#S" n="114"/>posset facere quod esset vnum idem numero totaliter quod prius 
+      <lb ed="#S" n="115"/>fuit rationale &amp; nunc est irrationale: sed praesens praeteritum &amp; 
+       futu<lb ed="#S" break="no" n="116"/>rum sunt driae per se &amp; essentiales in motu &amp; tempore, ergo non 
+      <lb ed="#S" n="117"/>potest facere de praeterito praesens: vt. scilicet quod est praeteritum idem numero 
+      <lb ed="#S" n="118"/>sit praesens.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1055" n="30">
+      <!-- 30 -->sed ista ratio non videt valere si motus est 
+      <lb ed="#S" n="119"/>aliqua alia res a tempore, quia licet non possit fieri de praeterito 
+      <lb ed="#S" n="120"/>praesens: sic nec de albedine nigredo si tamen hoc est verum: tamen 
+       si<lb ed="#S" break="no" n="121"/>cut subiectum quod est album fit nigrum, sic videtur quod motus qui 
+      <lb ed="#S" n="122"/>erat subiectum tpis praeteriti fiat subiectum temporis praesentis vel 
+      <lb ed="#S" n="123"/>futuri: imo plus videtur quod de vno contrario fiat aliud 
+       forma<lb ed="#S" break="no" n="124"/>liter, quia non est maior incompossibilitas inter contraria 
+       pro<lb ed="#S" break="no" n="125"/>prie dicta: puta albedinem &amp; nigredinem quam iterformas sub 
+      <lb ed="#S" n="126"/>stantiales distinctas per drias oppofitas: puta, animatum &amp; 
+      <lb ed="#S" n="127"/>inanimatum, sed Deus potest subito facere de trunco vitulum, &amp; 
+      <lb ed="#S" n="128"/>de non vino vinum, &amp; econuerso: ergo de albedine nigredi 
+      <lb ed="#S" n="129"/>nem, sed ibi est subiectum commune quod remanet, &amp; forma 
+      <lb ed="#S" n="130"/>cedit formae, non vna fit alia. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1086" n="31">
+      <!-- 31 -->Tertia ratio es 
+      <lb ed="#S" n="131"/>quia contradictio est quod idem sibiipsi succedat: cum autem 
+       poste<lb ed="#S" break="no" n="132"/>rius succedat priori facere de motu praeterito praesentem, est 
+      <lb ed="#S" n="133"/>facere quod vnum &amp; idem &amp; secundum idem sit prius &amp; posterius &amp; 
+      <lb ed="#S" n="134"/>siblipsi succedat: imo quod sit &amp; non sit: quia quod praeteriit, non est, 
+      <!--0446.xml-->
+      <pb ed="#S" n="446"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>&amp; quod est, non praeteriit.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1108" n="32">
+      <!-- 32 -->sed hic forte diceret, quod 
+      <lb ed="#S" n="2"/>Deus non posset facere quin praeteritum sit praeteritum: sed 
+      <lb ed="#S" n="3"/>ipsum quod est praeteritum posset resumere, vt &amp; fuerit prae 
+      <lb ed="#S" n="4"/>teritum &amp; nihilominus sit praesens &amp; futurum. si enim Deus 
+      <lb ed="#S" n="5"/>coelum dum mouetur annihilaret &amp; postea repararet nihil 
+      <lb ed="#S" n="6"/>prohibet vt videt, quod cum eadem numero latione qua prius 
+      <lb ed="#S" n="7"/>mouebat ipsum repararet. ideo &amp;c. Et ideo videtur standum 
+      <lb ed="#S" n="8"/>in rationibus primae opinionis &amp; conis.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1128" n="33">
+      <!-- 33 -->Quantum 
+      <lb ed="#S" n="9"/>ad secundum arti. principalem de permanentibus, Primo 
+       po<lb ed="#S" break="no" n="10"/>netur opinio probabilis cum suis motiuis. secundo ponen 
+      <lb ed="#S" n="11"/>turresponsiones eorum ad rationes factas in principio. &amp;. 3. 
+      <lb ed="#S" n="12"/>inquiretur de his.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1142" n="34">
+      <!-- 34 -->Dicunt ergo quidam quod salua 
+       reue<lb ed="#S" break="no" n="13"/>rentia potentiae diuinae cui subest omne possibile: videt qui 
+      <lb ed="#S" n="14"/>nullum permanens corruptum potest idem numero reparari 
+      <lb ed="#S" n="15"/>quod potest probari sex rationibus. Primo sic. Non plus potest 
+      <lb ed="#S" n="16"/>Deus agens per voluntatem quam si ageret ex necessitate 
+       na<lb ed="#S" break="no" n="17"/>turae, sed si ageret ex necessitate naturae non posset eandem 
+      <lb ed="#S" n="18"/>rem numero corruptam reparare: ergo nec agens per volum 
+      <lb ed="#S" n="19"/>tatem: maior patet quod respicit potentiam. Eandem enim po 
+      <lb ed="#S" n="20"/>tentiam supponimus in Deo si ageret ex necessitate natu 
+      <lb ed="#S" n="21"/>rae: quam habet agens per voluntatem: voluntas autem non 
+      <lb ed="#S" n="22"/>addit nec auget potentiam: imo quicquid potest persolam po 
+      <lb ed="#S" n="23"/>tentiam sed per voluntatem habet quod potentia secundum formam 
+      <lb ed="#S" n="24"/>voluntatis exeat in actum: vnde per voluntatem non habet 
+      <lb ed="#S" n="25"/>nisi libertatem vtendi potentia, quam non haberet si ageret ex 
+      <lb ed="#S" n="26"/>necessitate naturae: vnde Philosophi qui posuerunt Deum 
+      <lb ed="#S" n="27"/>agere ex necessitate naturae posuerunt in eo tantam 
+       poten<lb ed="#S" break="no" n="28"/>tiam: sicut nos ponimus. scilicet infinitam: minor declarat, quia si 
+      <lb ed="#S" n="29"/>Deus ageret ex necessitate naturae licet ageret per 
+       poten<lb ed="#S" break="no" n="30"/>tiam infinitam: ageret tamen modo aliquorum agentium 
+       natura<lb ed="#S" break="no" n="31"/>lium: propter quod licet posset producere perfectlorem 
+      <lb ed="#S" n="32"/>effectum quam alia, non posset tamen reparare corruptum, sicut nec 
+      <lb ed="#S" n="33"/>alia. Et confirmat, quia pater in diuinis generat filium ex 
+       ne<lb ed="#S" break="no" n="34"/>cessitate naturae: &amp; ab omnibus concedit, quod si generatio di 
+      <lb ed="#S" n="35"/>uina interrumperet &amp; iteraret quod esset generatio alia &amp; ali 
+      <lb ed="#S" n="36"/>us filius: &amp; si hoc esset in Deo respectu diuinorum fortiori 
+      <lb ed="#S" n="37"/>ratione esset in eo respectu creaturarum.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1201" n="35">
+      <!-- 35 -->secunda 
+       ta<lb ed="#S" break="no" n="38"/>lis est, agens naturale non potest reparare idem 
+       secun<lb ed="#S" break="no" n="39"/>dum numerum: ergo nec Deus: antecedens supponitur 
+      <lb ed="#S" n="40"/>ex praecedenti quaestione. Probatio consequentiae, quia si agens 
+      <lb ed="#S" n="41"/>naturale non possit reparare idem secundit numerum &amp; De 
+      <lb ed="#S" n="42"/>us possit: hoc erit vel propter differentiam virtutis agen 
+      <lb ed="#S" n="43"/>tis, vel propter differentem modum agendi. Ex parte enim 
+      <lb ed="#S" n="44"/>termini non potest esse differentia: cum ponatur idem 
+       ter<lb ed="#S" break="no" n="45"/>minus respectu vtriusque agentis, &amp; actionis: non propter 
+      <lb ed="#S" n="46"/>differentem modum agendi, vt pote, quia Deus agat sine 
+      <lb ed="#S" n="47"/>motu &amp; mutatione: natura vero non quia in 
+       reparatio<lb ed="#S" break="no" n="48"/>ne rei quo ad formam corruptam a quocumque fiat est vera mu 
+      <lb ed="#S" n="49"/>tatio: quia subiectum se habet aliter nunc quam prius. scilicet materia 
+      <lb ed="#S" n="50"/>recipientis formam quae fuit prius spoliata: vnde si 
+       lumi<lb ed="#S" break="no" n="51"/>ne corrupto Deus repararet ipsum, esset vera mutatio si 
+      <lb ed="#S" n="52"/>cut si sol repararet ipsum. Item quod si aliquid rei remane 
+      <lb ed="#S" n="53"/>at idem numero magis videtur facere ad hoc: quod illud 
+       cu<lb ed="#S" break="no" n="54"/>iuserat pars possit redire idem numero quam si nihil 
+       rema<lb ed="#S" break="no" n="55"/>neret: quia plus est reparare vtranque partem quam alteram 
+      <lb ed="#S" n="56"/>tantum: sed in motu &amp; mutatione rei corruptae aliquid 
+      <lb ed="#S" n="57"/>remanet, scilicet, materia vel subiectum, in 
+       annullatio<lb ed="#S" break="no" n="58"/>ne autem angeli nihil remanet: ergo facilius videtur 
+       es<lb ed="#S" break="no" n="59"/>se quod res corrupta repararetur per motum &amp; mutationem, 
+      <lb ed="#S" n="60"/>quam res annihilata per creationem vel recreationem: ergo 
+       mo<lb ed="#S" break="no" n="61"/>dus agendi per motum &amp; mutationem non impedit agens 
+      <lb ed="#S" n="62"/>naturale plus quam diuinum: quin possit idem numero 
+      <lb ed="#S" n="63"/>reparare · Item nec propter differentem virtutem agentis: 
+      <lb ed="#S" n="64"/>vtpote quia Deus agit infinita virtute: agens vero 
+       natu<lb ed="#S" break="no" n="65"/>rale finita: quia effectus finitus qui secundum speciem po 
+      <lb ed="#S" n="66"/>test produci a virtute finita: nunquam exigit infinitatem 
+      <lb ed="#S" n="67"/>virtutis in causa sua, nisi propter modum quo producitur: 
+      <!--0446.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>puta si producatur per creationem vel alio modo, qui 
+       crea<lb ed="#S" break="no" n="69"/>turae non competit: sed omnis forma naturalis in rebus 
+      <lb ed="#S" n="70"/>generalibus &amp; corruptibilibus excepta anima 
+       rationa<lb ed="#S" break="no" n="71"/>li est quidam effectus finitus, qui secundum speciem suam potest 
+      <lb ed="#S" n="72"/>produci &amp; producitur a virtute finita: ergo nunquam 
+       re<lb ed="#S" break="no" n="73"/>quiritur in producente virtutem infinitam: nisi producatur per 
+      <lb ed="#S" n="74"/>creationem vel tali modo qui creaturae non competat: sed 
+      <lb ed="#S" n="75"/>eius productio in secunda productione: etiam si fiat a Deo 
+      <lb ed="#S" n="76"/>est per veram mutationem: sicut si fieret a creatura vt sta 
+      <lb ed="#S" n="77"/>tim dictum est: ergo reparatio rei corruptae non necessa 
+      <lb ed="#S" n="78"/>rio requirit virtutem infinitam. Differentia igitur 
+       virtu<lb ed="#S" break="no" n="79"/>tis infinitae in agente non potest esse causa quare Deus pos 
+      <lb ed="#S" n="80"/>sit reparare idem numero, non autem natura. Quid ergo 
+      <lb ed="#S" n="81"/>est in causa, quare natura non possit: absque dubio videtur 
+      <lb ed="#S" n="82"/>esse illud quod tangit Philosophus. 2. de generatione. scilicet 
+      <lb ed="#S" n="83"/>quod idem manens idem, semper natum est facere idem: ad 
+      <lb ed="#S" n="84"/>hoc autem quod agens faciat idem numero: oportet quod 
+       ma<lb ed="#S" break="no" n="85"/>neat idem in se quo ad virtutem &amp; idem in habitudine 
+      <lb ed="#S" n="86"/>ad passum vel productum quo ad actionem: cum autem actio 
+      <lb ed="#S" n="87"/>naturae interrumpitur non manet eadem habitudo agentis 
+      <lb ed="#S" n="88"/>ad passum vel productum, nec eadem habitudo reparari 
+       po<lb ed="#S" break="no" n="89"/>test: vt prius probatum est: &amp; ideo non potest reparari idem 
+      <lb ed="#S" n="90"/>vt prius probatum est: &amp; ideo non potest reparari idem 
+       pro<lb ed="#S" break="no" n="91"/>ductum secundum numerum: istud etiam inuenitur in Deo 
+      <lb ed="#S" n="92"/>per comparationem ad ea quorum substantia deperit in 
+      <lb ed="#S" n="93"/>toto vel in parte: quia actio Dei in creaturam interrumpitur: &amp; 
+      <lb ed="#S" n="94"/>ideo non manet eadem habitudo Dei agentis ad creaturam 
+      <lb ed="#S" n="95"/>pro prima rei productione &amp; eius reparatione: &amp; haec ra 
+      <lb ed="#S" n="96"/>tio communis est ad ea quae sunt successiua &amp; permanen 
+      <lb ed="#S" n="97"/>tia.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1340" n="36">
+      <!-- 36 -->Tertia ratio talis est, idem locus acquiritur plu 
+      <lb ed="#S" n="98"/>ribus motibus localibus, sed eadem forma secundum 
+       na<lb ed="#S" break="no" n="99"/>turam non acquiritpluribus actionibus, &amp; causa est, quia 
+      <lb ed="#S" n="100"/>motus non terminaem ad locum vt sit, sed vt mobile sit in lo 
+      <lb ed="#S" n="101"/>co: &amp; ideo non oportet locum variari secundum  se variato motu 
+      <lb ed="#S" n="102"/>ad locum, sed oportet variari naturaliter formam variata 
+       a<lb ed="#S" break="no" n="103"/>ctione per quam forma acquiritur. Ex hoc potest sic argui, si 
+      <lb ed="#S" n="104"/>eadem forma numero sit in materia pluribus actionibus: 
+      <lb ed="#S" n="105"/>oportet quod vtraque actio vel saltem altera terminetur ad for 
+      <lb ed="#S" n="106"/>mam, non vt sit simpliciter, sed vt sit in materia vel 
+       subie<lb ed="#S" break="no" n="107"/>cto: &amp; propter hoc ad eandem formam terminat generatio hominis  
+      <lb ed="#S" n="108"/>&amp; eius resurrectio, quia vel vtraque actio vel saltem altera 
+       ter<lb ed="#S" break="no" n="109"/>minatur ad animam, non vt sit simpliciter: sed vt sit in 
+       mate<lb ed="#S" break="no" n="110"/>ria, sed in his quorum substantia deperit: vtraque actio. scilicet 
+       pro<lb ed="#S" break="no" n="111"/>ductionis &amp; reparationis terminatur ad formam, vt sit: &amp; non 
+      <lb ed="#S" n="112"/>solum vt sit in hoc. scilicet in materia vel subiecto: ergo 
+       impossi<lb ed="#S" break="no" n="113"/>bile est quod haec duae actiones terminentur ad eandem for 
+      <lb ed="#S" n="114"/>mam ·
+    </p>
+            <p xml:id="khj78y-r41523-d1e1382" n="37">
+      <!-- 37 -->Quarta ratio talis est, quia si Deus crearet 
+      <lb ed="#S" n="115"/>angelum, &amp; postea annihilaret &amp; deinde repararet: verum 
+      <lb ed="#S" n="116"/>esset dicere quod angelus fuit bis realiter non remuneratio 
+      <lb ed="#S" n="117"/>ne agentis: puta Dei qui vnus est nec cuiuscumque extrinse 
+      <lb ed="#S" n="118"/>ci ab angelo: quia si Deus nihil fecisset nisi angelum quem an 
+      <lb ed="#S" n="119"/>nihilatum postea reparasset: adhuc esset verum dicere quod 
+       an<lb ed="#S" break="no" n="120"/>gelus bis fuisset quod non posset verificari, nisi numera 
+      <lb ed="#S" n="121"/>tione angeli vel duratione eius quod idem est.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1402" n="38">
+      <!-- 38 -->
+       Po<lb ed="#S" break="no" n="122"/>test autem addi. 5. ratio quae fuit tacta in praecedenti arti. scilicet 
+      <lb ed="#S" n="123"/>quod eandem formam puta idem lumen reparari: aut est 
+       possibi<lb ed="#S" break="no" n="124"/>le simpliciter, aut impossibile simpliciter: &amp; deducat vt 
+      <lb ed="#S" n="125"/>prius: videtur ergo quod ea quorum substantia deperit in toto 
+      <lb ed="#S" n="126"/>vel in parte: non possunt eadem numero reparari, siue sint 
+      <lb ed="#S" n="127"/>successiua siue permanentia: &amp; hoc expresse dicit. F. Tho. 
+      <lb ed="#S" n="128"/>vt dicunt. 4. lib. Di. 44. arti. 2. insolutione tertij 
+       argumen<lb ed="#S" break="no" n="129"/>ti: quod fuit tale: vnus homo non est plura animalia: 
+       er<lb ed="#S" break="no" n="130"/>go si non est idem animal non est idem homo numero, sed vbi 
+      <lb ed="#S" n="131"/>non est idem sensus non est idem animal: quia animal defini 
+      <lb ed="#S" n="132"/>tur per sensum primum. scilicet tactum: sensus autem non manet in anima 
+      <lb ed="#S" n="133"/>separata: ergo non potest idem numero resumi. Ad quod respondet quod 
+      <lb ed="#S" n="134"/>illa ratio concludit optime contra illos qui ponunt animam sensiti- 
+      <!--0447.xml-->
+      <pb ed="#S" n="447"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>uam, &amp; rationalem diuersas in homine: quia secundum hoc 
+       ani<lb ed="#S" n="2" break="no"/>ma sensitiua esset in homine corruptibilis: sicut in aliis 
+       animali<lb ed="#S" n="3" break="no"/>bus: vnde in resurrectione non esset eadem anima sensitiua 
+      <lb ed="#S" n="4"/>nec idem animal, nec idem homo. si autem ponamus quod 
+       secun<lb ed="#S" n="5" break="no"/>dum substantiam eadem anima sit rationalis &amp; sensitiua: 
+       nul<lb ed="#S" n="6" break="no"/>las ex hoc angustias patiemur: quia animal definit per 
+      <lb ed="#S" n="7"/>sensum qui est anima sensitiua: sicut per formam 
+       essentia<lb ed="#S" break="no" n="8"/>lem licet per sensum qui est potentia cognoscat eius 
+       defi<lb ed="#S" break="no" n="9"/>nitio: anima autem sensitiua quantum ad essentiam manet sicut &amp; 
+       ra<lb ed="#S" n="10" break="no"/>tionalis, cum sit idem. Haec sunt verba eius, ex quibus 
+       cla<lb ed="#S" break="no" n="11"/>re patet quod intentio eius est: quod ea quorum substantia in 
+       ali<lb ed="#S" break="no" n="12"/>quo deperit non possunt eadem secundum numerum 
+       repara<lb ed="#S" break="no" n="13"/>ri. Idem dicit in eodem. 4. Di. 12. q. 1. ar. 2. q.4. in corpore 
+      <lb ed="#S" n="14"/>solutionis &amp; in vltima part q. 77. ar. 5. idem per omnia dicit. 
+      <lb ed="#S" n="15"/>Haec autem pars fuit opus eius vltimum &amp; finale, vt apparet 
+      <lb ed="#S" n="16"/>ex eius incompletione.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1476" n="39">
+      <!-- 39 -->sextam rationem alibi addunt, 
+      <lb ed="#S" n="17"/>quia multiplicato eo a quo per se totaliter dependet effe 
+      <lb ed="#S" n="18"/>ctus: multiplicat effectus: sed productum dependet a 
+       pro<lb ed="#S" break="no" n="19"/>ductione: ergo impossibile est esse vnum productum &amp; 
+      <lb ed="#S" n="20"/>duas productiones.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1490" n="40">
+      <!-- 40 -->Deinde secundo isti respondent 
+      <lb ed="#S" n="21"/>ad rationes in oppositum superius tactas.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1497" n="41">
+      <!-- 41 -->Ad primum 
+      <lb ed="#S" n="22"/>dicendum, quod cuilibet rei repugnat esse nunc &amp; prius cum 
+      <lb ed="#S" n="23"/>media interruptione suae entitatis, licet permanentibus 
+      <lb ed="#S" n="24"/>non repugnet esse nunc &amp; prius absq, interruptione suae 
+      <lb ed="#S" n="25"/>entitatis, fieri autem nunc &amp; prius respicit esse nunc &amp; pri 
+      <lb ed="#S" n="26"/>us, non absolute: sed cum interruptione entitatis quod 
+      <lb ed="#S" n="27"/>enim fit prius non fuit secundum aliquod tempus, &amp; ideo re 
+      <lb ed="#S" n="28"/>pugnat eidem rei quod fiat prius &amp; postea.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1517" n="42">
+      <!-- 42 -->Ad 
+       secun<lb ed="#S" break="no" n="29"/>dum dicendum, quod species angeli posset reparari absque repa 
+      <lb ed="#S" n="30"/>ratione eiusdem indiuidui. Et quod dicitur quod in vna 
+       spe<lb ed="#S" break="no" n="31"/>cie angeli non potest esse nisi vnum suppositum vel in vnum 
+      <lb ed="#S" n="32"/>indiuiduum potest dici quod imo, vel potest dici quod in vna specie 
+      <lb ed="#S" n="33"/>non possunt simul esse plures angeli, possunt tamen esse suc 
+      <lb ed="#S" n="34"/>cessiue. Ad tertium dicunt quod non est fimile de esse in tempo 
+      <lb ed="#S" n="35"/>re &amp; esse in loco: quia esse in tempore vt nunc large accipi 
+      <lb ed="#S" n="36"/>mus est solum secundum coexistentiam. scilicet quod res est dum tempus 
+      <lb ed="#S" n="37"/>est, siue mensuretur tempore siue non: &amp; ideo tempori vel 
+      <lb ed="#S" n="38"/>parti teporis nihil potest deesse nisi amittendo suum esse: 
+      <lb ed="#S" n="39"/>quo amisso res non potest eadem reparari: sem per autem 
+      <lb ed="#S" n="40"/>amittitur nisi semper res sit: quia tempus semper est, esse 
+      <lb ed="#S" n="41"/>autem in loco non est esse quando locus est: sed est habere ali 
+      <lb ed="#S" n="42"/>quam habitudinem ad locum vel commensurationem quod est 
+      <lb ed="#S" n="43"/>idem quod esse in loco localiter vel secundum alium ordi 
+      <lb ed="#S" n="44"/>nem, vt est de corpore Christi quod est sub hostia 
+       sacra<lb ed="#S" break="no" n="45"/>menti: prout in praecedentibus terminatum est. Cum igitur 
+      <lb ed="#S" n="46"/>corpus absque amissione proprij esse possit 
+       commensura<lb ed="#S" break="no" n="47"/>ri alicui loco, &amp; habere aliquam habitudinem ad locum 
+      <lb ed="#S" n="48"/>distantem absque simili habitudine ad medium: ideo idem 
+      <lb ed="#S" n="49"/>corpus potest esse in locis distantibus absque hoc, quod sit in 
+      <lb ed="#S" n="50"/>loco medio. Ad quartum dicunt, quod licet annihilato 
+       mun<lb ed="#S" break="no" n="51"/>do nunc, Deus idem esset in se qui prius: non tamen haberet 
+      <lb ed="#S" n="52"/>eandem habitudinem extrinsecam ad res creatas quam 
+       ha<lb ed="#S" break="no" n="53"/>buit antequam mundus fieret: quia &amp; si tunc nihil erat sicut 
+      <lb ed="#S" n="54"/>&amp; nunc nihil esset annihilato mundo, &amp; in hoc videatur 
+      <lb ed="#S" n="55"/>esse eadem habitudo nunc &amp; prius: tamen non est eadem pro 
+      <lb ed="#S" n="56"/>pter interruptionem mediam, in qua. scilicet Deus res creauit &amp; 
+      <lb ed="#S" n="57"/>creatas conseruauit. Item non probat quod sicut ante 
+       crea<lb ed="#S" break="no" n="58"/>tionem mundi nihil fecit manente illa habitudine: ita 
+      <lb ed="#S" n="59"/>annihilato mundo nunc nihil faceret manente eandem 
+      <lb ed="#S" n="60"/>habitudine, quod non est ad propositum eorum, sed ad op 
+      <lb ed="#S" n="61"/>positi. si autem intelligar qeade habitudo 
+       essertrinse<lb ed="#S" break="no" n="62"/>ca in reparando nunc, quae fuit in creando negandum est 
+      <lb ed="#S" n="63"/>propter interruptionem.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1598" n="43">
+      <!-- 43 -->Ad quintum de authoritate 
+      <lb ed="#S" n="64"/>Aug. dicunt quod materia secundi se nullam habet 
+       actua<lb ed="#S" break="no" n="65"/>lem vnitatem nec pluralitatem, sicut de sae nullam habet 
+       a<lb ed="#S" break="no" n="66"/>stualem entitate, &amp; ideo de t non potest dici esse 
+      <lb ed="#S" n="67"/>vna cum alia materia vel diuersa ab ea: sed omnem vni- 
+      <!--0447.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>tatem &amp; pluralitatem quam habet a forma: vt magis infra 
+      <lb ed="#S" n="69"/>patebit. Et ideo si annullata esset materia hominis &amp; De 
+      <lb ed="#S" n="70"/>us ipsam repararet: ipsa secundum se non potest dici eadem cum 
+      <lb ed="#S" n="71"/>praecedente: nec tamen posset dici alia ratione formae, cui vni 
+      <lb ed="#S" n="72"/>retur: quia eidem animae secundum numerum vniret materia 
+      <lb ed="#S" n="73"/>reparata &amp; illa quae prius fuit.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1629" n="44">
+      <!-- 44 -->Ad sextum dicendum, 
+      <lb ed="#S" n="74"/>quod si propria passio non differt realiter a subiecto: tunc 
+      <lb ed="#S" n="75"/>subiectum successiue nunquam sub diuersis erit propriis 
+      <lb ed="#S" n="76"/>passionibus: quia si reparetur idem subiectum secundum 
+      <lb ed="#S" n="77"/>numerum puta idem homo reparabitur eadem passio. si ve 
+      <lb ed="#S" n="78"/>ro passio differat realiter a subiecto &amp; maxime re 
+       abso<lb ed="#S" break="no" n="79"/>luta: tunc passio corrupta non poterit reparari eadem 
+       se<lb ed="#S" break="no" n="80"/>candum numerum sed alia: nec est inconueniens quod idem 
+      <lb ed="#S" n="81"/>subiectum vicissim sit sub diuersis passionibus solo 
+       nu<lb ed="#S" break="no" n="82"/>mero differentibus, maxime virtute diuina, vt in hoc ca 
+      <lb ed="#S" n="83"/>su.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1655" n="45">
+      <!-- 45 -->Inquirendo autem de istis videtur primo quod 
+       ratio<lb ed="#S" break="no" n="84"/>nes eorum sintsolubiles. Vnde ad primum dicendum quod maior 
+      <lb ed="#S" n="85"/>est vera. scilicet Deum non plus posse propter hoc quod agit 
+       libe<lb ed="#S" break="no" n="86"/>re quam si ageret necessario, quis aliqui dicant quod minus quia 
+      <lb ed="#S" n="87"/>si ageret necessario produxisset mundum ab aeterno si tf 
+      <lb ed="#S" n="88"/>esset producibilis: imo nisi ab aeterno produxisset 
+       nun<lb ed="#S" break="no" n="89"/>quam produxisset: quia idem manens idem &amp;c. sed si libere 
+      <lb ed="#S" n="90"/>non potuit vt dicunt, sed minor est falsa. Ad probationem 
+      <lb ed="#S" n="91"/>dicendum, quod licet Deus ageret tunc sicut creaturae quo ad 
+      <lb ed="#S" n="92"/>modum: non tamen quo ad virtutem: quia posset 
+       pro<lb ed="#S" break="no" n="93"/>ducere angelum &amp; coelum quod nulla creatura potest, 
+      <lb ed="#S" n="94"/>etiam si de necessitate ageret: ita &amp; si de necessitate 
+       age<lb ed="#S" break="no" n="95"/>ret: ita &amp; si de necesiitate ageret, non sequitur quod 
+      <lb ed="#S" n="96"/>non posset idem numero reparare per hoc quod creatura 
+      <lb ed="#S" n="97"/>non potest.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1691" n="46">
+      <!-- 46 -->Ad aliud de filio dicendum est per inter 
+      <lb ed="#S" n="98"/>emptionem: quia si per impossibile generatio diuina in 
+      <lb ed="#S" n="99"/>terrumperetur &amp; rediret, esset eadem numero &amp; idem 
+       fi<lb ed="#S" break="no" n="100"/>lius, quia vnumquodcunque agitur, sicut aptum natum 
+      <lb ed="#S" n="101"/>est agi: vnde illud quod non est natum esse nisi vnum nu 
+      <lb ed="#S" n="102"/>mero, non potest multiplicari: propter quod si non mane 
+      <lb ed="#S" n="103"/>ret: prior generatio vel spiratio rediret eadem, quia 
+       hu<lb ed="#S" break="no" n="104"/>iusmodi non sunt nata ibi multiplicari. sic enim Deus 
+       ge<lb ed="#S" break="no" n="105"/>nerat Deum, sicut persona personam. Quod autem genitum 
+      <lb ed="#S" n="106"/>debet distingui a genitore: facit ibi numerum personae 
+      <lb ed="#S" n="107"/>genitae &amp; generantis, non autem Dei geniti &amp; gignentis: 
+      <lb ed="#S" n="108"/>sed sunt vnus Deus genitus &amp; gignens, non vna persona, 
+      <lb ed="#S" n="109"/>quia personalitas nata est multipliciter, non diuinitas. 
+    </p>
+            <p xml:id="khj78y-r41523-d1e1722" n="47">
+               <lb ed="#S" n="110"/>
+               <!-- 47 -->Ad secundum concedenda est prima pars processus 
+      <lb ed="#S" n="111"/>sed ad secundam est dicendum, quod sicut asinus 
+       producibi<lb ed="#S" break="no" n="112"/>lis virtute finita non potest creari nisi virtute infinita, 
+      <lb ed="#S" n="113"/>quia iste modus repugnat virtuti finitae: sic dico 
+       produ<lb ed="#S" break="no" n="114"/>cere eundem effectum specie, cum priori non repugnat: 
+      <lb ed="#S" n="115"/>sed producere eundem numero cum corrupto repugnat 
+      <lb ed="#S" n="116"/>virtuti creatae: vnde ad illud quod tertio dicitur 
+       conce<lb ed="#S" break="no" n="117"/>dendum, quod diuersa habitudo hoc facit, quia quamuis 
+       ha<lb ed="#S" break="no" n="118"/>bitudo etiam realis non sit per se principium actionis: 
+       ta<lb ed="#S" break="no" n="119"/>men illa est causa sine qua non actionis, quia agens approxi 
+      <lb ed="#S" n="120"/>matum agit, elongatum non agit: cum tamen esse prope, 
+      <lb ed="#S" n="121"/>&amp; longe sint purae habitudines: vnde quia omne creatum 
+      <lb ed="#S" n="122"/>realiter refertur ad suum passum: quia potentia passiua 
+      <lb ed="#S" n="123"/>refertur ad actiuam coordinatam: inde est quod aliter 
+      <lb ed="#S" n="124"/>se habet quod agit vel egit, quam antequam egisset: pro 
+      <lb ed="#S" n="125"/>pter quod alium effectum producit quam prius: Deus autem 
+      <lb ed="#S" n="126"/>semper eodem modo se habens realiter solum se habet 
+       di<lb ed="#S" break="no" n="127"/>uersimode secundum rationem quod nihil variat: alias si 
+       di<lb ed="#S" break="no" n="128"/>uersitas habitudinis impedire effectum esse vnum cum 
+      <lb ed="#S" n="129"/>anima in resurrectionem habeat aliam habitudinem, q 
+      <lb ed="#S" n="130"/>prius, quia corrupto corpore conseruabatur perse a Deos 
+      <lb ed="#S" n="131"/>nunc autem in corpore esset alia anima, &amp; per consequens 
+      <lb ed="#S" n="132"/>non fieret idem homo. Et licet in hoc sit dissimile: quia 
+      <lb ed="#S" n="133"/>ibi est effectus formalis hic effectiuus: tamen illa propositio 
+      <lb ed="#S" n="134"/>idem manens idem: ita tenet in causa formali sicut in 
+      <!--0448.xml-->
+      <pb ed="#S" n="448"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>agente, &amp; plus, quia varietas &amp; vnitas causae formalis mul 
+      <lb ed="#S" n="2"/>to magis variat vel vnit effectum, quam illa quae est causae 
+       agen<lb ed="#S" break="no" n="3"/>tis. Quod ergo iste asinus non generat eundem asinum 
+      <lb ed="#S" n="4"/>numero quem ille, etiam si eadem esset materia numero: potest 
+      <lb ed="#S" n="5"/>reduci in diuersitatem materialem generantium. Quod 
+       au<lb ed="#S" break="no" n="6"/>tem asinus secundo generans etiam si esset eadem materia 
+      <lb ed="#S" n="7"/>numero non generat eundem quem prius, est: quia non 
+      <lb ed="#S" n="8"/>eandem habitudinem habet ad materiam nunc quam prius, 
+      <lb ed="#S" n="9"/>quia illa quam prius habuit corrupta est: haec autem noua 
+      <lb ed="#S" n="10"/>est. sicut ergo approximatus agit, non approximatus non 
+      <lb ed="#S" n="11"/>agit: sic approximatus vna vice generatvnum, 
+       approxi<lb ed="#S" break="no" n="12"/>matus alia vice generat alium. In Deo autem non est 
+       dif<lb ed="#S" break="no" n="13"/>ferens approximatio nisi pura ratione, vnde non est 
+       simi<lb ed="#S" break="no" n="14"/>le. Alia causa dicetur infra Dist. proxima. q. 2.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1818" n="48">
+      <!-- 48 -->Ad 
+      <lb ed="#S" n="15"/>tertiam rationem dicendum est per interemptionem, quia 
+       di<lb ed="#S" break="no" n="16"/>uersae actiones productiue possunt esse ad eundem 
+       termi<lb ed="#S" break="no" n="17"/>num: &amp; non solum secundum eum intensio &amp; remissio, &amp; di 
+      <lb ed="#S" n="18"/>uersae intentiones &amp; remissiones possunt esse ad vnum 
+       ter<lb ed="#S" break="no" n="19"/>minum realem, quae sunt ad hoc non quod terminus sit: sed quod 
+      <lb ed="#S" n="20"/>magis vel minus sit: imo actiones quae sunt ad hoc quod ter 
+      <lb ed="#S" n="21"/>minus sit, quia quod actio &amp; motus differant a termino 
+       pa<lb ed="#S" break="no" n="22"/>tet, quia actio est in praedicamento actionis, &amp; motus in prae 
+      <lb ed="#S" n="23"/>dicamento quantitatis: termini autem eorum extra, imo quando est 
+      <lb ed="#S" n="24"/>augmentum vel decrementum continuum: ibi est duplex quam 
+      <lb ed="#S" n="25"/>titas differens specie. scilicet manens &amp; fluens, vel manens &amp; flu 
+      <lb ed="#S" n="26"/>xus. Aliter non possunt esse diuersi motus reales intensio 
+      <lb ed="#S" n="27"/>&amp; remissio, nisi terminus differretre: quia quaecumque vni 
+      <lb ed="#S" n="28"/>&amp; cidem sunt eadem, inter se sunt eadem: ergo motus inten 
+      <lb ed="#S" n="29"/>sionis &amp; remissionis augmenti &amp; decrementi possuntes 
+      <lb ed="#S" n="30"/>se diuersi: siue diuersi diuersitate termini, siue 
+       diuersita<lb ed="#S" break="no" n="31"/>te temporum, quia differunt ab ipsis terminis. Non est autem 
+      <lb ed="#S" n="32"/>ratio quare motus vel actio productiua magis sit idem cum 
+      <lb ed="#S" n="33"/>suo termino, quam de actione alteratiua: ergo non oportes 
+      <lb ed="#S" n="34"/>producta esse distincta propter distinctionem 
+       productio<lb ed="#S" break="no" n="35"/>num. Vnde aliquis diceret quod quando plura agentia 
+       concur<lb ed="#S" break="no" n="36"/>runt ad vnum effectum: sunt ibi plures productiones siue 
+      <lb ed="#S" n="37"/>actio sit in agente siue in patiente, si actio est esse ab hoc: 
+      <lb ed="#S" n="38"/>quia tunc actiones sunt ab his. Et si dicatur non est simi 
+      <lb ed="#S" n="39"/>le, quia ibi si essent plures actiones esset tamen vna passio, 
+      <lb ed="#S" n="40"/>sed quando bis producitur res ibi est duplex produci, non va 
+      <lb ed="#S" n="41"/>let: quia in generatione &amp; resurrectione estduplex 
+       pa<lb ed="#S" break="no" n="42"/>ti &amp; recipere, quia materia bis passa est, &amp; bis recipit for 
+      <lb ed="#S" n="43"/>mam: potest ergo aliquid pluries recipi &amp; pluries dari 
+      <lb ed="#S" n="44"/>etiam non corruptum: sed bene verum est quod non potest bis pro 
+      <lb ed="#S" n="45"/>duci nisi sit corruptum: sed si semel est corruptum poterit ite 
+      <lb ed="#S" n="46"/>rum produci: nec oportebit distingui productum primo 
+      <lb ed="#S" n="47"/>a producto secundo propter distinctionem productionis, 
+      <lb ed="#S" n="48"/>quia productio differt re vel saltem reali habitudine a pro 
+      <lb ed="#S" n="49"/>ducto.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1899" n="49">
+      <!-- 49 -->Ad quartum dicendum, quod angelus esset bis crea 
+      <lb ed="#S" n="50"/>tus non numero creati vel creantis, sed numero 
+       creatio<lb ed="#S" break="no" n="51"/>nis: sicut intensum &amp; remissum esset bis motum, etiam si in 
+      <lb ed="#S" n="52"/>mundo nihil aliud esset numero motus, &amp; bis passum 
+       nu<lb ed="#S" break="no" n="53"/>mero passionis, &amp; non alterius.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1912" n="50">
+      <!-- 50 -->Ad quintum 
+       dicen<lb ed="#S" break="no" n="54"/>dum, quod idem numero reparari est possibile simpliciter: 
+      <lb ed="#S" n="55"/>&amp; tamen est imposibile naturae: quia quamuis natura agentis 
+      <lb ed="#S" n="56"/>&amp; subiecti sint aeque potentia sicut prius, ex quo sequitur 
+      <lb ed="#S" n="57"/>quod aeque perfectu effectum possunt sicut prius: non tamen se 
+      <lb ed="#S" n="58"/>habent eodem modo numeraliter adinuicem sicut prius: 
+      <lb ed="#S" n="59"/>sed solum modo eodem specie: &amp; ideo in eundem 
+       effe<lb ed="#S" break="no" n="60"/>ctum specie possunt non numero: licet autem materia non 
+      <lb ed="#S" n="61"/>eodem modo se habeat ad Deum postquam habuit formam 
+      <lb ed="#S" n="62"/>quam prius, quando eandem a Deo recipiebat: Deus ta 
+      <lb ed="#S" n="63"/>men codem modo se habet semper ad omnia. Et vlterius 
+      <lb ed="#S" n="64"/>Deus ex parte obiecti nullam habitudinem requirit: 
+      <lb ed="#S" n="65"/>vnde sicut sine subiecto potest producere effectum, sic 
+      <lb ed="#S" n="66"/>sine hoc quod subiectum habeat cande habitudinem potest eun 
+      <lb ed="#S" n="67"/>dem effectum imprimere.
+    </p>
+            <p xml:id="khj78y-r41523-d1e1947" n="51">
+      <!-- 51 -->Ad sextum dicendum, 
+      <!--0448.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>quod minor est falsa simpliciter, quia effectus dependes 
+      <lb ed="#S" n="69"/>ex actione &amp; agente quae sunt duo distincta supposito, 
+      <lb ed="#S" n="70"/>ex agente &amp; patiente quae similiter sunt distincta, &amp; ex 
+      <lb ed="#S" n="71"/>agente vniuersali &amp; particulari, &amp; ex masculo &amp; 
+       foemi<lb ed="#S" break="no" n="72"/>na foetus: &amp; tamen non oportet multiplicari effectum. 
+      <lb ed="#S" n="73"/>si dicatur quod instantiae currunt de illis quorum 
+       quod<lb ed="#S" break="no" n="74"/>libet per se non est causa sufficiens &amp; quae sunt mediata: 
+      <lb ed="#S" n="75"/>sed productio producti est id a quo dependet 
+       produ<lb ed="#S" break="no" n="76"/>ctum immediate: &amp; a quo solo perfecte, quia posita 
+       pro<lb ed="#S" break="no" n="77"/>ductione ponitur productum omni alio circunscripto: 
+      <lb ed="#S" n="78"/>dicendum quod verum est: sed propter hoc positis duabus 
+      <lb ed="#S" n="79"/>productionibus successiue, per quarum primam produ 
+      <lb ed="#S" n="80"/>ctum fuit corruptum ante secundam: non oportet secun 
+      <lb ed="#S" n="81"/>dam ad aliud productum terminari: cum enim 
+       produ<lb ed="#S" break="no" n="82"/>ctio possit terminari ad omne possibile produci, &amp; istud 
+      <lb ed="#S" n="83"/>corruptum sit possibile produci sicut prius, quia non 
+      <lb ed="#S" n="84"/>est magis elongatum ab entitate per annullationem, quam 
+      <lb ed="#S" n="85"/>ante creationem: ergo si ante erat possibile produci: &amp; 
+      <lb ed="#S" n="86"/>nunc est possibile: sed quandiu durat productum non est 
+      <lb ed="#S" n="87"/>possi bile produci distincta productione, non quia distes 
+      <lb ed="#S" n="88"/>ab entitate, sed quia habet entitatem productam: &amp; quod 
+      <lb ed="#S" n="89"/>producitur de nono non est antequam producatur. Dein 
+      <lb ed="#S" n="90"/>de videtur quod solutiones eorum ad primas rationes 
+       pos<lb ed="#S" break="no" n="91"/>sint impediri. Nam ad primam rationem de esse &amp; fiert 
+      <lb ed="#S" n="92"/>solutio data non valet: quia licet sit petitio principij in 
+      <lb ed="#S" n="93"/>ratione: quicunque enim negaret idem posse reparari, 
+       di<lb ed="#S" break="no" n="94"/>ceret idem non posse esse nunc &amp; prius cum 
+       interruptio<lb ed="#S" break="no" n="95"/>ne sicut fieri nunc &amp; prius: tamen illud in quo se 
+       fun<lb ed="#S" break="no" n="96"/>dant falsum est. scilicet non posse fieri nisi quod prius secundum 
+      <lb ed="#S" n="97"/>nullum tempus fuit, cuius contrarium dicunt in 
+       aeternitate<lb ed="#S" break="no" n="98"/>Quod enim aliquando factum est aliquando fiebat: si autem non 
+      <lb ed="#S" n="99"/>potest fieri nisi quod non est aut non sic est: ergo quod 
+       nun<lb ed="#S" break="no" n="100"/>quam non fuit &amp; nunquam aliter fuit, fieri non pont: si ergo 
+      <lb ed="#S" n="101"/>angelus, aut coelum ab aeterno fuit nunquam fuit, quando non es 
+      <lb ed="#S" n="102"/>set aliter esset, &amp; sic fieri non potuit. Dicendum quod fieri de 
+      <lb ed="#S" n="103"/>nouo bene importat quod dictum est: sed fieri vel produci 
+      <lb ed="#S" n="104"/>absolute nequaquam: vnde filius semper generatur: 
+       quia<lb ed="#S" break="no" n="105"/>semper accipit esse non aliud nec perfectius, sed idem 
+      <lb ed="#S" n="106"/>aeque perfectum: &amp; fimiliter angelus &amp; coelum continue 
+       ac<lb ed="#S" break="no" n="107"/>cipiendo esse continue a Deo producuntur continue dan 
+      <lb ed="#S" n="108"/>te eis esse: ergo alicui repugnat fieri cui non repugnat. 
+      <lb ed="#S" n="109"/>esse, sed necesse est esse, vt Deo: sed cui conuenit esse per 
+      <lb ed="#S" n="110"/>productionem illi ita conuenit esse sicut produci, &amp; 
+       econ<lb ed="#S" break="no" n="111"/>uerso: igitur cum nulla permanentia repugnet esse pluries, 
+      <lb ed="#S" n="112"/>ita nec produci pluries: &amp; ideo quod habebit esse 
+       pluri<lb ed="#S" break="no" n="113"/>es continue: habebit productionem vnam continuam, quod 
+      <lb ed="#S" n="114"/>autem habebit esse discontinuatum habebit productionem 
+      <lb ed="#S" n="115"/>discontinuam: &amp; sicut continuata productio potest 
+       habe<lb ed="#S" break="no" n="116"/>re vnum esse continuatum, sic discontinuata &amp; interru 
+      <lb ed="#S" n="117"/>pta productio poterit habere vnum productum 
+       discon<lb ed="#S" break="no" n="118"/>tinuatum &amp; interruptum.
+    </p>
+            <p xml:id="khj78y-r41523-d1e2068" n="52">
+      <!-- 52 -->solutio prima ad secun 
+      <lb ed="#S" n="119"/>dum videbitur in secundo, sed secunda solutio non 
+       vi<lb ed="#S" break="no" n="120"/>detur valere, quia si impossibile est esse angelos plures 
+      <lb ed="#S" n="121"/>in eadem specie simul, ita &amp; succefiiue, quia quod est im 
+      <lb ed="#S" n="122"/>possi bile simpliciter, est impossibile absolute, non pro 
+      <lb ed="#S" n="123"/>hoc &amp; illo tempore. Nec obstat quod impossibile est esse duo 
+      <lb ed="#S" n="124"/>contraria simul in eodem, sed possibile est non simul. Et 
+      <lb ed="#S" n="125"/>similiter duo accidentia simul per naturam, quia hoc non 
+      <lb ed="#S" n="126"/>est impossibile simpliciter, sed secundum quidratione sub 
+      <lb ed="#S" n="127"/>iecti. scilicet simpliciter enim possibile est esse duo contraria, 
+      <lb ed="#S" n="128"/>imo necesse est si vnum contrariorum est in natura &amp; re 
+      <lb ed="#S" n="129"/>liquum: &amp; similiter in multiplicabilibus numero simpli 
+      <lb ed="#S" n="130"/>citer possibile est esse illa simul, sed secundum quid non, 
+      <lb ed="#S" n="131"/>nam respectu eiusdem subiecti non est possibile ista illi 
+      <lb ed="#S" n="132"/>simul inesse. sed in proposito duo angeli non habent 
+      <lb ed="#S" n="133"/>eidem subiecto inesse, nec sibi repugnant vt contraria, 
+      <lb ed="#S" n="134"/>nec habent distingui subiecto vt accidentia ergo si simul 
+      <!--0449.xml-->
+      <pb ed="#S" n="449"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>esse non possunt: hoc non est nisi propter repugnantiam 
+      <lb ed="#S" n="2"/>naturae speciei. &amp; sic nec simul nec successiue possunt esse 
+      <lb ed="#S" n="3"/>plures etiam diuina virtute. sicut nec corpora coelestia 
+      <lb ed="#S" n="4"/>quae si possent in eadem specie multiplicari cum hoc esset 
+      <lb ed="#S" n="5"/>melius: deus hoc fecisset: licet istud vltimum male 
+       con<lb ed="#S" break="no" n="6"/>cludat: quia Deus non vult plus corporalia multiplica 
+      <lb ed="#S" n="7"/>re: quamuis similiter videretur esse magis multiplicare 
+      <lb ed="#S" n="8"/>melius esse.
+    </p>
+            <p xml:id="khj78y-r41523-d1e2131" n="53">
+      <!-- 53 -->Ad tertium non valet responsio, quia verum 
+      <lb ed="#S" n="9"/>est quod diuersa habitudo realis bene facit ad diuersitatem 
+      <lb ed="#S" n="10"/>effectus: sed non diuersa habitudo rationis. Deus autem qui 
+      <lb ed="#S" n="11"/>non refertur realiter ad creaturam post creationem sicut nec 
+      <lb ed="#S" n="12"/>ante: per hoc quod creauit non se habet aliter quam ante. 
+       vn<lb ed="#S" break="no" n="13"/>de quia idem codem modo se habens agit idem si necessario 
+      <lb ed="#S" n="14"/>agat, vel potest agere idem si libere agat illud idem 
+       nu<lb ed="#S" break="no" n="15"/>mero quod produxit quando creauit: potest producere 
+      <lb ed="#S" n="16"/>recreando: quia non est diuersitas ex parte Dei vnquam: 
+      <lb ed="#S" n="17"/>nec ex parte obiecti. quia ponitur annihilatum sicut prius 
+      <lb ed="#S" n="18"/>fuit nihil. ex quo apparet quare Deus non potest 
+       produ<lb ed="#S" break="no" n="19"/>cere productione distincta illud idem quod semel 
+       pro<lb ed="#S" break="no" n="20"/>duxit quandiu illud durat: quia aliter se habet res quando 
+      <lb ed="#S" n="21"/>est, &amp; quando non est, nam quando est repugnat ei produ 
+      <lb ed="#S" n="22"/>ci productione differente a sua conseruatione. quando ve 
+      <lb ed="#S" n="23"/>ro non est non sibi repugnat: sed ita nata est produci postquam 
+      <lb ed="#S" n="24"/>est annullata sicut ante, quia non potest per 
+       annullatio<lb ed="#S" break="no" n="25"/>nem fieri minus quam nihil: erat autem nihil antequam 
+       crea<lb ed="#S" break="no" n="26"/>retur &amp; nihilominus erat producibilis: ergo &amp; nunc. 
+    </p>
+            <p xml:id="khj78y-r41523-d1e2175" n="54">
+               <lb ed="#S" n="27"/>
+               <!-- 54 -->Ad quartum quod ponit tertium verum est quod non est 
+      <lb ed="#S" n="28"/>simile: &amp; est bene verum quod corpus non potest fieri in 
+       di<lb ed="#S" break="no" n="29"/>uersis locis extremis, sine hoc quod transeat per medium vel 
+      <lb ed="#S" n="30"/>imaginatum si est vacuum, vel reale si est spatium: nec illud 
+      <lb ed="#S" n="31"/>potest esse in instanti etiam in vacuo quicquid dicat 
+       phi<lb ed="#S" break="no" n="32"/>losophus sed per annullationem &amp; reparationem posset 
+      <lb ed="#S" n="33"/>corpus existens Romae annullari &amp; idem numero 
+       repa<lb ed="#S" break="no" n="34"/>rari Parisiis non transeundo per medium, sed istud non 
+      <lb ed="#S" n="35"/>posset esse in instanti. Annullatio quidem &amp; 
+       reparatio<lb ed="#S" break="no" n="36"/>fierent diuersis instantibus in quibus caderet tempus 
+       me<lb ed="#S" break="no" n="37"/>dium. Non enim posset reparari idem numero illo 
+       tem<lb ed="#S" break="no" n="38"/>pore quo annullaretur: quia simul esset &amp; non esset, sicut 
+      <lb ed="#S" n="39"/>ergo corpus etiam localiter posset esse successiue in 
+       diuer<lb ed="#S" break="no" n="40"/>sis locis extremis: sine hoc quod medio tempore &amp; in medio 
+      <lb ed="#S" n="41"/>spatio per annullationem &amp; reparationem: inter quae tamen 
+      <lb ed="#S" n="42"/>oporteret cadere tempus medium: ita &amp; interruptio esse rei 
+      <lb ed="#S" n="43"/>per corruptionem potest fieri quod res fuerit ante heri: &amp; non 
+      <lb ed="#S" n="44"/>heri: sed sit hodie.
+    </p>
+            <p xml:id="khj78y-r41523-d1e2219" n="55">
+      <!-- 55 -->Ad quintum de Aug. de materia 
+      <lb ed="#S" n="45"/>non valet solutio: quia potest annullari materia sub for 
+      <lb ed="#S" n="46"/>ma existens ipsa forma retenta maxime si forma est 
+       subsi<lb ed="#S" break="no" n="47"/>stens: vt anima rationalis. si ergo potest reparari sub anima 
+      <lb ed="#S" n="48"/>eadem numero: quamuis: forma habeat quod sit cadem: tamen 
+      <lb ed="#S" n="49"/>a forma non habet essentiam suam potentialem: sua autem 
+      <lb ed="#S" n="50"/>essentia possibilis est quaedam vera entitas: &amp; sic cum ipsa 
+      <lb ed="#S" n="51"/>quae prius fuit annullata: nunc sit verum ens licet imperfe 
+      <lb ed="#S" n="52"/>ctum: &amp; sic hoc est a forma: hoc non est effectiue: sed 
+       forma<lb ed="#S" break="no" n="53"/>liter: verum est dicere quod in isto homine perierat aliquid quod 
+      <lb ed="#S" n="54"/>idem numero reparatum est: &amp; si materia quae facta est nihil 
+      <lb ed="#S" n="55"/>potest reparari: multo magis forma corrupta quae non est 
+      <lb ed="#S" n="56"/>annullata: sed in potentiam materiae reuersa. 
+       Consideran<lb ed="#S" break="no" n="57"/>dum etiam est quod fundamentum ipsorum ita concludit de 
+       ma<lb ed="#S" break="no" n="58"/>teria sicut de forma: quia quando materia annullata 
+       re<lb ed="#S" break="no" n="59"/>paratur est vera productio, &amp; creatio: siue reparetur sub 
+      <lb ed="#S" n="60"/>eadem forma numero siue sub alia: &amp; tamen secundum eos 
+      <lb ed="#S" n="61"/>erit idem productum numero siue sub alia siue sub eandem 
+      <lb ed="#S" n="62"/>forma numero reparetur. ego potest esse vnum productum 
+      <lb ed="#S" n="63"/>cum pluralitate productionum.
+    </p>
+            <p xml:id="khj78y-r41523-d1e2265" n="56">
+      <!-- 56 -->De. 6. bene ostendit per 
+      <lb ed="#S" n="64"/>miraculum esse possibile subiectum idem numero manere 
+      <lb ed="#S" n="65"/>passione propria naturaliterxtigia: quamuis secundum 
+       na<lb ed="#S" break="no" n="66"/>turam sit impossibile. sed videt incobersiens quod in sanctis 
+      <lb ed="#S" n="67"/>resurgentibus nihil sit idem numero, nisi anima &amp; materia 
+      <!--0449.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>prima: quia si propter hoc est eadem materia numero: vt 
+      <lb ed="#S" n="69"/>praemietur in co in quo meruit: cum per plures potentias 
+      <lb ed="#S" n="70"/>organicas meruit, decet omnes redire, maxime cum 
+       aureo<lb ed="#S" break="no" n="71"/>la meritum illud respiciat: &amp; cum dicat Iob, Non solum quem 
+      <lb ed="#S" n="72"/>visurus sum ego ipse: &amp; non alius: quod ad substantiam 
+       re<lb ed="#S" break="no" n="73"/>fertur: sed etiam in carne mea. caro autem dixit complexionem 
+      <lb ed="#S" n="74"/>accidentalem, &amp; oculi mei conspecturi sunt. qui important 
+      <lb ed="#S" n="75"/>non solum substantiam: sed potentiam visiuam, &amp; etiam 
+      <lb ed="#S" n="76"/>dispositionem organi: videutr absurdum quod non sit in eis 
+      <lb ed="#S" n="77"/>aliqua potentia sensitiua eadem numero quae prius. 
+    </p>
+            <p xml:id="khj78y-r41523-d1e2304" n="57">
+               <lb ed="#S" n="78"/>
+               <!-- 57 -->Et ideo videtur dicendum secundum communem 
+       opi<lb ed="#S" break="no" n="79"/>nionem, quod Deus permanens annullatum, vel corruptum 
+      <lb ed="#S" n="80"/>potest idem numero reparare: quia non prohibetur ex 
+       par<lb ed="#S" break="no" n="81"/>te annullationis: cum de nihilo omnia fecerit Deus: nec ex 
+      <lb ed="#S" n="82"/>parte temporis cuius interruptio faciat diuersitatem: quia 
+      <lb ed="#S" n="83"/>tempus est mensura extrinseca: vel ipsum annullatum erat 
+      <lb ed="#S" n="84"/>aeuiternum.
+    </p>
+            <p xml:id="khj78y-r41523-d1e2325" n="58">
+      <!-- 58 -->sed opponitur contra hoc, primo, quia 
+      <lb ed="#S" n="85"/>motus est idem re cum suo termino: puta dealbatio cum 
+       al<lb ed="#S" break="no" n="86"/>bedine. si ergo albedo eadem numero potest reparari: &amp; 
+      <lb ed="#S" n="87"/>dealbatio.
+    </p>
+            <p xml:id="khj78y-r41523-d1e2336" n="59">
+      <!-- 59 -->Quidam respondent qui sunt vna forma, 
+      <lb ed="#S" n="88"/>sed alia &amp; alia vnitas, sicut si vna linea diuidatur in duas 
+      <lb ed="#S" n="89"/>nihil est de essentia in duabus quod prius non esset in vna: 
+      <lb ed="#S" n="90"/>nec duae sunt longiores quam vna sola: quia duo puncta quae 
+      <lb ed="#S" n="91"/>sunt addita si essent infinita non facerent aliquid maius: 
+      <lb ed="#S" n="92"/>&amp; tamen sunt duae quae prius erant vna tantum, sic &amp; in 
+       proposi<lb ed="#S" break="no" n="93"/>to. Ex quo aliqui dicunt quod numerus est aliquid vltra 
+       con<lb ed="#S" break="no" n="94"/>tinuum: quia non est plus de entitate nec de dimensione 
+      <lb ed="#S" n="95"/>quam prius: &amp; tamen est ibi plus de quantitate discreta 
+      <lb ed="#S" n="96"/>quam prius: quia est numerus, &amp; plus de vnitate quam 
+      <lb ed="#S" n="97"/>prius: hoc tamen dubitationem habet, quia res se habet ad 
+      <lb ed="#S" n="98"/>vnitatem sicut ad entitatem, nec possunt habere aliam, &amp; aliam 
+      <lb ed="#S" n="99"/>vnitatem quae habent eandem entitatem, vel altera vnitas 
+      <lb ed="#S" n="100"/>esset non ens. Vnde potest dici quod motus materialiter 
+       qui<lb ed="#S" break="no" n="101"/>dem est idem cum termino: sed formaliter &amp; realiter 
+       diffe<lb ed="#S" break="no" n="102"/>runt, cum sit per se species quantitatis. Cessat enim 
+       for<lb ed="#S" break="no" n="103"/>maliter motus habita perfectione formae, si autem esset idem 
+      <lb ed="#S" n="104"/>cum forma simul corrumperentur, nec vnius perfectio esset 
+      <lb ed="#S" n="105"/>destructio alterius. Quare autem Deus possit magis 
+       repa<lb ed="#S" break="no" n="106"/>rare idem numero quam natura, est quia Deus non 
+       praesup<lb ed="#S" break="no" n="107"/>ponit aliquam potentiam passiuam ex qua agat, natura autem 
+      <lb ed="#S" n="108"/>sic non solum potentiam quae est materia prima: sed proximam 
+      <lb ed="#S" n="109"/>quae est per quantitatem &amp; qualitatem, quia non quod licet 
+      <lb ed="#S" n="110"/>fit ex quolibet, sed determinatum ex determinato: &amp; lices 
+      <lb ed="#S" n="111"/>natura resoluat vsque ad materiam primam inducit tamen 
+      <lb ed="#S" n="112"/>formam secundum exigentiam dispositionum 
+       praeceden<lb ed="#S" break="no" n="113"/>tium, ille autem non sunt caedem numero in prima gene 
+      <lb ed="#S" n="114"/>ratione &amp; secunda. Vel potest dici, quod sicut Deus pater 
+       eam<lb ed="#S" n="115" break="no"/>dem formam numero quam habet potest communicare 
+       gene<lb ed="#S" break="no" n="116"/>rando &amp; spirando, sic potest in alio eandem numero 
+       repa<lb ed="#S" break="no" n="117"/>rare. sed naturale agens sicut nunquam communicat eandem 
+      <lb ed="#S" n="118"/>formam numero sed specie, sic nec reparat, quia agens 
+      <lb ed="#S" n="119"/>magis generat sibi simile vel nunquam quam alteri. nec 
+       in<lb ed="#S" break="no" n="120"/>tendit assimilari patiens patienti eidem vel alteri, sed omne 
+      <lb ed="#S" n="121"/>patiens intendit assimilari sibi, esset autem maior vnitas 
+      <lb ed="#S" n="122"/>patientis ad patiens quam ad agens si forma bis producta 
+      <lb ed="#S" n="123"/>esset vna numero, cum semper differat numero a forma 
+      <lb ed="#S" n="124"/>producente. sed hic est instantia de nutritione in qua 
+      <lb ed="#S" n="125"/>nutritum communicat eandem formam numero alimento: sed 
+      <lb ed="#S" n="126"/>hoc non est producendo. in generatione etiam aequiuoca agens 
+      <lb ed="#S" n="127"/>plus assimilat sua passa inter se quam sibi.
+    </p>
+            <p xml:id="khj78y-r41523-d1e2427" n="60">
+      <!--60 -->Ad id 
+       ve<lb ed="#S" break="no" n="128"/>ro quo dictum est, quod forma corrupta cedit in eandem 
+       po<lb ed="#S" break="no" n="129"/>tentiam numero, verum est remotam, sed non proximam. 
+    </p>
+            <p xml:id="khj78y-r41523-d1e2436" n="61">
+               <lb ed="#S" n="130"/>
+               <!-- 61 -->Ad argumentum dicendum quod non est simile de successi 
+      <lb ed="#S" n="131"/>uis &amp; permanentibus, vt dictum est in corpore quaestionis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

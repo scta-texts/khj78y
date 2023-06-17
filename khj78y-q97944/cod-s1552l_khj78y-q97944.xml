@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="317"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q97944"><!-- l4d25-q5 -->
+            <head xml:id="khj78y-q97944-Hd1e101">Quaestio 5</head>
+            <head xml:id="khj78y-q97944-Hd1e103" type="question-title">
+     utrum symonis 
+     mentalis obliget ad resignationem 
+       beneficii per eam obtenti
+   </head>
+            <p xml:id="khj78y-q97944-d1e106">
+               <lb ed="#S" n="71"/>QVAESTIO QVINTA. 
+      <lb ed="#S" n="72"/>De quidditate simoniae, &amp; eius speciebus. 
+    </p>
+            <p xml:id="khj78y-q97944-d1e113">
+               <lb ed="#S" n="73"/>Thom. 2.2.q. 100.
+    </p>
+            <p xml:id="khj78y-q97944-d1e118">
+               <lb ed="#S" n="74"/>QVAERITVR quinto, vtrum symonis 
+      <lb ed="#S" n="75"/>mentalis obliget ad resignationem 
+       benefi<lb ed="#S" break="no" n="76"/>cij per eam obtenti? Et videtur quod sic: quia 
+      <lb ed="#S" n="77"/>maius est peccatum symoniae, quam vsurae: sed vsu 
+      <lb ed="#S" n="78"/>ra sine pacto ex institutione debet 
+       resti<lb ed="#S" break="no" n="79"/>tui. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q97944-d1e135" n="2">
+      <!-- 2 -->Contra, de symonia. cap. vlt. vbi dicit, 
+      <lb ed="#S" n="80"/>quod sufficit poenitentia coram Deo, quando non interuenit 
+       pa<lb ed="#S" break="no" n="81"/>ctio.
+    </p>
+            <p xml:id="khj78y-q97944-d1e144" n="3">
+      <!-- 3 -->Respondeo, hic ad euidentiam de symonia tria 
+      <lb ed="#S" n="82"/>videnda sunt in generali. Primo, quid sit, &amp; quomodo 
+      <lb ed="#S" n="83"/>puniatur, &amp; quomodo in ea dispensetur. secundo, in qui 
+      <lb ed="#S" n="84"/>bus materialiter, &amp; obiectiue habeat locum symonia. 
+      <lb ed="#S" n="85"/>Tertio, quibus modis, vel in mediis committatur quasi 
+      <lb ed="#S" n="86"/>formaliter.
+    </p>
+            <p xml:id="khj78y-q97944-d1e160" n="4">
+      <!-- 4 -->Quantum ad primum sunt tres conclusio 
+      <lb ed="#S" n="87"/>nes. Prima de quidditate ipsius, de qua dantur 
+       defini<lb ed="#S" break="no" n="88"/>tiones. Prima Iuristarum. Quod symonia est studiosa 
+      <lb ed="#S" n="89"/>voluntas emendi, vel vendendi aliquid spuale, vel 
+       spiritua<lb ed="#S" n="90" break="no"/>li annexum. studiosa voluntas, quia si sine 
+       deliberatio<lb ed="#S" break="no" n="91"/>ne a non intendentibus, &amp; nullo modo volentibus fiat 
+      <lb ed="#S" n="92"/>aliquid, ad symoniam alias pertinens, symonia non est. 
+      <lb ed="#S" n="93"/>Voluntas quo ad Deum. Emendi, omnis non gratuitus 
+      <lb ed="#S" n="94"/>contractus. i. permutatio, nisi authoritate episcopi 
+       prohibe<lb ed="#S" break="no" n="95"/>tur. Et similiter transactio intrinseca, vel extrinseca, sed 
+      <lb ed="#S" n="96"/>amicabilis compositio est permissa. Vel vendendi, qui &amp; 
+      <lb ed="#S" n="97"/>Giezitae, vel symoniaci. Aliquid spirituale per essentiam, vel 
+      <lb ed="#S" n="98"/>causam, vel spirituali annexum antecedenter, concomitanter, 
+      <lb ed="#S" n="99"/>&amp; consequenter. symonia autem est crimen ecclesiasticum, 
+      <lb ed="#S" n="100"/>propter tria, quibus distinguitur a ciuili, vel saeculari. 
+      <lb ed="#S" n="101"/>Primo, penes materiam, vel obiectum: quia in Deum commissum 
+      <lb ed="#S" n="102"/>est ecclesiasticum, vt haeresis: in proximum autem ciuile, vt ho 
+      <lb ed="#S" n="103"/>micidium. secundo, penes cognitionem: quia eius cognitio ad 
+      <lb ed="#S" n="104"/>iudicem ecclesiasticum pertinet. Tertio, penes poenam. C. 
+      <lb ed="#S" n="105"/>de episcopi.  &amp; cle. Authem. Cleric. in glo. Vnde de omni debito 
+      <lb ed="#S" n="106"/>personali, pro quo potest agi ad poenam ecclesiasticam: quia 
+      <lb ed="#S" n="107"/>non soluens debitum monitione praemissa potest excommunicari: videtur 
+      <lb ed="#S" n="108"/>posse agi coram iudice ecclesiastico: &amp; similiter de terrena 
+      <lb ed="#S" n="109"/>possessione, non tamen pronunciabit esse huiusmodi: sed monebit 
+       re<lb ed="#S" break="no" n="110"/>stitui, &amp; excommunicabit nolentem, propter quae tria symonia est 
+      <lb ed="#S" n="111"/>ecclesiasticum crimen. Dicii aute symonia haeresis, propter 
+      <lb ed="#S" n="112"/>similitudinem actus, vel quantum ad aliquos discipulos 
+       sy<lb ed="#S" break="no" n="113"/>monis, qui vna cum suo magistro credebant donum Dei 
+       pe<lb ed="#S" break="no" n="114"/>cunia possideri.
+    </p>
+            <p xml:id="khj78y-q97944-d1e225" n="5">
+      <!-- 5 -->secunda definitio est Cantoris Parisi 
+      <lb ed="#S" n="115"/>ensis. Quod symonia est spiritualium acceptio, vel collatio 
+      <lb ed="#S" n="116"/>non gratuita. Vbi aduertendum, quod priuatio reducitur ad ge 
+      <lb ed="#S" n="117"/>nus habitus: vnde sicut est symonia, quando datur pro aliquo 
+      <lb ed="#S" n="118"/>eligendo, ita quando dat pro non eligendo: sic pro non testificando 
+      <lb ed="#S" n="119"/>est symonia: sicut si dat pro testificando, &amp; sicut licetaduo 
+      <lb ed="#S" n="120"/>cato recipere pro aduocando, sic econuerso pro tacendo, vt vide 
+      <lb ed="#S" n="121"/>tur: quia si oppositum in opposito, &amp; propositum in proposito. 
+    </p>
+            <p xml:id="khj78y-q97944-d1e245" n="6">
+               <lb ed="#S" n="122"/>
+               <!-- 6 -->secunda conclusio est de poena, quae est triplex. Prima, q 
+      <lb ed="#S" n="123"/>praeter infamiam, &amp; dispositionem est suspensio secundum 
+       di<lb ed="#S" break="no" n="124"/>stinctionem Tho. quia aut est fymonia in ordine suscepto, 
+      <lb ed="#S" n="125"/>aut in beneficio si in ordine, non recipit excusationem: sed 
+      <lb ed="#S" n="126"/>est ipso iure suspensus, quo ad se, &amp; quo ad alios: siue sit 
+      <lb ed="#S" n="127"/>occultum, siue manifestum, sicut &amp; notorius fornicator. extra 
+      <lb ed="#S" n="128"/>de symo. Tanta. &amp; sic intelligit. 1. q. 1. Reperiuni, &amp; hoc, 
+      <lb ed="#S" n="129"/>ga characterem habet furtiuum. si vero symoniacus est: quia 
+      <lb ed="#S" n="130"/>contulit ordinem symoniace, vel quia dedit, vel recipit benefi 
+      <!--0318.xml-->
+      <pb ed="#S" n="318"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>cium symoniace, vel fuit mediator symoniace: fi est 
+       oc<lb ed="#S" break="no" n="2"/>cultum, est suspensus quo ad se tantum, sicut &amp; quilibet 
+       crimi<lb ed="#S" break="no" n="3"/>nosus, non tamen quo ad alios. si vero est manifestum, est 
+       su<lb ed="#S" break="no" n="4"/>spensus etiam quo ad alios: &amp; hoc dicit Innoc. &amp; per 
+       conse<lb ed="#S" break="no" n="5"/>quens irregularis. Nam qui indignus est habito, multo 
+      <lb ed="#S" n="6"/>magis habendo. Et qui indignus est inferiore, indignus 
+      <lb ed="#S" n="7"/>est superiore. f. de senatoribus. I. Qui indignus. Non au 
+      <lb ed="#S" n="8"/>tem videtur sequi suspensio, nisi prosymonia in beneficio 
+      <lb ed="#S" n="9"/>vel ordine. Vndo in summa in glo. dicit, quod non omnis sy 
+      <lb ed="#S" n="10"/>monia irregularitatem generat: vt si quis vendat aquam be 
+      <lb ed="#S" n="11"/>nedictam, vel panem benedictum.
+    </p>
+            <p xml:id="khj78y-q97944-d1e300" n="7">
+      <!-- 7 -->secunda poena est 
+      <lb ed="#S" n="12"/>restitutio, quae semper facienda est ecclesiae, in cuius 
+       in<lb ed="#S" break="no" n="13"/>iuriam datum, vel acceptum est: puta si praebenda, parochia, 
+      <lb ed="#S" n="14"/>vel ordine ab epo eius, vel a iudice eius illi facienda est: 
+      <lb ed="#S" n="15"/>nisi qum omnes de ecclesia sunt in culpa. Tunc enim pau 
+      <lb ed="#S" n="16"/>peribus potest, &amp; debet erogari.
+    </p>
+            <p xml:id="khj78y-q97944-d1e317" n="8">
+      <!--8--> Tertia poena est re 
+      <lb ed="#S" n="17"/>nunciatio beneficij per symoniam obtenti etiam ignoranter, 
+      <lb ed="#S" n="18"/>vt dicit in summa. e. tit. Poenam. versi. Item qui recipit nisi 
+      <lb ed="#S" n="19"/>in tribus casibus. Primus, si inimicus daret malitiose. se 
+      <lb ed="#S" n="20"/>cundus, si amicus me contradicente, vbi etiam non est quis 
+      <lb ed="#S" n="21"/>symoniacus. extra eo. Nobis. Tertios, qf sine pactor 
+       ex<lb ed="#S" break="no" n="22"/>tra. eo. c. vlt. tacito, vel expresso.
+    </p>
+            <p xml:id="khj78y-q97944-d1e335" n="9">
+      <!-- 9 -->Ad argumentum 
+       au<lb ed="#S" break="no" n="23"/>tem factum in oppositum dicendum, quod restitutio vsurae est 
+      <lb ed="#S" n="24"/>moena iuris diuini, quod ponit actum interiorem, sicut 
+       ex<lb ed="#S" break="no" n="25"/>teriorem: sed resignatio beneficij est poena iuris humani, 
+      <lb ed="#S" n="26"/>cum Papa, etiam quandoque episcopus possit in hoc dispensare. 
+      <lb ed="#S" n="27"/>Ius autem humanum non punit actum interiorem. ff. de 
+       poe<lb ed="#S" break="no" n="28"/>nis. l. Cogitationis poenam nemo meretur. Vnde symonia 
+      <lb ed="#S" n="29"/>mentalis, quae est peccatum interius, non obligat, sicut 
+       pa<lb ed="#S" break="no" n="30"/>ctionalis: quamuis non sit symonia pure interior, quando 
+      <lb ed="#S" n="31"/>ad exteriorem dationem est processum, licet non ad 
+       pactio<lb ed="#S" break="no" n="32"/>nem.
+    </p>
+            <p xml:id="khj78y-q97944-d1e361" n="10">
+      <!-- 10 -->Tertia conclusio est de dispensatione: quia 
+      <lb ed="#S" n="33"/>Papa potest in omnibus, &amp; per omnia dispensare. Episco 
+      <lb ed="#S" n="34"/>pus etiam primo in omni symonia, aliter quam in ordine, &amp; 
+      <lb ed="#S" n="35"/>beneficio, vt dicitur in summa Ray. &amp; in gloss. secundo, 
+      <lb ed="#S" n="36"/>cum symoniaco quo ignorante symonia contracta est: 
+      <lb ed="#S" n="37"/>ita tamen quod beneficio simplici vitiose accepto renunciet: &amp; 
+      <lb ed="#S" n="38"/>iterum sibi conferatur. secus autem si sit dignitas, 
+       recto<lb ed="#S" break="no" n="39"/>ria, vel cura, &amp; non simplex beneficium tantum sine cura, 
+      <lb ed="#S" n="40"/>vt dicitur etiam in summa. Tertio, quantum ad 
+       susceptio<lb ed="#S" break="no" n="41"/>nem ordinum rite ante susceptorum, vt in eis ministret, 
+      <lb ed="#S" n="42"/>&amp; quod beneficium antea legitime obtentum retineat: cum 
+      <lb ed="#S" n="43"/>alias ab omnibus sit suspensus, &amp; deponendus: vt ibidem 
+      <lb ed="#S" n="44"/>etiam dicitur. Quarto, cum ordinante, promouente, &amp; 
+      <lb ed="#S" n="45"/>rogante sine conditione, &amp; pacto, vt ibidem. Quinto, cum 
+      <lb ed="#S" n="46"/>intrante religionem: sicut autem potest dispensare cum sae 
+      <lb ed="#S" n="47"/>cularibus, sic &amp; multo magis cum regularibus subditis. 
+      <lb ed="#S" n="48"/>Nam de exemptis est dubium, quia nemo quem condemna 
+      <lb ed="#S" n="49"/>re non potest absoluere potest, sed quia quod in fauorem 
+       aliquo<lb ed="#S" break="no" n="50"/>rum est introductum, non debet in eorum laesionem retor 
+      <lb ed="#S" n="51"/>queri: vt dicit. C. de legi. l. Quod pro fauore. ideo videt, 
+      <lb ed="#S" n="52"/>quod possit cum eis dispensare. Et quidem certum est, quod episcopi 
+      <lb ed="#S" n="53"/>scopus potest dispensare cum illis, qui non sunt ipso 
+       iu<lb ed="#S" break="no" n="54"/>re exempti: sed solum habent per priuilegium facultatem 
+      <lb ed="#S" n="55"/>se eximendi, &amp; forum declinandi per exceptionem: sicut 
+      <lb ed="#S" n="56"/>scholares, qui habent optionem de tribus: secundum 
+       il<lb ed="#S" break="no" n="57"/>lud. C. ne filius pro patre. authentica, habita super hoc. 
+      <lb ed="#S" n="58"/>vel sicut illi, qui non habent, quod possint excommunicari, vel 
+      <lb ed="#S" n="59"/>suspendi ab ordinario: sed de exemptis ipso iure, &amp; in 
+       nul<lb ed="#S" break="no" n="60"/>lo subditis difficile est videre, quomodo  possit eos absoluere, 
+      <lb ed="#S" n="61"/>vel ligare, vel dispensare cum eis, vel indulgentias dare. 
+      <lb ed="#S" n="62"/>Religiosi autem habentes priuilegium dispensandi, nisi in 
+      <lb ed="#S" n="63"/>casibus, in quibus esset merito ad sedem Apostolicam 
+       re<lb ed="#S" break="no" n="64"/>currendum, omnibus casibus praedictis possunt dispensare: 
+      <lb ed="#S" n="65"/>quia pro casu, quem episcopus expedire potest, non de necessitate 
+      <lb ed="#S" n="66"/>Papa adeundus est: quando autem in praedictis casibus 
+       epraeussy<lb ed="#S" break="no" n="67"/>moniae conscius est, non ipse, sed metropolitanus dispen 
+      <!--0318.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>sare potest. 1. q. 5. extra de cle. coniu. diuersis. si detur portam 
+      <lb ed="#S" n="69"/>rio, vel alicui de familia, non vt ipse roget de 
+       promouen<lb ed="#S" break="no" n="70"/>do: sed solum, vt praestet aditum, vel ingressum, non est 
+       sy<lb ed="#S" break="no" n="71"/>monia. sexto, dispensat epus, quando ignorantia iuris 
+       posi<lb ed="#S" break="no" n="72"/>tiui contracta est: vt in illo, qui promisit nihil petere a 
+       prae<lb ed="#S" break="no" n="73"/>sentante. Non enim ignorantia excusat a symonia. extra 
+      <lb ed="#S" n="74"/>eo. Per tuas. sed tamen excusat, vt per episcopum possit 
+       dispen<lb ed="#S" break="no" n="75"/>sari. Nec obstat illud de sententia excomm. Cum illorum. quia quando 
+      <lb ed="#S" n="76"/>non poterat absoluere ab excommunicatione: tunc nec 
+       di<lb ed="#S" n="77" break="no"/>spensare super irregularitate propter eam scienter, vel 
+       igno<lb ed="#S" n="78" break="no"/>ranter contractam: alias etiam in casu illo posset propter 
+       igno<lb ed="#S" break="no" n="79"/>rantiam facti, vel iuris: sicut etiam abbas dispensat ibidem 
+      <lb ed="#S" n="80"/>super irregularitate a monacho contracta, ignorantia 
+       iu<lb ed="#S" n="81" break="no"/>ris, vel facti, propter excommunicationem, a qua ipse 
+       pote<lb ed="#S" break="no" n="82"/>rat absoluere: non propter aliam. Et sic non plus potest abbas, 
+      <lb ed="#S" n="83"/>quam episcopus in dispensando, nisi inquantum plus habet in 
+       ab<lb ed="#S" break="no" n="84"/>soluendo: quia epraeus non nisi de leui iniectione: abbas sit 
+      <lb ed="#S" n="85"/>nisi de enormi, tamen iste casus dubius est: quia cum 
+       symo<lb ed="#S" break="no" n="86"/>niaco in ordine symonlace suscepto non inuenitur epraes 
+      <lb ed="#S" n="87"/>dispensare: nisi quando illo ignorante ab alio contracta est 
+       sy<lb ed="#S" break="no" n="88"/>monia. si autem ab eo forte ignorantia iuris non excusat. 
+      <lb ed="#S" n="89"/>Vel potest dici, quod quando aliquis beneficium recipit per 
+       sy<lb ed="#S" n="90" break="no"/>moniam, contractam inter conferentem, &amp; amicum eius ipso 
+      <lb ed="#S" n="91"/>ignorante, episcopus non potest dispensare, nisi sit simplex 
+       be<lb ed="#S" n="92" break="no"/>neficium de elec. c. penult. quia ibi fuit collatio vitiosa 
+      <lb ed="#S" n="93"/>ex intentione conferentis: sed quando neuter credebat 
+       commit<lb ed="#S" break="no" n="94"/>tere symoniam. scilicet nec dans, nec recipiens per errorem iuris, 
+      <lb ed="#S" n="95"/>tunc est minus vitiosa collatio: vnde etiam si essent 
+       maio<lb ed="#S" break="no" n="96"/>ros ordines, vel dignitas, aut cura potest episcopus dispensare, 
+      <lb ed="#S" n="97"/>si ipe non commisit eam, vel superior si ipsemet commisit- 
+    </p>
+            <p xml:id="khj78y-q97944-d1e511" n="11">
+               <lb ed="#S" n="98"/>
+               <!-- 11 -->secundus articulus principalis est de obiecto, &amp; 
+       ma<lb ed="#S" break="no" n="99"/>teria symoniae. Circa quem primo ponei opinio 
+       quorum<lb ed="#S" n="100" break="no"/>dam probabilis. secundo, arguet contra eam inquisitiue. 
+      <lb ed="#S" n="101"/>Tertio, epilogando recolligent aliquae conclusiones.
+    </p>
+            <p xml:id="khj78y-q97944-d1e524" n="12">
+               <lb ed="#S" n="102"/>
+               <!--12. -->Quantum ad primum dicunt quidam, quod aliquid potest 
+       di<lb ed="#S" break="no" n="103"/>ei spirituale a spiritu increato, vel a spiritu creato. si a spiritu 
+       in<lb ed="#S" break="no" n="104"/>creato hoc potest esse dupliciter: quia vel est spirituale per 
+       es<lb ed="#S" break="no" n="105"/>fentiam, vt gratia, &amp; dona spiritus sancti, vel per attributionem, 
+      <lb ed="#S" n="106"/>vt sacramenta, quae sunt spiritualia per causam, &amp; ad haec antecedentia 
+      <lb ed="#S" n="107"/>concomitantia, &amp; consequentia spiritualia per essentiam nullo 
+       mo<lb ed="#S" n="108" break="no"/>mo vendi possunt, nec de iure, nec de facto: cuius ratio est, 
+      <lb ed="#S" n="109"/>qa in omni venditione res vendita potest transferri a 
+       venden<lb ed="#S" break="no" n="110"/>te in ementem, de iure, vel de facto: sed gratia, &amp; dona spiritualia 
+      <lb ed="#S" n="111"/>non possunt ab vno transferri in alium, nec de iure, nec de 
+      <lb ed="#S" n="112"/>facto: ergo non possunt aliquo modo vendi, propter quod in 
+      <lb ed="#S" n="113"/>venditione talium non potest committi symonia. sacra vero, 
+      <lb ed="#S" n="114"/>quae sunt spiritualia per causam, possunt quidem vendi de facto 
+      <lb ed="#S" n="115"/>sed nunquam de iure, &amp; licite, cuius ratio est triplex secundum 
+      <lb ed="#S" n="116"/>tria, quae sunt in venditione, ad quae res vendita habet comparatio 
+      <lb ed="#S" n="117"/>nem, quaesunt, precium, vendent, &amp; ipsa venditio. Primo, ergo 
+      <lb ed="#S" n="118"/>pit moiteceretprut tequt teune e tdtduieuu eeeditiet 
+      <lb ed="#S" n="119"/>pretium recompensari: hoc enim habet natura emptionis, &amp; 
+      <lb ed="#S" n="120"/>venditionis, quod res vendita pretio compensetur: sed res spiritu
+       a<lb ed="#S" break="no" n="121"/>lis non potest terreno, vel temporali pretio compensari: iuxta 
+      <lb ed="#S" n="122"/>illud Prouer. 3. de sapientia, &amp; fortiori ratione veritatem 
+      <lb ed="#S" n="123"/>habet de gratia, &amp; spiritualibus pertinentibus ad gratiam: quia 
+       pre<lb ed="#S" break="no" n="124"/>closior est cunctis opibus &amp;c. &amp; omnia, quae desiderantur 
+      <lb ed="#S" n="125"/>huic non valent comparari: ergo venditio cuiuscumque spiritualis 
+      <lb ed="#S" n="126"/>pro quocumque temporali est de se illicita. Hanc rationem 
+       tan<lb ed="#S" break="no" n="127"/>git beatus Petrus, condemnans symonem primatem symoniae. 
+      <lb ed="#S" n="128"/>Actu. 8. dicens: Pecunia tua tecum sit in perditionem: quia 
+       exi<lb ed="#S" break="no" n="129"/>stimasti donum Dei pecunia possideri. secundo patet: 
+      <lb ed="#S" n="130"/>idem comparando rem venditam and vendentem, sic. Illa 
+       ven<lb ed="#S" break="no" n="131"/>ditio est de se illicita, in qua venditor non est dominus rei 
+       ven<lb ed="#S" break="no" n="132"/>ditae: sed tantum ministet ad dispensandum, &amp; non ad venden 
+      <lb ed="#S" n="133"/>dum: sed praelatus ecclesiasticus est minister tantum, consti- 
+      <!--0319.xml-->
+      <pb ed="#S" n="319"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>tutus ad spiritualia dispensandum, &amp; non ad vendendum. ergo 
+      <lb ed="#S" n="2"/>si vendatur, venditio talis de se est illicita. Maior patet. 1. 
+      <lb ed="#S" n="3"/>q. 1. c. Eos qui per pecuniam. vbi dicit sic. Ois enim dominus 
+      <lb ed="#S" n="4"/>quod habet si vult vendit, siue seruum, siue aliud aliquid 
+       eo<lb ed="#S" break="no" n="5"/>rum, quae possidet, &amp; applicat ad casum nostrum de symonia. 
+      <lb ed="#S" n="6"/>minor probat. scilicet quod praelatus non sit constitutus a Deo dominus 
+      <lb ed="#S" n="7"/>spiritualium: sed tantum minister, &amp; dispensator. Primo, per illud 
+      <lb ed="#S" n="8"/>quod habet. 1. Cor. 4. sic nos existimet homo, vt 
+       mini<lb ed="#S" break="no" n="9"/>stros Christi, &amp; dispensatores ministeriorum Dei: &amp; Petrus 
+      <lb ed="#S" n="10"/>apostolus, &amp; apostolorum princeps vicarius Christi, dicit 
+      <lb ed="#S" n="11"/>primae canonicae suae. c. 4. Vnusquisque sicut accepit 
+       gra<lb ed="#S" break="no" n="12"/>tiam in alterutrum illam administrantes, sicut boni dispensa 
+      <lb ed="#S" n="13"/>tores multiformis gratiae Dei. Acceperunt autem gratis non ex 
+      <lb ed="#S" n="14"/>venditione, sicut Dominus dixit. Matth. 10. Gratis accepistis, 
+      <lb ed="#S" n="15"/>gratis date. ergo nullo modo licitum est talia vendere. 
+       Ter<lb ed="#S" break="no" n="16"/>tio, patet hoc idem, ex comparatione rei venditae ad naturam 
+      <lb ed="#S" n="17"/>venditionis, sic: llle contractus est illicitus, in quo natura 
+      <lb ed="#S" n="18"/>rei repugnet naturae contractus: sed sic est in venditione, &amp; 
+      <lb ed="#S" n="19"/>emptione rei spiritualis. ergo talis est simpliciter illicita. Ma 
+      <lb ed="#S" n="20"/>ior patet, quia natura rei debet competere contractui, &amp; econ 
+      <lb ed="#S" n="21"/>uerso. Minor probatur, quia accessorium sequit naturam princi 
+      <lb ed="#S" n="22"/>palis: sacramenta autem accessoria sunt ad gratiam, ideo sequunt 
+      <lb ed="#S" n="23"/>naturam eius: natura autem gratiae est, quod gratis det: alioquin 
+      <lb ed="#S" n="24"/>non est gratia, vt habet Ro. 11. natura autem venditionis, &amp; em 
+      <lb ed="#S" n="25"/>ptionis est, quod sit contractus non gratuitus: igitur natura gratiae, 
+      <lb ed="#S" n="26"/>&amp; spiritualium annexorum repugnat emptioni, &amp; venditioni. 
+      <lb ed="#S" n="27"/>Patet igitur ex his, quod emptio, &amp; venditio sacrorum est de se 
+      <lb ed="#S" n="28"/>illicita. Et dicit symonia a symone, qui voluit emere gratia 
+      <lb ed="#S" n="29"/>tiam spiritus sancti sanctum conferendi, quem vidit visibiliter da 
+      <lb ed="#S" n="30"/>ri in sacro confirmationis, per manuum impositionem aposto 
+      <lb ed="#S" n="31"/>lorum: vt habetur Actu. 8. vendentes vero proprie Giezitae dicum 
+      <lb ed="#S" n="32"/>tur: secundum illud, quod habetur <name xml:id="khj78y-q97944-Nd1e673">de Giezi.</name> 44 Reg. 4. quamuis 
+      <lb ed="#S" n="33"/>oens tam vendentes, quam ementes possint dici symoniaci: quia 
+       sy<lb ed="#S" break="no" n="34"/>mon voluit illam gratiam emere, vt postea operationem 
+       ven<lb ed="#S" break="no" n="35"/>deret. Et ad idem dicendum est de antecedentibus ad sacramenta, vt 
+      <lb ed="#S" n="36"/>vasa sacra, &amp; ius patronatus, quod est ius praesentandi 
+       ali<lb ed="#S" break="no" n="37"/>quem ad beneficium ecclesiasticum: vasa enim sacra ratione con 
+      <lb ed="#S" n="38"/>secrationis nullo modo sunt vendenda: vt. scilicet ratione conse 
+      <lb ed="#S" n="39"/>crationis eius aliquid plus exigat: tamen in necessitate eccle 
+      <lb ed="#S" n="40"/>siae vendi possunt, quo ad valorem eius, quod est in eis pure 
+      <lb ed="#S" n="41"/>corporale: vt materia auri, vel argenti. Et tunc si 
+       vendan<lb ed="#S" break="no" n="42"/>tur personae ecclesiasticae, possunt integra vendi. si autem 
+      <lb ed="#S" n="43"/>aliis, &amp; non ad vsum ecclesiae, debent prius frangi, ne 
+       sa<lb ed="#S" break="no" n="44"/>cra tractent ab aliis, quae a ministris ecclesiae. Ius vero 
+       pa<lb ed="#S" break="no" n="45"/>tronatus per se vendi non potest, nec in feudum dari: sed si 
+       vil<lb ed="#S" break="no" n="46"/>la, cui ius patronatus est annexum, vendat, vel in feudum de 
+      <lb ed="#S" n="47"/>tur, ius patronatus transit cum vniuersitate: vt patet. extra 
+      <lb ed="#S" n="48"/>de iure patro. cum secundum. nec propter ius patronatus 
+       de<lb ed="#S" break="no" n="49"/>bet villa, vel castrum plus vendi: concomitantia vero, vt labor 
+      <lb ed="#S" n="50"/>corporalis, qui est in ministrando sacra, vel in consecrando 
+      <lb ed="#S" n="51"/>ecclesias nullo modo vendi potest: quia nunquam cadit sub 
+      <lb ed="#S" n="52"/>venditione labor operantis: sed opus etiam in puris 
+       corpo<lb ed="#S" break="no" n="53"/>ralibus: quis enim vnquam emerit laborem operantis, nisi 
+       pro<lb ed="#S" break="no" n="54"/>pter fructum opis? nullus.
+    </p>
+            <p xml:id="khj78y-q97944-d1e724" n="13">
+      <!-- 13 -->Et ideo ridiculum est dicere, quod 
+      <lb ed="#S" n="55"/>ministri possint laborem suum vendere, vbi opus suum licite 
+      <lb ed="#S" n="56"/>vendere non pont: si quid ergo recipit minister 
+       ecclesiasti<lb ed="#S" break="no" n="57"/>cus dispensans sacramenta, non recipit id, vt precium operis, vel 
+      <lb ed="#S" n="58"/>laboris, sed vt sustentationem ministri. Et idem dicendum 
+      <lb ed="#S" n="59"/>est de officiis consequentibus ad sacramenta suscepta: vt patebit. 
+      <lb ed="#S" n="60"/>Eorum autem, quae dicunt spiritualia a spum creato, quaedam 
+      <lb ed="#S" n="61"/>sunt spiritualia per essentiam, vt scientia, &amp; virtutes 
+       acquisi<lb ed="#S" break="no" n="62"/>tae, &amp; hic nullo modo vendi possunt, etiam de facto per 
+       ean<lb ed="#S" break="no" n="63"/>dem rationem, quae posita est de gratia, &amp; de spiritualibus per 
+      <lb ed="#S" n="64"/>essentiam: alia vero sunt spiritualia per attributionem, vt doce 
+      <lb ed="#S" n="65"/>re, consulere, &amp; iudicare, &amp; testificari: vnde vendere talia 
+      <lb ed="#S" n="66"/>non est symoniacum, sed quandoque est aliud genus peccati: quandoque 
+      <lb ed="#S" n="67"/>vero nullum.
+    </p>
+            <p xml:id="khj78y-q97944-d1e758" n="14">
+      <!-- 14 -->quando enim aliquis tenei gratis tales 
+      <!--0319.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>operas exhibere, vendere eas est iniustum: propter quod cum 
+      <lb ed="#S" n="69"/>iudex ex officio suo teneatur iudicare, &amp; subditus eo, quod 
+      <lb ed="#S" n="70"/>subditus testificari in iudicio, non potest iudex absque iniu 
+      <lb ed="#S" n="71"/>stitia vendere suum iudicium, nec testis suum testimonium: lices 
+      <lb ed="#S" n="72"/>possit expensas suas petere, quas fecit veniendo ad locum iu 
+      <lb ed="#S" n="73"/>dicij, &amp; redeundo. Ex quo sequitur, quod cum sigillum iudicis 
+      <lb ed="#S" n="74"/>non sit nisi testimonium sui iudicij, non apparet, quo mo 
+      <lb ed="#S" n="75"/>do pro sigillo suo iudex possit aliquid petere, nisi forte 
+      <lb ed="#S" n="76"/>expensas cerae, &amp; sigillatoris, &amp; clericorum ad hoc 
+       deputa<lb ed="#S" break="no" n="77"/>torum. quando autem aliquis non tenetur tales operas ex officio 
+      <lb ed="#S" n="78"/>exhibere, vendere eas non est illicitum: vnde iurisperitus 
+      <lb ed="#S" n="79"/>potest liclte vendere suum consilium, &amp; aduocatus suum 
+       pa<lb ed="#S" break="no" n="80"/>trocinium, &amp; sic patet primum.
+    </p>
+            <p xml:id="khj78y-q97944-d1e795" n="15">
+      <!-- 15 -->Quantum ad secundum, 
+      <lb ed="#S" n="81"/>s. inquirendo de his videt, quod dicit. Primo, quod spiritualia 
+      <lb ed="#S" n="82"/>per essentiam, nec de iure, nec de facto possunt vendi: dicen 
+      <lb ed="#S" n="83"/>dum, quod est verum quantum ad efficaciam transferendi, &amp; acqui 
+      <lb ed="#S" n="84"/>rendi, quia non est hominis  ea transferre, nec dare: Dei autem est 
+      <lb ed="#S" n="85"/>dare ea, &amp; per miraculum transferre: accidens enim de 
+       sub<lb ed="#S" break="no" n="86"/>iecto in subiectum Deus posset transferre: sed instantia est de 
+      <lb ed="#S" n="87"/>sacramento altaris, quod Christianus vendidit Iudaeo, &amp; de 
+       fa<lb ed="#S" break="no" n="88"/>cto tradidit, vbi spirituale per essentiam vere erat: &amp; sic per ac 
+      <lb ed="#S" n="89"/>cidens ratione corporeitatis sensibilis hoc fiebat: &amp; non 
+      <lb ed="#S" n="90"/>est dubium, quod symonia erat. Nihilominus de spiritualibus 
+       pro<lb ed="#S" break="no" n="91"/>prie sumptis, videt, quod possint de facto emi, &amp; vendi, quo 
+      <lb ed="#S" n="92"/>ad symoniam contrahendam: quia symon Magus voluit 
+       symo<lb ed="#S" break="no" n="93"/>niace emere gratiam illam gratis datam, per quam apostoli ma 
+      <lb ed="#S" n="94"/>nus impositione dabant spiritum sanctum, quae erat 
+       chara<lb ed="#S" break="no" n="95"/>cter epalis, &amp; gratia miraculorum, quod spiritus visibiliter 
+       de<lb ed="#S" break="no" n="96"/>scendebat. sic etiam si quis credat, quod haereticus dando suam 
+      <lb ed="#S" n="97"/>consolationem spiritum infundat, &amp; hoc ipsum emat ex 
+       in<lb ed="#S" break="no" n="98"/>tentione erroris, symoniacum est. De spirituali per causam sicus 
+      <lb ed="#S" n="99"/>sunt sacramenta: videt, quod sint etiam spiritualia per essentiam, quantum 
+      <lb ed="#S" n="100"/>ad sacramentum eucharistiae. Item quantum ad omne sacramentum no. le. 
+      <lb ed="#S" n="101"/>in quo est virtus spiritualis per essentiam, ad causandum 
+      <lb ed="#S" n="102"/>characterem, vel ornatum: vnde secunda ratio, quam tangit, sic 
+      <lb ed="#S" n="103"/>debet suppleri, quod venditio dispensatoris contra voluntatem 
+      <lb ed="#S" n="104"/>domini est illicita: quia si de voluntate domini, ita 
+       li<lb ed="#S" break="no" n="105"/>cita est, si fiat a dispensatore, sicut a domino. De 
+       iudi<lb ed="#S" break="no" n="106"/>cio, &amp; testimonio verum dicit, sed ratio dubia est: quia 
+       iudi<lb ed="#S" break="no" n="107"/>care, &amp; testificari quandoque est liberum. non enim semper iudex 
+      <lb ed="#S" n="108"/>tenei iudicare per scipsum, sed potest delegare, vel potest a 
+      <lb ed="#S" n="109"/>principio non suscipere potestatem: &amp; similiter non semper 
+      <lb ed="#S" n="110"/>testis cogitur testificari: &amp; tamen siue sponte, siue coactus 
+       ali<lb ed="#S" break="no" n="111"/>quis iudicet, siue testificei, non licet ei pecuniam recipere 
+      <lb ed="#S" n="112"/>pro hoc opere: sed bene pro expensis, si non est ordinarius: 
+      <lb ed="#S" n="113"/>qa non tenet propriis stipendiis militare, &amp; pro salario asses 
+      <lb ed="#S" n="114"/>soris. De hoc tamen est forma taxata. de rescript. statutum. lib. 
+      <lb ed="#S" n="115"/>6. Pro arbitrio autem suscipiendo non videtur prohibitum, de 
+      <lb ed="#S" n="116"/>sigillo autem videtur verum differre: sed huiusmodi non sunt illici 
+      <lb ed="#S" n="117"/>ta tantum, vt debent: sed etiam symoniaca, si fiant in causa spiritu
+       a<lb ed="#S" break="no" n="118"/>li, &amp; in iurisdictione ecclesiastica: quia sunt accessoria, &amp; 
+      <lb ed="#S" n="119"/>annexa spiritualibus aspiritu creato. sed de consilio, patro 
+      <lb ed="#S" n="120"/>cinio, etiam in causa spirituali: sicut ex matrimoniali, vel 
+      <lb ed="#S" n="121"/>de praebendis, &amp; decimis, non est peccatum: quia non tenet 
+       gra<lb ed="#S" break="no" n="122"/>tis: videtur etiam, quod vbi teneret, non esset peccatum. si enim aliquis 
+      <lb ed="#S" n="123"/>diues moreretur fame habens pecuniam, teneorsibi subueni 
+      <lb ed="#S" n="124"/>re, non tamen gratis: quia non est necesse dare, qui potest emere, 
+      <lb ed="#S" n="125"/>sicut Thobias non dedit, sed mutuauit Gabelo: quia spes 
+      <lb ed="#S" n="126"/>tunc erat, quod posset reddere. similiter medicustenetur ex 
+      <lb ed="#S" n="127"/>officio succurrere morienti de medicina, si est necessaria 
+      <lb ed="#S" n="128"/>ad vitam, sicut alius depane, quem habet, sed non oportet, 
+      <lb ed="#S" n="129"/>quod gratis si est diues. Et ita si aliquis non habet aduocatum, 
+      <lb ed="#S" n="130"/>&amp; per defectum aduocati perditurus est causam totius 
+       haere<lb ed="#S" break="no" n="131"/>ditatis: aduocatus tenetur ei patrocinium praestare: &amp; 
+       iuris<lb ed="#S" break="no" n="132"/>consultus consilium, non tamen gratis. Ratio quam tangunt, ha 
+      <lb ed="#S" n="133"/>bet dubium de labore, quia sic non licet vendere laborem, qui 
+      <lb ed="#S" n="134"/>est in ministrando sacramenta: quia non labor operantis: sed 
+      <!--0320.xml-->
+      <pb ed="#S" n="320"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>opus ipsum est: quod homo emere intendit, &amp; ipsum opus 
+      <lb ed="#S" n="2"/>non est licitum emere. Contram. quia tunc non licet doctori 
+       ven<lb ed="#S" break="no" n="3"/>dere laborem, quem habet in docendo: quia ipsam scientiam, quae 
+      <lb ed="#S" n="4"/>est opus operatum non potest vendere, nec de iure, nec de 
+       fa<lb ed="#S" break="no" n="5"/>cto.
+    </p>
+            <p xml:id="khj78y-q97944-d1e934" n="16">
+      <!-- 16 -->Praeterea sicut emptor plus curat emere opus 
+      <lb ed="#S" n="6"/>operatum, quam operans: sic econuerso alius plus vult vendere 
+      <lb ed="#S" n="7"/>laborem suum, quam alius.
+    </p>
+            <p xml:id="khj78y-q97944-d1e943" n="17">
+      <!-- 17 -->Praeter quod videtur alicui, quod 
+      <lb ed="#S" n="8"/>si in talibus homo non vendit nisi laborem suum, secundum quod 
+      <lb ed="#S" n="9"/>plus, vel minus laborat, debet plus, vel minus accipere, 
+      <lb ed="#S" n="10"/>&amp; non secundum quantitatem causae, vel conditionem ementis. 
+      <lb ed="#S" n="11"/>Res enim non debet plus vendi, quae valeat, propter conditio 
+      <lb ed="#S" n="12"/>nem vendentis, aut finis, ad quem ordinat, sicut martellus 
+      <lb ed="#S" n="13"/>propter hoc, quod emitur ad fabricandum aurum, non plus 
+       va<lb ed="#S" break="no" n="14"/>let ille idem, quam si ad fabricandum aes, vel ferrum. Non 
+       debe<lb ed="#S" break="no" n="15"/>rent ergo aduocati, vbi non laborant, tantum accipere: nisi con 
+      <lb ed="#S" n="16"/>putent laborem antiquum: sicut homo vendens merces, non 
+       so<lb ed="#S" break="no" n="17"/>lum respicit, quantum sibi constiterunt a principio: sed 
+      <lb ed="#S" n="18"/>quantum constiterunt portando &amp;c. sed nec istud excusat 
+      <lb ed="#S" n="19"/>eos: quia venditor rem non debet vendere, plusquam valeat 
+      <lb ed="#S" n="20"/>in se, quamuis plus sibi constiterit a principio, vel ex post 
+      <lb ed="#S" n="21"/>facto.
+    </p>
+            <p xml:id="khj78y-q97944-d1e978" n="18">
+      <!-- 18 -->Quantum ad tertium epilogando sunt tres 
+       con<lb ed="#S" break="no" n="22"/>clusiones. Prima, quod sacramenta non debent vendi, sicut bene 
+      <lb ed="#S" n="23"/>probatum est, verum est etiam, quod sunt spiritualia solum per causam. 
+      <lb ed="#S" n="24"/>Nec obstat, quod ibi probatur omnia sacramenta esse spiritualia per 
+       es<lb ed="#S" break="no" n="25"/>sentiam: quia licet illa virtus sit spiritualis per efficaciam: est ta 
+      <lb ed="#S" n="26"/>men corporalis per essentiam: quia sic est subiectiue in 
+      <lb ed="#S" n="27"/>corpore, quod non est nata esse in spiritu: &amp; non solum hoc est 
+      <lb ed="#S" n="28"/>verum in generali, sed etiam in speciali de singulis: quia 
+       ba<lb ed="#S" break="no" n="29"/>ptismus cum omnibus sacramentalibus debet gratis conferri: 
+      <lb ed="#S" n="30"/>&amp; licet in necessitate liceat vendere calicem consecratum, 
+      <lb ed="#S" n="31"/>non tamen in necessitate licet emere baptismum: vnde dato, quod 
+      <lb ed="#S" n="32"/>sacerdos nollet puerum baptizare, nisi sibi daretur 
+       pecu<lb ed="#S" break="no" n="33"/>nia, nullomodo pecunia esset sibidanda: imo tali casu po 
+      <lb ed="#S" n="34"/>sito liceret tunc cuicumque puerum baptizare, vel sinere eum 
+      <lb ed="#S" n="35"/>in manu domini, si non possit aliter, quam pro pecunia baptiza 
+      <lb ed="#S" n="36"/>ri: quia non sunt facienda mala, vt veniant bona secun 
+      <lb ed="#S" n="37"/>dum quod dicit hic Tho. Eodem modo nec pro confirma 
+      <lb ed="#S" n="38"/>tione, chrismate, &amp; huiusmodi. Nec pro confirmatione 
+       electio<lb ed="#S" break="no" n="39"/>nis: nisi redimendo vexationem suam: sicut enim licet iure 
+      <lb ed="#S" n="40"/>ciuili, sanguinem suum redimere, sic iure canonum vexatio 
+      <lb ed="#S" n="41"/>nem, quod fit, quando homo dat pecunium: non vt aliquod ius 
+      <lb ed="#S" n="42"/>acquirat sibi, sed ne ius acquisitum iniuste impediatur: item 
+      <lb ed="#S" n="43"/>nec pro eucharistia. Oblationes vero sponte factas licet 
+      <lb ed="#S" n="44"/>retinere: sicut in aliis sacerdotes conductitij excusantur: 
+      <lb ed="#S" n="45"/>quia in sustentationem vitae non precium missae, nec laboris 
+      <lb ed="#S" n="46"/>recipiunt. Et similiter praebendae potest esse annexum 
+       offi<lb ed="#S" break="no" n="47"/>cium celebrandi: sicut cuilibet officium dicendi horas ca 
+      <lb ed="#S" n="48"/>nonicas: quia hoc est in sustentatione ministrorum. Item nec 
+      <lb ed="#S" n="49"/>pro poenitentia: vnde sacerdotes, qui nolunt audire 
+       con<lb ed="#S" break="no" n="50"/>fessionem, nisi prius habeant pecuniam, sunt symoniaci, nec 
+      <lb ed="#S" n="51"/>etiam pro absolutione in foro exteriori debet pecunia exi 
+      <lb ed="#S" n="52"/>gi: sed contumacia potest puniri etiam pcuniarie secundum 
+       con<lb ed="#S" break="no" n="53"/>suetudinem regionis. extra de sententia excommunicationis cap. 
+       Venerabili<lb ed="#S" break="no" n="54"/>bus. alias incipit caeterum. β. Denique. nisi sit delegatus 
+       le<lb ed="#S" break="no" n="55"/>gati in Francia, qui hoc faciendo esset excommunicatus: 
+      <lb ed="#S" n="56"/>vt in constitutionibus symonis. de offic. dele. c. vlt. Item 
+      <lb ed="#S" n="57"/>nec pro matrimonio, nisi quod inquantum est, in officium da 
+      <lb ed="#S" n="58"/>tur pro oneribus matrimonij dos: pro benedictione 
+       ve<lb ed="#S" break="no" n="59"/>ro nihil exigendum est, licet sponte oblatum possit recipi: 
+      <lb ed="#S" n="60"/>&amp; pro iustis consuetudinibus iudicis officium implorari, 
+      <lb ed="#S" n="61"/>non in iudicio lis formari, sicut pro decimis licet. Item 
+      <lb ed="#S" n="62"/>nec pro ordine similiter, nec pro benedictione abbatum: 
+      <lb ed="#S" n="63"/>&amp; abbatissarum, &amp; virginum. Item nec pro extrema 
+       vnctio<lb ed="#S" break="no" n="64"/>ne.
+    </p>
+            <p xml:id="khj78y-q97944-d1e1076" n="19">
+      <!-- 19 -->secunda conclusio est, quod symonia habet locum 
+      <lb ed="#S" n="65"/>in actibus spiritualibus a spiritu increato, in quibus nec pro 
+      <lb ed="#S" n="66"/>labore aliquid licet recipere, sed solum in sustentationem 
+      <lb ed="#S" n="67"/>vitae: de anniuersario autem dicendum est, sicut de praeben- 
+      <!--0320.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>dis, quod est in sustentationem vitae, &amp; recipiendo ipsum 
+      <lb ed="#S" n="69"/>obligantur ad faciendum, sicut canonicus ad horas 
+       cano<lb ed="#S" break="no" n="70"/>nicas.
+    </p>
+            <p xml:id="khj78y-q97944-d1e1099" n="20">
+      <!-- 20 -->Item oratio pro pecunia non est facienda: sed 
+      <lb ed="#S" n="71"/>pro Deo: &amp; propter bonum affectum. si vero ex pacto pro 
+      <lb ed="#S" n="72"/>dicendo psalterio detur pecunia, est expressa 
+       symonia<lb ed="#S" break="no" n="73"/>Pro praedicatione vero non licet pecuniam recipere: sed 
+      <lb ed="#S" n="74"/>licet praedicanti victum recipere. 1. ad Cor. 9. Item praedica 
+      <lb ed="#S" n="75"/>re pro eleemosynis alienis, &amp; suis tribuendis: vt Paulus 
+      <lb ed="#S" n="76"/>pro collectis faciendis in sanctos coapostolos, &amp; discipu 
+      <lb ed="#S" n="77"/>los licet. 1. Cor. vltimo. Non autem in pecuniae collatione 
+      <lb ed="#S" n="78"/>finem praedicationis constituere: sicut illi, qui quaestum 
+      <lb ed="#S" n="79"/>estimant pietatem, ad nihil aliud praedicantes, nisi vt 
+       pecu<lb ed="#S" break="no" n="80"/>niam colligant: ad quam etiam indulgentias fingunt: &amp; in 
+      <lb ed="#S" n="81"/>praedicatione sua multa mendacia componunt. Vnde non 
+      <lb ed="#S" n="82"/>debent dici praedicatores, sed quaestores, contra quos Apo 
+      <lb ed="#S" n="83"/>stolus: Non quaero vestra, sed vos: non quia quaero datum, 
+      <lb ed="#S" n="84"/>sed quia requiro fructum · Item pro correctione, &amp; 
+       visi<lb ed="#S" break="no" n="85"/>tatione dare pecuniam est symonia, vel etiam accipere pro 
+      <lb ed="#S" n="86"/>crimine caelando iudice ecclesiastico, vel pro reo purgan 
+      <lb ed="#S" n="87"/>do. Idem si prece, vel obsequio. Item pro delicto non pu 
+      <lb ed="#S" n="88"/>niendo, vel minus: sed procurationem visitanti, &amp; dedican 
+      <lb ed="#S" n="89"/>ti: non autem non visitanti, vt in exemptis, quia amoto officio, 
+      <lb ed="#S" n="90"/>propter quod debet legatum, non debetur legatum. f. de 
+       adi<lb ed="#S" break="no" n="91"/>men. le. l. Alumnae. 5. seia. cum eis sufficere debeat, vt tempo 
+      <lb ed="#S" n="92"/>ralia metant a locis spiritualiter visitatis, pro diebus, quibus 
+      <lb ed="#S" n="93"/>spiritualia subministrant. extra de censibus. c. foelicis. li. 6. sed 
+      <lb ed="#S" n="94"/>tamen quidam vi exigit procurationem, dicens, Nolo vos 
+       corri<lb ed="#S" break="no" n="95"/>gere, Diabolus vos corrigat: sed tantum procurationem meam 
+      <lb ed="#S" n="96"/>volo erigere: quia iura, quae dicunt, quod qui non facit 
+       visitatio<lb ed="#S" break="no" n="97"/>nis officium, non debet recipere procurationis beneficium, 
+      <lb ed="#S" n="98"/>loquuntur, quando stat per eum. extra de censi. procu. contra quod 
+      <lb ed="#S" n="99"/>est. l. dicta, quia Papa visitationem transferens, comparat testato 
+      <lb ed="#S" n="100"/>ri transferenti executionem. Vnde cui competit beneficium 
+       pro<lb ed="#S" break="no" n="101"/>pter officium, si culpa sua priuat, vel suspenditur ab officio, 
+      <lb ed="#S" n="102"/>eo ipso a beneficio: sicut in illo, qui ratione beneficij 
+       te<lb ed="#S" break="no" n="103"/>netur ad ordinem, si culpa sua fit irregularis: debet 
+       perde<lb ed="#S" break="no" n="104"/>re beneficium: si autem postquam vtrumque ius sibi acquisitum est, 
+       si<lb ed="#S" break="no" n="105"/>ne culpa sua perdit beneficium, non propter hoc perdit 
+       be<lb ed="#S" break="no" n="106"/>neficium: sicut qui sine culpa factus est irregularis: licet non 
+      <lb ed="#S" n="107"/>possit promoueri: non propter hoc debet beneficio priua 
+      <lb ed="#S" n="108"/>ri. Vnde cum diccesanus sine culpa sua per exemptionem 
+      <lb ed="#S" n="109"/>sit priuatus visitationis officio, nisi exprimatur: non pro 
+      <lb ed="#S" n="110"/>pter hoc videt priuatus pcurationis beneficio: nec 
+       ob<lb ed="#S" break="no" n="111"/>stat. l. allegata: quia loquitur, quando neutrum erat adhuc 
+       acqui<lb ed="#S" break="no" n="112"/>situm: tunc enim transferendo principale, videt transferri 
+       ac<lb ed="#S" break="no" n="113"/>cessorium: secus quando vtrumque iam est acquisitum, &amp; vnum 
+       trans<lb ed="#S" break="no" n="114"/>fertur corta de causa per comparationem, ad quam alterum non 
+      <lb ed="#S" n="115"/>est accessorium, &amp; sic est hic. Non enim sequit, si homo est 
+       exem<lb ed="#S" break="no" n="116"/>ptus ab vno, quod propter hoc sit exemptus ab alio. De roce 
+      <lb ed="#S" n="117"/>ptione autem ad religionem dicendum est, sicut dicit Tho. quod 
+      <lb ed="#S" n="118"/>pro necessitate vitae potest ei dici, quod secum apportet, si vult 
+      <lb ed="#S" n="119"/>viuere: alij autem sunt actus, pro quibus licet accipere pro 
+      <lb ed="#S" n="120"/>labore, sicut pro doctrina, &amp; aliis spiritualibus a spum creato: 
+      <lb ed="#S" n="121"/>sed pro doctrina ipsa dicunt quidam, quod non est symonia: 
+      <lb ed="#S" n="122"/>quia non per relationem ad spiritum sanctum, sed humanum, alij quod 
+      <lb ed="#S" n="123"/>sic: sed de Theologia videt symonia, de aliis scientiis non 
+      <lb ed="#S" n="124"/>pro licentia quidam docendi in quacumque facultate dare, vel 
+      <lb ed="#S" n="125"/>recipere etiam gratis oblatum, nec pro labore, licet pro 
+       do<lb ed="#S" break="no" n="126"/>ctrina etiam non licet, sed pro labore sponte oblata recipere 
+      <lb ed="#S" n="127"/>non autem exigere. ff. de var. &amp; extraor. lib. 1. Vnde nec 
+       li<lb ed="#S" break="no" n="128"/>bros retinere licet, nisi forte pro sponte promissis: sed qui ex 
+      <lb ed="#S" n="129"/>officio docere debet, turpiter recipit: nisi a diuitibus, 
+      <lb ed="#S" n="130"/>quos gratis docere non tenetur. vt extra de magistris. De iu 
+      <lb ed="#S" n="131"/>dice autem, &amp; teste, &amp; aduocato iurisperito dictum est. 
+    </p>
+            <p xml:id="khj78y-q97944-d1e1236" n="21">
+               <lb ed="#S" n="132"/>
+               <!-- 21 -->Tertia conclusio est de annexis sacro. Primo, quo ad 
+      <lb ed="#S" n="133"/>vasa sacra, quae non licet vendere, nisi in necessitate: &amp; tunc 
+      <lb ed="#S" n="134"/>non plus gratia consecrationis, qum venduntur clericis, quibus 
+      <!--0321.xml-->
+      <pb ed="#S" n="321"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>integra vendi possunt. Nam laicis non debent vendi, nisi 
+       confla<lb ed="#S" break="no" n="2"/>ta, quibus tamen possunt obligari. Et idem est de reliquiis, quae 
+      <lb ed="#S" n="3"/>gratia auri, &amp; argenti possunt vendi, &amp; obligari, non aliter: quia ne 
+      <lb ed="#S" n="4"/>mo martyres distrahat, nemo mercet. C. de sacrosan. ec. l. 
+      <lb ed="#S" n="5"/>Nemo. secundo, quod de sepultura idem est: quia coemeterium non 
+      <lb ed="#S" n="6"/>nisi pro necessitate ecclesiae, &amp; pauperum sustentatione, &amp; 
+      <lb ed="#S" n="7"/>captiuorum redemptione vendi potest, ratione terrae, non 
+       ratio<lb ed="#S" break="no" n="8"/>ne benedictionis. Ipsa autem sepultura vendi non debet, quod 
+      <lb ed="#S" n="9"/>facit, qui non vult sepelire, nisi pecunia prius obtenta: &amp; qui 
+      <lb ed="#S" n="10"/>cunque sine causa debita funus arrestat, quousque aliquid 
+      <lb ed="#S" n="11"/>sibi detur, aut promittat, symoniam committit. Alia sunt an 
+      <lb ed="#S" n="12"/>nexa actibus spiritualibus, vt ius patronatus, quod vendi non 
+      <lb ed="#S" n="13"/>potest: sed cum vniuersitate vendita transit: quae si plus 
+       pro<lb ed="#S" break="no" n="14"/>pter hoc venderei, esset symonia, quamuis cadat in laicum: quia 
+      <lb ed="#S" n="15"/>non est spirituale ratione sui, sed ratione eius, ad quod 
+       ordi<lb ed="#S" break="no" n="16"/>natur. Item de canonicatu: nam fructus ipsos vendere 
+       li<lb ed="#S" break="no" n="17"/>cet: non autem ius percipiendi, quod spirituale est, &amp; in laicum non 
+      <lb ed="#S" n="18"/>cadit: &amp; licet redimere decimas de manu laici, &amp; impedi 
+      <lb ed="#S" n="19"/>mentum iuris sui tollere.
+    </p>
+            <p xml:id="khj78y-q97944-d1e1295" n="22">
+      <!-- 22 -->Quantum ad tertium 
+       argu<lb ed="#S" break="no" n="20"/>mentum principale, quibus. s modis committatur symonia: est 
+      <lb ed="#S" n="21"/>sciendum, quod tribus modis, de quibus videndum est per ordi 
+      <lb ed="#S" n="22"/>nem: quia primo, per munus a manu. secundo, per munus 
+      <lb ed="#S" n="23"/>a lingua. Tertio, per munus ab obsequio.
+    </p>
+            <p xml:id="khj78y-q97944-d1e1308" n="23">
+      <!-- 23 -->Quantum 
+      <lb ed="#S" n="24"/>ad primum de monachis: primo, qui dant abbatibus aliquid 
+      <lb ed="#S" n="25"/>pro prioratibus habendis: de quibus est dicendum, quod si ibi 
+      <lb ed="#S" n="26"/>est aliquid spirituale, vt decimae, oblationes, debitum celebram 
+      <lb ed="#S" n="27"/>di diuina, vel aliquid tale, symonia est, siue det de rebus 
+      <lb ed="#S" n="28"/>monasterij, vel prioratus, vel aliunde: secundum quod haec pro 
+      <lb ed="#S" n="29"/>prositio, pro, denotat appretiationem, vel causam 
+       proxi<lb ed="#S" break="no" n="30"/>mam, vel principalem. Paruula autem munuscula, quae non 
+      <lb ed="#S" n="31"/>corrupta intentione accipiuntur, ad symoniam non 
+       perti<lb ed="#S" break="no" n="32"/>nent: quod est contra illos, qui dicunt, quod visitator nec 
+       sty<lb ed="#S" break="no" n="33"/>lum recipere potest, cuius contrarium dicit glo. extra de cen 
+      <lb ed="#S" n="34"/>fi. c. Foelicis. lib. 6. quae etiam de visitantibus iure ordinario 
+      <lb ed="#S" n="35"/>intelligitur: vnde non de visitatoribus missis a canonico, 
+      <lb ed="#S" n="36"/>vel a magistro, vel a prouinciali. De his autem, quibus 
+       ra<lb ed="#S" break="no" n="37"/>tione officij nihil licet recipere: dicendum, quod debent 
+       consi<lb ed="#S" break="no" n="38"/>derare intentionem offerentis, vtrum alias amicus, vel consan 
+      <lb ed="#S" n="39"/>guineus. Nam si extraneus, non alias nisi de iudicio 
+       datu<lb ed="#S" break="no" n="40"/>rus, recusandum est, quamuis paruum: quia licet ad 
+       praesum<lb ed="#S" break="no" n="41"/>ptionem iuris distinguat, vtrum sit magnum, quod verisimile 
+      <lb ed="#S" n="42"/>est mouere cor: an paruum, de quo non est verisimile, 
+       pro<lb ed="#S" break="no" n="43"/>pter quod &amp; iura talia permittunt recipere iudicibus: quia 
+      <lb ed="#S" n="44"/>non videt, quod per ea debeat corrumpi: sicut esculentum, &amp; 
+      <lb ed="#S" n="45"/>poculentum: quod infra paucos dies consumi posset: tamen 
+      <lb ed="#S" n="46"/>quo ad conscientiam siue paruum, siue magnum sit, pro quo 
+      <lb ed="#S" n="47"/>spirituale emitur, vel dat, symonia est.
+    </p>
+            <p xml:id="khj78y-q97944-d1e1365" n="24">
+      <!-- 24 -->secundo, 
+       com<lb ed="#S" break="no" n="48"/>mittit per munus a lingua, &amp; distinguitur, vtrum preces 
+      <lb ed="#S" n="49"/>fundat quis pro alio, aut pro se: in primo casu si pro 
+       in<lb ed="#S" break="no" n="50"/>digno, symonia est, si pro digno non: in secundo si pro 
+       cu<lb ed="#S" break="no" n="51"/>ra animarum symonia est, aliter non: quae distinctio locum 
+      <lb ed="#S" n="52"/>habet quo ad praesumptionem iuris in foro exteriori: quia 
+      <lb ed="#S" n="53"/>in foro conscientiae quicumque intuitu precum concedit, vel ro 
+      <lb ed="#S" n="54"/>gat, quod propter preces fiat hoc intendens, symoniam commit 
+      <lb ed="#S" n="55"/>tit. si autem praelatus ad preces alicuius concedit, quod alias 
+      <lb ed="#S" n="56"/>non concederet: quia supponit, quod rogans non nisi pro digno 
+      <lb ed="#S" n="57"/>rogaret: ita quod suae preces sint quasi testimonium, non est sy 
+      <lb ed="#S" n="58"/>monia. Qui autem scit, vel credit conferentem sibi contulis 
+      <lb ed="#S" n="59"/>se ordinem, vel beneficium principaliter propter obsequia, 
+      <lb ed="#S" n="60"/>siue preces carnales a se, vel alio interpositas: si erat 
+       in<lb ed="#S" break="no" n="61"/>dignus, debet resignare, quia tunc succedunt loca precij: 
+       a<lb ed="#S" break="no" n="62"/>lioquin si erat dignus, non tenet: sed debet poenitere de 
+      <lb ed="#S" n="63"/>intentione corrupta, si illud procurauit. extra eo. 
+       Man<lb ed="#S" break="no" n="64"/>da. &amp; de aeta. &amp; quali. Tuam.
+    </p>
+            <p xml:id="khj78y-q97944-d1e1407" n="25">
+      <!-- 25 -->Tertio, per munus 
+      <lb ed="#S" n="65"/>ab obsequio, vbi distinguit, an fuerit honestum, &amp; tunc 
+       li<lb ed="#S" break="no" n="66"/>cet: an inhonestum, &amp; sic est symonia: quod est verum quo ad 
+      <lb ed="#S" n="67"/>praesumptionem iuris. Nam secundum veritatem si propter ser- 
+      <!--0321.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>uitium quamuis honestum, quasi pro mercede dei beneficium, 
+      <lb ed="#S" n="69"/>symonia est. Et si aliquis propter hoc seruiat, vt pro renun 
+      <lb ed="#S" n="70"/>tione praebendam acquirat, symonia est: sed curiae praelato 
+      <lb ed="#S" n="71"/>rum probatiue sunt clericorum, vt dicit quidam. Vnde si ali 
+      <lb ed="#S" n="72"/>quis non esset seruiturus praelato, nisi quia sperat ab eo 
+       ha<lb ed="#S" break="no" n="73"/>bere praebendam: non sic tamen, quod hoc velit habere pro 
+       merce<lb ed="#S" break="no" n="74"/>de, sed vult ostendere se dignum, &amp; benemeritum, vt 
+       secun<lb ed="#S" break="no" n="75"/>dum meritum recipiat, &amp; non secundum seruitium, &amp; praelat 
+      <lb ed="#S" n="76"/>det non remunerando, sed tanquam digno ex testimonio 
+      <lb ed="#S" n="77"/>seru itij: quamuis alias non daturus: quia per hoc probat eum 
+      <lb ed="#S" n="78"/>magis meritum, non est symonia.
+    </p>
+            <p xml:id="khj78y-q97944-d1e1447" n="26">
+      <!-- 26 -->Ad argumentum 
+      <lb ed="#S" n="79"/>in oppositum responsum est in secunda conclusione 
+       pri<lb ed="#S" break="no" n="80"/>mi articuli. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

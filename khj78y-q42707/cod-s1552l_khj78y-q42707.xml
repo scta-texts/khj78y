@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="160"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q42707"><!-- l4d13-q4 -->
+            <head xml:id="khj78y-q42707-Hd1e101">Quaestio 4</head>
+            <head xml:id="khj78y-q42707-Hd1e103" type="question-title">
+     utrum plures 
+     sacerdotes possint eandem hostiam consecrare
+   </head>
+            <p xml:id="khj78y-q42707-d1e106">
+               <lb ed="#S" n="95"/>QVAESTIO QVARTA. 
+      <lb ed="#S" n="96"/>De consecratione a pluribus sacerdotibus possibili. 
+    </p>
+            <p xml:id="khj78y-q42707-d1e113">
+               <lb ed="#S" n="97"/>Thom. 3. q. 8z, arti. 1. 
+    </p>
+            <p xml:id="khj78y-q42707-d1e118">
+               <lb ed="#S" n="98"/>QVARTO Quaeritur, vtrum plures 
+       sa<lb ed="#S" break="no" n="99"/>cerdotes possint eandem hostiam consecrare. 
+      <lb ed="#S" n="100"/>Et videtur, quod non: quia non possunt idem 
+      <lb ed="#S" n="101"/>mobile simul moueri pluribus motibus 
+      <lb ed="#S" n="102"/>eiusdem rationis: sicut secundum eandem 
+       par<lb ed="#S" break="no" n="103"/>tem non potest vnum calefactibile simul calefieri pluribus 
+      <lb ed="#S" n="104"/>calefactionibus: sed si pluries vnam hostiam consecrarent, 
+       v<lb ed="#S" break="no" n="105"/>num consecrabile consecraretur pluribus 
+       consecrationi<lb ed="#S" break="no" n="106"/>bus: quia essent plures formae. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q42707-d1e141" n="2">
+      <!-- 2 -->
+       CON<lb ed="#S" break="no" n="107"/>TRA: quia non minus possunt plura agentia super vnum 
+      <lb ed="#S" n="108"/>passiuum, quae vnum super plura, sed vnus consecrat plures, vt 
+      <lb ed="#S" n="109"/>communiter curati, vt in paschate ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q42707-d1e152" n="3">
+      <!-- 3 -->
+       RE<lb ed="#S" break="no" n="110"/>SPONDEO, circa istam quaestionem sunt duo 
+       viden<lb ed="#S" break="no" n="111"/>da. Primo, an plures possint consecrare vnam hostiam 
+      <lb ed="#S" n="112"/>particulariter. secundo, an totaliter. CIRCA 
+      <lb ed="#S" n="113"/>primum sunt tres opiniones, Prima, quod nullo modo, siue 
+       si<lb ed="#S" break="no" n="114"/>gnent partes, siue non propter duas rationes. Primo, quia 
+      <lb ed="#S" n="115"/>substantia non habet partes nisi per quantitatem: &amp; si hostia 
+      <lb ed="#S" n="116"/>posita inter duos ignes, vel mures hinc inde diuisim cor 
+      <lb ed="#S" n="117"/>rumpatur: hoc est per partes quantitatis, quae simul corrumpunt. 
+      <lb ed="#S" n="118"/>sed in consecratione substantia non quantitas conuertitur. 
+      <lb ed="#S" n="119"/>ergo hoc non potest fieri a diuersis per partes diuersas. 
+       se<lb ed="#S" break="no" n="120"/>cundo, quia vnum non fit multa nisi per diuisionem 
+       quan<lb ed="#S" break="no" n="121"/>titatis, sed hic non est diuisio quantitatis ergo substantia 
+      <lb ed="#S" n="122"/>panis, quae erat vna, remanet vna. ergo non potest 
+       reci<lb ed="#S" break="no" n="123"/>pere duas consecrationes: sicut nec vna materia duas 
+       ge<lb ed="#S" break="no" n="124"/>nerationes, vel corruptiones simul.
+    </p>
+            <p xml:id="khj78y-q42707-d1e189" n="5">
+      <!-- 5 -->sed contra 
+      <lb ed="#S" n="125"/>istam opinionem est: quia licet diuisio requirat quantitatem 
+      <lb ed="#S" n="126"/>quo ad principium, non tamen quo ad terminum: sicut 
+       corru<lb ed="#S" break="no" n="127"/>ptio requirit ens pro termino a quo, non protermino ad 
+      <lb ed="#S" n="128"/>quem. Non enim Deus potest diuidere non quantum, sed 
+      <lb ed="#S" n="129"/>bene potest diuidere quantum in non quantum: imo in non 
+      <lb ed="#S" n="130"/>entia: quia diuidendo potest annullare, vel vtranque partem, vel 
+      <!--0161.xml-->
+      <pb ed="#S" n="161"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>alteram. Et quando natura resoluit mixtum in quatuor 
+       ele<lb ed="#S" break="no" n="2"/>menta: licet distinctio generatorum sit propter diuisionem 
+      <lb ed="#S" n="3"/>quantitatis manentis: tamen diuisio corrupti, puta quod huius pars 
+      <lb ed="#S" n="4"/>conuertatur in elementum istud, illa in illud, non est propter 
+      <lb ed="#S" n="5"/>quantitatem, quae maneat, sed propter illam, quae corrumpitur. 
+      <lb ed="#S" n="6"/>Quia enim inuenit quantum illud, quod corrumpitur ideo 
+      <lb ed="#S" n="7"/>potest diuisim corrumpere. Quia autem corrumpit cum 
+       sub<lb ed="#S" break="no" n="8"/>stantia quantitatem, hoc est, quia aliter non potest 
+       attin<lb ed="#S" break="no" n="9"/>gere substantiam. Deus igitur, qui potest immediate attinge 
+      <lb ed="#S" n="10"/>re substantiam non quidem per diuisionem partium, quae non 
+      <lb ed="#S" n="11"/>sunt: sed per multiplicationem potest conuertere substantiam: prout 
+      <lb ed="#S" n="12"/>stat sub hac parte. non prout sub illa. Et similiter quando sine 
+      <lb ed="#S" n="13"/>corruptione quantitatis albedo, vel qualitas alia in vna 
+      <lb ed="#S" n="14"/>parte corrumpit, non potest dici, quod pars sit corrupta, &amp; pars 
+      <lb ed="#S" n="15"/>incorrupta: cum non sit ibi pars nisi in quantitate. Vnde 
+      <lb ed="#S" n="16"/>contradictio est dicere, quod substantia, vel qualitas non ha 
+      <lb ed="#S" n="17"/>bens particularitatem, nisi illam, quae est quantitas, &amp; illa non 
+      <lb ed="#S" n="18"/>tacta dicatur substantia, vel qualitas partita, siue in partes 
+      <lb ed="#S" n="19"/>manentes, siue non manentes.
+    </p>
+            <p xml:id="khj78y-q42707-d1e254" n="6">
+      <!-- 6 -->Nec valet prima 
+      <lb ed="#S" n="20"/>ratio, quae adducebatur: quia licet substantia non habeat 
+       partia<lb ed="#S" break="no" n="21"/>litatem formalem, nisi quantitatem: tamen inquantum substantia pa 
+      <lb ed="#S" n="22"/>nis stat formaliter sub ista parte quantitatis, ipsa est 
+       distin<lb ed="#S" break="no" n="23"/>cta situ a substantia, quae stat sub alia parte. Vnde cum prius 
+      <lb ed="#S" n="24"/>attingatur a conuertente, &amp; separante, quam desinat esse 
+       formali<lb ed="#S" break="no" n="25"/>ter quanta: videt, quod hoc sufficit ad hoc, quod non possit 
+       parti<lb ed="#S" break="no" n="26"/>culariter conuerti. Posset enim Deus retenta integra quantita 
+      <lb ed="#S" n="27"/>te annullare substantiam: prout stat sub ista parte, &amp; 
+       retine<lb ed="#S" break="no" n="28"/>re, prout stat sub alia. Et pari ratione potest conuertere. 
+    </p>
+            <p xml:id="khj78y-q42707-d1e278" n="7">
+               <lb ed="#S" n="29"/>
+               <!-- 7 -->Ad secundum potest dici, quod vnum potest fieri multa 
+      <lb ed="#S" n="30"/>sine diuisione vnius quantitatis in duas: cum illa multa ha 
+      <lb ed="#S" n="31"/>beant quantitates distinctas: sicut de substantia vnius ignis 
+      <lb ed="#S" n="32"/>manente quantitate, vel annullata, &amp; non distincta posset fa 
+      <lb ed="#S" n="33"/>cere duas aquas, &amp; de vno mixto corrupto non diuiso 
+      <lb ed="#S" n="34"/>possunt generari quatuor elementa. Quia si natura potest 
+      <lb ed="#S" n="35"/>facere quantitate corrupta non diuisa, Deus posset hoc fa 
+      <lb ed="#S" n="36"/>cere quantitate seruata integra.
+    </p>
+            <p xml:id="khj78y-q42707-d1e300" n="8">
+      <!--8 -->solutio autem, 
+      <lb ed="#S" n="37"/>qua dicunt, quod diuisio in partes manentes non est sine 
+       di<lb ed="#S" break="no" n="38"/>uisione quantitatis, sed in partes non manentes, sic non va 
+      <lb ed="#S" n="39"/>let: quia nihil diuidit realiter, nec in manentia, nec in non 
+      <lb ed="#S" n="40"/>manentia, nisi quantum. Et non potest de illo fieri conuersio, 
+      <lb ed="#S" n="41"/>de quo non potest fieri generatio. Vnde si de substantia 
+       pa<lb ed="#S" break="no" n="42"/>nis quantitate non diuisa non potest fieri generatio, sic quod 
+       a<lb ed="#S" break="no" n="43"/>liquid de substantia maneat sub prima quantitate, &amp; 
+       ali<lb ed="#S" break="no" n="44"/>quid sub noua, pari ratione, nec conuersio.
+    </p>
+            <p xml:id="khj78y-q42707-d1e323" n="9">
+      <!-- 9 -->
+       Vn<lb ed="#S" break="no" n="45"/>de dicendum est, quod non est proprie diuiso. Nam vnum lignum 
+      <lb ed="#S" n="46"/>quandiu est, quantum potest diuidi in duo ligna, &amp; illud idem 
+      <lb ed="#S" n="47"/>separata quantitate posset fieri duo ligna per 
+       generatio<lb ed="#S" break="no" n="48"/>nem non per diuisionem. Et sic est hic, quia licet quantitas 
+      <lb ed="#S" n="49"/>corporis conuersi maneat integra: est tamen diuisa a 
+       quantita<lb ed="#S" break="no" n="50"/>te corporis Christi, in quod est conuersa. Vnde substantia 
+      <lb ed="#S" n="51"/>panis, prout stat sub vna parte suae quantitatis 
+       conuerte<lb ed="#S" break="no" n="52"/>tur in illud quantum, quod est corpus Christi. Et ipsa 
+       ca<lb ed="#S" break="no" n="53"/>dem prout stabit sub alia parte quantitatis sub eadem 
+       re<lb ed="#S" break="no" n="54"/>manebit.
+    </p>
+            <p xml:id="khj78y-q42707-d1e349" n="10">
+      <!-- 10 -->Praeterea, secundum quod illi dicunt ad 
+      <lb ed="#S" n="55"/>oppositum eadem est ratio de substantia, &amp; qualitate quo ad 
+      <lb ed="#S" n="56"/>extentionem. Vnde cum ad sensum apparcat, quod adhibito 
+      <lb ed="#S" n="57"/>igne ad aquam ex vna parte, ex illa parte corrumpitur frigi 
+      <lb ed="#S" n="58"/>ditas per calorem, &amp; manet adhuc in parte opposita quan 
+      <lb ed="#S" n="59"/>titate aquae non diuisa, nec corrupta in parte, nec iu toto: 
+      <lb ed="#S" n="60"/>sic Deus potest substantiam pro parte conuertere, &amp; pro 
+      <lb ed="#S" n="61"/>parte non, quantitate non diuisa, nec corrupta, nec con 
+      <lb ed="#S" n="62"/>uersa. si dicat, ergo est alia pars substantiae aperte 
+       quan<lb ed="#S" break="no" n="63"/>titatis, non sequit: quia non proprie dicit, quod pars substantiae 
+      <lb ed="#S" n="64"/>conuertat, &amp; pars maneat. sed vna &amp; eadem substantia se 
+      <lb ed="#S" n="65"/>cundum, quod substat vni parti quantitatis conuertitur, &amp; se 
+      <lb ed="#S" n="66"/>cundum quod substat alij, manet. sed in his, quae sunt actu di 
+      <lb ed="#S" n="67"/>stiacta, sicut sunt duo ligna diuisa, bene est verum, quodhal 
+      <!--0161.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>alietatem, &amp; diuersitatem aliam a diuerfitate quantitatis: quia 
+       il<lb ed="#S" break="no" n="69"/>la partialitas non est essentialiter quantitas, sed est per quam 
+      <lb ed="#S" n="70"/>titatem, sicut per causam in fieri: &amp; sine qua non. vnde quando 
+      <lb ed="#S" n="71"/>quantum lignum diuiditur, duae sunt multiplicationes, sed 
+      <lb ed="#S" n="72"/>vna est diuisio: ita quod quantitas quidem diuidit, &amp; 
+       multipli<lb ed="#S" break="no" n="73"/>catur: sed substantia quidem per se formaliter, &amp; 
+       essentiali<lb ed="#S" break="no" n="74"/>ter multiplicatur, sed non diuiditur, nisi quia est subiectum 
+      <lb ed="#S" n="75"/>eius, quod diuidit.
+    </p>
+            <p xml:id="khj78y-q42707-d1e404" n="11">
+      <!-- 11 -->secunda opinio est, quod non 
+      <lb ed="#S" n="76"/>signando partem, non possunt, &amp; hoc propter incertitudinem 
+      <lb ed="#S" n="77"/>intentionis. Et dato quod in generali diceret quilibet, quod 
+       in<lb ed="#S" break="no" n="78"/>tenderet medietatem consecrare, si non signaret, qua 
+       me<lb ed="#S" break="no" n="79"/>dietatem intenderet, consecrare, sed solum in generali intendit 
+      <lb ed="#S" n="80"/>de medietate in quacumque sit illa non de tota, quod patet, 
+      <lb ed="#S" n="81"/>quia qua ratione talis sacerdos consecrat hanc medietatem: 
+      <lb ed="#S" n="82"/>puta, quae est a dextris: eadem ratione illam, quae a sinistri 
+      <lb ed="#S" n="83"/>quia sua intentio non est magis de hac, quam de illa: sed est 
+       abso<lb ed="#S" break="no" n="84"/>lute de medietate, quia indifferenter se habent ad hanc, &amp; ad 
+      <lb ed="#S" n="85"/>illam: igitur aut aequaliter vtranque consecrat, aut 
+       neu<lb ed="#S" break="no" n="86"/>tram. Non vtranque, quia tunc consecraret totam, quod non potest 
+      <lb ed="#S" n="87"/>esse, cum non intendat nisi medietatem consecrare. ergo 
+       neu<lb ed="#S" break="no" n="88"/>tram consecrat, quod est propter defectum intentionis de 
+       ma<lb ed="#S" break="no" n="89"/>teria consecranda. sed si fiat signatio de parte consecran 
+      <lb ed="#S" n="90"/>da, vel sensu, vel imaginatione, sic dicunt, quod possunt, quia 
+      <lb ed="#S" n="91"/>omnia, quae requiruntur ad sacramentum, sunt ibi scilicet materia, fori 
+      <lb ed="#S" n="92"/>&amp; ministri intentio. Est tamen valde difficile intelligere, 
+       quo<lb ed="#S" break="no" n="93"/>modo sensus inter parter continuas, quae habent vnum 
+       ter<lb ed="#S" break="no" n="94"/>minum communem, possit distincte signare vnam partem, nihil 
+      <lb ed="#S" n="95"/>accipiendo de altera. Verum est, quod in hostia, in qua sunt li 
+      <lb ed="#S" n="96"/>gneae, &amp; circulus, potest signare faciliter, quod ipse vult 
+       conse<lb ed="#S" break="no" n="97"/>crare illud, quod est infra circulum exclusiue, &amp; nihil aliud, 
+      <lb ed="#S" n="98"/>&amp; econuerso, &amp; sic erit facile. Et tunc pars continua 
+       con<lb ed="#S" break="no" n="99"/>secrat.
+    </p>
+            <p xml:id="khj78y-q42707-d1e461" n="12">
+      <!-- 12 -->Tertia opinio est, quod si sensu non signet 
+      <lb ed="#S" n="100"/>dum tamen intellectu signet, idem sequitur: puta si de hostia 
+      <lb ed="#S" n="101"/>plana intendat consecrare solam medietatem, quae est ex parte 
+      <lb ed="#S" n="102"/>sua, &amp; non aliam, vel aliud huiusmodi. Cum enim caecus possit 
+      <lb ed="#S" n="103"/>conficere, &amp; videns hostias superpositas aliis, quas non vi 
+      <lb ed="#S" n="104"/>det, nihil facit signatio, nec demonstratio ad sensum: dum 
+      <lb ed="#S" n="105"/>tamen sit in praesentia, quia concurrunt ibi materia cum 
+       quali<lb ed="#S" break="no" n="106"/>bet pars panis, &amp; vini sit panis, &amp; vinum: &amp; forma, &amp; inten 
+      <lb ed="#S" n="107"/>tio determinata secundu intellectum, &amp; si non secundum 
+      <lb ed="#S" n="108"/>sensum: cum intentio fit actus partis intellectiue non 
+       sensi<lb ed="#S" break="no" n="109"/>riue. Et quamuis alias determinatio intellectus fit 
+       secun<lb ed="#S" break="no" n="110"/>dum determinationem sensus: hic tamen non oportet, quod sit 
+       si<lb ed="#S" break="no" n="111"/>gnatio certae partis secundum sensum: quia non per visum 
+      <lb ed="#S" n="112"/>cum caecus possit conficere, nec per tactum: quia sine tactu etiam 
+      <lb ed="#S" n="113"/>manchus consecrare potest, nec per imaginationem, aut alium 
+      <lb ed="#S" n="114"/>sensum: quia indiuisibile secundum quod huiusmodi non est senfu 
+      <lb ed="#S" n="115"/>perceptibile. Illud autem, quod pars continui ab alia 
+       di<lb ed="#S" break="no" n="116"/>stinguit, secundum quod huiusmodi est omnino indiuisibile, sicut 
+      <lb ed="#S" n="117"/>linea, quae secundum latitudinem est indiuisibilis, secundum 
+      <lb ed="#S" n="118"/>quod vnam partem superficici diuidit ab alia. vnde &amp;c. Quod 
+      <lb ed="#S" n="119"/>autem dicit magnitudo esse vnum de sensibilibus communi 
+      <lb ed="#S" n="120"/>bus: verum est inquantum magnitudo est diuisibilis non 
+       in<lb ed="#S" break="no" n="121"/>quantum indiuisibilis. Vnde sufficit signatiosecundum intel 
+      <lb ed="#S" n="122"/>lectum: quia intellectus huiusmodi partem indiuisibilem 
+       apprehende<lb ed="#S" break="no" n="123"/>re potest, quod non potest sensus. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q42707-d1e518" n="13">
+      <!-- 13 -->CIRCA 
+      <lb ed="#S" n="124"/>secundum. scilicet an plures consecrent eandem hostiam totam, est 
+       du<lb ed="#S" break="no" n="125"/>plex modus dicendi, vnus, quod consecrans: dato quod non simul 
+      <lb ed="#S" n="126"/>proferant: sed vnus post alium: quorum ratio est, quia sacerdos 
+      <lb ed="#S" n="127"/>cum ordinatur, constituit in gradu eorum, qui in coena 
+       acce<lb ed="#S" break="no" n="128"/>perunt hanc potestatem Christo coenanti concoenauerunt. 
+      <lb ed="#S" n="129"/>ideo noui ordinati secundum consuetudinem quarundam 
+       ec<lb ed="#S" break="no" n="130"/>clesiarum episcopo celebranti concelebrant. Nec per hoc itera 
+      <lb ed="#S" n="131"/>tur consecratio super eandem materiam: quia licet diuersis 
+       tem<lb ed="#S" break="no" n="132"/>poribus proferant verba: tamen sicut dicit Inn. Tertius inten 
+      <lb ed="#S" n="133"/>tio debet ferri ad idem instans consecrationis: forte ad 
+       il<lb ed="#S" break="no" n="134"/>lud, in quod consecrat episcopus. sed haec opinio a qui- 
+      <!--0162.xml-->
+      <pb ed="#S" n="162"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>quibusdam videtur reprobari: quia dicunt, quod licet apostoli 
+      <lb ed="#S" n="2"/>Christo concoenarunt: non tamen est certum, quod celebrauerint. 
+      <lb ed="#S" n="3"/>Et imo noui ordinati episcopo communicanti, 
+       communica<lb ed="#S" break="no" n="4"/>re debent, sed non concelebrare. Et haec est fere consuetu 
+      <lb ed="#S" n="5"/>do in omnibus ecclesiis.
+    </p>
+            <p xml:id="khj78y-q42707-d1e564" n="14">
+      <!-- 14 -->Et qui dicunt, quod 
+       consue<lb ed="#S" break="no" n="6"/>tudo est in aliquibus, quod concelebrant dicendum, quod bene est 
+      <lb ed="#S" n="7"/>consuetudo quod episcopo incipiente canonem missae, qui ordinam 
+      <lb ed="#S" n="8"/>tur, incipiunt, &amp; perficiunt totum cum eo exceptis verbis 
+      <lb ed="#S" n="9"/>consecrationis, quae non dicunt. Et super illis specialiter 
+       in<lb ed="#S" break="no" n="10"/>struuntur. Et cum in illis verbis consistat consecratio, constat 
+      <lb ed="#S" n="11"/>quod non consecrent cum episcopo. Quia si alicubi sit consue 
+      <lb ed="#S" n="12"/>tudo, quod dicunt verba consecrationis: potius debet dici 
+      <lb ed="#S" n="13"/>corruptela, vel abusus, quam consuetudo. Cuius ratio est, quia 
+      <lb ed="#S" n="14"/>quando aliquid est omissum de pertinentibus ad ordinationem 
+      <lb ed="#S" n="15"/>alicuius, illud debet suppleri, antequam ille exequat officium sui 
+      <lb ed="#S" n="16"/>ordinis: sed ordinatio sacerdotum non em completa, quando fit conse 
+      <lb ed="#S" n="17"/>tratio in missa: imo restant quaedam facienda. scilicet manuum 
+      <lb ed="#S" n="18"/>impositio cum praescripta forma verborum: Accipite, inquit, 
+      <lb ed="#S" n="19"/>spiritumsanctum. ergo irrationabile est, quod sacerdotes simul 
+      <lb ed="#S" n="20"/>cum episcopo sint concelebrantes: cum nondum completa sit 
+      <lb ed="#S" n="21"/>ordinatio eorum.
+    </p>
+            <p xml:id="khj78y-q42707-d1e604" n="15">
+      <!-- 15 -->Et quod dicunt, quod vnus post 
+      <lb ed="#S" n="22"/>alium potest conscerare pro eo, quod ad instans idem consecrationis 
+      <lb ed="#S" n="23"/>fertur intentio corum valde est difficile intelligere: quia intentio 
+      <lb ed="#S" n="24"/>non facit, qui verba habeant suam efficaciam, antequam 
+       profe<lb ed="#S" break="no" n="25"/>rantur, vel postquam prolata sunt. Alioquin effectus 
+       conse<lb ed="#S" break="no" n="26"/>crationis posset anticipari, vel differri secundum 
+       volunta<lb ed="#S" break="no" n="27"/>tem sacerdotis: ita quod proferens verba consecrationis in 
+      <lb ed="#S" n="28"/>mane intendens, quod habeant effectum suum non tunc, sed 
+       cir<lb ed="#S" break="no" n="29"/>ca tertiam: consecraret circa tertiam virtute verborum praece 
+      <lb ed="#S" n="30"/>dentium: quod non videtur. ergo verba consecrationis habent 
+      <lb ed="#S" n="31"/>effectum suum in primo instati, quo prolata sunt. si ergo 
+      <lb ed="#S" n="32"/>non omnes simul verba consecrationis proferant, qui primus 
+      <lb ed="#S" n="33"/>profert, totum consecrat: &amp; sequentes nihil faciunt: sed solum 
+      <lb ed="#S" n="34"/>verba consecrationis iterant super materiam consecrantis. 
+    </p>
+            <p xml:id="khj78y-q42707-d1e637" n="16">
+               <lb ed="#S" n="35"/>
+               <!-- 16 -->Ideo est alius modus. scilicet qui plures sacerdotes 
+       pos<lb ed="#S" break="no" n="36"/>sunt eandem hostiam consecrare: dum tamen verba consecrationis 
+      <lb ed="#S" n="37"/>simul proferant, alias non: sed primo proferens totum facit, 
+      <lb ed="#S" n="38"/>alij nihil, quod probatur sic. Concurrentibus omnibus, quae sunt 
+      <lb ed="#S" n="39"/>de necessitate sacramenti, vere perficitur sacramentum: sed quando sacerdos 
+      <lb ed="#S" n="40"/>profert verba consecrationis, tunc concurrunt omnia, quae 
+      <lb ed="#S" n="41"/>sunt de necessitate sacramenti. ergo vere consecrat. sed qua ra 
+      <lb ed="#S" n="42"/>tione iste consecrat, eadem ratione &amp; ille, qui simul profert 
+      <lb ed="#S" n="43"/>verba, &amp; simili intentione. Nec sunt duae consecrationes, 
+      <lb ed="#S" n="44"/>sed vna: quia virtus diuina potest secundum suum beneplacitum 
+      <lb ed="#S" n="45"/>aliquid vnum facere per ministerium vnius, vel plurium. 
+    </p>
+            <p xml:id="khj78y-q42707-d1e666" n="17">
+               <lb ed="#S" n="46"/>
+               <!-- 17 --> Sed quicquid sit, de hoc tamen reprobatio primae opi 
+      <lb ed="#S" n="47"/>nionis non valet. Vnde quando dicit, quod non consecrauerunt 
+      <lb ed="#S" n="48"/>apostoli, verum dicit: sed tamen communicauerunt carni, &amp; san 
+      <lb ed="#S" n="49"/>guini, &amp; dictum est eis: Hoc facite in meam commemoratio 
+      <lb ed="#S" n="50"/>nem. In cuius representatione, &amp; communicant, &amp; 
+       conce<lb ed="#S" break="no" n="51"/>lebrant: qnia dictum esteis: Hoc facite in meam 
+       commemo<lb ed="#S" break="no" n="52"/>rationem. sed bene verum est, quod istud nullam habet necessita 
+      <lb ed="#S" n="53"/>tem: quia magis representaret, quod tunc sactum fuit, si tantum 
+      <lb ed="#S" n="54"/>brdinarentur, &amp; communicarentur: non autem concelebrarent, 
+      <lb ed="#S" n="55"/>sicut tunc de apostolis factum est, quam si plures. Nec Tho. in 
+      <lb ed="#S" n="56"/>ducit hoc pro causa necessaria: quia tunc ecclesiae hoc 
+       fa<lb ed="#S" break="no" n="57"/>cientes peccarent: quia debent se conformare Christo in 
+      <lb ed="#S" n="58"/>dispensatione sacramentorum: nisi quo ad ea, in quibus est 
+      <lb ed="#S" n="59"/>contraria ratio in Christo, &amp; in nobis, sicut in 
+       celebran<lb ed="#S" break="no" n="60"/>do post coenam.
+    </p>
+            <p xml:id="khj78y-q42707-d1e703" n="18">
+      <!-- 18 -->Et quod dicit non esse 
+       consuetudi<lb ed="#S" break="no" n="61"/>ne magis credendum est Innocentio, quae sibi: qui boc dicit do 
+      <lb ed="#S" n="62"/>cens dirigere intentionem in dicendo verba. Dicit etiam 
+       In<lb ed="#S" break="no" n="63"/>nocentius de officio missae parte. 3. c. 9. Consueuerunt 
+      <lb ed="#S" n="64"/>presbyteri cardinales Romanum circunstare Pontificem, 
+      <lb ed="#S" n="65"/>&amp; cum eo pariter celebrare. Cumqueconsummatum est 
+       sacri<lb ed="#S" break="no" n="66"/>ficium de manu eius communionem accipere: significantes 
+      <lb ed="#S" n="67"/>apostolos, qui cum Domino pariter descumbentes de manu eius 
+      <!--0162.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>excharistiam acceperunt. sed in hoc est verum dicit, quod si 
+       re<lb ed="#S" break="no" n="69"/>siduum canonis diceretur, &amp; sola verba formae 
+       omitte<lb ed="#S" break="no" n="70"/>rentur, nihil consecrarent: sicut de cathecismo, &amp; 
+       exorcis<lb ed="#S" break="no" n="71"/>mo, &amp; aliis respectu formae baptismi.
+    </p>
+            <p xml:id="khj78y-q42707-d1e736" n="19">
+      <!-- 19 -->Et quod 
+      <lb ed="#S" n="72"/>dicit, quod est corruptela: quia non debei exequi quousq, sua 
+      <lb ed="#S" n="73"/>ordinatione sit completa, est dicendum, quod respectu ritus exe 
+      <lb ed="#S" n="74"/>qui non debet: sed in casu, &amp; dispensatiue de 
+       consuetudi<lb ed="#S" break="no" n="75"/>ne ecclesiae, quam Romana ecclesia scit, &amp; dissimulat. Imo 
+      <lb ed="#S" n="76"/>&amp; Innocentius Papa approbat, quod ex quo characterem 
+       sacer<lb ed="#S" break="no" n="77"/>dotalem recepit, etiam si nihil aliud adderet, conficere potest, 
+      <lb ed="#S" n="78"/>&amp; debet in casu ab ecclesia concesso. Et sicut celebratur 
+      <lb ed="#S" n="79"/>missa in consummatione consecrationis ecclefiae, &amp; consum 
+      <lb ed="#S" n="80"/>matur dedicatio in celebratione, &amp; terminationemissae, 
+      <lb ed="#S" n="81"/>sic &amp; hic consuetudo ecclesiae excusat: &amp; quando mos erat, 
+       cri<lb ed="#S" break="no" n="82"/>men non erat. Vnde &amp; si non dicat nisi verba consecratio 
+      <lb ed="#S" n="83"/>nis, excusatur, si talis est mos illius ecclesiae a Romana 
+      <lb ed="#S" n="84"/>ecclesia scitus, &amp; non reprobatus.
+    </p>
+            <p xml:id="khj78y-q42707-d1e769" n="20">
+      <!-- 20 -->Et quod post 
+      <lb ed="#S" n="85"/>ea dicit, quod impossibile est plures consecrare, si in 
+       diuer<lb ed="#S" break="no" n="86"/>sis temporibus verba proferant sine dubio difficile est: quia vt 
+      <lb ed="#S" n="87"/>dicit, intentio consecrationis non potest anticipare, vel 
+       retar<lb ed="#S" break="no" n="88"/>dare effectum verborum: quin in vltimo instanti habeant 
+       ef<lb ed="#S" break="no" n="89"/>fectum, vel nunquamᷓ.
+    </p>
+            <p xml:id="khj78y-q42707-d1e786" n="21">
+      <!-- 21 -->sed dicendum, quod omnia, quae 
+      <lb ed="#S" n="90"/>sunt de essentia alicuius effectus, oportet simul 
+       concur<lb ed="#S" break="no" n="91"/>rere: sed cum principale agens in sacramentis sit virtus diuina, 
+      <lb ed="#S" n="92"/>quae ex voluntate agit, sic sufficit, ac verum sacramentumea, quae 
+      <lb ed="#S" n="93"/>aliquid agunt concurrere, sicut Deus vult. Quia ergo 
+       ec<lb ed="#S" break="no" n="94"/>clesia regitur spiritusancto, supponimus consuetudines 
+       abec<lb ed="#S" break="no" n="95"/>clesia approbatas esse conformes Dei voluntati. Quia 
+       igi<lb ed="#S" break="no" n="96"/>tur omnes simul consecrantes intentionem suam ordinant ad ho 
+      <lb ed="#S" n="97"/>ram prolationis principalis, sed aliqui prius, aliqui 
+       po<lb ed="#S" break="no" n="98"/>sterius proferant: tunc tum est effectus ex diuina 
+       ordina<lb ed="#S" break="no" n="99"/>tione: quamuis alias secundum cursum communem intentio non 
+      <lb ed="#S" n="100"/>posset anticipare, nec retardare. Hoc tamen est verum, quod 
+       pri<lb ed="#S" break="no" n="101"/>mus, qui verba profert, non consecrat ante alios, si hoc non 
+      <lb ed="#S" n="102"/>intendat. Vnde si homo proferat verba consecrationis in 
+      <lb ed="#S" n="103"/>tentione non consecrandi nihil consecrat. ergo si proferas 
+      <lb ed="#S" n="104"/>intentione, non tunc consecrandi, tunc non consecrat. sed 
+      <lb ed="#S" n="105"/>vbi est virtus, quae postea consecratur. Potest dici, quod virtus 
+      <lb ed="#S" n="106"/>subiectiue manet in aere subiecto vocis, quae transit Dei 
+      <lb ed="#S" n="107"/>virtute eam conseruante, quousque omnia sint completa. Item 
+      <lb ed="#S" n="108"/>sicut spiritussanctus in primitiua ecclesia diuersas 
+       for<lb ed="#S" break="no" n="109"/>mas baptismi ordinauit propter diuersas causas sic 
+       ordi<lb ed="#S" break="no" n="110"/>nare potuit diuersas formas in talibus ecclesiis, vbi sunt 
+      <lb ed="#S" n="111"/>tales ritus, sicut aliter consecrant, Graeci aliter. nos. In illo 
+      <lb ed="#S" n="112"/>igitur ritu, quo plures concelebrant, cum vltimus 
+       compleue<lb ed="#S" break="no" n="113"/>rit, omnes habent effectum suum: ita quod tandiu manet in aere 
+      <lb ed="#S" n="114"/>virtus praecedens, quousque veniat virtus sequens: non ex 
+      <lb ed="#S" n="115"/>intentione dicentis solum: sed ex virtute Dei virtutem illam pro 
+      <lb ed="#S" n="116"/>ducentis, &amp; conseruantis. Certum est enim, quod hic oportet ali 
+      <lb ed="#S" n="117"/>quid de communi cursu mutari. scilicet quod verba habeant 
+       effe<lb ed="#S" break="no" n="118"/>ctum, vel postquam prolata sunt quantum ad illos, qui prius 
+      <lb ed="#S" n="119"/>complent, vel antequam sint prolata quantum ad illos, qui 
+       post<lb ed="#S" break="no" n="120"/>ea proferunt: nisi omniu intentio referatur ad instans, quo 
+      <lb ed="#S" n="121"/>vltimus profert. si autem non omnes consecrant, sed tantum vnus 
+      <lb ed="#S" n="122"/>non esset dicendum, quod solus ille consecret, qui prius verba 
+      <lb ed="#S" n="123"/>profert, cum hoc non intendat, sed vel espicopus, vel 
+       vlti<lb ed="#S" break="no" n="124"/>mus, nisi diceret, quod quilibet intendit consecrare verba sua 
+      <lb ed="#S" n="125"/>dicendo, vel complendo, sed non intendit ea complere, nisi 
+      <lb ed="#S" n="126"/>simul cum episcopo, vel cum vltimo: tunc verisimile est, quod 
+      <lb ed="#S" n="127"/>dicit, quod solus, qui primo fecit, confecit.
+    </p>
+            <p xml:id="khj78y-q42707-d1e873" n="22">
+      <!-- 22 -->Verum 
+      <lb ed="#S" n="128"/>quia ipse dicit, quod si virtus consecrandi sit inhaerens 
+       subie<lb ed="#S" break="no" n="129"/>ctiue verbis impossibile est, quod plures simul consecrent, 
+      <lb ed="#S" n="130"/>etiam si simul verba proferant, &amp; compleant: quia ab agenti 
+      <lb ed="#S" n="131"/>bus naturalibus fimul concurrentibus non procedit 
+       effe<lb ed="#S" break="no" n="132"/>ctus, nisi intentior: dicendum, quod licet intentio sit voluntaria, 
+      <lb ed="#S" n="133"/>&amp; actio sacramentorum necessaria: sicut si duo voluntarie 
+      <lb ed="#S" n="134"/>applicarent ignem, qui necessario conbureret: tamen si vel pas 
+      <!--0163.xml-->
+      <pb ed="#S" n="163"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>fiuum non esset natum suscipere plus ab vno, quam a 
+       duo<lb ed="#S" break="no" n="2"/>bus, vel effectus non esset intensibilis, vt dictum fuit supra 
+      <lb ed="#S" n="3"/>dist. 3. de duobus vnum baptizantibus nihilominus a 
+       duo<lb ed="#S" break="no" n="4"/>bus sequeretur idem effectus, qui ab vno. Non enim plus 
+      <lb ed="#S" n="5"/>ab vno, quam ab alio, cum sit aequalis ratio, nec a neutro, cum 
+      <lb ed="#S" n="6"/>quodlibet sit sufficienter approximatum, &amp; dispositum, nec 
+      <lb ed="#S" n="7"/>vnum impedit, sed iuuat aliud. Et ita est in proposito. 
+      <lb ed="#S" n="8"/>Vnde ab vtroque erit consecratio: non tamen maior, nec 
+       mi<lb ed="#S" break="no" n="9"/>nor, quam ab vno. Et probo per rationem suam: quia concurren 
+      <lb ed="#S" n="10"/>tibus necessariis adsacramentum, sequitur sacramentum, sed hic sunt om 
+      <lb ed="#S" n="11"/>nia necessaria respectu vtriusque agentis, &amp; materia, &amp; for 
+      <lb ed="#S" n="12"/>ma, &amp; intentio, &amp; agens. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q42707-d1e925" n="23">
+      <!-- 23 -->Et quod 
+       di<lb ed="#S" break="no" n="13"/>cit, quod si sit virtus diuina assistens: tunc ipsa potest per vnum 
+      <lb ed="#S" n="14"/>&amp; plures, sicut sibi placet: dicendum, quod hoc est bene verum, 
+      <lb ed="#S" n="15"/>sed tunc non debet distingui, vtrum simul, an successiue 
+      <lb ed="#S" n="16"/>proferant: quia sicut potest agere indifferenter cum vno, &amp; 
+      <lb ed="#S" n="17"/>pluribus, ita cum pluribus simul, quia semper, &amp; non simul: 
+      <lb ed="#S" n="18"/>sunt causa, sinc qua non. Posset enim Deus ordinare, quod 
+      <lb ed="#S" n="19"/>non fieret conuersio, nisi duo, vel tres proferrent verba 
+      <lb ed="#S" n="20"/>vnus post alium.
+    </p>
+            <p xml:id="khj78y-q42707-d1e947" n="24">
+      <!-- 24 -->Ad illud, quod in contrarium 
+      <lb ed="#S" n="21"/>obiicit, dicendum, quod etiam si virtus est in sacramentis, adhuc 
+       pos<lb ed="#S" break="no" n="22"/>sunt ad vnum effectum concurrere multa agentia, quorum 
+      <lb ed="#S" n="23"/>quod libet facit totum. Et quandoque cum Deo, vel agente 
+       vni<lb ed="#S" break="no" n="24"/>uersali concurrit particulare agens, non est dicere, quod 
+       effe<lb ed="#S" break="no" n="25"/>ctus diuidatur in duas partes, vel tres, quarum quilibet sit 
+      <lb ed="#S" n="26"/>ab vna causa, sed totum ab omnibus. In agentibus quidem 
+      <lb ed="#S" n="27"/>per se ordinatis, hoc est necesse. sed in aliis agentibus 
+      <lb ed="#S" n="28"/>non necessario fit per plura, quod potest fieri pervnum. Po 
+      <lb ed="#S" n="29"/>test tamen fieri per accidens, vt dictum est.
+    </p>
+            <p xml:id="khj78y-q42707-d1e971" n="15">
+      <!-- 25 -->Ad 
+       se<lb ed="#S" break="no" n="30"/>cundum dicendum, quod sicut in operibus gratiae vnum, &amp; idem 
+    </p>
+            <p xml:id="khj78y-q42707-d1e978">
+               <lb ed="#S" n="31"/>opus meritorium totum est a diuersis. scilicet Deo, &amp; libero arbi 
+      <lb ed="#S" n="32"/>trio, quorum vnum sufficeret. scilicet Deus. Et quicquid sit de 
+      <lb ed="#S" n="33"/>hoc in operibus naturae contingit hoc, vt si calefactibili 
+      <lb ed="#S" n="34"/>summe disposito ad summum gradum caloris essent 
+       appo<lb ed="#S" break="no" n="35"/>fita aequaliter hinc, &amp; inde duo calefactiua aequalia, quo 
+      <lb ed="#S" n="36"/>rum quodlibet per se sufficeret, ab vtroque fieret vnicus 
+      <lb ed="#S" n="37"/>gradus, qui restat, nec plus, nec minus, quam ab vno solo. sed 
+      <lb ed="#S" n="38"/>hoc esset per accidens, &amp; non necessario. Et sic in proposi 
+      <lb ed="#S" n="39"/>to.
+    </p>
+            <p xml:id="khj78y-q42707-d1e1001" n="26">
+      <!-- 26 -->Argumenta facta ad principale, non cogunt, 
+      <lb ed="#S" n="40"/>quia non sequitur, si vnus potest multas hostias consecrare 
+       si<lb ed="#S" break="no" n="41"/>mul, vel successiue, quod propter hoc econuerso plures simul 
+      <lb ed="#S" n="42"/>vel successiue possint consecrare vnam: quia homo habet 
+      <lb ed="#S" n="43"/>multos filios, non multos patres, &amp; vnum mobile non mo 
+      <lb ed="#S" n="44"/>uetur simul diuersis motibus eiusdem generis, nec vno a 
+      <lb ed="#S" n="45"/>pluribus perfectis, nisi per accidens, vt dictum est. 
+    </p>
+            <p xml:id="khj78y-q42707-d1e1019" n="27">
+               <lb ed="#S" n="46"/>
+               <!-- 27 -->Nec cogit secundum, vbi sciendum, quod licet plures 
+      <lb ed="#S" n="47"/>actiones immediate non possunt habere simul vnicum 
+      <lb ed="#S" n="48"/>terminum, quia plures dealbationes simul existentes non 
+      <lb ed="#S" n="49"/>sunt ad vnam albedinem: tamen plures remotae possent 
+      <lb ed="#S" n="50"/>habere vnum terminum. Vnde in casu, qui 
+       proponeba<lb ed="#S" break="no" n="51"/>tur, est vnica consecratio, culus terminus intrinsecus, &amp; 
+      <lb ed="#S" n="52"/>immediatus est conuersio, &amp; corporis Christi praesentia, 
+      <lb ed="#S" n="53"/>sed plures actiones tantae. scilicet prolationes verborum, quot sunt 
+      <lb ed="#S" n="54"/>proferentes, &amp; verba lata, quae possent dici consecrationes, 
+      <lb ed="#S" n="55"/>eo modo, quo alteratio dicit generatio, &amp; multae 
+       alteratio<lb ed="#S" break="no" n="56"/>nes concurrut ad vnam corruptionem, &amp; generationem.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

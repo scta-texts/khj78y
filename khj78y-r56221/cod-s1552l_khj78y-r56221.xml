@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="486"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r56221"><!-- l4d45-q2 -->
+            <head xml:id="khj78y-r56221-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-r56221-Hd1e103" type="question-title">
+     vtrum suffragia 
+     facta pro aliquo, sibi soli valeant, et non aliis 
+     pro quibus non fiunt
+   </head>
+            <p xml:id="khj78y-r56221-d1e106">
+               <lb ed="#S" n="19"/>QVAESTIO sECVNDA. 
+      <lb ed="#S" n="20"/>De suffragiis: an tantum valeant vni 
+      <lb ed="#S" n="21"/>quantum multis. 
+    </p>
+            <p xml:id="khj78y-r56221-d1e115">
+               <lb ed="#S" n="22"/>Thom. 4. Distin. 45. Quaest. 2.ar. i- 
+    </p>
+            <p xml:id="khj78y-r56221-d1e120">
+               <lb ed="#S" n="23"/>SECVNDO quaeritur: vtrum suffragia 
+      <lb ed="#S" n="24"/>facta pro aliquo, sibi soli valeant, &amp; non aliis 
+      <lb ed="#S" n="25"/>pro quibus non fiunt. Et videtur quod non, quia 
+      <lb ed="#S" n="26"/>in litera dicitur ex verbis Augustini quod 
+       suf<lb ed="#S" break="no" n="27"/>fragia prosunt illis mortuis qui cum viuerent 
+      <lb ed="#S" n="28"/>meruerut vt talia possent eis prodesse post mortem: sed multi 
+      <lb ed="#S" n="29"/>pro quibus suffragia non fiunt magis meruerunt vt 
+       suffra<lb ed="#S" break="no" n="30"/>gia possent eis prodesse post mortem quam meruerunt illi 
+      <lb ed="#S" n="31"/>pro quibus suffragia fiunt. ergo videtur quod suffragia magis 
+      <lb ed="#S" n="32"/>prosint aliquibus pro quibus non fiunt quam illis pro 
+       qui<lb ed="#S" break="no" n="33"/>bus fiunt.
+    </p>
+            <p xml:id="khj78y-r56221-d1e147" n="2">
+      <!-- 2 -->Contra. quia nihil frustra fit in ecclesia: 
+      <lb ed="#S" n="34"/>sed si suffragia facta pro aliquo tantum prodessent aliis 
+      <lb ed="#S" n="35"/>quantum illi pro quo fiut frustra fierent pro aliquo speciali 
+      <lb ed="#S" n="36"/>ter: &amp; tamen fiunt secundum consuetudinem ecclesiae: ergo &amp;c. 
+    </p>
+            <p xml:id="khj78y-r56221-d1e158" n="3">
+               <lb ed="#S" n="37"/>
+               <!-- 3 -->Respondeo hic sunt tria videnda. Primo, quanto pro 
+      <lb ed="#S" n="38"/>sint suffragia. secundo, quomodo quis ab obligatione 
+      <lb ed="#S" n="39"/>suffragiorum liberetur. Tertio, vtrum sancti cognoscant 
+      <lb ed="#S" n="40"/>orationes nostras quas ad ipsos dirigimus.
+    </p>
+            <p xml:id="khj78y-r56221-d1e171" n="4">
+      <!-- 4 -->Quantum 
+      <lb ed="#S" n="41"/>ad primum sunt quinque conclusiones. Prima quod suffragia 
+      <lb ed="#S" n="42"/>non tantum prosunt illi pro quo non fiunt, quantum illi pro 
+      <lb ed="#S" n="43"/>quo specialiter fiunt &amp; ex intentione. Ex quo enim secum 
+      <lb ed="#S" n="44"/>dum illum modum prosunt suffragia defunctis secundum quem 
+      <lb ed="#S" n="45"/>viuis, sicut plus valet viuo pro quo fit determinate quam 
+      <lb ed="#S" n="46"/>aliis sic &amp; mortuo, non obstante exemplo posito de luce &amp; 
+      <lb ed="#S" n="47"/>doctrina: quia talia non operantur ex intentione: sed ex 
+      <lb ed="#S" n="48"/>naturae necessitate.
+    </p>
+            <p xml:id="khj78y-r56221-d1e193" n="5">
+      <!-- 5 -->secunda conclusio est, quod 
+       suffra<lb ed="#S" break="no" n="49"/>gium factum pro multis tantum valet quantum ad gaudium 
+      <lb ed="#S" n="50"/>cuiuslibet quantum si pro quolibet fieret: quia charitas 
+      <lb ed="#S" n="51"/>de qua scriptum est, quod non quaerit quae sua sunt, communia 
+      <lb ed="#S" n="52"/>propriis non propria communibus anteponit: vnde sicut 
+      <lb ed="#S" n="53"/>religiosus bene dispositus plus gaudet de legato 
+       commu<lb ed="#S" break="no" n="54"/>nitati quam de legato singulariter sibi facto, sic ibi: sed 
+      <lb ed="#S" n="55"/>quo ad liberationem non per se sicut etiam debitum solu 
+      <lb ed="#S" n="56"/>tum pro multis omnium debitum attenuat, sed nullum ex 
+       to<lb ed="#S" break="no" n="57"/>to liberat, cum tamen posset pro vno solutum ipsum ex toto 
+      <lb ed="#S" n="58"/>liberare: vt si tantum soluatur pro omnibus quantum 
+       quili<lb ed="#S" break="no" n="59"/>bet prosedebet, vt si pro quinque captis in turri syloe qui 
+      <lb ed="#S" n="60"/>erant debitores singulorum denariorum soluatur vnus 
+       de<lb ed="#S" break="no" n="61"/>narius pro omnibus: nullus liberatur, sed restant quatuor 
+      <lb ed="#S" n="62"/>denarij soluendi, sed si solueretur vnus pro vno statim 
+       ex<lb ed="#S" break="no" n="63"/>pediretur: sed per accidens potest tantum valere: vt dicetur 
+      <!--0486.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>in sequenti articulo.
+    </p>
+            <p xml:id="khj78y-r56221-d1e237" n="6">
+      <!-- 6 -->Est autem hic dubium, quia dicunt 
+      <lb ed="#S" n="65"/>doctores quod ille qui est in maiori charitate pl' gaudet de 
+      <lb ed="#S" n="66"/>suffragio facto pro alio quam ille pro quo fit. hoc enim vno 
+      <lb ed="#S" n="67"/>modo est verum, alio modo falsum. suffragium enim &amp; est 
+      <lb ed="#S" n="68"/>bonum facientis in quantum est actus eius bonus reddens 
+      <lb ed="#S" n="69"/>ipsum commendabilem &amp; acceptum coram Deo: &amp; est 
+       bo<lb ed="#S" break="no" n="70"/>num eius pro quo fit in quantum pro eo satisfacit. 
+       Quan<lb ed="#S" break="no" n="71"/>tum ad primam bonitatem plus gaudet de suffragio ille 
+      <lb ed="#S" n="72"/>qui est in maiori charitate, quam ille pro quo fit, quia cum 
+      <lb ed="#S" n="73"/>illo modo suffragium non sit magis bonum solius facientis: 
+      <lb ed="#S" n="74"/>de eo tanquam de aequali bono plus gaudet ille qui plus 
+       ha<lb ed="#S" break="no" n="75"/>bet de charitate. sed quantum ad secundum valorem cum 
+      <lb ed="#S" n="76"/>ille valor sit bonum illius solius pro quo fit, &amp; vnicuique ma 
+      <lb ed="#S" n="77"/>gis est amabile proprium bonum quam alienum, ideo quantum 
+      <lb ed="#S" n="78"/>ad istam considerationem plus gaudet desuffragio ille pro 
+      <lb ed="#S" n="79"/>quo fit existens in minori charitatequam ille pro quo non 
+      <lb ed="#S" n="80"/>fit, datoquod ille sit in maiori charitate.
+    </p>
+            <p xml:id="khj78y-r56221-d1e276" n="7">
+      <!-- 7 -->Tertia 
+       conclu<lb ed="#S" break="no" n="81"/>sio est, quod habens speciale suffragium &amp; commune citius libe 
+      <lb ed="#S" n="82"/>ratur quam habens tantum commune, licet gaudium sit commu 
+      <lb ed="#S" n="83"/>ne modo quidictus est. In dieautem animarum non 
+       de<lb ed="#S" break="no" n="84"/>bet principaliter dici missa nec pro patre nec pro matre: 
+      <lb ed="#S" n="85"/>sed pro omnibus fidelibus defunctis, sicut quod dandum 
+      <lb ed="#S" n="86"/>est pauperibus, non dandum est amicis carnalibus magit 
+      <lb ed="#S" n="87"/>quam aliis, potest tamen quis secundario specialiter 
+       inten<lb ed="#S" break="no" n="88"/>dere suos charos &amp; pro eisspecialiter facere oblationem, 
+      <lb ed="#S" n="89"/>sed debent fieri missae &amp; officium principaliterpro 
+       omni<lb ed="#S" break="no" n="90"/>bus.
+    </p>
+            <p xml:id="khj78y-r56221-d1e303" n="8">
+      <!-- 8 -->sed quia diuitaes plures eleemosynasfaciunt: 
+       in<lb ed="#S" break="no" n="91"/>de est quod eleemosyna quo ad suffragia plus prodest diuiti 
+      <lb ed="#S" n="92"/>quam pauperi per accidens: quia plus tenentur orare 
+       be<lb ed="#S" break="no" n="93"/>neficiati pro benefactoribus suis quam pro aliis, alias essent 
+      <lb ed="#S" n="94"/>ingrati.
+    </p>
+            <p xml:id="khj78y-r56221-d1e316" n="9">
+      <!-- 9 -->Quarta conclusio est, quod quando fiunt 
+       specia<lb ed="#S" break="no" n="95"/>lia &amp; multa suffragia pro illo qui non indiget, vt quia iam 
+      <lb ed="#S" n="96"/>est in gloria vel qui minus indiget quando superest diui 
+      <lb ed="#S" n="97"/>ditur indigentibus, vt non petentium partes petentibus 
+       ac<lb ed="#S" break="no" n="98"/>crescant, sicut Augustinus dicit in regula. Cum quis suis 
+      <lb ed="#S" n="99"/>filiis aliquam contulerit vestem: sit in potestate praepositi 
+      <lb ed="#S" n="100"/>vt in rem communem redactum cui necesse fuerit tribuatur, sic 
+      <lb ed="#S" n="101"/>Deus non indigenti datum: dat alij indigenti, quod verum est 
+      <lb ed="#S" n="102"/>in missa de Requie in qua debet esset talis intentio dicen 
+      <lb ed="#S" n="103"/>tis, vt caeteris prosit si illi pro quo fit non prodest. sed in 
+      <lb ed="#S" n="104"/>missa de viuis: vt si celebrem de beata virgine pro patre 
+      <lb ed="#S" n="105"/>meo magis celebraturus pro me quam pro quocunque alio 
+      <lb ed="#S" n="106"/>viuo vel mortuo, si scirem ei non prodesse, in sinu meo 
+       con<lb ed="#S" break="no" n="107"/>uertetur: non aliorum purgandorum. Matth. 10. sin autem 
+      <lb ed="#S" n="108"/>ad vos reuertetur.
+    </p>
+            <p xml:id="khj78y-r56221-d1e351" n="10">
+      <!-- 10 -->Quinta conclusio est, vtrum va 
+      <lb ed="#S" n="109"/>leant tantum suffragia successiue continuata quantum 
+       si<lb ed="#S" break="no" n="110"/>mul multiplicata: vt puta vnum tricenale continuatum quam 
+      <lb ed="#S" n="111"/>tum. 30. missae vno die a. 30. sacerdotibus dictae: &amp; similiter 
+      <lb ed="#S" n="112"/>annuale quantum. 366. missae vna hebdomada a diuersis 
+      <lb ed="#S" n="113"/>dictae: &amp; sic de aliis. Dicendum quod tantum vel plus valent ad 
+      <lb ed="#S" n="114"/>meritum instituentis: quia magis est ad honorem Dei conti 
+      <lb ed="#S" n="115"/>nuatio talium anniuersariorum: &amp; hoc consideransecclesia ea 
+      <lb ed="#S" n="116"/>sic instituit. sed ad celeriorem liberationem a purgatorio &amp; 
+      <lb ed="#S" n="117"/>citius videndum Deum, plus valet accelerata multiplicatio: 
+      <lb ed="#S" n="118"/>quia sacramentum in proposito habitum nunquam tantum 
+      <lb ed="#S" n="119"/>valet ad poenae remissionem ex opere operato quantum 
+      <lb ed="#S" n="120"/>actu exercitum, sicut patet in baptismo flaminis qui non re 
+      <lb ed="#S" n="121"/>mittit totam poenam sicut baptismus fluminis. Et sic etiam 
+      <lb ed="#S" n="122"/>missa nondum celebrata ex opere operato non potest ha 
+      <lb ed="#S" n="123"/>bere tantam efficaciam quantam iam celebrata, &amp; forte non 
+      <lb ed="#S" n="124"/>tandiu est iste mansurus in purgatorio, quod vltima missa 
+      <lb ed="#S" n="125"/>anniuersarij perpetui cantetur &amp; eum liberet. Neutrum 
+      <lb ed="#S" n="126"/>ergo est condemnandum: quia vtrumque bona intentione fieri 
+      <lb ed="#S" n="127"/>potest &amp; anniuersarium vt Deusclarius videatur per opus 
+      <lb ed="#S" n="128"/>sibi magis honorificum, &amp; multitudo missarum simula 
+       di<lb ed="#S" break="no" n="129"/>uersis dicendarum vt Deus citius videatur, &amp; non solum pro 
+      <lb ed="#S" n="130"/>amore sui ne diuitius teneat vel torqueatur.
+    </p>
+            <p xml:id="khj78y-r56221-d1e403" n="11">
+      <!--11 -->Quan- 
+      <!--0487.xml-->
+      <pb ed="#S" n="487"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>tum ad secundum de liberatione a suffragiis sunt quinque 
+      <lb ed="#S" n="2"/>conclusiones. Prima, quod soluens per alium liberatur, 
+      <lb ed="#S" n="3"/>sicussoluens per seipsum etiam si industria personae sit 
+       ele<lb ed="#S" break="no" n="4"/>cta: quia non refert quid ex aequipollentibus fiat nec per 
+      <lb ed="#S" n="5"/>quem fiat dum tamen aeque bene. Esset autem 
+       praesumptuo<lb ed="#S" break="no" n="6"/>sus qui tenetur ad suffragium si putaret orationem suam me 
+      <lb ed="#S" n="7"/>liorem orationibus aliorum sicut pharisaeus: vnde si missam 
+      <lb ed="#S" n="8"/>quam debeo procuro dici per alium liberatus sum sicus 
+      <lb ed="#S" n="9"/>si per meipsum: &amp; sic de aliis.
+    </p>
+            <p xml:id="khj78y-r56221-d1e434" n="12">
+      <!-- 12 -->secunda conclusio 
+      <lb ed="#S" n="10"/>est, quod liberatur quis soluendo suffragia cum alio, sicut so 
+      <lb ed="#S" n="11"/>lus non solum soluendo duplum. vt si dicam vnum 
+       psal<lb ed="#S" break="no" n="12"/>terium tecum &amp; tu aliud mecum cum quilibet teneatur 
+      <lb ed="#S" n="13"/>ad vnum. Hoc enim dubitationem non habet: quia hic 
+      <lb ed="#S" n="14"/>nihil minus soluitur a duobus simul quam si solueretur a 
+      <lb ed="#S" n="15"/>quolibet per se, imo si soluatur etiam a duobus simul 
+       sim<lb ed="#S" break="no" n="16"/>plum: vt si duo quorum quilibet debet pro mortuo psalte 
+      <lb ed="#S" n="17"/>rium dicaut simul pro illo vnicum psalterium, quod appa 
+      <lb ed="#S" n="18"/>ret per simile de horis canonicis ad quas quilibet 
+       insoli<lb ed="#S" break="no" n="19"/>dum &amp; per se tenetur: &amp; tamen omnes simul dicentes 
+       li<lb ed="#S" break="no" n="20"/>berantur, sicut etiam omnes simul audientes vnam missam 
+      <lb ed="#S" n="21"/>liberantur ab obligatione qua singuli tenebantur vnam 
+      <lb ed="#S" n="22"/>missam audire.
+    </p>
+            <p xml:id="khj78y-r56221-d1e467" n="13">
+      <!-- 13 -->sed contra, quia omnes iuuantes 
+      <lb ed="#S" n="23"/>ad vnam missam non liberantur ab obligatione qua sin 
+      <lb ed="#S" n="24"/>guli tenebantur dicere vnam missam: ergo cum quilibet 
+      <lb ed="#S" n="25"/>istorum teneatur dicere non audire totum psalterium: 
+       sal<lb ed="#S" break="no" n="26"/>tem pro parte quam non dicit sed audit non est liberatus. 
+      <lb ed="#S" n="27"/>sed non valet: quia ille qui tenetur audire missam per se 
+      <lb ed="#S" n="28"/>non liberatur eam audiendo per alium, qui vero tenetur 
+      <lb ed="#S" n="29"/>missam dicere pro alio: potest eam dicere per alium. Cum 
+      <lb ed="#S" n="30"/>autem quis tenetur dicere missam audiendo eam vel iuuam 
+      <lb ed="#S" n="31"/>do non facit per se quod debet facere nec per alium: sed 
+      <lb ed="#S" n="32"/>ille qui tenetur dicere psalterium pro alio dicendo cum alio 
+      <lb ed="#S" n="33"/>partem quidem dicit per se partem per alium, &amp; ille 
+       econ<lb ed="#S" break="no" n="34"/>uerso partem per se &amp; partem per alium, &amp; sic 
+       quodammo<lb ed="#S" break="no" n="35"/>do quilibet totum dicit: sed tamen requiritur quod attendat: 
+      <lb ed="#S" n="36"/>aliter debitum duorum infunderetur in vnum: nec istud 
+      <lb ed="#S" n="37"/>per se sufficeret. Vel potest dici, quod sicut in debito humano 
+      <lb ed="#S" n="38"/>si duo quorum quilibet debet. x. soluant simul. x. non est 
+      <lb ed="#S" n="39"/>quilibet in toto liberatus: sed si creditor acceptet partem 
+      <lb ed="#S" n="40"/>pro toto, aut dispensator creditoris habens liberam 
+       po<lb ed="#S" break="no" n="41"/>testatem tunc sic, ita est hic, quia Deus magis acceptat 
+       ora<lb ed="#S" break="no" n="42"/>tiones communes quam singulares, &amp; ecclesia: quia magis 
+      <lb ed="#S" n="43"/>est ad honorem Dei quod omnes simul cantent vigilias quam 
+      <lb ed="#S" n="44"/>quod quilibet per se cantet cas, vnde ex Dei 
+       acceptatio<lb ed="#S" break="no" n="45"/>ne &amp; ecclesiae ordinatione liberentur &amp; non alia ratione. 
+      <lb ed="#S" n="46"/>secus autem est de missa quae praeter opus operans habet 
+      <lb ed="#S" n="47"/>efficaciam maiorem ex opere operato: vnde si plures 
+       quo<lb ed="#S" break="no" n="48"/>rum quilibet tenetur ad vnam missam insimul cantarent 
+      <lb ed="#S" n="49"/>vnam pulchram missam vno pro omnibus celebrante, &amp; 
+      <lb ed="#S" n="50"/>aliis omnibus iuuantibus non propter hoc essent libera 
+      <lb ed="#S" n="51"/>ti: quia &amp; si in hoc vno aequipolleret multis quo ad opus 
+      <lb ed="#S" n="52"/>operans, non tamen quo ad opus operatum.
+    </p>
+            <p xml:id="khj78y-r56221-d1e538" n="14">
+      <!-- 14 -->Tertia 
+      <lb ed="#S" n="53"/>conclusio est, vtrum soluens suffragia in peccato mortali 
+      <lb ed="#S" n="54"/>liberetur an teneatur iterum soluere: Et videtur quod sic, quia 
+      <lb ed="#S" n="55"/>ille qui fecit poenitentiam pro se in peccato mortali pro tam 
+      <lb ed="#S" n="56"/>to non tenetur iterare, quia potest in alio saeculo satistacere: 
+      <lb ed="#S" n="57"/>alioquin quod in alio saeculo fieri non potest in isto fieri 
+      <lb ed="#S" n="58"/>necesse est, suffragia autem pro alio hic quidem &amp; non in pur 
+      <lb ed="#S" n="59"/>gatorio solui possunt: nam ibi pro se &amp; non pro alio quis 
+      <lb ed="#S" n="60"/>soluit: ergo in hac vita tenetur suffragari sibi.
+    </p>
+            <p xml:id="khj78y-r56221-d1e560" n="15">
+      <!-- 15 -->solu 
+      <lb ed="#S" n="61"/>tio, non est verum primo quidem, quia aut est obligatus 
+      <lb ed="#S" n="62"/>ad suffragia ex statuto superioris: &amp; tunc non tenetur 
+      <lb ed="#S" n="63"/>iterare: tum quia superior non potuit eum obligare ad hoc 
+      <lb ed="#S" n="64"/>quod faceret ex charitate, sed solum ad substantiam facti: tum 
+      <lb ed="#S" n="65"/>quia debet supponere quod superior statuens vel iniungens 
+      <lb ed="#S" n="66"/>est in charitate, &amp; ita suffragium valet ex merito mandantis 
+      <lb ed="#S" n="67"/>&amp; si non exequentis qui sibi conscius est de mortali. secum 
+      <!--0487.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>do, aut ex promissione propria: &amp; tunc non est verisimile 
+      <lb ed="#S" n="69"/>quod se obligauerit ad dicendum in charitate: sed solum ad 
+      <lb ed="#S" n="70"/>dicendum vel faciendum absolute. Tertio, aut solum ratione 
+      <lb ed="#S" n="71"/>beneficij accepti, &amp; tunc vel non est obligatus de 
+       neces<lb ed="#S" break="no" n="72"/>sitate, sed de congruitate tantum: vel si est obligatus ex 
+      <lb ed="#S" n="73"/>necessitate non tamen determinate ad hoc suffragium 
+      <lb ed="#S" n="74"/>vel ad illud. vnde illud non tenetur iterare, sicut nec illud 
+      <lb ed="#S" n="75"/>tenebatur facere, imo nec tenetur aliud facere si fueris 
+      <lb ed="#S" n="76"/>missa cuius principalis efficacia est ex opere operato etiam 
+      <lb ed="#S" n="77"/>si sit malus ministeri imo nec si sit aliud: quia valet ex 
+      <lb ed="#S" n="78"/>charitate postulantis suffragium interpretatiue per 
+       bene<lb ed="#S" break="no" n="79"/>ficij collationem.
+    </p>
+            <p xml:id="khj78y-r56221-d1e610" n="16">
+      <!-- 16 -->sed hoc videtur esse contra illud 
+      <lb ed="#S" n="80"/>quod alias dictum est, quod nullus potest satisfacere per alium 
+      <lb ed="#S" n="81"/>nisi ille alius sit in charitate. Cuius enim in se opus 
+       mor<lb ed="#S" n="82" break="no"/>tuum est pro nullo potest esse satisfactorium.17 Et pro 
+      <lb ed="#S" n="83"/>pter hoc posset dici, quod si ex mandato vel rogatu alterius 
+      <lb ed="#S" n="84"/>in charitate existentis viui, vel mortui alius peccator 
+       a<lb ed="#S" break="no" n="85"/>lias non facturus quasi ex persona illius faciat suffragium 
+      <lb ed="#S" n="86"/>prodest illi applicare: tunc non posset peccator pro alio 
+      <lb ed="#S" n="87"/>satisfacere: vnde peccator, vt procurator non potest pro 
+      <lb ed="#S" n="88"/>alio satisfacere, sed vt nuncius. I8 Quarta conclusio 
+      <lb ed="#S" n="89"/>est, vtrum soluens pro multis tot suffragia quot debet 
+      <lb ed="#S" n="90"/>omnibus sigillatim liberetur, vt si soluo. 30. missas pro 
+      <lb ed="#S" n="91"/>recommendatis mihi in capitulo &amp; non hanc pro illo. &amp;c. 
+      <lb ed="#S" n="92"/>Dico quod non perfecte, quia minus soluit cuilibet: &amp; per 
+       con<lb ed="#S" break="no" n="93"/>sequens non liberatur. Nam particularis solutio multa 
+      <lb ed="#S" n="94"/>habet incommoda, vt si debeam tibi decem, Titio, 
+       de<lb ed="#S" break="no" n="95"/>cem, seio decem, &amp; soluo hodie decem tribus: &amp; cras 
+       tri<lb ed="#S" break="no" n="96"/>bus decem, post cras decem tribus, non tantum prodest 
+      <lb ed="#S" n="97"/>eis: quia statim si vni soluissent decem potuisset statim 
+      <lb ed="#S" n="98"/>de illis facere vtilitatem suam: &amp; sic est hic, vt si sint 
+      <lb ed="#S" n="99"/>tres in carcere quilibet pro decem, si primo die soluo 
+       de<lb ed="#S" break="no" n="100"/>cem pro omnibus, nullus euadit carcerem, licet debitum 
+      <lb ed="#S" n="101"/>omnium minuatur, si secunda die decem adhuc nullus: 
+      <lb ed="#S" n="102"/>si tertia, tunc omnes simul. sed soluendo pro 
+       singu<lb ed="#S" break="no" n="103"/>lis primus prima die, secundus secunda die: tertius 
+       ter<lb ed="#S" break="no" n="104"/>tia fuisset liberatus: &amp; sic duorum feci conditionem 
+       de<lb ed="#S" break="no" n="105"/>teriorem. si ergo aliqui in purgatorio existentes sic sunt 
+      <lb ed="#S" n="106"/>dispositi, quod vnus vna missa &amp; non minori suffragio 
+       libe<lb ed="#S" break="no" n="107"/>randus est, &amp; sint multi tales, vna missa pro omnibus istis 
+      <lb ed="#S" n="108"/>dicta neminem cripit: sed dicta pro quocunque vna 
+       sta<lb ed="#S" break="no" n="109"/>tim eum eripit: &amp; sic diutius singuli tenerentur. Nec hoc 
+      <lb ed="#S" n="110"/>est contra Antisiodorensem qui credit, quod nulla missa 
+      <lb ed="#S" n="111"/>celebratur pro qua non plures de purgatorio liberentur: 
+      <lb ed="#S" n="112"/>quia quandoque sunt multi in purgatorio sic dispositi: vel 
+      <lb ed="#S" n="113"/>quia ibi diu steterunt, vel quia pauca purganda 
+       habue<lb ed="#S" break="no" n="114"/>runt.
+    </p>
+            <p xml:id="khj78y-r56221-d1e691" n="19">
+      <!-- 19 -->Quinta conclusio est, vtrum soluens pro 
+       mul<lb ed="#S" break="no" n="115"/>tis quod debet pro vno illorum &amp; non plus liberetur: Et 
+      <lb ed="#S" n="116"/>dicendum quod sic, dummodo principaliter fiat pro illo pro 
+      <lb ed="#S" n="117"/>quo debet &amp; pro aliis secundario. Et quod in suffragio 
+       ha<lb ed="#S" break="no" n="118"/>bente opus operatum efficax, sicut in missa hoc liceat, pa 
+      <lb ed="#S" n="119"/>tet in canone vbi semper fit memoria tam pro viuis quam 
+      <lb ed="#S" n="120"/>pro defunctis. Vnde debens vni vnam missam viuo vel 
+      <lb ed="#S" n="121"/>mortuose nunquam liberaret, vel missam inordinate can 
+      <lb ed="#S" n="122"/>taret si nec secundario nec aliter haberet memoriam 
+       ni<lb ed="#S" break="no" n="123"/>si illius pro quo dicenda est. sed vtrum in aliis 
+       suffra<lb ed="#S" break="no" n="124"/>giis sicut est psalterium: vel aliud iniunctum aut 
+       pro<lb ed="#S" break="no" n="125"/>missum possit quis secundario alios adiungere: non 
+       vi<lb ed="#S" break="no" n="126"/>detur, cum ibi non sint duo quorum vnum possit applica 
+      <lb ed="#S" n="127"/>ri vni &amp; aliud alij. sed forte opus operans quod est 
+       ope<lb ed="#S" break="no" n="128"/>ratio interior sic potest diuidi, vt sit intentio facientis quod 
+      <lb ed="#S" n="129"/>pricipaliter prosit ei pro quo debet: &amp; si superest aliquid 
+      <lb ed="#S" n="130"/>illud aliis applicetur. &amp;c. Quando vero vtrumq, 
+       aequali<lb ed="#S" break="no" n="131"/>ter intendit: tunc est magis dubium.
+    </p>
+            <p xml:id="khj78y-r56221-d1e733" n="20">
+      <!-- 20 -->Vnde solet 
+      <lb ed="#S" n="132"/>quaeri vtrum promittens sigillatim diuersis vnam missam 
+       li<lb ed="#S" break="no" n="133"/>beretur celebrando vnam pro omnibus. Dico quod non regulariter 
+      <lb ed="#S" n="134"/>atoto, licet a tanto: quia soluit minus quam debet, sicut pro 
+      <!--0488.xml-->
+      <pb ed="#S" n="488"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>mittens Titio vnam marcham &amp; seio vnam, non totaliter libe 
+      <lb ed="#S" n="2"/>ratur offerendo duobus vnam, quia missa celebrata pro 
+      <lb ed="#S" n="3"/>multis non tantum valet singulis. Potest autem excusari 
+      <lb ed="#S" n="4"/>quinque modis. Primo, propter impossibilitatem celebran 
+      <lb ed="#S" n="5"/>di pro quolibet specialiter: puta si collegium saluo 
+       offi<lb ed="#S" break="no" n="6"/>cio ad quod est institutum non potest soluere plusquam tres 
+      <lb ed="#S" n="7"/>vel duas aut vnam missam, aut si religioso postquam promisit 
+      <lb ed="#S" n="8"/>a superiore imponantur aliae missae, quia difficultas 
+       prae<lb ed="#S" break="no" n="9"/>stationis &amp; si non liberat: tamen excusat: vnde sicut 
+       quan<lb ed="#S" n="10" break="no"/>do bona defuncti non sufficiunt ad integre soluendum 
+      <lb ed="#S" n="11"/>creditoribus soluitur simul pluribus quod cuilibet per 
+      <lb ed="#S" n="12"/>se erat soluendum sic hic. secundo, propter consuetudinem 
+      <lb ed="#S" n="13"/>maxime apud eum qui scit vel scire tenetur: quia scienti 
+      <lb ed="#S" n="14"/>dolus non infertur. sicut de parochianis qui petunt 
+       mis<lb ed="#S" break="no" n="15"/>sas a curatis, aut canonici relinquentes anniuersarium 
+       ca<lb ed="#S" break="no" n="16"/>nonicis. Tertio, propter conuentionem si expresse hoc 
+       di<lb ed="#S" break="no" n="17"/>cat promittens, quia contractus ex conuentione legem ac 
+      <lb ed="#S" n="18"/>cipiunt, quod etiam sufficit dicere executori: quia cui con 
+      <lb ed="#S" n="19"/>misit testator distributionem pecuniae pro missa: videtur 
+      <lb ed="#S" n="20"/>etiam commisisse ordinationem de missa procuranda. Quarto, 
+      <lb ed="#S" n="21"/>propter recompensationem: quia non refert quid ex aequi 
+      <lb ed="#S" n="22"/>pollentibus fiat: vt si in aliis missis vel suffragiis 
+       recom<lb ed="#S" break="no" n="23"/>pensetur, sicut apud nos missa dicenda a conuentu 
+       impo<lb ed="#S" break="no" n="24"/>nitur vni fratri.
+    </p>
+            <p xml:id="khj78y-r56221-d1e803" n="21">
+      <!--21 -->Quinto, propter suppletionem Dei. 
+      <lb ed="#S" n="25"/>Vbi est sciendum secundum quosdam, quod missam non valere tantum 
+      <lb ed="#S" n="26"/>pluribus, quantum vni soli pro vno solo dicatur, prouenit 
+      <lb ed="#S" n="27"/>ex actuali intentione sacerdotis, non propter hoc quod eius 
+      <lb ed="#S" n="28"/>attentio vel eius valor distribuatur diuersis secundum 
+       di<lb ed="#S" break="no" n="29"/>uersas proportiones: sed quia non potest aliquis ad plures 
+      <lb ed="#S" n="30"/>simul affici tantum quantum ad vnum solum: sicut non potest 
+      <lb ed="#S" n="31"/>haberi tanta amicitia acquisita ad multos sicut ad vnum. 
+      <lb ed="#S" n="32"/>&amp; ideo missa dicta pro pluribus simul non tantum valet 
+      <lb ed="#S" n="33"/>cuilibet illorum, quantum si pro illo solo diceretur nisi 
+       sum<lb ed="#S" break="no" n="34"/>mus sacerdos suppleat: tunc autem supplet, quando 
+       ratio<lb ed="#S" break="no" n="35"/>nabile est quod sacerdos tantum affectum habeat ad quemlibet 
+      <lb ed="#S" n="36"/>ipsorum, quantum deberet habere ad vnum solum si pro illo 
+      <lb ed="#S" n="37"/>solo celebraretur, sicut si aliqui parochiani vel canonici 
+      <lb ed="#S" n="38"/>ex deuotione quam habent ad suam ecclesiam faciunt fieri 
+      <lb ed="#S" n="39"/>anniuersarium in ecclesia sua: quod fieri non potest nisi 
+      <lb ed="#S" n="40"/>plures concurrant ad vnam missam, missa illa tantum valet 
+      <lb ed="#S" n="41"/>cuilibet illorum quantum si pro quolibet solo diceretur missa 
+      <lb ed="#S" n="42"/>ab extraneo sacerdote, qui non est ita astrictus defuncto 
+      <lb ed="#S" n="43"/>nec econuerso est causa quare suppleatur defectus atten 
+      <lb ed="#S" n="44"/>tionis eius: &amp; ideo eius missa non valet tantum cuilibet 
+      <lb ed="#S" n="45"/>quando pro pluribus celebratur, quantum vni quando pro 
+      <lb ed="#S" n="46"/>illo solo. Ex quo sequitur quod si aliquis petit missam in 
+       ec<lb ed="#S" break="no" n="47"/>clesia sua pro anima sua, potest se ecclesia obligare illi ad 
+      <lb ed="#S" n="48"/>missam quam petit: non obstante quod illa die debet dici missa 
+      <lb ed="#S" n="49"/>pro alio, quia non intendit petere nisi secundum 
+       possibili<lb ed="#S" break="no" n="50"/>tatem ecclesiae. sed si petat ab extraneo puta a religioso: 
+      <lb ed="#S" n="51"/>talis non potest se obligare si missa debeat dici pro alio 
+      <lb ed="#S" n="52"/>nisi hoc exprimat: quia non est probabile quod petens missam 
+      <lb ed="#S" n="53"/>velit dare religlosis pecuniam vt dicant missam nisi solus ha 
+      <lb ed="#S" n="54"/>beret missam. Dicunt etiam isti, quod bona spiritualia quae con 
+      <lb ed="#S" n="55"/>municant religiosi suis familiaribus non ideo dicuntur 
+      <lb ed="#S" n="56"/>minus valere multis quam paucis, quia diuiduntur diuersis: 
+      <lb ed="#S" n="57"/>quia tota possunt applicare diuersis: sed quia secundum 
+      <lb ed="#S" n="58"/>cursum communem quando aliquis extendit deuotionem suam 
+      <lb ed="#S" n="59"/>ad multos deuotio sua minuitur, &amp; ex hac parte talia mi 
+      <lb ed="#S" n="60"/>nus valent multis. sed quia etiam talia bona plus vel 
+       mi<lb ed="#S" break="no" n="61"/>nus valent petentibus secundum maiorem vel minorem deuo 
+      <lb ed="#S" n="62"/>tionem ipsorum, ideo si cum instantia multi petant &amp; alii 
+      <lb ed="#S" n="63"/>recta intentione eos recipiant, videtur quod tantum valeant 
+      <lb ed="#S" n="64"/>talibus multis sicut paucis, quia Deus supplet vicem 
+       de<lb ed="#S" break="no" n="65"/>uotionis actualis cum maneat sufficiens secundum habitum 
+      <lb ed="#S" n="66"/>&amp; radicem.
+    </p>
+            <p xml:id="khj78y-r56221-d1e900" n="22">
+      <!-- 22 -->sed prima istorum distinctio inter 
+       sae<lb ed="#S" break="no" n="67"/>cularem &amp; regularem, proprium sacerdotem &amp;. extra- 
+      <!--0488.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>neum, non valet: quia videtur eadem ratio in extraneo 
+      <lb ed="#S" n="69"/>sacerdote qui a diuersis aequale beneficium recepit. vnde 
+      <lb ed="#S" n="70"/>non minus tenetur secundo quam tertio ratione beneficij, 
+      <lb ed="#S" n="71"/>sicut curatus vtriqueparochiano ratione officij. Nec valet 
+      <lb ed="#S" n="72"/>pro istis suppletio de receptis ad beneficia: quia illa rece 
+      <lb ed="#S" n="73"/>ptio fit principaliter ad merendum non ad satisfaciendum. 
+      <lb ed="#S" n="74"/>vnde receptus ad beneficia non est immunis a poena sibi 
+      <lb ed="#S" n="75"/>iniuncta: nec in toto nec in parte propter ieiunia quae fiunt 
+      <lb ed="#S" n="76"/>in ordine, sicut esset per indulgentias, nec minus diu 
+       pu<lb ed="#S" break="no" n="77"/>nietur in purgatorio: propter quod post mortem solent. 
+      <lb ed="#S" n="78"/>recitari obitus, vt specialiter eis oretur. Qui autem 
+       spe<lb ed="#S" break="no" n="79"/>cialiter petit missam pro se vel amicosuo viuo vel mortuo: 
+      <lb ed="#S" n="80"/>intendit habere pro se totam missam ad satisfaciendum, cum 
+      <lb ed="#S" n="81"/>non possit habere eam totam ad merendum: quia nullum 
+       me<lb ed="#S" break="no" n="82"/>ritum potest esse singulariter quin omnes boni participent: 
+      <lb ed="#S" n="83"/>sed satisfactio sic. Vnde non est simile, quia duplex est 
+       dif<lb ed="#S" break="no" n="84"/>ferentia inter participium quod est ad merendum &amp; illud qui 
+      <lb ed="#S" n="85"/>est ad satisfaciendum. Prima, quia participium meriti est ex 
+      <lb ed="#S" n="86"/>sola vnione charitatis sine aliqua intentione facientis spe 
+      <lb ed="#S" n="87"/>cialiter directe ad participantem, licet sit maior cum 
+       in<lb ed="#S" break="no" n="88"/>tentione: sed participium ad satisfaciendum non. Alioquin 
+      <lb ed="#S" n="89"/>quicunque esset in charitate siue in hoc mundo siue in alio 
+      <lb ed="#S" n="90"/>statim esset immunis ab omni poena, thesauro Ecclesiae 
+      <lb ed="#S" n="91"/>qui est infinitus distributo pro eius satisfactione: sicut etiam 
+      <lb ed="#S" n="92"/>quilibet ex participatione meriti Christi per sacramenta 
+      <lb ed="#S" n="93"/>meretur praemium infinitum quod est Deus intensiue, &amp; 
+       exten<lb ed="#S" break="no" n="94"/>siue vitam aeternam, vel saltem ille qui est in maiori charitate 
+      <lb ed="#S" n="95"/>esset minoris poenae debitor in hoc saeculo &amp; in alio: quod 
+      <lb ed="#S" n="96"/>non est verum, sed ex sola intentione facientis. secunda 
+       dif<lb ed="#S" break="no" n="97"/>ferentia est, quia participium meriti non minuitur ex 
+       mul<lb ed="#S" break="no" n="98"/>tiplicatione participantium: sicut patet quod non fit deterior 
+      <lb ed="#S" n="99"/>conditio multiplicati selectis: sed melior: non solum quia 
+      <lb ed="#S" n="100"/>illi incipiunt participare qui incipiunt communicare: cum 
+      <lb ed="#S" n="101"/>etiam paruuli baptizati sint participes bonorum operum qui 
+      <lb ed="#S" n="102"/>nihil operantur, &amp; propter hoc sine praeiudicio prius 
+       re<lb ed="#S" break="no" n="103"/>ceptorum ad beneficia possunt recipi: nec minus capiunt 
+      <lb ed="#S" n="104"/>nouissimi quam primi: sed in satistactione secus secundum 
+      <lb ed="#S" n="105"/>communem doctrinam: contra praepositiuum. sed quid 
+       impor<lb ed="#S" break="no" n="106"/>tat illud participium meriti dubium est. non enim propter 
+      <lb ed="#S" n="107"/>hoc maiorem habebit quisgloriam: quia cum pluribus parti 
+      <lb ed="#S" n="108"/>cipat, quia possibile est illum qui non habet plus de chari 
+      <lb ed="#S" n="109"/>tate esse participem plurium, sicut nunc quando sunt plures 
+      <lb ed="#S" n="110"/>fideles quam temporibus Adae, Noe, &amp; Abrahae: vel 
+       ali<lb ed="#S" break="no" n="111"/>quis est receptus ad beneficia plurium religiosorum, quam 
+      <lb ed="#S" n="112"/>alius qui habet tantam charitatem secundum quam datur glo 
+      <lb ed="#S" n="113"/>ria. Vnde non videtur nisi quia propter meritaaliorum 
+      <lb ed="#S" n="114"/>praeseruat eum Deus, quandoque a peccato: quandoque a 
+       mor<lb ed="#S" break="no" n="115"/>te, &amp; sic de alijs, sicut recordatus est Deus Abraham, &amp; libo 
+      <lb ed="#S" n="116"/>rauit Loth: cum etiam quandoque propter iustos parcat im 
+      <lb ed="#S" n="117"/>plis, vbi non concurrit meritum nisi ex vna parte: sed 
+       quan<lb ed="#S" n="118" break="no"/>do ambo iusti tunc ex vtraque: sed per receptionem ad 
+       be<lb ed="#S" break="no" n="119"/>neficia consequitur aliam vtilitatem, quia specialius partici 
+      <lb ed="#S" n="120"/>pat &amp; ex intentione illa generali in recipiendo &amp; ex 
+       in<lb ed="#S" break="no" n="121"/>tentione speciali proreceptis orando. Quantum ad 
+       ter<lb ed="#S" break="no" n="122"/>tium de sanctis, vtrum videant orationes nostras, sunt quin 
+      <lb ed="#S" n="123"/>que conclusiones.
+    </p>
+            <p xml:id="khj78y-r56221-d1e1033" n="23">
+      <!-- 23 -->Prima est, quod conueniens est quod 
+      <lb ed="#S" n="124"/>orando orationes nostras dirigamus ad sanctos. Cuius ratio 
+      <lb ed="#S" n="125"/>est, quia secundum Dionysium lex deitatis est infima ad 
+       su<lb ed="#S" break="no" n="126"/>prema per media reducere, sed quantum ad dona gratiae 
+      <lb ed="#S" n="127"/>beati sunt medij inter Deum &amp; viatores, ergo eis medianti 
+      <lb ed="#S" n="128"/>bus viatores debent reduci in Deum. Et quia ista reductio 
+      <lb ed="#S" n="129"/>non est per actiones necessarias: sed liberas quae solae sunt 
+      <lb ed="#S" n="130"/>a Deo acceptae vt remunerandae per beatitudinem: ideo 
+      <lb ed="#S" n="131"/>decet vt viatores vota sua &amp; orationes dirigant ad sanctos, 
+      <lb ed="#S" n="132"/>vt eis mediantibus &amp; sua intertessione iuuantibus bonitas 
+      <lb ed="#S" n="133"/>diuina refundatur in viatores.
+    </p>
+            <p xml:id="khj78y-r56221-d1e1059" n="24">
+      <!-- 24 -->secunda conclusio 
+      <lb ed="#S" n="134"/>est, quod sunt sancti orandi a nobis non solum maiores, sed 
+      <!--0489.xml-->
+      <pb ed="#S" n="489"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>etiam mediocres &amp; minores propter quinque rationes. 
+       Pri<lb ed="#S" break="no" n="2"/>mo, quia aliquis quandoque habet maiorem deuotionem 
+      <lb ed="#S" n="3"/>ad minorem sanctum quam ad maiorem, ex deuotione 
+       au<lb ed="#S" break="no" n="4"/>tem maxime dependet orationis effectus. secundo, ad 
+       tol<lb ed="#S" break="no" n="5"/>lendum fastidium: quia assiduitas eiusdem rei fastidium 
+       pa<lb ed="#S" break="no" n="6"/>rit, per hoc autem quod alternatim diuersos sanctos oramus: 
+      <lb ed="#S" n="7"/>quasi in singulis nouus feruor deuotionis concitatur. 
+      <lb ed="#S" n="8"/>Tertio, quia quibusdam sanctis datum est in quibusdam 
+      <lb ed="#S" n="9"/>specialibus casibus patrocinari: vt sancto Anthonio ad 
+      <lb ed="#S" n="10"/>extinguendum ignem qui dicitur infernalis, &amp; quibusdam 
+      <lb ed="#S" n="11"/>aliis sanctis in quibusdam aliis infirmitatibus. Quarto, 
+      <lb ed="#S" n="12"/>vt omnibus exhibeatur a nobis honor debitus. Quinto, 
+      <lb ed="#S" n="13"/>quia oronibus plurium quandoque impetratur quod non 
+       im<lb ed="#S" break="no" n="14"/>petraretur oratione vnius.
+    </p>
+            <p xml:id="khj78y-r56221-d1e1103" n="25">
+      <!-- 25 -->Tertia conclusio est, quod 
+      <lb ed="#S" n="15"/>valet nobis sanctorum intercessio, quia quamuis non sint in 
+      <lb ed="#S" n="16"/>statu merendi nec pro nobis proprie satisfaciunt, sunt ta 
+      <lb ed="#S" n="17"/>men in statu impetrandi aliquid nobis ex liberalitate 
+       el<lb ed="#S" break="no" n="18"/>quem orant: scilicet Dei cui sunt acceptissimi. Vnde non be 
+      <lb ed="#S" n="19"/>ne apparet quod a sanctis aliquis valor redundet in nobis per 
+      <lb ed="#S" n="20"/>modum satisfactionis vel meriti proprie dicti: quia illa 
+      <lb ed="#S" n="21"/>satisfactio &amp; meritum non possunt esse per opera quae tunc 
+      <lb ed="#S" n="22"/>faciant dum sunt in beatitudine: quia nec sunt in statu 
+      <lb ed="#S" n="23"/>merendi, nec faciunt opera poenalia per quae sola fit pro 
+      <lb ed="#S" n="24"/>prie satisfactio, vt visum est prius, nec illa satisfactio vel 
+      <lb ed="#S" n="25"/>meritum potest esse per opera quae fecerunt dum viuerent: 
+      <lb ed="#S" n="26"/>quia opus bonum quod non transfertur per operantem in alte 
+      <lb ed="#S" n="27"/>rum dum actualiter operatur, non est postea transferibile: 
+      <lb ed="#S" n="28"/>quia iam translatum est in aliquem puta in facientem: igitur 
+      <lb ed="#S" n="29"/>opera quae fecerunt sancti dum viuerent non possunt postea 
+      <lb ed="#S" n="30"/>transferre in nos, ita vt valeant nobis per modum meriti 
+      <lb ed="#S" n="31"/>vel satisfactionis. Restat ergo vt sanctorum orationes solam 
+      <lb ed="#S" n="32"/>nobis valeant per modum gratiae &amp; liberalis impetrationis. 
+    </p>
+            <p xml:id="khj78y-r56221-d1e1147" n="26">
+               <lb ed="#S" n="33"/>
+               <!-- 26 -->Quarta conclusio est, quod orationes sanctorum semper 
+      <lb ed="#S" n="34"/>valent nobis quotienscunque orant pro nobis postulando 
+      <lb ed="#S" n="35"/>simpliciter aliquid fieri pro nobis: quia cum voluntas 
+      <lb ed="#S" n="36"/>eorum sit totaliter conformis voluntati diuinae, nihil 
+       vo<lb ed="#S" break="no" n="37"/>lunt fieri circa nos nisi quod deus vult fieri: illud autem quod 
+      <lb ed="#S" n="38"/>Deus vult fieri voluntate consequente quae est voluntas 
+      <lb ed="#S" n="39"/>simpliciter: semper fit. Nec tamen frustra orant pro nobis 
+      <lb ed="#S" n="40"/>quamuis non orent nisi illud quod sciunt Deum velle: quia 
+      <lb ed="#S" n="41"/>sicut effectus naturales qui volente Deo eueniunt non eue 
+      <lb ed="#S" n="42"/>niunt nisi mediantibus causis secundis, non propter 
+       ineffi<lb ed="#S" break="no" n="43"/>caciam potentiae diuinae: sed propter ordinem rebus diui 
+      <lb ed="#S" n="44"/>nitus institutum, sic beneficia diuina descendunt in nos 
+      <lb ed="#S" n="45"/>mediantibus beatis tam angelis quam animabus sanctis, non 
+      <lb ed="#S" n="46"/>propter defectum misericordiae diuinae, sed propter ordinem 
+      <lb ed="#S" n="47"/>diuinum conseruandum quo Deus vult bonitatem suam con 
+      <lb ed="#S" n="48"/>municare inferioribus per superiores.
+    </p>
+            <p xml:id="khj78y-r56221-d1e1186" n="27">
+      <!-- 27 -->Quinta 
+       con<lb ed="#S" break="no" n="49"/>clusio est, quomodo sancti cognoscant orationes nostras 
+      <lb ed="#S" n="50"/>quas ad eos dirigimus. Vbi sciendum est, quod quidam dicunt quod 
+      <lb ed="#S" n="51"/>in beatis tam hominibus quam angelis est triplex 
+       cogni<lb ed="#S" break="no" n="52"/>tio: scilicet naturalis &amp; beata, &amp; quaedam media quae est re 
+      <lb ed="#S" n="53"/>uelatoria. si quaeratur de prima cognitione an per eam 
+      <lb ed="#S" n="54"/>cognoscant orationes nostras, sic dicunt, quod non saltem 
+       ani<lb ed="#S" break="no" n="55"/>mae separatae, quia de angelis dictum est in. 2. lib. quid 
+       co<lb ed="#S" break="no" n="56"/>gnoscant de cogitationibus nostris. Et hoc declarant dupli 
+      <lb ed="#S" n="57"/>citer. Primo, quia naturalis cognitio animae separatae 
+      <lb ed="#S" n="58"/>non est perfectior quam naturalis cognitio eiusdem animae 
+      <lb ed="#S" n="59"/>coniunctae, alioquin fugiendum esset animae vniri 
+       corpo<lb ed="#S" break="no" n="60"/>ri si ex ipsa vnione ipsa efficeretur imperfectior, sed ani 
+      <lb ed="#S" n="61"/>ma coniuncta non cognoscit naturali cognitione 
+       cogita<lb ed="#S" break="no" n="62"/>tiones cordium, nec exteriora facta absentium: ergo similiter 
+      <lb ed="#S" n="63"/>anima separata non potest cognoscere naturali 
+       cognitio<lb ed="#S" break="no" n="64"/>ne orationes nostras mentales, nec vocales viuorum 
+       absen<lb ed="#S" break="no" n="65"/>tium. secundo, quia naturalis cognitio animae separatae 
+      <lb ed="#S" n="66"/>est communis bonis &amp; malis: sed mali non cognoscunt nec 
+      <lb ed="#S" n="67"/>cogitationes, nec facta viuorum, sicut dicit beatus Greg. 
+      <!--0489.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>sumens argumentum de anima diuitis epulonis, quae igno 
+      <lb ed="#S" n="69"/>rabat statum &amp; facta fratrum suorum: ergo nec animae 
+       bea<lb ed="#S" break="no" n="70"/>torum cognoscunt naturali cognitione facta vel cogita 
+      <lb ed="#S" n="71"/>tiones viuentium.
+    </p>
+            <p xml:id="khj78y-r56221-d1e1246" n="28">
+      <!-- 28 -->si autem quaeratur an beati 
+       co<lb ed="#S" break="no" n="72"/>gnitione beata cognoscant orationes nostras mentales vel 
+      <lb ed="#S" n="73"/>vocales, sic dicunt quod non: quia illa quae quandoque 
+       cogno<lb ed="#S" break="no" n="74"/>scuntur: &amp; quandoque non, non pertinent ad cognitionem 
+      <lb ed="#S" n="75"/>beatam: sed cognitio si quam habent beati de orationibus 
+      <lb ed="#S" n="76"/>nostris mentalibus vel vocalibus non semper est in eis: 
+      <lb ed="#S" n="77"/>quia antequam oremus eas non praecognoscunt, nec aliquis 
+      <lb ed="#S" n="78"/>ponit quod talis cognitio sit semper in eis: quia si cognitio 
+      <lb ed="#S" n="79"/>talium esset semper in eis eadem ratione &amp; cognitio omnium 
+      <lb ed="#S" n="80"/>aliorum particularium contingentium: &amp; sic non indigerent 
+      <lb ed="#S" n="81"/>quod aliquid eis reuelaretur, quod falsum est, cum angeli qui 
+      <lb ed="#S" n="82"/>non sunt animabus inferiores per reuelationem purgentur 
+      <lb ed="#S" n="83"/>a nescientia multarum rerum: vt patet per Diony. 6. c. 
+       coele<lb ed="#S" break="no" n="84"/>hierarch. ergo talis cognitio non est beata. Minor iam 
+       pa<lb ed="#S" break="no" n="85"/>tet, sed maior probatur: quia cognitio beati est vna 
+       co<lb ed="#S" break="no" n="86"/>gnitio semper manens &amp; respectu vnius principalisobie 
+      <lb ed="#S" n="87"/>cti eodem modo semper se habens: &amp; ideo impossibile est 
+      <lb ed="#S" n="88"/>quod per eam aliquid de nouo cognoscatur, nisi sit aliqua mu 
+      <lb ed="#S" n="89"/>tatio in obiecto repraesentante vel in ipsa operatione vel 
+      <lb ed="#S" n="90"/>in vtroq́;: constat autem quod in obiecto non potest esse aliqua 
+      <lb ed="#S" n="91"/>mutatio: nec in actione quin sit alia secundum numerum, nisi 
+      <lb ed="#S" n="92"/>forte secundum intentionem mutaretur, in simplicibus enim for 
+      <lb ed="#S" n="93"/>mis non inuenitur aliud genus mutationis, mutatio autem 
+      <lb ed="#S" n="94"/>secundum intentionem non est in beatitudiue, alioquin 
+       bea<lb ed="#S" break="no" n="95"/>titudo essentialis augeretur, quod nullus ponit, &amp; si esset 
+      <lb ed="#S" n="96"/>non sufficeret ad hoc quod aliquid de nouo cognosceretur: 
+      <lb ed="#S" n="97"/>sed solum ad hoc quod prius cognitum intensius 
+       cognosce<lb ed="#S" break="no" n="98"/>retur: restat ergo quod in actione beata non est mutatio nisi 
+      <lb ed="#S" n="99"/>sit alia secundum numerum, &amp; sic non esset eadem beatitudo 
+      <lb ed="#S" n="100"/>qua semper aliquis esset beatur, quod est inconueniens. 
+      <lb ed="#S" n="101"/>Relinquitur ergo quod ea quae non semper cognoscuntur a 
+      <lb ed="#S" n="102"/>beatis non cognoscantur cognitione beata: &amp; haec fuit 
+      <lb ed="#S" n="103"/>maior: minor probata est: ideo sequitur conclusio. 
+    </p>
+            <p xml:id="khj78y-r56221-d1e1320" n="29">
+               <lb ed="#S" n="104"/>
+               <!-- 29 -->si autem loquamur de cognitione reuelationis, sic 
+      <lb ed="#S" n="105"/>dicunt quod omnes beati cognoscunt orationes nostras 
+      <lb ed="#S" n="106"/>siue mentales siue vocales, quae ad eos diriguntur: quia 
+      <lb ed="#S" n="107"/>secundum beatum Augu. &amp; habetur in litera. dist. 49. Ad 
+      <lb ed="#S" n="108"/>beatitudinem requiritur, quod vnusquisque habeat quicquid 
+      <lb ed="#S" n="109"/>vult nec velit aliquid inordinate, sed quilibet recta 
+       vo<lb ed="#S" break="no" n="110"/>luntate vult cognoscere ea quae ad ipsum pertinent: &amp; ideo 
+      <lb ed="#S" n="111"/>beati quibus nulla rectitudo deest volunt cognoscere ea 
+      <lb ed="#S" n="112"/>quae ad ipsos pertinent &amp; cognoscunt: sed orationes quas 
+      <lb ed="#S" n="113"/>ad eos dirigimus ad eos pertinent tanquam ad mediatores 
+       in<lb ed="#S" break="no" n="114"/>ter nos &amp; Deum, ergo beati illas orationes cognoscunt, &amp; 
+      <lb ed="#S" n="115"/>cum hoc non sit cognitione beata vel naturali vt probatum 
+      <lb ed="#S" n="116"/>est, relinquitur ergo quod sit cognitione reuelatoria quae per 
+      <lb ed="#S" n="117"/>tinet ab beatitudinem accidentalem.
+    </p>
+            <p xml:id="khj78y-r56221-d1e1355" n="30">
+      <!-- 30 -->sed posset 
+       susti<lb ed="#S" break="no" n="118"/>neri contra istos, quod visione etiam beatifica sancti viderent 
+      <lb ed="#S" n="119"/>orationes nostras, quia illa visione sancti non solum videns 
+      <lb ed="#S" n="120"/>diuinam essentiam: sed etiam quicquid ab eos pertinet vt 
+       isti<lb ed="#S" break="no" n="121"/>met dicunt, sed ad ipsos pertinent orationes directae sicut 
+      <lb ed="#S" n="122"/>isti etiam dicunt, ergo illas vident. Nec obstat quod illa non 
+      <lb ed="#S" n="123"/>variatur: quia possibile est quod beatus a principio suae 
+       vi<lb ed="#S" break="no" n="124"/>sionis &amp; beatitudinis videat in Deo omnes orationes ad se 
+      <lb ed="#S" n="125"/>dirigendas in perpetuum, &amp; sic postea propter hoc illa visio 
+      <lb ed="#S" n="126"/>non mutatur. Nec obstat si dicatur quod quanto aliquis limpi 
+      <lb ed="#S" n="127"/>dius videt Deum, tanto plura in ipso videt, contingit autem plus 
+      <lb ed="#S" n="128"/>orari sanctum minus videntem Deum: ideo. &amp;c.
+    </p>
+            <p xml:id="khj78y-r56221-d1e1384" n="31">
+      <!-- 31 -->Dicendum 
+      <lb ed="#S" n="129"/>quod prima propositio est vera de visis per se perficientibus 
+      <lb ed="#S" n="130"/>intellectum, sicut sunt quidditates creabiles non de 
+       singu<lb ed="#S" break="no" n="131"/>laribus. Vel potest dici quod de nouo ea cognoscunt 
+       togni<lb ed="#S" break="no" n="132"/>tione non intensa: sed extensa ad plura obiecta, sicut aliquis 
+      <lb ed="#S" n="133"/>obscurius videns speculum plura videt in ipso quandoque quam 
+      <lb ed="#S" n="134"/>alius clarius videns: puta si obscurius videns in facie 
+      <!--0490.xml-->
+      <pb ed="#S" n="490"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>sua habeat plures maculas, vel res alias quae omnla videt 
+      <lb ed="#S" n="2"/>in speculo, &amp; non alius clarioris visus qui pauciora habet 
+      <lb ed="#S" n="3"/>in facie sua: &amp; per eandem rationem si videnti speculum 
+       su<lb ed="#S" break="no" n="4"/>perueniat macula in facle sua vel gula quae prius non erat 
+      <lb ed="#S" n="5"/>videbit illam de nouo in speculo, non vtique visione 
+       inter<lb ed="#S" break="no" n="6"/>rupta nec intensa: quia nec potentia nec species eius nec 
+      <lb ed="#S" n="7"/>oiectum nec lumen sunt intensa, quae sunt tota caufa eius, 
+      <lb ed="#S" n="8"/>sed visione extensa ita &amp; in proposito potest imaginari: 
+      <lb ed="#S" n="9"/>quia in hoc sit dissimile quod diuina essentia quantu in se 
+      <lb ed="#S" n="10"/>est omnia repraesentet, &amp; non relucet in ea ex parte sua 
+      <lb ed="#S" n="11"/>aliqua de nouo sicut in speculo: tamen in alio est simile 
+      <lb ed="#S" n="12"/>quia secundum quod videns Deum est diuersimode 
+       disposi<lb ed="#S" break="no" n="13"/>tus non solum per lumen gloriae, sed etiam per dispositionem 
+      <lb ed="#S" n="14"/>naturalem concurrentem: diuersa ei diuina essentia reprae 
+      <lb ed="#S" n="15"/>sentat, &amp; si de nouo disponatur aliter etiam lumine non 
+       mu<lb ed="#S" break="no" n="16"/>tato plura repraesentabit, sicut etiam aliqui dicunt quod 
+      <lb ed="#S" n="17"/>ost resurrectionem clarius anima Deum videbit etiam 
+      <lb ed="#S" n="18"/>lumine non intenso. Quod autem dicunt de cognitione 
+      <lb ed="#S" n="19"/>reuelatoria non videbitur: quia renelatio est non de illis 
+      <lb ed="#S" n="20"/>quae specialiter ad vnumquemque pertinent: sed de illis quae 
+      <lb ed="#S" n="21"/>generaliter pertinent ad statum ecclesiae de quibus in via 
+      <lb ed="#S" n="22"/>Est reuelatio prophetiae: quae tamen postquam sunt 
+       reue<lb ed="#S" break="no" n="23"/>lata immediate a Deo vel angelo superiore statim 
+       co<lb ed="#S" break="no" n="24"/>gnoscuntur visione beatifica secundum quosdam, sed de hoc 
+      <lb ed="#S" n="25"/>dictum est. 2. lib. di. 9.
+    </p>
+            <p xml:id="khj78y-r56221-d1e1462" n="32">
+      <!-- 32 -->Ad argumentum in oppositum 
+      <lb ed="#S" n="26"/>est dicendum, quod dictum Augu. est intelligendum conditionali 
+      <lb ed="#S" n="27"/>ter: scilicet quod suffragia illis prosunt post mortem qui 
+       me<lb ed="#S" break="no" n="28"/>ruerunt in hac vita quod eis possent prodesse: si tamen pro 
+      <lb ed="#S" n="29"/>eis fiant. si autem non fiant pro els, sed pro aliis non opor 
+      <lb ed="#S" n="30"/>tet quod eis magis prosint quamuis magis meruerint, quia 
+      <lb ed="#S" n="31"/>non meruerunt quod eis prodessent nisi pro eis fierent. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

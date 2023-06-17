@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="194"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q54954"><!-- l4d16-q2 -->
+            <head xml:id="khj78y-q54954-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q54954-Hd1e103" type="question-title">
+     Vtrum poenitentia 
+     possit per aliquid impediri
+   </head>
+            <p xml:id="khj78y-q54954-d1e106">
+               <lb ed="#S" n="125"/>QVAESTIO SECVNDA. ut 
+      <lb ed="#S" n="126"/>De impedimentis poenitentiae. 
+    </p>
+            <p xml:id="khj78y-q54954-d1e113">
+               <lb ed="#S" n="127"/>Thom. 4. dist. 16. q. 4
+    </p>
+            <p xml:id="khj78y-q54954-d1e118">
+               <lb ed="#S" n="128"/>QVAERITVR secundo de 
+       impedi<lb ed="#S" break="no" n="129"/>mentis poenitentiae. Vtrum poenitentia 
+       pos<lb ed="#S" break="no" n="130"/>sit per aliquid impediri? Et videtur quod 
+      <lb ed="#S" n="131"/>non: quia si per aliquid impedliretur, hoc esset 
+      <lb ed="#S" n="132"/>peccatum sed ipsa destruit omne peccatum, 
+      <lb ed="#S" n="133"/>ergo no potest impediri per aliquod peccatum.
+    </p>
+            <p xml:id="khj78y-q54954-d1e135" n="2">
+      <!--2--> CON.
+      <!-- TODO update column reading order in OCR4all -->
+      <!--0195.xml-->
+      <pb ed="#S" n="195"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>TRA, quia impeditur per non peccatum: quia ludi, qui 
+      <lb ed="#S" n="2"/>aunt muateria virtutis cutropeiiae: &amp; miiitra, quae eit actus 
+      <lb ed="#S" n="3"/>virtutis fortitudinis, &amp; negociatio, quae est actus iustitiae 
+      <lb ed="#S" n="4"/>commutatiue ipsum impediunt, vt habetur in litera. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q54954-d1e157" n="3">
+               <lb ed="#S" n="5"/>
+               <!--3 -->RESPONDEO, circa istam quaestionem 
+       faci<lb ed="#S" break="no" n="6"/>enda sunt quatuor: secundum quod quatuor sunt 
+       impedimen<lb ed="#S" break="no" n="7"/>ta hypocrisis, ludus, spectaculum, &amp; negociatio.
+    </p>
+            <p xml:id="khj78y-q54954-d1e168" n="4">
+               <lb ed="#S" n="8"/>
+               <!--4 -->Primo quidem videndum est de primo: vbi sunt tres 
+          <lb ed="#S" n="9"/>conclusiones. Prima, quod semper hypocrisis est peccatum: quia 
+          <lb ed="#S" n="10"/>semper est oppositum virtutis veritatis: per quam homo 
+          <lb ed="#S" n="11"/>ostenditse talem in factis, &amp; dictis exterius, qualis est in
+          <lb ed="#S" n="12"/>terius.
+    </p>
+            <p xml:id="khj78y-q54954-d1e184" n="5">
+      <!--5 -->Hic etiam mentir facto, nec refert, vtrum 
+          <lb ed="#S" n="13"/>aliquis declaret voluntatum suam verbis, an factis. ff. de 
+          <lb ed="#S" n="14"/>legibus. l. idem quibus. Sicut ergo omne mendacium 
+       ver<lb ed="#S" break="no" n="15"/>bi est peccatum secundum Aug. sic &amp; hypocrisis, qua homo 
+          <lb ed="#S" n="16"/>mentitur oueratione exteriori iimuians ianctitate, qua 
+          <lb ed="#S" n="17"/>non naDet. Et naec cit menIOr ratio, qui prima: quia actus ma 
+          <lb ed="#S" n="18"/>trimonij est contrarius virginitati, quae est virtus, nec tamen 
+          <lb ed="#S" n="19"/>est peccatum.
+    </p>
+            <p xml:id="khj78y-q54954-d1e204" n="6">
+      <!--6 -->Secunda conclusio est, quod non 
+       sem<lb ed="#S" break="no" n="20"/>per est peccatum mortale, si enim hypocrisis dicatur omnis 
+          <lb ed="#S" n="21"/>simulatio, quae est in aliquo dicto, vel facto: vt cum 
+       ali<lb ed="#S" break="no" n="22"/>quis vuit videri donus propter nomines, non eit 
+       morta<lb ed="#S" break="no" n="23"/>le, nisi intenderet heresim seminare: vel nisi obtinere 
+       in<lb ed="#S" break="no" n="24"/>tenderet indignus aliquod beneficium(de qua dicitur) 
+          <lb ed="#S" n="25"/>est qui nequiter se humiliat &amp;c. Si autem hypocrisis dicat 
+          <lb ed="#S" n="26"/>illud vitium, per quod homo simulat se esse bonum: cum 
+          <lb ed="#S" n="27"/>non iit, icutrnariaei, qui omnia raciendo propter nomi 
+          <lb ed="#S" n="28"/>nes: intus erant pleni rapina, &amp; omni iniquitate: quia 
+       ca<lb ed="#S" break="no" n="29"/>rere bonitate etiam sine simulatione non est sine mortali 
+          <lb ed="#S" n="30"/>in habente vsum rationis: multo magis ea carere, &amp; 
+       ip<lb ed="#S" break="no" n="31"/>sam ostentare: quod addit mendacium. vnde simulata 
+       aequi<lb ed="#S" break="no" n="32"/>tas est duplex iniquitas.
+    </p>
+            <p xml:id="khj78y-q54954-d1e237" n="7">
+      <!--7 -->Tertia conclusio eit, quod 
+          <lb ed="#S" n="33"/>impedit veram poenitentiam. Nam prout est peccatum mor 
+          [indent]<lb ed="#S" n="34"/>tale: certum est, quod impedit: sic quod cum ea non potest esse ali 
+          <lb ed="#S" n="35"/>qua vera poenitentia Deo grata, vel accepta: prout autem 
+          <lb ed="#S" n="36"/>est tantum peccatum veniale: adhuc ipsa est impedimentum 
+          <lb ed="#S" n="37"/>poenitentiae. Primo, quia cum ille actus, qui fit cum 
+       hypocri<lb ed="#S" break="no" n="38"/>si sit malus propter deformitatem finis: nam non est Deo 
+          <lb ed="#S" n="39"/>acceptus. Secundo: quia hypocrisis dicit habitus malus: 
+          <lb ed="#S" n="40"/>quo homo est promptus bona opera facere propter 
+       ho<lb ed="#S" break="no" n="41"/>mines. Et sic inclinat, vt opera, quae aiias enent digni tru 
+          <lb ed="#S" n="42"/>ctus poenitentiae, non habeant hunc effectum: sic autem non 
+          <lb ed="#S" n="43"/>est de aliis peccatis. Si quis enim haberet habitum 
+       homi<lb ed="#S" break="no" n="44"/>cidij, velfurti: non propter hoc inclinare ad omnia 
+       ordi<lb ed="#S" break="no" n="45"/>nanda ad illud, propter quod superbia, &amp; inanis gloria 
+          <lb ed="#S" n="46"/>est radix omnium peccatorum: omnia trahens ad suum finem, 
+          <lb ed="#S" n="47"/>Propter hoc igitur hypocrisis est speciale 
+       impedimen<lb ed="#S" break="no" n="48"/>tum. Iterum quia peccator quanto a Deo se elongauit, &amp; ei 
+          <lb ed="#S" n="49"/>displicuit: tanto plus reducit eum de poenitentia ad 
+       pla<lb ed="#S" break="no" n="50"/>cendum Deo, contra quodspecialiter inclinat hypocrisis.
+    </p>
+            <p xml:id="khj78y-q54954-d1e282" n="8">
+               <lb ed="#S" n="51"/>
+               <!--8 -->QVANTVM ad secundum, de ludis sunt tres 
+          <lb ed="#S" n="52"/>conclusiones. Prima, quod ludi seruiles, &amp; illiberales, qui om 
+          <lb ed="#S" n="53"/>nibus interdicuni impediunt: vt ludentes viros cum 
+       mu<lb ed="#S" break="no" n="54"/>neribus ma led ixit. Barna bas etiam Cnoree, quae damna 
+          <lb ed="#S" n="55"/>biles sunt: quia non sunt, quales olim soror Moysi duce 
+          <lb ed="#S" n="56"/>bat: quae seorsum a viris cantabat laudem Deo. Item Iudus 
+          <lb ed="#S" n="57"/>alaearum, &amp; taxillorum. Vnde quidam dicunt, quod ludere ad 
+          <lb ed="#S" n="58"/>taxillos est peccatum mortale laicis, &amp; clericis. Vnde Ber. 
+          <lb ed="#S" n="59"/>Ego te acquisiui manibus crucifixis: &amp; tu te consumis ma 
+          <lb ed="#S" n="60"/>nibus dedicatis. Ideo si qui sunt ludi illiberales: qui vel 
+          <lb ed="#S" n="61"/>de se sunt peccatum mortale, vel quia prohibiti, vt tornea 
+          <lb ed="#S" n="62"/>mentum, &amp; huiusmodi isti semper impediunt, de quibus 
+          <lb ed="#S" n="63"/>dicit lex: quod ludus noxius semper est in culpa.
+    </p>
+            <p xml:id="khj78y-q54954-d1e315" n="9">
+      <!--9 -->
+       Se<lb ed="#S" break="no" n="64"/>cunda conclusio est, quod ludi liberales, qui sunt materia eu 
+          <lb ed="#S" n="65"/>tropeliae pro tanto impediunt: quia aliꝗd est vni virtuosum: 
+          <lb ed="#S" n="66"/>quod alij vitiosum. Vnde qui ducit vxorem, decet eum ha 
+          <lb ed="#S" n="67"/>bere laetitiam. Et qui habet patrem mortuum, decet eum habe 
+          <!--0195.xml-->
+          <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>re tristitiam. Sicut ecclesia deponit cantica laetitiae tempore 
+          <lb ed="#S" n="69"/>doloris, quae resumit tempore gaudij. Quia ergo 
+       poeniten<lb ed="#S" break="no" n="70"/>tia est opus duloris. ideo coutrariatur ei laetitia: quae alias 
+          <lb ed="#S" n="71"/>esset virtuosa. Non autem est totaliter poenitenti 
+       interdicen<lb ed="#S" break="no" n="72"/>da: ne ampliori tristitia absorbeatur. Sed tempore 
+       poeniten<lb ed="#S" break="no" n="73"/>tiae plus a ludis est abstinendum. Cum etiam nobiles 
+       absti<lb ed="#S" break="no" n="74"/>neant, qui in Quadragesima, quando est tempus poenitentiae, 
+       io<lb ed="#S" break="no" n="75"/>culatores licentiant, qui tunc veniunt Parisius addiscere, 
+          <lb ed="#S" n="76"/>de quo postea possunt ludere.
+    </p>
+            <p xml:id="khj78y-q54954-d1e352" n="10">
+      <!--10 -->Tertia 
+       conclu<lb ed="#S" break="no" n="77"/>sio est, quod ludi spirituales decent poenitentes, quorum est de 
+          <lb ed="#S" n="78"/>dolore gandere &amp;c.
+    </p>
+            <p xml:id="khj78y-q54954-d1e361" n="11">
+      <!--11 -->QVANTVM ad 
+       ter<lb ed="#S" break="no" n="79"/>tium de spectaculis sunt tres conclusiones. Prima, quod spe 
+          <lb ed="#S" n="80"/>ctacula turpia ad malum incitantia impediunt, quia ad 
+       mor<lb ed="#S" break="no" n="81"/>tale alliciunt. Vnde &amp; ad poenitentiam agendam secundum iu 
+          <lb ed="#S" n="82"/>ra aliqui in monasteriis, vel in locis religiosis te
+       deban<lb ed="#S" break="no" n="83"/>tur, ne haberent videre vanitates mundi.
+    </p>
+            <p xml:id="khj78y-q54954-d1e377" n="12">
+      <!--12 -->
+       Se<lb ed="#S" break="no" n="84"/>cunda conclusio est, quod spectacula curiosa, voluptuosa, 
+       si<lb ed="#S" break="no" n="85"/>ent venationes cum canibus, &amp; auibus, quae maxime in 
+          <lb ed="#S" n="86"/>Quadragesima fiunt, quando soli voluptati seruiunt: cum hic 
+          <lb ed="#S" n="87"/>cor distrabant, &amp; a Deo retrahant, ad quem poenitens 
+       de<lb ed="#S" break="no" n="88"/>bet habere cor collectum, &amp; attentum poenitentiam impediunt. 
+          <lb ed="#S" n="89"/>Ob quam etiam causam personis ecclesiasticis prohibetur: 
+          <lb ed="#S" n="90"/>extra. de cle. ven. per totum.
+    </p>
+            <p xml:id="khj78y-q54954-d1e397" n="13">
+      <!--13 -->Tertia conclusio est, 
+          <lb ed="#S" n="91"/>quod sunt spectacula necessitatis: sicut Petrus ad piscandum 
+          <lb ed="#S" n="92"/>hamo rediit, vt haberet. vnde solueret didragma. Et 
+       ite<lb ed="#S" break="no" n="93"/>rum. Duc in altum, &amp; laxare rhetia. in Luc. Item in 
+       Ioan<lb ed="#S" break="no" n="94"/>ne: Mittite in dexteram nauigij rhete. Et talia 
+       poeniten<lb ed="#S" break="no" n="95"/>tiam non impediunt.
+    </p>
+            <p xml:id="khj78y-q54954-d1e414" n="14">
+      <!--14 -->QVANTVM ad quar 
+          <lb ed="#S" n="96"/>tum sunt tres conclusiones. Prima, quod negotium publicana 
+          <lb ed="#S" n="97"/>tus impedit: quia inquantum ad peccatum implicat: intantum 
+          <lb ed="#S" n="98"/>necesse est, quod ad illud poenitens non recurrat secundum 
+          <lb ed="#S" n="99"/>Grego. Est autem istud peccatum tribus modis. Primo, si 
+       no<lb ed="#S" break="no" n="100"/>va vectigalia leuet sine authoritate Principis contra 
+       iura<lb ed="#S" break="no" n="101"/>C.noua vectigalia &amp;c. per totum. Secundo, si immoderate 
+          <lb ed="#S" n="102"/>adaugeat antiqua pedagia. Tertio, si a personis, vel 
+       pro<lb ed="#S" break="no" n="103"/>rebus exigat, a quibus, vel pro quibus non licet: quae za 
+          <lb ed="#S" n="104"/>chaeus restituebat in quadruplum.
+    </p>
+            <p xml:id="khj78y-q54954-d1e438" n="15">
+      <!--15 -->Secuda 
+       con<lb ed="#S" break="no" n="105"/>clusio ost, quod militia etiam est impedimentum non inquantum 
+          <lb ed="#S" n="106"/>lefend it ecclesium: cum etiam detur in poenitentiam, vel ire 
+          <lb ed="#S" n="107"/>vltra mare, vel huiusmodi: sed quantum ad ea, in quibus 
+       mili<lb ed="#S" break="no" n="108"/>tes contra iustitiam agunt, transgredientes praeceptum 
+       Ioan<lb ed="#S" break="no" n="109"/>nis Baptistae. Neminem concutiatis, &amp; estote contenti 
+       stipen<lb ed="#S" n="110" break="no"/>diis vestris: vt quando faciunt extorciones illicitas, &amp; 
+       insoli<lb ed="#S" break="no" n="111"/>tas: sicut <name xml:id="khj78y-q54954-Nd1e457">Roboam</name> voluit aggrauare iugum patris sui. Haec 
+          <lb ed="#S" n="112"/>&amp; huiusmodi poenitentiam impediunt.
+    </p>
+            <p xml:id="khj78y-q54954-d1e462" n="16">
+      <!--16 -->Tertia 
+       con<lb ed="#S" break="no" n="113"/>clusio est, quod omnis negociatio inquantum est peccatum, 
+       im<lb ed="#S" break="no" n="114"/>pedit poenitentium: quia vnum contrarium destruit aliud. Est 
+          <lb ed="#S" n="115"/>autem peccatum, vel ratione personae, cui est interdicta met 
+          <lb ed="#S" n="116"/>catio, vel na est monachus clericus, vel conuersus. Non 
+          <lb ed="#S" n="117"/>enim excusantur conuersi: quia sunt laici, quia sunt 
+       vo<lb ed="#S" break="no" n="118"/>ri religiosi. Et si propter lucrum faciunt, non videntur ex 
+          <lb ed="#S" n="119"/>cusari a mortali. Si vero propter necessitatem victus iam 
+          <lb ed="#S" n="120"/>non est mercatio proprie dicta, nec per consequens pro 
+          <lb ed="#S" n="121"/>hibita.
+    </p>
+            <p xml:id="khj78y-q54954-d1e486" n="17">
+      <!--17 -->Secundo, ratione loci, de 
+       immunita<lb ed="#S" break="no" n="122"/>te ecclesiarum. c. Decet. domum Dei: quia mercatura in 
+       eccle<lb ed="#S" break="no" n="123"/>siis, &amp; in cimiteriis fieri non debet: nisi consuetudo excu 
+          <lb ed="#S" n="124"/>set: quam praelati sciunt, &amp; dissimulant. Aliter si praelatis 
+          <lb ed="#S" n="125"/>contradicentibus est per violentiam introducta est corru 
+          <lb ed="#S" n="126"/>ptela. Vnde Christus eiecit ementes, &amp; vendentes de tem 
+          <lb ed="#S" n="127"/>plo. 
+    </p>
+            <p xml:id="khj78y-q54954-d1e504" n="18">
+      <!--18 -->Tertio, ratione temporis: quia diebus Domicis 
+          <lb ed="#S" n="128"/>&amp; festiuis non est mercandum alicubi. Tamen est priuilegium 
+          <lb ed="#S" n="129"/>Papae, vt teneantur numdinae in Dominicis: quia Dominus est filius 
+          <lb ed="#S" n="130"/>hominis etiam Sabbati. Vnde &amp; eius vicarius potest 
+       dispen<lb ed="#S" break="no" n="131"/>sare: quia Sabbatum sanctificare licet sit mortale quantum ad 
+          <lb ed="#S" n="132"/>hoc, quod aliquando Deo vacetur, &amp; est iudispensabile ab ho 
+          <lb ed="#S" n="133"/>mine: tamen quod tali tempore tantum, &amp; taliter vacetur, est positiuum, 
+          <lb ed="#S" n="134"/>&amp; dispensabile. Et per consequent, vbi est consuetudo a 
+      <!--0196.xml-->
+      <pb ed="#S" n="196"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Papa scita, &amp; dissimulata peccatum non est. Et inde est, quod 
+      <lb ed="#S" n="2"/>qui tunc non perdit missam, &amp; sermonem: cum alias per 
+      <lb ed="#S" n="3"/>hebdomadam ire non possit: si pro necessariis emendis, 
+      <lb ed="#S" n="4"/>vel vendendis tunc vadit, non peccat, quia finem praecepti 
+      <lb ed="#S" n="5"/>seruat: licet non sic liceret vacare agriculturae post 
+       audi<lb ed="#S" break="no" n="6"/>tam missam: sed non sunt excusati, qui toto die festo in 
+      <lb ed="#S" n="7"/>foro sedent: sicut in feriali non audientes missam. 
+    </p>
+            <p xml:id="khj78y-q54954-d1e546" n="19">
+               <lb ed="#S" n="8"/>
+               <!-- 19 -->Quarto, ratione modi: quia plus debito vendens, 
+      <lb ed="#S" n="9"/>aut vilius emens etiam citra dimidium iusti precij tenetur 
+      <lb ed="#S" n="10"/>ad restitutionem: quia hoc requit aequitas iusti precij: consi 
+      <lb ed="#S" n="11"/>derato secundum iustam extimationem, quantum res valebat 
+      <lb ed="#S" n="12"/>rempore contractus. si autem tempore contractus dolus inter 
+      <lb ed="#S" n="13"/>ueniat: forte quia celat vitium aequi: siquidem sit dolus dans 
+      <lb ed="#S" n="14"/>causam contractui: quia. scilicet non erat alias empturus, nisi quia 
+      <lb ed="#S" n="15"/>iste decepit, sicut aequum cadentem periculorum, si quis sciret 
+      <lb ed="#S" n="16"/>fatuus esset, si emeret: tunc licet valeat precium: tamen venditor 
+      <lb ed="#S" n="17"/>qui celando decipit emptorem, tenetur ad restitutionem 
+       pre<lb ed="#S" break="no" n="18"/>cij emptori reofferenti rem: quia propter talem dolum potest re 
+      <lb ed="#S" n="19"/>scindi contractus secundum iura. si autem fuit dolus 
+       inci<lb ed="#S" break="no" n="20"/>dens in contractu: quia emisset quidem, sed non tanti: 
+       tunc<lb ed="#S" break="no" n="21"/>est quidem peccatum in celando: sed non tenetur ad restitu 
+      <lb ed="#S" n="22"/>tionem: supposito quod equus tantum valeat, quantum venditus 
+      <lb ed="#S" n="23"/>est: quia ex quo volebat emere, debebat emere iusto 
+       pre<lb ed="#S" break="no" n="24"/>aio: &amp; iniustus emptor est, si velit, pro minus habere 
+       iu<lb ed="#S" break="no" n="25"/>sto precio.
+    </p>
+            <p xml:id="khj78y-q54954-d1e591" n="20">
+      <!-- 20 -->Quinto, ratione rei, quae si sit talis, 
+      <lb ed="#S" n="26"/>quod non cadat in commercium, aut propter bonitatem, vt res 
+      <lb ed="#S" n="27"/>facra, vel propter religionem, vel quia solo malo vsui est 
+      <lb ed="#S" n="28"/>apta, vt venenum, semper est peccatum. si autem sit tale vene 
+      <lb ed="#S" n="29"/>num, de quo potest etiam fieri medicamentum, tunc licet, &amp; 
+      <lb ed="#S" n="30"/>vendi potest. sed tamen in his Deus non decipitur, nec 
+       irri<lb ed="#S" break="no" n="31"/>detur. Nam si res est talis, quod communiter ea male ementes 
+      <lb ed="#S" n="32"/>vtuntur, vt taxilla, &amp; huiusmodi, peccat vendens mortaliter, 
+      <lb ed="#S" n="33"/>vel venialiter, sicut est vsus illius rei, vt de sertis, &amp; huiusmodi: 
+      <lb ed="#S" n="34"/>quae propter vanitatem fieri solent: licet conferant ali 
+      <lb ed="#S" n="35"/>quando ad sanitatem. Quae autem indifferenter bene, &amp; ma 
+      <lb ed="#S" n="36"/>le vsitantur, vt gladij vendi possunt: sic tamen, quod nunquam 
+      <lb ed="#S" n="37"/>illi vendantur, quem verisimile sit abusurum. Alioquln 
+      <lb ed="#S" n="38"/>consentit ill i in crimine, &amp; cooperatur: &amp; participat in 
+      <lb ed="#S" n="39"/>crimine criminoso. Ad argumentum dicendum, quod 
+       poe<lb ed="#S" break="no" n="40"/>nitentia destruit peccatum, de quo est, sed destruitur ab 
+      <lb ed="#S" n="41"/>illo, de quo non est. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

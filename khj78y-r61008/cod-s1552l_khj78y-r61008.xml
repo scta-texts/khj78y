@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="500"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r61008"><!-- l4d49-q1 -->
+            <head xml:id="khj78y-r61008-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-r61008-Hd1e103" type="question-title">
+     utrum 
+     intellectus creatus possit 
+       videre Deum clare et immediate
+   </head>
+            <p xml:id="khj78y-r61008-d1e106">
+               <lb ed="#S" n="29"/>DIsTINCTIO 49 QVAESTIO. I. 
+    </p>
+            <p xml:id="khj78y-r61008-d1e111">
+               <lb ed="#S" n="30"/>CIrca. 49. Dist. quaeruntur octo. Primo, vtrum 
+       iu<lb ed="#S" break="no" n="31"/>tellectus creatus possit videre Deum. secundo, vtrum 
+      <lb ed="#S" n="32"/>beati videant omnia in Deo. Tertio, vtrum beatitudo con 
+      <lb ed="#S" n="33"/>sistat principaliter in visione. Quarto, vtrum Deus sit 
+      <lb ed="#S" n="34"/>obiectum fruitionis. Quinto, vtrum viatori possit 
+       com<lb ed="#S" break="no" n="35"/>municari visio intuitiua Dei. sexto, vtrum beatitudo per 
+      <lb ed="#S" n="36"/>resurrectionem augeatur. septimo, vtrum omnes &amp; de 
+      <lb ed="#S" n="37"/>necessitate appetant beatitudinem. Octauo, vtrum 
+       beati<lb ed="#S" break="no" n="38"/>tudo educatur de potentia creaturae. 
+    </p>
+            <p xml:id="khj78y-r61008-d1e133">
+               <lb ed="#S" n="39"/>De differentia mansionum in coelo &amp; in inferno. 
+    </p>
+            <p xml:id="khj78y-r61008-d1e139">
+               <lb ed="#S" n="40"/>Thom 4 Dist. 49. q. I. art. Lq. 4. 
+    </p>
+            <p xml:id="khj78y-r61008-d1e144">
+               <lb ed="#S" n="41"/>PRIMO ergo quaeritur, vtrum 
+      <lb ed="#S" n="42"/>intellectus creatus possit 
+       vide<lb ed="#S" break="no" n="43"/>re Deum clare &amp; immediate. 
+      <lb ed="#S" n="44"/>Et videtur quod non, quia plus 
+       di<lb ed="#S" break="no" n="45"/>stat essentia diuina ab 
+       intelle<lb ed="#S" break="no" n="46"/>ctu creato quocunque, quae distat 
+      <lb ed="#S" n="47"/>substantia separata a sensu 
+       no<lb ed="#S" break="no" n="48"/>stro: sed nulla virtute potest fieri 
+      <lb ed="#S" n="49"/>quod sensus noster cognoscat substantias separatas: ergo 
+       nul<lb ed="#S" break="no" n="50"/>la virtute potest fieri quod intellectus noster videat diuinam 
+      <lb ed="#S" n="51"/>essentiam. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r61008-d1e170" n="3">
+      <!-- 3 -->Contra, quia omnis potentia po 
+      <lb ed="#S" n="52"/>test tendere per actum suum in omne illud in quo inue 
+      <lb ed="#S" n="53"/>nitur ratio per se obiecti sui: sed ratio formalis obiecti 
+      <lb ed="#S" n="54"/>intellectus est ens secundum quod ens secundum Auic. quae 
+      <lb ed="#S" n="55"/>ratio potissime inuenitur in Deo: ergo videtur quod 
+       intel<lb ed="#S" break="no" n="56"/>lectus creatus propria virtute possit attingere ad intelli 
+      <lb ed="#S" n="57"/>gendum Deum secundum se. Respondeo, ad huius 
+       quae<lb ed="#S" break="no" n="58"/>stionis euidentiam sunt tria videnda. Primo, quod Deus ex 
+      <lb ed="#S" n="59"/>puris naturalibus ab intellectu creato videri non potest. 
+      <lb ed="#S" n="60"/>secundo, quod non potest clare videri per speciem. Tertio, quod 
+      <lb ed="#S" n="61"/>non potest videri sine lumine habituali de potentia ordi- 
+      <!--0500.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="62"/>nata, quamuis possit de potentia absoluta.
+    </p>
+            <p xml:id="khj78y-r61008-d1e203" n="4">
+      <!-- 4 -->Quantum 
+      <lb ed="#S" n="63"/>ad primum, vtrum Deus possit videri ex puris naturali 
+      <lb ed="#S" n="64"/>bus sunt quatuor conclusiones, &amp; tres instantiae.
+    </p>
+            <p xml:id="khj78y-r61008-d1e212" n="5">
+      <!-- 5 -->Pri 
+      <lb ed="#S" n="65"/>ma conclusio est, quod illud quod est proprium superioris 
+      <lb ed="#S" n="66"/>naturae tanquam per se &amp; primo ei conueniens, se habet tripli 
+      <lb ed="#S" n="67"/>citer ad inferiorem naturam: vno modo sic, quod secundum 
+      <lb ed="#S" n="68"/>esse debilissimum ei conueniat per naturam: alio modo vt 
+      <lb ed="#S" n="69"/>secundum esse magis perfectum ei conueniat per motum 
+      <lb ed="#S" n="70"/>illius: tertio modo secundum esse perfectissimum: &amp; sic non 
+      <lb ed="#S" n="71"/>est ei communicabile nisi communicaretur natura, sicut aer quidem 
+      <lb ed="#S" n="72"/>ex natura sua est tepide calidus, sed ab igne fitferuide 
+       ca<lb ed="#S" break="no" n="73"/>lidus: non autem calidissimus nisi fieret ignis: &amp; sic intelle 
+      <lb ed="#S" n="74"/>ctuscreatus per naturam cognitiuus est Dei quantum ad 
+      <lb ed="#S" n="75"/>quia est: sed per lumen gloriae nudae videndo: nullo 
+       au<lb ed="#S" break="no" n="76"/>tem modo compraehendendo, nisi deificaretur, quod est 
+      <lb ed="#S" n="77"/>impossibile.
+    </p>
+            <p xml:id="khj78y-r61008-d1e245" n="6">
+      <!-- 6 -->secunda conclusio est, quod est duplex ob 
+      <lb ed="#S" n="78"/>iectum cognitiuae potentiae: vnum quidem commune 
+       in<lb ed="#S" break="no" n="79"/>quantum est potentia: aliud autem proprium inquantum est 
+      <lb ed="#S" n="80"/>talis potentia: sicut obiectum visus inquantum est 
+       poten<lb ed="#S" break="no" n="81"/>tia sensitiua est sensibile commune: inquantum vero talis 
+      <lb ed="#S" n="82"/>potentia sensitiua obiectum eius est tale sensibile: puta 
+      <lb ed="#S" n="83"/>lux vel color, &amp; similiter obiectum intellectus vt intelle 
+      <lb ed="#S" n="84"/>ctus est ens: vt autem coniunctus ens materiale, sicut 
+       er<lb ed="#S" break="no" n="85"/>go sensus particularis mediante sensibili proprio non ali 
+      <lb ed="#S" n="86"/>ter cognoscit sensibile commune: quamuis non sit 
+       discursi<lb ed="#S" break="no" n="87"/>uum: sic &amp; multo magis intellectus discursiuus median 
+      <lb ed="#S" n="88"/>te obiecto proprio: primo potest cognoscere aliqualiter su 
+      <lb ed="#S" n="89"/>um commune: sicut intellectus possibilis per quidditatem 
+      <lb ed="#S" n="90"/>materialem quae est obiectum suum proprium, vt est 
+       coniun<lb ed="#S" break="no" n="91"/>ctus. tertio de anima cognoscit: quia est substantiae sepa 
+      <lb ed="#S" n="92"/>ratae &amp; Dei &amp; quia gratia perficit naturam: ideo lumen 
+      <lb ed="#S" n="93"/>gratuitum facit cognoscere nude &amp; clare Deum: non tamen 
+       con<lb ed="#S" break="no" n="94"/>praehensiue, quia plus se habet ad esse quam intellectus 
+       no<lb ed="#S" break="no" n="95"/>ster ad verum.
+    </p>
+            <p xml:id="khj78y-r61008-d1e290" n="7">
+      <!-- 7 -->Tertia conclusio est, quod cum potentiae 
+      <lb ed="#S" n="96"/>distinguantur per obiecta propria, intellectus creatus &amp; 
+      <lb ed="#S" n="97"/>increatus qui differunt plus genere, non habent idem ob 
+      <lb ed="#S" n="98"/>iectum proprium, nec similiter intellectus humanus &amp; 
+      <lb ed="#S" n="99"/>angelicus qui differunt specie sicut homo &amp; angelus, quia 
+      <lb ed="#S" n="100"/>sunt propriae passiones eorum: vnde licet ens vt ens sit 
+      <lb ed="#S" n="101"/>obiectum proprium intellectus vt intellectus est: tamen 
+       intel<lb ed="#S" break="no" n="102"/>lectus vt talis intellectus erit proprium obiectum, ens vt 
+      <lb ed="#S" n="103"/>tale ens. scilicet proportionatum: sicut obiectum intellectus illimi 
+      <lb ed="#S" n="104"/>tati est ens sine determinatione: sed obiectum intellectus 
+      <lb ed="#S" n="105"/>angelici est ens creatum, &amp; intellectus coniuncti ens mate 
+      <lb ed="#S" n="106"/>riale: vnde quando intellectus coniunctus cognoscit substan 
+      <lb ed="#S" n="107"/>tiam separatam cognoscit vno modo suum obiectum: alte 
+      <lb ed="#S" n="108"/>ro modo non, quia. scilicet suum obiectum commune, sed non pro 
+      <lb ed="#S" n="109"/>prium: vnde non cognoscit perfecte de se.
+    </p>
+            <p xml:id="khj78y-r61008-d1e325" n="8">
+      <!--8 -->Quarta 
+       con<lb ed="#S" break="no" n="110"/>clusio est, quod differentia est inter habitus naturales qui non 
+      <lb ed="#S" n="111"/>dant facultatem quantum ad substantiam, nec quantum ad 
+       ob<lb ed="#S" break="no" n="112"/>iectum nec quantum ad actum: &amp; habitus supernaturales 
+      <lb ed="#S" n="113"/>viae &amp; patriae qui dant facultatem vel respectu finis vt in 
+      <lb ed="#S" n="114"/>via: nam dilectio meritoria non habet aliud obiectum, 
+      <lb ed="#S" n="115"/>nec actum quam naturalis, sed habet alium finem de condigno 
+      <lb ed="#S" n="116"/>quam naturalis, vel respectu actus vt in patria &amp; si non respe 
+      <lb ed="#S" n="117"/>ctu obiecti, quia est idem obiectum hic &amp; ibi: sed quo ad 
+      <lb ed="#S" n="118"/>actum in quo est essentia beatitudinis. Cum enim 
+       prae<lb ed="#S" break="no" n="119"/>mium incomparabiliter excedat meritum, quia oculus non 
+      <lb ed="#S" n="120"/>vidit &amp;c. ea autem quae sunt eiusdem speciei sint 
+       comparabi<lb ed="#S" break="no" n="121"/>lia proprie &amp; quantitatiue: oportet quod intelligere 
+       merito<lb ed="#S" break="no" n="122"/>rium differat specie etiam quo ad substantiam actus ab 
+       in<lb ed="#S" break="no" n="123"/>telligere beatifico: quamuis facilius posset dici, quod habitus 
+      <lb ed="#S" n="124"/>supernaturales habent vim potentiae: quia ex hoc est 
+       ali<lb ed="#S" break="no" n="125"/>quid supernaturale, quia excedit facultatem naturae &amp; non 
+      <lb ed="#S" n="126"/>solum facilitatem.
+    </p>
+            <p xml:id="khj78y-r61008-d1e367" n="9">
+      <!-- 9 -->sed contrae dicta sunt tres 
+       instan<lb ed="#S" break="no" n="127"/>tiae. Prima contra illud quod dictum est de triplici obie 
+      <lb ed="#S" n="128"/>cto, quia visus aquilae, hominis, &amp; noctuae non habent 
+      <!--0501.xml-->
+      <pb ed="#S" n="501"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>diuersa obiecta propria formaliter, sed vnum quod est 
+       lu<lb ed="#S" break="no" n="2"/>cidum: licet in cognoscendo illud obiectum se habeant 
+      <lb ed="#S" n="3"/>diuersimode propter imperfectionem quae est ex parte 
+       co<lb ed="#S" n="4" break="no"/>gnoscentium. Philosophus enim. 2. de anima dicit colorem actu esse 
+      <lb ed="#S" n="5"/>obiectum visus absolute, non huius visus vel illius: 
+       er<lb ed="#S" break="no" n="6"/>go a simili de intellectu humano angelico &amp; diuino. 
+    </p>
+            <p xml:id="khj78y-r61008-d1e396" n="10">
+               <lb ed="#S" n="7"/>
+               <!-- 10 -->solutio, dicendum quod non est simile, quia visus istarum 
+      <lb ed="#S" n="8"/>trium non differunt specie cum habeant organa similis 
+      <lb ed="#S" n="9"/>speciei vt apparet ad, sensum: proprius autem actus fit in 
+      <lb ed="#S" n="10"/>propria materia: vnde diuersae potentiae habent diuersa 
+      <lb ed="#S" n="11"/>organa. sed contra istam apparentiam est: quia in mortuo &amp; 
+      <lb ed="#S" n="12"/>viuo apparent esse eadem organa: quae tamen differunt 
+      <lb ed="#S" n="13"/>specie, propter quod melius probatur quod potentiae istae vi 
+      <lb ed="#S" n="14"/>siuae sint eiusdem rationis, quia frustra est potentia quae 
+      <lb ed="#S" n="15"/>non reducitur ad actum: si ergo lux solis esset obiectum 
+      <lb ed="#S" n="16"/>visus noctuae: ille visus in tota specie noctuae 
+       frustrare<lb ed="#S" break="no" n="17"/>tur suo fine: si visus noctuae differret specie: cum tamen 
+      <lb ed="#S" n="18"/>natura saltem in pluribus consequatur finem suum: nunc 
+      <lb ed="#S" n="19"/>autem per hoc quod aliquis visus videt solem qui est eiusdem 
+      <lb ed="#S" n="20"/>speciei in omnibus, species sensus visus non est frustra 
+      <lb ed="#S" n="21"/>in natura, sed intellectus praedicti differunt specie &amp; 
+       ge<lb ed="#S" break="no" n="22"/>nere &amp; plus quam genere, vnde non est simile.
+    </p>
+            <p xml:id="khj78y-r61008-d1e435">
+      <!--11 -->secunda 
+      <lb ed="#S" n="23"/>instantia est contra id quod dictum est dilectionem Dei 
+       me<lb ed="#S" break="no" n="24"/>ritoria &amp; naturalem esse eiusdem speciei quo ad substantiam 
+      <lb ed="#S" n="25"/>actus, quia habitus distinguuntur per actus: si ergo actus 
+      <lb ed="#S" n="26"/>non differunt specie nec per consequens habitus: cum ergo 
+       cha<lb ed="#S" break="no" n="27"/>ritas differat specie ab amicitia acquisita qua Deus 
+       dili<lb ed="#S" break="no" n="28"/>gitur super omnia, ergo etiam actus differunt.
+    </p>
+            <p xml:id="khj78y-r61008-d1e453" n="12">
+      <!-- 12 -->Praeterea, 
+      <lb ed="#S" n="29"/>cum bonum non sit obiectum appetitus nisi vt cognitum vide 
+      <lb ed="#S" n="30"/>tur quod bonum diuinum, vt est obiectum charitatis, vt fide ap 
+      <lb ed="#S" n="31"/>praehensum, differat formaliter a seipso vt est naturaliter 
+      <lb ed="#S" n="32"/>cognitum, secundum quem modum est obiectum dilectionis na 
+      <lb ed="#S" n="33"/>turalis, &amp; sic etiam ex parte obiectorum differunt.
+    </p>
+            <p xml:id="khj78y-r61008-d1e470" n="13">
+      <!-- 13 -->
+       solu<lb ed="#S" break="no" n="34"/>tio, ad secundum dicendum, quod actus bonus &amp; malus in 
+       ge<lb ed="#S" n="35" break="no"/>nere moris, possunt esse eiusdem speciei in genere naturae: 
+       si<lb ed="#S" break="no" n="36"/>cut occidere latronem &amp; innocentem, &amp; econuerso differunt 
+      <lb ed="#S" n="37"/>in specie naturae qui non differunt in specie moris, vt muti 
+      <lb ed="#S" n="38"/>lare &amp; occidere iuste, cum vtrunque sit iustitiae 
+       vindicati<lb ed="#S" break="no" n="39"/>uae. Vnde dicendum, quod habitus non dat speciem actui 
+       quan<lb ed="#S" break="no" n="40"/>tum ad substantiam, sed solum quo ad efficaciam, quia nec 
+       habi<lb ed="#S" n="41" break="no"/>tus est nisi per modum actus, sicut accidens qui solum 
+       modifi<lb ed="#S" break="no" n="42"/>cat substantiam, &amp; non specificat eam: vnde &amp; circumstantiae 
+      <lb ed="#S" n="43"/>morales dicuntur esse extra substantiam actus. Vnde ad 
+       for<lb ed="#S" break="no" n="44"/>mam dicendum, quod habitus distinguunt per actus vel quo 
+      <lb ed="#S" n="45"/>ad substantiam, &amp; sic distinguuntur habitus viae &amp; patriae, 
+      <lb ed="#S" n="46"/>vel quo ad modum seu efficaciam &amp; sic distinguuntur habitus 
+      <lb ed="#S" n="47"/>viae supernaturales a naturalibus.
+    </p>
+            <p xml:id="khj78y-r61008-d1e505" n="14">
+      <!-- 14 -->Ad tertium 
+       di<lb ed="#S" break="no" n="48"/>cendum, quod diuersa ratio formalis obiecti ipsi intrinseca: 
+      <lb ed="#S" n="49"/>illa diuersificat habitus: non autem ratio quae est 
+       extrinse<lb ed="#S" break="no" n="50"/>ca obiecto, licet necessario concurrat ex parte potentiae, &amp; 
+      <lb ed="#S" n="51"/>talis est cognitio boni quae non est in ipso bono cognito 
+      <lb ed="#S" n="52"/>&amp; amato: sed in cognoscente &amp; amante, de hoc tamen alibi 
+       ple<lb ed="#S" n="53" break="no"/>nius dictum est.
+    </p>
+            <p xml:id="khj78y-r61008-d1e523" n="15">
+      <!-- 15 -->Quantum ad secundum de specie sunt 
+      <lb ed="#S" n="54"/>tres conclusiones.
+    </p>
+            <p xml:id="khj78y-r61008-d1e530" n="16">
+      <!-- 16 -->Prima de natura specici, quia non 
+      <lb ed="#S" n="55"/>est eiusdem rationis cum obiecto cuius est species, sicut 
+       pro<lb ed="#S" n="56" break="no"/>batum est. 1. lib. Dist. 3. &amp; patet per Philosophum. Primo de 
+       ani<lb ed="#S" n="57" break="no"/>ma: vbi exponens conem animi conceptionem simile simili 
+      <lb ed="#S" n="58"/>cognosci: dicit intelligi non de similitudine formali, quae 
+      <lb ed="#S" n="59"/>est per identitatem in natura specifica: vt sic oporteat 
+       ani<lb ed="#S" n="60" break="no"/>mam esse ex terra vt cognoscat terram &amp;c. sed virtuali quae 
+      <lb ed="#S" n="61"/>est per repraesentationem: sicut dicit quod lapis non est in 
+       ani<lb ed="#S" break="no" n="62"/>ma, sed spens lapidis: hanc autem speciem quae dicit fieri 
+       cogni<lb ed="#S" n="63" break="no"/>tionem siue sit actus ipse siue principium eius in eodem 
+       sub<lb ed="#S" break="no" n="64"/>iecto existens, non possumus dicere esse eiusdem speciei cum 
+       obie<lb ed="#S" n="65" break="no"/>cto prout ipsa est in intellectu, quia nihil subiectiue existens 
+      <lb ed="#S" n="66"/>in intellectu, siue sit spens, siue actus, siue habitus, potest esse 
+      <lb ed="#S" n="67"/>eiusdem speciei vel naturae cum re exteriori quam per eam intelli- 
+      <!--0501.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>gitur, siue sit substantia siue accidens. similiter species 
+      <lb ed="#S" n="69"/>quae est in sensu interiori non potest dici eadem specie cum re 
+      <lb ed="#S" n="70"/>cuius em spens: puta quod spens caloris &amp; odoris &amp; saporis &amp; soni 
+      <lb ed="#S" n="71"/>prout seruantur in memoria sint eiusdem rationis cum illis 
+      <lb ed="#S" n="72"/>quia huius qualitates impressae alieno subiecto &amp; extra 
+      <lb ed="#S" n="73"/>neo non remanent in absentia imprimentis, &amp; calor in 
+      <lb ed="#S" n="74"/>aqua, &amp; tanto minus quanto habent esse debilius. si 
+       er<lb ed="#S" break="no" n="75"/>go spes caloris esset calor imperfectus, tunc non posset 
+      <lb ed="#S" n="76"/>retineri in memoria: &amp; iterum quando pes calefit statim 
+      <lb ed="#S" n="77"/>estimatiua iudicat malum &amp; refugit: non tamen propter hoc 
+      <lb ed="#S" n="78"/>cerebrum calefit vbi est istud iudicium, &amp; species caloris 
+      <lb ed="#S" n="79"/>&amp; pari ratione spens quae est in sensu exteriori non est idem 
+      <lb ed="#S" n="80"/>cum qualitate sensibili.
+    </p>
+            <p xml:id="khj78y-r61008-d1e595" n="17">
+      <!-- 17 -->sed contra hoc arguunt 
+      <lb ed="#S" n="81"/>aliqui tripliciter, probantes quod species cognoscibilis est 
+      <lb ed="#S" n="82"/>eiusdem rationis specificae cum natura quam repraesentat. 
+      <lb ed="#S" n="83"/>Primo sic, sicut se habet lux in corpore luminoso ad 
+       lu<lb ed="#S" break="no" n="84"/>men causatum in medio: sic se videtur habere calor in 
+       cor<lb ed="#S" n="85" break="no"/>pore terminato ad speciem causatam in medio, quia sicut sub 
+      <lb ed="#S" n="86"/>iectum proprium lucis secundum suum esse perfectum est 
+      <lb ed="#S" n="87"/>corpus densum: vnde &amp; stella lucens dicitur esse densior 
+      <lb ed="#S" n="88"/>pars suae sphaerae, secundo coeli &amp; mundi: sic proprium sub 
+      <lb ed="#S" n="89"/>iectum coloris qui continet inse aliquid de natura 
+       lu<lb ed="#S" break="no" n="90"/>cis secundum perfectum suum esse est perspicuum 
+       termina<lb ed="#S" break="no" n="91"/>tum per opacum: subiectum autem vtriusque secundum esse 
+       im<lb ed="#S" n="92" break="no"/>perfectum est perspicuum non densum nec terminatum: 
+       pro<lb ed="#S" break="no" n="93"/>pter quod sicut se habet lux ad lumen, sic color ad speciem: 
+      <lb ed="#S" n="94"/>sed lux in corpore denso &amp; lumen in medio sunt eiusdem 
+      <lb ed="#S" n="95"/>rationis specificae licet differant in modo essendi secundum 
+      <lb ed="#S" n="96"/>rationem perfecti &amp; imperfecti propter diuersitatem 
+       subie<lb ed="#S" break="no" n="97"/>cti recipientis: ergo similiter calor in corpore terminato 
+      <lb ed="#S" n="98"/>&amp; spens eius in medio sunt eiusdem rationis specificae, licet 
+      <lb ed="#S" n="99"/>differant secundum perfectum &amp; imperfectum propter 
+       diuer<lb ed="#S" n="100" break="no"/>sitatem subiectorum recipientium.
+    </p>
+            <p xml:id="khj78y-r61008-d1e643" n="18">
+      <!-- 18 -->secundo sic. Actio omnium 
+      <lb ed="#S" n="101"/>sensibilium in medio &amp; organo est vniuoca: calor enim di 
+      <lb ed="#S" n="102"/>stans ad hoc vt sentiat oportet vt calefaciat medium vsque 
+      <lb ed="#S" n="103"/>ad organum, &amp; ipsummet organum vt experimur: &amp; idem est 
+      <lb ed="#S" n="104"/>de sapore &amp; quolibet alio sensibili: ergo a simili videtur 
+      <lb ed="#S" n="105"/>quod actio caloris in medium &amp; organum sit vniuoca: quod non 
+      <lb ed="#S" n="106"/>esset nisi calor &amp; sua species essent vnius rationis specisi 
+      <lb ed="#S" n="107"/>cae.
+    </p>
+            <p xml:id="khj78y-r61008-d1e664" n="19">
+      <!-- 19 -->Tertio sic, Alio modo repraesentatur res per 
+       me<lb ed="#S" break="no" n="108"/>dium cognitum &amp; alio modo per medium quod est ratio 
+       cogno<lb ed="#S" n="109" break="no"/>scendi: quia medium cognitum potest ducere in cognitionem 
+       alte<lb ed="#S" break="no" n="110"/>rius ratione cuiuscumque habitudinis, siue vt simile, siue vt 
+      <lb ed="#S" n="111"/>contrarium: siue vt causa, siue vt effectus, siue 
+       qualitercun<lb ed="#S" n="112" break="no"/>que aliter: sed medium quod est solum ratio cognoscendi non 
+      <lb ed="#S" n="113"/>ducit in cognitionem alterius vt videi, nisi ratione 
+       simili<lb ed="#S" break="no" n="114"/>tudinis: vnde &amp; similitudo dicitur per quandam 
+       expressio<lb ed="#S" break="no" n="115"/>nem: similitudo autem non est differentium secundum speciem: ergo 
+      <lb ed="#S" n="116"/>spens quae est medium quo res cognoscii &amp; quae dicitur similitudo 
+      <lb ed="#S" n="117"/>rei non differt secundum speciem are quam immediate 
+       repraesen<lb ed="#S" break="no" n="118"/>tat.
+    </p>
+            <p xml:id="khj78y-r61008-d1e693" n="20">
+      <!-- 20 -->sed sustinendo primam conclusionem potest 
+       respon<lb ed="#S" break="no" n="119"/>deri ad ista tria. Ad primum dicendum, quod non sequit qui si 
+      <lb ed="#S" n="120"/>lux quae est prima qualitas actiua se multiplicat secundum 
+      <lb ed="#S" n="121"/>idem specie, quod propter hoc qualitas vltima vel secunda 
+      <lb ed="#S" n="122"/>hoc possit. Et praeterea si ita esset lux in diaphano &amp; 
+       de<lb ed="#S" break="no" n="123"/>so eiusdem rationis &amp; non aliter, sicut spens in medio &amp; 
+       ob<lb ed="#S" break="no" n="124"/>iecto &amp; econuerso: tunc sicut lux non obstante esse imper 
+      <lb ed="#S" n="125"/>fecto est visibilis vel visu perceptibilis: percipii enim non 
+      <lb ed="#S" n="126"/>solum intellectu, sed &amp; sensu &amp; visu aer esse lucidus &amp; 
+      <lb ed="#S" n="127"/>non solum ipse sol, quia omnis lux cum sit eiusdem ratio 
+      <lb ed="#S" n="128"/>nis est visibilis a visu cuius obiecti rationem participat: si 
+      <lb ed="#S" n="129"/>ergo similiter species coloris esset color imperfectus, ipsa 
+      <lb ed="#S" n="130"/>etiam esset visibilis non solum in speculo vbi habet esse 
+       ter<lb ed="#S" break="no" n="131"/>minatum: imo etiam in medio ubi tamen nullo sensu potest 
+       perci<lb ed="#S" break="no" n="132"/>pi spens visibilis, sed solo intellectu.
+    </p>
+            <p xml:id="khj78y-r61008-d1e728" n="21">
+      <!-- 21 -->Ad secundum cum 
+      <lb ed="#S" n="133"/>dicitur, quod in omni sensu est actio vniuoca in medio &amp; 
+       or<lb ed="#S" break="no" n="134"/>gano, dicendum quod non est verum. Est enim qualitas sen 
+      <!--0502.xml-->
+      <pb ed="#S" n="502"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>sibilis quae indifferenter est elementi &amp; mixti: vt calor &amp; 
+      <lb ed="#S" n="2"/>frigus, quae sicut elementum se multiplicat 
+       subnantiasie<lb ed="#S" break="no" n="3"/>&amp; vniuoce, sic ista accidentaliter &amp; vniuoce: &amp; ita est de 
+      <lb ed="#S" n="4"/>sono qui ita natus est esse in atre simplicicut in 
+       min<lb ed="#S" break="no" n="5"/>propter quod se multiplicat etiam vniuoce: secus aute est 
+      <lb ed="#S" n="6"/>de qualitate visibili &amp; odorabili ae gustabili: aa eoior e 
+      <lb ed="#S" n="7"/>or &amp; sapor proprie sont qualitates secidi mint, que 
+      <lb ed="#S" n="8"/>etia in corpore simplci non sunt natae esse sabiedine, 
+      <lb ed="#S" n="9"/>nec secundu esse perfectum nec imperfectu: propter quod 
+      <lb ed="#S" n="10"/>sicut forma mixti inquantum huius non generat siul nma 
+      <lb ed="#S" n="11"/>le: non enim lapis generat lapidem, nec metaltum merai 
+      <lb ed="#S" n="12"/>lum, sicut ignis ignem, &amp; animatum animatumm fmniber 
+      <lb ed="#S" n="13"/>qualitates secundae mixti quae resultant ex mintione 
+       ou<lb ed="#S" break="no" n="14"/>atatum primarum, sicut forma mixti ex commixtione 
+       qua<lb ed="#S" break="no" n="15"/>tuor elementorum, non generat vniuoce, vt calor faciat 
+      <lb ed="#S" n="16"/>colorem qui non est nis in mirto vel a mirto puta 
+       no<lb ed="#S" break="no" n="17"/>be: &amp; similiter de sapore, non enim lingua fe saniaa nie 
+      <lb ed="#S" n="18"/>sapore quem saporat, quin potius ipsa existens amama in 
+      <lb ed="#S" n="19"/>dicat saporem dulcem amarum: non possunt aute enen 
+      <lb ed="#S" n="20"/>mul subiectiue in lingua dulcedo &amp; amaritudo: ieet 
+      <lb ed="#S" n="21"/>super corpus amarum possit poni aliud duste an 
+      <lb ed="#S" n="22"/>cedo spualiter non naturaliter immutabit organd con. 
+      <lb ed="#S" n="23"/>iunctum. Qund aute odor difundat realiter et, non 
+       e<lb ed="#S" break="no" n="24"/>qualitas odoris sit realiter in aere: sed corpora minat, 
+      <lb ed="#S" n="25"/>fumali euaporatione resoluta a toto corpore odorabil: 
+      <lb ed="#S" n="26"/>sparguntur per acrem: vbi aute illa deficiunt non potest esse 
+      <lb ed="#S" n="27"/>se vltra odor, sed tantu species odoris.
+    </p>
+            <p xml:id="khj78y-r61008-d1e802" n="22">
+      vn nna temian 
+      <lb ed="#S" n="28"/>cum dicit, quod repraesentat ex hoc quod est similitudo d non 
+      <lb ed="#S" n="29"/>econuerso, concedo, sed ipse actus est expressior similitu 
+      <lb ed="#S" n="30"/>do obiecti quam species si differat: nec tamen inter obietum e 
+      <lb ed="#S" n="31"/>actum est similitudo formalis, sed tantum virtualis, s 
+      <lb ed="#S" n="32"/>ent color in virtute lucis faciat speciem nobiliore se, se 
+      <lb ed="#S" n="33"/>certae qualitates sensibiles siue multiplicent se 
+       realite<lb ed="#S" break="no" n="34"/>vt calor, frigus, &amp; sonus, siue non faciunt in medio &amp; 
+       o<lb ed="#S" break="no" n="35"/>gano spem in virtute coeli non quae est lux: cum 
+       immu<lb ed="#S" break="no" n="36"/>tent in tenebris, sed aliqua alia nobis occulta. Aliquita 
+      <lb ed="#S" n="37"/>men dicunt sensibilem spem non esse nobiliorem q cuius es 
+      <lb ed="#S" n="38"/>apecies.
+    </p>
+            <p xml:id="khj78y-r61008-d1e828" n="23">
+      <!--23 -->secunda conclusio est de officio speciei in 
+      <lb ed="#S" n="39"/>via, de qua est probabile quod ipsa est necessaria ad 
+       repraesen<lb ed="#S" break="no" n="40"/>tandum obiectu, &amp; ad eliciendum actum &amp; 
+       determinan<lb ed="#S" break="no" n="41"/>dum, non autem suscipiendum. Primum patet. scilicet o 
+       specie<lb ed="#S" break="no" n="42"/>per se requirat vt sit obiectum praesens in ratione obiecti, 
+      <lb ed="#S" n="43"/>quia praesentia in cognitione sensitiua saltendirecta non 
+      <lb ed="#S" n="44"/>pot esse per immediatam propinquitate essentiae quantu 
+      <lb ed="#S" n="45"/>ad sensum exteriorem: quia sensibile positi super sensum 
+      <lb ed="#S" n="46"/>nonfacit sensum, nec in sensu interiori qui cognoscit 
+       ab<lb ed="#S" break="no" n="47"/>sentiam: sed potest esse in cognitione intellec:ina nua nus 
+       pe<lb ed="#S" break="no" n="48"/>ne potest ese presens omni intellectui in ratione obiect, 
+      <lb ed="#S" n="49"/>dun tn sit eleuatus &amp; essentia sua ipsi angelo: non aute 
+      <lb ed="#S" n="50"/>essentia animae coniunctae suo intellectui: eum 
+       ot<lb ed="#S" break="no" n="51"/>iectum sit res materialis: vnde in omni cognitione 
+       ai<lb ed="#S" break="no" n="52"/>requiritur praesentia per inhaerentiam 
+       representationis<lb ed="#S" break="no" n="53"/>quia ex quo non potest esse per essentiam obiecti requiritur 
+      <lb ed="#S" n="54"/>quod paliud repraesentet: ita quod sicut in actione realiter 
+       trace<lb ed="#S" break="no" n="55"/>ante oportet ponere realiter id i quod transit actio realiter: 
+      <lb ed="#S" n="56"/>nic &amp; intranseunte realiter secundu rationem: oportet 
+       obi<lb ed="#S" break="no" n="57"/>ctum esse praesens secundum intentionem: &amp; quia ante ac n 
+      <lb ed="#S" n="58"/>nem requiri prasentia obiecti terminantis actione per 
+      <lb ed="#S" n="59"/>se:ideo per se requirirspecies ad repraesentandum 
+       nuis<lb ed="#S" break="no" n="60"/>enim potentia potest agere nisi in suum obiectum: &amp; 
+       ono<lb ed="#S" break="no" n="61"/>tet praeexistere obiectum in quod agat aut praesens 
+       autre<lb ed="#S" break="no" n="62"/>praesentati. ideo &amp;c. secundi. scilicet p species requiratur ve 
+      <lb ed="#S" n="63"/>actiua non principaliter, sed instrumentaliter &amp; deie-. 
+      <lb ed="#S" n="64"/>minatiua: patet, quia sicut potentia animae vegetatius indi 
+      <lb ed="#S" n="65"/>get instrumento, puta calore ad omnia opera sua: scut vo 
+      <lb ed="#S" n="66"/>tentia cognitiua specie vt instrumento: &amp; plus, quia cum 
+      <lb ed="#S" n="67"/>agente vniuersali indeterminato oportet concunere 
+      <!--0502.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>parriculare determinatum: vnde cum intellectus agens 
+       si<lb ed="#S" break="no" n="69"/>potens omnia facere oportet concurrere aliquid 
+       deer<lb ed="#S" break="no" n="70"/>Qin tenmne hoc aute est obiectum determinatu, 
+       qui<lb ed="#S" break="no" n="71"/>plaantasmna no est eiut obiecti cin sit partieuaarer oaus 
+      <lb ed="#S" n="72"/>tet concurrere speciem intelligibile quae est vniuersale 
+       re<lb ed="#S" break="no" n="73"/>prusentatiue, &amp; sie fitintellectio: in potenti ante 
+       oraa<lb ed="#S" break="no" n="74"/>nica efficientia speciei est totaliter ab obieco &amp; R 
+      <lb ed="#S" n="75"/>pris ab oreano, quia spens coloria non excedit coiore, ded 
+      <lb ed="#S" n="76"/>est infra speciem, vel si excedit causai a bobiesto in veune 
+      <lb ed="#S" n="77"/>clus , efietia cognitionit est a poteeia sene ib ea 
+      <lb ed="#S" n="78"/>uersali agente, &amp; a specie instrumentasiter detem: narine 
+      <lb ed="#S" n="79"/>receptio ab organo vt organum est talis potetiz. vnde 
+       fe<lb ed="#S" break="no" n="80"/>endum p spens visibilis per se requirit ad visione, non aib 
+      <lb ed="#S" n="81"/>soluere, sed in comparatione ad obiectu natuna itet uoas 
+      <lb ed="#S" n="82"/>scendicut enim organitatio corporit en per fe nfni 
+      <lb ed="#S" n="83"/>sisgosuio organi et per sererpuisits 
+       que<lb ed="#S" break="no" n="84"/>operat, sed hoc est dupliciter. Vno modo absoiute ans 
+      <lb ed="#S" n="85"/>modo vt est operatioa mota priui ab obieto, fne e&amp; e 
+      <lb ed="#S" n="86"/>prins modo requiri non est operatio sine eo mue t? 
+      <lb ed="#S" n="87"/>cundo modo requirit est operatio: sed non ätaitabtene 
+      <lb ed="#S" n="88"/>sicut aer a sole quidem non potest rarefieri sina Da 
+      <lb ed="#S" n="89"/>ne, aa omnis virtutis naturae corpore quae est determina 
+      <lb ed="#S" n="90"/>Rud eni per se, &amp; primo estaliqua prima operties 
+      <lb ed="#S" n="91"/>se requisita er pare eius ad producenda teenaiier 
+      <lb ed="#S" n="92"/>tertium efecctu in paso, quod ti abalio agente poetee 
+      <lb ed="#S" n="93"/>ner iilum effecti sine primo: vnde aeri acidit a nami 
+      <lb ed="#S" n="94"/>netur ad hoc q rarefiat, quia de nocte abigne in 
+       sober<lb ed="#S" break="no" n="95"/>eale suciede rarefi, na ignis agit prims pereile lenaeered 
+      <lb ed="#S" n="96"/>aecidit si iluminare quantus ad hoc, seu respedo &amp;&amp; 
+      <lb ed="#S" n="97"/>lis per se requirit q aer iluminei ad ioe o &amp;, 
+      <lb ed="#S" n="98"/>le: &amp; smiliter in pposito, quia ila viue mer eed 
+      <lb ed="#S" n="99"/>Poo. iminediata, &amp; prima actio quius 
+       uu<lb ed="#S" break="no" n="100"/>coneetit sibi respectu obiecti cois alia vero que nele 
+      <lb ed="#S" n="101"/>ctu tutiut es non es prima: sea a aun guee 
+      <lb ed="#S" n="102"/>ri prima per se: sicut illuminare quod haber 
+       soneroe<lb ed="#S" break="no" n="103"/>cuucoi obiecti es eius prima actis, no pememec. cl 
+      <lb ed="#S" n="104"/>rumpere &amp;c. Vnde cum color secundu q huiusmodi sit mon. 
+      <lb ed="#S" n="105"/>duu dd'yt d ui tuut secuti acitdiu pbeneni', mun'tintin 
+       ni<lb ed="#S" break="no" n="106"/>tut in oeulo, vt sit in se factibilis a colore uu non 
+       eleil<lb ed="#S" break="no" n="107"/>tut ie se facere nis mediantespecie nec aliauia acio 
+       i<lb ed="#S" break="no" n="108"/>eie: vad e spvi viilil accicititiiooniabsoluts quia 
+       s<lb ed="#S" break="no" n="109"/>ese snespeciea Deo: sed per se requitit n' nha li, Pe 
+      <lb ed="#S" n="110"/>lour gerpis cendans, im colornihal si natus poi&amp; 
+      <lb ed="#S" n="111"/>nec principaliter nec aliter nihi mediate speteui nodei:
+    </p>
+            <p xml:id="khj78y-r61008-d1e995" n="24">
+               <lb ed="#S" n="112"/>
+               <!--24--> Tertiu: s pspens requirai vt determinatiua, a s 
+       no<lb ed="#S" break="no" n="113"/>rt actiua, patet, quia cu potetia cognitius feta' 
+       fe<lb ed="#S" break="no" n="114"/>sart &amp; es iere cognitione pon lun eminon' 
+       an<lb ed="#S" break="no" n="115"/>naliter oim sui generis ad hoc o determinema dI. Ges 
+      <lb ed="#S" n="116"/>t. ilan indiiee deteminite ne ilad et oi peue 
+       pe<lb ed="#S" break="no" n="117"/>se dled siiem a s non eliceretaggends net eipietiu 
+      <lb ed="#S" n="118"/>ti deminaret sicut dispositiones quae precedd bfn&amp;e 
+      <lb ed="#S" n="119"/>re foma in materia respectu sdli indeteim man ann? 
+      <lb ed="#S" n="120"/>minant eam ad talem formam, quam ta ne erta miitectt 
+      <lb ed="#S" n="121"/>tecipiunt. Et militer per hoc o spes repe eente 
+       den<lb ed="#S" break="no" n="122"/>mtu oui iue cognio ieere 
+      <lb ed="#S" n="123"/>possibili ab intllectu agete, lieiet vmono-nt. na l 
+      <lb ed="#S" n="124"/>teminatis &amp; lice specie non recipiat nesmier.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1029" n="25">
+               <lb ed="#S" n="125"/>
+               <!--25.--> Quartum, quod non requirai vt recipiat subiectiue acta 
+      <lb ed="#S" n="126"/>&amp;o puue cid ieut requiri uquitit d ecipiends fauts 
+      <lb ed="#S" n="127"/>re eeltur qputet quis tonc nula vintutepoisunt mon? 
+      <lb ed="#S" n="128"/>sesne sprcie visbil, nec inceligere ioe foue l 
+       tail<lb ed="#S" break="no" n="129"/>gl'vl: lieut net colts aut fpur ais eaiire 
+       daiel<lb ed="#S" break="no" n="130"/>que et prot a eiuu dispositio pasios, quod ed faliut 
+      <lb ed="#S" n="131"/>Ii e iuteut cequitiu e reee imnedate en nuilun 
+      <lb ed="#S" n="132"/>luitsts cog noscenai.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1051" n="26">
+      ip cantunis ugint neunt 
+      <lb ed="#S" n="133"/>ct Rine iuis si poitrenoiri vt repnin Euite au uet 
+      <lb ed="#S" n="134"/>ergo nec Deus potest facere p ipse vel asiui iidesoobie 
+      <!--0503.xml-->
+      <pb ed="#S" n="503"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>specie: quia cum potentia non possit in obiectum nisi 
+       reprae<lb ed="#S" break="no" n="2"/>sentatum, sicut Deus non potest facere quod voluntas amet 
+       bo<lb ed="#S" break="no" n="3"/>num nisi cognitum, quia bonum cognitum est suum obiectum 
+      <lb ed="#S" n="4"/>&amp; bonum secundum quod repraesentatur per cognitionem est 
+       ob<lb ed="#S" break="no" n="5"/>iectum appetitus cognitiui, sicut cognoscibile repraesenta 
+      <lb ed="#S" n="6"/>tum per speciem est obiectum potentiae cognitiuae: ergo nec 
+      <lb ed="#S" n="7"/>Deus potest facere quod potentia cognitiua cognoscat nisi per 
+      <lb ed="#S" n="8"/>speciem, quia hoc esset potentiam ferri in non obiectum. si di 
+      <lb ed="#S" n="9"/>catur quod non est simile, quia non bonum absolute, sed bonum 
+      <lb ed="#S" n="10"/>cognitum est obiectum voluntatis: ideo non potest in bonum 
+      <lb ed="#S" n="11"/>nisi cognitum, sed ens est obiectum intellectus: sicut color 
+       vi<lb ed="#S" break="no" n="12"/>sus secundum se &amp; non huius vt per speciem repraesentatur: quia 
+      <lb ed="#S" n="13"/>ipsa repraesentatio on est condictio obiecti: sed tamen per se re 
+      <lb ed="#S" n="14"/>quiritur ad hoc vt obiectum cognoscatur, sicut per se requiri 
+      <lb ed="#S" n="15"/>tur praesentatio conbustibilis comburenti ad 
+       combustio<lb ed="#S" break="no" n="16"/>nem: quamuis praesentia non sit potentia passiua 
+       corre<lb ed="#S" break="no" n="17"/>sporidens actiuae, non valet: quia nec similiter cognitio 
+      <lb ed="#S" n="18"/>est per se ratio appetibilitatis: quia prius appetitur res in 
+      <lb ed="#S" n="19"/>se quae cognoscitur quam cognitio rei, &amp; adhuc stat arg. quod sicut 
+      <lb ed="#S" n="20"/>nec Deus potest facere quod ignis agat nisi in combustibile 
+       si<lb ed="#S" break="no" n="21"/>bi praesentatum: sic nec poterit facere quod potentia 
+       cogniti<lb ed="#S" break="no" n="22"/>ua cognoscat nisi per speciem sibi repraesentatum.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1112" n="27">
+      <!-- 27 -->se 
+      <lb ed="#S" n="23"/>cundo sic arguit, si propter solum transitum actionis praeexi 
+      <lb ed="#S" n="24"/>gitur obiectu: ergo vbi non est transitus nisirationis: 
+       suf<lb ed="#S" break="no" n="25"/>ficit praesentia rationis: sed praesentia rationis, sicut omne 
+      <lb ed="#S" n="26"/>ens rationis est per solum actum rationis: ergo ad hoc quod ali 
+      <lb ed="#S" n="27"/>quid cognoscai sufficit ipsum esse praesens secundum actum 
+      <lb ed="#S" n="28"/>cognitionis, sicut cognitum cognoscenti. si dicat oportet 
+      <lb ed="#S" n="29"/>quod prius sit praesens, ante autem omnem cognitionem non potest es 
+      <lb ed="#S" n="30"/>se praesens per cognitionem. Contram de consensu interiori, 
+      <lb ed="#S" n="31"/>cui praesens est obiectum per cognitionem sensus exterioris, 
+      <lb ed="#S" n="32"/>&amp; intellectui per cognitionem phantasiae, &amp; sic non 
+       opor<lb ed="#S" break="no" n="33"/>tebit ponere speciem in sensu interiori nec in intellectu pos 
+      <lb ed="#S" n="34"/>sibili.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1143" n="28">
+      <!-- 28 -->Praeterea ad hoc quod angelus moueat corpus 
+      <lb ed="#S" n="35"/>non praeexistit aliqua alia praesentia, sed sufficit quod sit prae 
+      <lb ed="#S" n="36"/>sens sicut motor mobili, &amp; plus, quia ad hoc quod Deus cre 
+      <lb ed="#S" n="37"/>et non potest dici quod sit praesens rei quae non est, &amp; sic ad 
+       a<lb ed="#S" break="no" n="38"/>ctionem realem transeuntem non oportet esset praesentiam 
+       rea<lb ed="#S" break="no" n="39"/>lem, nisi quae est per ipsam actionem. scilicet causae ad effectum: 
+      <lb ed="#S" n="40"/>ergo nec similiter ad praesentiam obiecti in quod actio tram 
+      <lb ed="#S" n="41"/>sit secundum rationem, sed sufficit praesentia cogniti ad 
+       co<lb ed="#S" break="no" n="42"/>gnoscens. Et quod hoc sufficiat apparet, quia posita perfectiore 
+      <lb ed="#S" n="43"/>praesentia frustra ponitur imperfectior: perfectior autem 
+      <lb ed="#S" n="44"/>repraesentatio est per cognitionem quam per speciem, sicut &amp; ex 
+      <lb ed="#S" n="45"/>pressior similitudo. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1172" n="29">
+      <!-- 29 -->soluntio, dicendum est 
+      <lb ed="#S" n="46"/>ad primum, quod Deus non potest mouere potentiam nisi in su 
+      <lb ed="#S" n="47"/>um obiectum: sed bene potest mouere potentiam in 
+       obie<lb ed="#S" break="no" n="48"/>ctum non praesentatum: sed tantum actus terminatiuum, &amp; 
+      <lb ed="#S" n="49"/>posset facere diligi non cognitum a diligente, &amp; cognosci 
+      <lb ed="#S" n="50"/>non praesentatum.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1188" n="30">
+      <!-- 30 -->Ad secundum dicendum, quod ad 
+       o<lb ed="#S" break="no" n="51"/>mnem actionem praeexigitur praesentia obiecti in quam 
+      <lb ed="#S" n="52"/>transit secundum  proportionem effectus ad virtutem actiuam: vnde quando 
+      <lb ed="#S" n="53"/>effectus producit per solum intellectum &amp; voluntatem suffi 
+      <lb ed="#S" n="54"/>cit obiectum esse praesens in ratione cogniti &amp; voliti: ita 
+      <lb ed="#S" n="55"/>quod intelligere &amp; velle est facere: sed prius secundum 
+       ratio<lb ed="#S" break="no" n="56"/>nem &amp; naturam est intelligi quam fieri, quia per intelligere 
+      <lb ed="#S" n="57"/>fit, &amp; isto modo sufficit: &amp; oportet omne suscipiens actio 
+      <lb ed="#S" n="58"/>nem Dei &amp; angeli esse praesens Deo &amp; angelo: quando autem 
+      <lb ed="#S" n="59"/>agere est per qualitatem corporalem: oportet obiectum esse 
+      <lb ed="#S" n="60"/>praesens corporaliter &amp; situaliter siue localiter: quando autem 
+      <lb ed="#S" n="61"/>actio est per virtutem non naturae sed animae, oportet etiam 
+      <lb ed="#S" n="62"/>secundum conditionem naturae praesentiam esse obiecti: vnde 
+      <lb ed="#S" n="63"/>cum anima sit locus specierum &amp; cognoscat simile simili: 
+      <lb ed="#S" n="64"/>cum etiam secundum omnes potentias animae primum culuslibet 
+      <lb ed="#S" n="65"/>obiectum sit distans non coniunctum, oportet tamen obiectum esse per 
+      <lb ed="#S" n="66"/>aliquid immediatum potentiae, quia no est per essentiam: vnde 
+      <lb ed="#S" n="67"/>ga potentiae sensitiuae interiores sunt rerum absentium: &amp; etiam 
+      <!--0503.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>quandoque cessantibus actibus exteriorum sensuum habent 
+      <lb ed="#S" n="69"/>actus suos: oportet in eis praeexistere obiecta per 
+       reprae<lb ed="#S" break="no" n="70"/>sentationem speciei sensibilis: similiter in sensibus 
+       exterio<lb ed="#S" n="71" break="no"/>ribus in quibus sensibile positum supra sensum non facit 
+      <lb ed="#S" n="72"/>sensum: oportet similiter obiectum eis repraesentari per 
+      <lb ed="#S" n="73"/>speciem sensibilem: obiectum vero intellectus est vniuersale: 
+       vn<lb ed="#S" break="no" n="74"/>de praeter speciem &amp; actionem phantasticam requiritur spens 
+       in<lb ed="#S" break="no" n="75"/>telligibilis quae repraesentet vniuersale, &amp; hoc secundum 
+       cur<lb ed="#S" n="76" break="no"/>sum naturae, sed sicut Deus potest facere actionem realiter 
+       trans<lb ed="#S" n="77" break="no"/>euntem in obiectum quod non est praesens, nisi per ipsammet 
+      <lb ed="#S" n="78"/>actionem quam terminat, sicut creatio: natura autem suppo 
+      <lb ed="#S" n="79"/>nit subiectum in quod agit: sic Deus potest facere cognitio 
+      <lb ed="#S" n="80"/>nem &amp; amorem animae respectu alicuius obiecti: quod 
+      <lb ed="#S" n="81"/>non est pus amanti &amp; cognoscenti, nisi per hoc quod 
+       cogno<lb ed="#S" n="82" break="no"/>scatur vel amatur: natura autem hoc non potest, sed in 
+       cogno<lb ed="#S" break="no" n="83"/>scendo praesupponit speciem repraesentantem, in amando 
+       co<lb ed="#S" n="84" break="no"/>gnitionem repraesentantem.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1272" n="31">
+      <!-- 31 -->Tertia conclusio est de spe 
+      <lb ed="#S" n="85"/>cie in patria, quia non est spens in visione beata, quia si ibi 
+       es<lb ed="#S" break="no" n="86"/>set aut propter agere, aut propter recipere, aut propter 
+       re<lb ed="#S" n="87" break="no"/>praesentare, aut propter determinare, sed propter nihil 
+       ho<lb ed="#S" n="88" break="no"/>rum ibi requiritur. ergo frustra ponitur. Maior patet per 
+      <lb ed="#S" n="89"/>conclusionem praecedentem, quia spens non pontseruire ad 
+       co<lb ed="#S" n="90" break="no"/>gnitionem, nisi vno illorum modorum. Minor patet, quantum 
+      <lb ed="#S" n="91"/>ad singulas partes per ordinem. Primo, quod spens non est 
+       pri<lb ed="#S" break="no" n="92"/>ma quo ad visionem beatificam propter elicere actum 
+       acti<lb ed="#S" break="no" n="93"/>ue, tum quia Deus potest immediate efficere quicquid facit 
+      <lb ed="#S" n="94"/>mediante alio, tunc quia creatura aut non potest 
+       concrea<lb ed="#S" n="95" break="no"/>re, aut saltem non est sibi communicatum creare etiam 
+       instru<lb ed="#S" n="96" break="no"/>mentaliter, quomodo  oportet quod producatur beatitudo, quae est 
+      <lb ed="#S" n="97"/>quid supernaturalissimum, tum etiam quia illo posito Deus 
+      <lb ed="#S" n="98"/>non immediate per seipsum beatificaret. secundo, non re 
+      <lb ed="#S" n="99"/>quiriturad disponendum pastiue, quia Deus potest imprimere 
+      <lb ed="#S" n="100"/>perfectionem sine omni dispofitione quae non est vniuersa 
+      <lb ed="#S" n="101"/>liter &amp; per se receptiua ipsius quod dico: quia non potest 
+       ali<lb ed="#S" n="102" break="no"/>cui imprimere figuram sine quantitate, sed sine mollitie &amp; 
+      <lb ed="#S" n="103"/>omni huiusmodi: spens autem cognoscibilis nor, sic per se est 
+       su<lb ed="#S" break="no" n="104"/>sceptiua cognitionis sicut est ipsa potentia cognitiua, tum 
+      <lb ed="#S" n="105"/>quia non posset esse in aliquo cognitio vbi non esset 
+       spe<lb ed="#S" n="106" break="no"/>cies: sicut vbi non est potentia cognitiua: cum tamen in Deo 
+      <lb ed="#S" n="107"/>sit cognitio sine specie: non tamen sine intellectu &amp; in 
+       ange<lb ed="#S" break="no" n="108"/>lo respectu sui, tum quia in sensu apparet quod alia ratione 
+      <lb ed="#S" n="109"/>recipit cognitionem: puta quia potens cognoscere per po 
+      <lb ed="#S" n="110"/>tentiam alia ratione spento: puta secundum dispositionem 
+       or<lb ed="#S" break="no" n="111"/>gani communem cum medio: non est ergo spens visibilis 
+       re<lb ed="#S" n="112" break="no"/>ceptiua in oculo visionis, eo modo quo quantitas in 
+       sub<lb ed="#S" break="no" n="113"/>stantia recipit colorem vel figuram, quia tunc species in 
+      <lb ed="#S" n="114"/>medio posset recipere visionem sicut in oculo, sicut 
+       quan<lb ed="#S" break="no" n="115"/>titas vbicunque indifferenter recipit figuram &amp; colorem 
+      <lb ed="#S" n="116"/>sit. Tertio, non requiritur ad repraesentandum, tum quia 
+      <lb ed="#S" n="117"/>beatitudo patriae quae est de praesentia Dei non potest esse 
+      <lb ed="#S" n="118"/>per illud repraesentatiuum, quod aequaliter est praesentis &amp; 
+      <lb ed="#S" n="119"/>absentis, existentis &amp; non existentis: huiusmodi autem est species. 
+      <lb ed="#S" n="120"/>ergo &amp;c. tum quia contractio ad esse limitatum plus distat 
+      <lb ed="#S" n="121"/>ab esse illimitato, quae contractio ad esse coniunctum 
+       ma<lb ed="#S" break="no" n="122"/>teriae a separatis a materia, &amp; contractio ad hic &amp; nunc 
+      <lb ed="#S" n="123"/>ad esse vniuersale: sed propter hoc spens sensibilis non 
+       re<lb ed="#S" break="no" n="124"/>praesentat vniuersale, nec intelligibilis accepta a 
+       phan<lb ed="#S" break="no" n="125"/>tasmatibus directe potest repraesentare intellectui 
+       coniun<lb ed="#S" break="no" n="126"/>cto quidditatem substantiae separatae: ergo multo minusspe 
+      <lb ed="#S" n="127"/>cies creata potest repraesentare quidditatem increatam. si di 
+      <lb ed="#S" n="128"/>catur quod simili modo actu creato non potest Deus 
+       vide<lb ed="#S" break="no" n="129"/>ri nec repraesentari, quia ille indifferenter est praesentis 
+      <lb ed="#S" n="130"/>&amp; absentis &amp; limitatus, non est simile. quia actus non est 
+      <lb ed="#S" n="131"/>repraesentare, sed ferri in repraesentatum, &amp; tunc est imper 
+      <lb ed="#S" n="132"/>fectus: vel in praesens actu, &amp; tunc est perfectus: vnde non 
+      <lb ed="#S" n="133"/>facit repraesentationem sicut spens: sed supponit eam cum 
+      <lb ed="#S" n="134"/>praesentia obiecti praecedat actum potentiae cognitiuae: etiam in 
+      <!--0504.xml-->
+      <pb ed="#S" n="504"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Deo in quo tamen non praecedit obiectum actum 
+       poten<lb ed="#S" break="no" n="2"/>tiae operatiuae. Quarto, non requiritur ad 
+       determinan<lb ed="#S" break="no" n="3"/>dum, quia licet Deus sit agens vniuersale: tamen seipsum 
+      <lb ed="#S" n="4"/>determinat: vnde illius obiecti determinate cognitionem 
+      <lb ed="#S" n="5"/>imprimit, cuius vult vel sui vel alterius: propter quod 
+      <lb ed="#S" n="6"/>non indiget in suo passiuo determinante alio: sicut 
+       in<lb ed="#S" break="no" n="7"/>diget coelum vel intellectus agens: visio autem beata est 
+      <lb ed="#S" n="8"/>a solo Deo effectiue, saltem principaliter: vnde nec pro 
+      <lb ed="#S" n="9"/>pter hoc speciem requirit.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1411" n="32">
+      <!-- 32 -->Quantum ad tertium de lu 
+      <lb ed="#S" n="10"/>mine sunt duae conclusiones.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1418" n="33">
+      <!-- 33 -->Prima, quod ad 
+       viden<lb ed="#S" break="no" n="11"/>dum Deum clare &amp; beatifice requiritur lumen in 
+       intelle<lb ed="#S" break="no" n="12"/>ctu habituale de potentia Dei ordinata, &amp; quod ita est de 
+       fa<lb ed="#S" break="no" n="13"/>cto, &amp; haec communis opinio quae probatur tripliciter. Pri 
+      <lb ed="#S" n="14"/>mo, quod sit congruum, quod omne quod videtur in lumine videtur: 
+      <lb ed="#S" n="15"/>&amp; hoc est naturale intellectui vt in lumine intellectus 
+      <lb ed="#S" n="16"/>agentis qui est habitus vt lumen videat quicquid videt: 
+      <lb ed="#S" n="17"/>vnde quia gratia non destituit, sed perficit naturam: ideo 
+      <lb ed="#S" n="18"/>mediante habitu luminis congruum est intellectum beatifi 
+      <lb ed="#S" n="19"/>cari. secunda ratio est quasi eadem sic gratia perficit natu 
+      <lb ed="#S" n="20"/>ram secundum modum eius, quia ergo voluntas &amp; 
+       intelle<lb ed="#S" break="no" n="21"/>ctus nata sunt perfici actu perfectissimo mediante habi 
+      <lb ed="#S" n="22"/>tu quo fit eis connaturalis actus: inde est quod isto modo in 
+      <lb ed="#S" n="23"/>beatitudine supernaturali perficitur quasi naturaliter 
+      <lb ed="#S" n="24"/>perficeretur: quod esset per habitum supremum, puta 
+       sapi<lb ed="#S" break="no" n="25"/>entiae. Tertio, ex hoc quod charitas nunquam excidit mirum 
+      <lb ed="#S" n="26"/>est valde, quod in intellectu sit actus perfectus sine habitu si in 
+      <lb ed="#S" n="27"/>voluntate esse non potest, quia voluntas est magis 
+       determi<lb ed="#S" break="no" n="28"/>nata quam intellectus: propter quod omnes ponunt in intel 
+      <lb ed="#S" n="29"/>lectu habitus, sed in voluntate aliqui non ponunt: quia 
+      <lb ed="#S" n="30"/>determinato intellectu determinatur voluntas 
+       necessa<lb ed="#S" break="no" n="31"/>rio: si ergo in patria non potest esse fruitio in voluntate si 
+      <lb ed="#S" n="32"/>ne habitu charitatis: saltem de potentia ordinata, multo 
+      <lb ed="#S" n="33"/>magis nec visio in intellectu sine lumine gloriae.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1473" n="34">
+      <!-- 34 -->se 
+      <lb ed="#S" n="34"/>cunda conclusio est, quod de potentia Dei absoluta posset es 
+      <lb ed="#S" n="35"/>se sine habitu, quod patet dupliciter. Primo, quia quaedam 
+      <lb ed="#S" n="36"/>est dispositio susceptiua mediante qua aliquid suscipitur 
+      <lb ed="#S" n="37"/>primo in illo, &amp; mediante illo in alio, &amp; sine ista non potest 
+      <lb ed="#S" n="38"/>esse receptio, sicut substantia non potest collocari nec figu 
+      <lb ed="#S" n="39"/>rari sine quantitate. Alia est dispositio ad bene 
+       recipien<lb ed="#S" break="no" n="40"/>dum, &amp; sine hac potest illud recipi: si tum ab agente possit 
+       il<lb ed="#S" break="no" n="41"/>lud imprimi, sicut mollities disponit ceram ad figuram 
+       si<lb ed="#S" break="no" n="42"/>ne qua Deus potest figurare ceram: &amp; similiter forma 
+       sub<lb ed="#S" break="no" n="43"/>stantialis requirit dispositiones in materia: non quibus 
+      <lb ed="#S" n="44"/>mediantibus necessario subiectiue recipiatur: cum in nu 
+      <lb ed="#S" n="45"/>da materia recipiat, sed quibus melius imprimatur, quia 
+      <lb ed="#S" n="46"/>agens naturale non est natum ipsam immediate 
+       attin<lb ed="#S" break="no" n="47"/>gere, licet ipsa sit nata immediate recipere. signum autem 
+      <lb ed="#S" n="48"/>huius differentiae est, quia quando dispositio susceptiua separa 
+      <lb ed="#S" n="49"/>tur, secum trahit formam ad quam disponit: sicut quantitas 
+      <lb ed="#S" n="50"/>in sacramento altaris secum trahit figuram &amp; colorem: non sic autem 
+      <lb ed="#S" n="51"/>trahit secum formam substantialem cuius non erat 
+       suscepti<lb ed="#S" break="no" n="52"/>ua: sed suscipientis dispositiua: &amp; similiter si separaretur 
+      <lb ed="#S" n="53"/>mollities non traheret secum figuram cerae, sed remaneret in 
+      <lb ed="#S" n="54"/>cera indurata: sic autem videtur esse in proposito, quia actus 
+      <lb ed="#S" n="55"/>recipitur immediate in intellectu non mediante specie, 
+      <lb ed="#S" n="56"/>nec habitu in ratione subiecti: vnde separata spens vel ha 
+      <lb ed="#S" n="57"/>bitus non potest esse subiectum intellectiois, quia nihil est sub 
+      <lb ed="#S" n="58"/>iectum intellectionis, nisi potentia intellectiua vel 
+       virtu<lb ed="#S" break="no" n="59"/>te eius: videtur ergo quod Deus possit intellectum figurare 
+      <lb ed="#S" n="60"/>omni intellectione sine specie vel habitu, sicut ceram 
+       si<lb ed="#S" break="no" n="61"/>ne mollitie: similiter lucem in quantitate sine diaphanei 
+      <lb ed="#S" n="62"/>tate &amp; speciem coloris in diaphano sine luce.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1541" n="35">
+      <!-- 35 -->Praeter 
+      <lb ed="#S" n="63"/>ea oportet duorum accidentium praecedentium respectu 
+       ter<lb ed="#S" break="no" n="64"/>tij alterum esse subiectum immediatu, alterum remotum 
+      <lb ed="#S" n="65"/>vel primum immediatum: omne autem receptibile est 
+       poten<lb ed="#S" break="no" n="66"/>tia ad suum receptiuum: vnde si actus reciperetur in 
+       poten<lb ed="#S" break="no" n="67"/>tia mediante habitu vel specie, oporteret quod illa diceretur 
+      <!--0504.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>potentia intellectiua magis quam ipse intellectus, quia 
+       po<lb ed="#S" break="no" n="69"/>tentia propinqua verius dicitur potentia quam remota. 9. Me 
+      <lb ed="#S" n="70"/>taph.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1567" n="36">
+      <!-- 36 -->Praeterea, omnis potentia passiua potest de se re 
+      <lb ed="#S" n="71"/>duci in actum respectu omnis sui obiecti si habeat 
+       suffi<lb ed="#S" break="no" n="72"/>cientem potentiam actiuam: potentia enim passiua dicitur 
+       im<lb ed="#S" break="no" n="73"/>mediate solum ad duo. sad actum quem recipit, &amp; ad 
+       po<lb ed="#S" break="no" n="74"/>tentiam actiuam a qua recipit: est enim principium 
+       transmu<lb ed="#S" break="no" n="75"/>tandi ab alio: sed intellectus cuius obiectum est ens, est 
+      <lb ed="#S" n="76"/>potentia ad obiectum, quod est ens diuinum, quia cum ha 
+      <lb ed="#S" n="77"/>bitudo potentiae ad obiectum sit essentialis &amp; prima 
+       respe<lb ed="#S" break="no" n="78"/>ctu potentiae, impossi bile est quod per aliquid superueniens 
+      <lb ed="#S" n="79"/>fiat obiectum quod prius non erat obiectum: sed posito 
+       habi<lb ed="#S" break="no" n="80"/>tu gloriae Deus est obiectum intellectu secundum omnes: er 
+      <lb ed="#S" n="81"/>go ante habitum erat obiectum. si ergo potentia Dei non 
+      <lb ed="#S" n="82"/>est insufficiens in agendo potentia intellectiua poterit 
+       im<lb ed="#S" break="no" n="83"/>mediate intelligere respectu cuiuscumq,. Vnde est 
+       aduer<lb ed="#S" break="no" n="84"/>tendum quod tendentia ip obiectum proprium bene potest impe 
+      <lb ed="#S" n="85"/>diri, vel propter indispositionem passiui, vel propter 
+       im<lb ed="#S" break="no" n="86"/>perfectionem actiui: sicut idem est obiectum animae 
+       sepa<lb ed="#S" break="no" n="87"/>ratae &amp; coniunctae cum sit potentia eiusdem rationis: &amp; ta 
+      <lb ed="#S" n="88"/>men quia modus operandi sequitmodum essendi: potest 
+      <lb ed="#S" n="89"/>aliquid cognoscere separata, quod non potest coniuncta: 
+      <lb ed="#S" n="90"/>&amp; illud erat ex defectu actiui &amp; passiui. Potest etiam im 
+      <lb ed="#S" n="91"/>pediri ex defectu solius actiui: vt si iuxta calefactihile 
+      <lb ed="#S" n="92"/>summe dispositum ponatur minimum calefactiuum: quod vix 
+      <lb ed="#S" n="93"/>se potest saluare non autem multiplicare: sicutanimata 
+       sem<lb ed="#S" break="no" n="94"/>per nutriuntur quae non semper possunt generare: tamen 
+       fru<lb ed="#S" break="no" n="95"/>stra est potentia quae non potestreduci ad actum: necest 
+      <lb ed="#S" n="96"/>aliqua potentia passiua in naturacui non respondeat ali 
+      <lb ed="#S" n="97"/>qua actiua, in natura vel actore naturae: vnde nihil est 
+      <lb ed="#S" n="98"/>calefactibile quantumcunque indispositum quod non possit 
+      <lb ed="#S" n="99"/>calefieri a Deo. Vnde cum omnis potentia cognitiua sit 
+      <lb ed="#S" n="100"/>potentia ad cognoscendum omne quod cadit sub ratione 
+      <lb ed="#S" n="101"/>formali sui subiecti quam potentialitatem habet per 
+       essen<lb ed="#S" break="no" n="102"/>tiam, &amp; non ex aliquo habitu vel dispositione 
+       superue<lb ed="#S" break="no" n="103"/>niente: Deus esset imperfectae potentiae actiuae nisi nudam 
+      <lb ed="#S" n="104"/>potentiam posset reducere in actum ad quem est. 
+    </p>
+            <p xml:id="khj78y-r61008-d1e1646" n="37">
+               <lb ed="#S" n="105"/>
+               <!-- 37 -->sed contra hoc instant quidam quadrupliciter. Pri 
+      <lb ed="#S" n="106"/>mo sic, quia non est actus beatificus nisi sit connaturalis 
+      <lb ed="#S" n="107"/>perfectissimus &amp; supernaturalis: sed omnia huiusmodi 
+      <lb ed="#S" n="108"/>habet actus ex habitu quo fit connaturalis, &amp; est perfecti 
+      <lb ed="#S" n="109"/>or actus antequam post: sicut anima rationalis licet a Deo 
+      <lb ed="#S" n="110"/>creetur: quia tamen in naturali potentia materiae immedia 
+      <lb ed="#S" n="111"/>te infunditur, dicitur forma naturalis: ita &amp; beatitudo 
+      <lb ed="#S" n="112"/>si potentia nuda esset nata eam recipere, esset forma natu 
+      <lb ed="#S" n="113"/>ralis. sed ista non cogunt primum, quia non videt quod per 
+      <lb ed="#S" n="114"/>habitum supernaturalem &amp; non naturalem fiat actus 
+       conna<lb ed="#S" break="no" n="115"/>turalis, quia nullus dat alteri quod non habet, nec 
+       secun<lb ed="#S" break="no" n="116"/>dum, quia perfectionem habet actus ex habitu extrinsece: 
+      <lb ed="#S" n="117"/>vnde Deus potest illud supplere, tertium etiam probaret quod 
+      <lb ed="#S" n="118"/>habitus non esset supernaturalis, quia recipit in 
+       poten<lb ed="#S" break="no" n="119"/>tia nuda, nisi sit processus in infinitum.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1683" n="38">
+      <!-- 38 -->secundo 
+      <lb ed="#S" n="120"/>sic, agentis liberalissimi est communicare patienti omne il 
+      <lb ed="#S" n="121"/>lud cuius est capax: si ergo intellectus sine habitu est ca 
+      <lb ed="#S" n="122"/>pax beatitudinis de potentia absoluta: ergo liberalitas 
+      <lb ed="#S" n="123"/>diuina sine habitu eam communicat.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1696" n="39">
+      <!-- 39 -->Dicendum, q 
+      <lb ed="#S" n="124"/>agens liberalissimum communicat congruentiori modo, &amp; 
+      <lb ed="#S" n="125"/>non omni modo sibi possibili de potentia absoluta. Qui 
+      <lb ed="#S" n="126"/>enim potest saluare sine sacramentis aut sine incarnatione 
+      <lb ed="#S" n="127"/>aut facere omnes effectus sine causa media &amp; accidens 
+      <lb ed="#S" n="128"/>sine subiecto: maluit tamen sic ordinate ista facere pro 
+      <lb ed="#S" n="129"/>pter congruitatem non propter necessitatem.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1714" n="40">
+      <!-- 40 -->Tertio 
+      <lb ed="#S" n="130"/>sic, operari praesupponit esse, &amp; tali operari tale esse: ergo 
+      <lb ed="#S" n="131"/>operari supernaturale &amp; beatificum supponit esse super 
+      <lb ed="#S" n="132"/>naturale &amp; beatificum, sed beatitudo essentialiter est 
+       ope<lb ed="#S" break="no" n="133"/>ratio supernaturalis &amp; beatificata: esse autem est per actum 
+      <lb ed="#S" n="134"/>primum qui est habitus: ergo non potest esse beatitudo si- 
+      <!--0505.xml-->
+      <pb ed="#S" n="505"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ne habitu, sicut nec calefacere aquae sine calore inhaeren 
+      <lb ed="#S" n="2"/>tiae.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1740" n="41">
+      <!--41 -->solutio, operari passiue non praesupponit esse 
+      <lb ed="#S" n="3"/>in operante distinctum ab ipso opere correspondens 
+       il<lb ed="#S" break="no" n="4"/>li, sed in illo a quo est affectiue, sicut calere vel calefieri 
+      <lb ed="#S" n="5"/>aquae non praesupponit in aqua alium calorem 
+       disposi<lb ed="#S" break="no" n="6"/>tiuum ab illo a quo formaliter calet: sed in igne 
+       calefa<lb ed="#S" break="no" n="7"/>ciente sic: sed operari actiue in ipso quidem operante 
+       prin<lb ed="#S" break="no" n="8"/>cipaliter non praesupponit esse principiatiuum differens 
+      <lb ed="#S" n="9"/>&amp; correspondens: sicut prius est esse aquam calidam quam 
+      <lb ed="#S" n="10"/>calefaciat: in operante autem instrumentaliter non 
+       opor<lb ed="#S" break="no" n="11"/>tet ponere nisi esse motum.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1764" n="42">
+      <!-- 42 -->Et similiter in 
+       propo<lb ed="#S" break="no" n="12"/>sito si beatitudo est a solo deo effectiue: non oportet in 
+      <lb ed="#S" n="13"/>beatificato esse aliud a beatitudine beatificum vel super 
+      <lb ed="#S" n="14"/>naturale: sed in deo si autem sit a beato illa operatio 
+       effe<lb ed="#S" break="no" n="15"/>ctiue non est nisi instrumentaliter, cum in beato 
+       opor<lb ed="#S" break="no" n="16"/>teat praeintelligere quod moueatur a deo ad eliciendum 
+       il<lb ed="#S" break="no" n="17"/>lam actionem: sicut ad hoc quod phantasma causet speciem 
+       im<lb ed="#S" break="no" n="18"/>materialem &amp; spiritualem in virtute intellectus agentis 
+      <lb ed="#S" n="19"/>non oportet ipso formaliter aliquid praeesse 
+       immateria<lb ed="#S" break="no" n="20"/>le vel spirituale, nisi quod moueatur ab ipso intellectu 
+       agen<lb ed="#S" break="no" n="21"/>te, quod est ipsum cum intellectu agente agere minus 
+       prin<lb ed="#S" break="no" n="22"/>cipaliter.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1794" n="43">
+      <!-- 43 -->Quarto sic, non potest esse perfecta dele 
+      <lb ed="#S" n="23"/>ctatio in operatione alicuius potentiae, nisi 
+       praesupposi<lb ed="#S" break="no" n="24"/>to habitu, quia signum aggenerati habitus est fieri in 
+       ope<lb ed="#S" break="no" n="25"/>ratione delectationem. 2. Ethi. sed non est beatitudo 
+       per<lb ed="#S" break="no" n="26"/>fecta nisi adsit delectatio perfecta &amp; summa: ergo non 
+      <lb ed="#S" n="27"/>potest esse beatitudo perfecta sine habitu.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1810" n="44">
+      <!-- 44 -->
+       solu<lb ed="#S" break="no" n="28"/>tio, maior est vera, quando actus causatur ab agente 
+       im<lb ed="#S" break="no" n="29"/>perfecto non valente tollere difficultatem a potentia, 
+      <lb ed="#S" n="30"/>quae difficultas causat tristitiam, &amp; per consequens 
+       impe<lb ed="#S" break="no" n="31"/>dit delectationem oppositam.
+    </p>
+            <p xml:id="khj78y-r61008-d1e1823" n="45">
+      <!-- 45 -->Ad argumentum in 
+      <lb ed="#S" n="32"/>oppositum principale est dicendum, quod essentia diuina 
+      <lb ed="#S" n="33"/>non tantum distatab intellectu creato quantum ad pro 
+      <lb ed="#S" n="34"/>portionem cognoscentis &amp; cognoscibilis, quantum 
+       di<lb ed="#S" break="no" n="35"/>stat substantia separata a sensu, quia essentia diuina 
+       ca<lb ed="#S" break="no" n="36"/>dit sub formali ratione obiecti, quae est ens secundum 
+      <lb ed="#S" n="37"/>communem rationem entis: substantia vero separata non 
+      <lb ed="#S" n="38"/>cadit sub formali ratione obiecti sensus que est qualitas 
+      <lb ed="#S" n="39"/>sensibilis, quae non potest esse nisi in corpore. Per illud 
+      <lb ed="#S" n="40"/>etiam argumentum si valeret posset aequaliter probari, 
+      <lb ed="#S" n="41"/>quod deus non posset cognosci ab intellectu nostro 
+       cogni<lb ed="#S" break="no" n="42"/>tione confusa, sicut probatur quod non potest cognosci 
+       co<lb ed="#S" break="no" n="43"/>gnitione clara &amp; manifesta, quia cognitio sensus non se 
+      <lb ed="#S" n="44"/>extendit ad cognitionem substantiarum separatarum 
+      <lb ed="#S" n="45"/>quoquo modo: &amp; causa est, quia illae non cadunt sub for 
+      <lb ed="#S" n="46"/>mali ratione obiecti sensus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

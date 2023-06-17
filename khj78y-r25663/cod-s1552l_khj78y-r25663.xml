@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="398"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r25663"><!-- l4d37-q1 -->
+            <head xml:id="khj78y-r25663-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-r25663-Hd1e103" type="question-title">
+     utrum 
+       sacer ordo impediat matrimonium
+   </head>
+            <p xml:id="khj78y-r25663-d1e106">
+               <lb ed="#S" n="58"/>DIsTINCTIO. 37. QVAESTIO. I. 
+    </p>
+            <p xml:id="khj78y-r25663-d1e111">
+               <lb ed="#S" n="59"/>CIrca Distin. 37. quaeruntur duo. Primo, vtrum 
+       or<lb ed="#S" break="no" n="60"/>do impediat matrimonium. secundo, vtrum 
+       vxo<lb ed="#S" break="no" n="61"/>cidium impediat. 
+      <lb ed="#S" n="62"/>In quo ordine nequeat fieri coniugium. 
+    </p>
+            <p xml:id="khj78y-r25663-d1e122">
+               <lb ed="#S" n="63"/>Thom. 4. hac eandem Distinct.
+    </p>
+            <p xml:id="khj78y-r25663-d1e128">
+      <!--0398.xml-->
+               <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>PRIMO igitur quaerit, vtrum 
+       sa<lb ed="#S" break="no" n="65"/>cer ordo impediat matrimonium 
+      <lb ed="#S" n="66"/>&amp; videtur quod non, quia aut hoc esset 
+      <lb ed="#S" n="67"/>ratione ordinis aut ratione voti 
+      <lb ed="#S" n="68"/>annexi, aut ratione statuti 
+       eccle<lb ed="#S" break="no" n="69"/>siastici. Non ratione ordinis, quia 
+      <lb ed="#S" n="70"/>sic omnis ordo impediret: quod 
+      <lb ed="#S" n="71"/>non est verum de minoribus ordi 
+      <lb ed="#S" n="72"/>nibus: vt habetur. 28. Dist. De his. nec ratione voti 
+       an<lb ed="#S" break="no" n="73"/>nexi: quia tunc ordo &amp; vota non essent duo impedimenta 
+      <lb ed="#S" n="74"/>matrimonij, sed vnum: nec ratione statuti, quia 
+       matrimo<lb ed="#S" break="no" n="75"/>nium contractum contra interdictum ecclesiae non dirimitur, 
+      <lb ed="#S" n="76"/>&amp; sic ordo sacer licet impediret matrimonium 
+       contrahen<lb ed="#S" break="no" n="77"/>dum, saltem non dirimeret post contractum.
+    </p>
+            <p xml:id="khj78y-r25663-d1e165" n="3">
+      <!-- 3 -->Item nihil 
+      <lb ed="#S" n="78"/>impedit matrimonium, nisi quod habet oppositionem ad 
+       ma<lb ed="#S" break="no" n="79"/>trimonium, sed ordo nullam habet oppositionem ad 
+       matri<lb ed="#S" break="no" n="80"/>monium. ergo &amp;c. Probatio minoris, quia sicut virtus non op 
+      <lb ed="#S" n="81"/>ponit virtuti, sic nec sacramentum sacro, vt videt, vtrumque autem tam 
+      <lb ed="#S" n="82"/>matrimonium quam ordo sunt sacramentum.
+    </p>
+            <p xml:id="khj78y-r25663-d1e181" n="4">
+      <!-- 4 -->In contrarium est quod 
+      <lb ed="#S" n="83"/>dicitur in litera, &amp; habetur. 22. Dist. Placuit episcopos, pre 
+      <lb ed="#S" n="84"/>sbyteros, diaconos, subdiaconos secundum instituta ab 
+      <lb ed="#S" n="85"/>vxoribus abstinere, quod nisi fecerint abecclesiastico 
+       remo<lb ed="#S" break="no" n="86"/>ueantur officio. Caeteros vero clericos ad hoc non cogi.
+    </p>
+            <p xml:id="khj78y-r25663-d1e194" n="5">
+               <lb ed="#S" n="87"/>5 Respondeo, hic sunt tria videnda. Primo, de 
+       impe<lb ed="#S" break="no" n="88"/>dimento ordinis qui est sacramentum. secundo, de 
+       impe<lb ed="#S" break="no" n="89"/>dimento ordinis qui est religio. Tertio, incidenter de im 
+      <lb ed="#S" n="90"/>pedimento aetatis.
+    </p>
+            <p xml:id="khj78y-r25663-d1e205" n="6">
+      <!-- 6 -->Quantum ad primum sunt 
+       qua<lb ed="#S" break="no" n="91"/>tuor conclusiones.
+    </p>
+            <p xml:id="khj78y-r25663-d1e212" n="7">
+      <!-- 7 -->Prima de ordinibus non sacramentis: 
+      <lb ed="#S" n="92"/>quia ordo minor non impedit matrimonium contrahen 
+      <lb ed="#S" n="93"/>dum, nec dirimit, nec vsum eius de consuetudine cum eti 
+      <lb ed="#S" n="94"/>am coniugati dicant epistolas, quod etiam est absurdum. 
+      <lb ed="#S" n="95"/>Et licet contrabens cum vnica &amp; virgine retineat 
+       priuile<lb ed="#S" break="no" n="96"/>gium clericale si tonsuram &amp; vestes deferat clericales, 
+       ex<lb ed="#S" break="no" n="97"/>tra de cleri. coniu. c. vnico. lib. 6. non tamen retinet 
+       benefi<lb ed="#S" break="no" n="98"/>cium ecclesiasticum nec recipere potest. Non refert autem 
+      <lb ed="#S" n="99"/>vtrum vnum aut omnes minores ordines habeat. 
+       Dicun<lb ed="#S" break="no" n="100"/>tur autem minores ordines non sacri, quorum actus non 
+      <lb ed="#S" n="101"/>est tangere aliquod sacrum vt ostiarius, exorcista, lector, 
+      <lb ed="#S" n="102"/>acolythus.
+    </p>
+            <p xml:id="khj78y-r25663-d1e242" n="8">
+      <!-- 8 -->secunda conclusio est de ordinibus sacramentis, 
+      <lb ed="#S" n="103"/>qui suntdiaconatus, subdiaconatus, sacerdotium, quorum 
+      <lb ed="#S" n="104"/>quilibet impedit matrimonium contrahendum, &amp; dirimit 
+      <lb ed="#S" n="105"/>post contractum, non ratione voti annexi, sed statuti 
+       eccle<lb ed="#S" break="no" n="106"/>siae, extra. Qui clerici vel vouentes. c. Ex literarum. sed fis 
+      <lb ed="#S" n="107"/>irregularis de facto contrahens. Non autem econuerso 
+       ma<lb ed="#S" break="no" n="108"/>trimonium impedit ordinem, sed vxoratus semper recipis 
+      <lb ed="#S" n="109"/>characterem: si autem vxore consentiente, recipitetiam execu 
+      <lb ed="#S" n="110"/>tionem.
+    </p>
+            <p xml:id="khj78y-r25663-d1e264" n="9">
+      <!-- 9 -->Tertia conclusio est, quod ordinatus nunquam 
+      <lb ed="#S" n="111"/>potest debitum petere, sed tenetur reddere petenti qua inuita 
+      <lb ed="#S" n="112"/>vel ignorante ordinatus est, etiam ante consummationem, 
+      <lb ed="#S" n="113"/>in quo minus habet solemnitas ordinis quam religionis, si 
+       au<lb ed="#S" break="no" n="114"/>tem ea volente tenetur illa continere, quia manet vinculum, 
+      <lb ed="#S" n="115"/>nec potest nubere: non tamen tener religionem intrare, sed 
+      <lb ed="#S" n="116"/>nec expresse vouere: sed sufficit continere. Vel dicendum quod 
+      <lb ed="#S" n="117"/>quando volente vxore ad sacros ordines vir promouetur, ipsa 
+      <lb ed="#S" n="118"/>tenetur vouere. sed si ea non expresse consentiente sed 
+      <lb ed="#S" n="119"/>sciente, videtur quod non tener vouere, sed sufficit continere, 
+      <lb ed="#S" n="120"/>&amp; sic iura debēt intelligi quae hoc dicunt.
+    </p>
+            <p xml:id="khj78y-r25663-d1e290" n="10">
+      <!-- 10 -->Quarta 
+      <lb ed="#S" n="121"/>conclusio est, quod apud Graecos ordo similiter impedit con 
+      <lb ed="#S" n="122"/>trahendum, &amp; dirimit postea contractum, sed non vsum prius 
+      <lb ed="#S" n="123"/>contracti nisi ad horam ministerij, sicut olim tempore legis, nec 
+      <lb ed="#S" n="124"/>vxor eius post mortem contrahere debet nec potest: vnde 
+      <lb ed="#S" n="125"/>propter haec duo in quibus sibi paratur praeiudicium sine eius 
+      <lb ed="#S" n="126"/>consensu ad ordines accedere non debet.
+    </p>
+            <p xml:id="khj78y-r25663-d1e308">
+      <!--11 -->Quantum 
+      <lb ed="#S" n="127"/>ad secundum articulum de religione, sunttres conclusiones. 
+    </p>
+            <p xml:id="khj78y-r25663-d1e315">
+    </p>
+            <p xml:id="khj78y-r25663-d1e317" n="12">
+               <lb ed="#S" n="128"/>
+               <!-- 12 -->Prima quod professio facta in ordine approbato impe 
+      <lb ed="#S" n="129"/>dit matrimonium, &amp; dirimit post contractum: quia 
+       mor<lb ed="#S" break="no" n="130"/>tuus est mundo, si tamen de facto contrahit fit irregu- 
+      <!--0399.xml-->
+      <pb ed="#S" n="399"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>laris, sed de hoc magis videbitur in sequenti Dist. de voto. 
+    </p>
+            <p xml:id="khj78y-r25663-d1e338" n="13">
+               <lb ed="#S" n="2"/>
+               <!-- 13 -->secunda conclusio est, quod ordo qui est reprobatus si 
+      <lb ed="#S" n="3"/>fiat in eo professio, quia ipso iure est nulla: licet ratione 
+      <lb ed="#S" n="4"/>voti simplicis impediat matrimonium contrahendum: non 
+      <lb ed="#S" n="5"/>tamen dirimit post contractum, quia solenne votum quod 
+       di<lb ed="#S" break="no" n="6"/>rimit non est, nisi vel ordinis sacri, vel religionis 
+       appro<lb ed="#S" break="no" n="7"/>batae, vt dicit noua Decretalis.
+    </p>
+            <p xml:id="khj78y-r25663-d1e356" n="14">
+      <!-- 14 -->Tertia conclusio 
+      <lb ed="#S" n="8"/>est, quod secundum quosdam continentia est annexa differenter 
+      <lb ed="#S" n="9"/>ordini sacro, &amp; religioni siue professioni, illi quidem ex 
+       sta<lb ed="#S" break="no" n="10"/>tuto, isti ex voto: &amp; hoc supponendo quod ratione voti 
+       nul<lb ed="#S" break="no" n="11"/>lus obligatur nisi volens: qui autem sacrum ordinem recipit, 
+      <lb ed="#S" n="12"/>licet non intendat continere, nec etiam se ad continentiam ob 
+      <lb ed="#S" n="13"/>ligare, nihilominus tamen obligatur ad continentiam, &amp; etiam 
+      <lb ed="#S" n="14"/>in foro conscientiae si contrahat nullum est matrimonium, quia 
+      <lb ed="#S" n="15"/>ecclesia bene potest facere inhabilem ad matrimonium 
+       igno<lb ed="#S" break="no" n="16"/>rantem, &amp; inuitum, sicut seruum vel frigidum, &amp; huiusmodi. Et per 
+      <lb ed="#S" n="17"/>eandem rationem si ante annos discretionis aliquis sacrum 
+      <lb ed="#S" n="18"/>ordinem suscipiat ad continentiam obligatur, etiam si in cu 
+      <lb ed="#S" n="19"/>nis ordinaretur: supposito tamen qui characterem receperit, 
+      <lb ed="#S" n="20"/>quia obligatur statuto ecclesiae non voto suo. secus autem 
+      <lb ed="#S" n="21"/>est in illo qui profiter religionem, qui solum ratione voti ob 
+      <lb ed="#S" n="22"/>ligatur: vnde ante annos discretionis non obligat, tamen po 
+      <lb ed="#S" n="23"/>test etiam dici, quod professioni est annexa continentia 
+       ratio<lb ed="#S" break="no" n="24"/>ne staturi. Nam si quis profiteret non intendens 
+       conti<lb ed="#S" break="no" n="25"/>nere, nec etiam se ad continentiam obligare: dum tamen hoc non 
+      <lb ed="#S" n="26"/>exprimeret &amp; intenderet fieri religiosus: nullum esset matri 
+      <lb ed="#S" n="27"/>monium post contractum.
+    </p>
+            <p xml:id="khj78y-r25663-d1e404" n="15">
+      <!--15 -->Quantum ad tertium de 
+       impe<lb ed="#S" break="no" n="28"/>dimento aetatis, sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-r25663-d1e411" n="16">
+      <!-- 16 -->Prima, quod 
+       ma<lb ed="#S" break="no" n="29"/>trimonium carnale non potest contrahi ante pubertatem. Est 
+      <lb ed="#S" n="30"/>autem pubertas in masculo. 14. annorunt foemina. 12. tamen si 
+      <lb ed="#S" n="31"/>non distent plusquam per sex menses, vel malitia suppleat 
+      <lb ed="#S" n="32"/>aetatem, &amp; possint carnaliter commisceri tenet matrimoni 
+      <lb ed="#S" n="33"/>um contractum, extra de spon. impuberum. c. Puberes. 
+       Cau<lb ed="#S" break="no" n="34"/>sa autem quare plus requirit in dein tempore masculo, quam foe 
+      <lb ed="#S" n="35"/>mina est, quia mulier citius est viripotens quam vir mulieris, 
+      <lb ed="#S" n="36"/>&amp; plura requirunt ad agendum quam ad patiendum. In sponsa 
+      <lb ed="#S" n="37"/>libus autem est eadem aetas vtriusque. scilicet septemnij vt dictum fuit. 
+      <lb ed="#S" n="38"/>27. Dist.
+    </p>
+            <p xml:id="khj78y-r25663-d1e437" n="17">
+      <!-- 17 -->secunda conclusio est, quod consimilis aetas 
+      <lb ed="#S" n="39"/>requirit ad matrimonium spirituale, quod est per 
+       professio<lb ed="#S" break="no" n="40"/>nem. Impuberes enim nullam firmam obligationem &amp; irre 
+      <lb ed="#S" n="41"/>uocabilem facere possunt: vnde nec eorum iuramenta sunt 
+      <lb ed="#S" n="42"/>firma secundum leges, sed solum sacramenta puberum: vnde pube 
+      <lb ed="#S" n="43"/>res possunt profiteri, sicut &amp; matrimonium contrahere. Quod 
+      <lb ed="#S" n="44"/>autem dicit Tho. ante. 18. annum esse nouam constitutionem 
+      <lb ed="#S" n="45"/>de non profitendo, dico quod non obstat, quia reuocata est ex 
+      <lb ed="#S" n="46"/>hoc ipso quod non est in. 6. vnde possunt profiteri quando &amp; contra 
+      <lb ed="#S" n="47"/>here.
+    </p>
+            <p xml:id="khj78y-r25663-d1e461" n="18">
+      <!-- 18 -->Tertia conclusio est de hoc quod dicit Tho. 
+      <lb ed="#S" n="48"/>in secunda secundae. 88. q. ar. 9. quod non potest profiteri ante 
+      <lb ed="#S" n="49"/>pubertatem, licet sit doli capax propter ecclesiae statutum: 
+      <lb ed="#S" n="50"/>videtur quod imo sicut &amp; contrahere matrimonium carnale: quia 
+      <lb ed="#S" n="51"/>aequaliter vtrunque matrimonium ante annos illos prohibe 
+      <lb ed="#S" n="52"/>tur, extra de spon. impube. c. Puberes. vnde cum benedi 
+      <lb ed="#S" n="53"/>ctio nuptialis fiat per ministrum ecclesiae, &amp; cadat sub 
+       di<lb ed="#S" break="no" n="54"/>spensationem ecclesiae, sicut &amp; solemnizatio religionis: cum 
+      <lb ed="#S" n="55"/>etiam ecclesia possit facere personas inhabiles ad 
+       con<lb ed="#S" break="no" n="56"/>trahendum matrimonium carnale sicut spirituale, &amp; si non 
+      <lb ed="#S" n="57"/>ratione fui: tamen ratione fundamenti: quia pactio &amp; con 
+      <lb ed="#S" n="58"/>uentio in qua fundatur matrimonium subest ordinationi 
+      <lb ed="#S" n="59"/>principum, &amp; praelatorum, videtur simile vtrobique, extra 
+      <lb ed="#S" n="60"/>eo. Continebat.
+    </p>
+            <p xml:id="khj78y-r25663-d1e495" n="19">
+      <!-- 19 -->Ad argumenta in oppositum. Ad 
+      <lb ed="#S" n="61"/>primum est dicendum, quod ordo sacer impedit matrimonium 
+      <lb ed="#S" n="62"/>contrahendum, &amp; dirimit iam contractum non ratione ordi 
+      <lb ed="#S" n="63"/>nis absolute: sed ratione qua sacet ordo, &amp; hoc dispositi 
+      <lb ed="#S" n="64"/>ue, nec ratione voti adiuncti: quia ex nullo statuto votum 
+      <lb ed="#S" n="65"/>potest adiungi alicui facto, nisi vouens voluntarie 
+       consen<lb ed="#S" break="no" n="66"/>tiat, etiam si verbo diceret &amp; mente non consentiret: quia 
+       vo<lb ed="#S" break="no" n="67"/>tum est mere voluntatis, sed impedit contemplatiue ex statu- 
+      <!--0399.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>to ecclesiae facientis personas illegitimas ad contrahendum, 
+      <lb ed="#S" n="69"/>postquam sacrum ordinem receperunt. Et quod dicit, quod matrimonium 
+      <lb ed="#S" n="70"/>contractum contra interdictum ecclesiae non dirimit. Dicendum 
+      <lb ed="#S" n="71"/>est ecclesia aliqua iterdicit simplici prohibitione ne fiant: sed 
+      <lb ed="#S" n="72"/>si facta fuerit non irritat, aliquam vero interdicit non solum pro 
+      <lb ed="#S" n="73"/>hibendo ne fiant, sed statuendo vt irritum sit &amp; inane si contra 
+      <lb ed="#S" n="74"/>statutum fiant, &amp; tunc non solum prohibetur faciendum, sed irritatur. 
+      <lb ed="#S" n="75"/>Primo modo interdicit matrimonium contrahi tempore feriato, &amp; in 
+      <lb ed="#S" n="76"/>in pluribus casibus, sed secundo modo prohiber in susceptio 
+      <lb ed="#S" n="77"/>ne ordinis.
+    </p>
+            <p xml:id="khj78y-r25663-d1e541" n="20">
+      <!-- 20 -->Ad secundum dicendum, quod matrimonium &amp; 
+      <lb ed="#S" n="78"/>est sacramentum ratione significationis, &amp; quo ad hoc non 
+       op<lb ed="#S" break="no" n="79"/>ponitur ordini, &amp; est in officium naturae ratione 
+       carna<lb ed="#S" break="no" n="80"/>lis generationis, &amp; quo ad hoc opponitur, id est, 
+       discon<lb ed="#S" break="no" n="81"/>uenit ordini sacro propter rationes dictas. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

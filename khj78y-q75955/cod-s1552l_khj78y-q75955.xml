@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="254"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q75955"><!-- l4d19-q1 -->
+            <head xml:id="khj78y-q75955-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-q75955-Hd1e103" type="question-title">
+     utrum claues sint 
+     in Ecclesia
+   </head>
+            <p xml:id="khj78y-q75955-d1e106">
+               <lb ed="#S" n="129"/>QVAESTIO PRIMA. 
+      <lb ed="#S" n="130"/>De potestate clauium.
+    </p>
+            <p xml:id="khj78y-q75955-d1e113">
+               <lb ed="#S" n="131"/>Tho 4ad. ib q. laar.t
+    </p>
+            <p xml:id="khj78y-q75955-d1e118">
+      <!--0255.xml-->
+               <pb ed="#S" n="255"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>CIRCA decimamnonam distinctionem 
+       quaerun<lb ed="#S" break="no" n="2"/>tur quatuor. Primo vtrum claues sint 
+       in Ec<lb ed="#S" break="no" n="3"/>clesia. secundo, quantum ad ministros vtrum qui 
+      <lb ed="#S" n="4"/>libet possit absoluere quemlibet, a quolibet 
+      <lb ed="#S" n="5"/>&amp; vbilibet. Tertio, de correctione fraterna 
+      <lb ed="#S" n="6"/>vtru cadat sub praecepto. Quarto, de denunciatione vtrum 
+       de<lb ed="#S" break="no" n="7"/>beat eam praecedere secreta admonitio.
+    </p>
+            <p xml:id="khj78y-q75955-d1e143" n="2">
+      <!-- 2 -->Primo ergo, 
+      <lb ed="#S" n="8"/>quaeritur de clauibus, vtrum sint in Ecclesia: vt videtur qui 
+      <lb ed="#S" n="9"/>non: quia quod a Christo retentum est, non est alij concessum. sed 
+      <lb ed="#S" n="10"/>Christus claues retinuit: secundum Apo. Qui habet clauem Da 
+      <lb ed="#S" n="11"/>uid: qui aperit &amp; nemo claudit: ergo, &amp;c.
+    </p>
+            <p xml:id="khj78y-q75955-d1e156" n="3">
+      <!-- 3 -->Contra: dabo 
+      <lb ed="#S" n="12"/>tibi claues regni coelorum.
+    </p>
+            <p xml:id="khj78y-q75955-d1e163" n="4">
+      <!-- 4 -->Respondeo. circa hanc quaestionem 
+      <lb ed="#S" n="13"/>tria sunt videnda. Primo de clauibus. scdo de effectu eorum 
+      <lb ed="#S" n="14"/>quo ad culpam. Tertio, quo ad poenam.
+    </p>
+            <p xml:id="khj78y-q75955-d1e172" n="5">
+      <!-- 5 -->Quantum ad pri 
+      <lb ed="#S" n="15"/>mum sunt tres distinctiones. Prima. quod est clauis 
+       auctorita<lb ed="#S" break="no" n="16"/>tis, &amp; excellentiae, &amp; ministerij: quia cum clauis regni 
+       coelo<lb ed="#S" break="no" n="17"/>rum sit potestas aperiendi coelum, Deus qui solum potest 
+       prin<lb ed="#S" break="no" n="18"/>cipaliter peccatam remittere, quibus coelum clauditur: &amp; gratiam 
+      <lb ed="#S" n="19"/>infundere, qua aperitur: habet clauem auctoritatis. scdo, 
+      <lb ed="#S" n="20"/>Christus secundum quod homo qui merito passionis aperuit 
+       tol<lb ed="#S" break="no" n="21"/>lens impedimentum naturae, quod nullus purus homo tollere 
+      <lb ed="#S" n="22"/>pouit: habet clauem excellentiae. sed sacerdotes qui 
+       dispensati<lb ed="#S" break="no" n="23"/>ue agunt amotionem obstaculi siue necessitatis. i. peccati &amp; 
+      <lb ed="#S" n="24"/>aptionem. i. collationem grae, habēt clauem ministerij. 
+       Quaeli<lb ed="#S" break="no" n="25"/>bet autem dicitur clauis regni coelorum non inferorum: quia a 
+      <lb ed="#S" n="26"/>fine denominatur res. Quia ergo ista clauis est finaliter 
+      <lb ed="#S" n="27"/>ad aperiendum coelum: sed ad claudendum infernum prius: ideo 
+      <lb ed="#S" n="28"/>plus dicitur coeli quam iferni. Alia causa est: quia a 
+       digni<lb ed="#S" break="no" n="29"/>ri denominatur res, sicut Augu. librum suum de ciuitateDei 
+      <lb ed="#S" n="30"/>vocauit: lices agat de ciuitate Diaboli, tanquam a digniori. 
+    </p>
+            <p xml:id="khj78y-q75955-d1e211" n="6">
+               <lb ed="#S" n="31"/>
+               <!-- 6 -->secunda distictio est: quod est clauis iurisditionis &amp; 
+       cla<lb ed="#S" break="no" n="32"/>nis ordinis. sicut enim erant sctam, &amp; sctam sanctorum: nec erat 
+      <lb ed="#S" n="33"/>ingressus in sctansctorum: nisi per sctam: quia non erat aliquod 
+      <lb ed="#S" n="34"/>ostium retro: &amp; per consequens clauis sanctorum mediata erat: &amp; 
+      <lb ed="#S" n="35"/>clauis sancti sanctorum immediata: sic non est ingressus in coe 
+      <lb ed="#S" n="36"/>lum: nisi per ecclesiam militantem: extra quam non est salus, sicut nec 
+      <lb ed="#S" n="37"/>extra archam Noe. de sum. tri. c. 1. 6. Vna. Per excommunicationem 
+      <lb ed="#S" n="38"/>autem homo fit extra ecclesiam militantem: &amp;per absolutionem 
+      <lb ed="#S" n="39"/>intra. Vnde clauis iurisditionis a qua haec procedunt, est 
+      <lb ed="#S" n="40"/>elauis regni coelorum mediate: non immediate. Vnde forte 
+      <lb ed="#S" n="41"/>iste duae claues ordinis &amp; iurisditionis differunt re aliter: 
+      <lb ed="#S" n="42"/>quia licet clauis iurisditionis non sit aliquid reale: tamen 
+      <lb ed="#S" n="43"/>clauis ordinis est aliquid reale &amp; indelebile, &amp; clauem 
+       or<lb ed="#S" break="no" n="44"/>dinis habet omnis sacerdos &amp; episcopus: siue habeat sub 
+      <lb ed="#S" n="45"/>ditum siue non. si autem non habet subditum, tunc est clauis ordi 
+      <lb ed="#S" n="46"/>nis sine claue iurisditionis: quia relatiue dicitur 
+       Domi<lb ed="#S" break="no" n="47"/>nus ad seruum. Vnde non est potestas iurisditionis: nisi sit 
+      <lb ed="#S" n="48"/>obedientia subiectionis, &amp; econuerso. non sacerdos curatus 
+      <lb ed="#S" n="49"/>confirmatus in episcopum. &amp; officialis habent clauem 
+       iurisdi<lb ed="#S" break="no" n="50"/>tionis: &amp; nulla ordinis.
+    </p>
+            <p xml:id="khj78y-q75955-d1e259" n="7">
+      <!-- 7 -->Tertia distinctio est, quod 
+       cla<lb ed="#S" break="no" n="51"/>nis ordinis est duplex. scilicet scientiae &amp; potentiae: quia quamuis 
+      <lb ed="#S" n="52"/>in naturalibus distinguatur potentia directiua, &amp;factiua, 
+      <lb ed="#S" n="53"/>&amp; executiua: sicut sensus vel ratio &amp; vis motiua, vel 
+       exe<lb ed="#S" break="no" n="54"/>cutiua: tamen in artificialibus ars quae est directiua, 
+       dici<lb ed="#S" break="no" n="55"/>tur esse factiua &amp; executiua. Vnde ars vocatur potentia. 
+      <lb ed="#S" n="56"/>19. metaphysicae. Et ita est vnus character sacerdotalis: 
+      <lb ed="#S" n="57"/>qui est potentia discernendi: &amp; potentia ligandi &amp; soluendi 
+      <lb ed="#S" n="58"/>vna potentia per essentiam: sed duplex vel triplex per effica 
+      <lb ed="#S" n="59"/>ciam. Quod patet per aliud simile: quia licet in commistio 
+      <lb ed="#S" n="60"/>nibus &amp; spiritualibus ordinationibus aliquando ad vnum 
+      <lb ed="#S" n="61"/>pertineat cognitio: ad alium pronunciatio &amp; executio, sicut 
+      <lb ed="#S" n="62"/>committuntur causae ad examinandum retenta diffinitiua: &amp; 
+      <lb ed="#S" n="63"/>in accusatione episcoporum retinet Papa depositionem: tamen iu 
+      <lb ed="#S" n="64"/>re coni eiusdem potestatis ordinariae est, discernere &amp; 
+       ludi<lb ed="#S" break="no" n="65"/>care: ideo, &amp;c. Et ideo sicut in corporalibus estqui habes 
+      <lb ed="#S" n="66"/>luris peritiam &amp; non iudicandi potestatem: &amp; hoc non est 
+       pec<lb ed="#S" break="no" n="67"/>catum, &amp; econuerso: qui habet iudicandi potestatem: sed no- 
+      <!--0255.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>peritiam: &amp; hic cum suo demerito: quia suscepit id ad quod 
+      <lb ed="#S" n="69"/>idoneus non fuit: sic &amp; hic. Omnis sacerdos habet clauem 
+      <lb ed="#S" n="70"/>scientiae, sicut &amp; potentiae. i. auctoritatem discernendi, sicut po 
+      <lb ed="#S" n="71"/>testatem ligandi &amp; soluendi: licet multi non habeant 
+       scien<lb ed="#S" break="no" n="72"/>tiam debitam. Et econuerso. multi non sacerdotes habent 
+       scien<lb ed="#S" break="no" n="73"/>tiam qui non habent auctoritatem, vel potestatem 
+       discernen<lb ed="#S" break="no" n="74"/>di. secundi quidem sine peccato: sed primi cum peccato suo 
+      <lb ed="#S" n="75"/>si procurarunt: alias si inuiti excusati sunt, si 
+       impedimen<lb ed="#S" break="no" n="76"/>tum proposuerunt nec sunt auditi. Munus enim 
+       iudican<lb ed="#S" n="77" break="no"/>di: necessarium est, &amp; potest homo compelli ad officium 
+       iudican<lb ed="#S" break="no" n="78"/>di &amp; ad praelationem: &amp; tunc non peccat, sicut in religionibus 
+      <lb ed="#S" n="79"/>fieri consueuit. Et quod dicit Greg. quod si indignus est: non 
+      <lb ed="#S" n="80"/>debet obedire: &amp; dignus vix debet obedire: intelligendum 
+      <lb ed="#S" n="81"/>est de illo qui habet defectum qui est iuris, vt irregularitas: &amp; 
+      <lb ed="#S" n="82"/>tunc non debet obedire, nisi ab eo per dispensationem amouea 
+      <lb ed="#S" n="83"/>tur. Alias tenetur obedire. Alioqui quilibet bonus qui reputas 
+      <lb ed="#S" n="84"/>se indignum refugeret: &amp; sic soli indigni promouerentur. 
+      <lb ed="#S" n="85"/>Qui ergo non coactus sponte accipit potestatem, non habens 
+      <lb ed="#S" n="86"/>sufficientem scientiam peccat: sed inuitus &amp; coactus non acci 
+      <lb ed="#S" n="87"/>pit, sed suscipit non peccat. Vnde sine peccato ab inscio 
+      <lb ed="#S" n="88"/>haberi vel suscipi potest: sed accipi non potest.
+    </p>
+            <p xml:id="khj78y-q75955-d1e351"><!-- 8 -->
+      <!--8 -->Quam 
+      <lb ed="#S" n="89"/>tum ad secundum. scilicet de effectu clauium: quo ad remistionem 
+      <lb ed="#S" n="90"/>culpae est sciendum. Primo. quod macula animae nihil est aliud 
+      <lb ed="#S" n="91"/>quam priuatio gratiae: &amp; remistio quo ad maculam: non 
+      <lb ed="#S" n="92"/>est nisi restitutio gratiae per poenitentiam. sicut macula 
+      <lb ed="#S" n="93"/>lunae est priuatio lucis: &amp; pulchrificatio est eius 
+       illumi<lb ed="#S" break="no" n="94"/>natio. Et haec eadem est remissio: quo ad culpam: quae 
+      <lb ed="#S" n="95"/>culpa est defectus quidam voluntarius, sed omnis priua 
+      <lb ed="#S" n="96"/>tio gratiae est defectus quidam voluntarius sine 
+       volun<lb ed="#S" break="no" n="97"/>tate personae vt in mortali actuali: sine voluntate 
+       natu<lb ed="#S" break="no" n="98"/>rae vt in originali: ideo. &amp;c.
+    </p>
+            <p xml:id="khj78y-q75955-d1e378" n="9">
+      <!-- 9 -->secundo est sciendum. 
+      <lb ed="#S" n="99"/>quod quicumque remittitur culpa mortalis remittitur, 
+       poe<lb ed="#S" break="no" n="100"/>na aeternalis: quia cui homo remittit offensam recipiens 
+      <lb ed="#S" n="101"/>ad amicitiam remittit mortem, quia nullus vult mortem 
+      <lb ed="#S" n="102"/>amici: sed non oportet quod omne aliud remittat. si 
+       er<lb ed="#S" break="no" n="103"/>go Deus culpam remittit &amp; poenam aeternam.
+    </p>
+            <p xml:id="khj78y-q75955-d1e394" n="10">
+      <!-- 10 -->
+       Ter<lb ed="#S" break="no" n="104"/>tio. est notandum quomodo claues extendant se ad 
+       remis<lb ed="#S" break="no" n="105"/>sionem culpae: &amp; quidem sicut omnis actus virtuosus 
+       di<lb ed="#S" break="no" n="106"/>sponit ad virtutem si absit, vel auget si adsit: sic &amp; hic 
+       om<lb ed="#S" break="no" n="107"/>ne sacramentum agit vel auget quod signat de sacra vnc. 
+      <lb ed="#S" n="108"/>c. 1. Vnde cum absolutio significet remisiionem culpae, 
+      <lb ed="#S" n="109"/>quanto expressius potest ad eam disponit si non adest: vt 
+      <lb ed="#S" n="110"/>in attrito: vel si adest disponit ad eius augmentum, idest 
+      <lb ed="#S" n="111"/>gratiae &amp; remissionis poenae.
+    </p>
+            <p xml:id="khj78y-q75955-d1e416" n="11">
+      <!--11 -->Quantum ad tertium: 
+      <lb ed="#S" n="112"/>quantum ad remissionem poenae, quomodo se extendat est 
+       scien<lb ed="#S" break="no" n="113"/>dum. Primo. quod Deus remittendo culpam, Deus com 
+      <lb ed="#S" n="114"/>mutat poenam aeternam in temporalem: &amp; ideo vis 
+       cla<lb ed="#S" break="no" n="115"/>uium non aliter valet ad remisslonem poenae aeterne: quam 
+      <lb ed="#S" n="116"/>disponendo ad remissionem culpae.
+    </p>
+            <p xml:id="khj78y-q75955-d1e432" n="12">
+      <!--12 -->secundo. quod 
+      <lb ed="#S" n="117"/>valet ad remissionem poenae temporalis secundum 
+       maio<lb ed="#S" break="no" n="118"/>rem &amp; minorem contritionem confitentis, &amp; erubescentiam, 
+      <lb ed="#S" n="119"/>&amp; hulusmodi: quia actus actiuorum sunt in patiente &amp; 
+      <lb ed="#S" n="120"/>bene disposito. Potest tamen esse tam frequens confessio, quod 
+      <lb ed="#S" n="121"/>vis clauium deleret omnem poenam debitam: &amp; tunc non 
+      <lb ed="#S" n="122"/>fleret nisi argumentum gratiae: sicut quando per multos 
+      <lb ed="#S" n="123"/>actus temperantiae remittitur actus intemperantiae, si prius 
+      <lb ed="#S" n="124"/>inerat tandem ex toto corrumpitur. Ex tunc autem illi boni 
+      <lb ed="#S" n="125"/>actus licet non possint minuere id quod totaliter est cor 
+      <lb ed="#S" n="126"/>ruptum: possunt tamen augmentare habitum temperantiae: &amp; facius 
+      <lb ed="#S" n="127"/>&amp; sic est hic.
+    </p>
+            <p xml:id="khj78y-q75955-d1e461" n="13">
+      <!-- 13 -->Tertio notandum, quod vis clauium non solum 
+      <lb ed="#S" n="128"/>est ad remissionem culpae &amp; poenae vt dictum est: sed est etiam 
+      <lb ed="#S" n="129"/>ad ligandum ad poenam temporalem: quod fit secundum quantitatem 
+      <lb ed="#S" n="130"/>culpae &amp; dolorem &amp; huiusmodi, &amp;c. Non tamen est arbiter 
+      <lb ed="#S" n="131"/>ad libitum. secundum rationem rectam. &amp;c.
+    </p>
+            <p xml:id="khj78y-q75955-d1e475" n="14">
+      <!-- 14 -->Ad 
+       argumen<lb ed="#S" break="no" n="132"/>tum est dicendum, quod clauis excellentiae a Christo retenta nul 
+      <lb ed="#S" n="133"/>li est concesfa: sed dauis ministerij sic. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

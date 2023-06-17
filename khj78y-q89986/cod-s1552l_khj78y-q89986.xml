@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="294"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q89986"><!-- l4d24-q2 -->
+            <head xml:id="khj78y-q89986-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q89986-Hd1e103" type="question-title">
+     de charactere, 
+     utrum in quolibet ordine imprimatur 
+     character
+   </head>
+            <p xml:id="khj78y-q89986-d1e106">
+               <lb ed="#S" n="95"/>QVAESTIO SECVNDA. 
+    </p>
+            <p xml:id="khj78y-q89986-d1e111">
+               <lb ed="#S" n="96"/>De characteribus ordinum. 
+      <lb ed="#S" n="97"/>Thom. 4 dist. 24. q.1. art. 2. 
+    </p>
+            <p xml:id="khj78y-q89986-d1e118">
+               <lb ed="#S" n="98"/>QVAERITVR secundo de charactere, 
+      <lb ed="#S" n="99"/>vtrum in quolibet ordine imprimatur 
+       cha<lb ed="#S" break="no" n="100"/>racter. Et videt quod non, quia cum idem homo 
+      <lb ed="#S" n="101"/>recipiat omnes ordines, essent in eodem multi 
+      <lb ed="#S" n="102"/>characteres eiusdem speciei, vel saltem 
+       gene<lb ed="#S" break="no" n="103"/>ris proximi, quod est inconueniens.
+    </p>
+            <p xml:id="khj78y-q89986-d1e135" n="2">
+      <!-- 2 -->Praeterea, vnius 
+      <lb ed="#S" n="104"/>sacramenti, vnius est effectus, sed omnes ordines constituunt 
+      <lb ed="#S" n="105"/>vnum sacim, vt dictum est in quaestione praecedēti. ergo 
+      <lb ed="#S" n="106"/>causant vnum effectum tantum: sed ille non potest esse, nisi 
+       v<lb ed="#S" break="no" n="107"/>nus character. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q89986-d1e148" n="3">
+      <!-- 3 -->Contra, quia illud, quod non 
+      <lb ed="#S" n="108"/>imprimit characterem, est iterabile, sed nullus ordo est ite 
+      <lb ed="#S" n="109"/>rabilis. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q89986-d1e157" n="4">
+      <!-- 4 -->Praeterea ordo est signaculum, i quo 
+      <lb ed="#S" n="110"/>traditur potestas spiritualis, sed character est huiusmodi. &amp; 
+      <lb ed="#S" n="111"/>id conuenit omni ordini. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q89986-d1e166" n="5">
+      <!-- 5 -->Respondeo, tria 
+      <lb ed="#S" n="112"/>sunt hic videnda. Primo, de sufficientia ordinum. secundo, 
+      <lb ed="#S" n="113"/>de effectu, quae est res tantum. Tertio, de effectu, quae es 
+      <lb ed="#S" n="114"/>res, &amp; sacramentum.
+    </p>
+            <p xml:id="khj78y-q89986-d1e177" n="6">
+      <!-- 6 -->Quantum ad primum sciendum est, quod omnis 
+      <lb ed="#S" n="115"/>ordo ordinatur ad eucharistiae sacramentum: ordo enim 
+       mi<lb ed="#S" break="no" n="116"/>nistrorum ecclesiae: qui sunt mediatores inter Christum, 
+      <lb ed="#S" n="117"/>&amp; populum, est ad faciendum vnionem populi cum Christo, 
+      <lb ed="#S" n="118"/>hoc autem fit maxime per sacramentum eucharistiae, in quo 
+       Chri<lb ed="#S" break="no" n="119"/>stus continei realiter, &amp; a nobis sumitur: vnde dicitur 
+      <lb ed="#S" n="120"/>sacramentum vnionis: haec autem vnio fit duplici actu. scilicet per sacri 
+      <lb ed="#S" n="121"/>confectionem, &amp; per populi dignam praeparationem. In pri 
+      <lb ed="#S" n="122"/>mo actu deseruiunt quatuor ordines. scilicet acolythatus, sub 
+      <lb ed="#S" n="123"/>diaconat, diaconatus, &amp; sacerdotium, sed differenter: quia 
+      <lb ed="#S" n="124"/>acolythus habet materiam consecrandam praeparare in va 
+      <lb ed="#S" n="125"/>sis non sacramentis: ipse vt in litera dicitur, vrceolum cum aqua 
+      <lb ed="#S" n="126"/>&amp; vino praeparat, &amp; tradit sudiacono: subdiaconus vero 
+      <lb ed="#S" n="127"/>habet eam ponere in vasis sacramentis, in quibus fit 
+       consecra<lb ed="#S" break="no" n="128"/>tio: diaconus vero habet eam offerre sacerdoti ad conse 
+      <lb ed="#S" n="129"/>crandum, &amp; consecratandispensare, saltem sanguinem cum 
+      <lb ed="#S" n="130"/>vase mediante. Consecratio autem pertinet ad sacerdotem. 
+      <!--0295.xml-->
+      <pb ed="#S" n="295"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>In secundo vero actu in praeparatione populi, deseruiunt 
+      <lb ed="#S" n="2"/>alij tres ordines, sed differenter, quia duo eorum 
+       dispo<lb ed="#S" break="no" n="3"/>nunt remouendo prohibens, vel malum hominem, vt 
+       hostia<lb ed="#S" break="no" n="4"/>rius, vel malum angelum, vt exorcista: tertius vero. Clector 
+      <lb ed="#S" n="5"/>praeparat offerendo bonam dispositionem, quo ad cognitio 
+      <lb ed="#S" n="6"/>nem veri, &amp; dilectionem boni: quod fit legendo prophetias 
+      <lb ed="#S" n="7"/>de christo in testamentu veteri contentas.
+    </p>
+            <p xml:id="khj78y-q89986-d1e238" n="3">
+      <!-- 7 -->Quo ad 
+      <lb ed="#S" n="8"/>secundum sunt tres conclusiones. Prima, quod in omni ordine 
+      <lb ed="#S" n="9"/>conferi gratia: quia Dei perfecta sunt opera. Deute. 32. 
+      <lb ed="#S" n="10"/>Cuicunque enim datur diuinitus aliqua potitia, dant ei 
+      <lb ed="#S" n="11"/>ea, per quae congrue potest exire in actus illius porentiae: 
+       sice<lb ed="#S" break="no" n="12"/>nim videmus in naturalibus: animalibus enim data sunt 
+      <lb ed="#S" n="13"/>membra, per quae possunt exire in actus conuenientes po 
+      <lb ed="#S" n="14"/>tentiae animae: vnde sicut gratia gratum faciens est 
+       necessa<lb ed="#S" break="no" n="15"/>ria, ad hoc, quod homo suscipiat digne sacra: sic ad hoc, q homo 
+      <lb ed="#S" n="16"/>digne exequat actus sacrorum. &amp; ideo sicut in baptismo 
+      <lb ed="#S" n="17"/>datur gratia, vt digne suscipiamus sacra, sic in sacro ordinis 
+      <lb ed="#S" n="18"/>vt digne erequamur.
+    </p>
+            <p xml:id="khj78y-q89986-d1e268" n="8">
+      <!--8--> secunda conclusio, quod confert 
+      <lb ed="#S" n="19"/>gratia in disposito maiorem, quam alia sacia, &amp; maige 
+       n<lb ed="#S" break="no" n="20"/>iorem: quia maior gratia requiritur ad actus 
+       ordinundi<lb ed="#S" break="no" n="21"/>gne erercendos, a ad actus communes, &amp; ad nulorit ooddit 
+      <lb ed="#S" n="22"/>nis actum maior: vnde nihil sensibile tantum valet ad magni 
+      <lb ed="#S" n="23"/>tudinem gratiae impetrandam ex opere operato: sicut ordo 
+      <lb ed="#S" n="24"/>Lacerdotij: nisi forte quis dicat illud de consecratione episcopi,  
+      <lb ed="#S" n="25"/>a de susceptione digna cucharistiae.
+    </p>
+            <p xml:id="khj78y-q89986-d1e288" n="9">
+      <!-- 9 -->Tertia 
+       conclu<lb ed="#S" break="no" n="26"/>sio, o quidam ordo dicitur sacer, &amp; quidam non. Et ideo 
+       sci<lb ed="#S" break="no" n="27"/>endum, o sacrum dicitur aliquid dupliciter: vno modo ab 
+      <lb ed="#S" n="28"/>solute: &amp; sic omnes ordines sunt sacri, cum sint quoddam sacra 
+      <lb ed="#S" n="29"/>ments, vel saciale: alio modo antonomatice, fiue 
+       excel<lb ed="#S" break="no" n="30"/>lenter: &amp; isto modo tres dicuntur sacri. scilicet sacerdotium, 
+       dia<lb ed="#S" break="no" n="31"/>conatus, &amp; subdiaconat' duplici ratione. Primo, ratione 
+      <lb ed="#S" n="32"/>materiae, circa quam habent actus suos: habent enim actus 
+      <lb ed="#S" n="33"/>suos circa materiam consecratam. Nam subdiaconus habet 
+      <lb ed="#S" n="34"/>vasa sacra tangere, &amp; in eis materiam eucharistiae 
+       praepara<lb ed="#S" break="no" n="35"/>,e Diaconus vero praeparatam in eisdem vasis sacerdoti 
+       of<lb ed="#S" break="no" n="36"/>serre. sacerdos vero habet eam in eis consecrare, &amp; conse 
+      <lb ed="#S" n="37"/>eratam tractare immediate, quantum ad corpus Domini. 
+       se<lb ed="#S" break="no" n="38"/>cundo, ratione continentiae annexae his ordinibus, 
+       quan<lb ed="#S" break="no" n="39"/>en ad clericos Occidentales. Votum enim continentiae 
+       red<lb ed="#S" break="no" n="40"/>die nos quasi Deo consecratos. Nihil autem horum est in 
+      <lb ed="#S" n="41"/>quatuor minoribus ordinibus, quia nec actus eorum est 
+      <lb ed="#S" n="42"/>circa aliquod consecratum immediate, nec eis est 
+       continen<lb ed="#S" break="no" n="43"/>tia annexa: &amp; ideo non dicuntur sic sacri, vt alij tres. 
+      <lb ed="#S" n="44"/>ro Quantum ad tertium articulum principaliter quaesitum, 
+      <lb ed="#S" n="45"/>sunt duae conclusiones. I1 Prima, quod in omni ordine 
+      <lb ed="#S" n="46"/>de septem imprimitur character distinctus, &amp; specialis: quia 
+      <lb ed="#S" n="47"/>ordinatur quilibet ad distinctum actum.
+    </p>
+            <p xml:id="khj78y-q89986-d1e340" n="12">
+      <!-- 12 -->sed 
+       con<lb ed="#S" break="no" n="48"/>tra hoc est, quia tunc in omni ordine habente diuersos 
+       a<lb ed="#S" break="no" n="49"/>ctus, tot essent distincti characteres quot actus. si 
+       dica<lb ed="#S" break="no" n="50"/>tur non, quia sunt subordinati: ita &amp; omnis actus septem 
+      <lb ed="#S" n="51"/>ordinum sunt subordinati. ergo nec ibi, nisi vnus distin 
+      <lb ed="#S" n="52"/>ctus character.
+    </p>
+            <p xml:id="khj78y-q89986-d1e356" n="13">
+      <!-- 13 -->Et dicendum ad hoc licet omnes 
+       or<lb ed="#S" break="no" n="53"/>ainet ordinentur ad eucharistiam, &amp; inferior mediante su 
+      <lb ed="#S" n="54"/>periore: tamen quilibet ordo habent in se multos actusinter 
+      <lb ed="#S" n="55"/>sno, habet aliquem, qui principalius, &amp; immediatius 
+       de<lb ed="#S" break="no" n="56"/>seruit eucharistiae: &amp; deputatio ad illum requirit 
+       chara<lb ed="#S" break="no" n="57"/>cterem speciale, non autem deputatio ad alios. sed 
+       dici<lb ed="#S" break="no" n="58"/>quidam, o non in omni ordine est character pprie 
+       dictus<lb ed="#S" break="no" n="59"/>ct, tiendam est secundum eos, quod cum character sit potestas 
+      <lb ed="#S" n="60"/>per que nomo openatur diuinas actiones, seut aliquid 
+      <lb ed="#S" n="61"/>labet dupliciter rationem potostatis: sic &amp; characteris. Po 
+      <lb ed="#S" n="62"/>tetas enim proprie dicit, per quam possumus in acti, in 
+      <lb ed="#S" n="63"/>auem alias non possemus, sed potestas secundum quid per 
+      <lb ed="#S" n="64"/>duam sicite possumus, quod alias poteramue: sed non li 
+      <lb ed="#S" n="65"/>tite, sic &amp; character simpliciter Acit potestas, per quam 
+      <lb ed="#S" n="66"/>posiumus in acto, quem pris non poter atiuisssedehar? 
+      <lb ed="#S" n="67"/>aer tecundum quid dicii potestas, per quam licite possumus 
+      <!--0295.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>in actum, in quem prius poteramus, sed non licite: 
+       acci<lb ed="#S" break="no" n="69"/>piendo ergo characterem pro potestate simpliciter dicta: 
+      <lb ed="#S" n="70"/>sic character non imprimit, nisi in sacerdotio: non autem in 
+      <lb ed="#S" n="71"/>inferioribus ordinibus: cuius rationem assignant: quia cui 
+      <lb ed="#S" n="72"/>cunque conferi aliqua potestas spiritualiter simpliciter: 
+      <lb ed="#S" n="73"/>talis potest in spiritualem effectum, in quem non poterat prius, 
+      <lb ed="#S" n="74"/>vt dictum est: sed sacerdos post suam ordinationem potest in 
+       spi<lb ed="#S" break="no" n="75"/>ritualem effectum, in quem non poterat prius: quia sacerdos po 
+      <lb ed="#S" n="76"/>test conficere sacramentum eucharistiae, &amp; absoluere in foro poe 
+      <lb ed="#S" n="77"/>nitentiae, in quem prius non poterat. Diaconus vero, &amp; 
+       in<lb ed="#S" break="no" n="78"/>feriores ordines post ordinationem suam, non possunt in 
+      <lb ed="#S" n="79"/>aliquem effectum, in quem prius non possent: quamuis liceat 
+      <lb ed="#S" n="80"/>eis nunc, quod non licebat prius: prius enim poterat Euam 
+      <lb ed="#S" n="81"/>gelium legere, &amp; sacerdoti ministrare, sed non licebat, 
+       er<lb ed="#S" break="no" n="82"/>go in ordinatione sacerdotis conferi potestasspiritualis 
+      <lb ed="#S" n="83"/>simpliciter dicta, non autem in ordinatione inferiorum. si 
+      <lb ed="#S" n="84"/>ergo character est potestas spiritualis: sequit, quod character 
+       pro<lb ed="#S" break="no" n="85"/>prie, &amp; simpliciter dictus imprimat in sacerdotio, &amp; non 
+      <lb ed="#S" n="86"/>in inferioribus ordinibus. Nec est instantia nisi de exor 
+      <lb ed="#S" n="87"/>cista, qui videt in sua ordinatione potestatem accipere ad. 
+      <lb ed="#S" n="88"/>effectum spiritualem. scilicet ad impediendum potestatem daemonis. sed 
+      <lb ed="#S" n="89"/>illud secundum Cyprianum non cogit: quia ipse ponit, quod exor 
+      <lb ed="#S" n="90"/>cismus nihil facit: sed tantum significat illud, quod in 
+       baptis<lb ed="#S" break="no" n="91"/>mo postea efficitur. Dicit enim sic. scias diaboli 
+       nequi<lb ed="#S" break="no" n="92"/>tiam permanere vsque ad aquam salutarem: in aqua autem 
+      <lb ed="#S" n="93"/>baptismi omnem nequitiam amittere: &amp; ita secundum ipsum 
+      <lb ed="#S" n="94"/>exorcista non habet potestatem super daemonem. sed quia 
+      <lb ed="#S" n="95"/>contrarium tenetur communius, ideo potest concedi, quod in ordine 
+      <lb ed="#S" n="96"/>exorcistae imprimatur character: nec tamen propter hoc 
+       digni<lb ed="#S" break="no" n="97"/>or est caeteris ordinibus: quia quamuis in hoc excedat: tamen in 
+      <lb ed="#S" n="98"/>alio exceditur: in hoc. scilicet qui actus aliorum ordinum magis de 
+      <lb ed="#S" n="99"/>propinquo se habent ad sacramentum eucharistiae, quam actus exor 
+      <lb ed="#S" n="100"/>cistae, qui immediate ordinat ad tollendum impedimentum 
+      <lb ed="#S" n="101"/>baptismi, &amp; mediante baptismo ad eucharistiae sacramentum. si 
+      <lb ed="#S" n="102"/>vero character accipiatur secundo modo. scilicet pro potestate: per 
+      <lb ed="#S" n="103"/>quam licite possumus in actum sacrum, in quem prius po 
+      <lb ed="#S" n="104"/>teramus: sed non licite: sic dicendum est, quod in omnibus ordi 
+      <lb ed="#S" n="105"/>nibus imprimitur character: quia per quemlibet ordinem 
+       de<lb ed="#S" break="no" n="106"/>putai ordinatus ad actum, qui est sacer, vel ratione mate 
+      <lb ed="#S" n="107"/>riae, vel relatione, quam habet ad sacramentum eucharistiae, 
+      <lb ed="#S" n="108"/>vt prius dictum fuit. sed contra, quia in confirmatione impri 
+      <lb ed="#S" n="109"/>mitur character proprie dictus: sicut in baptismo, &amp; 
+       sa<lb ed="#S" break="no" n="110"/>cerdotior&amp; tamen per illam non potest, in quod prius non posset 
+      <lb ed="#S" n="111"/>etiam licite, sed tantum ex officio, sicut miles etiam non recipit po 
+      <lb ed="#S" n="112"/>test atem facti, sed officij ad pugnandum.
+    </p>
+            <p xml:id="khj78y-q89986-d1e495" n="14">
+      <!-- 14 -->Praeterea 
+      <lb ed="#S" n="113"/>quae non imprimunt characterem, reiterant. ergo &amp;c. sed ad 
+      <lb ed="#S" n="114"/>hoc dicerent, quod illa, per quae fiunt deputationes ad 
+       ali<lb ed="#S" break="no" n="115"/>quid sacrum cum consecratione, non reiterant, quandiu res 
+      <lb ed="#S" n="116"/>manent: licet illa consecratio non imprimat characterem: 
+      <lb ed="#S" n="117"/>nec sit sacramentum, sed importat solam deputationem ad aliquid 
+      <lb ed="#S" n="118"/>facrum.
+    </p>
+            <p xml:id="khj78y-q89986-d1e513" n="15">
+      <!-- 15 -->secunda conclusio est, in quo actu 
+       cuiusli<lb ed="#S" break="no" n="119"/>bet ordinis imprimat. Vbi sciendum est secundum quosdam, 
+      <lb ed="#S" n="120"/>quod aliquorum ordinum est tantum vnus actus, aliquorum plures, 
+      <lb ed="#S" n="121"/>quorum tamen vnus principalior altero. In ordinibus au 
+      <lb ed="#S" n="122"/>tem, quorum est vnus actus, character imprimit in 
+       tradi<lb ed="#S" break="no" n="123"/>tione instrumenti pertinentis ad actum illum: sicut ostiario 
+      <lb ed="#S" n="124"/>imprimitur character in traditione clauium: lectori in tra 
+      <lb ed="#S" n="125"/>ditione libri prophetiarum: exorcistae in traditione libri 
+      <lb ed="#S" n="126"/>exorcismorum, cum forma verborum simul correspondente. 
+      <lb ed="#S" n="127"/>In ordinibus autem, quorum sunt plures actus, character im 
+      <lb ed="#S" n="128"/>primitur in traditione instrumenti pertinentis ad prin 
+      <lb ed="#S" n="129"/>cipaliorem actum. Ille autem actus est principalior, qui 
+       im<lb ed="#S" break="no" n="130"/>mediatius ordinat ad sacramentum eucharistiae. Cum igit acoly 
+      <lb ed="#S" n="131"/>thi sint duo actus. scilicet portare cereum, &amp; porrigere aquam, &amp; 
+      <lb ed="#S" n="132"/>vinum in vrceolis ob sacramentum eucharistiae: secundus actus est 
+      <lb ed="#S" n="133"/>principalior. Primo pprer rationem dicta iden character 
+      <lb ed="#S" n="134"/>acolythatus imprimit in traditione vrceoli, quamuis de 
+      <!--0296.xml-->
+      <pb ed="#S" n="296"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>nominetur ab alio actu, qui est magis potens, &amp; 
+       frequen<lb ed="#S" break="no" n="2"/>tior. Nomen enim acolythi cerei deportationem 
+       signifi<lb ed="#S" break="no" n="3"/>cat. subdlaconus etiam habet duos actus. scilicet legere 
+       episto<lb ed="#S" break="no" n="4"/>lam, &amp; matqiam eucharistiae ordinare, &amp; ponere in sacramentis 
+      <lb ed="#S" n="5"/>vasis, vt des patet. secundus actus est principalior. 
+       Pri<lb ed="#S" break="no" n="6"/>mo: quia sacramento'eucharistiae immediatior: propter quod 
+       cha<lb ed="#S" break="no" n="7"/>racter subdiaconatus imprimit in traditione calicis, &amp; 
+      <lb ed="#S" n="8"/>patinae. De diacono autem est magis dubium: habet enim 
+      <lb ed="#S" n="9"/>duos actus: vnum legere Euangelium, &amp; alium ministrare 
+       sa<lb ed="#S" break="no" n="10"/>cramentum vasis mediantibus: habet enim portare corpus 
+      <lb ed="#S" n="11"/>Domini in patina, &amp; dispensare sanguinem cum calice: nec est 
+      <lb ed="#S" n="12"/>dubium, quin actus secundus sit principalior primo: &amp; tamen 
+      <lb ed="#S" n="13"/>diaconus in sua ordinatione non recipit aliquod 
+       instru<lb ed="#S" break="no" n="14"/>mentum pertinens ad hunc actum: propter quod de impres 
+      <lb ed="#S" n="15"/>sione characteris in diaconatu, est duplex opinio. Vna, quod 
+      <lb ed="#S" n="16"/>imprimitur in traditione libri Euangelij: quia deputatio 
+       e<lb ed="#S" break="no" n="17"/>ius ad suum principalem actum, non potuit exprimi per tra 
+      <lb ed="#S" n="18"/>ditionem alicuius rei corporalis. Cum enim diaconus ha 
+      <lb ed="#S" n="19"/>beat potestatem super corpus, &amp; sanguinem contenta in 
+       va<lb ed="#S" break="no" n="20"/>sis: non potuit haec potestas exprimi per dationem vasis 
+      <lb ed="#S" n="21"/>tantum: quia super vasa subdiaconus habet potestatem, nec 
+      <lb ed="#S" n="22"/>per dationem materiae consecratae: quia non habet eam 
+       imme<lb ed="#S" break="no" n="23"/>diate tangere: ideo oportuit, quod ordinaretur per traditionem 
+      <lb ed="#S" n="24"/>instrumenti pertinentis ad actum secundarium: hoc est pertradi 
+      <lb ed="#S" n="25"/>tionem libri. Euangelij. sed contra hoc posset dici, quod 
+       pote<lb ed="#S" break="no" n="26"/>stas diaconi ad principalem actum potuit exprimi, per 
+       tra<lb ed="#S" break="no" n="27"/>ditionem vasorum cum sacramento contento.
+    </p>
+            <p xml:id="khj78y-q89986-d1e618" n="16">
+      <!-- 16 -->Et ad hoc potest 
+      <lb ed="#S" n="28"/>dici, quod potestas diaconi non debuit exprimi pertraditio 
+      <lb ed="#S" n="29"/>nem nobilioris rei, quam potestas sacerdotalis: hoc tamen fieret, 
+      <lb ed="#S" n="30"/>si traderentur ei vasa cum sacramento: quia sacerdoti traduntur vasa 
+      <lb ed="#S" n="31"/>cum materia non consecrata: quare illud non debuit fieri. 
+    </p>
+            <p xml:id="khj78y-q89986-d1e631" n="17">
+               <lb ed="#S" n="32"/>
+               <!-- 17 -->Alia opinio est, quod imprimitur in impositione manuum, 
+      <lb ed="#S" n="33"/>per quam datur intelligi, quod applicatur ad magnum 
+       mini<lb ed="#S" break="no" n="34"/>sterium, eo quod manus est organum organorum: diaconus autem 
+      <lb ed="#S" n="35"/>per excellentiam dicitur minister: &amp; huic videt canon concor 
+      <lb ed="#S" n="36"/>dare. 23. dist. vbi dicit, quod cum ordinatur diaconus, solus epraes 
+      <lb ed="#S" n="37"/>manum ei imponit: eo quod ad ministerium applicet. sacer 
+      <lb ed="#S" n="38"/>dos similiter habet plures actus, sed principalior inter 
+      <lb ed="#S" n="39"/>oens est consecrare corpus, &amp; sanguinem: absoluere autem in 
+      <lb ed="#S" n="40"/>foro poenitentiae, est actus eiui secundarius. &amp; ideo in datione ca 
+      <lb ed="#S" n="41"/>licis, &amp; patinae cum materia imposita, imprimitur 
+       chara<lb ed="#S" break="no" n="42"/>cter sacerdotalis. vnde Dominus hanc potestatem primo dedit 
+      <lb ed="#S" n="43"/>discipulis in coena, quando tradens corpus suum, &amp; 
+       sangui<lb ed="#S" break="no" n="44"/>nem in calice dixit: Hoc facite in meam commemoratio 
+      <lb ed="#S" n="45"/>nem. sed post resurrectionem dedit eis potestatem ad actum 
+      <lb ed="#S" n="46"/>secundarium, quando dixit. Quorum remiseritis peccata, remit 
+      <lb ed="#S" n="47"/>tuntur eis &amp;c.
+    </p>
+            <p xml:id="khj78y-q89986-d1e670" n="18">
+      <!-- 18 -->Ratio vero, quae dicta est de diacono, 
+      <lb ed="#S" n="48"/>ne habeat nobilius signum, quam sacerdos non videt efficax: quia 
+      <lb ed="#S" n="49"/>subdiacono traditur calix consecratus, diacono 
+       Euange<lb ed="#S" break="no" n="50"/>lium: sed nobilior est calix consecratus, quam liber Euangelio 
+      <lb ed="#S" n="51"/>rum. ergo &amp;c. sed conclusio probatur alia ratione: quia illud 
+      <lb ed="#S" n="52"/>quod est completum sacramentum, per se non est materia sacramenti: &amp; 
+       ma<lb ed="#S" break="no" n="53"/>xime cum totum sit maius sua parte, omne sacramentum est 
+       nobi<lb ed="#S" break="no" n="54"/>lius sua materia, &amp; sua forma: sed impossibile est aliquod 
+      <lb ed="#S" n="55"/>sacim esse nobilius sacio altaris. ergo impossibile est 
+       sa<lb ed="#S" break="no" n="56"/>cramentum esse materiam alterius sacramenti. Item in impositione 
+       ma<lb ed="#S" break="no" n="57"/>nuum non imprimitur: non quidem propter hoc, quod nec per 
+       il<lb ed="#S" n="58" break="no"/>lam imprimit sacerdoti, quia diceret, quod hoc est, quia non 
+       de<lb ed="#S" break="no" n="59"/>fignat principalem actum eius, sicut de vrceolo acolytho, 
+      <lb ed="#S" n="60"/>&amp; subdiacono: sed quia praeter actum ministri, &amp; 
+       suscipien<lb ed="#S" n="61" break="no"/>tis, requirit exteriorem materiam in isto ordine, sicut in aliis: 
+      <lb ed="#S" n="62"/>sed manus impositio non habet huiusmodi materiam. ideo 
+      <lb ed="#S" n="63"/>&amp;c. ergo relinquit, quod in traditione Euangelistarum: quia 
+      <lb ed="#S" n="64"/>aliter non potest exprimi.
+    </p>
+            <p xml:id="khj78y-q89986-d1e712" n="19">
+      <!--19 -->Ad argumenta principa 
+      <lb ed="#S" n="65"/>lia. Ad primum dicunt quidam, quod si character est sola 
+       depu<lb ed="#S" break="no" n="66"/>tatio ad actus sacros, tot characteres diceretur aliquis 
+      <lb ed="#S" n="67"/>habere, quo tactibus faciendis simul, vel successiue pote 
+      <!--0296.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>rit deputari: siue actus illi differant specie, siue genere: 
+      <lb ed="#S" n="69"/>nec propter hoc essent plura eiusdem speciei in eodem 
+       sub<lb ed="#S" break="no" n="70"/>iecto: quia character sic acceptus non est nisi relatio 
+       ratio<lb ed="#S" break="no" n="71"/>nis: entia autem rationis nusquam sunt subiectiue. si vero 
+      <lb ed="#S" n="72"/>character sit spiritualis potestas existens subiectiue in 
+       or<lb ed="#S" break="no" n="73"/>dinato: tunc in tribus ordinibus solum imprimitur chara 
+      <lb ed="#S" n="74"/>cter. scilicet episcopatu, sacerdotio, &amp; exorcista. Et hae 
+       potesta<lb ed="#S" break="no" n="75"/>tes differunt genere proximo, sicut actus earum.
+    </p>
+            <p xml:id="khj78y-q89986-d1e745" n="20">
+      <!-- 20 -->sed 
+      <lb ed="#S" n="76"/>videt dicendum, quod plura specie eiusdem generis propinqui: 
+      <lb ed="#S" n="77"/>dum tamen non habeant oppositionem, stant simul, sicut 
+      <lb ed="#S" n="78"/>oens scientiae in intellectu: vnde dato, quod characteres septem 
+      <lb ed="#S" n="79"/>ordinum sint vnius generis proximi: maxime quantum ad 
+       eo<lb ed="#S" break="no" n="80"/>qui sunt potestas faciendi licite, quod prius non licebat: 
+      <lb ed="#S" n="81"/>non tamen habent aliquam contrarietatem, sicut patet ex eorum 
+      <lb ed="#S" n="82"/>actibus: imo sibi subseruiunt: vnde se compatiuntur in eodem. 
+      <lb ed="#S" n="83"/>Quod vero dicunt, quod characteres exorcistatus, presbytera 
+      <lb ed="#S" n="84"/>tus, episcopatus, non sunt eiusdem generis proximi: sicut 
+      <lb ed="#S" n="85"/>omnes colores sunt eiusdem generis pximi: non apparet ra 
+      <lb ed="#S" n="86"/>tio, quare non alij characteres nisi isti, nec ipsi dicunt. 
+      <lb ed="#S" n="87"/>Oportetenim, quod si characteres differunt specie, habeant 
+      <lb ed="#S" n="88"/>vnum genus proximum: &amp; saltem duo sunt eiusdem generis 
+      <lb ed="#S" n="89"/>proximi: cum non sit genus, quin ad minus habeat duas 
+      <lb ed="#S" n="90"/>species: &amp; quamuis actus eorum differat genere proximo in 
+      <lb ed="#S" n="91"/>genere naturae: tamen in genere artificialium, &amp; gratuitorum, 
+      <lb ed="#S" n="92"/>siue hierarchicorum actuum sunt vnius generis, cum sit tan 
+      <lb ed="#S" n="93"/>tum vna hierarchia ecclesiae militantis.
+    </p>
+            <p xml:id="khj78y-q89986-d1e789" n="21">
+      <!-- 21 -->Ad 
+       secun<lb ed="#S" break="no" n="94"/>dum dicunt quidam, quod vnius sacramenti est vnus effectus princi 
+      <lb ed="#S" n="95"/>palis: &amp; sic character sacerdotij est principalis effectus sa 
+      <lb ed="#S" n="96"/>cramenti ordinis. Possunt tamen esse multi effectus minus 
+      <lb ed="#S" n="97"/>pricipales ordinati ad principalem actum eius, &amp; sic sunt 
+      <lb ed="#S" n="98"/>multi characteres multorum ordinum, qui omnes ordinantur 
+      <lb ed="#S" n="99"/>ad characterem sacerdotij, &amp; actuum eius.
+    </p>
+            <p xml:id="khj78y-q89986-d1e808" n="22">
+      <!-- 22 -->sed ista 
+      <lb ed="#S" n="100"/>solutio est dubia: quia cum principalis effectus sacri 
+       ordi<lb ed="#S" break="no" n="101"/>nis sit character, &amp; non gratia secundum eos: quia in diacona 
+      <lb ed="#S" n="102"/>tu, &amp; subdiaconatu imprimit gratia: quae tamen negant esse 
+       sa<lb ed="#S" break="no" n="103"/>cramenta. ergo exorcistatus, presbyteratus, episcopatus, in qui 
+      <lb ed="#S" n="104"/>bus imprimuntur diuersi characteres erunt diuersa 
+       sa<lb ed="#S" break="no" n="105"/>cramenta. Et videt dubium, quomodo  character episcopalis ordi 
+      <lb ed="#S" n="106"/>netur ad sacerdotalem: quia omne, quod ordinat ad aliquid, 
+      <lb ed="#S" n="107"/>ex sua natura plus ordinatur ad illud in suo subiecto, quam 
+      <lb ed="#S" n="108"/>in alieno: sed in eodem subiecto character episcopalis non 
+      <lb ed="#S" n="109"/>ordinatur ad sacerdotalem: cum praesupponat ipsum, nec 
+      <lb ed="#S" n="110"/>supponat ea, quae sunt episcopi in aliquo ad agendum ea, quae 
+      <lb ed="#S" n="111"/>sunt presbyterij, sed econuerso. Et praeter ea maior digni 
+      <lb ed="#S" n="112"/>tas non ordinatur ad minorem: si tamen separari posset Pontifi 
+      <lb ed="#S" n="113"/>cium a sacerdotio: maius est simplicitersacerdotium: quia 
+      <lb ed="#S" n="114"/>maximus gradus inter actus hierarchicos est posse 
+       confi<lb ed="#S" break="no" n="115"/>cere corpus Domini. Tamem argumentum principale est contra 
+      <lb ed="#S" n="116"/>Tho. qui ponit omnes ordines esse vnum sacramentum: &amp; tamen quem 
+      <lb ed="#S" n="117"/>libet imprimere specialem characterem: propter quod 
+       dicen<lb ed="#S" break="no" n="118"/>dum est, quod non omnis vnitas sanctorum est eiusdem rationis, 
+      <lb ed="#S" n="119"/>&amp; ad vnitatem sacri sufficit vnitas ordinis: quae etiam est 
+       mul<lb ed="#S" break="no" n="120"/>tiplex, vnde est aliquod sacramentum adeo vnum sacramentum, 
+      <lb ed="#S" n="121"/>quod est in eo vnitas indiuisibilitatis in genere sacramenti: 
+      <lb ed="#S" n="122"/>qa. scilicet non habet nisi vnum immediatum effectum: sicut ba 
+      <lb ed="#S" n="123"/>ptismus, confirmatio, &amp; multa huiusmodi. Aliud est, quod 
+      <lb ed="#S" n="124"/>habet multos effectus sacramentales secundum rem priua 
+      <lb ed="#S" n="125"/>tiue, licet vnum pofitiue: sicut in eucharistia est conuer 
+      <lb ed="#S" n="126"/>sio diuersarum rerum in vnam, &amp; eandem rem: ita quod sunt 
+      <lb ed="#S" n="127"/>plura, quae desinunt esse: sed vnum, quod incipit esse. Et 
+      <lb ed="#S" n="128"/>matrimonium est vnum sacramentum: habet tamen duos effe 
+      <lb ed="#S" n="129"/>ctus reales, siue sintrelationes, siue aliquid absolutum in 
+      <lb ed="#S" n="130"/>duobus. scilicet potestatem mutuam, &amp; obligationem. Ordo 
+       plu<lb ed="#S" break="no" n="131"/>res effectus res: sed vnum ordine, &amp; hoc sufficit, sicut de 
+      <lb ed="#S" n="132"/>eucharistia.
+    </p>
+            <p xml:id="khj78y-q89986-d1e884" n="23">
+      <!-- 23 -->Ad tertium, quod est in oppositum, dicunt 
+      <lb ed="#S" n="133"/>quidam, quod non solum sacramentum non est iterabile: quia 
+      <lb ed="#S" n="134"/>imprimat aliquam potestatem existentem subiectiue in 
+      <!--0297.xml-->
+      <pb ed="#S" n="297"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>suscipiente sacramentum: sed quia per ipsum deputatur 
+      <lb ed="#S" n="2"/>quis ad actum sacrum: sicut benedictio calicis non itera 
+      <lb ed="#S" n="3"/>tur: quia per eam deputatur ad actus sacros: quamuis ni 
+      <lb ed="#S" n="4"/>hil fiat subiectiue in calice per benedictionem. Et simili 
+      <lb ed="#S" n="5"/>ter potest esse in ordinibus: quae tamen deputatio large 
+      <lb ed="#S" n="6"/>dicitur character.
+    </p>
+            <p xml:id="khj78y-q89986-d1e913" n="24">
+      <!-- 24 -->sed hoc est addendum, quod 
+       impedi<lb ed="#S" break="no" n="7"/>mentum iterationis in sacramento. non est sola collatio 
+       po<lb ed="#S" break="no" n="8"/>testatis: cum ista sit in matrimonio, quod iteratur: nec sola 
+      <lb ed="#S" n="9"/>consecratio, vel vnctio, cum illa sit in extrema vnctione, 
+      <lb ed="#S" n="10"/>quae iteratur: nec benedictio cum illa sit in matrimonio, 
+      <lb ed="#S" n="11"/>quod iteratur, &amp; ipsamet benedictio de consuetudine 
+      <lb ed="#S" n="12"/>in multis ecclesiis, nec sola deputatio ad aliquid sacrum: 
+      <lb ed="#S" n="13"/>cum ista sit in promissione religionis, quae potest 
+       itera<lb ed="#S" break="no" n="14"/>ri, si intrat aliam religionem: sed quando haec omnia 
+       si<lb ed="#S" break="no" n="15"/>mul concurrunt, &amp; cum hoc est sacramentum: tunc pro 
+      <lb ed="#S" n="16"/>hibetur iterari, &amp; sic est in quolibet ordine. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="416"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r31942"><!-- l4d38-q5 -->
+            <head xml:id="khj78y-r31942-Hd1e101">Quaestio 5</head>
+            <head xml:id="khj78y-r31942-Hd1e103" type="question-title">
+     De vtilitate voti, et virginum consecratione.
+   </head>
+            <p xml:id="khj78y-r31942-d1e106">
+               <lb ed="#S" n="16"/>QVAESTIO QVINTA.
+        <lb ed="#S" n="17"/>De vtilitate voti, &amp; virginum consecratione.
+    </p>
+            <p xml:id="khj78y-r31942-d1e113">
+               <lb ed="#S" n="18"/>QVINTO quaeritur de voti comparatio 
+        <lb ed="#S" n="19"/>ne, vtrum sit melius facere aliquid ex vo 
+        <lb ed="#S" n="20"/>to quam sine voto. Et videtur quod non, quia illa 
+        <lb ed="#S" n="21"/>sunt in nostris actionibus gratiora, quae 
+        <lb ed="#S" n="22"/>cum non tenemur impartimur.
+    </p>
+            <p xml:id="khj78y-r31942-d1e126">
+      <!--2 -->
+       Con<lb ed="#S" break="no" n="23"/>tra, quia consilium est de meliori bono.
+    </p>
+            <p xml:id="khj78y-r31942-d1e134">
+      <!--3 -->Respondeo, 
+        <lb ed="#S" n="24"/>hic sunt tria videnda. Primo, de comparatione voti ad 
+       a<lb ed="#S" break="no" n="25"/>lia. Secundo, de comparatione vnius voti ad aliud. Tertio, 
+        <lb ed="#S" n="26"/>de voto virginum consecratarum specialiter.
+    </p>
+            <p xml:id="khj78y-r31942-d1e145" n="4">
+      <!--4 -->Quantum 
+        <lb ed="#S" n="27"/>ad primum sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-r31942-d1e152" n="5">
+      <!--5 -->Prima de vtilitate 
+        <lb ed="#S" n="28"/>voti quia expediens est vouêre, quia non est periculosum 
+        <lb ed="#S" n="29"/>ex natura facti, sed ex culpa non facientis. Et licet melius 
+        <lb ed="#S" n="30"/>sit non vouêre quae promissa non soluere: tamen melius est 
+       vo<lb ed="#S" break="no" n="31"/>uere quam non vouere, sicut melius est baptizari quam non 
+       ba<lb ed="#S" break="no" n="32"/>ptizari: tamen melius est non baptizari quam postmodu 
+       retror<lb ed="#S" break="no" n="33"/>sum conuerti.
+    </p>
+            <p xml:id="khj78y-r31942-d1e170">
+      <!--6 -->Secunda conclusio est, quod magis est me 
+        <lb ed="#S" n="34"/>ritorium facere aliquid ex voto quam sine, caeteris paribus: pu 
+        <lb ed="#S" n="35"/>ta cum aequali charitate &amp; laetitia: quia fit ex superiori vir 
+        <lb ed="#S" n="36"/>tute. i. latria. Secundo, quia plus datur, quia arbor cum 
+       fru<lb ed="#S" break="no" n="37"/>ctu. Tertio, quia ex maiori firmitate.
+    </p>
+            <p xml:id="khj78y-r31942-d1e183">
+      <!--7 -->Tertia conclusio, 
+        <lb ed="#S" n="38"/>quod si aliquis poeniteat de voto alias non facturus, nisi quia 
+        <lb ed="#S" n="39"/>non vult votum frangere, aduc est maius meritum. Primo, 
+        <lb ed="#S" n="40"/>qa bona voluntas sufficit ad meritum secundum Bernar. 
+       vn<lb ed="#S" n="41" break="no"/>de a principio quando vouit &amp; non soluit: tantum meruit quantum 
+        <lb ed="#S" n="42"/>qum siue voto soluit: &amp; huic merito superadditum est 
+       meri<lb ed="#S" n="43" break="no"/>tum iustitiae, quo vult soluere quod promisit. Secundo, quod 
+        <lb ed="#S" n="44"/>quia licet sit tristitia in hoc quod vouit &amp; quaedam voluntas: 
+        <lb ed="#S" n="45"/>tamen in soluendo quod vouit, &amp; in venerando votum est 
+       volun<lb ed="#S" n="46" break="no"/>tarium. Tertio etiam videtur, quod non demeretur in hoc quod vel 
+        <lb ed="#S" n="47"/>let non vouisse quia sicut a principio non tenebatur vouêre, 
+        <lb ed="#S" n="48"/>sic nec ex post facto tenebat velle vouisse, licet teneat 
+       sol<lb ed="#S" n="49" break="no"/>uere. Vel dato quod poenitere de bono sit sibi peccatum: non tamen 
+        <lb ed="#S" n="50"/>propter hoc impeditur quin volendo bonum mereatur, 
+       ma<lb ed="#S" n="51" break="no"/>xime si sint diuersi actus.
+    </p>
+            <p xml:id="khj78y-r31942-d1e218" n="8">
+      <!--8 -->Quantum ad scundu de 
+        <lb ed="#S" n="52"/>comparatione votorum adinuicem sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-r31942-d1e226" n="9">
+               <lb ed="#S" n="53"/>
+               <!--9 -->Prima, quod in voto solemni plus est de merito quae in simpli 
+        <lb ed="#S" n="54"/>ci, sicut plus diligitur vxor quam sponsa. Voto enim simpli 
+        <lb ed="#S" n="55"/>ti castitatis amica Dei fit sponsa Dei dissolubiliter: sed 
+        <lb ed="#S" n="56"/>voto solemni de sponsa Christi fit vxor agni indissolubili 
+        <lb ed="#S" n="57"/>ter, nisi quod ante mortem est matrimonium quasi non 
+       consum<lb ed="#S" break="no" n="58"/>matum: vnde de facto dissoluit, &amp; si non de iure, post mor 
+        <lb ed="#S" n="59"/>tem autem nullo modo.
+    </p>
+            <p xml:id="khj78y-r31942-d1e246" n="11">
+      <!--10 -->Secunda conclusio est, quod votum 
+        <lb ed="#S" n="60"/>solemne per professionem est maioris meriti inquantum votum est 
+        <lb ed="#S" n="61"/>quam solemne per sacri ordinis susceptionem, licet illud sit 
+       ma<lb ed="#S" break="no" n="62"/>loris meriti essentialiter &amp; materiali terratione sacri, quod 
+        <lb ed="#S" n="63"/>ex opere operato confert gratiam: non autem professio nisi 
+       di<lb ed="#S" break="no" n="64"/>spositiue tum solennitas professionis est maioris meriti quam 
+        <!--0416.xml-->
+        <cb ed="#S" n="b"/>
+               <lb ed="#S" n="65"/>ordinis. De comparatione autem professionis statuum nihil 
+        <lb ed="#S" n="66"/>ad propositum, quia dictum est supra. 15. Dist.
+    </p>
+            <p xml:id="khj78y-r31942-d1e270" n="11">
+      <!--11--> Tertia 
+       con<lb ed="#S" break="no" n="67"/>clusio est, quod solemnitas professionis vna comparatur ad aliam 
+        <lb ed="#S" n="68"/>secundum magis &amp; minus perfectum, &amp; secundum maius &amp; 
+        <lb ed="#S" n="69"/>minus meritum secundum comparationem illorum ad quae sunt 
+        <lb ed="#S" n="70"/>&amp; secundum comparationem mediorum per quae sunt: bonitas 
+        <lb ed="#S" n="71"/>enim eius quod est ad finem, est ex fine &amp; absolute, &amp; 
+       secun<lb ed="#S" break="no" n="72"/>dum quod per ipsum magis &amp; minus idem finis habet: vnde quia 
+        <lb ed="#S" n="73"/>contemplatiua praefertur actiuae: religio monialium praeferi 
+       il<lb ed="#S" break="no" n="74"/>li q est seruientium in hospitali. Vlterius, quia elcemosynae 
+        <lb ed="#S" n="75"/>spuales praeferuntur corporalibus, &amp; debellare hostes spirituales 
+        <lb ed="#S" n="76"/>est nobilius quam corporales: inde est quod religio praedicatorum 
+        <lb ed="#S" n="77"/>praeferi religioni militantium, &amp; vlterius religio quae 
+       ha<lb ed="#S" break="no" n="78"/>bet actiuam &amp; contemplatiuam simul, illi quae alteram tantum: inter il 
+        <lb ed="#S" n="79"/>las autem quarum est idem finis, illa cuius est ille principalius 
+        <lb ed="#S" n="80"/>&amp; essentialius, sicut quae praedicat ex institutione: quam ex acci 
+        <lb ed="#S" n="81"/>denti commissione: &amp; quae habet perfectiora media caeteris 
+        <lb ed="#S" n="82"/>paribus, sicut quae est arctioris paupertatis, vel quae est maioris 
+        <lb ed="#S" n="83"/>castitatis. i. poenitentiae &amp; mortificationis carnis, vel 
+       ma<lb ed="#S" break="no" n="84"/>ioris obedientiae, vel reclusionis &amp; solitudinis inquantum 
+        <lb ed="#S" n="85"/>huiusmodi.
+    </p>
+            <p xml:id="khj78y-r31942-d1e316" n="12">
+      <!--12--> Quantum ad tertium de consecratione 
+       virgi<lb ed="#S" n="86" break="no"/>num sunt septem conclusiones.
+    </p>
+            <p xml:id="khj78y-r31942-d1e323" n="13">
+      <!--13--> Prima, quod non debet 
+        <lb ed="#S" n="87"/>consecrari nec velari non virgo. Quod patet primo ex 
+       of<lb ed="#S" break="no" n="88"/>ficio ecclesiae in quo falsitas esse non debet, quia magis per 
+        <lb ed="#S" n="89"/>niciosum mendacium quod sit est illud quod est in cultu 
+        <lb ed="#S" n="90"/>Christianae religionis, sed intoto officio de velatione &amp; 
+        <lb ed="#S" n="91"/>benedictione virginum fit mentio de integritate &amp; 
+       vir<lb ed="#S" break="no" n="92"/>ginitate carnis. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r31942-d1e341" n="14">
+      <!--14--> Secunda ratio est, quia Christus 
+        <lb ed="#S" n="93"/>existens Pontifex futurorum bonorum est dignior quam qui 
+       secun<lb ed="#S" break="no" n="94"/>dum ordinem Aaron, sed ille non nisi virginem desponsabat. 
+        <lb ed="#S" n="95"/>Leui. 2 1. ergo nec Christus: vnde huiusmodi portant annulum 
+        <lb ed="#S" n="96"/>tanquam sponsae Christi: vnde &amp;. 2. ad. Cor. 12. Despondi 
+        <lb ed="#S" n="97"/>vos vni viro virginem castam exhibere Christo.
+    </p>
+            <p xml:id="khj78y-r31942-d1e358" n="15">
+      <!--15 -->Ter 
+        <lb ed="#S" n="98"/>tia ratio est essentialior, quia sicut per matrimonium 
+       carna<lb ed="#S" break="no" n="99"/>le repraesentatur communiunctio Christi &amp; ecclesiae, &amp; diuinae &amp; 
+        <lb ed="#S" n="100"/>humanae naturae quantum ad foecunditatem: vnde nec est 
+        <lb ed="#S" n="101"/>perfecta repraesentatio ante matrimonium consummatum: ex 
+        <lb ed="#S" n="102"/>quo solum potest sequi foecunditas prolis, quando fiunt duo in car 
+        <lb ed="#S" n="103"/>ne vna: sic etiam repraesentatur quantum ad integritatem &amp; 
+       pu<lb ed="#S" break="no" n="104"/>ritatem per benedictionem &amp; velationem virginum. Et ideo 
+       si<lb ed="#S" break="no" n="105"/>cut ecclesia semper fuit, est, &amp; erit virgo immaculata &amp; 
+        <lb ed="#S" n="106"/>incorrupta, quia semper ex quo ab Abel coepit: ex tunc 
+       sem<lb ed="#S" break="no" n="107"/>per in ecclesia aliquis sine corruptione mortalis peccati 
+        <lb ed="#S" n="108"/>fuit, humanitas etiam assumpta nunquam a Deitate dimissa 
+        <lb ed="#S" n="109"/>fuit: ita etiam debet esse virgo corpore incorrupta quae ve 
+        <lb ed="#S" n="110"/>latur &amp; benedicit, vt hoc significare possit, sicut propter 
+        <lb ed="#S" n="111"/>eandem causam non debet diuisisse carnem suam in 
+       plu<lb ed="#S" break="no" n="112"/>res vxores ordinandus, alias bigamus esset.
+    </p>
+            <p xml:id="khj78y-r31942-d1e395" n="16">
+      <!--16--> 
+       Secun<lb ed="#S" break="no" n="113"/>da conclusio est, quod est multiplex velum secundum Cano 
+        <lb ed="#S" n="114"/>nes. s. velum professionis quod datur foeminis anno. 12. 
+        <lb ed="#S" n="115"/>20. q. 2. Puella. &amp; hoc velum portant in religionibus omnes 
+        <lb ed="#S" n="116"/>foeminae professae. Secundum est velum consecrationis quod 
+        <lb ed="#S" n="117"/>datur anno. 25.2 1. q. 1. Plura. Tertium est velum 
+       ordina<lb ed="#S" break="no" n="118"/>tionis quod datur anno. 40. 27. q. 1. Diaconissa. 
+       Quar<lb ed="#S" break="no" n="119"/>tum est velum praelationis quod datur anno. 60. 20. 
+       q<lb ed="#S" break="no" n="120"/>1. Iuuenculis. licet iure nouo habens. 30. annos comple 
+        <lb ed="#S" n="121"/>tos possit ordinari in abbatissam, de elect. c. Indem-
+       nitati<lb ed="#S" break="no" n="122"/>bus. lib. 6. Quintum est velum continentiae &amp; obseruationis 
+        <lb ed="#S" n="123"/>quod est viduarum. 27. q. 1. Vidua de regularibus. c. 
+       Vi<lb ed="#S" break="no" n="124"/>dua. Qui cle. vel vo. c. Consuluit.
+    </p>
+            <p xml:id="khj78y-r31942-d1e426" n="17">
+      <!--17 -->Tertia 
+       conclu<lb ed="#S" break="no" n="125"/>sio est de differentia veli virginum &amp; viduarum. Quarum 
+        <lb ed="#S" n="126"/>prima est, quod virgo potest accipere velum viduarum si vult, 
+        <lb ed="#S" n="127"/>non econuerso. Velo enim virginum nullus episcopus viduam 
+        <lb ed="#S" n="128"/>velare potest, nec in hoc dispensare. 20. q. 1. de votis. 
+       Secun<lb ed="#S" break="no" n="129"/>da differentia est, quod vidua ab altari velum continentiae 
+        <lb ed="#S" n="130"/>accipere potest. 27. q. 1. Viduae quae sponte: &amp; non fic au 
+        <lb ed="#S" n="131"/>tem de velo virginum. Tertia differentia est, quod velum vir- 
+      <!--0417.xml-->
+      <pb ed="#S" n="417"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ginum dirimit matrimonium post contractum, quia non da 
+      <lb ed="#S" n="2"/>tur nisi professis in religione approbata: non autem velum 
+      <lb ed="#S" n="3"/>viduarum quod potest dari sine professione in religione non 
+      <lb ed="#S" n="4"/>approbata, vt Beguinis &amp; seruientibus in hospitali non 
+      <lb ed="#S" n="5"/>habentibus regulam approbatam, quod necessarium est ad so 
+      <lb ed="#S" n="6"/>lennitatem voti sequens matrimonium destruentis. de votis. 
+      <lb ed="#S" n="7"/>c. 1. lib. 6. Iura vero quae dirimunt matrimonium viduarum 
+      <lb ed="#S" n="8"/>velatarum debent intelligi de velo professionis secundum re 
+      <lb ed="#S" n="9"/>gulam approbatam.
+    </p>
+            <p xml:id="khj78y-r31942-d1e472" n="18">
+      <!-- 18 -->Quarta conclusio est, quod nullus 
+      <lb ed="#S" n="10"/>nisi epraes virgines velare potest. 20. q. 1. de votis. Ipse est enim 
+      <lb ed="#S" n="11"/>quasi sponsi paranymphus desponsans sibi virginem. Abbatis 
+      <lb ed="#S" n="12"/>sae vero velo virginum monialium velare possunt. 20. q. 2. 
+      <lb ed="#S" n="13"/>statuimus, de poe. &amp; re. c. Noua. nec hoc epraes potest non epo 
+      <lb ed="#S" n="14"/>demandare cum sit consecrationis &amp; ordinationis Pontifica 
+      <lb ed="#S" n="15"/>lis, sicut consecrare ecclesias, &amp; non iurisdictionis. de 
+       con<lb ed="#S" break="no" n="16"/>se. ecclesiae &amp; alta. c. Aquam.
+    </p>
+            <p xml:id="khj78y-r31942-d1e492" n="19">
+      <!-- 19 -->Quinta conclusio est, quod ex 
+      <lb ed="#S" n="17"/>cepta aegritudine epraes nulli virgini velum imponere debet 
+      <lb ed="#S" n="18"/>nisi infesto Epiphaniae &amp; per totas octauas Paschae, vel 
+      <lb ed="#S" n="19"/>nisi in festis apostolorum. 20. q. 1. de votis. quamuis in hoc con 
+      <lb ed="#S" n="20"/>traria consuetudo excuset.
+    </p>
+            <p xml:id="khj78y-r31942-d1e505" n="20">
+      <!-- 20 -->sexta conclusio est de vi 
+      <lb ed="#S" n="21"/>oppressis, quia si non consenserunt castitas illis duplicatur 
+      <lb ed="#S" n="22"/>ad coronam, vt dicit beata Lucia, Quia castitas mentis 
+      <lb ed="#S" n="23"/>non aufertur per violentiam illatam corpori. 32. q. 5. fe 
+      <lb ed="#S" n="24"/>re per totum. Non corrumpitur autem corpus quo ad 
+       meri<lb ed="#S" break="no" n="25"/>tum, nisi prius corrumpatur animus. 32. q. 5. Non potest 
+      <lb ed="#S" n="26"/>&amp;. 5. sequentibus. Et pudicitia si mente semper teneatur 
+      <lb ed="#S" n="27"/>propter corporisviolentiam. eandem. q. c. Magus. &amp;. c. Illa 
+      <lb ed="#S" n="28"/>tamen vi oppressa inter virgines consecrare non debet 
+      <lb ed="#S" n="29"/>32. q. 5. c. Ille.
+    </p>
+            <p xml:id="khj78y-r31942-d1e530" n="21">
+      <!-- 21 -->septima conclusio est, quod occulte cor 
+      <lb ed="#S" n="30"/>ruptae siue a viris siue aliter, non sunt velo virginum 
+       con<lb ed="#S" break="no" n="31"/>secrandae, sicut nec occulte bigami ordinandi. Bene 
+       e<lb ed="#S" break="no" n="32"/>nim sine commixtione sexuum castitas etiam corporum 
+      <lb ed="#S" n="33"/>perditur. 32. q. 5. Nec solo. Quod autem aliqui dicunt, 
+      <lb ed="#S" n="34"/>quod illa quae non sunt de substantia virginalis veli, possunt 
+      <lb ed="#S" n="35"/>variari propter vitandum scandalum, vt accensio 
+       cande<lb ed="#S" break="no" n="36"/>larum: &amp; alia huiusmodi fiant mutatis occulte illis quae 
+      <lb ed="#S" n="37"/>non sunt de substantia virginalis veli: puta quod 
+       no<lb ed="#S" break="no" n="38"/>men virginitatis in castitatem varietur, non est verum, 
+      <lb ed="#S" n="39"/>quia hoc est mentiri facto, &amp; si non verbo: vnde sicut bi 
+      <lb ed="#S" n="40"/>gamus non debet ordinari nec mutatis nominibus nec 
+      <lb ed="#S" n="41"/>aliter: quia deficit a significatione sacramenti, sic nec 
+       cor<lb ed="#S" break="no" n="42"/>rupta velari, sed verum est quod si episcopus nescit nisi in confes 
+      <lb ed="#S" n="43"/>sione, nullo modo debet publice repellere: imo nec etiam 
+      <lb ed="#S" n="44"/>si aliter scit si est occultum, ipsa tamen sibi conscia de cor 
+      <lb ed="#S" n="45"/>ruptione perfecta mortaliter peccat susc ipiendo eam. 
+    </p>
+            <p xml:id="khj78y-r31942-d1e569" n="22">
+               <lb ed="#S" n="46"/>
+               <!-- 22 -->Ad argumentum dicendum, quod non debita sponte 
+      <lb ed="#S" n="47"/>oblata sunt acceptiora inquantum liberaliori 
+       volunta<lb ed="#S" break="no" n="48"/>te offeruntur. si autem ea quae debentur ita libere 
+       offe<lb ed="#S" break="no" n="49"/>runtur, cum redduntur vel cum promittuntur, tunc pos 
+      <lb ed="#S" n="50"/>sunt esse aeque accepta: vt prius dictum est. 
+    </p>
+            <p xml:id="khj78y-r31942-d1e585" n="30">
+               <lb ed="#S" n="51"/>QVAESTIO SEXTA. 
+    </p>
+            <p xml:id="khj78y-r31942-d1e590">
+               <lb ed="#S" n="52"/>De scandalo.
+    </p>
+            <p xml:id="khj78y-r31942-d1e595">
+               <lb ed="#S" n="53"/>Thom. 4. Dist. 38. q. 2. per totam. 
+    </p>
+            <p xml:id="khj78y-r31942-d1e600">
+               <lb ed="#S" n="54"/>SEXTO queritur de scandalo, vtrum sit 
+      <lb ed="#S" n="55"/>peccatum. Et videtur quod non, quia Christus 
+      <lb ed="#S" n="56"/>scandalizauit pharisaeos qui nunquam pecca 
+      <lb ed="#S" n="57"/>uit.
+    </p>
+            <p xml:id="khj78y-r31942-d1e612" n="2">
+      <!-- 2 -->Contra. Qui scandalizauerit 
+      <lb ed="#S" n="58"/>vnum de pusillis istis &amp;c.
+    </p>
+            <p xml:id="khj78y-r31942-d1e619" n="3">
+      <!-- 3 -->Respondeo, 
+      <lb ed="#S" n="59"/>hic sunt tria videnda. Primo, quid est scandalum. secundo, 
+      <lb ed="#S" n="60"/>quando est peccatum. Tertio, quid propter ipsum dimit 
+      <lb ed="#S" n="61"/>tendum est,
+    </p>
+            <p xml:id="khj78y-r31942-d1e630" n="4">
+      <!-- 4 -->Quantum ad primum sunt tres 
+       conclusio<lb ed="#S" break="no" n="62"/>nes. Prima, quid est scandalum, &amp; vnde dicatur. Vbi sciendum 
+      <lb ed="#S" n="63"/>est quod sicut dicit Hiero. exponens illud Mat. scis quod 
+       pha<lb ed="#S" break="no" n="64"/>risaei audito hoc verbo scandalitati sunt: scandalum Grae- 
+      <!--0417.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="65"/>ce, nos ruinam vel offensionem, vel impactionem pedis 
+       possu<lb ed="#S" break="no" n="66"/>mus dicere. Obex enim quod alicui ponitur in via 
+       cor<lb ed="#S" break="no" n="67"/>porali cui impingens disponitur ad ruinam, dicit scandalum, 
+       si<lb ed="#S" break="no" n="68"/>militer in processu viae spiritualis: illud quo quis disponitur 
+      <lb ed="#S" n="69"/>ad ruinam spiritualem, dicitur scandalum: tale autem est verbum vel 
+      <lb ed="#S" n="70"/>factum minus rectum praebens alteri occasionem ruinae. Et quia 
+      <lb ed="#S" n="71"/>actus sumit rationem ex obiecto: ideo ruina vel dispositio 
+      <lb ed="#S" n="72"/>ad ruinam sequens ex alterius dicto vel facto, diciiscanda 
+      <lb ed="#S" n="73"/>lum, sed passiuum, primum vero actiuum.
+    </p>
+            <p xml:id="khj78y-r31942-d1e665" n="5">
+      <!-- 5 -->secunda 
+       con<lb ed="#S" break="no" n="74"/>clusio est quomodo  distinguitur scandalum actiuum a passiuo 
+       de<lb ed="#S" break="no" n="75"/>finitiue &amp; quidditatiue. Vbi sciendum est, quod dictum vel 
+       fa<lb ed="#S" break="no" n="76"/>ctum potest esse alteri occasio peccandi. Vno modo per se 
+      <lb ed="#S" n="77"/>alio modo per accidens, per se quidem quando aliquis intendit 
+      <lb ed="#S" n="78"/>suo malo verbo vel facto alium ad pecca:um inducere, vel si 
+      <lb ed="#S" n="79"/>ipse etiam hoc non intendat: quando ipsum verbum vel factum est 
+      <lb ed="#S" n="80"/>tale, quod de sui ratione est inductiuum ad peccatum: vtpote cum 
+      <lb ed="#S" n="81"/>aliquis publice facit peccatum, vel aliquid quod habet 
+       simi<lb ed="#S" break="no" n="82"/>litudinem peccati: &amp; tunc ille qui hoc facit dat alteri 
+       oc<lb ed="#S" break="no" n="83"/>casionem ruinae, potissime quando hoc intendit, vnde vocatur 
+      <lb ed="#S" n="84"/>scandalum actiuum. Per accidens vero verbum vel factum vnius 
+      <lb ed="#S" n="85"/>est alteri causa peccandi: quando praeter intentionem operantis, &amp; 
+      <lb ed="#S" n="86"/>conditionem operis aliquis male dispositus inducitur ad 
+      <lb ed="#S" n="87"/>peccatum: puta cum quis inuidet bonis aliorum, tunc ille, qui 
+      <lb ed="#S" n="88"/>facit talem actum non dat alteri occasionem peccandi, sed altet 
+      <lb ed="#S" n="89"/>sumit scandalum: &amp; in hoc est scandalum passiuum sine actiuor 
+      <lb ed="#S" n="90"/>quia ille qui ratione agit non dat occasionem ruinae, quam 
+      <lb ed="#S" n="91"/>alter patitur.
+    </p>
+            <p xml:id="khj78y-r31942-d1e709" n="6">
+      <!-- 6 -->Tertia conclusio est, quomodo  concurrit in di 
+      <lb ed="#S" n="92"/>uersis &amp; quomodo  non, quia contingit quandoque quod simul sit scandalum 
+      <lb ed="#S" n="93"/>actiuum in vno, &amp; passiuum in altero: puta cum ad indu 
+      <lb ed="#S" n="94"/>ctionem vnius alter peccat: <unclear>quandoque</unclear>, est actiuum sine passiuo: 
+       pu<lb ed="#S" n="95" break="no"/>ta cum quis inducit alium verbo vel facto ad peccandum, &amp; 
+      <lb ed="#S" n="96"/>ille non consentit, <unclear>quandoque</unclear>, vero est passiuum sine actiuo, vt iam 
+      <lb ed="#S" n="97"/>dictum est, &amp; sic patet primum.
+    </p>
+            <p xml:id="khj78y-r31942-d1e731" n="7">
+      <!-- 7 -->Quantum ad secundum de 
+      <lb ed="#S" n="98"/>peccato scandali, sunt tres conclusiones. Prima, quod scandalum 
+      <lb ed="#S" n="99"/>passiuum nunquam est sine culpa scandalizati, nec actiuum 
+      <lb ed="#S" n="100"/>sine culpa scandalizantis: passiuum tamen bene est sine 
+       cul<lb ed="#S" break="no" n="101"/>pa scandalizantis: &amp; actiuum, sine culpa scandalizati. 
+       Pri<lb ed="#S" break="no" n="102"/>mum patet, quia omnis ruina spiritualis est peccatum in eo 
+      <lb ed="#S" n="103"/>qui ruit, sed scandalum passiuum est ruina scandalizati: 
+       er<lb ed="#S" break="no" n="104"/>go est peccatum in eo. secundum patet, quia omne scandalum est 
+      <lb ed="#S" n="105"/>peccatum, vel habet speciem peccati.
+    </p>
+            <p xml:id="khj78y-r31942-d1e754" n="8">
+      <!--8 -->si sit peccatum, habeo 
+      <lb ed="#S" n="106"/>propositum, si non de se sit peccatum, sed habet speciem peccati: 
+      <lb ed="#S" n="107"/>vt comedere idoloticum coram infirmis debet dimitti 
+      <lb ed="#S" n="108"/>ex charitate propter laesionem proximi, &amp; qui non 
+       dimit<lb ed="#S" break="no" n="109"/>tit contra charitatem agit, sicut dicit Apostolus Rom. 4 si 
+      <lb ed="#S" n="110"/>propter cibum frater tuus scandalizatur vel contristat, 
+      <lb ed="#S" n="111"/>iam non secundum charitatem ambulas: ergo omne tale scam 
+      <lb ed="#S" n="112"/>dalum est pctium in facientibus ipsum. Tertium patet ex dl 
+      <lb ed="#S" n="113"/>ctis in primo articulo, quia est scandalum actiuum sine 
+       pas<lb ed="#S" break="no" n="114"/>fiuo, &amp; econuerso.
+    </p>
+            <p xml:id="khj78y-r31942-d1e778" n="9">
+      <!-- 9 -->secunda conclusio est, quod passiuum 
+      <lb ed="#S" n="115"/>nunquam est speciale peccatum, nec actiuum nisi quando est ex inten 
+      <lb ed="#S" n="116"/>tione inducendi ad peccandum. Tunc enim scandalizare 
+      <lb ed="#S" n="117"/>proximum opponitur directe actui charitatis, qui est 
+       aedifi<lb ed="#S" break="no" n="118"/>care proximum ex intentione verbo vel facto: vel secundo, 
+      <lb ed="#S" n="119"/>quando praeter intentionem scandalizat per bonam habens speciem 
+      <lb ed="#S" n="120"/>mali. Tunc enim non est peccatum nisi ex hoc quod natum est indu 
+      <lb ed="#S" n="121"/>cere ad peccandum.
+    </p>
+            <p xml:id="khj78y-r31942-d1e798" n="10">
+      <!-- 10 -->Tertia conclusio est, quod passiuum quandoque 
+      <lb ed="#S" n="122"/>est mortale quandoque veniale secundum illud in quod ruit: &amp; acti 
+      <lb ed="#S" n="123"/>uum similiter qum non est speciale peccatum: sed quando est speciale peccatum, 
+      <lb ed="#S" n="124"/>tunc non est mortale, nisi quando intendit ducere ad 
+      <lb ed="#S" n="125"/>mortale: vel si non intendit illud, facit quod de se natum 
+      <lb ed="#S" n="126"/>est inducere ad mortale, siue sit mortale siue veniale, 
+       si<lb ed="#S" break="no" n="127"/>ue solum habens speciem mali.
+    </p>
+            <p xml:id="khj78y-r31942-d1e816" n="11">
+      <!-- 11 -->Quantum ad 
+       ter<lb ed="#S" break="no" n="128"/>tium de dimittendis propter scandalum, sunt quinque con 
+      <lb ed="#S" n="129"/>clusiones. Prima in generali, quod id quod sine peccato 
+      <lb ed="#S" n="130"/>mortali vel veniali omitti non potest pro tunc omitti non 
+      <lb ed="#S" n="131"/>debet, ga nullo casu nullo fine est venialiter etiam pec- 
+      <!--0418.xml-->
+      <pb ed="#S" n="418"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>candum. Illud vero quod pro tunc sine omni peccato omit 
+      <lb ed="#S" n="2"/>ti potest, est omittendum propter scandalum pusillorum quamdiu 
+       du<lb ed="#S" break="no" n="3"/>rat: siue sit bonum corporale, quia plus homo debet diligere 
+      <lb ed="#S" n="4"/>bonum animae proximi quam bona temporalia, quae si non potest 
+       re<lb ed="#S" break="no" n="5"/>tinere, defendere, vel repetere sine scandalo pusillorum, 
+       de<lb ed="#S" break="no" n="6"/>bet contemnere, sed propter scandalum pharisaeorum nequaquam, 
+      <lb ed="#S" n="7"/>quia illud est contemnendum. Per hoc possunt saluari 
+       ver<lb ed="#S" break="no" n="8"/>sus Iuristarum: 
+      <lb ed="#S" n="9"/>Est veritas vitae, doctrinae, iustitiaeque,
+      <lb ed="#S" n="10"/>Primum semper habe, duo propter scandala linque. 
+      <lb ed="#S" n="11"/>Quia enim veritas vitae nunquam sine peccato potest omit 
+      <lb ed="#S" n="12"/>ti. ideo &amp;c. sed veritas iustitiae &amp; doctrinae aliquando sic, 
+      <lb ed="#S" n="13"/>sicut si ex praedicatione vel doctrina aliquid plus sequa 
+      <lb ed="#S" n="14"/>tur mali in scandalizatis pusillis, quam boni in aedificandis: 
+       in<lb ed="#S" break="no" n="15"/>terim omitti debet. similiter si ex suspensione Baronum 
+      <lb ed="#S" n="16"/>tunc regnum in seditionem vertit, melior est omissio iusti 
+      <lb ed="#S" n="17"/>tiae quam executio. Tunc enim omitti debet, aliter non. 
+       id<lb ed="#S" break="no" n="18"/>eo &amp;c.
+    </p>
+            <p xml:id="khj78y-r31942-d1e875" n="12">
+      <!-- 12 -->secunda conclusio est, applicare haec ad 
+       bo<lb ed="#S" break="no" n="19"/>na spiritualia. Vbi sciendum, quod quaedam bona spualia sunt de 
+      <lb ed="#S" n="20"/>necessitate salutis, quae non possunt praetermitti sine peccato 
+      <lb ed="#S" n="21"/>mortali, alia sunt supererogationis. Prima non debent 
+      <lb ed="#S" n="22"/>dimitti propter quodcunque scandalum, quia nullus debet 
+      <lb ed="#S" n="23"/>peccare mortaliter, vt alius vitet quodcumque peccatum: quia 
+       se<lb ed="#S" break="no" n="24"/>cundum ordinem charitatis quilibet tenetur plus sibi quam 
+       alte<lb ed="#S" break="no" n="25"/>ri, sed prima bona non possunt praetermitti sine peccato 
+      <lb ed="#S" n="26"/>mortali. ergo &amp;c. Circa vero alia bona vt est ingressus 
+      <lb ed="#S" n="27"/>religionis, &amp; quaecunque alia quae non sunt de necessitate sa 
+      <lb ed="#S" n="28"/>lutis, est distinguendum de scandalo quod ex his oritur: 
+      <lb ed="#S" n="29"/>quia aut procedit ex malitia vt cum aliqui dicunt se scan 
+      <lb ed="#S" n="30"/>dalizatos, &amp; in aliis scandala suscitant ad impediendum 
+       ta<lb ed="#S" break="no" n="31"/>lia aliqua bona sine iusta causa, &amp; tale est scandalum 
+       pha<lb ed="#S" break="no" n="32"/>risaeorum qui de doctrina Domini scandalizabani. Mat. 15. 
+      <lb ed="#S" n="33"/>&amp; tale scandalum est contemnendum exemplo Domini, nec pro 
+      <lb ed="#S" n="34"/>pter ipsum aliquod tale opus supererogationis dimitten 
+      <lb ed="#S" n="35"/>dum est, &amp; tale est frequenter parentum carnalium de ingres 
+      <lb ed="#S" n="36"/>su religionis, de quo dicit Hiero. ad Heliodorum. Licet in 
+      <lb ed="#S" n="37"/>limine pater iaceat, licet vbera quibus te lactauit mater 
+      <lb ed="#S" n="38"/>ostendat, per calcatum perge patrem, per calcata perge 
+       ma<lb ed="#S" break="no" n="39"/>trem, siccisoculis ad vexillum crucis euola. solum pieta 
+      <lb ed="#S" n="40"/>tis genus est in hac re esse crudelem. Quandoq, vero scanda 
+      <lb ed="#S" n="41"/>lum procedit ex infirmitate, vel ignorantia, quod docet 
+      <lb ed="#S" n="42"/>Dominus vitare, Matt. 14. &amp; Apostolus. 1. ad Cor. 8. Et propter 
+      <lb ed="#S" n="43"/>tale scandalum vitandum bona spiritualia quae non sunt de neces 
+      <lb ed="#S" n="44"/>sitate salutis, vel sunt occultanda vel sunt differenda ad 
+      <lb ed="#S" n="45"/>tempus, quousque ratione reddita alij instruantur, quod non 
+      <lb ed="#S" n="46"/>debent ex talibus scandalizari, sed potius aedificari. si 
+      <lb ed="#S" n="47"/>vero post redditam rationem &amp; debitam instructionem 
+       ad<lb ed="#S" break="no" n="48"/>huc scandalizantur, iam videtur ex malitia procedere &amp; 
+      <lb ed="#S" n="49"/>non ex ignorantia, &amp; tunc nihil de praedictis est propter 
+      <lb ed="#S" n="50"/>scandalum tale dimittendum.
+    </p>
+            <p xml:id="khj78y-r31942-d1e949" n="13">
+      <!-- 13 -->Tertia conclusio est in 
+      <lb ed="#S" n="51"/>speciali de bonis temporalibus: an sint dimittenda ei qui 
+      <lb ed="#S" n="52"/>vult ea accipere, vel non repetenda ab eo qui iam habet, 
+      <lb ed="#S" n="53"/>propter scandalum ipsius vel alterius vitandum. Vbi 
+       simili<lb ed="#S" break="no" n="54"/>ter est distinguendum, quod bona temporalia aut sunt nostra, 
+      <lb ed="#S" n="55"/>aut nobis commissa ad seruandum &amp; dispensandum pro 
+       com<lb ed="#S" break="no" n="56"/>munitate, sicut bona ecclesiae committuntur praelatis, &amp; re 
+      <lb ed="#S" n="57"/>ctoribus reipu. si sunt dimissa ad conseruandum vel di 
+      <lb ed="#S" n="58"/>spensandum: tunc propter nullum scandalum sunt dimittenda 
+      <lb ed="#S" n="59"/>vsurpantibus: sed sunt repetenda saluis debitis 
+       circunstan<lb ed="#S" break="no" n="60"/>tiis, quae debent in talibus obseruari: cuius ratio est: quia 
+      <lb ed="#S" n="61"/>finalis custodia &amp; dispensatio talium incumbit his, quibus 
+      <lb ed="#S" n="62"/>commissa est ex necessitate praecepti. Et ideo sicut 
+       praece<lb ed="#S" break="no" n="63"/>ptum non est omittendum propter scandalum, sic nec istud. 
+      <lb ed="#S" n="64"/>si autem sint nostra, tunc dicendum sicut prius, quia aut 
+       scan<lb ed="#S" break="no" n="65"/>dalum oritur ex malitia alicuius alienum volentis 
+       vsur<lb ed="#S" break="no" n="66"/>pare detinere, &amp; illud est paruipendendum, tum quia 
+       noce<lb ed="#S" break="no" n="67"/>ret bono communi. Daretur enim malis occasio rapiendi 
+      <!--0418.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>aliena: tum quia nocent rapientibus qui iniuste rapiendo 
+      <lb ed="#S" n="69"/>vel detinendo alienum peccarent. Vnde Greg. dicit in 
+       Mo<lb ed="#S" n="70" break="no"/>ral. loquens de rapientibus aliena. Quidam seruata 
+       charita<lb ed="#S" break="no" n="71"/>te prohibendi sunt, non sola cura ne nostra subtrahant: sed 
+      <lb ed="#S" n="72"/>ne rapientes non solum sua sed seipsos perdant. Aut 
+       scanda<lb ed="#S" break="no" n="73"/>lum oritur ex ignorantia, &amp; istud est scandalum pusillorum: 
+      <lb ed="#S" n="74"/>&amp; propter istud dimittenda sunt temporalia ad tempus, 
+       quo<lb ed="#S" break="no" n="75"/>usque sedetur scandalum per admonitionem vel quencunque 
+      <lb ed="#S" n="76"/>alium modum. si autem post sufficientem admonitionem &amp; in 
+      <lb ed="#S" n="77"/>structionem scandalum non sedatur: perfectionis est sua dimit 
+      <lb ed="#S" n="78"/>tere, sed non necessitatis, &amp; quandoque non est perfectionis cum 
+      <lb ed="#S" n="79"/>credit, quod repetendo illud quod alius iniuste detinet, vel 
+      <lb ed="#S" n="80"/>negando quod iniuste petit ille dirigatur ad cognitionem 
+      <lb ed="#S" n="81"/>veritatis.
+    </p>
+            <p xml:id="khj78y-r31942-d1e1026" n="14">
+      <!-- 14 -->Quarta conclusio est de 
+       indifferentibus<lb ed="#S" break="no" n="82"/>Vbi sciendum, quod illa quae sunt indifferentia sicut comedere 
+      <lb ed="#S" n="83"/>carnes vel abstinere: omnino dimittenda sunt quandiu du 
+      <lb ed="#S" n="84"/>rat scandalum pusillorum. Vnde Aug. in lib. de sermone Domini 
+      <lb ed="#S" n="85"/>in monte: Dandum est quod nec tibi nec alteri noceat: &amp; 
+      <lb ed="#S" n="86"/>cum negaueris quod petit iudicanda est ei iustitia, &amp; me 
+      <lb ed="#S" n="87"/>lius ei aliquid dabis cum petentem iniuste correxeris. 
+       Apo<lb ed="#S" break="no" n="88"/>stolus autem qui videtur dicere. 1. ad Cor. 6. quod petere sua in 
+      <lb ed="#S" n="89"/>iudicio sit delictum: loquitur in casu in quo fideles de no 
+      <lb ed="#S" n="90"/>uo conuersi ad fidem trahebant se ad iudicia infidelium: quod 
+      <lb ed="#S" n="91"/>erat in periculum subuersionis fidei: pro eo qui partes 
+       liti<lb ed="#S" break="no" n="92"/>gantes quaerunt fauorem iudicis. Et Dominus qui dicit Matth. 
+      <lb ed="#S" n="93"/>15. Qui vult tecum in iudicio contendere, &amp; tunicam 
+      <lb ed="#S" n="94"/>tuam tollere, dimitte ei &amp; pallium, loquitur de cosilio: vel si 
+      <lb ed="#S" n="95"/>sit praeceptum intelligendum est, vt dicit Aug. secundu 
+       prae<lb ed="#S" break="no" n="96"/>parationem animi, vt homo sit paratus talia facere si hoc 
+      <lb ed="#S" n="97"/>expedit promotioni fidei &amp; bonorum morum.
+    </p>
+            <p xml:id="khj78y-r31942-d1e1065" n="15">
+      <!--I5 -->
+       Quin<lb ed="#S" break="no" n="98"/>ta conclusio est de duabus instantiis contra praedicta. Prima, 
+      <lb ed="#S" n="99"/>quia Hiero. dicit dimittendum propter scandalum omne quod 
+      <lb ed="#S" n="100"/>potest dimitti salua triplici veritate. scilicet vitae, iustitiae, &amp; 
+       do<lb ed="#S" break="no" n="101"/>ctrinae, sed vltra bona spiritualiter possunt dimitti salua 
+      <lb ed="#S" n="102"/>hac triplici veritate: sicut adimpletio consiliorum, largitio 
+      <lb ed="#S" n="103"/>eleemosynarum: alioquin semper peccarent qui ista bona 
+      <lb ed="#S" n="104"/>praetermitterent: ergo ista sunt propter scandalum 
+       dimitten<lb ed="#S" break="no" n="105"/>da. secunda instantia est. quia doctrina sacra, correctio frater 
+      <lb ed="#S" n="106"/>na, punire delicta, sunt quaedam opera spiritualia, &amp; tamen sunt 
+      <lb ed="#S" n="107"/>propter scandalum dimittenda. ergo &amp;c. Minor patet de do 
+      <lb ed="#S" n="108"/>ctrina quod sit dimittenda propter scandalum: quia Matt. 7. dicit, 
+      <lb ed="#S" n="109"/>Nolite dare sanctum canibus, nec margaritas vestras 
+       spar<lb ed="#S" break="no" n="110"/>gere ante porcos, ne conuersi dirumpant vos. Correctio 
+      <lb ed="#S" n="111"/>nem autem fraternam dicit Aug. dimittendam propter 
+       scanda<lb ed="#S" break="no" n="112"/>lum. 1. de ciuit. Dei. Et similiter punitio delictorum est di 
+      <lb ed="#S" n="113"/>mittenda, vbi timet schisma, vt dicit Ang. contra 
+       Perme<lb ed="#S" break="no" n="114"/>nianum.
+    </p>
+            <p xml:id="khj78y-r31942-d1e1107" n="16">
+      <!-- 16 -->sed istae instantiae parum valent. Ideo ad 
+      <lb ed="#S" n="115"/>primam dicendum, quod in veritate vitae &amp; doctrinae &amp; 
+       iusti<lb ed="#S" break="no" n="116"/>tiae, non solum compraehenditur id quod est de necessitate 
+       sa<lb ed="#S" break="no" n="117"/>lutis, sed id quod permittit perfectius necessarium ad salu 
+      <lb ed="#S" n="118"/>tem, vt consilia &amp; cleemosynae: vnde talia non sunt propter 
+      <lb ed="#S" n="119"/>scandalum dimittenda simpliciter, vel omittenda etiam propter 
+      <lb ed="#S" n="120"/>scandalum pusillorum: sed occultanda vel differenda ad tempus 
+      <lb ed="#S" n="121"/>quousque scandalum sedei, vel per legitimam excusationem 
+       se<lb ed="#S" break="no" n="122"/>dari debeat. In casu autem in quo eleemosyna esset de 
+       ne<lb ed="#S" break="no" n="123"/>cessitate danda propter extremam indigentiam pauperis, vel 
+      <lb ed="#S" n="124"/>ingressus religiois debere totaliter impediri. Et ideo 
+       de<lb ed="#S" break="no" n="125"/>bet cleemosyna vel ingressus religionis impediri vel dif 
+      <lb ed="#S" n="126"/>ferri.
+    </p>
+            <p xml:id="khj78y-r31942-d1e1138" n="17">
+      <!-- 17 -->Ad secundam dicendum, quod doctrina spiritualis cum 
+      <lb ed="#S" n="127"/>sit genus eleemosynae, quae est opus misericordiae ad 
+       suble<lb ed="#S" break="no" n="128"/>uandum miseriam alterius non est dimittenda, quando creditur 
+      <lb ed="#S" n="129"/>quod ex ea sequat spiritualis profectus: quando autem ex ea non sequii 
+      <lb ed="#S" n="130"/>spiritualis profectus, sed irritatio audientis, iam non est bonum 
+      <lb ed="#S" n="131"/>spirituale. Et ideo si tunc omittitur propter scandalu 
+       audien<lb ed="#S" break="no" n="132"/>tis, non omittit aliquid quod pro tunc habeat ratione 
+      <lb ed="#S" n="133"/>boni spiritualis. similiter dicendum est de correctione 
+       frater<lb ed="#S" break="no" n="134"/>na quae ordinat ad correctionem fratris, quae si non sequa 
+      <!--0419.xml-->
+      <pb ed="#S" n="419"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>tur: sed potius frater scandalizatur, dimittere eam non est 
+      <lb ed="#S" n="2"/>dimittere aliquid spirituale. Eodem modo dicendum est de 
+       pu<lb ed="#S" break="no" n="3"/>nitione peccatorum, quia poenae cum sint medicinae: ad cohi 
+      <lb ed="#S" n="4"/>bendum peccata intm̃ habent rationem boni, inquantum per 
+      <lb ed="#S" n="5"/>eas peccatam cohibentur: si autem per eas peccatam non cohibeantur: 
+      <lb ed="#S" n="6"/>tunc inflictio poenarum non est bona, nec continebitur sub 
+      <lb ed="#S" n="7"/>iustitia. Et in hoc casu loquitur Aug. quando. scilicet ex excommunicatio 
+      <lb ed="#S" n="8"/>ne sequitur periculum schismatis: tunc excommunicationem ferre 
+      <lb ed="#S" n="9"/>non pertinet ad veritatem iustitiae. Ad arg. in opp. 
+       dicen<lb ed="#S" break="no" n="10"/>dum quod Christus nunquam scandalizauit actiue, licet illi scan 
+      <lb ed="#S" n="11"/>dalizati fuerint passiue ex malitia non ex infirmitate. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

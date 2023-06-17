@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="170"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q46228"><!-- l4d14-q6 -->
+            <head xml:id="khj78y-q46228-Hd1e101">Quaestio 6</head>
+            <head xml:id="khj78y-q46228-Hd1e103" type="question-title">
+     de solenni 
+     poenitentia
+   </head>
+            <p xml:id="khj78y-q46228-d1e106">
+               <lb ed="#S" n="94"/>QVAESTIO sEXTA 
+      <lb ed="#S" n="95"/>De solenni poenitentia. 
+    </p>
+            <p xml:id="khj78y-q46228-d1e113">
+               <lb ed="#S" n="96"/>Thom. 4. d.  14 q. 1.
+    </p>
+            <p xml:id="khj78y-q46228-d1e118">
+               <lb ed="#S" n="97"/>SEXTO Quaeritur de solenni 
+       poeni<lb ed="#S" break="no" n="98"/>tentia. Et videtur, quod non debet esse 
+      <lb ed="#S" n="99"/>in ecclesia: quia ecclesia non claudit 
+       gre<lb ed="#S" break="no" n="100"/>mium redeunti: sed solenniter 
+       poeniten<lb ed="#S" break="no" n="101"/>tes eiiciuntur de ecclesia. ergo &amp;c. 
+    </p>
+            <p xml:id="khj78y-q46228-d1e132" n="2">
+               <lb ed="#S" n="102"/>
+               <!-- 2 -->IN Contrarium est consuetudo ecclesiae. 
+    </p>
+            <p xml:id="khj78y-q46228-d1e139" n="3">
+               <lb ed="#S" n="103"/>
+               <!-- 3 -->REsPONDEO, hic sunt quinque 
+       conclusio<lb ed="#S" break="no" n="104"/>nes. Prima, quod solennis poenitentia non est 
+       imponen<lb ed="#S" break="no" n="105"/>da nisi a solo episcopo: &amp; non ab inferiore, eo etiam com 
+      <lb ed="#S" n="106"/>mittente secundum Guillelmum Doran. in speculo, quia 
+      <lb ed="#S" n="107"/>quae sunt ordinis, siue dignitatis episcopalis, non potest 
+      <lb ed="#S" n="108"/>episcopus committere non habentiordinem eundem siue 
+      <lb ed="#S" n="109"/>dignitatem: <ref xml:id="khj78y-q46228-Rd1e158">extra de conse. eccle. vel alta. c. Aqua.</ref>
+            </p>
+            <p xml:id="khj78y-q46228-d1e161" n="4">
+               <lb ed="#S" n="110"/>
+               <!-- 4 -->sed contrarium tenet consuetudo, quae in 
+       tali<lb ed="#S" break="no" n="111"/>bus positiuis, quae non sunt de iure, diuino seruanda est. 
+      <lb ed="#S" n="112"/>Vnde poenitentiarij episcoporum ipsis absentibus ipsam 
+      <lb ed="#S" n="113"/>imponunt. similiter solemnis reconsiliatio eius pertines 
+      <lb ed="#S" n="114"/>ad episcopum, quia ad eundem pertinet soluere, &amp; 
+       liga<lb ed="#S" break="no" n="115"/>re. In hoc autem differt poenitentia solennis a publica: 
+      <lb ed="#S" n="116"/>quia illa potest inlungi a quolibet confessore. 
+    </p>
+            <p xml:id="khj78y-q46228-d1e181" n="5">
+               <lb ed="#S" n="117"/>
+               <!--5 -->secunda conclusio est, quod indifferenter tam vl 
+      <lb ed="#S" n="118"/>ro, quam mulieri solennis poenitentia potest imponi: nisi quod 
+      <lb ed="#S" n="119"/>mulieri capilli pro velamine dati sunt. Vnde non depo 
+      <lb ed="#S" n="120"/>nitur ei coma, sicut viro. Non autem imponi debet 
+       cle<lb ed="#S" break="no" n="121"/>rico. Cui si semel imposita fuerit irregularis est: nisi per episcopi 
+      <lb ed="#S" n="122"/>scopum cum eo in necessitate dispensetur in minoribus 
+      <lb ed="#S" n="123"/>ordinibus tantum, quia in maioribus non potest. Quia 
+      <lb ed="#S" n="124"/>autem decretum poenam imponit episcopo tales 
+       ordi<lb ed="#S" break="no" n="125"/>nanti est, vel quia ordinat in maioribus ordinibus, 
+      <lb ed="#S" n="126"/>quod non potuit, vel quia sine dispensatione, vel sine 
+      <!--0171.xml-->
+      <pb ed="#S" n="171"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>iusta causa ad minores eos promonet. 
+    </p>
+            <p xml:id="khj78y-q46228-d1e216">
+               <lb ed="#S" n="2"/>
+               <!--6--> Videtur autem, quod possit cum eis dispensare in 
+       bene<lb ed="#S" break="no" n="3"/>ficio simplici, sine cura: non autem in dignitate, vel in 
+       cu<lb ed="#S" break="no" n="4"/>ra: quia ille dispensationes ad paria iudicantur: de filiis 
+      <lb ed="#S" n="5"/>presbyterorum. c. 1. lib. 6. Et pari ratione videt, quod si is, qui 
+      <lb ed="#S" n="6"/>solenniter poenituit, ingrediatur religionem, quod professio 
+      <lb ed="#S" n="7"/>regularis dispenset cum eo quo ad omnes ordines: sed non 
+      <lb ed="#S" n="8"/>quo ad curam, &amp; dignitatem: sicut etiam de illegitimo. In 
+      <lb ed="#S" n="9"/>hoc autem differunt a publica, quae potest imponi clerico: 
+      <lb ed="#S" n="10"/>licet quidam contradicant: cum etiam multorum 
+       collegio<lb ed="#S" break="no" n="11"/>rum consuetudo habeat suos delinquentes publice in 
+       pro<lb ed="#S" break="no" n="12"/>cessione coram omnibus punire.
+    </p>
+            <p xml:id="khj78y-q46228-d1e245" n="7">
+      <!-- 7 -->Tertia 
+       conclu<lb ed="#S" break="no" n="13"/>sio est, pro qua causa est imponenda: quia non nisi pro 
+       gra<lb ed="#S" break="no" n="14"/>ui, &amp; manifesto crimine, &amp; non pro alio. Vnde nunquam 
+      <lb ed="#S" n="15"/>proueniali, nec pro quocunque mortali, nec vnquam pro 
+      <lb ed="#S" n="16"/>occulto: imo hoc esset eum infamare: quia qui in foro 
+      <lb ed="#S" n="17"/>poenitentiae imponit poenitentiam publicam etiam pro 
+       oc<lb ed="#S" break="no" n="18"/>culto crimine non diffamat, nec confessionem reuelat: quia 
+      <lb ed="#S" n="19"/>ipsa est occulta, &amp; quando videtur poenitentia, nescitur, quod sit 
+      <lb ed="#S" n="20"/>imposita per poenitentiam cum multi faciant graues poeni 
+      <lb ed="#S" n="21"/>tentias sibi non impositas: non habentes graues culpas: 
+      <lb ed="#S" n="22"/>imo illi sunt maioris poenitentiae, qui sunt minoris 
+       cul<lb ed="#S" break="no" n="23"/>pae.
+    </p>
+            <p xml:id="khj78y-q46228-d1e275" n="8">
+      <!-- 8 -->sed ista poenitentia non solet agi nisi 
+       impo<lb ed="#S" break="no" n="24"/>sita: imo esset peccatum  eam agere sine impositione: cum ex 
+      <lb ed="#S" n="25"/>praecepto ecclesiae teneat homo in Paschate communicare 
+      <lb ed="#S" n="26"/>&amp; qualibet die Dominica, &amp; festo solenni missam audire: a 
+      <lb ed="#S" n="27"/>quibus solenniter poenitentes habent abstinere. 
+    </p>
+            <p xml:id="khj78y-q46228-d1e288" n="9">
+               <lb ed="#S" n="28"/>
+               <!-- 9 -->Item imponitur publice coram toto mundo, &amp; non de 
+      <lb ed="#S" n="29"/>bet imponi nisi pro graui crimine. ergo eam imponere 
+      <lb ed="#S" n="30"/>pro crimine occulto est hominem diffamare. Pro crimine 
+      <lb ed="#S" n="31"/>vero veniali, vel nullo: puta quia filius sine culpa sua est 
+      <lb ed="#S" n="32"/>mortuus, &amp; nullum scandalum est in uilla: quia soli illi de do 
+      <lb ed="#S" n="33"/>mo sciunt, est mendaciter diffamare. Videtur etiam, quod 
+       im<lb ed="#S" break="no" n="34"/>positio ipsius pertineat ad forum contentiosum, quia 
+       pu<lb ed="#S" break="no" n="35"/>blice imponitur. Non enim sic liceret poenitentiam 
+       iniun<lb ed="#S" n="36" break="no"/>gere absoluenti, quod circumstantes audirent.
+    </p>
+            <p xml:id="khj78y-q46228-d1e312" n="10">
+      <!-- 10 -->
+       Quar<lb ed="#S" break="no" n="37"/>ta conclusio: Quomodo, &amp; quando est imponenda: quia in capite ieiu 
+      <lb ed="#S" n="38"/>nij veniunt. Modus autem, vel forma habetur dist. 1. c. In 
+      <lb ed="#S" n="39"/>capite. Et debet abstinere, quando est in tali poenitentia a com 
+      <lb ed="#S" n="40"/>munione, &amp; pace, &amp; ab ingressu ecclesiae: nisi a coena Do 
+      <lb ed="#S" n="41"/>mini vsque ad octauam Paschae, &amp; a matrimonio 
+       contrahen<lb ed="#S" break="no" n="42"/>do: quia in foro ecclesiae est contrahendum, &amp; ibi recipitur 
+      <lb ed="#S" n="43"/>benedictio nuptialis: sed non propter hoc a poenitentia pri 
+      <lb ed="#S" n="44"/>uata. Vnde multum repellit hominem a deuotione: propter 
+      <lb ed="#S" n="45"/>quod raro, &amp; non sine magna causa imponenda est, vt di 
+      <lb ed="#S" n="46"/>ctum est: tunc solum quando necesse est, vt aedificentur de publica 
+      <lb ed="#S" n="47"/>poenitentia, qui scandalizati sunt de culpa publica. 
+       Pec<lb ed="#S" break="no" n="48"/>cata enim manifesta publice sunt punienda, &amp; occulta 
+       oc<lb ed="#S" break="no" n="49"/>culte: de poe. &amp; remis. c. 1.
+    </p>
+            <p xml:id="khj78y-q46228-d1e345" n="11">
+      <!--11 -->Quo igitur 
+       excusan<lb ed="#S" break="no" n="50"/>tur poenitentiarij episcoporum, &amp; Papae, qui coram toto mun 
+      <lb ed="#S" n="51"/>do in publico spectaculo sibi confessos verberant spolia 
+      <lb ed="#S" n="52"/>tos? Forte quia illud est pro excommunicatione: cuius 
+       abso<lb ed="#S" break="no" n="53"/>lutio pertinet ad forum contentiosum. Vnde non est reue 
+      <lb ed="#S" n="54"/>lare confessionem proprie: quia pro excommunicatione pote 
+      <lb ed="#S" n="55"/>rat denunciari publice. ergo reputatur publicum. 
+    </p>
+            <p xml:id="khj78y-q46228-d1e363" n="12">
+               <lb ed="#S" n="56"/>
+               <!-- 12 -->Quinta conclusio est, quotiens est imponenda: quia 
+      <lb ed="#S" n="57"/>non nisi semel de lege communi, sed vna vice ad duos, vel 
+      <lb ed="#S" n="58"/>tres annos, vel minus: sicut Ambr. imposuit Imperatori. 
+      <lb ed="#S" n="59"/>Tam etsi consuetudo habeat, quod iteretur, illa excusat: quia quando mos 
+      <lb ed="#S" n="60"/>erat, crimen non erat.
+    </p>
+            <p xml:id="khj78y-q46228-d1e379" n="13">
+      <!-- 13 -->si autem arguatur, quod 
+       pu<lb ed="#S" n="61" break="no"/>blica, &amp; solennis poenitentia non debet imponi: quia mani 
+      <lb ed="#S" n="62"/>festatur peccati, &amp; confessionem &amp;c. dicitur, quod sacerdos non 
+      <lb ed="#S" n="63"/>publicat peccatum poenitentis: quia confessor nun dicit se 
+      <lb ed="#S" n="64"/>audiuisse tale peccatum in confessione: sed ipse peccator 
+      <lb ed="#S" n="65"/>exequendo poenitentiam sibi iniunctam peccatum confessum 
+      <lb ed="#S" n="66"/>manifestat.
+    </p>
+            <p xml:id="khj78y-q46228-d1e398" n="14">
+      <!-- <sic>41</sic> -->sed quidam hanc solutionem 
+       repro<lb ed="#S" break="no" n="67"/>bant dicentes, quod ille facit rem, cuius authoritatefit: sed 
+      <!--0171.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>authoritate sacerdotis poenitens facit, quod sibi iniunctum 
+      <lb ed="#S" n="69"/>est: quod alias non faceret: ergo sacerdos videtur hoc fa 
+      <lb ed="#S" n="70"/>cere.
+    </p>
+            <p xml:id="khj78y-q46228-d1e416" n="15">
+      <!-- 15 -->sed forte illi de prima solutione intelli 
+      <lb ed="#S" n="71"/>gunt, quod non sequitur, facit grauem poenitentiam. ergo 
+       con<lb ed="#S" break="no" n="72"/>misit grauem culpam: cum illi, qui sunt minoris culpae, 
+      <lb ed="#S" n="73"/>sint grauioris poenitentiae.
+    </p>
+            <p xml:id="khj78y-q46228-d1e427" n="16">
+      <!-- 16 -->Et si dicat, quod non 
+      <lb ed="#S" n="74"/>inuenitur, qui pro alio faciat: quia vix pro seipso quisfa 
+      <lb ed="#S" n="75"/>cit hoc, verum est de malis. Nam boni, &amp; perfecti pro se 
+      <lb ed="#S" n="76"/>&amp; pro aliis multa publice, &amp; occulte faciunt. Nec intelli 
+      <lb ed="#S" n="77"/>gunt, quod poenitens reuelet delictum: sed confessionem per 
+      <lb ed="#S" n="78"/>delictum, si illud est publicum. Et ideo cum reuelatio non 
+      <lb ed="#S" n="79"/>sit nisi occulti, &amp; ignoti: cum istud delictum sit publicum 
+      <lb ed="#S" n="80"/>per poenitentiam non publicatur: sed eius scandalum 
+       se<lb ed="#S" break="no" n="81"/>datur. Et ideo peccant imponentes pro leui, &amp; occulto, 
+      <lb ed="#S" n="82"/>vt dictum est.
+    </p>
+            <p xml:id="khj78y-q46228-d1e451" n="17">
+      <!-- 17 -->Posset autem dici, vt dictum est, quod 
+      <lb ed="#S" n="83"/>cum iniunctio huius poenitentiae pertineat ad forum con 
+      <lb ed="#S" n="84"/>tentiosum: quia siue poeniteat, siue non poeniteat, quan 
+      <lb ed="#S" n="85"/>doque imponitur haec publica poenitentia. Ideo non est 
+      <lb ed="#S" n="86"/>reuelatio. Argumentum in contrarium solutum est ex 
+      <lb ed="#S" n="87"/>dictis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

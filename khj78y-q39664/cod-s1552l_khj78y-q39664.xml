@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="152"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q39664"><!-- l4d12-q5 -->
+            <head xml:id="khj78y-q39664-Hd1e101">Quaestio 5</head>
+            <head xml:id="khj78y-q39664-Hd1e103" type="question-title">
+     utrum 
+     speciebus vini possit liquor aliquis admisceri 
+     sine hoc, quod desinat ibi esse sanguis 
+     Christi
+   </head>
+            <p xml:id="khj78y-q39664-d1e106">
+               <lb ed="#S" n="22"/>QVAESTIO QVINTA. 
+      <lb ed="#S" n="23"/>De liquore speciebus vini admixto. 
+    </p>
+            <p xml:id="khj78y-q39664-d1e113">
+               <lb ed="#S" n="24"/>Thom, 3. q. 77. arti. 8.
+    </p>
+            <p xml:id="khj78y-q39664-d1e118">
+               <lb ed="#S" n="25"/>QVAERITVR Quinto, vtrum 
+       specie<lb ed="#S" break="no" n="26"/>bus vini possit liquor aliquis admisceri 
+      <lb ed="#S" n="27"/>sine hoc, quod desinat ibi esse sanguis 
+       Chri<lb ed="#S" break="no" n="28"/>sti. Et videtur, quod sic: imo quod incipiat esse in 
+      <lb ed="#S" n="29"/>admixto: quia dicitur extra de consecr. c. quod in 
+      <lb ed="#S" n="30"/>dubiis non negamus, quod oleo consecrato potest admisceri 
+      <lb ed="#S" n="31"/>oleum non consecratum. Vbi dicunt doctores, quod non solum 
+      <lb ed="#S" n="32"/>praeexistens remanet consecratum, sed etiam additum incipis 
+      <lb ed="#S" n="33"/>esse consecratum. Idem dicunt aliqui de aqua benedicta. er 
+      <lb ed="#S" n="34"/>go a simili in proposito.
+    </p>
+            <p xml:id="khj78y-q39664-d1e143" n="2">
+      <!-- 2 -->CONTRA, post 
+      <lb ed="#S" n="35"/>susceptionem sanguinis verissimile est aliquam guttam, vel 
+      <lb ed="#S" n="36"/>stillam remanere: propter quod fit frequens superfusio, &amp; 
+       ex<lb ed="#S" break="no" n="37"/>tersio: sed quicunque illam superfusionem vini, vel aquae su 
+      <lb ed="#S" n="38"/>mit, reputatur non ieiunus, quasi purum elementum, &amp; non sa 
+      <lb ed="#S" n="39"/>cramentum sumpserit: extra de ce. mis. c. ex parte. ergo non 
+      <lb ed="#S" n="40"/>solum superadditum non consecratur, sed etiam praeexistens gut 
+      <lb ed="#S" n="41"/>ta, vel sttilla desinit esse sacramentum.
+    </p>
+            <p xml:id="khj78y-q39664-d1e163" n="3">
+      <!-- 3 -->
+       REsPON<lb ed="#S" break="no" n="42"/>DEO: circa istam quaestionem sunt tria videnda: Primo quando 
+      <lb ed="#S" n="43"/>liquor supperadditus differt specie substantialiter, &amp; acci 
+      <lb ed="#S" n="44"/>dentaliter: vt quia additur aqua, ceruisia, pomatium, vel oleum 
+      <lb ed="#S" n="45"/>speciebus. secundo quando additur liquor eiusdem speciei vtro 
+      <lb ed="#S" n="46"/>bique, vt de eodem dolio. Tertio quando vinum differens in 
+      <lb ed="#S" n="47"/>qualitate coloris, vel alia, vt album rubeo, vel 
+       econuer<lb ed="#S" break="no" n="48"/>so.
+    </p>
+            <p xml:id="khj78y-q39664-d1e183" n="4">
+      <!-- 4 -->QVANTVM ad primum est vna opinio, 
+      <lb ed="#S" n="49"/>quae dicit, quod si liquor superadditus differens specie est aequa 
+      <lb ed="#S" n="50"/>lis, vel maioris virtutis deficit ibi esse totaliter sanguis 
+      <lb ed="#S" n="51"/>Christi. si autem minoris remanet ibi totaliter sub omni 
+      <lb ed="#S" n="52"/>parte sanguinis Christi, sub qua prius erat: sed non 
+       inci<lb ed="#S" break="no" n="53"/>pit esse sub liquore admixto, &amp; corrupto: quia quod inde 
+       ge<lb ed="#S" break="no" n="54"/>neratur, est vinum, &amp; non species vini. Primum probatur: quia 
+      <lb ed="#S" n="55"/>quando deficit esse consecratio: desinit esse sanguis, sed sic est 
+      <lb ed="#S" n="56"/>est in proposito. ergo &amp;c. Minor probatur: quia quod desinat ibi 
+      <lb ed="#S" n="57"/>esse quantum ad qualitates coloris, &amp; saporis non est diffici 
+      <lb ed="#S" n="58"/>le videre: quia vt dicit. 1. Phys. ad agendum sufficiunt duo con 
+      <lb ed="#S" n="59"/>traria, ad patiendum vero vnum subiectum: sed hic est dare 
+      <lb ed="#S" n="60"/>contrarietates inter qualitates eius, quod apponitur, puta 
+      <lb ed="#S" n="61"/>aquae, &amp; illius, cui apponitur: subiectum autem passibile sub 
+      <lb ed="#S" n="62"/>vtraque qualitate est quantitas: quae de se nata est subiici 
+      <lb ed="#S" n="63"/>contrariis. ergo ista sufficiunt ad hoc, vt qualitates specie 
+      <!--0151.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>rum viri per admixtionem contrarij: puta qualitatum aquae 
+      <lb ed="#S" n="65"/>corrumpant. De quantitate autem quo corrumpar per 
+       admi<lb ed="#S" break="no" n="66"/>xtionem liquoris non clare patet: quia non per actionem 
+      <lb ed="#S" n="67"/>contrarij, nec per corruptionem subiecti: nec per 
+       diuisio<lb ed="#S" break="no" n="68"/>nem, sed diuina virtute corrumpitur: vt deductum est in prae 
+      <lb ed="#S" n="69"/>cedenti quaestione per eos. sed dato: quod non corrumpatur 
+      <lb ed="#S" n="70"/>quantitas: corruptio qualitatum sufficeret ad hoc, vt 
+       san<lb ed="#S" break="no" n="71"/>guis Christi desineret ibi esse secundum eos, propter duo. 
+      <lb ed="#S" n="72"/>Primo: quia species vini pertinent ad sacramentum: quatenus 
+       repre<lb ed="#S" break="no" n="73"/>sentant substantiam vini, quae versa est: sed substantiam 
+       vi<lb ed="#S" break="no" n="74"/>ni magis repraesentant qualitates, quam quantitas, quia quantitas 
+      <lb ed="#S" n="75"/>omnibus est communis: qualitates autem aliquae sunt 
+       pro<lb ed="#S" break="no" n="76"/>priae secundum naturam formae specifice. ergo qualitates 
+       ma<lb ed="#S" n="77" break="no"/>gis pertinent ad sacim hoc, quam quantitas. Ipsis ergo 
+       corru<lb ed="#S" break="no" n="78"/>ptis desinit sacramentum. secundo, quia sacramentum est signum sensibile, 
+      <lb ed="#S" n="79"/>vt patet ex sua diffinitione: est enim inuisibilis gratiae vi 
+      <lb ed="#S" n="80"/>sibilis forma: sed species magis sunt sensibiles ratione 
+      <lb ed="#S" n="81"/>qualitatum, quam quantitatis. ergo magis pertinent ad sacramentum, quam 
+      <lb ed="#S" n="82"/>quantitas: vt sic earum corruptio sufficiat ad corruptionem 
+      <lb ed="#S" n="83"/>sacri. Vnde Innocentius tertius dicit, quod vbi similitudo de 
+      <lb ed="#S" n="84"/>ficeret, sacim non esset. similitudo autem attenditur penes 
+      <lb ed="#S" n="85"/>qualitates.
+    </p>
+            <p xml:id="khj78y-q39664-d1e272" n="5">
+      <!-- 5 -->secundum patet, quia tandiu manet 
+      <lb ed="#S" n="86"/>sanguis, quandiu manent primae spens, sed illae manent in 
+      <lb ed="#S" n="87"/>corruptae, siue diuisae, siue non: quandiu sunt maioris 
+       vir<lb ed="#S" break="no" n="88"/>tutis: quia corrumpunt, &amp; non corrumpuntur. ergo &amp;c. 
+    </p>
+            <p xml:id="khj78y-q39664-d1e283" n="6">
+               <lb ed="#S" n="89"/>
+               <!-- 6 -->Quicquid autem sit de veritate conclusionis: falsum 
+      <lb ed="#S" n="90"/>tamen videt, quod quantitate manente corruptis qualitatibus desi 
+      <lb ed="#S" n="91"/>nat ibi esse corpus Christi.
+    </p>
+            <p xml:id="khj78y-q39664-d1e294" n="7">
+      <!-- 7 -->Rationes autem sunt 
+      <lb ed="#S" n="92"/>solubiles. Vnde ad primum dicendum, quod si qualitates ma 
+      <lb ed="#S" n="93"/>nente quantitate sic corrumperent, quod non remaneret simili 
+      <lb ed="#S" n="94"/>tudo, nec rei cotentae, nec rei coueriae: tunc denneret ibi 
+      <lb ed="#S" n="95"/>esse corpus Christi, &amp; sanguis Christi, sicut quando fit totum 
+       a<lb ed="#S" break="no" n="96"/>quaticum, vel acetum: quia tunc est noua generatio: nec manet 
+      <lb ed="#S" n="97"/>eadem quantitas, quando de speciebus fit aqua, vel acetum. sed si 
+      <lb ed="#S" n="98"/>matet similitudo rei contentae. i. corporis Christi: quamuis 
+      <lb ed="#S" n="99"/>non rei conuei sae, vt quando fit sub specie carnis, vel sanguinis 
+      <lb ed="#S" n="100"/>aut pueri manet ibi corpus Christi, imo supposita commu 
+      <lb ed="#S" n="101"/>ni opinione, quod corpus Christi sit ibi loco substantiae in se 
+      <lb ed="#S" n="102"/>conuersae: cum absentia substantiae sit causa praesentiae cor 
+      <lb ed="#S" n="103"/>porporis Christi: quandiu remanet ibi, vel tota quantitas, 
+      <lb ed="#S" n="104"/>vel pars sine subiecto: quantuncumque omnes qualitates sint 
+      <lb ed="#S" n="105"/>corruptae, manet ibi corpus Christi, &amp; sanguis Christi. 
+      <lb ed="#S" n="106"/>Econuerso autem quamcito incipit fieri sub speciebus noua 
+      <lb ed="#S" n="107"/>substantia quantunque omnia alia manerent, incipit ibi: vbi est 
+      <lb ed="#S" n="108"/>desinere esse corpus Christi, &amp; sanguis. Et ideo maior suae 
+      <lb ed="#S" n="109"/>rationis primae est interimenda: quia species non pertinent ad 
+      <lb ed="#S" n="110"/>sacramentum per hoc, quod representant rem conuersam, sed magis 
+      <lb ed="#S" n="111"/>per noc quod repreientat rem contenta. Vnde dac 
+       umuitu<lb ed="#S" break="no" n="112"/>dine manente, manet sacramentum.
+    </p>
+            <p xml:id="khj78y-q39664-d1e345" n="8">
+      <!-- 8 -->Ad secundum 
+       dicen<lb ed="#S" break="no" n="113"/>dum, quod vbi similitudo rei continente deficeret, sacramentum non 
+      <lb ed="#S" n="114"/>esset, quia tunc etiam separatio a subiecto deficeret: quia, vt in 
+      <lb ed="#S" n="115"/>praecedenti quaestione dictum est, corruptis qualitibus con 
+      <lb ed="#S" n="116"/>naturalibus, &amp; quantitas corrumpit, &amp; alia substantia, &amp; 
+       ac<lb ed="#S" break="no" n="117"/>cidentia alia generantur. sed si corrupta similitudo 
+       rema<lb ed="#S" break="no" n="118"/>neret quantitas sine subiecto, vt prius, adhuc remaneret 
+      <lb ed="#S" n="119"/>sacim ibi. sic igitur, si similituto rei contente remaneat, 
+      <lb ed="#S" n="120"/>sufficit. Et de ista concludunt suae rationes. Dato etiam 
+      <lb ed="#S" n="121"/>quod similitudo rei contentae non remaneret, nec alicuius al 
+      <lb ed="#S" n="122"/>terius, &amp; nulla etiam qualitas ibi remaneret: si tamen 
+       quanti<lb ed="#S" break="no" n="123"/>tas ibi remaneret sanguis Christi remaneret: quia tandis 
+      <lb ed="#S" n="124"/>manet ibi sanguis Christi sacramentaliter, quandiu ibi mam 
+      <lb ed="#S" n="125"/>sisset substantia vini localiter, si conuersa non fuisset: sed 
+      <lb ed="#S" n="126"/>illa mansisset semper cum sua quantitate omnibus aliis eor 
+      <lb ed="#S" n="127"/>ruptis: alias substantia corrupta non potest quantitas non cor 
+      <lb ed="#S" n="128"/>rumpi. ergo &amp;c. Quod autem probatur, quod sacramentum corrumpitur per 
+      <lb ed="#S" n="129"/>solam corruptionem signi sensibilis, &amp; similitudinis: 
+       dicen<lb ed="#S" break="no" n="130"/>dum, quod aliquando plus requiritur ad rei factionem, quae ad 
+      <!--0153.xml-->
+      <pb ed="#S" n="153"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>fita isti coniuncta: in qua desinat esse sanguis: sed sicut si 
+      <lb ed="#S" n="2"/>duo pugilli aquae, vel aquae vnus, &amp; vini alius porfecte 
+      <lb ed="#S" n="3"/>muscerent, &amp; totu illud corrumperetur, &amp; generaretur 
+       ali<lb ed="#S" break="no" n="4"/>quod tertium: sic gutta aquae, vel vini addita subintrat 
+      <lb ed="#S" n="5"/>partem aequalem, &amp; adinuicem fit mixtum, &amp; diuisio, vel in 
+      <lb ed="#S" n="6"/>diuersis sitibus, vel in vno, &amp; totum corrumpitur, &amp; vna 
+      <lb ed="#S" n="7"/>forma in particulis coniunctis inducitur, &amp; per 
+       creatio<lb ed="#S" break="no" n="8"/>nem, vel reparationem, vel conuersionem essentia materiae 
+      <lb ed="#S" n="9"/>proportionaliter superadditur, &amp; sic desinit ibi esse sanguis. 
+    </p>
+            <p xml:id="khj78y-q39664-d1e415" n="18">
+               <lb ed="#S" n="10"/>
+               <!-- 18 -->si dicatur, quod imo in omnibus desinit: quia 
+       tan<lb ed="#S" break="no" n="11"/>tum extenditur substantia, quantum sua quantitas, &amp; cum 
+      <lb ed="#S" n="12"/>sit vna quantitas numero specierum manentium, &amp; 
+       substan<lb ed="#S" break="no" n="13"/>tiae generatae ex parte addita, &amp; parte praeexistentis 
+       cor<lb ed="#S" break="no" n="14"/>rupta. ergo sub vtraque substantia illa extenditur, &amp; per 
+      <lb ed="#S" n="15"/>consequens desinit ibi esse sanguis. Dicendum, qui 
+       substan<lb ed="#S" break="no" n="16"/>tia tantum extenditur, quantum sua quantitas, quae est per 
+      <lb ed="#S" n="17"/>se sua: non alians, quam illa, quae per accidens est sua. i. quae per 
+      <lb ed="#S" n="18"/>accidens facta est vna continua cum illa, quae erat sua: sicut 
+      <lb ed="#S" n="19"/>si Deus duas aquas sic coni ungeret per iuxta positionem, 
+      <lb ed="#S" n="20"/>quod vna non subintraret aliam fieret vnum continuum, nec ta 
+      <lb ed="#S" n="21"/>men esset vna aqua affecta quantitate alterius: sicut nec 
+      <lb ed="#S" n="22"/>pes afficitur quantitate manus, quamuis continuetur. Ita 
+      <lb ed="#S" n="23"/>&amp; hic pars praeexistens manet sine substantia: addita ta 
+      <lb ed="#S" n="24"/>men substantia habet quantitatis partem, quanuis sit diffi 
+      <lb ed="#S" n="25"/>cile imaginari: cum substantia se extendat quousque 
+       ter<lb ed="#S" break="no" n="26"/>minetur quantitate: &amp; quantitas, vbi non est 
+       termina<lb ed="#S" break="no" n="27"/>ta ibi non possit terminare: cum quantitas continua non 
+      <lb ed="#S" n="28"/>habeat terminum in media, quo modo ibi terminet sub 
+      <lb ed="#S" n="29"/>stantiam.
+    </p>
+            <p xml:id="khj78y-q39664-d1e463" n="19">
+      <!-- 19 -->QVANTVM ad tertium de ad 
+      <lb ed="#S" n="30"/>mixtione vini dissimilis coloris, vel virtntis semper 
+       Tho<lb ed="#S" break="no" n="31"/>idem dicit, siue sit similitudo totalis, siue dissimilitudo 
+      <lb ed="#S" n="32"/>tolalis, vel partialis.
+    </p>
+            <p xml:id="khj78y-q39664-d1e474" n="20">
+      <!-- 20 -->Quidam vero dicunt, quod 
+      <lb ed="#S" n="33"/>semper remanet sanguis: quandocunque liquor admixtus 
+      <lb ed="#S" n="34"/>non differt specie in substantia: licet in accidentibus 
+       dis<lb ed="#S" break="no" n="35"/>ferat. Primo, quia non est color praecedens corruptus, 
+      <lb ed="#S" n="36"/>nec nouus generatus secundum rem, sed solum secundum 
+       ap<lb ed="#S" break="no" n="37"/>parentiam per secus positionem paruarum partium 
+       vtrius<lb ed="#S" break="no" n="38"/>que liquoris: quod ex hoc videtur, quia color, qui resultat 
+      <lb ed="#S" n="39"/>albi cum rubeo, nunquam apparet, ita purus, ita 
+       vnifor<lb ed="#S" break="no" n="40"/>mis in partibus, sicut si esset naturalis.
+    </p>
+            <p xml:id="khj78y-q39664-d1e496" n="21">
+      <!-- 21 -->secun 
+      <lb ed="#S" n="41"/>do, quia dato, quod esset alius color, realiter non obest: quia 
+      <lb ed="#S" n="42"/>variatio illorum, quae per accidens se habent ad 
+       sacra<lb ed="#S" break="no" n="43"/>mentum non mutat ipsum: quia accidens est, quod adest, 
+      <lb ed="#S" n="44"/>&amp; abest praeter subiecti corruptionem. sed iste per acci 
+      <lb ed="#S" n="45"/>dens se habent, cum indifferenter possit confici de albo, 
+      <lb ed="#S" n="46"/>&amp; rubeo. ideo &amp;c. Iste etiam qualitates non proprie de 
+      <lb ed="#S" n="47"/>monstant speciem vini: cum possint aequaliter in aliis 
+      <lb ed="#S" n="48"/>inueniri. secus autem est de sapore, &amp; aliquo tali. 
+    </p>
+            <p xml:id="khj78y-q39664-d1e518" n="22">
+               <lb ed="#S" n="49"/>
+               <!-- 22 -->sed ista opinio deficit, primo, quia dicit, quod 
+       ma<lb ed="#S" break="no" n="50"/>net idem culor numero, qui prius: quia tunc essent mul 
+      <lb ed="#S" n="51"/>ti colores secundum speciem, &amp; per consequens non conti 
+      <lb ed="#S" n="52"/>nui: quia sicut motus differentes spocie non possunt conti 
+      <lb ed="#S" n="53"/>nuari: sic nec qualitates: hoc autem videtur falsum, quia 
+      <lb ed="#S" n="54"/>cum per liquidorum mixtionem fiat vnum continuum secun 
+      <lb ed="#S" n="55"/>dum quantitatem, &amp; per consequens secundum qualitatem: quia 
+      <lb ed="#S" n="56"/>qualitas coextenditur quanto: &amp; sic copulantur ad vnum 
+      <lb ed="#S" n="57"/>terminum communem. ergo cum totus color sit continuus, 
+      <lb ed="#S" n="58"/>videtur esse vnus, &amp; si duo primi sunt corrupti, est etiam 
+      <lb ed="#S" n="59"/>tertius generatus.
+    </p>
+            <p xml:id="khj78y-q39664-d1e548" n="23">
+      <!-- 23 -->sed ratio non videtur 
+       ne<lb ed="#S" break="no" n="60"/>cessaria: quia vnius continui vna pars potest esse alba, alia 
+      <lb ed="#S" n="61"/>nigra: nec erit aliqua pars superficiei absque colore 
+       me<lb ed="#S" break="no" n="62"/>dia: sed distinguentur soipsis, nec erunt continui 
+       colo<lb ed="#S" break="no" n="63"/>res, sed nec disconstinui: licet sint in continuo. Nec opor 
+      <lb ed="#S" n="64"/>tet, quod si ex substantiis, &amp; quantitate, quae sunt vnius 
+       ra<lb ed="#S" break="no" n="65"/>tionis, fiat tertia, quod propter hoc ex qualitatibus, quae 
+      <lb ed="#S" n="66"/>differunt specie, fiat tertia. Magis tamen probabile est, 
+      <lb ed="#S" n="67"/>quod sicut ex diuersis substantiis, &amp; qualitatibus elemento 
+      <!--0153.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>rum fit immixtio substantia media, &amp; qualitas media: 
+      <lb ed="#S" n="69"/>sic &amp; hic, maxime si verum est, quod ex mixtione 
+       liquido<lb ed="#S" break="no" n="70"/>rum propter subintrationem partium omnium 
+       sequa<lb ed="#S" break="no" n="71"/>tur vtriusq, subiecti corruptio: quia per consequens &amp; 
+      <lb ed="#S" n="72"/>quantitates, &amp; omnia alia accidentia corrumpuntur. Et 
+      <lb ed="#S" n="73"/>quod dicitur, quod secus est de colore, qui accidit, &amp; de 
+       sa<lb ed="#S" break="no" n="74"/>pore, qui videtur esse propria qualitas vini: videtur 
+       es<lb ed="#S" break="no" n="75"/>se contra id, quod supra dixerat indistincte: quod corruptio 
+      <lb ed="#S" n="76"/>solius qualitatis facit desinere esse sacramentum: hic au 
+      <lb ed="#S" n="77"/>tem dicit, quod non est de illa qualitate, quae accidit: sicut 
+      <lb ed="#S" n="78"/>color, sed de illa, quae est propria vini, sicut sapor. 
+    </p>
+            <p xml:id="khj78y-q39664-d1e598" n="24">
+               <lb ed="#S" n="79"/>
+               <!-- 24 -->Praeterea per admixtionem vini alterius in 
+       ma<lb ed="#S" break="no" n="80"/>gna quantitate, quod est fortissimum, vt Vernacinum, &amp; 
+      <lb ed="#S" n="81"/>huiusmodi: non solum mutatur color: sed immutatur to 
+      <lb ed="#S" n="82"/>taliter sapor, odor, &amp; vigor, &amp; calor, &amp; fere omnes 
+       quali<lb ed="#S" break="no" n="83"/>tates sensibiles. Et sic secundum eum non maneret 
+       sacra<lb ed="#S" break="no" n="84"/>mentum: cum sicut supra dictum est: quaecunque 
+       acci<lb ed="#S" break="no" n="85"/>dentia mutentur: si quantitas manet eadem numero, &amp; 
+      <lb ed="#S" n="86"/>sine subiecto, sicut prius semper manet sacramentum: sed 
+      <lb ed="#S" n="87"/>per tantam mutationem qualitatum naturalium ex natu 
+      <lb ed="#S" n="88"/>ra indiuidui videtur quantitas corrumpi, vt dictum est: 
+      <lb ed="#S" n="89"/>&amp; etiam per subintrationem omnium partium videtur 
+      <lb ed="#S" n="90"/>nulla manere sine subiecto: &amp; sic vbique est substantia 
+       a<lb ed="#S" break="no" n="91"/>lia: &amp; per consequens definit esse sacramentum. 
+    </p>
+            <p xml:id="khj78y-q39664-d1e631" n="25">
+               <lb ed="#S" n="92"/>
+               <!-- 25 -->Item per talem mixtionem fit corruptio 
+       substan<lb ed="#S" break="no" n="93"/>tialis &amp; per consequens omnium accidentium, vt ex su 
+      <lb ed="#S" n="94"/>pradictis patet.
+    </p>
+            <p xml:id="khj78y-q39664-d1e642" n="26">
+      <!-- 26 -->Item si est alia qualitas noua 
+      <lb ed="#S" n="95"/>corrupta connaturalis totum desinit, vt supra dictum 
+      <lb ed="#S" n="96"/>est. Et ideo non valot illud, quod adducunt, quod 
+      <lb ed="#S" n="97"/>quanuis qualitates diuersorum vinorum accidant 
+       facra<lb ed="#S" break="no" n="98"/>mento: tamen qualitatibus connaturalibus corruptis, 
+      <lb ed="#S" n="99"/>caetera corrumpuntur etiam substantia, si est: &amp; 
+       quanti<lb ed="#S" break="no" n="100"/>tas, nisi miraculo se retineantur: sicut quando apparent 
+      <lb ed="#S" n="101"/>species carnis, &amp; sanguinis, vel pueri per nouas species 
+      <lb ed="#S" n="102"/>superinductas: hoc non posset fieri, nisi cum 
+       corruptio<lb ed="#S" break="no" n="103"/>ne primorum: &amp; per consequens quantitatis, nisi Deus 
+      <lb ed="#S" n="104"/>eam retineret. Et Ideo cum eadem quantitas partim pos 
+      <lb ed="#S" n="105"/>sit esse sine subiecto, partim in subiecto: dum tamen quae 
+      <lb ed="#S" n="106"/>libet pars per se sumpta sit tanta, quod posset esse perse sep 
+      <lb ed="#S" n="107"/>rata ab omni alia in tali natura: quale est subiectum, 
+      <lb ed="#S" n="108"/>quod habet, vel habuit: si minor liquor admiscetur, fit 
+      <lb ed="#S" n="109"/>vnum continuum quantum occupat pars adiuncta. si 
+      <lb ed="#S" n="110"/>autem est maior, vel aequalis, fit vnum continuum: quia 
+      <lb ed="#S" n="111"/>omnes partes subintrantur, &amp; penetrantur. vnde totum 
+      <lb ed="#S" n="112"/>corrumpitur, &amp; tertium generatur, generata noua 
+       for<lb ed="#S" break="no" n="113"/>ma, libet hic non sit illa mixtio, cuius quaelibet pars 
+       mi<lb ed="#S" break="no" n="114"/>xti est mixta.
+    </p>
+            <p xml:id="khj78y-q39664-d1e690" n="27">
+      <!-- 27 -->Quod autem dicitur, quod similia 
+      <lb ed="#S" n="115"/>mullo modo se alterant, verum est per se, sed per accidens 
+      <lb ed="#S" n="116"/>sic: vt supra dictum est.
+    </p>
+            <p xml:id="khj78y-q39664-d1e699" n="28">
+      <!-- 28 -->Et quod dicunt, quod 
+       dis<lb ed="#S" break="no" n="117"/>similia secundum qualitates possunt se alterare, non cor 
+      <lb ed="#S" n="118"/>rumpere, non valet: quia alteratio magis facta abiicit a 
+      <lb ed="#S" n="119"/>substantia: sicut mator ignis corrumpit minorem, vel 
+      <lb ed="#S" n="120"/>saltem per diuisionem, &amp; subintrationem.
+    </p>
+            <p xml:id="khj78y-q39664-d1e713" n="29">
+      <!-- 29 -->Et 
+      <lb ed="#S" n="121"/>quod dicitur, quod mixtio est per secus positionem partium, 
+      <lb ed="#S" n="122"/>non videtur: quia sicut in nutritione per hoc, quod materia 
+      <lb ed="#S" n="123"/>cibi fit sub forma nutriti, non est dictum, quod distingua 
+      <lb ed="#S" n="124"/>tur situ materia aduenians a praeexistente: sed vtraque est 
+      <lb ed="#S" n="125"/>indiuisibiliter commixta sic: quia fit vna quantitas, &amp; vna 
+      <lb ed="#S" n="126"/>forma substantialis, &amp; per consequens commixtorum. ideo 
+      <lb ed="#S" n="127"/>non videtur, quod materia vna sub alia distinguatur 
+       situ<lb ed="#S" break="no" n="128"/>Alias eodem modo miscerentur arida homogenea, &amp; 
+       liqui<lb ed="#S" break="no" n="129"/>da, quod tamen ipse negat: verum est, quod ipse intelligit 
+       diffe<lb ed="#S" break="no" n="130"/>rentiam in hoc, quod in coniunctione aridorum totum 
+       addi<lb ed="#S" break="no" n="131"/>tum distinguitur situ a toto, cui additur etiam 
+       perce<lb ed="#S" break="no" n="132"/>ptibiliter, sicut &amp; vnumquodq, nullo sibi addito, in 
+       mi<lb ed="#S" break="no" n="133"/>xtione vero liquidorum non totum stat scorsum a 
+       to<lb ed="#S" break="no" n="134"/>to, sed pars a parte imperceptibiliter. 
+    </p>
+            <p xml:id="khj78y-q39664-d1e748" n="30">
+      <!--0154.xml-->
+               <pb ed="#S" n="154"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>
+               <!-- 30 -->Et ideo videtur mihi esse distinguendum, sicut 
+      <lb ed="#S" n="2"/>prius, quod potest esse vinum eiusdem speciei habens 
+       qualita<lb ed="#S" break="no" n="3"/>tes contrarias, sicut si differt specie. si ergo vinum dissimi 
+      <lb ed="#S" n="4"/>le superadditum penetrat, vel penetretur: sic quod praeexistens 
+      <lb ed="#S" n="5"/>diuidat in minima non subsistentia desinit ibi esse sanguis 
+      <lb ed="#S" n="6"/>Christi, vel totaliter si ad omnes partes haec diuisio, &amp; corru 
+      <lb ed="#S" n="7"/>ptio pertingat, vel particulariter si ad quasdam tantum. si 
+      <lb ed="#S" n="8"/>autem ibi non fiat corruptio per diuisionem: &amp; sic virtus 
+      <lb ed="#S" n="9"/>contraria in vinis, &amp; per confequens in se mutuo actiua, 
+      <lb ed="#S" n="10"/>si est aequalitas virtutis, tandem fit tertium vinum differens 
+      <lb ed="#S" n="11"/>numero, &amp; per consequens desinit esse sanguis. si autem sit. 
+      <lb ed="#S" n="12"/>maior in praeexistente: quia forte erat Vernacinum, vel 
+       Grae<lb ed="#S" break="no" n="13"/>cum, aut Cretense, aliud debile Gallicum, vel in magna 
+      <lb ed="#S" n="14"/>quantitate erant species, &amp; istud in vna gutta, vel quafi: 
+      <lb ed="#S" n="15"/>tunc species corrumpunt, &amp; non corrumpuntur, &amp; sic manet 
+      <lb ed="#S" n="16"/>ibi integraliter sanguis. si autem econuerso non manet, quia 
+      <lb ed="#S" n="17"/>totum corrumpitur.
+    </p>
+            <p xml:id="khj78y-q39664-d1e796" n="31">
+      <!-- 31 -->Ad primum argumentum in opposi 
+      <lb ed="#S" n="18"/>tum dicendum, quod non est simile: nam de oleo admixto, quod 
+      <lb ed="#S" n="19"/>non corrumpat consecrationem primi ratio est in promptu: quia 
+      <lb ed="#S" n="20"/>non est ita penetrabile, vel penetratiuum, quin admixtum 
+      <lb ed="#S" n="21"/>possit stare e regione contra aliud, &amp; sic primum non 
+       per<lb ed="#S" break="no" n="22"/>dit suam consecrationem: sicut nec corrumpitur in esse 
+       natura<lb ed="#S" break="no" n="23"/>li. si autem fiat commixtio, &amp; diuisio: &amp; per consequens 
+       prio<lb ed="#S" break="no" n="24"/>ris destructio, non video quare non destruatur consecratio de 
+      <lb ed="#S" n="25"/>structa re consecrata: sicut consecratio calicis eo destructo: 
+      <lb ed="#S" n="26"/>nisi quia Papa sic statuit, qui in talibus non sacramentis: 
+      <lb ed="#S" n="27"/>sed ecclesiasticis institutis habet plenitudinem potestatis: 
+      <lb ed="#S" n="28"/>extra de consecra. eccle. c. aqua. vbi per ratihabitionem 
+       ec<lb ed="#S" break="no" n="29"/>clesiae consecrantur. similiter quod oleum additum sine noua con 
+      <lb ed="#S" n="30"/>secratione fiat oleum confecratum, non est ratio, nisi quia 
+       Pa<lb ed="#S" break="no" n="31"/>pa sic statuit, qui posset statuere, quod calix conflatus, vel ali 
+      <lb ed="#S" n="32"/>ter destrustus, &amp; postea reparatus semper staret 
+       consecra<lb ed="#S" break="no" n="33"/>tus. similiter quare aqua benedicta sine noua 
+       benedi<lb ed="#S" break="no" n="34"/>ctione fiat benedicta: non est nisi ex ordinatione Papae, 
+      <lb ed="#S" n="35"/>sed sacramenta non subsunt PaPae. Vnde non potest facere, quod 
+       mor<lb ed="#S" break="no" n="36"/>tuus resuscitatus sit maritus, nisi ex nouo consensu, nec 
+      <lb ed="#S" n="37"/>quod non consentiens sit nouus maritus: ita non 
+       potestface<lb ed="#S" break="no" n="38"/>re, quod speciebus corruptis remaneat ibi sanguis, aut quod in 
+      <lb ed="#S" n="39"/>liquore addito sine verbis incipiat esse sanguis. Vnde 
+      <lb ed="#S" n="40"/>prout oleum consecratum est materia ad vnctiones 
+       ceremo<lb ed="#S" break="no" n="41"/>niales: quae non sunt sacim a Christo institutum, sed 
+       sacra<lb ed="#S" break="no" n="42"/>mentales ab institutione ecclesiae non est difficile 
+       vide<lb ed="#S" break="no" n="43"/>re, quomodo  exsolo statuto Papae admixto faciat reputari 
+       sa<lb ed="#S" break="no" n="44"/>cramentum. sed prout oleum consecratum est materia 
+       sacra<lb ed="#S" break="no" n="45"/>menti extremae vnctionis difficile est, nisi quis dicat, quod 
+      <lb ed="#S" n="46"/>sicut in materia matrimoniali aliquid potest Papa, sic hic. 
+      <lb ed="#S" n="47"/>TTum, quia decretalis nihil exprimit in chrismate: quod 
+      <lb ed="#S" n="48"/>est materia confirmationis, quod hic non sacrum possit admi 
+      <lb ed="#S" n="49"/>sceri sacro: tum quia quod dicit de oleo consecrato, quod non 
+       con<lb ed="#S" break="no" n="50"/>secratum potest admisceri nihil aliud explicans: potest 
+      <lb ed="#S" n="51"/>intelligi quo ad sacramentalia, non quo ad sacramenta. 
+      <lb ed="#S" n="52"/>Dicere autem, quod potest commisceri, sic quod primum non 
+       defi<lb ed="#S" break="no" n="53"/>nat esse consecratum, nec tamen quod illud, quod additum est, sit 
+      <lb ed="#S" n="54"/>consecratum: propter hoc est contra mentem decretalis: quia 
+      <lb ed="#S" n="55"/>intelligit, quod totum reputetur consecratum
+    </p>
+            <p xml:id="khj78y-q39664-d1e883" n="32">
+      <!-- 32 -->Ad 
+      <lb ed="#S" n="56"/>secundum dicendum, quod quando de sanguine non remanet 
+      <lb ed="#S" n="57"/>in calice nisi gutta, vel stilla: illud, quod additur in 
+       ma<lb ed="#S" break="no" n="58"/>gna quantitate corrumpit illam speciem, vel per viam 
+      <lb ed="#S" n="59"/>diuisionis, si non habet qualitatem contrariam, vel per 
+      <lb ed="#S" n="60"/>viam alterationis si habet, &amp; sic don remanet. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

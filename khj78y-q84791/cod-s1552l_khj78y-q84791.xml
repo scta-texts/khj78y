@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="279"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q84791"><!-- l4d22-q1 -->
+            <head xml:id="khj78y-q84791-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-q84791-Hd1e103" type="question-title">
+     utrum peccata semel dimissa redeant
+   </head>
+            <p xml:id="khj78y-q84791-d1e106">
+               <lb ed="#S" n="87"/>DIsIINCIIV. 22. QVAEsIIO. I. 
+    </p>
+            <p xml:id="khj78y-q84791-d1e111">
+               <lb ed="#S" n="88"/>CIrca vigesimamsecundam distinctionem 
+       quaerun<lb ed="#S" break="no" n="89"/>Atur tria. Primum est de reditu peccatorum post 
+      <lb ed="#S" n="90"/>recidiuum. secundo, de confessione incarceratorum, 
+      <lb ed="#S" n="91"/>&amp; damnatorum. Tertium de forma huius sacramenti. 
+      <lb ed="#S" n="92"/>si peccata dimissa redeant. 
+    </p>
+            <p xml:id="khj78y-q84791-d1e124">
+               <lb ed="#S" n="93"/>Thom. 3. part. q. 88. art. 1. 
+    </p>
+            <p xml:id="khj78y-q84791-d1e130">
+               <lb ed="#S" n="94"/>CIRCA primum quaeritur, vtrum 
+      <lb ed="#S" n="95"/>peccata semel dimissa redeant. 
+      <lb ed="#S" n="96"/>Et videtur, quod sic: quia sicut poenitentia 
+      <lb ed="#S" n="97"/>viuificat mortificata: sic 
+       pecca<lb ed="#S" break="no" n="98"/>tum mortificat viua, sed per 
+       il<lb ed="#S" break="no" n="99"/>lam mortificata redeunt ad me 
+      <lb ed="#S" n="100"/>ritum. ergo per recidiuum 
+       pecca<lb ed="#S" break="no" n="101"/>ta per poenitentam mortificata re 
+      <lb ed="#S" n="102"/>deunt ad demeritum.
+    </p>
+            <p xml:id="khj78y-q84791-d1e152" n="3">
+      <!-- 3 -->Contra, actio semel extincta 
+      <lb ed="#S" n="103"/>non reuiuiscit. ergo similiter nec pectium.
+    </p>
+            <p xml:id="khj78y-q84791-d1e159" n="4">
+      <!-- 4 -->
+       Respon<lb ed="#S" break="no" n="104"/>deo, hic sunt tres conclusiones. Prima est, quod poenitente 
+      <lb ed="#S" n="105"/>postea recidiuante in similia peccata: priora peccatam non 
+      <lb ed="#S" n="106"/>redeunt quo ad culpam, nec redeunt quo ad essentiam: 
+      <lb ed="#S" n="107"/>quia sunt alia numero, quae postea fiunti&amp; elarum est, quod 
+      <lb ed="#S" n="108"/>per solum hominem, vel naturam corruptam idem numero 
+      <lb ed="#S" n="109"/>non redit. secundo de generatione. sed supposito, quod 
+       sub<lb ed="#S" break="no" n="110"/>stantia pcti sit a Deo, &amp; supposito, quod Deus ldem numero 
+      <lb ed="#S" n="111"/>corruptum postit reparare, siue sit manens, siue sit 
+       tran<lb ed="#S" break="no" n="112"/>siens, si solus Deus id repararet: tunc esset idem numero, 
+      <lb ed="#S" n="113"/>quod prius materialiter: sed illud, quod pri' erat peccatum, nunc 
+      <lb ed="#S" n="114"/>non esset peccatum: quia prius erat peccatum inquantum produceba 
+      <lb ed="#S" n="115"/>tur contra debitum ab homine, non inquantum a Deo, qui 
+      <lb ed="#S" n="116"/>ad nihil tenef: nunc autem non producitur ab homine, sed a so 
+      <lb ed="#S" n="117"/>lo Deo, vt supponitur: &amp; sic potest a Deo idem peccatum  numero 
+      <lb ed="#S" n="118"/>redire, non vt peccatum, sed vt actus. si autem Deus illum cun. 
+      <lb ed="#S" n="119"/>dem actum numero repararet homine coagentertunc es 
+      <lb ed="#S" n="120"/>set idem secundum materiam sed essent duo peccata 
+       secun<lb ed="#S" break="no" n="121"/>dum formam: sicut si homine secundo generante, Deus 
+       red<lb ed="#S" break="no" n="122"/>deret eandem animam numero, quam prius in cadem materia 
+      <lb ed="#S" n="123"/>creauerat: esset idem numero filius, sed essent duae genera 
+      <lb ed="#S" n="124"/>tiones, &amp; duae natiuitates. sed quia peccatore recidiuante non 
+      <lb ed="#S" n="125"/>est credendum Deum miracula facerei vt simul sint opera 
+      <lb ed="#S" n="126"/>lucis, &amp; opera tenebrarum. ideo simpliciter dicendum est: quod 
+      <lb ed="#S" n="127"/>non redeunt quo ad essentiam. si autem a solo Deo idem 
+      <lb ed="#S" n="128"/>bonum opus numero reparetur: non esset hominis me- 
+      <!--0280.xml-->
+      <pb ed="#S" n="280"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ritum patiendo in reparato, sicut fuit in principio. si 
+       au<lb ed="#S" break="no" n="2"/>tem repararetur homine cooperante: tunc essent duo merita, 
+      <lb ed="#S" n="3"/>&amp; vnus actus: quamuis sit dubium, vtrum creatura, quae non 
+      <lb ed="#S" n="4"/>potest cooperari in creatione, possit cooperari in 
+       repara<lb ed="#S" break="no" n="5"/>tione. Et quidem de reparatione substantiae certum est: quod ibi 
+      <lb ed="#S" n="6"/>actio hois terninat ad nouam qualitatem: sed de 
+       reparatio<lb ed="#S" break="no" n="7"/>ne qualitatis, quod sit noua actio hois, &amp; non nouum actum 
+      <lb ed="#S" n="8"/>est difficile, nisi in intentione, &amp; remissione.
+    </p>
+            <p xml:id="khj78y-q84791-d1e242" n="5">
+      <!-- 5 -->
+       secun<lb ed="#S" break="no" n="9"/>da conclusio est, quod aliquo modo redeunt quo ad poenam 
+      <lb ed="#S" n="10"/>namni: quia illam aequaliter patit in vno mortali moriens, sicut 
+      <lb ed="#S" n="11"/>si moriens in oibus, quae nunquam fecit, nisi diceret sic, quod 
+       si<lb ed="#S" break="no" n="12"/>tut poena damni non habet dolorem in pueris: quia non 
+       ha<lb ed="#S" break="no" n="13"/>bent remorsum, quod hoc sit propter suum peccatum, sed in 
+       purga<lb ed="#S" break="no" n="14"/>torio sic: quia sciunt propter peccatum carere se illo bono: sic 
+      <lb ed="#S" n="15"/>damnati tanto amplius affligunt carentia beatitudinis, 
+       quan<lb ed="#S" n="16" break="no"/>to sciunt propter plura, &amp; grauiora peccatam incurrisse illud. 
+    </p>
+            <p xml:id="khj78y-q84791-d1e264" n="6">
+               <lb ed="#S" n="17"/>
+               <!-- 6 -->Tertia conclusio est, quod redeunt quo ad poenam sensus 
+      <lb ed="#S" n="18"/>non simpliciter: quod tantum puniat, ac si non poenituisset: quia non 
+      <lb ed="#S" n="19"/>consurget duplex tribulatio, ex quo fuit totaliter 
+       remis<lb ed="#S" break="no" n="20"/>sa culpa, sed secundum quid: quia tanto est grauior sequent 
+      <lb ed="#S" n="21"/>culpa, quanto fuerat maior gratia remissionis, propter 
+      <lb ed="#S" n="22"/>circunstantiam ingratitudinis,
+    </p>
+            <p xml:id="khj78y-q84791-d1e282" n="7">
+      <!-- 7 -->Ad argumentum 
+       dicen<lb ed="#S" break="no" n="23"/>dum, quod non est simile de bonis mortificatis per peccatum, quod re 
+      <lb ed="#S" n="24"/>uiuiscant per poenitentiam: &amp; de dimissis per poenitentiam, quod redeant 
+      <lb ed="#S" n="25"/>per sequentem culpam: nisi loquendo de reditu actuum bo 
+      <lb ed="#S" n="26"/>norum, vel malorum secundum se. simpliciter enim nec bona 
+      <lb ed="#S" n="27"/>mortificata reuiuiscunt, nec peccatam dimissa redeunt: quia 
+       a<lb ed="#S" break="no" n="28"/>ctus, qui transit tam bonus, quae malus, non redit idem nu 
+      <lb ed="#S" n="29"/>mero, sed quo ad primum debitum meritis: &amp; quo ad 
+       poe<lb ed="#S" break="no" n="30"/>nam debitam peccatis est dissimilitudo, quia merita non 
+      <lb ed="#S" n="31"/>mortificantur per peccatum: nisi quia praestat impedimentum, 
+      <lb ed="#S" n="32"/>quo durante non sequitur praemium: &amp; ideo eo amoto 
+      <lb ed="#S" n="33"/>habent valorem suum, sed poena debita pctis, non solum 
+      <lb ed="#S" n="34"/>impeditur per veram poenitentiam: sed vere remittitur: &amp; 
+      <lb ed="#S" n="35"/>ideo per sequentem culpam non renouatur, cum sit sim 
+      <lb ed="#S" n="36"/>pliciter dimissa, &amp; non solum impedita. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

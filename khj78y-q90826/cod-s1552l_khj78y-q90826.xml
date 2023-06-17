@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="297"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q90826"><!-- l4d24-q3 -->
+            <head xml:id="khj78y-q90826-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-q90826-Hd1e103" type="question-title">
+     de annexis 
+     ordinum: an corona sit ordo
+   </head>
+            <p xml:id="khj78y-q90826-d1e106">
+               <lb ed="#S" n="17"/>QVAESTIO TERTIA. 
+    </p>
+            <p xml:id="khj78y-q90826-d1e111">
+               <lb ed="#S" n="18"/>De corona clericali.
+    </p>
+            <p xml:id="khj78y-q90826-d1e116">
+               <lb ed="#S" n="19"/>Thom. 4. dist. 24. q. 3. arti. I. 
+    </p>
+            <p xml:id="khj78y-q90826-d1e122">
+               <lb ed="#S" n="20"/>QVAERITVR tertio de annexis 
+       ordi<lb ed="#S" break="no" n="21"/>num: an corona sit ordo? Et videtur quod 
+      <lb ed="#S" n="22"/>sic: quia illud est ordo, per quod aliquis 
+      <lb ed="#S" n="23"/>ponitur in gradu super communem 
+       popu<lb ed="#S" break="no" n="24"/>lum: sed per coronam ponitur in gradu su 
+      <lb ed="#S" n="25"/>per laicos, ergo est ordo.
+    </p>
+            <p xml:id="khj78y-q90826-d1e138" n="2">
+      <!-- 2 -->In contrarium est, quod secun 
+      <lb ed="#S" n="26"/>dum ritum ecclesiae nullus ordo datur sine celebratione 
+      <lb ed="#S" n="27"/>missae: sed corona datur praeter missam. ergo non est 
+       or<lb ed="#S" break="no" n="28"/>do.
+    </p>
+            <p xml:id="khj78y-q90826-d1e149" n="3">
+      <!-- 3 -->Respondeo, hic videnda sunt quatuor de 
+       coro<lb ed="#S" break="no" n="29"/>na. Primo, de corona in se. secundo, de subiecto suscipi 
+      <lb ed="#S" n="30"/>ente. Tertio, de ministro conferente. Quarto, de effectu 
+      <lb ed="#S" n="31"/>coronae.
+    </p>
+            <p xml:id="khj78y-q90826-d1e160" n="4">
+      <!-- 4 -->Quantum ad primum, quidam dicunt tria. 
+       Pri<lb ed="#S" break="no" n="32"/>mum, quod corona non est ordo. secundum, quod est dispositio 
+      <lb ed="#S" n="33"/>congrua ad ordines. Tertium, quod non est dispositio neces 
+      <lb ed="#S" n="34"/>sario praesupposita ab ordinibus.
+    </p>
+            <p xml:id="khj78y-q90826-d1e171" n="5">
+      <!-- 5 -->Primum probant 
+      <lb ed="#S" n="35"/>fic, per omnem ordinem confertur aliqua potestas, vel 
+      <lb ed="#S" n="36"/>aliqua deputatio ad actum sacrum, vt patet ex praeceden 
+      <lb ed="#S" n="37"/>tibus: sed per coronam nihil horum confertur. Ex eo enim 
+       so<lb ed="#S" break="no" n="38"/>lo, quod aliquis consecratur nulli actui, nulli officio 
+       deputa<lb ed="#S" break="no" n="39"/>tur. ergo non est ordo. secundum probant sic: In omni 
+      <lb ed="#S" n="40"/>transitu de statu ad statum conuenienter interponitur 
+      <lb ed="#S" n="41"/>aliqua media dispositio: sicut nouiciatus est media 
+       di<lb ed="#S" break="no" n="42"/>spositio inter statum saecularem, &amp; religiosum. ergo inter 
+      <lb ed="#S" n="43"/>statum laicorum, &amp; ministrorum ecclesiae conuenienter 
+      <lb ed="#S" n="44"/>ponitur media dispositio: haec autem est tonsura clerica 
+      <lb ed="#S" n="45"/>lis: per quam illi, qui tonsurant separantur a statu 
+       laico<lb ed="#S" break="no" n="46"/>rum, &amp; praeparantur ad statum ministrorum. quare &amp;c. Et 
+      <lb ed="#S" n="47"/>quia separantur a statu laicorum, ideo deponunt 
+       capil<lb ed="#S" break="no" n="48"/>los, &amp; tondentur in signum depositionis superfluae curae 
+      <lb ed="#S" n="49"/>temporalium. Quia vero praeparantur ad ministerium Dei: 
+      <lb ed="#S" n="50"/>cui seruire, regnare est, ideo raduntur in modum coronae: 
+      <lb ed="#S" n="51"/>quod est signum regale. Religiosi vero non clerici tonden 
+      <lb ed="#S" n="52"/>tur quidem: quia a statu saecularium separantur, sed non 
+      <lb ed="#S" n="53"/>in modum coronae: quia non applicantur ad ministerium 
+       di<lb ed="#S" break="no" n="54"/>uinum. Tertium declaratur sic. Essentialius se habet 
+       or<lb ed="#S" break="no" n="55"/>do prior ad sequentem, quam tonsura ad aliquem ordinem: 
+      <lb ed="#S" n="56"/>fed ad sequentem ordinem non praeexigitur ex 
+       necessita<lb ed="#S" break="no" n="57"/>te prior ordo, vt patuit prius, ergo nec ad recipiendum 
+      <lb ed="#S" n="58"/>quemcunque ordinem ex necessitate praeexigitur tonsura, 
+      <lb ed="#S" n="59"/>sed de congruitate solum.
+    </p>
+            <p xml:id="khj78y-q90826-d1e230" n="6">
+      <!-- 6 -->Prima conclusio istorum, 
+      <lb ed="#S" n="60"/>quod corona non sit ordo, est vera: sed ratio eorum non est 
+      <lb ed="#S" n="61"/>bona: quia licet per coronam non deputer ad aliquem 
+      <lb ed="#S" n="62"/>actum specialem: tonsuratus tamen deputatur ad 
+       lau<lb ed="#S" break="no" n="63"/>des Dei, quae sunt communes collegio clericorum: vnde 
+      <!--0297.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>&amp; per eam deputatur ad aliquod sacrum, puta ad sacrum 
+      <lb ed="#S" n="65"/>collegium. Et sicut per baptismum ad collegium 
+       Christia<lb ed="#S" break="no" n="66"/>norum, sic per coronam ad collegium clericorum. sed 
+       ra<lb ed="#S" break="no" n="67"/>tio Tho. est melior: quia illud est ordo proprie: in quo 
+      <lb ed="#S" n="68"/>datur specialis potestas: non id, quo solo ad aliquod 
+       con<lb ed="#S" break="no" n="69"/>sortium deputatur: sicut leuitae, &amp; sacerdotes, qui habebant 
+      <lb ed="#S" n="70"/>officia specialia dicebantur ordinati: vnde quia per 
+       coro<lb ed="#S" break="no" n="71"/>nam solum deputatur homo ad chorum, vbi non habet 
+      <lb ed="#S" n="72"/>speciale officium, sed commune: ideo non est ordo, nisi 
+       si<lb ed="#S" break="no" n="73"/>cut dicitur ordo religionum, qui est deputatio ad 
+       colle<lb ed="#S" break="no" n="74"/>gium in quibusdam cerimoniis. Et sic dicitur de aeta. &amp; 
+      <lb ed="#S" n="75"/>quali. ord. Cum contingat. quod per primam tonsuram 
+       cleri<lb ed="#S" break="no" n="76"/>calis ordo confertur.
+    </p>
+            <p xml:id="khj78y-q90826-d1e277" n="7">
+      <!-- 7 -->secunda eorum conclusio ve 
+      <lb ed="#S" n="77"/>ra est, &amp; ratio bona: confirmatur tamen ratio per 
+       descri<lb ed="#S" break="no" n="78"/>ptionem coronae, quae est, quod est signaculum quoddam a suo 
+      <lb ed="#S" n="79"/>episcopo impressum, a vulgo segregans, diuino cultui de 
+      <lb ed="#S" n="80"/>dicans, atque ad ordinem praeparans. Tertia etiam 
+       conclu<lb ed="#S" break="no" n="81"/>sio vera est: quia est dispositio congruitatis, &amp; non neces 
+      <lb ed="#S" n="82"/>sitatis respectu ordinis: sed respectu beneficij est 
+       neces<lb ed="#S" break="no" n="83"/>sitatis: &amp; etiam respectu iurisdictionis ecclesiasticae: quia 
+      <lb ed="#S" n="84"/>ius spirituale non cadit in laicum: vnde non tenet 
+       col<lb ed="#S" break="no" n="85"/>latio beneficij, vel commissio iurisdictionis facta non ton 
+      <lb ed="#S" n="86"/>surato. Non clericus enim non est capax. de transac. c. ex 
+      <lb ed="#S" n="87"/>literis. Item rescriptum impetratum tacito, quod sit laicus, non 
+      <lb ed="#S" n="88"/>valet. de testi. c. ex parte. Nec laicus admittitur ad 
+       accu<lb ed="#S" break="no" n="89"/>sationem, vel testimonium contra clericum. de testib. c. 
+      <lb ed="#S" n="90"/>de caetero. quod tamen hodie de copsuetudine non 
+       ser<lb ed="#S" break="no" n="91"/>uatur.
+    </p>
+            <p xml:id="khj78y-q90826-d1e314" n="8">
+      <!--8--> Quantum ad secundum est sciendum, quod 
+       si<lb ed="#S" break="no" n="92"/>cut dicitur in alia facultate edictum est prohibitorium. 
+      <lb ed="#S" n="93"/>&amp; ideo quicunque non prohibetur habere coronam: 
+       per<lb ed="#S" break="no" n="94"/>mittitur habere ex hoc ipso. sunt autem sex personae 
+       pro<lb ed="#S" break="no" n="95"/>hibitae. Primo, mulier, quae nec debet, nec potest habere 
+      <lb ed="#S" n="96"/>coronam, sicut nec ordinem, vt post dicetur. Et sic potest 
+      <lb ed="#S" n="97"/>intelligi in decretis. 30. dist. cap. 2. vbi prohibetur 
+       mu<lb ed="#S" break="no" n="98"/>lier tonderi. Nam tonderi, non ad modum coronae possent 
+      <lb ed="#S" n="99"/>beguinae, &amp; dicunt moniales de consuetudine. secundo, 
+      <lb ed="#S" n="100"/>prohibentur bigami non solum de nouo recipere, sed 
+      <lb ed="#S" n="101"/>prius receptam portare. de bigamis. c. 1. libro. 6. de quo 
+      <lb ed="#S" n="102"/>infra dicetur. Tertio, prohibentur infantes. Est autem 
+      <lb ed="#S" n="103"/>infant, qui non compleuit septennium: sed dubium est, 
+      <lb ed="#S" n="104"/>vtrum quo ad hoc sufficiat attigisse: sicut alias in 
+       digni<lb ed="#S" break="no" n="105"/>tatibus sufficit annum attigisse, nec oportet 
+       compleuis<lb ed="#S" break="no" n="106"/>se: sicut dicitur Luc. 3. Et erat Iesus incipiens quasi 
+       an<lb ed="#S" break="no" n="107"/>norum triginta. Quarto, prohibentur illiterati. Debent 
+      <lb ed="#S" n="108"/>enim scire non solum symbolum, salutationem Angelicam, 
+      <lb ed="#S" n="109"/>&amp; orationem Dominicam, quod etiam est laicorum: sed 
+      <lb ed="#S" n="110"/>scire legere Psalmos, &amp; cantare: quia ad hoc eligitur ad 
+      <lb ed="#S" n="111"/>populum, &amp; annumeratur collegio clericorum. Quinto, 
+      <lb ed="#S" n="112"/>prohibentur coniugati, non solum matrimonio 
+       consum<lb ed="#S" break="no" n="113"/>mato: nec solum post verba de praesenti: sed etiam post ver 
+      <lb ed="#S" n="114"/>ba de futuro, nisi velit intrare religionem. sexto, 
+       prohi<lb ed="#S" n="115" break="no"/>betur quis coronari a non suo episcopo, nisi de licentia 
+      <lb ed="#S" n="116"/>sui: &amp; probatur de vltimis quatuor. de tempo. ordi. cap. 
+      <lb ed="#S" n="117"/>vlti. vel. 6. sed appellatione bigami secundo loco 
+       supra<lb ed="#S" n="118" break="no"/>positi, intelligitur omnis alter irregularis, sicut seruus, 
+      <lb ed="#S" n="119"/>qui non nisi domino consantiente. sed illegitimus 
+       po<lb ed="#S" break="no" n="120"/>test ab episcopo dispensatiue: qui potest etiam cum eo 
+      <lb ed="#S" n="121"/>in minoribus ordinibus dispensare: infanti autem si 
+       in<lb ed="#S" break="no" n="122"/>trat religionem licite datur: vt dicitur in praedicta 
+       De<lb ed="#S" break="no" n="123"/>cretali. Et similiter coniugato ad sacros ordines aspiran 
+      <lb ed="#S" n="124"/>ti, supple de consensu vxoris, vel sponsae. Quamuis enim 
+      <lb ed="#S" n="125"/>ibi non fiat mentio nisi de coniugato: quia tamen spon 
+      <lb ed="#S" n="126"/>sus obligatus est ad actus contrarios, non debet fieri cle 
+      <lb ed="#S" n="127"/>ricus.
+    </p>
+            <p xml:id="khj78y-q90826-d1e397" n="9">
+      <!-- 9 -->Circa tertium, scilicet, de ministro 
+       confe<lb ed="#S" break="no" n="128"/>rente: sciendae sunt quatuor regulae.
+    </p>
+            <p xml:id="khj78y-q90826-d1e404" n="10">
+      <!-- 10 -->Prima 
+       gene<lb ed="#S" break="no" n="129"/>ralis, quod quicunque potest conferre ordines: potest 
+       con<lb ed="#S" break="no" n="130"/>ferre tonsuram: quia regula iuris ciuilis est, Non debet cui 
+      <!--0298.xml-->
+      <pb ed="#S" n="298"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>quod maius licet, quod minus est non licere. Et hoc nisi 
+      <lb ed="#S" n="2"/>per accidens prohibeatur ab vno, &amp; non ab alio: sicut 
+       quicum<lb ed="#S" n="3" break="no"/>que alias potest dare tonsuram clericalem, qui dederit eam in 
+      <lb ed="#S" n="4"/>fonte, nisi religionem intraret, vel illiterato, seu absque sui 
+      <lb ed="#S" n="5"/>superioris licentia homini diccesis alienae, seu coniuga 
+      <lb ed="#S" n="6"/>to: nisi volenti religionem intrare, aut ad sacros ordines 
+       pro<lb ed="#S" break="no" n="7"/>moueri in casu licito, suspensus est per annum a 
+       collatio<lb ed="#S" break="no" n="8"/>ne clericali tonsurae, non ordinum: vnde si concedatur ali 
+      <lb ed="#S" n="9"/>cui facere ordines alicubi, per consequens coronam, &amp; con 
+      <lb ed="#S" n="10"/>firmationem, quae sunt praeambula.
+    </p>
+            <p xml:id="khj78y-q90826-d1e441" n="11">
+      <!--11 -->secunda regula 
+      <lb ed="#S" n="11"/>est, quod episcopus consecratus non ante, iure suo potest dare 
+       coro<lb ed="#S" break="no" n="12"/>nam: sicut &amp; ordines de consuetudine, etiam licet priori 
+      <lb ed="#S" n="13"/>tonsurari facere nouitium tonsura monachali, sub spe 
+       post<lb ed="#S" break="no" n="14"/>ea recipiendi ab epo tonsuram clericalem. Videt autem, quod 
+       ha<lb ed="#S" break="no" n="15"/>bens coronam monachalem, non clericalem, vel nullam possit 
+      <lb ed="#S" n="16"/>profiteri religionem tanquam clericus: licet beneficium 
+       eccle<lb ed="#S" break="no" n="17"/>siasticum percipere non possit, quia cum sit per essentiam 
+      <lb ed="#S" n="18"/>in eodem ordine, in eandem religione clericorum, &amp; 
+       laico<lb ed="#S" break="no" n="19"/>rum eandem regulam profitentium: sicut posset profiteri 
+       il<lb ed="#S" break="no" n="20"/>lum ordinem, obligando se ad ordinem secundum modum vi 
+      <lb ed="#S" n="21"/>uendi laicorum, sicut &amp; clericorum, quamuis forte sic non esset 
+      <lb ed="#S" n="22"/>de bigamo: quia qui non est clericus, nec actu, nec aptitudi 
+      <lb ed="#S" n="23"/>ne, non potest obligari solemni voto religionis clericorum: 
+       li<lb ed="#S" break="no" n="24"/>cet si ordinaret, reciperet characterem. 1. Tertia 
+       re<lb ed="#S" break="no" n="25"/>gula est, quod abbas potest dare tonsuram clericalem, ex quo est sa 
+      <lb ed="#S" n="26"/>cerdos, &amp; benedictus. Nullus autem inferior quantumcun- 
+    </p>
+            <p xml:id="khj78y-q90826-d1e480">
+               <lb ed="#S" n="27"/>que prior conuentualis exemptus, magister ordinis, gene 
+      <lb ed="#S" n="28"/>ralis minister, hoc potest, quia solis abbatibus est concessum, 
+      <lb ed="#S" n="29"/>in quibus tamen ita distinguitur. Quia aut est abbas simplex 
+      <lb ed="#S" n="30"/>non exemptus, &amp; sic potest dare tonsuram clericalem suis 
+      <lb ed="#S" n="31"/>monachis, &amp; nulli alij: extra de aeta. &amp; quali. Cum 
+       con<lb ed="#S" break="no" n="32"/>tingat. in Decretis. 49. dist. Qi. si autem sit exemptus, &amp; 
+      <lb ed="#S" n="33"/>mitratus: qui etiam benedictiones super populum insigni 
+      <lb ed="#S" n="34"/>tus est: potest eam dare saecularibus: in quos ecclesiasticam 
+      <lb ed="#S" n="35"/>&amp; quasi epalem lurisdictionem obtinet, de priuil. c. 
+       Ab<lb ed="#S" break="no" n="36"/>bates. lib. 6. si tamen simplex abbas, qui potest dare 
+       co<lb ed="#S" break="no" n="37"/>ronam professo, det eam nouitio, &amp; ille exeat non profes 
+      <lb ed="#S" n="38"/>sus, non est clericus, nec eum percutiens incidit in cano 
+      <lb ed="#S" n="39"/>nem. Idem si esset exemptus, &amp; ille nouitius, cui eam 
+       fe<lb ed="#S" break="no" n="40"/>cisset, non esset subditus talis, cui posset eam date in 
+       ha<lb ed="#S" break="no" n="41"/>bitu saeculari: quia non est monachus ante professione. de 
+      <lb ed="#S" n="42"/>seat. excommunicationis c. religioso. 6. 1.
+    </p>
+            <p xml:id="khj78y-q90826-d1e518" n="13">
+      <!-- 13 -->Quarta regula est, quod 
+       o<lb ed="#S" break="no" n="43"/>mnes presbyteri cardinales possunt conferre primam ton 
+      <lb ed="#S" n="44"/>suram, sicut &amp; minores ordines conferre de communi 
+      <lb ed="#S" n="45"/>consuetudine curiae.
+    </p>
+            <p xml:id="khj78y-q90826-d1e529" n="14">
+      <!-- 14 -->Quantum ad quartum 
+       articu<lb ed="#S" break="no" n="46"/>lum, scilicet, de effectu sciendum est, quod tonsurae sunt octo 
+      <lb ed="#S" n="47"/>effectus ad praesens.
+    </p>
+            <p xml:id="khj78y-q90826-d1e538" n="15">
+      <!-- 15 -->Primus, quia gaudet 
+       priuile<lb ed="#S" break="no" n="48"/>gio fori. scilicet vt non conuenlatur nisi coram iudice ecclesiasti 
+      <lb ed="#S" n="49"/>to, cui etiam non potest renunciare pacto expresso. de fo. 
+      <lb ed="#S" n="50"/>compe. c. si diligenti. &amp; est excommunicatus, qui allegato 
+      <lb ed="#S" n="51"/>fori priuilegio, cogit eum coram iudice laico respondere. 
+    </p>
+            <p xml:id="khj78y-q90826-d1e551" n="16">
+               <lb ed="#S" n="52"/>
+               <!-- 16 -->secundus, quia gaudet priuilegio illo. si quis 
+       sua<lb ed="#S" break="no" n="53"/>dente diabolo, quia est excommunicatus, qui mittit in 
+      <lb ed="#S" n="54"/>eum manus violentas: sed illud priuilegium dat etiam 
+       ton<lb ed="#S" break="no" n="55"/>sura monachalis. Tertius effectus est, quod liberatur a 
+       tal<lb ed="#S" break="no" n="56"/>lia, &amp; collectis. Quartus, quod de altari debet viuere qui al 
+      <lb ed="#S" n="57"/>tari feruit: quamuis ecclesia non cogat nisi ordinantem, 
+      <lb ed="#S" n="58"/>vel praesentantem ad sacros ordiges promouere, &amp; ei 
+       pro<lb ed="#S" break="no" n="59"/>uidere.
+    </p>
+            <p xml:id="khj78y-q90826-d1e573" n="17">
+      <!-- 17 -->Quintus, quod debet portare habitum 
+       clerica<lb ed="#S" break="no" n="60"/>lem, quem tamen si deponat etiam temere, non propter 
+      <lb ed="#S" n="61"/>hoc est excommunicatus: sicut religiosus, qui temere 
+       di<lb ed="#S" break="no" n="62"/>mittens est excommunicatus. sed si monitus nolit 
+       porta<lb ed="#S" break="no" n="63"/>re: nec laicus esse excommunicari potest. de vi. &amp; honest. 
+      <lb ed="#S" n="64"/>cleric. c. Et si quis. sextus, quia debet portare coronam. 
+      <lb ed="#S" n="65"/>Clericus enim neque comam nutriat, nec barbam, sed ex 
+      <lb ed="#S" n="66"/>causa licet, sicut dicit versus. 
+    </p>
+            <p xml:id="khj78y-q90826-d1e593">
+               <lb ed="#S" n="67"/>Tutius vt peterem laici sub imagine Romam, 
+      <!--0298.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>Ras fuit, vt sinerem luxuriare comam. 
+      <lb ed="#S" n="69"/>Vnde excusantur clerici, &amp; religiosi barbati, qui praedi 
+      <lb ed="#S" n="70"/>cant paganis, aliter non recipiendi ab eis. Non debent 
+      <lb ed="#S" n="71"/>autem dici habere coronam, qui cucufati cincinnos por 
+      <lb ed="#S" n="72"/>tant, vel faciunt: quia tonsura clericalis in circuitu, &amp; in 
+      <lb ed="#S" n="73"/>fummitate capitis in modum spherae debet radi. dist 24. 
+      <lb ed="#S" n="74"/>Prohibitae. Et debet tonsura clericalis sic tonderi, vt super 
+      <lb ed="#S" n="75"/>aures sit. di. 24. non liceat quemlibet. Et ad coronam 
+       defe<lb ed="#S" break="no" n="76"/>rendam clerici sunt per archidiaconos compellendi. di. 23. 
+      <lb ed="#S" n="77"/>Clericus. Item excommunicandi sunt si contempserint. si quis. 
+      <lb ed="#S" n="78"/>Clerici etiam, qui cum vnicis, &amp; virginibus contraxerunt, 
+      <lb ed="#S" n="79"/>si tonsuram, &amp; vestes deferant clericales, gaudent 
+       priuile<lb ed="#S" break="no" n="80"/>gio canonis. si quis suadente, &amp; priuilegio fori etiam in 
+      <lb ed="#S" n="81"/>causa criminali, sed non in aliis. si autem tonsuram, &amp; 
+       ve<lb ed="#S" break="no" n="82"/>stes non deferant clericales: tunc nullo gaudens priuilegio 
+      <lb ed="#S" n="83"/>clericali. de cle. coniu. c. 1. lib. 6.
+    </p>
+            <p xml:id="khj78y-q90826-d1e638" n="18">
+      <!-- 18 -->septimus effectus 
+      <lb ed="#S" n="84"/>est, quia non debent mercari, nec negotiis saecularibus 
+      <lb ed="#S" n="85"/>se implicare: alias ter moniti perdunt priuilegium clerica 
+      <lb ed="#S" n="86"/>le.
+    </p>
+            <p xml:id="khj78y-q90826-d1e649" n="19">
+      <!-- 19 -->Octauus effectus est, quod non tonsuratus per epraem, 
+      <lb ed="#S" n="87"/>siue laicus, siue monachus in missa publice legere non 
+      <lb ed="#S" n="88"/>debet, di. 41. Clericus. dist. 24. His igitur. dist. 35. 
+       Eccle<lb ed="#S" break="no" n="89"/>siae. dist.
+    </p>
+            <p xml:id="khj78y-q90826-d1e660" n="4">
+      <!-- 4 -->1. Epraes. distin. 44. pertotum. 12. q. Qm̃. 21.4.4 
+      <lb ed="#S" n="90"/>Per totum. de consec. dist. 5. In omnibus.
+    </p>
+            <p xml:id="khj78y-q90826-d1e667" n="20">
+      <!-- 20 -->Alia vero 
+      <lb ed="#S" n="91"/>sunt ad honestatem cleri. secundum canones: &amp; sunt. 13. 
+      <lb ed="#S" n="92"/>Primum, quod clerici semper studio literarum debent intendere. 
+      <lb ed="#S" n="93"/>16. q. 1. sic viue. dist. 38. sicut. &amp; duobus. c. seq. Item qui clet 
+      <lb ed="#S" n="94"/>rico nulla aetas debet esse sera ad discendum. 24q. 3. si 
+      <lb ed="#S" n="95"/>habes in me. Item quod non debent interesse 
+       spectacu<lb ed="#S" break="no" n="96"/>lis vanis, &amp; nuptils. dist.
+    </p>
+            <p xml:id="khj78y-q90826-d1e685" n="34">
+      <!-- 34 -->Presbyter. 44. distin. 
+       Nul<lb ed="#S" break="no" n="97"/>lus. Item quod tabernas, non nisi necessitate intrare debent. 
+      <lb ed="#S" n="98"/>dist. 44. Non oportet cle. &amp; duobus. c. se. Item quod clerici 
+       ar<lb ed="#S" break="no" n="99"/>ma ferre non debent. 44. q. 5. Clerici. &amp; cap. duobus se. 
+      <lb ed="#S" n="100"/>Item nec vere, nec iocose pugnare. 23. q. 8. Quicunque 
+      <lb ed="#S" n="101"/>clericus. Item nec iudicium sanguinis ferre. 23. q. 8. 
+       sae<lb ed="#S" break="no" n="102"/>pe his. Item quod clerici debent ab illicitis quaestionibus 
+       ab<lb ed="#S" break="no" n="103"/>stinere. 14. q. 3. clerici. &amp; duobus. cap. se. &amp; distin. 87. 
+       O<lb ed="#S" break="no" n="104"/>mnes. Item quod clerici pro medicina munera accipere non 
+      <lb ed="#S" n="105"/>debent. distinct.
+    </p>
+            <p xml:id="khj78y-q90826-d1e709" n="2">
+      <!-- 2 -->3. His igitur. Item qui clerici res 
+       eccle<lb ed="#S" break="no" n="106"/>siae bene debent dispensare non superflue. 10. q. 2. Epraes. 
+      <lb ed="#S" n="107"/>Item quod non licet eis de sumptibus ecclesiae filios 
+       su<lb ed="#S" break="no" n="108"/>os in studio Philosophiae procurare. distin. 36. Legant. 
+      <lb ed="#S" n="109"/>&amp;. c. se. Item quod non licet clerico habere beneficium, cui 
+      <lb ed="#S" n="110"/>sufficit patrimonium. 16. q. 1. cap. vlt. in fin. Item quod 
+       cleri<lb ed="#S" break="no" n="111"/>cus non de rebus ecclesiae, sed de rebus per ipsum acqui 
+      <lb ed="#S" n="112"/>sitis potest facere testamentum. 12. q. 3. cap. 1. tit. 2. &amp;. cap. 
+      <lb ed="#S" n="113"/>se. &amp;. q.4. cap. 1. &amp;. q. 5. fere per totum. Item quod si intestatus 
+      <lb ed="#S" n="114"/>decesserit in omnibus rebus succedit ecclesia. 12. q. 3. 
+      <lb ed="#S" n="115"/>Quicunque. &amp; q. 5. sic vbi. &amp;. c. se. Item quod clericis non 
+      <lb ed="#S" n="116"/>est iniungenda solemnis poenitentia. dist. 1. Confirmandum. &amp;. 
+       6<lb ed="#S" break="no" n="117"/>proximo supra. Item quod melius est habere paucos bonos 
+      <lb ed="#S" n="118"/>clericos, quam multos inutiles. dist.
+    </p>
+            <p xml:id="khj78y-q90826-d1e743" n="3">
+      <!-- 3 -->3. Tales. Item qui cle 
+      <lb ed="#S" n="119"/>rici, vt ebrietatem, &amp; luxuriam vitent, vinum cum aqua 
+      <lb ed="#S" n="120"/>debent temperare. extra. 3. lib. de vi. &amp; hone. cler. A 
+       crapu<lb ed="#S" break="no" n="121"/>la. Item quod clerici incorrigibiles de mandato praelati pos 
+      <lb ed="#S" n="122"/>sunt incarcerari: &amp; per laicos trahi sine 
+       excommunicatio<lb ed="#S" break="no" n="123"/>ne. extra de sententia excommunicationis Vt fame. lib. 5. c. si clericus. lib. 
+      <lb ed="#S" n="124"/>6. non autem verberari per laicum. &amp; ti. c. Vniuersitatis. lib. 
+      <lb ed="#S" n="125"/>7. Item clerici incorrigibiles de crimine degradati saecu 
+      <lb ed="#S" n="126"/>lari iudicio debent tradi. vt in dict. c. Vt fame. Item quod 
+       cle<lb ed="#S" break="no" n="127"/>rici fures pro rebus ecclesiae requirendi, de licentia supe 
+      <lb ed="#S" n="128"/>rioris torqueri possunt, &amp; tormentari vsq, quo restituant. 
+      <lb ed="#S" n="129"/>extra. in titu. 16. de deposito. c. 1. 23. q. 6. si res. 12. q. 2. 
+      <lb ed="#S" n="130"/>Fraternitas. Item quod alterius iudicio sine consensu sui 
+      <lb ed="#S" n="131"/>episcopi non debent se subdere. extra. c. tit. Nullus. Item 
+      <lb ed="#S" n="132"/>quod nullus clericus sniam sanguinis, aut vindictae dictet, 
+      <lb ed="#S" n="133"/>aut proferat, aut chirurgiaeortem, quae adustionem, vel 
+       inci<lb ed="#S" break="no" n="134"/>sionem inducat, exerceat. extra in tit. Ne cle. vel mo. sen 
+      <!--0299.xml-->
+      <pb ed="#S" n="299"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>tentiam. Item quod clerico aegrotanti per epraem ab ecclesia in 
+      <lb ed="#S" n="2"/>qua ministrauit, debet prouidere, ne addat afflicto affli 
+      <lb ed="#S" n="3"/>ctio. extra de cle. aegro. c. 1. Item pauperi clerico episcopus 
+       de<lb ed="#S" break="no" n="4"/>bet prouidere, ne cogatur mendicare in opprobrium cleri 
+      <lb ed="#S" n="5"/>cale. extra de renun. Ad supplicationem. Horum octauum 
+      <lb ed="#S" n="6"/>de non legendo in missa publice per consuetudinem est 
+      <lb ed="#S" n="7"/>abrogatum: quia etiam hoc faciunt aliud de muneribus pro 
+      <lb ed="#S" n="8"/>medicina etiam non seruatur. Et videt, quod sicut licet clerico 
+      <lb ed="#S" n="9"/>aduocato vendere patrocinium, &amp; iurisperito vendere consi 
+      <lb ed="#S" n="10"/>lium, sic medico vendere medicamentum. sed quia nulli 
+      <lb ed="#S" n="11"/>clerico licet mercari, nec negotiari: cum hoc sit negotia 
+      <lb ed="#S" n="12"/>ri, videt, quod nulli clerico liceat, nisi propter necessitatem 
+       vi<lb ed="#S" break="no" n="13"/>ctus, qum scripturam, &amp; aliud opus vendere potest. sed quia 
+       pro<lb ed="#S" break="no" n="14"/>hibitio est iuris positiui, &amp; Papa scit, &amp; tolerat, quod clerici 
+      <lb ed="#S" n="15"/>etiam ordinati laborem fimilium vendunt: non solum propter 
+      <lb ed="#S" n="16"/>necessitatem: sed etiam propter lucri cupiditatem vident a mor 
+      <lb ed="#S" n="17"/>tali excusari. De habente vero patr imonium certum est, quod non 
+      <lb ed="#S" n="18"/>licet beneficium recipere, vbi pauper aeque bonus propter 
+      <lb ed="#S" n="19"/>hoc impedit: alias potest. de fructibus autem, &amp; mobilibus ab 
+      <lb ed="#S" n="20"/>ecclesia perceptis de consuetudine clerici possunt testari. 
+    </p>
+            <p xml:id="khj78y-q90826-d1e832" n="21">
+               <lb ed="#S" n="21"/>
+               <!-- 21 -->sed dubium est, vtrum teneantur restituere de proprio 
+      <lb ed="#S" n="22"/>illud, quod in malos vsus consumunt de primonio 
+       cruci<lb ed="#S" break="no" n="23"/>fixi. Et dicunt quidam quod non, licet grauius peccent, quam laici: quia 
+      <lb ed="#S" n="24"/>sunt domini cius, quod percipiunt, aliter nec testari possent. Alij 
+      <lb ed="#S" n="25"/>vero dicunt, quod non habent fructum fauore sui, sicut pater in 
+      <lb ed="#S" n="26"/>bonis filij aduentitiis, quorum si fructus male consumat, non 
+      <lb ed="#S" n="27"/>tenetur reddere, sed pro bono ecclesiae, &amp; pauperum facti sunt 
+      <lb ed="#S" n="28"/>administratores, vt tutores, qui sunt quasi domini: sed non 
+      <lb ed="#S" n="29"/>quando pupillum spoliant. ideo sicut illi possunt sibi victum, &amp; vesti 
+      <lb ed="#S" n="30"/>tum retinere, &amp; benemeritis dare, sed si male expendunt, 
+       te<lb ed="#S" break="no" n="31"/>nentur reddere, sic &amp; isti. Et hoc magis consonat dictis 
+      <lb ed="#S" n="32"/>sanctorum, &amp; iuri canonico, sed supposita consuetudine, quod 
+      <lb ed="#S" n="33"/>possunt testari, videt, quod non tenentur restituere male con 
+      <lb ed="#S" n="34"/>sumpta: quia sunt domini, &amp; in re propria quilibet est 
+       modera<lb ed="#S" break="no" n="35"/>tor, &amp; arbiter, sicut placet. Item dicitur de cleri. non resi. c. 1.q 
+      <lb ed="#S" n="36"/>qui non interest horis canonicis fine causa rationabili, &amp; 
+      <lb ed="#S" n="37"/>recidit distributiones rerum sic acceptarum dominium non ac 
+      <lb ed="#S" n="38"/>quirit, nec facit eas, sed tenetur ad restitutionem. ergo per 
+      <lb ed="#S" n="39"/>oppositum si interfuisset, dominium acquifiuisset, &amp; suas 
+      <lb ed="#S" n="40"/>eas fecisset: nec per consequens propter abusum ad restitutio 
+      <lb ed="#S" n="41"/>nem teneret. Vel potest dici medio modo, quod domini quidem sunt: 
+      <lb ed="#S" n="42"/>sed sub certa lege, quod. scilicet bene vtantur, alias restituere 
+       tenean<lb ed="#S" n="43" break="no"/>tur. sicut in his, quae dantur ob certam causam, &amp; in legatis 
+      <lb ed="#S" n="44"/>relictis sub certo modo: quibus deficientibus, licet 
+       domi<lb ed="#S" break="no" n="45"/>nium transsatūfuerit repetuui. ff. de condi. causa data, &amp; 
+      <lb ed="#S" n="46"/>non sequota. &amp;. c.de condi. ob causam datorum: per totum. c. de 
+      <lb ed="#S" n="47"/>his, quae fub modor per totum. 22. Ad argumentum in 
+      <lb ed="#S" n="48"/>oppositum dicendum, quod illud, per quod aliquis ponitur in gratia 
+      <lb ed="#S" n="49"/>du su rcoem statum absque potestate, seu deputatione ad di 
+      <lb ed="#S" n="50"/>uinum officium pontesse ordo viuendi, sicut est ordo 
+       mona<lb ed="#S" break="no" n="51"/>chorum, vel quorumcumque religiosorum, &amp; sic tonsura posset 
+       di<lb ed="#S" break="no" n="52"/>ci ordo clericulis: quia aliter debent viuere clerici, quam laicit&amp; 
+      <lb ed="#S" n="53"/>statum priuilegiatum habent: sed non est ordo ministerij eccle 
+      <lb ed="#S" n="54"/>fiastici, ex quo nos est ibi deputatio aliqua ad aliquod 
+      <lb ed="#S" n="55"/>sacrum ministerium, de quo ordine intendimus ad praesens. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

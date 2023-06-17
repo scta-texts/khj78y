@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="396"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r24925"><!-- l4d36-q2 -->
+            <head xml:id="khj78y-r24925-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-r24925-Hd1e103" type="question-title">
+     utrum seruus 
+     possit contrahere matrimonium sine consensu 
+     domini sui
+   </head>
+            <p xml:id="khj78y-r24925-d1e106">
+               <lb ed="#S" n="42"/>I QVAESTIO SECVNDA.
+    </p>
+            <p xml:id="khj78y-r24925-d1e111">
+               <lb ed="#S" n="43"/>De matrimonio contracto sine consensu &amp;e. 
+    </p>
+            <p xml:id="khj78y-r24925-d1e116">
+               <lb ed="#S" n="44"/>Thom. vbi supra. art. 2.
+    </p>
+            <p xml:id="khj78y-r24925-d1e122">
+               <lb ed="#S" n="45"/>SECVNDO quaeritur, vtrum seruus 
+       pos<lb ed="#S" break="no" n="46"/>sit contrahere matrimonium sine consensu 
+      <lb ed="#S" n="47"/>domini sui. Et arguitur quod non, quia fauorabilior 
+      <lb ed="#S" n="48"/>est obligatio qua homo obligat se Deo, quae 
+      <lb ed="#S" n="49"/>illa qua vir obligat se vxori per matrimo 
+      <lb ed="#S" n="50"/>niu, sed seruus sine consensu domini sui non potest se obligare 
+    </p>
+            <p xml:id="khj78y-r24925-d1e138">
+               <lb ed="#S" n="51"/>Deo per votum religionis, vel susceptionem sacri ordinis: er 
+      <lb ed="#S" n="52"/>go multo minus sine eius consensu potest se obligare per 
+       ma<lb ed="#S" break="no" n="53"/>trimonium.
+    </p>
+            <p xml:id="khj78y-r24925-d1e147" n="2">
+      <!-- 2 -->Item nullus potest dare alteri quod est alterius 
+      <lb ed="#S" n="54"/>sine consensu eius, sed seruus est res domini: ergo non potest 
+       con<lb ed="#S" break="no" n="55"/>trahere matrimonium, &amp; dare potestatem sui corporis vxori si 
+      <lb ed="#S" n="56"/>ne consensu domini.
+    </p>
+            <p xml:id="khj78y-r24925-d1e158" n="3">
+      <!-- 3 -->In contrarium est quod dicii Gal. 3. quod in 
+      <lb ed="#S" n="57"/>Christo Iesu non est seruus nec liber. &amp; ideo ad susceptio 
+      <lb ed="#S" n="58"/>nem mrimonij quod est sacim Cristi non debet prohiberi, 
+      <lb ed="#S" n="59"/>nec seruus nec liber vt allegat, extra de coniu. seruorum. c. 1. 
+    </p>
+            <p xml:id="khj78y-r24925-d1e169" n="4">
+               <lb ed="#S" n="60"/>
+               <!-- 4 -->Respondeo, hic sunt tria videnda. Primo, de hoc quod quae 
+      <lb ed="#S" n="61"/>ritur de coniugio seruorum.
+    </p>
+            <p xml:id="khj78y-r24925-d1e178" n="5">
+      <!-- 5 -->secundo, de partu eorum. 
+      <lb ed="#S" n="62"/>Tertio, de carnali copula in casu dubij.
+    </p>
+            <p xml:id="khj78y-r24925-d1e186" n="6">
+      <!-- 6 -->Quantum 
+      <lb ed="#S" n="63"/>ad primum sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-r24925-d1e193" n="7">
+      <!-- 7 -->Prima, quod seruus vel 
+      <lb ed="#S" n="64"/>ancilla potest scienter matrimonii contrahere domino ignorante 
+      <!--0396.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="65"/>&amp; inuito, &amp; est verum matrimonium, quia in Chriso Iesu 
+      <lb ed="#S" n="66"/>non est seruus nec liber, licet iure ciuili non sit verum ma 
+      <lb ed="#S" n="67"/>trimonium sed tontubernium, quia quo ad ius ciuile attines 
+      <lb ed="#S" n="68"/>seruus pro mortuo reputai. C. de incest. &amp; inutilibus nup. 
+      <lb ed="#S" n="69"/>l. cum ancillis. &amp; non tenet obedire domino prohibente nube 
+      <lb ed="#S" n="70"/>re, plus quam prohibente comedere, quia iure naturali homi 
+      <lb ed="#S" n="71"/>nes liberi nascebantur: vnde descendit maris &amp; foeminae con 
+      <lb ed="#S" n="72"/>iugatio: quam nos matrimonium appellamus. Non tenet etiam 
+      <lb ed="#S" n="73"/>praecipiente domino nubere, sed potest caste viuere, aut continen 
+      <lb ed="#S" n="74"/>tiam vouere, sicut fecit monachus captiuus: non tamen potest 
+      <lb ed="#S" n="75"/>solenniter vouere per ordinem vel per religionem inuito 
+      <lb ed="#S" n="76"/>domino contrahendo matrimonium spirituale.
+    </p>
+            <p xml:id="khj78y-r24925-d1e230" n="8">
+      <!-- 8 -->secunda conclusio 
+      <lb ed="#S" n="77"/>est, quod licet dominus videatur manumittere seruum quem scienter 
+      <lb ed="#S" n="78"/>non reclamans permittit ordinari vel profiteri: secus tamen est 
+      <lb ed="#S" n="79"/>in matrimonio carnali, quia dominus sciens, &amp; non contradicens non 
+      <lb ed="#S" n="80"/>ppter hoc manumittit, quia taciturnitas eius cuius 
+       contra<lb ed="#S" break="no" n="81"/>dictio non impedit non habetur pro consensu, sed solum tacitur 
+      <lb ed="#S" n="82"/>nitas eius cuius contradictio impedit, potest autem 
+       contradi<lb ed="#S" break="no" n="83"/>cere ad matrimonium carnale secundum legem humanam 
+      <lb ed="#S" n="84"/>non diuinam. ideo &amp;c. sed potest contradicere ad 
+       matrimo<lb ed="#S" break="no" n="85"/>nium spirituale secundum vtranque legem. Vnde quamuis sciente, 
+      <lb ed="#S" n="86"/>&amp; non contradicente domino contrahat matrimonium, non fit liber 
+      <lb ed="#S" n="87"/>iure diuino &amp; Canonico, licet videatur manumitti iure ci 
+      <lb ed="#S" n="88"/>uili, quod in casu isto non tenet. sed si sciente domino, &amp; non 
+      <lb ed="#S" n="89"/>contradicente ordinei, vel profiteat liber efficii.
+    </p>
+            <p xml:id="khj78y-r24925-d1e263" n="9">
+      <!-- 9 -->Tertia 
+      <lb ed="#S" n="90"/>conclusio est, quod dominus non debet vendere seruum suum ad ex 
+      <lb ed="#S" n="91"/>traneas regiones, &amp; est argumentum pro pacto apposito a 
+      <lb ed="#S" n="92"/>parentibus vel sponsa in cotrahendo cum homine 
+       vagabun<lb ed="#S" break="no" n="93"/>do ne recedat, quod habet &amp; mulier virum tunc non tene 
+      <lb ed="#S" n="94"/>tur sequi, sed phibere potest &amp; ad eius instantiam excommunicare 
+      <lb ed="#S" n="95"/>si recedat sine iusta causa, vt Host. dicit. Et sic valet etiam 
+      <lb ed="#S" n="96"/>professio Carthufien. &amp; sororum quae alligantur certo loco: 
+      <lb ed="#S" n="97"/>&amp; intelligit agi quod non emittantur, extra cellam vel clausu 
+      <lb ed="#S" n="98"/>ram. Nec ista conditio est contra bonum obedientiae qua 
+      <lb ed="#S" n="99"/>dico huic vade, &amp; vadit &amp;c. quia promittunt obedientium 
+      <lb ed="#S" n="100"/>secundum statuta, in quibus hoc continetur ne exeant, &amp; 
+      <lb ed="#S" n="101"/>hoc nisi ex iusta causa: puta ad fundandum domum 
+       no<lb ed="#S" break="no" n="102"/>uam quae alias nunquam fundaret, &amp; sic religio non 
+       mul<lb ed="#S" break="no" n="103"/>tiplicaret, autetiam si domus illa destrueret, velaliquod 
+      <lb ed="#S" n="104"/>huiusmodi.
+    </p>
+            <p xml:id="khj78y-r24925-d1e300" n="10">
+      <!-- 10 -->Quantum ad secundum articulum de partu 
+       ser<lb ed="#S" break="no" n="105"/>uorum sunt quatuor conclusiones.
+    </p>
+            <p xml:id="khj78y-r24925-d1e307" n="11">
+      <!-- 11 -->Prima, quod 
+       par<lb ed="#S" break="no" n="106"/>tus sequitur ventrem. Primo, secundum  legem diuinam. Exod. 
+      <lb ed="#S" n="107"/>21. si dederit ei vxorem, supple de ancillis, &amp; habuerit 
+      <lb ed="#S" n="108"/>liberos remanebunt cum domino. Etidem supponit de filiis 
+      <lb ed="#S" n="109"/>futuris: quia ancilla vernacula non fit libera septimo an 
+      <lb ed="#S" n="110"/>no, sicut emptitia. secundo, lege humana idem. C. de rei 
+      <lb ed="#S" n="111"/>ven. l. partus. nisi in seruis fisci. Tertio, l. cano. de partis 
+      <lb ed="#S" n="112"/>ex libero vente. c. vnico. &amp; sufficit vno tempore, vel conce 
+      <lb ed="#S" n="113"/>ptus, vel partus, vel medio matrem fieri liberam. Instit. 
+      <lb ed="#S" n="114"/>de ingenuis. 5. 1. Item lege physica, quia mater estrecipi 
+      <lb ed="#S" n="115"/>ens: quicquid autem recipitur in alio recipieurper modum re 
+      <lb ed="#S" n="116"/>cipientis. Dicunt etiam Iuristae, quod quicquid plantat, seri 
+      <lb ed="#S" n="117"/>tur vel aedificatur, totum solo cedit, radices si tamen aedit: vnde 
+      <lb ed="#S" n="118"/>seminatum in ventre mulieris si germinet sequitur condi 
+      <lb ed="#S" n="119"/>tionem terrae in qua seritur semen. Alicubi autem sequitur 
+      <lb ed="#S" n="120"/>conditionem patris secundum consuetudinem, &amp; hic tenenda 
+      <lb ed="#S" n="121"/>est de coniug. seruorum. c. licet. semper enim pro 
+       consue<lb ed="#S" break="no" n="122"/>tudine praesumendum est quod fuerit iuste introducta, 
+       maxi<lb ed="#S" break="no" n="123"/>me si praescripta a tempore a quo non extat memoria. Nam 
+      <lb ed="#S" n="124"/>tunc non oportet allegare titulum, quando res est talis quod in 
+      <lb ed="#S" n="125"/>ea potuit iustus titulus haberi. de praescri. c. 1. lib. 6. Quan 
+      <lb ed="#S" n="126"/>do autem est talis quod non, tunc non, vt in manu mortui 
+      <lb ed="#S" n="127"/>quam laici vendicant sibi super clericos, quod est 
+       con<lb ed="#S" break="no" n="128"/>tra libertatem ecclesiae: secus in ea quam contra laicos, 
+      <lb ed="#S" n="129"/>vt dicit in summa Hosti. de natis ex libero ventre in fi. 
+    </p>
+            <p xml:id="khj78y-r24925-d1e365" n="12">
+               <lb ed="#S" n="130"/>
+               <!-- 12 -->secunda conclusio est de casu qui quaeritur iuxta prae 
+      <lb ed="#S" n="131"/>missa de conditionatis manus mortuae per consuetudi- 
+      <!--0397.xml-->
+      <pb ed="#S" n="397"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>nem: vtrum possint debita soluere &amp; legata facere, cum 
+      <lb ed="#S" n="2"/>patres &amp; aui eius dixerint ante. 1. c. 60. annos dolose con 
+      <lb ed="#S" n="3"/>suetudinem inductam, dixi quod sic de debitis, quia contra 
+       ra<lb ed="#S" break="no" n="4"/>tionem est, vt ibi non sit onus vbi est emolumentum, sed de 
+      <lb ed="#S" n="5"/>legatis secus. Nam species furti est de alieno largiri. Et 
+      <lb ed="#S" n="6"/>hoc potuit induci secundum Host. de natis ex libero 
+       ven<lb ed="#S" break="no" n="7"/>tre. 6. vlt. Nam per. 100. annos qui sunt vita hominis, di 
+      <lb ed="#S" n="8"/>citur esse tempus cuius memoria non extat in contrarium, 
+      <lb ed="#S" n="9"/>&amp; sic thesaurus. 100. annorum occupanti conceditur. Nam non 
+      <lb ed="#S" n="10"/>extat memoria de visu: licet extet de auditu alieno non 
+      <lb ed="#S" n="11"/>proprio, quia parentes dixerunt non se aliter vidisse: sed 
+       ali<lb ed="#S" break="no" n="12"/>ter audiuisse. sic enim possemus dicere, quod extat memoria 
+      <lb ed="#S" n="13"/>Adae &amp; de principio mundi: sed vbi est consuetudo, quod 
+      <lb ed="#S" n="14"/>non possunt legare in morte, licet tamen dare in vita pro 
+      <lb ed="#S" n="15"/>Deo: &amp; licet amicis carnalibus illud quod in morte 
+       da<lb ed="#S" break="no" n="16"/>re non posset si statim velit dominium transferre, etiam si 
+       to<lb ed="#S" break="no" n="17"/>to tempore vitae suae vult fructum habere: quia dare rem reten 
+      <lb ed="#S" n="18"/>to sibi vsufructu ad vitam est vera donatio inter viuos, &amp; 
+      <lb ed="#S" n="19"/>non donatio causa mortis, nec legatum, quia istud est 
+       re<lb ed="#S" break="no" n="20"/>uocabile ad placitum, illud non.
+    </p>
+            <p xml:id="khj78y-r24925-d1e424" n="13">
+      <!-- 13 -->Tertia conclusio 
+      <lb ed="#S" n="21"/>est, quod patrem sequitur partus, &amp; non matrem in honore 
+      <lb ed="#S" n="22"/>&amp; nobilitate: vnde consuetudo est in qui busdam ecclesiis 
+      <lb ed="#S" n="23"/>quod non recipitur in canonicum, nisi nobilis quamuis reprobetur. 
+      <lb ed="#S" n="24"/>de praebendis. c. Venerabilis: Natus ergo ex nobili patre 
+      <lb ed="#S" n="25"/>&amp; ignobili matre est nobilis simpliciter, dum tamen mater 
+      <lb ed="#S" n="26"/>esset libera. si autem nascatur ex nobili &amp; ancilla refert 
+      <lb ed="#S" n="27"/>aut per concubinatum: &amp; tunc semper est ignobilis &amp; 
+       ser<lb ed="#S" break="no" n="28"/>uus, quia dignitas viri non communicatur concubinae. Vnde in 
+      <lb ed="#S" n="29"/>Cantic. centum sexaginta sunt Reginae, octuaginta concu 
+      <lb ed="#S" n="30"/>binae: vnde spurius Regis non est nobilior legitimo 
+       rusti<lb ed="#S" break="no" n="31"/>ci, quia damnatus coitus non dat dignitatem, &amp; si valeret con 
+      <lb ed="#S" n="32"/>suetudo de nobilitate in ecclesia Lugd. de nobili non 
+       ca<lb ed="#S" break="no" n="33"/>nonicando spurius Regis indigeret duplici dispensatio 
+      <lb ed="#S" n="34"/>ne. si autem per matrimonium, aut est tale quod per ipsum 
+      <lb ed="#S" n="35"/>fit libera, sicut cum dominus contrahit cum sua ancilla: vel domina 
+      <lb ed="#S" n="36"/>cum seruo, licet enim iure ciuili vltimum videatur 
+       prohibe<lb ed="#S" break="no" n="37"/>ri. C. de mulieri. que seruis propriis &amp;c. tamen de iure diuino 
+      <lb ed="#S" n="38"/>est licitum, &amp; tunc eripitur in libertatem. Non enim 
+       an<lb ed="#S" break="no" n="39"/>cilla est socia, nec seruus dominus: vnde volendo esse sociam 
+      <lb ed="#S" n="40"/>aut socium vult non esse ancillam aut seruum: &amp; tunc est 
+      <lb ed="#S" n="41"/>nobilis. Nam coruscant vxores radiis virorum, 
+       ignobi<lb ed="#S" break="no" n="42"/>litas priuatiua vxoris participat nobilitatem viri, vnde 
+      <lb ed="#S" n="43"/>vxor Regis fit Regina, &amp; si prius non esset. si autem per 
+      <lb ed="#S" n="44"/>hoc non fiat libera, filij erunt ignobiles. Nam 
+       ignobili<lb ed="#S" break="no" n="45"/>tas positiua vxoris contraria est nobilitati viri, nec cam 
+      <lb ed="#S" n="46"/>participat, sed impedit, nec ad filios descendere 
+       permit<lb ed="#S" break="no" n="47"/>tit. Natus ergo ex parente nobili, &amp; ignobili potest iura 
+      <lb ed="#S" n="48"/>re se illustrem ex vtroque parente, si sic intelligatur quod pater 
+      <lb ed="#S" n="49"/>sit nobilis origine, &amp; mater aduentitie &amp; participatione 
+      <lb ed="#S" n="50"/>vel simpliciter se nobilem secundum illam 
+       Distinctio<lb ed="#S" break="no" n="51"/>nem. sed si intentio illorum qui recipiunt iuramentum 
+      <lb ed="#S" n="52"/>est, quod quilibet parentum sit nobilis de se, tunc ille esset 
+       per<lb ed="#S" break="no" n="53"/>iurus si iuraret se nobilem ex vtroq, parente, quia 
+       iura<lb ed="#S" break="no" n="54"/>mentum intelligitur secundum intentionem recipientis. 
+    </p>
+            <p xml:id="khj78y-r24925-d1e502" n="14">
+               <lb ed="#S" n="55"/>
+               <!-- 14 -->Quarta conclusio est de carnali copula. Primo qui 
+      <lb ed="#S" n="56"/>dem domino prohibente, quia si sine causa non auditur 
+      <lb ed="#S" n="57"/>dominus: neminem enim sine causa audit praetor: si cum causa 
+      <lb ed="#S" n="58"/>quia indiget seruitio, aut consensit in coniugium, tunc idem 
+      <lb ed="#S" n="59"/>est: aut non consentit, tunc debet domino obedire non coniu 
+      <lb ed="#S" n="60"/>gi: cui non potuit se obligare nisi saluo iure alterius. se 
+      <lb ed="#S" n="61"/>cundo, quid iuris in sciente, &amp; quidem qui scit se seruum 
+      <lb ed="#S" n="62"/>si credatalium scire se talem: aut quod affectuose adeo dili 
+      <lb ed="#S" n="63"/>git, quod etiam consentiret si sciret talem excusationem: alias si 
+       sci<lb ed="#S" break="no" n="64"/>at non temere matrimonium, fornicatur quousque alium 
+       cer<lb ed="#S" break="no" n="65"/>tiorauerint de sua conditione, in cuius potestate est matri 
+      <lb ed="#S" n="66"/>monium consummare. Tertio, quid iuris de libero nescien 
+      <lb ed="#S" n="67"/>te. Et quidem quamdiu credit coniugem liberam licet nollet con- 
+      <!--0397.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>sentire: si sciret tandiu excusat, vt Iacob. Filij autem erunt 
+      <lb ed="#S" n="69"/>legitimi si fuerit in facie ecclesiae contractum. Quarto, con 
+      <lb ed="#S" n="70"/>scientia remordente distinguit, de sententia excommunicationis Inquisitio 
+      <lb ed="#S" n="71"/>ni. Vbi sciendum, quod differunt scientia quae habet 
+       euiden<lb ed="#S" break="no" n="72"/>tiam, &amp; non est nisi verorum, quam qui habet de 
+       impedimen<lb ed="#S" break="no" n="73"/>to nullo cogente: non potest petere aut reddere, quin aut 
+      <lb ed="#S" n="74"/>sibi praeiudicet si in ipso erat matrimonium ratificare, aut 
+      <lb ed="#S" n="75"/>peccet si in ipso non erat ratificare, vel erat, sed non 
+       in<lb ed="#S" break="no" n="76"/>tendit ratificare. secundo, quando habet conscientiam. i. firmam 
+      <lb ed="#S" n="77"/>credulitatem, non refert vtrum leui aut probabili causa, 
+      <lb ed="#S" n="78"/>qa etiam haereticus qui leui argumento deuiat a fide 
+       li<lb ed="#S" break="no" n="79"/>gatur conscientia erronea: vnde etiam contra conscientiam 
+      <lb ed="#S" n="80"/>erroneam nullus tenetur cuicunque homini obedire quamdiu du 
+      <lb ed="#S" n="81"/>rat: quia qui facit contra conscientiam aedificat ad 
+       gehen<lb ed="#S" break="no" n="82"/>nam. Tertio, quando habet scrupulum conscientiae. i. dubius est: 
+      <lb ed="#S" n="83"/>&amp; tunc si ex temeraria &amp; leui causa: quia audiuit a 
+       pau<lb ed="#S" break="no" n="84"/>cis &amp; leuibus debet deponere, quo deposito potest petere, 
+      <lb ed="#S" n="85"/>&amp; reddere, si ex probabili potest reddere, quia in dubiis debet 
+      <lb ed="#S" n="86"/>quis obedire praelato, sicut vasallus in dubiodebet dominum
+      <lb ed="#S" n="87"/>iuuare, sed non petere, quia exponeret se periculo. &amp; Aug. 
+      <lb ed="#S" n="88"/>dicit, Tene certum, &amp; dimitte incertum. non petendo autem cer 
+      <lb ed="#S" n="89"/>tum est quod non peccat: &amp; haec distinctio habet locum in 
+       o<lb ed="#S" break="no" n="90"/>mnibus impedimentis quae simpliciter impediunt matri 
+      <lb ed="#S" n="91"/>monium, vel actum eius quo ad personam, quae habet 
+       noti<lb ed="#S" break="no" n="92"/>tiam: haec enim persona secundum praedictam Distinctionem 
+      <lb ed="#S" n="93"/>vbi non vult matrimonium consummare faciat: alias sibi 
+      <lb ed="#S" n="94"/>praeiudicat &amp; peccat. Quinto, quid iuris lite pendente. 
+      <lb ed="#S" n="95"/>Host. dicit, quod etiam si sit certus propter dubium euentum potest pe 
+      <lb ed="#S" n="96"/>tere &amp; reddere affectu coniugali cognoscendo, non vt 
+       libe<lb ed="#S" break="no" n="97"/>ram nec ancillam, sed vt cui quaestio statim mouet: vnde 
+      <lb ed="#S" n="98"/>propter primum non peccat, propter secundum sibi non praeiudi 
+      <lb ed="#S" n="99"/>cat, maxime si ab ecclesia vrgeatur. Et Magister. 4. senten. 
+      <lb ed="#S" n="100"/>Dist. 38. in fi. dicit, quod debet reddere si vrgetur: quod etiam 
+      <lb ed="#S" n="101"/>videtur in gradibus humana lege prohibitis, &amp; per 
+       con<lb ed="#S" break="no" n="102"/>sequens in impedimento seruitutis: in quibus ecclesia quae 
+      <lb ed="#S" n="103"/>statuit quando vult, destruit, vel destituit, &amp; dispensat. Non an 
+      <lb ed="#S" n="104"/>tem in gradibus lege diuina prohibitis, in quibus forte 
+      <lb ed="#S" n="105"/>ecclesia nihil post.
+    </p>
+            <p xml:id="khj78y-r24925-d1e622" n="15">
+      <!-- 15 -->sed ista opinio quo ad primum 
+      <lb ed="#S" n="106"/>non valet: quia ecclesia quando praecipit reddi debitum lite 
+      <lb ed="#S" n="107"/>pendente non intendit dispensando matrimonium facere, si 
+      <lb ed="#S" n="108"/>non est: nam si intenderet matrimonium facere, aut vsque ad 
+      <lb ed="#S" n="109"/>tempus sententiae: &amp; hoc nihil est, aut simpliciter, &amp; tunc postea 
+      <lb ed="#S" n="110"/>non dissolueret: si etiam hoc intenderet non posset facere, 
+      <lb ed="#S" n="111"/>vt ille qui non est verus maritus fiat verus maritus 
+       con<lb ed="#S" break="no" n="112"/>tra voluntatem suam: vnde non refert siue quaestio mouea 
+      <lb ed="#S" n="113"/>tur, siue non, vt de resti. spol. Literas. sed distinguitur vt 
+      <lb ed="#S" n="114"/>supra proxime.
+    </p>
+            <p xml:id="khj78y-r24925-d1e646" n="16">
+      <!-- 16 -->Quantum ad tertium arti. posset 
+       es<lb ed="#S" break="no" n="115"/>se quinta conclusio ad suppletionem praecedentis, quomo 
+      <lb ed="#S" n="116"/>do dubius possit reddere debitum: quia si est tale 
+       impedi<lb ed="#S" break="no" n="117"/>mentum quod ipse ad libitum potest amouere: puta, quia 
+       li<lb ed="#S" break="no" n="118"/>ber nesciens contraxit cum ancilla si consentiat matrimo 
+      <lb ed="#S" n="119"/>nio, potest non soli reddere, sed petere. sed si est tale impe 
+      <lb ed="#S" n="120"/>dimeutum quod ipse non potest amouere: &amp; non est certus, 
+      <lb ed="#S" n="121"/>sed dubius, quia in dubiis homo tenetur obedire superiori, 
+      <lb ed="#S" n="122"/>&amp; Papa sic dicit. Excusat iussus Papae praecipientis dubio 
+      <lb ed="#S" n="123"/>reddere. sed si Papa non dixisset, non deberet reddere vt 
+      <lb ed="#S" n="124"/>videtur: quia nullus debetfacere illud de quo dubitat: 
+      <lb ed="#S" n="125"/>vtrum sit licitum vel illicitum. Et si dicatur quod imo: quia 
+       De<lb ed="#S" break="no" n="126"/>us praecipit debitum reddere: dicendum quod non est certum, 
+      <lb ed="#S" n="127"/>vtrum Deus praecipiat an prohibeat, imo est dubium, quia 
+      <lb ed="#S" n="128"/>certum est, quod Deus praecipit reddere debitum vxori 
+       pe<lb ed="#S" break="no" n="129"/>tenti: &amp; quod Deus prohibet accedere ad non suam: &amp; est 
+      <lb ed="#S" n="130"/>etiam maius peccatum cognoscere non suam quam negare de 
+      <lb ed="#S" n="131"/>bitum suae: ergo quia dubium est an sit sua vel non sua, 
+      <lb ed="#S" n="132"/>per consequens dubium est an sit prohibitum a Deo an 
+       praece<lb ed="#S" break="no" n="133"/>ptum: sed certum est quod in hoc dubio praeceptum est a Papa 
+      <lb ed="#S" n="134"/>per illam Decretalem. Inquisitioni. ergo &amp;c. Vel posset etiam 
+      <!--0398.xml-->
+      <pb ed="#S" n="398"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>dici: quod circumscripto praecepto Papae idem etiam esset 
+       fa<lb ed="#S" break="no" n="2"/>ciendum, quia si aliquid ita sit dubium quod vna pars est cer 
+      <lb ed="#S" n="3"/>ta, quod est sine peccato, alia est dubia an sit peccatum: debet 
+       tene<lb ed="#S" break="no" n="4"/>re certum &amp; dimittere incertum, quia quandocunque potest se libera 
+      <lb ed="#S" n="5"/>re a periculo peccati tenetur: vnde manifesta est ratio qua 
+      <lb ed="#S" n="6"/>re non debet petere, quia certum est quod non petere est 
+       lici<lb ed="#S" break="no" n="7"/>tum: est autem dubium vtrum petere sit peccatum, sed in redden 
+      <lb ed="#S" n="8"/>do non est sic: quia vtrunque est dubium, quia si est 
+       matrimoni<lb ed="#S" break="no" n="9"/>um negare est iniustitia, si non est, reddere est luxuria, 
+      <lb ed="#S" n="10"/>sed non est aequaliter dubium hinc &amp; inde: quia praesumptio 
+      <lb ed="#S" n="11"/>est pro matrimonio, quousque contrarium probet: vnde red 
+      <lb ed="#S" n="12"/>dere debet. si autem esset aequaliter dubium hinc &amp; inde: 
+      <lb ed="#S" n="13"/>puta, quod vna sententia esset lata pro matrimonio, alia con 
+      <lb ed="#S" n="14"/>tra, &amp; neutra transisset in rem iudicatam adhuc, quia nullus 
+      <lb ed="#S" n="15"/>debet spoliari re sua sine possessione: imo spoliatus est 
+      <lb ed="#S" n="16"/>ante omnia restituendus, nisi probationes in contrarium 
+      <lb ed="#S" n="17"/>sint in promptu: inde est quod debetreddere debitum, etiam 
+      <lb ed="#S" n="18"/>si sitgradus indispensabilis vt patris &amp; filiae, vel filij &amp; ma 
+      <lb ed="#S" n="19"/>tris, quando petens est in possessione matrimonij, vel 
+       estspo<lb ed="#S" break="no" n="20"/>liatus sine ludicis authoritate. sed cum extraneo 
+       uenun<lb ed="#S" break="no" n="21"/>ciare impedimentum si probabiliter credatur antequam 
+       ple<lb ed="#S" break="no" n="22"/>ne probetur, posset illis inuitis interdici carnale commer 
+      <lb ed="#S" n="23"/>cium, multo magis hoc videtur altero postulante. Dicen 
+      <lb ed="#S" n="24"/>dum, quod non est simile, quia maior est praesumptio 
+       frau<lb ed="#S" break="no" n="25"/>dis contra alterum coniugem, quam contra extraneum. Vel 
+      <lb ed="#S" n="26"/>dicendum verius, quod sicut extero nuncianti nisi saltem semi 
+      <lb ed="#S" n="27"/>plene probaret, offerens se ad plenum probaturum infra 
+      <lb ed="#S" n="28"/>terminum competentem non acquiesceretur, sic nec hic 
+       al<lb ed="#S" break="no" n="29"/>tero coniugi, sed si semiplene statim probet offerens se 
+      <lb ed="#S" n="30"/>efficaciter probaturum non cogetur reddere.
+    </p>
+            <p xml:id="khj78y-r24925-d1e766" n="17">
+      <!-- 17 -->Ad ar 
+      <lb ed="#S" n="31"/>gumenta in titulo quaestionis ad primum dicendum, quod per 
+      <lb ed="#S" n="32"/>religionem &amp; ordinis susceptionem obligatur aliquis 
+       diui<lb ed="#S" break="no" n="33"/>nis obsequiis quantum ad totum tempus: sed virtenetur red 
+      <lb ed="#S" n="34"/>dere debitum vxori non semper, sed congruis temporibus. 
+      <lb ed="#S" n="35"/>Vel dicendum quod per religionem &amp; ordinis susceptionem subii 
+      <lb ed="#S" n="36"/>citur homo praelato, quantum ad opera voluntaria 
+       natu<lb ed="#S" break="no" n="37"/>ralibus superaddita, in quib' obligatur domino suo: sed per 
+      <lb ed="#S" n="38"/>matrimonium non obligat vir vxori: nisi quo ad opera 
+      <lb ed="#S" n="39"/>naturalia in quibus est liber, &amp; ideo homo est simile hinc 
+      <lb ed="#S" n="40"/>&amp; inde: &amp; ideo maius praeiudicium fit domino si seruus sine 
+      <lb ed="#S" n="41"/>consensu eius ordinetur, vel religionem profiteatur, quae si 
+      <lb ed="#S" n="42"/>contrahat matrimonium.
+    </p>
+            <p xml:id="khj78y-r24925-d1e798" n="18">
+      <!-- 18 -->Ad secundum dicendum quod ser 
+      <lb ed="#S" n="43"/>uus est res domini: quantum ad ea quae naturalibus 
+       superad<lb ed="#S" break="no" n="44"/>duntur: sed quantum ad actus naturales qui sunt necessa 
+      <lb ed="#S" n="45"/>rij, vel ad conseruationem indiuidui, vt comedere: vel ad 
+      <lb ed="#S" n="46"/>conseruationem speciei, vt contrahere matrimonium, non est 
+      <lb ed="#S" n="47"/>res eius: &amp; ideo transferre potest in alterum sine eius 
+       consen<lb ed="#S" break="no" n="48"/>su potestatem sui corporis quantum ad hoc.
+    </p>
+            <p xml:id="khj78y-r24925-d1e816" n="19">
+      <!-- 19 -->Ad 
+       argu<lb ed="#S" break="no" n="49"/>mentum in oppositum licet sit ad veram conclusionem, dicen 
+      <lb ed="#S" n="50"/>dum quod parum valet, quia secundum sententiam Apostoli, seruus 
+      <lb ed="#S" n="51"/>&amp; liber non differunt quantum ad ea quae sunt de necessi 
+      <lb ed="#S" n="52"/>tate salutis, sed de susceptione sacramentorum non loqui 
+      <lb ed="#S" n="53"/>tur. Nam &amp; seruus non debet ordinare sine licentia domini, 
+      <lb ed="#S" n="54"/>cum tamen ordo sit verius sacramentum quam matrimonium, quamuis si or 
+      <lb ed="#S" n="55"/>dinetur de facto characterem recipiat. Nos autem 
+       quaeri<lb ed="#S" break="no" n="56"/>mus vtrum liceat seruo inuito domino matrimonium contra 
+      <lb ed="#S" n="57"/>here: &amp; an contractum teneat, &amp; dicimus quod licet &amp; potest.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="437"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r39517"><!-- l4d43-q1 -->
+            <head xml:id="khj78y-r39517-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-r39517-Hd1e103" type="question-title">
+     utrum resurrectio omnium hominum sit futura
+   </head>
+            <p xml:id="khj78y-r39517-d1e106">
+               <lb ed="#S" n="48"/>DISTINCTIO. 43. QVAESTIO. I.
+    </p>
+            <p xml:id="khj78y-r39517-d1e111">
+               <lb ed="#S" n="49"/>CIrca: 43. Dist. quaeruntur quatuor. Primo, an 
+       re<lb ed="#S" break="no" n="50"/>Asurrectio sit futura. secundo, an corruptum per na 
+      <lb ed="#S" n="51"/>turam possit idem numero reparari. Tertio, an per Deum 
+      <lb ed="#S" n="52"/>annihilatum possit reparari. Quarto, an resurrectio 
+       fu<lb ed="#S" break="no" n="53"/>tura sit in instanti. 
+    </p>
+            <p xml:id="khj78y-r39517-d1e124">
+               <lb ed="#S" n="54"/>De resurrectionis &amp; iudicij conditione. 
+    </p>
+            <p xml:id="khj78y-r39517-d1e130">
+               <lb ed="#S" n="55"/>Thom. 4. Dist. 43.
+    </p>
+            <p xml:id="khj78y-r39517-d1e135">
+               <lb ed="#S" n="56"/>PRIMO igitur quaeritur, vtrum 
+       resurre<lb ed="#S" break="no" n="57"/>ctio omnium hominum sit futura. Et 
+       vide<lb ed="#S" break="no" n="58"/>tur quod non: quia non ponitur futura resurre 
+      <lb ed="#S" n="59"/>ctio, nisi propter remunerationem bonorum 
+      <lb ed="#S" n="60"/>&amp; punitionem malorum: sicut videtur 
+       Apo<lb ed="#S" break="no" n="61"/>stolus innuere. 1. ad Cor. 11. diceus, si tantum in hac vita 
+      <!--0437.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="62"/>in Christo sperantes sumus, miserabiliores sumus omni 
+      <lb ed="#S" n="63"/>bus hominibus: sed absque resurrectione potest esse 
+       prae<lb ed="#S" break="no" n="64"/>miatio bonorum, &amp; punitio malorum: ergo non oportet pro 
+      <lb ed="#S" n="65"/>pter hoc ponere futuram resurrectionem mortuorum. 
+       Assum<lb ed="#S" break="no" n="66"/>ptum probatur, quia eadem ratio videtur de punitione 
+       ali<lb ed="#S" break="no" n="67"/>quorum malorum &amp; omnium, sed quaedam mala puniuntur 
+      <lb ed="#S" n="68"/>tantum in anima absque corpore, sicut peccata illorum quae 
+      <lb ed="#S" n="69"/>sunt in purgatorio, vbi sunt animae sine corporibus: 
+       er<lb ed="#S" break="no" n="70"/>go videtur quod illo modo possunt omnia alia mala sufficien 
+      <lb ed="#S" n="71"/>ter puniri, &amp; bona similiter remunerari.
+    </p>
+            <p xml:id="khj78y-r39517-d1e177" n="3">
+      <!-- 3 -->Contra, quod 
+      <lb ed="#S" n="72"/>dicitur Iob. 19. scio, quod redemptor meus viuit, &amp; in 
+      <lb ed="#S" n="73"/>nouissimo die de terra furrecturus sum. Et Apostolus. 2. 
+      <lb ed="#S" n="74"/>ad. Cor. 15. probat resurrectionem futuram.
+    </p>
+            <p xml:id="khj78y-r39517-d1e188" n="4">
+      <!-- 4 -->
+       Respon<lb ed="#S" break="no" n="75"/>deo, tria sunt hic videnda. Primo, quod resurrectio quam 
+       po<lb ed="#S" break="no" n="76"/>nit fides, &amp; prout ponit eam fides est possibilis. secundo, 
+      <lb ed="#S" n="77"/>quod resurrectio omnium hominum est futura. Tertio, quod non 
+      <lb ed="#S" n="78"/>erit naturalis, sed supernaturalis.
+    </p>
+            <p xml:id="khj78y-r39517-d1e201" n="5">
+      <!-- 5 -->Primum patet 
+       tri<lb ed="#S" break="no" n="79"/>pliciter. Primo sic, quia secundum quod habetur. 8. Meta. non 
+      <lb ed="#S" n="80"/>est quaerenda causa siue ratio quare ex materia &amp; forma 
+      <lb ed="#S" n="81"/>fiat vnum praeter agens, quod introducit formam in mate 
+      <lb ed="#S" n="82"/>ria: ex hoc sic arguitur, Manentibus principiis essentiali 
+      <lb ed="#S" n="83"/>bus rei corruptae. scilicet materia &amp; forma eisdem secundum nu 
+      <lb ed="#S" n="84"/>merum, &amp; agente quod potest ea vnire possibile est rem 
+       cor<lb ed="#S" break="no" n="85"/>ruptam candem numero reparari: sed corrupto homine 
+      <lb ed="#S" n="86"/>remanent principia essentialia eius eadem quae prius. scilicet 
+      <lb ed="#S" n="87"/>materia &amp; forma, &amp; Deus qui potest illa vnire: ergo homo 
+      <lb ed="#S" n="88"/>corruptus potest idem secundum numerum reparari. Maior 
+      <lb ed="#S" n="89"/>patet, quia sicut corruptio compositi est per separationem sua 
+      <lb ed="#S" n="90"/>rum partium, siue post corruptionem partes remaneant, si 
+      <lb ed="#S" n="91"/>ue non: ita etiam eius reparatio est per hoc, quod partes eius 
+      <lb ed="#S" n="92"/>adinuicem reuniunt, quae si sint vt prius eaedem, &amp; compo 
+      <lb ed="#S" n="93"/>situm crit idem quod prius. Minor similiter patet, quia 
+      <lb ed="#S" n="94"/>corrupto homine remanet materia, quae est ingenita &amp; 
+       in<lb ed="#S" break="no" n="95"/>corruptibilis, sicut dicitur in fine primi Physicorum, remanes 
+      <lb ed="#S" n="96"/>etiam anima rationalis, quae supponitur incorruptibilis &amp; esse 
+      <lb ed="#S" n="97"/>substantialis forma hominis, Deus etiam potest illa vnire: quia 
+      <lb ed="#S" n="98"/>potest omne illud quod non implicat contradictionem: 
+       for<lb ed="#S" break="no" n="99"/>mam autem vniri materiae non implicat aliquam 
+       contradi<lb ed="#S" break="no" n="100"/>ctionem: imo habet magnam aptitudinem, cum forma sit de 
+      <lb ed="#S" n="101"/>se nata perficere materiam, &amp; materia sit de se nata perfici 
+      <lb ed="#S" n="102"/>a forma. quare &amp;c.
+    </p>
+            <p xml:id="khj78y-r39517-d1e258" n="6">
+      <!-- 6 -->sed contra istam rationem instai 
+      <lb ed="#S" n="103"/>sic, quia non est eadem res numero, vbi non est idem esse nu 
+      <lb ed="#S" n="104"/>mero, sed homo reparatus &amp; prius existens non habet idem 
+      <lb ed="#S" n="105"/>esse numero: ergo non est idem homo numero. Maior 
+       pa<lb ed="#S" break="no" n="106"/>tet de se, sed minor probatur, quia sicut generatio est a non 
+      <lb ed="#S" n="107"/>esse ad esse: ita corruptio est ab esse in non esse: sed in ge 
+      <lb ed="#S" n="108"/>neratione non esse tollit &amp; esse acquiritur: ergo in corru 
+      <lb ed="#S" n="109"/>ptione esse tollitur &amp; non esse acquiritur: sed esse hominis 
+      <lb ed="#S" n="110"/>corrupti non reparatur idem secuudum numerum, vel saltem prae 
+      <lb ed="#S" n="111"/>cedensratio hoc non probat: quia non dicit aliquid idem 
+      <lb ed="#S" n="112"/>numero redire, nisi per hoc quod partes eius remanent. qua 
+      <lb ed="#S" n="113"/>re &amp;c.
+    </p>
+            <p xml:id="khj78y-r39517-d1e288" n="7">
+      <!-- 7 -->sed ad hoc dicendum, quod haec instantia non con 
+      <lb ed="#S" n="114"/>cludit, siue esse sit additum super essentiam, siue sit vnum cum 
+      <lb ed="#S" n="115"/>essentia. si enim sit additum essentiae, non competit essentiae 
+      <lb ed="#S" n="116"/>esse nisi ratione formae. Per materiam enim compositum non 
+      <lb ed="#S" n="117"/>habet aliquod esse actuale de quo loquimur: sed tantum 
+      <lb ed="#S" n="118"/>posse esse: ita vt materia primo recipiat formam, &amp; median 
+      <lb ed="#S" n="119"/>te forma esse actu: sic quod forma est immediatum receptiuum 
+      <lb ed="#S" n="120"/>ipsius esse, &amp; ratio recipiendi ipsi materiae: &amp; hoc modo 
+      <lb ed="#S" n="121"/>corrupto homine non corrumpii esse, sed remanet in ani 
+      <lb ed="#S" n="122"/>ma reparata, &amp; idem redit anima reunita. Et quod dicit 
+      <lb ed="#S" n="123"/>contra hoc, quod per corruptionem esse amittitur verum est: 
+      <lb ed="#S" n="124"/>non tamen vt omnino non sit, sed vt non sit esse compositi quod 
+      <lb ed="#S" n="125"/>corrumpit. Quod si dicat, quod oportet ipsum omnino 
+       cor<lb ed="#S" break="no" n="126"/>rumpi ita vt non sit: sieut in generatione oportet esse, ac 
+      <lb ed="#S" n="127"/>quiri ita vt de nouo sit, dicendum quod non valet: quia scundum 
+      <lb ed="#S" n="128"/>Philosophum. 12. meta. causae formales non praeoristunt 
+      <!--0438.xml-->
+      <pb ed="#S" n="438"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>generato, forma enim quae est terminus generationis 
+       nul<lb ed="#S" break="no" n="2"/>lo modo praeexistit generationi aut generato, post 
+       cor<lb ed="#S" break="no" n="3"/>ruptionem tamen nihil prohibet aliquam formam remanere vt 
+      <lb ed="#S" n="4"/>ibidem dicitur: &amp; idem est de esse consequente forma: &amp; sic 
+      <lb ed="#S" n="5"/>patet, quod non oportet esse hominis simpliciter corrumpi 
+       cor<lb ed="#S" break="no" n="6"/>ruptione hominis. sed dato etiam quod corrumpetur nec iterare 
+      <lb ed="#S" n="7"/>tur idem esse numero, quod non propter hoc sequeret, quod non 
+      <lb ed="#S" n="8"/>rediret idem homo numero: quia secundum hanc viam esse 
+      <lb ed="#S" n="9"/>non pertinet ad essentiam, sed est aliquid posterius 
+       conse<lb ed="#S" break="no" n="10"/>quens eam: &amp; ideo facta vainatione in esse non oportes 
+      <lb ed="#S" n="11"/>necessario fieri eam in essentia: si autem esse sit idem cum 
+      <lb ed="#S" n="12"/>essentia, tunc perresurrectionem redibit idem esse 
+       nume<lb ed="#S" break="no" n="13"/>ro per rationem prius factum: quia esse vel est idem cum mate 
+      <lb ed="#S" n="14"/>ria vel cum forma, vel cum composito: sed quicquid istorum 
+      <lb ed="#S" n="15"/>detur habet propositum: quia tam materia quam forma hominis 
+      <lb ed="#S" n="16"/>remanet compositum, etiam redit idem propter identitatem par 
+      <lb ed="#S" n="17"/>tium, quare &amp; esse si sit idem cum composito.
+    </p>
+            <p xml:id="khj78y-r39517-d1e369" n="8">
+      <!-- 8 -->
+       Quam<lb ed="#S" break="no" n="18"/>uis autem haec sint subtiliter dicta, tamen potest instari contra so 
+      <lb ed="#S" n="19"/>lutionem datam ad instantiam sic: quia non sicut quantitas 
+       eu<lb ed="#S" break="no" n="20"/>charistiae separata secum trahit figuram, qua mediante ipsa 
+      <lb ed="#S" n="21"/>inerat substantiae, non sic inquam est in proposito: quia ilorum 
+      <lb ed="#S" n="22"/>quae insunt homini per animam quaedam habent animam, 
+      <lb ed="#S" n="23"/>sicut principium &amp; subiectum proprium vt potentiae abstractae: 
+      <lb ed="#S" n="24"/>quae non sunt coniuncti: &amp; has secum trahit anima, nec 
+      <lb ed="#S" n="25"/>cum corpore corrumpuntur: sed aliae sunt quae se habent ad ani 
+      <lb ed="#S" n="26"/>mam sicut ad principium: sed non sicut ad solum &amp; proprium 
+      <lb ed="#S" n="27"/>subiectum: cum sint potentiae coniuncti, vt omnes potentiae 
+       orga<lb ed="#S" break="no" n="28"/>nicae: quae quamuis insint corpori mediante anima: quia corpus 
+      <lb ed="#S" n="29"/>non est natum nisi inquantum est viuum &amp; animatum anima 
+      <lb ed="#S" n="30"/>sensitiua: nihilominus in morte corrumpunt, &amp; non cum ani 
+      <lb ed="#S" n="31"/>ma separantur: nisi in radice: ergo cum esse existere &amp; 
+       sub<lb ed="#S" break="no" n="32"/>sistere non sit proprium animae sed compositi &amp; suppositi 
+       li<lb ed="#S" break="no" n="33"/>cet sit ab anima: non tamen cum ea separatur sed corrumpitur 
+      <lb ed="#S" n="34"/>sicut compositum, &amp; caetera compositi &amp; coniuncti.
+    </p>
+            <p xml:id="khj78y-r39517-d1e411" n="9">
+      <!-- 9 -->
+       Con<lb ed="#S" break="no" n="35"/>tra secundam solutionem est, quia si esse differt ab essentia for 
+      <lb ed="#S" n="36"/>mae &amp; materiae: non propter hoc sequit, quod differat ab 
+       es<lb ed="#S" break="no" n="37"/>sentia suppositi de cuius ratione est subsistere: propter qui 
+      <lb ed="#S" n="38"/>humanitas in Christo non est suppositum, quia non subsistit: 
+      <lb ed="#S" n="39"/>licet habeat alia quae sunt de essentia: vnde si humanitas a 
+      <lb ed="#S" n="40"/>diuinitate separaretur esset eadem humanitas &amp; essentia quae 
+      <lb ed="#S" n="41"/>prius: sed non idem suppositum quod prius, quia non idem 
+      <lb ed="#S" n="42"/>subsistere: nos autem non quaerimus vtrum eadem humanitas, 
+      <lb ed="#S" n="43"/>sed vtrum idem homo numero resurgat de supposito 
+       inten<lb ed="#S" break="no" n="44"/>dentes de cuius essentia est ipsum subsistere.
+    </p>
+            <p xml:id="khj78y-r39517-d1e437" n="10">
+      <!-- 10 -->
+       Con<lb ed="#S" break="no" n="45"/>tra tertiam solutionem est, quia licet vt dictum est esse non sit idem 
+      <lb ed="#S" n="46"/>cum essentia materiae &amp; formae, nihilominus potest esse idem 
+      <lb ed="#S" n="47"/>cum essentia suppositi: nec est verum quod compositum non inclu 
+      <lb ed="#S" n="48"/>dat aliud re a partibus: quia si homo esset anima &amp; corpus, 
+      <lb ed="#S" n="49"/>&amp; nihil aliud: tunc senarius esset bis tria formaliter, &amp; non 
+      <lb ed="#S" n="50"/>tantum semel sex, quod negat. 5. Meta. Ex quo etiam aliqui 
+      <lb ed="#S" n="51"/>volunt ostendere, quomodo  potest extendi fiue hoc quod forma vel 
+      <lb ed="#S" n="52"/>materia primo extendatur: quia compositum substantiae 
+       subsi<lb ed="#S" break="no" n="53"/>stentis tria includit, materiam &amp; formam partis &amp; formam to 
+      <lb ed="#S" n="54"/>tius: quasi completissimam, &amp; ipsum esse: vnde cum ens dicat 
+      <lb ed="#S" n="55"/>ab actu essendi secundum Aui. non erit idem ens nisi 
+       habe<lb ed="#S" break="no" n="56"/>at idem esse, &amp; si haberet eandem essentiam.
+    </p>
+            <p xml:id="khj78y-r39517-d1e468" n="11">
+      <!--11 -->Posses 
+      <lb ed="#S" n="57"/>ergo sic dici quarto, quod supposita differentia esse ab esse 
+      <lb ed="#S" n="58"/>materiae &amp; formae, quia si ab eis non differat: instantia nul 
+      <lb ed="#S" n="59"/>la est, quia licet agens vnum possit habere diuersum numero 
+      <lb ed="#S" n="60"/>effectum: tamen effectiuum cum forma etiam in diuersis receptiuis 
+      <lb ed="#S" n="61"/>habet vnum effectum formalem suae naturae, relicta etiam si di 
+      <lb ed="#S" n="62"/>uersis illud conicet, sicut forma nutriti esse vnum communicat 
+      <lb ed="#S" n="63"/>materiae praeexistenti &amp; materiae alimenti aduenienti: &amp; quam 
+      <lb ed="#S" n="64"/>titas vnum esse extensum substantiae, &amp; qualitati: vnde cum 
+      <lb ed="#S" n="65"/>esse sit effectus formalis formae, maxime quando est vna 
+       nu<lb ed="#S" break="no" n="66"/>mero: materiae vnus effectus qui est esse numero conicatur: 
+      <lb ed="#S" n="67"/>quare supposita eadem forma &amp; materia: sequitur idem esse 
+      <!--0438.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>indifferens cum sit effectus formalis: si autem in Christo hu 
+      <lb ed="#S" n="69"/>manitas non habet suum esse est supernaturale, &amp; sibi reli 
+      <lb ed="#S" n="70"/>cta haberet illud &amp; assumpta perderet, &amp; secundo dereli 
+      <lb ed="#S" n="71"/>cta idem numero haberet, sicut quantitas altaris habet idem 
+      <lb ed="#S" n="72"/>esse numero.
+    </p>
+            <p xml:id="khj78y-r39517-d1e512" n="12">
+      <!-- 12 -->secunda ratio principalis talis est. Qui 
+      <lb ed="#S" n="73"/>potest maius potest &amp; minus, in his saltem in quibus minus 
+       in<lb ed="#S" break="no" n="74"/>cluditur in maiori: sed maius est principia hominis pro 
+      <lb ed="#S" n="75"/>ducere &amp; producta vnire: quam supponere ipsa producta &amp; 
+      <lb ed="#S" n="76"/>ipsa vnire solum, hoc enim includitur in primo, sed Deus po 
+      <lb ed="#S" n="77"/>tuit principia essentialia hominis producere &amp; producta 
+      <lb ed="#S" n="78"/>vnire, sicut fecit in prima rerum creatione: ergo fortiori ra 
+      <lb ed="#S" n="79"/>tione potest principia essentialis hominis iam producta &amp; 
+      <lb ed="#S" n="80"/>manentia vnire: quod est hominem iam corruptum 
+       repara<lb ed="#S" break="no" n="81"/>re
+    </p>
+            <p xml:id="khj78y-r39517-d1e537" n="13">
+      <!-- 13 -->sed contra hic diceret aliquis, quia videmus quod agens 
+      <lb ed="#S" n="82"/>naturale potest producere formam &amp; producendo vnire: quam 
+      <lb ed="#S" n="83"/>tamen productam &amp; praeexistentem non potest vnire materiae: si 
+      <lb ed="#S" n="84"/>enim est aliqua forma substantialis vel accidentalis 
+       sepa<lb ed="#S" break="no" n="85"/>rata a materia virtute diuina: agens naturale non posset 
+      <lb ed="#S" n="86"/>eam vnire materiae: ergo dato quod Deus possit principia 
+      <lb ed="#S" n="87"/>producere &amp; producendo vnire: non sequitur tamen quod 
+       pos<lb ed="#S" break="no" n="88"/>sit ea producta &amp; praeexistentia vnire, non adinuicem. 
+    </p>
+            <p xml:id="khj78y-r39517-d1e557" n="14">
+               <lb ed="#S" n="89"/>
+               <!-- 14 -->Et dicendum ad hoc, quod non est simile de Deo &amp; agen 
+      <lb ed="#S" n="90"/>te naturali, quia Deus habet virtutem super formam, siue sit 
+      <lb ed="#S" n="91"/>in materia siue sit separata: agens vero naturale non ha 
+      <lb ed="#S" n="92"/>bet virtutem super formam a materia separatam, quia omnis  
+       agen<lb ed="#S" break="no" n="93"/>tis naturalis actio est circa materiam: &amp; ideo ad ea quae 
+      <lb ed="#S" n="94"/>sunt a materia separata nullo modo attingit.
+    </p>
+            <p xml:id="khj78y-r39517-d1e575" n="15">
+      <!-- 15 -->Ex 
+      <lb ed="#S" n="95"/>quo potest sic argui, nullus potest facere vnionem aliquorum, cu 
+      <lb ed="#S" n="96"/>ius virtus &amp; actio non attingit ambo extrema vnionis: 
+      <lb ed="#S" n="97"/>sed virtus &amp; actio agentis naturalis non attingit formam 
+      <lb ed="#S" n="98"/>a materia separatam ex natura propria: vt anima humana 
+      <lb ed="#S" n="99"/>sine virtute diuina: vt aliae formae materiales substantia 
+      <lb ed="#S" n="100"/>les vel accidentales: virtus autem &amp; actio diuina aequaliter 
+      <lb ed="#S" n="101"/>se extendunt ad formam separatam &amp; non separatam: ergo 
+       vir<lb ed="#S" break="no" n="102"/>tus diuina potest vnire formam separatam praeexistentem: non au 
+      <lb ed="#S" n="103"/>tem virtus naturalis agentis. quando ergo dictum est prius, 
+      <lb ed="#S" n="104"/>quod maius est producere &amp; producta vnire, quam solum vnire 
+      <lb ed="#S" n="105"/>praeexistentia: verum est respectu agentis cuius virtus se 
+       ex<lb ed="#S" break="no" n="106"/>tendit aequaliter ad formam separatam sicut non separatam: 
+      <lb ed="#S" n="107"/>tunc enim vnum includitur in altero sicut minus in maiori- 
+    </p>
+            <p xml:id="khj78y-r39517-d1e608" n="16">
+               <lb ed="#S" n="108"/>
+               <!-- 16 -->sed adhuc huic rationi pontsic instari non obstante 
+      <lb ed="#S" n="109"/>hac declaratione: quia maior, videt falsa. Natura enim potest 
+      <lb ed="#S" n="110"/>aliquis producere &amp; productum vnire, quod separatum 
+       ma<lb ed="#S" break="no" n="111"/>nens sibi subditum non potest reunire, sicut natura producis 
+      <lb ed="#S" n="112"/>quantitatem &amp; productam vnit substantiae panis: qua 
+       con<lb ed="#S" break="no" n="113"/>uersa natura potest attingere adhuc quantitatem illam separa 
+      <lb ed="#S" n="114"/>tam a substatia alterando &amp; corrumpendo: &amp; ex ea aliquid 
+      <lb ed="#S" n="115"/>generando, &amp; tamen ipsa non potest alicui substantiae vnire: nec 
+      <lb ed="#S" n="116"/>illi quae est conuersa: quia ipsam non potest attingere propter 
+      <lb ed="#S" n="117"/>quod ibi cessat obiectio: nec alij cuicunq, quia accidentia 
+      <lb ed="#S" n="118"/>non migrant: ergo aliquid potest producere &amp; productum 
+      <lb ed="#S" n="119"/>vnire: quod tamen non ipsa ipsum separatum eidem vel alteri 
+      <lb ed="#S" n="120"/>vnire licet possit vt prius ipsum attingere.
+    </p>
+            <p xml:id="khj78y-r39517-d1e641" n="17">
+      <!-- 17 -->solutio, 
+      <lb ed="#S" n="121"/>licet possit ipsum attingere, non tamen alterum cui fuit vnitum. 
+      <lb ed="#S" n="122"/>Item si potest aliam substantiam attingere: non tamen cui acci 
+      <lb ed="#S" n="123"/>dens natum sit vniri. Anima autem quae nata est subsistere, 
+       na<lb ed="#S" break="no" n="124"/>ta est etiam vniri maxime corpori cui fuit vnita: sed 
+       acci<lb ed="#S" break="no" n="125"/>dens sicut non est natum subsistere, sic de subsistente non 
+      <lb ed="#S" n="126"/>est natum inhaerere, vel inhaerendo vniri, nisi forte illi cui 
+      <lb ed="#S" n="127"/>prius infuit vel inhaesit &amp;c.
+    </p>
+            <p xml:id="khj78y-r39517-d1e661" n="18">
+      <!-- 18 -->Tertia ratio principa 
+      <lb ed="#S" n="128"/>lis est ista, non est difficilius animam intellectiuam reunire 
+      <lb ed="#S" n="129"/>corpori postquam est separata, quam si fuisset per se existens ad 
+      <lb ed="#S" n="130"/>corpus: quia non minorem ordinem nec minorem inclinationem 
+      <lb ed="#S" n="131"/>habet ad corpus anima, quae iam fuit corpori vnita: quam si 
+      <lb ed="#S" n="132"/>nunquam fuisset corpori vnita: sed Deus potuit animam in 
+      <lb ed="#S" n="133"/>tellectiuam producere per se existentem antequam fuisset corpp 
+      <lb ed="#S" n="134"/>ri vnita: &amp; post corpori vnire: hoc enim sensit Aug. de ani- 
+      <!--0439.xml-->
+      <pb ed="#S" n="439"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ma primi hominis. scilicet quod fuit producta cum angelis: ex sex 
+      <lb ed="#S" n="2"/>to die in formatione hominis corporis vnita: ergo 
+       mul<lb ed="#S" break="no" n="3"/>to fortius potest Deus animam a corpore separatam corpori 
+      <lb ed="#S" n="4"/>reunire, quod est hominem corruptum reparare per resurre 
+      <lb ed="#S" n="5"/>ctionem: patet ergo quod si in homine non sit alia forma sub 
+      <lb ed="#S" n="6"/>stantialis praeter animam intellectiuam: &amp; illa sit incorru 
+      <lb ed="#S" n="7"/>ptibilis: quod Deus potest ipsum corruptum eundem numero 
+       re<lb ed="#S" break="no" n="8"/>parare: &amp; idem esset si in homine esset forma corporeita 
+      <lb ed="#S" n="9"/>tis ingenerabilis &amp; incorruptibilis, vt quidam posuerunt. 
+    </p>
+            <p xml:id="khj78y-r39517-d1e708" n="19">
+               <lb ed="#S" n="10"/>
+               <!-- 19 -->sed haec ratio habet instantiam: quia non est aeque fa 
+      <lb ed="#S" n="11"/>cile vniri formam materiae habenti proprias dispositiones 
+      <lb ed="#S" n="12"/>sicut contrarias: siue igitur anima sit creata ante corpus 
+      <lb ed="#S" n="13"/>siue cum corpore ipsum vniri corpori organico pro 
+       vi<lb ed="#S" break="no" n="14"/>tam habenti: cum haec sit propria dispositio non est 
+       im<lb ed="#S" break="no" n="15"/>possibile: sed reuniri cadaueri vel pulueri habenti 
+       dispo<lb ed="#S" break="no" n="16"/>sitionem oppositam non est possibile.
+    </p>
+            <p xml:id="khj78y-r39517-d1e728" n="20">
+      <!-- 20 -->sed haec 
+       instan<lb ed="#S" break="no" n="17"/>tia non valet, quia in limo terrae &amp; costa Adae ita erant 
+       di<lb ed="#S" break="no" n="18"/>spositiones contrariae, sicut in cadauere, &amp; huiusmodi erunt illa 
+      <lb ed="#S" n="19"/>corpora &amp; non qualia in vtero matris quando anima infundi 
+      <lb ed="#S" n="20"/>tur: &amp; eodem instanti quo forma terrae vel costa fuit corru 
+      <lb ed="#S" n="21"/>pta anima fuit introducta, sicut in instanti quo forma 
+      <lb ed="#S" n="22"/>cinerum amouebitur anima rationalis reunietur. ideo &amp;c. 
+    </p>
+            <p xml:id="khj78y-r39517-d1e746" n="21">
+               <lb ed="#S" n="23"/>
+               <!-- 21 -->Quantum ad secundum dicendum est, quod resurrectio est 
+      <lb ed="#S" n="24"/>futura secundum fidem: resurrectio inquam omnium qui non 
+      <lb ed="#S" n="25"/>resurrexerunt in vitam immortalem: quamuis resurrexerint 
+      <lb ed="#S" n="26"/>in vitam mortalem: quod dico propter aliquos de quibus 
+      <lb ed="#S" n="27"/>dubitatur. Probatur autem illa conclusio primo per articu 
+      <lb ed="#S" n="28"/>lum fidei in symbolo Apostolorum, Carnis resurrectionem, 
+      <lb ed="#S" n="29"/>Vitam aeternam, Amen. Et in symbolo Niceno, Expecto 
+      <lb ed="#S" n="30"/>resurrectionem mortuorum, &amp; vitam futuri saeculi. Et per 
+      <lb ed="#S" n="31"/>symbolum Athanasij, Ad cuius aduentum omnes homines 
+      <lb ed="#S" n="32"/>resurgere habent &amp;c.
+    </p>
+            <p xml:id="khj78y-r39517-d1e772" n="22">
+      <!-- 22 -->Persuaderi etiam haec 
+       conclu<lb ed="#S" break="no" n="33"/>sio sic potest. Primo, ex ordine naturae sic. non decet 
+       autho<lb ed="#S" break="no" n="34"/>rem naturae potissimam inter creaturas relinquere imper 
+      <lb ed="#S" n="35"/>fectam quo ad inclinationem naturae: sed anima 
+       rationa<lb ed="#S" break="no" n="36"/>lis est vna de nobilissimis &amp; potissimis creaturis: vtpote 
+      <lb ed="#S" n="37"/>ad imaginem Dei facta: ergo non decet eam perpetuo 
+       re<lb ed="#S" break="no" n="38"/>manere imperfectam quo ad inclinationem naturae: 
+       mane<lb ed="#S" break="no" n="39"/>ret autem imperfecta si semper esset a corpore separata: cum 
+      <lb ed="#S" n="40"/>naturaliter appetat vniri corpori, sicut forma materiae: 
+      <lb ed="#S" n="41"/>ergo decet autorem naturae eam corpori reunire, quod fiet in 
+       re<lb ed="#S" break="no" n="42"/>surrectione.
+    </p>
+            <p xml:id="khj78y-r39517-d1e798" n="23">
+      <!-- 23 -->secundo, idem patet ex ordine 
+       diui<lb ed="#S" break="no" n="43"/>nae iustitiae: decet enim diuinam iustitiam, vt ille qui meruit 
+      <lb ed="#S" n="44"/>praemietur: &amp; ille qui demeruit punlatur: sed meritum &amp; de 
+      <lb ed="#S" n="45"/>meritum licet principaliter consistat in actibus ipsius ani 
+      <lb ed="#S" n="46"/>mae: tamen hoc cooperatur totum compositum, quia actiones sunt 
+      <lb ed="#S" n="47"/>suppositorum: ad hoc etiam cooperantur virtutes quae sunt 
+      <lb ed="#S" n="48"/>totius compositi, vt sensus, fantasia, &amp; huiusmodi, sine quibus 
+      <lb ed="#S" n="49"/>non sunt intelligere nec velle, &amp; per consequens nec 
+       meri<lb ed="#S" break="no" n="50"/>tum, nec demeritum: solus etiam slatus in corpore est 
+       sta<lb ed="#S" break="no" n="51"/>tus merendi &amp; demerendi: quia post mortem nullum est meri 
+      <lb ed="#S" n="52"/>tum aut demeritum: ergo decet diuinam iustitiam: vt homo 
+      <lb ed="#S" n="53"/>praemiet vel puniatur non solum in anima: sed in toto 
+       compo<lb ed="#S" break="no" n="54"/>sito, quod non potest esse nisi per resurrectionem.
+    </p>
+            <p xml:id="khj78y-r39517-d1e829" n="24">
+      <!-- 24 -->sed 
+      <lb ed="#S" n="55"/>prima ratio habet instantiam: quia daemon est perfectior 
+      <lb ed="#S" n="56"/>creatura quam anima: &amp; habet naturalem inclinationem ad bea 
+      <lb ed="#S" n="57"/>titudinem supernaturalem: vel si non: quia eam non cognoscit 
+      <lb ed="#S" n="58"/>naturaliter, tamen ad naturalem quam cognoscit &amp; qnam semel 
+      <lb ed="#S" n="59"/>habuit: quia naturale desiderium in eo est in quo naturalia 
+      <lb ed="#S" n="60"/>remanserunt integra, sed beatitudo naturalis non est in 
+      <lb ed="#S" n="61"/>cis sicut in pueris in limbo: quam non compatitur summa 
+       mi<lb ed="#S" break="no" n="62"/>seria quam habent: ergo maior est falsa. si dicat, quod hoc est 
+      <lb ed="#S" n="63"/>propter pctium: tunc saltem in peccatori busratio ista deficit: vt 
+      <lb ed="#S" n="64"/>s. non rehabeant corpora, quae male amauerunt: sicut nec 
+      <lb ed="#S" n="65"/>daemon beatitudinem quam male amauit: plus enim spiri 
+      <lb ed="#S" n="66"/>tus amat naturaliter beatitudinem quam corpus: quia potest 
+       ap<lb ed="#S" break="no" n="67"/>petere separari a corpore: non autem a beatitudine. si di- 
+      <!--0439.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>catur quod in eis non est naturale desiderium ad beatitudi 
+      <lb ed="#S" n="69"/>nem, sicut nec ipsa beatitudo naturalis, non valet, quia 
+      <lb ed="#S" n="70"/>naturalia quae pertinent ad potentias remanserunt in eis 
+      <lb ed="#S" n="71"/>integra, &amp; primi actus naturales. sed illi actus in quib 
+      <lb ed="#S" n="72"/>beatitudo consistit, quae dicit naturalis, non quia insit a 
+       na<lb ed="#S" break="no" n="73"/>tura: sed quia est acquisibilis per naturam: licet fuerit 
+       crea<lb ed="#S" break="no" n="74"/>ta cum natura per gratiam gratis datam, ab illa exciderunt 
+      <lb ed="#S" n="75"/>&amp; non est in eis: sicut enim Adam creatus fuit in 
+       beati<lb ed="#S" break="no" n="76"/>tudine naturali: quam tamen per peccatum perdidit, non tamen desi 
+      <lb ed="#S" n="77"/>derium ad eam: sic &amp; daemon creatus fuit in 
+       beatitudi<lb ed="#S" break="no" n="78"/>ne quam tamen erat acquisiturus per vnum actum &amp; eam 
+      <lb ed="#S" n="79"/>perdidit. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-r39517-d1e893" n="25">
+      <!-- 25 -->Quantum ad tertium est, quod 
+       resur<lb ed="#S" break="no" n="80"/>rectio non erit naturalis: quamuis possit dici via ad natu 
+      <lb ed="#S" n="81"/>ram: quia est via ad formam quae potissime dicitur 
+       natu<lb ed="#S" break="no" n="82"/>ra. Quod autem simpliciter non sit naturalis patet: tum 
+      <lb ed="#S" n="83"/>quia non est a principio actiuo naturali, tum quia non 
+      <lb ed="#S" n="84"/>est secundum modum &amp; ordinem naturalem. ideo &amp;c. 
+    </p>
+            <p xml:id="khj78y-r39517-d1e909" n="26">
+               <lb ed="#S" n="85"/>
+               <!-- 26 -->sed contra istud est, quia si prima ratio addita ad 
+      <lb ed="#S" n="86"/>primum articulum esset bona: tunc posset dici quod resurrectio 
+      <lb ed="#S" n="87"/>fieret sola virtute naturae: nec requireret ad eam aliqua 
+      <lb ed="#S" n="88"/>actio Dei praeter illam qua conseruat Deus res in esse, quia 
+      <lb ed="#S" n="89"/>maior est inclinatio formae ad materiam o inclinatio 
+       cor<lb ed="#S" break="no" n="90"/>poris naturalis ad locum suum, sed corpus naturale extra 
+      <lb ed="#S" n="91"/>locum suum existens: puta graue existens sursum ad hoc 
+      <lb ed="#S" n="92"/>quod descendat deorsum non requirit aliquod per se mouens 
+      <lb ed="#S" n="93"/>sed solum remouens prohibens vt apparet. 8. Physi. quia ad 
+      <lb ed="#S" n="94"/>naturam grauis conseruatam in esse per se sequitur talis motus 
+      <lb ed="#S" n="95"/>remoto prohibente: ergo similiter ad hoc quod forma 
+       sepa<lb ed="#S" break="no" n="96"/>rata a materia, vt anima, reuniatur materiae: non 
+       requiri<lb ed="#S" break="no" n="97"/>tur aliquod vniens effectiue, &amp; per se quod noua 
+       actio<lb ed="#S" break="no" n="98"/>ne vniat ipsam materiae: sed susficit conseruatio naturae 
+      <lb ed="#S" n="99"/>eius ad quam sequitur talis vnio naturaliter remotis a na 
+      <lb ed="#S" n="100"/>tura dispositionibus contrariis: quae prohibebant vnionem 
+      <lb ed="#S" n="101"/>isti autem remouentur in generatione singulorum hominum: er 
+      <lb ed="#S" n="102"/>go videtur quod in resurrectione singulorum hominum animae 
+      <lb ed="#S" n="103"/>quae erant separatae naturaliter materiae vniantur. 
+    </p>
+            <p xml:id="khj78y-r39517-d1e955" n="27">
+               <lb ed="#S" n="104"/>
+               <!-- 27 -->Ad hoc autem quidam dicunt, concedendo totum proces 
+      <lb ed="#S" n="105"/>sum rationis vsque ad illud quod dicitur, quod in 
+       generatio<lb ed="#S" break="no" n="106"/>ne singulorum hominum remouentur ea quae impediunt 
+       ani<lb ed="#S" break="no" n="107"/>mam separatam vniri materiae: hoc enim non est verum, 
+      <lb ed="#S" n="108"/>licet enim materia prima secundum se nata sit recipere 
+       o<lb ed="#S" break="no" n="109"/>mnem formam: non tamen prout subest virtuti talis 
+       moto<lb ed="#S" break="no" n="110"/>ris, id est, virtuti formatiuae quae est in semine: sic enim 
+      <lb ed="#S" n="111"/>disponit solum ad susceptionem animae creatae: quia in actioni 
+      <lb ed="#S" n="112"/>bus naturalibus semper disponitur materia ad formam 
+      <lb ed="#S" n="113"/>nondum existentem, sed de nouo producendam. Cursus enim 
+      <lb ed="#S" n="114"/>naturae hoc habet, quod forma quae est terminus 
+       generatio<lb ed="#S" break="no" n="115"/>nis vel cuiuslibet actionis naturalis: non praeexistit 
+       ge<lb ed="#S" break="no" n="116"/>nerationi vel actioni naturali vt habetur. 12. Metap. Item 
+      <lb ed="#S" n="117"/>si per agens naturale disponeretur materia ad susceptionem 
+      <lb ed="#S" n="118"/>animae separatae qua ratione disponeretur ad vnam: 
+       eam<lb ed="#S" n="119" break="no"/>dem ratione ad quamlibet: non est dicendum quod ad quamlibet: 
+      <lb ed="#S" n="120"/>quia qua ratione reciperetur vna, efdem ratione recipe 
+      <lb ed="#S" n="121"/>rentur omnes, quod non est possibile: ergo ad nullam. 
+    </p>
+            <p xml:id="khj78y-r39517-d1e999" n="28">
+               <lb ed="#S" n="122"/>
+               <!-- 28 -->sed videt quod nec prima solutio nec secunda valeant: 
+      <lb ed="#S" n="123"/>quia ratio arguit ex hoc quod dispositiones contrariae 
+       remo<lb ed="#S" break="no" n="124"/>uentur, quod est verum: quia fit resolutio vsque ad materiam 
+       pri<lb ed="#S" break="no" n="125"/>mam: &amp; non arguit ex hoc quod sit disposita ad istam formam: 
+      <lb ed="#S" n="126"/>&amp; quia ad hoc quod corpus naturale moueatur ad suum 
+       lo<lb ed="#S" break="no" n="127"/>cum non requiritur disponens, nec dispositio 
+       superad<lb ed="#S" break="no" n="128"/>dita, sed solum remouens prohibens: &amp; remotio prohibentis: 
+      <lb ed="#S" n="129"/>maxime secundum istos qui dicunt, quod in resurrectione non 
+      <lb ed="#S" n="130"/>praecedit organizatio, nec aliqua dispositio in fieri: sed 
+      <lb ed="#S" n="131"/>sola collectio puluerum &amp; destructio formae ipsorum vsque ad 
+      <lb ed="#S" n="132"/>materiam primam, quod potest fieri per naturam. Prima solutio 
+      <lb ed="#S" n="133"/>deficit: quia quod agens naturale non disponat ad formam 
+      <lb ed="#S" n="134"/>praeexistentem, sed solum producendam: patet esse falsum: quia 
+      <!--0440.xml-->
+      <pb ed="#S" n="440"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>in nutritione vis nutritiua disponit nutrimentum, ad hoc 
+      <lb ed="#S" n="2"/>quod vniatur animae nutriti praeexistenti. Et similiter si aia est 
+      <lb ed="#S" n="3"/>vbiq, vel nusquam secundum eos: oportet quod fiat realiter 
+       prae<lb ed="#S" break="no" n="4"/>sens corpori cui reunietur. si ergo in instanti quo fiet resur 
+      <lb ed="#S" n="5"/>rectio esset foetus dispositus vltimate eiusdem materiae nu 
+      <lb ed="#S" n="6"/>mero, qua prius saltem tunc naturaliter reuniretur sicut prius 
+      <lb ed="#S" n="7"/>fuerat. Quod autem dicit, quod causae formales non praeexistant 
+      <lb ed="#S" n="8"/>generato, verum est vbi est generatio totaliter noua &amp; 
+       con<lb ed="#S" break="no" n="9"/>pleta: aliter secus vt in nutritione dictum est, &amp; motu 
+       au<lb ed="#S" break="no" n="10"/>gmenti &amp; decrementi: &amp; intensionis &amp; remissionis secundum 
+      <lb ed="#S" n="11"/>eos. secunda etiam solutio non valet: quia cum anima 
+       separa<lb ed="#S" break="no" n="12"/>ta habeat inclinationem naturalem ad materiam in qua fuit: 
+      <lb ed="#S" n="13"/>&amp; non ad aliam: inde est quod sicut remonere prohibens a corpo 
+      <lb ed="#S" n="14"/>re naturali facit ipsum tendere ad locum proprium: &amp; non ad 
+      <lb ed="#S" n="15"/>alium. sic &amp; hic nudare materiam forma: non est ipsum 
+       dispo<lb ed="#S" break="no" n="16"/>nere indifferenter ad omnem animam separatam, sed ad illam 
+       so<lb ed="#S" break="no" n="17"/>lam quae in ea fuit. sed verum est quod si plures animae separatae 
+      <lb ed="#S" n="18"/>fuissent in illa materia: sicut &amp; fuerunt multae formae 
+       cor<lb ed="#S" break="no" n="19"/>ruptae: tunc apparens esset solutio. sed istud aut non est aut 
+      <lb ed="#S" n="20"/>raro est: &amp; tunc diceret aliquis quod ad primo habitam 
+       incli<lb ed="#S" break="no" n="21"/>naretur. Potest ergo responderi ad instantia, quod non est 
+       simi<lb ed="#S" break="no" n="22"/>le de mobili ad locum quod habet formam, ad quam natus est 
+      <lb ed="#S" n="23"/>sequi motus siue per se mouente: &amp; de materia prima ad 
+      <lb ed="#S" n="24"/>eius appetitum nulla generatio nata est sequi: nisi adhibito 
+      <lb ed="#S" n="25"/>per se generante: nec est simile do inclinatione animae ad 
+      <lb ed="#S" n="26"/>materiam, &amp; corporis naturalis ad suum locum: quia si illa 
+       ac<lb ed="#S" break="no" n="27"/>cipiatur habitualiter pro natura animae, quae est imperfecta 
+      <lb ed="#S" n="28"/>extra totum propter quod appetit reuniri sicut perfici: ad 
+      <lb ed="#S" n="29"/>istum tamen appetitum non sequitur vnio nisi alio per se 
+       disponen<lb ed="#S" break="no" n="30"/>te, sicut anima nutriti non vnit materiae alimenti: nisi per 
+      <lb ed="#S" n="31"/>alterationem ipsius alimenti quae est a vi ipsius animae 
+       con<lb ed="#S" break="no" n="32"/>iunctae: sed nulla talis est in anima separata, ideo. &amp;c. si 
+      <lb ed="#S" n="33"/>vero appetitus ad corpus accipitur motus &amp; desiderium 
+      <lb ed="#S" n="34"/>voluntatis: licet ad velle angeli sequatur motus localis: 
+      <lb ed="#S" n="35"/>non tamen motus qui sit generatio nec nutritio: nec huiusmodi: 
+      <lb ed="#S" n="36"/>ad velle autem animae nec motus localis sequitur: nec per 
+      <lb ed="#S" n="37"/>consequens vnio ad corpus quae esset quaedam regeneratio: 
+      <lb ed="#S" n="38"/>sed grauitas &amp; leuitas sunt quaedam qualitates additae 
+       sub<lb ed="#S" break="no" n="39"/>stantiae, ad quas natus est sequi naturaliter talis motus: vnde 
+      <lb ed="#S" n="40"/>non est simile.
+    </p>
+            <p xml:id="khj78y-r39517-d1e1125" n="29">
+      <!-- 29 -->Ad argumentum in oppositum est 
+       di<lb ed="#S" break="no" n="41"/>cendum, quod finalis &amp; completa remuneratio &amp; punitio 
+       malo<lb ed="#S" break="no" n="42"/>rum: non potest esse in anima solum: sed in toto composito. Et 
+      <lb ed="#S" n="43"/>qd arguitur de illis qui sunt in purgatorio qui puniuntur 
+      <lb ed="#S" n="44"/>solum in anima: dicendum, quod illi non merentur finalem 
+       punitio<lb ed="#S" break="no" n="45"/>nem cum non sint damnati simpliciter: sed saluandi: punium 
+      <lb ed="#S" n="46"/>tur tamen secundum quid, quatenus sunt debitores alicuius 
+      <lb ed="#S" n="47"/>poenae citra finalem damnatorum simpliciter, qui punientur 
+      <lb ed="#S" n="48"/>in anima &amp; corpore. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

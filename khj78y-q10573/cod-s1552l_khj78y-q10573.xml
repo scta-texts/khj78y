@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="30"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q10573"><!-- l4d3-q2 -->
+            <head xml:id="khj78y-q10573-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q10573-Hd1e103" type="question-title">
+     Utrum plures possint unum baptizare
+   </head>
+            <p xml:id="khj78y-q10573-d1e106">
+               <lb ed="#S" n="80"/>QVAESTIO sECVNDA. 
+      <lb ed="#S" n="81"/>De ministro. 
+    </p>
+            <p xml:id="khj78y-q10573-d1e113">
+               <lb ed="#S" n="82"/>Thom. 3. q. 67. art. 6. 
+    </p>
+            <p xml:id="khj78y-q10573-d1e118">
+               <lb ed="#S" n="83"/>SECVNDO Quaeritur vtrum 
+      <lb ed="#S" n="84"/>plures possint vnum baptizare. 
+      <lb ed="#S" n="85"/>Et videt, quod non, quia nec plures 
+      <lb ed="#S" n="86"/>possunt esse patres carnales 
+       v<lb ed="#S" break="no" n="87"/>nius. quare &amp;c.
+    </p>
+            <p xml:id="khj78y-q10573-d1e132" n="2">
+      <!-- 2 -->
+       CON<lb ed="#S" break="no" n="88"/>TRA, vnus potest simul 
+       ba<lb ed="#S" break="no" n="89"/>ptizare plures. ergo econuerso 
+      <lb ed="#S" n="90"/>plures vnum pari. ratione.
+    </p>
+            <p xml:id="khj78y-q10573-d1e143" n="3">
+               <lb ed="#S" n="91"/>
+               <!--3-->REsPONDEO, tria videnda sunt. Primum 
+      <lb ed="#S" n="92"/>est vtrum vnus possit baptizare simul plures. secundo, 
+      <lb ed="#S" n="93"/>an econuerso duo ex necessitate possint baptizare vnum 
+      <lb ed="#S" n="94"/>quando neuter per se potest. Tertio an plures sine 
+       neces<lb ed="#S" break="no" n="95"/>sitate possint, &amp; quomodo.
+    </p>
+            <p xml:id="khj78y-q10573-d1e159" n="4">
+      <!-- 4 -->Primo, ergo viden 
+      <lb ed="#S" n="96"/>dum est vtrum vnus possit simul plures baptizare: puta 
+      <lb ed="#S" n="97"/>vna manu vnum, &amp; alia alium, vel aspergendo. Et licet non 
+      <lb ed="#S" n="98"/>debeat hoc fieri nisi in necessitate, quando timetur, quod 
+       bapti<lb ed="#S" break="no" n="99"/>zandi non possint expectare, vel nisi dispensatiue: sicut 
+      <lb ed="#S" n="100"/>apostoli multos simul aspergebant, tamen si fiat, posset 
+       vi<lb ed="#S" break="no" n="101"/>deri verus baptismus esse, quod probat.
+    </p>
+            <p xml:id="khj78y-q10573-d1e177" n="5">
+      <!--5-->Primo 
+      <lb ed="#S" n="102"/>quia sicut vnus sacerdos potest simul plures hostias consecra 
+      <lb ed="#S" n="103"/>re, sic &amp; vnus plures potest baptizare. Et licet non sit 
+       si<lb ed="#S" break="no" n="104"/>mile, quo ad terminum. ad quem finalem, qui est vnus in eu 
+      <lb ed="#S" n="105"/>charistia, non autem in baptismo: tamen est simile quo ad ter 
+      <lb ed="#S" n="106"/>minum, a quo, &amp; ad quem immediate attingit sacramentum hic, &amp; 
+      <lb ed="#S" n="107"/>ibi: quia diuersae sunt materiae hinc inde licet sit dissimile 
+      <lb ed="#S" n="108"/>in in forma, quia illa aequaliter respicit plures materias 
+      <lb ed="#S" n="109"/>&amp; vnam: ista autem non·
+    </p>
+            <p xml:id="khj78y-q10573-d1e199" n="6">
+      <!-- 6 -->secundo, quia sicut 
+       v<lb ed="#S" break="no" n="110"/>nus potest vno actu simul multos generare, &amp; mater con 
+      <lb ed="#S" n="111"/>cipere, vt patet in gemellis, ita &amp; hic.
+    </p>
+            <p xml:id="khj78y-q10573-d1e208" n="6">
+      <!-- 6 -->Tertio, 
+      <lb ed="#S" n="112"/>quia vnus potest plures simul de sacro fonte leuare: 
+       igi<lb ed="#S" break="no" n="113"/>tur &amp; baptizare. sed hic posset dici, quod non est simile, quia 
+      <lb ed="#S" n="114"/>susceptio non est de essentia, nec suscipiens, sicut baptizans.  
+    </p>
+            <p xml:id="khj78y-q10573-d1e220" n="8">
+               <lb ed="#S" n="115"/>
+               <!-- 8 -->sED Contra hoc videtur esse, quia licet sint hic 
+      <lb ed="#S" n="116"/>duae materiae, &amp; duae aspersiones, vel immersiones, quia 
+      <lb ed="#S" n="117"/>cum vna manu potest vnum aspergere, vel immergere, 
+      <lb ed="#S" n="118"/>&amp; cum alia alium: sed tamen non potest simul proferre duas 
+       for<lb ed="#S" break="no" n="119"/>mas. Et cum duarum rerum non sit vna forma, difficile 
+      <lb ed="#S" n="120"/>videtur, quomodo  simul vnus conferat duo baptismata: quod 
+      <lb ed="#S" n="121"/>tamen necesse est, si sint duo baptizati, maxime si ponatur 
+      <lb ed="#S" n="122"/>virtus esse in sacramento subiectiue, &amp; intinsece, quia 
+       vir<lb ed="#S" break="no" n="123"/>tus differens solo numero non potest esse simul in eodem. 
+    </p>
+            <p xml:id="khj78y-q10573-d1e244" n="9">
+               <lb ed="#S" n="124"/>
+               <!-- 9 -->sed ad hoc posset dici, quod licet sit vna oratio 
+       se<lb ed="#S" break="no" n="125"/>cundum esse naturale cum profertur simul super duos 
+      <lb ed="#S" n="126"/>baptizandos: est tamen duplex secundum esse signi, secundum 
+      <lb ed="#S" n="127"/>hoc est in ea duplex virtus.
+    </p>
+            <p xml:id="khj78y-q10573-d1e257" n="10">
+      <!-- 10 -->sed haec solutio 
+      <lb ed="#S" n="128"/>non valet: quia esse signi est esse rationis in oratione, quo 
+      <!--0031.xml-->
+      <pb ed="#S" n="31"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>multiplicato non multiplicatur virtus realis: maxime 
+      <lb ed="#S" n="2"/>cum in naturalibus materia numeretur a forma substan 
+      <lb ed="#S" n="3"/>tiali, a qua distinguitur, &amp; econuerso forma 
+       accidenta<lb ed="#S" break="no" n="4"/>lis a materia in qua. sed neutro modo est de materia, 
+      <lb ed="#S" n="5"/>&amp; forma in sacramentis, cum forma per se, &amp; ex se habeat vnita 
+      <lb ed="#S" n="6"/>tem, &amp; non ex matersa, &amp; econuerso materia ex se non ex 
+      <lb ed="#S" n="7"/>forma. Vnde licet sit duplex materia, sicut duplex ablu 
+      <lb ed="#S" n="8"/>tio, siue duples immercio, quando vnus simul baptizat 
+      <lb ed="#S" n="9"/>duos vna tamen est oratio, &amp; per consequens forma: quia solum 
+      <lb ed="#S" n="10"/>vnum verbum iterat, vel explicite dicendo te, &amp; te: vel impli 
+      <lb ed="#S" n="11"/>cite cum dicet, Baptizo vos: Caetera remanent vna, non duo. 
+    </p>
+            <p xml:id="khj78y-q10573-d1e294" n="11">
+               <lb ed="#S" n="12"/>
+               <!-- 11 -->ET Ideo est dicendum, quod licet sit forma vna 
+       ma<lb ed="#S" break="no" n="13"/>terialiter: est tamen plures virtualiter realiter: ita, quod 
+       forma<lb ed="#S" break="no" n="14"/>liter non sunt subiectiue in ea plures virtutes: sed vna 
+      <lb ed="#S" n="15"/>virtus numero, quia est in eodem subiecto, &amp; sic non potest 
+      <lb ed="#S" n="16"/>multiplicari. sed effectus eius est duplex secundum duo 
+      <lb ed="#S" n="17"/>subiecta, sicut ab vno calore: in igne est vnum calefacere: 
+      <lb ed="#S" n="18"/>sed ab eodem sunt duo calere in duobus calefactis: ita, &amp; 
+      <lb ed="#S" n="19"/>hic.
+    </p>
+            <p xml:id="khj78y-q10573-d1e316" n="12">
+      <!-- 12 -->Ad formam ergo posset dici, quod ad hoc, quod 
+      <lb ed="#S" n="20"/>sint duo baptizati: non oportet, quod sint duo baptismata 
+      <lb ed="#S" n="21"/>formaliter, sed solum virtualiter. Videtur, tamen tutius, &amp; ma 
+      <lb ed="#S" n="22"/>gis consonum doctrinae communi, quod non sint de lege commu 
+      <lb ed="#S" n="23"/>ni plures baptizandi, nisi pluribus baptismis formaliter, 
+      <lb ed="#S" n="24"/>&amp; materialiter. Vnde super duos non sufficit dicere semel 
+      <lb ed="#S" n="25"/>baptizo vos, nec baptizo te, &amp; cum distinctus baptismus 
+      <lb ed="#S" n="26"/>debeat habere disticta, &amp; explicita verba.
+    </p>
+            <p xml:id="khj78y-q10573-d1e336" n="13">
+      <!-- 13 -->Ad 
+      <lb ed="#S" n="27"/>primum, &amp; tertium in contrarium solutum est.
+    </p>
+            <p xml:id="khj78y-q10573-d1e344" n="14">
+      <!-- 14 -->Ad se 
+      <lb ed="#S" n="28"/>cundu potest dici, quod non sequitur, si ita est in generatio 
+      <lb ed="#S" n="29"/>ne carnali, quod ita sit in spirituali, quae in pluribus 
+       dif<lb ed="#S" break="no" n="30"/>fert, quam conueniat· Prima tamen opinio communiter tenetur. 
+    </p>
+            <p xml:id="khj78y-q10573-d1e355" n="15">
+               <lb ed="#S" n="31"/>
+               <!-- 15 -->sECVNDO, videndum est, an in necessitate 
+      <lb ed="#S" n="32"/>mutus, &amp; mancus possint baptizare, vnus dicendo, alius 
+      <lb ed="#S" n="33"/>agendo. Et videtur, quod non, quia neuter facit totum, sed 
+       par<lb ed="#S" break="no" n="34"/>tem tantum.
+    </p>
+            <p xml:id="khj78y-q10573-d1e368" n="16">
+      <!-- 16 -->CONTRA est decretum. 23. 
+       di<lb ed="#S" break="no" n="35"/>stin. cap. quorundam.
+    </p>
+            <p xml:id="khj78y-q10573-d1e375" n="17">
+      <!-- 17 -->AD Hoc posset dici, quod 
+      <lb ed="#S" n="36"/>in sacramento, quod non est necessitatis vnus debet facere 
+      <lb ed="#S" n="37"/>totum, vt in sacramento ordinis, &amp; confirmationis, &amp; extremae 
+      <lb ed="#S" n="38"/>vnctionis: sicut in casu decreti allegati, vbi dicit, quod 
+       cae<lb ed="#S" break="no" n="39"/>cus ordinabat, &amp; alius legebat, &amp; nulla fuit ordinatio: 
+      <lb ed="#S" n="40"/>sed secus est de baptismo, quod est sacramentum necessitatis. 
+       sa<lb ed="#S" break="no" n="41"/>cramentum enim, quod non est necessitatis melius omittit, 
+      <lb ed="#S" n="42"/>quam quod inordinate conferebatur. sed in sacramentis necessitatis pro 
+      <lb ed="#S" n="43"/>pter necessitatem licite potest omitti quicquid non est de sub 
+      <lb ed="#S" n="44"/>stantia. Cum igitur vnitas ministri non sit de substantia 
+       sa<lb ed="#S" break="no" n="45"/>cramenti, vt dicunt communiter omnes. ergo in 
+       necessita<lb ed="#S" break="no" n="46"/>te, licet duos concurrere, si vnus non possit facere, totum 
+      <lb ed="#S" n="47"/>faciat quilibet, quod potest: ita tamen quod non sit mendacium: 
+      <lb ed="#S" n="48"/>quia hoc est de substantia cuiussibet sacramenti veritatis, quod 
+      <lb ed="#S" n="49"/>non sit ibi mendacium nec falcitas in forma, nec in 
+       ma<lb ed="#S" break="no" n="50"/>teria: ita quod sicut ex falsa, &amp; non vera materia nihil 
+       agi<lb ed="#S" break="no" n="51"/>tur: sic nec ex falsa forma. Dicet ergo mancus in forma 
+      <lb ed="#S" n="52"/>Graecorum muto immergente baptizetur seruus Christi 
+      <lb ed="#S" n="53"/>&amp;c. &amp; tunc non est mendacium, vel dicat iste baptizat te 
+      <lb ed="#S" n="54"/>&amp;c. si enim expressio ministri non est necessaria, non re 
+      <lb ed="#S" n="55"/>fert in quacumq, persona exprimatur im prima, vel in tertia, 
+      <lb ed="#S" n="56"/>vel potest dici, quod solus mutus baptizabit, &amp; quod non po 
+      <lb ed="#S" n="57"/>test dicere verbo dicat nutu, &amp; sufficit. Non enim est 
+       ver<lb ed="#S" break="no" n="58"/>bum magis de substantia huiusmodi sacramenti, quam aliorum: sed 
+       vide<lb ed="#S" break="no" n="59"/>mus in sacramento poenitentiae, quod mutus potest confiteri, &amp; for 
+      <lb ed="#S" n="60"/>te absoluere per nutum. &amp; signa, quae sunt verba interpretati 
+      <lb ed="#S" n="61"/>ua: quia sacramentum necessitatis debet esse omnibus com 
+      <lb ed="#S" n="62"/>munc: nec refert vtrum populus voluntatem suam declaret ver 
+      <lb ed="#S" n="63"/>bis, aut factis. ergo a simili in baptismo. Item in matrimo 
+      <lb ed="#S" n="64"/>nio, quod non est sacramentum necescitatis, sufficiunt nutus 
+       in<lb ed="#S" break="no" n="65"/>ter mutos: imo etiam non mutis: dum tamen per exteriora ex 
+      <lb ed="#S" n="66"/>primatur consensus, vt puella verecunda sine verbo contra 
+      <lb ed="#S" n="67"/>hit. ergo multo magis in sacramento necessitatis: &amp; quan 
+      <!--0031.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>do mutus confert, qui loqui non potest. sed quibusdam non 
+      <lb ed="#S" n="69"/>videtur verum, quod dictum est de absolutione, quod in 
+       neces<lb ed="#S" break="no" n="70"/>sitate potest fieri per mutum, sicut confessio. Dicunt enim, quod 
+      <lb ed="#S" n="71"/>non est simile: quia illud est ex parte suscipientis in quo, 
+      <lb ed="#S" n="72"/>sufficit, quod faciat, quod potest, non sic autem est ex parte 
+       mi<lb ed="#S" break="no" n="73"/>nistrantis.
+    </p>
+            <p xml:id="khj78y-q10573-d1e466" n="18">
+      <!-- 18 -->sed videt, quod imo cum confessio sit 
+      <lb ed="#S" n="74"/>ita de substantia, sicut absolutio, &amp; confessio magis sit per 
+      <lb ed="#S" n="75"/>se actus oris, quam absolutio, sed confessio potest fieri in 
+       neces<lb ed="#S" break="no" n="76"/>sitate scripto, &amp; nutu. ergo pari ratione absolutio. 
+    </p>
+            <p xml:id="khj78y-q10573-d1e477" n="19">
+               <lb ed="#S" n="77"/>
+               <!-- 19 -->Praeterea licet homo debeat confiteri solus extram 
+      <lb ed="#S" n="78"/>de poenitentiis. c. Omnis vtriusque sexus. tamen in necessitate 
+      <lb ed="#S" n="79"/>potest confiteri non solus: puta per interpretem, quando nescit 
+      <lb ed="#S" n="80"/>loqui. Ita &amp; hic, licet debeat solus baptizare, si tamen non po 
+      <lb ed="#S" n="81"/>test: potest cum alio, &amp; per alium.
+    </p>
+            <p xml:id="khj78y-q10573-d1e494" n="20">
+      <!-- 20 -->Praeterea in 
+      <lb ed="#S" n="82"/>quibusdam ordinibus episcopus dicit verba, &amp; 
+       archidiaco<lb ed="#S" break="no" n="83"/>nus tradit materiam. ergo non est de substantia sacramenti 
+       v<lb ed="#S" break="no" n="84"/>nitas ministri etiam in voluntariis: imo alius adhibet 
+       ma<lb ed="#S" break="no" n="85"/>teriam, alius profert formam.
+    </p>
+            <p xml:id="khj78y-q10573-d1e507" n="21">
+      <!-- 21 -->Praeterea sicut di 
+      <lb ed="#S" n="86"/>ctum est in matrimonio, puella verecunda nullum signum 
+      <lb ed="#S" n="87"/>exterius ostendit, sed alius coram ipsa profert verba, &amp; ipsa in 
+      <lb ed="#S" n="88"/>teriusconsentit, &amp; praebet materiam, &amp; ille profert formam. 
+    </p>
+            <p xml:id="khj78y-q10573-d1e518" n="22">
+               <lb ed="#S" n="89"/>
+               <!-- 22 -->Praeter ea, quae non sunt de substantia sacramenti 
+       pos<lb ed="#S" break="no" n="90"/>sunt mutari propter necessitatem, sicut si sacerdos celebrans 
+      <lb ed="#S" n="91"/>moriatur: alius debet supplere vicem eius, non obstante, 
+      <lb ed="#S" n="92"/>quod requirat per se vnitatem ministri: ita etiam in proposito 
+       e<lb ed="#S" break="no" n="93"/>runt duo simul, sicut &amp; ibi duo successiue
+    </p>
+            <p xml:id="khj78y-q10573-d1e534" n="23">
+      <!-- 23 -->
+       Prae<lb ed="#S" break="no" n="94"/>terea vnitas ministri, vel pluralitas non est de substantia: 
+      <lb ed="#S" n="95"/>quia vnus potest baptizare vnum, vel duos, &amp; duo 
+       pos<lb ed="#S" break="no" n="96"/>sunt baptizare vnum. ergo accidit vnitas, vel pluralitas, 
+      <lb ed="#S" n="97"/>&amp; per consequens accidit, quod totum fiat ab vno, vel a duobus. 
+      <lb ed="#S" n="98"/>Et sicut quidam arguunt, quod quando duo baptizant, &amp; vterque 
+       di<lb ed="#S" break="no" n="99"/>cit totum, non refert vtrum in plurali, vel in singulari: quia 
+      <lb ed="#S" n="100"/>pluralitas, &amp; singularitas ministrorum accidit, &amp; per 
+       con<lb ed="#S" break="no" n="101"/>sequens pluralitas vocum, &amp; singularitas, ita accidit, quando 
+      <lb ed="#S" n="102"/>duo concurrunt, quod vterque dicat, &amp; faciat totum: dum tamen a 
+      <lb ed="#S" n="103"/>duobus fiat totum, siue totaliter, siue particulariter. 
+    </p>
+            <p xml:id="khj78y-q10573-d1e560" n="24">
+               <lb ed="#S" n="104"/>
+               <!-- 24 -->Quod tamen argutum est posse baptizari in necessita 
+      <lb ed="#S" n="105"/>te per mutu, siue verbo non intelligatur dictum assertiue, 
+      <lb ed="#S" n="106"/>nec etiam opinatiue, sed disputando, &amp; inquirendo sub 
+       du<lb ed="#S" break="no" n="107"/>bio, relinquendo ecclesiae declarandae. Nec videtur 
+       declara<lb ed="#S" break="no" n="108"/>tum per decretalem, quae dicit, quod etiam in casu immersus ni 
+      <lb ed="#S" n="109"/>hil dicendo non est baptizatus, quia loquitur vbi immer 
+      <lb ed="#S" n="110"/>gens poterat proferre, sed non protulit. Nos autem quaerim 
+      <lb ed="#S" n="111"/>de muto, qui proferre non potest, aut de idiota, qui proferre 
+      <lb ed="#S" n="112"/>nescit aliquo modo.
+    </p>
+            <p xml:id="khj78y-q10573-d1e584" n="25">
+      <!-- 25 -->securius tamen est tenere, quod 
+      <lb ed="#S" n="113"/>nullo modo mutus potest baptizare, nec solus, nec cum man 
+      <lb ed="#S" n="114"/>co. Et hoc magis ex determinatione ecclesiae, quam ex 
+       ratio<lb ed="#S" break="no" n="115"/>ne, quia ecclesia tenet, quod si vetula baptizauerit puerum 
+       cre<lb ed="#S" break="no" n="116"/>dens eum statim moriturum, &amp; omiserit per ignorantiam 
+      <lb ed="#S" n="117"/>aliquid de substantia, quod puer de nouo baptizet, &amp; sic 
+       ne<lb ed="#S" break="no" n="118"/>cessitas baptizandi, &amp; nescientia baptizantis non faciunt, quod 
+      <lb ed="#S" n="119"/>substantialia verborum possunt dimitti. Illa autem 
+       nescien<lb ed="#S" break="no" n="120"/>tia causat impotentiam. Nam quantum ad formam ignoratam 
+      <lb ed="#S" n="121"/>proferendam: ita est impotens, qui ignorat, sicut mutus. 
+       er<lb ed="#S" break="no" n="122"/>go in nulla necessitate potest esse baptismus sine verbo, 
+       si<lb ed="#S" break="no" n="123"/>cut nec sine aqua in quacunque necessitate pueri, nec in 
+      <lb ed="#S" n="124"/>quacumque impotentia ministri. Quare autem aliud sit in 
+       mri<lb ed="#S" break="no" n="125"/>monio, &amp; confessione difficile est videre·
+    </p>
+            <p xml:id="khj78y-q10573-d1e618" n="26">
+      <!-- 26 -->
+       TER<lb ed="#S" break="no" n="126"/>TIO, videndum est, vtrum si duo ex contentione simul 
+       ve<lb ed="#S" break="no" n="127"/>lint baptizare, &amp; proferant simul verba, &amp; simul 
+       immer<lb ed="#S" break="no" n="128"/>tur esse duo baptismata ex duabus formis, &amp; materiis, &amp; 
+      <lb ed="#S" n="129"/>intentionibus. sed quia subiectum est vnum, nec est capax ni 
+      <lb ed="#S" n="130"/>si vnius: inde est, quod non est nisi vnum, prout est passum. Nec 
+      <lb ed="#S" n="131"/>est maius, quia non recipit magis, &amp; minus, sicut si eius, quod 
+      <lb ed="#S" n="132"/>est calidum in penultimo gradu adhibeantur duo 
+       calefacti<lb ed="#S" break="no" n="133"/>gant, vtrum sit baptismus.
+    </p>
+            <p xml:id="khj78y-q10573-d1e640" n="27">
+      <!-- 27 -->Dicendum, quod si qui 
+      <lb ed="#S" n="134"/>libet intendat per se baptizare, &amp; non cum alio: tunc viden- 
+      <!--0032.xml-->
+      <pb ed="#S" n="32"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>da, quorum quodlibet esset per se sufficiens, esset calefa 
+      <lb ed="#S" n="2"/>ctio ab ambobus, quia aequalis virtutis, &amp; aequaliter ap 
+      <lb ed="#S" n="3"/>proximata, nec se mutuo impediunt. Item esset vna 
+       cale<lb ed="#S" break="no" n="4"/>factio: ex qua esset vnum calefactibile, qu' non potest simul 
+      <lb ed="#S" n="5"/>moueri pluribus motibus eiusdem rationis. Nec esset 
+       in<lb ed="#S" break="no" n="6"/>tentior quia supremus gradus, qui solus restat, non potest 
+      <lb ed="#S" n="7"/>esse intensior. Vnde non plus fieret a duobus, quam ab vno, quis 
+      <lb ed="#S" n="8"/>in quolibet per se esset virtus sufficiens.
+    </p>
+            <p xml:id="khj78y-q10573-d1e671" n="28">
+      <!-- 28 -->si autem 
+      <lb ed="#S" n="9"/>duo ex intentione vnum baptismum conferendi simul bartiza 
+      <lb ed="#S" n="10"/>rent: vtrum sit vnus baptismus: est duplex opinio. Vna, quae 
+      <lb ed="#S" n="11"/>dicit, quod nullo modo sic duo possint baptizare, propter 
+      <lb ed="#S" n="12"/>duo. Primu est. quia actus, qui ab vno agente expleri potest, 
+      <lb ed="#S" n="13"/>non progreditur a pluribus simul iunctis, sed vnus solus 
+      <lb ed="#S" n="14"/>potest baptizare. ergo plures non possunt ad eundem baptis 
+      <lb ed="#S" n="15"/>mum concurrere. secundum est, quia mutata forma 
+       baptis<lb ed="#S" break="no" n="16"/>mi, non videtur, quod sit verus baptismus: sed qum duo sic 
+       ba<lb ed="#S" break="no" n="17"/>ptizant vnum, dicentes: Nos baptizamus te, mutatur 
+       for<lb ed="#S" break="no" n="18"/>ma baptismi: forma enim baptismi est: Ego baptizo te. 
+      <lb ed="#S" n="19"/>ista autem: Nos baptizamus, non resoluit in istas: Ego ba 
+      <lb ed="#S" n="20"/>ptizo, &amp; ego baptizo: sed in istas: Ego baptizo, &amp; ille 
+       ba<lb ed="#S" break="no" n="21"/>ptizat, &amp; vtrobiq, est mutatio formae. ergo non est verus 
+      <lb ed="#S" n="22"/>baptismus.
+    </p>
+            <p xml:id="khj78y-q10573-d1e706" n="29">
+      <!-- 29 -->sed quidam rationes istas 
+       annu<lb ed="#S" break="no" n="23"/>lant dicentes eas non concludere. Prima non: quia licet in 
+       agen<lb ed="#S" break="no" n="24"/>tibus per naturam actus, qui potest expleri per vnum non 
+      <lb ed="#S" n="25"/>possit progredi a pluribus simul iunctis, vel si iungantur, 
+      <lb ed="#S" n="26"/>perfectior est effectus duorum, quam vnius, vt patet de duab 
+      <lb ed="#S" n="27"/>candelis illuminantibus domum, quae causant lumen 
+       in<lb ed="#S" break="no" n="28"/>tensius, quam faceret altera tantum: tamen in agentibus per vo 
+      <lb ed="#S" n="29"/>luntatem videmus contrarium. Duo enim quandoque trahunt na 
+      <lb ed="#S" n="30"/>uem remissius, quam vnus solus possit trahere: quia talia non 
+      <lb ed="#S" n="31"/>agunt, quantum possunt, sed quantum volunt. sic est de duo 
+      <lb ed="#S" n="32"/>bus baptizantibus, quia non ex necessitate naturae, sed 
+      <lb ed="#S" n="33"/>per voluntatem, &amp; libere administrant sacramentum. Et haec 
+      <lb ed="#S" n="34"/>ratio sufficiens est si in rebus sacramentalibus non sit 
+       sub<lb ed="#S" break="no" n="35"/>iectiue aliqua virtus, sed tantum virtus diuina assistat 
+       sa<lb ed="#S" break="no" n="36"/>cramentis ex pactione ad causandum effectum sacramenti: quia 
+      <lb ed="#S" n="37"/>tunc eadem virtus est non multiplicata, nec intensa, quae 
+       cau<lb ed="#S" break="no" n="38"/>sat effectum sacramenti, siue ministret ab vno, siue a 
+       pluri<lb ed="#S" break="no" n="39"/>bus. Et ideo non oportet baptismum, vel eius effectum esse 
+      <lb ed="#S" n="40"/>perfectiorem, qui confertur ab vno, quam qui confertur a pluri 
+      <lb ed="#S" n="41"/>bus. si vero sit in sacramentis subiectiue aliqua virtus: tunc di 
+      <lb ed="#S" n="42"/>cta responsio non valeret: quia licet minister voluntarie 
+       ap<lb ed="#S" break="no" n="43"/>plicet formam baptismi ad materiam, &amp; ad baptizandum tamen 
+      <lb ed="#S" n="44"/>virtus, quae est in rebus, &amp; verbis sacramentalibus ex 
+       ne<lb ed="#S" break="no" n="45"/>cessitate operatur. Propter quod talis virtus 
+       multiplica<lb ed="#S" break="no" n="46"/>ta habebit perfectiorem effectum, quam simplex. Et ideo plurifi 
+      <lb ed="#S" n="47"/>catis verbis sacramentalibus, &amp; per consequens virtutibus 
+       exi<lb ed="#S" break="no" n="48"/>stentibus in eis, sequeret, quod talis baptismus, &amp; eius 
+       effe<lb ed="#S" break="no" n="49"/>ctus esset perfectior, quae si esset ab vno solo, quod est 
+       incon<lb ed="#S" break="no" n="50"/>uemiens-
+    </p>
+            <p xml:id="khj78y-q10573-d1e771" n="30">
+      <!-- 30 -->secunda ratio, vt dicunt, nihil cogit: 
+      <lb ed="#S" n="51"/>quia mutatio formae baptismi quantu ad illud, quod non est de 
+      <lb ed="#S" n="52"/>necessitate formae non euacuat sacramentum: nunc autem sic est, q 
+      <lb ed="#S" n="53"/>expressio baptizantis secundum quancuq, personam, prima, 
+      <lb ed="#S" n="54"/>secundam, &amp; tertiam, non est de necessitate baptismi, 
+       alio<lb ed="#S" break="no" n="55"/>quin Graeci non vere baptizarent. ideo mutatio sormae, quam 
+      <lb ed="#S" n="56"/>tum ad hoc in nullo obest sabro.
+    </p>
+            <p xml:id="khj78y-q10573-d1e789" n="31">
+      <!-- 31 -->sED Con 
+      <lb ed="#S" n="57"/>tra ista arguitur, quia idem videt sequi, si sit ibi virtus, quia 
+      <lb ed="#S" n="58"/>sicut illa virtus, vel non est ibi, vel non operatur ibi, nisi sit 
+      <lb ed="#S" n="59"/>in ministro intentio conferendi sacramentum: sic videtur, q 
+      <lb ed="#S" n="60"/>non sit ibi, nisi vna virtus, vel non habeat, nisi vnum 
+       effe<lb ed="#S" break="no" n="61"/>ctum: si in ministris non sit intentio conferendi, nisi vnum 
+      <lb ed="#S" n="62"/>sacramentum. Ab illo enim habet aliquid vnitatem a quo entitatem. 
+      <lb ed="#S" n="63"/>Vnde sicut non habet entitatem, nisi ab intentione: sic nec 
+      <lb ed="#S" n="64"/>pluralitatem, nisi ab intentione. Et sicut est vna virtus in 
+      <lb ed="#S" n="65"/>forma, &amp; materia, quae sunt distincta supposita: quia est vna 
+      <lb ed="#S" n="66"/>non numero, sed ordine, sic est vna in duabus istis 
+       ora<lb ed="#S" break="no" n="67"/>tionibus, a duobus prolatis proter vnitatem intentionis. sed 
+      <!--0032.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>verius est, quod in duabus suppositis absolutis non possit 
+       si<lb ed="#S" break="no" n="69"/>mul esse vna virtus realis, quando illa sunt discontinua. sed 
+      <lb ed="#S" n="70"/>sicut duo calores calefactiuorum duorum non faciunt, nisi 
+      <lb ed="#S" n="71"/>vnum calorem in vno calefactibili: sic duae virtutes in istis 
+      <lb ed="#S" n="72"/>duabus formis non habent nisi vnum effectu: tum propter vni 
+      <lb ed="#S" n="73"/>tatem subiecti: tum propter vnitatem intentionis. Nec est verum 
+      <lb ed="#S" n="74"/>quod ista virtus habeat vnitatem ab intentione ministri, nisi 
+      <lb ed="#S" n="75"/>sicut a causa, sine qua non, nec similiter effectum vnum, sed 
+      <lb ed="#S" n="76"/>virtus, &amp; effectus numerantur numero subiecti. 
+    </p>
+            <p xml:id="khj78y-q10573-d1e842" n="32">
+               <lb ed="#S" n="77"/>
+               <!-- 32 -->secundum bene refellit, quia sicut propositio illa, 
+      <lb ed="#S" n="78"/>prout profertur ab isto resoluitur in hanc: Ego baptizo. &amp; il 
+      <lb ed="#S" n="79"/>le baptizat: sic econuerso, prout profertur ab alio, &amp; sic 
+       pri<lb ed="#S" break="no" n="80"/>ma forma seruatur.
+    </p>
+            <p xml:id="khj78y-q10573-d1e855" n="33">
+      <!-- 33 -->Et praeterea est idem sensus 
+      <lb ed="#S" n="81"/>in quacunque persona proferatur. sed si dicat quilibet: Ego te 
+      <lb ed="#S" n="82"/>baptizo: vnus prius, alter posterius, &amp; quilibet ex 
+       con<lb ed="#S" break="no" n="83"/>tentione intendat per se baptizare, primus baptizat, &amp; 
+       secun<lb ed="#S" n="84" break="no"/>dus iterat, &amp; quamuis non ex intentione: tamen puniendus est, &amp; si 
+      <lb ed="#S" n="85"/>non aeque. si autem intentio eorum non esset contendere, sed 
+      <lb ed="#S" n="86"/>simul vnum baptisma conferre: tunc sicut a 
+       concelebranti<lb ed="#S" break="no" n="87"/>bus episcopo ordinanti est vnum sacramentu ex 
+       intentio<lb ed="#S" break="no" n="88"/>ne: sic &amp; in proposito quamuis vnus ante alium diceret: quia prae 
+      <lb ed="#S" n="89"/>ter intentionem non operatur sacramentum principalem, &amp; essetialem ef 
+      <lb ed="#S" n="90"/>fectum. sed puniendi sunt simul baptizantes: non simul ce 
+      <lb ed="#S" n="91"/>lebrantes: quia illud est consuetum ab ecclesia: istud non. Vnde 
+      <lb ed="#S" n="92"/>quando, &amp; vbi mos erat, crimen non erat.
+    </p>
+            <p xml:id="khj78y-q10573-d1e886" n="34">
+      <!-- 34 -->sed Tho. 
+      <lb ed="#S" n="93"/>dicit, quod si dicunt: Nos baptizamus te. non valet. Et ratio 
+      <lb ed="#S" n="94"/>eius est, quia homo non baptizat, nisi vt minister Christi, 
+      <lb ed="#S" n="95"/>&amp; eius vices gerens, sed Christus est vnus. ergo oportet 
+      <lb ed="#S" n="96"/>ministrum, qui Christum representat, esse vnum. Propter 
+      <lb ed="#S" n="97"/>quod signanter dicit apostolus ad Ephe. 5. Vnus Deus, 
+      <lb ed="#S" n="98"/>vna fides, vnum baptisma. sed cum dicitur: Nos baptiza 
+      <lb ed="#S" n="99"/>mus te, talis intentio exprimitur sic, quod plures, vt plures 
+       con<lb ed="#S" n="100" break="no"/>ueniunt ad vnum baptismum conferendum: quod videtur esse 
+       con<lb ed="#S" n="101" break="no"/>tra rationem ministerij. Et ideo contraria intentio videtur 
+       ex<lb ed="#S" break="no" n="102"/>cludere sacramentum.
+    </p>
+            <p xml:id="khj78y-q10573-d1e912" n="35">
+      <!-- 35 -->sED Contra, quidam re 
+      <lb ed="#S" n="103"/>probant sic, quia aut oportet ministrum baptismi esse tantum 
+      <lb ed="#S" n="104"/>vnum realiter loquendo: aut oportet, quod quilibet minister 
+      <lb ed="#S" n="105"/>exprimat se, vt vnum. si primum dicatur contradicit primo di 
+      <lb ed="#S" n="106"/>cto eorum, quo dicunt, quod plures possunt eundem baptizare, 
+      <lb ed="#S" n="107"/>si quilibet eorum dicat: Ego baptizo te. si secundum 
+       dica<lb ed="#S" break="no" n="108"/>tur, non est rationabile: primo, quia non est de 
+       necessita<lb ed="#S" break="no" n="109"/>te sacri, quod minister exprimatur: vt patet ex forma 
+       Graeco<lb ed="#S" break="no" n="110"/>rum, qui vere baptizant. ergo non oportet, quod minister ex 
+      <lb ed="#S" n="111"/>primatur, nec singulariter, nec pluraliter. secundo, quia si 
+       o<lb ed="#S" break="no" n="112"/>portet ministrum exprimi secundum congruentiam ad prin. 
+      <lb ed="#S" n="113"/>cipale agens: tunc cum minister baptismi non sit tantum 
+       mi<lb ed="#S" break="no" n="114"/>nister Christi, sed trium personarum in Trinitate, vt patet 
+      <lb ed="#S" n="115"/>ex forma baptismi: non enim dicit baptizans: Baptizo te 
+      <lb ed="#S" n="116"/>in noie Christi, sed in noie pris, &amp; filij, &amp; spussancti, con 
+      <lb ed="#S" n="117"/>gruentius esset, quod exprimeretur in prurali, quam in singulari. 
+      <lb ed="#S" n="118"/>Tertio, quia modus exprimendi ministrum per modum vnius, 
+      <lb ed="#S" n="119"/>vel plurium nihil videtur facere ad sacramentum, dummodo 
+       expri<lb ed="#S" break="no" n="120"/>matur principale agens, in cuius virtute agit minister. 
+      <lb ed="#S" n="121"/>sic enim excluditur omnis  error: qui ex expressione 
+       mini<lb ed="#S" break="no" n="122"/>stri posset contingere, quod fit cum dicit: In nomine patris. &amp;c. 
+      <lb ed="#S" n="123"/>ergo non est vis qualitercumque exprimatur persona ministri. 
+    </p>
+            <p xml:id="khj78y-q10573-d1e962" n="36">
+               <lb ed="#S" n="124"/>
+               <!-- 36 -->sED Ad ista potest dici concedendo, quod non requi 
+      <lb ed="#S" n="125"/>ritur, nec vnitas, nec expressio ministri, sed supposito, quod 
+      <lb ed="#S" n="126"/>persona ministri exprimatur: sic debet exprimi, vt conuenit 
+      <lb ed="#S" n="127"/>ministro: aliter non valet. Nam si diceret: Ego principa 
+      <lb ed="#S" n="128"/>liter baptizo te, non valeret, quia repugnat ministro, quod sit 
+      <lb ed="#S" n="129"/>principale agens. Et similiter si dicut: Nos baptizamus, 
+      <lb ed="#S" n="130"/>videt ex forma innui, quod Christus non possit operari per 
+      <lb ed="#S" n="131"/>vnum ministrum, sed tantu per duos &amp;c.
+    </p>
+            <p xml:id="khj78y-q10573-d1e984" n="37">
+      <!-- 37 -->si autem 
+      <lb ed="#S" n="132"/>dicatur, quod si duo traherent nauem solo verbo, &amp; dicerent: 
+      <lb ed="#S" n="133"/>Nos trahimus nauem duo tractus, non vnus, vel saltem 
+      <lb ed="#S" n="134"/>duo trahere actiue. ergo si dicant: Nos baptizamus, erunt 
+      <!--0033.xml-->
+      <pb ed="#S" n="33"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>duo baptismata non est simile: quia verbum est quidem 
+      <lb ed="#S" n="2"/>de essentia baptismi, sed non tota essentia, nec multiplica 
+      <lb ed="#S" n="3"/>tur res, nisi ambo principia essentialia multiplicentur. 
+      <lb ed="#S" n="4"/>Vnde fit iniuria sacramento, si forma super eandem materiam 
+       repe<lb ed="#S" break="no" n="5"/>tat. Non tamen proprie propter solam iterationem formae sacramentum 
+      <lb ed="#S" n="6"/>iterat, sed solum pars eius materialiter.
+    </p>
+            <p xml:id="khj78y-q10573-d1e1016" n="38">
+      <!-- 38 -->
+       secun<lb ed="#S" break="no" n="7"/>dum non cogit, quia principale agens in baptismo non est 
+      <lb ed="#S" n="8"/>trinitas secundum illud, quod in ea plurificatur, sed secundum 
+      <lb ed="#S" n="9"/>illud, quod est in ea vnum. Non enim agit Deus in creatu 
+      <lb ed="#S" n="10"/>ra aliquid secundum illud, quod est trinus, sed secundum illud, 
+      <lb ed="#S" n="11"/>quod est vnus, quia secundum deitatem, &amp; non secundum 
+       rela<lb ed="#S" break="no" n="12"/>tionem.
+    </p>
+            <p xml:id="khj78y-q10573-d1e1034" n="39">
+      <!-- 39 -->Ad tertium potest dici, quod, quia baptismus 
+      <lb ed="#S" n="13"/>est quaedam generatio spiritualis ea, quae in baptismo fiunt, sic de 
+      <lb ed="#S" n="14"/>bent exprimi, vt non sit repugnantia naturae. vnde cum sit con 
+      <lb ed="#S" n="15"/>tra naturam, quod vnus homo habeat duos patres naturales 
+      <lb ed="#S" n="16"/>generantes: non sic debet exprimi baptismus, quasi sint plu 
+      <lb ed="#S" n="17"/>res baptizantes, sicut nec plures patres generantes. sicut enim 
+      <lb ed="#S" n="18"/>non potest nasci a Christo, nisi qui natus est ab Adam: 
+       pu<lb ed="#S" break="no" n="19"/>ta non potest baptizari, qui adhuc est in vtero, sic nec 
+       bapti<lb ed="#S" break="no" n="20"/>zari a pluribus, sicut nec generari a pluribus: vnde &amp; ec 
+      <lb ed="#S" n="21"/>clesia prohibuit plures tenere vnum: quia non est nisi vna ma 
+      <lb ed="#S" n="22"/>ter vnius, cuius typum gerit suscipiens: persona. scilicet matris ec 
+      <lb ed="#S" n="23"/>clesiae. Non tamen potuit facere quin esset verus baptismus: 
+      <lb ed="#S" n="24"/>licet plures susciperent: quia illa susceptio nihil facit ad 
+       es<lb ed="#S" break="no" n="25"/>sentiam. sed videt esse pro opinione contraria: quia quando 
+       plu<lb ed="#S" break="no" n="26"/>res vxores simul poterant nubere vni viro: non videt, quod 
+      <lb ed="#S" n="27"/>referret an quaelibet diceret: ego accipio te in virum, an 
+      <lb ed="#S" n="28"/>nos accipimus te in virum: secundum illud Isa. 4. Inuocetur 
+      <lb ed="#S" n="29"/>nomen tuum super nos aufer opprobrium nostrum: &amp; quod dice 
+      <lb ed="#S" n="30"/>rent vir noster esto, &amp; princeps noster esto.
+    </p>
+            <p xml:id="khj78y-q10573-d1e1078" n="40">
+      <!-- 40 -->
+       Prae<lb ed="#S" break="no" n="31"/>terea sicut vnus baptizans plures diceret: Ego baptizo 
+      <lb ed="#S" n="32"/>vos, ita econuerso plures baptizantes vnum possunt 
+       dice<lb ed="#S" break="no" n="33"/>re, baptizamus te. Et si dicatur, quod vbi duo baptizantur, 
+      <lb ed="#S" n="34"/>sunt duo baptismi: vbi autem duo baptizant, est vnus tantum. 
+    </p>
+            <p xml:id="khj78y-q10573-d1e1091" n="41">
+               <lb ed="#S" n="35"/>
+               <!-- 41 -->Dicendum, quod verum est, quod in hoc exemplo est 
+       dissi<lb ed="#S" break="no" n="36"/>mile, sed propter hoc magis debet dici in plurali, quam in 
+       sin<lb ed="#S" break="no" n="37"/>gulari: quia quando quilibet dicit: baptizo te seorsum per se cum 
+      <lb ed="#S" n="38"/>vnitas, &amp; pluralitas sit a forma, videt duplex baptismus. 
+      <lb ed="#S" n="39"/>sed quando coniunguntur baptizantes in forma dicentes nos 
+      <lb ed="#S" n="40"/>baptizamus: tunc magis exprimitur vnitas baptismi: sicut 
+      <lb ed="#S" n="41"/>autem de essentia est expressio actus: sic saltem de 
+       congruen<lb ed="#S" break="no" n="42"/>tia expraessio vnitatis, vel pluralitatis actus-
+    </p>
+            <p xml:id="khj78y-q10573-d1e1113" n="42">
+      <!-- 42 -->Prae 
+      <lb ed="#S" n="43"/>terea quando sunt duo officiales, quorum quilibet est insolidum, 
+      <lb ed="#S" n="44"/>&amp; ideo tantum potest vnus quantum duo: tunc congruentior 
+      <lb ed="#S" n="45"/>modus est si ambo velint idem facere: vt dicant in 
+       plu<lb ed="#S" break="no" n="46"/>rali, mandamus, vel facimus notum, aut pronunciamus, &amp; non 
+      <lb ed="#S" n="47"/>quilibet per se dicat, mando.
+    </p>
+            <p xml:id="khj78y-q10573-d1e1129" n="43">
+      <!-- 43 -->Praeterea 
+       plura<lb ed="#S" break="no" n="48"/>le non est, nisi geminatum singulare. Idem enim sensus est 
+      <lb ed="#S" n="49"/>dicere. sor. &amp; Plato currunt, &amp; dicere. sor. currit, &amp; Pla 
+      <lb ed="#S" n="50"/>to currit, &amp; pari ratione idem est in prima persona, &amp; in 
+      <lb ed="#S" n="51"/>tertia. Vnde ex quo aequipollent in significando, &amp; in ef 
+      <lb ed="#S" n="52"/>ficiendo: quia verba sacramentalia significant, quod efficiunt: 
+      <lb ed="#S" n="53"/>vnde si idem significant, idem efficiunt. Vnde non video 
+       sup<lb ed="#S" break="no" n="54"/>posito, quod duo possint simul baptizare, quod non sit ita 
+       ba<lb ed="#S" break="no" n="55"/>ptismus, si dicant: Nos baptizamus, sicut si quilibet dice 
+      <lb ed="#S" n="56"/>ret: Ego baptizo te.
+    </p>
+            <p xml:id="khj78y-q10573-d1e1154" n="44">
+      <!-- 44 -->CONTRA hoc tamen est, 
+      <lb ed="#S" n="57"/>qa ibi plures idem sacramentum faciunt eadem verba, qlibet profert, 
+      <lb ed="#S" n="58"/>ac si solus esset sicut in ordinibus, in concelebrantibus ordinam 
+      <lb ed="#S" n="59"/>ti. ergo &amp; in proposito. sed ad hoc potest dici, quod aliud est de 
+      <lb ed="#S" n="60"/>verbis illius sacri, quae proferunt in persona Christi: quae non 
+      <lb ed="#S" n="61"/>mutat, siue sit vnus minister, siue plures. Vnde nec illa for 
+      <lb ed="#S" n="62"/>ma debet mutari mutuo numero ministrorum: sicut nec 
+      <lb ed="#S" n="63"/>apud Graecos mutaretur forma baptismi mutato numero 
+      <lb ed="#S" n="64"/>ministrorum: quia apud eos non exprimitur persona ministri. sed 
+      <lb ed="#S" n="65"/>apud nos in persona ministriiq exprimit, forma proferi: 
+      <lb ed="#S" n="66"/>vnde secundum quod numerus mutatur, ministrorum debet 
+       for<lb ed="#S" break="no" n="67"/>ma mutari: prout melius congruit veritati: vnde si ex con- 
+      <!--0033.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>tentione baptizaret, quilibet volens per se non cum alio 
+       ba<lb ed="#S" break="no" n="69"/>ptizare. tunc quilibet in singulari habet proferre. si autem 
+      <lb ed="#S" n="70"/>ambo simul concorditer velint vnum baptismum conferre 
+       con<lb ed="#S" break="no" n="71"/>gruentius dicut: Nos baptizamus, vt notet concors inten 
+      <lb ed="#S" n="72"/>tio, quam si dicant: Ego, &amp; ego, per quod notatur diuisio. Est 
+      <lb ed="#S" n="73"/>autem eadem quaestio vtru possint simul conferre, ordinare, 
+      <lb ed="#S" n="74"/>iniungere, &amp; quibus verbis: non autem de absolutione: 
+      <lb ed="#S" n="75"/>quia de eodem peccato potest aliquis bis absolui, &amp; successi 
+      <lb ed="#S" n="76"/>ue, &amp; vera est poenitentia, &amp; verum sacramentum poenitentiae secun 
+      <lb ed="#S" n="77"/>da absolutio, sicut prima: non sic autem secundus baptismus 
+      <lb ed="#S" n="78"/>sicut primus, imo non est sacramentum. Et ideo si plures 
+       sacer<lb ed="#S" break="no" n="79"/>dotes audirent simul vnam confessionem possent dicere: 
+      <lb ed="#S" n="80"/>Ego absoluo, &amp; esset congruentius si quilibet intenderet 
+      <lb ed="#S" n="81"/>dare suam propriam, &amp; distinctam absolutionem. sed si ambo 
+      <lb ed="#S" n="82"/>vnam tunc videretur: quod deberent dicere nos absoluimus, quamuis 
+      <lb ed="#S" n="83"/>substantia non muter quocumque modo dicat.
+    </p>
+            <p xml:id="khj78y-q10573-d1e1222" n="45">
+      <!-- 45 -->AD 
+      <lb ed="#S" n="84"/>argumentum dicendu, quod secundum generationem carnalem plu 
+      <lb ed="#S" n="85"/>res non possunt concurrere ad eundem generandu. Et ideo 
+      <lb ed="#S" n="86"/>secundum talem generationem aliquis non potest habere plu 
+      <lb ed="#S" n="87"/>res patres. sed secundum  generationem spiritualem plures possunt 
+      <lb ed="#S" n="88"/>concurrere ad eundem regenerandum. Nec oportet, quod sit per 
+      <lb ed="#S" n="89"/>omnia similitudo: hinc, &amp; inde quamuis posset dici, quod si duo 
+       con<lb ed="#S" break="no" n="90"/>currerent ad carnalem generationem successiue, quod semen 
+       se<lb ed="#S" break="no" n="91"/>cundi viri sic posset superuenire, quod misceretur primo, &amp; 
+      <lb ed="#S" n="92"/>ex vtroque coniuncto formaretur foetus: &amp; sic esset vnus filius 
+      <lb ed="#S" n="93"/>duorum parentum, vel si de modo succubus reciperet a duo 
+      <lb ed="#S" n="94"/>bus semina, &amp; simul custodiens coniuncta postea fieret 
+       incu<lb ed="#S" n="95" break="no"/>bus mulieris vtrunque simul infundens forte tunc generaret 
+      <lb ed="#S" n="96"/>Gigantem, &amp; maioris virtutis &amp; esset vtriusque filius vnus. 
+    </p>
+            <p xml:id="khj78y-q10573-d1e1255" n="46">
+               <lb ed="#S" n="97"/>
+               <!-- 46 -->Ad argumentum in oppositum dicendum, quod actio transi 
+      <lb ed="#S" n="98"/>ens qualis est baptizare, numeratur numero patientis: quia 
+      <lb ed="#S" n="99"/>vnum accidens non potest recipi simul in multis subiectis, nec 
+      <lb ed="#S" n="100"/>vnum subiectum secundum  idem potest simul recipere multa 
+       acciden<lb ed="#S" break="no" n="101"/>tia solo numero differentia. Non autem numeratur numero 
+      <lb ed="#S" n="102"/>agentis: cum plura possint agere vnum: vt duo trahentes vnam 
+      <lb ed="#S" n="103"/>nauem, &amp; pater, &amp; mater, qui sunt duo in carne vna ad gene 
+      <lb ed="#S" n="104"/>randum vnum foetum, &amp; vnum agens potest simul &amp; vno actu 
+       produ<lb ed="#S" break="no" n="105"/>cere pl'es effectus: &amp; vnus pater plures filios, &amp; vnus plures 
+       ba<lb ed="#S" break="no" n="106"/>ptizare, &amp; non econuerso, quia non est simile hinc inde. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

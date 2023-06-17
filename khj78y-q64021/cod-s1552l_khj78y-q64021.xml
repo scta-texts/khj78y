@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="220"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q64021"><!-- l4d17-q7 -->
+            <head xml:id="khj78y-q64021-Hd1e101">Quaestio 7</head>
+            <head xml:id="khj78y-q64021-Hd1e103" type="question-title">
+     
+       confitens et non poenitens impleat praeceptum 
+     de semel confitendo in anno
+   </head>
+            <p xml:id="khj78y-q64021-d1e106">
+               <lb ed="#S" n="108"/>QVAESTIO sEPTIMA. 
+      <lb ed="#S" n="109"/>De confessione ficti satis factenda praecepto Ecclesiae. 
+    </p>
+            <p xml:id="khj78y-q64021-d1e113">
+               <lb ed="#S" n="110"/>ID0.4. d. 17. q. 3, arg. 4
+    </p>
+            <p xml:id="khj78y-q64021-d1e118">
+               <lb ed="#S" n="111"/>QVAERITVR septimo vtrum 
+       con<lb ed="#S" break="no" n="112"/>fitens &amp; non poenitens impleat praeceptum 
+      <lb ed="#S" n="113"/>de semel confitendo in anno: Et videtur 
+      <lb ed="#S" n="114"/>quod non: quia itatuta poenalia sunt 
+       restrin<lb ed="#S" break="no" n="115"/>genda non amplianda, sed statutum de 
+       se<lb ed="#S" break="no" n="116"/>mel in anno confitendo est poenale: ergo non debet 
+       exten<lb ed="#S" break="no" n="117"/>di vltra quam sonent verba statuti, quae solum faciunt 
+       mentio<lb ed="#S" break="no" n="118"/>nem de confessione, &amp; non de contritione.
+    </p>
+            <p xml:id="khj78y-q64021-d1e139" n="2">
+      <!-- 2 -->Ad idem est o 
+      <lb ed="#S" n="119"/>Ecclesia madat confessionem recipi impoenitentis: vt habe 
+      <lb ed="#S" n="120"/>tur exrra, ue poe. &amp; re. Quoniaquide: noc aute no 
+       tace<lb ed="#S" break="no" n="121"/>ret nisi per talem confessionem impleretur praeceptum 
+       Eccle<lb ed="#S" break="no" n="122"/>siae: quare. &amp;c.
+    </p>
+            <p xml:id="khj78y-q64021-d1e152" n="3">
+      <!-- 3 -->Contra: quia intentio Ecclesiae conse 
+      <lb ed="#S" n="123"/>matur in hoo intentioni Christi statuentis sacramentum 
+       con<lb ed="#S" break="no" n="124"/>fessionis: sed illa fuit vt confitens consequeretur veniam 
+       pe<lb ed="#S" break="no" n="125"/>catoru, quae habetur per cotritionem: ergo. &amp;c.
+    </p>
+            <p xml:id="khj78y-q64021-d1e163" n="4">
+      <!-- 4 -->
+       Respon<lb ed="#S" break="no" n="126"/>deo: de ista quaestione sunt quinque modi dicendi.
+    </p>
+            <p xml:id="khj78y-q64021-d1e170">
+      <!--5. -->
+       Pri<lb ed="#S" break="no" n="127"/>mus est: quod talis implet praeceptum Ecclesiae, quia Ecclesia 
+       al<lb ed="#S" break="no" n="128"/>hil habet praecipere vel ordinare circa sacramenta, nisi ea tantum 
+      <lb ed="#S" n="129"/>quae pertinent ad exteriorem ritum, quia solum potest praecipore 
+      <lb ed="#S" n="130"/>actu: cuius transgreslorem potest punire: vt patet ex 
+       supra<lb ed="#S" break="no" n="131"/>qicris, ren cecieria no porey punare omutrente actu inte- 
+      <!--0221.xml-->
+      <pb ed="#S" n="221"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>riorem, quia de eo non potest ei constare: potest autem punire 
+      <lb ed="#S" n="2"/>omittentem actum exteriorem: ergo Ecclesia solum potest praeci 
+      <lb ed="#S" n="3"/>pere actum confessionis exteriorem non interiorem, qui est 
+       con<lb ed="#S" break="no" n="4"/>tritionis: ergo. &amp;c. sed quicquid sit de conclusione, ratio 
+      <lb ed="#S" n="5"/>tamen non cogit: quia si Ecclesia non praet praecipere, nisi actum 
+      <lb ed="#S" n="6"/>cuius transgressorem punire praet: tunc Ecclesia non praet praecipere 
+      <lb ed="#S" n="7"/>confessionem vocalem, sicut nec contritionem, quia non potest 
+      <lb ed="#S" n="8"/>iudicare an sit transgressor praecepti vel non. Nullus enim 
+      <lb ed="#S" n="9"/>tenetur ad confessionem, nisi habeat peccatum  mortale: vt 
+       di<lb ed="#S" break="no" n="10"/>ctum fuit prius: sed Ecclesiae non potest constare de aliquo 
+      <lb ed="#S" n="11"/>peccatore saltem occulto vtrum habeat peccatum mortale vel non: 
+      <lb ed="#S" n="12"/>ergo non potest iudicare, an teneatur confiteri vel non: &amp; per 
+      <lb ed="#S" n="13"/>consequens quis sit transgressor praecepti vel non. Et ita non 
+      <lb ed="#S" n="14"/>poterit praecipere confessionem vocalem: praecipit autem vt 
+      <lb ed="#S" n="15"/>ipsi dicunt: ergo praet praecipere actum cuius transgressorem non 
+      <lb ed="#S" n="16"/>potest punire. Quod tamen dicit ista opinio, quod Ecclesia non 
+      <lb ed="#S" n="17"/>potest praecipere, nisi actum exteriorem circa sacramenta, videtur 
+      <lb ed="#S" n="18"/>falsum, quia in omni materia in qua Ecclesia habet pote sta 
+      <lb ed="#S" n="19"/>tem soluendi, in illa habet potestatem ligandi. Vnde cum 
+       Eccle<lb ed="#S" break="no" n="20"/>sia absoluat non solum ab actu exteriori. i. peccato locutionis 
+      <lb ed="#S" n="21"/>&amp; operationis, sed etiam ab actu interiori. scilicet cogitationis: 
+      <lb ed="#S" n="22"/>habet enim iudicium de omni peccato in foro conscientiae: ergo in 
+      <lb ed="#S" n="23"/>eodem foro praet praecipere &amp; ligare ad actum interiorem, puta 
+      <lb ed="#S" n="24"/>iniungere pro poenitentia quod oret mentaliter: cum igitur in sacramento poenitentiae 
+      <lb ed="#S" n="25"/>Ecclesia iudicium habeat de actu interiore, non solum 
+       exte<lb ed="#S" break="no" n="26"/>riore: ergo in hoc sacramento praet praecipere non solum exteriorem, 
+      <lb ed="#S" n="27"/>qui est confessio, imo interiorem qui est contritio.
+    </p>
+            <p xml:id="khj78y-q64021-d1e251" n="6">
+      <!-- 6 -->sed 
+      <lb ed="#S" n="28"/>ad hoc posset dici, quod in foro conscientiae praet hoc praecipere: 
+      <lb ed="#S" n="29"/>sed non in foro exteriori, ad quem tamen pertinet praeceptum 
+       il<lb ed="#S" break="no" n="30"/>lius decretalis. Omnis vtriusque sexus.
+    </p>
+            <p xml:id="khj78y-q64021-d1e262" n="7">
+      <!-- 7 -->Praeterea cui 
+       ali<lb ed="#S" break="no" n="31"/>quid committii, &amp; illud sine quo exequi non praet, &amp; si alias 
+      <lb ed="#S" n="32"/>non competat. ff. de iuri. omni iudi. l. cui iurisdictio committit, 
+      <lb ed="#S" n="33"/>&amp; illa sine quibus iurisdictio explicari non praet videntur esse 
+      <lb ed="#S" n="34"/>commissa: vnde quamuis Ecclesiae non competat praecipere actum 
+      <lb ed="#S" n="35"/>interiorem: quia tamen sibi commissum est praecipere actum exterio 
+      <lb ed="#S" n="36"/>rem, &amp; per consequens illum interiorem qui necessario requiritur 
+      <lb ed="#S" n="37"/>ad hoc, quod exterior valeat, sicut si Ecclesia potest praecipere 
+      <lb ed="#S" n="38"/>orationem vocalem: licet non possit per se &amp; directe orationem 
+      <lb ed="#S" n="39"/>mentalem, nisi pro poenitentia iniungendo: tamen praecipere quod in orone 
+      <lb ed="#S" n="40"/>vocali homo habeat attentionem &amp; deuotionem, sine quibus 
+       vo<lb ed="#S" break="no" n="41"/>calis oro non valeret: extra. de cel. mis. Dolentes. Non enim 
+      <lb ed="#S" n="42"/>est dicendum, quod Ecclesia ibi praecipiat aliquid quod 
+       praecipe<lb ed="#S" break="no" n="43"/>re non possit. Vnde &amp; qui praeter praecipere, quod homo legat vel prae 
+      <lb ed="#S" n="44"/>dicet, aut disputet, quod sine studio fieri non praet: dico autem 
+      <lb ed="#S" n="45"/>sine illo studio, quod est vehemens applicatio animi: &amp; 
+      <lb ed="#S" n="46"/>non solum librorum inspectio, potest praecipere studio non 
+       so<lb ed="#S" break="no" n="47"/>lum oculi, sed animi ad hoc ipsum, &amp; quantum necesse est 
+      <lb ed="#S" n="48"/>ad illum actum.
+    </p>
+            <p xml:id="khj78y-q64021-d1e307" n="8">
+      <!-- 8 -->secundus modus dicendi est, quod talis est 
+      <lb ed="#S" n="49"/>transgressor praecepti, quod probatur sic, quia talis non 
+       ser<lb ed="#S" break="no" n="50"/>uat formam &amp; tenorem praecepti. Ibi enim continetur, quod poeni 
+      <lb ed="#S" n="51"/>tentiam sibi iniunctam studeat pro viribus adimplere, quod 
+      <lb ed="#S" n="52"/>talis non facit. Item quod conicet in paschate, quod ipse non 
+       fa<lb ed="#S" break="no" n="53"/>cit: ergo est transgressor praecepti. sed istud non videtur 
+       va<lb ed="#S" break="no" n="54"/>lere. Quod enim primo dicitur, quod talis non implet 
+       poeniten<lb ed="#S" break="no" n="55"/>tiam sibi iniunctam, dicendum quod illam implet quae iniungit, sed 
+      <lb ed="#S" n="56"/>nulla implet, quia nulla iniugitur, quia non absoluit. sed 
+      <lb ed="#S" n="57"/>&amp; si aliqua iniungit, illam explere praet.
+    </p>
+            <p xml:id="khj78y-q64021-d1e331" n="9">
+      <!-- 9 -->Item diuersa sunt 
+      <lb ed="#S" n="58"/>praecepta de confessione &amp; de expletione poenitentiae: licet in ea 
+      <lb ed="#S" n="59"/>dem decretali ponatur vtrumque. Et ideo homo praet implere primum, 
+      <lb ed="#S" n="60"/>non implendo secundum. Quod etiam subditur, quod talis non coni 
+      <lb ed="#S" n="61"/>cat: dicendum quod illud non iniungitur absolute, sed sub condi 
+      <lb ed="#S" n="62"/>tione, nisi sacerdos consulat ei abstinendum, quod debet fa 
+      <lb ed="#S" n="63"/>cere nisi sit fatuus valde, &amp; iterum quia diuersa sunt 
+       prae<lb ed="#S" break="no" n="64"/>cepta de confitendo &amp; conicando: propter quod vnum praet im 
+      <lb ed="#S" n="65"/>pleri sine altero. Non est ergo talis transgressor praecepti con 
+      <lb ed="#S" n="66"/>siderando tenorem verborum, sed dici posset praeuaricator: 
+      <lb ed="#S" n="67"/>quia non seruat verba, quae sunt quod confiteatur omnia pstam sua, 
+      <!--0221.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>quod ipse non facit, qui caelat fictionem suam, qua abutitur 
+      <lb ed="#S" n="69"/>sacro. Vnde nisi eam confiteatur transgreditur verba praecepti, 
+      <lb ed="#S" n="70"/>quo dicitur. Omnia. Item praet dici fraudator quo ad intentionem 
+      <lb ed="#S" n="71"/>non solum finis, sed materiae, quia materia debita 
+       confessio<lb ed="#S" break="no" n="72"/>nis est peccatum  contritum, vel saltem attritum. Cum enim vnus arti 
+      <lb ed="#S" n="73"/>fex tradit alteri materiam inducturo vlteriorem formam, sic 
+      <lb ed="#S" n="74"/>debet eam tradere paratam vt in materia possit alius 
+       iudu<lb ed="#S" break="no" n="75"/>cere formam. sicut ergo epraes tradit oleum consecratum 
+       sacer<lb ed="#S" break="no" n="76"/>doti pro materia extremae vnctionis, sine qua 
+       consecra<lb ed="#S" break="no" n="77"/>tione non esset materia: sic peccator confitendo debet 
+       tra<lb ed="#S" break="no" n="78"/>dere peccata absoluenda per attritionem praeparata. Nam 
+      <lb ed="#S" n="79"/>aliter non sunt materia.
+    </p>
+            <p xml:id="khj78y-q64021-d1e388" n="10">
+      <!-- 10 -->Tertius modus dicendi est, 
+      <lb ed="#S" n="80"/>quod confitens &amp; non poenitens non implet praeceptum Ecclesiae 
+      <lb ed="#S" n="81"/>de confitendo semel in anno: quia Ecclesia non praecipit 
+      <lb ed="#S" n="82"/>confessionem exteriorem, nec interiorem contritionem, sed 
+       con<lb ed="#S" break="no" n="83"/>fessionem praeceptam a Christo iubet impleri tempore 
+       deter<lb ed="#S" break="no" n="84"/>minato. scilicet in paschate, sed cum haec confessio praecepta a 
+      <lb ed="#S" n="85"/>Christo sit cum contritione, &amp; hanc non implet confitens qui non 
+      <lb ed="#S" n="86"/>est poenitens: patet quod ipse non implet illud quod Ecclesia 
+      <lb ed="#S" n="87"/>impleri iubet.
+    </p>
+            <p xml:id="khj78y-q64021-d1e410">
+      <!--11 -->sed nihilominus est contra hanc 
+       opi<lb ed="#S" break="no" n="88"/>nionem illud, quod dictum est contra primam, quod sicut Ecclesiae 
+      <lb ed="#S" n="89"/>non praet constare an aliquis sit contritus, propter quod non poene 
+      <lb ed="#S" n="90"/>contritionem sub praecepto ponere, sic Ecclesiae non potest con 
+      <lb ed="#S" n="91"/>stare an aliquis impleuerit praeceptum Christi de confessio 
+      <lb ed="#S" n="92"/>ne: ergo confessionem praeceptam a Christo non potest Eccle 
+      <lb ed="#S" n="93"/>sia ponere sub praecepto pro quocunque tpe.
+    </p>
+            <p xml:id="khj78y-q64021-d1e428" n="12">
+      <!-- 12 -->
+       Prae<lb ed="#S" break="no" n="94"/>terea tpraes secundum se non praecipitur: sed actus pro tali tempore, 
+      <lb ed="#S" n="95"/>propter quod si actus non potest praecipi, nec tpraes ad actum 
+      <lb ed="#S" n="96"/>determinari.
+    </p>
+            <p xml:id="khj78y-q64021-d1e439" n="13">
+      <!-- 13 -->sed quod hic dicit, quod Ecclesia non praee 
+      <lb ed="#S" n="97"/>praecipere nec contritionem, nec confessionem cum contritione, 
+      <lb ed="#S" n="98"/>qa non praet ei de opposito constare, contra quia Ecclesia ei qui 
+      <lb ed="#S" n="99"/>cum aliqua contraxit sponsalia praecipit, quod contrahat 
+       matri<lb ed="#S" break="no" n="100"/>monium, &amp; nisi contrahat ipsum excommunicat, &amp; tamen non praee ei 
+      <lb ed="#S" n="101"/>constare vtrum vnquam contraxerit: cum matrimonium sine 
+       consen<lb ed="#S" break="no" n="102"/>su esse non possit, &amp; minus quam de contritione, quia in foro 
+       con<lb ed="#S" break="no" n="103"/>sciae credit tam per se quam contra se, non autem in alio. similiter 
+       Ec<lb ed="#S" break="no" n="104"/>clesia praecipit ne quis mutuet sub spe lucri, &amp; contrarium 
+      <lb ed="#S" n="105"/>facientem iudicat vsurarium: &amp; tamen vsura sola spe committit, 
+      <lb ed="#S" n="106"/>similiter simonia: &amp; tamen tales punit. Et si dicatur quomodo punit 
+      <lb ed="#S" n="107"/>si non constat: dicendum, quod sicut percutiens clericum ipso facto 
+      <lb ed="#S" n="108"/>est excommunicatus, sine hoc quod probetur vel probari possit: sic 
+      <lb ed="#S" n="109"/>etiam est de poenis in quibus est canon latae sententiae, quae 
+       pro<lb ed="#S" break="no" n="110"/>bationem non exigunt, sed solum facti veritatem.
+    </p>
+            <p xml:id="khj78y-q64021-d1e475" n="14">
+      <!-- 14 -->Praeterea 
+      <lb ed="#S" n="111"/>talia probantur per praesumptiones. sicut si aliquis per verba 
+      <lb ed="#S" n="112"/>de poeniti contrahat, praesumitur quod consenserit. Et similiter si 
+       con<lb ed="#S" n="113" break="no"/>fiteatur praesumitur quod conteritur. si autem ad sacerdotem non 
+       ve<lb ed="#S" n="114" break="no"/>niat, neque se praesntet saltem dicens se non habere cui confiteatur: 
+      <lb ed="#S" n="115"/>eo ipso praesumit transgressor, &amp; praet puniri.
+    </p>
+            <p xml:id="khj78y-q64021-d1e491" n="15">
+      <!-- 15 -->Praeterea 
+      <lb ed="#S" n="116"/>in foro conscientiae si confiteatur, quod protulit verba contrabentis 
+      <lb ed="#S" n="117"/>matrimonium, &amp; non habuit animum, confessor debet 
+       iudica<lb ed="#S" break="no" n="118"/>re, quod non impleuit praeceptum Ecclesiae &amp; quod est excommunicatus, 
+      <lb ed="#S" n="119"/>quia Ecclesia praecipit ei, quod reddat debitum. Non est autem 
+      <lb ed="#S" n="120"/>debiti redditio, sed fornicatio nisi sit verum matrimonium. 
+      <lb ed="#S" n="121"/>Et similiter si iste postea confiteatur, quod non fuit 
+       confes<lb ed="#S" break="no" n="122"/>sus nec contritus, tunc constat confessori eo modo quo 
+      <lb ed="#S" n="123"/>sufficit, &amp; debet eum iudicare transgressorem praecepti &amp; 
+      <lb ed="#S" n="124"/>punire in foro illo, vel negando sibi confessionem, vel 
+       ex<lb ed="#S" break="no" n="125"/>cludendo a regno, si adhuc non poenitet, vel si poenitet 
+      <lb ed="#S" n="126"/>poenitentiam iniungendo.
+    </p>
+            <p xml:id="khj78y-q64021-d1e520" n="16">
+      <!-- 16 -->Quartus modus est, 
+       sci<lb ed="#S" break="no" n="127"/>licet quod Ecclesia non potest praecipere confessionem 
+       inte<lb ed="#S" break="no" n="128"/>riorem, nec exteriorem directe: &amp; secundum se pro quocunque 
+      <lb ed="#S" n="129"/>tpe: praecipit tamen indirecte, praecipiendo aliquid ad quod 
+      <lb ed="#S" n="130"/>iure diuino pexigit confessio: &amp; illud est sumptlo 
+       Eucha<lb ed="#S" break="no" n="131"/>ristiae. Hanc enim praet Ecclefia praecipere, quia de hac potest ei 
+      <lb ed="#S" n="132"/>constare. Ad hanc autem praeexigitur ex praecepto diuino 
+       confes<lb ed="#S" break="no" n="133"/>sio, habita copia sacerdotis. Et ideo conicans ex praecepto 
+      <lb ed="#S" n="134"/>Ecclesiae, tenetur ex praecepto diuino confiteri. sed hoc 
+      <!--0222.xml-->
+      <pb ed="#S" n="222"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>non est ex praecepto Ecclesiae nisi indirecte &amp; consecutiue. 
+      <lb ed="#S" n="2"/>Vnde iura antiqua directe praeceperunt sumptionem 
+       Eu<lb ed="#S" break="no" n="3"/>charistiae. vt illud Anacleti. de conse. di. ij. c. Peracta. vbi 
+      <lb ed="#S" n="4"/>praecipitur singulis fidelibus, quod quotidie conicent. Et illud 
+      <lb ed="#S" n="5"/>Pabiani Papae. Et si non frequentius eadem di. vbi praecipitur 
+      <lb ed="#S" n="6"/>quod fideles conicent tribus vicibus in anno. Nullam autem 
+       fa<lb ed="#S" break="no" n="7"/>ciunt mentionem de confessione: quia supponunt quod ex praecepto 
+      <lb ed="#S" n="8"/>Christi debeat praecedere, quo ad illos qui sunt conscij de 
+      <lb ed="#S" n="9"/>peccato mortali. Et eodem modo forte intelligendum est sta 
+      <lb ed="#S" n="10"/>tutum Iunocentij. Omnis vtriusque sexus. scilicet quod ibi praecipiatur 
+      <lb ed="#S" n="11"/>sumptio Eucharistiae: de qua praet constare. Vnde &amp; poena 
+      <lb ed="#S" n="12"/>subiungitur contra transgressores. sꝗ viuentes arceantur ab 
+      <lb ed="#S" n="13"/>ingressu Ecclesiae, &amp; morientes careant Ecclesiastica 
+       sepul<lb ed="#S" break="no" n="14"/>tura. Quod autem permittitur ibi de confessione facienda 
+      <lb ed="#S" n="15"/>magis accipiendum est, quid sit faciendum ex praecepto 
+       Chri<lb ed="#S" break="no" n="16"/>sti quam pro nouo praecepto Ecclesiae, quae non videtur posse 
+      <lb ed="#S" n="17"/>ponere confessionem sub praecepto. Ex quo potest concludi, quod 
+      <lb ed="#S" n="18"/>confitens &amp; non poenitens: &amp; propter hoc omittens communicare 
+       trans<lb ed="#S" break="no" n="19"/>gressor est praecepti Ecclesiae de sumptione Eucharistiae. 
+      <lb ed="#S" n="20"/>si autem conicet non est transgressor praecepti Ecclesiae: quod 
+      <lb ed="#S" n="21"/>est de conione, sed transgressor est praecepti diuini: accedens 
+      <lb ed="#S" n="22"/>ad sacramentum Eucharistiae sine contritione &amp; confessione, &amp; 
+       se<lb ed="#S" break="no" n="23"/>cundum istum modum quaestio supponit falsum. scilicet quod Ecclesia 
+      <lb ed="#S" n="24"/>possit directe &amp; secundum se praecipere confessionem 
+       inte<lb ed="#S" break="no" n="25"/>riorem vel exteriorem.
+    </p>
+            <p xml:id="khj78y-q64021-d1e603" n="17">
+      <!-- 17 -->sed iste modus non videtur con 
+      <lb ed="#S" n="26"/>ueniens. Primo, quia sicut non praet constare de aliquo vtrum 
+      <lb ed="#S" n="27"/>fuerit confessus contritus vel non, quia contritio non potest esse 
+      <lb ed="#S" n="28"/>nota nisi ipsi contrito &amp; Deo: sic non potest constare vtrum 
+      <lb ed="#S" n="29"/>aliquis conicauerit vel non, quia si accipit hostiam non 
+       conse<lb ed="#S" break="no" n="30"/>cratam, non conicauitsecundum veritatem, impossibile est autem 
+      <lb ed="#S" n="31"/>omni homini &amp; conicanti &amp; celebranti scire, vtrum hostia sit 
+       con<lb ed="#S" n="32" break="no"/>secrata, quia nisi celebrans sit sacerdos non est hostia 
+       conse<lb ed="#S" n="33" break="no"/>crata. Impossibile est autem scire, quod sit sacerdos sicut quod sit 
+      <lb ed="#S" n="34"/>maritus aliquis, quia ad hoc requiruntur intentiones 
+      <lb ed="#S" n="35"/>duorum, quorum neutri constat de altero. scilicet ordinantis &amp; 
+       ordi<lb ed="#S" break="no" n="36"/>nati. Vnde nec ordinans scit vtrum ordinet, quia nec scit 
+      <lb ed="#S" n="37"/>vtrum quem ordinat intendat deludere, nec econuerso 
+       ordi<lb ed="#S" break="no" n="38"/>natus scit de ordinante. Vnde. &amp;c.
+    </p>
+            <p xml:id="khj78y-q64021-d1e636" n="18">
+      <!-- 18 -->secundo quia 
+      <lb ed="#S" n="39"/>in <ref xml:id="khj78y-q64021-Rd1e642">decretali. Omnis vtriusque sexus</ref>: aequaliter &amp; prius etiam 
+      <lb ed="#S" n="40"/>praecipitur confessio: &amp; Eucharistiae sumptio. Imo ibi per 
+      <lb ed="#S" n="41"/>mittitur quod de consilio sacerdotis ad tpraes a sumptione 
+       Eu<lb ed="#S" break="no" n="42"/>charistiae possit abstinere. Vnde dicere quod Eucharistiae 
+      <lb ed="#S" n="43"/>sumptio praecipitur directe &amp; confessio indirecte, nec 
+       ni<lb ed="#S" break="no" n="44"/>si propter communionem: cum ex confessione sequatur in casu 
+      <lb ed="#S" n="45"/>non conio, videtur contra mentem decretalis, &amp; aequalis 
+       poe<lb ed="#S" break="no" n="46"/>nitentia vtriqueiniungitur. scilicet quod viuus arcetur ab 
+       ingres<lb ed="#S" break="no" n="47"/>su, &amp; mortuus a sepultura Ecclesiastica.
+    </p>
+            <p xml:id="khj78y-q64021-d1e662" n="19">
+      <!-- 19 -->si dicatur 
+      <lb ed="#S" n="48"/>quod Ecclesia pro tanto potest praecipere conionem non confessionem, 
+      <lb ed="#S" n="49"/>quia conio non est sacim, sed vsus sacri: dicendum quod non 
+       va<lb ed="#S" break="no" n="50"/>let: quia licet Ecclesia non possit super essentia sacramenti 
+      <lb ed="#S" n="51"/>ipsam immutando, quantum ad materiam &amp; formam: tamen potest 
+      <lb ed="#S" n="52"/>circa essentiam saluam aliquid praecipere &amp; prohibere: puta 
+      <lb ed="#S" n="53"/>quod nullus baptizetur in die Epiphaniae propter haeresim: 
+      <lb ed="#S" n="54"/>vel quod puercito baptizetur, &amp; quod ordinationes tali tempore 
+      <lb ed="#S" n="55"/>siant: &amp; praecipere episcopo quod perse vel per alium faciat, &amp; 
+      <lb ed="#S" n="56"/>huiusmodi, quae ad bonum Ecclesiae ordinationem pertinent, &amp; 
+       si<lb ed="#S" break="no" n="57"/>militer quod homines confiteantur in quadragesima, &amp; quando sunt 
+      <lb ed="#S" n="58"/>infirmi, antequam medicina corporalis exhibeatur: &amp; 
+       caete<lb ed="#S" break="no" n="59"/>ra huiusmodi quae sunt vtilia ad salutem.
+    </p>
+            <p xml:id="khj78y-q64021-d1e694" n="20">
+      <!-- 20 -->Quintus modus 
+      <lb ed="#S" n="60"/>est quod liberatur a praecepto Ecclesiae, ita quod ante annum illum 
+      <lb ed="#S" n="61"/>non teneatur confiteri siue dicat fictionem illam, siue non: dum 
+      <lb ed="#S" n="62"/>tamen dicat peccata sua alia: quia Ecclesia non potest prae 
+      <lb ed="#S" n="63"/>cipere, nisi actum exteriorem: nec potest praecipere aliquam 
+      <lb ed="#S" n="64"/>satisfactionem, nec poenam imponere pro actu interiori. Vn 
+      <lb ed="#S" n="65"/>de quando dicitur, quod peccata sua omnia confiteatur: quo ad pecca 
+      <lb ed="#S" n="66"/>ta cordis est consilium, sed quo ad exteriora est praeceptum. 
+    </p>
+            <p xml:id="khj78y-q64021-d1e714" n="21">
+               <lb ed="#S" n="67"/>
+               <!-- 21 -->si dicatur Ecclesia non praecipit id quod est malum: 
+      <!--0222.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>quia praecepta boni legislatorisdantur de actibus 
+       virtu<lb ed="#S" break="no" n="69"/>tum. Dicendum quod confessio &amp; absolutio in ficto sunt mala, 
+      <lb ed="#S" n="70"/>non de se: sed propter circunstantiam fictionis. Et ideo con 
+      <lb ed="#S" n="71"/>fessio secundum se est in praecepto, &amp; quo ad substantiam 
+      <lb ed="#S" n="72"/>facti liberat a praecepto humano: quod non potest concludere 
+      <lb ed="#S" n="73"/>priuationem fictionis, sicut nec fictionem prohibere, sicut si 
+      <lb ed="#S" n="74"/>eleemosyna est in praecepto: &amp; fiat propter hypocrisim: 
+      <lb ed="#S" n="75"/>dum tamen homo velit se aquitare a praecepto, &amp; cum hoc pla 
+      <lb ed="#S" n="76"/>cere mundo: li beratur a praecepto.
+    </p>
+            <p xml:id="khj78y-q64021-d1e745" n="22">
+      <!-- 22 -->sciendum est autem 
+      <lb ed="#S" n="77"/>quod praecipere confiteri legem condendo, non est praeceptum fori 
+      <lb ed="#S" n="78"/>poenitentialis effectiue: licet sit de illo foro materialiter 
+      <lb ed="#S" n="79"/>&amp; obiectiue, sicut &amp; dare indulgentias. Vnde non potest 
+      <lb ed="#S" n="80"/>intelligi praeceptum de confitendo quo ad peccatum cordis, 
+      <lb ed="#S" n="81"/>sed in foro conscientiae confessor praet iniungere, quod 
+       frequen<lb ed="#S" break="no" n="82"/>ter confiteatur de interioribus de quibus se ei submisit. 
+    </p>
+            <p xml:id="khj78y-q64021-d1e763" n="23">
+               <lb ed="#S" n="83"/>
+               <!-- 23 -->Ad illud quod supra dictum est. scilicet quod Ecclesia praet praeci 
+      <lb ed="#S" n="84"/>pere actum interiorem ratione exterioris: quando sine primo non 
+      <lb ed="#S" n="85"/>habet effectum, sicut qui potest praecipere lectionem pt 
+       praeci<lb ed="#S" break="no" n="86"/>pere meditationem. &amp; c. Dicendum quod non oportet, sed eo ipso 
+      <lb ed="#S" n="87"/>quod homo praecipit mihi lectionem, Deus qui praecipit mihi 
+      <lb ed="#S" n="88"/>ei obedire, praecipit mihi meditationem sine qua non 
+       pos<lb ed="#S" break="no" n="89"/>sum legere.
+    </p>
+            <p xml:id="khj78y-q64021-d1e783" n="24">
+      <!-- 24 -->si autem dicitur quod Ecclesia praecipit ali 
+      <lb ed="#S" n="90"/>cui contrahere matrimonium quod non est sine consensu: &amp; 
+      <lb ed="#S" n="91"/>per consequens consensum: alias ei obediret qui tantum per 
+       ver<lb ed="#S" break="no" n="92"/>ba contraheret &amp; excommunicationem euaderet: dicendum quod 
+      <lb ed="#S" n="93"/>non est simile: quia sicut Ecclesia de peccatis confessis: 
+       li<lb ed="#S" break="no" n="94"/>cet cordis, quia iam sibi subduntur: dat indulgentias: sic 
+      <lb ed="#S" n="95"/>postquam aliquis promisit alicui ducere eam in vxorem, obligat 
+      <lb ed="#S" n="96"/>est ad actum interiorem ex facto quod Ecclesiae subiacet. Vnde 
+      <lb ed="#S" n="97"/>ratione contractus quo obligatus est ad actum interiorem: 
+       Ec<lb ed="#S" break="no" n="98"/>clesia cogit ad illum, sicut si quis solo corde vouisset: Eccle 
+      <lb ed="#S" n="99"/>sia ad illius voti obseruantiam non cogeret. si autem ore: tunc 
+      <lb ed="#S" n="100"/>sic. Hic autem ille non se obligauit ad poenitendum interius, 
+      <lb ed="#S" n="101"/>promissione quae subiaceat Ecclesiae, quia licet in baptismo 
+      <lb ed="#S" n="102"/>abrenunciauerit sathanae, &amp; professus sit religionem Chri 
+      <lb ed="#S" n="103"/>stianam, non tamen se obligauit Ecclesiae ad obediendum, nisi in 
+      <lb ed="#S" n="104"/>illis quae sunt ei commissa, &amp; haec sunt exteriora: sicut 
+       reli<lb ed="#S" break="no" n="105"/>giosus non potest cogi, nisi ad ea quae ex regula &amp; constitu 
+      <lb ed="#S" n="106"/>tionibus habent praelati imponere, ad quae se obligauis 
+      <lb ed="#S" n="107"/>non ad plura, nisi prout sunt in casu necessaria ad illa. 
+    </p>
+            <p xml:id="khj78y-q64021-d1e827" n="25">
+               <lb ed="#S" n="108"/>
+               <!-- 25 -->Ad legem autem contrariam dicendum, quod commissa 
+       iurisdi<lb ed="#S" break="no" n="109"/>ctione, tacite committuntur necessaria, quando sunt talia quae 
+      <lb ed="#S" n="110"/>solent alias expresse committi: talia autem non sunt actus inte 
+      <lb ed="#S" n="111"/>riores, quorum iudicium Deus homini prohibuit, nisi in fo 
+      <lb ed="#S" n="112"/>ro conscientiae: &amp; ideo quamuis non possit praecipere confestio 
+      <lb ed="#S" n="113"/>nem de peccato occulto exteriori in foro exteriori, potest tum 
+      <lb ed="#S" n="114"/>praecipere confessionem de illo in foro interiori. Ecclesia enim 
+      <lb ed="#S" n="115"/>habet praeceptum in foro exteriori, ad bene ordinandum 
+      <lb ed="#S" n="116"/>vtrumqueforum, sed quia actus interior omnino subterfugit forum 
+      <lb ed="#S" n="117"/>exterius, etiam si de ipso constaret, quia si quis confiteretur 
+      <lb ed="#S" n="118"/>se consensisse in homicidium, non propter hoc posset 
+       excommunica<lb ed="#S" break="no" n="119"/>ri, sicut nec decollari. f. de poenis. l. cogitationis poenam 
+      <lb ed="#S" n="120"/>nemo meretur: inde est quod de actu interiori non potest Ec 
+      <lb ed="#S" n="121"/>clesia ferre praeceptum, nec respectu fori poenitentialis nec 
+      <lb ed="#S" n="122"/>iudicialis, sed de actu exteriori omnino occulto quod 
+      <lb ed="#S" n="123"/>ipsa posset punire si ei constaret: puta per confessionem eius: 
+      <lb ed="#S" n="124"/>qui solus est sibi conscius, quod aliter non potest ei 
+       consta<lb ed="#S" break="no" n="125"/>re, ipsa non potest facere praeceptum in iudicio exteriori: 
+      <lb ed="#S" n="126"/>ita scilicet vt cogatur fateri veritatem, quia iure diuino 
+      <lb ed="#S" n="127"/>phibetur de tali occulto inquirere: cum accusatio vel 
+       cla<lb ed="#S" break="no" n="128"/>mosa insinuatio debeat praecedere: licet in coni possit 
+       ex<lb ed="#S" break="no" n="129"/>communicare, qui hoc fecit vel fecerit, sed de isto actu potest 
+       da<lb ed="#S" break="no" n="130"/>re praeceptum exequendum. scilicet in foro poenitentiali, sed de ipsa inte 
+      <lb ed="#S" n="131"/>riori poenitentia nullo modo videt posse praeceptum dare, quia 
+      <lb ed="#S" n="132"/>nullo modo cadit sub eius praecepto, nec quod ipsa habeai, nec 
+      <lb ed="#S" n="133"/>quod aliquis de eius fictione confiteatur.
+    </p>
+            <p xml:id="khj78y-q64021-d1e889" n="26">
+      <!-- 26 -->Ad rationes 
+      <lb ed="#S" n="134"/>vtriusque partis: sic respondent illi de quarta opinione,
+    </p>
+            <p xml:id="khj78y-q64021-d1e896">
+      <!--0223.xml-->
+               <pb ed="#S" n="223"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>27. Ad primam dicendum, quod non est praeceptum de confitendo 
+      <lb ed="#S" n="2"/>semel in anno, sed documentum quod innititur praecepto 
+       iu<lb ed="#S" break="no" n="3"/>ris diuini, nec illud restrineit aut amoliat: sed solum dicii 
+      <lb ed="#S" n="4"/>quod sit de necessitate praecepti diuini, ad hoc vt aliquis absque 
+      <lb ed="#S" n="5"/>peccato possit sumere sacim Eucharistiae.
+    </p>
+            <p xml:id="khj78y-q64021-d1e916" n="28">
+      <!-- 28 -->Ad secundam 
+      <lb ed="#S" n="6"/>quod Ecclesia mandat recipere confestionem impoenitentes: verum 
+      <lb ed="#S" n="7"/>est propter eius instructionem, sed non vt sumat Eucharistiam: 
+      <lb ed="#S" n="8"/>nec propter hoc excasatur a sumptione Eucharistiae: nisi 
+       fa<lb ed="#S" break="no" n="9"/>ciat quod in se est: non transgressor est praecepti Ecclesiae de 
+       ei<lb ed="#S" break="no" n="10"/>sumptione: non est transgressor praecepti Christi de 
+       confessio<lb ed="#S" break="no" n="11"/>ne, quia ad ea non obligat, nisi eam velit sumere.
+    </p>
+            <p xml:id="khj78y-q64021-d1e934" n="29">
+      <!-- 29 -->
+       Argu<lb ed="#S" break="no" n="12"/>mentum in oppositum sopponit etiam quod confessio cadat 
+       dire<lb ed="#S" break="no" n="13"/>ste sub praecepto Ecclesiae: quod isti non concedunt: si tamen ita es 
+      <lb ed="#S" n="14"/>set: adhuc argumentum non concluderet: quia sicut dictum 
+      <lb ed="#S" n="15"/>fuit prius cum de ieiunio ageretur: intentio praecipientis est 
+      <lb ed="#S" n="16"/>duplex: vna de materia praecepti, &amp; secundum hanc necessa 
+      <lb ed="#S" n="17"/>rium est impleri praeceptum. Alia est de fine praecepti: &amp; ista 
+      <lb ed="#S" n="18"/>no candit sub praecepto. Alioquin implens praeceptum 
+       diui<lb ed="#S" break="no" n="19"/>num fine charitate, esset transgressio praecepti diuini: quia finis 
+      <lb ed="#S" n="20"/>praecepti est charitas vt di. Apostolus prima ad Ti. quod 
+      <lb ed="#S" n="21"/>non tenet coniter. Ex hoc ad propositum confiteri pctam, est de 
+      <lb ed="#S" n="22"/>intentione praecipientis vt materia, sed consequl veniam 
+       pec<lb ed="#S" break="no" n="23"/>catorum ex tali cofessione est intentio de fine: quam non 
+       ne<lb ed="#S" break="no" n="24"/>cesse est seruare ad vitandum transgressionem praecepti. 
+      <lb ed="#S" n="25"/>sed duo prima argumenta non sunt contra quintum 
+      <lb ed="#S" n="26"/>modum: &amp; solutiones suae dicunt falsum vt visum est: 
+      <lb ed="#S" n="27"/>Tertium autem est bene solutum. Ideo. &amp; c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

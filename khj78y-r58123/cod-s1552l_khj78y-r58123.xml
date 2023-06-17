@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="491"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r58123"><!-- l4d46-q1 -->
+            <head xml:id="khj78y-r58123-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-r58123-Hd1e103" type="question-title">
+     Utrum scilicet iustitia sis 
+     in Deo
+   </head>
+            <p xml:id="khj78y-r58123-d1e106">
+               <lb ed="#S" n="98"/>DIsTINCTIO. 46. QVAESTIO 
+       vnica<lb ed="#S" break="no" n="99"/>si valde malis detur mitigatio poenae.
+    </p>
+            <p xml:id="khj78y-r58123-d1e113">
+               <lb ed="#S" n="100"/>Thom. 4. Distin. 46. Quaest. I. &amp;. i. 
+    </p>
+            <p xml:id="khj78y-r58123-d1e118">
+               <lb ed="#S" n="101"/>CIRCA. 46. Distin. quaeritur 
+      <lb ed="#S" n="102"/>vnum, vtrum scilicet iustitia sis 
+      <lb ed="#S" n="103"/>in Deo? Et videtur quod non, quia 
+      <lb ed="#S" n="104"/>illud o non est bonum nisi vt 
+       me<lb ed="#S" break="no" n="105"/>dicina non est bonum 
+       simplici<lb ed="#S" break="no" n="106"/>ter nec in Deo ponendum: sed 
+       iu<lb ed="#S" break="no" n="107"/>stitia saltem vindicatiua non est 
+      <lb ed="#S" n="108"/>bona nisi vt medicina: ergo saltem 
+      <lb ed="#S" n="109"/>talis non est in Deo ponenda: maior patet: quia quicquid 
+      <lb ed="#S" n="110"/>est in Deo formaliter videt dicere bonum &amp; perfectionem 
+      <lb ed="#S" n="111"/>simpliciter, quod autem est bonum solum vt medicina non est 
+       bo<lb ed="#S" break="no" n="112"/>num nisi secundum quid &amp; propter aliud: minor probatur: 
+      <lb ed="#S" n="113"/>quia poenae quas infligit iustitia vindicatiua sunt 
+       medi<lb ed="#S" break="no" n="114"/>cinae respectu peccatorum: vt dicitur in. 2. Ethi. ergo. &amp;c.
+    </p>
+            <p xml:id="khj78y-r58123-d1e152" n="2">
+               <lb ed="#S" n="115"/>
+               <!--2 -->Contra est auctoritas scripturae quae in pluribus locis 
+      <lb ed="#S" n="116"/>iustitiam Deo attribuit: &amp; probatur ratione sic. Illud quod 
+      <lb ed="#S" n="117"/>est nobilissimum est Deo attribuendum: sed iustitia est 
+       nobi<lb ed="#S" break="no" n="118"/>lissima &amp; praeclarissima omnium virtutum vt dicitur. 5. 
+       Ethi<lb ed="#S" break="no" n="119"/>ergo. &amp;c.
+    </p>
+            <p xml:id="khj78y-r58123-d1e168" n="3">
+      <!-- 3 -->Respondeo: dicendum, quod circa hanc quaestionem 
+      <lb ed="#S" n="120"/>sunt tria videnda. Primo, quaeritur &amp; qualis &amp; quomodo 
+      <lb ed="#S" n="121"/>iustitia sit in Deo. secundo, quomodo poena aeterna debeat 
+      <lb ed="#S" n="122"/>peccato ex iustitia. Tertio, quomodo in punitionem 
+       ma<lb ed="#S" n="123" break="no"/>lorum concurret simul misericordia &amp; iustitia.
+    </p>
+            <p xml:id="khj78y-r58123-d1e181" n="4">
+      <!-- 4 -->
+       Quan<lb ed="#S" break="no" n="124"/>tum ad primum sunt quatuor conclusiones. Prima, in qua 
+      <lb ed="#S" n="125"/>consistit ratio iustitiae &amp; quot modis dicitur: vbi sciendum 
+      <lb ed="#S" n="126"/>quod sicut dicitur in. 5. Ethi. iustitia proprie dicta constituit 
+      <lb ed="#S" n="127"/>aequalitatem in acceptionibus &amp; dationibus, hoc autem 
+       du<lb ed="#S" break="no" n="128"/>pliciter. Vno modo secundum quod constituitur aequalitas inter 
+      <lb ed="#S" n="129"/>dantem &amp; accipientem: vt scilicet accipiens tantum accipiat a 
+      <lb ed="#S" n="130"/>dante quantum econuerso: &amp; in tali aequalitate consistit iustitia 
+      <!--0492.xml-->
+      <pb ed="#S" n="492"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>commutatiua, quae ponit medium aequalitatis in emptionibus 
+      <lb ed="#S" n="2"/>&amp; venditionibus &amp; in omnibus retributionibus. Alio mo 
+      <lb ed="#S" n="3"/>do, constituitur aequalitas inter duos recipientes ex hoc qui 
+      <lb ed="#S" n="4"/>vterqueaequaliter recipit secundum quod dignus est, &amp; in hoc 
+      <lb ed="#S" n="5"/>consistit iustitia distributiua. In prima ergo iustitia. scilicet con 
+      <lb ed="#S" n="6"/>mutatiua requirit aequalitas quantitatis. scilicet vt tantum 
+       vnus<lb ed="#S" break="no" n="7"/>quisque accipiat secundum valorem quantum dedit: &amp; ideo inter 
+      <lb ed="#S" n="8"/>illos inter quos non potest esse aequalitas quantitatis in 
+       rece<lb ed="#S" break="no" n="9"/>ptis, non potest esse proprie iustitia commutatiua, sicut est inter 
+      <lb ed="#S" n="10"/>illos quorum vnus non potest reddere aequiualens beneficiis acce 
+      <lb ed="#S" n="11"/>ptis ab alio, sicut filius non potest aliquid reddere aequiualens 
+      <lb ed="#S" n="12"/>patris beneficiis a quo accepit esse, &amp; nutrimentum, &amp; eru 
+      <lb ed="#S" n="13"/>ditionem: propter quod quantumcumque filius retribuat patri 
+      <lb ed="#S" n="14"/>in obsequiis numquam tamen est ibi perfecte aequalitas: 
+       pro<lb ed="#S" break="no" n="15"/>pter quod non saluatur ibi proprie ratio commutatiuae 
+       iu<lb ed="#S" break="no" n="16"/>stitiae, sed tantum aliquismodus in quantum filius retribuit 
+      <lb ed="#S" n="17"/>quod potest secundum modum suum, sicut pater dedit secundum 
+      <lb ed="#S" n="18"/>modum suum vt loco aequalis secundum quantitatem sumatur 
+      <lb ed="#S" n="19"/>possibile vel proportionale. sed iustitia distributiua non re 
+      <lb ed="#S" n="20"/>quirit aequalitatem quantitatis, sed proportionis: non enim 
+      <lb ed="#S" n="21"/>oportet quod distribuens bona communitatis distribuat 
+       aequa<lb ed="#S" break="no" n="22"/>liter omnibus: sed vnicuique proportionabiliter secundum 
+      <lb ed="#S" n="23"/>quod est dignus.
+    </p>
+            <p xml:id="khj78y-r58123-d1e257" n="5">
+      <!-- 5 -->secunda conclusio est, de differentia inter 
+      <lb ed="#S" n="24"/>iustitiam distributiuam &amp; commutatiuam. Nam ex praedictis 
+       ap<lb ed="#S" break="no" n="25"/>paret quod iustitia distributiua per quam bona distribuuntur 
+      <lb ed="#S" n="26"/>communia primo attendit ad proportionem personarum, ex 
+      <lb ed="#S" n="27"/>qua concludit proportionem rerum distribuendarum: sed 
+       iu<lb ed="#S" break="no" n="28"/>stitia econtrario ad habitudinem rei ad rem, sicut patet in 
+      <lb ed="#S" n="29"/>commutationibus, puta in emptione &amp; venditione: vel ad 
+      <lb ed="#S" n="30"/>habitudinem actionis ad passionem: vt in iniuriis 
+       vindi<lb ed="#S" break="no" n="31"/>candis &amp; puniendis, ad conditionem autem personae nunquam 
+      <lb ed="#S" n="32"/>respicit principaliter, non enim bos debet magis vel minus 
+      <lb ed="#S" n="33"/>vendi vni quam alteri. si autem respiciat ad conditionem 
+      <lb ed="#S" n="34"/>personae hoc non est nisi ex consequenti inquantum 
+       condi<lb ed="#S" break="no" n="35"/>tio personae faceret ad quantitatem iniuriae, sicut maior 
+      <lb ed="#S" n="36"/>est iniuria si percutiatur princeps quam priuata persona. 
+      <lb ed="#S" n="37"/>Ex quo videt saluo meliori iudicio, quod iustitia 
+       distribu<lb ed="#S" break="no" n="38"/>tiua magis dependeat ex commutatiua quam econuerso: quia 
+      <lb ed="#S" n="39"/>iustitia distributiua est in distribuente: per quam tenetur 
+      <lb ed="#S" n="40"/>bona communitatis distribuere proportionabiliter perso 
+      <lb ed="#S" n="41"/>nis communitatis secundum vniuscuiusque dignitatem: haec 
+      <lb ed="#S" n="42"/>autem tentio ortum habet ex hoc quod ipse est obligatus commu 
+      <lb ed="#S" n="43"/>nitati, habens ex communitate &amp; honorem regiminis &amp; 
+       sti<lb ed="#S" break="no" n="44"/>pendia laboris: ratione quorum tenetur communitati quasi 
+      <lb ed="#S" n="45"/>per quandam commutationem ad recompensandum bona quae re 
+      <lb ed="#S" n="46"/>cipit prout potest, quod facit quando honores &amp; officia 
+       con<lb ed="#S" break="no" n="47"/>munitatis dat vnicuiq, secundum quod est dignior &amp; vtilior 
+      <lb ed="#S" n="48"/>communitati. Alioquin est vere iniustus in non reddendo 
+      <lb ed="#S" n="49"/>communitati quod debet pro eo quod accepit.
+    </p>
+            <p xml:id="khj78y-r58123-d1e318" n="6">
+      <!-- 6 -->Tertia 
+       con<lb ed="#S" break="no" n="50"/>clusio est, quomodo in Deo sit iustitia commutatiua. Vbi 
+      <lb ed="#S" n="51"/>sciendum quod iustitia commutatiua non est proprie in Deo, quia 
+      <lb ed="#S" n="52"/>illa consistit in aequalitate rei datae &amp; acceptae: sed 
+       benefi<lb ed="#S" break="no" n="53"/>ciis diuinis non potest aliquid a creatura retribui aequale, 
+      <lb ed="#S" n="54"/>multo minus quam beneficiis patris carnalis. Et iterum per 
+      <lb ed="#S" n="55"/>commutationem proprie dictam res vnius fit alterius quae prius 
+      <lb ed="#S" n="56"/>non erat eius. sed nihil est in creatura quod non sit ipsius 
+      <lb ed="#S" n="57"/>Dei magis quam ipsius creaturae: ergo nulla iustitia commu 
+      <lb ed="#S" n="58"/>tatiua proprie potest esse inter deum &amp; creaturam: potest tamen 
+      <lb ed="#S" n="59"/>ibi esse quidam modus iustitiae commutatiuae accipiendo pro 
+      <lb ed="#S" n="60"/>aequali possibile vel proportionale, in quantum creatura 
+      <lb ed="#S" n="61"/>Deo retribuit quod potest secundum suam paruitatem, sicut Deus 
+      <lb ed="#S" n="62"/>dat superabundanter secundum suam excellentiam: &amp; hoc in 
+      <lb ed="#S" n="63"/>bonis. In malis autem attenditur iustitia commutatiua in 
+      <lb ed="#S" n="64"/>ter Deum &amp; creaturam, inquantum creatura peccus tantum vel tantum 
+      <lb ed="#S" n="65"/>contra Deum ex sua malitia punitur tantum vel tantum a Deo, se 
+      <lb ed="#S" n="66"/>cundum condecentiam diuinam &amp; non secundum qualitatem culpae 
+      <lb ed="#S" n="67"/>praecisae: quia sicut in bonis decet quod ex parte Dei sit ex- 
+      <!--0492.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>cessus &amp; ex parte creaturae sit defectus, sic in malis decet 
+      <lb ed="#S" n="69"/>vt sicut ex parte creaturae est excessus in peccando, sic ex 
+      <lb ed="#S" n="70"/>parte Dei sit defectus in puniendo vel in infligendo malum 
+      <lb ed="#S" n="71"/>poenae quod idem est. Quod autem nunc dicimus ex parte Dei 
+      <lb ed="#S" n="72"/>esse excessum vel defectum non intelligitur hoc prout sonas 
+      <lb ed="#S" n="73"/>in vitium, sed prout dicit eminentiam ex parte Dei respectu 
+      <lb ed="#S" n="74"/>creaturae in plus conferendo de bonis quam creatura digna 
+      <lb ed="#S" n="75"/>sit, vel in minus inferendo mala quam creatura mereatur: 
+      <lb ed="#S" n="76"/>quod totum prouenit ex decentia bonitatis diuinae.
+    </p>
+            <p xml:id="khj78y-r58123-d1e386" n="7">
+      <!-- 7 -->Quarta 
+      <lb ed="#S" n="77"/>conclusio est, quomodo in Deo sit tristitia distributiua. 
+      <lb ed="#S" n="78"/>Vbi sciendum, quod iustitia distributiua ponitur in Deo 
+       respe<lb ed="#S" n="79" break="no"/>ctu creaturarum inquantum omnibus creaturis dat 
+       secun<lb ed="#S" break="no" n="80"/>dum vniuscuiusque dignitatem. Nam secundum quod creaturae 
+       te<lb ed="#S" break="no" n="81"/>nent secundum suam naturam altiorem gradum in 
+       vniuersali<lb ed="#S" break="no" n="82"/>tate rerum. sic Deus confert nobiliores proprietates &amp; 
+       ope<lb ed="#S" break="no" n="83"/>rationes quasi quaedam officia communitatis. Vnde Diony. 
+      <lb ed="#S" n="84"/>7. cap. de di. nominibus dicit. Quod iustitia laudatur in 
+      <lb ed="#S" n="85"/>Deo inquantum omnibus secundum dignitatem tribuit, quod 
+      <lb ed="#S" n="86"/>est intelligendum de distributione immediate dicta: quia 
+      <lb ed="#S" n="87"/>distribuere praemia pro meritis, vel poenas pro culpis per 
+      <lb ed="#S" n="88"/>tinet ad iustitiam commutatiuam. si tamen bene aduertamus 
+      <lb ed="#S" n="89"/>iustitia distributiua sic accepta in Deo non proprie accipitur: 
+      <lb ed="#S" n="90"/>quia iustitia proprie accepta semper includit debitum. 
+      <lb ed="#S" n="91"/>sed distributio quam Deus rebus naturalibus confert 
+       vni<lb ed="#S" break="no" n="92"/>cuique secundum gradum dignitatissuae: non prouenit ex 
+       ali<lb ed="#S" break="no" n="93"/>quo debito: sed solum ex eius liberalitate, ergo non est ibi 
+      <lb ed="#S" n="94"/>proprie iustitia. Et confirmatur, quia iustitia distributiua 
+      <lb ed="#S" n="95"/>proprie dicta ortum habet ex commutatiua vt declaratum fuit. 
+      <lb ed="#S" n="96"/>sed talis iustitia distributiua non proprie habet ortum in 
+      <lb ed="#S" n="97"/>Deo ex commutatiua. ergo. &amp;c. patet ergo quod iustitia tam 
+       con<lb ed="#S" break="no" n="98"/>mutatiua quam distributiua in Deo non est aliud quam de 
+      <lb ed="#S" n="99"/>centia diuina in redditione praemiorum &amp; poenarum, &amp; in 
+      <lb ed="#S" n="100"/>distributione proprietatum &amp; principiorum agendi prout 
+      <lb ed="#S" n="101"/>congruit substantiae vniuscuiusque rei.
+    </p>
+            <p xml:id="khj78y-r58123-d1e446" n="8">
+      <!-- 8 -->Quantum ad 
+      <lb ed="#S" n="102"/>secundum quomodo peccato debeatur poena aeterna sunt 
+      <lb ed="#S" n="103"/>quatuor conclusiones. Prima, quod non est dare actu poenam 
+      <lb ed="#S" n="104"/>infinitam secundum intensionem vel acerbitatem: quia hoc est 
+      <lb ed="#S" n="105"/>summum malum, &amp; corrumperet seipsum &amp; suum subiectum. Et 
+      <lb ed="#S" n="106"/>quia non est beatitudo infinita creata: ergo multo minus 
+      <lb ed="#S" n="107"/>miseria infinita: quia Deus praemiat vltra meritum non 
+       au<lb ed="#S" break="no" n="108"/>tem punit vltra.
+    </p>
+            <p xml:id="khj78y-r58123-d1e466" n="9">
+      <!-- 9 -->secunda conclusio est, quod poena etiam 
+      <lb ed="#S" n="109"/>successiue non potest intendi in infinitum, quia si aliqua 
+       quali<lb ed="#S" n="110" break="no"/>tas augeri potest in infinitum, hoc est vel propter 
+       infinita<lb ed="#S" break="no" n="111"/>tem subiecti, sicut si ignis cresceret in infinitum secundum 
+      <lb ed="#S" n="112"/>quosdam. 4. Physi. vel ex parte obiecti quod est infinite 
+       at<lb ed="#S" break="no" n="113"/>tingibile, sicut charitas &amp; lu men gloriae secundum quosdam 
+      <lb ed="#S" n="114"/>possunt crescere in infinitum: sed subiectum poenae 
+       damnato<lb ed="#S" break="no" n="115"/>rum non augetur: obiectum autem poenae sensus est finitum, 
+       ob<lb ed="#S" break="no" n="116"/>iectum autem poenae damni licet infinitum in se erit tamen 
+       fi<lb ed="#S" break="no" n="117"/>nite attingendum: ergo illa non potest crescere in infinitum- 
+    </p>
+            <p xml:id="khj78y-r58123-d1e490" n="10">
+               <lb ed="#S" n="118"/>
+               <!-- 10 -->Tertia conclusio est, quod dato quod posset esse infinita 
+       inten<lb ed="#S" break="no" n="119"/>siue: non tamen infligereturpro peccato mortali, quia 
+       pro<lb ed="#S" n="120" break="no"/>nior est Deus ad reddendum pro merito quam ad infligendum 
+      <lb ed="#S" n="121"/>poenam pro peccato. sed pro nullo merito quantumcumque 
+       ma<lb ed="#S" break="no" n="122"/>gno reddet Deus praemium infinitum intensiue, visio enim 
+      <lb ed="#S" n="123"/>beata creata erit finita in quocunque erit: ergo pro nullo 
+      <lb ed="#S" n="124"/>peccato seu demerito quantumque magno infligetur poena 
+      <lb ed="#S" n="125"/>infinita intensiue.
+    </p>
+            <p xml:id="khj78y-r58123-d1e512" n="11">
+      <!-- 11 -->Quarta conclusio est, quodsi loqua 
+      <lb ed="#S" n="126"/>murde infinitate poenae extensiue sic peccato debetur 
+       poe<lb ed="#S" n="127" break="no"/>na infinita: quia sicut lumen gloriae secundum quosdam potest 
+      <lb ed="#S" n="128"/>crescere in infinitum quantum ad durationem: sic iuste 
+       debe<lb ed="#S" break="no" n="129"/>tur peccato mortali poena infinita, quia sicut est in 
+       ciui<lb ed="#S" break="no" n="130"/>litate mundana, sic suo modo est in ciuilitate diuina: sed 
+      <lb ed="#S" n="131"/>in ciuilitate mundana sic est, quod ille qui quantum in se 
+      <lb ed="#S" n="132"/>est subuertit pacem &amp; amicitiam ciuium adinuicem, vel 
+      <lb ed="#S" n="133"/>obedientiam ad principem, meretur totaliter extirpari per 
+      <lb ed="#S" n="134"/>mortem, exilium, vel perpetuum carcerem a ciuilitate: quae 
+      <!--0493.xml-->
+      <pb ed="#S" n="493"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>poena est perpetua secundum capacitatem subiecti: &amp; 
+       secun<lb ed="#S" n="2" break="no"/>dum intentionem legis quo ad hoc vt in perpetuum non 
+       reuo<lb ed="#S" break="no" n="3"/>cetur ad societatem communitatis contra quam deliquit: ergo 
+      <lb ed="#S" n="4"/>eodem modo debet esse in ciuilitate diuina in qua 
+       con<lb ed="#S" break="no" n="5"/>gregantur homines lege fidei &amp; charitatis, quod ille qui sub 
+      <lb ed="#S" n="6"/>uertit ordinem charitatis ad proximum quantum in se est: 
+      <lb ed="#S" n="7"/>vel subiectionis ad Deum quod fit per quodcumque peccatum 
+      <lb ed="#S" n="8"/>mortale, meretur totaliter extirpari a consortio Dei: &amp; 
+      <lb ed="#S" n="9"/>beatorum per mortem, exilium, &amp; carcerem. Hae autem poenae 
+      <lb ed="#S" n="10"/>sunt simpliciter perpetuae in ciuilitate diuina.
+    </p>
+            <p xml:id="khj78y-r58123-d1e564" n="12">
+      <!-- 12 -->Prae 
+      <lb ed="#S" n="11"/>terea mors secunda, exilium a patria, &amp; carcer inferni 
+       damna<lb ed="#S" break="no" n="12"/>tis erunt aeterna, quia &amp; subiectum istarum poenarum 
+       perpe<lb ed="#S" break="no" n="13"/>tuo durabit. secundo patet idem: quia manente culpa 
+       de<lb ed="#S" n="14" break="no"/>bet manere poena. sed in damnatis perpetuo manebit 
+       cul<lb ed="#S" n="15" break="no"/>pa propter obstinationem mentis eorum ergo perpetuo 
+       ma<lb ed="#S" break="no" n="16"/>nebit poena. Tertio, quia magis est peccator dignus 
+       poe<lb ed="#S" break="no" n="17"/>na propter culpam suam, quam iustus sit dignus praemio pro 
+      <lb ed="#S" n="18"/>pter quodcumque meritum: quia iustus quantumcunque bene 
+      <lb ed="#S" n="19"/>operetur propter Deum in nullo constituit eum debitorem: 
+      <lb ed="#S" n="20"/>&amp; ideo praemium non estei reddendum secundum debitum 
+       stri<lb ed="#S" break="no" n="21"/>cte sumptum, sed peccator voluntarie diuertens ab 
+       obedien<lb ed="#S" break="no" n="22"/>tia Dei vere debet puniri secundum iustitiam: vnde est vere 
+      <lb ed="#S" n="23"/>debitor poenae. sed iustus propter opus meritorium praemia 
+      <lb ed="#S" n="24"/>tur praemio aeterno: ergo fortiori ratione peccator propter 
+      <lb ed="#S" n="25"/>demeritum iustius punitur poena aeterna.
+    </p>
+            <p xml:id="khj78y-r58123-d1e601" n="13">
+      <!-- 13 -->Quantum ad 
+      <lb ed="#S" n="26"/>tertium de concursu iustitiae &amp; misericordiae in operibus 
+      <lb ed="#S" n="27"/>Dei sunt quatuor conclusiones. Prima, quomodo 
+       mise<lb ed="#S" break="no" n="28"/>ricordia sit in Deo &amp; quomodo non. Vbi sciendum quod 
+       mise<lb ed="#S" break="no" n="29"/>ricordia accipitur dupliciter. Vno modo pro passione per 
+      <lb ed="#S" n="30"/>quam aliquis compatitur alteri patienti, quasi partem passionis 
+      <lb ed="#S" n="31"/>alterius in se ferens. Alio modo accipitur pro actu vel 
+       ha<lb ed="#S" break="no" n="32"/>bitu voluntatis, quo aliquis vult subleuare miseriam 
+       alte<lb ed="#S" break="no" n="33"/>rius accipiendo misericordiam. Primo modo ipsa non est in 
+      <lb ed="#S" n="34"/>Deo: quia misericordia vt dicit passionem includit in se 
+      <lb ed="#S" n="35"/>tristitiam &amp; poenam. sed nec tristitia nec poena possunt esse 
+      <lb ed="#S" n="36"/>in Deo: ergo nec misericordia vt est passio. sed 
+       accipien<lb ed="#S" n="37" break="no"/>do misericordiam secundo modo pro voluntate releuandi 
+      <lb ed="#S" n="38"/>miseriam alterius sicest in Deo: quia Deus nihil agit circa 
+      <lb ed="#S" n="39"/>nos: nisi volens, sed Deus per sua beneficia miserias nostras 
+      <lb ed="#S" n="40"/>frequenter releuat, ergo in ipso est voluntas tales miserias 
+      <lb ed="#S" n="41"/>releu andi: &amp; per consequens misericordia secundo modo 
+      <lb ed="#S" n="42"/>dicta.
+    </p>
+            <p xml:id="khj78y-r58123-d1e644" n="14">
+      <!-- 14 -->secunda conclusio est, quomodo diuina 
+       mise<lb ed="#S" break="no" n="43"/>ricordia diuidatur: vbi est sciendum, quod sicut homo 
+       miseri<lb ed="#S" break="no" n="44"/>cors non repellit laudabiliter nec virtuose miseriam alienam 
+      <lb ed="#S" n="45"/>nisi quantum ratio iudicat: sic Deus non repellit miseriam 
+      <lb ed="#S" n="46"/>nostram nisi quantum ordo sapientiae suae iudicat eam 
+       repellen<lb ed="#S" break="no" n="47"/>dam: quae si secundum ordinem diuinae sapientiae 
+       totaliterre<lb ed="#S" break="no" n="48"/>pellatur vocatur misericordia liberans: si vero non totaliter 
+      <lb ed="#S" n="49"/>liberatur: sed de ea aliquid minuatur vocatur 
+       misericor<lb ed="#S" n="50" break="no"/>dia relaxans.
+    </p>
+            <p xml:id="khj78y-r58123-d1e666" n="15">
+      <!-- 15 -->Tertia conclusio est, quomodo in omni 
+      <lb ed="#S" n="51"/>opere Dei concurrunt misericordia: &amp; veritas, &amp; iustitia: 
+      <lb ed="#S" n="52"/>vbi sciendum, quod misericordia &amp; iustitia accipiuntur aliquam 
+      <lb ed="#S" n="53"/>do large: vt misericordia dicatur omnis voluntas benefaciendi 
+      <lb ed="#S" n="54"/>alicui, uistitia vero dicatur condecentia diuinae bonitatis: 
+      <lb ed="#S" n="55"/>&amp; sic non solum in punitione malorum, sed in omni opere 
+       con<lb ed="#S" n="56" break="no"/>currunt misericorida &amp; iustitia, quia quaecunque Deus facit: facit 
+       se<lb ed="#S" break="no" n="57"/>cundum condecentiam diuinae bonitatis &amp; ex voluntate 
+       benefa<lb ed="#S" n="58" break="no"/>ciendi creaturae vel circa quam agit vel alij: vel conitati: &amp; 
+      <lb ed="#S" n="59"/>hoc modo ex iustitia nascitur mia secundum Anselmum, quia 
+      <lb ed="#S" n="60"/>ex condecentia diuinae bonitatis vult Deus facere bonum 
+      <lb ed="#S" n="61"/>creaturae.
+    </p>
+            <p xml:id="khj78y-r58123-d1e695" n="16">
+      <!-- 16 -->Quarta conclusio est, quomodo concurrunt 
+      <lb ed="#S" n="62"/>specialiter in praemio &amp; supplicio creaturae rationalis. 
+      <lb ed="#S" n="63"/>Vbi sciendum, quod alio modo accipitur misericordia &amp; 
+       iusti<lb ed="#S" n="64" break="no"/>tia magis stricte: prout misericordia dicit voluntatem subueniendi 
+      <lb ed="#S" n="65"/>miseriis aliorum praeter merita: iustitia vero dicit 
+       volunta<lb ed="#S" n="66" break="no"/>tem retribuendi secundum exigetiam meritorum: &amp; hoc modo 
+      <lb ed="#S" n="67"/>mia &amp; iustitia non concurrunt ad omne opus diuinum, concur- 
+      <!--0493.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>runt tamen in punitione malorum &amp; retributione iustorum. 
+      <lb ed="#S" n="69"/>De retributione iustorum patet sic, quia reddere praemium 
+      <lb ed="#S" n="70"/>excedens meritum est opus misericordiae &amp; iustitiae: quate 
+      <lb ed="#S" n="71"/>nus enim redditur pro merito iustitiae est, sed inquantum 
+      <lb ed="#S" n="72"/>excedens meritum misericordiae est, sed in praemiatione iusto 
+      <lb ed="#S" n="73"/>rum redditur praemium excedens meritum, cum non sint aequalis 
+      <lb ed="#S" n="74"/>valoris opera meritoria &amp; gloria seu vita aeterna. ergo. &amp;
+       e<lb ed="#S" break="no" n="75"/>De punitione vero malorum patet idem sic: quia secundum 
+       ri<lb ed="#S" break="no" n="76"/>gorem iustitiae propter vitium ingratitudinis meretur 
+       ali<lb ed="#S" break="no" n="77"/>quis priuari om̃ibus beneficiis gratis acceptis. sed 
+       quic<lb ed="#S" break="no" n="78"/>quid sumus &amp; quicquid habemus totum a Deo accepimus 
+      <lb ed="#S" n="79"/>per illud apostoli. 1. Ad Corinth. 4. Quid habes quod non 
+      <lb ed="#S" n="80"/>accepisti? &amp; propter ingratitudinem quae committitur in 
+      <lb ed="#S" n="81"/>omni peccato mortali meretur peccator amittere 
+       secun<lb ed="#S" break="no" n="82"/>dum rigorem iustitiae quicquid a Deo accepit: hoc est 
+      <lb ed="#S" n="83"/>quicquid est in se: &amp; quicquid habet in se quo facto esset 
+      <lb ed="#S" n="84"/>homo annihilatus, cum ergo in punitione malorum non 
+      <lb ed="#S" n="85"/>fiat annihilatio eorum: patet quod ibi est misericordia Dei 
+      <lb ed="#S" n="86"/>aliquid relaxans, vt vere posset dici illud Threnorum. 2. 
+      <lb ed="#S" n="87"/>misericordiae Domini: quia non sumus consumpti. qua 
+      <lb ed="#S" n="88"/>re. &amp;c.
+    </p>
+            <p xml:id="khj78y-r58123-d1e763" n="17">
+      <!-- 17 -->Ad argumentum in oppositum dicendum per 
+      <lb ed="#S" n="89"/>interemptionem minoris: quia iustitia vindicatiua non 
+      <lb ed="#S" n="90"/>solum vt medicina: quia eadem est iustitia qua praemiam 
+      <lb ed="#S" n="91"/>tur boni &amp; puniuntur mali: quamuis alius actus hic &amp; ibi 
+      <lb ed="#S" n="92"/>secundum diuersitatem materiae. Et quia bonum est non so 
+      <lb ed="#S" n="93"/>lum punire malos sed punire bonos: ideo iustitia non 
+       so<lb ed="#S" break="no" n="94"/>lum est bona in ratione medicinae: quatenus est 
+       puniti<lb ed="#S" break="no" n="95"/>ua malorum: sed est ex bona secundum se quatenus est 
+       re<lb ed="#S" break="no" n="96"/>ctitudo voluntatis ordinans aliquid ad alterum · &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

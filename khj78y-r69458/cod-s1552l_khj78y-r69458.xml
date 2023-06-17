@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="524"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r69458"><!-- l4d49-q6 -->
+            <head xml:id="khj78y-r69458-Hd1e101">Quaestio 6</head>
+            <head xml:id="khj78y-r69458-Hd1e103" type="question-title">
+     utrum beatitudo 
+       sanctorum post resurrectionem sit fatura 
+     maior quam sit modo
+   </head>
+            <p xml:id="khj78y-r69458-d1e106">
+               <lb ed="#S" n="101"/>QVAESTIO SEXTA. 
+    </p>
+            <p xml:id="khj78y-r69458-d1e111">
+               <lb ed="#S" n="102"/>De beatitudine post resorrectionem 
+      <lb ed="#S" n="103"/>futura maiori. 
+    </p>
+            <p xml:id="khj78y-r69458-d1e118">
+               <lb ed="#S" n="104"/>Thom. 4. Distin. 49. Quaest. uarti. 4
+    </p>
+            <p xml:id="khj78y-r69458-d1e124">
+               <lb ed="#S" n="105"/>SEXTO quaeritur vtrum beatitudo 
+       san<lb ed="#S" break="no" n="106"/>ctorum post resurrectionem sit fatura 
+       ma<lb ed="#S" break="no" n="107"/>ior quam sit modo. Et videtur quod sic, 
+      <lb ed="#S" n="108"/>quia sicut se habet miseria ad reprobos, 
+      <lb ed="#S" n="109"/>sic gloria ab beatos: sed miseria 
+       repro<lb ed="#S" break="no" n="110"/>borum non solum hominum, sed etiam daemonum eris 
+      <lb ed="#S" n="111"/>maior post resurrectionem quam nunc: ergo &amp; gloria bea 
+      <lb ed="#S" n="112"/>torum.
+    </p>
+            <p xml:id="khj78y-r69458-d1e144" n="2">
+      <!-- 2 -->Item gloria perficit naturam, igitur natura 
+      <lb ed="#S" n="113"/>existente perfectiore erit, glocia perfectior: sed natura 
+      <lb ed="#S" n="114"/>animae erit perfectior post resurrectionem quam modo: 
+      <lb ed="#S" n="115"/>quia perfectiori modoexistit in toto quam separata a toto, 
+      <lb ed="#S" n="116"/>cum si naturaliter pars totius hominis, ergo ei' gloria erit per 
+      <lb ed="#S" n="117"/>fectior.
+    </p>
+            <p xml:id="khj78y-r69458-d1e160" n="3">
+      <!-- 3 -->Contra, quia operatio quae in nullo indiget 
+      <lb ed="#S" n="118"/>corpore non perficitur in aliquo ex praesentia corporis: 
+      <lb ed="#S" n="119"/>sed operatio in qua consistit beatitudo in nullo indiget 
+      <lb ed="#S" n="120"/>corpore: ergo nullo modo perficietur per resumptionem· 
+      <lb ed="#S" n="121"/>corporia Maior de se patet, sed minor probatur, quia 
+       ope<lb ed="#S" break="no" n="122"/>ratio in qua consistit beatitudo non indiget corpore vt 
+      <lb ed="#S" n="123"/>sa biecto: quia nulla operatio intellectualis indiget 
+       cor<lb ed="#S" break="no" n="124"/>pore isto modo: nec indiget eo vt obiecto, quia non fit 
+       me<lb ed="#S" break="no" n="125"/>diante phantasmate, sicut fiunt operationes naturales: 
+       qua<lb ed="#S" break="no" n="126"/>re dec.
+    </p>
+            <p xml:id="khj78y-r69458-d1e184" n="4">
+      <!-- 4 -->Respondeo circa hanc quaestionem sic procedendum· 
+      <!--0525.xml-->
+      <pb ed="#S" n="525"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>est: quia primo ponetur id in quo conueniunt: secundo 
+      <lb ed="#S" n="2"/>ponentur tres opiniones circa illud quod est dubium. 
+    </p>
+            <p xml:id="khj78y-r69458-d1e200" n="5">
+               <lb ed="#S" n="3"/>
+               <!-- 5 -->Quantum ad primum dicunt quidam &amp; bene, quod 
+      <lb ed="#S" n="4"/>beatitudinem sanctorum augeri post resumptionem cor 
+      <lb ed="#S" n="5"/>porum, potest intelligi dupliciter. Vno modo extensiue: 
+      <lb ed="#S" n="6"/>quia erit in pluribus. Alio modo intensiue, ita sic licet quod 
+      <lb ed="#S" n="7"/>anima beata quae nunc videt Deum videat ipsum clarius 
+      <lb ed="#S" n="8"/>&amp; diligat ipsum intensius resumpto corpore. si 
+       loqua<lb ed="#S" break="no" n="9"/>mur de augmento beatitudinis extensiue: sic clarum est 
+      <lb ed="#S" n="10"/>quod augebitur beatitudo post resurrectionem:quia tunc 
+      <lb ed="#S" n="11"/>homo beatificabitur non solum in anima quo ad vires 
+      <lb ed="#S" n="12"/>superiores, que sunt intellectus &amp; voluntas: sed quo ad 
+      <lb ed="#S" n="13"/>vires inferlores sensitiuas, &amp; in corpore quantum ad 
+       do<lb ed="#S" break="no" n="14"/>tes suas: sicut econuerso damnati affligentur non solum 
+      <lb ed="#S" n="15"/>in anima quo ad intellectum &amp; voluntatem, sed in 
+       cor<lb ed="#S" break="no" n="16"/>pore quo ad sensualltatem: &amp; sic loquitur Glo. super illud 
+      <lb ed="#S" n="17"/>Apoc. 6. Vidi sub altare dei animas interfectorum: quae 
+      <lb ed="#S" n="18"/>dicit quod animae sanctorum modo sunt in minori 
+       di<lb ed="#S" break="no" n="19"/>gnitate quam futurae sint post resurrectionem. &amp; Hierony. 
+      <lb ed="#S" n="20"/>qui dicit, quod peracto finali iudicio Deus ampliorem 
+      <lb ed="#S" n="21"/>gloriam demonstrabit sanctis. Haec enim maior 
+       digni<lb ed="#S" break="no" n="22"/>tas vel amplior gloria erit secundum extensionem quae 
+      <lb ed="#S" n="23"/>erit quo ad plura. sed contra hoc arguitur, quia 
+       sum<lb ed="#S" break="no" n="24"/>mum bonum non augetur sicut nec albissimum 
+       dealba<lb ed="#S" break="no" n="25"/>tur.
+    </p>
+            <p xml:id="khj78y-r69458-d1e255" n="6">
+      <!-- 6 -->solutio, beatitudo diuina est summum bonum 
+      <lb ed="#S" n="26"/>simpliciter: vnde nullo modo augetur etiam extensiue 
+      <lb ed="#S" n="27"/>quocunque sibi addito. Nam licet beatitudo diuina 
+       Chri<lb ed="#S" break="no" n="28"/>sti extensa sit vsque ad animam &amp; corpus, tamen 
+       beatitu<lb ed="#S" break="no" n="29"/>do eiuscreata cum increata non est aliquid melius: 
+       vn<lb ed="#S" break="no" n="30"/>de eius beatitudo non creuit etiam extensiue. sed 
+       beati<lb ed="#S" break="no" n="31"/>tudo animae est summum bonum eius in genere, vnde 
+      <lb ed="#S" n="32"/>crescit extensiue: sed beatitudo hominis est summum 
+      <lb ed="#S" n="33"/>bonum eius prout compraehendit vtrumque non alterum. 
+      <lb ed="#S" n="34"/>sicut enim perfectum bonum hominis secundum natu 
+      <lb ed="#S" n="35"/>ram non est sola anima, sed compositum, quia perfectum 
+      <lb ed="#S" n="36"/>ex omnibus partibus suis constat: sic summum bonum 
+      <lb ed="#S" n="37"/>eius non est nisi aggregatum ex vtraquebeatitudine: quod 
+      <lb ed="#S" n="38"/>est vnum per accidens &amp; si non per se. Hoc enim est sum 
+      <lb ed="#S" n="39"/>mum bonum creaturae quod sibi taxatum est a diuina 
+      <lb ed="#S" n="40"/>praedestinatione, quia absolute qualibet beatitudine an 
+      <lb ed="#S" n="41"/>gelica potest esse maior: sed non de potentia ordinata: Deus 
+      <lb ed="#S" n="42"/>autem praedestinauit homini vtramque beatitudinem. ideo 
+      <lb ed="#S" n="43"/>&amp;c.
+    </p>
+            <p xml:id="khj78y-r69458-d1e300" n="7">
+      <!-- 7 -->si autem loquamur de augmento beatitudinis 
+      <lb ed="#S" n="44"/>intensiue, sic est triplex opinio.
+    </p>
+            <p xml:id="khj78y-r69458-d1e307" n="8">
+      <!-- 8 -->Prima, quod 
+       beati<lb ed="#S" break="no" n="45"/>tudo essentialis quae consistit in Dei visione augebitur 
+      <lb ed="#S" n="46"/>intensiue post resurrectionem, quod probatur tripliciter. 
+      <lb ed="#S" n="47"/>Primo sic, &amp; est ratio in arguendo tacta. Operatio 
+       praesup<lb ed="#S" n="48" break="no"/>ponit esse: ergo quod habet perfectius esse habet perfectius 
+      <lb ed="#S" n="49"/>operari: sed anima resumpto corpore habebit perfectius 
+      <lb ed="#S" n="50"/>esse in suo toto quam separata ab ipso, ergo habebit per 
+      <lb ed="#S" n="51"/>fectiusesse quam habeat nunc a corpore separata, cum 
+      <lb ed="#S" n="52"/>sit pars quae semper habet perfectius esse in suo toto quam 
+      <lb ed="#S" n="53"/>separata ab ipso: ergo habebit perfectius operari: sed in 
+      <lb ed="#S" n="54"/>operatione consistit beatitudo: ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r69458-d1e333" n="9">
+      <!-- 9 -->secundo sic, 
+      <lb ed="#S" n="55"/>delectatio sequens visionem Dei proportionatur visioni, 
+      <lb ed="#S" n="56"/>sed delectatio augebitur resumpto corpore: ergo visio. 
+      <lb ed="#S" n="57"/>Probatio minoris: quia sicut se habet tristitia ad 
+       minuen<lb ed="#S" break="no" n="58"/>dum delectationem, sic delectatio ad augendum eam: 
+      <lb ed="#S" n="59"/>sicut enim vnumquodque minuitur per suum contrarium, 
+      <lb ed="#S" n="60"/>sic augetur per suum simile: sed omnis tristitia adueniens 
+      <lb ed="#S" n="61"/>delectationi minuit eam: ergo omnis delectatio adueniens 
+      <lb ed="#S" n="62"/>praeexistenti delectationi auget ipsam, sed resumpto 
+       cor<lb ed="#S" break="no" n="63"/>pore delectationi quae est in visione Dei aduenient, &amp; 
+       ad<lb ed="#S" break="no" n="64"/>dentur quamplures aliae de beatificatione corporis: 
+       er<lb ed="#S" break="no" n="65"/>go per eas augebitur praecedens delectatio de visione Dei: 
+      <lb ed="#S" n="66"/>&amp; si delectatio &amp; visio.
+    </p>
+            <p xml:id="khj78y-r69458-d1e364" n="10">
+      <!-- 10 -->Hanc autem opinionem alij 
+      <!--0525.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="67"/>reprobant &amp; bene propter duo. Primo, quia manente eodem 
+      <lb ed="#S" n="68"/>formali principio aeque intenso &amp; in subiecto proximo, 
+      <lb ed="#S" n="69"/>manet aeque perfecta operatio excluso subiecto remoto, 
+      <lb ed="#S" n="70"/>sicut videmus quod manente colore quantitate exclusa sub 
+      <lb ed="#S" n="71"/>stantia in eucharistia, aeque potest color seu albedo 
+       disgre<lb ed="#S" break="no" n="72"/>gare sicut si maneret subiectum remotum: sed potentia 
+       in<lb ed="#S" break="no" n="73"/>tellectiua &amp; lumen gloriae manent aeque intensa &amp; 
+       per<lb ed="#S" break="no" n="74"/>fecta in anima separata, sicut post resurrectionem erunt, 
+      <lb ed="#S" n="75"/>nullum enim istorum intendetur, sunt etiam in anima 
+       se<lb ed="#S" break="no" n="76"/>parata vt in subiecto proximo: ergo manet in anima 
+       se<lb ed="#S" break="no" n="77"/>parata aeque intensa &amp; perfecta operatio.
+    </p>
+            <p xml:id="khj78y-r69458-d1e397">
+      <!--11--> Secundo, 
+      <lb ed="#S" n="78"/>quia videmus quod conditio subiecti remoti non variat opera 
+      <lb ed="#S" n="79"/>tionem nisi varietur in aliquo immediatum principium 
+       ope<lb ed="#S" break="no" n="80"/>rationis, quamuis enim humana natura sit perfectior quam 
+      <lb ed="#S" n="81"/>natura aquilae, intentius tamen videt aquila quam homo: 
+      <lb ed="#S" n="82"/>videmus etiam quod variato immediato principio ope 
+      <lb ed="#S" n="83"/>rationis, variatur operatio dato quod non varietur subiectum, 
+      <lb ed="#S" n="84"/>&amp; multiplicato multiplicatur absque multiplicatione sub 
+      <lb ed="#S" n="85"/>iecti, propter quod tota conditio operationis videtur sequi 
+      <lb ed="#S" n="86"/>conditionem principij immediati secundum se: cum igitur 
+       im<lb ed="#S" break="no" n="87"/>mediata principia operationis in quibus beatitudo consi 
+      <lb ed="#S" n="88"/>stit sint secundum se aeque perfecta in anima separata, sicut 
+      <lb ed="#S" n="89"/>in eaerunt resumpto corpore: sequitur quod eorum operatio est 
+      <lb ed="#S" n="90"/>aeque perfecta prius sicut postea.
+    </p>
+            <p xml:id="khj78y-r69458-d1e430">
+      <!--12. -->Isti etiam respondent 
+      <lb ed="#S" n="91"/>ad rationes opinionis, ad primam dicentes, quod non cogit cum dicit 
+      <lb ed="#S" n="92"/>quod anima habet perfectius esse resumpto corpore quam 
+      <lb ed="#S" n="93"/>separata, dicunt quod ly perfectius potest esse nomem vel 
+       aduer<lb ed="#S" break="no" n="94"/>bium: si sit nomen, tunc falsum est quod anima coniuncta 
+       ha<lb ed="#S" n="95" break="no"/>beat perfectius esse quam separata, quia habere perfectius 
+      <lb ed="#S" n="96"/>esse est habere esse quod in se &amp; sua natura est magis per 
+      <lb ed="#S" n="97"/>fectumz anima autem coniuncta non habet esse quod in se 
+      <lb ed="#S" n="98"/>sit magis perfectum quam quando est separata, sed habet 
+      <lb ed="#S" n="99"/>omnino idem esse nec intensius nec remissius: &amp; per 
+       con<lb ed="#S" n="100" break="no"/>sequens nec remissius nec intensius operatur. si vero ly 
+      <lb ed="#S" n="101"/>perfectius teneatur aduerbialiter, sic verum est quod 
+       ani<lb ed="#S" break="no" n="102"/>ma coniuncta habebit perfectius esse, id est perfectiori 
+       mo<lb ed="#S" break="no" n="103"/>do: quam separata, quia pars perfectiori modo existit in 
+       to<lb ed="#S" n="104" break="no"/>to quam separata ab ipso. Et simili modo potest dici, quod 
+      <lb ed="#S" n="105"/>habet perfectius operari non intensiue: quia nec sic 
+       ha<lb ed="#S" break="no" n="106"/>bet intensius operati sed perfectiori modo: quia est 
+       ope<lb ed="#S" break="no" n="107"/>ratio perfectioris. i. compositi quod est perfectius qualibet 
+      <lb ed="#S" n="108"/>sui parte, sed de hac perfectione non quaerimus sed de illa 
+      <lb ed="#S" n="109"/>quae est per intensionem.
+    </p>
+            <p xml:id="khj78y-r69458-d1e477" n="13">
+      <!-- 13 -->Ad secundum, quod dele 
+      <lb ed="#S" n="110"/>ctatioe de visione Dei non augebit: &amp; comprobatur q 
+      <lb ed="#S" n="111"/>imo, quia omnis tristitia minuit delectationem: ergo omnis 
+      <lb ed="#S" n="112"/>delectatio auget eam. Dicendum, quod non sequitur: causa 
+      <lb ed="#S" n="113"/>enim quare tristitia minuit delectationem non semper est 
+      <lb ed="#S" n="114"/>contrarietas vnius ad alterum: quia non omnis tristitia 
+       con<lb ed="#S" n="115" break="no"/>trariatur omni delectationi: sed est quia omnes potentiae 
+      <lb ed="#S" n="116"/>animae radicantur in vna essentia: propter quod quando 
+       in<lb ed="#S" break="no" n="117"/>tensio animae vehementer trahitur ad operationem vnius 
+       po<lb ed="#S" n="118" break="no"/>tentiae, retrahitur vel minuitur ab operatione alterius: 
+      <lb ed="#S" n="119"/>manifestum est autem quod omnis tristitia maxime ad se trahis 
+      <lb ed="#S" n="120"/>intentionem animae: quia vnumquodque naturaliter tendit 
+      <lb ed="#S" n="121"/>ad repellendum contrariunt &amp; ideo in omni tristitia 
+       attra<lb ed="#S" n="122" break="no"/>hitur intentio animae a quacunque alia operatione propter 
+      <lb ed="#S" n="123"/>quod minuit ipsam, &amp; similiter in delectatione. Quis 
+      <lb ed="#S" n="124"/>enim intentio animae tendit in quod delectat, per 
+       conse<lb ed="#S" n="125" break="no"/>quens retrahitur ab aliis operationibus &amp; ex hoc 
+       minui<lb ed="#S" n="126" break="no"/>tur, &amp; ideo delectatio minuit omnem aliam 
+       delectatio<lb ed="#S" break="no" n="127"/>nem, nisi quando est de eodem obiecto, &amp; secundum 
+       ean<lb ed="#S" break="no" n="128"/>dem operationem: vel quando vna ordinatur ad alteram 
+      <lb ed="#S" n="129"/>vt in proposito.
+    </p>
+            <p xml:id="khj78y-r69458-d1e525" n="14">
+      <!-- 14 -->secunda opinio est, quod beatitudo est 
+      <lb ed="#S" n="130"/>perfectior resumpto corpore quam ante, non intensine vt 
+       po<lb ed="#S" break="no" n="131"/>nit praecedens opinio: sed quia magis prompte &amp; expedite 
+      <lb ed="#S" n="132"/>exercebit anima suam operationem resumpto corpore quam 
+      <!--0526.xml-->
+      <pb ed="#S" n="526"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ante. Et ratio huius opinionis est, quia in anima 
+       sepata<lb ed="#S" break="no" n="2"/>ta videtur esse quidam naturalis appetitus vt reuniatur 
+      <lb ed="#S" n="3"/>corpori: &amp; hic naturalis appetitus videtur animam 
+       impe<lb ed="#S" break="no" n="4"/>dire ne ita prompte &amp; faciliter feratur in Deum tota 
+       inten<lb ed="#S" break="no" n="5"/>tione, sicut resumpto corpore.
+    </p>
+            <p xml:id="khj78y-r69458-d1e554" n="15">
+      <!-- 15 -->Et confirmatur per 
+      <lb ed="#S" n="6"/>Augu. 12. super gene. ad literam. Cum enim inquireret vtrum 
+      <lb ed="#S" n="7"/>spiritibus defunctorum sine corporibus possit illa summa 
+      <lb ed="#S" n="8"/>beatitudo praeberi, respondet quod non possunt sic videre illam 
+      <lb ed="#S" n="9"/>incommutabilem essentiam vt sancti angeli: sine aliqua 
+      <lb ed="#S" n="10"/>latentiore causa: siue ideo quia inest naturalis appetitus 
+      <lb ed="#S" n="11"/>corpus administrandi, quo appetitu retardantur ne tota 
+      <lb ed="#S" n="12"/>intentione pergant in summum coelum: hoc est in trinitatem 
+      <lb ed="#S" n="13"/>per cognitionem &amp; amorem.
+    </p>
+            <p xml:id="khj78y-r69458-d1e576" n="16">
+      <!-- 16 -->Hanc autem 
+       opinio<lb ed="#S" break="no" n="14"/>nem alij reprobant &amp; bene propter duo. Primo, quia 
+       di<lb ed="#S" break="no" n="15"/>stractio intentionis ad vnum minuit operationem circa 
+      <lb ed="#S" n="16"/>alterum, sed secundum istam opinionem anima separata non 
+      <lb ed="#S" n="17"/>ita expedite &amp; libere fertur in Deum sicut coniuncta: 
+       pro<lb ed="#S" break="no" n="18"/>pter hoc solum quia intentio eius distrahitur ad alterum. scilicet 
+      <lb ed="#S" n="19"/>ad administrationem corporis, vt patet plane ex verbis 
+      <lb ed="#S" n="20"/>Augustini per eos allegatis: ergo cum non minus 
+       distra<lb ed="#S" break="no" n="21"/>hatur anima corpus administrando quam eius administra 
+      <lb ed="#S" n="22"/>tionem desiderando, post resumptionem propter hanc 
+       ad<lb ed="#S" break="no" n="23"/>ministrationem remittetur eius operatiocirca Deum: &amp; 
+      <lb ed="#S" n="24"/>ita minor erit eius beatitudo quod tamen isti negant. 
+    </p>
+            <p xml:id="khj78y-r69458-d1e605" n="17">
+               <lb ed="#S" n="25"/>
+               <!-- 17 -->Item secundo, quia si anima resumpto corpore 
+       ma<lb ed="#S" break="no" n="26"/>gis expedite feratur in Deum quam ante: hoc non eris nisi 
+      <lb ed="#S" n="27"/>nabebit plura adiumeta, vei quia no nadeoit tot 
+       tmpe<lb ed="#S" break="no" n="28"/>dimenta. non quia habebit plura adiumenta: quia corpus &amp; 
+      <lb ed="#S" n="29"/>vires corporis nihil conferunt ad visionem diuinae essentiae: 
+      <lb ed="#S" n="30"/>nec subiectiuerpotentia autem intellectiua &amp; voluntas 
+       sup<lb ed="#S" n="31" break="no"/>ponuntur aeque perfecte. si voro dicatur quod non 
+       ha<lb ed="#S" break="no" n="32"/>bebit tot impedimenta quot separata, non stat cum 
+       prin<lb ed="#S" break="no" n="33"/>cipali conclusione: quia id quod est impedimentum 
+       non<lb ed="#S" break="no" n="34"/>quam aeque intense operatur nisi magis conetur, si ergo 
+      <lb ed="#S" n="35"/>anima separata plura impedimenta habet quam coniuncta: 
+      <lb ed="#S" n="36"/>sequitur quod non ita intense videat Deum sicut 
+       con<lb ed="#S" break="no" n="37"/>iuncta, nisi magis conetur: fingere autem in ea maiorem 
+      <lb ed="#S" n="38"/>conatum non est facile: ergo nullo modo stant fimul quod 
+      <lb ed="#S" n="39"/>anima coniuncta liberius feratur in Deum quam 
+       separa<lb ed="#S" break="no" n="40"/>ta &amp; non intensius. Tenendum est ergo, quod sicut anima 
+      <lb ed="#S" n="41"/>separataaeeque intense fertur in Deum vt coniuncta, sic 
+      <lb ed="#S" n="42"/>sertur aeque expedite &amp; libere. E8 Respondent otiam 
+      <lb ed="#S" n="43"/>ad rationem opinionis in opposnum dicentes, quod non 
+      <lb ed="#S" n="44"/>cogit: quia appetitus animae separacae de administrando 
+      <lb ed="#S" n="45"/>corpus in nullo impedit vol minuit visionem Dei vel 
+      <lb ed="#S" n="46"/>fruitionem, quia vel ille appetitus est animae naturalis 
+      <lb ed="#S" n="47"/>quia competit animae vt est forma, &amp; talis non impedis 
+      <lb ed="#S" n="48"/>aut distrahit cognitionem, quia noc cognitionem exigit: 
+      <lb ed="#S" n="49"/>est enim similis appetitus in rebus cognitione 
+       carenti<lb ed="#S" break="no" n="50"/>bus: vel est appetitus sequens cognitionem, vt 
+       pote<lb ed="#S" n="51" break="no"/>quia anima separata cognoscendo suam naturam quo ad 
+      <lb ed="#S" n="52"/>aliquid imperfectam, quia nondum beatificam quo ad vires 
+      <lb ed="#S" n="53"/>sensitiuas quae corpus perficiunt, appetit corpori vniti 
+       ve<lb ed="#S" n="54" break="no"/>In ipso perficiatur plenius. sed nec iste appetit' minuis 
+      <lb ed="#S" n="55"/>M aliquo aut distrahit visionem diuinae essentiae: nec 
+      <lb ed="#S" n="56"/>fruitionem de visionet quia duo quorum ratio vnius su 
+      <lb ed="#S" n="57"/>initur ex altero: vnum non est impedimentum alterius 
+      <lb ed="#S" n="58"/>sicut cognitio rerum in verbo non impedit aut distrahit 
+       co<lb ed="#S" n="59" break="no"/>nit lonem verbi: quia verbum est ratio cognoscendi 
+       caete<lb ed="#S" n="60" break="no"/>tera in verbo: similiter appetitus animae videntis Deum 
+      <lb ed="#S" n="61"/>de admihistrando corpore regulatur secundum appetitum 
+      <lb ed="#S" n="62"/>videndis. Deum &amp; frueudi Deo, sicut ea quae sum ad 
+       fi<lb ed="#S" break="no" n="63"/>nem, rationem &amp; regulam sumunt ex fine: vnde anima non 
+      <lb ed="#S" n="64"/>apperit reuniri corpori, nisi sicut videt placere · diuinae 
+      <lb ed="#S" n="65"/>bouitati, &amp; diuinae voluntati quam imuetur &amp; quae 
+       frui<lb ed="#S" break="no" n="66"/>tur, propter quod vnum non est distractiuum vel impedi- 
+      <!--0526.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="67"/>tiuum alterius. August. autem in auctoritate allegata 
+      <lb ed="#S" n="68"/>magis loquitur inquirendo quam asserendo, vt patet ex 
+      <lb ed="#S" n="69"/>verbis suis: dicit enim, siue ideo, siue ex alia latente 
+       cau<lb ed="#S" break="no" n="70"/>sa. &amp;c.
+    </p>
+            <p xml:id="khj78y-r69458-d1e714" n="19">
+      <!-- 19 -->Tertia opinio est, quod anima resumpto cor 
+      <lb ed="#S" n="71"/>pore non intensius videbit Deum nec expeditius quam 
+      <lb ed="#S" n="72"/>separata. Et licet hoc satis pateat ex reprobationibus 
+       dua<lb ed="#S" break="no" n="73"/>rum opinionum praecedentium, tamen adhuc potest alia 
+      <lb ed="#S" n="74"/>ratio adduci quae est communis &amp; tamen satis effitax: quae 
+      <lb ed="#S" n="75"/>talis est. si animae beatorum resumptis corporibus 
+       inten<lb ed="#S" n="76" break="no"/>sius &amp; liberius viderent Deum quam ante, hoc esset vel 
+      <lb ed="#S" n="77"/>ex parte patentiae cognoscentis, vel ex porte luminis 
+       glo<lb ed="#S" n="78" break="no"/>riae ipsam eleuantis diuine, vel ex parte obiecti 
+       repraesen<lb ed="#S" n="79" break="no"/>tati, vel ex parte alicuius impedimenti in anima 
+       separa<lb ed="#S" break="no" n="80"/>ta existentis. Non ex parte potentiae cognoscentis, quia 
+      <lb ed="#S" n="81"/>illa remanet penitus eadem non intensa necremissa, nec 
+      <lb ed="#S" n="82"/>ex parte luminis propter eandem causam, nec ex parte 
+      <lb ed="#S" n="83"/>obiecti: quia tunc non repraesentabitur aliter, nec ex 
+       par<lb ed="#S" n="84" break="no"/>te alicuius impedimenti, quia nullum est in anima 
+       sepa<lb ed="#S" n="85" break="no"/>rata pluri quam in coniuncta, vt deductum est: ergo 
+      <lb ed="#S" n="86"/>anima resumpto corpore non videbit Deum expeditius 
+      <lb ed="#S" n="87"/>vel extensius quam ante.
+    </p>
+            <p xml:id="khj78y-r69458-d1e757" n="20">
+      <!-- 20 -->Potest etiam addi 
+       secun<lb ed="#S" break="no" n="88"/>da ratio ex aequalitate habitus comparando gratiam ad 
+      <lb ed="#S" n="89"/>naturam sic: Vbi est aequalis habitus gloriae licet inaequa 
+      <lb ed="#S" n="90"/>lis gradus naturae vel suppositi, ibi est aequalis 
+       beatitu<lb ed="#S" break="no" n="91"/>do: sic patet in angelo &amp; homine, quia omnis natura 
+       hu<lb ed="#S" break="no" n="92"/>mana etiam in Christo est inferior angelica: &amp; omne 
+       sup<lb ed="#S" n="93" break="no"/>positum humanum creatum est inferius angelico: &amp; 
+       ta<lb ed="#S" break="no" n="94"/>men aliquis homo &amp; aliquis angelus sunt aequales in 
+      <lb ed="#S" n="95"/>beatitudine, secundum illud, erunt sicut angeli Dei in 
+      <lb ed="#S" n="96"/>coelo: sed aequalitas habitus gloriae est in anima separata 
+      <lb ed="#S" n="97"/>&amp; coniuncta. Probatio, quia tantum recipit anima cum 
+      <lb ed="#S" n="98"/>primo videt Deum quantum meruit, si tamen capax sit: 
+      <lb ed="#S" n="99"/>nam stolam gloriae corporis non statim recipit quamuis 
+      <lb ed="#S" n="100"/>eam meruit: quia eam statim capere non potest, sed 
+       ani<lb ed="#S" break="no" n="101"/>ma separata est capax tanti luminis quanti coniuncta, 
+      <lb ed="#S" n="102"/>quia non est capax luminis nisi secundum potentiam 
+       intelle<lb ed="#S" break="no" n="103"/>ctiuam quae non augetur ergo. &amp;c.
+    </p>
+            <p xml:id="khj78y-r69458-d1e796" n="21">
+      <!-- 21 -->Et confirmatur 
+       ra<lb ed="#S" break="no" n="104"/>tio, quia anima Christi habuit imperfectius osse humanum 
+      <lb ed="#S" n="105"/>essentiae &amp; existentiae si vnquam habuit separata, quam 
+       con<lb ed="#S" break="no" n="106"/>iuncta corpori mortali vel immortali, sicut caeterae 
+       ani<lb ed="#S" break="no" n="107"/>mae separatae: quia vere homo &amp; vere mortuus foit, nec 
+      <lb ed="#S" n="108"/>tamen minus habuit perfectum beatitudinem quam ante 
+      <lb ed="#S" n="109"/>pass ionem, quando corpus non impediebat plusquam post: 
+      <lb ed="#S" n="110"/>nec post resurrectionem plosquam in die conceptionis: quia 
+      <lb ed="#S" n="111"/>in ea nunquam perfecit, ergo idem est inalijs. Neo valet 
+      <lb ed="#S" n="112"/>quod habebat esse suppositi diuini: quia secundum illud esse 
+      <lb ed="#S" n="113"/>non debebatur beatitudo creata, sed secandum esse creatum 
+      <lb ed="#S" n="114"/>qd aequaliter est in ea &amp; in aliis: &amp; tunc fuit imperfectum. 
+      <lb ed="#S" n="115"/>Et si dicatur quod licet beatitudo creata eliceretur secum 
+      <lb ed="#S" n="116"/>dum esse creatum: tamen fortificabatur secuntum esse 
+      <lb ed="#S" n="117"/>increatum, sicut otium operatio eius meritoria erat 
+       effi<lb ed="#S" break="no" n="118"/>cacior propter suppositum, quod ratione deitatis erat etiam 
+      <lb ed="#S" n="119"/>per se causa illius operationis, sicut &amp; nostrum nostrae: 
+      <lb ed="#S" n="120"/>Dicendum, quod sectis est de perfectione meriti 
+       quaeat<lb ed="#S" break="no" n="121"/>tenditur relatiue non absolute. Actio enim in se 
+       aequa<lb ed="#S" break="no" n="122"/>liter secuudum essentiam perfecta in habente gratiam est 
+       me<lb ed="#S" break="no" n="123"/>ritoria, non in non habente: &amp; in habente maiorem est ma 
+      <lb ed="#S" n="124"/>gis meritoria: &amp; similiter ratione suppositi a quo vel cui 
+      <lb ed="#S" n="125"/>fit est magis, vel minus meritoria, &amp; sic meritum Christi 
+      <lb ed="#S" n="126"/>potuit esse finitum: vbi eadem actio aequaliter perfecta 
+       fuis<lb ed="#S" break="no" n="127"/>set in alio, vel nullius vel finiti meriti. Nos autem quaeri 
+      <lb ed="#S" n="128"/>mus de intrinseca &amp; essentiali &amp; absoluta perfectione 
+      <lb ed="#S" n="129"/>operationis, quae non variatur secundum variationem 
+      <lb ed="#S" n="130"/>operantis, sed priocipij comparatiui vel actiui.
+    </p>
+            <p xml:id="khj78y-r69458-d1e859" n="22">
+      <!-- 22 -->Tertia 
+      <lb ed="#S" n="131"/>ratio potest addi, compatando angelum ad animam, 
+      <lb ed="#S" n="132"/>quia anima Petri aut estuunc aequalis angelo, cui erit 
+      <!--0527.xml-->
+      <pb ed="#S" n="527"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>aequalis post resurrectionem: aut non: si sic, cum 
+       beatitu<lb ed="#S" break="no" n="2"/>do angeli nunquam augeatur essentialiter, ergo nec ani 
+      <lb ed="#S" n="3"/>mae, quia si duorum aequalium vnum tantum augeatur, 
+      <lb ed="#S" n="4"/>fiunt inaequalia: si non, pari ratione nulla anima est 
+       aequa<lb ed="#S" break="no" n="5"/>lis illi angelo, cui post resurrectionem est adaequanda: &amp; 
+      <lb ed="#S" n="6"/>sic vsque ad diem iudicij animae faciunt quartam hierarchiam, 
+      <lb ed="#S" n="7"/>quod est absurdum. Et confirmaturratio, quia aut quili 
+      <lb ed="#S" n="8"/>bet homo esset nunc aequalis angelo cui post resurrectio 
+      <lb ed="#S" n="9"/>nem erit aequalis, &amp; tunc non augeretur in homine 
+       si<lb ed="#S" break="no" n="10"/>cut nec in angelo: aut nullus, &amp; tunc vel esset decimus 
+       or<lb ed="#S" break="no" n="11"/>do semper, vel tunc omnes mutarentur a sede in sedem, 
+      <lb ed="#S" n="12"/>ab ordine in ordinem, a hierachia in hierarchiam: &amp; sic 
+      <lb ed="#S" n="13"/>non esset status.
+    </p>
+            <p xml:id="khj78y-r69458-d1e903" n="23">
+      <!-- 23 -->Quarta ratio potest addi comparan 
+      <lb ed="#S" n="14"/>do aeuum ad tempus: quia aeuiternum vel aeuum non 
+       auge<lb ed="#S" break="no" n="15"/>tur &amp; minus corrumpitur: huius autem est beatitudo crea 
+      <lb ed="#S" n="16"/>ta: ergo non augetur &amp; multominus corrumpitur, sicut 
+      <lb ed="#S" n="17"/>illi habent dicere qui ponunt augmentum per 
+       corruptio<lb ed="#S" break="no" n="18"/>nem secundum quos sequitur, quod non solum erit maior sed 
+      <lb ed="#S" n="19"/>erit alia beatitudo quam prius: &amp; sic beatitudo non est 
+      <lb ed="#S" n="20"/>status.
+    </p>
+            <p xml:id="khj78y-r69458-d1e923" n="24">
+      <!-- 24 -->sed contra hoc arguitur quintupliciter. Pri 
+      <lb ed="#S" n="21"/>mo, quia anima damnati erit miserabilior post 
+       resurre<lb ed="#S" break="no" n="22"/>ctionem quam antetergo anima beati erit beatior.
+    </p>
+            <p xml:id="khj78y-r69458-d1e932" n="25">
+      <!-- 25 -->
+       so<lb ed="#S" break="no" n="23"/>lutio, non est simile, quia in anima damnati dolor est de 
+      <lb ed="#S" n="24"/>malo, finito, vnde recipit intensionem: sed gaudium bea 
+      <lb ed="#S" n="25"/>ti de bono infinito quod non recipit additionem, nec per 
+      <lb ed="#S" n="26"/>consequens gaudium cuius est obiectum recipit 
+       intensio<lb ed="#S" break="no" n="27"/>nem. Vnde concedo quod gaudium animae de beatitudine 
+      <lb ed="#S" n="28"/>sua intenditur corpore resumpto: quia est eiusdem rationis 
+      <lb ed="#S" n="29"/>sed illud non est gaudium essentiale, cum aureola 
+       diffe<lb ed="#S" break="no" n="30"/>rat ab aurea: quando autem sunt gaudia eiusdem 
+       ratio<lb ed="#S" break="no" n="31"/>nis superueniente noua materia gaudij, crescit primum 
+      <lb ed="#S" n="32"/>&amp; non fit aliud nouum: vt quando luminare secundum 
+      <lb ed="#S" n="33"/>adhiberetur aeri: non sunt duo lumina sed vnum 
+       perfe<lb ed="#S" break="no" n="34"/>ctius. sed gaudium de Deo est alterius rationis a gaudio 
+      <lb ed="#S" n="35"/>de bono creato: vnde sunt duo, nec vnum gaudium 
+       auge<lb ed="#S" break="no" n="36"/>tur ex alio: quia ex non quantis non fit quantum: nec vir 
+      <lb ed="#S" n="37"/>tus augetur, nisi ex quibus nascitur: vnde in anima sepa 
+      <lb ed="#S" n="38"/>rata est imaginari triplex gaudium. Primum est de bono 
+      <lb ed="#S" n="39"/>diuino: &amp; istud non crescit, sicut nec aurea crescit per au 
+      <lb ed="#S" n="40"/>reolam, nec linea per punctum: quia nihil crescit per 
+       ad<lb ed="#S" break="no" n="41"/>ditionem rei alterius generis, sed eiusdem generis, sicut 
+      <lb ed="#S" n="42"/>aqua vino addita facit quidem maius, sed non melius nec 
+      <lb ed="#S" n="43"/>fortius, vt quia quanta conuenit cum eo aequalis vel quid 
+      <lb ed="#S" n="44"/>disconuenit. secundum est ibi gaudium de bono suo prae 
+      <lb ed="#S" n="45"/>senti, quod differt re a gaudio de bono corporis, sicut etiam 
+      <lb ed="#S" n="46"/>vna aureola ab alia: vnde non crescit in se, licet cum illo 
+      <lb ed="#S" n="47"/>gaudio per accidens fiat vnum gaudium, quod totum erit 
+      <lb ed="#S" n="48"/>maius quam alterum per se, sed gaudium quod nunc 
+       ha<lb ed="#S" break="no" n="49"/>bet de bono corporis futuro, est eiusdem rationis cum 
+      <lb ed="#S" n="50"/>gaudio quod habebit de bono corporis praesenti: vnde 
+      <lb ed="#S" n="51"/>tunc erit perfectum quod modo est imperfectum: vnde 
+      <lb ed="#S" n="52"/>illud solum gaudium est quod essentialiter &amp; intensiue 
+      <lb ed="#S" n="53"/>augebitur: nec est simile de gaudio quo nunc sumus in 
+      <lb ed="#S" n="54"/>spe gaudentes, ad gaudium quod habebimus: quia illud 
+      <lb ed="#S" n="55"/>erit de re visa, istud de non visa: vnde istud tollet &amp; illud 
+      <lb ed="#S" n="56"/>introducetur sicut &amp; spes &amp;c. sed animae clare vident se 
+      <lb ed="#S" n="57"/>habituras dotes corporis, licet non videant quando: vnde 
+      <lb ed="#S" n="58"/>gaudium spei quod habent de futura gloria corporis, est 
+      <lb ed="#S" n="59"/>vnius rationis cum gaudio rei de ipsa post 
+       resurrectio<lb ed="#S" break="no" n="60"/>nem: vnde non tolletur sed perficietur &amp; intendetur. 
+    </p>
+            <p xml:id="khj78y-r69458-d1e1020" n="26">
+               <lb ed="#S" n="61"/>
+               <!-- 26 -->secundo sic, beatitudo Moysi, &amp; Pauli post 
+       resurre<lb ed="#S" break="no" n="62"/>ctionem erit perfectior: non solum extensiue, quia 
+       aeter<lb ed="#S" break="no" n="63"/>na, sed etiam intensiue quam in suis raptibus, sed licet mor 
+      <lb ed="#S" n="64"/>talitas &amp; immortalitas sint causa extensionis: quia illa 
+      <lb ed="#S" n="65"/>erit perpetua sicut &amp; corpus, ista non: tamen est causa in 
+      <lb ed="#S" n="66"/>tensionis: cum Christus habens corpus mortale aeque ha 
+      <!--0527.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="67"/>buerit intensam nec illa immediatior quam ista: vnde non 
+      <lb ed="#S" n="68"/>est causa nisi quia anima coniuncta corpori immortali 
+      <lb ed="#S" n="69"/>habet esse perfectius quam separata a corpore, vel a 
+       sen<lb ed="#S" break="no" n="70"/>sibus: nam haec duo Grego. parificat.
+    </p>
+            <p xml:id="khj78y-r69458-d1e1051" n="27">
+      <!-- 27 -->solutio: imo cau 
+      <lb ed="#S" n="71"/>sa fuit minus lumen gloriae, quod si tantum fuisset ita 
+       cla<lb ed="#S" break="no" n="72"/>re vidisset: vnde ita clare vidit in morte sicut in 
+       resurre<lb ed="#S" break="no" n="73"/>ctione, sed non ita clare vidit in raptu: quia non erat in 
+      <lb ed="#S" n="74"/>eo tanta charitas quanta fuit in morte: quia supponitur 
+      <lb ed="#S" n="75"/>quod meritum creuit superueniendo in statu merendi: 
+      <lb ed="#S" n="76"/>&amp; non est simile de visione raptus, quia illa non dabatur 
+      <lb ed="#S" n="77"/>pro finali praemio &amp; termino, sicut ista quae in morte. 
+    </p>
+            <p xml:id="khj78y-r69458-d1e1071" n="28">
+               <lb ed="#S" n="78"/>
+               <!-- 28 -->Tertio, quod iam tactum est: vbi perfectius esse, ibi 
+      <lb ed="#S" n="79"/>maior beatitudo.
+    </p>
+            <p xml:id="khj78y-r69458-d1e1080" n="29">
+      <!-- 29 -->solutio, verum est de naturali, 
+       vn<lb ed="#S" break="no" n="80"/>de paruuli sine baptismo erunt beatiores post resurrectio 
+      <lb ed="#S" n="81"/>nem quam ante, secus in supernaturali, sicut in angelis: 
+      <lb ed="#S" n="82"/>licet habeant perfectius esse: essentiam &amp; naturam &amp; 
+       sup<lb ed="#S" break="no" n="83"/>positum quam homines, non tamen perfectiorem 
+       beati<lb ed="#S" break="no" n="84"/>tudinem. sed ex hoc quidam probant esse differre ab 
+       es<lb ed="#S" break="no" n="85"/>sentia, suppositum a natura: quia cum compositum &amp; 
+       sup<lb ed="#S" break="no" n="86"/>positum non includant cum forma nisi materia, quae 
+       ni<lb ed="#S" break="no" n="87"/>hil est perfectionis: &amp; esse &amp; subsistere: nisi haec essent aliud 
+      <lb ed="#S" n="88"/>nec totum essent perfectius.
+    </p>
+            <p xml:id="khj78y-r69458-d1e1104" n="30">
+      <!-- 30 -->Quarto, quod etiam tactum 
+      <lb ed="#S" n="89"/>est vt aliter soluatur, quia quanto minus anima fertur in 
+      <lb ed="#S" n="90"/>inferiora, tanto plus in Deum: sed nunc desiderat vniri 
+      <lb ed="#S" n="91"/>corpori: ergo retardatur.
+    </p>
+            <p xml:id="khj78y-r69458-d1e1115" n="31">
+      <!-- 31 -->Ad hoc dicunt quidam, 
+      <lb ed="#S" n="92"/>quod desiderium illud non est aliquid positiue, alias 
+       af<lb ed="#S" break="no" n="93"/>fligerentur non obstante quod ratio reprimeret: sicut etiam 
+      <lb ed="#S" n="94"/>velleitas in purgatorio causat dolorem, licet sit electio 
+      <lb ed="#S" n="95"/>deliberatiua de volendo quod Deus vult. Vel dicendum 
+      <lb ed="#S" n="96"/>quod appetitus eius quod est ad finem propter finem non 
+      <lb ed="#S" n="97"/>minuit desiderium fini, siue nunc sit alias appetibile, vt 
+      <lb ed="#S" n="98"/>patet in desideranti amaram potionem propter 
+       sanita<lb ed="#S" break="no" n="99"/>tem, siue hoc sit: dum tamen appetatur solum propter 
+       fi<lb ed="#S" break="no" n="100"/>nem, vt in eo qui non quaerit in medicina dulci nisi 
+       sa<lb ed="#S" break="no" n="101"/>nitatem. Vnde sicut angeli motores vel custodes in 
+       nul<lb ed="#S" break="no" n="102"/>lo retardantur a contemplatione: sic anima quae non vult 
+      <lb ed="#S" n="103"/>corpus nisi propter Deum, sicut nec se diligit nisi propter 
+      <lb ed="#S" n="104"/>Deum, in nullo propter hoc retardatur a Dei visione. 
+    </p>
+            <p xml:id="khj78y-r69458-d1e1149" n="32">
+               <lb ed="#S" n="105"/>
+               <!-- 32 -->Quinto, vbi maior dilectio, ibi maior beatitudo, sed 
+      <lb ed="#S" n="106"/>tunc maior: quia cui plus dimittitur plus diligit. 
+    </p>
+            <p xml:id="khj78y-r69458-d1e1158" n="33">
+               <lb ed="#S" n="107"/>
+               <!-- 33 -->solutio, nihil diligitur nisi quia bonum, solum enim 
+      <lb ed="#S" n="108"/>bonum est quod omnia appetunt: &amp; vbi sunt plures 
+       bo<lb ed="#S" break="no" n="109"/>nitates ibi plures sunt rationes diligendi: &amp; si illae 
+       boni<lb ed="#S" break="no" n="110"/>tates simul iunctae sunt aliud melius quam per se sumptae, 
+      <lb ed="#S" n="111"/>tunc est ibi melior ratio diligendi, &amp; totum est magis di 
+      <lb ed="#S" n="112"/>ligibile, alias sunt plures rationes diligendi, sed non maior 
+      <lb ed="#S" n="113"/>ratio diligendi intensiue. Et autem aliud diligibile non 
+      <lb ed="#S" n="114"/>solum quia bonum dilecti: sed quia bonum in se, sicut 
+      <lb ed="#S" n="115"/>diligo beneficium meum, peccatorem, &amp; diligo iustum: 
+      <lb ed="#S" n="116"/>licet mihi non benefecerit. Deus igitur diligitur a me 
+      <lb ed="#S" n="117"/>secundum bonitatem suam in se, &amp; secundum bonitatem 
+      <lb ed="#S" n="118"/>suam in me: nec est magis diligibilis vt bonus in se &amp; in 
+      <lb ed="#S" n="119"/>me, quam vt bonus in se tantum, sicut nec bonitas: cum 
+      <lb ed="#S" n="120"/>illa non est aliud melius, sed est alia ratio diligendi Deum 
+      <lb ed="#S" n="121"/>secundum quod bonus in se, alia secundum quod 
+       beati<lb ed="#S" break="no" n="122"/>ficus: nam &amp; damnati deberent eum diligere. Est autem 
+      <lb ed="#S" n="123"/>alia ratio diligendi Deum vt beatificum in anima &amp; vt 
+      <lb ed="#S" n="124"/>in corpore: &amp; sic de aliis, &amp; hae bonitates creatae diuersae 
+      <lb ed="#S" n="125"/>faciunt aliud melius simul quam per se. Vnde in resurre 
+      <lb ed="#S" n="126"/>ctione anima diliget Deum: quia bonus animae videnti 
+      <lb ed="#S" n="127"/>ipsum, &amp; quia bonus corpori participanti: sed prima 
+       di<lb ed="#S" break="no" n="128"/>lectio sola est beatifica. Omnis autem alia dilectio aut 
+      <lb ed="#S" n="129"/>est meritoria vt hic, aut consequens beatitudinem quasi 
+      <lb ed="#S" n="130"/>gratiarum actiur: vnde dilectione beatifica non plus 
+       di<lb ed="#S" break="no" n="131"/>liget quam ante: quia Deus non erit melior in se quam 
+      <lb ed="#S" n="132"/>ante: sed dilectione alia, plus diliget quam ante.
+    </p>
+            <p xml:id="khj78y-r69458-d1e1219" n="34">
+      <!--0528.xml-->
+               <pb ed="#S" n="528"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>
+               <!-- 34 -->Ad argumentum in oppositum patet responsio. solum 
+      <lb ed="#S" n="2"/>enim probant quod beatitudo augebitur resumptis cor 
+      <lb ed="#S" n="3"/>poribus extensiue, non intensiue. Miseria enim reprobo 
+      <lb ed="#S" n="4"/>rum de qua procedit primum argumentum, non erit in 
+      <lb ed="#S" n="5"/>tensior resumptis corporibus quantum ad dolorem quem 
+      <lb ed="#S" n="6"/>habent de carentia visionis diuinae, qui dolor respondet 
+      <lb ed="#S" n="7"/>visioni &amp; fruitioni diuinae essentiae, sed erit in pluribus: 
+      <lb ed="#S" n="8"/>quia torquebuntur non solum in anima, sed etiam in 
+       corpo<lb ed="#S" break="no" n="9"/>re: &amp; proportionabiliter augebitur beatitudo in electis. 
+      <lb ed="#S" n="10"/>Miseria autem daemonum non augebitur post iudicium, 
+      <lb ed="#S" n="11"/>quantum ad dolorem quem habent de amistione 
+       visio<lb ed="#S" break="no" n="12"/>nis diuinae essentiae, qui dolor respondet praemio 
+       essen<lb ed="#S" break="no" n="13"/>tiali beatorum angelorum: sed augebitur in quibusdam 
+      <lb ed="#S" n="14"/>accidentalibus: sicut beatitudo bonorum augebitur 
+       ac<lb ed="#S" break="no" n="15"/>cidentaliter post iudicium propter meritum 
+       accidenta<lb ed="#S" break="no" n="16"/>le, quod habent procurando hominum damnationem. 
+    </p>
+            <p xml:id="khj78y-r69458-d1e1265" n="35">
+               <lb ed="#S" n="17"/>
+               <!-- 35 -->sub eodem sensu procedit secundum argumentum: quia 
+      <lb ed="#S" n="18"/>natura humana resumpto corpore erit perfectior: eo 
+      <lb ed="#S" n="19"/>quod consistet in omnibus suis partibus, &amp; in omnibus 
+      <lb ed="#S" n="20"/>glorificabitur, sed non erit perfectior quantum ad 
+       ani<lb ed="#S" break="no" n="21"/>mam intrinsece: nec secundum eam magis 
+       glorificabi<lb ed="#S" break="no" n="22"/>tur intensiue. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

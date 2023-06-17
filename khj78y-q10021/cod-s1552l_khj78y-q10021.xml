@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="11"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q10021"><!-- l4d1-q2 -->
+            <head xml:id="khj78y-q10021-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q10021-Hd1e103" type="question-title">
+     de diffinitione sacramenti
+   </head>
+            <p xml:id="khj78y-q10021-d1e106">
+               <lb ed="#S" n="18"/>QVAESTIO sECVNDA. 
+      <lb ed="#S" n="19"/>De diffinitione sacramenti. 
+    </p>
+            <p xml:id="khj78y-q10021-d1e113">
+               <lb ed="#S" n="20"/>Thom. 1. q. 6o. art. I. 
+    </p>
+            <p xml:id="khj78y-q10021-d1e118">
+               <lb ed="#S" n="21"/>SECVNDO, Quaeritur de 
+      <lb ed="#S" n="22"/>diffinitione sacramenti, quia 
+      <lb ed="#S" n="23"/>cum vnius rei sit vnica diffini 
+      <lb ed="#S" n="24"/>tio, &amp; sacramentum sit quid vnum 
+      <lb ed="#S" n="25"/>non videtur quod de sacramen 
+      <lb ed="#S" n="26"/>to deberent poni multae 
+       diffi<lb ed="#S" break="no" n="27"/>nitiones.
+    </p>
+            <p xml:id="khj78y-q10021-d1e137" n="2">
+      <!-- 2 -->
+       CONTRA<lb ed="#S" break="no" n="28"/>RIVM patet in litera, vbi plu 
+      <lb ed="#S" n="29"/>res ponuntur.
+    </p>
+            <p xml:id="khj78y-q10021-d1e146" n="3">
+      <!-- 3 -->REsPONDEO de 
+       sacramen<lb ed="#S" break="no" n="30"/>to generali dantur quatuor descriptiones, ad quas 
+       om<lb ed="#S" break="no" n="31"/>nes aliae possunt reduci.
+    </p>
+            <p xml:id="khj78y-q10021-d1e155" n="4">
+      <!-- 4 -->PRIMA descriptio est 
+      <lb ed="#S" n="32"/>quod sacramentum est sacrae rei signum.
+    </p>
+            <p xml:id="khj78y-q10021-d1e162" n="5">
+      <!-- 5 -->Primo, 
+      <lb ed="#S" n="33"/>dicitur sacrae. i. vt sacramentas: actu. i. adhibita ad sacrandum 
+      <lb ed="#S" n="34"/>spiritualiter, propter quod nec serpens aenaeus potest 
+       di<lb ed="#S" break="no" n="35"/>ci sacramentum, cum adhibebatur solum ad curam 
+       cor<lb ed="#S" break="no" n="36"/>poralem, nec Crux Christi, quae ad representandum 
+       tan<lb ed="#S" break="no" n="37"/>tum, nec creaturae, quae sunt vestigium Dei in se possunt 
+      <lb ed="#S" n="38"/>dici sacramentum.
+    </p>
+            <p xml:id="khj78y-q10021-d1e180" n="6">
+      <!-- 6 -->sECVNDO, additur rei, 
+      <lb ed="#S" n="39"/>quia in sacramento sunt tria, aliquid, quod est 
+       sacramen<lb ed="#S" break="no" n="40"/>tum tantum, vt signum exterius, significans non 
+       significa<lb ed="#S" break="no" n="41"/>tum: aliud, quod est res tantum, vt res vltima non 
+       signi<lb ed="#S" break="no" n="42"/>ficans aliquid, sed significata. Aliud, quod est medium 
+      <lb ed="#S" n="43"/>inter illa, quod dicitur res, &amp; sacramentum significatum a 
+      <lb ed="#S" n="44"/>primo, &amp; significans aliud, vt character, aut ornatus 
+       re<lb ed="#S" break="no" n="45"/>spectu gratiae, vel huiusmodi.
+    </p>
+            <p xml:id="khj78y-q10021-d1e200" n="7">
+      <!-- 7 -->TERTIO, 
+       poni<lb ed="#S" break="no" n="46"/>tur signum, quia sunt tria genera signorum. scilicet 
+       demonstra<lb ed="#S" break="no" n="47"/>tiuum, rememoratiuum, &amp; pronosticum: vt 
+       demonstra<lb ed="#S" break="no" n="48"/>tiuum sit respectu rei praesentis: rememoratiuum 
+       respe<lb ed="#S" break="no" n="49"/>ctu praeteriti: pronosticum respectu futuri.
+    </p>
+            <p xml:id="khj78y-q10021-d1e214" n="8">
+      <!-- 8 -->ET 
+      <lb ed="#S" n="50"/>sciendum, quod sacramentum dicitur signum rememo 
+      <lb ed="#S" n="51"/>ratiuum quantum ad causam, quam rememorat. scilicet Christi 
+       pas<lb ed="#S" break="no" n="52"/>sionem, demonstratiuum quantum ad effectum, quem actu 
+      <lb ed="#S" n="53"/>facit: quia sanctificat, pronosticum quantum ad finem, 
+      <lb ed="#S" n="54"/>quem ostendit. sfuturam gloriam,
+    </p>
+            <p xml:id="khj78y-q10021-d1e230" n="9">
+      <!-- 9 -->sECVNDA 
+      <lb ed="#S" n="55"/>descriptio est, quod sacramentum est inuisibilis gratiae, vi 
+      <lb ed="#S" n="56"/>sibilis forma: ita vt imaginem gerat, &amp; causa existat. 
+    </p>
+            <p xml:id="khj78y-q10021-d1e239" n="10">
+               <lb ed="#S" n="57"/>
+               <!-- 10 -->Vbi primo est aduertendum, quod aliter se habet lex 
+      <lb ed="#S" n="58"/>ad legem, aliter sacramentum ad sacramentum, quia lex est 
+      <lb ed="#S" n="59"/>recta regula agendorum, &amp; doctrix disciplinae Dei, non 
+      <lb ed="#S" n="60"/>factrix. Vnde ad legem perfectam non pertinet plus 
+       fa<lb ed="#S" break="no" n="61"/>cere: sed perfectius dictare agenda. secus est in sacramen 
+      <lb ed="#S" n="62"/>tis, vt in praesenti quaestione dictum est in solutione pri- 
+      <!--0011.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="63"/>mi argumenti.
+    </p>
+            <p xml:id="khj78y-q10021-d1e263" n="11">
+      <!-- 11 -->secundo est sciendum, quod sicut 
+      <lb ed="#S" n="64"/>sanum dicitur tripliciter. scilicet de habente, efficiente, &amp; 
+       signi<lb ed="#S" break="no" n="65"/>ficante sanitatem, vt puta de animali: medicina, et vrina, 
+      <lb ed="#S" n="66"/>sic sacramentum dicitur de habente formaliter, &amp; 
+       essentia<lb ed="#S" break="no" n="67"/>liter sanctitatem, vt de eucharistia continente sanctum san 
+      <lb ed="#S" n="68"/>ctorum. Item de significante, &amp; efficiente simul, non 
+       ta<lb ed="#S" break="no" n="69"/>men habente, sicut de caeteris sacramentis no. le. item de 
+      <lb ed="#S" n="70"/>efficiente tantum, vt de Christi incarnatione, &amp; pastione. 
+      <lb ed="#S" n="71"/>Item de significante tantum, vt de sacramentis ve. le. Vnde 
+      <lb ed="#S" n="72"/>ista diffinitio, seu descriptio, non conuenit sacramentis 
+      <lb ed="#S" n="73"/>ve. le. sicut nec perfecte ratio sacramenti, vt Magister in 
+      <lb ed="#S" n="74"/>litera inducit.
+    </p>
+            <p xml:id="khj78y-q10021-d1e292" n="12">
+      <!-- 12 -->TERTIA descriptio est, quod 
+      <lb ed="#S" n="75"/>sacramentum est in quo sub tegumento rerum visibilium 
+      <lb ed="#S" n="76"/>diuina virtus secretius operatur salutem. Quod autem hic 
+      <lb ed="#S" n="77"/>dicitur, quod salutem secretius operatur, verum est per se li 
+      <lb ed="#S" n="78"/>cet per accidens in potente obicem impediatur, sicut Au 
+      <lb ed="#S" n="79"/>gust. diffinit virtutem. Quia est optima qualitas mentis 
+      <lb ed="#S" n="80"/>qua recte viuitur, qua nullus male vtitur, verum est per se. 
+    </p>
+            <p xml:id="khj78y-q10021-d1e310" n="13">
+               <lb ed="#S" n="81"/>
+               <!-- 13 -->QVARTA descriptio est, quod sacramentum 
+      <lb ed="#S" n="82"/>est materiale elementum exterius occulis suppositum, ex in 
+      <lb ed="#S" n="83"/>stitutione significans, ex similitudine representans, ex 
+      <lb ed="#S" n="84"/>sanctificatione inuisibilem gratiam continens. Materiale 
+      <lb ed="#S" n="85"/>elementum. I. elementatum, ponitur pars pro toto. 
+    </p>
+            <p xml:id="khj78y-q10021-d1e327" n="14">
+               <lb ed="#S" n="86"/>
+               <!-- 14 -->Et si dicatur contra hoc, quia pars non dicitur de 
+      <lb ed="#S" n="87"/>toto, &amp; ideo dicitur. 7. Meth. Quia statua non dicitur 
+      <lb ed="#S" n="88"/>aes, sed aerea. Dicendum, quod pars non praedicatur de par 
+      <lb ed="#S" n="89"/>te, puta dicendo, quod circulus est aes, accipiendo 
+       circu<lb ed="#S" break="no" n="90"/>lum pro forma. sed si accipiatur pro composito in toto 
+      <lb ed="#S" n="91"/>artificiato, bene pars substantialis praedicatur de toto, di 
+      <lb ed="#S" n="92"/>cendo phiala est aurum, &amp; econuerso. sed in eo, quod 
+      <lb ed="#S" n="93"/>est ens vnum per se, vel per accidens naturaliter, 
+       nun<lb ed="#S" break="no" n="94"/>quam pars praedicatur de toto, nisi denominatiue. 
+    </p>
+            <p xml:id="khj78y-q10021-d1e351" n="15">
+               <lb ed="#S" n="95"/>
+               <!-- 15 -->Ratio autem diuersitatis est, quia in composito na 
+      <lb ed="#S" n="96"/>turali est diuersitas, &amp; pluralitas realis inter materiam, 
+      <lb ed="#S" n="97"/>&amp; formam, subiectum, &amp; accidens. Vnde homo non est 
+      <lb ed="#S" n="98"/>corpus, nec albedo, nec econuerso, sed corporeus, &amp; 
+       al<lb ed="#S" break="no" n="99"/>bus, quia homo super corpus, quod est pars addit 
+       rea<lb ed="#S" break="no" n="100"/>lem formam substantialem, &amp; homo albus super 
+       homi<lb ed="#S" break="no" n="101"/>nem, addit etiam realem formam, accidentalem autem. 
+      <lb ed="#S" n="102"/>Vnde se habent ad inuicem realiter, sicut pars, &amp; totum 
+      <lb ed="#S" n="103"/>quae non praedicant de se inuicem, nisi de nominatiue. 
+      <lb ed="#S" n="104"/>sed forma artificialis supra naturalem: nullam rem peni 
+      <lb ed="#S" n="105"/>tus addit, quae faciat realem compositionem. Vnde aggrega 
+      <lb ed="#S" n="106"/>tum ex forma artificiali, &amp; subiecto naturali, &amp; ipsum 
+      <lb ed="#S" n="107"/>subiectum naturale non se habent ad inuicem, sicut pars 
+      <lb ed="#S" n="108"/>&amp; totum. Vnde possunt de se inuicem praedicari sine de 
+      <lb ed="#S" n="109"/>nominatione.
+    </p>
+            <p xml:id="khj78y-q10021-d1e388" n="16">
+      <!-- 16 -->sed nomina artificialium sunt 
+      <lb ed="#S" n="110"/>aequi uoca. Quandoque enim accipiuntur in abstracto pro 
+      <lb ed="#S" n="111"/>forma ipsa tantum. Et tunc non recipiunt praedicationem 
+      <lb ed="#S" n="112"/>subiecti, nisi denominatiue dicendo circulus est aeneus, 
+      <lb ed="#S" n="113"/>non aes, &amp; spera aenea, non aes. Primo de anima, sic albe 
+      <lb ed="#S" n="114"/>do dicitur humana, non homo. Quandoque autem 
+       acci<lb ed="#S" break="no" n="115"/>piuntur in concreto pro composito, &amp; tunc recipiunt, 
+      <lb ed="#S" n="116"/>dicendo, quod statua est aurum, non aurea ratione dicta 
+      <lb ed="#S" n="117"/>de quo iterum dicetur infra. d. 3. q. 1.
+    </p>
+            <p xml:id="khj78y-q10021-d1e410" n="17">
+      <!-- 17 -->Exterius 
+      <lb ed="#S" n="118"/>oculis suppositum. i. sensibile: non quod sit necesse 
+       su<lb ed="#S" break="no" n="119"/>scipientem ad effectum sacramenti, vel sensu, vel 
+       intelle<lb ed="#S" break="no" n="120"/>ctu ipsum percipere, dum tamen corpus eius attingat 
+      <lb ed="#S" n="121"/>res ipsa, quae est materia, vel aer, quae est subiectum 
+       ver<lb ed="#S" break="no" n="122"/>borum: vt dictum est in prima quaestione. Quia enim 
+      <lb ed="#S" n="123"/>anima est in qualibet parte corporis quantuncunque 
+       ex<lb ed="#S" break="no" n="124"/>trema tota per essentiam, &amp; ibi etiam dicitur esse quaeli 
+      <lb ed="#S" n="125"/>bet potentia eius abstracta, saltem per naturalem concomi 
+      <lb ed="#S" n="126"/>tantiam, quod tangit corpus, eo ipso potest immutare 
+      <lb ed="#S" n="127"/>animam, &amp; eius potentiam.
+    </p>
+            <p xml:id="khj78y-q10021-d1e436" n="18">
+      <!-- 18 -->Ex institutione signi 
+      <lb ed="#S" n="128"/>ficans. scilicet actu.
+    </p>
+            <p xml:id="khj78y-q10021-d1e443" n="19">
+      <!-- 19 -->Exsimilitudine representans. sna 
+      <lb ed="#S" n="129"/>turali aptitudine, ex qua habuit ortum, vt dictum est 
+      <!--0012.xml-->
+      <pb ed="#S" n="12"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>in praecedentium quaestione, opinione. 4. Ex sanctifica 
+      <lb ed="#S" n="2"/>tione inuisibilem gratiam continens: non materiae 
+       praece<lb ed="#S" break="no" n="3"/>dentis, quia non est generale omni sacramento, sed per ver 
+      <lb ed="#S" n="4"/>bum sacramenta le sacrificatur creatura. Et haec sufficiant. 
+    </p>
+            <p xml:id="khj78y-q10021-d1e466" n="20">
+               <lb ed="#S" n="5"/>
+               <!-- 20 -->Ex hoc etiam patet solutio ad argumentum, quia 
+      <lb ed="#S" n="6"/>vnius rei est vna diffinitio propria, &amp; completa: sed nihil pro 
+      <lb ed="#S" n="7"/>hibet vnius rei esse plures descriptiones incompletas. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="92"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q18436"><!-- l4d6-q1 -->
+            <head xml:id="khj78y-q18436-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-q18436-Hd1e103" type="question-title">
+     Utrum ad baptismum requiratur nativitas ex utero
+   </head>
+            <p xml:id="khj78y-q18436-d1e106">
+               <lb ed="#S" n="83"/>DIsTINCTIO. 6. QVAESTIO. I. 
+      <lb ed="#S" n="84"/>CIrca sextam distinctionem quaeruntur quatuor de 
+      <lb ed="#S" n="85"/>concurrentibus ad baptismum. Primo, de natiuita 
+      <lb ed="#S" n="86"/>te. secundo, de intentione. Tertio, de fide. Quarto, de 
+      <lb ed="#S" n="87"/>cerimoniis. 
+      <lb ed="#S" n="88"/>De puero in vtero non baptizandum 
+    </p>
+            <p xml:id="khj78y-q18436-d1e122">
+               <lb ed="#S" n="89"/>Thom. 3. par. q. 6s. art. 1. 
+    </p>
+            <p xml:id="khj78y-q18436-d1e127">
+               <lb ed="#S" n="90"/>PRIMO, Ergo quaeritur, vtrum 
+      <lb ed="#S" n="91"/>ad baptismum requiratur 
+       na<lb ed="#S" break="no" n="92"/>tiuitas ex vtero. Et videtur, quod 
+      <lb ed="#S" n="93"/>non, quia non requirit ad 
+       san<lb ed="#S" break="no" n="94"/>ctificationem, nec ad martyrium. 
+      <lb ed="#S" n="95"/>ergo nec ad baptismum. 
+    </p>
+            <p xml:id="khj78y-q18436-d1e144" n="2">
+               <lb ed="#S" n="96"/>
+               <!-- 2 -->IN Contrarium sunt 
+       mul<lb ed="#S" break="no" n="97"/>tae authoritates in litera. 
+    </p>
+            <p xml:id="khj78y-q18436-d1e153" n="3">
+               <lb ed="#S" n="98"/>
+               <!-- 3 -->REsPONDEO: hic sunt tria videnda. Primam 
+      <lb ed="#S" n="99"/>de baptismo fluminis. secundum de sanctisicatis in 
+       v<lb ed="#S" break="no" n="100"/>tero. tertium de baptismo sanguinis.
+    </p>
+            <p xml:id="khj78y-q18436-d1e164" n="4">
+      <!-- 4 -->
+       Quan<lb ed="#S" break="no" n="101"/>tum ad primum sunt tres conclusiones. Prima, quod pu 
+      <lb ed="#S" n="102"/>er existens in vtero matris non potest baptizari, nec 
+       ba<lb ed="#S" break="no" n="103"/>ptismo matris: quia distincta supposita requirunt distin 
+      <lb ed="#S" n="104"/>cta baptismata: nec baptismo proprio: quia quod non 
+      <lb ed="#S" n="105"/>tangit, non agit, &amp; non potest attingi absolutione eccle 
+      <lb ed="#S" n="106"/>siae. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q18436-d1e182" n="5">
+      <!-- 5 -->secunda conclusio est, quod puer 
+      <lb ed="#S" n="107"/>nascens antequam egressus sit ex vtero, non debet 
+       ba<lb ed="#S" break="no" n="108"/>ptizari: nisi in periculo. Et tunc quaecunque pars 
+       appa<lb ed="#S" break="no" n="109"/>reat baptizanda est. Et postquam est viuus egressus non 
+      <lb ed="#S" n="110"/>est amplius baptizandus, si caput fuerit aspersum: quia 
+      <lb ed="#S" n="111"/>sensus omnes in eo vigent. Et vbi caput sepultum est, 
+       il<lb ed="#S" break="no" n="112"/>le locus fit religiosus. ac si totum corpus ibi esset. f. de 
+      <lb ed="#S" n="113"/>religi. &amp; sump. fu. l. 9. In diuersis. si autem alia pars fue 
+      <lb ed="#S" n="114"/>rit aspersa sub conditione propter dubium postea 
+       ba<lb ed="#S" break="no" n="115"/>ptizetur.
+    </p>
+            <p xml:id="khj78y-q18436-d1e206" n="6">
+      <!-- 6 -->sed contra hoc instatur tripliciter. 
+      <lb ed="#S" n="116"/>Primo, quia apostoli aspergebant tria milia vno die 
+       si<lb ed="#S" break="no" n="117"/>ne rebaptizatione, nec est verisimile, quod omnes in 
+       ca<lb ed="#S" break="no" n="118"/>pite tangerentur, sed in humero, vel alibi. Dici potest 
+      <lb ed="#S" n="119"/>quod Deus suplebat, vel dispensatio Dei erat, sicut &amp; in 
+      <lb ed="#S" n="120"/>forma de nomine Christi.
+    </p>
+            <p xml:id="khj78y-q18436-d1e222" n="7">
+      <!-- 7 -->secundo instatur 
+      <lb ed="#S" n="121"/>sic: quia anima per essentiam, &amp; potentia abstracta per 
+      <lb ed="#S" n="122"/>concomitantiam aequaliter sunt in qualibet parte 
+       cor<lb ed="#S" break="no" n="123"/>poris. ergo aequaliter sufficit aspersio cuiuslibet partis 
+      <lb ed="#S" n="124"/>cum vel in essentia, vel in potentia abstracta sit originale 
+      <lb ed="#S" n="125"/>pctir: contra quod est baptism.
+    </p>
+            <p xml:id="khj78y-q18436-d1e239" n="8">
+      <!-- 8 -->dicendum, quod 
+       baptis<lb ed="#S" break="no" n="126"/>mus non solum datur contra originale, sed etiam contra fomi 
+      <lb ed="#S" n="127"/>tem, qui viget in viribus sensitiuis. Vnde maxime in capi 
+      <!--0093.xml-->
+      <pb ed="#S" n="93"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>te debet fieri: vbi sunt quinque sensus. Vel dicendum, quod 
+       li<lb ed="#S" break="no" n="2"/>
+               <!-- line coord error -->
+               <lb ed="#S" n="3"/>cet essentia animae sit in qualibet parte corporis aequali
+      <lb ed="#S" n="4"/>ter tamen essentia animae non est nata accipere aliquid, nisi a 
+      <lb ed="#S" n="5"/>solo Deo, a quo recipit potentias, ad quas habet potentiam 
+      <lb ed="#S" n="6"/>obedientialem non naturalem: quia non. potest per naturam 
+       pro<lb ed="#S" break="no" n="7"/>duci eius essentia, nec per consequens potentia abstracta: 
+      <lb ed="#S" n="8"/>cum ab eodem sit, sicut subiectum, &amp; propria passio. vnde. 2. 
+      <lb ed="#S" n="9"/>de anima: prima mutatio sensitiua est a generante. Ad ni 
+      <lb ed="#S" n="10"/>hil autem est in potentia anima, siue in agendo siue in pa 
+      <lb ed="#S" n="11"/>tiendo naturaliter nisi mediante sua potentia naturali. Vn 
+      <lb ed="#S" n="12"/>de agens naturale non potest attingere immediate essentiam 
+      <lb ed="#S" n="13"/>sed potentiam solum. Vndecum effentia fit immediatum gratiae 
+      <lb ed="#S" n="14"/>subiectum solus Deus potest attingere ad productionem gratiae 
+      <lb ed="#S" n="15"/>immediate, sicut &amp; potentiae non brganicae. sed ad 
+       produ<lb ed="#S" break="no" n="16"/>cendum characterem, qui est in potetia, potest attingere crea 
+      <lb ed="#S" n="17"/>tura. Vnde cum fantasma, quod mouet intellectum, sit natum 
+      <lb ed="#S" n="18"/>immutari ab omni potentia sensitiua exteriori, &amp; plus a 
+       plu<lb ed="#S" break="no" n="19"/>ribus, quam ab vna: illa purs est conuen ientior ad baptismum, 
+      <lb ed="#S" n="20"/>in qua vigent plures senfui, sod hoc est caput. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q18436-d1e300" n="9">
+               <lb ed="#S" n="21"/>
+               <!--9. -->Tertio instatur sic, quia cum solus sensus tactus 
+      <lb ed="#S" n="22"/>per se sufficiat ad hoc, quia visus non requiritur: quia caecus 
+      <lb ed="#S" n="23"/>&amp; surdus possunt baptizari, nec olfactus, &amp; sic de aliis: 
+      <lb ed="#S" n="24"/>sed solus tactus: hic autem magis viget in palma, quam in 
+       ca<lb ed="#S" break="no" n="25"/>pite. non ergo videt caput, pars ceuenientior ad 
+       baptis<lb ed="#S" break="no" n="26"/>mum.
+    </p>
+            <p xml:id="khj78y-q18436-d1e318" n="10">
+      <!-- 10 -->Dicendum, quod licet, intellectus vbique sit, si 
+      <lb ed="#S" n="27"/>cnt &amp; essentia animae: tamon a nullo sensu immutatur, 
+      <lb ed="#S" n="28"/>nifi mediante fantafia, quae est in capite. ideo caput ap 
+      <lb ed="#S" n="29"/>tior pars est. Item quia sino manibus, &amp; sine pedibus est 
+      <lb ed="#S" n="30"/>homo: non autem sine capite: ideo essentialior pars 
+       homi<lb ed="#S" break="no" n="31"/>nis est caput. Posset autem ad hoc dici, quod licet via naturae 
+      <lb ed="#S" n="32"/>non immutetur intellectus: nist a fantasia: in supernatu 
+      <lb ed="#S" n="33"/>raliter ad characterem immutatur ex contactu corporis: 
+      <lb ed="#S" n="34"/>animati ab elemento, quia est coniunctus essentiae 
+       ami<lb ed="#S" break="no" n="35"/>mae sine alia potentia media
+    </p>
+            <p xml:id="khj78y-q18436-d1e342" n="11">
+      <!--11 -->Tertia conclusio 
+      <lb ed="#S" n="36"/>est, quod mulier vius non debet scindi, vt puer viuus 
+       ba<lb ed="#S" break="no" n="37"/>ptiaetur, si etiam costaret, &amp; ipsum sine baptismo alisis mol 
+      <lb ed="#S" n="38"/>niturm, quia non sunt facienda mala, ut von iant bona. 
+      <lb ed="#S" n="39"/>si autem sit ad mortem damnota: dobet differri executio: 
+      <lb ed="#S" n="40"/>vsque ad partum, ne pereat innocens cum nocente. ff. de poe 
+      <lb ed="#S" n="41"/>nis. l. Praegnantis. sed tunc est dubium, si licet matrem, 
+      <lb ed="#S" n="42"/>sic damnatam occidere, vt puur extractus vinus 
+       baptize<lb ed="#S" break="no" n="43"/>tur, si alias timeatur, ne differendo vsque ad partum moria 
+      <lb ed="#S" n="44"/>tur. Dicendum, quod non, quia non est exprossum. si autem 
+      <lb ed="#S" n="45"/>sit mortua, non. debet sepeliri, queusq, alno caesa foedas 
+      <lb ed="#S" n="46"/>extrahatur. ff. de mortuo inferondo. l. negat lex Regiat 
+      <lb ed="#S" n="47"/>situt Iulius Caesar extiastus fuit: &amp; inde Caesar dictus, 
+      <lb ed="#S" n="48"/>vt solinus refert, quod dicit tales fortunatos.
+    </p>
+            <p xml:id="khj78y-q18436-d1e375" n="12">
+      <!--12 -->
+       SE<lb ed="#S" break="no" n="49"/>CUNDO, videndum est de sanctificatis in vtero: 
+       v<lb ed="#S" break="no" n="50"/>bi sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-q18436-d1e384" n="13">
+      <!-- 13 -->Prima, qu pueri pofi 
+      <lb ed="#S" n="51"/>sunt in vtero sanctificari. Quod probat quida sic 
+       mul<lb ed="#S" break="no" n="52"/>tum pulchre: quia triplex est status pueri, postquam est 
+       a<lb ed="#S" break="no" n="53"/>nimatus, quida in vtelo materno, in quo est tantum ne 
+      <lb ed="#S" n="54"/>tus Deo, non ceclesiae, vel sibi. secundus est tepus infan 
+      <lb ed="#S" n="55"/>tiae, in quo est notus ecclesiae, &amp; Deo: sed non sibi 
+       noti<lb ed="#S" break="no" n="56"/>tia humana, quae est por rationem. Tertius est quando in 
+      <lb ed="#S" n="57"/>adulta aetate, &amp; tunc est notus Deo, ecclesiae, &amp; sibi. Ex 
+      <lb ed="#S" n="58"/>hoc sic arguitur: Actus actiuorum sunt in patiente 
+       dis<lb ed="#S" break="no" n="59"/>positio: sed puer in primo statu est natus sescipere 
+       actio<lb ed="#S" break="no" n="60"/>nem Dei: cui solum notus est: non aurem actionem ecclesiae, 
+      <lb ed="#S" n="61"/>nec ad actionem Dei natus est coagere. secundo autem 
+      <lb ed="#S" n="62"/>statu natus est suscipure actionem Dei, &amp; ecclesiae: cum fit 
+      <lb ed="#S" n="63"/>vtrique notus: nondu tamon estinatus aoagent propterde 
+      <lb ed="#S" n="64"/>fectum vsus liberi arbitrij. Tertio aut statu potest 
+       actio<lb ed="#S" break="no" n="65"/>nem Dei, &amp; ecclesiae suscipere: potest etiam eum hoc coa 
+      <lb ed="#S" n="66"/>gore ex parte sui. ergo in primo statu potest a solo Deo 
+      <lb ed="#S" n="67"/>sanctificari praeter sacra ecclosiae, in secundo a Deo, &amp; 
+       ec<lb ed="#S" break="no" n="68"/>clesiae secundum  legem conem, ipso tamen nihil aperante, quod fit per ba 
+      <!--0093.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="69"/>ptismum: in tertio autem potest sanctificari a Deo, &amp; ab 
+       eccle<lb ed="#S" break="no" n="70"/>sia ipio cooperante ei, quod fit per baptismum fluminis, &amp; fla 
+      <lb ed="#S" n="71"/>minis, &amp; sanguinis: adiuncta interiori poenitentia quo ad 
+      <lb ed="#S" n="72"/>peccatores, vel fide, &amp; deuotione quo ad innocentes. 
+    </p>
+            <p xml:id="khj78y-q18436-d1e442" n="14">
+               <lb ed="#S" n="73"/>
+               <!-- 14 -->sed contra hoc sic arguit. Primo, quia puer in 
+      <lb ed="#S" n="74"/>vtero matris non solum est notus Deo, sed ecclesiae, cuius 
+      <lb ed="#S" n="75"/>contrarium dicunt: quod probatur, quia ex tumore ventris scitur 
+      <lb ed="#S" n="76"/>certitudinaliter matrem habere puerum in ventre: licet 
+       ne<lb ed="#S" break="no" n="77"/>selai, vtrum masculum, vel foeminam: quia illud non impedit: quia 
+      <lb ed="#S" n="78"/>fecundum Apostolum in Christo Iesu non est masculus, nec 
+      <lb ed="#S" n="79"/>foemina. Vnde &amp; beata virgo inuenta est in vtero habens 
+      <lb ed="#S" n="80"/>de spiritus sancto. Ecclesia etlam iudicat de puero in vtero exi 
+      <lb ed="#S" n="81"/>stente: quia eum, qui praegnantem facit abortire, postquam foe 
+      <lb ed="#S" n="82"/>tus est animatus iudicat homicidam, &amp; morte reum tam secum 
+      <lb ed="#S" n="83"/>dum legem Moysi, quam secundu iudiciu ecclesiae Christi, q 
+      <lb ed="#S" n="84"/>eu iudicat irregularem. Cum ergo nullus sit bonus iudex, 
+      <lb ed="#S" n="85"/>nisi de his, quae nouit, non debet dici, quod non sit notus eccle 
+      <lb ed="#S" n="86"/>fiae, ille de quo ecclesia iudicat.
+    </p>
+            <p xml:id="khj78y-q18436-d1e477" n="15">
+      <!-- 15 -->Praeterea olim 
+      <lb ed="#S" n="87"/>puer circuncidi non poterat ante octauum diem: &amp; tamen erat iam 
+      <lb ed="#S" n="88"/>notus ecclesiae, nec tamen poterat, nisi a Deo iustificari non 
+      <lb ed="#S" n="89"/>per operationem ecclesiae, quod est contra secundum membrum. 
+    </p>
+            <p xml:id="khj78y-q18436-d1e488" n="16">
+               <lb ed="#S" n="90"/>
+               <!-- 16 -->sed beno intellecta prima dicta adhuc manent 
+      <lb ed="#S" n="91"/>in vigore: vnde ad primum est dicendum, quod loquitur de 
+       noti<lb ed="#S" break="no" n="92"/>ti a practica, quae est principium oporis, per quam ipsa res 
+       exte<lb ed="#S" break="no" n="93"/>rior immediate attingitur, adquam ars applicui, &amp; sic puer. 
+      <lb ed="#S" n="94"/>non est notus ecclesiae. scilicet quod artem suam posiit immediate 
+      <lb ed="#S" n="95"/>circa ipsum eaeroere ipsum lauando, vel vngendo, sed tantum 
+      <lb ed="#S" n="96"/>scientia speculatina, sicut coeli sunt nobis noti, circa quos 
+      <lb ed="#S" n="97"/>tamen nihil agimus, quia nec attiiigere possumus. Vel 
+       loqui<lb ed="#S" break="no" n="98"/>tur de notitia imined iata, qua aliquid per se: non per 
+       ali<lb ed="#S" break="no" n="99"/>ud sentiri pont: videndo immediate, vel tangendo, quomodo  puer 
+      <lb ed="#S" n="100"/>in vtero non est ab ecclesia notus.
+    </p>
+            <p xml:id="khj78y-q18436-d1e517" n="17">
+      <!-- 17 -->Ad secundum 
+      <lb ed="#S" n="101"/>potest dici, quod hoc ipsam erat imperfectionis in lege, quod 
+       se<lb ed="#S" break="no" n="102"/>ptem diebus erat uotus ecclesue, nec tamen poterat remedium 
+      <lb ed="#S" n="103"/>adhibere. Vel dicendum, quod saluabat in fide parontum, &amp; 
+       per<lb ed="#S" break="no" n="104"/>consequens sanctificabai por ecclesiam.
+    </p>
+            <p xml:id="khj78y-q18436-d1e530" n="18">
+      <!-- 18 -->secunda 
+      <lb ed="#S" n="105"/>cclusio est, quod tres pro certo fuerunt in vtero sanctifica 
+      <lb ed="#S" n="106"/>ti. scilicet Hieremias, virgo btam, &amp; Io. Bapt. de Iacob dicunt etiam 
+      <lb ed="#S" n="107"/>quidum idem propter id, quod habe? Ro. 9. Cum nondum 
+       nati<lb ed="#S" break="no" n="108"/>essent &amp;c. dictu est ei maios seruiet, minori, sicut scriptum 
+      <lb ed="#S" n="109"/>osti Iacob dilexi. De beato Remigio etiam tenent sui, quia 
+      <lb ed="#S" n="110"/>lacte matris caecus haeremita, &amp; propheta pueri nascituri 
+      <lb ed="#S" n="111"/>visum recepit. sed hoc non arguit: quia iam erat per 
+       baptis<lb ed="#S" break="no" n="112"/>mum sanctificandus, &amp; multi fuorunt ante conceptionem 
+      <lb ed="#S" n="113"/>prophetizati: non tamen in vtero sanctificati, vt Iofias, &amp; 
+       Isaae<lb ed="#S" break="no" n="114"/>Quod etiam de Iacob inductum est ad praedestinationem 
+       re<lb ed="#S" break="no" n="115"/>ferri non ad gratiae invtero infusionem.
+    </p>
+            <p xml:id="khj78y-q18436-d1e559" n="19">
+      <!-- 19 -->
+       Pos<lb ed="#S" break="no" n="116"/>sunt ergo in vtero a Deo sanctificari infantes: non 
+       ob<lb ed="#S" break="no" n="117"/>sta me, quod sunt coniuncti origini, quia originale 
+       contrahi<lb ed="#S" break="no" n="118"/>dur ex patre, cui foetus coniunstus non est e non autem ex 
+      <lb ed="#S" n="119"/>mutre, sed peccatum actuale coniuntum actui non potest di 
+      <lb ed="#S" n="120"/>mitti, vt peccatum detinendi alienum, nisi restituat, quia non 
+      <lb ed="#S" n="121"/>solum. auferendo, sed etiam detinendo peccatur. vnde consul 
+      <lb ed="#S" n="122"/>tus agunt, qui se in vita deuestiunt, &amp; defartiunt. sed 
+       o<lb ed="#S" break="no" n="123"/>riginale illo momento contrait, quo anima itifunditur. 
+      <lb ed="#S" n="124"/>vnde ex tunc est in contrahendo. vnde non tunc, sed ex 
+      <lb ed="#S" n="125"/>tunc in animo semper potest dimitti, siue remitti.
+    </p>
+            <p xml:id="khj78y-q18436-d1e586" n="20">
+               <lb ed="#S" n="126"/>
+               <!--20.--> Tertia conclusio est, quod sanctificati in vtero 
+       nihil<lb ed="#S" break="no" n="127"/>ominus sunt baptizandi, quia sanctitas a praecepto non excusat 
+      <lb ed="#S" n="128"/>vt patet in ieiunis.
+    </p>
+            <p xml:id="khj78y-q18436-d1e597" n="21">
+      <!-- 21 -->Tertio videndum est de 
+      <lb ed="#S" n="129"/>baptismo sanguinis: vbi sunt etiam tres conclusionos. 
+    </p>
+            <p xml:id="khj78y-q18436-d1e604" n="22">
+               <lb ed="#S" n="130"/>
+               <!-- 22 -->Prima, quia probabiliter videtur, quod puor in vtd 
+      <lb ed="#S" n="131"/>ro possit martirizari: sicut etiam sanctificari: licet non ba 
+      <lb ed="#S" n="132"/>ptizari. vnde si Iudaeus filiam suam a Christiano impre 
+      <lb ed="#S" n="133"/>gnatam in despectum Christi pede in ventrem percutiem 
+      <lb ed="#S" n="134"/>abortire faciat, videtur, quid martyr siat habons caosam 
+      <lb ed="#S" n="135"/>&amp; poenam licet non noluntatem, sicut nec innocentes 
+      <!--0094.xml-->
+      <pb ed="#S" n="94"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>sicut etiam si propter Christum mulier praegnans 
+       interfi<lb ed="#S" break="no" n="2"/>ciatur: &amp; sic moriatur paruulus, vterque martyr efficitur. 
+      <lb ed="#S" n="3"/>Quod autem Aug. dicit: Perire eos, qui in vtero 
+       moriun<lb ed="#S" break="no" n="4"/>tur: verum est de morte naturali, &amp; de morte violenta: non 
+      <lb ed="#S" n="5"/>propter Christum illata: &amp; licet propter hoc non possit baptiza 
+      <lb ed="#S" n="6"/>ri, quia non potest aqua attingi: quia tamen potest ab ense 
+       at<lb ed="#S" break="no" n="7"/>tingi, potest martyr fieri. a
+    </p>
+            <p xml:id="khj78y-q18436-d1e643" n="23">
+      <!-- 3 -->secunda conclusio est, 
+      <lb ed="#S" n="8"/>vtru puer subiersus, in aqua, vt sepeliatur Christo, dato 
+      <lb ed="#S" n="9"/>quod non sit baptizatus baptismo flumimis propter defectum 
+      <lb ed="#S" n="10"/>materiae propinquae, quae est ablutio, vt statim post 
+       dice<lb ed="#S" break="no" n="11"/>tur, erit ne martyr: quia submersus est propter Christum, vt 
+      <lb ed="#S" n="12"/>Christo consepelietur? Videt quod sic, quia non solum occisus 
+      <lb ed="#S" n="13"/>propter odium Christi martyr est, sed est occisus propter indiscre 
+      <lb ed="#S" n="14"/>tu Dei amorem, sicut si haeretici, vel Graeci catholicu inter 
+      <lb ed="#S" n="15"/>ficerent credentes se in hoc obsequium praestare Deo. sed 
+      <lb ed="#S" n="16"/>quicquid sit de isto: non credo tamen illum esse martyrem, sic sub 
+      <lb ed="#S" n="17"/>mersum, quia non memini me legisse hec martyrij 
+       ge<lb ed="#S" break="no" n="18"/>nus.
+    </p>
+            <p xml:id="khj78y-q18436-d1e672" n="24">
+      <!-- 24 -->Vtrum autem sit baptizatus talis puer: si 
+       ba<lb ed="#S" break="no" n="19"/>iulus videnseum morti proximum, &amp; non habens aquam, 
+      <lb ed="#S" n="20"/>proiiciat eum in puteum, vel de ponte in fluuium: cum de bi 
+      <lb ed="#S" n="21"/>ta forma baptismi, &amp; intendens eum baptizare, credo quod 
+      <lb ed="#S" n="22"/>non: quia licet ibi fuerit vera intentio, &amp; vera forma, &amp; vera 
+      <lb ed="#S" n="23"/>materia remota. Laqua: vera tamen defuit materia 
+       pro<lb ed="#S" break="no" n="24"/>pinqua baptismi, quae est ablutio in aqua. Quod enim 
+      <lb ed="#S" n="25"/>aqua abluitur: primo aqua pooperit in toto, vel in 
+       par<lb ed="#S" break="no" n="26"/>te: postea discooperitur, vel eleuatur, quorum primum 
+       re<lb ed="#S" break="no" n="27"/>presentat in baptismo Christi sepulturam secundum 
+       Chri<lb ed="#S" break="no" n="28"/>sti resurrectionem. Ad hoc autem non ordidatur submersio ex 
+      <lb ed="#S" n="29"/>sui natura, vt puer abluat. Vnde si contingat puerum eua 
+      <lb ed="#S" n="30"/>dere, non erit baptizatus.
+    </p>
+            <p xml:id="khj78y-q18436-d1e703" n="25">
+      <!--25 --> si autem non potes 
+      <lb ed="#S" n="31"/>aquam atingere manu de ponte, vel de ore putei, puerum 
+      <lb ed="#S" n="32"/>in canistro cum corda dimittat, &amp; eum sic immergat, &amp; 
+      <lb ed="#S" n="33"/>eleuet cum forma baptismi, &amp; intendens eum baptizare, non 
+      <lb ed="#S" n="34"/>potens aliter appropinquare aquae, &amp; puer sit, vel esse pu 
+      <lb ed="#S" n="35"/>tetur proximus morti: dico, quod baptiratus est: si 
+       cala<lb ed="#S" break="no" n="36"/>tus fuit talis, quod aqua sublatrauerit ad abluerdum 
+       pue<lb ed="#S" break="no" n="37"/>rum: quia quod baptizans immediate tangat puerum, quem, 
+      <lb ed="#S" n="38"/>baptirat, non est de essentia baptismi. Et in praedicto 
+       ca<lb ed="#S" n="39" break="no"/>su est immersio, &amp; eleuatio de aqua: quae immersio de, 
+      <lb ed="#S" n="40"/>sui natura non ordinatur ad pueri submersionem: sicut alia, 
+      <lb ed="#S" n="41"/>prius dicta: sed ad eius de aqua rleuationem: quod pates 
+      <lb ed="#S" n="42"/>per hoc, quia ille, qui eum dimisit, semper tenet eumi cum 
+      <lb ed="#S" n="43"/>corda ad eleuandum. si tamen occurreret praedicta 
+       neces<lb ed="#S" n="44" break="no"/>sitas deberent, dimitti panni in'aquam, &amp; de illis eductis 
+      <lb ed="#S" n="45"/>aqua exprimi super corpus pueri subforma verborum 
+       de<lb ed="#S" n="46" break="no"/>bita in baptismo, &amp; intentione baptizandi.
+    </p>
+            <p xml:id="khj78y-q18436-d1e743" n="26">
+      <!-- 26 -->Teo 
+      <lb ed="#S" n="47"/>tta conelusio est, vtrum puer, in vtero baptizari non 
+       po<lb ed="#S" break="no" n="48"/>test: possit in eo legitimari a Pupas Et videtur, quod non 
+       si<lb ed="#S" break="no" n="49"/>cut nec ab originali per ecclesiam muntfari, quia legitti 
+      <lb ed="#S" n="50"/>mari est, quasi a vitiosa origine mundari.
+    </p>
+            <p xml:id="khj78y-q18436-d1e756" n="27">
+      <!-- 27 -->sed 
+      <lb ed="#S" n="51"/>in contrarium videtur, quia non est similenam 
+       legitimatio<lb ed="#S" break="no" n="52"/>fiue fiat verbo, siue scripto potest fieri inter absentes. 
+      <lb ed="#S" n="53"/>Vndo non oportet, quod legitimatus attingatur ab ipso actu: 
+      <lb ed="#S" n="54"/>legitimantis: sicut oportet baptiaeatum ab ipfo actu bapti 
+      <lb ed="#S" n="55"/>zantis aatingi. Item secundum degm puen in veero potest 
+      <lb ed="#S" n="56"/>in vtero manumitti. ergo pari ratione potest 
+       legitimari<lb ed="#S" break="no" n="57"/>quia illud etiam est a vitiosa origine purgari. sed non 
+       o<lb ed="#S" break="no" n="58"/>portet, quod matre praegnante legit imata sit propter hoc 
+       foe<lb ed="#S" n="59" break="no"/>tus legitimatus: sicut econuerso. Partus enim sequitur 
+       ven<lb ed="#S" break="no" n="60"/>trem. Vnde matre manumissa: filius non manumittitur: 
+      <lb ed="#S" n="61"/>sed liber nascitur, &amp; ingenuus. Item potest, qui in vtero est 
+      <lb ed="#S" n="62"/>haeres institui. sed tamen quousq, viuus nascitur nihil sibi 
+      <lb ed="#S" n="63"/>acquiritur, nec aliquid ad proximos transmittit: ergo a 
+       si<lb ed="#S" break="no" n="64"/>mili in proposito. sic igitur cum legitimari possit absent, 
+      <lb ed="#S" n="65"/>qui non attingitur ab actione legitimantis, quia nec per 
+      <lb ed="#S" n="66"/>hanc actionem aliqua res in legitimato efficitur, sicut 
+      <lb ed="#S" n="67"/>fit per baptismum, sicut nec per manumisiionem, &amp; insti 
+      <!--0094.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>tutionem. ideo videtur, quod in vtero existens legitimari 
+      <lb ed="#S" n="69"/>potest, sicut &amp; manumitti, &amp; haeres institui, &amp; ei tutor da 
+      <lb ed="#S" n="70"/>ri secundum iura, &amp; legatum relinqui.
+    </p>
+            <p xml:id="khj78y-q18436-d1e808" n="28">
+      <!-- 28 -->Ad 
+       ar<lb ed="#S" break="no" n="71"/>gumentum in oppositum patet ex dictis responsio: quia 
+      <lb ed="#S" n="72"/>non est simile de baptismo, &amp; sanctificatione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="111"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q25442"><!-- l4d8-q3 -->
+            <head xml:id="khj78y-q25442-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-q25442-Hd1e103" type="question-title">
+     De forma huius sacramenti, scilicet utrum una dependeat ab alia.
+   </head>
+            <p xml:id="khj78y-q25442-d1e106">
+               <lb ed="#S" n="130"/>QVAESTIO. TERTIA. 
+      <lb ed="#S" n="131"/>De forma sacramenti eucharistiae.
+    </p>
+            <p xml:id="khj78y-q25442-d1e113">
+      <!--0112.xml-->
+               <pb ed="#S" n="112"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Thom. 3. q. 76. art. 1. 2. 3. &amp;. 0. 
+    </p>
+            <p xml:id="khj78y-q25442-d1e124">
+               <lb ed="#S" n="2"/>TERTIO Quaeritur de forma 
+      <lb ed="#S" n="3"/>huius sacramenti. scilicet vtrum vna 
+       depen<lb ed="#S" break="no" n="4"/>deat ab alia. Et videtur, quod sic: quia 
+      <lb ed="#S" n="5"/>sicut corpus Christi non est sine 
+      <lb ed="#S" n="6"/>sanguine: ita videtur, quod forma 
+       con<lb ed="#S" break="no" n="7"/>secrationis sanguinis non possit 
+      <lb ed="#S" n="8"/>esse sine illa, nec econuerso: ita, 
+      <lb ed="#S" n="9"/>vt habeat effectum. ergo 
+       adinui<lb ed="#S" break="no" n="10"/>cem dependent.
+    </p>
+            <p xml:id="khj78y-q25442-d1e147" n="2">
+      <!-- 2 -->CONTRA, forma 
+       caius<lb ed="#S" break="no" n="11"/>libet sacri mox, vt prolata est, habet suum effectu, aut 
+       nun<lb ed="#S" n="12" break="no"/>quam: nisi forte sit impedimentum fictionis ex parte 
+       susci<lb ed="#S" break="no" n="13"/>pientis: sed in materia, super quam verba consecrationis 
+      <lb ed="#S" n="14"/>proferunt, non cadit fictio. ergo cum forma corporis 
+       pro<lb ed="#S" break="no" n="15"/>ferat ante formam sanguinis, imo cum tadat interuallu 
+       me<lb ed="#S" break="no" n="16"/>dium quo hostia eleuat, &amp; deponitur, &amp; calix discooperit, 
+      <lb ed="#S" n="17"/>&amp; eleuar, &amp; benedicit, &amp; multa verba media proferuntur: 
+      <lb ed="#S" n="18"/>prima forma ante secundam habebit effectum, vel nunquam 
+      <lb ed="#S" n="19"/>habebit.
+    </p>
+            <p xml:id="khj78y-q25442-d1e171" n="3">
+      <!-- 3 -->RESPONDEO circa istam 
+       quae<lb ed="#S" break="no" n="20"/>stionem tria sunt facienda. Primo, videndum est de forma 
+      <lb ed="#S" n="21"/>corporis in communi. secundo, de forma sanguinis. Ter 
+      <lb ed="#S" n="22"/>tio, de eo, quod querit.
+    </p>
+            <p xml:id="khj78y-q25442-d1e182" n="4">
+      <!-- 4 -->QVANTVM ad 
+       pri<lb ed="#S" break="no" n="23"/>mum sunt tres conclusiones. Prima, quod forma congrua haec 
+      <lb ed="#S" n="24"/>est: Hoc est corpus meum, quia totum effectum sacri continet. 
+      <lb ed="#S" n="25"/>Quaecumque autem praecedunt, vel secunt, non sunt de essentia 
+      <lb ed="#S" n="26"/>formae, sed de bene esse: licet aliqua sint posita, quae non 
+      <lb ed="#S" n="27"/>sunt in Euangelio, puta: Eleuatis oculis &amp;c. quia, vt dicit 
+      <lb ed="#S" n="28"/>Innocentius, multa Christus fecit, &amp; dixit, quae ibi scripta 
+      <lb ed="#S" n="29"/>non sunt, sicut extra. c. cum Marthe. vt est illud, beatius 
+      <lb ed="#S" n="30"/>est magis dare, quam accipere. Et si in suscitatione Lazari, &amp; 
+      <lb ed="#S" n="31"/>arduis oculos ad coelum leuauit multo magis hic, vbi ima 
+      <lb ed="#S" n="32"/>summis sociantur. de conse. dis 2. Quid sit. Et quod dicit 
+      <lb ed="#S" n="33"/>manducate. ibi legit, comedite: quod idem est. Vel forte 
+      <lb ed="#S" n="34"/>alia translatio sic habet. Nec est credendum Christum aliis 
+      <lb ed="#S" n="35"/>verbis confecisse: quia vt dicit Innocentius, vbi supram. 
+       Eccle<lb ed="#S" break="no" n="36"/>sia formam sacramentorum ab apostolis accepit: &amp; illi a Christo 
+      <lb ed="#S" n="37"/>immediate, qui coepit facere, &amp; docere. Vnde illam formam 
+      <lb ed="#S" n="38"/>docuit, quam tenuit.
+    </p>
+            <p xml:id="khj78y-q25442-d1e221" n="5">
+      <!-- 5 -->secunda conclusio est de 
+      <lb ed="#S" n="39"/>singulis in speciali. Hoc est enim corpus meum. Hoc est de 
+      <lb ed="#S" n="40"/>monstratio ad sensum indiuidui significati, &amp; ad 
+       intelle<lb ed="#S" break="no" n="41"/>ctum indiuidui vagi, &amp; temporis indeterminati, vt sit 
+       sen<lb ed="#S" n="42" break="no"/>sus: quod est contentum sub his speciebus est corpus meum. 
+      <lb ed="#S" n="43"/>Est, melius dicir, quae sit, vel quam erit: vt notet terminus in 
+       fa<lb ed="#S" n="44" break="no"/>cto esse, quia diuina virtus subito operatur. Et quia efficit in si 
+      <lb ed="#S" n="45"/>gnando. vnde significat in praesenti, vt fiat incontinenti, 
+      <lb ed="#S" n="46"/>&amp; verbum substantiuum magis conuenit, quia haec actio solum at 
+      <lb ed="#S" n="47"/>tingit ad substantium. Enim continuatiuum est, quia sacerdos 
+      <lb ed="#S" n="48"/>in persona Christi profert. Vnde non licet ipsum 
+       omit<lb ed="#S" break="no" n="49"/>tere: quia sic ecclesia Romana tenet, quam Petrus 
+       immedia<lb ed="#S" break="no" n="50"/>te docuit: pro cuius fide ne deficeret, Christus orauit. 
+       vn<lb ed="#S" break="no" n="51"/>de. C. de sum Trinitat l. 1. Petrus Romanis fidem docuit. 
+      <lb ed="#S" n="52"/>Corpus dicitur melius, quae caro: quia non in carnem solam, sed 
+      <lb ed="#S" n="53"/>ie totum corpus, quod continet carnem, &amp; ossa, &amp; neruos, 
+      <lb ed="#S" n="54"/>&amp; omnia alia fit transsubstantiatio. Meum, quia hoc dicit in 
+      <lb ed="#S" n="55"/>persona Christi, qui sic loquutus est. Et non dicit corp 
+      <lb ed="#S" n="56"/>Christi, ne Christus videretur esse alius a Christo. 
+    </p>
+            <p xml:id="khj78y-q25442-d1e265" n="6">
+               <lb ed="#S" n="57"/>
+               <!-- 6 -->Tertia conclusio est videre, quomodo haec verba 
+      <lb ed="#S" n="58"/>possunt verificari. Circa quod est sciendum, quod quidam di 
+      <lb ed="#S" n="59"/>cunt, quod hoc pronomen hoc faciat demonstrationem ad 
+      <lb ed="#S" n="60"/>intellectum, &amp; ad sensum simul, sic intelligendo, quod 
+       demon<lb ed="#S" n="61" break="no"/>strat aliquid, quod est obiectum intellectus, &amp; aliquid, quod 
+      <lb ed="#S" n="62"/>est obiectu sensus, primum in recto, secundum in obliquo, vt 
+      <lb ed="#S" n="63"/>sit sensus. Hoc. i. aliquid sub hac specie sensibili: non 
+       re<lb ed="#S" break="no" n="64"/>stringende existentia sub hac specie sensibili ad aliquam 
+      <lb ed="#S" n="65"/>determinatam temporis differentiam. significatio enim 
+       nomi<lb ed="#S" break="no" n="66"/>nis, siue adiectiui, siue substantiui non restringitur ad 
+      <!--0112.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="67"/>aliquam temporis differentiam. Vnde secundum Donatum 
+       tem<lb ed="#S" break="no" n="68"/>pus non est de accidentibus nominis, nec pronominis. 
+       Vn<lb ed="#S" break="no" n="69"/>de non concernitur tempus determinatum in corum 
+       significa<lb ed="#S" break="no" n="70"/>tionibus. Et quia suppositio nominis fundatur super eius 
+       si<lb ed="#S" break="no" n="71"/>gnificationem: ita, quod nihil supponit, nisi in quo saluatur si 
+      <lb ed="#S" n="72"/>gnificatum suum. ideo per hunc terminum substantialem hoc: 
+      <lb ed="#S" n="73"/>potest supponi substantia, quae est, vel quae fuit, vel quae 
+      <lb ed="#S" n="74"/>erit. Cum ergo secundum Donatum. ideo dicatur 
+       prono<lb ed="#S" break="no" n="75"/>men, quia ponit pro nomine demonstratiuo, per istud pro 
+      <lb ed="#S" n="76"/>nemen hoc: potest intelligi aliquid prius, vel de 
+       propin<lb ed="#S" n="77" break="no"/>quo futurum sub hac specie: secundum enim Donatum 
+       pro<lb ed="#S" break="no" n="78"/>nomini non accidit tempus. Nec dici potest, quia 
+       restringa<lb ed="#S" break="no" n="79"/>tur per verbum praesentis temporis ad supponendum pro 
+       ali<lb ed="#S" break="no" n="80"/>quo, quod prius est sub illa specie cum nec verbum futuri 
+      <lb ed="#S" n="81"/>temporis restringere possit terminum ad supponendum 
+       tan<lb ed="#S" break="no" n="82"/>tum pro refutura. cuius ratio est, quia quamuis res significa 
+      <lb ed="#S" n="83"/>ta per verbum sit imediate vnitate rei significatae per 
+       sup<lb ed="#S" break="no" n="84"/>positum, tamen significat per modum distantis. Idem autem significa 
+      <lb ed="#S" n="85"/>tum per modu distantis non restringet, quod significatu 
+      <lb ed="#S" n="86"/>est per modum distantis. Cum enim dicitur, homo est albus: 
+      <lb ed="#S" n="87"/>iste terminus homo non restringitur ad supponendum pro 
+      <lb ed="#S" n="88"/>albis tantum: sicut cum dicitur homo albus. Cum ergo sacer 
+      <lb ed="#S" n="89"/>dos in persona Christi proferat hanc propositionem: hoc est 
+      <lb ed="#S" n="90"/>corpus meum, sensus est, aliquid sub hac specie praesens, vel 
+      <lb ed="#S" n="91"/>de propinquo futurum est corpus meum. Et hoc simplici 
+      <lb ed="#S" n="92"/>ter est verum, quia quamuis haec disiunctiua ratione huius 
+       par<lb ed="#S" break="no" n="93"/>tis aliquid praesens sub hac specie non sit vera nisi 
+       secun<lb ed="#S" break="no" n="94"/>dum loquendi vsum, quo aliquid statim conuertendum 
+      <lb ed="#S" n="95"/>in rem aliquam dicitur res illa esse: vt aqua statim 
+       conuer<lb ed="#S" break="no" n="96"/>tenda in acrem, dicitur aer: &amp; humor statim 
+       conuerten<lb ed="#S" break="no" n="97"/>do in carnem dicitur caro: tamen ratione alterius partis 
+       dis<lb ed="#S" break="no" n="98"/>iunctiue ex vi loquutionis vera est. Orationi enim 
+       assi<lb ed="#S" break="no" n="99"/>stit virtus operans in fine propositionis rem significatam 
+      <lb ed="#S" n="100"/>per eam. Disiunctiua autem vera est, si altera pars est vera. 
+      <lb ed="#S" n="101"/>Et indefinita, vel particularis similiter est vera: 
+       cuicun<lb ed="#S" break="no" n="102"/>que supposito per subiectum conueniat praedicatum. 
+    </p>
+            <p xml:id="khj78y-q25442-d1e374" n="7">
+               <lb ed="#S" n="103"/>
+               <!-- 7 -->sed haec dicta de demonstratione videntur conue 
+      <lb ed="#S" n="104"/>nientia quantum ad intellectum, &amp; sensum pet indiuiduum 
+      <lb ed="#S" n="105"/>vagum, vt non sit in oratione falsitas. Nam si solum ad in 
+      <lb ed="#S" n="106"/>tellectum esset demonstratio, non esset necesse, quod sacerdos 
+      <lb ed="#S" n="107"/>haberet ante se materiam: cum demonstratio ad intellectum 
+      <lb ed="#S" n="108"/>abstrahat ab hic &amp; nunc: sed ex quo sensus est contentum 
+      <lb ed="#S" n="109"/>sub his speciebus est corpur meum, vel id, quod continetur 
+      <lb ed="#S" n="110"/>sub his speciebus &amp;c. est duplex demonstratio. Vna ad 
+      <lb ed="#S" n="111"/>sensum, quae refert ad species, &amp; haec est indiuidui signa 
+      <lb ed="#S" n="112"/>ti. Alia ad intellectum, quae est indiuidui vagi, &amp; 
+       pontes<lb ed="#S" break="no" n="113"/>se vera, sed pro diuersis. Quia si dicat illud, qu'est 
+       conten<lb ed="#S" n="114" break="no"/>tum sub his speciebus est corpus, est verum, quia corpus 
+       pa<lb ed="#S" break="no" n="115"/>nis si dicat corpus meum verum est: quia quando dicit meum, tunc ibi 
+      <lb ed="#S" n="116"/>est corpus Christi. Et potest poni tale exemplum. Ponatur, quod 
+      <lb ed="#S" n="117"/>Deus ex aere faciat ignem remanente quantitate, &amp; 
+       quali<lb ed="#S" break="no" n="118"/>tate symbola, sicut aliqui dicunt posse fieri naturaliter, &amp; 
+      <lb ed="#S" n="119"/>ponat, quod alteratio, qua hoc fit, incipiat me incipiente di 
+      <lb ed="#S" n="120"/>cere: istud, quod continetur sub hac quantitate, &amp; qualitate 
+      <lb ed="#S" n="121"/>est ignis, &amp; compleatur me complente hanc orationem: tunc 
+      <lb ed="#S" n="122"/>oratio est vera. sed contra hoc videt: quia quando dico istud, quod 
+      <lb ed="#S" n="123"/>continet, vel est contentum sub eis speciebus &amp;c. vtrunque 
+      <lb ed="#S" n="124"/>verbum est praesentis temporis. Vnde sensus est istud, quod 
+      <lb ed="#S" n="125"/>nunc continet, vel est contentum, est istud: &amp; hoc est falsum, 
+      <lb ed="#S" n="126"/>quia aliud continetur in principio orationis: aliud in fine: 
+      <lb ed="#S" n="127"/>nec vnum est aliud. Et est dicendum, quod sermoni, non res: sed 
+      <lb ed="#S" n="128"/>rei sermo subiectus est, &amp; intentioni dicentis, &amp; quia non 
+       in<lb ed="#S" break="no" n="129"/>tendit de contento pro nunc, sed de contento pro fine 
+       lo<lb ed="#S" break="no" n="130"/>quutionis. ideo propositio est vera: sed nec istud valet, 
+      <lb ed="#S" n="131"/>quia secundum hoc videt, quod non de virtute sermonis, sed 
+      <lb ed="#S" n="132"/>de bonitate intelligentis verificet. Ideo dicendum, quod sicut 
+      <lb ed="#S" n="133"/>demenstratio ad intellectum est de indiuiduo vago, sic etiam 
+      <!--0113.xml-->
+      <pb ed="#S" n="113"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>consignificat tempus vagum: eo quod res, de qua est sermo, 
+      <lb ed="#S" n="2"/>non est facta, sed ent fienda: &amp; aliud est loqui de rebus factis, 
+      <lb ed="#S" n="3"/>in quibus loquutio accipitur pro tempore, quo incipit pro 
+      <lb ed="#S" n="4"/>ferri, vel ante aliud de fiendis: in quibus ex proprietate 
+      <lb ed="#S" n="5"/>loquendi significatio refertur ad futurum, &amp; aliud de 
+       sermo<lb ed="#S" break="no" n="6"/>ne speculatiuo, qui sequitur rem: &amp; de operatiuo, qui 
+       prae<lb ed="#S" break="no" n="7"/>cedit. Et talis est sermo isto. Vnde non est intentio, quod pro 
+      <lb ed="#S" n="8"/>primo nunc, nec pro tempore antecedenti vltimum, nunc sit 
+      <lb ed="#S" n="9"/>vera loquutio, siue probatio sermonis, sed pro vltimo. 
+      <lb ed="#S" n="10"/>Vnde sensus est: Hoc est corpus meum. i. contentum sub his 
+      <lb ed="#S" n="11"/>speciebus est corpus meum. Et tunc pronomen supponit, 
+      <lb ed="#S" n="12"/>&amp; demonstrat contentum abstrahendo ab omni differentia 
+      <lb ed="#S" n="13"/>temporis. Vnde potest verificari pro vltimo instanti 
+       loquu<lb ed="#S" break="no" n="14"/>tionis: sicut sidicererur: hic est ponis, verificat pro primo in 
+      <lb ed="#S" n="15"/>stanti. Nomen enim, &amp; pronomen non consignificant 
+       tem<lb ed="#S" break="no" n="16"/>pus
+    </p>
+            <p xml:id="khj78y-q25442-d1e488" n="8">
+      <!-- 8 -->Nec obstat, quod ly, est, quod est verbum substanti 
+      <lb ed="#S" n="17"/>uum consignificat tempus praesens: quia prior est eius 
+       signi<lb ed="#S" break="no" n="18"/>ficatio, quae copulat praedicatu subiecto, quam consignificato 
+      <lb ed="#S" n="19"/>temporis, q designat tempus illius copulae. Vnde cum 
+       copula<lb ed="#S" break="no" n="20"/>tio non compleatur ante vltimae dictionis prolationem per 
+      <lb ed="#S" n="21"/>consequens non designatur nisi illud tempus. Vnde est sensus: 
+      <lb ed="#S" n="22"/>Contentum sub his speciebus est corpus meum: nunc 
+       pri<lb ed="#S" break="no" n="23"/>mo cum hoc dictum est.
+    </p>
+            <p xml:id="khj78y-q25442-d1e508" n="9">
+      <!-- 9 -->CIRCA secundum 
+      <lb ed="#S" n="24"/>sunt tres conclusiones. Prima, quod quidam dicunt, quod forma 
+      <lb ed="#S" n="25"/>sanguinis praecisae ost haec: Hic est calix sanguinis mei, 
+      <lb ed="#S" n="26"/>vel hic est sanguis meus, nihil plus addendo. Pro qua opi 
+      <lb ed="#S" n="27"/>nione adducuntur quatuor rationes. Prima talis: In 
+       il<lb ed="#S" break="no" n="28"/>lis verbis consistit praecise sacramenti huius forma, quae sunt ex 
+      <lb ed="#S" n="29"/>pressiua totius effectus contenti in hoc sacramento: cum hoc 
+       sa<lb ed="#S" break="no" n="30"/>cramentum consistat in consecratione materiae: sed hic sunt huius 
+      <lb ed="#S" n="31"/>modi: quia quicquid est in consecrata materia exprimitur 
+      <lb ed="#S" n="32"/>sufficienter per verba praedicta. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q25442-d1e532" n="10">
+      <!-- 10 -->
+       secun<lb ed="#S" break="no" n="33"/>da est talis: Verba pertinetia ad vsum huius sacramenti, magis 
+      <lb ed="#S" n="34"/>pertinent ad integritatem formae, quam verba pertinentia ad eius 
+      <lb ed="#S" n="35"/>effectu: quia inter hoc sacim, quod consistit in consecratione 
+      <lb ed="#S" n="36"/>materiae, &amp; eius effectum est vsus medius: sed verba 
+       perti<lb ed="#S" break="no" n="37"/>nentia ad vsum non sunt de integritate formae, vt illud: 
+      <lb ed="#S" n="38"/>Accipite, &amp; maducate. vel illud: Accipite, &amp; bibite. ergo 
+      <lb ed="#S" n="39"/>multo minus verba pertinentia ad eius effectum: talia 
+       au<lb ed="#S" break="no" n="40"/>tem sunt illa, quae addunt, vt noui, &amp; aeterni Testamenti vsque 
+      <lb ed="#S" n="41"/>in remissionem peccatorum. ergo non sunt de essentia formae. 
+    </p>
+            <p xml:id="khj78y-q25442-d1e556" n="11">
+               <lb ed="#S" n="42"/>
+               <!-- 11 -->Tertia talis: quia in consecratione corporis forma 
+      <lb ed="#S" n="43"/>consistit praecise in illis verbis: Hoc est corpus meum. ergo 
+      <lb ed="#S" n="44"/>cum ista non sint minoris efficaciae, videtur, q praecise con 
+      <lb ed="#S" n="45"/>sistat in his verbis nihil addendo, sicut nec ibi aliquid ad 
+      <lb ed="#S" n="46"/>ditur.
+    </p>
+            <p xml:id="khj78y-q25442-d1e572" n="14">
+      <!-- 14 -->Quarta talis, ua Graeci dicunt coficere, 
+      <lb ed="#S" n="47"/>sicut &amp; baptizare: sed ipsi in consecratione sanguinis non 
+      <lb ed="#S" n="48"/>adilunt omnia illa verba. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q25442-d1e581" n="13">
+      <!-- 13 -->solutio. 
+      <lb ed="#S" n="49"/>Ad primu dicendum, quod maior est falsa: quia in illis verbis, quae 
+      <lb ed="#S" n="50"/>Christus instituit consistit forma, &amp; non immedi ate illori, 
+      <lb ed="#S" n="51"/>quamuis continerent totum effectu. si enim quis dicat: Ego 
+      <lb ed="#S" n="52"/>baptizo te: &amp; nihil plus, non est baptismus, quis illud, 
+      <lb ed="#S" n="53"/>quod addit. scilicet In nomine pris &amp;c. non pertineat ad effectu 
+      <lb ed="#S" n="54"/>sed ad causam. Et similiter si dicatur: Confirmo te, &amp; non ad 
+      <lb ed="#S" n="55"/>dat: Consigno te &amp; chrismate: &amp; In nomine &amp;c. non est 
+       confir<lb ed="#S" break="no" n="56"/>matio. Ita in proposito, quia ex ritu Romanae ecclesiae ab 
+      <lb ed="#S" n="57"/>apostolis traditum supponimus, sicut acceperunt a Domino, quod 
+      <lb ed="#S" n="58"/>illa verba dicantur sub eodem ritu. Ideo supponimus illis 
+      <lb ed="#S" n="59"/>omnibus, &amp; non paucioribus consecrari.
+    </p>
+            <p xml:id="khj78y-q25442-d1e611" n="14">
+      <!-- 14 -->Ad 
+       se<lb ed="#S" break="no" n="60"/>cundum dicendu, quod verba pertinentia ad effectum, qui cau 
+      <lb ed="#S" n="61"/>satur ex vsu huius sacri, inter quem &amp; sacramentum est vsus me 
+      <lb ed="#S" n="62"/>lius, non sunt de essentia sacri, nec de his verbis fit hic 
+       men<lb ed="#S" break="no" n="63"/>tio: sed verba pertinentia ad effectum sanguinis Christi non 
+      <lb ed="#S" n="64"/>prout est in sacro, sed prout fuit fusus in Cruce, pertinent 
+      <lb ed="#S" n="65"/>ad essentiam pro tanto, quia, vt determinatiua praedicati sunt 
+      <lb ed="#S" n="66"/>posita in oratione vna, quae est consecratiua sanguinis: nec 
+      <lb ed="#S" n="67"/>est completa significatio quousque tota oratio sit completa. 
+      <!--0113.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>Nec per consequens est totalis effectus ante: quia significan 
+      <lb ed="#S" n="69"/>do causant. Et de talibus verbis est quaestio non de 
+       pri<lb ed="#S" break="no" n="70"/>mis.
+    </p>
+            <p xml:id="khj78y-q25442-d1e644" n="15">
+      <!-- 15 -->Ad tertium dicendum, quod non est mirum, si ver 
+      <lb ed="#S" n="71"/>ba consecrationis panis sine determinatione sufficiunt: quia 
+      <lb ed="#S" n="72"/>in consecrando Christus sine determinatione ea protulit, 
+      <lb ed="#S" n="73"/>&amp; talem vim eis dedit, qui potuit &amp; vni verbo eandem vim 
+      <lb ed="#S" n="74"/>tribuere, fi voluit. Nam quod addidit: Quod pro vobis trade 
+      <lb ed="#S" n="75"/>tur, non in consecrando: sed ante, vel post dictum est: vt suppo 
+      <lb ed="#S" n="76"/>nimus ex ritu ecclesiae: quae nec ante, nec post illud 
+       di<lb ed="#S" break="no" n="77"/>cit: quae tum in conseerando nihil de verbis Cheisti 
+       omittit<lb ed="#S" break="no" n="78"/>In consecratione autem sanguinis pro tanto talia verbaesine 
+      <lb ed="#S" n="79"/>determinatione non sufficiunt: quia Christus sine determi 
+      <lb ed="#S" n="80"/>natione ea non protulit, sicut protulit prima. Et sic voluit 
+      <lb ed="#S" n="81"/>proferri, vt ipse protulit, &amp; sic habere efficaciam, sicut tunc 
+      <lb ed="#S" n="82"/>habuerunt non aliter.
+    </p>
+            <p xml:id="khj78y-q25442-d1e675" n="16">
+      <!-- 16 -->si autem quaerai, quare 
+      <lb ed="#S" n="83"/>in consecratione sanguinis plus voluit addere 
+       determi<lb ed="#S" break="no" n="84"/>nationem, quam in consecratione corporis potest dici, quod ideo quia 
+      <lb ed="#S" n="85"/>in effusione totali sanguinis. fuit consummatum mysterium 
+      <lb ed="#S" n="86"/>redemptionis non in traditione corporis, quando dic praecedente 
+      <lb ed="#S" n="87"/>factum est: &amp; quia in lanceatione expressius significatum 
+      <lb ed="#S" n="88"/>est, quod de latere Christi formata est ecclesia, sicut de 
+       late<lb ed="#S" break="no" n="89"/>re Adae dormientis Eua. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q25442-d1e695" n="17">
+      <!--17 -->Ad quartum 
+      <lb ed="#S" n="90"/>dicendum, quod si verum ost, quod dicit. scilicet quod aliqua verba 
+       omit<lb ed="#S" break="no" n="91"/>tant ipsi non conficiunt, licet baptizent. Nec negantur 
+      <lb ed="#S" n="92"/>conficere propter mutationem formae: sed solum dicii, quod 
+       muta<lb ed="#S" break="no" n="93"/>tio qualitatis materiae: quia in fermento confieiunt, non 
+       im<lb ed="#S" break="no" n="94"/>pedit sacramentum, licet ipsi econtrario dicant nos non conficere, 
+      <lb ed="#S" n="95"/>qa in azimo conficimus.
+    </p>
+            <p xml:id="khj78y-q25442-d1e713" n="18">
+      <!-- 18 -->secunda conclusio 
+      <lb ed="#S" n="96"/>est de opinione beati Tho. scilicet quod forma sanguinis consistit 
+      <lb ed="#S" n="97"/>in omnibus verbis vsque inclusiue in remis: ionem peccato 
+      <lb ed="#S" n="98"/>rum. Quod probatur dupliciter: primo, quia cum forma 
+       sa<lb ed="#S" break="no" n="99"/>cramenti sit enunciatiua, quiequid est de integritate enun 
+      <lb ed="#S" n="100"/>ciationis, est de integritate conseerationis, sed totum illud 
+      <lb ed="#S" n="101"/>inclusiue vsque ad remissionem peccatorum est de 
+       integrita<lb ed="#S" break="no" n="102"/>te enunciationis, cum sit determinatio praedicati. ergo est 
+      <lb ed="#S" n="103"/>de essentia formae.
+    </p>
+            <p xml:id="khj78y-q25442-d1e735" n="19">
+      <!-- 19 -->secundo, quia sub eode ritu 
+      <lb ed="#S" n="104"/>proferi totum a principio vsq, in finem, dicendo: Hic est ca 
+      <lb ed="#S" n="105"/>lix sanguinis mei noui, &amp; aeterni Testamenti &amp;c. vsque in 
+      <lb ed="#S" n="106"/>remissionem peccatorum, quod non fieret, nisi totum pertineret 
+      <lb ed="#S" n="107"/>ad formam consecrationis.
+    </p>
+            <p xml:id="khj78y-q25442-d1e749" n="20">
+      <!-- 20 -->sed quidam dicuns 
+      <lb ed="#S" n="108"/>has rationes non valere, primo quidem, quia 
+       detorminatio<lb ed="#S" break="no" n="109"/>praedicati etiam est, quod pro nobis tradet: &amp; tamen non est de 
+       es<lb ed="#S" break="no" n="110"/>sentia formae. similiter secunda non valet, quia non 
+       quae<lb ed="#S" break="no" n="111"/>cunque proferuntur eodem ritu, sunt de essentia, sicut accepit 
+      <lb ed="#S" n="112"/>panem, &amp; hmoi, quae non sunt de essentia.21 sed 
+      <lb ed="#S" n="113"/>haeae impugnationes non valent: prima non, quia illa 
+       deter<lb ed="#S" break="no" n="114"/>minatio non ponitur in forma: licet ponatur in historia Euan 
+      <lb ed="#S" n="115"/>gelij. Alia vero ponitur in forma, plusquam in historia: quia 
+      <lb ed="#S" n="116"/>nec intentio Euangelistarum fuit ponere formas sacramentorum, 
+      <lb ed="#S" n="117"/>sed magis historias dictorum, &amp; factorum Christi- 
+    </p>
+            <p xml:id="khj78y-q25442-d1e775" n="22">
+               <lb ed="#S" n="118"/>
+               <!-- 22 -->secunda etiam non valet: quia non omnia, quae 
+       per<lb ed="#S" break="no" n="119"/>tinent ad ritum, sunt de essentia: sed illa solu, quae 
+       signifi<lb ed="#S" break="no" n="120"/>cant illa, quae est ad essentiam pertinent, vel ex parte subiecti, 
+      <lb ed="#S" n="121"/>vel ex parte praedicati: &amp; sub eode ritu proferunt, &amp; de 
+       ta<lb ed="#S" break="no" n="122"/>libus intelligitur maior, de quibus est illud: No, &amp; aeter 
+      <lb ed="#S" n="123"/>ni Testameti &amp;c.
+    </p>
+            <p xml:id="khj78y-q25442-d1e793" n="23">
+      <!-- 23 -->Quod autem Magister dicit 
+      <lb ed="#S" n="124"/>in litera, &amp; Ambro. de consec. di. 2. Panis est in altari, qdi 
+      <lb ed="#S" n="125"/>illis verbis conficitur. &amp;. c. Quia corpus. &amp; reliqua pertinent 
+      <lb ed="#S" n="126"/>ad laudes, &amp; orationes referendum est ad reliqua, quae non 
+      <lb ed="#S" n="127"/>sunt pars orationis illius, qua fit consecratio.
+    </p>
+            <p xml:id="khj78y-q25442-d1e806" n="24">
+      <!-- 24 -->Con 
+      <lb ed="#S" n="128"/>firmatur etiam opinio Tho. quia in Missali Ambrosiano, vt 
+      <lb ed="#S" n="129"/>dicitur, totum hoc vsque in remissionem peccatorum inclusiue 
+      <lb ed="#S" n="130"/>scriptum est literis aureis, sicut illud: Hoc est corpus meum. 
+    </p>
+            <p xml:id="khj78y-q25442-d1e817" n="25">
+               <lb ed="#S" n="131"/>
+               <!-- 25 -->Nec obstat, si dicatur, quod enim est etiam scriptum 
+      <lb ed="#S" n="132"/>literis aureis: &amp; tamen non est de essentia, quia hoc est ideo, quia 
+      <lb ed="#S" n="133"/>est in medio partium essentialium formae. Et ne 
+       vide<lb ed="#S" break="no" n="134"/>rentur duae formae ex disiunctione ideo factum est. 
+      <!--0114.xml-->
+      <pb ed="#S" n="114"/>
+               <cb ed="#S" n="a"/>
+            </p>
+            <p xml:id="khj78y-q25442-d1e837" n="26">
+               <lb ed="#S" n="1"/>
+               <!-- 26 -->Tertia conclusio est: declaratio particularum in 
+      <lb ed="#S" n="2"/>forma hac positarum. Prima clausula est: Hic est enim 
+       ca<lb ed="#S" break="no" n="3"/>lix sanguinis mei contentiuus. s vel hic est sanguis Passio 
+      <lb ed="#S" n="4"/>nis scilicet rememoratiuus. Noui, &amp; aeterni Testamenti: quia aeter 
+      <lb ed="#S" n="5"/>na, quae non veterascunt, promittit lex noua, &amp; dicendo 
+       no<lb ed="#S" break="no" n="6"/>uum: quia vetorauit prius, huic enim sacramento vetera cedunt. 
+      <lb ed="#S" n="7"/>Misterium fidei, non quia solum sit hic, sicut in signo, vt dicunt 
+      <lb ed="#S" n="8"/>haeretici: sed quia aliud credit, aliud videt: quia fides est 
+       cre<lb ed="#S" break="no" n="9"/>dere, quod non vides, sicut exponit Inn. c. Cum Marthe. qui 
+      <lb ed="#S" n="10"/>pro vobis. si apostolis, &amp; pro multis. fomnibus electis ef 
+      <lb ed="#S" n="11"/>fundetur in remissionem peccatorum suple : quo ad 
+       efficien<lb ed="#S" break="no" n="12"/>tia. Nam pro toto mundo effusus est qno ad sufficientiam. 
+    </p>
+            <p xml:id="khj78y-q25442-d1e869" n="27">
+               <lb ed="#S" n="13"/>
+               <!-- 27 -->QVANTVM ad tertium sunt tres 
+       conclusio<lb ed="#S" break="no" n="14"/>nes. Prima de eo, quod arguit. Vbi sciendum, quod formae non 
+      <lb ed="#S" n="15"/>mutuo se expectant: quia facta consecratione super hostiam, 
+      <lb ed="#S" n="16"/>ipsa elenatur, &amp; tunc praecipitur hostia a populo adorari. 
+      <lb ed="#S" n="17"/>Et de hoc sacerdos debet instruere populum, vt dicit 
+       ex<lb ed="#S" break="no" n="18"/>tra de celeb. missar. c. sane. Certum est autem, quod non 
+       adora<lb ed="#S" break="no" n="19"/>tur, nisi quod est, &amp; non quod erit. Aut ergo est tunc panis, 
+      <lb ed="#S" n="20"/>&amp; tunc si adoraretur, esset idololatria: aut est tunc corpus 
+      <lb ed="#S" n="21"/>Christi, sicut vere est, &amp; tunc non expectatur forma 
+       sangui<lb ed="#S" break="no" n="22"/>nis.
+    </p>
+            <p xml:id="khj78y-q25442-d1e895" n="28">
+      <!--28. -->secunda conclusio est: de sacerdotis defectu, 
+      <lb ed="#S" n="23"/>qui si in missa moritur, &amp; nescit, vbi dimisit inchoandum 
+      <lb ed="#S" n="24"/>est a capite. si autem certum est, vbi dimisit, inchoandum est, 
+      <lb ed="#S" n="25"/>vbi certum est ipsum dimisisse, vt in sequenti distinctione 
+      <lb ed="#S" n="26"/>dicetur.
+    </p>
+            <p xml:id="khj78y-q25442-d1e908" n="29">
+      <!-- 29 -->Tertia conclusio est, quod sine verbis 
+       prae<lb ed="#S" break="no" n="27"/>cendentibus, &amp; subfequentibus formas, verum est sacramentum, 
+       si<lb ed="#S" break="no" n="28"/>cut in baptismo, &amp; aliis: quamuis omnia, quae sunt in 
+       mis<lb ed="#S" break="no" n="29"/>sa, &amp; praecipue in canone, sint de necessitate praecepti. 
+      <lb ed="#S" n="30"/>Nec in necessitate, licet solennitatem huius sacramenti 
+       praeter<lb ed="#S" break="no" n="31"/>mittere, sicut licet solennitates aliorum, quae sunt de ne 
+      <lb ed="#S" n="32"/>cessitate in casu necessitatis praetermittere: quia potius ꝗ- 
+      <lb ed="#S" n="33"/>debet ab haeretico baptizari, quam mori sine baptismo. 
+       Me<lb ed="#S" break="no" n="34"/>lius est tamen mori sine eucharistia, quae de manu haeretici 
+       con<lb ed="#S" break="no" n="35"/>municare. 24. q. 1. Cepit. Vnde in nulla necessitate licet 
+      <lb ed="#S" n="36"/>celebrare, si desit aliquid illorum, quae de praecepto ecclesiae, 
+      <lb ed="#S" n="37"/>&amp; generali vsu seruant: siue sint vestimenta, siue huiusmo 
+      <lb ed="#S" n="38"/>di, quae tum non sunt de essentia.
+    </p>
+            <p xml:id="khj78y-q25442-d1e939" n="30">
+      <!-- 30 -->Ad 
+       argumen<lb ed="#S" break="no" n="39"/>tum in oppositum est dicendum, quod in sacramento dupliciter aliquid 
+      <lb ed="#S" n="40"/>continet. scilicet ex vi sacramenti, &amp; ex naturali concomitantia: &amp; quia 
+      <lb ed="#S" n="41"/>facim est institutum in vsum fidelium. ideo ex vi sacri conti 
+      <lb ed="#S" n="42"/>netur in hoc sacro, quod in vsum fidelium venit Et quia in 
+      <lb ed="#S" n="43"/>pane consecrato non continetur sanguis Christi: secundum  quod est in 
+      <lb ed="#S" n="44"/>vsu potus fidelium. ideo non continetur ibi ex vi sacramenti: sed ex 
+      <lb ed="#S" n="45"/>naturali concomitantia, qua conuenit, vt corpus Christi 
+      <lb ed="#S" n="46"/>non sit sine sanguine. Et econuerso est de vino consecrato. 
+      <lb ed="#S" n="47"/>Vnde panis non conuertitur per vim priorum verborum in 
+      <lb ed="#S" n="48"/>torpus extra sanguinem: sed in corpus sine sanguine veni 
+      <lb ed="#S" n="49"/>ente in vsum potus fidelium. secundum hoc debet intelligi 
+      <lb ed="#S" n="50"/>illud, quod dicit <ref xml:id="khj78y-q25442-Rd1e969">extra de sum. Trini. c. 1. § Vna.</ref> ita 
+       trans<lb ed="#S" break="no" n="51"/>substantiatis pane in corpus, &amp; vino in sanguinem. s.ex vi 
+      <lb ed="#S" n="52"/>facri. Quodlibet transsubstantiatur in vtrunque. Causa 
+      <lb ed="#S" n="53"/>autem quare corpus diuisim consecratur, &amp; sanguis: cum tamen 
+      <lb ed="#S" n="54"/>non sint diuisa potest ex vsu, ad quem est sacramentum: 
+      <lb ed="#S" n="55"/>quia manducatio in cibo, &amp; potu consistit, &amp; etiam ex 
+      <lb ed="#S" n="56"/>eo, quod per sacramentum representatur: quia in passio 
+      <lb ed="#S" n="57"/>ne Christi sanguis a corpore diuisus fuit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

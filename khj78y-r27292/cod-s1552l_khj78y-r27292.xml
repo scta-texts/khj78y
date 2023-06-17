@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="402"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r27292"><!-- l4d38-q2 -->
+            <head xml:id="khj78y-r27292-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-r27292-Hd1e103" type="question-title">
+     de diuisione 
+     voti
+   </head>
+            <p xml:id="khj78y-r27292-d1e106">
+               <lb ed="#S" n="91"/>QVAESTIO SECVNDA. 
+    </p>
+            <p xml:id="khj78y-r27292-d1e111">
+               <lb ed="#S" n="92"/>De diuisione voti.
+    </p>
+            <p xml:id="khj78y-r27292-d1e116">
+               <lb ed="#S" n="93"/>Tho. vbi supra arti. 2.
+    </p>
+            <p xml:id="khj78y-r27292-d1e122">
+               <lb ed="#S" n="94"/>SECVNDO quaeritur, de diuisione 
+       vo<lb ed="#S" break="no" n="95"/>ti. Et videtur quod diuisio magistri prima 
+      <lb ed="#S" n="96"/>sit mala. scilicet in votum commune &amp; 
+       sin<lb ed="#S" break="no" n="97"/>gulare: quia votum commune est 
+       ne<lb ed="#S" break="no" n="98"/>cessitas: sed quod est necessitatis non est li 
+      <lb ed="#S" n="99"/>berum nec voluntarium, nec per consequens votum, ergo 
+      <lb ed="#S" n="100"/>&amp;c.
+    </p>
+            <p xml:id="khj78y-r27292-d1e140" n="2">
+      <!-- 2 -->Contra auctoritas magistri.
+    </p>
+            <p xml:id="khj78y-r27292-d1e145" n="3">
+      <!-- 3 -->Respondeo, 
+       di<lb ed="#S" break="no" n="101"/>cendum, quod cum omnis diuisio reducatur ad bimembrem 
+      <lb ed="#S" n="102"/>primo &amp; per se: sic etiam votum prima diuisione 
+       diuidi<lb ed="#S" break="no" n="103"/>tur in votum consequentiae et necessitatis, &amp; votum 
+       sin<lb ed="#S" break="no" n="104"/>gulare &amp; voluntatis. Videntur tamen. 12. esse diuisiones 
+      <lb ed="#S" n="105"/>voti.
+    </p>
+            <p xml:id="khj78y-r27292-d1e161" n="4">
+      <!-- 4 -->Prima est legistarum: quia votum aliud est 
+       per<lb ed="#S" break="no" n="106"/>sonale vt continentiae, aliud reale vt eleemosynae, aliud 
+      <lb ed="#S" n="107"/>mixtum pariter ex vtroq, : vt de religione: quia ingressi 
+      <lb ed="#S" n="108"/>monasteria se &amp; sua Deo dedicant: vnde istud est 
+       perfe<lb ed="#S" break="no" n="109"/>ctius vtroq, sicut oblatio Nazaraei omni sacrificio: &amp; 
+       omni<lb ed="#S" n="110" break="no"/>bus votis perfectior est religio: quia omne totum est ma 
+      <lb ed="#S" n="111"/>ius sua parte: &amp; vt personale, quia totam personam: &amp; vt 
+      <lb ed="#S" n="112"/>reale quia omnia, vt Petrus obtulit plus quam zachaeus licet 
+      <lb ed="#S" n="113"/>minus in quantitate.
+    </p>
+            <p xml:id="khj78y-r27292-d1e183" n="5">
+      <!-- 5 -->secunda, quia votum aliud temporale vt 
+      <lb ed="#S" n="114"/>abstinentiae certi temporis: vel continentiae, aliud perpetuum vt per 
+      <lb ed="#S" n="115"/>perpetuae abstinentiae: ab aliquo: vel perpetuae continentiae vt in 
+      <lb ed="#S" n="116"/>religione et sacro ordie, &amp; istud est perfectius: quia bonum quanto 
+      <lb ed="#S" n="117"/>diuturnius tanto melius.
+    </p>
+            <p xml:id="khj78y-r27292-d1e196" n="6">
+      <!-- 6 -->Tertia diuisio est Hosti. 
+      <lb ed="#S" n="118"/>&amp; Ray. quia votum aliud necessitatis, vt de his quae sunt 
+      <lb ed="#S" n="119"/>necessaria ad salutem: aliud voluntatis, vt de his quae sunt 
+      <lb ed="#S" n="120"/>supererogationis: inter quae est talis differentia, quod in vo 
+      <lb ed="#S" n="121"/>tis necessitatis vnus potest alium ignorantem obligare, 
+      <lb ed="#S" n="122"/>vt patrinus puerum. Tenetur enim baptizatus in 
+       pueri<lb ed="#S" break="no" n="123"/>tia seruare fidem &amp; cogitur, sicut baptizatus in adulta aeta 
+      <lb ed="#S" n="124"/>te. In votis autem voluntariis non: vnde quantumcunque 
+      <lb ed="#S" n="125"/>mater voueat pro puero infirmo quod ieiunet: non tenetur 
+      <lb ed="#S" n="126"/>nisi consentiat cum habet aetetem legitimam: filius etiam 
+      <lb ed="#S" n="127"/>quem pater puerum in religione posuit, nisi cum ad annos 
+      <lb ed="#S" n="128"/>discretionis peruenerit sponte consenserit potest exire: 
+      <lb ed="#S" n="129"/>&amp; sic loquitur canon. 20. q. 1. &amp;. 2.
+    </p>
+            <p xml:id="khj78y-r27292-d1e228" n="7">
+      <!-- 7 -->Quarta diuisio 
+      <!--0403.xml-->
+      <pb ed="#S" n="403"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>est voti necessitatis, in votum primae necessitatis quod 
+       emit<lb ed="#S" break="no" n="2"/>titur in Baptismo: &amp; secundae necessitatis quod emittitur 
+      <lb ed="#S" n="3"/>in poenitentia, quae facit praeterita mala plangere &amp; plangenda 
+      <lb ed="#S" n="4"/>iterum non committere: sicut Baptismus praeteritum 
+      <lb ed="#S" n="5"/>infidelitatis errorem abiicere: sed tamen non requiritur 
+       pro<lb ed="#S" break="no" n="6"/>missio in poenitentia, sicut in Baptis. sed sufficit 
+       proposi<lb ed="#S" break="no" n="7"/>tum: nec est proprie votum hic &amp; ibi. Votum ergo necessita 
+      <lb ed="#S" n="8"/>tis est eorum ad quae implenda omnis  homo tenetur, sine 
+       qui<lb ed="#S" break="no" n="9"/>bus non est salus: sicut abrenuntiare diabolo &amp; pompis eius, 
+      <lb ed="#S" n="10"/>tenere fidem: seruare decalogum, ad quae se obligat quilibet in 
+      <lb ed="#S" n="11"/>Baptismo. de conse. di. 4 postea. 7. q. 1. Ecce non tamen quando 
+      <lb ed="#S" n="12"/>pro duobus peccatis poenitentia est iniungenda. sed pro vno 
+      <lb ed="#S" n="13"/>transgressionis circumstantia aggrauato. Guil. dicit quod nec 
+      <lb ed="#S" n="14"/>in poenitentia: nec in Baptis. emittitur votum, quia in illis 
+      <lb ed="#S" n="15"/>est magis renuntiatio vitae praeterite malae, &amp; professio 
+       fi<lb ed="#S" break="no" n="16"/>dei, quam obligatio respectu futurae: vnde in poenitentia non 
+      <lb ed="#S" n="17"/>est exigendum sacramentum: nisi in casibus expressis. nec 
+      <lb ed="#S" n="18"/>votum de non recidiuando vel promissio: sed sufficit 
+       ha<lb ed="#S" break="no" n="19"/>bere propositum de cauendo a peccato in posterum. large 
+      <lb ed="#S" n="20"/>tamem dicitur duplex votum necessitatis. scilicet necessitatis 
+      <lb ed="#S" n="21"/>primae quod emittitur in Baptis. et secundae quod emitti 
+      <lb ed="#S" n="22"/>tur in poenitentia, &amp; quoncunque sit certum est, quod in eodem 
+      <lb ed="#S" n="23"/>genere peccati plus peccat fidelis quam infidelis, et qui post 
+      <lb ed="#S" n="24"/>poenitentiam recidiuat: quia melius erat eis viam veritatis 
+      <lb ed="#S" n="25"/>non agnoscere, &amp;c. 1. Pe. 2. votum vero voluntatis est eius 
+      <lb ed="#S" n="26"/>boni ad quod aum votum aliquis non tenctur: sed pervotum astrin 
+      <lb ed="#S" n="27"/>gitur: vt continentiae, abstinentiae &amp; peregrinationis &amp; hu 
+      <lb ed="#S" n="28"/>iusmodi: de quibus psal. vouete &amp; reddite &amp;c. vt primum 
+      <lb ed="#S" n="29"/>ad consilium. secundum ad imperium referatur, extra. e. 
+       Ma<lb ed="#S" break="no" n="30"/>gnae. sicut vouere virginitatem est consilium: non 
+       con<lb ed="#S" break="no" n="31"/>firmari est praeceptum. Vnde etiam imperator indicit 
+       vni<lb ed="#S" break="no" n="32"/>uersis castitatem quae sola potens est cum fiducia Deo animas prae 
+      <lb ed="#S" n="33"/>sentare. Auc. de lenonibus. 5. sancimus. coll. 2. non quod ipsa 
+      <lb ed="#S" n="34"/>sufficiat sine charitate. sed quod sine ea nulla alia virtus suf 
+      <lb ed="#S" n="35"/>ficit: vnde auc. quibus mo. na. efficiuntur sui. 6. illud quoque. 
+      <lb ed="#S" n="36"/>coll. 6. per quas corriguntur antiquae leges quae 
+       concu<lb ed="#S" break="no" n="37"/>binas concedebant: vnde Augu. Fornicari hominibus nunqᷓ; 
+      <lb ed="#S" n="38"/>licet. 88. di. fornicari nunquam licet. 32. q. 4. Nemo. quod ve 
+      <lb ed="#S" n="39"/>rum est licet culpae: quia semper est mortale peccatum: sed 
+      <lb ed="#S" n="40"/>quandoq, licet licentia poenae: quia Ecclesia non semper 
+      <lb ed="#S" n="41"/>punit. 1. q. hac ratione. distinct. deniq, ibi. &amp; ideo 
+      <lb ed="#S" n="42"/>abstinere aut icinuare quandoque est necessitaris, puta 
+      <lb ed="#S" n="43"/>diebus quibus Ecclesia ieiunium indicit: sed quicquid 
+      <lb ed="#S" n="44"/>promittatur in Baptismo: tamen in poenitentia nulla est 
+      <lb ed="#S" n="45"/>promissio, nisi absoluere ab iniectione in qua percussor 
+      <lb ed="#S" n="46"/>iurat non percutere amplius, &amp; in illa ab vsuris, in qua 
+      <lb ed="#S" n="47"/>vsurarius cauet vel iurat reddere non autem abstinere: 
+      <lb ed="#S" n="48"/>&amp; est periculum tales promissiones extorquere. de coha 
+      <lb ed="#S" n="49"/>bi. cleri. &amp; mu. c. Clericus in sacramentis.
+    </p>
+            <p xml:id="khj78y-r27292-d1e345" n="8">
+      <!-- 8 -->Quinta est 
+       diui<lb ed="#S" break="no" n="50"/>sio magistri in votum commune quod est necessarium: &amp; 
+      <lb ed="#S" n="51"/>singulare quod est voluntarium: vnde redit in tertiam 
+       di<lb ed="#S" break="no" n="52"/>uisionem: non tamen votum commune addit nouum pec 
+      <lb ed="#S" n="53"/>catum secundum doctores, sed nouam deformitatem: sed 
+      <lb ed="#S" n="54"/>illud videtur implicate contradictionem: quia secundum 
+      <lb ed="#S" n="55"/>eos circunstantia aggrauans quae per se, non ex 
+       supposi<lb ed="#S" break="no" n="56"/>tione primi, importat deformitatem, mutat speciem vel 
+      <lb ed="#S" n="57"/>addit nouam peccati speciem. Fractio autem voti ex se 
+      <lb ed="#S" n="58"/>deformitatem habet: quia etiam in re ad quam quis allas 
+      <lb ed="#S" n="59"/>non tenetur: vnde votum singulare facit de non 
+       pecca<lb ed="#S" break="no" n="60"/>to peccatum, ergo &amp; commune mutat speciem quod 
+       vi<lb ed="#S" break="no" n="61"/>detur concedendum, quando est expressum per modum 
+      <lb ed="#S" n="62"/>propriae &amp; singularis obligationis: vt si voueat vel iuret 
+      <lb ed="#S" n="63"/>non amplius fornicari, non solum peccat peccato 
+       luxu<lb ed="#S" break="no" n="64"/>riae fornicando: sed etiam peccato periurij vel fractionis 
+      <lb ed="#S" n="65"/>voti. sed quando non est votum proprium et expressum, sed 
+       so<lb ed="#S" break="no" n="66"/>lum ritus susceptionis sacramenti, sicut in baptismo: non 
+      <lb ed="#S" n="67"/>videtur esse alia species peccati.
+    </p>
+            <p xml:id="khj78y-r27292-d1e389" n="9">
+      <!--9 -->sexta diuisio est 
+      <!--0403.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>etiam magistri voti singularis: quia aliud simplex vel 
+      <lb ed="#S" n="69"/>priuatum: aliud publicum vel solenne. Priuatum vel 
+      <lb ed="#S" n="70"/>simplex dicitur etiam quod in publico fit, vel cum 
+       ali<lb ed="#S" break="no" n="71"/>qua solennitate: sicut in voto peregrinationis adhibetur 
+      <lb ed="#S" n="72"/>solennitas per susceptionem perae et baculi benedicti a 
+      <lb ed="#S" n="73"/>sacerdote, vel per susceptionem crucis in votunterrae 
+       san<lb ed="#S" break="no" n="74"/>ctae: dum tamen non fiat alia solennitas cum qua 
+       secun<lb ed="#S" break="no" n="75"/>dum modum Ecclesiaedicitur votum solennizari, quae 
+      <lb ed="#S" n="76"/>est duplex tantum vt sequetur. Et sciendum quod omne non 
+      <lb ed="#S" n="77"/>solenne est simplex: etiam si publice fiat quia accidit 
+       si<lb ed="#S" break="no" n="78"/>bi, cum etiam solo corde posiit fieri: sed solenne nunquam 
+      <lb ed="#S" n="79"/>solo corde nec furtiue sed solenniter. Et horum aliud con 
+      <lb ed="#S" n="80"/>sistit in faciendo: vt ire ad sanctum Iacobum orare. Aliud 
+      <lb ed="#S" n="81"/>in non faciendo: vt non contrahere matrimonium, de quo est 
+      <lb ed="#S" n="82"/>dubium, vtrum qui sic vouet post matrimonium contractum 
+      <lb ed="#S" n="83"/>possit debitum petere: quia si simpliciter vouisset 
+       casti<lb ed="#S" break="no" n="84"/>tatem non posset, &amp; aliud videtur vouere non contrahere 
+       ma<lb ed="#S" break="no" n="85"/>trimonium, et allud vouere castitatem: quia primus 
+       for<lb ed="#S" break="no" n="86"/>nicando non frangit votum: sed secundus econtrario 
+       vi<lb ed="#S" break="no" n="87"/>detur: quia vouendo vnum vouet quod implicatur in illo. 
+    </p>
+            <p xml:id="khj78y-r27292-d1e441" n="10">
+               <lb ed="#S" n="88"/>
+               <!-- 10 -->septima diuisio est voti solemnis: quia aliud solenni 
+      <lb ed="#S" n="89"/>zatur per susceptionem sacri ordinis: aliud per professio 
+      <lb ed="#S" n="90"/>nem approbatae religionis: nec sunt plures modi quantum 
+      <lb ed="#S" n="91"/>ad post contractum matrimonium dirimendum. extra 
+      <lb ed="#S" n="92"/>de voto et voti redem. c. Vno. li. 6. Inter quas 
+       solennita<lb ed="#S" break="no" n="93"/>tes talis est differentia: quia si quis profiteatur religionem 
+      <lb ed="#S" n="94"/>quam non potest: nihilominus voto simplici ad 
+       continen<lb ed="#S" break="no" n="95"/>tiam obligatur: qui autem ordinatur ab eo qui nec 
+       cha<lb ed="#S" break="no" n="96"/>racterem imprimere potest: puta quia non Episcopus non 
+      <lb ed="#S" n="97"/>tenetur continere. secus autem si ab eo qui ordinem da 
+      <lb ed="#S" n="98"/>re potest, licet non executionem.
+    </p>
+            <p xml:id="khj78y-r27292-d1e470" n="11">
+      <!-- 11 -->Quod autem 
+      <lb ed="#S" n="99"/>dicitur in illa decrerali noua, quod solennitas est per 
+       Eccle<lb ed="#S" break="no" n="100"/>siam introducta: videtur contram, quia ordo est a Deo.
+    </p>
+            <p xml:id="khj78y-r27292-d1e479" n="12">
+      <!-- 12 -->
+               <lb ed="#S" n="101"/>solutio in voto solemni est considerare materiam. i. essentiam 
+      <lb ed="#S" n="102"/>voti &amp; formam. scilicet solemnitatem. In solemnitate autem religionis 
+       ma<lb ed="#S" break="no" n="103"/>teria est a iure diuino vel naturali: quia ipsemet obligat 
+      <lb ed="#S" n="104"/>se: sed solemnitas est ab Ecclesia: econuerso autem in ordine 
+      <lb ed="#S" n="105"/>sacro: essentia voti est ab Ecclesia quae ipsam annectit ordini: 
+      <lb ed="#S" n="106"/>etiam si non exprimatur solemnitas a Deo: quia licet 
+       Eccle<lb ed="#S" break="no" n="107"/>sia multa superaddiderit, si tamen sine illis fieret solum id in 
+      <lb ed="#S" n="108"/>quo character imprimitur solemne esset· Et ideo professio 
+      <lb ed="#S" n="109"/>indebita obligat voto simplici: quia ipsemet se obligat 
+      <lb ed="#S" n="110"/>Deo quod Ecclesia prohibere non potuit. sed ordinatio 
+      <lb ed="#S" n="111"/>indebita non obligat si character non imprimitur: quia 
+      <lb ed="#S" n="112"/>nec per se: cum non promittat aliquid, nec per Ecclesiam 
+      <lb ed="#S" n="113"/>quia cessante principali cessataccessorium. Inter 
+       solenni<lb ed="#S" break="no" n="114"/>zationem ergo per sacrum ordinem et per professionem 
+      <lb ed="#S" n="115"/>est differentia: quia in susceptione sacri ordinis est votum 
+      <lb ed="#S" n="116"/>praesumptum praesumptione iuris, &amp; de iure contra quam 
+      <lb ed="#S" n="117"/>non admittitur probatio: vnde si quis non intendens vi 
+      <lb ed="#S" n="118"/>uere caste, nec se obligare nihilominus volens suscipit 
+      <lb ed="#S" n="119"/>subdiaconatum: nihilominus obligatur ad continentiam 
+      <lb ed="#S" n="120"/>vi statuti &amp; non voti: sed quia hoc statutum est quicumque 
+      <lb ed="#S" n="121"/>suscipit ordinem praesumitur consentire in id quod est 
+      <lb ed="#S" n="122"/>annexum ordini: &amp; propter hoc dicetur esse votum cum 
+      <lb ed="#S" n="123"/>sit magis statutum: imo etiam si contrarium 
+       protestare<lb ed="#S" break="no" n="124"/>tur: nihilominns obligaretur: sed in professione est 
+       ve<lb ed="#S" break="no" n="125"/>rum votum &amp; expressum: si est expressa. vel tacitum, si ta 
+      <lb ed="#S" n="126"/>cita.
+    </p>
+            <p xml:id="khj78y-r27292-d1e541" n="13">
+      <!-- 13 -->Octaua diuisio est de voto solemnizato per 
+       pro<lb ed="#S" break="no" n="127"/>fessionem: quia aliud per expressam quae fit verbis in 
+       capitu<lb ed="#S" break="no" n="128"/>lo ad modum homagij, quibus aliquis promittit obedientiam 
+      <lb ed="#S" n="129"/>vel conuersionem morum secundum regulam 
+       approba<lb ed="#S" break="no" n="130"/>tam: aliud per tacitam in ordine approbato: vnde per 
+      <lb ed="#S" n="131"/>tria vota substantialia religionis in saeculo emissa non 
+      <lb ed="#S" n="132"/>dicitur quis votum emittere solemne: quamuis apud magnos 
+      <lb ed="#S" n="133"/>dubium sit vtrum liceat ad tria illa vota inducere in 
+       sae<lb ed="#S" break="no" n="134"/>culo remanentes. Expressa autem praesentibus duabus 
+      <!--0404.xml-->
+      <pb ed="#S" n="404"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>partibus conuentus, &amp; maiore parte consentiente: aliter 
+      <lb ed="#S" n="2"/>non debet fieri nec facta tenet. Tacita autem per tacitum 
+      <lb ed="#S" n="3"/>consensum de quo post dicetur. Est autem differentia 
+      <lb ed="#S" n="4"/>inter professionem expressaui, quae potest fieri habitu non 
+      <lb ed="#S" n="5"/>mutato: &amp; tacitam quae non. Nam si est idem habitus 
+       saecu<lb ed="#S" break="no" n="6"/>laris &amp; religionis: non profitetur per lapsum amni: si etiam 
+      <lb ed="#S" n="7"/>est distinctus habitus nouitiorum a professis: adhuc non 
+      <lb ed="#S" n="8"/>profitetur per lapsum temporis, nisi recipiat saltem triduo 
+      <lb ed="#S" n="9"/>habitum professorum. argu. contra de testi. c. 2. vbi non 
+      <lb ed="#S" n="10"/>potest testari quae habitum non mutauerat: quia per 
+       an<lb ed="#S" break="no" n="11"/>nos plurimos in monasterio fuerat.
+    </p>
+            <p xml:id="khj78y-r27292-d1e593" n="14">
+      <!-- 14 -->solutio, illa 
+      <lb ed="#S" n="12"/>fuerat expresse professa, alias non fuisset in abbatissam ordi 
+      <lb ed="#S" n="13"/>nata declec. Cum causam.
+    </p>
+            <p xml:id="khj78y-r27292-d1e602" n="15">
+      <!-- 15 -->Nona diuisio est de voto 
+       so<lb ed="#S" break="no" n="14"/>lemnizato per professionem tacitam, quia illa fit dupliciter. 
+      <lb ed="#S" n="15"/>vno modo per lapsum anni: cum quis pubes habitum re 
+      <lb ed="#S" n="16"/>ligionis qui communis est nouitiis &amp; professis, per annum 
+      <lb ed="#S" n="17"/>continuum gestauit: ex tunc religionem assumptam 
+       intel<lb ed="#S" break="no" n="18"/>ligitur professus: nisi ibi tanta indistinctio habitus 
+       ha<lb ed="#S" break="no" n="19"/>beatur, quod non solum nouitij &amp; professi: sed etiam alij cum 
+      <lb ed="#S" n="20"/>eis vitam communem ducentes simili penitus habitu 
+       in<lb ed="#S" break="no" n="21"/>duuntur, sicut forte apud illas moniales, quae se dicunt 
+      <lb ed="#S" n="22"/>quasi canonicas saeculares. secus in illo qui ante annos 
+      <lb ed="#S" n="23"/>discretionis assumpsit habitum regularem: nisi per totum 
+      <lb ed="#S" n="24"/>annum sequentem pubertatem in monasterio 
+       remanse<lb ed="#S" break="no" n="25"/>rit spontaneus: extra de regu. c. 1. li. 6. vbi requiritur 
+       di<lb ed="#S" break="no" n="26"/>stinctio regularis &amp; saeculariset etiam distinctio nouitij 
+      <lb ed="#S" n="27"/>&amp; professi. Dicunt autem quod quidam requiritur cum anno 
+      <lb ed="#S" n="28"/>dies, forte propter annos bisextiles vt sit vniformis 
+       pro<lb ed="#S" break="no" n="29"/>fessio nouitiorum in annis bisextilibus &amp; communibus 
+      <lb ed="#S" n="30"/>sed quia sumenda est ratio quae pro religione facit: non 
+      <lb ed="#S" n="31"/>videtur dies necessario superaddendus quo ad hoc quod ille 
+      <lb ed="#S" n="32"/>exire possit, nec vsqᷓ; legitur: sed respectu alterius qui eum 
+      <lb ed="#S" n="33"/>extrahere potest bene anno additur dies: vnde impuberem 
+      <lb ed="#S" n="34"/>intrantem religionem potest extrahere pater vel tutor 
+      <lb ed="#S" n="35"/>infra annum &amp; diem. 20. q. 2. Puella. Circa quod etiam 
+       li<lb ed="#S" break="no" n="36"/>cet sit digressio est aduertendum, quod pater vel tutor non de 
+      <lb ed="#S" n="37"/>bet propria auctoritate cum violentia extrahere: sed aucto 
+      <lb ed="#S" n="38"/>ritate illius qui in monasterium habet auctoritatem: nec 
+      <lb ed="#S" n="39"/>etiam magister filij familias, vel quicunque alius custos hoc 
+      <lb ed="#S" n="40"/>potest, quia ei qui est in potestate patris sanae mentis: nec 
+      <lb ed="#S" n="41"/>tutor nec curator dari potest. Quod de violentia dictum 
+      <lb ed="#S" n="42"/>est ad hoc pertinet, quod licet pater vel tutor possunt pupillum 
+      <lb ed="#S" n="43"/>iunitum disciplinare etiam clericum: non tamen possunt 
+      <lb ed="#S" n="44"/>eum corrigere aliis iniuriam inferendo: quod facerent 
+      <lb ed="#S" n="45"/>si vel habitum disrumperent, vel vi de monasterio 
+       extra<lb ed="#S" break="no" n="46"/>herent: quia iam erat in eius possessione. Alio modo fit 
+      <lb ed="#S" n="47"/>per susceptionem habitus professi si aetatis aptae sciens &amp; 
+      <lb ed="#S" n="48"/>voluntarius sic triduo perseueret: extra de regu. c. 
+       Con<lb ed="#S" break="no" n="49"/>stitutionem. li. 6. ergo in professione tacita per lapsum anni 
+      <lb ed="#S" n="50"/>non requiritur dies, nisi in anno bisextili: quia tunc non 
+      <lb ed="#S" n="51"/>est vltra hunc annum: licet sit vltra alios. Item quando 
+       ste<lb ed="#S" break="no" n="52"/>tit per annum vbi est distinctio habitus inter saecularem 
+      <lb ed="#S" n="53"/>&amp; nouitium &amp; professos: licet non sit obligatus illi 
+       reli<lb ed="#S" break="no" n="54"/>gioni: quia nec gessit se vt professus: tamen est obligatus 
+      <lb ed="#S" n="55"/>religioni absolute: quia gessit se vt religiosus: vnde non 
+      <lb ed="#S" n="56"/>posset contrahere. de regu. ca. significatum est. de conuer. 
+      <lb ed="#S" n="57"/>coniu. Ad apostolicam.
+    </p>
+            <p xml:id="khj78y-r27292-d1e702" n="16">
+      <!-- 16 -->Decima diuisio est, quod 
+       profes<lb ed="#S" break="no" n="58"/>sio tacita per lapsum anni subdiuiditur: quia quaedam est 
+      <lb ed="#S" n="59"/>illius qui intrauit impubes: secunda eius qui intrauit iam 
+      <lb ed="#S" n="60"/>pubes. Et impuberis illa duplex. Vna respectu patris, illa 
+      <lb ed="#S" n="61"/>respectu sui. si enim impubes patre vel tutore ignorante 
+      <lb ed="#S" n="62"/>vel inuito intrauit infra annum &amp; diem, retrahi vel 
+       ex<lb ed="#S" break="no" n="63"/>trahi potest etiam inuitus a patre vel tutore: quod si ab eis 
+      <lb ed="#S" n="64"/>scientibus non fuerit ante annum et diem extractus: quam 
+      <lb ed="#S" n="65"/>tum ad illos professus est etiam impubes existens: quia 
+      <lb ed="#S" n="66"/>ipsum petere non possunt: sed quantum ad se quousque sit 
+      <lb ed="#S" n="67"/>pubes nullam professionem nec expressam nec tacitam 
+      <!--0404.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>facere potest, quae valeat vt solennis sed si professionem 
+      <lb ed="#S" n="69"/>de facto factam in pupillari aetate factus pubes ratu 
+       ha<lb ed="#S" break="no" n="70"/>beat expresse, vel de nouo profiteatur: vel professorum 
+      <lb ed="#S" n="71"/>habitum per triduum portet, fit professus. similiter vbi 
+      <lb ed="#S" n="72"/>ante annum profiteri non est prohibitum fit professus. 
+      <lb ed="#S" n="73"/>Item si per totum quintumdecimum annum remaneat, 
+      <lb ed="#S" n="74"/>vbi non est habitus nouitiorum distinctus ab habitu 
+       pro<lb ed="#S" break="no" n="75"/>professorum, est tamen distinctus ab habitu saecularium 
+      <lb ed="#S" n="76"/>degentium: alias non. si autem pubes intrauit &amp; est 
+       di<lb ed="#S" break="no" n="77"/>stinctio habitus nouitij &amp; professi, etiam si cum hoc sit 
+      <lb ed="#S" n="78"/>indistinctio habitus saecularium: sicut si essent canonici 
+      <lb ed="#S" n="79"/>regulares et clerici saeculares cum eis in choro et refecto 
+      <lb ed="#S" n="80"/>rio, sicut ipsi in superpelliceis vtuntur, lapsu anni tacite 
+      <lb ed="#S" n="81"/>profitetur. de regu. c. 1. Dico autem distinctio: 
+       velmate<lb ed="#S" break="no" n="82"/>rialis vt in panno, vel colore, aut huiusmodi: vel 
+       forma<lb ed="#S" break="no" n="83"/>lis vt per benedictionem, sicut ibi dicitur in fine. 
+    </p>
+            <p xml:id="khj78y-r27292-d1e767" n="17">
+               <lb ed="#S" n="84"/>
+               <!-- 17 -->Vndecima diuisio est, quia alia est professio mendi 
+      <lb ed="#S" n="85"/>cantium: alia non mendicantium. Est enim differentia 
+      <lb ed="#S" n="86"/>inter religiones mendicantium et alias quo ad professio 
+      <lb ed="#S" n="87"/>nem: quia in primis non potest fieri nec tacite nec expresse 
+      <lb ed="#S" n="88"/>ante annum: in alijs sic: quod est, quia sunt arctiores: vnde 
+      <lb ed="#S" n="89"/>ad eas licet aliunde transire non econuerso, &amp; similiter 
+      <lb ed="#S" n="90"/>ab aliis mendicantibus ad praedicatores vel minores. Nam 
+      <lb ed="#S" n="91"/>quod sunt arctiores argumentum est: quia olim in eis solis 
+      <lb ed="#S" n="92"/>annus probationis requirebatur. Nam arctior dicitur 
+       re<lb ed="#S" break="no" n="93"/>ligio non quae maioris austeritatis, sed quae est perfectioris 
+      <lb ed="#S" n="94"/>&amp; maioris meriti: propter quod religioso licet migrare ad 
+      <lb ed="#S" n="95"/>episcopatum, tanquam ad perfectiorem statum, &amp; non ad au 
+      <lb ed="#S" n="96"/>steriorem: non autem ad saeculum vel heremum: dato o 
+      <lb ed="#S" n="97"/>ibi austerius sit victurus. Item est differentia inter 
+       taci<lb ed="#S" break="no" n="98"/>tam per lapsum anni &amp; expressam ex vna parte, &amp; tacitam 
+      <lb ed="#S" n="99"/>per susceptionem habitus: quia duae primae obligant illi 
+      <lb ed="#S" n="100"/>religloni specialiter: alia verogeneraliterreligioni: ita. scilicet 
+      <lb ed="#S" n="101"/>quod ad saeculum redire non potest. Est etiam differentia 
+       in<lb ed="#S" break="no" n="102"/>ter expressam ex vna parte &amp; tacitam ex alia: quia expressa 
+      <lb ed="#S" n="103"/>potest fieri habitu non mutato: aliae vero non. Haec omnia 
+      <lb ed="#S" n="104"/>probantur. li. 6. de regula. c. 1. 2. &amp;. 3. Quod autem 
+       di<lb ed="#S" break="no" n="105"/>stinctum est inter mendicantes &amp; alios sciendum est, quod 
+      <lb ed="#S" n="106"/>illi soli reputantur religiosi mendicantes, quibus non ha 
+      <lb ed="#S" n="107"/>bentibus reditus nec possessiones ex sua professione, 
+      <lb ed="#S" n="108"/>incerta mendicitas victum praebet. secusde illis qui ex 
+      <lb ed="#S" n="109"/>sua professione reditus et possessiones habent, vel 
+       ha<lb ed="#S" break="no" n="110"/>bere possunt &amp; nihilominus mendicant: &amp; ante annum 
+      <lb ed="#S" n="111"/>nusquam debet fieri professio: sed ante facta tenet in aliis, non 
+      <lb ed="#S" n="112"/>in istis. Quod autem dictum est infra annum non posse 
+      <lb ed="#S" n="113"/>fieri professionem in ordine mendicantium: verum est 
+      <lb ed="#S" n="114"/>nisi in ordine sororum nostrarum, &amp; minorissarum: quia 
+      <lb ed="#S" n="115"/>non sunt mendicantes. si autem concessa sunt cis omnia 
+      <lb ed="#S" n="116"/>priuilegia fratrum ad hoc, non propter hoc habent hoc 
+      <lb ed="#S" n="117"/>ipsum: cum illud non sit priuilegium: &amp; quia hoc conue 
+      <lb ed="#S" n="118"/>nit fratribus vt sunt mendicantes, in quo distinguuntur 
+      <lb ed="#S" n="119"/>ab eis quae habent reditus &amp; possessiones.
+    </p>
+            <p xml:id="khj78y-r27292-d1e850" n="18">
+      <!-- 18 -->
+       Duode<lb ed="#S" break="no" n="120"/>cima diuisio est, quia professio alia habet effectum quo 
+      <lb ed="#S" n="121"/>ad religionem in qua fit specialiter. Alia vero quo ad re 
+      <lb ed="#S" n="122"/>ligionem absolute et indifferenter: vnde vbi est indistin 
+      <lb ed="#S" n="123"/>ctio habitus nouitij &amp; professi et saecularis est dubitatio 
+      <lb ed="#S" n="124"/>an lapsus anni faciat professionem. Et dicendum est quod 
+      <lb ed="#S" n="125"/>sic, quo ad religionem absolute: sed non quoad istam: quia 
+      <lb ed="#S" n="126"/>tenetur manere in religione aliqua, sed non in illa: vnde 
+      <lb ed="#S" n="127"/>si contrahit matrimonium est nullum: quia sicut se 
+       ha<lb ed="#S" break="no" n="128"/>bet lapsus anni cum veste religionis, ad obligandum isti 
+      <lb ed="#S" n="129"/>religioni: sic lapsus anni cum veste religionis simpliciter 
+      <lb ed="#S" n="130"/>distincta a veste seculari: sed primum obligat huic 
+       reli<lb ed="#S" break="no" n="131"/>gioni: vt quando est distinctio nouitij &amp; professi: quia 
+      <lb ed="#S" n="132"/>vestis professi est proprie vestis religionis illius, ergo 
+       se<lb ed="#S" break="no" n="133"/>cundum obligatreligioni absolute.
+    </p>
+            <p xml:id="khj78y-r27292-d1e886" n="19">
+      <!-- 19 -->Propterea 
+       nul<lb ed="#S" break="no" n="134"/>lus per censuram Ecclesiasticam compellitur manere in re- 
+      <!--0405.xml-->
+      <pb ed="#S" n="405"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ligione nisi reputetur professus: sed indisticte qui vltra an 
+      <lb ed="#S" n="2"/>num steterunt in religione sinc expressa professione, 
+       co<lb ed="#S" break="no" n="3"/>guntur regulam ordinis expresse profiteri &amp; seruare: 
+       er<lb ed="#S" break="no" n="4"/>go praesumitur vouisse non solum voto simplici, propter 
+      <lb ed="#S" n="5"/>quod ecclesia non excommunicat, sed solemni tacito non ex 
+      <lb ed="#S" n="6"/>presso, de regula. c. Ex parte. Et si coguntur in claustre 
+       ma<lb ed="#S" break="no" n="7"/>nere: ergo coguntur in matrimonio non manere: &amp; sic 
+      <lb ed="#S" n="8"/>nullum est matrimonium, quando iam puberes intrauerunt, 
+      <lb ed="#S" n="9"/>&amp; idem si impuberes si puberes facti, non tantum vno 
+       an<lb ed="#S" break="no" n="10"/>no, sed pluribus remanserunt.
+    </p>
+            <p xml:id="khj78y-r27292-d1e921" n="20">
+      <!-- 20 -->Propterea cum 
+       an<lb ed="#S" break="no" n="11"/>nus sit datus ad probandum: eo ipso quod per annum stetit nec 
+      <lb ed="#S" n="12"/>reprobauit sed remansit, videtur approbasse religionem 
+      <lb ed="#S" n="13"/>ex quo habitum religionis &amp; formam religiosi per annum 
+      <lb ed="#S" n="14"/>tenuit: sed non religionem illam, quia habitum 
+       profes<lb ed="#S" break="no" n="15"/>si qui est proprius religioni illi non suscepit: vnde illi 
+       re<lb ed="#S" break="no" n="16"/>ligioni determinate obligatus non est: vnde de regula 
+      <lb ed="#S" n="17"/>c. 1. lib. 6. frustra fieret mentio de habitu indistincto, si 
+      <lb ed="#S" n="18"/>idem iuris esset in habitu distincto. Haec est ergo differentia 
+      <lb ed="#S" n="19"/>quia vbi est habitus indistinctus: ibi lapsus anni 
+       obli<lb ed="#S" break="no" n="20"/>gat illi religioni determinate, de regula. c. 1. libr. 6. vbi 
+      <lb ed="#S" n="21"/>autem distinctus, obligat religioni in communi, maxime 
+      <lb ed="#S" n="22"/>si per plures annos sic stetit, de regul. Ex parte. Vnde quod 
+      <lb ed="#S" n="23"/>ibi dicitur regulam ordinis supple approbati, &amp; non 
+       il<lb ed="#S" break="no" n="24"/>lius determinate, quia promptum est iura iuribus 
+       con<lb ed="#S" break="no" n="25"/>cordare, verum est quod in quibusdam locis est 
+       consuetu<lb ed="#S" break="no" n="26"/>do, quod in monasteriis nobiles puellae nutriuntur multis 
+      <lb ed="#S" n="27"/>annis, &amp; vtuntur vestibus nouitiarum, non tamen est 
+      <lb ed="#S" n="28"/>intentio profiteri nec probare, sed postquam fuerint bene 
+      <lb ed="#S" n="29"/>instructae eas maritare. Et haec consuetudo ostendit, q 
+      <lb ed="#S" n="30"/>non intendunt profiteri sed contrahere, sicut olim in tem 
+      <lb ed="#S" n="31"/>plo nutriebantur puellae virgines vsque ad annos nubi 
+      <lb ed="#S" n="32"/>les. Vbi etiam esset consuetudo quod de nouitiis passim: nunc 
+      <lb ed="#S" n="33"/>istae maritentur, nunc illae profitentur, lapsus temporis, 
+      <lb ed="#S" n="34"/>nunquam eas obligat, sed vbi nulla induitur nisi animo 
+      <lb ed="#S" n="35"/>probandi, &amp; profitendi si possit sustinere, &amp; aliis placeas 
+      <lb ed="#S" n="36"/>&amp; in recipiendo hocipsum dicitur ei in cap. si sic 
+       rece<lb ed="#S" break="no" n="37"/>pta stet per annum integrum reputatur vere professa. Et 
+      <lb ed="#S" n="38"/>si nunquam consensit, nihilominus vi statuti ecclesiae est 
+      <lb ed="#S" n="39"/>ligata. Et similiter qui intrat animo remanendi &amp; Deo 
+      <lb ed="#S" n="40"/>perperpetuo famulandi, &amp; si non sit ligatus vi voti: quia 
+      <lb ed="#S" n="41"/>non promisit sed solum proposuit: est tamen ligatus vi 
+      <lb ed="#S" n="42"/>statuti in religione aliqua viuere, de regul. Consulti. Vn 
+      <lb ed="#S" n="43"/>de quod hoc non sit vi voti apparet, quod votum est promissio, 
+      <lb ed="#S" n="44"/>&amp; non intentio: &amp; quia habebat propositum in ista 
+       re<lb ed="#S" break="no" n="45"/>manendi: vnde si vi propositi maneret, tunc in ista rema 
+      <lb ed="#S" n="46"/>neret nec ad laxiorem transire liceret.
+    </p>
+            <p xml:id="khj78y-r27292-d1e1004" n="21">
+      <!-- 21 -->Ad 
+       argu<lb ed="#S" break="no" n="47"/>mentum dicendum, quod votum necessarium, non est 
+       yo<lb ed="#S" break="no" n="48"/>tum nisi large, vt dictum est. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="170"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q45987"><!-- l4d14-q5 -->
+            <head xml:id="khj78y-q45987-Hd1e101">Quaestio 5</head>
+            <head xml:id="khj78y-q45987-Hd1e103" type="question-title">
+     de continuatio 
+     ne poenitentiae
+   </head>
+            <p xml:id="khj78y-q45987-d1e106">
+               <lb ed="#S" n="6"/>QVAESTIO QVINTA 
+      <lb ed="#S" n="7"/>De continuatione poenitentiae.
+    </p>
+            <p xml:id="khj78y-q45987-d1e113">
+               <lb ed="#S" n="8"/>Thom. 3. q. s4. art. 9. &amp;. 10.
+    </p>
+            <p xml:id="khj78y-q45987-d1e118">
+               <lb ed="#S" n="9"/>QVINTO Quaeritur de continuatio 
+      <lb ed="#S" n="10"/>ne poenitentiae. Et videtur, quod non possit 
+      <lb ed="#S" n="11"/>il interrumpi, nec iterari: quia illud, quod 
+      <lb ed="#S" n="12"/>I est vnum numero continuum vsque ad mortem 
+      <lb ed="#S" n="13"/>i nec iterat, nec interrumpitur: sed poenitentia quo 
+      <lb ed="#S" n="14"/>habitum est huiusmodi: licet non quo ad actum. vnde est 
+       conti<lb ed="#S" break="no" n="15"/>nuus dolor cordis. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q45987-d1e137" n="2">
+      <!-- 2 -->CONTRA est 
+      <lb ed="#S" n="16"/>de Dauid, quia poenitentiam de adulterio interrupit per pec 
+      <lb ed="#S" n="17"/>catum: de numeratione populi postea poenitentiam itera 
+      <lb ed="#S" n="18"/>uit. d. De abyssis terrae iterum redu. me.
+    </p>
+            <p xml:id="khj78y-q45987-d1e148" n="3">
+      <!-- 3 -->
+       RE<lb ed="#S" break="no" n="19"/>SPONDEO. hic sunt tres conclusiones. Prima, quod vera 
+      <lb ed="#S" n="20"/>poenitentia potest interrumpi: quia poenitentia non 
+       con<lb ed="#S" break="no" n="21"/>firmat hominem in gratia: quia non est fortior gratia per 
+      <lb ed="#S" n="22"/>poenitentiam recuperata per se loquendo, quam gratia per 
+       ba<lb ed="#S" break="no" n="23"/>ptismum, &amp; innocentiam primo habita: a qua quis potest 
+      <lb ed="#S" n="24"/>excidere secundum legem communem.
+    </p>
+            <p xml:id="khj78y-q45987-d1e166" n="4">
+      <!-- 4 -->secunda 
+       con<lb ed="#S" break="no" n="25"/>clusio est, quod non interrumpitur per gaudium. Vbi sciendum 
+      <lb ed="#S" n="26"/>est, quod est triplex gaudium, siue dolor. scilicet passio ipsa 
+       concu<lb ed="#S" break="no" n="27"/>piscibilis, &amp; sic simul non sunt etiam de diuersis: licet in 
+      <lb ed="#S" n="28"/>voluntate esse possint: sicut album, &amp; nigrum non sunt 
+       si<lb ed="#S" break="no" n="29"/>mul: licet intentioalbi, &amp; nigri sint simul. secundo 
+       ac<lb ed="#S" break="no" n="30"/>cipitur pro motu cordis: quia laetitia est cordis letitia, &amp; tri 
+      <lb ed="#S" n="31"/>stitia est cordis constrictia: quae duo etiam simul esse non 
+      <lb ed="#S" n="32"/>possunt: sicut nec duo motus locales in eodem. Tertio 
+       ac<lb ed="#S" break="no" n="33"/>eipitur pro simplici actu voluntatis: &amp; tunc prout sunt 
+      <lb ed="#S" n="34"/>de eodem non sunt simul: quia contrariantur: prout au 
+      <lb ed="#S" n="35"/>tem sunt in diuersis non subordinatis, non sunt simul: 
+      <lb ed="#S" n="36"/>quia plures actus disparati non stant simul: sed proutsunt 
+      <lb ed="#S" n="37"/>subordinati sic, quod vnum est ratio alterius, sic stant fimul. 
+      <lb ed="#S" n="38"/>Et sic est iu proposito. Imo forte sunt vnus actus, sicut fi 
+      <lb ed="#S" n="39"/>nis: &amp; cius, quod est ad finem: quia vbi duo propter vnum vtro 
+      <lb ed="#S" n="40"/>bique tantum vnum. Vnde quod dicit Tho. Vtrumque non pos 
+      <lb ed="#S" n="41"/>se simul esse aequaliter intelligendum est quantum ad 
+       cau<lb ed="#S" break="no" n="42"/>salitatem, &amp; principalitatem: non quantum ad intentionem, &amp; 
+      <lb ed="#S" n="43"/>remissionem secundum rem si differunt re, vel secundum ratio 
+      <lb ed="#S" n="44"/>nem, si sunt vnus actus re: quia vnum est causa alterius. se 
+      <lb ed="#S" n="45"/>quiturautem ad intentionem causae intentio effectus, &amp; ad 
+      <lb ed="#S" n="46"/>remissionem remissio. Vnde quanto plus dolet de 
+       pecca<lb ed="#S" break="no" n="47"/>to, tanto plus gaudet de dolore: quando dolor est causa 
+      <lb ed="#S" n="48"/>gaudij. Et econuerso quando gaudiu de spe veniae est causa 
+      <lb ed="#S" n="49"/>doloris habiti facit, vt magis gaudeat, quando magis vult 
+       do<lb ed="#S" break="no" n="50"/>lere. Et si est vnus actus numero respectu vtriusque 
+       obie<lb ed="#S" break="no" n="51"/>sti: tunc secundum rationem ex vna parte est causa: &amp; ex 
+      <lb ed="#S" n="52"/>alia causatum. si autem differuntre, tunc est ibi 
+       causali<lb ed="#S" break="no" n="53"/>tas realis.
+    </p>
+            <p xml:id="khj78y-q45987-d1e234" n="5">
+      <!-- 5 -->Tertia conclusio est, quod poenitentia ite 
+      <lb ed="#S" n="54"/>rari potest propter causas oppositas, propter quas 
+       baptis<lb ed="#S" break="no" n="55"/>mus iterari non potest. Quidam tamen huiusmodi rationem assignant 
+      <lb ed="#S" n="56"/>quia non plus Deus exigit a nobis, quam ipse dat nobis: cum 
+      <lb ed="#S" n="57"/>imponat nobis modum misericordiae ad proximum, quem 
+      <lb ed="#S" n="58"/>habuit ad nos. Lu. 6. Estote misericordes &amp;c. sed Deus 
+      <lb ed="#S" n="59"/>imponit nunc modum ad proximum: vt ei poenitenti 
+       remit<lb ed="#S" break="no" n="60"/>tamus offensam non solum septies, sed etiam 
+       septuage<lb ed="#S" break="no" n="61"/>fiessepties. Matth. 18. ergo nobis pluries poenitentibus 
+      <lb ed="#S" n="62"/>pluries remittere debet. sed haec ratio non videtur 
+       va<lb ed="#S" break="no" n="63"/>lere: quia etiam Deus exigit a nobis, quod misereamur etiam 
+      <!--0170.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>impoenitentibus, &amp; parcamus eis, &amp; oremus pro eis, &amp; 
+      <lb ed="#S" n="65"/>benefaciamus eis. sed Deus non miseretur 
+       impoeniten<lb ed="#S" n="66" break="no"/>ti: sed expetit vindictam. Item etiam Deus a 
+       poeniten<lb ed="#S" break="no" n="67"/>tibus expetit vindictam: &amp; nobis prohibet quaerere 
+       vl<lb ed="#S" break="no" n="68"/>tionem. ergo &amp;c. Vnde non sequitur, si imponit nobis 
+      <lb ed="#S" n="69"/>misereri plus, quam semel, quod ipse misereatur plus, quae semel. 
+    </p>
+            <p xml:id="khj78y-q45987-d1e278" n="6">
+               <lb ed="#S" n="70"/>
+               <!-- 6 -->si dicatur, quod Deus solem suum facit oriri 
+       su<lb ed="#S" break="no" n="71"/>per bonos, &amp; malos: verum est, quod multam 
+       misericor<lb ed="#S" n="72" break="no"/>diam exhibet etiam illis, quos damnat puniendo eos citra 
+      <lb ed="#S" n="73"/>condignum: sed ipsam culpam nunquam remittit nisi 
+       poe<lb ed="#S" n="74" break="no"/>nitenti, nec si quin perfectam erigat vindictam: quae tamen 
+      <lb ed="#S" n="75"/>duo a nobis exigit. sed quicquid faciamus adhuc sumus 
+      <lb ed="#S" n="76"/>minus misericordes Deo: qui maiorem misericordiam 
+      <lb ed="#S" n="77"/>amouet. scilicet non essendi, &amp; huiusmodi. Et aliquid decet Deum, 
+      <lb ed="#S" n="78"/>quod non decet nos. Cum enim malum non debeat 
+       rema<lb ed="#S" n="79" break="no"/>nere impunitum: &amp; ad ipsum, qui est summus iudex 
+       perti<lb ed="#S" n="80" break="no"/>neat summa iustitia, pertinet non sine poena relaxare 
+       cul<lb ed="#S" n="81" break="no"/>pam, nec nisi poenitenti. Nobis autem imponit misereri, 
+      <lb ed="#S" n="82"/>qui sumus fratres, &amp; conserui, &amp; ad quos non spectat vin 
+      <lb ed="#S" n="83"/>dicta. Nam iudex, ad quem spectat, non debet parcere: 
+      <lb ed="#S" n="84"/>sed priuatus, ad quem non spectat. Et si iudex spe 
+       corre<lb ed="#S" n="85" break="no"/>ctionis semel parcit: non tamen septuagesiessepties: imo 
+      <lb ed="#S" n="86"/>incorrigibilem punit: &amp; etiam eum, qui poenitet: quia 
+      <lb ed="#S" n="87"/>nemo poenitentia nocens esse definit iure fori, licet 
+       con<lb ed="#S" break="no" n="88"/>trarium sit iure populi.
+    </p>
+            <p xml:id="khj78y-q45987-d1e324" n="7">
+      <!-- 7 -->sed videtur ratio non 
+      <lb ed="#S" n="89"/>non necessaria: licet conclusio vera sit, imo contrarium 
+      <lb ed="#S" n="90"/>est haereticum. Ad argumentum dicendum, quod 
+       poeniten<lb ed="#S" break="no" n="91"/>tia: si est vera, semper est continua quantum ad 
+       pro<lb ed="#S" break="no" n="92"/>positum, sed quantum ad effectum ipsa est continua 
+       habi<lb ed="#S" break="no" n="93"/>tualiter in bonis non in recidiuantibus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

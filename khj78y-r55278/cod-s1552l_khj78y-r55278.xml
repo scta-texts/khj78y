@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="483"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r55278"><!-- l4d45-q1 -->
+            <head xml:id="khj78y-r55278-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-r55278-Hd1e103" type="question-title">
+     utrum suffragia viuorum 
+     prosint defunctis
+   </head>
+            <p xml:id="khj78y-r55278-d1e106">
+               <lb ed="#S" n="59"/>DISTINCTIO. 45. QVAESTIO. I.
+    </p>
+            <p xml:id="khj78y-r55278-d1e111">
+               <lb ed="#S" n="60"/>CIrca quadragesimamquintam Distintt. quaeruntur 
+      <lb ed="#S" n="61"/>Atria. Primo, vtrum sufragia viuorum prosint 
+       de<lb ed="#S" break="no" n="62"/>functis. sccundo, vtrum soffragia facta pro aliquo, sibi 
+      <lb ed="#S" n="63"/>soli valcant. Tertio, de receptacutis animarum. 
+    </p>
+            <p xml:id="khj78y-r55278-d1e122">
+               <lb ed="#S" n="64"/>De diuersis animarum receptaculis.
+    </p>
+            <p xml:id="khj78y-r55278-d1e128">
+      <!--0483.xml-->
+               <cb ed="#S" n="b"/>
+               <lb ed="#S" n="65"/>Ihom. 4. Distinttio. 45. Quaest. 2. 
+      <lb ed="#S" n="66"/>per totam. 
+    </p>
+            <p xml:id="khj78y-r55278-d1e139">
+               <lb ed="#S" n="67"/>QVANTVM ad primum 
+       quaeri<lb ed="#S" break="no" n="68"/>tur vtrum suffragia viuorum 
+       pro<lb ed="#S" break="no" n="69"/>sint defunctis. Et arguitur quod non 
+      <lb ed="#S" n="70"/>qa mala facta per viuos in nullo 
+      <lb ed="#S" n="71"/>nocent defunctis. ergo bona facta 
+      <lb ed="#S" n="72"/>per eos non prosunt defunctis. 
+      <lb ed="#S" n="73"/>consequentia de se videtur 
+       mani<lb ed="#S" break="no" n="74"/>festa: sed antecedens probatur per 
+      <lb ed="#S" n="75"/>illud Ezechielis. 18. Filius non portabit iniquitatem patris: 
+      <lb ed="#S" n="76"/>nec pater, supple mortuus, portabit iniquitatem filij supple 
+      <lb ed="#S" n="77"/>viui. &amp;c.
+    </p>
+            <p xml:id="khj78y-r55278-d1e165" n="3">
+      <!-- 3 -->Contra est quod dicitur. 1. Machab. 12. sancta 
+      <lb ed="#S" n="78"/>ergo &amp; salubris est cogitatio pro defunctis exorare, vt a 
+      <lb ed="#S" n="79"/>peccatis soluantur: sed non esset salubris nisi eis prodesset 
+      <lb ed="#S" n="80"/>aliquid, ergo. &amp;c.
+    </p>
+            <p xml:id="khj78y-r55278-d1e176" n="4">
+      <!-- 4 -->Respondeo hic sunt tria videnda 
+      <lb ed="#S" n="81"/>de suffragiis. Primo, per quos facta prosint. secundo, 
+       qui<lb ed="#S" break="no" n="82"/>bus prosint. Tertio, quae susfragia prosint.
+    </p>
+            <p xml:id="khj78y-r55278-d1e185" n="5">
+      <!-- 5 -->Quantum 
+      <lb ed="#S" n="83"/>ad primum sunt quinque conclusiones.
+    </p>
+            <p xml:id="khj78y-r55278-d1e192" n="6">
+      <!-- 6 -->Prima, quod per 
+      <lb ed="#S" n="84"/>vnum viuum facta prosint alteri viuo propter charitatis 
+      <lb ed="#S" n="85"/>vnionem, sed sic prodest bonum factum alij bono secundum 
+      <lb ed="#S" n="86"/>illud, sanctorum communionem: &amp; particeps ego sum: quia 
+      <lb ed="#S" n="87"/>vna est omnium fidelium vniuersalis ecclesia charitate 
+      <lb ed="#S" n="88"/>coniuncta, quae est societas &amp; amicitia spiritualis: vnde 
+      <lb ed="#S" n="89"/>sicut quando est contracta &amp; societas omnium bonorum 
+      <lb ed="#S" n="90"/>inter aliquos quicquid vnus lucratur omnibus est 
+       com<lb ed="#S" break="no" n="91"/>mune, sic est hic spiritualiter, non autem peccatori qui non 
+      <lb ed="#S" n="92"/>est de corpore Christi: sed membrum diaboli: quia non 
+      <lb ed="#S" n="93"/>est communio Christi ad Belial: vnde existens in peccato 
+      <lb ed="#S" n="94"/>mortali etiam non excommunicatus: non est particeps 
+      <lb ed="#S" n="95"/>alicuius boni quod fit in ecclesia per vnionem: cum sit 
+      <lb ed="#S" n="96"/>membrum praecisum a corpore quod non recipit 
+       influen<lb ed="#S" break="no" n="97"/>tiam ab anima. secundo, prosunt ex suffragantis intentio 
+      <lb ed="#S" n="98"/>ne: vnde sicut seruus communis plus acquirit domino 
+      <lb ed="#S" n="99"/>cui nominatim stipulaturquam aliis: quia obligatio illi 
+      <lb ed="#S" n="100"/>quaeritur in solidum, similiter si iussu domini vnius vel 
+      <lb ed="#S" n="101"/>ex re ipsius seruus communis acquirat, illi specialiter ac 
+      <lb ed="#S" n="102"/>quiritur, sic est in proposito. Non solum enim papa: sed 
+      <lb ed="#S" n="103"/>quilibet debet se reputare seruum seruorum Dei sicut 
+      <lb ed="#S" n="104"/>scribit Rabanus secundo prologo Machab. vnde illi spe 
+      <lb ed="#S" n="105"/>cialiter prodest cui intendit etiam peccatori quem ita 
+      <lb ed="#S" n="106"/>potest intendere sicut iustum, sed non per modum meri 
+      <lb ed="#S" n="107"/>ti, secundum illud: Ne forte non fufficiat nobis &amp; vobis, 
+      <lb ed="#S" n="108"/>quia nullus potest alteri mereri primam gratiam nisi 
+       Chri<lb ed="#S" break="no" n="109"/>stus vt patet in paruulis baptizatis. Vnde in Ezcchiel. si 
+      <lb ed="#S" n="110"/>fuerintcoram me Noe, Daniel, &amp; Iob, animas filiorum non 
+      <lb ed="#S" n="111"/>liberabunt: sicut alteri stipulari nemo potest nisi qui eius 
+      <lb ed="#S" n="112"/>iuri subiectus est, vel pater filio vel econuerso: vnde 
+       Chri<lb ed="#S" break="no" n="113"/>stus meretur nobis sicut filiis: &amp; vnus bonus aliis sicut 
+      <lb ed="#S" n="114"/>seruus dominis: sed malis sicut extraneis nisi merito. 
+       con<lb ed="#S" break="no" n="115"/>grul forte per modum impetrationis sic: quia nisi 
+       ste<lb ed="#S" break="no" n="116"/>phanus orasset Paulos saluatus non fuisset vt dicit 
+       Au<lb ed="#S" break="no" n="117"/>gustinus. Et de Carolo magno audita est vox, Egidij 
+       me<lb ed="#S" break="no" n="118"/>rito Caroli peccata dimitto. Et sic prodest recipi ad bene 
+      <lb ed="#S" n="119"/>ficia in speciali alicuius hominis vel multitudinis siue 
+      <lb ed="#S" n="120"/>sic receptus sit peccator: quia tunc fit particeps propter in 
+      <lb ed="#S" n="121"/>tentionem qui non erat propter vnionem, siue sit lustus: 
+      <lb ed="#S" n="122"/>quia plus fit quam prius.
+    </p>
+            <p xml:id="khj78y-r55278-d1e282" n="7">
+      <!-- 7 -->secunda conclusio est, 
+       quomo<lb ed="#S" break="no" n="123"/>do suffragium viui prosit mortuo. Primo quidem propter 
+      <lb ed="#S" n="124"/>charitatis vnionem: quia charitas nunquam excidit licet 
+       ami<lb ed="#S" break="no" n="125"/>citia politica pereat secundum philoso. &amp; sic omnia bona 
+       bo<lb ed="#S" break="no" n="126"/>norum prosunt mortuis etiam si fiant pro viuis: sicut missa. de 
+      <lb ed="#S" n="127"/>celebra. missa. caprae. 2. vbi dicitur de eadem die missam 
+       au<lb ed="#S" break="no" n="128"/>diant pro salute viuorum &amp; defunctorum. secundo propter 
+      <lb ed="#S" n="129"/>intentionem: quia viuunt in memoriis viuorum: &amp; sic omnes missae 
+      <lb ed="#S" n="130"/>eis prosunt in quibus est vnum Memento pro mortuis. Non 
+      <!--0484.xml-->
+      <pb ed="#S" n="484"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>sic autem alia bona in quibus non fertur intentio ad defun 
+      <lb ed="#S" n="2"/>ctos. Nec obstat, beati mortui qui in domino moriuntur: quia 
+      <lb ed="#S" n="3"/>illi in quibus princeps huius mundi tempore exitus non ha 
+      <lb ed="#S" n="4"/>bet quicquam nec culpam nec poenam, sicut beatus Martinus, 
+      <lb ed="#S" n="5"/>statim sunt beati in re nec egent suffragiis: qui vero sic in 
+      <lb ed="#S" n="6"/>domino moriuntur quod superaedificauerunt lignum, fenum, &amp; stipu 
+      <lb ed="#S" n="7"/>lam, saluabuntur quasi per ignem: &amp; beati non in re sed 
+      <lb ed="#S" n="8"/>in spe, sicut etiam omni tempore preciosa est in conspectu 
+      <lb ed="#S" n="9"/>domini mors iustorum, etiam ante apertionem coeli in spe non 
+      <lb ed="#S" n="10"/>in re.
+    </p>
+            <p xml:id="khj78y-r55278-d1e332" n="8">
+      <!-- 8 -->Tertia conclusio est, an suffragia facta per ma 
+      <lb ed="#S" n="11"/>los prosint, prosunt autem primo, ex opere operato vt 
+       mis<lb ed="#S" break="no" n="12"/>sa mali tantum quantum boni sicut &amp; baptismus. sed sic 
+       ni<lb ed="#S" break="no" n="13"/>hil prodest nisi sacramentum nouae legis vel aliquid 
+       sacra<lb ed="#S" break="no" n="14"/>mentale: vt aqua benedicta &amp; exorcismus, non autem ora 
+      <lb ed="#S" n="15"/>tio, ieiunium &amp; eleemosyna: secundo, ex opere operante vni 
+      <lb ed="#S" n="16"/>uersalis ecclesiae cuius minister est peccator, dicit vigilias 
+      <lb ed="#S" n="17"/>pro mortuis: nec solum vigiliae curati prosunt 
+       parochia<lb ed="#S" break="no" n="18"/>nis suis quorum est publica persona, sed etiam extraneis 
+       re<lb ed="#S" break="no" n="19"/>spectu quorum est priuata persona, quia est minister non 
+      <lb ed="#S" n="20"/>solum huius particularis ecclesiae, sed etiam vniuersalis 
+      <lb ed="#S" n="21"/>cuius omnes boni sunt membra. Tertio, ex opere operante 
+      <lb ed="#S" n="22"/>eius qui rogat vel mandat pro se fieri, sicut bonus dominus per 
+      <lb ed="#S" n="23"/>malum seruum faciendo eleemosyna meretur &amp; 
+       satisfa<lb ed="#S" break="no" n="24"/>cit: quia qui per alium facit per seipsum facere videtur: 
+       si<lb ed="#S" break="no" n="25"/>cut Christ' per malos ministros benedicit &amp; baptizat: &amp; 
+      <lb ed="#S" n="26"/>sic suffragia a defunctis mandata vel petita per malos 
+       ex<lb ed="#S" break="no" n="27"/>hibita cis prosunt. Nec obstat quod malus non potest satisfacere 
+      <lb ed="#S" n="28"/>pro alio, quia verum est pricipaliter, sed instrumentaliter sic. 
+      <lb ed="#S" n="29"/>Quarto, ex opere operante alterius mandatis puta 
+       execu<lb ed="#S" break="no" n="30"/>toris vel alterius propter eandem rationem, sicut papa mam 
+      <lb ed="#S" n="31"/>dat fieri solemnes vigilias pro defuncto summo pontifice 
+      <lb ed="#S" n="32"/>de elec. Vbi maius. lib. vj. potest etiam quis subdito pro 
+      <lb ed="#S" n="33"/>se &amp; aliis orationes iniungere, &amp; etiam confessor poeniten 
+      <lb ed="#S" n="34"/>ti quod pro se oret. Quinto, ex opere operante ministri: quia 
+      <lb ed="#S" n="35"/>ipse operatur aliquo modo. vnde si praelatus malus 
+       iniun<lb ed="#S" break="no" n="36"/>gat bono subdito dicere psalterium pro aliquo viuo vel 
+      <lb ed="#S" n="37"/>mortuo, &amp; bonus subditus dicat aliis non dicturus 
+       inten<lb ed="#S" break="no" n="38"/>dens pro illo dicere in speciali pro quo sibi iniunctum est, 
+      <lb ed="#S" n="39"/>vel pro quo iniungens intendit prodest illi &amp; si non ex 
+      <lb ed="#S" n="40"/>intentione mandantis tamen mandatarij. si autem 
+       sub<lb ed="#S" break="no" n="41"/>ditus diceret non intendens dicere pro aliquo nisi pro 
+      <lb ed="#S" n="42"/>se ipso ad expletionem obedientiae, tunc non prodesset 
+      <lb ed="#S" n="43"/>extraneo illo pro quo iniungens intendebat nec 
+       expri<lb ed="#S" break="no" n="44"/>mebat, nec ex intentione mandantis qui indignus est, nec 
+      <lb ed="#S" n="45"/>mand atarij qui hoc non intendit: sed solum propter cha 
+      <lb ed="#S" n="46"/>ritatis vnionem cum exequente.
+    </p>
+            <p xml:id="khj78y-r55278-d1e415" n="9">
+      <!-- 9 -->Alias autem 
+       gene<lb ed="#S" break="no" n="47"/>raliter non valent suffragia per malos: quia cum is qui 
+       di<lb ed="#S" break="no" n="48"/>splicet ad intercedendum mittitur, irati animus ad deterio 
+      <lb ed="#S" n="49"/>ra prouocatur, quod verum est per modum vnionis: quia 
+      <lb ed="#S" n="50"/>vnitus non est: nec per modum meriti, sed quandoque per 
+      <lb ed="#S" n="51"/>modum impetrationis prosunt: quia oratio peccatoris 
+      <lb ed="#S" n="52"/>quandoque est imperatoria pro se &amp; pro aliis: vt patet in 
+      <lb ed="#S" n="53"/>miraculis quae quandoque per ipsos fiunt ad conuersionem 
+      <lb ed="#S" n="54"/>infidelium, sicut Iudas cum aliis apostolis sanabat infirmos. 
+      <lb ed="#S" n="55"/>sed plus va let suffragium boni bono, quia omnibus modis 
+      <lb ed="#S" n="56"/>post modum plus boni malo: quia per modum frequentis 
+       im<lb ed="#S" break="no" n="57"/>petrationis, quia voluntatem timentium se faciet etiam pro 
+      <lb ed="#S" n="58"/>indignis. Tertio, mali pro bono: Quarto, mali pro 
+       ma<lb ed="#S" break="no" n="59"/>lo, sed non tantum nec tam frequenter: quia Deus 
+       peccato<lb ed="#S" break="no" n="60"/>res non exaudit, sic. scilicet sicut iustos. &amp;c.
+    </p>
+            <p xml:id="khj78y-r55278-d1e450" n="10">
+      <!-- 10 -->Quarta 
+       conclu<lb ed="#S" break="no" n="61"/>sio est, an suffragia prosint facienti. Et quidem ad 
+       meren<lb ed="#S" break="no" n="62"/>dum si sit in charitate non minus prosunt quam si pro se fie 
+      <lb ed="#S" n="63"/>rent secundum illud, Oratio mea in sinu meo conuertetur: 
+      <lb ed="#S" n="64"/>&amp; quandoque plus meretur homo celebrando pro alio quam 
+      <lb ed="#S" n="65"/>pro se, quia maiori feruore charitatis accensus videtur: 
+      <lb ed="#S" n="66"/>qui scintillas emittit ad alios &amp; maxime ad inimicos. 
+      <lb ed="#S" n="67"/>Dominus enim conuersus est ad poenitentiam Iob cum oraret pro 
+      <!--0484.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>amicis suis. secundo, prodest ad satisfaciendum directe. 
+      <lb ed="#S" n="69"/>quando ille pro quo fit aut non indiget, vt quia saluat 
+      <lb ed="#S" n="70"/>nos: aut capax non est: vt quia damnatus, quando faciens 
+      <lb ed="#S" n="71"/>est talis intentionis in habitu, quod pro se faceret si 
+       cre<lb ed="#S" break="no" n="72"/>deret non proficere illi pro quo intendit. Vnde Matth. x. 
+      <lb ed="#S" n="73"/>Et si quidem fuerit ibi filius pacis residebit super illum 
+      <lb ed="#S" n="74"/>pax vestra: sinautem ad vos conuertetur. Tertio, indirecte 
+      <lb ed="#S" n="75"/>per illum cui suffragium praestatur qui tenetur orare pro 
+      <lb ed="#S" n="76"/>faciente suffragium, alias esset ingratus non reddens 
+       anti<lb ed="#S" break="no" n="77"/>dota: &amp; sic est melius orare pro mortuis quam pro viuis: 
+      <lb ed="#S" n="78"/>quia mortui quando erunt in paradiso sciunt illos qui pro 
+      <lb ed="#S" n="79"/>eis orauerunt, &amp; pro eis orabunt etiam si suffragantes pro 
+      <lb ed="#S" n="80"/>pter peccatum suum nihil profuerunt, quia amicitia consi 
+      <lb ed="#S" n="81"/>derat affectum plus quam effectum, &amp; sunt in charitate 
+       per<lb ed="#S" break="no" n="82"/>fecta per quam oratio eorum expressa exauditur. Viuus au 
+      <lb ed="#S" n="83"/>tem pro quo suffragium facio forte ignorat: &amp; sic non ora 
+      <lb ed="#S" n="84"/>bit pro me. Item forte est peccator, &amp; sic parum valebis 
+      <lb ed="#S" n="85"/>mihi oratio sua: aut si est iustus non tamen in via semper 
+      <lb ed="#S" n="86"/>ad nutum exauditur. Quarto, non prodest ad satistacien 
+      <lb ed="#S" n="87"/>dum directe: vt si est mihi iniunctum vnum psalterium &amp; tibi 
+      <lb ed="#S" n="88"/>aliud, dicendo pro te vnum adhuc sum obligatus pro me 
+      <lb ed="#S" n="89"/>ad vnum: sicut si debemus ego &amp; tu, quilibet. x. titio, 
+       soluen<lb ed="#S" break="no" n="90"/>do pro te maneo obligatus pro me.
+    </p>
+            <p xml:id="khj78y-r55278-d1e524" n="11">
+      <!--11 -->Quinta 
+       conclu<lb ed="#S" break="no" n="91"/>sio est: an obsit defuncto si omittant suffragia abeo 
+       man<lb ed="#S" break="no" n="92"/>data. Et quidem nihil quo ad meritum quod totum in hac 
+      <lb ed="#S" n="93"/>vita comparatur respectu cuius bona voluntas pro facto 
+      <lb ed="#S" n="94"/>reputatur. secundo, nec quo ad poenae intensionem: quia illa 
+      <lb ed="#S" n="95"/>cum anima egreditur, sic sibi taxatur quod nec auget nec 
+       mi<lb ed="#S" break="no" n="96"/>nuitur. tertio, nec quo ad perpetuationem. si enim aliquis 
+      <lb ed="#S" n="97"/>sit in carcere pro debito quod alij soluendum commisit, alio 
+      <lb ed="#S" n="98"/>non soluente perpetuo ibi tenebitur nisi perse soluat: sed 
+      <lb ed="#S" n="99"/>si per se manendo in carcere solueret solutione peracta 
+      <lb ed="#S" n="100"/>etiam procuratore non soluente ea facta liberaretur: &amp; sic 
+      <lb ed="#S" n="101"/>est hic. sed si quis mandat solui fore facta &amp; non 
+       soluan<lb ed="#S" break="no" n="102"/>tur: si fuit in mora soluendi in vita &amp; non poenituit, 
+       damna<lb ed="#S" break="no" n="103"/>tur retinendo opus mercenarij vsque mane. si autem non 
+      <lb ed="#S" n="104"/>fuit in mora vel poenituit: tunc non damnabitur sed 
+       sta<lb ed="#S" break="no" n="105"/>bit in purgatorio minus per hoc quod solui mandauit, quam 
+      <lb ed="#S" n="106"/>si per obliuionem venialem nec soluissets solui 
+       man<lb ed="#S" break="no" n="107"/>dasset. quarto nocet si quod potuit soluere in vita, vel cito 
+      <lb ed="#S" n="108"/>post mortem mandauit solui tardius. Vnde meliusfaciunt 
+      <lb ed="#S" n="109"/>qui in vita soluunt testamentum suum, vel antequam bona ad 
+      <lb ed="#S" n="110"/>haeredes perueniant: quia modicum in vita suffragij plus 
+       va<lb ed="#S" break="no" n="111"/>let quam multa post mortem, postquam quanto citius tanto 
+      <lb ed="#S" n="112"/>melius. quinto, nocet sola negligentia procuratoris ad 
+      <lb ed="#S" n="113"/>hoc vt diutius ibi moretur: quia nec ex opere operato 
+      <lb ed="#S" n="114"/>quod non est: nec ex opere operante executorum liberatur: 
+      <lb ed="#S" n="115"/>sicut dominus potest excommunicari iuste quando citatus 
+       mi<lb ed="#S" break="no" n="116"/>sit procuratorem qui non comparuit, cum sit 
+       contuma<lb ed="#S" break="no" n="117"/>cia vera vel praesumpta ex quo citatus nec per se nec per 
+      <lb ed="#S" n="118"/>alium comparuit. sed quando procurator diem accepit &amp; ipse 
+      <lb ed="#S" n="119"/>citatus est &amp; non dominus licet nomine domini: propter 
+      <lb ed="#S" n="120"/>eius contumaciam dominus excommunicari non debet, cum non sit 
+       con<lb ed="#S" break="no" n="121"/>tumax ipse qui citatus non est, licet fuerit negligens 
+       eli<lb ed="#S" break="no" n="122"/>gendo talem: quia pro negligentia siue contumacia non 
+      <lb ed="#S" n="123"/>debet quis excommunicari: sed iste mortuus est obligatus per se: 
+      <lb ed="#S" n="124"/>vnde si non soluat per se vel per alium detinebitur 
+       quo<lb ed="#S" break="no" n="125"/>usque soluerit perseipsum.
+    </p>
+            <p xml:id="khj78y-r55278-d1e605" n="12">
+      <!-- 12 -->Quantum ad secudum 
+       qui<lb ed="#S" break="no" n="126"/>bus prosint, sunt etiam quinque conclusiones. Prima, quod 
+      <lb ed="#S" n="127"/>suffragia non prosunt illis qui fuerunt, sunt, vel erunt in 
+      <lb ed="#S" n="128"/>limbo puerorum: quia non sunt in statu sicut nec 
+       dam<lb ed="#S" break="no" n="129"/>nati: vnde nec passio Christi illis profuit.
+    </p>
+            <p xml:id="khj78y-r55278-d1e619" n="13">
+      <!-- 13 -->secuda 
+      <lb ed="#S" n="130"/>conclusio, quod non proderant ante mortem Christi illis qui 
+      <lb ed="#S" n="131"/>erant in limbo patrum, nec ad merendum: quia nullus 
+       mor<lb ed="#S" break="no" n="132"/>tuus est in statu merendi sicut nec angelus, nec ad satista 
+      <lb ed="#S" n="133"/>ciendum: quia non habebant satisfacere nisi pro debito 
+      <lb ed="#S" n="134"/>naturae quod solus Christus potuit soluere.
+    </p>
+            <p xml:id="khj78y-r55278-d1e635" n="14">
+      <!-- 14 -->Tertia 
+      <!--0485.xml-->
+      <pb ed="#S" n="485"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>conclusio est, quod non prosunt illis qui sunt in coelo per mo 
+      <lb ed="#S" n="2"/>dum indigentiae quo ad praemium essentiale. Vnde de cele. 
+      <lb ed="#S" n="3"/>mis. Cum Marthae: dicitur mutata secreta Leonis papae in 
+      <lb ed="#S" n="4"/>qua dicebatur, animae Leonis haec prosit oblatio, &amp; 
+       dici<lb ed="#S" break="no" n="5"/>tur vt intercessionem Leonis haec nobis prosit oblatio: quia 
+      <lb ed="#S" n="6"/>iniuriam facit maryri qui orat pro marture: prodest 
+       ta<lb ed="#S" break="no" n="7"/>men eis ad gaudium accidentale: quia gaudium est in coelis 
+      <lb ed="#S" n="8"/>super vno peccatore. &amp;c. Crescit autem, quia de pluribus 
+      <lb ed="#S" n="9"/>sed non maius: vnde si certum est aliquem esse in coelo, 
+      <lb ed="#S" n="10"/>infidelitas est orare pro eo.
+    </p>
+            <p xml:id="khj78y-r55278-d1e668" n="15">
+      <!--15-->Potest autem esse certum 
+      <lb ed="#S" n="11"/>primo per Biblia vt de quibus scriptum est, sicut de 
+       apo<lb ed="#S" break="no" n="12"/>stolis praeter filium perditionis: &amp; de patribus veteris 
+       te<lb ed="#S" break="no" n="13"/>stamenti. Vnde male dixit qui dicebat quod nolebat esse vbi 
+      <lb ed="#S" n="14"/>est Petrus: quia vbi credebat esse Petrum non debet haesi 
+      <lb ed="#S" n="15"/>tare Christianus. secundo, quia pro fide sustinuit 
+       mar<lb ed="#S" break="no" n="16"/>tyrium licet ante peccauerit vt Cyprianus: quia falce 
+      <lb ed="#S" n="17"/>martyrij omnia creduntur purgata. Tertio, si post 
+       ba<lb ed="#S" break="no" n="18"/>ptismum statim decedebat paruulus, &amp; tunc si missa 
+       di<lb ed="#S" break="no" n="19"/>catur debet esse oratio pro omnibus defunctis, vel pro 
+      <lb ed="#S" n="20"/>Iliis non pro illo. Nam si maior infante orari potest, 
+      <lb ed="#S" n="21"/>Eum etiam quarto dialog. dicat Gregorius damnatum 
+      <lb ed="#S" n="22"/>puerum nec dum quinquemnem. si etiam adultus statim 
+      <lb ed="#S" n="23"/>moritur post Baptisinum orari potest: quia forte non 
+       poe<lb ed="#S" break="no" n="24"/>nituit nisi de mortalibus &amp; sic pro venialibus indiget 
+      <lb ed="#S" n="25"/>suffragiis. Quarto si est canonizatus: quia sacrilegij 
+       in<lb ed="#S" break="no" n="26"/>star est dubitare vtrum dignus sit quem elegerit 
+       Impe<lb ed="#S" break="no" n="27"/>rator: licet enim ecclesia erretiudicando hunc esse 
+       vi<lb ed="#S" break="no" n="28"/>rum &amp; illam vxorem: non tamen propter hoc in 
+       sacra<lb ed="#S" break="no" n="29"/>mento matrimonij. sed hic cum cultus religionis sit pro 
+      <lb ed="#S" n="30"/>fessio quaedam fidei nostrae, si ecclesia erraret 
+       canoni<lb ed="#S" break="no" n="31"/>zando sanctum quem indicit colendum vniue rsaliter 
+       ec<lb ed="#S" break="no" n="32"/>clesiae, videretur error in contingentibus fidem. ideo. &amp;c. 
+      <lb ed="#S" n="33"/>Quod autem dicitur multorum corpora venerantur in 
+      <lb ed="#S" n="34"/>terris quorum animae sunt in inferno: de non 
+       canoni<lb ed="#S" break="no" n="35"/>zatis intelligitur, sicut de latrone beati Martini: sed in 
+      <lb ed="#S" n="36"/>priuato licet venerari nondum canonizatum. 
+    </p>
+            <p xml:id="khj78y-r55278-d1e729" n="16">
+               <lb ed="#S" n="37"/>
+               <!-- 16 -->Quarta couclusio est, quod suffragia nullo modo pro 
+      <lb ed="#S" n="38"/>sunt illis qui sunt in inferno damnatorum, quia in 
+       in<lb ed="#S" break="no" n="39"/>ferno nulla estredemptio. Vnde de quibus est certum 
+      <lb ed="#S" n="40"/>non est orandum sicut nec pro daemonibus. Reputatur 
+      <lb ed="#S" n="41"/>autem certum de haereticis &amp; paganis. Exemplum in 
+      <lb ed="#S" n="42"/>Luca de fratribus orantibus ad sepulchrum poetae quod 
+      <lb ed="#S" n="43"/>scirent meliorem &amp; peiorem versum quem ille vnquam 
+      <lb ed="#S" n="44"/>fecisset: &amp; audita est vox primo de peiore, Omne iuuans 
+      <lb ed="#S" n="45"/>statuit Iuppiter esse piu. secundo de meliore. Est virtus 
+      <lb ed="#S" n="46"/>placitis abstinuisse bonis. Cum autem pro ipso Cuidio 
+      <lb ed="#S" n="47"/>vellent orare: auditus est tertius versus, Nolo Pater 
+       no<lb ed="#S" break="no" n="48"/>ster, carpe viator iter: quasi dicat damnato mihi non pro 
+      <lb ed="#S" n="49"/>desset. Vnde Gregorius punitus est pro Traiano: 
+       secun<lb ed="#S" break="no" n="50"/>do, de Iudaeis: vnde transiens per coemeterium corum 
+      <lb ed="#S" n="51"/>non debet dicere pro eis Pater noster. Tertio, de Christia 
+      <lb ed="#S" n="52"/>nis non sic potest esse certum. vnde quamuis peccatum 
+      <lb ed="#S" n="53"/>sit manifestum &amp; non poenitentia: potest orari pro eis 
+      <lb ed="#S" n="54"/>in secreto, &amp; debent reddi suffragia siue se occiderint, 
+       si<lb ed="#S" break="no" n="55"/>ue in bello iniusto, duello, vel torneamento mortuus sit 
+      <lb ed="#S" n="56"/>aut cum meretrice. vnde Augustinus pro omnibus 
+       re<lb ed="#S" break="no" n="57"/>generatis debet fieri oratio: sed non publice propter 
+       scan<lb ed="#S" break="no" n="58"/>dalum. Exemplum de monacho proprietario Gregorij. 
+      <lb ed="#S" n="59"/>Et similiter pro suspensis &amp; iuste damnatis: quia etiam 
+      <lb ed="#S" n="60"/>latro in morte poenituit. sed si inueniatur mortuus subi 
+      <lb ed="#S" n="61"/>to qui prius fuit bonae vitae in publico oratio pro eo fie 
+      <lb ed="#S" n="62"/>ri debet: quia iustus si morte praeocupatus fuerit. &amp;c. 
+    </p>
+            <p xml:id="khj78y-r55278-d1e790" n="17">
+               <lb ed="#S" n="63"/>
+               <!-- 17 -->Quinta conclusio est, quod prosint suffragia 
+       omni<lb ed="#S" break="no" n="64"/>bus &amp; solis qui sunt in purgatorio: qui possunt per alios 
+      <lb ed="#S" n="65"/>satistacere: qui non possunt per scipsos, sicut patet per 
+      <lb ed="#S" n="66"/>multa exempla, quarto dialog.
+    </p>
+            <p xml:id="khj78y-r55278-d1e803" n="18">
+      <!-- 18 -->Quantum ad 
+       ter<lb ed="#S" break="no" n="67"/>tium quae scilicet suffragia prosint sunt septem conclu 
+      <!--0485.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>siones. primae quatuor fundantur super decretum 
+       Gre<lb ed="#S" break="no" n="69"/>gorij. Animae defunctorum quatuor soluuntur modis. &amp;c. 
+    </p>
+            <p xml:id="khj78y-r55278-d1e820" n="19">
+               <lb ed="#S" n="70"/>
+               <!-- 19 -->Prima igitur conclusio est, quod animae 
+       defuncto<lb ed="#S" break="no" n="71"/>rum soluuntur precibus sacerdotum. i. missis, quia inter 
+      <lb ed="#S" n="72"/>omnia plus valet sacrificium mediatoris &amp; sanguinis agni 
+      <lb ed="#S" n="73"/>ad educendum de carcere Aegvpti: siue fiat de mortuis 
+       si<lb ed="#S" break="no" n="74"/>ue pro mortuis propter deuotionem &amp; intercessionem, 
+      <lb ed="#S" n="75"/>quia est ibi duplex memento. vnde de cele. missa. cap. 3. 
+      <lb ed="#S" n="76"/>missa de eadem die pro salute viuorum &amp; defunctorum. 
+      <lb ed="#S" n="77"/>Vnde omnis missa vtrisque prodest non solum propter 
+      <lb ed="#S" n="78"/>charitatis vnionem, sicut &amp; caetera bona: sed etiam 
+       pro<lb ed="#S" break="no" n="79"/>pter intentionem quam celebrus missam debet habere ad 
+      <lb ed="#S" n="80"/>vtrosque: sed principaliter ad eos quos vult potest dirigere- 
+    </p>
+            <p xml:id="khj78y-r55278-d1e849" n="20">
+               <lb ed="#S" n="81"/>
+               <!-- 20 -->secunda conclusio est, quod animae defunctorum 
+      <lb ed="#S" n="82"/>soluuntur precibus sanctorum non solum in patria qui 
+      <lb ed="#S" n="83"/>orant pro sociis suis, non sicut pincerna qui 
+       succedenti<lb ed="#S" break="no" n="84"/>bus prosperis oblitus fuit interpretis: sed etiam precibus. 
+      <lb ed="#S" n="85"/>iustorum viatorum &amp; precipue oratione dominica 
+       Pa<lb ed="#S" break="no" n="86"/>ter noster. Nam aduocatus noster, factusest iudex noster 
+      <lb ed="#S" n="87"/>cui esset opprobrium venire contra factum suum, 
+       infrin<lb ed="#S" break="no" n="88"/>gere vel cassare libellum quem formauit &amp; edidit: 
+       vn<lb ed="#S" break="no" n="89"/>de in coemeterio debet dici. Item psalterium quod est 
+      <lb ed="#S" n="90"/>oratio etiam spiritussancti qui postulat pro nobis 
+       gemi<lb ed="#S" break="no" n="91"/>tibus inenarrabilibus. Vnde nec orationes Anselmi: nec 
+      <lb ed="#S" n="92"/>quaecunque aliae sunt ita deuotae. Tertio, vigiliae ab 
+       ec<lb ed="#S" break="no" n="93"/>clesia institutae, sicut plus valet aqua per eam benedicta 
+      <lb ed="#S" n="94"/>quam aliter.
+    </p>
+            <p xml:id="khj78y-r55278-d1e884" n="21">
+      <!-- 21 -->Tertia conclusio est, quod animae de 
+      <lb ed="#S" n="95"/>functorum soluuntur elcemosynis charorum: quia 
+       elee<lb ed="#S" break="no" n="96"/>mosyna a morte liberat, &amp; facit inuenire vitam aeternam 
+      <lb ed="#S" n="97"/>quia etiam includit orationem &amp; iciunium ad quae tenetur 
+      <lb ed="#S" n="98"/>eleemosynam recipiens. Exemplum in vitis patrum quem 
+      <lb ed="#S" n="99"/>sine intermissione orat eleemosynarius magis quam 
+       ana<lb ed="#S" break="no" n="100"/>chorita. &amp;c.
+    </p>
+            <p xml:id="khj78y-r55278-d1e902" n="22">
+      <!-- 22 -->Quarta conclusio est, quod animae de 
+      <lb ed="#S" n="101"/>functorum soluuntur ieiuniis, &amp; quibuscunque 
+       afflictio<lb ed="#S" break="no" n="102"/>nibus corporalibus: sicut beatus dominicus cathena vnam 
+      <lb ed="#S" n="103"/>disciplinam accipiebat pro illis qui sunt in purgatorio. 
+    </p>
+            <p xml:id="khj78y-r55278-d1e913" n="23">
+               <lb ed="#S" n="104"/>
+               <!-- 23 -->Quinta conclusio est, quod animae defunctorum 
+       li<lb ed="#S" break="no" n="105"/>berantur indulgentiis praelatorum. sic enim praelatus 
+      <lb ed="#S" n="106"/>potest dispensare thesaurum ecclesiae, sicut priuatus 
+       bo<lb ed="#S" break="no" n="107"/>na propria: vnde sicut bona mea possum 
+       communica<lb ed="#S" break="no" n="108"/>re indiferenter viuo &amp; mortuo, sic praelatus merita 
+      <lb ed="#S" n="109"/>sanctorum &amp; supererogationes eorum: dum tamen 
+       il<lb ed="#S" break="no" n="110"/>lud pro quo mortuo datur fiat a viuo.
+    </p>
+            <p xml:id="khj78y-r55278-d1e933" n="24">
+      <!-- 24 -->sexta 
+       con<lb ed="#S" break="no" n="111"/>clusio est, quod sepultura prodest viuis &amp; defunctis. 
+      <lb ed="#S" n="112"/>Tumulatio enim funeris &amp; pompa exequiarum 
+       pro<lb ed="#S" break="no" n="113"/>dest viuis tripliciter. Primo, ne offendantur visu vel 
+      <lb ed="#S" n="114"/>olfactu cadauerum. secundo, ad fidem 
+       resurrectio<lb ed="#S" break="no" n="115"/>nis astruendam: propter quod non sunt aues 
+       tumu<lb ed="#S" break="no" n="116"/>landae, sed proiiciendae, nisi propter vitandum 
+       foeto<lb ed="#S" break="no" n="117"/>rem terra cooperiantur, sic &amp; omnia cadauera possent 
+      <lb ed="#S" n="118"/>sepeliri etiam iumentorum: quod tamen non palam 
+      <lb ed="#S" n="119"/>propter scandalum faciendum est. Et quia omnes 
+       homi<lb ed="#S" break="no" n="120"/>nes etiam mali ad resurrectionem pertinent: omnes 
+       se<lb ed="#S" break="no" n="121"/>peliendi sunt, cum hoc sit officium humanitatis &amp; 
+       pie<lb ed="#S" break="no" n="122"/>tatis quod omni homini est exhibendum. Vnde 
+       ex<lb ed="#S" break="no" n="123"/>communicati &amp; quicunque quibus sepultura est 
+       in<lb ed="#S" break="no" n="124"/>terdicta, non minus sunt sepeliendi quam Iudaei vel 
+      <lb ed="#S" n="125"/>pagani: &amp; sic esset aliquod coemeterium pro talibus 
+      <lb ed="#S" n="126"/>non esset prohibendum magis quam coemeterium 
+       Iu<lb ed="#S" break="no" n="127"/>daeorum. si enim excommunicato est in necessitate 
+      <lb ed="#S" n="128"/>eleemosyna facienda, in extrema necessitate sepulturae 
+      <lb ed="#S" n="129"/>eleemosyna non est neganda: sed solum terra 
+       bene<lb ed="#S" break="no" n="130"/>dicta, oblatio &amp; similia. Tertio, prodest ad solatium. 
+      <lb ed="#S" n="131"/>Mortuo vero prodest inquantum de cera, oleo, 
+       obla<lb ed="#S" break="no" n="132"/>tionibus, &amp; sericis cedit in honorem Dei &amp; vtilitatem 
+      <lb ed="#S" n="133"/>pauperum vel ministrorum: vt si de panno serico fiat 
+      <lb ed="#S" n="134"/>altaris paramentum, vel ecclesiae ornamentum vel in 
+      <!--0486.xml-->
+      <pb ed="#S" n="486"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>pecuniam redactum detur pauperibus. Quod autem equus 
+      <lb ed="#S" n="2"/>phaleratus, homo ornatus ad ostentationem &amp; pompam 
+      <lb ed="#S" n="3"/>solum offeratur nec redimatur nec largiatur, mendacium 
+      <lb ed="#S" n="4"/>est &amp; non prodest.
+    </p>
+            <p xml:id="khj78y-r55278-d1e1006" n="25">
+      <!-- 25 -->septima conclusio est, de loco 
+      <lb ed="#S" n="5"/>sepulturae: quia locus etiam prodest vt vel sanctus magis 
+      <lb ed="#S" n="6"/>oret vel illi de loco. Vnde patres nolebant sepeliri cum 
+      <lb ed="#S" n="7"/>Christo vt resurgerent cum Christo.
+    </p>
+            <p xml:id="khj78y-r55278-d1e1017" n="26">
+      <!-- 26 -->Ad 
+       argumen<lb ed="#S" break="no" n="8"/>tum in oppositum est dicendum, quod non est simile de malis 
+      <lb ed="#S" n="9"/>viuorum &amp; de bonis: quia auferre alicui quod sibi debetur 
+      <lb ed="#S" n="10"/>repugnat iustitiae, sed dare alicui quod sibi non debetur 
+      <lb ed="#S" n="11"/>non est iustitiae contrarium, sed est liberalitatis: &amp; virtus non 
+      <lb ed="#S" n="12"/>contrariatur virtuti: &amp; ideo si quis puniretur pro 
+       pecca<lb ed="#S" break="no" n="13"/>to alterius nolens auferetur sibi aliquid debitum, cum pu 
+      <lb ed="#S" n="14"/>nitio sit ablatio alicuius conuenientis: &amp; sic esset iniustum: 
+      <lb ed="#S" n="15"/>sed quando confertur ei aliquid, ex facto alterius fit ei 
+      <lb ed="#S" n="16"/>gratia: propter quod primum non est apud Deum qui 
+       ni<lb ed="#S" break="no" n="17"/>hil iuiuste agit, sed secundum in quantum gratiose acceptat 
+      <lb ed="#S" n="18"/>orationem viui pro mortuo vel satistactionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

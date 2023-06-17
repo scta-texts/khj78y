@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="196"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q55481"><!-- l4d16-q3 -->
+            <head xml:id="khj78y-q55481-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-q55481-Hd1e103" type="question-title">
+     de circunstantiis, an sint confitendae
+   </head>
+            <p xml:id="khj78y-q55481-d1e106">
+               <lb ed="#S" n="42"/>QUAESTIO TERTIA. 
+      <lb ed="#S" n="43"/>De circunstantiis confessionis. 
+    </p>
+            <p xml:id="khj78y-q55481-d1e113">
+               <lb ed="#S" n="44"/>Thom. 4. d. 16. q. 3. art. 2. 
+    </p>
+            <p xml:id="khj78y-q55481-d1e118">
+               <lb ed="#S" n="45"/>TERTIO Quaeritur de circunstantiis, 
+      <lb ed="#S" n="46"/>an sint confitendae? Et videtur quod sic: quia 
+      <lb ed="#S" n="47"/>cum confessio sit ad sc endum grauitatem pec 
+      <lb ed="#S" n="48"/>cati: vt secundum quantitatem delicti sit pla 
+      <lb ed="#S" n="49"/>garum modus: cum circumstantia aggrauet il 
+      <lb ed="#S" n="50"/>lam, dici oportet.
+    </p>
+            <p xml:id="khj78y-q55481-d1e135" n="2">
+      <!-- 2 -->CONTRA, quia in 
+       confes<lb ed="#S" break="no" n="51"/>sione homo non debet alium prodere, sed tantum se: quia 
+      <lb ed="#S" n="52"/>iustus in principio sui sermonis accusator est sui: 
+       frequen<lb ed="#S" break="no" n="53"/>ter autem etiam quod si vellet circunstantiam dicere alium 
+       diffa<lb ed="#S" break="no" n="54"/>maret. ergo saltem tunc debet subticere.
+    </p>
+            <p xml:id="khj78y-q55481-d1e148" n="3">
+      <!-- 3 -->
+       RE<lb ed="#S" break="no" n="55"/>SPONDEO, circa istam quaestionem. Primo videndum 
+      <lb ed="#S" n="56"/>est de circumstantiis, quantum ad numerum. secundo quantum 
+      <lb ed="#S" n="57"/>ad effestum. Tertio quantum ad confessionem.
+    </p>
+            <p xml:id="khj78y-q55481-d1e159" n="4">
+      <!-- 4 -->
+       QVAN<lb ed="#S" break="no" n="58"/>TVM ad primum, dicendum, quod numerus circunstantiarum 
+      <lb ed="#S" n="59"/>consueuit his versibus denotari. 
+      <lb ed="#S" n="60"/>Quis, quid, vbi, per quos, quotiens, cur, quo, quando. 
+      <lb ed="#S" n="61"/>Quilibet haec seruet morbi medicamina dando. 
+      <lb ed="#S" n="62"/>Vel secundum Bonauenturam. Aggrauat ordo, locus, 
+       perso<lb ed="#S" break="no" n="63"/>na, scientia tempus. Aetas, conditio, numerui, mora, copia, 
+      <!--0196.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>causa. Est modus in culpa, status altus, lucta pusilla. sed 
+      <lb ed="#S" n="65"/>quis dicitur pro variatione personae, status, aetatis, sapien 
+      <lb ed="#S" n="66"/>tiae, ordinis. Quanto enim altior est gradus, tanto 
+       peri<lb ed="#S" break="no" n="67"/>culosior est casus, &amp; ingratitudo maior. Quid, vtrum ma 
+      <lb ed="#S" n="68"/>lum: quia pruhibitum, vel ex genere suo malum, mortale vel 
+      <lb ed="#S" n="69"/>veniale. Vbi, vtrum in loco sacro: quod grauius est, quam in 
+      <lb ed="#S" n="70"/>non sacro. Per quos. salios trahendo ad peccatum: quod est 
+      <lb ed="#S" n="71"/>proprium Diaboli. Quotiens, si in consuetudine, &amp; de nu 
+      <lb ed="#S" n="72"/>mero actus. Cur, an ex infirmitate, ignorantia, vel 
+       electio<lb ed="#S" break="no" n="73"/>ne. Quomodo, vtrum naturali modo, vel non naturali. Quando, 
+      <lb ed="#S" n="74"/>si in festo, vel ieiunio solemni.
+    </p>
+            <p xml:id="khj78y-q55481-d1e205" n="5">
+      <!-- 5 -->sciendum, quod in actu 
+      <lb ed="#S" n="75"/>ipso essentialiter est peccatum. vnde non potest vnum pec 
+      <lb ed="#S" n="76"/>catum esse in pluribus actibus.
+    </p>
+            <p xml:id="khj78y-q55481-d1e214" n="6">
+      <!-- 6 -->QVANTVM 
+      <lb ed="#S" n="77"/>ad secundum de effectu circumstantiarum sciendum, quod 
+       circun<lb ed="#S" break="no" n="78"/>stantiae sunt in quintuplici genere. Primae, nec alleuiant, 
+      <lb ed="#S" n="79"/>nec aggrauant: sicut ille, quae non important aliquam con 
+      <lb ed="#S" n="80"/>uenientiam, nec disconuenientiam ad rationem, nec ex se, nec 
+      <lb ed="#S" n="81"/>ex suppositione, sicut furari cum dextera, vel cum sinistra. 
+      <lb ed="#S" n="82"/>secundae alleuiant, sicut illae, quae importantconuenien 
+      <lb ed="#S" n="83"/>tiam, vt facere malum bona intentione, vel ex ignorantia. 
+      <lb ed="#S" n="84"/>Tertiae aggrauant, sed non mutant: sicut ille, quae impor 
+      <lb ed="#S" n="85"/>tant disconuenientiam ex suppositione, vt furari multum. 
+      <lb ed="#S" n="86"/>Quartae grauant, &amp; mutant, non in infinitum, vt quando 
+       vtrun<lb ed="#S" break="no" n="87"/>que est veniale, vel vtrunque mortale, vel primum mortale, se 
+      <lb ed="#S" n="88"/>cundum veniale: vt in speciebus gulae, quarum vna 
+       adue<lb ed="#S" break="no" n="89"/>nit alij, &amp; qfiq, sunt mortales, quandoque veniales. Qui te 
+       mu<lb ed="#S" break="no" n="90"/>tant, &amp; grauam in infinitum: vt quando actui veniali: puta lau 
+      <lb ed="#S" n="91"/>tae, &amp; studiosae praeparationi addatur ebrietas, vel notabi 
+      <lb ed="#S" n="92"/>lis anticipatio horae in ieiunio sine causa
+    </p>
+            <p xml:id="khj78y-q55481-d1e253" n="7">
+      <!-- 7 -->sed 
+      <lb ed="#S" n="93"/>vtrum religioso sit mortale, quod alteri est veniale: 
+    </p>
+            <p xml:id="khj78y-q55481-d1e261" n="8">
+               <lb ed="#S" n="94"/>
+               <!-- 8 -->Dicendum quod non, vt puta verbum ociosum, vel hu 
+      <lb ed="#S" n="95"/>iusmodi: nisi speciem mutaret: quia nubere, vel velle nube 
+      <lb ed="#S" n="96"/>re, quod seculari non est peccatum, si propter prolem, vel 
+      <lb ed="#S" n="97"/>veniale, si propter voluptatem, est mortale professo, vel or 
+      <lb ed="#S" n="98"/>dinato in sacramentis: quia sacrilegium est: non autem motus 
+       pri<lb ed="#S" break="no" n="99"/>mi luxuriae, furti, vel inobedientiae: quia nullus vouet se non 
+      <lb ed="#S" n="100"/>habiturum primos motus, qui non sunt in potestate nostra. 
+      <lb ed="#S" n="101"/>Vtrum autem sint plura peccata circumstantia, &amp; subiecta? 
+      <lb ed="#S" n="102"/>Dicunt quidam, quod sic, quando sic sunt disparata, quod non faciunt 
+      <lb ed="#S" n="103"/>vnum, vt genus, &amp; differentia: pro quibus est: quia aliter non 
+      <lb ed="#S" n="104"/>essent circunstantiae de necessitate confessionis- 
+    </p>
+            <p xml:id="khj78y-q55481-d1e290" n="9">
+               <lb ed="#S" n="105"/>
+               <!-- 9 -->sed quia actus exteriores non habent rationem 
+       pec<lb ed="#S" break="no" n="106"/>cati, nisi ex interiori: videt, quod sint vnum peccatum semper: 
+      <lb ed="#S" n="107"/>quando est vnus consensus: vt si quis vno solo actu consentiat 
+      <lb ed="#S" n="108"/>furari propter moechari: non sunt duo peccata: etiam si actus 
+      <lb ed="#S" n="109"/>exteriores sint diuersi. si autem econuerso actus exterior sit 
+      <lb ed="#S" n="110"/>vnus: vt furari, vel fornicari, &amp; sacrilegium: dum tamen alio 
+      <lb ed="#S" n="111"/>actu velit vnum, quam alium: essent duo peccata, aliter vnum. 
+      <lb ed="#S" n="112"/>Est autem circa hoc communis opinio, quod etiam si est vnus 
+      <lb ed="#S" n="113"/>actus interior, ex qao sunt plures deformitates speciei, 
+      <lb ed="#S" n="114"/>quod sunt diuersa peccata: quia peccatum nihil est. ergo 
+       secun<lb ed="#S" break="no" n="115"/>dum priuationem ipsam multiplicatur.
+    </p>
+            <p xml:id="khj78y-q55481-d1e319" n="10">
+      <!-- 10 -->sed 
+       con<lb ed="#S" break="no" n="116"/>tra hoc est, quia actus est de essentia peccati commisiionis: 
+      <lb ed="#S" n="117"/>Primo, quia aliter non differet a peccato omissionis. secun 
+      <lb ed="#S" n="118"/>do, quia diffiniturper actum. Tertio, quia de ipso 
+       praedi<lb ed="#S" break="no" n="119"/>catur in abstracto, &amp; in rector&amp; sic essentia peccati 
+       com<lb ed="#S" break="no" n="120"/>missionis non est sola priuatio: imo actus subtractus. 
+      <lb ed="#S" n="121"/>Nam dicitur dictum, vel factum, vel concupitum contra legem 
+      <lb ed="#S" n="122"/>Dei, &amp; conuersio ad bonum commutabile, &amp; auersio a bono 
+      <lb ed="#S" n="123"/>incommutabili. Vnde licet auersio, &amp; priuatio fit formale 
+      <lb ed="#S" n="124"/>in peccato: non est tamen totale peccatum: sed est ibi 
+       materia<lb ed="#S" break="no" n="125"/>le aliquid positum. sicut ergo non essent duo homines, si 
+      <lb ed="#S" n="126"/>haberent duas aminas, &amp; non haberent nisi vnum 
+       cor<lb ed="#S" break="no" n="127"/>pus: quia est pars essentiae, licet materialis: ita nisi sint 
+       plu<lb ed="#S" break="no" n="128"/>res actus: quamuis sint plures deformitates, non erunt plu 
+      <lb ed="#S" n="129"/>ra peccata, vt videtur.
+    </p>
+            <p xml:id="khj78y-q55481-d1e354" n="11">
+      <!-- 11 -->Item si ipsa conuersio, 
+      <lb ed="#S" n="130"/>&amp; factum ipsum non esset peccatum, nec pari peccati. ergo 
+      <!--0197.xml-->
+      <pb ed="#S" n="197"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>non oportet confiteri: nec posset de peccato in 
+       abstra<lb ed="#S" n="2" break="no"/>cto praedicari: cum tamen dicatur, quod furtum est contrectatio 
+      <lb ed="#S" n="3"/>&amp; tornicatio est concubitus, &amp; huiusmodi.
+    </p>
+            <p xml:id="khj78y-q55481-d1e374" n="12">
+      <!-- 12 -->sed pos 
+      <lb ed="#S" n="4"/>let dici, quod priuatio eit tota essentia peccati non lolu in 
+      <lb ed="#S" n="5"/>peccato omissionis: quod est priuatio actus debiti: imo 
+      <lb ed="#S" n="6"/>etiam in peccato commissionis: quod est priuatio debitae 
+      <lb ed="#S" n="7"/>circunstantiae. quia idem non est de essentia duorum 
+       con<lb ed="#S" break="no" n="8"/>trariorum: licet possit esse materia, in qua respectu 
+       vtrius<lb ed="#S" break="no" n="9"/>que. Vnde cum actus secundum speciem naturae indifferen 
+      <lb ed="#S" n="10"/>ter subiiciatur bonitati, &amp; malitiae morali: quae sunt con 
+      <lb ed="#S" n="11"/>traria: videtur, quod non intret essentiamalicuius: sicut nec 
+       su<lb ed="#S" break="no" n="12"/>perficies est de essentia albedinis, aut nigredinis. Et quam 
+      <lb ed="#S" n="13"/>do diffinitur peccatum per actum: est diffinitio per 
+       addita<lb ed="#S" break="no" n="14"/>mentum, sicut quando diffinituraccidens per subiectum. 
+    </p>
+            <p xml:id="khj78y-q55481-d1e403" n="13">
+               <lb ed="#S" n="15"/>
+               <!-- 13 -->Ad id, quod dicitur contra dicendum, quod differunt in 
+      <lb ed="#S" n="16"/>habere actum, &amp; non habere, sicut subiectum, non sicut 
+       par<lb ed="#S" break="no" n="17"/>tem essentiae.
+    </p>
+            <p xml:id="khj78y-q55481-d1e415" n="14">
+      <!-- 14 -->Ad secundum dicendum, quod est diffi 
+      <lb ed="#S" n="18"/>nitio peradditamentum.
+    </p>
+            <p xml:id="khj78y-q55481-d1e422" n="15">
+      <!-- 15 -->Ad tertium dicendum, 
+      <lb ed="#S" n="19"/>quod sicut cum dicitur, archa est lignum: ipsa accipitur in 
+       concre<lb ed="#S" break="no" n="20"/>to: sic quando dicitur peccatum  est dictum, vel factum &amp;c. hoc autem 
+      <lb ed="#S" n="21"/>est, quando vna circumstantia non est alterius determinatiua: vt 
+      <lb ed="#S" n="22"/>differentia: alias secus est. ergo fornicatio, &amp; adulterium 
+      <lb ed="#S" n="23"/>vident vna species, non duae. Et similiter incestus: quia 
+      <lb ed="#S" n="24"/>fornicatio est genus ad ista. Non tamen sequitur quin ista 
+      <lb ed="#S" n="25"/>circumstantia sit dicenda: quia licet non sit alia species: tamen est 
+      <lb ed="#S" n="26"/>species. si quis autem confitet genus, &amp; non speciem: puta si 
+      <lb ed="#S" n="27"/>quis diceret, ego nimis comedi: &amp; non diceret in ieiuniis 
+      <lb ed="#S" n="28"/>in frangendo ieiunium, non sufficeret: ita &amp; hic non sufficit 
+      <lb ed="#S" n="29"/>dicere: ego cognoui mulierem, nisi specificetur. 
+    </p>
+            <p xml:id="khj78y-q55481-d1e451" n="16">
+               <lb ed="#S" n="30"/>
+               <!-- 16 -->Aliis autem videi, quod est duplex peccatum: sicut in sa 
+      <lb ed="#S" n="31"/>crilegio: quia sicut potest fieri irreuerentia loco sacro sine 
+      <lb ed="#S" n="32"/>homicidio: quod sufficit ad rationem sacrilegij: &amp; 
+       econuer<lb ed="#S" break="no" n="33"/>so potest fieri homicidium in loco non sacro: inde est, quod ho 
+      <lb ed="#S" n="34"/>micidium factum in loco sacro est duplex delictum, &amp; non 
+       v<lb ed="#S" break="no" n="35"/>num, ita vt hic: quia iniuria, vel irreuerentia ad 
+       matrimo<lb ed="#S" break="no" n="36"/>nium suum, vel alienum, vel vtrumque :quam importat 
+       adulte<lb ed="#S" break="no" n="37"/>rium super fornicationem potest inueniri sine alia, &amp; econ- 
+    </p>
+            <p xml:id="khj78y-q55481-d1e473">
+               <lb ed="#S" n="38"/>terso: sicut si de facto contraheret cum tali, &amp; matrimonium 
+      <lb ed="#S" n="39"/>non consummaret: &amp; fornicatio simplex inuenit praeter 
+      <lb ed="#S" n="40"/>alias species. ergo non est genus eorum: quia nihil est in 
+      <lb ed="#S" n="41"/>genere, quod non sit in aliqua specie eius: nisi dicatur, 
+      <lb ed="#S" n="42"/>quod fornicatio est genus ad omnem illicitum concubitum: 
+      <lb ed="#S" n="43"/>sed fornicatio simplex dicit vnam speciem, aliae aliam. 
+    </p>
+            <p xml:id="khj78y-q55481-d1e489" n="17">
+               <lb ed="#S" n="44"/>
+               <!-- 17 -->QVANTVM ad tertium, vtrum circumstantiae 
+      <lb ed="#S" n="45"/>fint confitendae? sciendum, quod quaedam circumstantiae sunt, quae 
+      <lb ed="#S" n="46"/>nihil faciunt ad peccatum: &amp; istas confiteri est superfluum: 
+      <lb ed="#S" n="47"/>quaedam, quae alleuiant, &amp; istas confiteri est imperfectum: 
+      <lb ed="#S" n="48"/>nisi quis timeret scandalum confessoris: quaedam, quae mu 
+      <lb ed="#S" n="49"/>tant in mortale, &amp; istas confiteri est necessarium: quaedam, quae 
+      <lb ed="#S" n="50"/>aggrauant, &amp; non mutant: &amp; istas confiteri est perfectum: 
+       ni<lb ed="#S" break="no" n="51"/>si propter sui periculum, vel confessoris, vel tertij. Ratio au 
+      <lb ed="#S" n="52"/>tem quare istas non est necessarium confiteri, est ista: quia 
+       cir<lb ed="#S" break="no" n="53"/>cunstantia est confitenda necessario, non quia mutat: vt patet 
+      <lb ed="#S" n="54"/>in veniali: sed quia grauat in infinitum, vt patet in mortali. 
+      <lb ed="#S" n="55"/>sed circunstantia non mutans, nunquam aggrauat in infini 
+      <lb ed="#S" n="56"/>tum: quia intendit poenam, &amp; non extendit. Extentio enim est 
+      <lb ed="#S" n="57"/>infinita, nec potest crescere, sed intensio est finita: &amp; semper 
+      <lb ed="#S" n="58"/>potest crescere: sed per nullam circumstantiam fit infinita. 
+       er<lb ed="#S" break="no" n="59"/>go nulla talis de est necessitate confitenda. I8 Ad ar 
+      <lb ed="#S" n="60"/>gumenta dicendum ad primum, quod si esset necesse secundum 
+      <lb ed="#S" n="61"/>quantitate delicti, temper taxare poena pene argueretur: 
+      <lb ed="#S" n="62"/>non est autem necesse, sed frequenter minus imponit, &amp; lau 
+      <lb ed="#S" n="63"/>dabiliter.
+    </p>
+            <p xml:id="khj78y-q55481-d1e537" n="19">
+      <!-- 19 -->Ad secundum impositum dicendum, quod 
+      <lb ed="#S" n="64"/>circunstantiam mutantem in mortale tenetur dicere. Quia 
+      <lb ed="#S" n="65"/>si non potest dicere sine diffamatione isti sacerdoti, vadat 
+      <lb ed="#S" n="66"/>ad superiorem, vel ab altero petat licentiam eundi ad 
+       ex<lb ed="#S" break="no" n="67"/>traneum. Non autem coipso habet licentiam eundi ad alium, 
+      <!--0197.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>nisi quando sacerdos est in culpa, vel propter 
+       nescien<lb ed="#S" break="no" n="69"/>tiam, vel quia confessiones reuelat. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

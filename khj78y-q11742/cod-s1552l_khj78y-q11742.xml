@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="33"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q11742"><!-- l4d3-q3 -->
+            <head xml:id="khj78y-q11742-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-q11742-Hd1e103" type="question-title">
+     utrum baptismus debeat fieri in aqua
+   </head>
+            <p xml:id="khj78y-q11742-d1e106">
+               <lb ed="#S" n="107"/>QVAESTIO TERTIA. 
+      <lb ed="#S" n="108"/>De materia baptismi.
+    </p>
+            <p xml:id="khj78y-q11742-d1e113">
+               <lb ed="#S" n="109"/>Tho. 3. q. 66. art. 3.4 
+    </p>
+            <p xml:id="khj78y-q11742-d1e118">
+               <lb ed="#S" n="110"/>TERTIO Quaeritur de 
+       mate<lb ed="#S" break="no" n="111"/>ria baptismi: vtrum baptismus 
+      <lb ed="#S" n="112"/>debeat fieri in aqua: Et videtur, 
+      <lb ed="#S" n="113"/>quod non, quia per baptismum 
+       confor<lb ed="#S" break="no" n="114"/>mamur sepulturae Christi: sicut 
+      <lb ed="#S" n="115"/>dicitur Ro. 6. Consepulti enim sum 
+      <lb ed="#S" n="116"/>cum illo per baptismum in mortem, 
+      <lb ed="#S" n="117"/>sed Christus sepultus non fuit in 
+      <lb ed="#S" n="118"/>aqua, sed in terra, ergo baptismus non debet fieri in aqua, 
+      <lb ed="#S" n="119"/>sed interra.
+    </p>
+            <p xml:id="khj78y-q11742-d1e143" n="2">
+      <!--2. -->CONTRA est, quod dicir lo. 3. 
+      <lb ed="#S" n="120"/>Nisi quis renatus fuerit ex equa &amp;c,
+    </p>
+            <p xml:id="khj78y-q11742-d1e150" n="3">
+      <!-- 3 -->
+       RESPON<lb ed="#S" break="no" n="121"/>DEO. Primo, videndum est de materia remota. secundo de 
+      <lb ed="#S" n="122"/>materia propinqᷓ.
+    </p>
+            <p xml:id="khj78y-q11742-d1e159" n="4">
+      <!-- 4 -->De prima dicendum est, quod aqua 
+      <lb ed="#S" n="123"/>clementaris, pura, naturalis, vere, &amp; proprie dicta est materia 
+      <lb ed="#S" n="124"/>remota baptismi: siue sit terrestris, puta, maris, fluminis, 
+      <lb ed="#S" n="125"/>stagni, putei, &amp; fontis, siue sit coelestis, puta pluutalis, siue 
+      <lb ed="#S" n="126"/>resoluta ex nubibus, rore, grandine, glacie, quod pruina, q omnes 
+      <lb ed="#S" n="127"/>sunt verae aquae.
+    </p>
+            <p xml:id="khj78y-q11742-d1e175" n="5">
+      <!-- 5 -->sed contra hoc videt esse, quia 
+      <lb ed="#S" n="128"/>aqua, quae communiter venit in vsum nostru, non videtur 
+      <lb ed="#S" n="129"/>eiusdem speciei cum elementari, quae non est susceptiua sapo 
+      <lb ed="#S" n="130"/>ris, coloris, &amp; hoiusmodi qualitatum secundaru, quae sunt 
+      <!--0034.xml-->
+      <pb ed="#S" n="34"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ipsius mixti.
+    </p>
+            <p xml:id="khj78y-q11742-d1e195" n="6">
+      <!-- 6 -->Dicendum, quod omnis aqua communis 
+      <lb ed="#S" n="2"/>naturalis est idem specie cum clementari. Huiusmodi autem 
+      <lb ed="#S" n="3"/>sapores, puta dulcis, amarus, &amp; sulphureus, &amp; huiusmodi: quos 
+      <lb ed="#S" n="4"/>habent aquae nostrae: non sunt in ipsa aqua: sed in aliquo va- 
+    </p>
+            <p xml:id="khj78y-q11742-d1e206">
+               <lb ed="#S" n="5"/>pore admixto subiectiue, qui realiter diflert ab ea: licet non 
+      <lb ed="#S" n="6"/>percipiamus: sicut athomi, qui sunt in aere. Vnde 
+       philoso<lb ed="#S" break="no" n="7"/>phus dicit de causa salsedinis maris, quod est vapor terreus 
+      <lb ed="#S" n="8"/>admixtus a solis radiis eleuatus: vnde &amp; in profundo 
+       ma<lb ed="#S" break="no" n="9"/>ris non est salsedo, sod vbi superficies non multum distat a 
+      <lb ed="#S" n="10"/>profundo.
+    </p>
+            <p xml:id="khj78y-q11742-d1e223" n="7">
+      <!-- 7 -->Vel dicendum, quod licet elementu non 
+      <lb ed="#S" n="11"/>sit susceptiuum qualitatis secundae abintra, sicut mixtu ex 
+      <lb ed="#S" n="12"/>commixtione qualitatu primarum tamen ab extra potest &amp; act 
+      <lb ed="#S" n="13"/>colorari, &amp; aqua saporari.
+    </p>
+            <p xml:id="khj78y-q11742-d1e234" n="8">
+      <!-- 8 -->si quis autem 
+       conten<lb ed="#S" break="no" n="14"/>dat aquam vsualem esse alterius speciei ab elementari: tum quia 
+      <lb ed="#S" n="15"/>sapit, tum quia nutrit: quod non conuenit alicui simplici 
+       cle<lb ed="#S" break="no" n="16"/>mento: tamen certum est, quod aquis vsualibus dedit Christus 
+      <lb ed="#S" n="17"/>vim regeneratiuam, quando in Iordane non in occcano baptiza 
+      <lb ed="#S" n="18"/>tus est.
+    </p>
+            <p xml:id="khj78y-q11742-d1e250" n="9">
+      <!-- 9 -->Aqua vero artificialis no est conueniens 
+      <lb ed="#S" n="19"/>materia: cum non sit eiusdem speciei con naturali. scilicet aqua 
+       ro<lb ed="#S" break="no" n="20"/>sacea, aqua vitae, ceruisia, &amp; huiusmodi: item sudor, vrina, 
+       tali<lb ed="#S" break="no" n="21"/>ua, &amp; huiusmodi: de quibus expressum est extra de baptismo. 
+      <lb ed="#S" n="22"/>c. Non vt apponeres. sed aqua de latere Christi fuit 
+       ve<lb ed="#S" break="no" n="23"/>ra aqua. Brodium autem si est expressum ex carnibus, vel ex 
+      <lb ed="#S" n="24"/>piscibus non est vera aqua. si autem est aqua impinguata 
+      <lb ed="#S" n="25"/>sic est vera aqua: dum tamen non sit nimis condensata. similiter li 
+      <lb ed="#S" n="26"/>xiuium, tipsana, &amp; balnea sulphurea, pureta etiam ex 
+       sub<lb ed="#S" break="no" n="27"/>stantia pisorqᷓ extracta non videtur aqua: ideo non sunt conue 
+      <lb ed="#S" n="28"/>niens materia. Ex quibus patet, quod qui tenet iciunare in pa 
+      <lb ed="#S" n="29"/>ne, &amp; aqua, oportet eum ab his omnibus abstinere. secun 
+      <lb ed="#S" n="30"/>do videndum est de materia propinqua: vbi primo sciendum 
+      <lb ed="#S" n="31"/>quod baptismus potest fieri per confessionem, sicut beatus 
+       Iaco<lb ed="#S" break="no" n="32"/>bus baptizauit Iosiam: &amp; in multis locis fit secundum  
+       consuetu<lb ed="#S" break="no" n="33"/>dinem: item secundo per aspersionem, sicut apostoli quando tria 
+       mi<lb ed="#S" break="no" n="34"/>lia baptizabunt: tertio per immersionem, vul intinctionem: 
+      <lb ed="#S" n="35"/>sicut sonant authoritates sanctorum. Et quia perfecta 
+       ab<lb ed="#S" break="no" n="36"/>lutio est per immersionem: ideo ille vsus est magis 
+       conue<lb ed="#S" break="no" n="37"/>niens, &amp; est semper seruandus, nisi consuetudo, vel 
+       necessi<lb ed="#S" break="no" n="38"/>tas excuset, quia in his, quae non sunt de substantia alterum 
+      <lb ed="#S" n="39"/>duorum excusat: nam quando mos erat, crimen non erat: vnde 
+      <lb ed="#S" n="40"/>vbi est consuetudo aspergere, vel infundere non tenetur 
+      <lb ed="#S" n="41"/>homo immergere, etiam si non sit necessitas, nec ex parte 
+      <lb ed="#S" n="42"/>materiae, quia satis est de aqua, nec ex parte pueri, quia non 
+      <lb ed="#S" n="43"/>timet de morte, nec ex parte ministri, quia potest mergere, 
+      <lb ed="#S" n="44"/>&amp; eleuare. similiter vbi est consuetudo immergendi non 
+      <lb ed="#S" n="45"/>debet aspergi, nec effundi, sed immergi. si tamen altera 
+      <lb ed="#S" n="46"/>de tribus necessita: ibus patiatur, sufficit aliter 
+       baptiza<lb ed="#S" break="no" n="47"/>re. similiter etiam est de vna, vel trina immersione: in 
+      <lb ed="#S" n="48"/>qua debet homo seruare consuetudinem suae ecclesiae 
+       ma<lb ed="#S" break="no" n="49"/>tricis, non metropolitanae, nec romanae, nisi forte sit exem 
+      <lb ed="#S" n="50"/>ptus, &amp; secundum  ordinarium in sua synodo correctum contra quod 
+      <lb ed="#S" n="51"/>tamen in necessitate facere potest, imo dlebet, quia forma Christi 
+      <lb ed="#S" n="52"/>est tenenda, vbi mora est periculum allatura. Nec ecclesia 
+      <lb ed="#S" n="53"/>in necessitate vult laqueum damnationis iniicere. Vnde si 
+      <lb ed="#S" n="54"/>presbyter, vbi est consuetudo ter immergendi videt puerum 
+      <lb ed="#S" n="55"/>morientem, nec posse expectare trinam immersionem, debet 
+      <lb ed="#S" n="56"/>primam, &amp; solam facere cum intentione baptizandi. Alias si secum 
+      <lb ed="#S" n="57"/>dam faciat tum intentione ad tertiam, &amp; puer interim moria 
+      <lb ed="#S" n="58"/>tur, &amp; puer damnatur, &amp; ille reus est eius damnationis, &amp; 
+       ir<lb ed="#S" break="no" n="59"/>regularis efficitur. si autem videt eum, nec semel sine morte 
+      <lb ed="#S" n="60"/>posse immergi, debet eum aspergere. Et si per hoc moreret, 
+      <lb ed="#S" n="61"/>dum tamen aliter haptizari non possit, non est irregularis. 
+    </p>
+            <p xml:id="khj78y-q11742-d1e348" n="10">
+               <lb ed="#S" n="62"/>
+               <!-- 10 -->Ad argumentum in contrarium dicendum est, quod 
+       re<lb ed="#S" break="no" n="63"/>presentatio sepulturae Christi non est de necessitate 
+       sacra<lb ed="#S" break="no" n="64"/>menti: sed solum de congruitate: sicut res extrinseca. 
+       signi<lb ed="#S" break="no" n="65"/>ficatio autem sacramentorum per se respicit contentum, cui in 
+      <lb ed="#S" n="66"/>baptismo respondet magis aqua, quam terra, quia est ablutiua, 
+      <lb ed="#S" n="67"/>quod refrigeratiua: baptismus autem ordinatur ad ablutio- 
+      <!--0034.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>nem peccati originalis, &amp; refrigerationem fomitis. 
+    </p>
+            <p xml:id="khj78y-q11742-d1e372" n="10">
+               <lb ed="#S" n="69"/>
+               <!-- 10 -->Quod alij suscipiunt sacramentum, &amp; rem. Alij 
+       sa<lb ed="#S" break="no" n="70"/>cramentum, &amp; non rem. Alij rem, &amp; non sacramentum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

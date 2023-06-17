@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="240"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q71215"><!-- l4d18-q6 -->
+            <head xml:id="khj78y-q71215-Hd1e101">Quaestio 6</head>
+            <head xml:id="khj78y-q71215-Hd1e103" type="question-title">
+     utrum minor 
+     excommunicatio, repellat a sacramentis
+   </head>
+            <p xml:id="khj78y-q71215-d1e106" n="30">
+               <lb ed="#S" n="114"/>QVAESTIO SEXTA. 
+      <lb ed="#S" n="115"/>De participatione cum excommunicatis. 
+    </p>
+            <p xml:id="khj78y-q71215-d1e113">
+               <lb ed="#S" n="116"/>Tho. 4. d. i8. q.2.ar. 4. 
+    </p>
+            <p xml:id="khj78y-q71215-d1e118">
+               <lb ed="#S" n="117"/>SEXTO quaeritur, vtrum minor 
+       excommunica<lb ed="#S" break="no" n="118"/>tio, repellat a sacramentis: &amp; videtur quod non: quia 
+      <lb ed="#S" n="119"/>no est mortaliter. Contra de cler. ex. mi. 
+      <lb ed="#S" n="120"/>c. vl. Respondeo: circa hanc quaestionem tria 
+      <lb ed="#S" n="121"/>videnda sunt. Primo, quibus casibus 
+       in<lb ed="#S" break="no" n="122"/>terdicatur participatio, &amp; incurratur minor excommunicationis secun 
+      <lb ed="#S" n="123"/>do, quibus sit licitu &amp; non incurratur. Tertio, de effe. &amp; 
+      <lb ed="#S" n="124"/>poena.
+    </p>
+            <p xml:id="khj78y-q71215-d1e139" n="2">
+      <!-- 2 -->QVANTVM ad primum dantur versus. 
+      <lb ed="#S" n="125"/>si pro delictis anathema quis efficiatur. Os, orare, vale, 
+      <lb ed="#S" n="126"/>communio, mensa negatur. Os. i. osculum pacis. Orare, quia 
+      <lb ed="#S" n="127"/>non solum in Ecclesia, sed nec extra licet cum eo dicere horas. 
+      <lb ed="#S" n="128"/>Vale, quia nec ei vale siue aue dixeritis. Communio non 
+      <lb ed="#S" n="129"/>solum in Eutharistia, sed fec etiam in omni actu legitimo. 
+      <lb ed="#S" n="130"/>Mensa. i. comestio vel potatio negatur. Et hoc verum est 
+      <lb ed="#S" n="131"/>in publico, si est publicus, vel in pcculto, si est occultus. 
+      <!--0241.xml-->
+      <pb ed="#S" n="241"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Vnde illum qui est publice excommunicatus Parisijs non debeo 
+      <lb ed="#S" n="2"/>vitare Bononiae in publico, sed tantum in occulto si ibi 
+       nes<lb ed="#S" break="no" n="3"/>ciatur, quia quod est publicum Parisijs, est occultum ibi. Item 
+      <lb ed="#S" n="4"/>de mensa verum dicunt, si diuisa est mensa, dum tamen 
+       repu<lb ed="#S" break="no" n="5"/>tetur quid vnum: vt si refectorum professorium, vbi omnes 
+       come<lb ed="#S" break="no" n="6"/>dentes simul debent esse anima vna &amp; cor vnum in Domino. simi 
+      <lb ed="#S" n="7"/>liter si ad vnum festum magni &amp; multi inuitati: licet in 
+       di<lb ed="#S" break="no" n="8"/>uersis mensis &amp; cameris, vna mensa repotatur. Vnde bea 
+      <lb ed="#S" n="9"/>tus loannes Euangelista de balneo recessit, videns 
+       venien<lb ed="#S" break="no" n="10"/>tem excommunicatum dicens. Fugiamus ne balnea corruant super 
+      <lb ed="#S" n="11"/>nos, vbi lauatur Cherintus inimicus veritatis: &amp; beatus 
+      <lb ed="#S" n="12"/>Polycarpus eius discipulus alij haeretico dixit se salutan 
+      <lb ed="#S" n="13"/>ti. Agnosce nos. Agnosco, inquit, primogenitum sathanae 
+      <lb ed="#S" n="14"/>in decretis. si autem in vna taberna, vbi de diuersis locis 
+      <lb ed="#S" n="15"/>confluunt, vnus sedeat hinc &amp; alius inde non est periculum: 
+      <lb ed="#S" n="16"/>etiam srin eodem hospitio sint socij, &amp; excommunicatus ad aliam 
+      <lb ed="#S" n="17"/>mensam segregetur, non est periculum propter identitatem 
+      <lb ed="#S" n="18"/>domus, quis possint eum cogere ad petendum absolutionem 
+      <lb ed="#S" n="19"/>vel recedendum · si autem fugitiuus clerici percussor sit 
+       in<lb ed="#S" break="no" n="20"/>Ecclesia, potest sacerdos coram eo celebrare, quia cum non sit 
+      <lb ed="#S" n="21"/>ibi causa orandi, sed latitandi &amp; fugiendi, non est hoc cum 
+      <lb ed="#S" n="22"/>eo participare in diuinis, sicut si per Ecclesiam transitum fa 
+      <lb ed="#S" n="23"/>ceret. simili modo si excommunicatus in vna capella magnae 
+      <lb ed="#S" n="24"/>Ecclesiae in vno angulo audiat diuina, &amp; ego ad alium, in 
+      <lb ed="#S" n="25"/>nullo participo ei in diuinis licet sciam, plus quam si 
+      <lb ed="#S" n="26"/>ipse comederet in vna camera tabernarij, &amp; ego in alia. 
+    </p>
+            <p xml:id="khj78y-q71215-d1e222" n="3">
+               <lb ed="#S" n="27"/>
+               <!-- 3 -->QVANTVM ad secundum, in quibus casibus licet 
+      <lb ed="#S" n="28"/>participare cum excommunicatis sine vinculo &amp; peccato, contine 
+      <lb ed="#S" n="29"/>tur in his versibus. Vtile, lex, humile, res ignorat, necesse. 
+      <lb ed="#S" n="30"/>Haec anathema quidem faciunt, ne possit obesse. Vtile, 
+       pro<lb ed="#S" break="no" n="31"/>pter vtilitatem spiritualem eorum. Vnde scribendo potest eis 
+      <lb ed="#S" n="32"/>homo loco salutationis, optare spiritum consilij sanioris. Et 
+      <lb ed="#S" n="33"/>in via te emendet Dominus &amp; huiusmodi. Propter hoc etiam 
+      <lb ed="#S" n="34"/>licet eis audire sermones. Et si homo in priuata admoni 
+      <lb ed="#S" n="35"/>tione immiscet alia verba, intentione magis proficiendi, 
+      <lb ed="#S" n="36"/>licet extra de sententia ex. c. Cum voluntate. imo &amp; propter hoc 
+      <lb ed="#S" n="37"/>Praedicatores possunt ab eis eleemosynam recipere, 
+       maxi<lb ed="#S" break="no" n="38"/>me propter vtilitatem eorum, quorum negotia gerunt vt in prae 
+      <lb ed="#S" n="39"/>dicto. c. 6. Praedicatores. Tertio, propter vtilitatem propriam 
+      <lb ed="#S" n="40"/>repetendo, aut recipiendo ab eis debitum extra. e. si vere. &amp; 
+      <lb ed="#S" n="41"/>ca. Rel. imo pro seipso potest homo ab excommunicato consilium 
+      <lb ed="#S" n="42"/>quaerere, alias petere de pertinentibus ad animam, &amp; corp 
+      <lb ed="#S" n="43"/>si est medicus, &amp; temporalia si est aduocatus, nisi commode 
+      <lb ed="#S" n="44"/>aliunde consilium possit habere, quia necessitas excusat. 
+      <lb ed="#S" n="45"/>extra. e. si vere. Lex. scilicet matrimonij, non solum quod vir vxori 
+      <lb ed="#S" n="46"/>debitum reddat: &amp; econuerso, quia hoc quod est iuris 
+       diui<lb ed="#S" break="no" n="47"/>ni Ecclesia tollere non potest, maxime illi qui non 
+       pecca<lb ed="#S" break="no" n="48"/>uit auferendo ius petendi: imo etiam in alijs domus 
+       obse<lb ed="#S" break="no" n="49"/>quijs. si autem propter dubitationem, de impedimento 
+       ma<lb ed="#S" break="no" n="50"/>trimonij esset eis ab Ecclesia interdictum abinuicem debitum 
+      <lb ed="#S" n="51"/>petere, vel reddere, &amp; sententia lata deberent abstinere. 
+      <lb ed="#S" n="52"/>Alians autem licet vir debeat vxorem corrigere, quia tamen 
+      <lb ed="#S" n="53"/>aliquando etiam petens absolutionem obtinere non potest: non 
+      <lb ed="#S" n="54"/>debet vir vxorem abijcere, sicut nec vxor se a viro 
+       separa<lb ed="#S" break="no" n="55"/>re. Humile. Filij enim emancipati &amp; in domo manentes: Item 
+      <lb ed="#S" n="56"/>serui &amp; ancillae, famuli, rustici, &amp; coloni seruientes, &amp; cae 
+      <lb ed="#S" n="57"/>teri qui ante excommunicationem erant astricti, con non ex hoc 
+      <lb ed="#S" n="58"/>ipso liberentur, tenentur ad obsequia sicut prius: &amp; ideo 
+      <lb ed="#S" n="59"/>excusantur: licet pater debeat corrigere filium, &amp; si non 
+       fa<lb ed="#S" break="no" n="60"/>cit, peccat. Non proprer hoc tamen debet eum a suo hospitio 
+      <lb ed="#S" n="61"/>repellere, maxime si per eum non stet quo minus absoluat: 
+      <lb ed="#S" n="62"/>nec similiter tenetur carere seruitio subiectorum, si ipsi 
+      <lb ed="#S" n="63"/>sunt excommunicati, cum debitum ab excommunicato possit repeti. 
+       Ve<lb ed="#S" break="no" n="64"/>rum est em̃, quod familia potest recedere si vult ab excommunicato, quia 
+      <lb ed="#S" n="65"/>si sciuit se obligare non potuit, si nesciuit se obligare 
+       no<lb ed="#S" break="no" n="66"/>luit, sed cum damno suo recedere non tenetur. Qui autem 
+      <lb ed="#S" n="67"/>debitor estiquia bona fide soluere tenetur, quadam neces- 
+      <!--0241.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>sitate morali cum eo participans in soluendo excusatur: 
+       li<lb ed="#S" break="no" n="69"/>cet in iudicio posset contra agentem excipere, quia illius 
+      <lb ed="#S" n="70"/>excommunicatio non liberat istum a debito, cum ille non perdat ius 
+      <lb ed="#S" n="71"/>suum.
+    </p>
+            <p xml:id="khj78y-q71215-d1e329" n="4">
+      <!-- 4 -->
+               <name xml:id="khj78y-q71215-Nd1e333">De vasallis</name> etiam videtur, quod dominumse quendo sicut 
+      <lb ed="#S" n="72"/>prius lege subiectionis excusantur: imo tenentur quousque 
+      <lb ed="#S" n="73"/>per Ecclesiam ab eius fidelitate soluantur. Non enim eo ipso 
+      <lb ed="#S" n="74"/>quod excommunicatus est, solutum est iuramentum fidelitatis. Alias, 
+      <lb ed="#S" n="75"/>post absolutionem faciendum esset de nouo iuramentum. sed 
+      <lb ed="#S" n="76"/>ad hoc diceretur, quod iuramentum est sopitum non solutum, 
+       ni<lb ed="#S" break="no" n="77"/>hilominus sicut debitor debet soluere pecuniam debitam, 
+      <lb ed="#S" n="78"/>vel ponere in loco vbi alius possit accipere, nec 
+       excommunica<lb ed="#S" break="no" n="79"/>tio debitoris dat sibi dilationem, sic vasallus debitor serui 
+      <lb ed="#S" n="80"/>tij, si dominus iusto bello indiget, debet eum sequi. Qui autem co 
+      <lb ed="#S" n="81"/>ram iudicibus laicis excommunicati litigant, si sint actores, &amp; 
+       ali<lb ed="#S" break="no" n="82"/>ter vel coram alijs ius suum non possunt habere, propter 
+       neces<lb ed="#S" break="no" n="83"/>sitatem excusantur. si autem rei allegata exceptione, quia 
+      <lb ed="#S" n="84"/>iudicium est nullum, coguntur respondere: similiter 
+       excusan<lb ed="#S" break="no" n="85"/>tur. Aut si propter timorem mundanum non audent hoc oppo 
+      <lb ed="#S" n="86"/>nere, excusantur a tanto, sed dubium si a toto, quia nullo 
+       ti<lb ed="#S" break="no" n="87"/>more debet homo participare cum excommunicato: de his quae 
+      <lb ed="#S" n="88"/>vi metusve causa fiunt. c. sacramentis. Mercenarium autem excommuni-
+       i<lb ed="#S" break="no" n="89"/>catum non debet homo conducere, si alias potest factum suum 
+      <lb ed="#S" n="90"/>explere: quod si ignorans conduxit, ius suum ab eo petere 
+       po<lb ed="#S" break="no" n="91"/>test. similiter si epraes sit excommunicatus, exc usantur clerici qui 
+      <lb ed="#S" n="92"/>sunt de hospitio, non alij. Et si abbas monachi, qui ad eius 
+      <lb ed="#S" n="93"/>mandatum sunt astricti fortius quam familia, excusantur ei 
+      <lb ed="#S" n="94"/>participando secundum quosdam. sed verius videtur quod non: 
+      <lb ed="#S" n="95"/>quia excommunicatio suspendit eum ab omni potestate sua 
+       spiritua<lb ed="#S" break="no" n="96"/>li, quam solam habet in monachos. secus autem est de 
+       domi<lb ed="#S" break="no" n="97"/>nio temporali, quamuis excommunicando separet ab omni actu 
+       legiti<lb ed="#S" break="no" n="98"/>mo. Qui autem cum domino excommunicato conicat, non propter hoc ha 
+      <lb ed="#S" n="99"/>bet licentiam conicandi cum excommunicatis, quibus ille conicat, 
+      <lb ed="#S" n="100"/>quia illi non sunt domini eorum, nec illi sunt familia eorum, 
+       si<lb ed="#S" break="no" n="101"/>cut nec vxor potest communicare cum excommunicatis, quibus vir eius 
+      <lb ed="#S" n="102"/>communicat. Cum famulo autem excommunicati si nomine ipsius 
+       contra<lb ed="#S" break="no" n="103"/>hat, perinde incurritur, ac si ille contraheret. secus si alte 
+      <lb ed="#S" n="104"/>rius nomine, nec plus licet ei scribere quam loqui, nec literas eius 
+      <lb ed="#S" n="105"/>recipere quam munera: assurgendo autem vel amouendo capu 
+      <lb ed="#S" n="106"/>tium, etiam si nihil dicatur honor impenditur, &amp; excommunicatio 
+      <lb ed="#S" n="107"/>incurritur, cum hoc sit plus quam simpliciter salutare. 
+       Eleemo<lb ed="#S" break="no" n="108"/>syna autem ab excommunicato potest recipi ab indigente, vel a 
+      <lb ed="#S" n="109"/>merente sicut Praedicatores. Legatum autem eius Ecclesia 
+       re<lb ed="#S" break="no" n="110"/>cipere non potest, nisi pro anniuersario &amp; huiusmodi 
+       lega<lb ed="#S" break="no" n="111"/>uerit. Cum pro excommunicato qui mortuus est sine signis poe 
+      <lb ed="#S" n="112"/>nitentiae, non sit publice orandum: ad quod tamen aliqualiter 
+      <lb ed="#S" n="113"/>obligatur Ecclesia, recipiens legatum ad hoc deputatum siue. 
+      <lb ed="#S" n="114"/>datum, sed simplex legatum licet recipere, quia hoc non est 
+      <lb ed="#S" n="115"/>participare cum excommunicato: quia cum mortuo non est 
+       conio<lb ed="#S" break="no" n="116"/>nisi corpus sepeliendo. sed quia recipiens legatum 
+       quod<lb ed="#S" break="no" n="117"/>cunque nomine defuncti, licet non exprimatur obligat se, ad. 
+      <lb ed="#S" n="118"/>orandum occulte non publice, &amp; illud licet. Munus etiam. 
+      <lb ed="#S" n="119"/>ab excommunicato recipiendum non est, sed nec illi debet 
+       redde<lb ed="#S" break="no" n="120"/>re quod liberaliter contulit, sed potest retineri vel magis 
+      <lb ed="#S" n="121"/>erogari, nec ab aliquo eius nomine datum est recipiendum, nec 
+      <lb ed="#S" n="122"/>ab ipso alterius nomine. si autem cius amore ab alio alienum 
+      <lb ed="#S" n="123"/>datur non nomine eius, potest accipi &amp; ab vxore vel familia, 
+      <lb ed="#S" n="124"/>quod illorum est proprio nomine, non nomine eius datum. 
+    </p>
+            <p xml:id="khj78y-q71215-d1e451">
+               <lb ed="#S" n="125"/>Res ignorata quando est ignorantia facti probabilis, vel 
+      <lb ed="#S" n="126"/>iuris in pueris, &amp; talibus qui non tenentur hoc scire, tunc 
+      <lb ed="#S" n="127"/>non incurritur: de cleri. excommunicationis mis. mi. ca. Apostolice. Dici 
+      <lb ed="#S" n="128"/>tur autem scire si vidit illum facere factum, de quo tenetur 
+      <lb ed="#S" n="129"/>scire quod est excommunicatus: puta verberare clericum, vel 
+       audi<lb ed="#S" break="no" n="130"/>uit ipsum nominatim a iudice excommunicari vel denunciari, vel 
+      <lb ed="#S" n="131"/>audiuit hoc ab eius epo vel curato, quorum est excommunicare 
+      <lb ed="#S" n="132"/>vel denunciare, vel est publica fama: de hoc extra. e. cum 
+      <lb ed="#S" n="133"/>desideres. si autem hoc audiuit ab eius aemulo, vel etiam ab 
+      <lb ed="#S" n="134"/>vno vel paucis non oportet credere: quia qui cito credit 
+      <!--0242.xml-->
+      <pb ed="#S" n="242"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>leuis est corde. &amp;. 11. q. 3. Non solum reus qui aurem crimi 
+      <lb ed="#S" n="2"/>nibus cito praebet. Non est probabilis ignorantia, 
+       nesci<lb ed="#S" break="no" n="3"/>re quod omnes communiter sciunt, &amp; quod publice factum est: de 
+       po<lb ed="#S" break="no" n="4"/>stulatione. c. 1. si autem habitu scio, &amp; per surreptionem 
+      <lb ed="#S" n="5"/>participo in hora, mox vt aduerto me retrahens non incur 
+      <lb ed="#S" n="6"/>ro: quia non est actus humanus quia est subditus. si autem 
+      <lb ed="#S" n="7"/>nescio nisi per confessionem ipsius, vel alterius in foro con 
+      <lb ed="#S" n="8"/>scientiae factam: non debeo eum vitare. si autem scio alias 
+       oc<lb ed="#S" break="no" n="9"/>culte, quia dixit mihi in consilio: in occulto debeo eum 
+      <lb ed="#S" n="10"/>vitare, &amp; non in publico. si autem post annum video, quem 
+      <lb ed="#S" n="11"/>tamen priu sciui excommunicatum, si non constet de absolutione 
+      <lb ed="#S" n="12"/>adhuc teneor eum vitare: nisi probabiliter appareat 
+       ab<lb ed="#S" break="no" n="13"/>solutus, per hoc quod ipse hoc dicit: &amp; est homo fide 
+       di<lb ed="#S" break="no" n="14"/>gnus, vel cum a principio seruaret sententiam: modo non 
+       ser<lb ed="#S" break="no" n="15"/>naticum alias esset timoratus. Qui autem denunciatus in 
+      <lb ed="#S" n="16"/>vna diccesi, si inueniatur inalia in qua nihil scitur de 
+      <lb ed="#S" n="17"/>hoc, in occulto vitandus est non in publico: quia licet sit 
+      <lb ed="#S" n="18"/>vbique excommunicatus, non tamen est vbique publice excommunicatus. 
+      <lb ed="#S" n="19"/>Illi autem de quorum excommunicatione literati contraria sentiunt, 
+      <lb ed="#S" n="20"/>secundum quod conscientia dictat, sunt vitandi vel tolerandi: 
+      <lb ed="#S" n="21"/>donec iudicarie diffiniatur &amp; tunc stetur sententiae: quia 
+      <lb ed="#S" n="22"/>iste est casus, in quo res inter alios acta alijs praeiudicat. 
+      <lb ed="#S" n="23"/>Propter quod cum omnium intersit, videtur quod quilibet posset 
+      <lb ed="#S" n="24"/>appellare praeter excommunicatum, quando aliquis excommunicatur: 
+      <lb ed="#S" n="25"/>quia alij ab eius conione prohibentur.
+    </p>
+            <p xml:id="khj78y-q71215-d1e536" n="6">
+      <!-- 6 -->Necesse: quia 
+      <lb ed="#S" n="26"/>alij peregrini &amp; vlatores, vel quicunque alij propter neces 
+      <lb ed="#S" n="27"/>sitatem suam quantum illa requirit, possunt illis communicare: sed 
+      <lb ed="#S" n="28"/>eriam econuerso quantum necessitas victus, &amp; vestitus 
+       excommuni<lb ed="#S" break="no" n="29"/>cati requirit, potest ei dando eleemosynam communicari, non solum 
+      <lb ed="#S" n="30"/>quando eleemosyna est in praecepto: imo etiam quando est in 
+       consi<lb ed="#S" break="no" n="31"/>lio: si per hoc non nutritur in errore, &amp; homo plus ei dat 
+      <lb ed="#S" n="32"/>intuitu eleemosynae quam intuitu mundanae amicitiae. 
+       Prae<lb ed="#S" break="no" n="33"/>dicatores autem non solum propter necessitatem sicut &amp; 
+       caete<lb ed="#S" break="no" n="34"/>ri: sed etiam propter officium, quia gerunt negotium aliorum, pos 
+      <lb ed="#S" n="35"/>sont accipere a talibus eleemosynas. extra. eo. Cum 
+       vo<lb ed="#S" break="no" n="36"/>luntate. Quod est verum dum tamen cum eis non participent in 
+      <lb ed="#S" n="37"/>mensa &amp; alijs, nisi ordinatis ad praedicandum: quia quod sunt 
+      <lb ed="#S" n="38"/>Praedicatores non dat eis participationem: nisi propter illo 
+      <lb ed="#S" n="39"/>rum salutem, sed quod gerunt negotium creditorum, dat eis quod de 
+       bo<lb ed="#S" break="no" n="40"/>nis illorum possint viuere, etiam si subiacent restitutioni. si 
+      <lb ed="#S" n="41"/>autem cum hoc aliter non habent quod comedant, nec illi 
+       vo<lb ed="#S" break="no" n="42"/>lunt dare: nisi simul in eadem mensa comedant: tunc 
+      <lb ed="#S" n="43"/>necessitas excusat: vel etiam sicut praedicando facit, quod licet 
+      <lb ed="#S" n="44"/>alia verba interponere vt magis fructificent, sic &amp; alia 
+      <lb ed="#S" n="45"/>facta, quia non est minus communicare verbo quam facto, &amp; 
+       aliquan<lb ed="#S" n="46" break="no"/>do comedendo cum eis alliciuntur ad familiaritatem. Vnde 
+      <lb ed="#S" n="47"/>Christus cum publicanis &amp; peccatoribus manducabat: &amp; 
+      <lb ed="#S" n="48"/>non solum de bonis eorum. Et Apostolus. Omnibus omnia factus 
+      <lb ed="#S" n="49"/>fum, vt omnes lucrifaciam: dum tamen ex hoc non 
+       scandalizen<lb ed="#S" break="no" n="50"/>tur pusilli, quod saepe contingit. Non debent autem pro cibo 
+      <lb ed="#S" n="51"/>scandalizare, qui vsque ad mortem debent aedificare: vnde 
+      <lb ed="#S" n="52"/>Apostolus. si esca scandalizat fratrem meum, non manducabo 
+      <lb ed="#S" n="53"/>camem in aeternum. De his autem quinque intelligendum est, nisi 
+      <lb ed="#S" n="54"/>ex causa sententiam aggrauando: eis specialiter conio inter 
+      <lb ed="#S" n="55"/>dicatur, sicut habet consuetudo: quod quandoque patre, vel marito, 
+      <lb ed="#S" n="56"/>vel domino indurato aggrauatur excommunicatio: &amp; monentur 
+      <lb ed="#S" n="57"/>isti vt se subtrahant ab eo: quia quamuis liceat dispensatiue 
+      <lb ed="#S" n="58"/>communicare: non tamen iure coni: vnde talis dispensatio potest 
+      <lb ed="#S" n="59"/>subtrahi ex causa. si enim potest homo mitti in exilium pro 
+      <lb ed="#S" n="60"/>pter peccatum, sic &amp; potest sibi subtrahi solatium suorum: sic 
+      <lb ed="#S" n="61"/>tamen, quod vxor non potest negare debitum carnale, quod solum 
+       li<lb ed="#S" break="no" n="62"/>cet excommunicato etiam in iudicio repetere, non debitum tempora 
+      <lb ed="#S" n="63"/>le, sed ab eo quod est licitum homini de iure coni, non debet 
+      <lb ed="#S" n="64"/>per monitionem arceri: contra quos tamen non est, quia a 
+       coni<lb ed="#S" break="no" n="65"/>cando cum homine quod de iure coni est licitum: homines arcentur. 
+      <lb ed="#S" n="66"/>Et videretur via quod tales personae arceri possunt a 
+       commu<lb ed="#S" break="no" n="67"/>nione vulgari: sed ab illa quae est debita eis, inquantum 
+      <!--0242.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>talis personae sunt, non videtur: ita quod vxor redderet 
+       debi<lb ed="#S" break="no" n="69"/>tum viro, sed non comedet cum eo nec loquetur ei. Filius 
+       au<lb ed="#S" break="no" n="70"/>tem seruiet similiter patri, sed non comedet cum ipso &amp; huius 
+      <lb ed="#S" n="71"/>modi. Et ideo opinio probabilis est, quod talibus personis 
+      <lb ed="#S" n="72"/>licet communicare ratione subiectionis &amp; 
+       coniunctio<lb ed="#S" break="no" n="73"/>nis, quantum vis subiectionis &amp; coniunctionis 
+       requi<lb ed="#S" break="no" n="74"/>rit. Nec ab hoc possunt per monitionem arceri, &amp; si vxor 
+      <lb ed="#S" n="75"/>excommunicaretur: quia monita non deseruit virum, vel debitum 
+      <lb ed="#S" n="76"/>reddidit, esset error intolerabilis in sententia expressus. 
+      <lb ed="#S" n="77"/>sic etiam &amp; ab illa conione quae est de iure naturali non 
+       ar<lb ed="#S" break="no" n="78"/>cetur homo, puta quin det eleemosynam excommunicato 
+       indi<lb ed="#S" break="no" n="79"/>genti. Et si dicatur ergo non est speciale in istis: dicendum 
+      <lb ed="#S" n="80"/>quod imo, quod in illis personis ratione status non includitur 
+      <lb ed="#S" n="81"/>aliquod debitum, sed in istis sic. Aliqua enim debet pater 
+      <lb ed="#S" n="82"/>filio vt pater, &amp; econuerso, quae conionem important: vnde istae 
+      <lb ed="#S" n="83"/>personae licite sibi communicant adinuicem, inquantum 
+       huiusmo<lb ed="#S" break="no" n="84"/>di personae sunt, aliter autem illicite. Nam dicere quod in 
+       nul<lb ed="#S" n="85" break="no"/>lo plus vitet vxor virum excommunicatum, quam non excommunicatum: esset 
+      <lb ed="#S" n="86"/>eam inducere ad contentum clauium Ecclesiae: sed super hoc 
+      <lb ed="#S" n="87"/>potest cadere monitio, quod non aliter conicet quam ratione 
+       ma<lb ed="#S" break="no" n="88"/>trimonij teneatur. sed non sic populus principi 
+       excommunica<lb ed="#S" break="no" n="89"/>to participare potest, nec vasallus dominumiuuare tenetur, 
+      <lb ed="#S" n="90"/>imo absoluitur interim a iuramento fidelitatis, secundum 
+      <lb ed="#S" n="91"/>quosdam. 15. q. 6. c. Iuratos. sed contrarium est verius, vt su 
+      <lb ed="#S" n="92"/>pra dictum est. sed dicunt quidam, quod propter delictum domini vel 
+      <lb ed="#S" n="93"/>rectoris potest populus interdici &amp; terra: non sic autem 
+       fa<lb ed="#S" break="no" n="94"/>milia propter delictum patrisfamilias, sed abusus est 
+       Ec<lb ed="#S" break="no" n="95"/>clesiae. Contra quod est, quia cum ex multis domibus fiat 
+      <lb ed="#S" n="96"/>vna ciuitas: &amp; interdictum populi sit maius damnum, quam vnius 
+      <lb ed="#S" n="97"/>familiae: &amp; maius ius habeat paterfamilias in domo, quam re 
+      <lb ed="#S" n="98"/>ctor in populo: si propter delictum rectoris interdicitur 
+      <lb ed="#S" n="99"/>populus, multo magis familia propter delictum 
+       patrirfa<lb ed="#S" break="no" n="100"/>milias: maxime propter consuetudinem a iure non 
+       repro<lb ed="#S" break="no" n="101"/>batam: imo interdictum profertur expresse in 
+       constitutioni<lb ed="#S" break="no" n="102"/>bus legati: de elec. c. in concilio Bituricensi. si autem episcopus 
+      <lb ed="#S" n="103"/>communicat excommunicato a se in generali, vel in speciali, ligatur 
+      <lb ed="#S" n="104"/>a sententia iuris: Papa autem non, quia legibus non 
+       astringi<lb ed="#S" break="no" n="105"/>tur: nec tamen Papa vel epraes absoluit salutando, quando hoc non 
+       in<lb ed="#S" break="no" n="106"/>tendit. Nunquam enim iudex excommunicat vel absoluit, nisi hoc 
+      <lb ed="#S" n="107"/>intendat. sed in hoc est differentia, quod si Papa salutando, 
+      <lb ed="#S" n="108"/>vel aliter conicando intendat absoluere, absolutus est: quia 
+      <lb ed="#S" n="109"/>non est arctatus ad tenendum aliquam formam iuris, sed episcopus 
+      <lb ed="#S" n="110"/>sic. Vnde cum forma iuris, &amp; consuetudinis vniuersalis 
+       Ec<lb ed="#S" break="no" n="111"/>clesiae sit, non absoluere nec ligare, nisi verbis hoc 
+       signan<lb ed="#S" break="no" n="112"/>tibus: ideo epraes si etiam alias salutando vel conicando 
+       inten<lb ed="#S" break="no" n="113"/>deret, non propter hoc absolueret. si autem epraes participet 
+      <lb ed="#S" n="114"/>in crimine excommunicato a se, absoluetur a superiore, quia se 
+      <lb ed="#S" n="115"/>non potest absoluere, vel a suo confessore quem elegit aucto 
+      <lb ed="#S" n="116"/>ritate iuris. quando autem epraes vult participare excommunicato a se, 
+      <lb ed="#S" n="117"/>vel ab alio: du tamen sit excommunicatio a qua ipse potest 
+       ab<lb ed="#S" break="no" n="118"/>soluere, posset ipse tunc prius absoluere &amp; postea 
+       conica<lb ed="#S" break="no" n="119"/>re, &amp; sic non incurreret.
+    </p>
+            <p xml:id="khj78y-q71215-d1e749" n="7">
+      <!-- 7 -->Tertio videndum est de 
+       effe<lb ed="#S" break="no" n="120"/>ctu minoris excommunicationis: &amp; primo quo ad culpam: 
+       fecun<lb ed="#S" n="121" break="no"/>do, quo ad poenam. Quantum ad primum sunt duae 
+       conclusio<lb ed="#S" break="no" n="122"/>nes.
+    </p>
+            <p xml:id="khj78y-q71215-d1e761" n="8">
+      <!-- 8 -->Prima, quod secundum theologos participare cum 
+       ex<lb ed="#S" break="no" n="123"/>communicato maiore etiam in casu illicito, &amp; propter quem etiam 
+      <lb ed="#S" n="124"/>incurritur minor excommunicatio, non est de se peccatum morta 
+      <lb ed="#S" n="125"/>le, nisi in casibus. Primo, in diuinis, propter quod 
+       parti<lb ed="#S" break="no" n="126"/>cipantes cum excommunicatis a Papa in diuinis ligantur maiore. 
+      <lb ed="#S" n="127"/>extra. e. significauit. Quod esset iniustum, nisi illud esset 
+      <lb ed="#S" n="128"/>mortale. secundo, quod in crimine criminoso, quia illud 
+      <lb ed="#S" n="129"/>est illi mortale, aliter iniuste esset excommunicatus &amp; crimine 
+      <lb ed="#S" n="130"/>de se sonat in mortale. Et hoc est mortale, etiam si illud 
+      <lb ed="#S" n="131"/>erat crimen soli illi: quia cooperari alicui ad crimen est 
+      <lb ed="#S" n="132"/>mortale: sicut doctor qui legit leges aut physicam 
+       religio<lb ed="#S" break="no" n="133"/>so, quod est illi mortale propter inobedientiam: hoc ipso 
+      <lb ed="#S" n="134"/>peccat mortaliter: quia illi praestat materiam, vel ministras 
+      <!--0243.xml-->
+      <pb ed="#S" n="243"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>mortalis. Vnde &amp; est excommunicatus maiori. Ne cleri. vel mo. 
+      <lb ed="#S" n="2"/>Vt periculosa. li. 6. quamuis alias legere non est illi peccatum. 
+      <lb ed="#S" n="3"/>Et similiter qui daret religioso habitum saecularem, vt 
+       dimis<lb ed="#S" break="no" n="4"/>so suo habitu exiret. Nisi enim sic participare esset 
+       mor<lb ed="#S" break="no" n="5"/>tale, non ligaretur homo maiori excommunicatione. Tertio: 
+      <lb ed="#S" n="6"/>quando hoc fit in contemptum Ecclesiae: si homo in nullo 
+       discer<lb ed="#S" break="no" n="7"/>nit inter excommunicatum &amp; non excommunicatum, nihil omnino 
+      <lb ed="#S" n="8"/>plus abstinens ab eius conione, quam si non esset. Aut si dicat in 
+      <lb ed="#S" n="9"/>despectum cleri de excommunicatis. Tu eris charior mihi, quam 
+      <lb ed="#S" n="10"/>prius &amp; huiusmodi. Quarto, quando est contra inhibitionem &amp; moni 
+      <lb ed="#S" n="11"/>tionem Ecclesiae: vnde &amp; propter hoc iuste potest 
+       excommunica<lb ed="#S" break="no" n="12"/>ri maiori ratione inobedientiae, &amp; contumaciae. Et sic 
+       in<lb ed="#S" break="no" n="13"/>tellige: quod me. causa. ca. sacramentis. extra. e. statuimus. lib. 6. 
+      <lb ed="#S" n="14"/>&amp;. ca. Constitutionem. Et quando dicit, quod aliter lata non teneat, 
+      <lb ed="#S" n="15"/>innuit quod aliter lata esset iniusta. si autem dicatur contra 
+      <lb ed="#S" n="16"/>hoc: quia excommunicatio separat a perceptione 
+       sacramento<lb ed="#S" break="no" n="17"/>rum, a quibus homo non repellitur, uisi sit indignus, quod 
+      <lb ed="#S" n="18"/>non est per veniale. Dicendum, quod imo aliquando homo sine 
+       ve<lb ed="#S" break="no" n="19"/>niali &amp; mortali repellitur a sacramentis, sicut est propter 
+       inter<lb ed="#S" break="no" n="20"/>dictum sine sua culpa latum. Metus autem licet alias cadat in 
+      <lb ed="#S" n="21"/>constantem virum, non excusat a toto, licet a tanto participan 
+      <lb ed="#S" n="22"/>tem cum excommunicato. extra: quod me. causa. c. sacramentis. &amp; multo 
+       mi<lb ed="#S" break="no" n="23"/>nus verecundia &amp; timor offensae, &amp; huiusmodi. Nec 
+       mi<lb ed="#S" break="no" n="24"/>nus peccat excommunicatus conicas alijs, quam econuerso: nec vnus 
+      <lb ed="#S" n="25"/>excommunicatus debet communicare cum alio.
+    </p>
+            <p xml:id="khj78y-q71215-d1e852" n="9">
+      <!-- 9 -->secundus effectus 
+      <lb ed="#S" n="26"/>est quo ad poenam, quia sicut dicitur extra. de cle. ex. mi. c. 
+      <lb ed="#S" n="27"/>si celebret. minor excommunicatio excludit a perceptione 
+       sa<lb ed="#S" break="no" n="28"/>cramentorum: non autem a participatione diuinurum. Vnde 
+      <lb ed="#S" n="29"/>quicquid alij dicunt, licite potest missam audire &amp; 
+       Eccle<lb ed="#S" break="no" n="30"/>siam officiare: dum tamen nullu sacramentum percipiat: quia 
+      <lb ed="#S" n="31"/>nec matrimonium, nec quodcumque sacramentum debet 
+       reci<lb ed="#S" break="no" n="32"/>pere: quousq, sit restitutus sacramentis per absolutionem, a 
+      <lb ed="#S" n="33"/>quibus est separatus per hanc excommunicationem. Licite etiam 
+      <lb ed="#S" n="34"/>recipit osculum pacis in missa, licet successerit 
+       communio<lb ed="#S" break="no" n="35"/>ni: quia multis licet panem benedictum sumere, quibus non 
+      <lb ed="#S" n="36"/>liceret panem sanctum: imo pax &amp; panis benedictus propter 
+      <lb ed="#S" n="37"/>hoc successerunt: vt indigni ad illa, admittantur ad ista. 
+      <lb ed="#S" n="38"/>Et inde est quod ligatus minori non potest absolui in foro con 
+      <lb ed="#S" n="39"/>scientiae, sed sic absolutus deberet iterum confiteri. Non est 
+      <lb ed="#S" n="40"/>autem separatus a collatione sacramentorum: vnde potest 
+      <lb ed="#S" n="41"/>ea conferre: sicut in foro conscientiae potest absoluere, sicut 
+      <lb ed="#S" n="42"/>posset in exteriori, quia non est suspensus a iurisdictione. 
+      <lb ed="#S" n="43"/>Videtur tamen quod peecet conferens sacramenta: quia non 
+       debet<lb ed="#S" break="no" n="44"/>quis in se habere illud, a quo alios absoluit. Quod autem 
+      <lb ed="#S" n="45"/>ligatus minori possit absoluere, a simili &amp; maiori etiam 
+      <lb ed="#S" n="46"/>peccato habetur extra. eo Duobus. Occulte autem excommuni-
+       i<lb ed="#S" break="no" n="47"/>catus, occulte monendus est vt ab Ecclesia ereat: quod si non 
+      <lb ed="#S" n="48"/>vult: tenetur homo exire sine illius diffamatione, &amp; sui 
+      <lb ed="#S" n="49"/>etiam repraehensione potest exire: alias non plus tenetur se 
+      <lb ed="#S" n="50"/>notare quam alium, si videt alios scandalizari de hoc, quod sine 
+      <lb ed="#S" n="51"/>causa exit ab Ecclesia tempore celebrationis, vel eleuatio 
+      <lb ed="#S" n="52"/>nis corporis Christi. si autem ille est publice excoicatus, 
+      <lb ed="#S" n="53"/>publice monendus est vt Ecclesiam exeat, aut etiam vt 
+       repel<lb ed="#S" break="no" n="54"/>lendus. Dum tamen sine sanguinis effusione fiat. Vnde 
+       ex<lb ed="#S" break="no" n="55"/>tra. e. Veniens. excusatur sacerdos qui monialem 
+       turbanten<lb ed="#S" break="no" n="56"/>officium de Ecclesia expulit. si autem sacerdos est ante 
+       ca<lb ed="#S" break="no" n="57"/>nonem, &amp; videt ante se vnum excommunicatum: nisi ille monitus 
+      <lb ed="#S" n="58"/>velit exire, debet totum dimittere, sed postquam canonem 
+       ince<lb ed="#S" break="no" n="59"/>pit non debet dimittere: post Pater noster vbi epraes 
+       consue<lb ed="#S" break="no" n="60"/>uit dare benedictionem, vel sacerdos pacem: potest illum tamen 
+      <lb ed="#S" n="61"/>monere vt exeat, &amp; similiter post perceptionem si tamen exi 
+      <lb ed="#S" n="62"/>re noluerit: nihilominus debet perficere. si autem vnus de 
+      <lb ed="#S" n="63"/>socijs in hospitio sit excommunicatus: no oportet propter eom 
+      <lb ed="#S" n="64"/>oens alios domum dimittere, quin potius ipsi eum per iudicem 
+      <lb ed="#S" n="65"/>compellant exire, vel se facere absolui. Nam interim in 
+      <lb ed="#S" n="66"/>domo cadem manere possunt:dum tamen sibi non conicet in 
+      <lb ed="#S" n="67"/>cibo, verbo, facto, &amp; huiusmodi. Potest etiam homo cum excommunica- 
+      <!--0243.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>to hospitari in alia camera: vel si non est diuersorium in 
+      <lb ed="#S" n="69"/>alia mensa comedendo. si vero eidem mensae se ingerat: 
+      <lb ed="#S" n="70"/>homo surgat: quia si missam debet homo dimittere 
+       pro<lb ed="#S" break="no" n="71"/>pter excommunicati praesentiam: multo magis mensam: dum 
+       ta<lb ed="#S" break="no" n="72"/>mem alibi possit comedere: quia nec se inhonestare 
+       tene<lb ed="#S" break="no" n="73"/>tur, vt ad terram comedat cum canibus, aut sine mensali 
+       se<lb ed="#S" break="no" n="74"/>cundum quosdam.
+    </p>
+            <p xml:id="khj78y-q71215-d1e967" n="10">
+      <!-- 10 -->si quis autem confitens dicat se esse 
+      <lb ed="#S" n="75"/>excommunicatum: statim si potest absolui, non oportet quod 
+       absol<lb ed="#S" break="no" n="76"/>uatur, vel quod vltra non audiatur, sed ante absolutionem a 
+      <lb ed="#S" n="77"/>peccatis ab excommunicatione absoluatur si potest, vel 
+       absol<lb ed="#S" break="no" n="78"/>uendus ad eum qui potest, mittatur: quia licet el non sit 
+       par<lb ed="#S" break="no" n="79"/>ticipandum maxime in dluinis, nec sit ad sacramenta 
+       reci<lb ed="#S" break="no" n="80"/>piendus: alias tamen quando hoc ipsum ordinatur ad eius 
+       absolu<lb ed="#S" break="no" n="81"/>tionem, vel absolutionis meliorationem, sicut hic: quia audi 
+      <lb ed="#S" n="82"/>ta ad plenum vita eius, melius consilium poterit dari de 
+       mo<lb ed="#S" break="no" n="83"/>do absolutionis impetrandae, vel impartiendae: tunc licet, 
+      <lb ed="#S" n="84"/>sicut etiam illi qui vadit Romam pro absolutione petenda, 
+      <lb ed="#S" n="85"/>vendi potest cibus &amp; potus, &amp; hospitium locari: &amp; aliter il 
+      <lb ed="#S" n="86"/>li potest communicari in his quae ad viam pertinent: &amp; similiter in 
+      <lb ed="#S" n="87"/>via associari: vt videtur, maxime si ad hoc ipsum associent 
+      <lb ed="#S" n="88"/>ipsum aliqui, vel etiam simul sunt ituri: quia securitas via 
+      <lb ed="#S" n="89"/>torum pluralitatem desiderat, alias non, licet communicare cum 
+       excom<lb ed="#S" n="90" break="no"/>municato: etiam qui pro offensa satisfecit, &amp; si etiam non est 
+      <lb ed="#S" n="91"/>denunciatus, non est conicandum quousque sit absolutus. 
+       sa<lb ed="#S" break="no" n="92"/>cerdos etiam cui a iudice mandatur quod aliquem denunclet 
+      <lb ed="#S" n="93"/>excommunicatum, siue sit ordinarius siue delegatus: debet ex 
+      <lb ed="#S" n="94"/>tunc &amp; tenetur illum vitare. Irregularitatem autem non causas 
+      <lb ed="#S" n="95"/>minor excommunicatio, in casu in quo maior causaret. de cle. 
+      <lb ed="#S" n="96"/>ex. mi. c. vl.
+    </p>
+            <p xml:id="khj78y-q71215-d1e1019" n="11">
+      <!-- 11 -->Ad argumentum in contrarium dicendum: 
+      <lb ed="#S" n="97"/>quod licet culpa, vt culpa est, non impediat: nisi sit mortalis: 
+      <lb ed="#S" n="98"/>tamem aliquid quod non est culpa, sed poena impedit: licet 
+      <lb ed="#S" n="99"/>eius causa non sit nisi culpa venialis: vel forte non culpa, 
+      <lb ed="#S" n="100"/>sed iustitia: sicut irregularitas causata ex bigamia, vel 
+      <lb ed="#S" n="101"/>homicidio iusto. similiter minor excommunicatio non propter 
+      <lb ed="#S" n="102"/>suam causam quae potest esse leuis culpa: sed propter 
+       se<lb ed="#S" break="no" n="103"/>ipsam quae est talis poena repellit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="531"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r71915"><!-- l4d49-q8 -->
+            <head xml:id="khj78y-r71915-Hd1e101">Quaestio 8</head>
+            <head xml:id="khj78y-r71915-Hd1e103" type="question-title">
+     utrum beatitudo 
+     educatur de potentia creaturae
+   </head>
+            <p xml:id="khj78y-r71915-d1e106">
+               <lb ed="#S" n="114"/>QVAESTIO OCTAVA. 
+      <lb ed="#S" n="115"/>De beatitudine, an educatur de potentia creaturae. 
+    </p>
+            <p xml:id="khj78y-r71915-d1e113">
+               <lb ed="#S" n="116"/>OCTAVO quaeritur, vtrum beatitudo 
+      <lb ed="#S" n="117"/>educatur de potentia creaturae. Et 
+       vido<lb ed="#S" break="no" n="118"/>tur, quod sic, quia illud quod consistit in 
+      <lb ed="#S" n="119"/>bonis corporis educitur de potentia crea 
+      <lb ed="#S" n="120"/>turae vel materiae, quae est pars corporis 
+      <lb ed="#S" n="121"/>eslentialis, sed beatitudo consistit in bonis corporis. 
+       er<lb ed="#S" break="no" n="122"/>go &amp;c. Maior patet, quia materia qua est pura 
+       poten<lb ed="#S" break="no" n="123"/>tia, pars est essentialis corporis: vnde sicut corpus nihil 
+      <lb ed="#S" n="124"/>agere potest nisi per virtutem formae, sic nihil recipere 
+      <lb ed="#S" n="125"/>potest nisi per potentiam materiae. Minor patet 
+       dupli<lb ed="#S" break="no" n="126"/>citer. Primo, quia quanto aliquid est bonum 
+       commu<lb ed="#S" break="no" n="127"/>nius, tanto melius: sed bona corporalia sunt 
+       commu<lb ed="#S" break="no" n="128"/>niora quam spiritualia, quia corporalia se extendunt 
+      <!--0532.xml-->
+      <pb ed="#S" n="532"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ad plantas &amp; ad bruta animalia: spirituales autem non: 
+      <lb ed="#S" n="2"/>ergo bona corporalia sunt meliora quam spiritualia: 
+      <lb ed="#S" n="3"/>sed in paucioribus bonis est beatitudo ponenda. ergo &amp;c. 
+    </p>
+            <p xml:id="khj78y-r71915-d1e157" n="2">
+               <lb ed="#S" n="4"/>
+               <!-- 2 -->secundo, quia beatitudo est bonum hominis, sed 
+       ho<lb ed="#S" break="no" n="5"/>mo constat ex anima &amp; corpore: ergo beatitudo debet 
+      <lb ed="#S" n="6"/>esse communis animae &amp; corpori, sed nullum bonum spi 
+      <lb ed="#S" n="7"/>rituale est vtrique commune: bonum autem corporale est 
+      <lb ed="#S" n="8"/>vtrique commune inquantum anima in bonis corporalibus 
+      <lb ed="#S" n="9"/>delectatur: ergo beatitudo consistit in bonis 
+       corporali<lb ed="#S" break="no" n="10"/>bus: ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r71915-d1e178" n="3">
+      <!-- 3 -->Contra, Dos, aureola, &amp; fructus 
+       perti<lb ed="#S" break="no" n="11"/>nent ad beatitudinem, sed ista non educunt de potentia 
+      <lb ed="#S" n="12"/>subiecti, quia ista fiunt supernaturaliter &amp; miraculose: 
+      <lb ed="#S" n="13"/>in rebus autem mirabilibus tota ratio faciendi est 
+       poten<lb ed="#S" n="14" break="no"/>tia facientis. ergo &amp;c. Respondeo, ad huius 
+       quaestio<lb ed="#S" break="no" n="15"/>nis euidentiam sunt quinque videnda quae implicant in titu 
+      <lb ed="#S" n="16"/>lo &amp; in argumentis. Primo, quod beatitudo non consistit in 
+      <lb ed="#S" n="17"/>bonis corporalibus essentialiter. secundo, an beatitudo 
+      <lb ed="#S" n="18"/>educatur de potentia. Tertio, de dotibus. Quarto, de au 
+      <lb ed="#S" n="19"/>reolis. Quinto, de fructibus.
+    </p>
+            <p xml:id="khj78y-r71915-d1e202" n="4">
+      <!-- 4 -->Quantum ad primum 
+      <lb ed="#S" n="20"/>sunt tres conclusiones. Prima de duplici beatitudine 
+       ho<lb ed="#S" n="21" break="no"/>minis. Vbi dicunt quidam &amp; bene, quod cum beatitudo no 
+      <lb ed="#S" n="22"/>minet perfectum bonum illius qui dicitur beatus: sicut 
+      <lb ed="#S" n="23"/>aliquid dicitur bonum alicuius dupliciter, sic 
+       beatitu<lb ed="#S" break="no" n="24"/>do alicuius dicitur dupliciter. Dicitur autem bonum 
+       alicu<lb ed="#S" n="25" break="no"/>ius dupliciter. Vno modo extrinsece solum per modum 
+      <lb ed="#S" n="26"/>agentis vel obiecti, sicut ignis dicitur bonus frigescenti 
+      <lb ed="#S" n="27"/>per modum agentis vel efficientis, quia causat in eo 
+       ca<lb ed="#S" break="no" n="28"/>lorem qui est sibi bonus formaliter, &amp; viror oculo est 
+       bo<lb ed="#S" n="29" break="no"/>nus per modum obiecti. Alio modo dicitur aliquid 
+       bo<lb ed="#S" break="no" n="30"/>num alicui formaliter &amp; intrinsece, sicut sanitas est 
+       bo<lb ed="#S" break="no" n="31"/>num hominis quo ad corpus: &amp; scientia, &amp; virtutes, &amp; ea 
+      <lb ed="#S" n="32"/>rum actus seu operationes sunt bonae quo ad animam quam 
+      <lb ed="#S" n="33"/>perficiunt formaliter. similiter beatitudo hominis dici 
+      <lb ed="#S" n="34"/>tur dupliciter: vno modo illud quod beatificat hominem 
+      <lb ed="#S" n="35"/>solum extrinsece per modum obiecti, vel agentis: alio 
+       mo<lb ed="#S" break="no" n="36"/>do illud quod beatificat ipsum formaliter &amp; intrinsece 
+      <lb ed="#S" n="37"/>tanquam perfectio sibi inhaerens.
+    </p>
+            <p xml:id="khj78y-r71915-d1e246" n="5">
+      <!-- 5 -->secunda conclusio 
+      <lb ed="#S" n="38"/>est de comparatione vtriusque, beatitudinis adinuicem. Vbi 
+      <lb ed="#S" n="39"/>dicunt quidam &amp; bene, quod cum beatitudo sic dicatur du 
+      <lb ed="#S" n="40"/>pliciter: magis tamen proprie dicitur hominis illud quod 
+      <lb ed="#S" n="41"/>beatificat ipsum formaliter &amp; intrinsece, quam illud quod 
+      <lb ed="#S" n="42"/>beatificat ipsum solum extrinsece: cuius ratio est, quia il 
+      <lb ed="#S" n="43"/>lud magis proprie dicitur beatitudo nostra quo magis 
+      <lb ed="#S" n="44"/>proprie dicimur beati: sed per illud quod formaliter nos 
+      <lb ed="#S" n="45"/>beatificat magis dicimur beati quam per quodcunq, extrin 
+      <lb ed="#S" n="46"/>secum: ergo illud quod formaliter nos beatificat magis 
+      <lb ed="#S" n="47"/>proprie dicitur beatitudo nostra quam quodcunque extrinse 
+      <lb ed="#S" n="48"/>cum. Maior patet de se, minor probatur tripliciter. 
+       Pri<lb ed="#S" break="no" n="49"/>mo, quia denominatio formalis semper est magis propria 
+      <lb ed="#S" n="50"/>quam quaecunque alia: cuius ratio est, quia in eo quod sic 
+       de<lb ed="#S" break="no" n="51"/>nominatur est vere &amp; proprie res nominis, sicut animal 
+      <lb ed="#S" n="52"/>propriissime dicitur sanum, quia in eo est sanitas a qua 
+      <lb ed="#S" n="53"/>denominatur sanum: non autem ita proprie dicitur 
+       medi<lb ed="#S" break="no" n="54"/>cina sana, nec animal sanum ratione medicinae: sed 
+       ho<lb ed="#S" break="no" n="55"/>mo denominatur beatus formali denominatione a bea 
+      <lb ed="#S" n="56"/>titudine, quae est perfectio in eo existens: ab obiecto 
+       au<lb ed="#S" break="no" n="57"/>tem &amp; efficiente non dicitur beatus formali 
+       denomina<lb ed="#S" break="no" n="58"/>tione, quia beatitudo quae est obiectum vel causaeagens 
+      <lb ed="#S" n="59"/>non est in homine, sed est denominatio solum extrinseca: 
+      <lb ed="#S" n="60"/>ergo per beatitudinem quae est in nobis formaliter magis 
+      <lb ed="#S" n="61"/>proprie dicimur beati. secundo, quia illud proprie dici 
+      <lb ed="#S" n="62"/>tur nostrum quod est nobis magis vnitum, sed 
+       beatitu<lb ed="#S" break="no" n="63"/>do, quae est in nobis sormaliter &amp; intrinsece est nobis 
+       ma<lb ed="#S" break="no" n="64"/>gis vnita, quae beatitudo quae se habet solum ad nos extrinse 
+      <lb ed="#S" n="65"/>ce &amp; obiectiue, quia illa non attingitur a nobis nisi 
+       me<lb ed="#S" break="no" n="66"/>diante beatitudine formali: ergo illa est magis proprie 
+      <!--0532.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="67"/>beatitudo nostra. Tertio, quia illo proprie magis dicimur 
+      <lb ed="#S" n="68"/>beati quo posito &amp; omnibus aliis circunscriptis essemus 
+      <lb ed="#S" n="69"/>vere beati quam quodcumque aliud, sed posita beatitudine 
+       for<lb ed="#S" break="no" n="70"/>mali nobis, &amp; excluso quocumque alio per possibile vel im 
+      <lb ed="#S" n="71"/>possibile, essemus &amp; diceremur vere &amp; proprie beati, quia 
+      <lb ed="#S" n="72"/>forma denominat semper suum subiectum: exclusa autem 
+      <lb ed="#S" n="73"/>formali beatitudine &amp; positis quibuscunque aliis nullus 
+      <lb ed="#S" n="74"/>posset dici proprie beatus: ergo beatitudo formalis 
+       ma<lb ed="#S" break="no" n="75"/>gis proprie dicitur beatitudo nostra qua sumus beati quam 
+      <lb ed="#S" n="76"/>beatitudo obiectiua. Dico autem quod magis proprie dicitur 
+      <lb ed="#S" n="77"/>beatitudo nostra &amp; non beatitudo absolute, quia Deus 
+      <lb ed="#S" n="78"/>qui est obectum beatitudinis nostrae vt patuit, est magis 
+      <lb ed="#S" n="79"/>proprie &amp; vere beatitudo quam sit nostra beatitudo 
+       forma<lb ed="#S" break="no" n="80"/>lis, sed non magis dicitur proprie beatitudo nostra, imo 
+      <lb ed="#S" n="81"/>minus.
+    </p>
+            <p xml:id="khj78y-r71915-d1e350" n="6">
+      <!-- 6 -->Tertia conclusio est, quod beatitudo formalis 
+      <lb ed="#S" n="82"/>&amp; subiectiua essentialiter dicta non consistit in aliqua 
+      <lb ed="#S" n="83"/>perfectione corporali, quod probant aliqui sic, &amp; bene. 
+      <lb ed="#S" n="84"/>De ratione beatitudinis sic acceptae est, quod ipsa sit optima 
+      <lb ed="#S" n="85"/>perfectio hominis ad quam omnes aliae perfectiones or 
+      <lb ed="#S" n="86"/>dinantur sicut ad finem: sicut nomine beatitudinis vel 
+      <lb ed="#S" n="87"/>foelicitatis vtuntur tam Philosophi quam Theologi. Dicit 
+      <lb ed="#S" n="88"/>enim Philosophus. 1. Ethic. quod foelicitas est omnium ope 
+      <lb ed="#S" n="89"/>ratorum summum bonum, &amp; infra eodem dicit, ꝗipsam 
+      <lb ed="#S" n="90"/>volumus propter se, alia propter ipsam. Ex quo potest sic 
+      <lb ed="#S" n="91"/>argui. Illa perfectio quae non est summe bona nec 
+       pro<lb ed="#S" break="no" n="92"/>pter se volita, sed propter aliam meliorem, non potest 
+       ha<lb ed="#S" break="no" n="93"/>bere rationem beatitudinis, sed omnis perfectio 
+       corpo<lb ed="#S" break="no" n="94"/>ralis est huiusmodi. ergo &amp;c. Maior declarata est, sed mi 
+      <lb ed="#S" n="95"/>nor probatur, quia sicut se habet corpus ad animam, sic so 
+      <lb ed="#S" n="96"/>habent perfectiones corporis ad perfectiones animae, quia 
+      <lb ed="#S" n="97"/>sicut se habent perfectibilia adinuicem sic se habent 
+       perfe<lb ed="#S" break="no" n="98"/>ctiones eorum: sed corpus est propter animam &amp; vniuersa 
+      <lb ed="#S" n="99"/>liter materia propter formam tanquam propter aliquid 
+      <lb ed="#S" n="100"/>melius, vt dicitur. 2. Physic. ergo perfectiones corporis 
+      <lb ed="#S" n="101"/>sunt propter perfectiones animae tanquam propter aliquid 
+      <lb ed="#S" n="102"/>melius, &amp; haec fuit minor: sequitur ergo conclusio. Per 
+      <lb ed="#S" n="103"/>idem patet quod perfectiones animae quaneumrad partem sensi 
+      <lb ed="#S" n="104"/>tiuam quae est totius coniuncti non possunt habere 
+       ra<lb ed="#S" break="no" n="105"/>tionem beatitudinis, quia sicut se habet sensus ad 
+       intel<lb ed="#S" break="no" n="106"/>lectum, sic se habet perfectio sensitiuae partis &amp; 
+       appeti<lb ed="#S" break="no" n="107"/>tus correspondentis ad perfectionem intellectus volunta 
+      <lb ed="#S" n="108"/>ris, sed in homine sensus est propter intellectum tanquam 
+       pro<lb ed="#S" break="no" n="109"/>pter aliquid melius &amp; nobilius: ergo perfectiones 
+       sensi<lb ed="#S" break="no" n="110"/>tiuae partis sunt propter perfectiones intellectiuae, tanquam 
+      <lb ed="#S" n="111"/>propter meliores: ergo in eis non potest consistere 
+       beati<lb ed="#S" break="no" n="112"/>tudo hominis. Ex quo sequitur quod cum pars intellectiua 
+      <lb ed="#S" n="113"/>prout distinguitur contra sensitiuam includat 
+       intelle<lb ed="#S" break="no" n="114"/>ctum &amp; voluntatem quibus nihilominus est in homine 
+      <lb ed="#S" n="115"/>quod beatitudo consistat in optima perfectione intellectus 
+      <lb ed="#S" n="116"/>vel voluntatis vel vtriusque simul.
+    </p>
+            <p xml:id="khj78y-r71915-d1e431" n="7">
+      <!-- 7 -->Quantum ad 
+       se<lb ed="#S" break="no" n="117"/>cundum de eductione beatitudinis sunt tres 
+       conclusio<lb ed="#S" break="no" n="118"/>nes.
+    </p>
+            <p xml:id="khj78y-r71915-d1e440" n="8">
+      <!-- 8 -->Prima, quod potentia passiua importat ordinem ad 
+      <lb ed="#S" n="119"/>actum &amp; ad potentiam actiuam: potest ergo dici 
+       poten<lb ed="#S" break="no" n="120"/>tia naturalis vel per comparationem ad actum, &amp; sic di 
+      <lb ed="#S" n="121"/>citur esse in potentia naturali ad aliquid quod cum eo 
+      <lb ed="#S" n="122"/>habet esse naturale, &amp; isto modo materia prima est in po 
+      <lb ed="#S" n="123"/>tentia naturali ad animam rationalem, sicut ad alias for 
+      <lb ed="#S" n="124"/>mas, quia esse humanum ita est esse naturale, sicut esse ani 
+      <lb ed="#S" n="125"/>malis alterius: imo magis, quia magis est de intentione na 
+      <lb ed="#S" n="126"/>turae: sed isto modo anima non est in potentia naturali 
+      <lb ed="#S" n="127"/>ad supernaturalia, qᷓdant sibi esse supernaturale &amp; non 
+      <lb ed="#S" n="128"/>naturale. secundo modo per comparationem ad 
+       poten<lb ed="#S" break="no" n="129"/>tiam actiuam: &amp; sic materia non est in potentia naturali 
+      <lb ed="#S" n="130"/>ad animam rationalem nec ad formas supernaturales: 
+      <lb ed="#S" n="131"/>sed solum ad illas quae per agens naturale possunt indu 
+      <lb ed="#S" n="132"/>ci. Tertio modo per conpassionem ad vtrunque : &amp; sic for 
+      <!--0533.xml-->
+      <pb ed="#S" n="533"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>mae reales immersae materiae praeexistunt in potentia mate 
+      <lb ed="#S" n="2"/>riae naturali: formae vero artificiales neutro modo, quia 
+      <lb ed="#S" n="3"/>nec dant esse naturale sed artificiale: nec sunt ab agente 
+      <lb ed="#S" n="4"/>naturali sed ab arte, possunt vero dici in potentia 
+       artifi<lb ed="#S" break="no" n="5"/>ciali, quia potentia denominat ab actu, similiter &amp; formae 
+      <lb ed="#S" n="6"/>supernaturales praeexistunt in potentia supernaturali, 
+      <lb ed="#S" n="7"/>non autem naturali.
+    </p>
+            <p xml:id="khj78y-r71915-d1e498" n="9">
+      <!-- 9 -->secunda conclusio est, quod aliud est 
+      <lb ed="#S" n="8"/>dicere formam praeexistere in potentia, aliud educi de 
+       po<lb ed="#S" break="no" n="9"/>tentia, quia formam praeexistere in potentia materiae, non in 
+      <lb ed="#S" n="10"/>clodit respectum ad potentiam actiuam: educi vero de poten 
+      <lb ed="#S" n="11"/>tia includit respectum ad potentiam actiuam. Iterum aliud 
+      <lb ed="#S" n="12"/>est formam praeexistere in potentia materiae, aliud est 
+       mate<lb ed="#S" break="no" n="13"/>riam esse in potentia ad formam. Forma enim quae dependet 
+      <lb ed="#S" n="14"/>a subiecto quantum ad esse &amp; operari, dicitur praeexistere in 
+      <lb ed="#S" n="15"/>potentia subiecti &amp; educi de potentia eius, &amp; non solum quod 
+      <lb ed="#S" n="16"/>subiectum sit in potentia ad ipsam: sed forma quae non de 
+      <lb ed="#S" n="17"/>pendet a subiecto in operari, nec per consequens in esse: 
+      <lb ed="#S" n="18"/>non dicitur praeexistere in potentia subiecti nec per 
+       con<lb ed="#S" break="no" n="19"/>sequens educi de potentia: nihil enim educit de illo in quo 
+      <lb ed="#S" n="20"/>non est: cum autem nihil praeexistat nisi in suis causis, &amp; vnum 
+      <lb ed="#S" n="21"/>quodque dependeat a suis causis: illa forma quae non dependet 
+      <lb ed="#S" n="22"/>in esse suo a materia, nec per consequens eam habet sibi pro 
+      <lb ed="#S" n="23"/>causa, non praeexistit in ea: vnde talis dicitur produci de 
+      <lb ed="#S" n="24"/>nihilo, non educi de potentia, nec obedientiali, nec natura 
+      <lb ed="#S" n="25"/>li, nec aliquali passiua, sed solum de potentia Dei actiue &amp; 
+      <lb ed="#S" n="26"/>de nihilo obiectiue, sicut anima rationalis quae creatur, 
+      <lb ed="#S" n="27"/>licet aliquid sit ad ipsam in potentia, sicut materia 
+       pri<lb ed="#S" break="no" n="28"/>ma, quod non est de angelo: visio igitur beatifica &amp; omnis 
+      <lb ed="#S" n="29"/>forma supernaturalis accidentalis praeexistitur in potentia 
+      <lb ed="#S" n="30"/>passiua subiecti, quia non potest esse sine illo sine miraculo: 
+      <lb ed="#S" n="31"/>item educitur per consequens de illa potentia non natura 
+      <lb ed="#S" n="32"/>li, sed obedientiali: &amp; praeexistit in potentia supernatura 
+      <lb ed="#S" n="33"/>li non naturali.
+    </p>
+            <p xml:id="khj78y-r71915-d1e559" n="10">
+      <!-- 10 -->Tertia conclusio est, quod per hoc 
+       refel<lb ed="#S" break="no" n="34"/>luntur duae contrariae opiniones. Prima quae dicit, quod non 
+      <lb ed="#S" n="35"/>educunt de aliqua potentia sed creantur &amp; de nihilo 
+       pro<lb ed="#S" break="no" n="36"/>ducuntur, quia sunt supernaturales, hoc enim falsum est. 
+      <lb ed="#S" n="37"/>Non enim ideo est forma supernaturalis quia est ab 
+       ex<lb ed="#S" break="no" n="38"/>trinseco, cum anima rationalis sit forma naturalis &amp; de 
+      <lb ed="#S" n="39"/>consideratione Physici quae tamen est ab extrinseco. Item 
+      <lb ed="#S" n="40"/>si non educerentur de aliqua potentia: sed ita essent ab 
+      <lb ed="#S" n="41"/>extrinseco tota liter sicut anima: haberent operationem 
+      <lb ed="#S" n="42"/>sine corruptione, &amp; possent separari naturaliter sicut 
+       a<lb ed="#S" break="no" n="43"/>nima, quod est falsum. similiter falsa est opinio quae di 
+      <lb ed="#S" n="44"/>cit, quod educuntur de potentia naturali, quia tunc darent 
+      <lb ed="#S" n="45"/>esse naturale &amp; ab agente naturali, sed de obedientiali.
+    </p>
+            <p xml:id="khj78y-r71915-d1e590">
+               <lb ed="#S" n="46"/>
+               <!--11 -->Quantum ad tertium de dotibus sunt tres 
+       conclu<lb ed="#S" break="no" n="47"/>siones. Prima quid est dos, &amp; vnde dicatur, &amp; cui conue 
+      <lb ed="#S" n="48"/>niat in generali. Est autem dos perpetuus ornatus animae 
+      <lb ed="#S" n="49"/>&amp; corporis iugiter in aeterna beatitudine perseuerans. 
+       Vn<lb ed="#S" break="no" n="50"/>de cum Christus sit sponsus animae: Trinitas autem sit 
+       pa<lb ed="#S" break="no" n="51"/>ter animae: ideo sicut a patre datur ei dos vt sit digna 
+      <lb ed="#S" n="52"/>sponsa. Cui autem conuenit: Dicendum, quod dos non 
+       con<lb ed="#S" break="no" n="53"/>uenit Christo secundum nomen, quia est sponsus &amp; non 
+      <lb ed="#S" n="54"/>sponsa etiam secundum humanitatem, quia sponsus &amp; 
+      <lb ed="#S" n="55"/>sponsa sunt duo supposita, sed perfectio dotis sibi 
+       excel<lb ed="#S" break="no" n="56"/>lentius conuenit: nec angelo conuenit secundum nomen, 
+      <lb ed="#S" n="57"/>quia non est sponsa, cum non conueniat in natura speci 
+      <lb ed="#S" n="58"/>ei, sed perfectio dotium spiritualium sic. sed large sicut 
+      <lb ed="#S" n="59"/>Christus dicitur caput Angelorum, sic dicitur sponsus 
+       ec<lb ed="#S" break="no" n="60"/>clesiae triumphantis.
+    </p>
+            <p xml:id="khj78y-r71915-d1e627" n="12">
+      <!-- 12 -->secunda conclusio est de do 
+      <lb ed="#S" n="61"/>tibus animae, communis assignatio est, quod dotes animae 
+      <lb ed="#S" n="62"/>sunt tres. Prima est visio, id est, lumen gloriae confortans 
+      <lb ed="#S" n="63"/>ad videndum. secunda dilectio vel fruitio, id est, 
+       chari<lb ed="#S" break="no" n="64"/>tas perfecta. Tertia compraehensio vel tentio quae 
+       respon<lb ed="#S" break="no" n="65"/>det tribus virtutibus Theologicis, nisi quod compraehensio 
+      <lb ed="#S" n="66"/>vel tentio non dicit aliquem habitum sicut spes: sed con- 
+      <!--0533.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="67"/>ditionem perpetuitatis: item tribus partibus imaginis, 
+      <lb ed="#S" n="68"/>item tribus viribus animae. Alia assignatio est magis 
+      <lb ed="#S" n="69"/>propria vt videtur, quae est visio, dilectio, &amp; fruitio, quia 
+      <lb ed="#S" n="70"/>compraehensio vel tentio est communis his tribus: sed 
+      <lb ed="#S" n="71"/>haec tria distincta sunt re vel ratione specifica. sed de 
+      <lb ed="#S" n="72"/>paraphernalibus quae sunt bona iuxta dotem dicta 
+       se<lb ed="#S" break="no" n="73"/>eundum hanc parabolam, videtur qui paraphernalia 
+       bea<lb ed="#S" n="74" break="no"/>torum sunt alia dona minus praecipua siue sint 
+       aureo<lb ed="#S" break="no" n="75"/>lae siue fructus, siue quaecunq, alia, vt laus, securitas, 
+       suffi<lb ed="#S" n="76" break="no"/>cientia, &amp; multa alia huiusmodi.
+    </p>
+            <p xml:id="khj78y-r71915-d1e671" n="13">
+      <!-- 13 -->Tertia 
+       conclu<lb ed="#S" break="no" n="77"/>sio est de dotibus corporis, de quibus dictum est. 44. 
+       Di<lb ed="#S" break="no" n="78"/>stin. Ad quarum tamen sufficientiam habendam 
+       scien<lb ed="#S" break="no" n="79"/>dum est, quod sicut in praesenti anima in corpus influit, &amp; 
+      <lb ed="#S" n="80"/>per illam influentiam corpus est coloratius &amp; 
+       durabili<lb ed="#S" break="no" n="81"/>us, virtuosius, agilius, quam cum anima separatur: ita &amp; 
+      <lb ed="#S" n="82"/>tunc erunt dotes quatuor corporis illis 
+       proportionabi<lb ed="#S" break="no" n="83"/>les. Et prima est impassibilitas: haec autem dos 
+       correspon<lb ed="#S" break="no" n="84"/>det durabilitati quam dat anima corpori: secunda dos 
+      <lb ed="#S" n="85"/>correspondens calori, est dos claritatis: tertia 
+       subtilita<lb ed="#S" break="no" n="86"/>tis respondet virtuositati: quarta agilitatis etiam 
+       secun<lb ed="#S" n="87" break="no"/>dum nomen correspondet agilitati naturali.
+    </p>
+            <p xml:id="khj78y-r71915-d1e700" n="14">
+      <!-- 14 -->
+       Quan<lb ed="#S" break="no" n="88"/>tum ad quartum de aureolis sunt quatuor 
+       conclusio<lb ed="#S" break="no" n="89"/>nes. Prima in generali. secunda in speciali de aureola 
+      <lb ed="#S" n="90"/>doctrinae. Tertia de aureola virginitatis. Quarta de 
+       au<lb ed="#S" n="91" break="no"/>reola martyrij.
+    </p>
+            <p xml:id="khj78y-r71915-d1e714" n="15">
+      <!-- 15 -->De aureolis in generali. Prima 
+       con<lb ed="#S" n="92" break="no"/>clusio est quid sit. Est autem gaudium quoddam de 
+       operi<lb ed="#S" n="93" break="no"/>bus a se factis quae habent rationem victoriae 
+       excellen<lb ed="#S" break="no" n="94"/>tis: vnde patet quod differt ab aurea, quae est gaudium 
+      <lb ed="#S" n="95"/>de Deo &amp; debetur victoriae communi: &amp; sicut illa in 
+       ani<lb ed="#S" n="96" break="no"/>ma est principaliter, sic &amp; istas sed per redundantiam in 
+      <lb ed="#S" n="97"/>corpore erit quaedam decentia &amp; pulchritudo 
+       singula<lb ed="#S" break="no" n="98"/>ris repraesentatiua aureolae, praedicatori in ore, 
+       virgini<lb ed="#S" break="no" n="99"/>bus in illa parte, martyribus in cicatricibus vel aliis 
+       par<lb ed="#S" n="100" break="no"/>tibus corporis secundum genus martyrij, vt statim ex 
+      <lb ed="#S" n="101"/>aspectu corporis sciatur qualis quisque fuit, virgo, 
+       mar<lb ed="#S" break="no" n="102"/>tyr, aut Doctor. sunt autem tres secundum tres animae 
+      <lb ed="#S" n="103"/>vires, &amp; tres victorias excellentes. Praeeminet 
+       simplici<lb ed="#S" break="no" n="104"/>ter aureola martyrum, post quam illa Doctorum: vt 
+       pa<lb ed="#S" break="no" n="105"/>tet in Catalogo sanctorum, quia in Litaniis ecclesia 
+       prae<lb ed="#S" n="106" break="no"/>fert martyres Doctoribus &amp; Doctores virginibus: vna 
+      <lb ed="#S" n="107"/>autem praefertur alij eiusdem speciei secundum 
+       excel<lb ed="#S" break="no" n="108"/>lentiam actus, vt qui acerbius martyrium, aut qui 
+       purio<lb ed="#S" break="no" n="109"/>rem virginitatem vitando occasiones, aut qui plures 
+       sal<lb ed="#S" n="110" break="no"/>uat praedicando, aut qui frequentius praedicat. Vnde 
+      <lb ed="#S" n="111"/>Paulus qui plus aliis laborauit dicit, De reliquo 
+       reposi<lb ed="#S" n="112" break="no"/>ta est mihi corona iustitiae &amp;c. Non competit autem 
+       Chri<lb ed="#S" n="113" break="no"/>sto proprie, quia nihil est id cui est simile, nec angelis, 
+      <lb ed="#S" n="114"/>quia in eis non est pugna, cum sint immortales &amp; 
+       incor<lb ed="#S" n="115" break="no"/>ruptibiles.
+    </p>
+            <p xml:id="khj78y-r71915-d1e771" n="16">
+      <!-- 16 -->secunda conclusio est in speciali de 
+       au<lb ed="#S" break="no" n="116"/>reola Doctorum, quod eis debetur secundum glos. Can. 
+      <lb ed="#S" n="117"/>vlti. Ephe. 1. &amp; Danie. 12. Qui ad iustitiam &amp;c. 
+       secun<lb ed="#S" break="no" n="118"/>do, quibus Doctoribus, quia non solum praelatis &amp; Ma 
+      <lb ed="#S" n="119"/>gistris in Theologia, sed aliis dum tamen missis, nec 
+       il<lb ed="#S" break="no" n="120"/>lis nisi actu praedicantibus. Tertio, cui doctrinae, quia de 
+      <lb ed="#S" n="121"/>pertinentibus ad salutem: vnde licet laudlabile vitaeque 
+      <lb ed="#S" n="122"/>hominum necessarium aduocationis officium maxime 
+      <lb ed="#S" n="123"/>a principibus praemiis oporteat remunerari. C. de aduo. 
+      <lb ed="#S" n="124"/>diuer. iudi. I. laudabile: non tamen habebunt aureolam: 
+      <lb ed="#S" n="125"/>&amp; idem de medicis, Philosophis, &amp; aliis: imo nec Theolo 
+      <lb ed="#S" n="126"/>gis dum philosophica docent, nisi prout his vtuntur ad 
+      <lb ed="#S" n="127"/>declarationem Theologiae: captiuantes omnem 
+       intelle<lb ed="#S" break="no" n="128"/>ctum in obsequium fidei: sicut Paulus etiam dictis 
+       poe<lb ed="#S" break="no" n="129"/>tarum vtitur praedicando. Quarto, de modo, quia siue scri 
+      <lb ed="#S" n="130"/>pto siue verbo, legendo vel praedicando, dum tamen pu 
+      <lb ed="#S" n="131"/>blice merentur eam: vnde mulier hanc aurcolam habere 
+      <lb ed="#S" n="132"/>non potest, cui praedicare non licet, nec fraternae corre- 
+      <!--0534.xml-->
+      <pb ed="#S" n="534"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ctioni debetur. Quinto de fine, quia si propter vanam 
+      <lb ed="#S" n="2"/>gloriam vel lucrum temporale verbum Dei adulterat, 
+      <lb ed="#S" n="3"/>recipit mercedem suam quam nec per poenitentiam 
+       re<lb ed="#S" break="no" n="4"/>cuperat, quia poenitentia non viuificat mortua: dicuntur 
+      <lb ed="#S" n="5"/>autem mortua non solum sine charitate facta, sed etiam 
+      <lb ed="#S" n="6"/>sine recta intentione, &amp; quaecunque non fuerunt a princi 
+      <lb ed="#S" n="7"/>pio meritoria.
+    </p>
+            <p xml:id="khj78y-r71915-d1e834" n="17">
+      <!-- 17 -->Tertia conclusio est de aureola vir 
+      <lb ed="#S" n="8"/>ginum. Primo, in generali quod debetur canticum nouum 
+      <lb ed="#S" n="9"/>non coniugatis nec viduis, sicut &amp; fructus centesimus 
+      <lb ed="#S" n="10"/>prae illis. Virginitas autem importat duo. scilicet mentis purita 
+      <lb ed="#S" n="11"/>tem &amp; carnis integritatem. In speciali autem beata 
+       Vir<lb ed="#S" break="no" n="12"/>go habet propter pugnam hostis: non autem Abel, quia 
+      <lb ed="#S" n="13"/>habuit propositum nubendi &amp; procreandi si vixisset, alio 
+      <lb ed="#S" n="14"/>quin peccasset nisi &amp; ipse spiritu sancto continuit: &amp; 
+       si<lb ed="#S" break="no" n="15"/>militer Ieremias de quo Hieronymus in Prologo super 
+      <lb ed="#S" n="16"/>eum, Virginitate sua Euangelicum virum Christi Eccle 
+      <lb ed="#S" n="17"/>siae dedicans consilio spiritus sancti, lege priuata 
+       conti<lb ed="#S" break="no" n="18"/>nens habet aureolam: non autem filia Iepte quae 
+       virgi<lb ed="#S" break="no" n="19"/>nitatem fleuit, Helyas autem sic. sed de oppressis si ex post 
+      <lb ed="#S" n="20"/>facto consentiant &amp; finaliter poeniteant, recuperant au 
+      <lb ed="#S" n="21"/>reolam, quia consensus sequens non potest esse actus prae 
+      <lb ed="#S" n="22"/>cedentis: vnde per carnis corruptionem solam non 
+       per<lb ed="#S" break="no" n="23"/>dit virginitatem: per consensum autem perdit sed recupera 
+      <lb ed="#S" n="24"/>biliter: sed quando ista duo simul concurrunt, tunc 
+       irre<lb ed="#S" break="no" n="25"/>cuperabiliter perditur. De eunuchis autem videtur quod in 
+      <lb ed="#S" n="26"/>nouo Testamento habeant illi qui nollent actum illum 
+      <lb ed="#S" n="27"/>exercere etiam si possent, nec illam potentiam vellent habe 
+      <lb ed="#S" n="28"/>re ad vsum: qui vero dolent de sua impotentia &amp; vellent 
+      <lb ed="#S" n="29"/>esse potentes ad hoc vt voluptates experirentur, non 
+       ha<lb ed="#S" break="no" n="30"/>bent. Primietiam qui minus habent de pugna quam alij: 
+       mi<lb ed="#S" break="no" n="31"/>nus habent de corona, habent talem aliqualem, quia est ex 
+      <lb ed="#S" n="32"/>cellens victoria secundu genus: vnde Nereus &amp; 
+       Achil<lb ed="#S" break="no" n="33"/>leus eunuchigum aureola martyrij habent etiam aureolam 
+      <lb ed="#S" n="34"/>virginitatis, quia verisimile est quod si potuissent nubere 
+       no<lb ed="#S" break="no" n="35"/>luissent, qui tam efficaciter Domicillae nuptias abiicere 
+      <lb ed="#S" n="36"/>suadebant: &amp; similiter Ioan. &amp; Pau. ad constantiam. sed 
+      <lb ed="#S" n="37"/>de eunuchis ve. Testa. secus est: vnde videtur quod Daniel 
+      <lb ed="#S" n="38"/>&amp; socij eunuchi non habent eam, quia illud propositum 
+      <lb ed="#S" n="39"/>non habebant, cum tunc non esset tempus virginitatis. 
+      <lb ed="#S" n="40"/>De pueris autem baptizatis videtur quod habeant perfectam, 
+      <lb ed="#S" n="41"/>quia licet non habeant virginitatem acquisitam, habent 
+      <lb ed="#S" n="42"/>tamen infusam, quia virtutes infusae sunt magis 
+       conne<lb ed="#S" break="no" n="43"/>xae quam acquisitae. Videtur autem absurdum quod aliquis 
+       ha<lb ed="#S" break="no" n="44"/>beat virtutem virginitatis, &amp; cum hoc integritatem 
+       car<lb ed="#S" break="no" n="45"/>nis sine proposito mentis actuali, &amp; non habeat 
+       aureo<lb ed="#S" break="no" n="46"/>lam quae magis respicit actum exteriorem quae interiorem. 
+      <lb ed="#S" n="47"/>Pueri autem habuerunt carnis integritatem licet non pro 
+      <lb ed="#S" n="48"/>positum mentis. sed dicendum quod virtus quae non est de 
+      <lb ed="#S" n="49"/>necessitate salutis non oportet quod infundatur cum aliis, 
+      <lb ed="#S" n="50"/>quia absurdum videtur quod virtus infusa sine peccato per 
+      <lb ed="#S" n="51"/>datur: vel dicendum quod aureola debetur actui non habi 
+      <lb ed="#S" n="52"/>tui nec priuationi: puer autem nullum actum habet, quia 
+      <lb ed="#S" n="53"/>carnis integritas in actus priuatione consistit·
+    </p>
+            <p xml:id="khj78y-r71915-d1e938" n="18">
+      <!-- 18 -->Quar 
+      <lb ed="#S" n="54"/>ta conclusio est de aureola martyrum ad quam tria 
+       re<lb ed="#S" break="no" n="55"/>quiruntur, poena, causa, &amp; voluntas, nam conditio vel 
+      <lb ed="#S" n="56"/>dispositio charitatis omnibus aurcolis est communis, quia 
+      <lb ed="#S" n="57"/>aureola supponit auream: debetur ergo solum propter 
+      <lb ed="#S" n="58"/>poenam mortis: vnde patet quod nec obedientibus solum de 
+      <lb ed="#S" n="59"/>betur, quamuis per obedientiam mactetur propria 
+       vo<lb ed="#S" break="no" n="60"/>luntas, etiam si duret obedientia vsque ad mortem, nec pau 
+      <lb ed="#S" n="61"/>peribus quamuis moriantur mundo, nec per poenitentiam 
+      <lb ed="#S" n="62"/>quamuis crucifigant caruem suam: nec beata Virgo 
+       quam<lb ed="#S" break="no" n="63"/>uis plus doluerit quam martyr eam habet, nec beatus Domi 
+      <lb ed="#S" n="64"/>nicus qui sitiebat martyrium, nec beatus Ioan. Euangeli 
+      <lb ed="#S" n="65"/>sta qui calicem passionis voluntarie bibit, nec pueri in 
+      <lb ed="#S" n="66"/>camino ignis, nec syluester qui non ex passionibus obi 
+      <!--0534.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="67"/>it, nec Lucretia quae se illicite interfecit: aliae sic, quae con 
+      <lb ed="#S" n="68"/>silio spiritus sancti ne corrumperentur se submerserunt, 
+      <lb ed="#S" n="69"/>de quibus dicit Aug. de ciuitate Dei, &amp; sampson &amp; Mac 
+      <lb ed="#S" n="70"/>chabaei, alias non, quia martyrium est circa mortem ab 
+      <lb ed="#S" n="71"/>alio illatam. si quis autem genus mortis sibi eligat vt bea 
+      <lb ed="#S" n="72"/>tus Petrus, qui petiuit vt versispedibus crucifigeretur, ne 
+      <lb ed="#S" n="73"/>simili poena seruus puniretur vt Dominus, non perdit. 
+      <lb ed="#S" n="74"/>si autem propter seipsum vt tolerabiliorem habeat 
+       per<lb ed="#S" break="no" n="75"/>dit, sicut dicit Hieronymus de seneca quem Nero 
+       occi<lb ed="#S" break="no" n="76"/>dit, quod fuisset martyr nisi genus mortis elegisset optione 
+      <lb ed="#S" n="77"/>data sibi: vt. scilicet in balneo vtroque brachio minueretur, &amp; sic 
+      <lb ed="#S" n="78"/>insensibiliter moreretur: propter quod tertio 
+       Dialogo<lb ed="#S" break="no" n="79"/>rum sanctus quidam occidendus a Longobardis mortis 
+      <lb ed="#S" n="80"/>optione sibi data, nullam eligere volunt, sed dixitse 
+       il<lb ed="#S" break="no" n="81"/>lam toleraturum quam Dominus permitteret, quem 
+       ta<lb ed="#S" break="no" n="82"/>men Dominus a morte eripuit. Nec refert vtrum mors 
+      <lb ed="#S" n="83"/>statim autpostea sequatur: dum tamen propter illud 
+       cau<lb ed="#S" break="no" n="84"/>setur vel acceleretur: vnde de mortuis in carcere vel in 
+      <lb ed="#S" n="85"/>exilio martyria aguntur, quia huiusmodi in cis mortes 
+      <lb ed="#S" n="86"/>accelerasse praesumuntur. si autem martyr suscitetur &amp; 
+      <lb ed="#S" n="87"/>iterum martyrizetur: certum est quod de vtraque morte 
+       gau<lb ed="#S" break="no" n="88"/>dium habebit &amp; duplicatum, vel materialiter vel virtua 
+      <lb ed="#S" n="89"/>liter: &amp; sic propter duas mortes, videtur beatus 
+       sebastia<lb ed="#S" break="no" n="90"/>nus duas aureolas martyrij habuisse, ad hoc, inquit, me 
+      <lb ed="#S" n="91"/>Dominus suscitare dignatus &amp;c. secundo, requiritur 
+      <lb ed="#S" n="92"/>causa, quia enim martyr testis est in causa fidei pro 
+       eccle<lb ed="#S" break="no" n="93"/>sia, pro quocumque articulo fidei, vel iure ecclesiae, aut 
+       qua<lb ed="#S" break="no" n="94"/>cunque virtute, quia virtutibus desponsatur ecclesia 
+       Chri<lb ed="#S" break="no" n="95"/>sto: moriatur, martyr est. Tertio requiritur voluntas, quia 
+      <lb ed="#S" n="96"/>si dormiens quis occidatur aut fugiens vel se defendes, 
+      <lb ed="#S" n="97"/>inuitus martyr non est: vnde <name xml:id="khj78y-r71915-Nd1e1042">Mauritius</name> cum sociis suis 
+      <lb ed="#S" n="98"/>arma proiecit vt fieret martyr. De innocentibus tamen 
+      <lb ed="#S" n="99"/>ecclesia sicut de martyribus solennizat: &amp; certum est quod 
+      <lb ed="#S" n="100"/>gaudium speciale habent de morte propter Christum 
+       su<lb ed="#S" break="no" n="101"/>scepta licet non electa: vnde non est completa ratio 
+       au<lb ed="#S" break="no" n="102"/>reolae. Qui autem cruce signati in bello hostium 
+       Chri<lb ed="#S" break="no" n="103"/>sti pugnando percunt, martyres fiunt, quia non se sed 
+       Chri<lb ed="#S" break="no" n="104"/>stum &amp; ecclesiam defendendo moriuntur: vnde mortem 
+      <lb ed="#S" n="105"/>non fugiunt.
+    </p>
+            <p xml:id="khj78y-r71915-d1e1062" n="19">
+      <!-- 19 -->Quantum ad quintum de fructibus 
+      <lb ed="#S" n="106"/>sunt tres conclusiones. Prima quid est fructus, quia 
+       fru<lb ed="#S" break="no" n="107"/>ctus prout distinguitur ab aurea &amp; aureola est praemium, 
+      <lb ed="#S" n="108"/>quod specialiter debet homini ex hoc quod ex semine 
+       ver<lb ed="#S" break="no" n="109"/>bi Dei in spiritualitatem consurgit extollendo carnem su 
+      <lb ed="#S" n="110"/>am: vnde aurea est gaudium de Deo, aureola de 
+       trium<lb ed="#S" break="no" n="111"/>motiustus tertiet aurt nt te telestute de purte te plrtoit 
+      <lb ed="#S" n="112"/>ter illi qui abdicauit a se carnalem affectum.
+    </p>
+            <p xml:id="khj78y-r71915-d1e1082" n="20">
+      <!-- 20 -->
+       secun<lb ed="#S" break="no" n="113"/>da conclusio est, cui virtuti fructus debeatur. Vbi dicunt 
+      <lb ed="#S" n="114"/>Doctores, quod sicut aureola non debetur cuilibet victoriae, 
+      <lb ed="#S" n="115"/>sed excellenti, &amp; in materia excellenti, sic &amp; fructus suo 
+      <lb ed="#S" n="116"/>modo, quia enim importat delectationem debitam 
+       sper<lb ed="#S" break="no" n="117"/>nenti delectationem: ideo debetur illi virtuti non quae 
+      <lb ed="#S" n="118"/>spernit minores delectationes, sicut gustus puta 
+       abstinen<lb ed="#S" break="no" n="119"/>tiae, sed quae spernit maiores. scilicet Venereas, sicut 
+       continen<lb ed="#S" break="no" n="120"/>tiae &amp; castitatis.
+    </p>
+            <p xml:id="khj78y-r71915-d1e1105" n="21">
+      <!-- 21 -->Tertia conclusio est de diuisione 
+      <lb ed="#S" n="121"/>fructuum, quia cum fructus debeatur continentiae, 
+       secun<lb ed="#S" n="122" break="no"/>dum diuersos modos continendi, sunt diuersi fructus. 
+      <lb ed="#S" n="123"/>Continenti enim continentia ad salutem, qua minor non 
+      <lb ed="#S" n="124"/>sufficit sicut est castitas coniugalis, debetur fructus. 30. 
+      <lb ed="#S" n="125"/>continenti vero continentia abundanti, secundum 
+       deter<lb ed="#S" break="no" n="126"/>minatum tempus, sicut est continentia vidualis quae 
+       ab<lb ed="#S" n="127" break="no"/>stinet a secundis nuptiis, debetur fructus. 6o. 
+       continen<lb ed="#S" break="no" n="128"/>ti autem simpliciter &amp; vniuersaliter quod est per 
+       perfectio<lb ed="#S" break="no" n="129"/>nem virginalem, debetur fructus centesimus. Et sicut ad 
+      <lb ed="#S" n="130"/>aureolam non sufficit votum seu propositum sine 
+       effe<lb ed="#S" break="no" n="131"/>ctu: sic nec ad fructum: vnde si quis incontinens in mor- 
+      <!--0535.xml-->
+      <pb ed="#S" n="535"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>te poeniteat cum proposito continenti, auream quidem 
+      <lb ed="#S" n="2"/>habet, sed non fructum. Qui vero corruptus peccato 
+       poe<lb ed="#S" n="3" break="no"/>nitens vixit sanus cum proposito continendi nisi 
+       matri<lb ed="#S" break="no" n="4"/>monialiter, fructum habet. 30. sed si cum proposito 
+       con<lb ed="#S" n="5" break="no"/>tinendi simpliciter, habet fructum. 50. Nam centesimum 
+      <lb ed="#S" n="6"/>habere non potest sicut nec aureolam, ex quo corde &amp; 
+       cor<lb ed="#S" n="7" break="no"/>pore semel corruptus est.
+    </p>
+            <p xml:id="khj78y-r71915-d1e1155" n="22">
+      <!-- 22 -->Ad argumentum 
+       dicen<lb ed="#S" break="no" n="8"/>dum, quod minor est falsa sicut probatum est in tertia 
+       con<lb ed="#S" break="no" n="9"/>clusione primi articuli: &amp; iterum probari potest, quia 
+      <lb ed="#S" n="10"/>cum beatitudo sit proprii hominis bonum in quo non 
+      <lb ed="#S" n="11"/>communicat cum brutis: homines autem cum brutis 
+       commu<lb ed="#S" break="no" n="12"/>nicant in bonis corporalibus: ergo in his bonis non 
+       consi<lb ed="#S" n="13" break="no"/>stit beatitudo. Nec valet prima probatio, quia bonum 
+      <lb ed="#S" n="14"/>communius est melius quam minus commune si sint eiusdem 
+      <lb ed="#S" n="15"/>rationis, sed si sint diuersarum rationum nihil prohibet 
+      <lb ed="#S" n="16"/>quod illud quod est proprium paucioribus, sit melius, quam illud 
+      <lb ed="#S" n="17"/>quod est commune pluribus: imo sic est necessarium, quia 
+       il<lb ed="#S" n="18" break="no"/>la in quibus perfectiora differunt ab imperfectioribus 
+      <lb ed="#S" n="19"/>oportet esse nobiliora, quae sint illa in quibus communicant 
+      <lb ed="#S" n="20"/>cum eis, quia ratione illorum in quibus communicant, vt 
+      <lb ed="#S" n="21"/>sic vnum non est perfectius altero, sed solum ratione 
+       illo<lb ed="#S" break="no" n="22"/>rum in quibus differunt. Perfectiones autem corporales &amp; 
+      <lb ed="#S" n="23"/>spirituales non sunt vnius rationis: &amp; ideo nihil 
+       prohi<lb ed="#S" break="no" n="24"/>bet perfectiones spirituales quae pautioribus 
+       conueni<lb ed="#S" break="no" n="25"/>unt esse nobiliores, quam perfectiones corporales quae 
+       con<lb ed="#S" break="no" n="26"/>ueniunt pluribus. secunda etiam probatio non valet, 
+      <lb ed="#S" n="27"/>quia licet beatitudo sit perfectio hominis: tn tamen 
+      <lb ed="#S" n="28"/>oportet quod sit perfectio eius secundum gotum quod 
+      <lb ed="#S" n="29"/>est in ipso: sed secundum id quod est nobilius &amp; 
+       perse<lb ed="#S" break="no" n="30"/>ctius: &amp; illud est anima secundum superiores eius 
+       poten<lb ed="#S" break="no" n="31"/>tias, quae sunt intellectus &amp; voluntas: &amp; ideo in 
+       perfectio<lb ed="#S" break="no" n="32"/>ne alicuius istarum potentiarum consistit beatitudo, &amp; 
+      <lb ed="#S" n="33"/>non in perfectione totius coniuncti immediate.
+    </p>
+            <p xml:id="khj78y-r71915-d1e1216" n="23">
+      <!-- 23 -->Ad 
+      <lb ed="#S" n="34"/>argumentum in contrarium solutio patet per secundum 
+      <lb ed="#S" n="35"/>articulum, quomodo huiusmodi supernaturalia 
+       educun<lb ed="#S" n="36" break="no"/>tur de potentia &amp; quomodo non. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

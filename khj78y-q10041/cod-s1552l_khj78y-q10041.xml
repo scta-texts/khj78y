@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="13"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q10041"><!-- l4d1-q4 -->
+            <head xml:id="khj78y-q10041-Hd1e101">Quaestio 4</head>
+            <head xml:id="khj78y-q10041-Hd1e103" type="question-title">
+     Utrum constent ex rebus, et verbis
+   </head>
+            <p xml:id="khj78y-q10041-d1e106">
+               <lb ed="#S" n="10"/>QVAESTIO QVARTA. 
+      <lb ed="#S" n="11"/>De constitutione sacramenti. 
+    </p>
+            <p xml:id="khj78y-q10041-d1e113">
+               <lb ed="#S" n="12"/>Thom. 3. q. 6o. art. 5. &amp;. 6. 
+    </p>
+            <p xml:id="khj78y-q10041-d1e118">
+               <lb ed="#S" n="13"/>QVARTO quaeritur de 
+       consti<lb ed="#S" break="no" n="14"/>tutione sacramentorum. Vtrum 
+      <lb ed="#S" n="15"/>constent ex rebus, &amp; verbis? Et 
+      <lb ed="#S" n="16"/>videtur, quod non, quia sacramenta 
+      <lb ed="#S" n="17"/>no. le. succedunt sacramentis 
+       ve<lb ed="#S" break="no" n="18"/>le. Illis enim ablatis, ista sunt 
+      <lb ed="#S" n="19"/>instituta, vt dicit Augu. contra 
+      <lb ed="#S" n="20"/>Faustum. 19. sed in sacramentis 
+      <lb ed="#S" n="21"/>ve. le. non requirebatur aliqua forma verborum, vt 
+       vide<lb ed="#S" break="no" n="22"/>tur. ergo nec in sacramentis no. le.
+    </p>
+            <p xml:id="khj78y-q10041-d1e143" n="2">
+      <!-- 2 -->Item in 
+       qui<lb ed="#S" break="no" n="23"/>busdam sacramentis sunt verba sine clementis corporalibus, 
+      <lb ed="#S" n="24"/>sicut in poenitentia, &amp; matrimonio. ergo similiter in 
+       ali<lb ed="#S" break="no" n="25"/>quibus sacramentis debent sufficere elementa, vel res cor. 
+      <lb ed="#S" n="26"/>porales sine verbis.
+    </p>
+            <p xml:id="khj78y-q10041-d1e156" n="3">
+      <!-- 3 -->IN Contrarium est, quod 
+      <lb ed="#S" n="27"/>dicit Aug. super Io. Homil. 80. Accedit verbum ad elemen 
+      <lb ed="#S" n="28"/>tum, &amp; fit sacramentum. Et Apost Ephesi. 5. Christus dile 
+      <lb ed="#S" n="29"/>xit ecclesiam, &amp; tradidit seipsum pro ea, vt illam sanctifica 
+      <lb ed="#S" n="30"/>ret, mundans eam lauacro aquae in verbo vitae,
+    </p>
+            <p xml:id="khj78y-q10041-d1e169" n="4">
+      <!-- 4 -->RE 
+      <lb ed="#S" n="31"/>sPONDEO, dicendu, quod circa hoc sunt duae opinio 
+      <lb ed="#S" n="32"/>nes.
+    </p>
+            <p xml:id="khj78y-q10041-d1e178" n="5">
+      <!-- 5 -->Prima est Tho. qui dicit, quod licet hoc sit con 
+      <lb ed="#S" n="33"/>mune omnibus sacramentis, quod consistant in raebus 
+       sensibi<lb ed="#S" break="no" n="34"/>libus, inuisibilem gratiam significantibus, hoc est speciale 
+      <lb ed="#S" n="35"/>sacramentis no. lc. quod rebus verba adilatur, propter tres ra 
+      <lb ed="#S" n="36"/>tiones.
+    </p>
+            <p xml:id="khj78y-q10041-d1e191" n="6">
+      <!-- 6 -->Prima est, quia haec sacramenta non solum 
+      <lb ed="#S" n="37"/>significant opus redemptionis, quae per Christu est facta, si 
+      <lb ed="#S" n="38"/>cut alia sacramenta, sed ab ipsa Christi passione fluxerut, 
+      <lb ed="#S" n="39"/>Et ideo sicut essectus proximi habent suae causae 
+       imagi<lb ed="#S" break="no" n="40"/>nem quantu possunt, vt. scilicet ex rebus, &amp; verbis consistant, 
+      <lb ed="#S" n="41"/>sicut Christus ex verbo, &amp; carne.
+    </p>
+            <p xml:id="khj78y-q10041-d1e207" n="7">
+      <!-- 7 -->secunda 
+       ra<lb ed="#S" break="no" n="42"/>tio est, quia non solu sunt signa futurorum, sicut sacramen 
+      <lb ed="#S" n="43"/>ta ve. le. sed praesentium, &amp; praeteritorum, vt dictum est, quae 
+      <lb ed="#S" n="44"/>possunt expressius significari, quam futura. sicut &amp; 
+       cer<lb ed="#S" break="no" n="45"/>tius cognosci. Et ideo significatio verborum, quae est 
+       ex<lb ed="#S" break="no" n="46"/>pressiua adiugitur significationi rerum.
+    </p>
+            <p xml:id="khj78y-q10041-d1e224" n="8">
+      <!-- 8 -->Tertia 
+      <lb ed="#S" n="47"/>ratio est, quia gratiam continent ex sanctificatione, quae fit 
+      <lb ed="#S" n="48"/>per verbum Dei, vt dictum est.
+    </p>
+            <p xml:id="khj78y-q10041-d1e233" n="9">
+      <!-- 9 -->sECVNDA 
+      <lb ed="#S" n="49"/>opinio habet tria mebra.
+    </p>
+            <p xml:id="khj78y-q10041-d1e240" n="10">
+      <!-- 10 -->Primum, quod omnia 
+       sa<lb ed="#S" break="no" n="50"/>cramenta no. le. consistunt in verbis.
+    </p>
+            <p xml:id="khj78y-q10041-d1e247" n="11">
+      <!-- 11 -->
+       secun<lb ed="#S" break="no" n="51"/>dum, quod non omnia consistunt in rebus, &amp; verbis: sed solum 
+      <lb ed="#S" n="52"/>illa, quae conferunt sanctitatem, &amp; vltra hoc mancipant ho 
+      <lb ed="#S" n="53"/>minem ad aliquid sacrum: vt baptismus, ordo, confirmatio, 
+      <lb ed="#S" n="54"/>extrema vnctio: vel saltem consistunt in materiae 
+       consecra<lb ed="#S" break="no" n="55"/>tione, vt eucharistia. Et ratio horum est, quia perfectiora sa 
+      <lb ed="#S" n="56"/>cramenta debent esse perfectiora in significando. Et ideo quia 
+      <lb ed="#S" n="57"/>ista sunt perfectiora, vltra verba debent habere res, vt per 
+      <lb ed="#S" n="58"/>fectius significent. Non sic alia. scilicet poenitentia, 
+       matrimo<lb ed="#S" break="no" n="59"/>nium.
+    </p>
+            <p xml:id="khj78y-q10041-d1e271" n="12">
+      <!-- 12 -->Tertium membrum est, quod sacramenta ve, 
+      <lb ed="#S" n="60"/>le. consistant solu in rebus sine verbis. Et ratio patebit 
+      <lb ed="#S" n="61"/>in solutione primi argumenti.
+    </p>
+            <p xml:id="khj78y-q10041-d1e280" n="13">
+      <!-- 13 -->Haec opinio quam 
+      <lb ed="#S" n="62"/>tum ad primum, &amp; secundum  membrum concordat cum pri- 
+      <!--0013.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="63"/>ma opinione, sed quantum ad secundum memuum patitur 
+      <lb ed="#S" n="64"/>calumniam.
+    </p>
+            <p xml:id="khj78y-q10041-d1e297" n="14">
+      <!-- 14 -->Primo, quod extrema vnctiemamcipet 
+      <lb ed="#S" n="65"/>ad aliquod sacrum, quia tunc imprimeret char. sterem.
+    </p>
+            <p xml:id="khj78y-q10041-d1e304" n="15">
+               <lb ed="#S" n="66"/>
+               <!--15--> secundo, quia cum ratione sacramenti no, Ic. t ver 
+      <lb ed="#S" n="67"/>bum, &amp; elementu, prout ex opposito distinguuntur 
+       se<lb ed="#S" break="no" n="68"/>cundu illud Aug. Accedit verbum ad clementum, &amp; fit 
+       a<lb ed="#S" break="no" n="69"/>cramentum. ergo omno sacramentum no. le. habet vtrunque. 
+    </p>
+            <p xml:id="khj78y-q10041-d1e317" n="16">
+               <lb ed="#S" n="70"/>
+               <!-- 16 -->Et ideo dicendum, quod sicut in illis, vbi est res distin 
+      <lb ed="#S" n="71"/>cta euidenter, non est ipsa ibi vniuoce: quia in aliquibus 
+      <lb ed="#S" n="72"/>est sanctificata, vt in confirmatione, &amp; extrema 
+       vnctio<lb ed="#S" break="no" n="73"/>ne, in aliquibus non sanctificata, vt in baptismo, &amp; 
+       or<lb ed="#S" break="no" n="74"/>dine, &amp; eucharistia: sic nec in aliis oportet, quod sit 
+       vniuo<lb ed="#S" break="no" n="75"/>ce: quia in poenitentia pro materia est actus suscipientis non 
+      <lb ed="#S" n="76"/>aliquid a ministrante exhibitum. In mutrimonio autem idem 
+      <lb ed="#S" n="77"/>est materia, in qua, &amp; ex qua personae. scilicet suscipientes: nisi 
+      <lb ed="#S" n="78"/>quis dicat consensum: vnum esse materiale respectu 
+       alte<lb ed="#S" break="no" n="79"/>rius, quia vltimus est quasi forma complens, vt in 
+       nume<lb ed="#S" break="no" n="80"/>ris vltima vnitas.
+    </p>
+            <p xml:id="khj78y-q10041-d1e346" n="17">
+      <!-- 17 -->sclendu etiam, quod licet in sa 
+      <lb ed="#S" n="81"/>cramentis ve. le. sint res solae: &amp; non verba, in quo 
+       defi<lb ed="#S" break="no" n="82"/>ciunt a sacramentis verbi incarnati: tamen sicut res non est 
+      <lb ed="#S" n="83"/>vniuoce in omnibus sacramentis no. le. sic nec verba sunt 
+      <lb ed="#S" n="84"/>ibi vniuoce: quia in quibusdam requiruntur verba, vt verba, 
+      <lb ed="#S" n="85"/>quia sunt pro forma: quia sine eis nihil actum est, vt in ba 
+      <lb ed="#S" n="86"/>prismo, confirmatione, eucharistia, ordine, extrema 
+       vn<lb ed="#S" break="no" n="87"/>ctione, &amp; in poenitentia quo ad absolutionem, quae est 
+       for<lb ed="#S" break="no" n="88"/>ma: nam confessio scripto, vel nutu fieri potest, sicut &amp; per 
+      <lb ed="#S" n="89"/>interpretem. In matrimonio autem requiruntur verba solum, 
+      <lb ed="#S" n="90"/>vt sunt significatiua. Vnde si loco verborum sint nutus, 
+      <lb ed="#S" n="91"/>vel epistolae sufficit: non solum in mutis, vel verecundis: 
+      <lb ed="#S" n="92"/>sed etiam in aliis, quia ex quo consensus est principalis causa 
+      <lb ed="#S" n="93"/>sufficit qualiscumque expressio.
+    </p>
+            <p xml:id="khj78y-q10041-d1e379" n="18">
+      <!-- 18 -->Vtrum autem mu 
+      <lb ed="#S" n="94"/>tuus consensus cum carnali copula sine alio signo sufficiat: 
+      <lb ed="#S" n="95"/>videtur quod non, quia debet exprimi per signa ordinata ad 
+      <lb ed="#S" n="96"/>&amp; pressionem consensus, siue praecedentia, vt in sponsalibus 
+      <lb ed="#S" n="97"/>de futuro carnali copula subsequuta affectu maritali, 
+      <lb ed="#S" n="98"/>vel subsequentia: quod non est hic. Ad hoc enim datus 
+      <lb ed="#S" n="99"/>est nobis sormo, vt praesto fiant mutuae voluntatis indicla. 
+    </p>
+            <p xml:id="khj78y-q10041-d1e397" n="19">
+               <lb ed="#S" n="100"/>
+               <!-- 19 -->Ad primum dicendum, quod non est simile de sacramen 
+      <lb ed="#S" n="101"/>ris no. &amp; ve. le. quia sicut lex vetus fuit sigura, &amp; vmbra 
+      <lb ed="#S" n="102"/>nouae, sic sacramenta ve. le. fuerunt vmbra, &amp; sigura 
+       sacra<lb ed="#S" break="no" n="103"/>mentorum no. le. vt dicit Hugo lib. 1. parte. 2. cap. 1. sed 
+      <lb ed="#S" n="104"/>obscuritas representationis magis sit per signa, vel per 
+      <lb ed="#S" n="105"/>res sensibiles, quam per voces, quae inter signa obtinent 
+      <lb ed="#S" n="106"/>principatum secundum Aug. Quare rationabile fuit, vt 
+       sa<lb ed="#S" break="no" n="107"/>crameta ue. le. consisterent in rebus absque verbis, Nec 
+       re<lb ed="#S" break="no" n="108"/>colo, quod in aliquo vterentur verbis excepto sacrificio zolo 
+      <lb ed="#S" n="109"/>typiae, de quo habetur numerorum. 5. cap. Cuius forte 
+       ra<lb ed="#S" n="110" break="no"/>tio fuit: quia non tam fiebunt ad significandum futura, sicut 
+      <lb ed="#S" n="111"/>ad exhibendum aliqua praesentia, non quidem spiritualia, vt 
+      <lb ed="#S" n="112"/>sacramenta no. le. sed corporalia, quae significantur per ver 
+      <lb ed="#S" n="113"/>ba ibidem expressa, verumtamen in orationibus, benedictio 
+      <lb ed="#S" n="114"/>nibus, &amp; gratiarum actionibus, erat vsus verborum in ve. le. 
+      <lb ed="#S" n="115"/>sicut noua propter cande rationem.
+    </p>
+            <p xml:id="khj78y-q10041-d1e437" n="20">
+      <!-- 20 -->Ad 
+       secun<lb ed="#S" break="no" n="116"/>dum dicendum, quod matrimonium, secundum quod est in officium, 
+      <lb ed="#S" n="117"/>&amp; poenitentia secundu quod est virtus, non habent aliquam 
+      <lb ed="#S" n="118"/>formam verborum: sed vtrunque secundum quod est 
+       sacramen<lb ed="#S" break="no" n="119"/>tum in dispensatione ministrorum ecclesiae consistens 
+       ha<lb ed="#S" break="no" n="120"/>bet verba aliqua: sicut in matrimonio sunt verba 
+       ex<lb ed="#S" break="no" n="121"/>primentia consensum, &amp; iterum benedictiones ab 
+       ec<lb ed="#S" n="122" break="no"/>clesia institutae. In poenitentia autem est absolutio 
+       sa<lb ed="#S" break="no" n="123"/>cerdotis verbotenus facta. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

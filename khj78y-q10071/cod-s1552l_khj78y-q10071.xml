@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="20"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q10071"><!-- l4d2-q1 -->
+            <head xml:id="khj78y-q10071-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-q10071-Hd1e103" type="question-title">
+     De institutione sacramentorum novae legis an sint a Christo instituta
+   </head>
+            <p xml:id="khj78y-q10071-d1e106">
+               <lb ed="#S" n="133"/>DISTINCTIO. 2. QVAESTIO. I. 
+      <!--0021.xml-->
+      <pb ed="#S" n="21"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>CIrca secundam distinctionem quaeruntur tria. 
+       Pri<lb ed="#S" break="no" n="2"/>mo de institutione sacramentorum novae legis secundo de 
+      <lb ed="#S" n="3"/>baptismo Ioannis. Tertio, ae gratia sacramentali.
+      <lb ed="#S" n="4"/>
+               <!-- coord error in coord file here -->De institutione sacramentorum.
+    </p>
+            <p xml:id="khj78y-q10071-d1e128">
+               <lb ed="#S" n="5"/>Thom. 3. q. 64. art. 2 &amp;. q. a8. art. I. &amp;. 2. 
+    </p>
+            <p xml:id="khj78y-q10071-d1e133">
+               <lb ed="#S" n="6"/>QVAERITVR Ergo primo, 
+      <lb ed="#S" n="7"/>de institutione sacramentorum novae 
+      <lb ed="#S" n="8"/>legis an sint a Christo instituta? 
+      <lb ed="#S" n="9"/>Et videtur, quod non, quia ministri 
+      <lb ed="#S" n="10"/>legis gratiae sunt digniores, quam 
+      <lb ed="#S" n="11"/>sacerdos, siue ministri legis 
+       na<lb ed="#S" break="no" n="12"/>turae, quia illi sine consecratione 
+      <lb ed="#S" n="13"/>iure primogeniturae hoc 
+       habe<lb ed="#S" break="no" n="14"/>bant: hi autem per veru sacim fiunt, sed illi ad libitu 
+       institue<lb ed="#S" break="no" n="15"/>bant sacramenta. ergo multo magis sacerdotes nouae legis 
+    </p>
+            <p xml:id="khj78y-q10071-d1e158" n="3">
+               <lb ed="#S" n="16"/>
+               <!-- 3 -->CONTRA, quia sacramenta no. le. sunt digniora sacramentis 
+      <lb ed="#S" n="17"/>ve. le. quia illa erant inania, &amp; ministra mortis: sed ipsa 
+       fue<lb ed="#S" break="no" n="18"/>runt a Deo indicante instituta, &amp; scripta primo, licet 
+       po<lb ed="#S" break="no" n="19"/>stea scripta a Moyse, sicut &amp; tota lex ministrata per 
+       an<lb ed="#S" break="no" n="20"/>gelos. ergo multo magis sacramenta gratiae.
+    </p>
+            <p xml:id="khj78y-q10071-d1e174" n="4">
+      <!-- 4 -->
+       REsPON<lb ed="#S" break="no" n="21"/>DEO, circa hanc quaestionem tria sunt videnda: primo, quando 
+      <lb ed="#S" n="22"/>sacramenta novae legis fuerunt instituta. secundo a quo fuerunt 
+       insti<lb ed="#S" break="no" n="23"/>tuta. Tertio quis possit ea instituere.
+    </p>
+            <p xml:id="khj78y-q10071-d1e185" n="5">
+      <!-- 5 -->Circa 
+       pri<lb ed="#S" break="no" n="24"/>mum sunt tres conclusiones. Prima de institutione 
+       ipso<lb ed="#S" break="no" n="25"/>rum quantum ad vinculum, &amp; ligamem, vel obligationi, quae 
+      <lb ed="#S" n="26"/>coepit in passione, non ante, nec tardius, puta, quod baptismus 
+      <lb ed="#S" n="27"/>&amp; poenitia quae sunt sacramenta nece ssitatis, fuerut in praecepto Christo 
+      <lb ed="#S" n="28"/>mortuo: ita, quod ante mortem Christi non tenebatur aliquis ad 
+       ba<lb ed="#S" break="no" n="29"/>ptismum, &amp; poenitiam, sed sufficiebat ad salutem circuncisio contra 
+      <lb ed="#S" n="30"/>originale, &amp; poenitia secundum  ritum illius temporis sine confessione, 
+      <lb ed="#S" n="31"/>puta, quod offerret hircum, vel capram, &amp; huiusmodi, sicut in 
+       le<lb ed="#S" break="no" n="32"/>ge erat praeceptum, quia quando vnu remedium sufficit ad salutem, 
+      <lb ed="#S" n="33"/>quod  est in praecepto, non debet homo cum illo ad aliud obligari: 
+      <lb ed="#S" n="34"/>maxime obligatione no. le. quae non est in onus. si enim 
+       ho<lb ed="#S" break="no" n="35"/>mo habet originale, &amp; mortale actuale non tenetur ipse 
+       ba<lb ed="#S" break="no" n="36"/>ptizari contra originale, &amp; cu hoc confiteri de actuali 
+       mor<lb ed="#S" break="no" n="37"/>tali, sed pro vtroque sufficit baptizari. Vnde cum ante mortem 
+      <lb ed="#S" n="38"/>Christi habes actuale, mortale esset obligatus ad puntiam illius 
+      <lb ed="#S" n="39"/>temporis, si erat Iudaeus secundum legem scriptam, si alius secundum  
+      <lb ed="#S" n="40"/>legem naturae, &amp; si erat in originali, tenebatur circucidi, vel 
+      <lb ed="#S" n="41"/>alio modo si alius: quia vsque ad passionem omnia sacramenta dura 
+      <lb ed="#S" n="42"/>bant, &amp; obligabant, &amp; valebant, sicut prius, quia ante mortem 
+      <lb ed="#S" n="43"/>Christi nec circuncisio Christi soluit obligationem 
+       circun<lb ed="#S" break="no" n="44"/>cisionis, nec aliam obligationem pro tunc. ideo ad sacramenta novae 
+      <lb ed="#S" n="45"/>legis pro tunc nullus tenebat, nec erat in praecepto, sed in 
+       consi<lb ed="#S" break="no" n="46"/>lio.
+    </p>
+            <p xml:id="khj78y-q10071-d1e240" n="6">
+      <!-- 6 -->Quod autem dictum fuit: Nisi quis renatus 
+       fue<lb ed="#S" break="no" n="47"/>rit &amp;c. &amp; Nisi pntiam egeritis, omnes simul peribitis. intelli 
+      <lb ed="#S" n="48"/>gendum est pro tempore passionis. Post passionem autem statim 
+      <lb ed="#S" n="49"/>quod innotuit, vel culpa non sciendi fuit eorum obligatio 
+       coe<lb ed="#S" break="no" n="50"/>pit, quia tunc obligatio legalium, &amp; etiam virtus cessauit, &amp; 
+      <lb ed="#S" n="51"/>sola remedia legis gratiae, quae sola sufficiebant ligare 
+       coepe<lb ed="#S" break="no" n="52"/>runt non solum gentiles, sed etiam Iudaeos. Nam circuncisus an 
+      <lb ed="#S" n="53"/>te mortem Christi, nihilominus postea debuit baptizari, 
+      <lb ed="#S" n="54"/>vt Paulus si voluit saluari. Et similiter quamuis de 
+       pecca<lb ed="#S" break="no" n="55"/>tis suis prius satisfecisset sufficienter secundum  legem suam: tamen si 
+      <lb ed="#S" n="56"/>mortalia erant, confiteri tenebatur post passionem, quia sic 
+      <lb ed="#S" n="57"/>est necessaria confessio contra actuale mortale: sicut baptis 
+      <lb ed="#S" n="58"/>mus contra originale, sed quamuis esset deletum originale per 
+      <lb ed="#S" n="59"/>circucisionem, nihilominus erat aliquis baptizandus. ergo 
+      <lb ed="#S" n="60"/>pari ratione de confessione respectu actualium, nisi de illis 
+      <lb ed="#S" n="61"/>quibus Christus proprio ore, &amp; per se peccata remisit, sicut 
+      <lb ed="#S" n="62"/>paralitico, &amp; Magdalenae, &amp; Lacheo, quia enim summus sa 
+      <lb ed="#S" n="63"/>cerdos eos absoluerat, sufficiebat. Et sic tenetur quis bis sa- 
+      <!--0021.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>tisfacere pro eodem peccato in tali casu, quod tamen est 
+       du<lb ed="#S" break="no" n="65"/>bium. Et verius videtur contrarium, quia Deus non iudicabit 
+      <lb ed="#S" n="66"/>bis in idipsum, nec consurget duplex tribulatio. Nec est 
+      <lb ed="#S" n="67"/>simile de baptismo, qui propter Characterem etiam sanctifica 
+      <lb ed="#S" n="68"/>tis in vtero exhibit, vt induant Dominum Iesum Christum, &amp; 
+      <lb ed="#S" n="69"/>membris caeteris conformentur, sicut Achior, &amp; alij 
+       proseli<lb ed="#S" break="no" n="70"/>ti volentes annumerari populo Iudaeorum, circuncidebantur 
+      <lb ed="#S" n="71"/>quamuis esset eis originale dimissum per remedium aliud. 
+      <lb ed="#S" n="72"/>sed de peccatis, pro quibus suoritu satisfecerant, non 
+      <lb ed="#S" n="73"/>oportebat amplius oblationes facere iuxta legem. Et pa 
+      <lb ed="#S" n="74"/>ri rartione  videi, quod ille, qui ante passionem Christi sufficienter 
+      <lb ed="#S" n="75"/>satisfecerat de peccato actuali secundum ritum sacramenti, tunc con 
+      <lb ed="#S" n="76"/>currentis non tenebatur post pationem Christi confiteri. 
+    </p>
+            <p xml:id="khj78y-q10071-d1e314" n="7">
+               <lb ed="#S" n="77"/>
+               <!-- 7 -->Secunda conclusio est de institutione quantum ad 
+      <lb ed="#S" n="78"/>documentum, &amp; exercituum, quod non debuit esse ante tempus 
+      <lb ed="#S" n="79"/>gratiae, cum sint sacramenta gratiae, &amp; plena pro tempore 
+       ple<lb ed="#S" break="no" n="80"/>nitudinis reseruata. Tempus autem gratiae quod ad inchoa 
+      <lb ed="#S" n="81"/>tionem fuit in incarnatione, per praesentiam gratiae in 
+       mun<lb ed="#S" break="no" n="82"/>do: maxime in natiuitate. sed ante quam deceret docere: non 
+      <lb ed="#S" n="83"/>decebat eum sacramenta instituere, quae ad doctrinam pertinent. 
+      <lb ed="#S" n="84"/>Vnde tempus gratiae quo ad diffusionem coepit in eius prae 
+      <lb ed="#S" n="85"/>dicatione, &amp; tunc debuit ea instituere, quod &amp; fecit. 
+       Ba<lb ed="#S" break="no" n="86"/>ptismus enim, licet quo ad materiam fuerit institutus, quando 
+      <lb ed="#S" n="87"/>tactu suae mundissimae carnis vim contulit aquis, non tamen 
+      <lb ed="#S" n="88"/>perfecte, nec quo ad formam quousque apostolos misit ad 
+       ba<lb ed="#S" break="no" n="89"/>ptizandum. Omnia quidem sacra quo ad substantialia 
+       prae<lb ed="#S" break="no" n="90"/>dicando apostolos docuit, qui baptismo vsi sunt diu, 
+       an<lb ed="#S" break="no" n="91"/>te passionem, &amp; forte vnctione, &amp; eucharistia in coena, &amp; 
+      <lb ed="#S" n="92"/>ordinati sunt. Caeteris autem vsi sunt post ascentionem, &amp; 
+      <lb ed="#S" n="93"/>spiritus sancti missionem.
+    </p>
+            <p xml:id="khj78y-q10071-d1e356" n="8">
+      <!-- 8 -->Tertia conclusio est quo 
+      <lb ed="#S" n="94"/>ad effectum, quia ex eodem tempore, ex quo completae ea instituit 
+      <lb ed="#S" n="95"/>ex illo perfectum effectum habuerunt. Nec est verissimile 
+      <lb ed="#S" n="96"/>ipsum pro illo tempore instituisse sacramenta, pro quo essent in 
+      <lb ed="#S" n="97"/>ania. Vnde simul legalia cum Euangelicis cucurrerunt a 
+      <lb ed="#S" n="98"/>tempore publicae praedicationis Christi vsque ad passionem, 
+      <lb ed="#S" n="99"/>&amp; vtraque ad salutem volebant. scilicet legalia quantum vnquam 
+      <lb ed="#S" n="100"/>ante, &amp; Euangelica tantum, quantum post, propter quod ba 
+      <lb ed="#S" n="101"/>ptizatus ab apostolis tunc, non erat rebaptizandus post 
+      <lb ed="#S" n="102"/>Christi mortem, quia idem baptisma suscipiebat quo ad 
+      <lb ed="#S" n="103"/>essentialia, puta materiam, &amp; forma: &amp; per consequens 
+       ef<lb ed="#S" break="no" n="104"/>fectu. scilicet characteris, &amp; per consequens gratiae cum sit dispo 
+      <lb ed="#S" n="105"/>sitio necessitans, licet non aperuisset coelum ante passionem 
+      <lb ed="#S" n="106"/>Christi. sed tunc sacramenta Euangelica erant voluntatis, &amp; 
+      <lb ed="#S" n="107"/>non necessitatis, puta baptismus, &amp; poenitentia: &amp; cadebant 
+      <lb ed="#S" n="108"/>sub consilio, &amp; non sub pcepto, quia adhuc legalia erant 
+      <lb ed="#S" n="109"/>sub praecepto, sicut prius erant necessitatis, vt dictum est 
+      <lb ed="#S" n="110"/>in prima conclusione.
+    </p>
+            <p xml:id="khj78y-q10071-d1e399" n="9">
+      <!-- 9 -->sed &amp; contra hoc 
+       vide<lb ed="#S" break="no" n="111"/>tur, quia sacramenta Euangelica habent effectum ex passione 
+      <lb ed="#S" n="112"/>Christi. ergo non ante, quia effectus non praecedit suam 
+      <lb ed="#S" n="113"/>causam.
+    </p>
+            <p xml:id="khj78y-q10071-d1e410" n="10">
+      <!-- 10 -->Dicendum, quod ex passione Christi. i. ex me 
+      <lb ed="#S" n="114"/>rito Christi, quod inchoatum est in conceptione, licet com 
+      <lb ed="#S" n="115"/>summatu in passione quicquid autem Christus meruit in 
+       pas<lb ed="#S" break="no" n="116"/>sione, iam meruerat in primo instanti suae conceptionis. 
+      <lb ed="#S" n="117"/>Vnde ex tunc, quando etiam elegerat pro obedientia Dei pati in 
+      <lb ed="#S" n="118"/>coeperat meritum passionis, &amp; per consequens effectus. 
+    </p>
+            <p xml:id="khj78y-q10071-d1e426" n="11">
+               <lb ed="#S" n="119"/>
+               <!-- 11 -->Vel posset dici, quod ad meritum Christi nihil 
+       addi<lb ed="#S" break="no" n="120"/>dit passio, sed ad satisfactionem: ita, quod quantum ad remissio 
+      <lb ed="#S" n="121"/>nem culpae, &amp; infusionem gratiae sacramenta tantum effectu habuerut: ex 
+      <lb ed="#S" n="122"/>quo erant a Christo instituta ante passionem quantum post, sed 
+      <lb ed="#S" n="123"/>quo ad remissionem poenae totalis, plus post, quam ante, quia 
+       tem<lb ed="#S" break="no" n="124"/>pus gratiae tunc consummatum est.
+    </p>
+            <p xml:id="khj78y-q10071-d1e444" n="12">
+      <!-- 12 -->Dico autem cau 
+      <lb ed="#S" n="125"/>saliter, non formaliter, quia formaliter in die Penthecostes, &amp; 
+      <lb ed="#S" n="126"/>quotidie tempus gratiae consummatur: imo nec nunc, sed in 
+       re<lb ed="#S" break="no" n="127"/>surrectione erit hoc modo consummatu, sed causaliter, quia 
+      <lb ed="#S" n="128"/>factum fuit pro merito, &amp; causa gratiae quicquid faciendum erat 
+      <lb ed="#S" n="129"/>Christi morte.
+    </p>
+            <p xml:id="khj78y-q10071-d1e460" n="13">
+      <!-- 13 -->Vel dicendum, &amp; verius quod passio 
+      <lb ed="#S" n="130"/>Christi addidit ad meritum, &amp; ad satisfactionem. sed sicut ba- 
+      <!--0022.xml-->
+      <pb ed="#S" n="22"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ptisinus recedente fictione habet effectum, quem prius 
+       habuis<lb ed="#S" break="no" n="2"/>set, sic baptismus sequuta morte Christi incepit habere 
+      <lb ed="#S" n="3"/>illum ampliorem effectum, quem habuisset, si passio praecessisset. 
+    </p>
+            <p xml:id="khj78y-q10071-d1e480" n="14">
+               <lb ed="#S" n="4"/>
+               <!-- 14 -->sECVNDVs articulus est a quo fuerunt in 
+      <lb ed="#S" n="5"/>stituta. Vbi est prima conclusio, quod omnia a Christo imme 
+      <lb ed="#S" n="6"/>diate, licet non promulgata, nisi quae erant necessitatis, vt sa 
+      <lb ed="#S" n="7"/>cramentum intrantium. s: baptismus bene dixit: Nisi quis re 
+      <lb ed="#S" n="8"/>natus fuerit ex aqua, &amp; spiritu &amp;c. &amp; sacramentum redeum 
+      <lb ed="#S" n="9"/>tium. scilicet poenitentia: quando dixit: Nisi poenitentiam egeritis &amp;c. 
+      <lb ed="#S" n="10"/>&amp; poenitentiam agite. &amp; sacramentum dignitatis. vt 
+       eucha<lb ed="#S" break="no" n="11"/>ristia, quando dixit: Nisi manducaueritis. Vel sacramentum poe 
+      <lb ed="#S" n="12"/>nitentiae instituit, quando dixit leprosis: Ite, ostendite vos 
+       sacer<lb ed="#S" break="no" n="13"/>dotibus. vel apostolis: soluite, &amp; sinite abire. vel magis 
+      <lb ed="#S" n="14"/>quando dixit Petro: Tibi dabo claues &amp;c. aut apostolis quando 
+      <lb ed="#S" n="15"/>dixit: Quorum remiseritis peccata. ante resurrectionem. 
+      <lb ed="#S" n="16"/>Matth. 18. non quando dixit post resurrectionem. sed sacramen 
+      <lb ed="#S" n="17"/>tum intrantium, quando misit apostolosad praedicandum, simul 
+      <lb ed="#S" n="18"/>&amp; ad baptitandum, &amp; tunc est sacramentum excuntium, quando 
+      <lb ed="#S" n="19"/>vngebant oleo infirmos, &amp; sacramentum pugnantium, quando 
+      <lb ed="#S" n="20"/>benedicebat pueros, eis manus imponens, vel quando dixit: 
+      <lb ed="#S" n="21"/>Qui me confessus fuerit &amp;c. &amp; sacramentum 
+       progredien<lb ed="#S" break="no" n="22"/>tium: quod est vitiatum in coena, quando consecrauit suum 
+       cor<lb ed="#S" break="no" n="23"/>pus. &amp; sacramentum ordinis ibidem, dicens: Hoc facite in 
+      <lb ed="#S" n="24"/>meam commemorationem: quod est sacramentum regentium. 
+      <lb ed="#S" n="25"/>sacramentum autem coniugij, qum nuptias in miraculorum ini 
+      <lb ed="#S" n="26"/>tio consecrauit mutam aquam in vinum: ostendens 
+       praeemi<lb ed="#S" break="no" n="27"/>nentiam matrimonij, prout est sacramentum gratiae, &amp; prout 
+      <lb ed="#S" n="28"/>erat naturae, vel legis scriptae: imo nouorum omnium ad 
+       an<lb ed="#S" break="no" n="29"/>tiqua: sicut vinum melius est aqua. sed confessionem, &amp; 
+      <lb ed="#S" n="30"/>vnctionem promulgauit expressius per Iacobum: caetera per 
+      <lb ed="#S" n="31"/>doctrina apostolorum, vt patet in actibus apostolorum. 
+    </p>
+            <p xml:id="khj78y-q10071-d1e546" n="15">
+               <lb ed="#S" n="32"/>
+               <!--15-->Ex quo sequitur secunda conclusio, quod omnia per 
+      <lb ed="#S" n="33"/>ecclesiam instituta, vel a Papa, vel a Consiliis non sunt 
+       sa<lb ed="#S" break="no" n="34"/>cramenta, sed tantum sacramentalia: puta benedictiones 
+       quae<lb ed="#S" break="no" n="35"/>cunque abbatum, abbatissarum, virginum, vestium, aquae 
+       bene<lb ed="#S" break="no" n="36"/>dictae, vnctiones regum altarium consecrationes, vestium, 
+      <lb ed="#S" n="37"/>ac ecclesiarum, vasorum, &amp; omnia huiusmodi: in quibus, 
+      <lb ed="#S" n="38"/>sicut ecclesia potuit instituere, sic potest destituere, &amp; dis 
+      <lb ed="#S" n="39"/>pensare ad libitum, &amp; mutare. scilicet ille, qui praeest toti 
+       eccle<lb ed="#S" break="no" n="40"/>siae, vt Papa potest committere consecrationem altaris, aut 
+      <lb ed="#S" n="41"/>virginum, vel abbatis simplici sacerdoti, &amp; omnia 
+       huius<lb ed="#S" break="no" n="42"/>modi: licet simplex episcopus hoc non possit. Non tamen 
+      <lb ed="#S" n="43"/>sunt haec contemnenda: licet non sint sacramenta, nec per 
+      <lb ed="#S" n="44"/>modum sacramenti habeant effectum ex opere operato: 
+      <lb ed="#S" n="45"/>quia effectum habent per modum meriti, &amp; fidei ex opere 
+      <lb ed="#S" n="46"/>operante, &amp; non ex solo feruore, &amp; deuotione vtentium: 
+      <lb ed="#S" n="47"/>sed totius ecclesiae. Vnde sicut non est paruipendenda 
+      <lb ed="#S" n="48"/>fides totius ecclesiae: meritum eius, &amp; preces eius, sic nec 
+      <lb ed="#S" n="49"/>ista. &amp; quanto plus valet meritum, &amp; fides, &amp; oratio totius 
+      <lb ed="#S" n="50"/>ecclesiae, quam vnius personae: tanto praecellunt istae 
+       ge<lb ed="#S" break="no" n="51"/>nerales ceremoniae totius ecclesiae, quae non sine inspira 
+      <lb ed="#S" n="52"/>tione Dei sunt inuentae, singularibus deuotionibus 
+       sin<lb ed="#S" break="no" n="53"/>gulorum.
+    </p>
+            <p xml:id="khj78y-q10071-d1e598" n="16">
+      <!-- 16 -->Ex quo sequitur tertia conclusio, quod 
+      <lb ed="#S" n="54"/>non potest Papa, nec tota ecclesia sacramenta mutare, nec 
+      <lb ed="#S" n="55"/>in eis dispensare, quia seruus non potest tollere legem do 
+      <lb ed="#S" n="56"/>mini sui, nisi quantum Deus reuelat, vel dispensat, sicut 
+      <lb ed="#S" n="57"/>in primitiua ecclesia, quod daret baptismus in nomine Do 
+      <lb ed="#S" n="58"/>mini Iesu. Vnde Papa non potest dispensare, quod puer 
+       salue<lb ed="#S" break="no" n="59"/>tur sine baptismo, nec pari ratione, quod a peccato mortali 
+      <lb ed="#S" n="60"/>post baptismum curetur sine confessione, aut quod conficiat 
+       si<lb ed="#S" break="no" n="61"/>ne ordine, vel in matrimonio per verba de praesenti, 
+       et<lb ed="#S" break="no" n="62"/>iam ante consummationem, quia est verum sacramentum. 
+    </p>
+            <p xml:id="khj78y-q10071-d1e622" n="17">
+               <lb ed="#S" n="63"/>
+               <!--17-->Vtrum autem possit dispensare in gradu lege 
+       diui<lb ed="#S" break="no" n="64"/>na prohibito, vt faciat personas habiles: sicut facit inha 
+      <lb ed="#S" n="65"/>biles, vel facere potest, videretur, quod sic, quia illud non est 
+      <lb ed="#S" n="66"/>sacramentum, sed quoddam iudiciale sacramentale, &amp; sic 
+       ho<lb ed="#S" break="no" n="67"/>die non ligat, nisi inquantum est per ecclesiam approbatum, 
+      <!--0022.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>nec morale, cum lege naturae solae duae personae 
+       excipian<lb ed="#S" break="no" n="69"/>tur.
+    </p>
+            <p xml:id="khj78y-q10071-d1e646" n="18">
+      <!--18--> TERTIVS articulus est, quis potuit ea in 
+      <lb ed="#S" n="70"/>stituere. Vbi sunt tres conclusiones. Prima est de sacramentis le 
+      <lb ed="#S" n="71"/>gis naturae. Vbi est sciendum, quod inter illa sola: illa, quae erant 
+      <lb ed="#S" n="72"/>contra origi nale conferebant gratiam ex opere operato, 
+       pro<lb ed="#S" break="no" n="73"/>pter paruulos, qui non poterant se ad eam disponere ex 
+       o<lb ed="#S" break="no" n="74"/>pere operante. Nec fides aliena ita sufficienter eos 
+       dis<lb ed="#S" break="no" n="75"/>ponebat, sicut fides propria adultos: cum etiam in lege no 
+      <lb ed="#S" n="76"/>ua sine exteriori re: fides propria iustificet adultum, non 
+      <lb ed="#S" n="77"/>autem fides ecclesiae paruulum: propter quod oportuit illa 
+      <lb ed="#S" n="78"/>esse a Deo instituta per authoritatem, cum homo non pos 
+      <lb ed="#S" n="79"/>sit hoc dare sacramento, quod iustificet ex opere operato. 
+      <lb ed="#S" n="80"/>sed ea, quae ante circuncisionem erant in pueris, vel etiam 
+      <lb ed="#S" n="81"/>tempore ipsius in puellis Hebraeis erant a Deo instituta 
+      <lb ed="#S" n="82"/>per inspirationem indeterminate: sed ab homine 
+       deter<lb ed="#S" break="no" n="83"/>minabantur. Circuncisio autem fuit a Deo determinata. 
+      <lb ed="#S" n="84"/>Reliqua vero non ex opere operato gratiam conferebant, 
+      <lb ed="#S" n="85"/>quia non erant necessaria, eo quod non competerent, 
+      <lb ed="#S" n="86"/>nisi adultis, qui ex opere operante poterant iustificari. 
+      <lb ed="#S" n="87"/>Propter quod non videretur fuisse necesse illa a Deo insti 
+      <lb ed="#S" n="88"/>tui, vt dicit obiectio. Et sic debet intelligi, quod dicit 
+      <lb ed="#S" n="89"/>Thom. illa. scilicet ab homine, &amp; non ex opere operato habe 
+      <lb ed="#S" n="90"/>re efficaciam, quo ad alia, praeter illa, quae erant contra 
+      <lb ed="#S" n="91"/>originale.
+    </p>
+            <p xml:id="khj78y-q10071-d1e698" n="19">
+      <!-- 19 -->sed ex alia parte cum matrimonium 
+      <lb ed="#S" n="92"/>prout erat etiam sacramentum illius temporis videretur esse a 
+      <lb ed="#S" n="93"/>Deo institutum, propter quod, solo Deo dispensante, 
+       lice<lb ed="#S" break="no" n="94"/>bat eis habere plures vxores, multo magis etiam videtur 
+      <lb ed="#S" n="95"/>quod poenitentia contra mortale fuerit etiam a Deo instituta: 
+      <lb ed="#S" n="96"/>ita quod nullus homo potuisset dispensare, quin teneretur 
+      <lb ed="#S" n="97"/>homo interius conteri, &amp; exterius satisfacere Deo. sed 
+      <lb ed="#S" n="98"/>per quid satisfaceret, vtrum per decimas, vel sacrificia, 
+      <lb ed="#S" n="99"/>vel ieiunia, vel eleemosynas, vel huiusmodi, in 
+       volunta<lb ed="#S" break="no" n="100"/>te erat, sicut etiam sacerdotes nostri temporis 
+       determina<lb ed="#S" break="no" n="101"/>tam poenitentiam non iniungunt aliquando, sed quicquid 
+      <lb ed="#S" n="102"/>homo boni facit, vel mali pertulerit, quae satisfactio 
+       ni<lb ed="#S" break="no" n="103"/>hilominus est pars sacramenti.
+    </p>
+            <p xml:id="khj78y-q10071-d1e729" n="20">
+      <!-- 20 -->Posset autem 
+      <lb ed="#S" n="104"/>dici ad hoc, quod homo non potuit dispensare in 
+       pluralita<lb ed="#S" break="no" n="105"/>te vxorum, vel repudiatione, vel in habendo filiam, vel 
+      <lb ed="#S" n="106"/>huiusmodi: quae sunt contra matrimonium, non quia 
+       es<lb ed="#S" break="no" n="107"/>set sacramentum a Deo institutum, sed quia illa erant 
+       prae<lb ed="#S" break="no" n="108"/>cepta legis naturae respicientia matrimonium, vt est in of 
+      <lb ed="#S" n="109"/>ficium naturae, non, vt est sacramentu. sed est alia ratio, 
+      <lb ed="#S" n="110"/>quare matrimonium non potuit institui, vt est 
+       sacramen<lb ed="#S" break="no" n="111"/>tum, nisi Dei inspiratione, &amp; non propter effectum, vt 
+      <lb ed="#S" n="112"/>arguitur, sed propter significatum, quod est coniuuctio 
+      <lb ed="#S" n="113"/>Christi, &amp; ecclesiae, quae non potuit sciri, nisi per 
+       reuela<lb ed="#S" break="no" n="114"/>tionem  similiter poenitentia, &amp; alia sacramenta 
+       a<lb ed="#S" break="no" n="115"/>dultorum, quia non crant sacramenta, nisi quia signa rei 
+      <lb ed="#S" n="116"/>sacrae supernaturaliter cognitae in tantum Dei 
+       inspiratio<lb ed="#S" break="no" n="117"/>ne instituta sunt, non propter effectum. sed 
+       poeniten<lb ed="#S" break="no" n="118"/>tia, &amp; satisfactio prout sunt virtutes, sunt de iure 
+       natu<lb ed="#S" break="no" n="119"/>rali, quo ad hoc est praeceptum de peccato dolere, &amp; Deo 
+      <lb ed="#S" n="120"/>etiam exterius satisfacere ratione maleficij, per aliquid, 
+      <lb ed="#S" n="121"/>sicut de aliquo exteriori gratias agere ratine beneficij, &amp; fa 
+      <lb ed="#S" n="122"/>cere aliqua recognitionem dominij. Et sic homo non poterat 
+      <lb ed="#S" n="123"/>dispensare, non propter effectum, sed proter praeceptum naturae, &amp; 
+      <lb ed="#S" n="124"/>propter institutionem Dei rartione  significati.
+    </p>
+            <p xml:id="khj78y-q10071-d1e780" n="21">
+      <!-- 21 -->
+       secun<lb ed="#S" break="no" n="125"/>da conclusio est de sacramentis ve. le. quod necesse fuit ea aDeo 
+       in<lb ed="#S" break="no" n="126"/>stitui, non quia conferrent gratiam ex opere operato, nisi for 
+      <lb ed="#S" n="127"/>te erat aliqd pro originali puellae, puta oblatio, quae fiebat 
+      <lb ed="#S" n="128"/>in die purificationis, quae quamuis non esset sacramentum contra origi 
+      <lb ed="#S" n="129"/>nale pro masculo, cui sufficiebat circuncisio, forte tamen erat re 
+      <lb ed="#S" n="130"/>mediu contra originale pro puellis. si autem ante moriebantur, 
+      <lb ed="#S" n="131"/>saluabantur per aliud remedium, sicut etiam masculus ante 
+       o<lb ed="#S" break="no" n="132"/>ctauum diem, &amp; tunc talia necesse erat a Deo institui 
+       pro<lb ed="#S" n="133" break="no"/>pter idem propter quod circuncisio. Caetera vero quae gratiam 
+       con<lb ed="#S" n="134" break="no"/>ferebant tin ex opere operante oportuit etiam a Deo, vel 
+      <!--0023.xml-->
+      <pb ed="#S" n="23"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>eius authoritate institui, &amp; propter obligationes, quia 
+      <lb ed="#S" n="2"/>forte non potuit ea purus homo praecipere, quia de illis 
+      <lb ed="#S" n="3"/>non potuisset homo homini praeceptum dare, in quo 
+       tene<lb ed="#S" break="no" n="4"/>ret obedire, cum illae ceremoniae, seu sacramenta non essent actus 
+      <lb ed="#S" n="5"/>virtutum, nec per se referibiles ad actus virtutum. sed Deo 
+      <lb ed="#S" n="6"/>tenetur homo in omnibus, &amp; per omnia obedire, non solum in 
+      <lb ed="#S" n="7"/>indifferentibus, sed in his, quae de se videntur mala, sicut oc 
+      <lb ed="#S" n="8"/>cisio innocentium, vel fornicatio, nisi ergo fuissent a Deo 
+      <lb ed="#S" n="9"/>vel eius authoritate introducta, sine eis potuisset haberi 
+      <lb ed="#S" n="10"/>gratia, cum ad ea humanum praeceptum uon ligaret. Vel ideo 
+      <lb ed="#S" n="11"/>necesse fuit ea a Deo institui non propter efficaciam, quam 
+      <lb ed="#S" n="12"/>aequaliter habuissent, si homo potuisset ea praecipere, se pro 
+      <lb ed="#S" n="13"/>pter humanam ignorantiam, &amp; sic propter eruditionem, quia 
+       ne<lb ed="#S" break="no" n="14"/>scisset homo per se tales modos colendi Deum inuenire. Vel 
+      <lb ed="#S" n="15"/>si dicat, o similia inuenit homo in cultu idolorum. Dicen 
+      <lb ed="#S" n="16"/>dum, quod verum est quantum ad aliqua: non tamen quantum ad omnia, imo 
+      <lb ed="#S" n="17"/>in adultis saltem in sacramentis nesciuisset talia ad 
+       signifi<lb ed="#S" break="no" n="18"/>candum misteria griae, &amp; gloriae ordinasset.
+    </p>
+            <p xml:id="khj78y-q10071-d1e852" n="22">
+      <!-- 22 -->
+       Ter<lb ed="#S" break="no" n="19"/>tia conclusio est de sacramentis no. le. vbi supposito, quod in eis sit 
+      <lb ed="#S" n="20"/>virtus, &amp; ex institutione authoritas instituendi non potuit 
+      <lb ed="#S" n="21"/>esse penes hominem, sed solus Deus huiusmodi sacramenta gratiae, quae 
+      <lb ed="#S" n="22"/>iustificant, potuit instituere, quia non sunt sacramenta, sicut medi 
+      <lb ed="#S" n="23"/>cinae corporales, quae ex natura rerum contentarum, &amp; non virtu 
+      <lb ed="#S" n="24"/>te medici adhibentis, vel dictantis operantur: imo sacramenta ex 
+      <lb ed="#S" n="25"/>sola virtute instituentis operantur quicquid operantur. ideo 
+      <lb ed="#S" n="26"/>&amp;c.
+    </p>
+            <p xml:id="khj78y-q10071-d1e874" n="23">
+      <!-- 23 -->Tamen authoritate delegata potuit 
+       ho<lb ed="#S" break="no" n="27"/>mo ea instituere, &amp; a Deo potuit homini ipsa institutio 
+      <lb ed="#S" n="28"/>committi: licet hoc bene probet ratio quorundam dicentium 
+      <lb ed="#S" n="29"/>sic: Homo potest esse minister dispensationis. ergo 
+       insti<lb ed="#S" break="no" n="30"/>tutionis, quia dispensatio non dat sacramento virtutem, sicut 
+       in<lb ed="#S" break="no" n="31"/>stitutio. Potest igitur homo adhibere ignem, qui calefaciet, 
+      <lb ed="#S" n="32"/>sed non potest dare non calido calorem, per quem calefaciat: si 
+      <lb ed="#S" n="33"/>cut angelus mouet ad locum, non ad formam. sed quia 
+       Chri<lb ed="#S" break="no" n="34"/>stus homini nihil est collatum, quod non potuerit puro ho 
+      <lb ed="#S" n="35"/>mini conferri. ideo institutio sacramentorum Christo 
+       ho<lb ed="#S" break="no" n="36"/>mini collata, potuit puro homini conferri. Potest enim 
+      <lb ed="#S" n="37"/>homini conferri illa virtus, quae etiam rei inanimatae confertur. 
+      <lb ed="#S" n="38"/>Vnde Christus homo sine sacramento conferre potuit rem 
+      <lb ed="#S" n="39"/>sacramenti. vnde sicut angelus habet a natura, vt volitio 
+      <lb ed="#S" n="40"/>ne sua possit mouere coelum, sic forte homini primo fuit 
+      <lb ed="#S" n="41"/>collatum, quod nutui suo, animalia obedirent, non solum, quod 
+       ho<lb ed="#S" break="no" n="42"/>mine volente Deus adduceret ea, vel angelus, sicut ad 
+       A<lb ed="#S" break="no" n="43"/>dam, &amp; Noe: sed quod etiam eius iussio, vel vocatio haberent 
+      <lb ed="#S" n="44"/>quandam vin compellendi ad se venire. sic etiam forte ani 
+      <lb ed="#S" n="45"/>mae Christi data est omnis potestas, otiam coelum mouendi 
+      <lb ed="#S" n="46"/>per gratiam, quod habet angelus per naturam. Et similiter quod 
+      <lb ed="#S" n="47"/>sacramentis Deus dedit, puta causare characterem, vel orna 
+      <lb ed="#S" n="48"/>tum forte hoc dedit animae Christi, vt sicut sola volunta 
+      <lb ed="#S" n="49"/>te moueret corpus Christi distans, sicut vnum corpus suo 
+      <lb ed="#S" n="50"/>tactu corpus contiguum mouet: sic sola voluntate characte 
+      <lb ed="#S" n="51"/>rem, vel ornatum in anima distante faceret, sicut 
+       median<lb ed="#S" break="no" n="52"/>te tactu sacramenti. Et quia nihil impossibile est dare 
+       alte<lb ed="#S" break="no" n="53"/>ri, quod ipse habet, siue habeat a se, siuc ab alio. ideo 
+       Chri<lb ed="#S" break="no" n="54"/>stus habens hanc potestatem sacramenta potuit instituere, &amp; 
+      <lb ed="#S" n="55"/>instituendo hoc eis tribuere. Et sicut est commissum 
+       hu<lb ed="#S" break="no" n="56"/>manitati Christi, sic potuit alij homini conferri. Et sicut 
+      <lb ed="#S" n="57"/>Christus potuit sacramenta mutare, &amp; in eis dispensare, quia 
+      <lb ed="#S" n="58"/>totu fuit sibi commissum, sic totum potuit, vel vnum sine alio 
+      <lb ed="#S" n="59"/>committi alteri homini. Et tunc homo, qui instituisset, non 
+      <lb ed="#S" n="60"/>potuisset mutare, nec dispensare, sicut nec modo: puta, q 
+      <lb ed="#S" n="61"/>puer saluaretur sine baptismo·
+    </p>
+            <p xml:id="khj78y-q10071-d1e955" n="24">
+      <!-- 24 -->Et sic etiam 
+       vi<lb ed="#S" break="no" n="62"/>detur, quod Christus secundum quod homo potuit miracula 
+       fa<lb ed="#S" break="no" n="63"/>cere, saltem aliqua. si enim quae vni naturae conueniunt, pos 
+      <lb ed="#S" n="64"/>sont alij supernaturaliter conferri, sicut dictum est supra. et 
+      <lb ed="#S" n="65"/>go cum sanare oculum, vel membrum aliud, aut a sebre 
+       cu<lb ed="#S" break="no" n="66"/>rare competat quibusdam per naturam, hoc aliis potest 
+       tri<lb ed="#S" break="no" n="67"/>bui. Vnde cum dicit Christus: Data est mihi omnis po- 
+      <!--0023.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>testas in coelo, &amp; in terra. videtur, quod omnis virtus actiua 
+      <lb ed="#S" n="69"/>creature sit sibi collata: ita, vt volitione sua sola posset 
+       a<lb ed="#S" break="no" n="70"/>nima Christi immediate facere, quichd potest fieri virtu 
+      <lb ed="#S" n="71"/>te cuiuscunque creaturae. Et sic dicit Grego. 2. dial. Quia 
+      <lb ed="#S" n="72"/>sancti interdum miracula ex potestate faciunt, quia dedit 
+      <lb ed="#S" n="73"/>illis potestatem filios Dei fieri.
+    </p>
+            <p xml:id="khj78y-q10071-d1e990" n="25">
+      <!-- 25 -->sed verius est 
+      <lb ed="#S" n="74"/>quod nullus purus homo fecerit miracula ex potestate pro 
+      <lb ed="#S" n="75"/>pria, sic quod haberet in se virtutem illius effectus, sed 
+       dicun<lb ed="#S" break="no" n="76"/>tur facere ex potestate, quia poterant orare, &amp; mox ad 
+       vo<lb ed="#S" break="no" n="77"/>tum Deus quasi obediens voci hominis faclebat, sicut 
+      <lb ed="#S" n="78"/>Iosue fecit solem stare. Quia ergo aliqua natura disponit 
+      <lb ed="#S" n="79"/>ad gratium, sed nulla causat gratiam. ideo disponere ad gratia 
+      <lb ed="#S" n="80"/>tiam potest supernaturaliter committi, non autem causare 
+      <lb ed="#S" n="81"/>gratiam.
+    </p>
+            <p xml:id="khj78y-q10071-d1e1012" n="26">
+      <!-- 26 -->Tamen non videtur sequi Christus 
+      <lb ed="#S" n="82"/>habet potestatem imprimendi characterem, vel ornatum. ergo 
+      <lb ed="#S" n="83"/>potest eam dare sacramentis, quia licet nullus det, quod non 
+      <lb ed="#S" n="84"/>habet, non tamen econuerso vnumquodque potest dare cuicunque 
+      <lb ed="#S" n="85"/>quod habet. Angelus enim habet virtutem mouendi coelum, 
+      <lb ed="#S" n="86"/>quam mihi dare non potest.
+    </p>
+            <p xml:id="khj78y-q10071-d1e1029" n="27">
+      <!-- 27 -->sed dicendum, q 
+      <lb ed="#S" n="87"/>cui conceditur, quod maius est, potest concedi, quod mi 
+      <lb ed="#S" n="88"/>nus est, nisi aliquid obsistat. sicut autem sanitas est quid 
+      <lb ed="#S" n="89"/>melius, quam medicina, cum sit finis eius, sic videtur character, 
+      <lb ed="#S" n="90"/>vel ornatus nobilior effectus, quam virtus in sacramentis. Vn 
+      <lb ed="#S" n="91"/>de si Christo competit causare characterem potest ei compete 
+      <lb ed="#S" n="92"/>re causare etiam illam virtutem, &amp; per consequens competit, quia 
+      <lb ed="#S" n="93"/>non decuit sibi aliquid negari, quod sibi potuit communi 
+      <lb ed="#S" n="94"/>cari. Et sic nec illa virtus est per creationem cum Christus 
+      <lb ed="#S" n="95"/>secundum quod homo creare non posset.
+    </p>
+            <p xml:id="khj78y-q10071-d1e1053" n="28">
+      <!-- 28 -->Ex hoc pa 
+      <lb ed="#S" n="96"/>tet solutio. Ad argumentum in oppositum, quia non est si 
+      <lb ed="#S" n="97"/>mile de illis, &amp; de istis, vt patet per ea, quae dicta sunt. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

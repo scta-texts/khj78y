@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="449"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r43860"><!-- l4d43-q4 -->
+            <head xml:id="khj78y-r43860-Hd1e101">Quaestio 4</head>
+            <head xml:id="khj78y-r43860-Hd1e103" type="question-title">
+     utrum resurrectio 
+     mortuorum fiat in instanti vel in tempore
+   </head>
+            <p xml:id="khj78y-r43860-d1e106">
+               <lb ed="#S" n="132"/>QVAESTIO QVARTA. 
+    </p>
+            <p xml:id="khj78y-r43860-d1e111">
+               <lb ed="#S" n="133"/>De resurrectione mortuorum
+    </p>
+            <p xml:id="khj78y-r43860-d1e116">
+      <!--0450.xml-->
+               <pb ed="#S" n="450"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Thom. 4. Dist. 43. art. 3. quaest. 3. 
+    </p>
+            <p xml:id="khj78y-r43860-d1e128">
+               <lb ed="#S" n="2"/>QVAERITVR quarto vtrum resurrectio 
+      <lb ed="#S" n="3"/>mortuorum fiat in instanti vel in tempore: 
+      <lb ed="#S" n="4"/>&amp; videtur quod in tempore: primo per 
+       auctori<lb ed="#S" break="no" n="5"/>tatem <ref xml:id="khj78y-r43860-Rd1e138">beati Aug. 2. de ciui. Dei. c. 19.</ref> vbi 
+      <lb ed="#S" n="6"/>dicit, quod mortui transituri sunt ad 
+       immor<lb ed="#S" break="no" n="7"/>talitatem mira celeritate, sed iste transitus erit per 
+       resur<lb ed="#S" break="no" n="8"/>rectionem. celeritas autem non est nisi in tempore: sicut &amp; 
+      <lb ed="#S" n="9"/>velocitas. ergo resurrectio fiet in tempore. Item plures 
+       actio<lb ed="#S" break="no" n="10"/>nes inter se ordinem habentes non possunt esse simul. sed 
+      <lb ed="#S" n="11"/>in resurrectione erunt plures actiones inter se ordinem 
+      <lb ed="#S" n="12"/>habentes. scilicet collectio puluerum: formatio corporum: &amp; ani 
+      <lb ed="#S" n="13"/>matio eorum. ergo non poterit esse simul in codem instanti. 
+    </p>
+            <p xml:id="khj78y-r43860-d1e159" n="2">
+               <lb ed="#S" n="14"/>
+               <!-- 2 -->In contrarium est quod dicit apostolus primae ad Corin. 
+      <lb ed="#S" n="15"/>15. quod mortui resurgent in momento &amp; in ictu oculi. &amp; 
+      <lb ed="#S" n="16"/>Aug. dicit ibi supra: quod in ipso temporis puncto rapientur 
+      <lb ed="#S" n="17"/>obuiam Christo in acra.
+    </p>
+            <p xml:id="khj78y-r43860-d1e172" n="3">
+      <!-- 3 -->Respondeo hic sunt tria videnda. 
+      <lb ed="#S" n="18"/>primo, ostendetur &amp; secundum veritatem resurrectio quod 
+       cu<lb ed="#S" break="no" n="19"/>iuslibet sit futura in instanti. secundo inquiretur de 
+       qui<lb ed="#S" break="no" n="20"/>busdam instantiis circa hoc. Tertio an resurrectio omnium 
+      <lb ed="#S" n="21"/>sit in eodem instanti.
+    </p>
+            <p xml:id="khj78y-r43860-d1e185" n="4">
+      <!-- 4 -->Quantum ad primum est 
+       aduerten<lb ed="#S" break="no" n="22"/>dum quod sicut dicit Damas. lib. 4. c. vltimo, resurrectio est 
+      <lb ed="#S" n="23"/>eius quod cecidit iterata surrectio. in morte autem est 
+       tri<lb ed="#S" break="no" n="24"/>plex casus. Cadit enim compositum per separationem animae a 
+      <lb ed="#S" n="25"/>corpore. cadit etiam corpus inquantum soluitur in elementa. 
+      <lb ed="#S" n="26"/>cadit etiam materia inquantum resoluitur corpus per hoc qui 
+      <lb ed="#S" n="27"/>diuiditur in diuersas partes: &amp; dispergitur. &amp; ideo in 
+       re<lb ed="#S" break="no" n="28"/>surrectione oportebit esse triplicem resurrectionem. 
+       Pri<lb ed="#S" break="no" n="29"/>ma est collectio partium seu puluerum dispersorum. secunda 
+      <lb ed="#S" n="30"/>erit formatio corporum. Tertia erit animatio eorum vel 
+       econ<lb ed="#S" n="31" break="no"/>uerso. Quantum ad animationem &amp; formationem. Primum 
+      <lb ed="#S" n="32"/>istorum fiet per angelos &amp; successiue. Quod fiat per 
+       ange<lb ed="#S" break="no" n="33"/>los apparet Mat. 24. vbi dicitur. quod Christus mittet ange 
+      <lb ed="#S" n="34"/>los suos cum tuba &amp; voce magna: &amp; congregabunt electos 
+      <lb ed="#S" n="35"/>eius a quatuor vetis coeli. &amp; loquitur ibi de 
+       resurrectio<lb ed="#S" break="no" n="36"/>ne, &amp; hoc fiet rationabiliter: quia corporalia administra 
+      <lb ed="#S" n="37"/>ri debent per spiritualia in his in quibus eorum operatio 
+      <lb ed="#S" n="38"/>potest adhiberi. Quod autem fiat successiue &amp; in tempo 
+      <lb ed="#S" n="39"/>re probatur: quia omnis motus localis causatus a virtnte 
+      <lb ed="#S" n="40"/>creata est in tempore necessario, sed collectio partium seu 
+      <lb ed="#S" n="41"/>puluerum per angelos fit per motum localem ipsorum 
+       pulue<lb ed="#S" break="no" n="42"/>rum seu partium. fit etiam per virtutem creatam: quia per virtu 
+      <lb ed="#S" n="43"/>tem angelicam: ergo. &amp;c. De formatione autem &amp; organi 
+      <lb ed="#S" n="44"/>zatione ex pulueribus non potest dici quod fiat ministerio 
+      <lb ed="#S" n="45"/>angelorum, quia sicut dictum fuit in. 2. lib. Angelus non po 
+      <lb ed="#S" n="46"/>test immediate introducere formam in materia corporali: 
+      <lb ed="#S" n="47"/>sed solum potest coniungere actiua passiuis. sed in 
+       resurre<lb ed="#S" break="no" n="48"/>ctione angelus non potest facere coniunctionem aliquorum, 
+      <lb ed="#S" n="49"/>ex quorum actione possit corpus humanum organizari &amp; 
+      <lb ed="#S" n="50"/>formari. ergo ad formationem &amp; organizationem corporum 
+      <lb ed="#S" n="51"/>in resurrectione angeli nihil penitus facient. minor 
+       de<lb ed="#S" break="no" n="52"/>claratur: quia formatio &amp; organizatio humani corporis 
+      <lb ed="#S" n="53"/>peractiua &amp; passiua naturalia fit mediantibus 
+       determi<lb ed="#S" break="no" n="54"/>natis instrumentis &amp; determinatis mediis: puta mediante 
+      <lb ed="#S" n="55"/>semine &amp; determinato loco: puta: in matrice: &amp; 
+       determi<lb ed="#S" break="no" n="56"/>nato modo: quia semen primo est molle postea durum, vt 
+      <lb ed="#S" n="57"/>dicitur. 2. phy. quorum nullum est in reparatione corporum 
+      <lb ed="#S" n="58"/>resurgentium. quare. &amp;c. Item quamuis aliqua organizatio 
+      <lb ed="#S" n="59"/>humani corporis praecedat in naturali generatione 
+       ho<lb ed="#S" break="no" n="60"/>minis introductionem animae rationalis: non tamen illa 
+      <lb ed="#S" n="61"/>quae manet cum anima nunquam est nisi cum anima, sed sequit 
+      <lb ed="#S" n="62"/>introductionem animae saltem ordine naturae: licet non 
+      <lb ed="#S" n="63"/>ordine temporis: quia anima nunquam est nisi in corpore 
+      <lb ed="#S" n="64"/>organizato: sed prima organizatio corporis non erit in 
+      <lb ed="#S" n="65"/>resurrectione: sed tantum secunda: ergo illa ordine naturae 
+      <lb ed="#S" n="66"/>sequitur animationem: quamuis simul sit tempore: erit ergo 
+      <!--0450.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="67"/>ab eodem a quo &amp; animatio: sed animatio non potest esse 
+      <lb ed="#S" n="68"/>nisi a solo Deo: ergo nec illa organizatio. Erit ergo etiam 
+      <lb ed="#S" n="69"/>in instanti: quia omnis successio est ex resistentia passi ad 
+      <lb ed="#S" n="70"/>agens. Quando enim agens nihil resistentiae habet ad 
+      <lb ed="#S" n="71"/>passum: sed est summe dispositum ad receptionem: tunc 
+       for<lb ed="#S" break="no" n="72"/>ma in instant i introducitur. vt patet de lumine in aere: sed 
+      <lb ed="#S" n="73"/>in creatura nulla potest esse resistentia ad Deum: sed est 
+       sum<lb ed="#S" break="no" n="74"/>ma obedientia vtfiat in ea &amp; ex ea quicquid Deus vuls 
+      <lb ed="#S" n="75"/>fieri. ergo omnia talia fiunt subito &amp; in instanti: nisi Deus 
+      <lb ed="#S" n="76"/>ordine suae sapientiae propter aliquam causam velit talia 
+      <lb ed="#S" n="77"/>fieri successiue: quod non habet locum in proposito. ergo 
+      <lb ed="#S" n="78"/>tam organizatio quam animatio fient in resurrectione im 
+      <lb ed="#S" n="79"/>mediate a Deo, &amp; subito non in tempore.
+    </p>
+            <p xml:id="khj78y-r43860-d1e320" n="5">
+      <!-- 5 -->Quantum ad 
+      <lb ed="#S" n="80"/>secundum, primo ponentur duae instantiae communes. 
+       secun<lb ed="#S" n="81" break="no"/>do ponentur solutiones quorundam. Et tertio, 
+       impugna<lb ed="#S" break="no" n="82"/>tio solutionum ab aliis. 4. solutio aliquorum. &amp;. 5. inquiretur 
+      <lb ed="#S" n="83"/>de illis.
+    </p>
+            <p xml:id="khj78y-r43860-d1e333" n="6">
+      <!-- 6 -->Quantum ad primum arguitur contra dicta du 
+      <lb ed="#S" n="84"/>pliciter.
+    </p>
+            <p xml:id="khj78y-r43860-d1e341" n="7">
+      <!-- 7 -->Primo, quia impossibile est motum localem 
+      <lb ed="#S" n="85"/>fieri in instanti: sed si organizatio corporum in 
+       resurrectio<lb ed="#S" break="no" n="86"/>ne subito fieret, motus localis fieret in instanti. ergo ista 
+      <lb ed="#S" n="87"/>organizatio non fiet subito. Maior supponitur: sed minor 
+      <lb ed="#S" n="88"/>probatur: quia pulueres ex quibus formabitur corpus vel 
+      <lb ed="#S" n="89"/>erunt minoris quantitatis: vel maioris quam corpus 
+       forman<lb ed="#S" n="90" break="no"/>dum: aut aequalis. si maioris quantitatis &amp; corpus 
+       forme<lb ed="#S" break="no" n="91"/>tur ex eis subito sequetur quod aliquid de loco puluerum 
+       re<lb ed="#S" break="no" n="92"/>manebit vacuum: aut ad illud mouebitur aliqua pars aeris 
+      <lb ed="#S" n="93"/>circunstantis in instanti, vacuum autem non potest esse. 
+      <lb ed="#S" n="94"/>ergo iste motus erit in instanti. sit autem sit minoris 
+       quan<lb ed="#S" n="95" break="no"/>titatis quam corpus formandum idem sequatur, quia 
+       cor<lb ed="#S" break="no" n="96"/>pus formatum subito occupabit maiorem locum: sed homo 
+      <lb ed="#S" n="97"/>non poterit esse nisi subito cedat ei aliqua pars aeris 
+       cir<lb ed="#S" n="98" break="no"/>cunstantis: cessio autem illa non poterit fleri subito: nisi 
+      <lb ed="#S" n="99"/>quia pars illa aeris quae dicitur cedere subito mouebitur 
+      <lb ed="#S" n="100"/>de loco suo. &amp; sic idem qui prius. si autem aequalis: idem 
+      <lb ed="#S" n="101"/>sequetur: quia organizatum aliter mouebitur quam 
+       par<lb ed="#S" break="no" n="102"/>tes de quibus formabitur: sed in formatione noua 
+       neces<lb ed="#S" break="no" n="103"/>se est esse nouum ordinem &amp; nouam positionem partium. scilicet 
+      <lb ed="#S" n="104"/>subiecti secundum dextrum &amp; sinistrum: ante &amp; retro. si 
+      <lb ed="#S" n="105"/>ergo corpus formabitur subito: noua positio partium fies 
+      <lb ed="#S" n="106"/>subito: sed talis non potest fieri nisi cum locali cessione 
+       cor<lb ed="#S" break="no" n="107"/>poris circunstantis. ergo motus localis esset in instanti. 
+    </p>
+            <p xml:id="khj78y-r43860-d1e396" n="8">
+               <lb ed="#S" n="108"/>
+               <!-- 8 -->secundo instatur contra illud quod dictum est. scilicet quod 
+      <lb ed="#S" n="109"/>animatio fiet subito &amp; in eodem instanti quo &amp; 
+       organi<lb ed="#S" break="no" n="110"/>zatio. quia animatio est quaedam mutatio: sed termini 
+      <lb ed="#S" n="111"/>mutationis qui sunt habitus &amp; priuatio secundum 
+       philo<lb ed="#S" break="no" n="112"/>sophum. 7. &amp;. 5. phy. non possunt esse simul tempore in eodem 
+      <lb ed="#S" n="113"/>subiecto. ergo animationem praecessit tempore in corpo 
+      <lb ed="#S" n="114"/>re organizato, quod subiicitur animae priuatio actualis 
+      <lb ed="#S" n="115"/>existentiae: &amp; ipsius animae: &amp; sic animatio corporis: &amp; 
+      <lb ed="#S" n="116"/>cius organizatio non fuerunt simul.
+    </p>
+            <p xml:id="khj78y-r43860-d1e420" n="9">
+      <!-- 9 -->Quantum ad 
+      <lb ed="#S" n="117"/>secundum est sciendum, quod ad ista respondent quidam sic 
+      <lb ed="#S" n="118"/>dicentes ad primum: quod motus localis potest diuina virtute 
+      <lb ed="#S" n="119"/>fieri in instanti, licet hoc non possit virtute naturae: illa 
+      <lb ed="#S" n="120"/>autem cessio qua localiter cedens pars aeris corpori 
+       resur<lb ed="#S" break="no" n="121"/>genti fiet virtute diuina, nam sicut motum corpus ab aliquo 
+      <lb ed="#S" n="122"/>expellit aliud de loco suo &amp; cogit ipsum moueri. &amp; tamen 
+      <lb ed="#S" n="123"/>corpus expulsum proprie non mouetur a corpore 
+       expel<lb ed="#S" break="no" n="124"/>lente, sed a motore eius: ita in proposito Deus formans 
+      <lb ed="#S" n="125"/>corpus maius quam sint pulueres ex quibus formatur: 
+       for<lb ed="#S" break="no" n="126"/>mando tale corpus expellet partes aeris circunstantis de 
+      <lb ed="#S" n="127"/>locis suis in instanti.
+    </p>
+            <p xml:id="khj78y-r43860-d1e449" n="10">
+      <!-- 10 -->Ad secundum dicunt, quod illa actio 
+      <lb ed="#S" n="128"/>non erit mutatio: quia omnis inductio formae in passum 
+      <lb ed="#S" n="129"/>quam non praecedit ipsum passum tempore non est 
+       mu<lb ed="#S" break="no" n="130"/>tatio, sed est passio de genere passionis. Quod non sit ma 
+      <lb ed="#S" n="131"/>tatio patet: quia omnis mutatio vt dictu est, est inter 
+       ter<lb ed="#S" break="no" n="132"/>minos oppositos qui non compatiuntur se in eodem 
+       sub<lb ed="#S" break="no" n="133"/>iecto pro eodem instanti. ergo vbi est vera mutatio opor 
+      <!--0451.xml-->
+      <pb ed="#S" n="451"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>tet terminum a quo praeexistere in subiecto ante 
+       intro<lb ed="#S" break="no" n="2"/>ductionem termini ad quem: si ergo subiectum non 
+       pre<lb ed="#S" break="no" n="3"/>existit non esset mutatio, erit tamen passio quod omnis rece 
+      <lb ed="#S" n="4"/>ptio passio quedam est.
+    </p>
+            <p xml:id="khj78y-r43860-d1e482" n="11">
+      <!-- 11 -->Quantum ad tertium est 
+       scien<lb ed="#S" break="no" n="5"/>dum, quod quidam impugnant probabiliter has solutiones: 
+      <lb ed="#S" n="6"/>quia quod primo dicitur quod motus localis potest fieri in 
+      <lb ed="#S" n="7"/>instanti virtute diuina: non est verum: quia simile est de 
+      <lb ed="#S" n="8"/>alteratione per quam forma educitur de esse imperfecto 
+      <lb ed="#S" n="9"/>ad esse perfectum per medios gradus: &amp; de motu locali 
+      <lb ed="#S" n="10"/>per quem mobile quacunque virtute moueatur pertransit 
+      <lb ed="#S" n="11"/>de extremo in extremum per medium. sed talis alteratio non 
+      <lb ed="#S" n="12"/>potest fieri in instanti. sed necessario fit in tempore. Ergo &amp; 
+      <lb ed="#S" n="13"/>omnis motus localis. maior patet: quia magis videtur quod talis 
+      <lb ed="#S" n="14"/>alteratio possit fieri in instanti quam aliquis motus 
+       loca<lb ed="#S" break="no" n="15"/>lis. videmus enim in genere alterationum, quod aliqua 
+       po<lb ed="#S" break="no" n="16"/>test fieri in instanti etiam per naturam, vt illuminatio 
+      <lb ed="#S" n="17"/>aeris: sed nullum motum localem videmus fieri in 
+       instan<lb ed="#S" break="no" n="18"/>ti etiam per naturam, ergo quantum est ex genere eorum 
+      <lb ed="#S" n="19"/>magis repugnat motui locali fieri in instanti quam 
+       alte<lb ed="#S" break="no" n="20"/>rationi. in speciali autem ponitur similis causa vtrobique: 
+      <lb ed="#S" n="21"/>quia ponitur quod non sit processus ab extremo in extremum 
+      <lb ed="#S" n="22"/>nisi per medium, quia non est possibile talem alterationem esse 
+      <lb ed="#S" n="23"/>in instanti: impossibile est motum aliquem localem fieri in 
+       in<lb ed="#S" break="no" n="24"/>stanti: &amp; haec fuit maior: minor similiter probatur: quia si 
+      <lb ed="#S" n="25"/>talis alteratio posset fieri in instanti: sequeretur quod subiectum 
+      <lb ed="#S" n="26"/>alterationis esset magis &amp; minus perfectum secundum candem 
+      <lb ed="#S" n="27"/>formam vel speciem, quia in eodem instanti esset sub forma se 
+      <lb ed="#S" n="28"/>cundum gradum medium: &amp; secundum gradum perfectum. istud 
+      <lb ed="#S" n="29"/>autem est impossibile: quia tunc idem posset simul esse ma 
+      <lb ed="#S" n="30"/>gis &amp; minus calidum, &amp; magis &amp; minus album: quod est 
+      <lb ed="#S" n="31"/>impossibile: quia magis &amp; minus habent oppositionem &amp; 
+      <lb ed="#S" n="32"/>incompossibilitatem: cum possint esse termini motus seu 
+       mu<lb ed="#S" break="no" n="33"/>tationis. Item si motus localis posset fieri in instanti 
+       sequere<lb ed="#S" break="no" n="34"/>tur quod mobile simul esset in medio &amp; in termino. si enim 
+      <lb ed="#S" n="35"/>prius esset in medio quam in termino iam non esset mo 
+      <lb ed="#S" n="36"/>tus in instanti: sed in tempore: quia prius &amp; posterius du 
+      <lb ed="#S" n="37"/>ratione necessario requirunt tempus: sed idem corpus 
+       si<lb ed="#S" break="no" n="38"/>mul esse in diuersis locis localiter est impossibile quacum 
+      <lb ed="#S" n="39"/>q́, virtute: vt inferius patebit. ergo impossibile est quod mo 
+      <lb ed="#S" n="40"/>bile sit simul in medio &amp; in termino, &amp; per consequens 
+      <lb ed="#S" n="41"/>o motus localis fiat in instanti.
+    </p>
+            <p xml:id="khj78y-r43860-d1e567" n="12">
+      <!-- 12 -->secunda etiam 
+       re<lb ed="#S" break="no" n="42"/>sponsio ad secundam instantiam vt dicunt: non valet: licet 
+      <lb ed="#S" n="43"/>enim posset esse aliqua passio seu receptio quae non sit 
+      <lb ed="#S" n="44"/>vera mutatio: tum animatio quae erit in resurrectione crit 
+      <lb ed="#S" n="45"/>vera mutatio: quia subiectum aliter se habebit tunc quam 
+      <lb ed="#S" n="46"/>prius: materia edim in qua recipietur anima fuit prius 
+      <lb ed="#S" n="47"/>immediate sub forma puluerum: non enim vt isti 
+       imagi<lb ed="#S" break="no" n="48"/>nantur praecedet formatio corporis naturaliter animatio 
+      <lb ed="#S" n="49"/>nem: imo animatio praecedet naturaliter formationem. 
+      <lb ed="#S" n="50"/>si enim formatio corporis praecederet animationem: 
+       prae<lb ed="#S" break="no" n="51"/>cederet eam vt dispositio materiae in fieri solum vel indispo 
+      <lb ed="#S" n="52"/>sitio media in esse. Non potest dici quod praecedat vt dispositio 
+      <lb ed="#S" n="53"/>solu in fieri: quia illa non manet cum forma, sed talis for 
+      <lb ed="#S" n="54"/>matio vt isti dicunt in eodem instanti est cum anima. ergo 
+      <lb ed="#S" n="55"/>simul esset &amp; non esset. Item Deus in agendo non indiget 
+      <lb ed="#S" n="56"/>dispositione in fieri: quia potest quamlibet formam 
+       in<lb ed="#S" break="no" n="57"/>troducere in materiam immediate post quancunque aliam. 
+      <lb ed="#S" n="58"/>non est enim limitatus ad agendum per determinata 
+      <lb ed="#S" n="59"/>media: sicut agentia naturalia. Cum igitur animatio fiat 
+      <lb ed="#S" n="60"/>virtute diuina: patet quod non requirit aliquam 
+       disposi<lb ed="#S" break="no" n="61"/>tionem in fieri praecedentem. Nec potest dici, quod 
+       forma<lb ed="#S" break="no" n="62"/>tio corporis sit dispositio in esse &amp; quod praecedat 
+       animatio<lb ed="#S" break="no" n="63"/>nem: quia omnis dispositio in esse sequitur formam sub 
+      <lb ed="#S" n="64"/>stantialem quae immediate perficit materiam, &amp; prius 
+      <lb ed="#S" n="65"/>ordine naturae quam quaecumquealia persectio.
+    </p>
+            <p xml:id="khj78y-r43860-d1e625" n="13">
+      <!-- 13 -->Quantum 
+      <lb ed="#S" n="66"/>ad quartum est sciendum, quod isti idem respondent aliter ad 
+      <lb ed="#S" n="67"/>praedictas instantias. vnde dicunt ad primam, quod non 
+      <!--0451.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>oportet ponere motum localem fieri in instanti: dato 
+      <lb ed="#S" n="69"/>quod organitatio fiat in instanti. quia cum collectio pulue 
+      <lb ed="#S" n="70"/>rum fiat prius tempore ministerio angelorum, potest Deus 
+      <lb ed="#S" n="71"/>facere quod pulueres ex quibus corpora formabuntur sint 
+      <lb ed="#S" n="72"/>eiusdem quantitatis &amp; figurae cum corporibus 
+       forman<lb ed="#S" break="no" n="73"/>dis: &amp; tunc argumentum non habebit locum: quia 
+       cor<lb ed="#S" break="no" n="74"/>pus formatum occupabit praecise illum locum quem 
+       pul<lb ed="#S" break="no" n="75"/>ueres occupabant. vel dato quod corpus formandum sit 
+       ma<lb ed="#S" break="no" n="76"/>ioris quantitatis quam pulueres: potest dici, quod Deus 
+       po<lb ed="#S" break="no" n="77"/>test annihilare partem aeris circunstantis quantum 
+       suffi<lb ed="#S" break="no" n="78"/>cit pro occupatione corporis formandi. &amp; istud est 
+       con<lb ed="#S" break="no" n="79"/>uenientius dicere quam ponere motum localem fieri 
+      <lb ed="#S" n="80"/>in instanti: quia illud est possibile secundum omnes: mo 
+      <lb ed="#S" n="81"/>tum autem localem fieri in instanti est simpliciter impossi 
+      <lb ed="#S" n="82"/>bile: similiter si corpus formandum sit minoris 
+       quantita<lb ed="#S" break="no" n="83"/>tis: melius esset &amp; possibilius quod locus ad modicum 
+       tem<lb ed="#S" break="no" n="84"/>pus maneret vacuus, quam quod partes acris vicini illuc 
+       mo<lb ed="#S" break="no" n="85"/>ueantur in instanti. Deus enim potest facere vacuum 
+      <lb ed="#S" n="86"/>prout vacuum dicit vltimum continentis non habentis 
+      <lb ed="#S" n="87"/>actu aliquod corpus contentum: sicut posset omnia 
+       an<lb ed="#S" break="no" n="88"/>nullare quae sunt infra coelum coelo remanente in sua 
+       fi<lb ed="#S" break="no" n="89"/>gura. Posset etiam dici secundum aliquos, quod rarefactio 
+      <lb ed="#S" n="90"/>&amp; condensatio cum sint alterationes possunt fieri in 
+       in<lb ed="#S" break="no" n="91"/>stanti: ad rarefactionem autem sequitur maior 
+       quanti<lb ed="#S" break="no" n="92"/>tas quae secundum istos de nouo generatur: &amp; sic per 
+       con<lb ed="#S" break="no" n="93"/>densationem sequitur minor quae similiter de nouo 
+       ge<lb ed="#S" break="no" n="94"/>neratur: &amp; sic per solam rarefactionem aut 
+       condensatio<lb ed="#S" break="no" n="95"/>nem potest occupare aer maiorem aut minorem locum: 
+      <lb ed="#S" n="96"/>&amp; sic cedere alteri vel implere locum alterius: &amp; non per 
+      <lb ed="#S" n="97"/>motum localem.
+    </p>
+            <p xml:id="khj78y-r43860-d1e703" n="14">
+      <!-- 14 -->Ad secundam instantiam patet 
+       re<lb ed="#S" break="no" n="98"/>sponsio: quia non ponunt quod organizatio praecedat tem 
+      <lb ed="#S" n="99"/>pore vel natura animationem: sed econuerso animatio 
+      <lb ed="#S" n="100"/>ordine naturae praecedit organizationem: &amp; subiectum 
+      <lb ed="#S" n="101"/>eius est sola materia quae prius fuit sub forma puluerum, 
+      <lb ed="#S" n="102"/>&amp; postea efficitur sub anima &amp; sic est ibi vera mutatio. 
+    </p>
+            <p xml:id="khj78y-r43860-d1e719" n="15">
+               <lb ed="#S" n="103"/>
+               <!-- 15 -->Quantum ad quintum confitendo cum aliis quod 
+       re<lb ed="#S" break="no" n="104"/>surrectio fiet in instanti quo ad organizationem &amp; 
+       ani<lb ed="#S" break="no" n="105"/>mationem: non collectionem puluerum, sed tempore 
+       im<lb ed="#S" break="no" n="106"/>perceptibili. Ad instantiam de organizatione dicendum, 
+      <lb ed="#S" n="107"/>quod quando corpus est maius formandum non oportet po 
+      <lb ed="#S" n="108"/>nere annullationem, quando minus non vacuum, quia 
+      <lb ed="#S" n="109"/>ista sunt monstra in natura: nec per rarefactionem vt ipse 
+      <lb ed="#S" n="110"/>dicit, quod illa potest fieri in instanti: cum philosophus 
+       vi<lb ed="#S" break="no" n="111"/>deatur velle quod illa semper est cum motu locali vel sui 
+       sub<lb ed="#S" break="no" n="112"/>iecti: vel continentis: &amp; iterum: quia secundum istum 
+       alte<lb ed="#S" break="no" n="113"/>ratio per quam subiectum fit magis &amp; minus tale non po 
+      <lb ed="#S" n="114"/>test esse in instanti: sed huiusmodi est condensatio &amp; 
+       rare<lb ed="#S" break="no" n="115"/>factio: quia quando de raro fit densum: hoc est quia fit 
+      <lb ed="#S" n="116"/>minus rarum: &amp; econuerso de denso fit rarum per hoc quod fit mi 
+      <lb ed="#S" n="117"/>nus densum, quod est per intensionem &amp; remissionem: non ergo 
+      <lb ed="#S" n="118"/>est in natura rarefactionis &amp; condensationis quod fiantsubito 
+      <lb ed="#S" n="119"/>plusquam quecunque alia alteratiorquamuis Deus subito possit 
+      <lb ed="#S" n="120"/>de densissimo facere rarissimum, sicut de albissimo nigerri 
+      <lb ed="#S" n="121"/>mum. Potest igitur poni quod istud sit per generationem 
+      <lb ed="#S" n="122"/>&amp; corruptionem: quia si corpus formandum est maius corpo 
+      <lb ed="#S" n="123"/>re cinerum: tunc corrumpuntur cineres &amp; tantum de aere quantum 
+      <lb ed="#S" n="124"/>debet occupari &amp; conuertentur omnia in materiam humanl 
+      <lb ed="#S" n="125"/>corporis, in quo anima infusa generabitur organizatio &amp; quam 
+      <lb ed="#S" n="126"/>titas debita subito. si autem sit corpus futurum minus: tunc 
+      <lb ed="#S" n="127"/>de cineribus tantum conuertetur in corpus humanum 
+       quan<lb ed="#S" break="no" n="128"/>tum est necessarium: superfluum autem in acrem conuertetur: &amp; 
+      <lb ed="#S" n="129"/>vtrumque per generationem &amp; corruptionem. si vero corpus 
+       for<lb ed="#S" break="no" n="130"/>mandu sit futurum aequale, nihilominus angulariter propter 
+      <lb ed="#S" n="131"/>positionem alicubi erit maius: alicubi minus lateraliter: 
+      <lb ed="#S" n="132"/>&amp;ibi fiet partialiter: sicut fieret totaliter si ex omni parte 
+      <lb ed="#S" n="133"/>esset maius vel minus. vbi autem aequale, ibi aequaliter con 
+      <lb ed="#S" n="134"/>uertentur cineres: &amp; conuersio &amp; generatio: &amp; corruptio 
+      <!--0452.xml-->
+      <pb ed="#S" n="452"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>sic fient quod corrumpendum resoluetur vsque ad materiam 
+       pri<lb ed="#S" break="no" n="2"/>mam, &amp; forma substant ialis sibi vnietur si est anima, vel 
+      <lb ed="#S" n="3"/>communicabitur si est illa aeris. formae vero accidentales in 
+      <lb ed="#S" n="4"/>composito generantur de potentia compositi eductae. 
+    </p>
+            <p xml:id="khj78y-r43860-d1e808" n="16">
+               <lb ed="#S" n="5"/>
+               <!-- 16 -->Ad secundam autem instantiam, quando dicunt 
+       organi<lb ed="#S" break="no" n="6"/>zationem sequi animationem non solum in esse: sed in 
+      <lb ed="#S" n="7"/>fieri: videtur contra philosophum qui dicit, quod actus acti 
+      <lb ed="#S" n="8"/>uorum sunt in patiente &amp; disposito, &amp; quod dicit illam 
+      <lb ed="#S" n="9"/>quae est in fieri non manere: dicendum quod etiam illa 
+       dispo<lb ed="#S" break="no" n="10"/>sitio quae est cum anima infunditur &amp; manet illa in esse se 
+      <lb ed="#S" n="11"/>quitur formam: &amp; in fieri ex parte agentis si ex parte 
+       mate<lb ed="#S" break="no" n="12"/>riae econuerso, nihilominus &amp; ipse potest sustineri: quia 
+      <lb ed="#S" n="13"/>cum materia sit indifferens ad omnem formam ex parte eius: 
+      <lb ed="#S" n="14"/>nulla dispositio requiritur respectu cuiuscumque formae, sed 
+      <lb ed="#S" n="15"/>solum quodsit nudata omni forma: quia per essentiam est 
+       di<lb ed="#S" break="no" n="16"/>sposita ad omnem formam, quam agens potest inducere: vnde 
+      <lb ed="#S" n="17"/>tota indigentia est ex parte agentis finiti.
+    </p>
+            <p xml:id="khj78y-r43860-d1e841" n="17">
+      <!-- 17 -->Quantum 
+      <lb ed="#S" n="18"/>ad tertium principale an resurrectio omnium corporum sit fu 
+      <lb ed="#S" n="19"/>tura in eodem instanti, dicunt quidam quod non: sed prius 
+       re<lb ed="#S" break="no" n="20"/>surgent illi qui fuerunt mortui, quam illi qui in aduentu 
+      <lb ed="#S" n="21"/>Christi inuenientur viui, &amp; nihilominus morientur vt 
+      <lb ed="#S" n="22"/>resurgant: sicut prius dictum fuit, &amp; hoc oportet ponere ma 
+      <lb ed="#S" n="23"/>xime propter auctoritatem scripturae cui concordant ea quae 
+      <lb ed="#S" n="24"/>dicta sunt prius. Dicit enim apostolus ad Thessa. 4. quod mor 
+      <lb ed="#S" n="25"/>tui qui in Christo sunt resurgent primi, deinde nos qui 
+      <lb ed="#S" n="26"/>viuimus qui relinquimur simul rapiemur cum illis in 
+       nu<lb ed="#S" break="no" n="27"/>bibus obuiam Christo in aera. Ex quo patet quod quando 
+      <lb ed="#S" n="28"/>mortuiiam resuscitati obuiabunt Christo in aera: tunc 
+      <lb ed="#S" n="29"/>simul rapientur illi qui viui inuenientur: sed illi vt dictum 
+      <lb ed="#S" n="30"/>est in ipso raptu morientur, &amp; deinde resuscitabuntur. 
+      <lb ed="#S" n="31"/>ergo posterius resuscitabuntur quam primi, quia cum 
+       pri<lb ed="#S" break="no" n="32"/>mis resuscitatis adhuc vixerunt vita mortali. Ad hoc etiam 
+      <lb ed="#S" n="33"/>cogunt verba auctoritatis. Dicitur enim quod illi qui prius 
+      <lb ed="#S" n="34"/>mortui sunt resurgent primi, hoc autem non potest 
+       in<lb ed="#S" break="no" n="35"/>telligi de primitate dignitatis: quia multi qui in 
+       aduen<lb ed="#S" break="no" n="36"/>tu Christi inuenientur viui erunt maioris meriti, &amp; 
+       ma<lb ed="#S" break="no" n="37"/>ioris dignitatisapud Deum, quam aliqui eorum qui prius 
+      <lb ed="#S" n="38"/>fuerunt mortui, nec de primitate naturae, quia inter 
+       in<lb ed="#S" break="no" n="39"/>diuidua eiusdem speciei non est ordo naturae, oportet 
+       er<lb ed="#S" break="no" n="40"/>go quod intelligatur de primitate temporis sicut dictum est, 
+      <lb ed="#S" n="41"/>quod iam aliis resuscitatis illi qui in aduentu Christi 
+       inue<lb ed="#S" break="no" n="42"/>nientur viui, cum illis rapientur adhuc viuentes vita mor 
+      <lb ed="#S" n="43"/>tali: ac deinde morientur, &amp; postea resuscitabuntur. sed 
+      <lb ed="#S" n="44"/>probabilius videtur, quod imo omnes simul in ictu oculi 
+      <lb ed="#S" n="45"/>in nouissima tuba resurgent.
+    </p>
+            <p xml:id="khj78y-r43860-d1e906" n="18">
+      <!-- 18 -->Et ad primum 
+       dicen<lb ed="#S" break="no" n="46"/>dum, quod morientur in raptu: quia rapti &amp; parum in 
+       mor<lb ed="#S" break="no" n="47"/>te detenti &amp; prope illum raptum, quod autem prope est 
+      <lb ed="#S" n="48"/>nihil de esse videtur. secundo physicorum.
+    </p>
+            <p xml:id="khj78y-r43860-d1e918" n="19">
+      <!-- 19 -->Et ad 
+      <lb ed="#S" n="49"/>secundum dicendum, quod mortui qui insunt Christo, id est, in 
+      <lb ed="#S" n="50"/>fide formata Christi mortui resurgent primi primitate 
+      <lb ed="#S" n="51"/>dignitatis: quia in resurrectione vitae respectu malorum 
+      <lb ed="#S" n="52"/>qui resurgent in resurrectionem iudicii: vnde dicit, mor 
+      <lb ed="#S" n="53"/>tui qui in Christo sunt resurgent primi: deinde nos simul 
+      <lb ed="#S" n="54"/>raplemur &amp;c. non dicit, Deinde nos moriemur vel resur 
+      <lb ed="#S" n="55"/>gemus: sed post resurrectionem omnes rapiemur &amp;c.
+    </p>
+            <p xml:id="khj78y-r43860-d1e938" n="20">
+      <!-- 20 -->Ad 
+      <lb ed="#S" n="56"/>argumenta in oppositum. Ad primum dicendum, quod celeri 
+      <lb ed="#S" n="57"/>tas illa de qua loquitur beatus August. est intelligenda 
+      <lb ed="#S" n="58"/>quo ad collectionem puluerum, quae fiet ministerio 
+       an<lb ed="#S" break="no" n="59"/>gelorum in tempore: sed breuissimo, vt oculis hominum 
+       me<lb ed="#S" break="no" n="60"/>rito sit admirabilis. vel si intelligatur de organizatione 
+      <lb ed="#S" n="61"/>&amp; animatione: tunc nomen celeritatis large accipitur, 
+      <lb ed="#S" n="62"/>pro eo quod fit subito vel in instanti.
+    </p>
+            <p xml:id="khj78y-r43860-d1e958" n="21">
+      <!-- 21 -->Ad secundum 
+       dicen<lb ed="#S" break="no" n="63"/>dum, quod plures actiones quarum quaelibet est instantanea 
+      <lb ed="#S" n="64"/>nec habent oppositum ad inuicem, possunt esse in eodem 
+       instan<lb ed="#S" break="no" n="65"/>ti. tales autem erunt organizatio corporum &amp; animatio eorum 
+      <lb ed="#S" n="66"/>in resurrectione: collectio autem puluerum fiet in tempore: 
+      <lb ed="#S" n="67"/>&amp; praecedet tam organizationem quam animationem.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

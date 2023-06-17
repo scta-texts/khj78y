@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="353"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r09952"><!-- l4d29-q1 -->
+            <head xml:id="khj78y-r09952-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-r09952-Hd1e103" type="question-title">
+     an metus matrimonium impediat
+   </head>
+            <p xml:id="khj78y-r09952-d1e106">
+               <lb ed="#S" n="81"/>DIsTINCTIO. 29. QVAESTIO I. 
+      <lb ed="#S" n="82"/>CIrca Dist. 29. quaeruntur duo. Primo, de 
+       impedimen<lb ed="#S" break="no" n="83"/>to metus. secundo, de conditionibus appositis. 
+      <lb ed="#S" n="84"/>Coactio excludit consensum coniugalem. 
+    </p>
+            <p xml:id="khj78y-r09952-d1e117">
+               <lb ed="#S" n="85"/>Thom. 4dist. q. 29. art.3, q. 3. 
+    </p>
+            <p xml:id="khj78y-r09952-d1e122">
+               <lb ed="#S" n="86"/>PRIMO igitur, quaerit, an 
+       me<lb ed="#S" break="no" n="87"/>tus matrimonium impediat: &amp; 
+      <lb ed="#S" n="88"/>videtur, quod non: quia coacta 
+       vo<lb ed="#S" break="no" n="89"/>luntas, voluntas est.
+    </p>
+            <p xml:id="khj78y-r09952-d1e134" n="3">
+      <!-- 3 -->
+       Con<lb ed="#S" break="no" n="90"/>tra est Magister.
+    </p>
+            <p xml:id="khj78y-r09952-d1e141" n="4">
+      <!-- 4 -->
+       Respon<lb ed="#S" break="no" n="91"/>deo, hic sunt quinque videnda. 
+      <lb ed="#S" n="92"/>primo, quomodo cadat vis in 
+      <lb ed="#S" n="93"/>voluntatem. secundo, quo 
+       me<lb ed="#S" break="no" n="94"/>tus. Tertio, quomodo per metum matrimonium irritatur 
+      <lb ed="#S" n="95"/>Quarto, quomodo matrimonium tale postea confirmatur. 
+      <lb ed="#S" n="96"/>Quinto, vtrum metus impediat sponsalia iurata.
+    </p>
+            <p xml:id="khj78y-r09952-d1e159" n="5">
+      <!-- 5 -->
+       Quan<lb ed="#S" break="no" n="97"/>tum ad primum sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-r09952-d1e166" n="6">
+      <!-- 6 -->Prima, quod quam 
+      <lb ed="#S" n="98"/>tum ad actum imperatum respectu cuiuscunque potentiae or 
+      <lb ed="#S" n="99"/>ganicae, &amp; organi voluntas potest cogi: sic. scilicet intelligendo, quod 
+      <lb ed="#S" n="100"/>quicquid velit fieri, vel non fieri extra se, &amp; intellectum, potest 
+      <lb ed="#S" n="101"/>oppositum esse per actionem violentam alterius: quia qum non 
+      <lb ed="#S" n="102"/>obendit mobile mouenti ad nutum: vel si obendit ad nutum, 
+      <lb ed="#S" n="103"/>natum est alteri magls obedire: &amp; alterius contrariam 
+       im<lb ed="#S" break="no" n="104"/>pressionem recipere respectu huius mobilis, mouens potest 
+      <lb ed="#S" n="105"/>cogi non in se, sed in illo mobili: quia. scontra 
+       motio<lb ed="#S" break="no" n="106"/>nem soam mouebitur: sicut respectu corporis mouentis, cui 
+      <lb ed="#S" n="107"/>aliud non obendit, ad nutum potest esse violentia, &amp; respe 
+      <lb ed="#S" n="108"/>ctu moti ab inferiore angulo respectu fortioris, &amp; 
+       supe<lb ed="#S" break="no" n="109"/>rioris, sic autem est hic. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r09952-d1e197" n="7">
+      <!-- 7 -->si dicatur, ergo 
+       vo<lb ed="#S" break="no" n="110"/>luntas cogitur priuatiue, quia non potest voluntas velle, nisi 
+      <lb ed="#S" n="111"/>intellectu cogitante, nec ille nisi consensu sentiente, &amp; si 
+      <lb ed="#S" n="112"/>ille potest prohiberi a suo actu, sicut claudit oculus, vt 
+      <lb ed="#S" n="113"/>non videat, sic intellectus, vt non intelligat, &amp; per conse 
+      <lb ed="#S" n="114"/>quens voluntas, vt non appetat, &amp; sic eius actus priuantur. 
+      <lb ed="#S" n="115"/>vel positiue: quia si contra voluntatem mulier sentiatur: per 
+      <lb ed="#S" n="116"/>consequens cogitat, &amp; per consequens contra voluntatem appe 
+      <lb ed="#S" n="117"/>titur.
+    </p>
+            <p xml:id="khj78y-r09952-d1e219" n="8">
+      <!-- 8 -->Dicendum, quod non sequitur. Primo, quia licet 
+       ve<lb ed="#S" break="no" n="118"/>rum sit sensu non sentiente saltem interiori, intellectum 
+      <lb ed="#S" n="119"/>non cogitare, nec voluntatem velle: hoc tum non est alterum 
+      <lb ed="#S" n="120"/>ipsorum cogi: cum hoc sit eorum natura non habere actum sine 
+      <lb ed="#S" n="121"/>obiecto: sicut non cogitur oculus, si visibile sibi 
+       subtrahi<lb ed="#S" break="no" n="122"/>tur: per hoc enim nulla violentia sibi infertur: &amp; tum actus, 
+      <lb ed="#S" n="123"/>qui erat, per hoc subtrahit, vel qui erat futurus suspendi 
+      <lb ed="#S" n="124"/>tur. Ad aliud etiam dicendum, quod quamuis sit necesse sensu 
+      <lb ed="#S" n="125"/>phantasiante intellectum intelligere saltem in vigilia, non tamen 
+      <lb ed="#S" n="126"/>est coactio, quia ista est eius natura: sicut necesse est oculum 
+      <lb ed="#S" n="127"/>apertum videre colorem sub lumine praesentatum, sine violen 
+      <lb ed="#S" n="128"/>tia: tamen imo delectabiliter allqfi. Vlterius autem non 
+       neces<lb ed="#S" break="no" n="129"/>se est propter hoc intellectum cogitare practice, vel si co 
+      <!--0354.xml-->
+      <pb ed="#S" n="354"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>gitat practice non necesse est alterum iudicare: &amp; si ex 
+      <lb ed="#S" n="2"/>apparentibus pro tunc non occurreret, quare esset aliter 
+      <lb ed="#S" n="3"/>iudicandum, Deus tamen inspirat, ne ad peccandum 
+       coga<lb ed="#S" break="no" n="4"/>tur: nisi forte hoc ille per primum psti demeruerit. Et hic 
+      <lb ed="#S" n="5"/>esset vnus modus, quare peccatum, quod per poenitentiam non 
+      <lb ed="#S" n="6"/>diluitur suo pondere ad aliod trahit. Quocunque autem se 
+      <lb ed="#S" n="7"/>quatur actus speculatiue, vel practice, vel voluntarie, vel 
+      <lb ed="#S" n="8"/>necessario, non est violentia, vel naturalis perfectio. 
+       Vo<lb ed="#S" break="no" n="9"/>luntas autem nisi adsit cogitatiopractica, &amp; determinata, 
+      <lb ed="#S" n="10"/>non necessario vult, &amp; quando sic vult, naturaliter vult. Vnde 
+      <lb ed="#S" n="11"/>non est coactio, sed salus, &amp; perfectio.
+    </p>
+            <p xml:id="khj78y-r09952-d1e281" n="9">
+      <!-- 9 -->secunda 
+       conclu<lb ed="#S" break="no" n="12"/>sio est, quod non potest cogi quantum ad actum elicitum, qui 
+      <lb ed="#S" n="13"/>est velle, vel nolle propter duo. Primo, quia sicut materia 
+      <lb ed="#S" n="14"/>est nata recipere omnem formam, quantum est de se nullam 
+      <lb ed="#S" n="15"/>recipit violenter: sed est sibi omnis generatio naturalis, quia 
+      <lb ed="#S" n="16"/>appetit formam, vt turpe bonum, &amp; omnis forma est suae 
+       es<lb ed="#S" break="no" n="17"/>sentiae perfectiua, &amp; saluatiua, sic voluntas respectu omnis  
+      <lb ed="#S" n="18"/>actus volendi: imo omnis  potentia appetitiua, &amp; sensitiua est 
+      <lb ed="#S" n="19"/>inulolabilis respectu actus eliciti. Vnde impossibile est, 
+      <lb ed="#S" n="20"/>quod in visu sit aliquod videre violentum: sed omne videre est 
+      <lb ed="#S" n="21"/>sibi naturale, &amp; nullum violentum, sicut calor est aquae natu 
+      <lb ed="#S" n="22"/>ralis: omne cognoscere, &amp; appetere est naturaliter bonum 
+      <lb ed="#S" n="23"/>ipsius appetitus, &amp; potentiae cognoscitiuae: vnde &amp; intelle 
+      <lb ed="#S" n="24"/>ctio falsa est bonum ipsius intellectus absolute loquendo, 
+      <lb ed="#S" n="25"/>&amp; tin est de perfectione naturali in intellectione mala, si 
+      <lb ed="#S" n="26"/>cut in bona, &amp; vera, quia eadem oratio sola mutatione obie 
+      <lb ed="#S" n="27"/>cti fit de falsa vera, similiter etiam in voluntate. Quod 
+       er<lb ed="#S" break="no" n="28"/>go dicit, quod verum est bonum intellect', &amp; falsum malum eius, 
+      <lb ed="#S" n="29"/>intelligendum est obiectiue, non subiectiue: relatiue, non ab 
+      <lb ed="#S" n="30"/>solute. Alia ratio est, quia impossibile est contraria inesse ei 
+      <lb ed="#S" n="31"/>dem, vel quod idem secundum idem sit volitum, &amp; non volitum. 
+      <lb ed="#S" n="32"/>Omnis autem actus, qui est in voluntate, est, vel esse potest vo 
+      <lb ed="#S" n="33"/>littis etiam actus nolendi: quia non est minus voluntarium nol 
+      <lb ed="#S" n="34"/>le, quae velle. Vnde Aug. Qui diligit proximum, necesse est, vt 
+      <lb ed="#S" n="35"/>ipsam dilectionem diligat. Qui autem odit aliquem, non 
+       pro<lb ed="#S" break="no" n="36"/>pter hoc odit ipsum odium, imo diligit ipsum: sicut peccator 
+      <lb ed="#S" n="37"/>dolet de peccato, &amp; odit, &amp; gaudet de ipso dolore, &amp; odio. si 
+      <lb ed="#S" n="38"/>ergo esset actus aliquis in voluntate ab ea elicitus, vel etiam 
+      <lb ed="#S" n="39"/>impressus, qui tamen esset velle, vel nolle: intantum esset 
+       voli<lb ed="#S" break="no" n="40"/>tus, &amp; voluntarius, inquantum eius actus. si autem cum hoc 
+       es<lb ed="#S" break="no" n="41"/>set non volitus, vel odio habitus, &amp; inuoluntarius esset 
+       con<lb ed="#S" break="no" n="42"/>tradictio: vnde est impossibile, quod respectu eius cogatur. 
+    </p>
+            <p xml:id="khj78y-r09952-d1e353" n="10">
+               <lb ed="#S" n="43"/>
+               <!-- 10 -->Tertia conclusio est, quod volutas potest cogi large 
+       loquen<lb ed="#S" break="no" n="44"/>do quantum est ad aliquid impressum, quod tamen non sit velle 
+      <lb ed="#S" n="45"/>nec nolle, prout voluntatem cogi est aliquid esse in ea 
+       con<lb ed="#S" break="no" n="46"/>tra eius inclinationem. sicut enim potest esse in voluntate 
+       ali<lb ed="#S" break="no" n="47"/>quis habitus acquisitus per actus volendi malos, de quo 
+      <lb ed="#S" n="48"/>voluntas poenitentis dolet: de quo posset intelligi illud, 
+       Vi<lb ed="#S" break="no" n="49"/>deo aliam legem in membris meis repugnantem legi mentis 
+      <lb ed="#S" n="50"/>meae, non solum in sensu, sed etiam in voluntate potest homo 
+      <lb ed="#S" n="51"/>habere a studio habitum contrarium detestatiuum: sic a Deo 
+      <lb ed="#S" n="52"/>potest aliquid imprimi voluntati, quod ipsi voluntati 
+       displi<lb ed="#S" break="no" n="53"/>cebit, &amp; esset contra eius volitionem, &amp; tale quid forte est 
+      <lb ed="#S" n="54"/>illud essentiale de poena damnatorum: quod est in voluntate. scilicet 
+      <lb ed="#S" n="55"/>a Deo immediate, vel mediante igne immissum: quod est 
+      <lb ed="#S" n="56"/>a voluntate summe odio habitum, cum quo de nullo alio 
+      <lb ed="#S" n="57"/>potest gaudere: &amp; illud erit contrarium non formaliter actui 
+      <lb ed="#S" n="58"/>voluntatis: quia sic non staret cum ipso, nec ipsi naturae 
+       vo<lb ed="#S" break="no" n="59"/>luntatis: quia tunc destrueret eam: sed sicut habitus 
+       vitio<lb ed="#S" break="no" n="60"/>sus est in voluntate poenitentis contrarius obiectiue 
+       respe<lb ed="#S" break="no" n="61"/>ctu actus: non autem subiectiue respectu naturae potentiae: 
+      <lb ed="#S" n="62"/>vnde nec eam destruit. sic &amp; hic. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-r09952-d1e401" n="11">
+      <!--11--> secundus 
+      <lb ed="#S" n="63"/>articulus est videre, quomodo  metus cadat in voluntate, vbi 
+      <lb ed="#S" n="64"/>sunt quatuor conclusiones.
+    </p>
+            <p xml:id="khj78y-r09952-d1e410" n="12">
+      <!-- 12 -->Prima, quod quandocunque vo 
+      <lb ed="#S" n="65"/>luntas consentit in aliquid metu territa, alias non 
+       consen<lb ed="#S" break="no" n="66"/>sura, dicit tunc metus cadere in voluntatem, quod non 
+       cogi<lb ed="#S" break="no" n="67"/>tur: quia non obstante tali metu, potuit, si voluit non consen- 
+      <!--0354.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>tire: sicut in illo, qui propter naufragium proiscit merces in 
+      <lb ed="#S" n="69"/>mari, vel amputat sibi membrum, ne perdat totum corpus. 
+    </p>
+            <p xml:id="khj78y-r09952-d1e430" n="13">
+               <lb ed="#S" n="70"/>
+               <!-- 13 -->secunda conclusio est, quod metus aliquando cadit in constan 
+      <lb ed="#S" n="71"/>tem virum, aliquando non: ad quod oportet considerare &amp; ipsum 
+      <lb ed="#S" n="72"/>periculum in se, &amp; absolute, &amp; in comparatione ad agendum, 
+      <lb ed="#S" n="73"/>vel omittendum. Aliquid enim est de se terribile, vt illa, quae 
+      <lb ed="#S" n="74"/>in illo versu continentur. stupri, siue status, verberis, atque 
+      <lb ed="#S" n="75"/>necis. Homo enim constans timet mortem sicut &amp; Christus, 
+      <lb ed="#S" n="76"/>&amp; dehonestationem stupri multo plus, sicut susamna, quae ma 
+      <lb ed="#S" n="77"/>luit lapidari: &amp; seruitutem, sicut pro excutiendo iugo serui 
+      <lb ed="#S" n="78"/>tutis multi exponunt se morti, quia seruitus mors ciuilis 
+      <lb ed="#S" n="79"/>est. similiter per grauia verbera, quia minima poena cor 
+      <lb ed="#S" n="80"/>poralis est maior maxima pecuniaria secundum iura, sed 
+      <lb ed="#S" n="81"/>sunt aliqua poenalia de se a constante viro non formidabi 
+      <lb ed="#S" n="82"/>lia, sed contemptibilia, inter quae etiam computatur timor 
+       infa<lb ed="#S" break="no" n="83"/>miae, cui aliter potest occurri, &amp; damni temporalis, &amp; conuitij, 
+      <lb ed="#S" n="84"/>&amp; huiusmodi, &amp; similiter est timor excommunicationis, quamuis glo. 
+      <lb ed="#S" n="85"/>dicat de resti. spo. quod est iustus timor. sed &amp; ista quatuor 
+      <lb ed="#S" n="86"/>quae secundum se incutiunt iustum timorem: possunt 
+       compara<lb ed="#S" break="no" n="87"/>ri maioribus malis, respectu quorum non esset iustus timor, 
+      <lb ed="#S" n="88"/>sed magis sunt eligenda, puta peccato, vel alij.
+    </p>
+            <p xml:id="khj78y-r09952-d1e476" n="14">
+      <!-- 14 -->
+       Ter<lb ed="#S" break="no" n="89"/>tia conclusio est, quod respectu matrimonij ista sunt iustus 
+      <lb ed="#S" n="90"/>motus. Potest enim secundum rectam rationem optari esse in 
+      <lb ed="#S" n="91"/>matrimonio potius, quam mori, vel grauiter verberari, vel in 
+      <lb ed="#S" n="92"/>carcerari: quia tunc homo sibi non potest remedium quaerere, vel 
+      <lb ed="#S" n="93"/>in seruitute: quia multo minor est seruitus matrimonij, quae 
+      <lb ed="#S" n="94"/>alia, in qua quicquid est serui, totum est domini: sed in matrimo 
+      <lb ed="#S" n="95"/>nio non est hoc, nisi quo ad actum carnalem.
+    </p>
+            <p xml:id="khj78y-r09952-d1e497" n="15">
+      <!-- 15 -->
+       Quar<lb ed="#S" break="no" n="96"/>ta conclusio est, quod respectu actus fornicarij non potest esse 
+      <lb ed="#S" n="97"/>iustus metus: quia melius est omnia mala pati. quam soli malo 
+      <lb ed="#S" n="98"/>consentire.
+    </p>
+            <p xml:id="khj78y-r09952-d1e508" n="16">
+      <!-- 16 -->Tertius articulus est videre, quomodo  vis, 
+      <lb ed="#S" n="99"/>vel metus impediant, &amp; dirimant matrimonium, vbi sunt tres 
+      <lb ed="#S" n="100"/>conclusiones.
+    </p>
+            <p xml:id="khj78y-r09952-d1e517" n="17">
+      <!-- 17 -->Prima, quod si est metus, qui cadit in 
+       con<lb ed="#S" break="no" n="101"/>stantem virum, non est matrimonium, nec quo ad iudicium 
+       ec<lb ed="#S" break="no" n="102"/>clesiae, nec conscientiae, etiam si vere consentit: quia consensus 
+      <lb ed="#S" n="103"/>liber non fuit: quia sicut non sufficit consensus ad 
+       matrimo<lb ed="#S" break="no" n="104"/>nium impuberis, sicut puberis: quia non est aeque perfectus 
+      <lb ed="#S" n="105"/>sic non sufficit consensus non liber, quia non est aeque 
+       per<lb ed="#S" break="no" n="106"/>fectus.
+    </p>
+            <p xml:id="khj78y-r09952-d1e535" n="18">
+      <!-- 18 -->sed ex hoc videi matrimonium non esse 
+       sa<lb ed="#S" break="no" n="107"/>cramentum: quia in omni vero sacramento ex interiore consensu: licet per 
+      <lb ed="#S" n="108"/>metum quemcunque extorto verum sacramentum suscipit, vt in 
+       baptis<lb ed="#S" break="no" n="109"/>mo, ordinatione, &amp; confirmatione: ergo vel matrimonium 
+      <lb ed="#S" n="110"/>non est sacramentum, vel sufficit consensus quamuis meticulentus. 
+    </p>
+            <p xml:id="khj78y-r09952-d1e548" n="19">
+               <lb ed="#S" n="111"/>
+               <!-- 19 -->Et dicendum, quod illud est verum in sacramentis, de quorum es 
+      <lb ed="#S" n="112"/>sentia non est actus suscipientis de libero in non liberum, 
+       se<lb ed="#S" break="no" n="113"/>cus in aliis. Nam constat poenitentiam esse sacramentum: sed quia 
+      <lb ed="#S" n="114"/>de elus essentia est actus suscipientis: inde est, quod nisi sit 
+       li<lb ed="#S" break="no" n="115"/>ber, nihil est actum ipso iure: vt puta, si quis non propter 
+      <lb ed="#S" n="116"/>Deum, sed pure proptertimorem confitet, non esset verum 
+       sa<lb ed="#S" break="no" n="117"/>crm: &amp; similiter est in matrimonio: secus autem est in aliis. 
+      <lb ed="#S" n="118"/>Nam si consensus baptizandi esset de essentia in 
+       baptizan<lb ed="#S" break="no" n="119"/>do, tunc non posset puer baptizari: quia non potest habere con 
+      <lb ed="#S" n="120"/>sensum: quia quod est de essentia sacramenti apud omnes aeque custo 
+      <lb ed="#S" n="121"/>ditur.
+    </p>
+            <p xml:id="khj78y-r09952-d1e577" n="20">
+      <!-- 20 -->secunda conclusio est, quod si non sit metus cadens 
+      <lb ed="#S" n="122"/>in constantem virum, vel fuerint blanditiae, vel huiusmodi, quae ma 
+      <lb ed="#S" n="123"/>gis alliciunt consensum, est matrimonium, supposito, quod sit 
+      <lb ed="#S" n="124"/>consensus verus: quia si non sit consensus verus, siue 
+       impe<lb ed="#S" break="no" n="125"/>diat metus iustus, siue non iustus, ecclesia non potest facere, 
+      <lb ed="#S" n="126"/>quod sit verum matrimonium. sed quando est non iustus metus, ratio 
+      <lb ed="#S" n="127"/>quare non impedit, est, quia ecclesia non statuit, nec forte sta 
+      <lb ed="#S" n="128"/>tuere potuit. Quod ergo dicunt aliqui, quod inconstans ita 
+      <lb ed="#S" n="129"/>timet propter leuem metum, sicut constans propter iustum, &amp; 
+      <lb ed="#S" n="130"/>per consequens est aeque non liber hic, sicut ibi: &amp; sibi 
+       im<lb ed="#S" break="no" n="131"/>pedit propter defectum libertatis, ergo &amp; hic: non valet, quia 
+      <lb ed="#S" n="132"/>metus impedit matrimonium propter statutum ecclesiae non 
+      <lb ed="#S" n="133"/>diuinum. Quia ergo ecclesia punit, &amp; afficit actum 
+       exterio<lb ed="#S" break="no" n="134"/>rem, no interioro, nin in respectu ad exteriore: est autem 
+      <!--0355.xml-->
+      <pb ed="#S" n="355"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>iustum subuenire illi, qui passus est iustum metus quia 
+      <lb ed="#S" n="2"/>fecit, quod debuit de duobus malis minus eligendo: ideo 
+      <lb ed="#S" n="3"/>ecclesia reddit inhabilem ad contrahendum pro hac vice, 
+      <lb ed="#S" n="4"/>ipsum metum inferentem ipsum puniendo eo modo, quo 
+      <lb ed="#S" n="5"/>propter quaedam crimina ipsa facit non esse matrimoni um 
+      <lb ed="#S" n="6"/>etiam concurrente consensu. Et similiter reddit inhabilem ad 
+      <lb ed="#S" n="7"/>matrimonium ipsum passum iustum metum, in sui fauorem 
+      <lb ed="#S" n="8"/>ipsi subueniendo: quia verisimile est, quod sibi non placeat 
+       sim<lb ed="#S" break="no" n="9"/>pliciter, cui non consentit nisi durante iusto metu. 
+       Econtra<lb ed="#S" break="no" n="10"/>rio autem, quando non fuit iustus metus, nec inferens tam graui 
+      <lb ed="#S" n="11"/>ter peccauit: vnde nec tantum est puniendus, nec metum pas 
+      <lb ed="#S" n="12"/>sus, qui fecit, quod non debuit trepidando, vbi non fuit 
+       ti<lb ed="#S" break="no" n="13"/>mor, praeferendo minus bouum maiori, &amp; meretur 
+       priuile<lb ed="#S" break="no" n="14"/>gium. Vnde non iustae sunt leges restituentes in integrum illum, 
+      <lb ed="#S" n="15"/>qui passus est iustum metum, non illum, qui fuit nimis meti 
+      <lb ed="#S" n="16"/>culentus: similiter, &amp; iusti sunt Canones irritantes 
+       matri<lb ed="#S" break="no" n="17"/>monium contractum per iustum metum, non per non iustum: 
+      <lb ed="#S" n="18"/>vnde concurrit duplex causa: fauor vnius, &amp; odium alterius: 
+      <lb ed="#S" n="19"/>licet autem odium sufficeret illius, qui in matrimonium 
+       pec<lb ed="#S" break="no" n="20"/>cauit, sicut qum polluit per adulterium, &amp; postea duxit can 
+      <lb ed="#S" n="21"/>dem in matrimonium: tamen hoc est principaliter propter fauo 
+      <lb ed="#S" n="22"/>rem metus passi, qui potest renunciare.
+    </p>
+            <p xml:id="khj78y-r09952-d1e665" n="21">
+      <!-- 21 -->Tertia 
+       con<lb ed="#S" break="no" n="23"/>clusio est, quod ille, qui confitei metu etiam non cadente in con 
+      <lb ed="#S" n="24"/>stantem, nullum sacramentum recipit: quia de iure diuino, non huma 
+      <lb ed="#S" n="25"/>no interior poenitentia, quae est consensus liber, est pars sacri: 
+      <lb ed="#S" n="26"/>sine qua non est sacramentum iure diuino: quod potest afficere 
+       a<lb ed="#S" break="no" n="27"/>ctum interiorem: vnde talis tenetur iterum confiteri, &amp; si non for 
+      <lb ed="#S" n="28"/>te illo modo: quod est iuris positiui: tamen quandoque ante mortem: 
+      <lb ed="#S" n="29"/>quod est iuris diuini: quia etiam confessio, sicut nomen 
+       li<lb ed="#S" break="no" n="30"/>bertatem importat.
+    </p>
+            <p xml:id="khj78y-r09952-d1e687" n="22">
+      <!-- 22 -->Quartus articulus est videre, 
+      <lb ed="#S" n="31"/>quomodo tale matrimonium confirmat, vbi sunt quatuor 
+       con<lb ed="#S" break="no" n="32"/>clusiones.
+    </p>
+            <p xml:id="khj78y-r09952-d1e696" n="23">
+      <!-- 23 -->Prima conclusio est, quod confirmat per 
+       con<lb ed="#S" break="no" n="33"/>sensum sequentem durante primo consensu, quia licet secundum 
+      <lb ed="#S" n="34"/>leges, &amp; antiquos Canones raptor non possit contrahere 
+      <lb ed="#S" n="35"/>cum rapta: potest tamen secundum illud de rapto. c. vlt. si 
+       dissen<lb ed="#S" break="no" n="36"/>sio transeat in consensum, &amp; si ab initio displicuit, incipiat 
+      <lb ed="#S" n="37"/>complacere. Vel forte leges, &amp; antiqui Canones loquuni 
+      <lb ed="#S" n="38"/>de raptu ad coitum, non de raptu ad matrimonium. 
+    </p>
+            <p xml:id="khj78y-r09952-d1e714" n="24">
+               <lb ed="#S" n="39"/>
+               <!-- 24 -->secunda conclusio est, quod si metum inferens poeniteat, 
+       si<lb ed="#S" break="no" n="40"/>cut Amon, qui exosam habuit Thamar, postquam corrupe 
+      <lb ed="#S" n="41"/>rat eam, &amp; inuitam expelli fecit, non est matrimonium, ex 
+      <lb ed="#S" n="42"/>quo mutui consensus nunquam concurrerunt, &amp; similiter quando 
+      <lb ed="#S" n="43"/>vnus voluit, alius noluit, &amp; econuerso: quia causas 
+       essentia<lb ed="#S" break="no" n="44"/>les oportet concurrere ad effectum: sed nihilominus ipse te 
+      <lb ed="#S" n="45"/>netur cum ea contrahere, si ipsa, &amp; amici velint, si potest &amp; for 
+      <lb ed="#S" n="46"/>te gratis &amp; si non potest cum ipsa contrahere, vel ipsa vel ami 
+      <lb ed="#S" n="47"/>ci nolunt, tenetur eam dotare. ar. de adulter. c. 1. &amp;. 2. 
+    </p>
+            <p xml:id="khj78y-r09952-d1e738" n="23">
+               <lb ed="#S" n="48"/>
+               <!-- 25 -->Tertia conclusio est dubia. scilicet quod confirmai 
+       matrimo<lb ed="#S" break="no" n="49"/>nium quo ad iudicium ecclesiae per consensum in carnalem 
+      <lb ed="#S" n="50"/>copulam. si enim confiteatur se consensisse in carnalem copulam 
+      <lb ed="#S" n="51"/>metu mortis, sed nunquam in matrimonium, iudicabit 
+       ma<lb ed="#S" break="no" n="52"/>trimonium: quia si confiteretur se contraxisse per verba de 
+       prae<lb ed="#S" break="no" n="53"/>senti per metum non iustum, iudicat pro matrimonio. Cum 
+      <lb ed="#S" n="54"/>ergo respectu fornicationis omnis metus sit non iustos: si 
+      <lb ed="#S" n="55"/>confitet se consensisse in carnalem copulam, non in matrimo 
+      <lb ed="#S" n="56"/>nium metu mortis. confiteense consensisse sine iusto metu: 
+       er<lb ed="#S" break="no" n="57"/>go per idem est, ac si sponte consensisset. si autensponte 
+       con<lb ed="#S" break="no" n="58"/>sensisset in carnalem copulam post violentam traductionem: 
+      <lb ed="#S" n="59"/>quamuis diceret se non consensisse in matrimonium, non 
+       cre<lb ed="#S" break="no" n="60"/>deretur: sed iudicaretur pro matrimonio, sicut si confiterei 
+      <lb ed="#S" n="61"/>se dolose contraxisse per verba de praesenti, vel post sponsa 
+      <lb ed="#S" n="62"/>lia solum carnalem copulam deceptoriam, iudicatur matrimonium. 
+      <lb ed="#S" n="63"/>ergo &amp; hic. Oportet ergo, ꝗsi confitei, vel probat 
+       carna<lb ed="#S" break="no" n="64"/>lis copula, alleget non metum, sed vim, &amp; neget consensum 
+      <lb ed="#S" n="65"/>non solum in matrimonium: sed etiam in carnalem copulam, &amp; 
+      <lb ed="#S" n="66"/>probato iusto metu tempore matrinonij: &amp; durante tempore 
+      <lb ed="#S" n="67"/>copulae satis videi esse vis, &amp; oppressyo: quia praesamit non con- 
+      <!--0355.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>sensisse in peccatum mortale, si in ipsum matrimonium non 
+      <lb ed="#S" n="69"/>poterat sine mortali consentire.
+    </p>
+            <p xml:id="khj78y-r09952-d1e795" n="26">
+      <!-- 26 -->Quarta conclusio 
+      <lb ed="#S" n="70"/>est, quod sine consensu coitus caetera etiam frustrant: quia in 
+       fo<lb ed="#S" break="no" n="71"/>ro conscientiae nunquam est matrimonium, nisi consenserit in 
+      <lb ed="#S" n="72"/>ipsum matrimonium.
+    </p>
+            <p xml:id="khj78y-r09952-d1e807" n="27">
+      <!-- 27 -->Quantum ad quintum articulum 
+      <lb ed="#S" n="73"/>de metu sponsaliorum iuratorum sunt duae opiniones. 
+    </p>
+            <p xml:id="khj78y-r09952-d1e814" n="28">
+               <lb ed="#S" n="74"/>
+               <!-- 28 -->Prima quorundam dicentium, quod sponsalia contracta per 
+      <lb ed="#S" n="75"/>metum cadentem in constantem virum, &amp; iuramento firmata 
+      <lb ed="#S" n="76"/>tenent, &amp; obligant in foro conscientiae, quod sic declarunt. 
+      <lb ed="#S" n="77"/>Quocumque metu homo scienter iurat falsum, periurat, quod 
+      <lb ed="#S" n="78"/>libet autem periurium scienter commissum est peccatum morta 
+      <lb ed="#S" n="79"/>le. Nullus ergo met' excusat per iurantem a peccato 
+       mor<lb ed="#S" break="no" n="80"/>tali, sed qui per iuramentum se promisit ducturum aliquam 
+      <lb ed="#S" n="81"/>in vxorem: si quod iurauit, non implet, periurat: ad quod 
+      <lb ed="#S" n="82"/>sequii, quod mortaliter peccat, sed quilibet obligatur ad vi 
+      <lb ed="#S" n="83"/>tandum peccatum mortale. ergo &amp;c. sed in foro exteriori 
+      <lb ed="#S" n="84"/>non reputarei obligatus: eo quod ecclesia praesumeret 
+       con<lb ed="#S" break="no" n="85"/>sensum interiorem non affuisse. secundo, probant hoc sic, 
+      <lb ed="#S" n="86"/>qa non est necessaria absolutio a iuramento, quod ipso iu 
+      <lb ed="#S" n="87"/>re obligat: sed Romani Pontifices tales a iuramenti 
+       nexi<lb ed="#S" break="no" n="88"/>bus absoluerunt. extra de iureiur. Verum ergo tale iura 
+      <lb ed="#S" n="89"/>mentum non est ipso iure nullum, sed est obligatorium. 
+       Ter<lb ed="#S" break="no" n="90"/>tio sic: Renuntiatio electionis facta per metum si sit 
+       iura<lb ed="#S" break="no" n="91"/>mento firmata est obligatoria. extra de his, quae vi, 
+       me<lb ed="#S" break="no" n="92"/>ve causa fiunt. ad aures: sed minor consensus requiritad 
+      <lb ed="#S" n="93"/>sponsalia contrahenda, quam ad alias obligationes 
+       contrahen<lb ed="#S" break="no" n="94"/>das: quod patet, quia septemnes possunt contrahere sponsalia: 
+      <lb ed="#S" n="95"/>cum tamen propter defectum discretionis ad alias obligationes 
+      <lb ed="#S" n="96"/>sint inepti. ergo &amp;c. Quarto sic. 22. 4 Inter caetera 
+       di<lb ed="#S" break="no" n="97"/>citur de quodam, qui timore necis impulsus suae 
+       concubi<lb ed="#S" break="no" n="98"/>nae iuramento firmauit ipsam suscipere in coniugem: quod 
+      <lb ed="#S" n="99"/>quia quam prius habuerat, non est peccatum suscipere in 
+      <lb ed="#S" n="100"/>coniugem, matrimonium fit in Deo firmum, &amp; stabile. 
+    </p>
+            <p xml:id="khj78y-r09952-d1e877" n="29">
+               <lb ed="#S" n="101"/>
+               <!-- 29 -->Alij dicunt, quod sponsalia praedicta non tenent ipso iure 
+      <lb ed="#S" n="102"/>in aliquo foro: quia nec Deus, nec ecclesia voluerunt tale 
+      <lb ed="#S" n="103"/>iuramentum obligatorium esse respectu eorum, in quibus ma 
+      <lb ed="#S" n="104"/>xima requirii libertas, de quorum numero est contractus 
+      <lb ed="#S" n="105"/>sponsaliorum, &amp; professio religionis: vnde professio in reli 
+      <lb ed="#S" n="106"/>gione facta propter metum mortis non obligat. extra de his 
+      <lb ed="#S" n="107"/>quae vi, me. ve causa fiunt. c. 1. &amp;. 15. q. 1. Non est. dicit, quod 
+      <lb ed="#S" n="108"/>voluntarium sibi militem elegit Christus. Item hoc probant 
+      <lb ed="#S" n="109"/>secundo sic, fortior est obligatio per consensum de 
+       praesen<lb ed="#S" break="no" n="110"/>ti, quam per consensum de futuro: sed praedicta coactio impe 
+      <lb ed="#S" n="111"/>dit obligationem per consensum de praesenti. ergo &amp;c. 
+       Ter<lb ed="#S" break="no" n="112"/>tio sic. extra de his, quae vi, me. ve causa fiunt. Abbas. glo. 
+      <lb ed="#S" n="113"/>matrimonium contractum per metum non tenet, nec 
+       obliga<lb ed="#S" break="no" n="114"/>tur, qui hoc facit, etiam si iurat: ergo a simili in sponsali 
+      <lb ed="#S" n="115"/>bus. Quarto, quia ei, qui per metum ecclesiam suam penitus 
+      <lb ed="#S" n="116"/>obiurat: debent restitui vniuersa, vt ibidem dicit in textu, 
+      <lb ed="#S" n="117"/>sed si tale iuramentum obligaret, non deberent restitui. er 
+      <lb ed="#S" n="118"/>go iuramentum metu extortum, non obligat.
+    </p>
+            <p xml:id="khj78y-r09952-d1e921" n="30">
+      <!-- 30 -->Qui 
+       igi<lb ed="#S" break="no" n="119"/>tur vult tenere primam opinionem, potest dicere ad duo 
+      <lb ed="#S" n="120"/>prima falsa, quod loquuntur de obligatione in foro exterio 
+      <lb ed="#S" n="121"/>ri.
+    </p>
+            <p xml:id="khj78y-r09952-d1e932" n="31">
+      <!-- 31 -->Ad tertium, quod mi. est falsa. quaedam enim sunt pro 
+      <lb ed="#S" n="122"/>missiones factae per metum cadentem in constantem virum, quae 
+      <lb ed="#S" n="123"/>non sunt nullae ipso iure: quae tamen rescindendae sunt 
+       pera<lb ed="#S" break="no" n="124"/>ctionem, si sunt perfectae, vtpote, quia post stipulationem nume 
+      <lb ed="#S" n="125"/>ratio facta est: si autem sunt imperfectae, vt si post 
+       stipula<lb ed="#S" break="no" n="126"/>tionem numeratio facta non est, rescindi possunt per exce 
+      <lb ed="#S" n="127"/>ptionem. f. quod me. causa. l. Metum praesentem. 5. sed quoque 
+       prae<lb ed="#S" break="no" n="128"/>tor.
+    </p>
+            <p xml:id="khj78y-r09952-d1e952" n="32">
+      <!-- 32 -->Qui autem vult tenere secundam opinionem, potest 
+      <lb ed="#S" n="129"/>dicere ad primum, quod quaedam sunt promissiones, quae per me 
+      <lb ed="#S" n="130"/>tum probabilem extortae non valent ipso iure. Prima de con 
+      <lb ed="#S" n="131"/>trahendo matrimonium. extra de spon. Cum locum. 
+       se<lb ed="#S" break="no" n="132"/>conda respectu dotis. ff. de his, quae metus causa. si 
+       mu<lb ed="#S" break="no" n="133"/>lier. 5. si dos. Tertia de rebus ecclesiae. de iureiur. 
+       Perue<lb ed="#S" break="no" n="134"/>nit. Quarta voti. extra de his, quae vi, me. ve causa fiunt. 
+      <!--0356.xml-->
+      <pb ed="#S" n="356"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>c. 1. Quinta iurisdictionis. ff. de iudi. l. 2. sexta 
+       authori<lb ed="#S" break="no" n="2"/>tate tutorum meticulenta. E de autho. tu. l. 1. 5. fin. Et haec 
+      <lb ed="#S" n="3"/>habentur. extra de his, quae vi me ve causa. Abbas in glo. 
+      <lb ed="#S" n="4"/>quaedam autem sunt, quae per metum facta, vel promissa 
+       te<lb ed="#S" break="no" n="5"/>nent quidem ipso iure, quousque subueniatur metum passo 
+      <lb ed="#S" n="6"/>authoritate superioris, qui suo officio implorato, &amp; 
+       me<lb ed="#S" break="no" n="7"/>tu probato, debet a promisso absoluere, &amp; datum facere 
+      <lb ed="#S" n="8"/>festituit. Decretalis autem in contrarium allegata non 
+      <lb ed="#S" n="9"/>loquitur de iuramento per metum extorto: quod nullum 
+      <lb ed="#S" n="10"/>est ipso iure, sed de alio: &amp; similiter intelligit eo. tit. Fina 
+      <lb ed="#S" n="11"/>liter ad sequentia solue, in gloss. Abbas.
+    </p>
+            <p xml:id="khj78y-r09952-d1e1001" n="33">
+      <!-- 33 -->Ad 
+       argu<lb ed="#S" break="no" n="12"/>mentum principale quaestionis dicendum, quod coacta 
+       vo<lb ed="#S" break="no" n="13"/>luntas, voluntas est, sed non libera est. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

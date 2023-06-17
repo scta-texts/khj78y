@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="269"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q81035"><!-- l4d21-q1 -->
+            <head xml:id="khj78y-q81035-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-q81035-Hd1e103" type="question-title">
+     de Purgatorio 
+     quaeritur, utrum ibi culpa 
+     remittatur
+   </head>
+            <p xml:id="khj78y-q81035-d1e106">
+               <lb ed="#S" n="21"/>DISTICTIO. 2I. QVAETIO I. 
+      <lb ed="#S" n="22"/>CIrca. 21. Distinctionem quaeruntur tria. Primo, de 
+      <lb ed="#S" n="23"/>Purgatorio. secundo, de generali confessione. 
+      Ter<lb ed="#S" break="no" n="24"/>tio, de sigillo confessionis. 
+      <lb ed="#S" n="25"/>De peccatis, quae post hanc vitam dimittantur. 
+    </p>
+            <p xml:id="khj78y-q81035-d1e119">
+               <lb ed="#S" n="26"/>Thom. 4. d. 21. q. I. art. 
+    </p>
+            <p xml:id="khj78y-q81035-d1e124">
+               <lb ed="#S" n="27"/>PRIMO ergo de Purgatorio 
+      <lb ed="#S" n="28"/>quaeritur, vtrum ibi culpa 
+       remit<lb ed="#S" break="no" n="29"/>tatur. Et videt quod non: quia 
+       pur<lb ed="#S" break="no" n="30"/>gatorium est in inferno, sed in 
+       in<lb ed="#S" n="31" break="no"/>ferno nulla est redemptio. ergo 
+      <lb ed="#S" n="32"/>&amp;c.
+    </p>
+            <p xml:id="khj78y-q81035-d1e141" n="3">
+      <!-- 3 -->Contra Grego. qui 
+       di<lb ed="#S" break="no" n="33"/>cit aliqua peccata in alio 
+       saecu<lb ed="#S" break="no" n="34"/>lo remitti, sed hoc non est in coelo, 
+      <lb ed="#S" n="35"/>vbi peccatum non est, nec extra purgatorium, vbi remissibile non 
+      <lb ed="#S" n="36"/>est. ergo in purgatorio.
+    </p>
+            <p xml:id="khj78y-q81035-d1e154" n="4">
+      <!-- 4 -->Rundeo. hic sunt tria viden 
+      <lb ed="#S" n="37"/>da. Primo, videndum est de purgatorio quo ad poenam, &amp; lo 
+      <lb ed="#S" n="38"/>cum. secundo, quo ad remissionem culpae. Tertio, quo ad 
+       re<lb ed="#S" break="no" n="39"/>mistionem poenae.
+    </p>
+            <p xml:id="khj78y-q81035-d1e165" n="5">
+      <!-- 5 -->Quantum ad primum sunt sex 
+       conclusio<lb ed="#S" break="no" n="40"/>nes. Prima, quod omnino credendum, &amp; supponendum est, quod iustitia 
+      <lb ed="#S" n="41"/>Dei requirit post hanc vitam esse purgatorium, quia conuenit 
+      <lb ed="#S" n="42"/>hominem mori in charitate cum culpa veniali, vel poena de 
+      <lb ed="#S" n="43"/>bita, cum igitur talis non possit damnari propter charitatem, nec 
+      <lb ed="#S" n="44"/>saluari quamdiu est in eo immunditia culpae, &amp; reatus poenae: 
+      <lb ed="#S" n="45"/>quorum neutrum compatitur beatitudinem, cum tam culpa, quam 
+       poe<lb ed="#S" break="no" n="46"/>na sit miseria foelicitati opposita. ergo alicubi purgatur 
+      <lb ed="#S" n="47"/>&amp; per aliquam poenam sensibilem, sine qua culpa actualis non 
+      <lb ed="#S" n="48"/>purgai. Ita quod licet bonum quod cunque non retardet miseriam 
+      <lb ed="#S" n="49"/>malorum: quia non erit remunerandum post hanc vitam quod mor 
+      <lb ed="#S" n="50"/>tuum, vel mortificatum fuit, sed prius fuit remuneratum in 
+      <lb ed="#S" n="51"/>hac vita plus, quae valuit: tamen minimum malum culpe, vel poene 
+      <lb ed="#S" n="52"/>impedit gloriam: quia ex quo hic expiatum non fuit, &amp; nihil in 
+      <lb ed="#S" n="53"/>quinatum intrat in illam ante ingressum in requiem, &amp; post 
+      <lb ed="#S" n="54"/>egressum de mundo purgari oportet, quasi in deserto me 
+      <lb ed="#S" n="55"/>dio inter Aegyptum, &amp; terram promissionis lacte, &amp; melle ma 
+      <lb ed="#S" n="56"/>nantem. Hoc ent apparet per authoritatem. 2. Machab. sctam 
+       er<lb ed="#S" break="no" n="57"/>go, &amp; salubris est cogi. &amp;c. ergo post hanc vitam possunt sol 
+      <lb ed="#S" n="58"/>ui a quibus hic non fuerunt soluti, &amp; hoc est purgari a cul 
+      <lb ed="#S" n="59"/>pa, vel poena, vel vtroque modo. ergo est purgatorium. 
+    </p>
+            <p xml:id="khj78y-q81035-d1e213" n="6">
+               <lb ed="#S" n="60"/>
+               <!-- 6 -->secunda conclusio est, de purgatorio quo ad locum, qui est 
+      <lb ed="#S" n="61"/>duplex: vnus secundum  specialem dispositionem, &amp; hic non est de 
+      <lb ed="#S" n="62"/>terminatus: sed vel vbi peccauerunt, vel alibi, vbi apparent 
+      <lb ed="#S" n="63"/>in assumptis corporibus, secundum  quod expedit, vel viuis ad aedi 
+      <!--0269.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>ficationem, vel ipsis mortuis ad suffragiorum petitionem, vt 
+      <lb ed="#S" n="65"/>Greg. refert de multis quarto dialogorum. Alius locus est 
+      <lb ed="#S" n="66"/>secundum legem conem, &amp; iste creditur esse in inferno circa 
+       cen<lb ed="#S" break="no" n="67"/>trum terrae: superior tamen in inferno damnatorum: cum peccato actua 
+      <lb ed="#S" n="68"/>li proprio debeat maior poena, quam peccato originali, maxime 
+      <lb ed="#S" n="69"/>put tamen est naturae, &amp; non personae. Vn si in poenam origina 
+      <lb ed="#S" n="70"/>lis pcti sancti patres erant in vua parte inferni: multoma 
+      <lb ed="#S" n="71"/>gis purgandi. De horum autem situ, &amp; distinctione dicet infra 
+      <lb ed="#S" n="72"/>41. di.
+    </p>
+            <p xml:id="khj78y-q81035-d1e250" n="7">
+      <!-- 7 -->Tertia conclusio est, quo ad instrumentum quo 
+      <lb ed="#S" n="73"/>purgant, qui secundum  legem communem est ignis, &amp; ille idem 
+       spe<lb ed="#S" break="no" n="74"/>cie, qui torquet damnatos. Greg. sicut in eodem igne aurum ru 
+      <lb ed="#S" n="75"/>tilat, palea fumat. ita sub eodem igne octor cruciat, &amp; 
+       ele<lb ed="#S" break="no" n="76"/>ctus purgat. Vtrum autem praeter poenam ignis, ibi patiantur aliam 
+      <lb ed="#S" n="77"/>sicut damnati, de quibus dicitur in Iob. Transibunt ab aouis 
+      <lb ed="#S" n="78"/>niuium ad calorem nimium, incertum est, tamen dicitur in vs. 
+       Transi<lb ed="#S" break="no" n="79"/>uimus per ignem, &amp; aquam, &amp; eduxisti nos in refrieerium. 
+       V<lb ed="#S" break="no" n="80"/>bi autem pureantur in hoc mundo lege soeciali non semper 
+      <lb ed="#S" n="81"/>igne: sed vel glacie, vel aliter, quomodo Deo placet 
+       pur<lb ed="#S" break="no" n="82"/>gantur: sed omnis poena eorum ignis vocatur, quia est 
+       affli<lb ed="#S" break="no" n="83"/>ctiua, &amp; cum hoc purgatiua.
+    </p>
+            <p xml:id="khj78y-q81035-d1e279" n="8">
+      <!-- 8 -->Quarta conclusio est, quo 
+      <lb ed="#S" n="84"/>ad tormentum: quia est maxima poena respectu illarum, quae sunt 
+      <lb ed="#S" n="85"/>in hac vita. Vnde Aug. Ille ignis durior est, quae quidod in 
+      <lb ed="#S" n="86"/>hoc saeculo poenarum, aut sentire, aut videre, aut cogitare 
+      <lb ed="#S" n="87"/>quis potest. 25. di. Qui in aliud. Rationem assignant 
+       Do<lb ed="#S" break="no" n="88"/>ctores, &amp; quo ad poenam damni: quia poena damni est afflicti 
+      <lb ed="#S" n="89"/>ua in mundo isto propter carentiam boni desiderati. Nihil 
+      <lb ed="#S" n="90"/>autem boni potest ita ardenter desiderari in hac vita, sicut ani 
+      <lb ed="#S" n="91"/>ma separata in charitate existens ardenter desiderat Deum 
+      <lb ed="#S" n="92"/>videre. vnde quando scit se retardari propter proprium peccatum: 
+      <lb ed="#S" n="93"/>spes, quae differi, affligit animam, quo ad poenam autem sensus 
+      <lb ed="#S" n="94"/>qa si propter animam corpus affligitur, &amp; dolet: multo maior 
+      <lb ed="#S" n="95"/>est dolor, ille, qui ad nudam animam potest peruenire.
+    </p>
+            <p xml:id="khj78y-q81035-d1e311" n="9">
+      <!-- 9 -->
+       Quin<lb ed="#S" break="no" n="96"/>ta conclusio est, quod est inuoluntaria secundum se: quia nullum 
+      <lb ed="#S" n="97"/>malum secundum  se, &amp; propter se potest esse volitum, sed nolitum. Vum 
+      <lb ed="#S" n="98"/>ppter se quidem est ipsa poena odio habita: &amp; tanto plus, 
+      <lb ed="#S" n="99"/>quanto est malor poena, sed propter aliud ipsa est voluntaria. 
+      <lb ed="#S" n="100"/>Primo, na sciunt eam esse a Deo inflictam, &amp; volitam. vnde non 
+      <lb ed="#S" n="101"/>murmurant, sicuti boni filij contra flagella patris: &amp; 
+       pla<lb ed="#S" break="no" n="102"/>cet eis affligi, quamdiu placet. scd'o, quia sciunt flagella esse 
+      <lb ed="#S" n="103"/>iusta: vnde quia charitas congaudet veritati, volunt sic iuste 
+      <lb ed="#S" n="104"/>pati. Tertio, quia sciunt se aliter non posse saluari: &amp; amore 
+      <lb ed="#S" n="105"/>boni sperati volunt sic propter illud affligi.
+    </p>
+            <p xml:id="khj78y-q81035-d1e337" n="10">
+      <!-- 10 -->sexta 
+       con<lb ed="#S" break="no" n="106"/>clusio est, quod non affligunt ibi a spiritibus bonis, q non 
+      <lb ed="#S" n="107"/>tam crudeliter suos conciues affligerent: licet eos visitent 
+      <lb ed="#S" n="108"/>&amp; confortent: sicut aliquis amicum in carcere, vel infirmi 
+      <lb ed="#S" n="109"/>tate. Daemones etiam non torquent eos: quia qui hostem 
+       vi<lb ed="#S" break="no" n="110"/>cit finaliter, non debet dari in potestatem eius. Et q dicitur: 
+      <lb ed="#S" n="111"/>illos habebunt tortores in poena, quos habuerunt 
+       incen<lb ed="#S" break="no" n="112"/>tores in culpa: intelligitur de damnatis. In hac autem vita 
+      <lb ed="#S" n="113"/>&amp; boni, &amp; mali torquentur a bonis, &amp; malis angelis: sicut 
+      <lb ed="#S" n="114"/>Iob bonus a malo, &amp; Iacob bonus a bono angelo, &amp; 
+       He<lb ed="#S" break="no" n="115"/>rodes malus a bono angelo Dei percussus, &amp; in Aegyptum 
+      <lb ed="#S" n="116"/>fecit Dominus immissionem per angelos malos.
+    </p>
+            <p xml:id="khj78y-q81035-d1e366" n="11">
+      <!-- 11 -->Quantum 
+      <lb ed="#S" n="117"/>ad secundum articulum sunt quatuor conclusiones. Prima, 
+      <lb ed="#S" n="118"/>quod culpa mortalis non potest post hanc vitam remitti de 
+      <lb ed="#S" n="119"/>lege communi: quia quod est angelis casus, est hoibus mors. 
+      <lb ed="#S" n="120"/>Vnde sicut peccatum angeli fuit irremissibile, sic peccatum 
+      <lb ed="#S" n="121"/>mortale hominis post mortem. Et hoc est peccatum  ad mortem, 
+      <lb ed="#S" n="122"/>pro quo prohibet Ioannes orari. Et haec conclusio 
+       dupli<lb ed="#S" break="no" n="123"/>citer probatur a quibusdam: primo sic. Voluntas in ma 
+      <lb ed="#S" n="124"/>lo obstinata non potest in suo actu reordinari: ita, vt velit 
+      <lb ed="#S" n="125"/>bona, &amp; bene: sed voluntas decedentis in peccato mortali 
+      <lb ed="#S" n="126"/>est obstinata in malo, tam in hominibus, quam in angelis, vt 
+      <lb ed="#S" n="127"/>communiter ponunt Doctores. ergo non pontreordinari: ita, vt 
+      <lb ed="#S" n="128"/>velit bonum, &amp; bene: sed aliter non dimittitur pctum quo 
+      <lb ed="#S" n="129"/>ad culpam: nisi quia voluntas reordinatur. ideo &amp;c. Et quia 
+      <lb ed="#S" n="130"/>aliqui dicunt, quod voluntas hominis damnati, &amp; angeli potest 
+      <!--0270.xml-->
+      <pb ed="#S" n="270"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>velle bonum ex genere, &amp; circunstantiis: licet tale velle non 
+      <lb ed="#S" n="2"/>sit meritorium propter statum, in quo sunt: vt dictum fuit in 
+      <lb ed="#S" n="3"/>secundo. ideo ponitur secunda ratio talis. Ille, qui est in suo 
+      <lb ed="#S" n="4"/>fine, vel termino, non potest facere aliquid, quod ordinei 
+      <lb ed="#S" n="5"/>ad consequutionem finis, vel termini: sed decedentes in morta 
+      <lb ed="#S" n="6"/>li statim sunt in suo fine, vel termino. scilicet in inferno, qui est 
+      <lb ed="#S" n="7"/>extremus terminus damnatorum. sicut paradysus extremus 
+      <lb ed="#S" n="8"/>terminus saluandorum. ergo non possunt facere aliquid, quod 
+      <lb ed="#S" n="9"/>ordinetur ad consequutionem finis: sed dimissio culpae ad hoc 
+      <lb ed="#S" n="10"/>ordinai. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q81035-d1e429" n="12">
+      <!--12 -->sed prima quidem istorum ratio 
+      <lb ed="#S" n="11"/>bona est. secunda vero deficit: quia licet existens in termino 
+      <lb ed="#S" n="12"/>non possit moueri ad illum terminum, quem habet: tum existens 
+      <lb ed="#S" n="13"/>in termino violento, potest moueri ad terminum oppositum na 
+      <lb ed="#S" n="14"/>turalem: sicut leue existens in centro, mouetur sursum: &amp; 
+       gra<lb ed="#S" break="no" n="15"/>ue existens sursum, mouetur deorsum. Vnde cum homo na 
+      <lb ed="#S" n="16"/>turaliter fugiat miseriam, &amp; appetat beatitudinem: licet exi 
+      <lb ed="#S" n="17"/>stens heatus, non posuit agere aliquid ex quo fiat miser: sicus 
+      <lb ed="#S" n="18"/>ignis sursum non mouetur deorsum, nec terra econuerso: tamen 
+      <lb ed="#S" n="19"/>qui est damnatus, vellet saluari, &amp; potest ad hoc agere: 
+       si<lb ed="#S" break="no" n="20"/>cut ignis in centro existens, nisi prohibeatur, tenderet sur 
+      <lb ed="#S" n="21"/>sum, &amp; terra econuerso, Liberum autem arbitrium non potest 
+       co<lb ed="#S" break="no" n="22"/>gi ad hoc, quod naturaliter appetit: nec ad id, quod 
+       naturali<lb ed="#S" n="23" break="no"/>ter fugit.
+    </p>
+            <p xml:id="khj78y-q81035-d1e462" n="13">
+      <!-- 13 -->Praeterea finis, &amp; bonum idem, &amp; quamuis fi 
+      <lb ed="#S" n="24"/>nis habeat rationem vltimi: non tamen omne vltimum est finis, 
+      <lb ed="#S" n="25"/>sicut mors: quia non est quid bonum. ita &amp; hi, qui in inferno 
+      <lb ed="#S" n="26"/>sunt, &amp; si in vltimo termino sunt, non tamen sunt in fine suo: 
+      <lb ed="#S" n="27"/>quia non sunt in bono. vnde quia adhuc distant a fine suo fem 
+      <lb ed="#S" n="28"/>per mouentur ad finem, &amp; desiderant finem: nisi dicatur, quod sicus 
+      <lb ed="#S" n="29"/>graue existens extra coelum, non moueret ad centrum cessante 
+      <lb ed="#S" n="30"/>influentia coeli super ipsum: sic in proposito: quia de orbe 
+       trans<lb ed="#S" break="no" n="31"/>ferent eum. vum subtracta influentia primi agetis: quam subtra 
+      <lb ed="#S" n="32"/>ctionem meruit damnatus, non mouet ad bonum.
+    </p>
+            <p xml:id="khj78y-q81035-d1e486" n="14">
+      <!-- 14 -->
+       se<lb ed="#S" break="no" n="33"/>cunda conclusio est, quid sit peccatum dimitti quo ad culpam, 
+      <lb ed="#S" n="34"/>Ad quod dicunt aliqui, quod cum in peccato saltem mortali 
+      <lb ed="#S" n="35"/>tria sunt. scilicet actus deordinatio, in qua consistit macula, 
+       si<lb ed="#S" break="no" n="36"/>cut in deordinatione membri corporalis consistit turp-i 
+      <lb ed="#S" n="37"/>tudo corporis, priuatio grae, quae dicitur offensa, &amp; reatus 
+       poe<lb ed="#S" n="38" break="no"/>nae. &amp; haec sunt in peccato veniali praeter priuationem grae- 
+    </p>
+            <p xml:id="khj78y-q81035-d1e505" n="15">
+               <lb ed="#S" n="39"/>
+               <!-- 15 -->Dicitur ergo peccatum remitti quo ad culpam, vel maculam, 
+      <lb ed="#S" n="40"/>qum reordinat actus voluntatis per debitam displicentiam, quo 
+      <lb ed="#S" n="41"/>ad offensam, qum gratia restituit, vel quo ad reatu poenae, 
+      <lb ed="#S" n="42"/>quando poena vel condonatur, vel soluit.
+    </p>
+            <p xml:id="khj78y-q81035-d1e518" n="16">
+      <!-- 16 -->sed contra 
+      <lb ed="#S" n="43"/>hoc primo: quia quod dicit culpam, &amp; maculam idem non 
+       vide<lb ed="#S" break="no" n="44"/>tur: quia priuatio omnis  pulchritudinis est formaliter 
+       macu<lb ed="#S" break="no" n="45"/>la. vnde cum gratia sit nitor animae, priuatio gratiae debet di 
+      <lb ed="#S" n="46"/>ei macula, &amp; non solu ipsa deordinatio actus.
+    </p>
+            <p xml:id="khj78y-q81035-d1e531" n="17">
+      <!-- 17 -->
+       Prae<lb ed="#S" break="no" n="47"/>terea vbi nullus est actus, ibi nec est ordinatio, nec deor 
+      <lb ed="#S" n="48"/>dinatio actus, sed in peccato omissionis nullus est actus per 
+      <lb ed="#S" n="49"/>se: sed priuatio actus debiti: &amp; tamen est ibiculpa, &amp; macula: 
+      <lb ed="#S" n="50"/>quia non habet debitam pulchritudinem. ergo &amp;c. sed per 
+       deor<lb ed="#S" break="no" n="51"/>dinationem actus intelligūt etiam priuationem.
+    </p>
+            <p xml:id="khj78y-q81035-d1e547" n="18">
+      <!-- 18 -->
+       Prae<lb ed="#S" break="no" n="52"/>terea secundum eos in veniali nulla est offensa, quia per illud 
+      <lb ed="#S" n="53"/>non priuatur gratia. sed contra, quia ibi est leuis offensa. 
+    </p>
+            <p xml:id="khj78y-q81035-d1e556" n="19">
+               <lb ed="#S" n="54"/>
+               <!-- 19 -->Praeteream per secundum peccatum mortale non priuatur actu 
+      <lb ed="#S" n="55"/>gra, sed solum aptitudine. ergo si offensa Dei non est nisi 
+      <lb ed="#S" n="56"/>priuatio gratiae in solo peccato mortali, primo erit offeusa 
+       a<lb ed="#S" break="no" n="57"/>ctu: vbi solum est priuatio gratiae actu, in aliis autem solum 
+       a<lb ed="#S" break="no" n="58"/>ptitudine.
+    </p>
+            <p xml:id="khj78y-q81035-d1e572" n="20">
+      <!-- 20 -->Praeterea secundum  eos in Deo non cadit 
+      <lb ed="#S" n="59"/>offensa secundum affectum, sed secundum effectum solum, q est 
+       priua<lb ed="#S" break="no" n="60"/>tio: quod vtique verum est, nisi secundum praescientiam, &amp; 
+       praedestinatio<lb ed="#S" break="no" n="61"/>nem, qua odit praescitos, &amp; diligit praedestinatos. ite secundum prae 
+      <lb ed="#S" n="62"/>sentem iustitiam eo modo, quo dicii Deus poenitentia placari, &amp; 
+       cul<lb ed="#S" break="no" n="63"/>pa offendi: sicut dicitur aliquem scribere in lib. vitae de nouo 
+      <lb ed="#S" n="64"/>per poenitentiam, &amp; delere de nouo per culpam. ergo si secudum eam 
+       os<lb ed="#S" break="no" n="65"/>fensa dei non em, nisi punitio dei. ergo no solum priuatio grae 
+      <lb ed="#S" n="66"/>sed etiam obligatio ad poenam, &amp; exequutio in purgatorio, &amp; 
+      <lb ed="#S" n="67"/>in inferno dicer offensa: &amp; tunc remittet peccatum quo ad offen 
+      <!--0270.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>sam, quando poena in purgatorio soluii. quia tunc punitio Dei 
+       a<lb ed="#S" break="no" n="69"/>mouet, vel quando a flagello in hac vita Deus cessat, &amp; quando poe 
+      <lb ed="#S" n="70"/>na debita secundum iudicium Dei tollit, vel diminuitur: quia tan 
+      <lb ed="#S" n="71"/>diu videi Deus iratus, quamdiu punit, vel punire intendit, te 
+      <lb ed="#S" n="72"/>nens hominem in reatu poenae: ita quod sicut in restitutione grae est 
+      <lb ed="#S" n="73"/>remissio offensae, quia per hoc Deus se habet ad modum reconci 
+      <lb ed="#S" n="74"/>liati, quia reddit bonum, quod ad modum irati abstulerat: sic quando 
+      <lb ed="#S" n="75"/>remonit malum, quod ad modum irati intulerat.
+    </p>
+            <p xml:id="khj78y-q81035-d1e619" n="21">
+      <!--21 -->si di 
+      <lb ed="#S" n="76"/>cai, quod priuatio grae pro tanto magis dicit offensa, quae alia poe 
+      <lb ed="#S" n="77"/>noqa est maior poena, quam quaecumque alia: licet hoc sit verum 
+      <lb ed="#S" n="78"/>de poena huius vitae, saltem poena iferni damni, quae em puatio gle 
+      <lb ed="#S" n="79"/>riae: &amp; sesus aeterna cum includat etiam istam, est maior poena. 
+      <lb ed="#S" n="80"/>ergo magis debet dici offensa. non ergo bene dicit, quod sola 
+      <lb ed="#S" n="81"/>priuatio grae sit offensa pcti.
+    </p>
+            <p xml:id="khj78y-q81035-d1e637" n="22">
+      <!-- 22 -->Praeterea idem sunt 
+       of<lb ed="#S" break="no" n="82"/>fensa, &amp; ira, sicut offesus, &amp; irat': sed simul stant ira Dei, &amp; 
+      <lb ed="#S" n="83"/>gratia Dei: quia sicut aliter homo irascitur hosti, quem vult 
+       ex<lb ed="#S" break="no" n="84"/>terminare, &amp; aliter filio, quem vult castigare: est etiam ira per 
+      <lb ed="#S" n="85"/>zelum ad hominem, quem diligimus: sic Deus non solum irascit 
+       ma<lb ed="#S" break="no" n="86"/>lis, quos vult exterminare, sed etiam bonis, quos vult casti 
+      <lb ed="#S" n="87"/>gare. Irasceris, &amp; propitius eris: &amp; ira Dei est ad illos, qui 
+      <lb ed="#S" n="88"/>sunt in purgatorio, qui tamen sunt in gratia, &amp; in peccato veniali, 
+      <lb ed="#S" n="89"/>vbi est aliqua offesa licet leuis. Vnde posset dici, quod illud 
+      <lb ed="#S" n="90"/>idem, quod est in peccato reatus respectu peccantis, est offensa re 
+      <lb ed="#S" n="91"/>spectu Dei. Vnde offensa Dei non est aliud, quae voluntas, &amp; 
+      <lb ed="#S" n="92"/>propositum puniendi: sed offensa grauis propositum inferendi poe 
+      <lb ed="#S" n="93"/>nam aeternam, vel seusus, vel etiam damni, iuxta illud. Bramus 
+      <lb ed="#S" n="94"/>natura filij itae. Et sic dicet offensa in Deo, non solum secundum 
+      <lb ed="#S" n="95"/>effectum, sed etiam secundum affectum, qui affectus mutat non secum 
+      <lb ed="#S" n="96"/>dum quod est in se: sed fed'm quodrelationem rationis comparatur ad nos. 
+      <lb ed="#S" n="97"/>Quandiu enim homo est obligatus ad poenam, Deus vult eum 
+       puni<lb ed="#S" break="no" n="98"/>re, qcito est liberat' a reatu poenae, Deus non vult plus eum 
+      <lb ed="#S" n="99"/>punire, &amp; est vna voluntas non mutata, qua vult modo 
+       puni<lb ed="#S" break="no" n="100"/>re, &amp; vult non punisse, &amp; non punire.
+    </p>
+            <p xml:id="khj78y-q81035-d1e683" n="23">
+      <!-- 23 -->Cum autem in omni 
+      <lb ed="#S" n="101"/>peccato possit remitti peccatum  quo ad culpam: sine hoc, quod 
+       re<lb ed="#S" break="no" n="102"/>mittai, quo ad totalem poenam: &amp; in omni mortali non possit 
+       re<lb ed="#S" break="no" n="103"/>mitti poena: nisi remittatur culpa: quia non eent Deo acceptus: 
+      <lb ed="#S" n="104"/>potest dubitari de veniali, vtrum solui, vel remitti possit 
+       poe<lb ed="#S" n="105" break="no"/>na, sine hoc, quod remittat culpa, &amp; videt, quod fic, si nihil 
+       impedi<lb ed="#S" n="106" break="no"/>at, quae defectus grae, q ipediebat poenam mortalis solui illo 
+       du<lb ed="#S" n="107" break="no"/>rante: quia existens i solo veniali habet gratiam, &amp; bona eius 
+       poe<lb ed="#S" break="no" n="108"/>nalia sunt Deo accepta, &amp; grata: aliter non viderei, quod alig 
+      <lb ed="#S" n="109"/>adulti possent euolare: quia oent habent multitudinem venia 
+      <lb ed="#S" n="110"/>lium: quia septiet in die cadit iustus, quae quidem in momento 
+       mor<lb ed="#S" n="111" break="no"/>tis potest deleri quo ad culpam. si autem restet solutio poenae 
+      <lb ed="#S" n="112"/>diu stabunt in purgatorio, &amp; sic non euolabunt, nisi dicat, quod 
+      <lb ed="#S" n="113"/>prius satisfecerunt, &amp; tunc remissio poenae praecessisset remissio 
+      <lb ed="#S" n="114"/>nem culpe.
+    </p>
+            <p xml:id="khj78y-q81035-d1e718" n="24">
+      <!-- 24 -->sed dicendum, quod nunquam poena antequam culpa 
+      <lb ed="#S" n="115"/>remittit. quia tandiu durat obligatio ad poenam, quamdiu culpa: 
+      <lb ed="#S" n="116"/>&amp; est contradictio, quod aliquis sit in culpa, &amp; non sit dign' po 
+      <lb ed="#S" n="117"/>na. Hoc ergo non est, quia eius op non sit Deo acceptum, sed quia 
+      <lb ed="#S" n="118"/>non est acceptum ad hoc, vel quod ipse non ordinat ad hoc, vel 
+      <lb ed="#S" n="119"/>ordinando intentionem deordinat. si dicat, volo pro verbo 
+       o<lb ed="#S" break="no" n="120"/>cioso, quod dixi dare eleemosynam, vt non sustineam aliam 
+       poe<lb ed="#S" n="121" break="no"/>nam: non tamen poenitet me dixisse, &amp; propono iterum dicere, contra 
+      <lb ed="#S" n="122"/>rationem est haec voluntas, &amp; est nouum peccatum, pro quo meret 
+       no<lb ed="#S" break="no" n="123"/>uam poenam.
+    </p>
+            <p xml:id="khj78y-q81035-d1e742" n="25">
+      <!-- 25 -->Ad secundum dicendum, quod sicut septies i die ca 
+      <lb ed="#S" n="124"/>dit inst', sic septies resurgit. non enim requirit in speciali 
+       contri<lb ed="#S" n="125" break="no"/>tio, sed qualibet die perfect' poenitet de omni veniali &amp; in speciali 
+      <lb ed="#S" n="126"/>de illis, quae specialiter memoriae occurrunt, &amp; sic contritio 
+       praece<lb ed="#S" break="no" n="127"/>dit satisactionem, &amp; potest euolare, quia in hac vita satisiecit. 
+      <lb ed="#S" n="128"/>Igitur quia culpa est i hoc, quod facit homo, quod non debet, vel 
+       omit<lb ed="#S" break="no" n="129"/>tit, quod debet, per oppositum culpa remittitur, quando illud de 
+      <lb ed="#S" n="130"/>bitum, quod faciebat culpam remittitur: hoc autem est, quando 
+       vo<lb ed="#S" break="no" n="131"/>luntas prius deordinatae, vel non ordinata reordinatur per 
+      <lb ed="#S" n="132"/>contritionem. non enim homo potest facere, quin culpa fuerit: sed 
+      <lb ed="#S" n="133"/>quando facit, quod potest, contra id, quod peccauit libero arbitrio 
+      <lb ed="#S" n="134"/>quo peccauit, dicii culpa remissa: quia non plus dicii facere 
+      <!--0271.xml-->
+      <pb ed="#S" n="271"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>contra debitum, ex quo quantum potest ad id quod est debitum 
+       reuer<lb ed="#S" break="no" n="2"/>titur: sed quantum ad maculam peccatum  dimittitur. quando. scilicet 
+      <lb ed="#S" n="3"/>gratia ablata restituitur: vel dispositio ad perditionem gratia 
+      <lb ed="#S" n="4"/>tiae tollitur: sed quo ad offensam, quando voluntas nocem 
+      <lb ed="#S" n="5"/>di vel puniendi mutatur non subiectiue ex parte Dei, sed 
+      <lb ed="#S" n="6"/>obiectiue ex parte creaturae. Haec tamen omnia sine asser 
+      <lb ed="#S" n="7"/>tione sunt dicta.
+    </p>
+            <p xml:id="khj78y-q81035-d1e792" n="26">
+      <!-- 26 -->Tertia conclusio est. quod culpa 
+       ve<lb ed="#S" break="no" n="8"/>nialis potest remitti in purgatorio. Contra quod tamen 
+      <lb ed="#S" n="9"/>potest sic argui: quia cum moritur aut recolit de veniali: 
+      <lb ed="#S" n="10"/>aut non. si recolitur actu &amp; poenitet culpa dimittitur: si 
+      <lb ed="#S" n="11"/>non poenitet peccat mortaliter: quia eligit a gloria 
+       retar<lb ed="#S" break="no" n="12"/>dari. si vero non recolitur: aut sic est dispositus quod si 
+       recole<lb ed="#S" break="no" n="13"/>ret poeniteret: &amp; sic tunc remittitur: aut non poeniteret: &amp; 
+      <lb ed="#S" n="14"/>mortaliter peccat.
+    </p>
+            <p xml:id="khj78y-q81035-d1e813" n="27">
+      <!-- 27 -->Dicendum est primo, quod duo 
+       vlti<lb ed="#S" break="no" n="15"/>ma membra sunt falsa. Dispositio enim habitualis bona 
+      <lb ed="#S" n="16"/>nunquam delet culpam: nisi adiuncta actuali displicentia ali 
+      <lb ed="#S" n="17"/>qua: &amp; similiter dispositio habitualis mala nunquam facit 
+      <lb ed="#S" n="18"/>peccatum, cum illud in actu non in habstu consistat: nisi quan 
+      <lb ed="#S" n="19"/>do coniungitur actui: sicut si quis cognoscens vxorem 
+       pro<lb ed="#S" break="no" n="20"/>pter voluptatem actu, habitu paratus esset idem facere cum 
+      <lb ed="#S" n="21"/>non sua. similiter non omnis poenitentia de veniali delet 
+      <lb ed="#S" n="22"/>ipsum: quia praet esse nimis imperfecta. Item si non vult poeni 
+      <lb ed="#S" n="23"/>tere oro nunc. non propter hoc peccat mortaliter. non enim 
+      <lb ed="#S" n="24"/>plus tenetur homo peccatum expiare quam vitare. vnde si 
+      <lb ed="#S" n="25"/>sine mortali potest homo non vitare veniale: ita sine mor 
+      <lb ed="#S" n="26"/>tali potest non poenitere de veniali. Et haec ratio valet ad 
+      <lb ed="#S" n="27"/>orobandum, quod non est necesse ipsa confiteri: cum nec sit necesse 
+      <lb ed="#S" n="28"/>iosa non committi: neco consequens expiari: &amp;multominus isto 
+      <lb ed="#S" n="29"/>vel illo modo expiari. Videretur autem posse tolerari 
+       di<lb ed="#S" break="no" n="30"/>ctum aliquorum: quod. scilicet non retardetur quis plus per culpam cum poe 
+      <lb ed="#S" n="31"/>na, quam per solam poenam: quia non plus est in tempore cum 
+      <lb ed="#S" n="32"/>instanti, quam in tempore sine instanti: sicut non est malor 
+      <lb ed="#S" n="33"/>linea cum quatuor punctis quando est diuisa: quam prius esset 
+      <lb ed="#S" n="34"/>cum duobus tantum quando erat indiuisa: quia indiuisibile 
+      <lb ed="#S" n="35"/>cuicumque additum nihil maius facit. Illo autem instanti quo 
+      <lb ed="#S" n="36"/>anima de corpore egreditur toto conatu de omnibus pec 
+      <lb ed="#S" n="37"/>catis dolet: &amp; per consequens omnis culpa sibi remittitur 
+      <lb ed="#S" n="38"/>&amp; illo toto tempore residuo pro sola poena torquetur. Es 
+      <lb ed="#S" n="39"/>siue illo instanti est in pureatorio siue non: uero refert: cum 
+      <lb ed="#S" n="40"/>instans non addat ad durationem. Vnde tantum est ibi sineculpa cum 
+      <lb ed="#S" n="41"/>poena sola, quantum si esset cum vtroque &amp; pro vtroque::cum propter 
+      <lb ed="#S" n="42"/>culdam non sit ibi nisi solo instanti. Et dicendum: quod licet non 
+      <lb ed="#S" n="43"/>sit plus de tempore cum instanti primo vel vltimo, quam fine 
+      <lb ed="#S" n="44"/>eo, tamen si culpa esset dimissa ante instans mortis, esset di 
+      <lb ed="#S" n="45"/>minutum aliquid de poena, quod non est quando est dimilsa in 
+      <lb ed="#S" n="46"/>instanti mortis. Diceret etiam aliquis, quod non oportet quod in 
+       il<lb ed="#S" break="no" n="47"/>lo instanti omnis culpa dimittatur: cum posset habere tan 
+      <lb ed="#S" n="48"/>tam multitudinem venialium, quod nullomodo actu est 
+       suffi<lb ed="#S" break="no" n="49"/>ciens displicentia quo ad omnia. &amp; sic secundo vel tertio 
+      <lb ed="#S" n="50"/>actu displicentiae delebuntur. item alicui posset videri, quod poe 
+      <lb ed="#S" n="51"/>nitentia de veniali tolleret omnem reatum, quia plus distat 
+      <lb ed="#S" n="52"/>poena aeterna a temporali, quam temporalis a non poena positi 
+      <lb ed="#S" n="53"/>ne loquendo: quia plures gradus poenalitatis ponit 
+       aeter<lb ed="#S" break="no" n="54"/>na super temporalem, quam includat temporalis: cum infinities 
+      <lb ed="#S" n="55"/>quaelibet temporalis poena includatur in aeterna. si ergo poe 
+      <lb ed="#S" n="56"/>nitentia de mortali consumit illam aeternitatis. &amp; sic quasi 
+      <lb ed="#S" n="57"/>infinitas poenas temporales: multo magis poenitetia de ve 
+      <lb ed="#S" n="58"/>niali consumit totam vnam temporalem.
+    </p>
+            <p xml:id="khj78y-q81035-d1e913" n="28">
+      <!-- 28 -->sed non valet. quia 
+      <lb ed="#S" n="59"/>poenitentia de mortali non absoluit a poena aeterna per se: 
+      <lb ed="#S" n="60"/>sed per accidens: inquantum. scilicet restituit amicitiam: cum qua non 
+      <lb ed="#S" n="61"/>stat poena exterminans.  quia non vult amicus ab amico sem 
+      <lb ed="#S" n="62"/>per separari. sed de temporali poena poenitentia diminuit 
+      <lb ed="#S" n="63"/>secundum ouantitatem contritionis siue in mortali: siue in 
+       ve<lb ed="#S" break="no" n="64"/>niali: sed poenitentia in purgatorio vel nihil diminuit de 
+      <lb ed="#S" n="65"/>poena, vel minus quam poenitentia in hac vita: cum in hac vi 
+      <lb ed="#S" n="66"/>ta sit poenitentia magis fructuosa, quam inalia: imo respectu 
+      <lb ed="#S" n="67"/>mortalis in alia vita non est fructuosa, ergo plus retarda 
+      <!--0271.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>tur a gloria qui non poenitet hic de veniali, quam qui 
+       poe<lb ed="#S" break="no" n="69"/>nitet. sed dato quod actu cogitet: non tamen tenetur 
+       poenite<lb ed="#S" break="no" n="70"/>re: quia homo non plus tenetur de peccato commisso 
+       poe<lb ed="#S" break="no" n="71"/>nitere, quam peccatum non committere. vnde sicut non est in 
+      <lb ed="#S" n="72"/>praecepto non peccare venialiter, imo esset contradictio, sic 
+      <lb ed="#S" n="73"/>non est in praecepto confiteri de veniali nec poenitere.
+    </p>
+            <p xml:id="khj78y-q81035-d1e955" n="29">
+      <!-- 29 -->
+               <lb ed="#S" n="74"/>Ad argumentum dicendum, quod velle retardationem gloriae non 
+      <lb ed="#S" n="75"/>est de se mortale: quia velle ad tempus separari ab amico 
+      <lb ed="#S" n="76"/>non est contra amicitiam. Vnde velle longam vitam etiam si homo 
+      <lb ed="#S" n="77"/>aduertat, quod per hoc retardatur a vita beata: non em propt 
+      <lb ed="#S" n="78"/>hoc mortale. non enim omnis charitas cupit dissolui, &amp; es 
+      <lb ed="#S" n="79"/>se cum Christo. sed perfecta charitas. Alia autem non solum pro 
+      <lb ed="#S" n="80"/>pter maius meritum: sed etiam quia non vult expoliari 
+       natu<lb ed="#S" break="no" n="81"/>raliter refugit mortem. sed velle perpetuari in hac vita, 
+      <lb ed="#S" n="82"/>non est sine mortali: velle autem prolongari propter delicias 
+      <lb ed="#S" n="83"/>non est sine veniali. non est ergo verum quod dicunt, quod tantum 
+      <lb ed="#S" n="84"/>retardat sola poena, quantum culpa &amp; poena si accipiatur 
+      <lb ed="#S" n="85"/>respectu eiusdem culpae.
+    </p>
+            <p xml:id="khj78y-q81035-d1e986" n="30">
+      <!-- 30 -->Quarta conclusio est. quod 
+       cul<lb ed="#S" break="no" n="86"/>pa venialis non potest dimitti in inferno: tum quia ibi non 
+      <lb ed="#S" n="87"/>est gratia. tum: quia non possunt bene velle, sicut nec beati 
+      <lb ed="#S" n="88"/>male. contra hoc tamen est: quia volens malum simpliciter, 
+      <lb ed="#S" n="89"/>potest velle bonum secundum quid. &amp; si homo adhaerens bono 
+      <lb ed="#S" n="90"/>fini per charitatem firmiter, potest nihilominus peccare ve 
+      <lb ed="#S" n="91"/>nialiter: sic econuerso adhaerens firmiter malo fini: potest 
+      <lb ed="#S" n="92"/>scdm quod velle bon u&amp; poenitere de veniali.
+    </p>
+            <p xml:id="khj78y-q81035-d1e1006" n="31">
+      <!-- 31 -->Et 
+       confir<lb ed="#S" break="no" n="93"/>matur ratio: quia magis em dare summum bonum quam summum ma 
+      <lb ed="#S" n="94"/>lum. si ergo adhaerere summo bono compatitur malum imperfe 
+      <lb ed="#S" n="95"/>ctum: multomagis econuerso adhaerere summo malo.
+    </p>
+            <p xml:id="khj78y-q81035-d1e1017" n="32">
+      <!-- 32 -->
+               <lb ed="#S" n="96"/>Praeterea videtur, quod necessaria adhaerentia nomplus faciat, 
+      <lb ed="#S" n="97"/>quam voluntaria quandiu est voluntaria. sicut est in illud 
+      <lb ed="#S" n="98"/>quod necesario est album, non potest esse nigrum: sic illud 
+      <lb ed="#S" n="99"/>quod est voluntarie album, quandsu vult esse album non potest 
+      <lb ed="#S" n="100"/>esse nigrum: quod si per voluntatem potest esse simul albunc 
+      <lb ed="#S" n="101"/>nigrum: pari ratione si per necessitatem est album: nihilominus 
+      <lb ed="#S" n="102"/>cum hoc esse nigrum quia poterit, contrarietas non causatur ex 
+      <lb ed="#S" n="103"/>necessario &amp; voluntario, sed ex natura rerum intrinseca: quia 
+      <lb ed="#S" n="104"/>contrarietas est differentia secundum formam. Cum ergo 
+       volun<lb ed="#S" break="no" n="105"/>tarie adhaerens bono fini possit velle malum secundum quid: 
+      <lb ed="#S" n="106"/>vt iustus peccare venialiter in via &amp; econuerso voluntarie 
+      <lb ed="#S" n="107"/>adhaerens malo fini facere bonum secundum quid. i. ex circun 
+      <lb ed="#S" n="108"/>stantijs sicut infidelis. ergo quando sunt in termino cui 
+      <lb ed="#S" n="109"/>necessario adhaerent: &amp; beati possunt peccare venialiter, 
+      <lb ed="#S" n="110"/>&amp; damnati poenitere de veniali.
+    </p>
+            <p xml:id="khj78y-q81035-d1e1055" n="33">
+      <!-- 33 -->Et dicendum quod 
+       adhae<lb ed="#S" break="no" n="111"/>rens malo fini potest velle aliquid bonum, nisi ille adhaefio 
+      <lb ed="#S" n="112"/>ni opponatur. sic autem est in damnatis qui perfecte 
+       adhae<lb ed="#S" break="no" n="113"/>rent odio Dei: qui odiunt quicquid ille diligit. vnde 
+       ele<lb ed="#S" break="no" n="114"/>gant de nullo poenitere quod sciunt Deo esse placitum. 
+      <lb ed="#S" n="115"/>Quod autem veniale sine mortali non possit remitti: dictum 
+      <lb ed="#S" n="116"/>est supra distin. 6.
+    </p>
+            <p xml:id="khj78y-q81035-d1e1073" n="34">
+      <!-- 34 -->Circa tertium sunt quatuor 
+       conclu<lb ed="#S" break="no" n="117"/>siones. Prima, quod in purgatorio remittitur omnis poenave 
+      <lb ed="#S" n="118"/>niali &amp; mortali debita: quia ibi soluitur in charitate: &amp; 
+      <lb ed="#S" n="119"/>solutione eius quod debetur omnis obligatio tollitur: sicut 
+      <lb ed="#S" n="120"/>dicitur in Insti. quibus modis tollitur obligatio: in 
+       prin<lb ed="#S" break="no" n="121"/>cipio. Quomodo autem posuit ibi remanere poena sublata 
+      <lb ed="#S" n="122"/>culpa per dolorem, ibi habitu non solum de veniali sed de 
+      <lb ed="#S" n="123"/>mortali dubium est. sicut enim in purgatorio est intensior 
+      <lb ed="#S" n="124"/>motus in Deum diligendum, quam possit esse in mundo isto: 
+      <lb ed="#S" n="125"/>sic &amp; ibi est intensior motus in peccatum detestandum om 
+      <lb ed="#S" n="126"/>ne quod vnquam commiserunt siue mortale, siue venia 
+      <lb ed="#S" n="127"/>le, siue alias poenituerint, siue non. si ergo tanta potest essa 
+      <lb ed="#S" n="128"/>hic contritio, quod omnem poenam omnis peccati delet: ita &amp; 
+      <lb ed="#S" n="129"/>ibi: sed hoc est ratione diuersitatis status: quod. scilicet sicut hic plus 
+      <lb ed="#S" n="130"/>satisfacit modica poena quam ibi maxima sic &amp; hic plus sa 
+      <lb ed="#S" n="131"/>tisfacit modic dolor, quam ibi marimus. Vnde cum spirit 
+      <lb ed="#S" n="132"/>separatus nullum habeat retractiuum: probabile est quod ad 
+      <lb ed="#S" n="133"/>quodcunque se conuertat totaliter se conuertat. ergo de quo 
+      <lb ed="#S" n="134"/>cunque poeniteat toto conatu &amp;summo poenitet: sed quiam 
+      <!--0272.xml-->
+      <pb ed="#S" n="272"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>intensio contritionis delet omnem poenam, vel ratione 
+       me<lb ed="#S" break="no" n="2"/>riti, vel ratioue satisfactionis: post hanc vitam non est status 
+      <lb ed="#S" n="3"/>merendi: ergo non delet per modum meriti: nec per modum 
+      <lb ed="#S" n="4"/>satis factionis: quia illa fit per opera poenalia: &amp; in 
+       contri<lb ed="#S" break="no" n="5"/>tione viatoris est poena. scilicet dolor sensibilis: ibi autem dolor 
+      <lb ed="#S" n="6"/>voluntatis quo peccatum displicet, cum sit pure voluntarius 
+      <lb ed="#S" n="7"/>non habet de se poenam aliquam: quia non est contra 
+       volunta<lb ed="#S" break="no" n="8"/>tem: nec simpliciter nec secundum quid: imo dolet &amp; vult 
+      <lb ed="#S" n="9"/>dolere: nec ratione sensus: quia non est ibi sensus. secus 
+      <lb ed="#S" n="10"/>autem est in spiritu damnato, cui displicet remorsus syndere 
+      <lb ed="#S" n="11"/>sis de peccato. Vnde ille dolor est ei poena: quamuis videa 
+      <lb ed="#S" n="12"/>tur mirabile quod dolor purgatorij non sit poena. Vnde dicem 
+      <lb ed="#S" n="13"/>dum, quod dolor quem habent de poena sic est poena, quod sine eo 
+      <lb ed="#S" n="14"/>non esset poena: sed dolor quem habent de culpa, est proba 
+      <lb ed="#S" n="15"/>bile quod ille non sit poena.
+    </p>
+            <p xml:id="khj78y-q81035-d1e1156" n="35">
+      <!-- 35 -->seda conclusio est. quod in 
+       in<lb ed="#S" break="no" n="16"/>ferno non potest expiari poena debita veniali hic non 
+       di<lb ed="#S" break="no" n="17"/>misso. quia quandiu culpa est dimissa tandiu est poena 
+       de<lb ed="#S" break="no" n="18"/>bita. Vnde cum ibi non possit remitti aliqua culpa, per con 
+      <lb ed="#S" n="19"/>sequens nec poena solui illi peccato: quod manet debita: 
+      <lb ed="#S" n="20"/>quia semper est debita: imo communiter tenetur, quod nec in 
+      <lb ed="#S" n="21"/>praesenti possit dimitti veniale sine mortali: primo quo 
+      <lb ed="#S" n="22"/>ad poenam: quia nulla poena est satisfactoria in illo qui 
+      <lb ed="#S" n="23"/>no habet gratiam: item nec quo ad culpam: quia illa remissio 
+      <lb ed="#S" n="24"/>culpae non est sine reordinatione voluntatis: non est autem vo 
+      <lb ed="#S" n="25"/>luntas reordinata, quandiu est deordinata: &amp; quamuis possit 
+      <lb ed="#S" n="26"/>reordinari secundum quid manens deordinata simpli citer 
+      <lb ed="#S" n="27"/>&amp; possit quis poenitere de veniali sicut mortali: tamen 
+      <lb ed="#S" n="28"/>quandiu est aliquis odio homini habitus nihil ei 
+       condo<lb ed="#S" break="no" n="29"/>nant quousque &amp; de maiori offensa satisfaciat: imo ei 
+       re<lb ed="#S" break="no" n="30"/>seruat. ergo nec ad meritum nec ad satisfaciendum est 
+       acce<lb ed="#S" break="no" n="31"/>pto opus eius, qui non habet gratiam. Quod autem dicitur, quod 
+      <lb ed="#S" n="32"/>venialis ad mortale non est proportio, verum est. &amp; quo ad 
+      <lb ed="#S" n="33"/>culpam &amp; quo ad poenam damni per se: sed quo ad poenam 
+       sen<lb ed="#S" break="no" n="34"/>sus intensiue est proportio: cum vtraque sit finita: &amp; quo ad 
+      <lb ed="#S" n="35"/>extensionem per accidens est aequalitas in casu qui dictus 
+      <lb ed="#S" n="36"/>est.
+    </p>
+            <p xml:id="khj78y-q81035-d1e1206" n="36">
+      <!-- 36 -->Tertia conclusio est. quod idem est de poena debita mor 
+      <lb ed="#S" n="37"/>tali vel veniali ent hic dimisso: quia poena quae nunquam est Deo 
+      <lb ed="#S" n="38"/>accepta numquam em satisfactoria.
+    </p>
+            <p xml:id="khj78y-q81035-d1e1215" n="37">
+      <!-- 37 -->Praeterea sicut gaudium 
+      <lb ed="#S" n="39"/>sanctorum siue essentiale, siue accidentalevt aureola non 
+       ha<lb ed="#S" break="no" n="40"/>bet finem, sic nec poena malorum siue essentialis quae est pro 
+      <lb ed="#S" n="41"/>mortali, siue accidentalis quae est pro veniali.
+    </p>
+            <p xml:id="khj78y-q81035-d1e1226" n="38">
+      <!-- 38 -->
+       Praete<lb ed="#S" break="no" n="42"/>rea si homo esset obligatus ad pecuniam certi valoris: 
+       sol<lb ed="#S" break="no" n="43"/>uendo pecuniam nullius valoris: nunquam liberaretur. Et 
+      <lb ed="#S" n="44"/>sic est hic: quia valor satisfactionis est ex charitate. ideo. 
+      <lb ed="#S" n="45"/>&amp;c. Et si poena est finita per se, potest tamen esse infinita per 
+      <lb ed="#S" n="46"/>accusans &amp; ex superuenienti.Vnde sicut poena mortalis 
+      <lb ed="#S" n="47"/>propter poenitentiam de aeterna fit temporalis: sic econuerso 
+      <lb ed="#S" n="48"/>poena venialis propter impoenitentiam &amp; mortalis propter 
+      <lb ed="#S" n="49"/>concomitantiam fit aeterna. &amp; ideo sicut in coelo aeternum 
+      <lb ed="#S" n="50"/>erit gaudium de bonis naturae &amp; factis in mortali quibus 
+      <lb ed="#S" n="51"/>non debetur coelum per se: sic &amp; in inferno aeternus dolor 
+      <lb ed="#S" n="52"/>de peccatis venialibus: quamuis per se non debeatur eis 
+       in<lb ed="#S" break="no" n="53"/>fernus.
+    </p>
+            <p xml:id="khj78y-q81035-d1e1258" n="39">
+      <!-- 39 -->sed notandum, quod non omne gaudium 
+       acciden<lb ed="#S" break="no" n="54"/>tale est aeternum in beatis: quia non semper actu recolunt 
+      <lb ed="#S" n="55"/>de omnibus de quibus est eis gaudendum. Et quia gaudium 
+      <lb ed="#S" n="56"/>&amp; delectatio fequuntur actum non habitum: inde est, quod non ha 
+      <lb ed="#S" n="57"/>bent actu continue illud gaudium: sed essentiale non 
+       inter<lb ed="#S" break="no" n="58"/>rumpitur sicut nec visio Dei. accidentale vero quod est 
+       au<lb ed="#S" break="no" n="59"/>reola: si non interrumpatur est specialis gratia Dei, quod. scilicet sem 
+      <lb ed="#S" n="60"/>per actu cogitent de hoc: nisi dicatur sic, quod quicquid 
+       co<lb ed="#S" break="no" n="61"/>gnoscunt cognitione vespertina, cognoscūt ent cognitione 
+      <lb ed="#S" n="62"/>matutina. Et vesptina quidem interrumpitur, sed non matutina 
+      <lb ed="#S" n="63"/>&amp; vtrumque habet gaudium annexum, quia omnia cooperantur 
+      <lb ed="#S" n="64"/>eis in bonum, &amp; sic gaudium inquantum sequitur cognitionem 
+      <lb ed="#S" n="65"/>matutinam etiam de creatura est aeternum: illud vero quod 
+       se<lb ed="#S" break="no" n="66"/>quitur cognitionem vespertinam, etiam de creatura est 
+       discon<lb ed="#S" n="67" break="no"/>dinuum. De damnatis autem: quia non semper actu de omni- 
+      <!--0272.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>bus recolunt, quae sunt eis causa doloris &amp; vermis, ideo 
+      <lb ed="#S" n="69"/>non omnis eorum dolor est aeternus continuitate, licet nunquam 
+      <lb ed="#S" n="70"/>sint sine aliquo dolore
+    </p>
+            <p xml:id="khj78y-q81035-d1e1304" n="40">
+      <!-- 40 -->Quarta conclusio est quod 
+       ali<lb ed="#S" break="no" n="71"/>qui tardius: aliqui citius a purgatorio liberantur: 
+       quan<lb ed="#S" break="no" n="72"/>to enim homo firmius adhaesit peccando: tanto diutius 
+       pur<lb ed="#S" break="no" n="73"/>gabitur, propter quod malum est sibi habituare quodcun 
+      <lb ed="#S" n="74"/>que peccatum: quanto autem granius vel pluries peccauit: 
+      <lb ed="#S" n="75"/>tanto intensius ardebit.
+    </p>
+            <p xml:id="khj78y-q81035-d1e1320" n="41">
+      <!-- 41 -->Videtur tamen quod ista 
+      <lb ed="#S" n="76"/>firmitas nihil faciat: quia quantumcunque firmiter 
+       adhaese<lb ed="#S" break="no" n="77"/>rit in hac vita: totaliter tamen auertitur in alia: &amp; quanto 
+      <lb ed="#S" n="78"/>firmius eligitur tanto firmius respuit: vnde firmitas quae 
+      <lb ed="#S" n="79"/>iam esse desijt: non videtur prolongare poenam. 4. Prae 
+      <lb ed="#S" n="80"/>terea secundum quod habent plura vel pauciora suffra 
+      <lb ed="#S" n="81"/>gia, secundum hoc citius vel tardius purgantur: etiam 
+      <lb ed="#S" n="82"/>illi qui fuerunt magis in peccatis firmati: vnde incertum 
+      <lb ed="#S" n="83"/>est de hoc.
+    </p>
+            <p xml:id="khj78y-q81035-d1e1342" n="43">
+      <!-- 43 -->Ad argumentum dicendum quod loquitur de 
+      <lb ed="#S" n="84"/>inferno damnatorum: &amp; puerorum: non de limbo patrum, 
+      <lb ed="#S" n="85"/>vnde patres sunt redempti: nec de purgatorio &amp; 
+       forna<lb ed="#S" break="no" n="86"/>ce ferrea AEgypti, vnde quotidie redimuntur sanguine 
+      <lb ed="#S" n="87"/>Agni. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="288"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q87993"><!-- l4d23-q4 -->
+            <head xml:id="khj78y-q87993-Hd1e101">Quaestio 4</head>
+            <head xml:id="khj78y-q87993-Hd1e103" type="question-title">
+     De effectu extremae vnctionis.
+   </head>
+            <p xml:id="khj78y-q87993-d1e106">
+               <lb ed="#S" n="116"/>QVAESTIO QVARTA. 
+      <lb ed="#S" n="117"/>De effectu extremae vnctionis. 
+    </p>
+            <p xml:id="khj78y-q87993-d1e113">
+               <lb ed="#S" n="118"/>Thom. 4. distin. 13. q. n. art. 2. &amp;. q. 3. 
+    </p>
+            <p xml:id="khj78y-q87993-d1e118">
+               <lb ed="#S" n="119"/>QVARTO quaeritur de effec- 
+      <!-- possible missing line here ?? -->
+      <lb ed="#S" n="120"/>imprimat characterem Et videtur quod sic: quia 
+      <lb ed="#S" n="121"/>finis debet respondere principio, &amp; 
+       me<lb ed="#S" break="no" n="122"/>dio. sicut ergo satim intrantium, &amp; 
+       pugnan<lb ed="#S" break="no" n="123"/>tium imprimit characterem: sic &amp; sacim ex 
+      <lb ed="#S" n="124"/>euntium.
+    </p>
+            <p xml:id="khj78y-q87993-d1e137" n="2">
+      <!-- 2 -->Contra, quia est iterabile.
+    </p>
+            <p xml:id="khj78y-q87993-d1e142" n="3">
+      <!-- 3 -->Respondeo, 
+      <lb ed="#S" n="125"/>hic sunt tres conclusiones. Prima est de primo effectu 
+       e<lb ed="#S" break="no" n="126"/>ius: quia primus &amp; principalis effectus eius est remifaio 
+      <lb ed="#S" n="127"/>peccatorum: sed non videtur principaliter institutum 
+       pro<lb ed="#S" break="no" n="128"/>pter culpam venialem: quia non dicerei, si est in peccatis 
+       dimitte<lb ed="#S" break="no" n="129"/>retur ei: quia effectus principaliter intentus non ponitur 
+       con<lb ed="#S" break="no" n="130"/>ditionaliter in sacro. Non enim dicit, quod per baptismum 
+      <!--0289.xml-->
+      <pb ed="#S" n="289"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>remittat originale, si est in illo, sed simpliciter nec simili 
+      <lb ed="#S" n="2"/>ter per poenitentiam, quod ho liberet a peccatis actualibus, si habet 
+       il<lb ed="#S" break="no" n="3"/>la, sed simpliciter. secunda ratio ad idem est, quia contra vnum 
+      <lb ed="#S" n="4"/>defectum non principaliter instituitur, nisi vnum sacramentum: sed 
+      <lb ed="#S" n="5"/>poenitentia est contra omne actuale, tam mortale, quae veniale. 
+       er<lb ed="#S" break="no" n="6"/>go &amp;c. sed ad hoc dicunt quidam, quod verum est, quando id vnum 
+      <lb ed="#S" n="7"/>remedium est sufficiens, quantum ad omnem statum: poenitentia au 
+      <lb ed="#S" n="8"/>tem &amp; si sit sufficiens remedium pro sanis corpore, qui pos 
+      <lb ed="#S" n="9"/>sunt liberius conteri, &amp; poenitere: infirmi tamen praecipue in 
+      <lb ed="#S" n="10"/>statu, in quo timet de morte, propter grauitatem 
+       infirmita<lb ed="#S" break="no" n="11"/>tis, &amp; debilitatem naturae, non ita libere possunt cogitare de 
+      <lb ed="#S" n="12"/>pctis suis, nec conteri, aut confiteri. &amp; ideo pro statu illo non 
+      <lb ed="#S" n="13"/>videi, quod poenitentia sit conueniens remedium contra venialia peccata: 
+      <lb ed="#S" n="14"/>propter quod non est inconueniens, si pro statu illo aliud 
+       re<lb ed="#S" break="no" n="15"/>medium adhibeatur ad ea tollenda.
+    </p>
+            <p xml:id="khj78y-q87993-d1e199" n="4">
+      <!-- 4 -->sed solutio ista ita 
+      <lb ed="#S" n="16"/>concludit de mortali, sicut de veniali, &amp; plus. si enim pro 
+      <lb ed="#S" n="17"/>tanto contra veniale est instituta vnctio pro tempore infirmita 
+      <lb ed="#S" n="18"/>tis quia tunc non est sufficiens remedium poenitentia, qum iam non 
+      <lb ed="#S" n="19"/>potest libere poenitere, multomagis contra mortale: cum 
+       e<lb ed="#S" break="no" n="20"/>tiam quicqd necesse est ad poenitentiam de venialibus, sit 
+      <lb ed="#S" n="21"/>necesse ad poenitentiam de mortalibus, &amp; plus. ergo si 
+       in<lb ed="#S" break="no" n="22"/>firmitas impedit poenitetiam de veniali, multomagis de 
+      <lb ed="#S" n="23"/>mortali: quia de veniali per se non requirit nisi 
+       contritio<lb ed="#S" break="no" n="24"/>nem, etia in generali non confessionem: sed puia de 
+       morta<lb ed="#S" break="no" n="25"/>li requirit contritionem in speciali, &amp; confessionem. Infir 
+      <lb ed="#S" n="26"/>mitas autem grauis aliqum tollit loquelam, &amp; impedit per sin 
+      <lb ed="#S" n="27"/>gula cogitare aliud, q morbum sensibilem: sed de se inclinat 
+      <lb ed="#S" n="28"/>ad contritionem in generali. vnde communiter tunc poenitent 
+      <lb ed="#S" n="29"/>homines de peccatis. Vnde infirmitas videt tempus congruum ad 
+      <lb ed="#S" n="30"/>poenitentiam venialium: quia quamdiu durat vita, est tempus 
+       contritio<lb ed="#S" break="no" n="31"/>nis: sed non mortalium, si est grauis: licet autem non sit 
+       prin<lb ed="#S" break="no" n="32"/>cipaliter contra veniale: tamen per ipsam remittunt venialia 
+      <lb ed="#S" n="33"/>si sint.
+    </p>
+            <p xml:id="khj78y-q87993-d1e243" n="5">
+      <!-- 5 -->Et quod arguit, quod non videi dimitti veniales quia 
+      <lb ed="#S" n="34"/>non apparet displicentia, cum ad remissionem omnis actualis re 
+      <lb ed="#S" n="35"/>quiratur contritio: dicendum, quod imo ritus ecclesiae est, quod fa 
+      <lb ed="#S" n="36"/>ciat confestionem generalem, quam si ore non potest, saltem tundat 
+      <lb ed="#S" n="37"/>pectus suum in signum doloris: sed ista fiunt ante essentiam 
+      <lb ed="#S" n="38"/>facri quasi praeambula: quia in exhibitione essentiali sacri 
+      <lb ed="#S" n="39"/>ipse infirmus se habet pure passiue: nec aliqs actus eius 
+      <lb ed="#S" n="40"/>requiritur exterior, nec interior, plusquam in paruulo. Ex 
+      <lb ed="#S" n="41"/>quo apparet, quod nondai principaliter ppter culpam 
+       actua<lb ed="#S" break="no" n="42"/>lem: quia tunc per se requireret actum volutatis: quia qui 
+      <lb ed="#S" n="43"/>creauit te sine te &amp;c. Vnde absolutio non debetdari nisi con 
+      <lb ed="#S" n="44"/>fitenti, &amp; interrogato an poeniteat, &amp; proponat abstinere: 
+      <lb ed="#S" n="45"/>nihilominus delet culpam ex ope opato, si non est obex.
+    </p>
+            <p xml:id="khj78y-q87993-d1e274"><!-- l4d23-q6 -->
+               <lb ed="#S" n="46"/>
+               <!--6 -->secunda conclusio est de secundo effectu, qui est alleuia 
+      <lb ed="#S" n="47"/>tio infirmi corporalis, si digne suscipit, &amp; sibi expedit. Ex 
+      <lb ed="#S" n="48"/>emplum de quodam, qui inungendo fuit curatus successiue, 
+      <lb ed="#S" n="49"/>sicut particulariter inungebat: &amp; finaliter completa vn 
+      <lb ed="#S" n="50"/>cione totus alleuiatus, &amp; curatus est: &amp; non solum corpo 
+      <lb ed="#S" n="51"/>ralis alleuiatio est effectus, sed etiam spiritualis, quae dicitur 
+      <lb ed="#S" n="52"/>hllaritas mentis non actualis, sed habitualis: quia imprimit 
+      <lb ed="#S" n="53"/>ornatum disponentem ad gratiam gratum facientem: &amp; cum hoc 
+      <lb ed="#S" n="54"/>gratiam sacramentalem, quae est quidam habitus habens specialem 
+       effe<lb ed="#S" break="no" n="55"/>ctum, ad fortificandum contra pugnam tunc imminentem, ad re 
+      <lb ed="#S" n="56"/>mittendum poenam, quae post oia alia sacra impediret 
+       ingres<lb ed="#S" break="no" n="57"/>sum regni: propter quae duo hoc sacim princlpaliter dat: 
+      <lb ed="#S" n="58"/>qa non dai ad supplementum contritionis, que tunc haberi 
+      <lb ed="#S" n="59"/>non potest. Inde est, quod sicut contritio non totam: sed partem po 
+      <lb ed="#S" n="60"/>nae deleret: sic &amp; istud sacramentum: propter quod sicut sine isto 
+       sa<lb ed="#S" break="no" n="61"/>co vinceret homo a Diabolo, qui cum ipso vincit: sic cum isto 
+      <lb ed="#S" n="62"/>sacro citius intrat coelum, quam sine ipso. Dicunt tamen quidam, q 
+      <lb ed="#S" n="63"/>hoc modo operat extrema vnctio ad dimissionem pcti 
+       ve<lb ed="#S" break="no" n="64"/>nialis: quia per eam dat digne suscipienti quaedam hilaritas 
+      <lb ed="#S" n="65"/>mentis, contra oppressionem, quam infirmus tunc patiem tum 
+      <lb ed="#S" n="66"/>ex debilitate corporis: tum ex memoria praecedentium 
+      <lb ed="#S" n="67"/>peccatorum, proptes quae posset facilius in desperationem 
+      <!--0289.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>cadere, quam hilaritatem forte beatus Iacobus vocat 
+       alle<lb ed="#S" break="no" n="69"/>uiationem, cum dicit: Et alleuiabit eum Dominus. Ad hanc autem 
+      <lb ed="#S" n="70"/>sequit conuersio mentis in Deum, &amp; generalis displicentia 
+      <lb ed="#S" n="71"/>omnium delictorum, quae sufficit ad deletionem peccatorum 
+       venia<lb ed="#S" break="no" n="72"/>lium. Et ideo postquam beatus Iacobus dixit. Et alleuiabit 
+      <lb ed="#S" n="73"/>eum Dominus: subiunxit: &amp; si in peccatis sit dimittenturei. Et hanc 
+      <lb ed="#S" n="74"/>dicunt fuisse sententiam fratris Tho. scilicet unde extrema vnctio 
+      <lb ed="#S" n="75"/>ordinatur ad tollendum reliquias culpae remanentis, quae 
+       secun<lb ed="#S" break="no" n="76"/>dum eum non sunt dispositiones ex actibus peccatorum 
+       reli<lb ed="#S" break="no" n="77"/>stae, velut quidam habitus inchoati: sed sunt quaedam spiritu
+       a<lb ed="#S" break="no" n="78"/>lis debilitas in mente existens, ad perficiendos actus 
+       grae<lb ed="#S" break="no" n="79"/>Haec autem debilitas quid sit aliud nisi illa grauedo mentis, 
+      <lb ed="#S" n="80"/>quam infirmus patit in illo statu ex causis supradictis non 
+      <lb ed="#S" n="81"/>vident.
+    </p>
+            <p xml:id="khj78y-q87993-d1e362" n="7">
+      <!-- 7 -->sed iste modus, quem ponunt dimittendi ve 
+      <lb ed="#S" n="82"/>nialia, per hilaritatem, quam infundit, ad quam sequit 
+       con<lb ed="#S" break="no" n="83"/>uersio mentis in Deum, &amp; generalis displicentia non 
+       vide<lb ed="#S" break="no" n="84"/>tur: ua sicut baptismus debet dari illi, q in sanitate ipsum 
+      <lb ed="#S" n="85"/>petiit, si fiat furiosus, nec speretur lucidum interuallum: quia non 
+      <lb ed="#S" n="86"/>requirit actum suscipientis per se: quia ordinatur ad peccatum  
+      <lb ed="#S" n="87"/>contractum sine actu proprio, sic infirmo, qui cum sanae 
+       men<lb ed="#S" break="no" n="88"/>tis esset, petiuit hoc sacim, &amp; postea incidit in frenesim: 
+      <lb ed="#S" n="89"/>dat hoc sacim eum etiam detur sibi eucharistia: qui tamen non 
+      <lb ed="#S" n="90"/>est capax rationis: nec per consequens huiusmodi hilatitatis, nec 
+      <lb ed="#S" n="91"/>conuersionis ad Deum, nec per consequens displicentiae. Vnde 
+      <lb ed="#S" n="92"/>si principaliter dat propter venialia, nec potest ea delere, 
+       ni<lb ed="#S" break="no" n="93"/>si per talem conuersionem, frustra datur illis, qui sic 
+       conuer<lb ed="#S" break="no" n="94"/>ti non possunt. quando enim sacramentum per se requirit aliquid, in 
+       nul<lb ed="#S" break="no" n="95"/>la necessitate debet dari, nisi habenti illud per se exigitus 
+      <lb ed="#S" n="96"/>sicut exemplificatum est de absolutione poenitentiali: &amp; idem est 
+      <lb ed="#S" n="97"/>de benedictione nuptiali, quamuis non sit sacramentum: quia non 
+       da<lb ed="#S" break="no" n="98"/>tur nisi consentientibus, quia matrimonium per se requiris 
+      <lb ed="#S" n="99"/>consensum. si ergo requireret per se actum inungendi: 
+      <lb ed="#S" n="100"/>requirerei autem si principaliter daret contra culpam 
+       actua<lb ed="#S" break="no" n="101"/>lem: nunquam darei, nisi habenti signa contritionis etiam tunc a 
+      <lb ed="#S" n="102"/>nec iterum haberet materiam exterius, sicut nec poenitentia, 
+      <lb ed="#S" n="103"/>nec matrimonium, nisi actum inungendi: habet autem sicut 
+       ba<lb ed="#S" n="104" break="no"/>ptismus, &amp; confirmatio: ertre 
+    </p>
+            <p xml:id="khj78y-q87993-d1e418" n="8">
+      <!--8-->Praetera cum 
+       extre<lb ed="#S" break="no" n="105"/>ma vnctio sit sacramentum exeuntium, debet esse vltimum sacramentum, 
+      <lb ed="#S" n="106"/>post quod non restat <sic>aliut</sic>: sicut baptismus primum, ante 
+      <lb ed="#S" n="107"/>quod nullum: vnde etiam viaticum primo datur infirmo, quae 
+      <lb ed="#S" n="108"/>extrema vnctio: cum communio requirat maximam puritatem 
+      <lb ed="#S" n="109"/>a pctis, si pro tempore infirmitatis quando infirmus est communi 
+      <lb ed="#S" n="110"/>candus, ad deletionem venialium esset conuenientibus reme 
+      <lb ed="#S" n="111"/>dium extrema vnctio, quae poenitentia post confessionem de morta 
+      <lb ed="#S" n="112"/>libus ad deletionem venialium, deberet praecedere extrema 
+      <lb ed="#S" n="113"/>vnctio: quia quicquid est conuenlentius remedium contra 
+      <lb ed="#S" n="114"/>culpam, quandocunque id maxime debet esset praeambulum ad en 
+      <lb ed="#S" n="115"/>charistiam.
+    </p>
+            <p xml:id="khj78y-q87993-d1e449" n="9">
+      <!-- 9 -->Et quod non vident, quod sit ista debilitas, nisi 
+      <lb ed="#S" n="116"/>sit infirmitas naturae gratia destiturae, quam tamen supponit 
+      <lb ed="#S" n="117"/>hoc sacramentum non est verum: quia ista debilitus debet esse propria 
+      <lb ed="#S" n="118"/>illa tempori, &amp; statui, cui appropriat hoc sacramentum: quia ergo 
+      <lb ed="#S" n="119"/>morte instante imminet grauissima tentatio inimici, qui 
+      <lb ed="#S" n="120"/>insidiatur calcaneo: &amp; quia anima, quae naturaliter 
+       dili<lb ed="#S" break="no" n="121"/>git corpus: magis intenta corpori, minus potest intendere 
+       si<lb ed="#S" break="no" n="122"/>bi: sicut Aug. dicit. Depressio etiam ex memoria praeceden 
+      <lb ed="#S" n="123"/>tium delictorum: ex qua in desperationem labi posset, &amp; vi 
+      <lb ed="#S" n="124"/>siones terribiles, quas patit, &amp; huiusmodi occurrunt. ided tunc 
+      <lb ed="#S" n="125"/>ex his omnibus anima debilior efficitur: specialiter ex peccatis 
+      <lb ed="#S" n="126"/>praecedentibus: ex quibus fit timida, &amp; infirma ad actus 
+      <lb ed="#S" n="127"/>gre, non solum habitibus in contrarium inclinantibus: quia 
+      <lb ed="#S" n="128"/>tunc proua non est inclinatio ad peccatum: &amp; forte graui 
+       infir<lb ed="#S" n="129" break="no"/>mitate tales habitus corrumpuntur: sed fit infirma merito 
+      <lb ed="#S" n="130"/>rie: quia quanto plures, &amp; grauioribus consensit peccatis, 
+       tan<lb ed="#S" break="no" n="131"/>tomagis meruit in tentationibus deseri: &amp; tamen tunc 
+       gra<lb ed="#S" break="no" n="132"/>uissima imminet tentatio. vnde &amp; quasi pugil inungit 
+       con<lb ed="#S" n="133" break="no"/>tra daemonem, sicut confirmandus tontra mundum. Haec ergo 
+      <lb ed="#S" n="134"/>est infirmitas ad actus grae, differens ab habitu peccatorum. 
+      <!--0290.xml-->
+      <pb ed="#S" n="290"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Vnde per hoc sacramentum imprimit ornatus disponens ad 
+       au<lb ed="#S" break="no" n="2"/>gmentum gratiae, &amp; feruorem charitatis, vt sit homo fortior con 
+      <lb ed="#S" n="3"/>tra tentationem in morte, &amp; accipit spiritum sanctum ad robur 
+      <lb ed="#S" n="4"/>in pugna hac, sicut in confirmatione in pugna corporali 
+      <lb ed="#S" n="5"/>temporalis persequutionis. Aliquando autem infirmus iam 
+       per<lb ed="#S" break="no" n="6"/>didit vsum rationis lapsus in frenesi: ita quod peccare non 
+      <lb ed="#S" n="7"/>potest, sed restat in eo infirmitas retardans ab actu gloriae, 
+      <lb ed="#S" n="8"/>&amp; poena debita peccato actuali, &amp; contra hanc etiam da 
+      <lb ed="#S" n="9"/>tur. vnde vt pugnans in fine vincat, &amp; vincens 
+       purga<lb ed="#S" break="no" n="10"/>tus, sine alio purgatorio coelum intret: propter haec duo 
+      <lb ed="#S" n="11"/>inungitur. Et haec duplex est infirmitas.
+    </p>
+            <p xml:id="khj78y-q87993-d1e525" n="10">
+      <!--10 -->Tertia 
+       con<lb ed="#S" break="no" n="12"/>clusio est, quod non imprimit characterem: quia non deputat 
+      <lb ed="#S" n="13"/>ad specialem statum in hac vita. Propter quod hoc 
+       sa<lb ed="#S" break="no" n="14"/>cramentum potest iterari: quia omne sacramentum, quod non impri 
+      <lb ed="#S" n="15"/>mit effectum indelebilem, potest iterari: sed extrema vnctio 
+      <lb ed="#S" n="16"/>cum non imprimat characterem, vt baptismus, 
+       confirma<lb ed="#S" break="no" n="17"/>eio, &amp; ordo: ideo non imprimit effectum indelebilem. Et ideo 
+      <lb ed="#S" n="18"/>potest iterari, non solum in diuersis infirmitatibus, 
+       quan<lb ed="#S" break="no" n="19"/>do in singulis timetur de morte: sed etiam in eandem 
+       infir<lb ed="#S" break="no" n="20"/>mitate, quando est diuturna, vt ethicha, vel hydropisis, 
+       quo<lb ed="#S" break="no" n="21"/>tiescunque ex tali infirmitate homo deducitur ad periculum 
+      <lb ed="#S" n="22"/>mortis. Extrema enim vnctio non respicit infirmitatem 
+      <lb ed="#S" n="23"/>absolute, sed statum infirmitatis, qui quotiescumque iteratur, 
+      <lb ed="#S" n="24"/>siue in eandem infirmitate absolute, siue in diuersis potest vn 
+      <lb ed="#S" n="25"/>ctio iterari. sed in infirmitatibus prolixis dicunt quidam, 
+      <lb ed="#S" n="26"/>quod post annum iterari potest, pro eo, quod completa est 
+       reuo<lb ed="#S" break="no" n="27"/>lutio superiorum corporum. sed absurdum videtur sacramenta 
+      <lb ed="#S" n="28"/>regulari secundum motum astrorum. Vnde nullus 
+       quantun<lb ed="#S" break="no" n="29"/>cumque infirmus inungendus est, nisi cum apparet ante exi 
+      <lb ed="#S" n="30"/>tum propinquare. Et hoc est infirmitatis aggrauatione, quem 
+      <lb ed="#S" n="31"/>statum natura diu sustinere non pont: imo aut vincit, aut 
+      <lb ed="#S" n="32"/>vincitur, vnde si incipiat melius habere, &amp; sit talis in 
+       per<lb ed="#S" break="no" n="33"/>fecta conualescentia: quod tamen probabile sit in venialia inci 
+      <lb ed="#S" n="34"/>disse, si recidiuat, in simile periculum adhuc potest inungi. 
+    </p>
+            <p xml:id="khj78y-q87993-d1e580" n="11">
+               <lb ed="#S" n="35"/>
+               <!-- 11 -->Ad argumentum dicendum, quod non est simile: quia illa ad 
+      <lb ed="#S" n="36"/>specialem statum deputant in hac vita, &amp; similiter ordo. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

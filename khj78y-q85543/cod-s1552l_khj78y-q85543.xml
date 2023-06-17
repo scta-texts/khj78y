@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="281"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q85543"><!-- l4d23-q1 -->
+            <head xml:id="khj78y-q85543-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-q85543-Hd1e103" type="question-title">
+     de 
+     extrema vnctione, quo ad 
+     essentiam, utrum habeat 
+       determinatam materiam
+   </head>
+            <p xml:id="khj78y-q85543-d1e106">
+               <lb ed="#S" n="102"/>DISTINCTIO. 23 QVAESTIO. I. 
+      <lb ed="#S" n="103"/>CIrca vigesimantertiam distinctionem quaeruntur 
+      <lb ed="#S" n="104"/>Aquatuor de extrema vnctione. Primo, de essentia. 
+      <lb ed="#S" n="105"/>secundo, de ministro. Tertio, de substantia. Quarto, 
+      <lb ed="#S" n="106"/>de effectu. 
+    </p>
+            <p xml:id="khj78y-q85543-d1e119">
+               <lb ed="#S" n="107"/>De sacramento vnctionis extremae.
+    </p>
+            <p xml:id="khj78y-q85543-d1e124">
+               <lb ed="#S" n="108"/>Thom. 4. dist. 23. 41art. 3. &amp;. 4
+    </p>
+            <p xml:id="khj78y-q85543-d1e130">
+               <lb ed="#S" n="109"/>PRIMO igitur, quaeritur de 
+      <lb ed="#S" n="110"/>extrema vnctione, quo ad 
+       es<lb ed="#S" break="no" n="111"/>sentiam, vtrum habeat 
+       deter<lb ed="#S" break="no" n="112"/>minatam materiam. Et videtur 
+      <lb ed="#S" n="113"/>quod non, quia in omni 
+       com<lb ed="#S" break="no" n="114"/>posito forma debet esse magis 
+      <lb ed="#S" n="115"/>determinata, quam materia: 
+      <lb ed="#S" n="116"/>quia actus est, qui separat, &amp; 
+      <lb ed="#S" n="117"/>distinguit, septimo Metaphysicorum. sed istud 
+       sacra<lb ed="#S" break="no" n="118"/>mentum non habet determinatam formam, nec per scri 
+      <lb ed="#S" n="119"/>pturam: quia dicit Iacobus: Oratio fidei alleuiabit infir 
+      <lb ed="#S" n="120"/>mum: sed non dicit, quae vel qualis, nec per ecclesiam, 
+      <lb ed="#S" n="121"/>cum aliquae ecclesiae habent formam deprecatiuam tan 
+      <lb ed="#S" n="122"/>cum, alin tantum indicatiuam, aliae vtrunque. ideo &amp;c. 
+    </p>
+            <p xml:id="khj78y-q85543-d1e163" n="3">
+               <lb ed="#S" n="123"/>
+               <!-- 3 -->Contra, Iacobi vltimo, vbi primo hoc sacramen- 
+      <!--0282.xml-->
+      <pb ed="#S" n="282"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>tum promul atum est, vbi dicitur. Vngant cum oleo. 
+      <lb ed="#S" n="2"/>ideo &amp; caetera.
+    </p>
+            <p xml:id="khj78y-q85543-d1e181" n="4">
+      <!-- 4 -->Respondeo, circa essentiam huius sa 
+      <lb ed="#S" n="3"/>cramenti videnda sunt tria. Primo, de materia. 
+       secun<lb ed="#S" break="no" n="4"/>do, de forma. Tertio, de composito.
+    </p>
+            <p xml:id="khj78y-q85543-d1e190" n="3">
+      <!-- 5 -->Circa primum, 
+      <lb ed="#S" n="5"/>cum materia huius sacramentii sit oleum consecratum 
+      <lb ed="#S" n="6"/>per episcopum, sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-q85543-d1e199" n="6">
+      <!-- 6 -->Prima de 
+       ma<lb ed="#S" break="no" n="7"/>teria remota, quod est oleum oliuarum. sicut enim olim 
+      <lb ed="#S" n="8"/>in templum non inferebatur nisi oleum oliuarum 
+       pu<lb ed="#S" break="no" n="9"/>rissimum: ita nunc in sacramentis ecclesiae non oleum 
+      <lb ed="#S" n="10"/>nucum: licet in lampadibus ecclesiae esse possit, nec 
+       Pa<lb ed="#S" break="no" n="11"/>pa posset facere, quod de oleo nucum quantuncumque 
+       conse<lb ed="#S" break="no" n="12"/>crato esset hoc sacramentum: quia non potest mutare materiam sa 
+      <lb ed="#S" n="13"/>cramenti: licet posset facere, quod oleum ad catechumenos 
+      <lb ed="#S" n="14"/>esset de nucibus, vel quo inunguntur manus sacerdotum: 
+      <lb ed="#S" n="15"/>quia illa sunt sacramentalia, quae subiacent suae dispositioni: 
+      <lb ed="#S" n="16"/>ista vero sacramenta. Quod autem oleum oliuarum sit materia, pro 
+      <lb ed="#S" n="17"/>batur dupliciter. Primo, authoritate, quia laco. simplici 
+      <lb ed="#S" n="18"/>ter dicit oleo, sicut de vino in eucharistia: quod 
+       intelli<lb ed="#S" break="no" n="19"/>gitur de vite: vnde si admisceatur balsamum, vel oleo nu 
+      <lb ed="#S" n="20"/>tum, vel quicunque alius liquor scienter, est transgrestio 
+      <lb ed="#S" n="21"/>praecepti. Et si mutareispecies est irritatio sacrit vt in ba 
+      <lb ed="#S" n="22"/>ptismo, &amp; aliis. secundo, ratione sic, quia illud est 
+       conue<lb ed="#S" break="no" n="23"/>niens materia huius sacramenti, quod habet maximam 
+       con<lb ed="#S" break="no" n="24"/>venientiam cum eius effectu: sed tale est oleum oliuarum respe 
+      <lb ed="#S" n="25"/>ctu extremae vnctionis ergo &amp;c. Probatio minoris, quia ef 
+      <lb ed="#S" n="26"/>fectus istius sacri est spiritualis hilaritas mentis, per quam 
+      <lb ed="#S" n="27"/>mens alleuiatur a grauedine, &amp; depressione, quam com 
+      <lb ed="#S" n="28"/>muniter tunc homines patiunt. Huic autem maxime 
+       conue<lb ed="#S" break="no" n="29"/>nit oleum oliuarum, quod proprie dicitur oleum, est enim lucidum, 
+      <lb ed="#S" n="30"/>&amp; linitiuum. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q85543-d1e256" n="7">
+      <!-- 7 -->secunda conclusio est de materia 
+      <lb ed="#S" n="31"/>propinqua, quod debet esse oleum consecratum. Cuius ratlo est se 
+      <lb ed="#S" n="32"/>cundum quosdam: quia vbi minister determinatus est certo 
+       or<lb ed="#S" break="no" n="33"/>dine: materia, qua vtitur minister, debet esse consecrata 
+      <lb ed="#S" n="34"/>determinata benedictione: sed in hoc sacramento minister 
+       de<lb ed="#S" break="no" n="35"/>terminatus est certo ordine. scilicet sacerdotali, vt postea pate 
+      <lb ed="#S" n="36"/>bit. ergo materia debet esse consecrata certa benedictio 
+      <lb ed="#S" n="37"/>ne.
+    </p>
+            <p xml:id="khj78y-q85543-d1e277">
+      <!--8--> sed haec ratio licet sit probabilis, tamen parum 
+      <lb ed="#S" n="38"/>necessaria est: quia in sacramento poenitentiae debet esse de 
+      <lb ed="#S" n="39"/>terminatus minister certo ordine, quia sacerdos, nec 
+       ta<lb ed="#S" break="no" n="40"/>men oportet, quod eius materia sit prius consecrata certa 
+       be<lb ed="#S" break="no" n="41"/>nedictione: imo cum materia absolutionis sit peccata con 
+      <lb ed="#S" n="42"/>fessa, prius datur absolutio, quam quaecunque benedictio, 
+      <lb ed="#S" n="43"/>nec oportet, quod benedictio episcopalis praecedat, de qua 
+      <lb ed="#S" n="44"/>nunc agitur, nisi dicatur, quod materia absolutionis est pctor 
+      <lb ed="#S" n="45"/>baptizatus, sed ille est materia, in qua, non de qua. si di 
+      <lb ed="#S" n="46"/>catur, quod intelligit, quando sacramentum habet materiam aliam ab 
+      <lb ed="#S" n="47"/>actu suscipientis, quam non habent matrimonium, poenitem 
+      <lb ed="#S" n="48"/>tia: saltem est instantia de sacramento ordinis, cuius materia 
+      <lb ed="#S" n="49"/>est res, quae sibi traditur conueniens suo officio, scilicet, 
+       ca<lb ed="#S" break="no" n="50"/>lix, ampulla, candelabrum, liber, &amp; huiusmodi: sed forte isti 
+       di<lb ed="#S" break="no" n="51"/>cerent solum ordinem sacerdotij esse sacramentum, cuius ma 
+      <lb ed="#S" n="52"/>teria est calix consecratus. Tum cum missa de facto in cali 
+      <lb ed="#S" n="53"/>ce hon consecrato poscit celebrari, videtur, qui si calix non 
+      <lb ed="#S" n="54"/>Dusecratus sibi traderetur, nihilominus esset sacerdos: 
+      <lb ed="#S" n="55"/>imo cum sine omnibus istis colebret missa de solo pane, 
+      <lb ed="#S" n="56"/>&amp; vino, traditio istorum non consecratorum, vt videtur, 
+      <lb ed="#S" n="57"/>sufficeret quantum ad neceftitatem sacramenti. Non est 
+       au<lb ed="#S" break="no" n="58"/>tem inconueniens, quod sacramentum a Christo instituro supponat 
+      <lb ed="#S" n="59"/>ex parte muteriae aliquid ub homine factum: puta 
+       con<lb ed="#S" break="no" n="60"/>secrationem, quae secuntlum ritum quidem est ab iustitutione 
+      <lb ed="#S" n="61"/>ecclesiae: sed prout est dispositio necessaria a Christo 
+       in<lb ed="#S" break="no" n="62"/>stituta. sicut etiam panis est materia in sacramento eucharistiae, 
+      <lb ed="#S" n="63"/>quae est res per artificium humanum facta. Et sicut non 
+       pos<lb ed="#S" break="no" n="64"/>set de solo grano consici, nisi inde esset factus panis ab ho 
+      <lb ed="#S" n="65"/>mine: sic de oleo non potest quis inungi, nisi sit abepo com 
+      <lb ed="#S" n="66"/>secratum, vel sanctificatum. sed sicut non refert quomodo 
+      <lb ed="#S" n="67"/>fit panis fastus, siue sit azymus, siue fermentatus, siue fal 
+      <!--0282.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>sus, siue aliter, dum tum sit de frumento: sic non refert, quomodo  
+      <lb ed="#S" n="69"/>sit benedictum oleum, dum tamen sit oleum oliuarum: &amp; sit talis 
+      <lb ed="#S" n="70"/>benedictio, qualis a tota ecclesia Romana consueuit. Vn 
+      <lb ed="#S" n="71"/>de Papa posset mutare consecrationem, &amp; benedictionem 
+      <lb ed="#S" n="72"/>omnium huiusmodi: seu non posset inungere nullo modo con 
+      <lb ed="#S" n="73"/>secrato, sed potest consecrare, sicut vult, non autem inferior 
+      <lb ed="#S" n="74"/>Papa, qui non potest mutare statuta Papalia, &amp; concilio 
+      <lb ed="#S" n="75"/>rum, sicut nec Papa sacramenta a Deo instituta. Debes 
+      <lb ed="#S" n="76"/>ergo esse oleum consecratum, sed tamen potest admisceri non 
+      <lb ed="#S" n="77"/>consecratum: dum tamen sit de oliuis, &amp; totum 
+       reputa<lb ed="#S" break="no" n="78"/>tur consecratum, sicut aqua non benedicta, aquae 
+       benedi<lb ed="#S" break="no" n="79"/>ctae, &amp; pannus non benedictus, albae benedictae sine 
+       no<lb ed="#S" break="no" n="80"/>ua benedictione. extra de cons. ec. Quod in dubiis.
+    </p>
+            <p xml:id="khj78y-q85543-d1e379" n="9">
+      <!-- 9 -->
+       Ter<lb ed="#S" break="no" n="81"/>tia conclusio est, quod debet esse per episcopum consecratum, quia 
+      <lb ed="#S" n="82"/>praeparatio materiae, per quam nulla virtus actiua materiae 
+      <lb ed="#S" n="83"/>acquirit, pertinet ad inferiorem artificem, &amp; vsus ad superio 
+      <lb ed="#S" n="84"/>rem: vt dictum estde materia, quam inferior ars praeparat 
+      <lb ed="#S" n="85"/>superiori: sed qum per praeparationem acquiritur materiae 
+      <lb ed="#S" n="86"/>virtus actiua aequalis virtutis artificis : tunc vsus 
+       mate<lb ed="#S" break="no" n="87"/>riae non est potentior praeparatione materiae, cum tanta 
+      <lb ed="#S" n="88"/>sit virtus materiae, quanta sit vsus eius, vel vtentis, &amp; sic 
+      <lb ed="#S" n="89"/>est in proposito: quia per fanctificationem materiae tanta vir 
+      <lb ed="#S" n="90"/>tus ei acquiritur, sicut ministro per suam ordinationem. 
+      <lb ed="#S" n="91"/>Et ista ratio est contra illos, qui dicunt, quod in sacramentis non 
+      <lb ed="#S" n="92"/>est aliqua virtus, hic autem dicunt, quod est virtus actiua in 
+      <lb ed="#S" n="93"/>materia huius sacramenti. Et si dicatur tanta est virtus 
+      <lb ed="#S" n="94"/>actiua materiae, quanta est virtus vtentis artificis: sed in 
+      <lb ed="#S" n="95"/>neutro est nisi virtus, &amp; causa, siue qua non, non valet, 
+      <lb ed="#S" n="96"/>quia talis virtus est etiam in materia, quae dicitur pure 
+       pas<lb ed="#S" break="no" n="97"/>siua: puta in artificialibus in quibus tota virtus motiua 
+      <lb ed="#S" n="98"/>est extra in artifice. 6. mediate: quia materia est causa, sine 
+      <lb ed="#S" n="99"/>qua non. Nullus enim artifex potest facere arcam, nisi 
+      <lb ed="#S" n="100"/>habeat materiam, de qua vult facere eam, &amp; sic de aliis. 
+      <lb ed="#S" n="101"/>sed ad hoc diceret, quod non est in tali materia virtus, sine 
+      <lb ed="#S" n="102"/>qua non tanta, quanta in artifice correspondente: sic autem 
+      <lb ed="#S" n="103"/>est in materia sacramentorum. sed contra hoc est: quia si 
+      <lb ed="#S" n="104"/>propter hoc materia debet esse consecrata: quia est in ea 
+      <lb ed="#S" n="105"/>ranta virtus, quanto in artifice, ergo vbi in materia 
+       de<lb ed="#S" break="no" n="106"/>bet esse talis virtus maior, quam in artifice: ibi debet 
+       es<lb ed="#S" break="no" n="107"/>se materia magis consecrata, sed in baptismo tota virtus 
+      <lb ed="#S" n="108"/>est in materia, &amp; in forma, &amp; non in artifice: quia non 
+      <lb ed="#S" n="109"/>requirit sacerdotem, nec aliquem determinatum 
+       mini<lb ed="#S" break="no" n="110"/>strum, cui per determinatam consecrationem aliqua virtus 
+      <lb ed="#S" n="111"/>acquiratur; cum etiam mulier, &amp; non baptizatus, qui 
+      <lb ed="#S" n="112"/>nullius consecrationis est capax, possit baptizare. ergo 
+      <lb ed="#S" n="113"/>materia sacramenti baptismi maxime deberet esse sanctificata 
+      <lb ed="#S" n="114"/>ad illud, quod est etiam contra Thom.
+    </p>
+            <p xml:id="khj78y-q85543-d1e457" n="10">
+      <!--10--> Dicendum, 
+      <lb ed="#S" n="115"/>quod non est ista causa, quod materia sanctificetur prius, vt el 
+      <lb ed="#S" n="116"/>virtus acquiratur: cum in omni sacramento sit materia 
+       ha<lb ed="#S" break="no" n="117"/>bens virtutem: non tamen nisi duo habent materiam prius 
+      <lb ed="#S" n="118"/>sanctificatam, sed quia Christus non fuit ea vsus. Omnisem̃ 
+      <lb ed="#S" n="119"/>materia, quia de sua natura virtutem sanctificandi non 
+      <lb ed="#S" n="120"/>habet, ex aliqua consecratione eam sortituresed materia 
+      <lb ed="#S" n="121"/>qua Christus in sua persona vsus est, tactu suae carnis ha 
+      <lb ed="#S" n="122"/>bet maximam sanctificationem, &amp; maximam virtutem, &amp; 
+       ma<lb ed="#S" break="no" n="123"/>iorem, quam materia per episcopum consecrata, &amp; sic verum 
+      <lb ed="#S" n="124"/>est, quod a digniori est materiae praeparatio, quam vsus. Et 
+      <lb ed="#S" n="125"/>similiter est de sacro ordinis, quo Christus est vsut, &amp; de 
+      <lb ed="#S" n="126"/>sacro eucharistie, vnde panis, vinum, &amp; liber non indigent 
+      <lb ed="#S" n="127"/>consecratione: sed sacramenta, quibus non est vsus: &amp; tamen habent 
+      <lb ed="#S" n="128"/>materiam consecratam: debent eam habere consecratam a 
+       ma<lb ed="#S" break="no" n="129"/>iore, quam vsus, &amp; sic ab epo, vt confirmatio, &amp; vnctio. 
+      <lb ed="#S" n="130"/>Alia vero duo, quibus non est vsus, nec habent materiam 
+       ex<lb ed="#S" break="no" n="131"/>tra actum suscipientis: non habent consecrationem praecedentem 
+      <lb ed="#S" n="132"/>sed concomitantem tantum, quae est ipsa forma, sicut matrimo 
+      <lb ed="#S" n="133"/>nium, &amp; poenitentia. ergo oportet, quod materia sit per epraem consecrata, 
+      <lb ed="#S" n="134"/>sicut &amp; in confirmatione: quia a quo dependet ordinatio mi 
+      <!--0283.xml-->
+      <pb ed="#S" n="283"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>nistri, &amp; consecratio materiae, si debet esse materia 
+       conse<lb ed="#S" break="no" n="2"/>crata: sed cum consecratio materiae de qua agimus, non sit 
+      <lb ed="#S" n="3"/>sacramentum, sed aliquid sacramentale. ideo plus potest committi 
+       conse<lb ed="#S" break="no" n="4"/>cratio materiae, quam ordinatio ministri. Nulla enim commis 
+      <lb ed="#S" n="5"/>sione fieri potest, vt ordinatio ministri sacerdotis fiat, ni 
+      <lb ed="#S" n="6"/>si per epraem, sed per commissionem Papae potest fieri consecratio 
+      <lb ed="#S" n="7"/>omnis materiae a non episcopo, sicut ecclesiae, &amp; altaris, 
+      <lb ed="#S" n="8"/>&amp; vasorum, quia hoc est ex institutione humana, quae 
+      <lb ed="#S" n="9"/>subest ordinationi Papae. I1 secundus articulus est 
+      <lb ed="#S" n="10"/>de forma habens tres conclusiones, secundum tres formas. 
+      <lb ed="#S" n="11"/>Quia sicut in argumento tangit, triplex forma inuenitur. 
+      <lb ed="#S" n="12"/>Prima, quae est solum indicatiua beati Ambro. scilicet Vngo 
+      <lb ed="#S" n="13"/>hos oculos tuos oleo sancto in nomine patris &amp;c. quae vide 
+      <lb ed="#S" n="14"/>tur secundum substantiam eadem, &amp; per consequens valere: 
+      <lb ed="#S" n="15"/>quia cum quaererei de officio Ambrosiano a patribus, cen 
+      <lb ed="#S" n="16"/>sum est, siue decretum fuit, quod Ambrosianum in sua dicce. 
+      <lb ed="#S" n="17"/>teneretur. Gregorianum vero per orbem, nec aliquid de his 
+      <lb ed="#S" n="18"/>quae Ambrosius docuit in cultu religionis Christianae, 
+      <lb ed="#S" n="19"/>tunc fuit reprobatum, sed tacite approbatum.
+    </p>
+            <p xml:id="khj78y-q85543-d1e553" n="12">
+      <!-- 12 -->sed Tho. 
+      <lb ed="#S" n="20"/>dicit contrarium, quod forma haec non potest esse indicatiui modi, 
+      <lb ed="#S" n="21"/>quod verum de potestate ordinata: sed de potentia abso 
+      <lb ed="#S" n="22"/>luta si aliquae ecclesiae habeant solum formam indicatiui 
+      <lb ed="#S" n="23"/>modi: sicut Ambrosianam saltem tempore Ambrosij, vt dici 
+      <lb ed="#S" n="24"/>tur: non est dicendum, quod nihil sit actum: quia in sacramento sup 
+      <lb ed="#S" n="25"/>positis his, quae sunt de essentia, sequitur semper aliquis ef 
+      <lb ed="#S" n="26"/>fectus. Et licet conuenientior forma sit indicatiua: tamen si sit 
+      <lb ed="#S" n="27"/>deprecatiua non propter hoc sacramentum est irritum: sicut in ba 
+      <lb ed="#S" n="28"/>ptismo Graeci vtuntur deprecatiua: baptizetur seruus 
+       Chri<lb ed="#S" break="no" n="29"/>sti &amp;c. ita hic econuerso. Et si dicat, quod non est simile, quia 
+      <lb ed="#S" n="30"/>vtendo verbis deprecatiuis, vbi est effectus certus, non est 
+      <lb ed="#S" n="31"/>periculum de mendatio: sicut si Deus oraretur, quod solem 
+       fa<lb ed="#S" break="no" n="32"/>ceret cras oriri: tamen econuerso vti verbis indicatiuis, vbi 
+      <lb ed="#S" n="33"/>effectus est incertus: esset periculum mendacij, &amp; propter 
+      <lb ed="#S" n="34"/>hoc magis potest dici, baptizetur seruus Christi, nec est 
+      <lb ed="#S" n="35"/>falsum, &amp; si non intendat: quia sola indicatiua est vera, vel fal 
+      <lb ed="#S" n="36"/>sa, quam possit dici, vngo oculos istos &amp;c. quia nescit: vtrum 
+      <lb ed="#S" n="37"/>anima vngatur oleo letitiae: quia etiam quando sacerdos dicit, ego 
+      <lb ed="#S" n="38"/>te baptizo, nescit, vtrum ille intendat deludere: sicut mul 
+      <lb ed="#S" n="39"/>ti Iudaei faciunt, &amp; sic non est baptismus. Et similiter quando 
+      <lb ed="#S" n="40"/>dicit, absoluo, nescit, si est fictus, &amp; in confirmatione: sed 
+      <lb ed="#S" n="41"/>quia supponiturex his, quae exterius apparent, excusatur: 
+      <lb ed="#S" n="42"/>vel refertur ad exteriorem actum: de quo est certus non ad 
+      <lb ed="#S" n="43"/>interiorem. similiter in proposito magis est simile, quod iste con 
+      <lb ed="#S" n="44"/>fessus, &amp; communicatus, &amp; timens mortem sit non fictus, quam 
+      <lb ed="#S" n="45"/>de alio: &amp; sic potest supponere vnctionem inuisibilem, sicut 
+      <lb ed="#S" n="46"/>ibi absolutionem interiorem, vel refert se ad vnctionem 
+       exte<lb ed="#S" break="no" n="47"/>riorem, de qua est certus. Nec est dicendum, quod beatus Am 
+      <lb ed="#S" n="48"/>bro. errauerit: quia sancti non sibi pepercissent in 
+       contra<lb ed="#S" break="no" n="49"/>dicendo, sicut nec Cypria. qui rebaptizabat baptizatos 
+      <lb ed="#S" n="50"/>ab haereticis pepercit Augu. quin hoc damnaret. Et Pau. 
+      <lb ed="#S" n="51"/>in faciem resistit Petro, qui Iudalzare cogebat. secunda 
+      <lb ed="#S" n="52"/>est forma Romana a Petro non data sed docta, &amp; ista est 
+      <lb ed="#S" n="53"/>deprecatiua: per istam sanctam vnctionem &amp;c. Et differt haec 
+      <lb ed="#S" n="54"/>forma a formis caeterorum sacrorum: quia caeterae sunt 
+       in<lb ed="#S" break="no" n="55"/>dicatiuae: ista est deprecatiua: cuius triplex ratio assignatur. 
+      <lb ed="#S" n="56"/>Prima est ex verbis beati Iaco. qui loquens de ca, vocat eam 
+      <lb ed="#S" n="57"/>orationem dicens. Et orent super eum &amp;c. secunda est: quia 
+      <lb ed="#S" n="58"/>suscipiens hoc sacramentum est propriis viribus destitutus: 
+       vn<lb ed="#S" break="no" n="59"/>de indiget aliorum orationibus subleuari. Tertia est, quia 
+      <lb ed="#S" n="60"/>datur exeuntibus de hoc mundo, qui iam desinunt esse 
+      <lb ed="#S" n="61"/>de foro ecclesiae, &amp; in manu solius Dei relinquuntur, 
+      <lb ed="#S" n="62"/>&amp; ideo debent ei per orationem commendari.
+    </p>
+            <p xml:id="khj78y-q85543-d1e651" n="13">
+      <!-- 13 -->Quod 
+      <lb ed="#S" n="63"/>autem dicit hic Tho. quod nullus effectus sequitur ex hoc sacra 
+      <lb ed="#S" n="64"/>mento, concurrentibus omnibus, quae de essentia sunt: videtur 
+      <lb ed="#S" n="65"/>dubium, quia gratia non est minoris virtutis, quod natura: sed 
+       con<lb ed="#S" break="no" n="66"/>currentibus causis naturalibus per se, &amp; essentialib': 
+       impos<lb ed="#S" break="no" n="67"/>sibile est non sequi effectum, nec aliqua causa per accidens, 
+      <!--0283.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>&amp; sine qua non potest impedire effectum, nisi per hoc, quod 
+       im<lb ed="#S" break="no" n="69"/>pedit concursum causae alicuius per se: sicut obstaculum 
+      <lb ed="#S" n="70"/>corporis opaci impedit illuminationem, inquantum 
+       impe<lb ed="#S" break="no" n="71"/>dit poenitiam illuminantis immediatam, quod est causa per se, &amp; 
+      <lb ed="#S" n="72"/>sic de aliis: vnde cum omne sacramentum nouae legis sit per se 
+      <lb ed="#S" n="73"/>causa grae, non sic quod attingat gratiam, sed quia disponit ad eam: 
+      <lb ed="#S" n="74"/>necesse est, quod concurrentibus omnibus, quae sunt de essentia 
+       sa<lb ed="#S" break="no" n="75"/>cri, causet dispositio ad gratiam in omni sacramento nouae legis, 
+      <lb ed="#S" n="76"/>&amp; per consequens in isto. Et ideo tenendus est Tho. magis in 
+      <lb ed="#S" n="77"/>contrariis dictis. Vnde &amp; in matrimonio de cuius essentia 
+      <lb ed="#S" n="78"/>est consensus: illo posito nihilominus causatur terminus: 
+      <lb ed="#S" n="79"/>licet contrahentes sint in peccato mortali: qui postea 
+       receden<lb ed="#S" break="no" n="80"/>te illa fictione habet effectum: dum tamen consensus affuerit: 
+      <lb ed="#S" n="81"/>sed si consensus non affuit contrahendi, nihil est actum: sed 
+      <lb ed="#S" n="82"/>illo consensu posito, licet dissentiat in bono fine sic, sed in 
+      <lb ed="#S" n="83"/>poenitentia non solum voluntas confitendi est de essentia: sed etiam 
+      <lb ed="#S" n="84"/>voluntas dolendi, &amp; abstinendi, &amp; huiusmodi, quae dicit 
+       attri<lb ed="#S" break="no" n="85"/>tio: quia &amp; si non contritio, quae quandoque est effectu, sacramenti, &amp; per 
+       con<lb ed="#S" break="no" n="86"/>sequens non de essentia: tamen attritio est de essentia. sed in 
+      <lb ed="#S" n="87"/>hoc est differentia inter poenitentiam, &amp; matrimonium: quia omnes 
+      <lb ed="#S" n="88"/>partes essentiales matrimonij oportet simul concurrere: 
+      <lb ed="#S" n="89"/>aliter nihil agitur: &amp; dico quantum possibile est: vt. scilicet simul 
+      <lb ed="#S" n="90"/>consentiant, &amp; quod consensus simul sit cum verbis: licet ver 
+      <lb ed="#S" n="91"/>ba cum sint quantitas successiua, non possunt esse simul. In poenitentia 
+      <lb ed="#S" n="92"/>autem non oportet, quod partes essentiales sint simul: imo satis 
+      <lb ed="#S" n="93"/>factio communiter sequit, &amp; contritio praecedit, &amp; confessio 
+      <lb ed="#S" n="94"/>praecedit absolutionem. Et si contritus postea confiteat, quia 
+      <lb ed="#S" n="95"/>forte non est obligatus ad pluries conterendum, sicut ad 
+      <lb ed="#S" n="96"/>pluries confitendum, aut satisfaciendum, nisi negatiue. i. ad non 
+      <lb ed="#S" n="97"/>complacendum, quando confitei, sic nec conteret actu, nec atterett 
+      <lb ed="#S" n="98"/>dum tamen non haberet oppositum, ipse reciperet plenum 
+       effe<lb ed="#S" break="no" n="99"/>ctum: si etiam nulla attritio praecedat, nec comitetur: 
+       quam<lb ed="#S" break="no" n="100"/>uis non sint omnes partes sacramenti, sed solum duae. scilicet confessio, &amp; 
+       ab<lb ed="#S" break="no" n="101"/>solutio imprimitur ornatus, qui recedente fictione postea 
+      <lb ed="#S" n="102"/>operatur: quia non est necesse, quod simul hae partes concurrant: 
+      <lb ed="#S" n="103"/>sicut nec de duabus formis eucharistiae, sed ad hoc, quod 
+      <lb ed="#S" n="104"/>plenus, &amp; perfectus effectus sacri sequat, bene oportet, quod 
+      <lb ed="#S" n="105"/>oens partes concurrant, saltem successiue. Et ideo cum contritio 
+      <lb ed="#S" n="106"/>non sit de essentia huius sacramenti, sicut nec baptismi: quia 
+       ha<lb ed="#S" break="no" n="107"/>bet materiam exteriorem illa cessante, imprimitur ornatus 
+      <lb ed="#S" n="108"/>hic: sicut ibi character.
+    </p>
+            <p xml:id="khj78y-q85543-d1e760" n="14">
+      <!-- 14 -->Tertia forma est composita 
+      <lb ed="#S" n="109"/>ex vtraq, itegra. Et quia nulla est forma ab ecclesia Roma 
+      <lb ed="#S" n="110"/>na reprobata: sed tolerata, &amp; dissimulando approbata: 
+       id<lb ed="#S" break="no" n="111"/>eo quaelibet ecclesia debet tenere ritum suum: &amp; sicut in 
+      <lb ed="#S" n="112"/>immersione vna, vel trina abstergendo, vel immergendo, 
+      <lb ed="#S" n="113"/>debet fieri secundum consuetudinem: ita &amp; hic dem forma. In 
+      <lb ed="#S" n="114"/>omni tamen debet addi inuocatio Trinitatis, &amp; fieri 
+       si<lb ed="#S" break="no" n="115"/>gnum Crucis propter generalem regulam. de conse. dist. 5. 
+      <lb ed="#S" n="116"/>Nunquid. quia omnia sacramenta signaculo crucis perficiuntur. 
+      <lb ed="#S" n="117"/>Quod autem dicit Tho. in solutione tertij argumenti, quod 
+      <lb ed="#S" n="118"/>verba indicatiua non sunt forma, sed dispositio: verum 
+      <lb ed="#S" n="119"/>est quando vtraque verba dicuntur: quia tunc iteraret sacramentum: 
+      <lb ed="#S" n="120"/>cum de verbis deprecatiuis non sit dubium, quin sint 
+       for<lb ed="#S" break="no" n="121"/>ma: alias non esset sacramentum ex sola materia, &amp; dispositione 
+      <lb ed="#S" n="122"/>formae, sine essentiali forma: quaecunque autem forma 
+      <lb ed="#S" n="123"/>seruetur simul, debet dici cum materia apponitur: quia 
+      <lb ed="#S" n="124"/>accedit verbum ad elementum, &amp; fit sacramentum. Vnde primo 
+       to<lb ed="#S" n="125" break="no"/>tum inungere, &amp; postea ad libitum currere: &amp; deinde 
+       for<lb ed="#S" break="no" n="126"/>mam dicere: sicut ego vidi quandam facere, est error, &amp; de 
+      <lb ed="#S" n="127"/>ceptio animarum, tali committere dispensare ecclesiasti 
+      <lb ed="#S" n="128"/>ca sacra: sicut si primo puer immergeretur, &amp; post 
+       inter<lb ed="#S" break="no" n="129"/>uallum diceretur. Ego baptizo te: aut si episcopus traderet 
+       or<lb ed="#S" break="no" n="130"/>dinando librum, vel huiusmodi: &amp; postea diceret, accipe 
+      <lb ed="#S" n="131"/>potestatem &amp;c. quod est continentiam causae diuidere. solum 
+      <lb ed="#S" n="132"/>enim hoc permissum est in sacramento poenitentia, interuallo 
+       fa<lb ed="#S" break="no" n="133"/>cto horae, vel diei post confessionem, quae est materiae 
+       exhi<lb ed="#S" break="no" n="134"/>bitio: possit absolui, quae est formae impositio. sed secus 
+      <!--0284.xml-->
+      <pb ed="#S" n="284"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>in his, in quibus vnus praeponit materiam, &amp; imprimit for 
+      <lb ed="#S" n="2"/>mam, vt in confirmatione, ordine, &amp; extrema vnctione. 
+    </p>
+            <p xml:id="khj78y-q85543-d1e833" n="15">
+               <lb ed="#S" n="3"/>
+               <!-- 15 -->Tertius articulus est de composito, vbi sunt tres 
+       con<lb ed="#S" break="no" n="4"/>clusiones, quin cum extrema vnctio sit sacramentum vnum 
+      <lb ed="#S" n="5"/>non necessarium. ideo est prima conclusio, quod ipsa est verum 
+      <lb ed="#S" n="6"/>sacramentum, quod dupliciter probatur. Primo, ratione 
+       quo<lb ed="#S" break="no" n="7"/>rundam, quae talis est. Omne remedium ordinatum in subsi 
+      <lb ed="#S" n="8"/>dium vitae spiritualis sub sensibilibus rebus appositum 
+      <lb ed="#S" n="9"/>est sacramentum, sed extrema vnctio est huiusmodi. ergo &amp;c. ma 
+      <lb ed="#S" n="10"/>ior patet ex his, quae dicta sunt dist. 1. minor patet per 
+       bea<lb ed="#S" break="no" n="11"/>tum Iaco. in canonica sua. c. 5. vbi loquens de extrema 
+      <lb ed="#S" n="12"/>vnctione dicit, quod si infirmus in peccatis sit, dimittentur ei- 
+    </p>
+            <p xml:id="khj78y-q85543-d1e859" n="16">
+               <lb ed="#S" n="13"/>
+               <!-- 16 -->sed contra rationem istam quantum ad maiorem 
+       propo<lb ed="#S" break="no" n="14"/>sitionem est, quia aspersio aquae benedictae, &amp; largitio 
+       elee<lb ed="#S" n="15" break="no"/>mosynae, &amp; confessio generalis non sacramentalis, &amp; oratio 
+      <lb ed="#S" n="16"/>vocalis Dominica, &amp; multa huiusmodi sunt remedia sensibilia 
+       con<lb ed="#S" n="17" break="no"/>tra peccatum  adhibita, &amp; ieiunium, quae non sunt sacramenta 
+       admi<lb ed="#S" break="no" n="18"/>nus per se distincta, nec etiam secundum eos satisfactio est 
+      <lb ed="#S" n="19"/>sacramentum, nec pars sacramenti, quae tamen est huiusmodi. ideo maior 
+       sup<lb ed="#S" break="no" n="20"/>plenda, sicut suppleta est. de poe. distin. 14. supra. scilicet quod sit a 
+      <lb ed="#S" n="21"/>Deo ordinatum, &amp; sit sufficiens per se.
+    </p>
+            <p xml:id="khj78y-q85543-d1e883" n="17">
+      <!-- 17 -->secunda ratio 
+      <lb ed="#S" n="22"/>est Tho. quia sacramentum est illa actio ecclesiae, qua 
+       attin<lb ed="#S" break="no" n="23"/>gitur principalis effectus ab ecclesia intentus in 
+       admini<lb ed="#S" n="24" break="no"/>strationem sacramentorum: sed extrema vnctio est huiusmodi. 
+       er<lb ed="#S" break="no" n="25"/>go &amp;c. maior patet. Hic enim est differentia inter 
+       sacra<lb ed="#S" break="no" n="26"/>mentum, &amp; sacramentale: quia sacramentum attingit ad effectum: sed 
+      <lb ed="#S" n="27"/>sacram entale non, sed ordinatur ad illum, sicut exorcismus ad 
+      <lb ed="#S" n="28"/>effectum baptismi: maior patet, quia hic est effectus ab 
+       eccle<lb ed="#S" break="no" n="29"/>sia intentus. scilicet curatio morbi. sic enim dicit Isa. 37. Hic est 
+      <lb ed="#S" n="30"/>fructus omnis, vt tollat peccatum: hic autem tollitur per extremam 
+      <lb ed="#S" n="31"/>vnctionem, vt patet per beatum Iaco. nec ipsa ad aliud 
+       ordi<lb ed="#S" break="no" n="32"/>nai. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q85543-d1e912" n="18">
+      <!-- 18 -->sed haec ratio videtur dubia, quia 
+      <lb ed="#S" n="33"/>effectus principaliter intentus in administratione sacramentali non 
+      <lb ed="#S" n="34"/>est character, vel ornatus, ad quae solum attingit actio 
+       sa<lb ed="#S" break="no" n="35"/>cri, quia haec consequit fictus, qui tamen sacramentum recipit non rem 
+      <lb ed="#S" n="36"/>sacri: sed effectus principaliter intentus est curatio morbi 
+      <lb ed="#S" n="37"/>spiritualis, quae est per gratiam: ad quam non attingit scrm, sed 
+       di<lb ed="#S" break="no" n="38"/>sponit, nisi forte dicat, quod ista curatio est quidem 
+       formali<lb ed="#S" break="no" n="39"/>ter, &amp; immediate per gratiam sacramentalem, &amp; non per gratiam 
+       gra<lb ed="#S" break="no" n="40"/>tum facientem: &amp; quod sacramentum attingit adgratiam sacramentalem, non 
+      <lb ed="#S" n="41"/>autem ad illam, quae est in virtutibus, &amp; donis: quod non est probabi 
+      <lb ed="#S" n="42"/>letqa tunc fictus recipit gratiam curantem, sicut characterem 
+      <lb ed="#S" n="43"/>si ita esset effectus sacramenti proprius sicut illud: &amp; sic sine gratia 
+      <lb ed="#S" n="44"/>gratum faciente, &amp; charitate, sanaretur homo a peccato, 
+      <lb ed="#S" n="45"/>quod est impossibile. Vnde etiam gratia sacramentalis, prout dif 
+      <lb ed="#S" n="46"/>fert a gratia, quae est in virtutibus, &amp; donis: forte non est 
+      <lb ed="#S" n="47"/>aliud, quam dispositio ad illam, quae dicit character, vel or 
+      <lb ed="#S" n="48"/>natus, vel effectus: ita quod diuersae gratiae, quae sunt in 
+       diuer<lb ed="#S" break="no" n="49"/>sis scris, sunt diuersae dispositiones ad gratiam, vel diuersi 
+      <lb ed="#S" n="50"/>effectus gratiae: quia aliud est liberari ab originali: aliud 
+      <lb ed="#S" n="51"/>ab actuali, &amp; sic de aliis.
+    </p>
+            <p xml:id="khj78y-q85543-d1e958" n="19">
+      <!-- 19 -->Dicendum est ergo, quod 
+       ma<lb ed="#S" break="no" n="52"/>ior tho. sic intelligit, quod illa actio, quae principaliter attin 
+      <lb ed="#S" n="53"/>git. i. quae principaliter ordinatur ad attingendum inter 
+       a<lb ed="#S" break="no" n="54"/>ctiones sacramentales, quae sunt sensibiles, ita quod non 
+       me<lb ed="#S" break="no" n="55"/>diante illa actione sacramentali ad quam ordinatur illa est sacramentum: 
+      <lb ed="#S" n="56"/>quia licet vnum sacramentum ordinetur ad aliud: sicut etiam effectus 
+      <lb ed="#S" n="57"/>vnius ordinatur ad aliud: tamen quodlibet sacramentum 
+       ordi<lb ed="#S" break="no" n="58"/>nar immediate ad vnum effectum spiritualem distinctum, ad 
+      <lb ed="#S" n="59"/>quem effectum id, quod immediate ordinat, est 
+       essentia<lb ed="#S" break="no" n="60"/>liter sacim Quod vero immediate: sed mediante illo, vel 
+      <lb ed="#S" n="61"/>antecedenter, vel consequenter est sacramentale illius, non 
+       sa<lb ed="#S" break="no" n="62"/>cramentum: &amp; id est ab ecclesia institutum, sed sacramentum 
+      <lb ed="#S" n="63"/>a Deo sicut clare patet in baptismo, in quo ablutio sub 
+      <lb ed="#S" n="64"/>illa forma: Ego re baptizo, est solum essentialiter sacramentum: 
+      <lb ed="#S" n="65"/>quaecunque autem praecedunt, vel sequuntur, sunt sacramentalia, 
+      <lb ed="#S" n="66"/>&amp; similiter quaecūq, in missa praeter formam, &amp; materiam ad 
+      <lb ed="#S" n="67"/>hibentur. Vnde septem psalmi, orationes, crucis osculum, &amp; 
+      <!--0284.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>omnia huiusmodi in hoc sacro sunt cerimonialia, &amp; sacramentalis 
+      <lb ed="#S" n="69"/>ex vsu ecclesiae instituta, sed vnctio cum forma illa per 
+      <lb ed="#S" n="70"/>istam vnctionem &amp;c. id solum est essentia sacramenti, &amp; facrm 
+      <lb ed="#S" n="71"/>per se distinctum
+    </p>
+            <p xml:id="khj78y-q85543-d1e1010" n="20">
+      <!-- 20 -->secunda conclusio est, quod extrema 
+      <lb ed="#S" n="72"/>vnctio est sacramentum vnum, licet habeat plures materias, &amp; 
+      <lb ed="#S" n="73"/>plures formas, &amp; plures partes: quibus adhibetur: quia 
+      <lb ed="#S" n="74"/>omnia ista ad vnum principalem effectum per se ordinantur: 
+      <lb ed="#S" n="75"/>scilicet ad spiritualem animae, &amp; corporis sanationem, sicut 
+       sa<lb ed="#S" break="no" n="76"/>cramentum altaris est vnum: quia ordinatur ad vnam spiritualem ani 
+      <lb ed="#S" n="77"/>mae refectionem, sicut &amp; quando inferior remittit ad superiorem 
+      <lb ed="#S" n="78"/>diuisa absolutione, quod iste a minoribus, ille a maioribus 
+      <lb ed="#S" n="79"/>absoluat: habetur pro vna perfecta absolutione, licet non 
+      <lb ed="#S" n="80"/>possit ex parte Dei vnum sine alio remitti: sic hic non potest 
+      <lb ed="#S" n="81"/>dimitti delictum visus, quin remittat delictum auditus, nisi 
+      <lb ed="#S" n="82"/>quis diceret, quod hic per se dimittuntur venialia, vel 
+       poe<lb ed="#S" break="no" n="83"/>nae mortalium, in quibus vnum potest dimitti alio non 
+       di<lb ed="#S" break="no" n="84"/>missor quamuis autem omnis vnctio, quae est hic, sit sacramentum vel 
+      <lb ed="#S" n="85"/>pars essentialis: sunt tamen multae aliae vnctiones. Vnde 
+      <lb ed="#S" n="86"/>ad huius euidentiam est notandum, quod triplex est vnctio 
+       ec<lb ed="#S" break="no" n="87"/>clesiae.
+    </p>
+            <p xml:id="khj78y-q85543-d1e1050" n="21">
+      <!-- 21 -->Vna, quae nec est sacim, nec aliquid 
+       sacra<lb ed="#S" break="no" n="88"/>mentale: quia nec per se gratiam causat, necad aliquod 
+       sa<lb ed="#S" break="no" n="89"/>cramentum suscipiendum, vel perficiendum ordinatur: &amp; haec 
+      <lb ed="#S" n="90"/>est vnctio Regum. vnde non oportet, quod fiat de materia 
+      <lb ed="#S" n="91"/>consecrata, nec obstat, quod dicit de Rege Dauid, oleo san 
+      <lb ed="#S" n="92"/>cto meo vnxi eum, quia hoc refertur ad vnctionem inuisi 
+      <lb ed="#S" n="93"/>bilem, quae fit spum sancto: non ad visibilem, quae fit exterius 
+       o<lb ed="#S" break="no" n="94"/>leo. Olim enim non erat oleum consecratum nisi oleum vn 
+      <lb ed="#S" n="95"/>ctionis, quo prohibebat inungi omnis  homo: vt patet 
+       Exo<lb ed="#S" break="no" n="96"/>di. 30. Vnde nec sacerdos, nec propheta, nec Rex vngeba 
+      <lb ed="#S" n="97"/>tur oleo sancto, sed oleo simplici, scilicet de propheta, &amp; 
+      <lb ed="#S" n="98"/>Rege constat, quod a sacerdote fiebat, qui non erat custos olei 
+      <lb ed="#S" n="99"/>vnctionis. 3. Regum. 20. de Helia, nec oportet, quod fueris 
+      <lb ed="#S" n="100"/>sacerdos, ua obtulit sacrificium. 3. Reg. 18. quia &amp; Abel, &amp; 
+      <lb ed="#S" n="101"/>Dauid obtulerunt sacrificium, qui tamen non fuerunt 
+       sa<lb ed="#S" break="no" n="102"/>cerdotes saltem successione, quia Abel non fuit 
+       primoge<lb ed="#S" break="no" n="103"/>nitus, nec Dauid fuit de tribu Leui. Item. 4. Reg. 9. de 
+      <lb ed="#S" n="104"/>filio Prophetarum. Et si non est necesse, quod fiat cum oleo 
+      <lb ed="#S" n="105"/>sanctificato: multominus cum chrismate. Chrisma enim 
+      <lb ed="#S" n="106"/>non competit nisi Christiano: dignitas autem Regalis etiam 
+      <lb ed="#S" n="107"/>competit non Christiano. Vnde si esset aliquis inunctus in 
+      <lb ed="#S" n="108"/>Regem in baptismum, &amp; postea baptizaretur, non iterum 
+      <lb ed="#S" n="109"/>in Regem inungeretur: quamuis Dauid, &amp; salomon pluries 
+      <lb ed="#S" n="110"/>inuncti fuerint in Reges. similiter non in capite, sed in 
+      <lb ed="#S" n="111"/>humero, vel armo. extra de sacra vncti. Vnde quod dicit 
+      <lb ed="#S" n="112"/>Magister, capita Regum Chrismate vngi: expone, vt Tho. 
+      <lb ed="#S" n="113"/>exponit in literalibus. Quod autem Reges Franciae ideo 
+      <lb ed="#S" n="114"/>chrismate vnguntur: quia Clodoueus vnctus fuit chrisma 
+      <lb ed="#S" n="115"/>te per columbam delato, non videtur sufficiens ratio: quia 
+      <lb ed="#S" n="116"/>ille non ratione regni, sed ratione baptismi chrismate vn 
+      <lb ed="#S" n="117"/>gebatur.
+    </p>
+            <p xml:id="khj78y-q85543-d1e1120" n="22">
+      <!-- 22 -->secunda vnctio est sacramentalis, sed non sacramentum, 
+      <lb ed="#S" n="118"/>quia. scilicet ad sacramentum ordinat, vel digne suscipiendus, vt illa, 
+      <lb ed="#S" n="119"/>quae oleo ad catechumenos inungitur baptizandus, vel per 
+      <lb ed="#S" n="120"/>ficiendus, vel digne custodiendus, seu exhibendus: sicut 
+      <lb ed="#S" n="121"/>inunctio qua baptizatus statim vngitur chrismate in ver 
+      <lb ed="#S" n="122"/>tice, in qua epraes chrismate in capite, &amp; in manibus, &amp; 
+       pres<lb ed="#S" break="no" n="123"/>byter oleo, &amp; altare chrismate. Vnde omnes hae 
+       vnctio<lb ed="#S" break="no" n="124"/>nes fiunt de materia consecrata, &amp; vnctio quidem capitis 
+      <lb ed="#S" n="125"/>epi, &amp; altaris chrismate, aliae vero oleo consecrato. Et sicut 
+      <lb ed="#S" n="126"/>est eadem consecratio chrismatis, qua inungit altare, &amp; 
+      <lb ed="#S" n="127"/>epraes, confirmandus in fronte etiam in virtute baptizatus, 
+      <lb ed="#S" n="128"/>quia non est nisi vnum chrisma: ita videtur esse vnum 
+       o<lb ed="#S" break="no" n="129"/>leum, &amp; vna consecratio ad catechumenos, &amp; manus 
+       sa<lb ed="#S" break="no" n="130"/>cerdorum. vnde dicitur oleum sacrum nomine communi. 
+    </p>
+            <p xml:id="khj78y-q85543-d1e1153" n="23">
+               <lb ed="#S" n="131"/>
+               <!-- 23 -->Tertia est per se, &amp; proprium sacramentum. scilicet illa, qua 
+       inun<lb ed="#S" break="no" n="132"/>gitur confirmandus per episcopum chrismate, supra dist. 7. &amp; illa 
+      <lb ed="#S" n="133"/>quae per sacerdotem oleo ad hoc consecrato per episcopum fit 
+       infir<lb ed="#S" break="no" n="134"/>mo, ga agit, vel auget proculdubio, quod designat. sic igi- 
+      <!--0285.xml-->
+      <pb ed="#S" n="285"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>tur est vnum sacramentum. sed simile, quod ad hoc inducit Tho. 
+      <lb ed="#S" n="2"/>de homine non est conueniens dicens, quod non est eadem materia, 
+      <lb ed="#S" n="3"/>nec eadem forma carnis, &amp; ossis, &amp; tamen est vnus homo. In 
+      <lb ed="#S" n="4"/>quo videtur ponere plures formas substantiales: sed 
+       ex<lb ed="#S" break="no" n="5"/>empla ponit, non vt ita sit: sed vt sentiat, qui addiscit &amp;c. 
+      <lb ed="#S" n="6"/>Quod autem dictum est supra, non Christianum posse inun 
+      <lb ed="#S" n="7"/>gi in regem confirmat: per hoc quod olim scti episcopi, &amp; alij 
+      <lb ed="#S" n="8"/>obediebant in licitis, &amp; honestis, Imperatoribus paganis 
+      <lb ed="#S" n="9"/>tanquam veris Regibus, contrarium tamen dicit Accursius in glo. 
+      <lb ed="#S" n="10"/>in principio Institutionum siue in prooemio. Per illud au 
+      <lb ed="#S" n="11"/>tem iusiurandum, quod praestatur ab his &amp;c. De 
+       chrisma<lb ed="#S" break="no" n="12"/>te autem notat Hosti. in summa de sacra vnctione: quia 
+      <lb ed="#S" n="13"/>Gaufredus notauerat hoc, quod manus presbyteri inungi 
+      <lb ed="#S" n="14"/>debebant chrismate, sicut manus epi: deceptus per hoc, 
+      <lb ed="#S" n="15"/>quod dicit, communis est eorum consecratio: quia non est conis 
+      <lb ed="#S" n="16"/>propter hoc eorum vnctio. vnde ipse Hosti. consuluit super 
+      <lb ed="#S" n="17"/>hoc Lugdu. Innoc. Papam, qui respondit, quod manus 
+       sacer<lb ed="#S" break="no" n="18"/>dotis oleo, manus episcopi vngi debent chrismate. 23. 
+       dis<lb ed="#S" break="no" n="19"/>Praeterea. Et hoc notat ibi glo. vnde versus: 
+      <lb ed="#S" n="20"/>
+               <quote xml:id="khj78y-q85543-Qd1e1215">Pontifici soli caput vngit chrisma manusque 
+      <lb ed="#S" n="21"/>Presbyter in manibus oleo, rex vngitur armo.</quote>
+            </p>
+            <p xml:id="khj78y-q85543-d1e1221" n="24">
+               <lb ed="#S" n="22"/>
+               <!-- 24 -->Tertia conclusio est, quod illud scim non est necessarium 
+      <lb ed="#S" n="23"/>simpliciter, quia non est contra aliquid, quod non possit tol 
+      <lb ed="#S" n="24"/>li post hanc vitam, siue sint reliqulae, siue culpa venialis: 
+      <lb ed="#S" n="25"/>sed per accidens potest esse necessarium illi, qui est attritus 
+      <lb ed="#S" n="26"/>de mortali, &amp; non potest confiteri, quia perdidit loquelam, nec 
+      <lb ed="#S" n="27"/>communicare: quia habet vomitum, vel non potest intrare os 
+      <lb ed="#S" n="28"/>suum. Et quod Canonistae dicunt, quinq, sacramenta esse 
+      <lb ed="#S" n="29"/>necessitatis solum, duo voluntatis, coniugium, &amp; ordo, 
+       theo<lb ed="#S" break="no" n="30"/>logi econuerso solum duo necessitatis: vtrunque verum est, 
+      <lb ed="#S" n="31"/>ga perse quidem sunt duo necessaria: illa. scilicet quae contra id 
+      <lb ed="#S" n="32"/>principaliter ordinantur, quod in alio saeculo non dimittitur: &amp; 
+      <lb ed="#S" n="33"/>sine quo non est salus: sed tamen per accidens alia possunt esse 
+      <lb ed="#S" n="34"/>necessitatis: inquantum non ficto remittunt mortale, de 
+      <lb ed="#S" n="35"/>quo tantum erat attritus. Ponat ergo laborans in extremis non 
+      <lb ed="#S" n="36"/>potem confiteri habent petin mortase, de quo tantum est 
+       at<lb ed="#S" break="no" n="37"/>tritus, inunctus saluabit, non vnctus danabitur. Ponatur 
+      <lb ed="#S" n="38"/>etiam eum confessum: tamen potuit habere ita imperfectum 
+      <lb ed="#S" n="39"/>dolorem, quod fuit fictus respectu sacri poenitentiae: qui tamen erit 
+      <lb ed="#S" n="40"/>non fictus respectu extremae vnctionis: sicut aliquis non 
+      <lb ed="#S" n="41"/>fictus est respectu baptismi, qui est fictus respectu poeni 
+      <lb ed="#S" n="42"/>tentiae. Malor enim deuotio requiritur in suscipiente respe. 
+      <lb ed="#S" n="43"/>ctu sacramenti, ad quod per se requirit actus suscipientis, quam in eo 
+      <lb ed="#S" n="44"/>in quo non nisi per accidens. Item ponamus eum commu 
+      <lb ed="#S" n="45"/>nicatum: adhuc forte remanet in peccato, quod delebitur per 
+      <lb ed="#S" n="46"/>extremam vnctionem: quia multo maior deuotio requirit in 
+      <lb ed="#S" n="47"/>receptione eucharistiae, quae extremae vnctionis. Non sic au 
+      <lb ed="#S" n="48"/>tem possunt poni etiam per accidens alia duo sacramenta 
+       neces<lb ed="#S" break="no" n="49"/>sitatis: quia omni casu, quo delerent pctam, multomagis poe 
+      <lb ed="#S" n="50"/>nitentia. Non enim debet quis moriturus in absentia 
+       sacer<lb ed="#S" break="no" n="51"/>dotis matrimonium contrahere: vt ratione sacramenti dimittere 
+      <lb ed="#S" n="52"/>tur sibi peccatum, siforte est attritus tantum: nec similiter tunc or 
+      <lb ed="#S" n="53"/>dinari: licet concubinam ducendo moriens, vt legitimet 
+      <lb ed="#S" n="54"/>filios ex ea susceptos benefaciat.
+    </p>
+            <p xml:id="khj78y-q85543-d1e1297" n="25">
+      <!-- 25 -->Ad argumentum 
+      <lb ed="#S" n="55"/>dicendum, quod habet determinatam formam quo ad substantiam: 
+      <lb ed="#S" n="56"/>licet quo ad aliam secundum diuersas consuetudines possit 
+      <lb ed="#S" n="57"/>variari, sicut de baptismo dictum est: sed forma consecratio 
+      <lb ed="#S" n="58"/>nis materiae potest esse diuersa, secundum diuersas consuetudi 
+      <lb ed="#S" n="59"/>nes a Papa scitas, &amp; dissimulatas: qui posset illas formas 
+      <lb ed="#S" n="60"/>immutare cum in eis non consistat essentia sacramenti; 
+      <lb ed="#S" n="61"/>sicut in forma: licet sint dispositio materiae essentialis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="39"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q13612"><!-- l4d4-q3 -->
+            <head xml:id="khj78y-q13612-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-q13612-Hd1e103" type="question-title">
+     de baptismo flaminis, et sanguinis
+   </head>
+            <p xml:id="khj78y-q13612-d1e106">
+      <!--0039.xml-->
+               <pb ed="#S" n="39"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>QVAESTIO TERTIA. 
+      <lb ed="#S" n="2"/>De vnitate baptismi. 
+    </p>
+            <p xml:id="khj78y-q13612-d1e119">
+               <lb ed="#S" n="3"/>Thom. 3.q. 66. art. n. &amp;. n. 
+    </p>
+            <p xml:id="khj78y-q13612-d1e124">
+               <lb ed="#S" n="4"/>TERTIO Quaeritur de 
+       baptis<lb ed="#S" break="no" n="5"/>mo flaminis, &amp; sanguinis. Et 
+       vi<lb ed="#S" break="no" n="6"/>detur, quod praeter baptismum 
+       fumi<lb ed="#S" break="no" n="7"/>nis non debeant esse ista baptisma 
+      <lb ed="#S" n="8"/>ta: quia in omnibus, quae sunt vnius 
+      <lb ed="#S" n="9"/>speciei est vnus modus 
+       genera<lb ed="#S" break="no" n="10"/>tionis: sed baptismus est regene 
+      <lb ed="#S" n="11"/>ratio in vitam spiritualem, quae 
+      <lb ed="#S" n="12"/>est vnius rationis in om nibus generatis. ergo debet 
+       es<lb ed="#S" break="no" n="13"/>se tantum vna regeneratio, fiue vnus modus 
+       regeneratio<lb ed="#S" break="no" n="14"/>nis. scilicet baptismus fluminis tantum̃.
+    </p>
+            <p xml:id="khj78y-q13612-d1e151" n="2">
+      <!-- 2 -->OPPOsITVM 
+      <lb ed="#S" n="15"/>dicit Dam̃. in litera.
+    </p>
+            <p xml:id="khj78y-q13612-d1e158" n="3">
+      <!-- 3 -->REsPONDEO. Primo 
+      <lb ed="#S" n="16"/>videndum est de baptismo sanguinis. Vbi sunt tres conclu 
+      <lb ed="#S" n="17"/>siones. Prima, quod iste baptismus deficit a duobus in ve 
+      <lb ed="#S" n="18"/>ro baptismo. scilicet in charactere quem martyr non habet: quia 
+      <lb ed="#S" n="19"/>habet rem sacramenti sine sacramento. Item deficit in alio. scilicet quia 
+      <lb ed="#S" n="20"/>ad istum non sufficit attritio: sed requiritur contritio ad 
+      <lb ed="#S" n="21"/>illum vero sufficit attritio. Et causa est: quia ille 
+       iustifi<lb ed="#S" break="no" n="22"/>cat ex opere operato, iste ex opere operante. Et ideo 
+       ni<lb ed="#S" break="no" n="23"/>si sit contritio, non saluat. Raro tamen est electio marty 
+      <lb ed="#S" n="24"/>rij persequutione ingruente, quin sit contritio: 
+       quan<lb ed="#S" break="no" n="25"/>do est tantus motus in Deum, propter quod est aequalis 
+      <lb ed="#S" n="26"/>in peccatum detestandum.
+    </p>
+            <p xml:id="khj78y-q13612-d1e187" n="4">
+      <!-- 4 -->secunda conclusio est, quod 
+      <lb ed="#S" n="27"/>aequipollet in duobus effectibus priuatiuis vero 
+       baptis<lb ed="#S" break="no" n="28"/>mo, qui sunt ammotio omnis culpae originalis, actualis, 
+      <lb ed="#S" n="29"/>venialis, &amp; mortalis, &amp; remissio omnis poenae aeternae, &amp; 
+      <lb ed="#S" n="30"/>temporalis, &amp; forte plus, quia si latro martyr resurgoret 
+       su<lb ed="#S" break="no" n="31"/>spendendus non esset.
+    </p>
+            <p xml:id="khj78y-q13612-d1e203" n="5">
+      <!-- 5 -->Tertia conclusio est, &amp; 
+       exce<lb ed="#S" break="no" n="32"/>dit in collatione boni, &amp; respectu praemij essentialis: quia 
+      <lb ed="#S" n="33"/>plus confert de gratia, eo quod maiori operi, ad quod plus 
+      <lb ed="#S" n="34"/>est necessaria, se exponit: vt Deus non deficit iu 
+       necessa<lb ed="#S" break="no" n="35"/>riis, &amp; sic habet maiorem auream. Item respectu accidentalis: 
+      <lb ed="#S" n="36"/>vnde habet aureolam. Habet etiam in ecclesia 
+       honora<lb ed="#S" break="no" n="37"/>biliorem sepulturam, quia paruuli non venerantur, vt 
+       san<lb ed="#S" break="no" n="38"/>cti innocentes.
+    </p>
+            <p xml:id="khj78y-q13612-d1e223" n="6">
+      <!-- 6 -->sECVNDO, videndum est, 
+      <lb ed="#S" n="39"/>de baptismo flaminis. Vbi sunt conclusiones.
+    </p>
+            <p xml:id="khj78y-q13612-d1e230" n="7">
+               <lb ed="#S" n="40"/>
+               <!--7--> Prima, &amp; deficit a baptismo vero in charactere: 
+      <lb ed="#S" n="41"/>vnde &amp; baptizandus est. Item deficit in dispositi a 
+      <lb ed="#S" n="42"/>ad istud requiritur contritio: quia ex opere operante iustifi 
+      <lb ed="#S" n="43"/>cat: ad illud sufficit attritio, quia ex opere operato. Item defi 
+      <lb ed="#S" n="44"/>cit in remissione poenae temporalis, quae non est nisi 
+       secun<lb ed="#S" break="no" n="45"/>dum quantitatem contritionis. Item deficit in sepultura 
+       eccle<lb ed="#S" break="no" n="46"/>siastica, qua carent cathecumeni, licet pro eis oret ecclosia. 
+    </p>
+            <p xml:id="khj78y-q13612-d1e251" n="8">
+               <lb ed="#S" n="47"/>
+               <!-- 8 -->secunda conclusio est, quod aequipollet in remissione 
+      <lb ed="#S" n="48"/>mortanu, &amp; poenae aeternae, na iunt conexa.
+    </p>
+            <p xml:id="khj78y-q13612-d1e260" n="9">
+      <!-- 9 -->Ter 
+      <lb ed="#S" n="49"/>tia conclusio est, quod quo ad aliquid' excedit. scilicet quia iteratur, 
+      <lb ed="#S" n="50"/>&amp; quia proprio merito saluat.
+    </p>
+            <p xml:id="khj78y-q13612-d1e269" n="10">
+      <!-- 10 -->TERTIO, 
+      <lb ed="#S" n="51"/>videndum est vtrum professio religionis approbatae quo ad 
+      <lb ed="#S" n="52"/>deletionem omnis poenae aequipolleat baptismo. Et 
+       vide<lb ed="#S" break="no" n="53"/>tur, quod sic: per visionem, qua vidit quidam in vitis patrum, 
+      <lb ed="#S" n="54"/>eandem gratiam descendere super eos, qui habitum 
+       reli<lb ed="#S" break="no" n="55"/>gionis assumunt, &amp; fuper baptizatos. Gratia autem Dei 
+       in<lb ed="#S" break="no" n="56"/>in baptismo non requirit gemirum, neque planctum: sed 
+       gra<lb ed="#S" break="no" n="57"/>tis omnia condonat secundum Ambro.
+    </p>
+            <p xml:id="khj78y-q13612-d1e289" n="11">
+      <!--11-->Item hoc idem
+      <lb ed="#S" n="58"/>patet per aliam visionem. <name xml:id="khj78y-q13612-Nd1e295">beati Antonij</name>, qui cum ab 
+       an<lb ed="#S" break="no" n="59"/>gelis leuaretur in coelum obstitit ei diabolus 
+       obiiciens<lb ed="#S" break="no" n="60"/>peccata seculi: cui dictum est ab angelo: Illa dimissa sunt 
+      <lb ed="#S" n="61"/>ei, ex quo seculu dimisit. sed si alia habes illa proponas. 
+      <lb ed="#S" n="62"/>Quae cum non haberet Antonius liber in coelum leuatur, 
+      <lb ed="#S" n="63"/>&amp; liber deponitur. Item in Authem. de monachis. dicitur 
+      <!--0039.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>quod ingressio monasterij omnem maculam abstergit. 
+    </p>
+            <p xml:id="khj78y-q13612-d1e315" n="12">
+               <lb ed="#S" n="65"/>
+               <!-- 12 -->Item hoc idem apparet, quia qui accipit crucem vl 
+      <lb ed="#S" n="66"/>tra marinam plenam indulgentiam consequitur: a qua tamen 
+      <lb ed="#S" n="67"/>cruce liberatur intrando religionem: quia tollit post 
+       Chri<lb ed="#S" break="no" n="68"/>stum crucem perpetuam. Vnde indulgentiam videtur 
+      <lb ed="#S" n="69"/>plenius consequi.
+    </p>
+            <p xml:id="khj78y-q13612-d1e331" n="13">
+      <!-- 13 -->sed quia contra hoc sunt 
+      <lb ed="#S" n="70"/>visiones aliquae de religiosis, qui post mortem visi sunt in 
+      <lb ed="#S" n="71"/>purgatorio etiam pro peccatis in feculo commissis: ideo sic 
+      <lb ed="#S" n="72"/>potest distingui probabiliter, quia obligatus ex delicto ce 
+      <lb ed="#S" n="73"/>dendo bonis nihil lucratur, vt carcere euadat: sed quod 
+      <lb ed="#S" n="74"/>non potest soluere aere: luit in corpore, &amp; exigitur vsque 
+      <lb ed="#S" n="75"/>ad nouissimum quadrantem: sed obligatus ex contractu, 
+      <lb ed="#S" n="76"/>vel quasi cedendo bonis euadit carcere: ne postea 
+       conue<lb ed="#S" break="no" n="77"/>niatur deueniens ad pinguiorem fortunam, vltra quam 
+      <lb ed="#S" n="78"/>facere possit deducto, ne egeat. C. qui bonis cedere 
+       pos<lb ed="#S" break="no" n="79"/>sunt. l. 1. instin. de actionibus. 6. vlti. sic igitur 
+       religio<lb ed="#S" break="no" n="80"/>nem profitens, cedit omnibus bonis suis, de quibus pro 
+      <lb ed="#S" n="81"/>peccatis satisfieri potest exterioribus per votum 
+       pauper<lb ed="#S" break="no" n="82"/>tatis: quia totum Deo dedit, qui sibi nihil retinuit, &amp; a 
+       se<lb ed="#S" break="no" n="83"/>quentibus tot dimissa sunt, quot a non sequentibus con 
+      <lb ed="#S" n="84"/>cupisci potuerunt secundi Greg. Et tum Lacheus dimidium 
+      <lb ed="#S" n="85"/>bonorum suorum dando pauperibus audiuit: hodie huic 
+      <lb ed="#S" n="86"/>domui salus a Deo facta est. Item bonis corporis per votum 
+      <lb ed="#S" n="87"/>castitatis cedit: propter quod implenda sunt ieiunia: 
+       di<lb ed="#S" break="no" n="88"/>sciplinae, &amp; aliae austeritates, &amp; poenalitates. Item bonis ani 
+      <lb ed="#S" n="89"/>mae per votu obedientiae cedit: in qua sunt orationes con 
+      <lb ed="#S" n="90"/>tentae. Et ideo ingressi monasteria se, &amp; sua Deo dedicant 
+      <lb ed="#S" n="91"/>C. de sacrosa. ec. aut. ingressi. Vnde si non sunt contriti, nec 
+      <lb ed="#S" n="92"/>confessi ex delicto sunt obligati, &amp; si c morientes 
+       tradun<lb ed="#S" break="no" n="93"/>tur exactori mittendi in carcerem infernalem, donec reddant 
+      <lb ed="#S" n="94"/>quadrantem nouissimum.
+    </p>
+            <p xml:id="khj78y-q13612-d1e391" n="14">
+      <!-- 14 -->si aute sunt contriti, &amp; 
+      <lb ed="#S" n="95"/>confessi, remititur eis omnis  poena pro tali cessione bonorum 
+       se<lb ed="#S" break="no" n="96"/>eundu quod arguunt primae visiones, sed hoc est sub pacto, 
+      <lb ed="#S" n="97"/>vel sub tali conditione, vel mo: vt si superuiuant, quod est 
+       per<lb ed="#S" break="no" n="98"/>uenire ad pinguiorem fortunam satisfacient. Qd si faciant be 
+      <lb ed="#S" n="99"/>ne quide, si autem non satisfaciant, sed negligentes sunt in car 
+      <lb ed="#S" n="100"/>cere purgatorij satisfacient secundum  vltimas visiones. sed si 
+      <lb ed="#S" n="101"/>ante negligentiam moriuntur: quia in iudicio confessionis quasi 
+      <lb ed="#S" n="102"/>contrahitur ex cessione illa: gratia Dei omnia gratis condo 
+      <lb ed="#S" n="103"/>nat, vt ostedunt primae visiones.
+    </p>
+            <p xml:id="khj78y-q13612-d1e415" n="15">
+      <!-- 15 -->Ad argumen 
+      <lb ed="#S" n="104"/>rum in contrarium est dicendum, quod baptismus sanguinis, &amp; 
+      <lb ed="#S" n="105"/>faminis habent candem vim regenerandi cum baptismo 
+      <lb ed="#S" n="106"/>aquae, quia baptismus sanguinis, &amp; flaminis non valet ad 
+      <lb ed="#S" n="107"/>regenerationem, nisi ei, qui habet baptismum fuminis in 
+      <lb ed="#S" n="108"/>proposito: quando. scilicet arti culus necessitatis non contemptus re. 
+      <lb ed="#S" n="109"/>ligionis sacramentum excludit: vt dicit in litera. Et sic quoda 
+      <lb ed="#S" n="110"/>modo agunt in virtute baptismi aquae. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

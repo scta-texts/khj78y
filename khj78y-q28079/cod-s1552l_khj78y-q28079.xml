@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="119"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q28079"><!-- l4d9-q4 -->
+            <head xml:id="khj78y-q28079-Hd1e101">Quaestio 4</head>
+            <head xml:id="khj78y-q28079-Hd1e103" type="question-title">
+     Utrum peccatori sit deneganda communio?
+   </head>
+            <p xml:id="khj78y-q28079-d1e106">
+               <lb ed="#S" n="29"/>QVAESTIO QVARTA. 
+      <lb ed="#S" n="30"/>De communione peccatori deneganda. 
+    </p>
+            <p xml:id="khj78y-q28079-d1e113">
+               <lb ed="#S" n="31"/>Thom. 2. q. 9. arti. 6. &amp;. 9. 
+    </p>
+            <p xml:id="khj78y-q28079-d1e118">
+               <lb ed="#S" n="32"/>QVARTO Quaeritur, vtrum 
+      <lb ed="#S" n="33"/>peccatori sit deneganda 
+       commu<lb ed="#S" break="no" n="34"/>nio? Et videtur &amp; non: quia non ne 
+      <lb ed="#S" n="35"/>gatur furioso, nec frenetico, qui 
+      <lb ed="#S" n="36"/>carent vsu rationis. ergo multo 
+      <lb ed="#S" n="37"/>minus peccatori, qui non caret. 
+    </p>
+            <p xml:id="khj78y-q28079-d1e135" n="2">
+               <lb ed="#S" n="38"/>
+               <!-- 2 -->CONTRA, quia 
+       nega<lb ed="#S" break="no" n="39"/>tur paruulo in nocenti. ergo mul 
+      <lb ed="#S" n="40"/>to magis istis.
+    </p>
+            <p xml:id="khj78y-q28079-d1e146" n="3">
+      <!-- 3 -->RESPONDEO, circa istam 
+      <lb ed="#S" n="41"/>quaestionem videnda sunt tria. Primo, de peccatoribus, 
+       v<lb ed="#S" break="no" n="42"/>trum sit eis communio denegada. secundo, de amentibus. 
+      <lb ed="#S" n="43"/>Tertio, de impuberibus.
+    </p>
+            <p xml:id="khj78y-q28079-d1e157" n="4">
+      <!-- 4 -->QVANTVM ad 
+      <lb ed="#S" n="44"/>primum sunt vndecim conclusiones secundum multas 
+       di<lb ed="#S" break="no" n="45"/>uisiones. Prima, quia aut sacerdos habet certitudinem, aut 
+      <lb ed="#S" n="46"/>suspitionem. si habet certitudinem, aut est sacerdos, qui non 
+      <lb ed="#S" n="47"/>tenetur ei ministrare sacramenta: puta, quia non est cura 
+      <lb ed="#S" n="48"/>tus eius, vel non tonetur pro tunc: quia non est dies 
+       Pascha<lb ed="#S" break="no" n="49"/>tis, nec est infirmus, &amp; tunc debet ei denegare: quia debet a 
+      <lb ed="#S" n="50"/>peccato mortali proximum impedire quando potest: potest 
+       au<lb ed="#S" break="no" n="51"/>tem hic, quia etiam non peccatori non tenetur dare. Vnde si 
+      <lb ed="#S" n="52"/>nesciat etiam nisi per confessionem potest negare: quia non ex 
+      <lb ed="#S" n="53"/>confessione ius illud acquiritur: quia alias habet ius ne 
+      <lb ed="#S" n="54"/>gandi, eo ipso, quod alius non habet ius petendi ab eo. Et sic 
+      <lb ed="#S" n="55"/>dicitur de tempore ordi. c. Ad aures. quod religiosis contra 
+       vo<lb ed="#S" break="no" n="56"/>luntatem abbatum petentibus ordines debent denegari: quia 
+      <lb ed="#S" n="57"/>non habent ius petendi. Et verissimile est, sunt indigni, 
+      <lb ed="#S" n="58"/>quando qui nouit eorum conscientias, non vult eos 
+       promoue<lb ed="#S" break="no" n="59"/>ri.
+    </p>
+            <p xml:id="khj78y-q28079-d1e196" n="5">
+      <!-- 5 -->secunda conclusio est, quod si sacerdos, qui 
+       in<lb ed="#S" break="no" n="60"/>nocenti tenet dare, sicut curatus, vel vicarius eius in 
+       Pa<lb ed="#S" break="no" n="61"/>schate scit crimen eius esse notorium, &amp; manifestum: tunc 
+       de<lb ed="#S" break="no" n="62"/>bet denegare in publico, &amp; priuato, quando est mortale. si 
+      <lb ed="#S" n="63"/>autem est occultu, tunc debet denegare in occulto non in 
+      <lb ed="#S" n="64"/>publico: quia esset proditor criminis, aut reuelator. Quod 
+      <!--0119.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="65"/>probatur de officio ordinarij. c. 2. vbi dicitur, qui sacerilos, 
+      <lb ed="#S" n="66"/>qui noult crimem occultum parochiani debeteum arguere 
+      <lb ed="#S" n="67"/>In priuato, non in publico nominari. si autem requiratur 
+      <lb ed="#S" n="68"/>ab illo, qui passus est damnum debet excommunicare in 
+       ge<lb ed="#S" break="no" n="69"/>nerali non nominatim: sicut Christus dixit in ganerali, 
+      <lb ed="#S" n="70"/>vnus ex vobis me tradet: Et similiter illi debet negare 
+      <lb ed="#S" n="71"/>eucharistiam in occulto nonin publico: sicut &amp; Christus 
+      <lb ed="#S" n="72"/>dedit eam Iudae coram aliis. Et ad idem est de tempore 
+       or<lb ed="#S" break="no" n="73"/>di. c. Ex tenore. vbi illoe, qui habent ius petendi ordines 
+      <lb ed="#S" n="74"/>ratione beneficij: non duber praelatus repellere praexextu 
+      <lb ed="#S" n="75"/>peccati occulti.
+    </p>
+            <p xml:id="khj78y-q28079-d1e240" n="6">
+      <!-- 6 -->Tertia conclusio est, quod hoc est 
+      <lb ed="#S" n="76"/>verum de peccato occulto aliter noto, quae per confessionem: 
+      <lb ed="#S" n="77"/>quia si per confessionem solum nouit peccatum  in poenitente debet 
+      <lb ed="#S" n="78"/>quidem eum monere in occulto, vt desistat. sed si instet, 
+      <lb ed="#S" n="79"/>&amp; petat, vt sibi debitum non debet ei negare: quia scit, vt 
+      <lb ed="#S" n="80"/>Deus, non vt homo: vt dicitur in decre. de offi. ordi. c. 2. 
+      <lb ed="#S" n="81"/>Negat autem, vt homo in foro contentioso, nec ex confessio 
+      <lb ed="#S" n="82"/>ne acquirat sibi ius negandi, quod prius non habebat. Et 
+      <lb ed="#S" n="83"/>quamuis repellendo in occulto nullo alio vidente, non reue 
+      <lb ed="#S" n="84"/>laret confessionem tamen ex confessione, extra iudicium 
+       confes<lb ed="#S" break="no" n="85"/>sionis nulla exceptio sibi datur, plusquam si nesciret: quia 
+      <lb ed="#S" n="86"/>nescit, vt Deus. si autem peteret ab illo, qui non tenet, vel 
+      <lb ed="#S" n="87"/>quando non tenetur, cum possit negare etium sino peccato 
+       mul<lb ed="#S" break="no" n="88"/>to magis peccatori non quidem obi lciendo sibi pctih 
+       con<lb ed="#S" break="no" n="89"/>fessum, sed dicendo se non teneri: &amp; in hoc bene facit 
+       ne<lb ed="#S" break="no" n="90"/>gando gladium furioso.
+    </p>
+            <p xml:id="khj78y-q28079-d1e277" n="7">
+      <!-- 7 -->Ex his manifestum est, q 
+      <lb ed="#S" n="91"/>publicae meretrices, &amp; publiol vsurarij sunt omnino ab 
+      <lb ed="#S" n="92"/>altari arcendi, nisi poenitebtiam egeritit: ita, q post poenitem 
+      <lb ed="#S" n="93"/>tiam priuatam possunt admitti alcucharistiam secreto: non 
+      <lb ed="#S" n="94"/>autem in publico, nisi post publicum poenitetiam propter 
+       scan<lb ed="#S" break="no" n="95"/>dalum. Nam manifesta delicta nou sunt occulte 
+       corrigen<lb ed="#S" break="no" n="96"/>da: sed debent aedificari de poenitentia, qui fuerunt 
+       scun<lb ed="#S" break="no" n="97"/>dalizati de culpa. Vnde vel sacerdos debet iniungere poe 
+      <lb ed="#S" n="98"/>nitentiam publicam, vel debent publicare, quod ipse est vero 
+       pe<lb ed="#S" break="no" n="99"/>nitens. Ar. extra de poe. &amp; remis. c. 1. De vsaris. c. Quia 
+      <lb ed="#S" n="100"/>in omnibus.
+    </p>
+            <p xml:id="khj78y-q28079-d1e304" n="8">
+      <!-- 8 -->Quarta conclusio est, quod 
+       histrioni<lb ed="#S" break="no" n="101"/>bus neganda est communio, vt videi, seeundum quod diciende con 
+      <lb ed="#S" n="102"/>sec. di. 2. c. Pro dilectione. sed ibi loquit de histrione ma 
+      <lb ed="#S" n="103"/>go, cuius ars est mortalis. sed vbi ars histrionum sine mor 
+      <lb ed="#S" n="104"/>tali exercetur, non videtur eis propter venialia communis 
+      <lb ed="#S" n="105"/>deneganda.
+    </p>
+            <p xml:id="khj78y-q28079-d1e320" n="9">
+      <!-- 9 -->Quinta conclusio est, quod non est dan 
+      <lb ed="#S" n="106"/>da hostia simplex pro hostia consecrata: quia esset idolola 
+      <lb ed="#S" n="107"/>tria, cum iste cibus fit a sumentibus adorandus, iuxta illudi 
+      <lb ed="#S" n="108"/>manducauerunt, &amp; adorauerunt &amp;c. Vnde extra de 
+       co<lb ed="#S" break="no" n="109"/>lebra. mis. c. de homine. dicitur de sacerdote, qui suppresiis 
+      <lb ed="#S" n="110"/>verbis, quibus conficitur corpus Christi propter 
+       remor<lb ed="#S" break="no" n="111"/>sum conscientiae reliqua missae se agere simulabat, quod 
+       gra<lb ed="#S" break="no" n="112"/>uius peccat, quia populum decipit. Et abiicienda sunt falsa 
+      <lb ed="#S" n="113"/>remedia, quae sunt veris periculis grauiora.
+    </p>
+            <p xml:id="khj78y-q28079-d1e342" n="10">
+      <!-- 10 -->
+       se<lb ed="#S" break="no" n="114"/>xta conclusio est, quod si quaerai, vtrum eucharistia sit propter 
+      <lb ed="#S" n="115"/>suspisionem deneganda? videtur distinguendu: quin si leuis 
+      <lb ed="#S" n="116"/>est, deponi debet: si probabilis, nec etiam propter hoc 
+       de<lb ed="#S" break="no" n="117"/>bet negari, si violenta, negari debet: vbi propter 
+       certitudi<lb ed="#S" break="no" n="118"/>nem negarei. Quod autem si est suspicio probabilis, non 
+      <lb ed="#S" n="119"/>debeat negari, probatur: quia nec maritus propter huiusmodi sa 
+      <lb ed="#S" n="120"/>spitione debet negari debitum, vt dicit de sentem, excommu. 
+      <lb ed="#S" n="121"/>Inquisitioni.
+    </p>
+            <p xml:id="khj78y-q28079-d1e364" n="11">
+      <!-- 11 -->septima conclusio est, quod non est 
+      <lb ed="#S" n="122"/>propter suspicionem probandam danda cucharistia, vt dici 
+      <lb ed="#S" n="123"/>tur. 2. q. 5. saepe contingit.
+    </p>
+            <p xml:id="khj78y-q28079-d1e373" n="12">
+      <!-- 12 -->Octaua conclusio 
+      <lb ed="#S" n="124"/>est, quod pugnantibus in duello non est danda, vt dicit gl. 
+      <lb ed="#S" n="125"/>2. q.4. Monomachiam.
+    </p>
+            <p xml:id="khj78y-q28079-d1e382" n="13">
+      <!-- 13 -->Nona conclusio est. Quod 
+      <lb ed="#S" n="126"/>illud, quod dictum est de peccatore intelligendum est de non 
+      <lb ed="#S" n="127"/>poenitente: quia si poeniteret, &amp; confiteret, etiam suspendendo 
+      <lb ed="#S" n="128"/>non negatur, sicut de haereticis. c. super eo lib. 6. vbi poe 
+      <lb ed="#S" n="129"/>nitentia, &amp; eucharistia non negantur relapso cum 
+       para<lb ed="#S" break="no" n="130"/>tus est incendio. Et dis. 86. c. Tanta. etiam excommunicato, 
+      <lb ed="#S" n="131"/>&amp; cuicumque in morte non negat poenitentia, nec per conse- 
+      <!--0120.xml-->
+      <pb ed="#S" n="120"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>quen viaticum, quod in poenitentia inclusum intelligitur: 
+      <lb ed="#S" n="2"/>vt dicit de poeni. &amp; remis. c. Quod in te.
+    </p>
+            <p xml:id="khj78y-q28079-d1e412" n="14">
+      <!-- 14 -->
+       Deci<lb ed="#S" break="no" n="3"/>ma conclusio est. Quod si est contritus, &amp; confessus: sed sa 
+      <lb ed="#S" n="4"/>cerdos non potest absoluere, non propter hoc debet ei 
+      <lb ed="#S" n="5"/>eucharistiam negare in Paschate: nisi esset vinculu senten 
+      <lb ed="#S" n="6"/>tiae excommunicationis: quia sicut sacerdos contritus quando non 
+      <lb ed="#S" n="7"/>habet, cui confireat propter necessitatem potest celebrare, 
+      <lb ed="#S" n="8"/>sic iste communicare.
+    </p>
+            <p xml:id="khj78y-q28079-d1e430" n="15">
+      <!-- 15 -->Vndecima conclusio est. 
+      <lb ed="#S" n="9"/>Quod quando sacerdos inhibet venire ad communionem, nisi si 
+      <lb ed="#S" n="10"/>bi, aut vicario confessos, &amp; excommunicat contra facientes 
+      <lb ed="#S" n="11"/>quantum ad confessos praedicatoribus, &amp; minori bus 
+       sen<lb ed="#S" break="no" n="12"/>tentia talis est nulla: tum quia est error intollerabilis, &amp; 
+       ex<lb ed="#S" break="no" n="13"/>praessus: quia confessis fratribus non dobent ipsi negare: tum 
+      <lb ed="#S" n="14"/>quia sententia lata est contra constitutionem. c. Inter cunctas. 
+      <lb ed="#S" n="15"/>&amp; ibidem denunciatur irritat licet nunc videatur illa irri 
+      <lb ed="#S" n="16"/>tatio in vienensi concilio reuocata.
+    </p>
+            <p xml:id="khj78y-q28079-d1e452" n="16">
+      <!-- 16 -->CIRCAI 
+      <lb ed="#S" n="17"/>secundum sunt qua tuor conclusiones. Prima, quod si sunt 
+       per<lb ed="#S" break="no" n="18"/>petuo furiosi: ita q nec actualem, nec habitualem habuerit 
+      <lb ed="#S" n="19"/>vnquam deuotionem circa sacramentum non sunt communicandi: 
+       li<lb ed="#S" break="no" n="20"/>cet sint baptizati, &amp; confirmatitꝗa hoc sacramentum requirit 
+       de<lb ed="#S" break="no" n="21"/>notionem, dicente apostolo. Probet autem seipsum homo, 
+    </p>
+            <p xml:id="khj78y-q28079-d1e468" n="17">
+               <lb ed="#S" n="22"/>
+               <!-- 17 -->secunda conclusio est, quod si habent, lucida 
+       inter<lb ed="#S" break="no" n="23"/>ualla: &amp; tunc habuerunt deuotionem ad sacramentum, &amp; peti 
+       ue<lb ed="#S" break="no" n="24"/>runt, debent communicari, sicut dicit. 26. 4. 6. si quis in 
+      <lb ed="#S" n="25"/>infirmitato poenitentiam petierit, &amp; post in frenesim lapsus 
+      <lb ed="#S" n="26"/>&amp;c. eucharistia ori eius infundatur: suple si sine 
+       expuitio<lb ed="#S" break="no" n="27"/>ne, vel vomitu, vel irreuerentia fieri potest, aliter non-
+    </p>
+            <p xml:id="khj78y-q28079-d1e486" n="18">
+               <lb ed="#S" n="28"/>
+               <!--18. -->Tertia conclusio est. Quod si in sanitate non 
+       pe<lb ed="#S" break="no" n="29"/>tiit, dari non debet: sicut nec baptismus, nisi ex bona 
+       con<lb ed="#S" break="no" n="30"/>uersatione praeterita verisimile sit, quod si praeuidisset istum 
+      <lb ed="#S" n="31"/>casum, quod eam petiu isset. Tunc enim habet deuotionem 
+      <lb ed="#S" n="32"/>habitualem interpretatiuam, quae sufficit.
+    </p>
+            <p xml:id="khj78y-q28079-d1e502" n="19">
+      <!-- 19 -->
+       Quar<lb ed="#S" break="no" n="33"/>ta conclusio est, quod daemoniacis debet dari communio 
+       secun<lb ed="#S" n="34" break="no"/>dum Thomam. Nisi constet eos pro crimine torqueri quo 
+      <lb ed="#S" n="35"/>casu pro excommunicatis sunt habendi: qui sunt traditi sa 
+      <lb ed="#S" n="36"/>thanae. Et sic posset intelligi, quod dicit Dio. de 
+       energu<lb ed="#S" break="no" n="37"/>menis.
+    </p>
+            <p xml:id="khj78y-q28079-d1e519" n="20">
+      <!-- 20 -->CIRCA tertium sunt duae 
+       conclusio<lb ed="#S" break="no" n="38"/>nes. Prima, quod impuberes, qui carent penitus discretiono, 
+      <lb ed="#S" n="39"/>vt ante sept ennium: quia infantium aetas, quod videt, ignorat, 
+      <lb ed="#S" n="40"/>vt dicit. C. de fal. mo. l. vnica. non sunt conicandi: quamuis 
+      <lb ed="#S" n="41"/>Graeci contrarium faciant: quia dicitur. 1. Cor. 11 peccare non 
+      <lb ed="#S" n="42"/>diiudicans corpus Domini. Ex quo non videi debere dari, 
+      <lb ed="#S" n="43"/>nisi diiudicanti actu, vel habitu: quod non est in illo, qui 
+      <lb ed="#S" n="44"/>non habet, nec vnquam habuit iudicium rationis. 
+    </p>
+            <p xml:id="khj78y-q28079-d1e539" n="21">
+               <lb ed="#S" n="45"/>
+               <!-- 21 -->secunda conclusio est. Quod si habent aliquam 
+      <lb ed="#S" n="46"/>deuotionem: vt circa. 9. vel. 10. annum: quia innocentia 
+      <lb ed="#S" n="47"/>recompensat ignorantiam, possunt communicari. 
+    </p>
+            <p xml:id="khj78y-q28079-d1e550" n="22">
+               <lb ed="#S" n="48"/>
+               <!-- 22 -->Per hoc patet solutio ad oppositum 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

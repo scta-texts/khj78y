@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="46"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q16229"><!-- l4d5-q1 -->
+            <head xml:id="khj78y-q16229-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-q16229-Hd1e103" type="question-title">
+     Utrum Christus secundum quod homo potuerit dimittere peccata
+   </head>
+            <p xml:id="khj78y-q16229-d1e106">
+               <lb ed="#S" n="54"/>DISTINCTIO 5 QVAESTIO. I
+    </p>
+            <p xml:id="khj78y-q16229-d1e111">
+               <lb ed="#S" n="55"/>CIrca distinctionem quintam quaeruntur tria. 
+       Pri<lb ed="#S" break="no" n="56"/>mo, ante Christus secundum quod homo potuerit di 
+      <lb ed="#S" n="57"/>mittere Peccata. secundo, an malus possit baptizare. Ter 
+      <lb ed="#S" n="58"/>tio, an liceat alicui d malo baptismum recipere. 
+    </p>
+            <p xml:id="khj78y-q16229-d1e122">
+               <lb ed="#S" n="59"/>Vtrum Christus secundum quod homo potuerit
+      <lb ed="#S" n="60"/>dimittere peccata.
+    </p>
+            <p xml:id="khj78y-q16229-d1e130">
+               <lb ed="#S" n="61"/>Tho. 3. q. 64, ar. 3. &amp;. 4. 
+    </p>
+            <p xml:id="khj78y-q16229-d1e135">
+      <!--0046.xml-->
+               <cb ed="#S" n="b"/>
+               <!-- TODO mising column B in OCR4all -->
+               <lb ed="#S" n="62"/>AD Primum arguitur. &amp; videtur 
+      <lb ed="#S" n="63"/>quod sic, quia in Matth. legitur: Vt 
+       au<lb ed="#S" break="no" n="64"/>tem sciatis, quod filius hominis ha-
+      bet potestatem in terra 
+       dimitten<lb ed="#S" break="no" n="65"/>di peccata: tunc ait paralytico
+      &amp;c
+    </p>
+            <p xml:id="khj78y-q16229-d1e153" n="2">
+      <!--2--> CONTRA: quia 
+      <lb ed="#S" n="66"/>enim potest peccata dimittere, 
+      <lb ed="#S" n="67"/>nis solus Deus: vt dicitur in Luc.
+      <lb ed="#S" n="68"/>10. &amp;
+    </p>
+            <p xml:id="khj78y-q16229-d1e164" n="3">
+      <!--3--> RESPONDEO: hic sunt tria 
+       vi<lb ed="#S" break="no" n="69"/>denda. Primo, quam potestatem habuit Chritus. Secundo,
+      <lb ed="#S" n="70"/>quam contulit ministris. Tertio, quam conferre potuit.
+    </p>
+            <p xml:id="khj78y-q16229-d1e173" n="4">
+               <lb ed="#S" n="71"/>
+               <!--4--> CIRCA Primum est sciendum, quod cum in 
+       sacramen<lb ed="#S" break="no" n="72"/>tis sit triplex potestas scilicet authoritatis, excellentiae, &amp; 
+       mini<lb ed="#S" break="no" n="73"/>sterij, Christus primam non habuit: sciendum quod homo, quia 
+      <lb ed="#S" n="74"/>illa est solius Dei, Illam autem, quae est ministerij Christus 
+      <lb ed="#S" n="75"/>habuit: quia haec est communis omnibus minstrantibus 
+       sa<lb ed="#S" break="no" n="76"/>cramenta: Christus autem venit ministrare, &amp; multa, vel 
+      <lb ed="#S" n="77"/>forte omnia sacramenta in propria persona ministrauit, excepto 
+       for<lb ed="#S" break="no" n="78"/>te baptismo. Vnde Io. dicit: Quamuis Iesus non 
+       baptiza<lb ed="#S" break="no" n="79"/>ret, sed discipuli eius. Potestatem autem excellentiae Christus 
+      <lb ed="#S" n="80"/>prae omnibus aliis habuit: quae attenditur quantum ad tria.
+      <lb ed="#S" n="81"/>Primo, quantum ad meritum: quia ex merito passionis Christi 
+      <lb ed="#S" n="82"/>omnia sacramenta effectum habent, non autem ex merito 
+       ali<lb ed="#S" break="no" n="83"/>cuius alterius baptizantis. Et ideo non est melior 
+       baptis<lb ed="#S" break="no" n="84"/>mus a meliore datus. Secundo quantum ad hoc, quod 
+       Chri<lb ed="#S" break="no" n="85"/>stus sine sacramento effectum sacramentorum conferre 
+       pote<lb ed="#S" break="no" n="86"/>rat: quasi dominus, &amp; ministrator sacramentorum quod de aliis non 
+      <lb ed="#S" n="87"/>est verum. Tertio, quantum ad hoc, quod ad inuocationem 
+       nomi<lb ed="#S" break="no" n="88"/>nis eius in baptismo in primitiua ecclesia dbatur 
+       remis<lb ed="#S" break="no" n="89"/>sio peccatorum. Et ideo Christus propter hanc potestatem 
+       sa<lb ed="#S" break="no" n="90"/>cramenta potuit mutare, &amp; in eis dispensare. 
+    </p>
+            <p xml:id="khj78y-q16229-d1e221" n="5">
+      <!--5--> 
+       Se<lb ed="#S" break="no" n="91"/>cundo videndum est, quam potestatem ministris contulerit. 
+      <lb ed="#S" n="92"/>Vbi sciendum, quod contulit eis potestatem ministeri id est 
+       coopera<lb ed="#S" break="no" n="93"/>tionis instrumentalis. Ad quod intelligendum, notandum 
+      <lb ed="#S" n="94"/>est, quod quatuor modis potest vnum alteri cooperari.
+    </p>
+            <p xml:id="khj78y-q16229-d1e235" n="6">
+               <lb ed="#S" n="95"/>
+               <!--6--> Primo, sicut adiuuans ei, cui auxilium praebet 
+       coo<lb ed="#S" break="no" n="96"/>peratur
+    </p>
+            <p xml:id="khj78y-q16229-d1e244" n="7">
+      <!--7--> Secundo, sicut consilium praebens. 
+    </p>
+            <p xml:id="khj78y-q16229-d1e249" n="8">
+               <lb ed="#S" n="97"/>
+               <!--8--> Tertio, sicut quo mediante agens, primum 
+       introdu<lb ed="#S" break="no" n="98"/>cit suum effectum, sicut cooperatur instrumentum principali
+      <lb ed="#S" n="99"/>agenti.
+    </p>
+            <p xml:id="khj78y-q16229-d1e260" n="9">
+      <!--9--> Quarto, sicut disponens materiam ad 
+       effe<lb ed="#S" break="no" n="100"/>ctum principalis agentis suscipiendum. Primis ergo duobus 
+      <lb ed="#S" n="101"/>modis in nulla actione aliquid Deo cooperetur propeter 
+      <lb ed="#S" n="102"/>perfectam eius potentiam, quae nullo auxilio indiget, &amp; 
+       pro<lb ed="#S" break="no" n="103"/>pter perfectam eius sapientiam, quae nullius consilio eget. In 
+      <lb ed="#S" n="104"/>Isa. Quis adiuuit Spiritum Domini, aut quis consiliarius eius 
+      <lb ed="#S" n="105"/>fuit? Sed terio modo cooperatur aliqua creatura Deo in 
+      <lb ed="#S" n="106"/>eius actione, non tamen in omnibus. Cum enim Deus sit 
+       pri<lb ed="#S" break="no" n="107"/>mum agens naturalium actionum: quicquid natura agit: hoc 
+      <lb ed="#S" n="108"/>efficit quasi instrumentale agens cooperans primo agenti. 
+      <lb ed="#S" n="109"/>Sed quaedam sunt, quae Deus sibi retinuit immediate illa 
+      <lb ed="#S" n="110"/>operans, &amp; in istis creatura Deo non cooperatur tertio 
+       mo<lb ed="#S" break="no" n="111"/>do: sed quarto modo ei potest cooperari, sicut pater in
+      <lb ed="#S" n="112"/>creatione animae rationalis, quam immediate Deus 
+       produ<lb ed="#S" break="no" n="113"/>cit: sed tamen natura disponit materiam ad animae rationalis 
+      <lb ed="#S" n="114"/>receptionem. Et quia recreatio animae creationi ipsius 
+       respon<lb ed="#S" break="no" n="115"/>det. ideo emendationem eius immediate ipse operatur, sed 
+      <lb ed="#S" n="116"/>ad hoc homo cooperatur disponendo animam, &amp; hoc 
+       duplici<lb ed="#S" break="no" n="117"/>ter scilicet ex opere operante, sicut docendo: siue etiam moerendo, &amp; 
+      <lb ed="#S" n="118"/>hoc modo homines Deo cooperantur in remissione 
+       pec<lb ed="#S" break="no" n="119"/>catorum, de quibus dicit I ad Co. 3 Dei adiutores summus 
+      <lb ed="#S" n="120"/>vel ex opere operato, sicut qui conferunt sacramenta, quae 
+      <lb ed="#S" n="121"/>ad gratiam disponunt, per quam sit remissio peccatorum. Et hic 
+      <lb ed="#S" n="122"/>est cooperatio ministerij, quae ministris ecclesiae competit: 
+      <lb ed="#S" n="123"/>de quibus dicit I Co. 4. Sic nos existimet homo, vt 
+       mini<lb ed="#S" break="no" n="124"/>stros Christi &amp;c Verum est, quod iste vltimus modus 
+       coopera<lb ed="#S" break="no" n="125"/>tionis ministerij est duplex: quia in quibusdam sacramentis 
+      <lb ed="#S" n="126"/>requiritur minister specialis, sic, quod ab alio nihil ageretur.
+      <!--0047.xml-->
+      <pb ed="#S" n="47"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Et ibi minister non est solum, sicut causa, sine qua non: sed 
+      <lb ed="#S" n="2"/>causa artificiati: virtus non solum est in instrumento, sed etiam 
+      <lb ed="#S" n="3"/>in artifice: quia ars est potentia operatiua. Vnde non habens 
+      <lb ed="#S" n="4"/>artem, &amp; habens idem instrumentum nihil inde faceret. Et 
+       si<lb ed="#S" break="no" n="5"/>militer character sacerdotalis, vel episcopalis in consiciendo, &amp; 
+      <lb ed="#S" n="6"/>ordinando, iniungendo, &amp; absoluendo, est potentia operati 
+      <lb ed="#S" n="7"/>ua, siue actiua, &amp; non solum est virtus in verbis, &amp; materia, 
+      <lb ed="#S" n="8"/>In aliis autem sacramentis, quae specialem ministrum non requirunt, 
+      <lb ed="#S" n="9"/>tota virtus est in verbis, &amp; rebus, nec minister requirit: 
+      <lb ed="#S" n="10"/>nisi sicut causa sine quae non: sicut ad conburendum domum: 
+      <lb ed="#S" n="11"/>requiritur adhibens ignem: quia domus non adhiberet cum, 
+      <lb ed="#S" n="12"/>ad baptizandum, applicando alteri baptisium, non autem sibi 
+      <lb ed="#S" n="13"/>vt fecit Iudaeus seipsum baptizans: extra. c. debitum: quia sem 
+      <lb ed="#S" n="14"/>per inter dantem, &amp; accipientem quod cunq, sacramentum, cuius 
+       essen<lb ed="#S" break="no" n="15"/>lis. Vnde nec papa potest se absoluere: nec se inungere, nec 
+      <lb ed="#S" n="16"/>est alia cogens ratio: nisi Dei ordinatio, &amp; quia ministrans 
+      <lb ed="#S" n="17"/>sacramentum est quasi mediator loco Christi inter Deum, &amp; susci 
+      <lb ed="#S" n="18"/>pientes. Idem autem non est mediator pro scipso. Potest 
+       er<lb ed="#S" break="no" n="19"/>go dici, quod character sacerdotalis est per se potestas bapti 
+      <lb ed="#S" n="20"/>situ: sic quando non sacerdos baptizat, accipit virtutem in tran 
+      <lb ed="#S" n="21"/>situ. ideo &amp; c.
+    </p>
+            <p xml:id="khj78y-q16229-d1e375" n="10">
+      <!-- 10 -->TERTIO videndum est, quam 
+      <lb ed="#S" n="22"/>potestatem Christus conferre potuerit. Vbi sciendum, quod non 
+      <lb ed="#S" n="23"/>illam authoritatis potestatem: quia dato, quod posset communica 
+      <lb ed="#S" n="24"/>ri creaturae, quod propria virtute corerret gratin, &amp; remitte 
+      <lb ed="#S" n="25"/>ret culpam: non tamen, quod principaliter. i. sic in virtute sua, q 
+      <lb ed="#S" n="26"/>non in virtute alterius: quod importat authoritatis 
+       pote<lb ed="#S" break="no" n="27"/>stas. scilicet quod sola sua virtute, &amp; alia circunscripta posset 
+       age<lb ed="#S" break="no" n="28"/>re: secundum  quem modum nulla virtus creata, aut creabilis ali 
+      <lb ed="#S" n="29"/>quid agere pont: quia nec esse, nec agere habet: nisi virtute 
+      <lb ed="#S" n="30"/>Dei supposita: que est alia. Illam autem ministerij, &amp; potuit 
+      <lb ed="#S" n="31"/>conferre, &amp; contulit: non tamen eam contulit omnibus, quibus 
+      <lb ed="#S" n="32"/>potuit: quia non mulieribus, &amp; non nisi sacerdotibus, quib 
+      <lb ed="#S" n="33"/>hoc solum competit ex officio, vt infra patebit.
+    </p>
+            <p xml:id="khj78y-q16229-d1e406" n="11">
+      <!-- 11 -->De 
+      <lb ed="#S" n="34"/>potestate autem excellentiae communiter tenet, quod eam commu 
+      <lb ed="#S" n="35"/>nicare hominibus potuit: sed non decuit. Ratio primi as 
+      <lb ed="#S" n="36"/>signatur: quia quicquid communicatum est Christo inquantum 
+      <lb ed="#S" n="37"/>homo: potuit communicari puro homini: sed praedicta pote 
+      <lb ed="#S" n="38"/>stas fuit communicata Christo inquantum homo. ergo &amp;c. 
+      <lb ed="#S" n="39"/>Minor patet ex dictis, sed maior probatur: quia Deus potest 
+      <lb ed="#S" n="40"/>communicare naturae humanae omne id, cuius ipsa est 
+       ca<lb ed="#S" break="no" n="41"/>pax: sed natura humana est capax omnis perfectionis: quae 
+      <lb ed="#S" n="42"/>communicata est Christo secundum naturam humanam: 
+       alio<lb ed="#S" break="no" n="43"/>quin ci non fuisset communicatum: si natura non fuisset ca 
+      <lb ed="#S" n="44"/>pax. Potuit ergo alicui puro homini secundum hanc opi. 
+      <lb ed="#S" n="45"/>communicari, quod meritum eius haptismo efficaciam tribueret: &amp; 
+      <lb ed="#S" n="46"/>quod baptismum institueret, &amp; quod sine haptismo effectum baptis 
+      <lb ed="#S" n="47"/>mi tribueret, &amp; quod ad inuocationem nominis eius 
+       tribue<lb ed="#S" break="no" n="48"/>retur baptismus, &amp; per consequens peccatorum remissio. 
+      <lb ed="#S" n="49"/>sed istud non decuit, &amp; ne seruus in conseruo poneret 
+      <lb ed="#S" n="50"/>spem filuris, &amp; ne multiplicaretur baptismus secundum  multipli 
+      <lb ed="#S" n="51"/>cationem ministrorum.
+    </p>
+            <p xml:id="khj78y-q16229-d1e451" n="12">
+      <!-- 12 -->sed in his videtur quibusdam 
+      <lb ed="#S" n="52"/>esse vnum dubiu. f. vtrum puro homini communicari 
+       pos<lb ed="#S" break="no" n="53"/>sit: vt meritum eius sacramentis efficaciam daret. Hoc enim non vi 
+      <lb ed="#S" n="54"/>detur possibile: nisidicatur, quod pura creatura potuerit pro to 
+      <lb ed="#S" n="55"/>to humano genere satisfaceret. Cuius ratio est: quia cum 
+       sa<lb ed="#S" break="no" n="56"/>cramenta sint remedium sufficiens nostrae iustificationis nul 
+      <lb ed="#S" n="57"/>lius personae meritum potest efficaciam tribuere sacramentis: nisi 
+      <lb ed="#S" n="58"/>quae potuit satisfacere pro omnibus pctis. si ergo illud 
+      <lb ed="#S" n="59"/>primum potuit communicari puro homini: videt, quod &amp; 
+       secun<lb ed="#S" break="no" n="60"/>dum: quod tamen communiter negat. Et ideo, qui vellet tenere 
+      <lb ed="#S" n="61"/>conclusionem contrariam: posiet prohabiliter ad rationem factam 
+      <lb ed="#S" n="62"/>in contrarium respondere: dicendo, quod non est communicatum 
+      <lb ed="#S" n="63"/>Christo, secundum quod homo absolute: quod eius metitum effica 
+      <lb ed="#S" n="64"/>est causa per se: sicut quando artifex mediante instrumento est 
+      <lb ed="#S" n="65"/>nec ignis se applicaret domui. Et sic baptizans se habet 
+      <lb ed="#S" n="66"/>tia consistit in susceptione, debet esse distinctio 
+       persona<lb ed="#S" break="no" n="67"/>zandi: sed sicut verba, &amp; materia habent virtutem in tran 
+      <!--0047.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>ciam sacramentis tribueret, sed secundum  quod humanitas eius coniun 
+      <lb ed="#S" n="69"/>cta est deitati: ex qua coniunctione competit ei, quod eius me 
+      <lb ed="#S" n="70"/>ritum est aliquo modo efficaciae infinitae. Et ideo istud non 
+      <lb ed="#S" n="71"/>potest communicari alij humanitati: nisi assumeret in vnitatem 
+      <lb ed="#S" n="72"/>Dei. Et istud dictu satis rationabile vldetur: quia 
+       aliquo<lb ed="#S" break="no" n="73"/>rum est capax humana natura coniuncta diuinitati: 
+       quo<lb ed="#S" break="no" n="74"/>rum non est capax separata: sicut calor coniunctus animae 
+      <lb ed="#S" n="75"/>aliquid facit, quod facere non potest ab anima 
+       separatus<lb ed="#S" break="no" n="76"/>Et hoc maxime videt de his, quae in quadam relatione 
+       con<lb ed="#S" break="no" n="77"/>sistunt. si enim mors illius quis non fuerit, nisi 
+       secun<lb ed="#S" break="no" n="78"/>dum humanitatem pro tanto fuit infiniti meriti, &amp; 
+       satisfa<lb ed="#S" break="no" n="79"/>ctionis: quia fuit infiniti suppositi, hoc nulli alij praestari po 
+      <lb ed="#S" n="80"/>test, cui vnio non praestatur. Et quando dicit, quod communicatum est 
+      <lb ed="#S" n="81"/>ei, secundum quod homo est alteri communicabile, verum est pro 
+      <lb ed="#S" n="82"/>ut, ly, secundum reduplicat naturam absoluete, non prout 
+       redu<lb ed="#S" break="no" n="83"/>plicat eam, prout est coniuncta Deo. Vnde, &amp; si creatura 
+      <lb ed="#S" n="84"/>potuit satisfacere pro tota humana natura ex diuina acce 
+      <lb ed="#S" n="85"/>ptione, non tamen ex condigna iustitiae aequalitate, nisi 
+       na<lb ed="#S" break="no" n="86"/>tura esset suppositi infiniti, vel potuit communicari, quod ha 
+      <lb ed="#S" n="87"/>beret efficaciam ex cius merito, quo ad vnum, vel duos, non 
+      <lb ed="#S" n="88"/>quo ad oens, vel infinitos.
+    </p>
+            <p xml:id="khj78y-q16229-d1e540" n="13">
+      <!-- 13 -->Vel dicendum, quod licet 
+      <lb ed="#S" n="89"/>de merito condigni sine authoritate meriti infiniti potue 
+      <lb ed="#S" n="90"/>rit sibi aliquis moereri vitam beatam, sicut quilibet angelus, 
+      <lb ed="#S" n="91"/>cuiuis meritum non habuit efficaciam a passione Christi 
+      <lb ed="#S" n="92"/>tamen moereri alteri vitam beatam de condigno, non potest esse 
+       ni<lb ed="#S" break="no" n="93"/>si per meritu infinitum, quod est solius hominis Dei: ita quod non 
+      <lb ed="#S" n="94"/>solum omnia sacramenta, quo ad oens, non potuerut habere efficaciam 
+      <lb ed="#S" n="95"/>ex merito hominis  puri, sed nec quantum ad vnum solum. 
+    </p>
+            <p xml:id="khj78y-q16229-d1e560" n="14">
+               <lb ed="#S" n="96"/>
+               <!-- 14 -->Potentia vero creundi vtrum purae creaturae communicari 
+      <lb ed="#S" n="97"/>potuerit, dictu est in secudo.
+    </p>
+            <p xml:id="khj78y-q16229-d1e569" n="14">
+      <!-- 14 -->Ad argumentum in 
+       con<lb ed="#S" break="no" n="98"/>trarium: dicendum est, quod filius hominis  habuit potestate 
+       dimit<lb ed="#S" break="no" n="99"/>tendi pctam: inquantu Deus: quod manifestabat curatio pa 
+      <lb ed="#S" n="100"/>ralytici ideo tunc ait paralytico &amp;c. sed potestatem 
+       excel<lb ed="#S" break="no" n="101"/>lentiae, &amp; ministerij habuit inquantu homo. ideo &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

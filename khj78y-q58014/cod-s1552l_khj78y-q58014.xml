@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="203"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q58014"><!-- l4d17-q2 -->
+            <head xml:id="khj78y-q58014-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q58014-Hd1e103" type="question-title">
+     utrum sit 
+       necesse confiteri sacerdoti statim de omnibus
+   </head>
+            <p xml:id="khj78y-q58014-d1e106">
+               <lb ed="#S" n="32"/>QVAESTIO sECVNDA.
+      <lb ed="#S" n="33"/>De confessione.
+    </p>
+            <p xml:id="khj78y-q58014-d1e113">
+               <lb ed="#S" n="34"/>Tho. 4.d. 17. q. 3.ar. 1.
+    </p>
+            <p xml:id="khj78y-q58014-d1e118">
+               <lb ed="#S" n="35"/>SECVNDO quaeritur, vtrum sit 
+       neces<lb ed="#S" break="no" n="36"/>se confiteri sacerdoti statim de omnibus? Et 
+       vi<lb ed="#S" break="no" n="37"/>detur quod non, quia sine confessione saluati 
+      <lb ed="#S" n="38"/>sunt Magdalena, Petrus, &amp; publicanus 
+      <lb ed="#S" n="39"/>Matthaeus. Ergo. &amp;c.
+    </p>
+            <p xml:id="khj78y-q58014-d1e132" n="2">
+      <!-- 2 -->Contra est 
+       Au<lb ed="#S" break="no" n="40"/>gust. di. quod aliter frustrantur claues Ecclesiae, si peccator 
+      <lb ed="#S" n="41"/>saluari potest sine confessione.
+    </p>
+            <p xml:id="khj78y-q58014-d1e141" n="3">
+      <!-- 3 -->Respondeo: circa istam 
+      <lb ed="#S" n="42"/>quaestionem sex sunt videnda. Primo quid sit confessio. 
+       se<lb ed="#S" break="no" n="43"/>cundo quo iure sit. Tertio cuius virtutis sit actus. Quar 
+      <lb ed="#S" n="44"/>to de necessitate confessionis absolutae. Quinto, an 
+       te<lb ed="#S" break="no" n="45"/>neatur quis ad statim. sexto, an Papa possit dispensare. 
+    </p>
+            <p xml:id="khj78y-q58014-d1e154" n="4">
+               <lb ed="#S" n="46"/>
+               <!-- 4 -->QVANTVM ad primum, sciendum quod de cofessione 
+      <lb ed="#S" n="47"/>dantur quatuor diffinitiones. Prima est Aug. quod confessio 
+      <lb ed="#S" n="48"/>est, per quam morbus latens aperitur sub spe veniae: quae dif 
+      <lb ed="#S" n="49"/>finitio non datur de confessione cordis: quae fit soli Deo, 
+      <lb ed="#S" n="50"/>quem nihil latet, nec de illa quae fit in iudicio contentioso, 
+      <lb ed="#S" n="51"/>in qua non est spes: sed desperatio veniae. sed de illa quae 
+      <lb ed="#S" n="52"/>fit vicario Dei in foro aiae.
+    </p>
+            <p xml:id="khj78y-q58014-d1e174" n="5">
+      <!-- 5 -->Circa quam apertionem 
+      <lb ed="#S" n="53"/>morbi latentis est notandum: quod sicut medicus si sciret 
+       infir<lb ed="#S" break="no" n="54"/>mum habere morbum loethalem, quem ille ignoraret, aut vellet 
+      <lb ed="#S" n="55"/>occultare: dum timet secari: deberet eum monere, dicens. si 
+      <lb ed="#S" n="56"/>operam medicantis expectas, necesse est vt vulnus detegas: 
+      <lb ed="#S" n="57"/>sic etiam si confessor scit, vel probabiliter credit, quod ille non 
+      <lb ed="#S" n="58"/>recolit, quia non sufficienter conscientiam discussit, vel si 
+      <lb ed="#S" n="59"/>recolit, errando non credit illud esse mortale: debet sibi 
+      <lb ed="#S" n="60"/>illud ad memoriam reducere, vel conscientiam ei de illo fa 
+      <lb ed="#S" n="61"/>cere. Alioquin scienter indignum solueret. sed si confessor 
+      <lb ed="#S" n="62"/>dubitaret, vtrum illud de quo alius non poeniteret esset 
+      <lb ed="#S" n="63"/>mortale, &amp; ille sibi diceret, quod de consilio peritorum illud fa 
+      <lb ed="#S" n="64"/>ceret: de quibus ex vita &amp; scientia probabile est, quod non 
+      <!--0203.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="65"/>consulerent nisi bene: potest se illorum iudicio 
+       conforma<lb ed="#S" break="no" n="66"/>re. secus autem si esset certus de opposito.
+    </p>
+            <p xml:id="khj78y-q58014-d1e213" n="6">
+      <!-- 6 -->secunda 
+      <lb ed="#S" n="67"/>diffinitio est Gre. Confessio est peccatorum declaratio vel 
+      <lb ed="#S" n="68"/>detestatio, &amp; vulneris ruptio. Declarati autem debet quo 
+      <lb ed="#S" n="69"/>ad numerum numeratum, id est, specificari si differunt 
+       spe<lb ed="#S" break="no" n="70"/>cie. Nec sufficit dicere, si commisit furtum, homicidium, periu 
+      <lb ed="#S" n="71"/>rium: dicere numerum numerantem in quodam inuolutorio: 
+      <lb ed="#S" n="72"/>puta feci tria mortalia, sed specificare debet ea. Quando 
+      <lb ed="#S" n="73"/>autem solo numero differunt, sufficit dicere numerum 
+       nu<lb ed="#S" break="no" n="74"/>merantem, puta, feci tria furta, tria homicidia: &amp; huiusmo 
+      <lb ed="#S" n="75"/>di: si nihil latet mutans speciem. Quando vero dicit 
+       nu<lb ed="#S" break="no" n="76"/>merum numeratum: vel in singulari sigillatim exprimit: non 
+      <lb ed="#S" n="77"/>oportet dicere numerum numerantem: vt scilicet ponat 
+      <lb ed="#S" n="78"/>summam. sed hic confessor debet aduertere, si alterum nu 
+      <lb ed="#S" n="79"/>merum dicere tenetur, quando sunt plura peccata 
+       mor<lb ed="#S" break="no" n="80"/>talia.
+    </p>
+            <p xml:id="khj78y-q58014-d1e248" n="7">
+      <!-- 7 -->Tertia diffinitio est magistralis. Confessio est 
+      <lb ed="#S" n="81"/>legitima coram sacerdote peccatorum declaratio. Coram 
+      <lb ed="#S" n="82"/>dicit: quia in praesentia non in absentia per scipsum, 
+       se<lb ed="#S" break="no" n="83"/>cundum August. in litera: non per nunc in vel per 
+       epi<lb ed="#S" break="no" n="84"/>stolam, quandiu per seipsum dicere potest. Quando 
+       au<lb ed="#S" break="no" n="85"/>tem scribit peccata sua bene facit, sed nihilominus debet 
+      <lb ed="#S" n="86"/>ea ore suo exprimere, nec sufficit tradere legenda. Quod 
+      <lb ed="#S" n="87"/>si non possit ire nec accersire sacerdotem, non tenetur qui 
+      <lb ed="#S" n="88"/>dem scribere, &amp; mandare peccata. sed tamen si ipse vult, 
+      <lb ed="#S" n="89"/>licet ei scribere &amp; mandare, &amp; ille rescribere &amp; remanda 
+      <lb ed="#S" n="90"/>re absolutionem. Et valet absolutio, quando vterque sic est 
+      <lb ed="#S" n="91"/>infirmus vel clausus, plus quam si fieret laico. Qui autem 
+       ha<lb ed="#S" break="no" n="92"/>bet sacerdotem praesentem: sed non habet linguam qua 
+      <lb ed="#S" n="93"/>possit ab eo intelligi: potest quidem per interpretem 
+       confi<lb ed="#S" break="no" n="94"/>teri. sicut &amp; matrimonium contrahere: sed forte non tene 
+      <lb ed="#S" n="95"/>tur: quia non tenetur homo confiteri nisi sacerdoti: 
+       cuius<lb ed="#S" break="no" n="96"/>modi non est illa interpres. Pluribus autem sacerdotibus 
+      <lb ed="#S" n="97"/>simul potest homo ex causa confiteri: &amp; ab vtroqueabsol 
+      <lb ed="#S" n="98"/>ui: sicut seorsum potest vni post alium: sicut aliquando fa 
+      <lb ed="#S" n="99"/>ctum est de facto: vt si confiteretur quis priori 
+       Praedica<lb ed="#S" break="no" n="100"/>torum, &amp; guardiano Minorum.
+    </p>
+            <p xml:id="khj78y-q58014-d1e297" n="8">
+      <!-- 8 -->Quarta est 
+       diffini<lb ed="#S" break="no" n="101"/>tio magistralis: quod confessio est delinquetis accusatio ex 
+      <lb ed="#S" n="102"/>erubescentia, &amp; per claues Ecclesiae satisfactoria, obligans 
+      <lb ed="#S" n="103"/>ad iniunctam poenitentiam peragendam: delinquentis di 
+      <lb ed="#S" n="104"/>cit: quia se non alium debet accusare: quando aliter 
+       po<lb ed="#S" break="no" n="105"/>test se accusare. Nam circunstantiam mutantem in mortale, 
+      <lb ed="#S" n="106"/>propter nullius famam debet caelare: cum plus teneatur sibi 
+      <lb ed="#S" n="107"/>quam alij, &amp; suae conscientiae quam alterius famae. sed vbi timet 
+      <lb ed="#S" n="108"/>alterius infamiam, debet petere licentiam ab illo, vel a 
+       su<lb ed="#S" break="no" n="109"/>periori confitendi tali, qui per confessionem non veniat 
+      <lb ed="#S" n="110"/>in notitiam personae: quam si habere non potest, 
+       confitea<lb ed="#S" break="no" n="111"/>tur vt oportet cum dolore: quia non ex hoc ipso, quod sibi 
+       ne<lb ed="#S" break="no" n="112"/>gatur licentia, habet eam a iure: quamuis habeat iustam cau 
+      <lb ed="#S" n="113"/>sam petendi: quia hoc non est propter culpam vel defectum 
+      <lb ed="#S" n="114"/>ordinari, qui ei credere non tenetur. Quando autem est cir 
+      <lb ed="#S" n="115"/>cunstantia non mutans in mortale, licet aggrauans, 
+       me<lb ed="#S" break="no" n="116"/>lius est subticere: vbi timetur scandalum: vel sui, vel 
+       con<lb ed="#S" break="no" n="117"/>fessoris, aut tertij. satisfactoria: quia confessionis effectus 
+      <lb ed="#S" n="118"/>est poenae &amp; culpae remissio. Vnde generalis confessio de 
+      <lb ed="#S" n="119"/>let venialia, quo ad culpam &amp; quo ad poenam, siue sit 
+       sacra<lb ed="#S" break="no" n="120"/>mentalis siue non: licet aliter &amp; aliter: vt dicit Tho. 
+       De<lb ed="#S" break="no" n="121"/>let autem solum illa, de quibus doleret si recoleret. Vnde con 
+      <lb ed="#S" n="122"/>fessio cum contritione delet ea, quae attritio non deleret: 
+      <lb ed="#S" n="123"/>vnde non est spernenda poenitentia contra venialia da 
+      <lb ed="#S" n="124"/>ta: quia licet sine contritione implicita non deleat: 
+       ta<lb ed="#S" break="no" n="125"/>men aliqua contritio cum ea sufficit: quae non sufficeret 
+      <lb ed="#S" n="126"/>sine illa. sicut &amp; in remissione mortalium attritio cum 
+       cla<lb ed="#S" break="no" n="127"/>uibus delet, quod sola attritio non deleret. Et ideo nihil 
+      <lb ed="#S" n="128"/>prohibet aliquem aliquando ad horam sine venialibus 
+      <lb ed="#S" n="129"/>esse. Verum est quod plus delet ratione absolutionis, quae est 
+      <lb ed="#S" n="130"/>formalis, quam ratione confessionis quae est materialis: &amp; 
+       in<lb ed="#S" break="no" n="131"/>ter remedia venialium, sacramenta plus valent quam sa 
+      <!--0204.xml-->
+      <pb ed="#S" n="204"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>cramentalia. &amp; illa sacramentalia plusquam alia: quae non sunt 
+      <lb ed="#S" n="2"/>sacramentalia. sed generalis confessio non valet ad deletio 
+      <lb ed="#S" n="3"/>nem mortalium scitorum, quo ad culpam: quia illa oportet in 
+      <lb ed="#S" n="4"/>speciali confiteri: licet valeat ad remissionem venialiu 
+       sci<lb ed="#S" break="no" n="5"/>torum: quia non oportet confiteri venialia: nec in generali, 
+      <lb ed="#S" n="6"/>nec in speciali: etiam frequenter iterata: quamuis magister hic 
+      <lb ed="#S" n="7"/>innuat in litera, quod possunt remitti post hanc vitam: quando 
+      <lb ed="#S" n="8"/>non sunt sacramenta. Item ad remissionem mortalium 
+       obli<lb ed="#S" break="no" n="9"/>torum non valet generalis confessio, quae non est sacramentum: 
+      <lb ed="#S" n="10"/>quia ex opere operato non confert gratiam: quod proprium sa 
+      <lb ed="#S" n="11"/>cramentorum est no. le. Culpa autem mortalis non potest 
+       re<lb ed="#S" break="no" n="12"/>mitti sine noua infusione gratiae: sed confessio 
+       sacramen<lb ed="#S" break="no" n="13"/>talis generalis valet ad huiusmodi: quia ex quo homo facit quod 
+      <lb ed="#S" n="14"/>potest confitendo. scilicet in speciali de scitis: &amp; in generali de 
+      <lb ed="#S" n="15"/>alijs. Absolutio sequens ab omnibus absoluit, si praecessit 
+       at<lb ed="#S" break="no" n="16"/>tritio. sed a scitis ratione specialis confessionis: ab oblitis 
+      <lb ed="#S" n="17"/>ratione generalis. Item, valet ad remissionem poenae 
+       morta<lb ed="#S" break="no" n="18"/>lis tam sciti quam obliti: cuius tamen culpa iam remissa est: va 
+      <lb ed="#S" n="19"/>let inquam vtraque confessio. Verum est tamem, quod hoc 
+       intelligen<lb ed="#S" break="no" n="20"/>dum de obliuione excusabili, siue quo ad substantiam 
+       fa<lb ed="#S" break="no" n="21"/>cti, siue quo ad conditionem facti: vt si credat suam. sicut de 
+      <lb ed="#S" n="22"/>Iacob &amp; Lia dicitur. si autem loquamur de ignorantia 
+      <lb ed="#S" n="23"/>vel obliuione improbabili secus est: vt in eo qui non 
+       suf<lb ed="#S" break="no" n="24"/>ficienter discussit conscientiam suam. Obligans.  &amp;c. Quia poe 
+      <lb ed="#S" n="25"/>nitentia debet iniungi per modum praecepti. Bonum est 
+      <lb ed="#S" n="26"/>etiam, quod imponatur per modum consilij. sic quod impositio 
+       ra<lb ed="#S" break="no" n="27"/>tione praecepti habeat meritum obedientiae: &amp; consilium eui 
+      <lb ed="#S" n="28"/>tet periculum culpae.
+    </p>
+            <p xml:id="khj78y-q58014-d1e436" n="9">
+      <!-- 9 -->Quantum ad secundum: quo iure 
+      <lb ed="#S" n="29"/>sit introducta confessio: est sciendum, quod confessio non est 
+       in<lb ed="#S" break="no" n="30"/>ducta iure naturali: quia iura naturalia vbique&amp; semper 
+      <lb ed="#S" n="31"/>manent. Non autem semper fuit, quod homo teneretur secretum 
+      <lb ed="#S" n="32"/>peccatum alteri propalare. Item, non est inducta lege Moysi: 
+      <lb ed="#S" n="33"/>eo modo quo nunc est. Item, nec lege positiua: quia &amp; si pos 
+      <lb ed="#S" n="34"/>set praecipi vt confiteretur de actu exteriori, non tamen de 
+      <lb ed="#S" n="35"/>interiori: qui non subiacet humano praecepto. De exterio 
+      <lb ed="#S" n="36"/>ri enim posset, sicut &amp; clandestina matrimonia prohibem 
+      <lb ed="#S" n="37"/>tur, &amp; poena adhibetur: contra quod agentes &amp; peccant &amp; 
+      <lb ed="#S" n="38"/>poenam incurrunt: licet probari non possit. sic &amp; si Papa prae 
+      <lb ed="#S" n="39"/>ciperet confiteri de actu exteriori quantumcunque occulto, 
+      <lb ed="#S" n="40"/>videretur aliquis teneri: &amp; incurreret excommunicationem si 
+      <lb ed="#S" n="41"/>omitteret, &amp; lata esset contra omittentes. Lege enim huma 
+      <lb ed="#S" n="42"/>na etiam peccatu occultum videtur esse prohibitum. Vnde 
+       le<lb ed="#S" break="no" n="43"/>ge humana non solum est prohibitum furtum publicum: sed etiam 
+      <lb ed="#S" n="44"/>occultum. Et si aliquis confiteretur furtum se commisisse, 
+       quan<lb ed="#S" break="no" n="45"/>tumcunque aliter probari non posset: puniretur poena legis 
+      <lb ed="#S" n="46"/>humanae positiuae. Omnem enim actum exteriorem potest lex 
+      <lb ed="#S" n="47"/>humana &amp; prohibere &amp; praec ipere. Quod si non potest 
+       trans<lb ed="#S" break="no" n="48"/>gressorem punire: tamen ius non deficit: sed probatio. Actus 
+       ve<lb ed="#S" break="no" n="49"/>ro interior bene subterfugit legem humanam. Ita quod si homo 
+      <lb ed="#S" n="50"/>confiteretur se consensisse in quodcumque crimem: sed nihil 
+       ex<lb ed="#S" break="no" n="51"/>terius egisse, cogitationis poenam a lege humana non 
+       me<lb ed="#S" break="no" n="52"/>rentur.
+    </p>
+            <p xml:id="khj78y-q58014-d1e493" n="10">
+      <!-- 10 -->Et ideo sequitur quod sit solum de iure diuino, &amp; 
+      <lb ed="#S" n="53"/>non humano. Quod probant sic quidam. Nulla lex potest 
+       prae<lb ed="#S" break="no" n="54"/>cipere, nisi actu cuius transgressorem potest punire. Frustra 
+      <lb ed="#S" n="55"/>enim ferrentur leges quaecunque, nisi transgressores possent 
+      <lb ed="#S" n="56"/>punire. Et ideo Philosophus. 4. Ethic. dicit, quod omnis lex 
+       ha<lb ed="#S" break="no" n="57"/>bet vim coactiuam per poenam: sed nulla lex humana potest 
+      <lb ed="#S" n="58"/>punire illum, qui non confitetur peccatum sibi soli notum, quia 
+      <lb ed="#S" n="59"/>non posset constare an haberet: ergo non est de lege 
+       huma<lb ed="#S" break="no" n="60"/>na confiteri peccatum occultum: ergo est de diuina.
+    </p>
+            <p xml:id="khj78y-q58014-d1e515" n="11">
+      <!-- 11 -->Et 
+      <lb ed="#S" n="61"/>si dicatur contra eos: quod Ecclesia praecipit, quolibet anno 
+      <lb ed="#S" n="62"/>semel confiteri omnes vtriusque. &amp;c. Respondent: quod Ecclesia non 
+      <lb ed="#S" n="63"/>praecipit confestionem directe: quia non posset: sed 
+       indire<lb ed="#S" break="no" n="64"/>cte, quia praecipit aliquid ad quod confessio est 
+       necessa<lb ed="#S" break="no" n="65"/>ria, puta recipere Eucharistiam, vel alia sacramenta. 
+    </p>
+            <p xml:id="khj78y-q58014-d1e531" n="12">
+               <lb ed="#S" n="66"/>
+               <!-- 12 -->sed ratio ista non valet: quia Ecclesia potest 
+       praeci<lb ed="#S" break="no" n="67"/>pere &amp; prohibere actum in generali. Per quod praeceptum 
+      <!--0204.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>&amp; phibitio includitur non solum actus public', qui per testes pro 
+      <lb ed="#S" n="69"/>bari potest, sed etiam actus occultus, qui potest probari per illius 
+      <lb ed="#S" n="70"/>confessionem. Vnde eo ipso quod aliquis act' est exterior, de 
+      <lb ed="#S" n="71"/>iudicio Ecclesiae est: licet ipsa non possit illum iudicare nisi 
+      <lb ed="#S" n="72"/>ex probationibus. Et sicut talis actus cadit sub iudicio Ec 
+      <lb ed="#S" n="73"/>clesiae: ita eius omissio indebita. Quamuis ergo non possit 
+      <lb ed="#S" n="74"/>probari per testes, quod iste omisit confessionem debitam de peccato 
+      <lb ed="#S" n="75"/>occulto, tamen de peccato publico posset, &amp; de peccato occulto per 
+      <lb ed="#S" n="76"/>eius confessionem. Et si non possit probari: ius non 
+       defi<lb ed="#S" break="no" n="77"/>cit: sed probatio. Vnde propositio qua dicitur Ecclesia 
+      <lb ed="#S" n="78"/>non potest praecipere illud, cuius transgressorem non potest 
+      <lb ed="#S" n="79"/>punire, solum propter defectum probationis est falsa. sed si 
+      <lb ed="#S" n="80"/>non posset punire propter defectum iurisdictionis: tunc esset 
+      <lb ed="#S" n="81"/>vera. Et ideo alia ratio ad probandum, quod confessio est de iu 
+      <lb ed="#S" n="82"/>re diuino potest esse ista: quia Pater omne iudicium dedit 
+      <lb ed="#S" n="83"/>Filio. Vnde quando erat Deus tantum: soli Deo confiteri 
+       suf<lb ed="#S" break="no" n="84"/>ficiebat, cui dicit propheta. Tibi soli peccaui. &amp;c. Postquam 
+      <lb ed="#S" n="85"/>autem factus est homo, &amp; pro peccatis nostris mortuus: da 
+      <lb ed="#S" n="86"/>tum est sibi omne iudicium de peccatis: &amp; sibi est confessio fa 
+      <lb ed="#S" n="87"/>cienda: qui loco suo vicarium dereliquit: cui etiam est 
+       fa<lb ed="#S" break="no" n="88"/>cienda.
+    </p>
+            <p xml:id="khj78y-q58014-d1e590" n="13">
+      <!--13 -->Quantum ad tertium: sciendum est, quod confessio 
+      <lb ed="#S" n="89"/>est actus virtutis, non tantum veritatis: cui consonat inquam 
+      <lb ed="#S" n="90"/>tum talem exhibet exterius, qualem interius: sed iustitiae, qua 
+      <lb ed="#S" n="91"/>redditur debitum &amp; implet mandatum, quod per Iacobum 
+      <lb ed="#S" n="92"/>promulgauit.
+    </p>
+            <p xml:id="khj78y-q58014-d1e604" n="14">
+      <!-- 14 -->Quantum ad quartum, sunt tres 
+       conclu<lb ed="#S" break="no" n="93"/>siones. Prima, quod de mortalibus post baptismum necesse est 
+      <lb ed="#S" n="94"/>confiteri, habenti copiam confessoris: quia sacramentum quod 
+      <lb ed="#S" n="95"/>ordinatur contra defectum tollentem gratiam, est de 
+       necessita<lb ed="#S" break="no" n="96"/>te salutis: sed actuale mortale ita tollit gratiam, &amp; 
+       plus<lb ed="#S" break="no" n="97"/>quam originale. Ergo cum propter hoc baptismus sit de 
+       ne<lb ed="#S" break="no" n="98"/>cessitate salutis: multo magis erit poenitentia.
+    </p>
+            <p xml:id="khj78y-q58014-d1e622" n="15">
+      <!-- 15 -->
+       se<lb ed="#S" break="no" n="99"/>cunda conclusio est: quod non necesse de venialibus, propter 
+      <lb ed="#S" n="100"/>oppositam rationem: &amp; quia possunt remitti post locum &amp; tempus 
+      <lb ed="#S" n="101"/>sacramentorum: puta post hanc vitam. Nec etiam propter 
+       sta<lb ed="#S" break="no" n="102"/>tutum Papae: si quis non habet mortalia: tenetur semel in 
+      <lb ed="#S" n="103"/>anno propter hoc confiteri: si non habet nisi venialia. Tum 
+      <lb ed="#S" n="104"/>quia Papa si vellet hoc non posset: cum hoc sit mutare 
+       ma<lb ed="#S" break="no" n="105"/>teriam sacramenti. scilicet de venialibus facere materiam 
+       poeniten<lb ed="#S" break="no" n="106"/>tiae necessariam: quod Deus non fecit: tum quia si Papa hoc 
+      <lb ed="#S" n="107"/>posset: non tamen videtur quod hoc velit. Tum, quia non debet 
+      <lb ed="#S" n="108"/>esse melioris conditionis fatuus quam peritus. Vnde cum habens 
+      <lb ed="#S" n="109"/>mortale, non sit obligatus ad venialia confitenda: multo 
+      <lb ed="#S" n="110"/>minus non habens: tum, quia dicit omnia peccata sua, quod non 
+      <lb ed="#S" n="111"/>est possibile de venialibus, quae sunt innumerabilia: tum, 
+      <lb ed="#S" n="112"/>quia noluit nouum onus imponere: sed periculum 
+       dilatio<lb ed="#S" break="no" n="113"/>nis amputare his qui tenentur.
+    </p>
+            <p xml:id="khj78y-q58014-d1e659" n="16">
+      <!-- 16 -->Tertia conclusio est, 
+      <lb ed="#S" n="114"/>quod a confessione mortalium, qui non habet confessoris copiam, &amp; 
+      <lb ed="#S" n="115"/>tamen hoc desiderat excusatur. Cuius ratio est: quia non est 
+      <lb ed="#S" n="116"/>confessio maioris necessitatis, quam baptismus. Vnde cum ibi 
+      <lb ed="#S" n="117"/>sufficiat desiderium, quando articulus necessitatis, non contemptus 
+      <lb ed="#S" n="118"/>religionis sacramentum excludit, ita &amp; hic.
+    </p>
+            <p xml:id="khj78y-q58014-d1e675" n="17">
+      <!-- 17 -->
+       Quan<lb ed="#S" break="no" n="119"/>tum ad quintum sciendum, quod cum confessio sit praeceptum 
+       affir<lb ed="#S" break="no" n="120"/>matiuum, non obligat ad statim confitendum: nisi in quinque 
+      <lb ed="#S" n="121"/>casibus. Primus, propter sacramentum, scilicet quando habet reci 
+      <lb ed="#S" n="122"/>pere, vel ministrare aliquod sacramentum: quia tunc debet prius 
+      <lb ed="#S" n="123"/>confiteri de mortali, nec sufficit conteri, nisi quando necessitas 
+      <lb ed="#S" n="124"/>vrget, &amp; potens absoluere abest: quia sicut baptismus est 
+      <lb ed="#S" n="125"/>ianua sacramentorum omnium, sic secunda tabula post naufra 
+      <lb ed="#S" n="126"/>gium, est ianua ad alia recidiuanti post baptismum. Vnde 
+      <lb ed="#S" n="127"/>de conse. dist. 5. c. Vt ieiuni. dicitur, quod perfecti aetate confir 
+      <lb ed="#S" n="128"/>mandi moneantur prius facere confessionem peccatorum. 
+      <lb ed="#S" n="129"/>Et eadem est ratio de alijs sacramentis. similiter qui alijs 
+      <lb ed="#S" n="130"/>ministrare habet sacramenta: non debet habere defectum 
+      <lb ed="#S" n="131"/>sacramenti. Propter quod bigamus irregularis est, ne alijs 
+      <lb ed="#S" n="132"/>sacramenta ministret, qui in sacramento deficiens est. 
+      <lb ed="#S" n="133"/>sic qui absolutione indiget, non prius eam alij, nec alia 
+      <lb ed="#S" n="134"/>sacramenta ministrare debet, quam iste sacramentum 
+      <!--0205.xml-->
+      <pb ed="#S" n="205"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>recipiat: quo indiget. Non tamen mortaliter peccat 
+       suscipien<lb ed="#S" break="no" n="2"/>do, vel minastrado poitquam contritus est: quia Deo iam 
+       con<lb ed="#S" break="no" n="3"/>iunctus est.
+    </p>
+            <p xml:id="khj78y-q58014-d1e727" n="18">
+      <!-- 18 -->secundus casus est ratione statuti: quia 
+      <lb ed="#S" n="4"/>Papa statuit ad minus semel in anno confiteri. Vnde 
+       vl<lb ed="#S" break="no" n="5"/>tra non licet differre: sicuo nec olim statuta tempora 
+       bapti<lb ed="#S" break="no" n="6"/>smi, paschae, vel penthe: licebat prolongare: nisiꝗ videtur, quod 
+      <lb ed="#S" n="7"/>de peccato cordis licet differre, vsque ad mortis periculum, 
+      <lb ed="#S" n="8"/>cum de illo Papa nihil habeat iudicare. Et si esset verum: tamen 
+      <lb ed="#S" n="9"/>quia semel in anno est praeceptum communicare: quod 
+       di<lb ed="#S" break="no" n="10"/>gne fieri non potest fine confessione: etiam de peccato 
+       interio<lb ed="#S" break="no" n="11"/>ri: inde est, quod faltem indirecte etiam de omni mortali interiori 
+      <lb ed="#S" n="12"/>tenetur infra annum confiteri. Item, quia confessio non debet 
+      <lb ed="#S" n="13"/>dimidiari, si cum peccato interiori habet exterius: de quo 
+      <lb ed="#S" n="14"/>Ecclesia potest praecipere indirecte, tenetur cum illo de 
+       inte<lb ed="#S" break="no" n="15"/>riori confiteri.
+    </p>
+            <p xml:id="khj78y-q58014-d1e758" n="19">
+      <!-- 19 -->Tertius casus est ratione dubij: 
+       quam<lb ed="#S" n="16" break="no"/>do est in periculo mortis: quia saltem semel in hac vita sa 
+      <lb ed="#S" n="17"/>cramentum necessitatis suscipiendum est. Cum autem nihil fit 
+      <lb ed="#S" n="18"/>certius morte, &amp; nihil incertius hora mortis: 
+       periclita<lb ed="#S" break="no" n="19"/>mur omni hora, sed non sic accipitur hic, nisi quando homo sic est in 
+      <lb ed="#S" n="20"/>periculo: quod vt frequenter homines in illo moriuntur: sicut in 
+      <lb ed="#S" n="21"/>bello, aut naufragio, aut acuta, vel multu graut innrmi 
+      <lb ed="#S" n="22"/>cate. Vnne &amp; mou tenetur, inuros ante ora mon ere, 
+      <lb ed="#S" n="23"/>vt medicos aduocent animarum. extra. de poe. &amp; re. c. Cum 
+       in<lb ed="#S" break="no" n="24"/>firmitas. Non autem si quis debet intrare aquam aut mare, in 
+      <lb ed="#S" n="25"/>quibus non statim probabiliter, sic timetur. sicem̃ intelli 
+      <lb ed="#S" n="26"/>gitur quod dicitur, quodquilibet potest absoluere in mortis 
+      <lb ed="#S" n="27"/>periculo, vel articulo constitutum. de offi. ordi. ca. 
+       Pastora<lb ed="#S" break="no" n="28"/>lis. in glo.
+    </p>
+            <p xml:id="khj78y-q58014-d1e792" n="20">
+      <!-- 20 -->Quartus casus est, ratione periculi 
+       opor<lb ed="#S" break="no" n="29"/>tunitatis confessoris perdendae. si occurrat qui potest 
+       absol<lb ed="#S" break="no" n="30"/>uere: nec sitspos, quod redeat ante tempus confitendi: quia vbi 
+      <lb ed="#S" n="31"/>mora est periculo allatura, dilatio est spernenda. Et si 
+       die<lb ed="#S" break="no" n="32"/>bus festiuis halecam punt capi, quando timeturquod alias non occur 
+      <lb ed="#S" n="33"/>rent, aut videmiae neri: qn trmetur ne tepus cogruu 
+       tra<lb ed="#S" break="no" n="34"/>seat: multo magis propter spiritualia.
+    </p>
+            <p xml:id="khj78y-q58014-d1e810" n="21">
+      <!-- 21 -->Quintus 
+       ca<lb ed="#S" break="no" n="35"/>sus est, ratione scrupuli: si homo sit illius opinionis in 
+       vni<lb ed="#S" break="no" n="36"/>uersali: quod homo tenetur ad statum: vel de se habeat illam 
+       conscien<lb ed="#S" break="no" n="37"/>tiam, ligatur: quia qui agit contra conscientiam, aedificat ad ge 
+      <lb ed="#S" n="38"/>hennam.
+    </p>
+            <p xml:id="khj78y-q58014-d1e823" n="22">
+      <!-- 22 -->Et quod quidam dicunt, quod ante contritionem non 
+       te<lb ed="#S" break="no" n="39"/>netur quis confiteri, in casu in quo post eam teneretur 
+       confi<lb ed="#S" break="no" n="40"/>teri, non videtur bene dictum: quia cum homo simpliciter 
+       te<lb ed="#S" break="no" n="41"/>neatur iure diuino, confiteri ante mortem: &amp; iure humano 
+      <lb ed="#S" n="42"/>ante annum: &amp; de malo suo non debeat commodum reportare: 
+      <lb ed="#S" n="43"/>siue coteratur uue no, debet illud impiere, quis uoi no 
+      <lb ed="#S" n="44"/>prosit. sicut etiam peccator tenetur, dicere horas &amp; 
+       ieiu<lb ed="#S" break="no" n="45"/>nare: lic et sibi non prosit ad meritum. Non em propter pec 
+      <lb ed="#S" n="46"/>catum suum liberatur a praecepto.
+    </p>
+            <p xml:id="khj78y-q58014-d1e845" n="23">
+      <!-- 23 -->Quod autem dicitur 
+      <lb ed="#S" n="47"/>quod confessio cum debeatur Deo: quod non statim soluatur: non est 
+      <lb ed="#S" n="48"/>quin debeatur: sed quia no exigit, nisi loco &amp; tempore: dubium 
+      <lb ed="#S" n="49"/>est: quia illud quod est alicui debitum de voluntate sua: sicut 
+      <lb ed="#S" n="50"/>in contractibus gratuitis: licet statim debeatur: non tamen 
+       ne<lb ed="#S" break="no" n="51"/>cesse est solui, nisi petatur: quia ex quo voluntarie concessit, 
+      <lb ed="#S" n="52"/>nin certu tps vel vium appotuerit: videt coceisiine 
+       quo<lb ed="#S" break="no" n="53"/>usque reperat. sed quando aliquis fit debitor alicuius ex delicto: 
+      <lb ed="#S" n="54"/>quia contra voluntate iua rem er accepit: vel iioi nocuit, 
+      <lb ed="#S" n="55"/>semper est in mora &amp; in peccato: etia alio no petete, nin, q 
+      <lb ed="#S" n="56"/>citius potest offerat: nisi probabiliter supponeretur, quod ali 
+      <lb ed="#S" n="57"/>duatione noi daret. Vnos cu peccator nat dc oitor Lci: 
+      <lb ed="#S" n="58"/>non ex beneficio gratuito &amp; voluntario. sicut est debitum 
+      <lb ed="#S" n="59"/>latriae: ad cuius solutionem homo non semper necessitatur: 
+      <lb ed="#S" n="60"/>sed ex malefacto: &amp; hoc contra voluntatem ipsius Dei: cuius 
+      <lb ed="#S" n="61"/>reuerentiam laesit: videtur quod sicut debet statim, ita teneat 
+      <lb ed="#S" n="62"/>soluere statim, quia Deus nullam sibi dilationem dedit. 
+    </p>
+            <p xml:id="khj78y-q58014-d1e884" n="24">
+               <lb ed="#S" n="63"/>
+               <!-- 24 -->sed ad hoc posset dici: quod verum est in obligatione ex 
+      <lb ed="#S" n="64"/>cotractu, debitore teneri modico interiecto tempore, qu 
+       ma<lb ed="#S" break="no" n="65"/>gis potest mente concipi, i locutione exprimi. Quo ad hoc quod 
+      <lb ed="#S" n="66"/>possit ab eo peti, &amp; ipte in mora cortitui: non ante, quia 
+      <lb ed="#S" n="67"/>non potuit venire cum sacco paratus. sed non tenetur ad sta 
+      <!--0205.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>tim, sic quod sit in mora quoadusque petatur. Et ex hoc quod pec 
+      <lb ed="#S" n="69"/>cator contritus est, cum proposito confitendi &amp; satisfaciendi: 
+      <lb ed="#S" n="70"/>videtur purgasse moram: etiam si sit solum attritus: quia per 
+      <lb ed="#S" n="71"/>propositum confitendi, videt Deo offerre quod debet: &amp; sic 
+      <lb ed="#S" n="72"/>nec est in mora, quousque vel Deus exigat per mortis peri 
+      <lb ed="#S" n="73"/>cuiu, ves iacramentu, vei vicari? Dei per annu, vei nmos. 
+    </p>
+            <p xml:id="khj78y-q58014-d1e917" n="25">
+               <lb ed="#S" n="74"/>
+               <!-- 25 -->Quantum ad sextum, sciendum est, quod Papa non potest dispen 
+      <lb ed="#S" n="75"/>sare in hoc sacramento, in hoc quod est pure diuinum: quia 
+      <lb ed="#S" n="76"/>seruus legem domini tollere non potest. Etsi posset dispensare 
+      <lb ed="#S" n="77"/>in praeceptis canonis alicuius Apostoli puta in bigamia 
+      <lb ed="#S" n="78"/>&amp; huiusmodi: quia par in parem non habet imperium: tamen in 
+       sacra<lb ed="#S" break="no" n="79"/>mentis a Christo institutis non pont: quia sicut art supponit 
+      <lb ed="#S" n="80"/>naturam, &amp; natura materiam: sic Ecclesia fundamenta sua: 
+      <lb ed="#S" n="81"/>quae sunt sacramenta, quae destruere non potest. Vnde sicut Pa 
+      <lb ed="#S" n="82"/>pa non potest dispensare: vt puer sine baptismo saluetur: 
+       si<lb ed="#S" break="no" n="83"/>nec quod post baptismum mortaliter peccans, sine confessione 
+      <lb ed="#S" n="84"/>saluetur.
+    </p>
+            <p xml:id="khj78y-q58014-d1e947" n="26">
+      <!-- 26 -->secundo sciendum esto Papa potest 
+       dispen<lb ed="#S" break="no" n="85"/>sare in hoc quod est humanu. squod ho non teneatur 
+       conte<lb ed="#S" break="no" n="86"/>ri infra aunum: dum tamen non occurrat mortis: periculum, nec 
+      <lb ed="#S" n="87"/>habeat suscipere sacramentum: quia est statutum concilij 
+       ge<lb ed="#S" break="no" n="88"/>neralis. Ipse autem supra concilia, a quo habet concilium au 
+      <lb ed="#S" n="89"/>ctoritatem, non econuerso. Vnde potest dispensare.
+    </p>
+            <p xml:id="khj78y-q58014-d1e963" n="27">
+      <!-- 27 -->
+       Ter<lb ed="#S" break="no" n="90"/>tio est sciendum, quod nec inferior a Papa, nec legatus a 
+       late<lb ed="#S" break="no" n="91"/>re, nec epraes potest in hoc dispensare: quia quamuis possit 
+       ep<lb ed="#S" break="no" n="92"/>dispensare, in statutis suae synodi aut iuris inquantum 
+      <lb ed="#S" n="93"/>huiusmodi: non tamen in statutis concilij prouincialis, nisi quantum 
+      <lb ed="#S" n="94"/>sibi committitur, ad minus in statutis concilij generalis, non 
+      <lb ed="#S" n="95"/>videtur quod simplex episcopus vnquam possit dispensare: huiusmodi autem 
+      <lb ed="#S" n="96"/>est de confessione annua. ideo. &amp;c. 28. Et si dicatur, q 
+      <lb ed="#S" n="97"/>sub eodem praecepto cadit conio annua, in qua potest 
+       pro<lb ed="#S" break="no" n="98"/>prius sacerdos dispensare: dicendu, quod proprius curatus 
+      <lb ed="#S" n="99"/>non dispensat: sed ipse legislatur dispensat, de cocilio pro 
+      <lb ed="#S" n="100"/>prij sacerdotis. sicut medicus non dispensat cum infirmo, in 
+      <lb ed="#S" n="101"/>carnibus &amp; teiunio, led proprius iaceruos ue conlio 
+       me<lb ed="#S" break="no" n="102"/>dici. Non sioautem de confessione: quia non sic cautum est. 
+      <lb ed="#S" n="103"/>Nec est eadem ratio confessionem differendi: sicut communio 
+      <lb ed="#S" n="104"/>nem, cum etiam non poenitenti expediat aliquando poenitentiam 
+      <lb ed="#S" n="105"/>recipereisicut dicit decretum: de poen. c. Quidam. Nunquam 
+      <lb ed="#S" n="106"/>aute impoenitenti expedit corcate. Et quicuque ibi 
+       dispen<lb ed="#S" n="107" break="no"/>sat de conione, hoc non est, quod toto anno non conicet, sed 
+      <lb ed="#S" n="108"/>vsque ad tpraes differat, non autem vsque ad annum alium: sicut in 
+       le<lb ed="#S" break="no" n="109"/>ge qui non poterat pascha facere primo mense, faciebat se 
+      <lb ed="#S" n="110"/>cundo: nec propter hoc excusabatur toto anno.
+    </p>
+            <p xml:id="khj78y-q58014-d1e1013" n="29">
+      <!-- 29 -->
+       Con<lb ed="#S" break="no" n="111"/>tra hoc tamen est de clande. despon. probibita. cum 
+       inhi<lb ed="#S" break="no" n="112"/>bitio, vbi est statutum concilij generalis, de bamnis tribus in 
+      <lb ed="#S" n="113"/>matrimonijs contrahendis: &amp; tamen non solum episcopi,  sed etiam ar 
+      <lb ed="#S" n="114"/>chidiaconi quotidie dispensant de vno vel duobus: aut 
+      <lb ed="#S" n="115"/>etiam de omnibus.
+    </p>
+            <p xml:id="khj78y-q58014-d1e1029" n="30">
+      <!-- 30 -->Ad argumentum dicendum: quod illi non 
+      <lb ed="#S" n="116"/>peccauerunt mortaliter post baptismum, vel post Christi 
+      <lb ed="#S" n="117"/>passionem, vel quod Christus per potestatem excellentiae eos 
+      <lb ed="#S" n="118"/>absoluit, vel confessi fuerunt licet non legatur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

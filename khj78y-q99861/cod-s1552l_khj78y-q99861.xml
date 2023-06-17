@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="323"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q99861"><!-- l4d26-q2 -->
+            <head xml:id="khj78y-q99861-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q99861-Hd1e103" type="question-title">
+     an matrimonium sit licitum
+   </head>
+            <p xml:id="khj78y-q99861-d1e106">
+               <lb ed="#S" n="40"/>QVAESTIO SECVNDA. 
+      <lb ed="#S" n="41"/>De matrimonii licito vsu, &amp; merito.
+    </p>
+            <p xml:id="khj78y-q99861-d1e113">
+               <lb ed="#S" n="42"/>Thom. 4. dist. 26. q. 1. art. 3. &amp;. 4. 
+    </p>
+            <p xml:id="khj78y-q99861-d1e118">
+               <lb ed="#S" n="43"/>SECVNDO quaeritur, vtrum sit licitum: Et 
+      <lb ed="#S" n="44"/>videtur quod non, quia nihil separat a Deo, 
+       ni<lb ed="#S" n="45" break="no"/>si peccatum, sed actus matrimonij separat a Deo. 
+      <lb ed="#S" n="46"/>ergo est peccati: si sic, ergo &amp; matrimonium. 
+      <lb ed="#S" n="47"/>minor patet, quia Exo. 19. praecipitur his, qui 
+      <lb ed="#S" n="48"/>debebant Deum videre, vt non accedant ad vxores. 
+      <lb ed="#S" n="49"/>aItem nihil indiget excusari, nisi quod est malum, sed 
+      <lb ed="#S" n="50"/>actus matrimonij indiget excusari per bona matrimonij. 
+      <lb ed="#S" n="51"/>ergo est malus: &amp; sic idem quod prius.
+    </p>
+            <p xml:id="khj78y-q99861-d1e141" n="3">
+      <!-- 3 -->Contra, quia 
+      <lb ed="#S" n="52"/>nullum malum potest esse a Deo institutum: sed matrimonium 
+      <lb ed="#S" n="53"/>est a Deo institutum dicente Christo Mat. 19. Quos Deus 
+      <lb ed="#S" n="54"/>coniunxit, homo non separet. ergo non est malum. Ad idem 
+      <lb ed="#S" n="55"/>est, quod dicit. 1. ad Cor. 7. Virgo non peccat, si nubat. 
+    </p>
+            <p xml:id="khj78y-q99861-d1e154" n="4">
+               <lb ed="#S" n="56"/>
+               <!-- 4 -->Respondeo, hic sunt tria videnda. Primo, an 
+       matri<lb ed="#S" break="no" n="57"/>momium sit bonum, &amp; licitum absolute. secundo, an excom 
+      <lb ed="#S" n="58"/>mumicato liceat matrimonium contrahere. Tertio, an 
+       li<lb ed="#S" break="no" n="59"/>ce admeretricem accipere.
+    </p>
+            <p xml:id="khj78y-q99861-d1e167" n="5">
+      <!-- 5 -->Quantum ad primum sunt 
+      <lb ed="#S" n="60"/>tres conclusiones. Prima, quod actus elus est bonus, &amp; 
+       lici<lb ed="#S" break="no" n="61"/>tus: quia quicquid est bonum in se, bonum est ipsum feri: 
+      <lb ed="#S" n="62"/>vode vidit Deus, quod esset bonum, &amp; dixit: Fiat &amp;c. &amp; 
+      <lb ed="#S" n="63"/>sic dicit de singulis: vnde falsa est opinio, quae dicit, quod 
+      <lb ed="#S" n="64"/>mala esse est bonum, sed mala fieri est malum: quia motus 
+      <!--0323.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="65"/>a termino accipit entitatem, &amp; bonitatem: vnde cum fieri 
+      <lb ed="#S" n="66"/>terminetur ad esse: si bonum est aliquid esse bonum, est 
+       il<lb ed="#S" break="no" n="67"/>lud fieri. sed bonum est esse naturam humanam, cum sit de 
+      <lb ed="#S" n="68"/>operibus Dei: vidit enim Deus cuncta, quae fecerat, &amp; 
+      <lb ed="#S" n="69"/>erant valde bona: sed ipsa non potest fieri, nec conseruari 
+      <lb ed="#S" n="70"/>licite secundum cursum naturae nisi per actum istum. ergo 
+      <lb ed="#S" n="71"/>&amp;c. Nec obstat, quod in actu carnali non potest homo actu co 
+      <lb ed="#S" n="72"/>gitare de Deo dicente philosopho, quod in actu illo est 
+       im<lb ed="#S" break="no" n="73"/>possibile aliquid intelligere. Est onim peccatum mortale 
+       il<lb ed="#S" break="no" n="74"/>lud, quod separat a Deo habitu. Dico autem separared 
+      <lb ed="#S" n="75"/>Deo habitu, non omne, vel solum peccatum, quod generat ha 
+      <lb ed="#S" n="76"/>bitum: sed illum actum, qui habitum tollit, quo Deo 
+       coniun<lb ed="#S" break="no" n="77"/>gitur per charitatem. Illud vero, quod actu diuidit homi 
+      <lb ed="#S" n="78"/>nem a Deo: sic. scilicet quod dum durat, non potest actu ferri in 
+       De<lb ed="#S" break="no" n="79"/>um: dum tamen non tollat habitum Deo coniungentem, 
+       inquan<lb ed="#S" n="80" break="no"/>tum huiusmodi non est peccatum: quia homo non tenetur semper confet 
+      <lb ed="#S" n="81"/>ri actu in Deum: sed tunc solum, quando tenet ferri, sicut patet in 
+      <lb ed="#S" n="82"/>somno. si quis enim dormiat in matutinis, quando debet actu 
+      <lb ed="#S" n="83"/>cogitare de Deo, peccat, alias non. similiter in ve. le. con 
+      <lb ed="#S" n="84"/>tinentia indicebat sacerdotibus in hebdomada vicis suae, 
+      <lb ed="#S" n="85"/>quando debebant actu vacare diuinis. simile si coniugati tem 
+      <lb ed="#S" n="86"/>poribus festorum, &amp; ieiuniorum, quibus debent vacare ora 
+      <lb ed="#S" n="87"/>tioni, vacent libidini, peccant, aliter non.
+    </p>
+            <p xml:id="khj78y-q99861-d1e237" n="6">
+      <!-- 6 -->sccunda 
+      <lb ed="#S" n="88"/>conclusio est, quod actus iste non solum non est malus, sed 
+       me<lb ed="#S" break="no" n="89"/>ritorius etiam: quia actus virtutis charitate informatus sem 
+      <lb ed="#S" n="90"/>per est meritoriui: iste est huiusmodi. ergo &amp;c. quia quando cogne 
+      <lb ed="#S" n="91"/>scit vxorem debitum reddendo, est actus iustitiae: quando autem 
+      <lb ed="#S" n="92"/>petendo propter prolem ad cultum Dei educandum, est actus 
+      <lb ed="#S" n="93"/>religionis. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q99861-d1e255" n="7">
+      <!-- 7 -->Tertia conclusio, ex his, quod 
+       ma<lb ed="#S" break="no" n="94"/>trimonium est bonum: quia cuius vsus bonus est, ipsum quoque 
+      <lb ed="#S" n="95"/>bonum est, sed vsus matrimonij est bonus: quia cum actus 
+      <lb ed="#S" n="96"/>carnalis aliquando sit bonus, nec possit honestior, nec magis 
+      <lb ed="#S" n="97"/>debitis circunstantiis vallatus, quam quando est in matrimonio: 
+      <lb ed="#S" n="98"/>Imo aliter semper est malus, &amp; contra ius naturale: cum ma 
+      <lb ed="#S" n="99"/>trimonium sit de iure naturali. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q99861-d1e273" n="8">
+      <!-- 8 -->Quantum 
+      <lb ed="#S" n="100"/>ad secundum sunt sex conclusiones. Prima, quod matrimonium 
+      <lb ed="#S" n="101"/>contractum ab omni excommunicato maiori, vel minori, 
+      <lb ed="#S" n="102"/>suspenso, &amp; interdicto, teuet quantum ad essentiam: &amp; est 
+       ve<lb ed="#S" break="no" n="103"/>rum matrimonium, ac si a quocunque alio celebretur: quia etiam 
+      <lb ed="#S" n="104"/>degradati vera sacramenta conficiunt: etiam eucharistiae, quod 
+      <lb ed="#S" n="105"/>est maxime spirituale, &amp; characterem ordinis conferunt, &amp; etiam 
+      <lb ed="#S" n="106"/>benedictionem nuptialem veram recipiunt: vnde post 
+       ab<lb ed="#S" break="no" n="107"/>solutionem non est eis iteranda, sicut nec ordines tempore ex 
+      <lb ed="#S" n="108"/>communicationis recepti. Nec obstat de matrimonio 
+       spi<lb ed="#S" break="no" n="109"/>rituali, quia in multis dissimile est.
+    </p>
+            <p xml:id="khj78y-q99861-d1e300" n="9">
+      <!-- 9 -->secunda conclusio 
+      <lb ed="#S" n="110"/>est de possibilitate luris, quo ad excommunicatum maiori, 
+      <lb ed="#S" n="111"/>Et quidem sponsalia potest contrahere citra iuramentu absque 
+      <lb ed="#S" n="112"/>peccato mortali: cum hoc non sit se immiscere diuinist imo si 
+      <lb ed="#S" n="113"/>cut contrahit ad neceisaria ratione indiuidui: sicad 
+       ne<lb ed="#S" break="no" n="114"/>cessaria speciei, sed cum iuramento non licet: cum hoc sit 
+      <lb ed="#S" n="115"/>immiscere se diuinis, sicut nec quemcunque alium contractum 
+      <lb ed="#S" n="116"/>iuramento ad minus solemni: licet de calumnia reus iurare 
+      <lb ed="#S" n="117"/>teneatur: sed per verba de praesenti contrahens peccat, 
+       si<lb ed="#S" break="no" n="118"/>cut recipiens quod cunque aliud sacramentum: licet minus 
+       inquan<lb ed="#S" break="no" n="119"/>tum hoc magis carnale, &amp; minus spirituale est. similiter re 
+      <lb ed="#S" n="120"/>cipiens benedictionem nuptialem solennem, sicut etiam audire 
+      <lb ed="#S" n="121"/>missam, quod non est sacim recipere, sed sacramentale est ei mor 
+      <lb ed="#S" n="122"/>tale. Verius tamen est, quod nec nuda promisiione licet 
+       excommu<lb ed="#S" break="no" n="123"/>nicato contrahere sponsalia. Cui enim interdicitur aliquid 
+      <lb ed="#S" n="124"/>&amp; omne, per quod peruenitur ad illud, sicut cui 
+       matrimo<lb ed="#S" break="no" n="125"/>nium, &amp; sponsalia. f. de spo. l. oratio. Vnde cum excommunica 
+      <lb ed="#S" n="126"/>to interdicat matrimonium, per consequens &amp; sponsalia, quia 
+      <lb ed="#S" n="127"/>inquantum sunt initium matrimonij, sunt sppalia, &amp; diui 
+      <lb ed="#S" n="128"/>na: quia sunt sacramentale huius sacramenti antecedenter, situt 
+       benedi<lb ed="#S" break="no" n="129"/>ctio nuptialis consequenter. Quod etiam dictum est de missa, 
+      <lb ed="#S" n="130"/>quod est sacramentale, verum est audienti: sed in se verum est sacim 
+      <lb ed="#S" n="131"/>&amp; communicanti, quod ipsum recipit.
+    </p>
+            <p xml:id="khj78y-q99861-d1e352" n="10">
+      <!--10-->Tertia conclusio 
+      <!--0324.xml-->
+      <pb ed="#S" n="324"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>est de excommunicato minori per participationem. Et hic 
+      <lb ed="#S" n="2"/>non peccat mortaliter contrahendo sponsalia 
+       quomodo<lb ed="#S" break="no" n="3"/>cunque, nec benedictionem nuptialem recipiendo: sed solum per 
+      <lb ed="#S" n="4"/>verba de praesenti contrahendo, quia a participatione sacro 
+      <lb ed="#S" n="5"/>rum prohibitus est non ab aliis diuinis, de cele. ex. cle. c. 
+      <lb ed="#S" n="6"/>vlt. Vnde sicut missam audiendo, aut in choro cantando 
+      <lb ed="#S" n="7"/>non peccaret mortaliter, sed communicando, vel 
+       celebran<lb ed="#S" break="no" n="8"/>do: sic hic, quia non est a collatione: sed receptione 
+       sacra<lb ed="#S" break="no" n="9"/>mentorum suspensus, &amp; contrahens perer verba de pra 
+      <lb ed="#S" n="10"/>recipit sacim non in benedictione. Et confirmat ratio, quia 
+      <lb ed="#S" n="11"/>excommunicatus minori non est separatus ab actibus legi 
+      <lb ed="#S" n="12"/>timis, nec a sacramentalibus, sed sine exceptione separatus est 
+      <lb ed="#S" n="13"/>a perceptione sacramentorum. vnde si matrimonium non esset 
+      <lb ed="#S" n="14"/>sacim, per consequens contrahendo in nullo peccaret: est 
+      <lb ed="#S" n="15"/>autem sacim, ergo peccat grauiter, minus tamen, quam 
+       quo<lb ed="#S" break="no" n="16"/>cunque alio sacramento. Nec obstat. ff. de sponsa. l. oratio. quia quando 
+      <lb ed="#S" n="17"/>matrimonium prohibetur, inquantum est actus legitimus, 
+      <lb ed="#S" n="18"/>sic prohibentur etiam sponsalia: vnde excommunicatus, cui 
+       in<lb ed="#S" break="no" n="19"/>ter dicitur omnis actus legitimus ab vtroque prohibetur: sed qum 
+      <lb ed="#S" n="20"/>matrimonium prohibetur solum inquantum est sacramentum, tunc non 
+      <lb ed="#S" n="21"/>prohibet illud circa ipsum, quod non est sacramentum: vnde cum 
+      <lb ed="#S" n="22"/>matrimonium prohibeatur excommunicato minori, non quia 
+      <lb ed="#S" n="23"/>est aliquid spirituale, sed quia tale spirituale quod est sacramentum: inde 
+      <lb ed="#S" n="24"/>est, quod benedictio, &amp; sponsalia, quae non sunt sacramentum: sed tantum 
+      <lb ed="#S" n="25"/>sacramentalia sibi non interdicuni, sicut nec sumptio aquae be 
+      <lb ed="#S" n="26"/>nedictae, nec alia pure sacramentalia.
+    </p>
+            <p xml:id="khj78y-q99861-d1e420" n="11">
+      <!--11-->Quarta conclusio 
+      <lb ed="#S" n="27"/>est de suspenso, quia in neutro illorum trium peccat etiam 
+       ve<lb ed="#S" break="no" n="28"/>nialiter, siue suspensus ab aliquo alio specialiter, quia tunc 
+      <lb ed="#S" n="29"/>alia vident permissa, siue generaliter, quia suspensio est 
+      <lb ed="#S" n="30"/>propria poena clericorum ab officio ordinum, vel officiorum, 
+      <lb ed="#S" n="31"/>neficio eclesiastico: vnde per eam videtur interdictus 
+      <lb ed="#S" n="32"/>actus clericorum proprius, non contrarius, sicut 
+       contrahe<lb ed="#S" break="no" n="33"/>re matrimonium, quod est proprium laicorum. Vnde si is, qui 
+      <lb ed="#S" n="34"/>est in minoribs ordinibus constitutus, vel officialis: 
+       su<lb ed="#S" break="no" n="35"/>spensus contrahat sponsalia etiam iuramento, vel matrimo 
+      <lb ed="#S" n="36"/>nium, aut benedicatur contrahens in nullo peccat. Et confir 
+      <lb ed="#S" n="37"/>matur ratio, quia etiam si esset suspensus ab ingressu 
+       eccle<lb ed="#S" break="no" n="38"/>siae: &amp; in egressu ecclesiae, vt moris est in facie ecclesiae de 
+      <lb ed="#S" n="39"/>sponsaret, vel si infra ecclesiam ad altare missam, &amp; benedi 
+      <lb ed="#S" n="40"/>ctionem nuptialem reciperet, non peccaret: quia non est sibi in 
+      <lb ed="#S" n="41"/>gressus ecclesiae interdictus, vt laico, puta, quia potest 
+       transi<lb ed="#S" break="no" n="42"/>re per eam, sed vt clerico tantum: hoc autem non est actus 
+      <lb ed="#S" n="43"/>clerici, sed laici. Vnde suspensus ab ingressu ecclesiae, au 
+      <lb ed="#S" n="44"/>diens in ea missam, vel faciens: quod laicus licite faceret, 
+       ir<lb ed="#S" break="no" n="45"/>regularitatem non incurrit.
+    </p>
+            <p xml:id="khj78y-q99861-d1e466" n="12">
+      <!-- 12 -->Quinta conclusio est de 
+      <lb ed="#S" n="46"/>interdicto. Primo quidem in speciali: quia quibus est 
+       inter<lb ed="#S" break="no" n="47"/>dictum ab ecclesia viua voce matrimonium contrahere, 
+      <lb ed="#S" n="48"/>propter aliquod impedimentum nunciatum, vel aliam 
+       cau<lb ed="#S" break="no" n="49"/>sam, peccant mortaliter contrahendo matrimonium, vel etiam 
+      <lb ed="#S" n="50"/>sponsalia si sit eadem ratio prohibendi, &amp; hoc peccato inobe 
+      <lb ed="#S" n="51"/>dientiae: quia qui potestati resistit Dei ordinationi resistit. 
+      <lb ed="#S" n="52"/>Ro. 13. &amp; Hebrae.
+    </p>
+            <p xml:id="khj78y-q99861-d1e486" n="13">
+      <!--13 -->Obedite praepositis vestris etiam 
+       pro<lb ed="#S" break="no" n="53"/>pter conscientiam. Huius signum est, quod qui contrahunt 
+      <lb ed="#S" n="54"/>contra interdictum ecclesiae excommunicantur: cum tamen excommunicatio 
+      <lb ed="#S" n="55"/>non debeat ferri nisi pro peccato mortali: de interdicto 
+      <lb ed="#S" n="56"/>autem generali dicit Inno. quod matrimonium tempore interdi 
+      <lb ed="#S" n="57"/>cti permittii, cum sit etiam inter infideles: sed secundum Host. 
+      <lb ed="#S" n="58"/>solemnitas suspenditur: vnde tempore interdicti etiam ab 
+       inter<lb ed="#S" break="no" n="59"/>dictis licite possunt sponsalia contrahi, etiam cum iuramen 
+      <lb ed="#S" n="60"/>to: item matrimonium per verba de praesenti, &amp; fieri 
+       ban<lb ed="#S" break="no" n="61"/>na in praedicationibus, vel alter publice non in missa. 
+      <lb ed="#S" n="62"/>Tertio, benedictio nuptialis non debet fieri in loco 
+       in<lb ed="#S" break="no" n="63"/>terdicto, nec in suburbiis, aut coemeterio, vel capella con 
+      <lb ed="#S" n="64"/>tiguis ecclesiae interdictae: sed in loco alio non 
+       interdi<lb ed="#S" break="no" n="65"/>cto de licentia curati vtriusque, vel curati viri tantum, cuius 
+       fo<lb ed="#S" break="no" n="66"/>rum sortitur mulier. de sententia excommunicationis si ciuitas. lib. 6. Non 
+      <lb ed="#S" n="67"/>autem licet solemnem benedictionem recipere tempore interdi 
+      <!--0324.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>cti, etiam in illis quatuor festiuitatibus exceptis. de sententia 
+      <lb ed="#S" n="69"/>exco. c. Alma. quia illa festa non excipiuntur a generali inter 
+      <lb ed="#S" n="70"/>dicto quo ad alia sacramenta, nisi quo ad eucharistiam: vnde 
+       il<lb ed="#S" break="no" n="71"/>lis diebus laicus moriens non esset inungendus, nec ali 
+      <lb ed="#S" n="72"/>quis in acolythum tempore interdicti ordinandus. sed 
+       il<lb ed="#S" break="no" n="73"/>Iud habet duplicem instantiam: quia concesso principali 
+      <lb ed="#S" n="74"/>conceditur accessorium: vnde tempore interdicti sicut 
+       con<lb ed="#S" break="no" n="75"/>ceduntur baptismus, &amp; confirmatio: sic confectio chrisma 
+      <lb ed="#S" n="76"/>tis, &amp; alia sacramentalia horum. de sententia excommunicationis c. Qm̃. lib. 6. Vnde 
+      <lb ed="#S" n="77"/>cum benedictio nuptialis sit quoddam accessorium, &amp; sacramenta 
+      <lb ed="#S" n="78"/>le matrimonij postquam illud conceditur tempore interdicti 
+      <lb ed="#S" n="79"/>&amp; istud.
+    </p>
+            <p xml:id="khj78y-q99861-d1e554" n="13">
+      <!-- 13 -->solutio, hoc est, quia illa sacramenta sunt magis 
+      <lb ed="#S" n="80"/>spiritualia, quae sua sacramentalia, nec confirmatio posset esse sine 
+      <lb ed="#S" n="81"/>chrismate, nec baptismus decenter: hic autem 
+       matrimoni<lb ed="#S" break="no" n="82"/>um est de se quid carnale: licet vt sacramentum, sit quid spirituale, 
+      <lb ed="#S" n="83"/>nec ad eius essentiam requiritur benedictio: ideo non est 
+       si<lb ed="#S" break="no" n="84"/>mile. Alia instantia est, quia quando terra est interdicta 
+      <lb ed="#S" n="85"/>non populus, est benedictum illud: quando autem populus, 
+      <lb ed="#S" n="86"/>qui vbique est prohibitus a diuinis: tunc nusquam debet 
+       be<lb ed="#S" break="no" n="87"/>nedictionem recipere, quae est propria Christianis: sed 
+       matri<lb ed="#S" break="no" n="88"/>monium vbique contrahere potest, quod est etiam Paganorum. 
+    </p>
+            <p xml:id="khj78y-q99861-d1e579" n="14">
+               <lb ed="#S" n="89"/>
+               <!-- 14 -->sexta conclusio est de matrimonio spirituali, quod est 
+      <lb ed="#S" n="90"/>professio religionis: quia excommunicatus maiori potest se ve 
+      <lb ed="#S" n="91"/>re obligare religioni per professionem: quia licet sibi non pos 
+      <lb ed="#S" n="92"/>sit acquiri beneficium ecclesiasticum: quia non est volutas Pa 
+      <lb ed="#S" n="93"/>pae, contra quam nullum beneficium potest conferri: tamen professio 
+      <lb ed="#S" n="94"/>innitit voluntati hominum, per quam sibi mutuo obligantur: 
+       pec<lb ed="#S" break="no" n="95"/>cat tamen mortaliter, qui sciens hoc facit, vel qui sciens reci 
+      <lb ed="#S" n="96"/>pit, si est excommunicatus maiori, cum hoc sit immiscere se 
+      <lb ed="#S" n="97"/>diuinis, &amp; participare. si autem minori, vel suspensus, aut 
+      <lb ed="#S" n="98"/>interdictus non videt mortale, cum non sit sacramentum. simili 
+      <lb ed="#S" n="99"/>ter per votum simplex potest se obligare, nec peccat, sicut nec 
+      <lb ed="#S" n="100"/>solus dicendo horas, etiam ligatus maiori. sed ligatus maio 
+      <lb ed="#S" n="101"/>ri nec alij promittere potest, ut videtur sine mortali, nec 
+       a<lb ed="#S" break="no" n="102"/>lius scienter recipere: quamuis teneat obligatio: quia iurare 
+      <lb ed="#S" n="103"/>&amp; promittere tale quid, videt diuinum, in quo 
+       communica<lb ed="#S" break="no" n="104"/>re est mortale.
+    </p>
+            <p xml:id="khj78y-q99861-d1e618" n="15">
+      <!--15-->Quantum ad tertium articulum 
+       principa<lb ed="#S" break="no" n="105"/>lem sunt tres conclusiones. Prima in speciali de 
+       meretri<lb ed="#S" break="no" n="106"/>ce. Quia enim matrimonium dicit quasi matrem monens, 
+      <lb ed="#S" n="107"/>vt caste viuat: quaerit <name xml:id="khj78y-q99861-Nd1e628">Host.</name> nunquid meretrix potest contrahe 
+      <lb ed="#S" n="108"/>re: &amp; dicit quod sic, si se vellet corrigere. 23. q. 1. Non est cul 
+      <lb ed="#S" n="109"/>pandum, extra eo. inter opera. secus si non sit corrigibilis. 
+      <lb ed="#S" n="110"/>32. q. 1. c. 1. Quod est verum de possibilitate iuris, quia 
+       ali<lb ed="#S" break="no" n="111"/>ter peccatum est eam ducere, vel ei nubere: sed non est de pos 
+      <lb ed="#S" n="112"/>sibilitate facti: quia verum est matrimonium etiam inter eos, q 
+      <lb ed="#S" n="113"/>non intendunt continere. Licet autem bigamiam contrahant, 
+      <lb ed="#S" n="114"/>qui publicas meretrices duxerunt: si tum hoc fecerunt 
+       inten<lb ed="#S" break="no" n="115"/>tione tetrahendi eas a peccato, in remissionem eis profecit pec 
+      <lb ed="#S" n="116"/>catorum, extra eo. Inter opera.
+    </p>
+            <p xml:id="khj78y-q99861-d1e651" n="16">
+      <!--16. -->secunda conclusio est 
+      <lb ed="#S" n="117"/>generalis, quod in omnibus sacramentis quando habent intentionem per 
+      <lb ed="#S" n="118"/>ficiendi sacim, hi qui ipsum celebrant, licet habeant 
+       in<lb ed="#S" break="no" n="119"/>tentionem abutendi ipso verum sacim est, sicut eius, qui 
+       ce<lb ed="#S" break="no" n="120"/>lebrat ad sortilegium inde faciendum. Et similiter si 
+       contra<lb ed="#S" break="no" n="121"/>hentes intendant verum matrimonium contrahere: licet inten 
+      <lb ed="#S" n="122"/>dant aliquid contrariu bonis matrimonij, cum quo tamen 
+       ve<lb ed="#S" break="no" n="123"/>ritas matrimonij stare potest, verum est matrimonium, si illud 
+      <lb ed="#S" n="124"/>sit honestum: verbi gratia, si intendat verum matrimonium 
+      <lb ed="#S" n="125"/>contrahere: tamen non intendit renuciare iuri suo, quin si sibi 
+      <lb ed="#S" n="126"/>bonum visum fuerit ante matrimoniu consummatum intres 
+      <lb ed="#S" n="127"/>religionem: quod est contra indiuisibilitatem sacramenti: quia 
+      <lb ed="#S" n="128"/>per hoc soluitur vinculum, nihilominus valet matrimo 
+      <lb ed="#S" n="129"/>niu, &amp; sic videt loqui, extra eo. commissum, quamuis Host. 
+      <lb ed="#S" n="130"/>dicat oppositum. Non enim oportet, quod contrahens 
+       renun<lb ed="#S" break="no" n="131"/>ciet omnibus pribilegiis suis, &amp; iuribus: quod oporteres 
+      <lb ed="#S" n="132"/>si dum suspirat ad religionem contrahit. Alias in tali 
+       suspi<lb ed="#S" break="no" n="133"/>rio nunquam posset contrahere: praesertim quia ista, quae ipse 
+      <lb ed="#S" n="134"/>intendit, bene stant cum essentia matrimonij. Vera enim 
+      <!--0325.xml-->
+      <pb ed="#S" n="325"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>vxor est, quae propter adulterium abiicitur: &amp; fuit, quae 
+       pro<lb ed="#S" break="no" n="2"/>pter religionem ante copulam dimittitur.
+    </p>
+            <p xml:id="khj78y-q99861-d1e706" n="17">
+      <!-- 17 -->Tertia con 
+      <lb ed="#S" n="3"/>clusio est, quod idem est in intentione inhonesta, non tamen ex 
+      <lb ed="#S" n="4"/>pressa: vt si intendat procurare venena sterilitatis: semen 
+      <lb ed="#S" n="5"/>fundere, aut pro quaestu vxorem exponere, quia ista stant cum 
+      <lb ed="#S" n="6"/>essentia matrimonij. Multa enim vera matrimonia 
+       ca<lb ed="#S" break="no" n="7"/>rent tribus bonis. Vnde etiam matrimonium contractum pro 
+      <lb ed="#S" n="8"/>pter causam inhouestam indistincte dicitur valere, licet 
+       exem<lb ed="#S" break="no" n="9"/>plificet de illis tantum inhonestis, quae non sunt contra matri 
+      <lb ed="#S" n="10"/>monij bona.
+    </p>
+            <p xml:id="khj78y-q99861-d1e728" n="18">
+      <!-- 18 -->Ad argumentum in oppositum est dicendum 
+      <lb ed="#S" n="11"/>ad primum: quod Deo coniungitur dupliciter: vno modo secun 
+      <lb ed="#S" n="12"/>dum habitu gratiae, &amp; charitatis, &amp; quod separat hanc con 
+      <lb ed="#S" n="13"/>iunctionem est peccatum etiam mortale. Alio modo secundum 
+      <lb ed="#S" n="14"/>actum contemplationis, &amp; dilectionis, &amp; haec coniunctio 
+      <lb ed="#S" n="15"/>potest separari per aliquid, quod non est peccatum. s per solam 
+      <lb ed="#S" n="16"/>occupationem animi circa res exteriores quantumcumque licitas. 
+      <lb ed="#S" n="17"/>Prima coniunctio non separatur per actum matrimonij: sed 
+      <lb ed="#S" n="18"/>secunda tum, quia in eo deprimit mens, &amp; quasi absorbetur: 
+      <lb ed="#S" n="19"/>Et ideo populo, qui debebat Deum videre, praeceptum 
+      <lb ed="#S" n="20"/>fuit non accedere ad vxores. Ad secundum dicendum, quod 
+      <lb ed="#S" n="21"/>illud, quod excusatur a tauto, &amp; non a toto est malu in 
+      <lb ed="#S" n="22"/>aliquo, quod autem excusatur a toto nullo modo est 
+       ma<lb ed="#S" break="no" n="23"/>lum: sed habet aliquam mali similitudinem, propter quod 
+      <lb ed="#S" n="24"/>indiget excusatione. Et quia actus matrimonialis in 
+       nul<lb ed="#S" break="no" n="25"/>lo est malus: habet tamen similitudinem cum actu fornicatio 
+      <lb ed="#S" n="26"/>nis: cum sint idem specie naturae: ideo dicitur excusari 
+      <lb ed="#S" n="27"/>per bona matrimonij, quae sunt debitae circunstantiae.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

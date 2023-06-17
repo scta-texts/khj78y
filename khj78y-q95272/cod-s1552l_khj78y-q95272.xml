@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="309"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q95272"><!-- l4d25-q2 -->
+            <head xml:id="khj78y-q95272-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q95272-Hd1e103" type="question-title">
+     de tempore 
+       ordinandorum, et in speciali causa quaeritur, 
+     utrum curatus teneatur infra annum ad 
+       sacerdotium promoueri
+   </head>
+            <p xml:id="khj78y-q95272-d1e106">
+               <lb ed="#S" n="129"/>QVAESTIO sECVNDA. 
+    </p>
+            <p xml:id="khj78y-q95272-d1e111">
+               <lb ed="#S" n="130"/>De tempore ordinandorum.
+    </p>
+            <p xml:id="khj78y-q95272-d1e116">
+      <!--0310.xml-->
+               <pb ed="#S" n="310"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>SECVNDO quaeritur de tempore 
+       ordi<lb ed="#S" break="no" n="2"/>nandorum, &amp; in speciali causa quaeritur, 
+      <lb ed="#S" n="3"/>vtrum curatus teneatur infra annum ad 
+       sa<lb ed="#S" break="no" n="4"/>cerdotium promoueri. Et videtur quod sic. 
+       Alio<lb ed="#S" break="no" n="5"/>quin ipso iure vacat beneficium. de elec. c. 
+      <lb ed="#S" n="6"/>Licet canon. Iib. 6.
+    </p>
+            <p xml:id="khj78y-q95272-d1e139" n="2">
+      <!-- 2 -->Contra de plebano. e. tit. c. 
+       sta<lb ed="#S" break="no" n="7"/>tutum.
+    </p>
+            <p xml:id="khj78y-q95272-d1e146" n="3">
+      <!-- 3 -->Respondeo, hic videnda sunt quinque. Primo 
+      <lb ed="#S" n="8"/>est de necessitate ad ordines. secundo, de tempore 
+       ordi<lb ed="#S" break="no" n="9"/>nandorum. Tertio, de tempore ipsorum ordinum inse. Quar 
+      <lb ed="#S" n="10"/>to, de aetate beneficiatorum. Quinto, de tempore, infra quod 
+      <lb ed="#S" n="11"/>curatus debet ordinari.
+    </p>
+            <p xml:id="khj78y-q95272-d1e159" n="4">
+      <!-- 4 -->Quantum ad primum sunt 
+      <lb ed="#S" n="12"/>tres conclusiones. Prima de coactione facti, vbi sciendum, 
+      <lb ed="#S" n="13"/>quod de necessitate absoluta nullus ad ordinem cogi potest, 
+      <lb ed="#S" n="14"/>sicut nec ad baptismum: &amp; si omnino inuitus ordinetur, 
+       ni<lb ed="#S" break="no" n="15"/>hil recipit de baptismo. c. Maiori. sed voluntate conditio 
+      <lb ed="#S" n="16"/>nata aliquis cogi pont: &amp; sic metu consentiens est, recipit 
+      <lb ed="#S" n="17"/>characterem, quia coacta voluntas, voluntas est, sed non 
+      <lb ed="#S" n="18"/>gratiam: quia fictus est, cum sit inuoluntarius, &amp; per consequens 
+      <lb ed="#S" n="19"/>etiam indeuote accedit: sed exequutionem recipit: nisi aliud 
+      <lb ed="#S" n="20"/>impediat: quia non est ius aliquod, quod ipsum suspendat. 
+      <lb ed="#S" n="21"/>Neutro autem modo ad suscipiendu aliquod sacramentum aliqs 
+      <lb ed="#S" n="22"/>est cogendus in se, licet in suis filiis ad suscipiendum 
+       baptis<lb ed="#S" break="no" n="23"/>mum cogendi essent a principibus mali Christani, vel hae 
+      <lb ed="#S" n="24"/>retici, vt suos filios, quos occultant, traderent ecclesiae ba 
+      <lb ed="#S" n="25"/>ptizandos, sicut cum vi armorum Macchabaei pueros circum 
+      <lb ed="#S" n="26"/>cidebant, forte inuitis non solum gentilibus, sed patribus, 
+      <lb ed="#S" n="27"/>qui sibi praeputia fecerant ad ritum gentilium transeuntes. 
+    </p>
+            <p xml:id="khj78y-q95272-d1e198" n="5">
+               <lb ed="#S" n="28"/>
+               <!-- 5 -->secunda conclusio est de coactione conditionata per 
+      <lb ed="#S" n="29"/>poenam iuris inferendam propter ecclesiae necessitatem. Vbi 
+      <lb ed="#S" n="30"/>videt, quod cum ad bonum regimen ecclesiae magis sit 
+       obedien<lb ed="#S" break="no" n="31"/>dum praesidenti in spiritualibus, quantum ad bonum regimen: 
+      <lb ed="#S" n="32"/>in temporalibus praesidenti in eis: &amp; sic cum vtilitas 
+       publi<lb ed="#S" break="no" n="33"/>ca praeferenda sit priuatae, sicut aliquis cogitur suscipere 
+       tu<lb ed="#S" break="no" n="34"/>telam, vel curam pupilli, vel adulti furiosi, vel prodigi: quia 
+      <lb ed="#S" n="35"/>hoc reipublicae interest: multo magis officium iudicandi 
+      <lb ed="#S" n="36"/>in republica debet esse necessarium: vt puta, quod sit praeposi 
+      <lb ed="#S" n="37"/>tus, vel balliuus, si res publica indigeat, pro cuius salute 
+      <lb ed="#S" n="38"/>bonus ciuis debet etiam se morti exponere: sicut natura 
+      <lb ed="#S" n="39"/>brachium opponit pro corpore: multomagis si ecclesia in 
+      <lb ed="#S" n="40"/>diget tali, quod sit curatus, vel epraes, potest ad hoc per superiorem 
+      <lb ed="#S" n="41"/>cogi per praeceptum, &amp; excommunicationem: sicut aliqui 
+       hae<lb ed="#S" break="no" n="42"/>remitae per epos sunt compulsi, &amp; tenent obedire: quia secun 
+      <lb ed="#S" n="43"/>dum Gregoriu summum pastorem conuincitur non amare qui 
+      <lb ed="#S" n="44"/>eius gregem renuit pascere, qui dicit: Pasce oues meas, &amp; 
+      <lb ed="#S" n="45"/>pasce agnos meos.
+    </p>
+            <p xml:id="khj78y-q95272-d1e242" n="6">
+      <!-- 6 -->Tertia conclusio est de 
+       coactio<lb ed="#S" break="no" n="46"/>ne conditionata, &amp; consequutiua per priuationem a 
+       bene<lb ed="#S" break="no" n="47"/>ficio per sniam hominis, nisi excepto eo, quod postea de 
+      <lb ed="#S" n="48"/>simplici curato dicet.
+    </p>
+            <p xml:id="khj78y-q95272-d1e253" n="7">
+      <!-- 7 -->sciendum, quod si aliquis habeat 
+      <lb ed="#S" n="49"/>beneficium requirens ordinem de iure, vel consuetudine, 
+       mo<lb ed="#S" break="no" n="50"/>nendus est, vt se faciat promoueri, sicut beneficium 
+       requi<lb ed="#S" break="no" n="51"/>rit, puta, si archidiaconus est ad diaconatum: si decanus 
+      <lb ed="#S" n="52"/>abbas, &amp; huiusmodi: aut praebenda, quae sit sacerdotalis, ad prei 
+      <lb ed="#S" n="53"/>byteratum. Quod si monitus canonice infra debitum tempus 
+      <lb ed="#S" n="54"/>non fecerit, iusto impedito cessante, beneficio 
+       priuan<lb ed="#S" break="no" n="55"/>dus est. de elec Cum in cunctis. excepto eo, quod ibi de 
+      <lb ed="#S" n="56"/>epo dicit. si autem habet impedimentum aut temporale, aut 
+      <lb ed="#S" n="57"/>perpetuum. si temporale puta infirmus, quandiu durat, est 
+      <lb ed="#S" n="58"/>excusatus, illo cessante idem, quod prius. si autem habet 
+      <lb ed="#S" n="59"/>impedimentum perpetuum, aut praecessit collationem benefi 
+      <lb ed="#S" n="60"/>cij, &amp; fuit tale, quod non est sibi ius acquisitum: &amp; tunc siue 
+      <lb ed="#S" n="61"/>sciuit, siue ignorauit, priuandus est de facto, sicut de facto 
+      <lb ed="#S" n="62"/>tenet: puta, quia homicida, vel illegitimus, &amp; nesciebat, vel 
+      <lb ed="#S" n="63"/>aliquid huiusmodi. si aute fuit tale impedimentum, quod ius fuit 
+      <lb ed="#S" n="64"/>sib i acquisitum, si sciuit, &amp; tacuit, debet auferri, tanquam ab in 
+      <lb ed="#S" n="65"/>digno, si ignorauit idem, ac si superuenisset: quia bona fide, 
+      <lb ed="#S" n="66"/>&amp; iusto titulo adeptus, sine culpa sua priuari non debet. 
+      <lb ed="#S" n="67"/>si autem superuenit sine culpa sua: quia mutilatus fuit in 
+      <!--0310.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>naso, vel oculo, aut factus leprosus, afflictio non est dan 
+      <lb ed="#S" n="69"/>da afflicto: &amp; tunc non debet priuari, sed de reditibus 
+      <lb ed="#S" n="70"/>vicarius sustentari, vel alius assignari: &amp; ipse de reditibus 
+      <lb ed="#S" n="71"/>ipsis sustentari. si autem culpa sua: vt quia se castrauit, vt Ori 
+      <lb ed="#S" n="72"/>genes, vel culpa sua depraehensus in stupro castratus fuit, 
+      <lb ed="#S" n="73"/>debet priuari: quia damnum, quod quis culpa sentit, sentire 
+      <lb ed="#S" n="74"/>non videt. sic intelliguntur iura de corpore vitiatis, &amp; de 
+      <lb ed="#S" n="75"/>clerico aegrotante per totum.
+    </p>
+            <p xml:id="khj78y-q95272-d1e322" n="8">
+      <!-- 8 -->Quantum ad secundum. scilicet de 
+      <lb ed="#S" n="76"/>tempore ordinandorum, sunt sex conclusiones. Prima, quod a se 
+      <lb ed="#S" n="77"/>ptemnio, &amp; supram potest dari corona: qui vero ante eam confert 
+      <lb ed="#S" n="78"/>per annum est suspensus a collatione tonsurae. de tem. or 
+      <lb ed="#S" n="79"/>di. ca. vl. li. vi. quicumque sit ille, qui potest coronam dare, nisi 
+      <lb ed="#S" n="80"/>forte religionem intraret, vt ibi dicit. Infans enim, qui ibi 
+      <lb ed="#S" n="81"/>ponit septem annorum intelligitur. C. de iure deli. l. si 
+       infan<lb ed="#S" break="no" n="82"/>ti.
+    </p>
+            <p xml:id="khj78y-q95272-d1e342" n="9">
+      <!-- 9 -->secunda est de minoribusordinibus, qui dari non 
+      <lb ed="#S" n="83"/>debent, nisi iam habenti vsum rationis circa nouem, vel de 
+      <lb ed="#S" n="84"/>cem annos: sed non oportet, quod sit pubes, quia non est hoc 
+      <lb ed="#S" n="85"/>praeiudicium voti castitatis: &amp; pari passu currunt minores 
+      <lb ed="#S" n="86"/>ordines, &amp; beneficium simplex. de filiis presbyterorum. c. 1. 
+      <lb ed="#S" n="87"/>lib. 6. Illud autem conferri potest pupillo, vt statim dicetur. 
+    </p>
+            <p xml:id="khj78y-q95272-d1e358" n="10">
+               <lb ed="#S" n="88"/>
+               <!-- 10 -->Tertia est de subdiaconatu, qui non debet conferri ni 
+      <lb ed="#S" n="89"/>si puberi in. 14 anno existenti: quia per votum continentiae ob 
+      <lb ed="#S" n="90"/>ligat: vnde debet esse tam firmae aetatis, quasi deberet con 
+      <lb ed="#S" n="91"/>trahere: quia contraria nata sunt fieri circa idem. Puberes 
+      <lb ed="#S" n="92"/>autem sunt apti ad vota, &amp; ad iuramenta, &amp; non pupilli. C. 
+      <lb ed="#S" n="93"/>si aduersus rem. Auth. sacramenta.
+    </p>
+            <p xml:id="khj78y-q95272-d1e376">
+      <!--11--> Quarta est de 
+      <lb ed="#S" n="94"/>diaconatu, quia diaconus ante. 20. annum ordinari non 
+      <lb ed="#S" n="95"/>debet.
+    </p>
+            <p xml:id="khj78y-q95272-d1e385" n="12">
+      <!-- 12 -->Quinta est de presbyteratu, quia presbyter 
+      <lb ed="#S" n="96"/>ante. 26. annum non debet ordinari.
+    </p>
+            <p xml:id="khj78y-q95272-d1e392" n="13">
+      <!-- 13 -->Sexta est de 
+      <lb ed="#S" n="97"/>epatu, quod episcopus non debet ordinari ante. 30. annum. Et qui 
+      <lb ed="#S" n="98"/>dem subdiaconus olim ante. 20. annum ordinari non 
+       de<lb ed="#S" break="no" n="99"/>bebat. 28. dist. de his. 77. di. c. In singulis. &amp;. c. Quicumq. 
+      <lb ed="#S" n="100"/>&amp;. c. subdiaconus. sed hodie sufficit, quod habeat. 14. annos 
+      <lb ed="#S" n="101"/>vt in vlt. c. huius di. dicitur. Olim etiandiaconus non ante 
+      <lb ed="#S" n="102"/>25. annum: nec presbyter ante. 30. vt hic dicit. &amp;. 77. dist. 
+      <lb ed="#S" n="103"/>Placuit. &amp; dictis c. sed hodie sufficit in sacerdote non epo 
+      <lb ed="#S" n="104"/>quod habeant. 25. &amp; pari ratione in diacono, quod habeat. 20. 
+      <lb ed="#S" n="105"/>de elec. cum in cunctis. sed in epo oportet, quod peregerit, in 
+       a<lb ed="#S" break="no" n="106"/>liis sufficit attigisse. sed de ordinato in diaconum in. 13. 
+      <lb ed="#S" n="107"/>anno dicitur, extra de tem, ordi. c. vlti. Non est compos, 
+      <lb ed="#S" n="108"/>quod epraes debet suspendi a collatione omnium ordinum: &amp; ordina 
+      <lb ed="#S" n="109"/>tus ibi suspenditur videlicet ad debitam aetatē.
+    </p>
+            <p xml:id="khj78y-q95272-d1e426" n="14">
+      <!-- 14 -->Quan 
+      <lb ed="#S" n="110"/>tum ad tertium. scilicet de temporibus ordinum sunt quinque 
+       conclu<lb ed="#S" break="no" n="111"/>fiones. Prima de corona, quae omni die dari pont: quia non 
+      <lb ed="#S" n="112"/>est prohibitum, &amp; nihilominus omnis  ordo etiam extra tempus 
+      <lb ed="#S" n="113"/>collatus charactorem imprimit. de tem. ordi. cap. 
+       Consul<lb ed="#S" break="no" n="114"/>tum.
+    </p>
+            <p xml:id="khj78y-q95272-d1e442" n="15">
+      <!-- 15 -->secunda conclusio est de minoribus ordinibus, 
+      <lb ed="#S" n="115"/>qui possunt dari diebus Dominicis, &amp; festis praecipuis, &amp; 
+       mul<lb ed="#S" break="no" n="116"/>to magis illis temporibus, quibus masores ordines: &amp; omnes 
+      <lb ed="#S" n="117"/>quatuor simul vna die possunt suscipi, de tempore ordi. c. 
+      <lb ed="#S" n="118"/>1. vbi etiam dicit, quod Dominicis diebus possunt virgines conse 
+      <lb ed="#S" n="119"/>crari, de diebusfestiuis. e tit. c. de eo.
+    </p>
+            <p xml:id="khj78y-q95272-d1e458" n="16">
+      <!-- 16 -->Tertia 
+       con<lb ed="#S" break="no" n="120"/>clusio est de sacramentis ordinibus, qui non possunt dari nisi 
+      <lb ed="#S" n="121"/>in sabbatis quatuor temporum, &amp; in vigilia Paschae, &amp; 
+       Domini<lb ed="#S" break="no" n="122"/>ca in Passione: non autem in vigilia Pentecostes, net in 
+      <lb ed="#S" n="123"/>quibuscunque festis, nisi quod Papa subdiaconos facit in die 
+      <lb ed="#S" n="124"/>bus Dominicis, de tempori: ordi. c. 1. &amp;. 2.
+    </p>
+            <p xml:id="khj78y-q95272-d1e474" n="17">
+      <!-- 17 -->Quarta 
+       con<lb ed="#S" break="no" n="125"/>clufio est de simultate ordinum, quia non debent dari duo 
+      <lb ed="#S" n="126"/>ordines sacri simul, nec aliquis sacer, cum non sacro, nec 
+      <lb ed="#S" n="127"/>vnus sacer vno die, &amp; alius in alio. s in crastino etiam 
+       con<lb ed="#S" break="no" n="128"/>tinuato ieiunio: licet continuato ieiunio sabbato ordi 
+      <lb ed="#S" n="129"/>natus, in saterdotem sequenti die Dominica posait consecrari 
+      <lb ed="#S" n="130"/>in episcopum dictotit. c. Ac literas. &amp;. c. Dilecti filij. ordinatus 
+      <lb ed="#S" n="131"/>autem extra tempus debitum recipit characterem: sed non 
+       exe<lb ed="#S" break="no" n="132"/>quutionem secundum quosdam, sed magis videtur suspenden 
+      <lb ed="#S" n="133"/>dus, quae suspensus. extra. e. corsultu. Non debet autem ordina 
+      <lb ed="#S" n="134"/>tus in subdiaconum a Papa subordinari ab inferiori, nisi- 
+      <!--0311.xml-->
+      <pb ed="#S" n="311"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>de licentia Papae. extra. eod. titu. Cum in distribuendis. 
+    </p>
+            <p xml:id="khj78y-q95272-d1e509" n="18">
+               <lb ed="#S" n="2"/>
+               <!-- 18 -->Quinta conclusio est de consecratione episcopi,  quae 
+       de<lb ed="#S" break="no" n="3"/>bet semper esse in die Dominica: minores autem ordines qum 
+      <lb ed="#S" n="4"/>conferuntur extra tempus maiorum ordinum, debent conferri pau 
+      <lb ed="#S" n="5"/>cis, puta duobus, vel tribus, &amp; non multis simul, sicut fit 
+      <lb ed="#S" n="6"/>am sabbatis orationum, vt innuitur. extra e. De eo. Dedicatio 
+      <lb ed="#S" n="7"/>autem ecclesiae omni die fieri potest, sicut de consuetudine 
+       pa<lb ed="#S" break="no" n="8"/>tet.
+    </p>
+            <p xml:id="khj78y-q95272-d1e529" n="19">
+      <!-- 19 -->Quantum ad quartum. scilicet de tempore 
+       beneficiando<lb ed="#S" break="no" n="9"/>rum sunt tres conclusiones. Prima de simplici beneficio. 
+      <lb ed="#S" n="10"/>si enim sit simpler beneficium, sufficit, quod sit maior 
+       septen<lb ed="#S" break="no" n="11"/>nio: quia pupillus potest esse canonicus etiam in ecclesia cathe 
+      <lb ed="#S" n="12"/>drali, licet non habeat vocem in electione, de elec. c. Ex eo. 
+      <lb ed="#S" n="13"/>lib. 6. tum quamuis iure humano non irritetur talis collatio: 
+      <lb ed="#S" n="14"/>tamen iure diuino illicitum est dare talia beneficia talibus: 
+      <lb ed="#S" n="15"/>nisi quando alij non inueniuntur: quia contra iustitiandistributiuam 
+      <lb ed="#S" n="16"/>est, si datur minus digno, quamuis autem iste puer non sit in 
+      <lb ed="#S" n="17"/>dignus positiue propter defectum vitae, quia est innocens, 
+       re<lb ed="#S" break="no" n="18"/>spectu tamen illius est indignus, qui habet vitam, &amp; scientiam, 
+      <lb ed="#S" n="19"/>quae statim potest prodesse ecclesiae. Et ideo iste est indignus 
+      <lb ed="#S" n="20"/>quia, alius est dignior: vnde contento meliore, sanctiore, 
+      <lb ed="#S" n="21"/>iustiore, dare alteri est graue peccatum, vt dicit Aug. super Ia 
+      <lb ed="#S" n="22"/>co. 2.
+    </p>
+            <p xml:id="khj78y-q95272-d1e565" n="20">
+      <!-- 20 -->secunda conclusio est de dignitate non 
+       ha<lb ed="#S" break="no" n="23"/>bente curam animarum, in qua potest epraes dispensare cum illo, 
+      <lb ed="#S" n="24"/>qui compleuit. 20. annum, de aeta. &amp; quali. c. 1. lib. 6. Et sic 
+      <lb ed="#S" n="25"/>etiam archidiaconatus potest dari tali: quia non habet curam 
+      <lb ed="#S" n="26"/>animarum in foro poenitentiae, vt oporteat esse sacerdotem, qui 
+       re<lb ed="#S" break="no" n="27"/>quirit. 25. annos, sed solum in exteriori foro, &amp; oportet eum 
+      <lb ed="#S" n="28"/>am̃ esse diaconum, ad quod sufficiunt. 20. anni: vt sit minus, 
+      <lb ed="#S" n="29"/>quam sacerdos. sed quamuis alias minor. 25. annis: non 
+       de<lb ed="#S" break="no" n="30"/>beat iudex esse: gotest tamen esse archidiaconus, quod est 
+       es<lb ed="#S" break="no" n="31"/>se iudicem de consuetudine: vnde dicendum, quod hoc non est de 
+      <lb ed="#S" n="32"/>de iure communi, sed de dispensatione opi a Papa 
+       permis<lb ed="#S" break="no" n="33"/>sa.
+    </p>
+            <p xml:id="khj78y-q95272-d1e594" n="21">
+      <!-- 21 -->Tertia conclusio est de cura animarum, ad quam 
+      <lb ed="#S" n="34"/>debet habere homo. 25. annos: sed ad epatum. 30. vt 
+       di<lb ed="#S" break="no" n="35"/>ctum est. In prima autem non potest epraes dispensare, sed est ipso 
+      <lb ed="#S" n="36"/>iure nulla collatio parochiae facta illi, qui non attingit 
+      <lb ed="#S" n="37"/>25. annum: imo etiam commenda ecclesiae facta non habenti 
+      <lb ed="#S" n="38"/>illam aetatem. de elec. c. Licet canon. 6. decernentes. &amp;. c. se. 
+      <lb ed="#S" n="39"/>Papa vero licet posiit dispensare, non tamen intendit, nisi expri 
+      <lb ed="#S" n="40"/>mat: vnde qui impetrauit beneficium, cum cura, vel sine 
+       cu<lb ed="#S" break="no" n="41"/>ra, nisi tempore rescripti haberet. 25. annos, non potest sibi 
+      <lb ed="#S" n="42"/>prouideri de beneficio cum cura: de rescript. c. si co 
+       tempo<lb ed="#S" break="no" n="43"/>re. Contingit autem cum quidam per tale rescriptum per duos 
+      <lb ed="#S" n="44"/>annos beneficium cum cura recepisset, obiectum esse sibi, quod 
+      <lb ed="#S" n="45"/>non habuisset aetatem legitimam, &amp; testibus hinc inde 
+       pro<lb ed="#S" break="no" n="46"/>ductis, iudex pronunciauit ipsum aetatem legitimam 
+       habuis<lb ed="#S" break="no" n="47"/>se. Respondi in dubio standum esse sniae: &amp; ex quo non est 
+      <lb ed="#S" n="48"/>certum de opposito, debet praesumere, quod testes non peiera 
+      <lb ed="#S" n="49"/>uerunt amore eius, nec iudex male iudicauit. si autem 
+      <lb ed="#S" n="50"/>non potest conscientiam deponere, quin tempore rescripti fue 
+      <lb ed="#S" n="51"/>rit minor annis, tenetur resignare: quia conscientia 
+       di<lb ed="#S" break="no" n="52"/>ctat nullum ius sibi quaesitum esse.
+    </p>
+            <p xml:id="khj78y-q95272-d1e640" n="22">
+      <!-- 22 -->Quantum ad 
+       quin<lb ed="#S" break="no" n="53"/>tum de tempore. scilicet infra, quod curatus debet ordinari, sunt 
+      <lb ed="#S" n="54"/>tres conclusiones. Prima, quod iure nouo potest per epraem cum 
+      <lb ed="#S" n="55"/>curatis dispensari, vt literarum studio insistens infra annum 
+      <lb ed="#S" n="56"/>non teneat, nisi ad subdiaconatum promoueri: sed post 
+       se<lb ed="#S" break="no" n="57"/>ptennium infra annum debet quilibet ad sacerdotium promo 
+      <lb ed="#S" n="58"/>ueri: ita quod primo anno fuerit ordinatus in subdiaconum: 
+      <lb ed="#S" n="59"/>&amp; infra octauum in sacerdotem, epraeo sic dispensante vacat 
+      <lb ed="#S" n="60"/>ipso iure ecclesia: sed etiam nisi epraes cum eo dispensaret, vel 
+      <lb ed="#S" n="61"/>si dispensaretur, &amp; ille literarum studio non insisteret, cum 
+       ali<lb ed="#S" break="no" n="62"/>ter epraes non habeat potestatem dispensandi, teneret infra an 
+      <lb ed="#S" n="63"/>num ordinari in totum: alias ipso iure est priuatus. de elec. 
+      <lb ed="#S" n="64"/>Cum ex eo. lib. 6.
+    </p>
+            <p xml:id="khj78y-q95272-d1e671" n="23">
+      <!-- 23 -->secunda conclusio est, quod quamuis 
+      <lb ed="#S" n="65"/>transeat tantum de illo tempore, quod illo anno, quo debet non 
+      <lb ed="#S" n="66"/>possit fieri subdiaconus, vel sacerdos: non tamen vacat vsque 
+      <lb ed="#S" n="67"/>anno elapso, &amp; facere fructus suds, si habuit a principio 
+      <!--0311.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>intentionem ordinandi: alias non nisi mutato proposito se se 
+      <lb ed="#S" n="69"/>cerit ordinari. Et qui scienter sic affecto dedit, tenetur 
+       eccle<lb ed="#S" break="no" n="70"/>siam seruare indemnem. Annus autem pro subdiaconatu, vel 
+      <lb ed="#S" n="71"/>sacerdotio non currit, nisi a tempore, quo fult in possessio 
+      <lb ed="#S" n="72"/>ne pacifica, vel per eum stetit, ex tunc etiam est annus 
+       vti<lb ed="#S" break="no" n="73"/>lis: quia non currit nisi iusto impedimento cessante. Non 
+      <lb ed="#S" n="74"/>potest autem sibi conferri ecclesia sic vacans illa vice. i. illa va 
+      <lb ed="#S" n="75"/>catione. si enim det alicui non acceptanti, adhuc vacat 
+      <lb ed="#S" n="76"/>prima vice vacandi, &amp; sic enim non potest conferri prima 
+       vi<lb ed="#S" break="no" n="77"/>ce. similiter si faciat illi dari, qui statim renunciauit in 
+      <lb ed="#S" n="78"/>fraudem, sic licet secundo vacet isto resignante non valet quo 
+      <lb ed="#S" n="79"/>ad Deum: sed si bona fide alteri collata, illo mortuo, vel 
+      <lb ed="#S" n="80"/>deposito, aut renunciante, vacauerit secundo: tunc potest 
+      <lb ed="#S" n="81"/>ei conferri: quia non est prohibitum. de elec. c. commissa. lib. 6. 
+    </p>
+            <p xml:id="khj78y-q95272-d1e717" n="24">
+               <lb ed="#S" n="82"/>
+               <!-- 24 -->Tertia conclusio est, de cura non simplici in ecclesiis colle 
+      <lb ed="#S" n="83"/>giatis, sicut sunt decani in collegiis: priores, &amp; abbates 
+      <lb ed="#S" n="84"/>in conuentibus, quod isti non ligantur isto statuto. de clec. 
+      <lb ed="#S" n="85"/>c. statutum. lib. 6. quia non erit tantum periculum, si isti non sunt 
+      <lb ed="#S" n="86"/>sacerdotes: quia multi sunt in collegiis sacaeedotes, qui ex 
+      <lb ed="#S" n="87"/>concessione istius curati non sacerdotis facerent, quod ille 
+      <lb ed="#S" n="88"/>faceret. Non sic autem in simplici cura sunt parochiani sa 
+      <lb ed="#S" n="89"/>cerdotes, qui possint ecclesiastica sacramenta ministrare: propter 
+      <lb ed="#S" n="90"/>quod fuit magis necessarium ibi poenam apponere: quamuis 
+      <lb ed="#S" n="91"/>isti curati arceantur magis ab audiendo leges, vel 
+       physi<lb ed="#S" break="no" n="92"/>cam, quam simplices curati. extra ne cle. vel mona. c. i. quia 
+      <lb ed="#S" n="93"/>sunt quasi religiosi, qui sic viuunt in coni, &amp; si non quo ad 
+      <lb ed="#S" n="94"/>victum, &amp; vestitum, saltem quo ad Dei cultum, &amp; seruitium. Colle 
+      <lb ed="#S" n="95"/>gium vero hic large accipit, etlam pro plebania sub se 
+       ca<lb ed="#S" break="no" n="96"/>pellas habente, in qua sunt sacerdotes, per quos poterit sup 
+      <lb ed="#S" n="97"/>pleri, vt dictum est.
+    </p>
+            <p xml:id="khj78y-q95272-d1e756" n="25">
+      <!-- 25 -->Ad argumentum in contrarium responsum 
+      <lb ed="#S" n="98"/>est, sed iuxta hoc de facto pendet talis casus: Canonsci 
+      <lb ed="#S" n="99"/>ordinauerunt, quod essent quaedam capellaniae, quas qui 
+       habe<lb ed="#S" break="no" n="100"/>rent, facerent se ordinari infra annum: postea cuidam ex ipsis 
+      <lb ed="#S" n="101"/>vna collata, ipse interpellauit epraem, vt se ordinaret, vel 
+      <lb ed="#S" n="102"/>ad alium remitteret, qui neutrum facere voluit dicens, ipsum 
+      <lb ed="#S" n="103"/>cum omnibus canonicis esse excommunicatum: cum econuer 
+      <lb ed="#S" n="104"/>so canonici reputarent epraem excommunicatum: anno elapso, 
+       ca<lb ed="#S" break="no" n="105"/>nonici dicunt istum qpellam suam perdidisse: alius allegat 
+      <lb ed="#S" n="106"/>impossibilitatem, quaeritur quid iuris. Dicendum, quod non est pri 
+      <lb ed="#S" n="107"/>uatus ipso iure: quia Decretalis, quae priuat non ordinatum, 
+      <lb ed="#S" n="108"/>loquit de curato, vel alio, qui ex statuto iuris, non hominis  de 
+      <lb ed="#S" n="109"/>bet ordinari, sed per sententiam esset priuandus, nisi iustam 
+      <lb ed="#S" n="110"/>caosam habuisset: videtur autem iustam causam habuis 
+      <lb ed="#S" n="111"/>se. Nec obstat, quod non appellauit, quia nec tenebatur liti 
+      <lb ed="#S" n="112"/>gare, nec ad superiorem recurrere: quia nec superior 
+       po<lb ed="#S" break="no" n="113"/>terat ordinare, nec licentiare, nec etiam videtur, quod ad Papam 
+      <lb ed="#S" n="114"/>tenere t ire: cum forte reditus ad tot expensas non 
+       suffice<lb ed="#S" break="no" n="115"/>rent, nec cogitur propriis stipendiis militare. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

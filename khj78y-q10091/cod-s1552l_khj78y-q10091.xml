@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="25"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q10091"><!-- l4d2-q3 -->
+            <head xml:id="khj78y-q10091-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-q10091-Hd1e103" type="question-title">
+      utrum gratia, quae est in sacramento novae legis differat a gratia, quae est in virtutibus, et donis</head>
+            <p xml:id="khj78y-q10091-d1e106">
+               <lb ed="#S" n="113"/>QVAESTIO TERTIA. 
+      <lb ed="#S" n="114"/>Gratia sacramentalis.
+    </p>
+            <p xml:id="khj78y-q10091-d1e113">
+               <lb ed="#S" n="115"/>Thom. 3.q. 6z. art. 2. 
+    </p>
+            <p xml:id="khj78y-q10091-d1e118">
+               <lb ed="#S" n="116"/>TERTIO Quaeritur, vtrum 
+      <lb ed="#S" n="117"/>gratia, quae est in sacramento 
+      <lb ed="#S" n="118"/>novae legis differat a gratia, quae est 
+      <lb ed="#S" n="119"/>in virtutibus, &amp; donis. Et 
+       vide<lb ed="#S" break="no" n="120"/>tur, quod non. quia aut est gratia 
+       gra<lb ed="#S" break="no" n="121"/>tum faciens, &amp; illa est vna, aut 
+      <lb ed="#S" n="122"/>est gratis data, &amp; illa potest esse 
+      <lb ed="#S" n="123"/>sine gratia gratum faciente, sed 
+      <lb ed="#S" n="124"/>gratia sacralis nullo modo. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q10091-d1e141" n="2">
+      <!-- 2 -->
+       CON<lb ed="#S" break="no" n="125"/>TRA. B. di. Diuisiones gratiarum diuersis sacramentis 
+      <lb ed="#S" n="126"/>sunt collatae: sed hoc non est de gratia gratum faciente, quae 
+      <lb ed="#S" n="127"/>est vna in omnibus indiuisa. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q10091-d1e152" n="3">
+      <!-- 3 -->
+       RE<lb ed="#S" break="no" n="128"/>sPONDEO, communis opi. est, quod sunt idem, quod pro 
+      <lb ed="#S" n="129"/>batur quinque rationibus: quarum prima est ex comparatio- 
+      <!--0026.xml-->
+      <pb ed="#S" n="26"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ne sanitatis spiritualis ad corporalem sic, quia sicut se 
+       ha<lb ed="#S" break="no" n="2"/>bet sanitas per artem restituta ad sanitatem per naturam, sic 
+      <lb ed="#S" n="3"/>gratia sacramentalis ad virtutes, quia sacramenta sunt, quae 
+      <lb ed="#S" n="4"/>dam medicinae, sed illa est eadem. 7. Metha. ergo &amp;c. 
+    </p>
+            <p xml:id="khj78y-q10091-d1e176" n="4">
+               <lb ed="#S" n="5"/>
+               <!-- 4 -->secunda est ex generali ammonitione mali sic. Per 
+      <lb ed="#S" n="6"/>idem tollit malum, inquantum priuat bonum oppesitum, &amp; 
+      <lb ed="#S" n="7"/>inquantum ledit subiectum diminuendo habilitatem ad illud. 
+      <lb ed="#S" n="8"/>vnde &amp; visus miraculose restitutus, qui tollit caecitatem, &amp; 
+      <lb ed="#S" n="9"/>indispositionem, est vnus, &amp; idem cum visu naturali, sed 
+      <lb ed="#S" n="10"/>peccatum vnum, &amp; idem est, quod tollit, siue priuat gratiam, 
+      <lb ed="#S" n="11"/>&amp; corrumpit potentiam animae per maculam. ergo eode:a 
+       tol<lb ed="#S" break="no" n="12"/>letur formaliter quantum ad vtrunque.
+    </p>
+            <p xml:id="khj78y-q10091-d1e198" n="5">
+      <!--5--> Tertia 
+      <lb ed="#S" n="13"/>sumitur ex gratia secundum, quod fluit ad defectus tollendos, 
+      <lb ed="#S" n="14"/>&amp; potentias perficiendas, sic eodem formaliter tollitur 
+       de<lb ed="#S" break="no" n="15"/>fectus potentiae, &amp; perficitur potentia. Cum enim defectus 
+      <lb ed="#S" n="16"/>potentiae dicat puram priuationem perfectionis, quae est 
+       im<lb ed="#S" break="no" n="17"/>perfectio sola positione: habitus destruetur imperfecto, 
+      <lb ed="#S" n="18"/>primo quidem ex parte materiae: secudo perficietur potentia, 
+      <lb ed="#S" n="19"/>sicut eodem lumine pellitur tenebra, &amp; illuminaturaer. 
+    </p>
+            <p xml:id="khj78y-q10091-d1e218" n="6">
+               <lb ed="#S" n="20"/>
+               <!-- 6 -->Quarta sumitur ex oppositione sic: Licet vni 
+       se<lb ed="#S" break="no" n="21"/>cundum diuersa opponantur plura, vt aequali maius, &amp; 
+      <lb ed="#S" n="22"/>minus. 10. Meta. Tamen vnius secundum idem vnum est 
+       oppo<lb ed="#S" break="no" n="23"/>situm. sed vnum est peccatum, quod habet 
+       inordinatio<lb ed="#S" break="no" n="24"/>nem actus, &amp; vulnerat potentias animae. ergo vna est vir 
+      <lb ed="#S" n="25"/>tus, quae perficit habentem, &amp; opus eius bonu reddit. 
+    </p>
+            <p xml:id="khj78y-q10091-d1e236" n="7">
+               <lb ed="#S" n="26"/>
+               <!--7--> Quinta sumitur ex termino sic: Per idem recedit 
+      <lb ed="#S" n="27"/>aliquid ab vno termino, &amp; tendit ad oppositum, vt per 
+       le<lb ed="#S" break="no" n="28"/>uitatem a centro sursum. Nec valet solutio, vt opponitur 
+      <lb ed="#S" n="29"/>virtuti, &amp; vt vulnerat, quia si oppositio ad virtutem esset for 
+      <lb ed="#S" n="30"/>maliter per aliud, quam per vulnus: bene requireretur aliud, &amp; 
+      <lb ed="#S" n="31"/>aliud remedium, sicut in vulnerato, qui cum hoc habet fe 
+      <lb ed="#S" n="32"/>brem: requiritur duplex sanitas, sed quando vtrunq, est 
+      <lb ed="#S" n="33"/>per idem, vtrunque tollitur per idem, verbi gratia: Aer est 
+      <lb ed="#S" n="34"/>tenebrosus per absentiam luminosi, &amp; interpositione 
+       opa<lb ed="#S" break="no" n="35"/>ci. Vnde requiritur lux formaliter pellens tenebram, &amp; remo 
+      <lb ed="#S" n="36"/>uens opacum interpositum, quod causat inhabilitatem ad 
+       lu<lb ed="#S" break="no" n="37"/>cem. sed si sola absentia lucis causat tenebram, sola 
+       resti<lb ed="#S" break="no" n="38"/>tutio eius tollet tenebram, quantum ad omnem eius effectum. 
+      <lb ed="#S" n="39"/>Et sic est in proposito, quia peccatum  non corrumpit potentiam 
+      <lb ed="#S" n="40"/>animae per habitu aliquem, vel priuationem differentes ab 
+      <lb ed="#S" n="41"/>habitu, &amp; priuatione oppositis virtuti. Et ideo sola 
+       vir<lb ed="#S" break="no" n="42"/>tus restituta sufficit quo ad vtrunque
+    </p>
+            <p xml:id="khj78y-q10091-d1e279" n="8">
+      <!-- 8 -->NEC 
+       ob<lb ed="#S" break="no" n="43"/>stat, quod dicitur, quod sacramentalis gratia non erat in 
+       sta<lb ed="#S" break="no" n="44"/>tu innocentiae necessaria, sed gratia virtutum tunc erat 
+       ne<lb ed="#S" break="no" n="45"/>cessaria, &amp; sic videt, quod non sint idem: nam licet gratia sacra 
+      <lb ed="#S" n="46"/>mentorum, &amp; virtutum sit vna: tamen fuit necessaria haec, &amp; non 
+      <lb ed="#S" n="47"/>illa in statu innocentiae inquantum huiusmodi, sed tamen id, 
+      <lb ed="#S" n="48"/>quod est vtraque, fuit necessarium, sicut sanitas per medicinam 
+      <lb ed="#S" n="49"/>restituta non est necessaria ei, qui nunquam fuit infirmus, 
+      <lb ed="#S" n="50"/>est tamen necessaria infirmo, &amp; tamen non differunt a 
+       natu<lb ed="#S" break="no" n="51"/>rali, nisi penes causam extrinsecam, &amp; accidentalem. 
+    </p>
+            <p xml:id="khj78y-q10091-d1e303" n="9">
+               <lb ed="#S" n="52"/>
+               <!--9--> Vel dicendum, quod gratia sacramentalis non fuit in 
+      <lb ed="#S" n="53"/>statu innocentiae necessaria inquantum confertur per sacra 
+      <lb ed="#S" n="54"/>menta, nec inquantum ordinatur ad sanandu, sed inquantum 
+      <lb ed="#S" n="55"/>ordinatur ordinatur ad bene operandu, sic fuit 
+       neces<lb ed="#S" break="no" n="56"/>aria. Nec obstat secundo id, qquod dicitur, quod non 
+      <lb ed="#S" n="57"/>contritus recipit gratiam sacramentalem, si non fictus 
+      <lb ed="#S" n="58"/>accedat, non contritus aute m non habeti vrtutem 
+       poeni<lb ed="#S" break="no" n="59"/>tentiae, nec per consequens alias virtutes, &amp; sic videtur, quod 
+      <lb ed="#S" n="60"/>non sint idem: nam licet nullus adultus recipiat gratiam 
+      <lb ed="#S" n="61"/>sacramentalem, nisi non fictus: tamen non fictus potest carere 
+      <lb ed="#S" n="62"/>gratia, &amp; virtutibus, vt si sit attritus, &amp; non contritus, 
+      <lb ed="#S" n="63"/>nec tunc erit sine peccato, &amp; gratia: imo erit in peccato 
+      <lb ed="#S" n="64"/>mortali, sed virtute sacramenti attritio mutabitur in con 
+      <lb ed="#S" n="65"/>tritionem, &amp; suscipiet gratiam virtutum, &amp; sacramenti. sic enim 
+      <lb ed="#S" n="66"/>dicit frater Tho. 4. sententiarum di. 6. q. 1. ar. 3. q. 1. in vl 
+      <lb ed="#S" n="67"/>ti. argu. In contrarium, quod sufficit attritio praecedens ad ex 
+      <!--0026.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>cludendum fictionem. si autem sit contritus, tunc suscipiet 
+      <lb ed="#S" n="69"/>gratiam sacramentalem, non per infusionem nouae gratiae, sed 
+      <lb ed="#S" n="70"/>per augmentu praeexistentis, sicut in illo, qui bis vere 
+       poe<lb ed="#S" break="no" n="71"/>nituit, &amp; de eodem peccato. Nam in secunda susceptione sa 
+      <lb ed="#S" n="72"/>crameti constat, quod nulla noua gratia sibi infunditur, sed 
+      <lb ed="#S" n="73"/>sola praeexistens auget, quia nouiter infusa esset eiusdem 
+      <lb ed="#S" n="74"/>rationis cum prima.
+    </p>
+            <p xml:id="khj78y-q10091-d1e362" n="10">
+      <!-- 10 -->Nec valet quando tertio dici 
+      <lb ed="#S" n="75"/>tur, quod virtutes sunt connexae, sed gratiae sacramentales non. 
+      <lb ed="#S" n="76"/>ergo non sunt idem, quia non est simile. Nam virtutes 
+       ha<lb ed="#S" break="no" n="77"/>bent connexionem, quia fluunt ab vna gratia, q sine cis 
+       es<lb ed="#S" break="no" n="78"/>se non potest, sed sacra non fluunt a gratia, quae etiam sine eis 
+      <lb ed="#S" n="79"/>esse potest.
+    </p>
+            <p xml:id="khj78y-q10091-d1e378" n="11">
+      <!-- 11 -->Nec valet etiam, quod quarto 
+       consue<lb ed="#S" break="no" n="80"/>uerit arguit, quia diuersorum effectuu sunt diuersae causae, 
+      <lb ed="#S" n="81"/>sed effectus sacramentales sunt diuersi. ergo sunt a diuer 
+      <lb ed="#S" n="82"/>sis gratiis, &amp; sic non vna.
+    </p>
+            <p xml:id="khj78y-q10091-d1e389" n="12">
+      <!-- 12 -->Dicendum, quod diuersa sa 
+      <lb ed="#S" n="83"/>cramenta habent diuersos effectus, qui sunt characteres, 
+      <lb ed="#S" n="84"/>vel ornatus, non autem gratiae. Vel dicendum, quod ad 
+       diuersi<lb ed="#S" break="no" n="85"/>tatem causarum formalium sequitur diuersitas effectus, non 
+      <lb ed="#S" n="86"/>autem ad diuersitatem efficientium maxime instrumentalium. 
+      <lb ed="#S" n="87"/>sicut enim vna est sanitas, q diuersis infirmitatibus 
+       tol<lb ed="#S" break="no" n="88"/>li potest, &amp; sic habet diuersis medicinis recuperari: ita 
+      <lb ed="#S" n="89"/>vna est gratia, quae diuersis peccatis tollitur, &amp; 
+       diuer<lb ed="#S" break="no" n="90"/>sacramentisreparatur.
+    </p>
+            <p xml:id="khj78y-q10091-d1e411" n="13">
+      <!-- 13 -->sed singularis opinio 
+      <lb ed="#S" n="91"/>Thomae est in contrarium. Et sic posset concordari. 
+      <lb ed="#S" n="92"/>Quod enim in quarto dicit sacramenta non attingere 
+      <lb ed="#S" n="93"/>ad gratiam, sed ad ornatum, verum est de gratia gratum 
+      <lb ed="#S" n="94"/>faciente. Et quod dicit in vltima parte, quod attingunt 
+      <lb ed="#S" n="95"/>ad gratiam verum est sacramentalem, quae differt a 
+       pri<lb ed="#S" break="no" n="96"/>ma.
+    </p>
+            <p xml:id="khj78y-q10091-d1e430" n="14">
+      <!-- 14 -->sed Tho. videt velle, quod ista gratia 
+       sacra<lb ed="#S" break="no" n="97"/>mentalis non solum differat a gratia gratum faciente, &amp; 
+       vir<lb ed="#S" break="no" n="98"/>tutibus acquisitis, &amp; infusis, &amp; donis, sed etiam ab ipso 
+       or<lb ed="#S" break="no" n="99"/>matu, vel charactere, quia dicit, quod gratiae sacramentales 
+       flu<lb ed="#S" break="no" n="100"/>unt a gratia, sicut &amp; virtutes, &amp; supponunt gratiam gratum 
+      <lb ed="#S" n="101"/>facientem, quod non facit character, vel ornat. Et pro ista 
+      <lb ed="#S" n="102"/>opi. est quia vnumquodq, sacramentum est introductum in 
+      <lb ed="#S" n="103"/>speciale remedium contra specialem defectum, siue sit culpa, 
+      <lb ed="#S" n="104"/>siue poena ex culpa derelicta, siue quodcumque aliud. Vnde 
+      <lb ed="#S" n="105"/>cum effectus particularis reducatur in causam 
+       particu<lb ed="#S" break="no" n="106"/>larem, non vniuersalem immediatam, cum commune sit sacramen 
+      <lb ed="#S" n="107"/>tis no. le. conferre gratiam, &amp; virtutes: speciale vero sit 
+       vni<lb ed="#S" break="no" n="108"/>cuique supposita gratia remedium praebere contra specialem 
+      <lb ed="#S" n="109"/>defectum, videtur, quod vnumquodque sacramentum habet 
+       spe<lb ed="#S" break="no" n="110"/>cialem aliquem essectum contra suum proprium defectu. Et 
+      <lb ed="#S" n="111"/>hoc patet in singulis, sicut poenitentia contra omne 
+       pec<lb ed="#S" break="no" n="112"/>catum actuale, baptismus contra originale: matrimonium 
+      <lb ed="#S" n="113"/>contra concupiscentiam, confirmatio contra timiditatem, &amp; ve 
+      <lb ed="#S" n="114"/>recundiam. In confirmatione igitur audacia maior 
+       forma<lb ed="#S" break="no" n="115"/>liter est per gratiam sacramentalem, &amp; non solum per virtutem 
+      <lb ed="#S" n="116"/>fortitudinis, quae maior datur in sacramento, quod plus 
+      <lb ed="#S" n="117"/>contert de gratia: sicut in eucharistia, &amp; ordine. Et 
+       simili<lb ed="#S" break="no" n="118"/>ter in eucharistia maior temperantia infunditur, quam in ma 
+      <lb ed="#S" n="119"/>trimonio, sed in matrimonio specialis gratia 
+       sacramen<lb ed="#S" break="no" n="120"/>talis datur, vt sciat vnusquisq, suum vas possidere. ergo in 
+      <lb ed="#S" n="121"/>confirmatione est aliquod robur, quod est gratia gratis 
+      <lb ed="#S" n="122"/>data, suppouens tamen gratiam gratu facientem, &amp; similiter in 
+      <lb ed="#S" n="123"/>matrimonio. In ordine autem datur specialis gratia 
+       exe<lb ed="#S" break="no" n="124"/>quendi suum officium, &amp; sic de aliis.
+    </p>
+            <p xml:id="khj78y-q10091-d1e495" n="15">
+      <!-- 15 -->si dicatur, 
+      <lb ed="#S" n="125"/>quod per vnum sacramentum, plenius habetur effectus 
+       alte<lb ed="#S" break="no" n="126"/>rius specialis, sicut per baptismum actualia plenius remit 
+      <lb ed="#S" n="127"/>tuntur, quam per poenitentiam. ergo a simili non est 
+       incon<lb ed="#S" n="128" break="no"/>ueniens per aliud sacramentum: plus mederi concupiscentiam 
+      <lb ed="#S" n="129"/>quam per matrimonium, &amp; sic de aliis, non valet, quia illud est 
+      <lb ed="#S" n="130"/>per accidens, istud autem est per se. scilicet collatio virtutum, &amp; 
+      <lb ed="#S" n="131"/>augmentum in eucharistia. Vnde si specialia remedia in 
+      <lb ed="#S" n="132"/>aliis sacramentis essent per se ex gratia gratum faciente, &amp; vir 
+      <lb ed="#S" n="133"/>tutibus per se, &amp; non per accidens eucharistia plus 
+       reme<lb ed="#S" break="no" n="134"/>diaret ad omnia, quam caetera, &amp; sic superfluerent. 
+      <!--0027.xml-->
+      <pb ed="#S" n="27"/>
+               <cb ed="#S" n="a"/>
+            </p>
+            <p xml:id="khj78y-q10091-d1e528" n="16">
+               <lb ed="#S" n="1"/>
+               <!-- 16 -->Ad quinque autem rationes pro alia opi. quae sunt 
+      <lb ed="#S" n="2"/>contra istam est similiter respondendum per, interptationem 
+      <lb ed="#S" n="3"/>eius, quod supponitur, quia in omni sacramento datur remedium 
+      <lb ed="#S" n="4"/>contra diuersum defectum, cui non subuenitur per gratiam 
+      <lb ed="#S" n="5"/>gratum facientem per se, &amp; immediate, nec per eius augmen 
+      <lb ed="#S" n="6"/>tum, cum se compatiantur, sicut licet per gratiam gratum facien 
+      <lb ed="#S" n="7"/>tem tollatur culpa, &amp; macula mortalis, &amp; poena aeterna, quia 
+      <lb ed="#S" n="8"/>ista non possunt simul stare: tamen nec culpa venialis, nec 
+      <lb ed="#S" n="9"/>poena temporalis, nec verecundia, nec concupiscentia, nec mul 
+      <lb ed="#S" n="10"/>ti alij defectus inclinantes ad peccatum, qui stant cum ea, etiam 
+      <lb ed="#S" n="11"/>intensa per eam tollunt, quia nihil corrumpitur, nisi a suo 
+      <lb ed="#S" n="12"/>contrario. ergo est alia gratia contraria istis, per quam 
+       tollun<lb ed="#S" break="no" n="13"/>tur, vel remittuntur.
+    </p>
+            <p xml:id="khj78y-q10091-d1e561" n="17">
+      <!-- 17 -->Vtrum autem ex vno 
+       sacra<lb ed="#S" break="no" n="14"/>mento iterato profluat vna gratia tantum specie, an diuerse 
+       du<lb ed="#S" break="no" n="15"/>bium est. Et potest dici probabiliter, quod quando deffectus est 
+      <lb ed="#S" n="16"/>vnius speciei, tunc est vna: sicut in matrimonio, &amp; 
+       simili<lb ed="#S" break="no" n="17"/>bus, sed quando defectus licet sit vnius generis, est tamen differens 
+      <lb ed="#S" n="18"/>specie, tunc forte gratiae differunt specie: sicut in 
+       sacra<lb ed="#S" break="no" n="19"/>mento poenitentiae, de eodem peccato, numero, vel specie 
+      <lb ed="#S" n="20"/>bis confitens gratiam eandem, vel augmentu reciperet de 
+       di<lb ed="#S" break="no" n="21"/>uersis diuersam. Vel forte, sicut vna virtus poenitentiae est 
+      <lb ed="#S" n="22"/>de omnibus, sic &amp; hic vna gratia differens tamen a poenitentia 
+      <lb ed="#S" n="23"/>virtute, cum illa maior infundatur in eucharistia. 
+    </p>
+            <p xml:id="khj78y-q10091-d1e587" n="18">
+               <lb ed="#S" n="24"/>
+               <!-- 18 -->Ad argumentum in contrarium, patet responsio per 
+      <lb ed="#S" n="25"/>per ea, quae dicta sunt, quia gratia sacramentalis non est 
+      <lb ed="#S" n="26"/>gratia gratum faciens, nec gratis data informis, sed gratia 
+      <lb ed="#S" n="27"/>tis data formata, sicut morales infusae. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="368"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r15321"><!-- l4d32-q1 -->
+            <head xml:id="khj78y-r15321-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-r15321-Hd1e103" type="question-title">
+     utrum coniunx teneatur 
+     reddere debitum petenti
+   </head>
+            <p xml:id="khj78y-r15321-d1e106">
+               <lb ed="#S" n="70"/>DIsTINCTIO. 32. QVAESTIO. I. 
+      <lb ed="#S" n="71"/>CIrca. 3. Distinct. Quaeruntur duo. Primo, de 
+       red<lb ed="#S" break="no" n="72"/>Aditione debiti. secundo, de voto coniugatorum. 
+      <lb ed="#S" n="73"/>De solutione carnalis debit.
+    </p>
+            <p xml:id="khj78y-r15321-d1e117">
+               <lb ed="#S" n="74"/>Thom. 4. Dist. 32. q. Lart. 1. 
+    </p>
+            <p xml:id="khj78y-r15321-d1e122">
+               <lb ed="#S" n="75"/>QVANTVM ad primum 
+       quae<lb ed="#S" break="no" n="76"/>ritur, vtrum coniunx teneatur 
+      <lb ed="#S" n="77"/>reddere debitum petenti, &amp; 
+       vide<lb ed="#S" break="no" n="78"/>tur, quod non: quia nullus tenetur 
+      <lb ed="#S" n="79"/>facere contra rationem rectam: sed 
+      <lb ed="#S" n="80"/>actus ille absorbet omnem 
+       ratio<lb ed="#S" break="no" n="81"/>nem. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r15321-d1e141" n="2">
+      <!-- 2 -->Contra 
+       Apo<lb ed="#S" break="no" n="82"/>stolus. Vir vxori debitum reddat, 
+      <lb ed="#S" n="83"/>&amp; econuerso.
+    </p>
+            <p xml:id="khj78y-r15321-d1e150" n="3">
+      <!-- 3 -->Respondeo, hic sunt quatuor 
+       viden<lb ed="#S" break="no" n="84"/>da. Primo, quod coniunx tenetur reddere debitum ex 
+       praece<lb ed="#S" break="no" n="85"/>pto. scundo, quod ab isto praecepto excusatur in quibusdam 
+      <lb ed="#S" n="86"/>casibus. Tertio, de temporibus, in quibus carnalis copula 
+      <lb ed="#S" n="87"/>interdicitur coningibus. Et quarto, de tempore nuptia 
+      <lb ed="#S" n="88"/>rum.
+    </p>
+            <p xml:id="khj78y-r15321-d1e166" n="4">
+      <!-- 4 -->Quantum ad primum tenendum est pro regula, quod 
+      <lb ed="#S" n="89"/>coniugi debitum petenti loco, &amp; tempore debitis: imo &amp; 
+      <lb ed="#S" n="90"/>tempore sacro, reddendum est quomodocumque siue expresie 
+      <lb ed="#S" n="91"/>fiue interpretatiue: quia non refert quomodo quis volun 
+      <lb ed="#S" n="92"/>tatem fuam exprimat verbis, an factis. ff. de leg. l. de 
+       qui<lb ed="#S" break="no" n="93"/>bus. licet maxime infirmiori vasculo in hoc 
+       compatien<lb ed="#S" break="no" n="94"/>dum sit, quia verecundiús est mulieri petere. Item, 
+       qua<lb ed="#S" break="no" n="95"/>cunque intentione, siue causa sobolis procreandae, siue 
+       for<lb ed="#S" break="no" n="96"/>nicationis vitandae, siue etiam libidinis satiandae, siue 
+       vo<lb ed="#S" break="no" n="97"/>luptatis habendae, nec hoc est reddere gladium furioso: sed 
+      <lb ed="#S" n="98"/>magis ne incidant in damnabiles corruptelas, sicut in Theu 
+      <lb ed="#S" n="99"/>tonia vxor militis negantis in vigilia Paschae debitum, quia 
+      <lb ed="#S" n="100"/>continuerat tota Quadragesima, fratrem eius impetiuit, 
+      <lb ed="#S" n="101"/>&amp; negantem, iugulauit, &amp; reuersa ad virum dixit, hoc tu feci 
+      <lb ed="#S" n="102"/>sti, quia me facere coegisti. Alia autem supposuit se iumen 
+      <lb ed="#S" n="103"/>to. Vnde. 7. Ethi. 3. Concupiscentiae venereorum quibusdam 
+      <lb ed="#S" n="104"/>insanias faciunt, nisi dissuadendo cessare faciat ab 
+       ex<lb ed="#S" break="no" n="105"/>actione, quod tamen non cum multa instantia. Et hoc nisi 
+       an<lb ed="#S" break="no" n="106"/>te duos menses, &amp; matrimonium non consummatum, quando licet 
+      <lb ed="#S" n="107"/>intrare monasterium: huius autem ratio duplex assignatur. 
+      <lb ed="#S" n="108"/>Prima talis est, sicut seruus est in potestate domini, sic vnus 
+      <lb ed="#S" n="109"/>coniugum in potestate alterius quo ad redditionem debiti, 
+      <lb ed="#S" n="110"/>qa vir non habet potestatem corporis sui, sed mulier, vt di 
+      <lb ed="#S" n="111"/>citur. 1. ad Cor. 7. sed seruus tenetur ex necessitate praece 
+      <lb ed="#S" n="112"/>pti domino suo reddere debitum seruitutis: ergo vnus 
+       coniu<lb ed="#S" break="no" n="113"/>gum ex necessitate praecepti tenetur alteri reddere debi 
+      <lb ed="#S" n="114"/>tum. secunda talis est, quia sicut est contra iustitiam alienum 
+      <lb ed="#S" n="115"/>accipere inuito domino: ita contra iustitiam est alienum 
+       peten<lb ed="#S" break="no" n="116"/>ti non reddere: nisi contra hoc legitima exceptio 
+       habea<lb ed="#S" break="no" n="117"/>tur, sed primum est peccatum  mortale: ergo &amp; secundum: sed cor 
+      <lb ed="#S" n="118"/>pus vnius coniugum est res alterius, quantum ad actum 
+       ma<lb ed="#S" break="no" n="119"/>trimonij, secundu illud. 1. ad Cor. 7. Vir non habet pote 
+      <lb ed="#S" n="120"/>statem corporis sui, sed mulier: ergo quicumque coniugum 
+      <lb ed="#S" n="121"/>negat alteri corpus suum quo ad actum matrimonij, peccat 
+      <lb ed="#S" n="122"/>mortaliter, nisi habeat legitimam causam negandi. 
+    </p>
+            <p xml:id="khj78y-r15321-d1e244" n="5">
+               <lb ed="#S" n="123"/>
+               <!-- 5 -->Quantum ad secundum de excusatione sunt quatuor 
+      <lb ed="#S" n="124"/>conclusiones.
+    </p>
+            <p xml:id="khj78y-r15321-d1e253" n="6">
+      <!-- 6 -->Prima de lepra, quia leproso est debitum 
+      <lb ed="#S" n="125"/>reddendum, quia lepra non soluit matrimonium praecedens, 
+      <lb ed="#S" n="126"/>sicut sponsalia, non obstante, quod filius generatur leprosus: quia 
+      <lb ed="#S" n="127"/>melius est sibi sic esse, quae non esse, nec alius prohibetur vti 
+      <lb ed="#S" n="128"/>iure suo, quamuis malum silteri ex hoc proueniat temporale: 
+      <!--0369.xml-->
+      <pb ed="#S" n="369"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>maxime si timeat sibi periculum spirituale: puta incidere 
+      <lb ed="#S" n="2"/>in adulterium: quia leprosi propter interiorem calorem dicun 
+      <lb ed="#S" n="3"/>tur multum appetere actum illum: non tenetur tamen 
+       coha<lb ed="#S" break="no" n="4"/>bitare in domo: quia magis inficeretur ex diutina 
+       coha<lb ed="#S" break="no" n="5"/>bitatione, quam ex vna commixtione carnali: sed debet prope 
+      <lb ed="#S" n="6"/>domum eius manere secundum Alanum, &amp; communem opi 
+      <lb ed="#S" n="7"/>nionem. <name xml:id="khj78y-r15321-Nd1e287">Gaufridus</name> vero cardinalis in summa dicit, quod 
+       con<lb ed="#S" break="no" n="8"/>lugi leproso manenti separatim tenetur coniunx sanus 
+      <lb ed="#S" n="9"/>cohabitare: sed manenti communiter cum leprosis non tenetur, 
+      <lb ed="#S" n="10"/>extra de coniug. lepro. c. 2. &amp; Numeri. 5. Eiiciant extra 
+      <lb ed="#S" n="11"/>castra omnem leprosum. sed prima opinio probabilio est: 
+      <lb ed="#S" n="12"/>quia coniunx magis tenetur reddere debitum, quam cohabita 
+      <lb ed="#S" n="13"/>re, sed non tenetur reddere debitum, si ex hoc sibi immi 
+      <lb ed="#S" n="14"/>neat periculum mortis, vel infirmitatis: ergo multo minus 
+      <lb ed="#S" n="15"/>cohabitare tenendum est: quod nec reddere, nec cohabitare 
+      <lb ed="#S" n="16"/>tenetur, hoc nisi supposito, quod ex cohabitatione, vel 
+       red<lb ed="#S" break="no" n="17"/>ditione debiti · non immineat sano periculum infectionis: 
+      <lb ed="#S" n="18"/>quo supposito loquuntur iura, extra de coning. lepro. c. 2. 
+      <lb ed="#S" n="19"/>Vtrum autem ex redditione debiti immineat periculum in 
+      <lb ed="#S" n="20"/>fectionis, quaerendum esset a medicis, &amp; credendum eis. 
+      <lb ed="#S" n="21"/>Vnosquisq, enim in arte sua sapiens est. Eccle. 38. hoc au 
+      <lb ed="#S" n="22"/>tem scire pertinet ad artem medicinae, cuius est considerare 
+      <lb ed="#S" n="23"/>sanum, &amp; aegrum. Dicunt autem medici, quod viro accedenti 
+      <lb ed="#S" n="24"/>ad mulierem Ieprosam, imminet probabiliter periculum 
+       in<lb ed="#S" break="no" n="25"/>fectionis multo magis, quam mulieri, si cognoscatur a viro le 
+      <lb ed="#S" n="26"/>proso: quod patet, quia maius periculu leprae imminet 
+       vi<lb ed="#S" break="no" n="27"/>ro accedenti ad mulierem leprosam, quam accedenti ad cogni 
+      <lb ed="#S" n="28"/>tam a leproso: si ergo viro accedenti ad mulierem cognitam 
+      <lb ed="#S" n="29"/>a leproso imminet periculum leprae, vt ipsi dicunt: dato, q 
+      <lb ed="#S" n="30"/>ipsamet mulier non efficiat leprosa: ergo multo magis im 
+      <lb ed="#S" n="31"/>minet viro periculum infectionis, si cognoscat mulierem le 
+      <lb ed="#S" n="32"/>prosam, quam mulieri, si cognoscatur a viro leproso. Et illud 
+      <lb ed="#S" n="33"/>non vider dubium, quando mulier est infecta vltima specie 
+       le<lb ed="#S" break="no" n="34"/>prae. scilicet Leonina, in qua est tanta infectio, quod partes 
+       corpo<lb ed="#S" break="no" n="35"/>ris frustratim decidunt, propter quod non videt, quod mulieri 
+      <lb ed="#S" n="36"/>sic infectae teneat vir debitum reddere: quia reddendo vix pos 
+      <lb ed="#S" n="37"/>set euadere periculum leprae. si vero non est notabiliter 
+      <lb ed="#S" n="38"/>infecta, tenei, &amp; multo magis mulier viro: cum ei minus 
+      <lb ed="#S" n="39"/>periculum immineat ex redditione debiti: nec ppter hoc 
+      <lb ed="#S" n="40"/>vir, &amp; mulier quo ad redditionem debiti ad imparia iudi 
+      <lb ed="#S" n="41"/>cant, quia semper iudicantur ad paria, quando est par causa: hoc 
+      <lb ed="#S" n="42"/>autem non est, vt dictum est. quare &amp;c. Quamuis autem haec sunt 
+      <lb ed="#S" n="43"/>probabiliter dicta, non sequit tamen, si cognoscens cognitam a le 
+      <lb ed="#S" n="44"/>proso inficitur, quod multo magis inficiat cognoscens 
+       lepro<lb ed="#S" break="no" n="45"/>sam: tamen quia forte leprosus est ita infectus, quod contagione 
+      <lb ed="#S" n="46"/>pestifera plurimos inficit, non solum immediate, sed me 
+      <lb ed="#S" n="47"/>diate. Aliquando vero mulier est de se ita parum, quod non inficit 
+      <lb ed="#S" n="48"/>immediate: &amp; si aliquando est sana formaliter: cognoscatur a 
+      <lb ed="#S" n="49"/>tam infirmo: est magis leprosa effectiue, quam mulier 
+       lepro<lb ed="#S" break="no" n="50"/>sa non cognita, quae formaliter est leprosa, &amp; non effecti 
+      <lb ed="#S" n="51"/>ne: sicut aliquando nepos plus assimilat auo, quae patri 
+       me<lb ed="#S" break="no" n="52"/>dio. Vel dicendum, quod quando mulier alias sana cognita est 
+      <lb ed="#S" n="53"/>a leproso, in loco eodem, in quo cognita est: matrix forte 
+      <lb ed="#S" n="54"/>ad magnum tempus infecta est: &amp; virum ibi eam 
+       tangen<lb ed="#S" break="no" n="55"/>tem inficit, plusquam si solam lepram haberet in facie, &amp; cogno 
+      <lb ed="#S" n="56"/>sceretur tangens solum inferiores partes, vbi notandum le 
+      <lb ed="#S" n="57"/>pra dispersa est.
+    </p>
+            <p xml:id="khj78y-r15321-d1e398" n="7">
+      <!-- 7 -->secunda conclusio est de periculo 
+      <lb ed="#S" n="58"/>personae, quia non tenetur nisi salua consistentia 
+       subie<lb ed="#S" break="no" n="59"/>cti: sicut natura primo retinet aliquid nutritiue, &amp; 
+       au<lb ed="#S" break="no" n="60"/>gmentatiue gratia subiecti, um ministret generatiue gia 
+       spe<lb ed="#S" break="no" n="61"/>ciei: imminet autem ex multo coitu periculum: vnde Philo. 
+      <lb ed="#S" n="62"/>de longitudine, &amp; breuitate vitae. c. vlti. 5. propter. dicit, 
+      <lb ed="#S" n="63"/>quod sperma amplius emissum desiceat, &amp; senescit cito: pro 
+      <lb ed="#S" n="64"/>ces gut nuilus outsetititeutetqtrt e turaett qut 
+      <lb ed="#S" n="65"/>ui: propter quod passeres masculi breuiores vitae sunt 
+       soe<lb ed="#S" break="no" n="66"/>mellis. si autem infirmus vel vulneratus esset, coitus mor- 
+      <!--0369.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="67"/>talis sibi esse posset: vnde nec tunc reddere tenet. Et ex 
+      <lb ed="#S" n="68"/>isto principio dicunt aliqui probabiliter, quod si vir est fur 
+      <lb ed="#S" n="69"/>incorrigibilis, propter quod vxor quotidie periclitatur 
+      <lb ed="#S" n="70"/>cum eo ad mortem erga iustitiam, quod potest fugere, &amp; eam relin 
+      <lb ed="#S" n="71"/>quere, ne moriatur cum eo: sicut &amp; de naufragio 
+       commu<lb ed="#S" break="no" n="72"/>ni liceret ei soli euadere, si posset, nec teneret cum eo 
+       spon<lb ed="#S" n="73" break="no"/>te mergi.
+    </p>
+            <p xml:id="khj78y-r15321-d1e443" n="8">
+      <!--8 -->Tertia conclusio est de impotentia, propter 
+      <lb ed="#S" n="74"/>quam aliquis excusatur: quia impossibillum secundum iura 
+      <lb ed="#S" n="75"/>nulla est obligatio, siue sit propter actum praecedentem, 
+      <lb ed="#S" n="76"/>quod tamen in muliere locum non habet, siue propter aliam 
+      <lb ed="#S" n="77"/>causam: ita tamen quod si propter culpam suam peccauit, redden 
+      <lb ed="#S" n="78"/>do so impotentem indiscreta afflictione, vel poenitentia 
+       im<lb ed="#S" break="no" n="79"/>putatur sibi, si propter hoc alius incidit in damnabilem 
+      <lb ed="#S" n="80"/>corruptelam: vnde nec viro iniungenda est tam grauis 
+       poe<lb ed="#S" break="no" n="81"/>nitentia, quod sit impotens reddere debitum vxori luueculae, 
+      <lb ed="#S" n="82"/>&amp; feruenti: puta, seiunia, &amp; vigiliae, quae desiccant 
+       sper<lb ed="#S" break="no" n="83"/>ma. Nam multum vigilantes raro spermatizant, nec in 
+       su<lb ed="#S" break="no" n="84"/>mno meridiano, qui est tenuis, fit resolutio, nec in somno 
+      <lb ed="#S" n="85"/>solliciti de lectione, vel sermone, sed in somno 
+       profun<lb ed="#S" break="no" n="86"/>do maxime aurorae in digestione completa, &amp; hora 
+       san<lb ed="#S" break="no" n="87"/>guinis. similiter &amp; propter ieiunia minuitur: vnde raro 
+      <lb ed="#S" n="88"/>in Quadragesima, &amp; sine coena. Retulit etiam medicus vi 
+      <lb ed="#S" n="89"/>rum quendam ad siccitatem phthisice deductum ex hoc, quod postl 
+      <lb ed="#S" n="90"/>prandium statim consueuerat cognoscere vxorem. Nec i 
+      <lb ed="#S" n="91"/>econuerso consulendum est vxori facere tam graues 
+       poe<lb ed="#S" break="no" n="92"/>nitentias, vt reddatur deformis suo viro, vel sit in 
+       ma<lb ed="#S" break="no" n="93"/>clem, vel perniciem suae prolis, vel impedimentum 
+       conce<lb ed="#S" break="no" n="94"/>ptus: nec tamen tenetur vir vti calidis, vt sit potens: sed suffi 
+      <lb ed="#S" n="95"/>cit, quod se non faciat impotentem. Ad hunc casum reducitur 
+      <lb ed="#S" n="96"/>quandocunque non potest reddi sine peccato, ratione loci, vel 
+      <lb ed="#S" n="97"/>voti, vel alia causa, quia tunc redditio est impossibilis de 
+      <lb ed="#S" n="98"/>iure.
+    </p>
+            <p xml:id="khj78y-r15321-d1e502" n="9">
+      <!-- 9 -->Quarta conclusio est de fornicatione: quia 
+       forni<lb ed="#S" break="no" n="99"/>canti non tenetur alius debitum reddere: cum dominus permittat 
+      <lb ed="#S" n="100"/>ob hoc vxorem dimittere: nisi &amp; ipse postmodum 
+       fornica<lb ed="#S" break="no" n="101"/>tus fuerit, aut debitum petierit, &amp; sic sibi reconciliauerit: 
+      <lb ed="#S" n="102"/>vt dicit Papa de Lothario, &amp; Teberga. Et ad istum casum 
+      <lb ed="#S" n="103"/>reducitur omne crimen, propter quod coniunx perditus 
+      <lb ed="#S" n="104"/>petendi debitum: puta, si scienter filium alterius baptizet, 
+      <lb ed="#S" n="105"/>vel teneat in baptismo, vel confirmatione: &amp; de aliis, de 
+      <lb ed="#S" n="106"/>quibus dicetur infra: quia ex quo actor perdit ius petendi, 
+      <lb ed="#S" n="107"/>reus habet ius non debendi, &amp; negandi, &amp; excipiendi. Item 
+      <lb ed="#S" n="108"/>ad hunc casum reducitur omne illud, per quod coniunx 
+      <lb ed="#S" n="109"/>acquirit ius excipiendi: vt si de licentia eius fecit votum 
+      <lb ed="#S" n="110"/>simplex, vel solenne, quia ex tunc non tenetur.
+    </p>
+            <p xml:id="khj78y-r15321-d1e533" n="10">
+      <!-- 10 -->
+       Quan<lb ed="#S" break="no" n="111"/>tum ad tertium de temporalibus, quibus coniugibus conti 
+      <lb ed="#S" n="112"/>nentia indicitur, sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-r15321-d1e542">
+      <!--11--> Prima de 
+      <lb ed="#S" n="113"/>tempore sacro, quia tempore sacro non licet petere debitum: 
+      <lb ed="#S" n="114"/>puta temporibus processionum, ieiuniorum, festorum. Exo. 19. 
+      <lb ed="#S" n="115"/>Ne appropinquetis vxoribus vestris, non tamen est peccatum 
+      <lb ed="#S" n="116"/>mortale, sed veniale nisi concomitaretur contemptus: itd eti 
+      <lb ed="#S" n="117"/>am quod propter tempus si Deus praecepisset, non abstinerent: 
+      <lb ed="#S" n="118"/>quia circunstantia non aggrauat in infinitunt quia licet eccle 
+      <lb ed="#S" n="119"/>sia possit actum illum interdicere ad tempus: imo in 
+       per<lb ed="#S" break="no" n="120"/>petuum propter illorum delictum: tamen propter illud, quod 
+      <lb ed="#S" n="121"/>est consilij, ipsa non vult laqueum infirmis inlicere, vt pec 
+      <lb ed="#S" n="122"/>cent mortaliter, nisi a septuagesima vsque ad octauam Pa 
+      <lb ed="#S" n="123"/>schae contincant: qui alias vix duobus diebus continent: 
+      <lb ed="#S" n="124"/>quia quod est iuris diuini sine culpa, non vult ecclesia 
+      <lb ed="#S" n="125"/>anferre. Alia ratio est, quia cognoscere vxorem non mutat 
+      <lb ed="#S" n="126"/>speciem. Furari enim tempore sacro non est sacrilegium: 
+       sae<lb ed="#S" break="no" n="127"/>pe tamen est annexa irreuerentia, siue irreligio intemperantiae 
+      <lb ed="#S" n="128"/>coniugatorum tempore sacro voluptati vacantium: ex quo &amp; 
+      <lb ed="#S" n="129"/>graue veniale, &amp; mortale saepe committitur. Vnde primo 
+      <lb ed="#S" n="130"/>Dialog. Grego. narrat de coniugata, quae vitia carnis 
+       il<lb ed="#S" break="no" n="131"/>lecebris non abstinens in nocte: in crastino ad ecclesiam 
+      <lb ed="#S" n="132"/>dedicandam cum reliquiis <name xml:id="khj78y-r15321-Nd1e589">beati sebastiani</name> martyris veni 
+      <lb ed="#S" n="133"/>ens cum aliis, a Diabolo arrepta fuit, hoc tamen cogit, quod 
+      <!--0370.xml-->
+      <pb ed="#S" n="370"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>illud fuerit mortale: quia etiam propter peccatum 
+       venia<lb ed="#S" break="no" n="2"/>le traditur quis sathanae, vt etiam propheta a leone 
+       occi<lb ed="#S" break="no" n="3"/>sus est. Non enim in animam potestatem accipit nisi propter 
+      <lb ed="#S" n="4"/>mortale, sed in corpus sic. Reddere vero cum displicentia 
+      <lb ed="#S" n="5"/>tempore quantumcunque sacro nullum peccatum  est, quia 
+       debi<lb ed="#S" break="no" n="6"/>tum est: &amp; necessarium est, ex quo verbo ab actione 
+       compe<lb ed="#S" break="no" n="7"/>sci non potest.
+    </p>
+            <p xml:id="khj78y-r15321-d1e616" n="12">
+      <!-- 12 -->secunda conclusio est de tempore 
+       con<lb ed="#S" break="no" n="8"/>ceptus: de quo in parte dictum est in praecedenti Dist. quia 
+      <lb ed="#S" n="9"/>semper est peccatum petere debitum vtrique 
+       indifferentertem<lb ed="#S" break="no" n="10"/>pore conceptus, &amp; partus, quia etiam bruta continent. Ele 
+      <lb ed="#S" n="11"/>phas enim ad impraegnatam non accedit. Et quidem si proba 
+      <lb ed="#S" n="12"/>biliter timetur de abortu tempore conceptus: quia matrix 
+      <lb ed="#S" n="13"/>propter delectationem quandoque aperitur, &amp; materia 
+       non<lb ed="#S" break="no" n="14"/>dum perfecte coagulata dispergitur, &amp; effunditur: instante 
+      <lb ed="#S" n="15"/>partu, ne puer opprimat, esset peccatum quasi homicidij, 
+      <lb ed="#S" n="16"/>&amp; mortale scienter petere, vel reddere: alias non est 
+       pec<lb ed="#S" break="no" n="17"/>catum reddere, sed veniale petere maxime mulieri: quia 
+      <lb ed="#S" n="18"/>impraegnatae secundum medicos magis appetunt coitum. 
+      <lb ed="#S" n="19"/>Quod autem vsque ad quadragesimum, vel octuagesimum diem 
+      <lb ed="#S" n="20"/>mulier a viri thoro abstineat, sicut &amp; a templo abstinebat 
+      <lb ed="#S" n="21"/>cerimoniale fuit: vnde hodie non ligat, sicut mulier in 
+      <lb ed="#S" n="22"/>noua lege statim post partum sine mortali posset ecclesiam 
+      <lb ed="#S" n="23"/>intrare, nec debet prohiberi: si tamen ex veneratione 
+       volue<lb ed="#S" break="no" n="24"/>rit abstinere deuotio eius non est improbanda: ita si statim 
+      <lb ed="#S" n="25"/>post partum alteruter petit debitum, non est mortale, sed 
+       ve<lb ed="#S" break="no" n="26"/>niale: &amp; indecens est, quod non abstineat a consortio viri, 
+      <lb ed="#S" n="27"/>quandiu abstinet ab ingressu templi. Primum probai, de 
+       pu<lb ed="#S" break="no" n="28"/>rificatione post partum. c. 1. ergo post partum in puerperio 
+      <lb ed="#S" n="29"/>non est peccatum mortale, quia non timet de puero, nisi 
+       time<lb ed="#S" break="no" n="30"/>retur de aegritudine vxoris. si autem ad impraegnatam acce 
+      <lb ed="#S" n="31"/>dat, &amp; praeter spem opprimat puerperium animatum fit 
+       ir<lb ed="#S" break="no" n="32"/>regularis: quia. scilicet dabat operam rei illicitae: vnde &amp; imputatur 
+      <lb ed="#S" n="33"/>sibi ad poenam, quicquid sequitur ex eo, vel ob id: ergo ad 
+       pu<lb ed="#S" break="no" n="34"/>erperam accedere erat prohibitum lege Mosaica. Et licet ho 
+      <lb ed="#S" n="35"/>die ipsa non prohiberetur templum ingredi, quia &amp; Hemor 
+      <lb ed="#S" n="36"/>rhoisa tetigit fimbria vestimenti Christi: de purif. post par 
+      <lb ed="#S" n="37"/>tum. c. vno. &amp; in Decre. Dist. 5. Ad eius concubitum: 
+       nihi<lb ed="#S" break="no" n="38"/>lominus tamen ibidem prohibei vir accedere ad eam de hone 
+      <lb ed="#S" n="39"/>state: non autem de necessitate: nisi adhuc esset infirma: &amp; 
+      <lb ed="#S" n="40"/>propter hoc esset ei periculum mortis, vel aggrauationis 
+      <lb ed="#S" n="41"/>infirmitatis.
+    </p>
+            <p xml:id="khj78y-r15321-d1e694" n="13">
+      <!-- 13 -->Tertia conclusio est de tempore menstruo 
+      <lb ed="#S" n="42"/>rum: vbi praeter id, quod dictum fuit in praecedenti. q. di 
+      <lb ed="#S" n="43"/>stinguendum est: quia si innaturalis, &amp; accidentalis sit fluxus 
+      <lb ed="#S" n="44"/>a quo mulier dicit Hemorrhoisa, non interdicit petitio, 
+      <lb ed="#S" n="45"/>vel redditio: quia quando est infirmitas perpetua, vel nimis 
+      <lb ed="#S" n="46"/>diuturna, &amp; periculosum esset coniugatis aliquibus 
+       prohi<lb ed="#S" break="no" n="47"/>bere: tunc etiam mulier concipere non potest secundum quos 
+      <lb ed="#S" n="48"/>dam: vnde non timetur proli: vnde tunc est veniale 
+       pe<lb ed="#S" break="no" n="49"/>tere, cum non speretur proles: imo nec veniale, si fiat propter 
+      <lb ed="#S" n="50"/>fornicationem vitandam in se, vel in alio modo dicto in 
+      <lb ed="#S" n="51"/>praecedenti Dist. si autem sit naturalis in mense, a quo 
+       men<lb ed="#S" break="no" n="52"/>struata dicitur: adhuc non videtur mortale scienter petere, 
+      <lb ed="#S" n="53"/>&amp; reddere: licet dicat Hieronymus super illud Isai. 64. 
+      <lb ed="#S" n="54"/>Iustitiae nostrae quasi pannus menstruatae: tunc 
+       concipi<lb ed="#S" break="no" n="55"/>untur membris damnati, caeci, claudi, leprosi: vt quia parentes 
+      <lb ed="#S" n="56"/>non erubuerunt in conclaui commisceri: eorum peccatum  
+       pa<lb ed="#S" break="no" n="57"/>tenter, &amp; aperte redarguat in paruulis. Et super illud Le 
+      <lb ed="#S" n="58"/>ui. 1B. Ad mulierem, quae patitur menstruum non accedes. 
+      <lb ed="#S" n="59"/>Aug. Necessario vtrique interim interdicit continentia. Vn 
+      <lb ed="#S" n="60"/>de mulier si sine scandalo viri potest se excusare, debet sub 
+      <lb ed="#S" n="61"/>terfugere: aliter non peccat cum dolore reddendo, 
+       secun<lb ed="#S" break="no" n="62"/>dum Bonauenturam, &amp; Petrum. sed dicunt, quod exigere 
+       sci<lb ed="#S" break="no" n="63"/>enter est mortale, quod non videt: quia non est maior 
+       ti<lb ed="#S" break="no" n="64"/>mor de infectione prolis tempore menstruorum, quam tempore le 
+      <lb ed="#S" n="65"/>prae: tunc autem petere non est mortale: ergo nec nunc. 
+      <lb ed="#S" n="66"/>Nec valet solutio eorum: quia lepra est morbus continuus: 
+      <lb ed="#S" n="67"/>menstruum momentaneus: quia sic exponere se periculo ge 
+      <!--0370.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>nerandi leprosum esset de se mortale: vbicumque esset illud 
+      <lb ed="#S" n="69"/>periculum, esset idem peccatum: &amp; licet facere in suo, quod 
+      <lb ed="#S" n="70"/>nocet in alieno, dum tamen hoc non intendatur, &amp; sufficit, si 
+      <lb ed="#S" n="71"/>cui, vel in paucis amici laboribus consulatur: vt alibi 
+       di<lb ed="#S" break="no" n="72"/>citur. Constat autem, quod multum praestat, qui dat materiam 
+      <lb ed="#S" n="73"/>infectam, maxime quia non est certum, vtrum tunc concipiat: 
+      <lb ed="#S" n="74"/>&amp; si concipiat, vtrum inficiatur: vnde dum tamen ille, qui 
+       pe<lb ed="#S" break="no" n="75"/>rit, esset paratus non petere, si scitet id contingere, sufficit. 
+      <lb ed="#S" n="76"/>Et praeterea non quaelibet mulier quolibet conceptu pa 
+      <lb ed="#S" n="77"/>rit: &amp; maxime si ipsa fuit prius sterilis, licet non faciant 
+      <lb ed="#S" n="78"/>anni, quod facit vna dies. Nec obstat Leuiti. a0. 
+       Interfi<lb ed="#S" break="no" n="79"/>cientur ambo, quia intelligitur de coitu fornicario, non 
+       coniu<lb ed="#S" break="no" n="80"/>gali: vnde si actus coniugalis esset de se mortalis tempore 
+      <lb ed="#S" n="81"/>menstruorum, sicut cognoscere innaturaliter, vel in loc 
+      <lb ed="#S" n="82"/>sacro: sicut ibi non licet reddera, quia non est petitio debi 
+      <lb ed="#S" n="83"/>ti, sed exactio indebiti: sic nunquam liceret reddere debitum 
+      <lb ed="#S" n="84"/>mulieri, quae scit se menstruatam, quod tamen nullus dicit &amp; 
+      <lb ed="#S" n="85"/>tamen ipsa non minus tenetur ad bonum prolis, quam vir. Epilogan 
+      <lb ed="#S" n="86"/>do ergo dicendum est de menstruis, quod non est mortala red 
+      <lb ed="#S" n="87"/>dere, &amp; scienter ex parte mulieris: nec per consequens ex 
+      <lb ed="#S" n="88"/>parte viri, ex quocertior abstinere non vult. secundo, non 
+      <lb ed="#S" n="89"/>est peccatum petere ignoranti infirmitatem. Tertio, scions 
+      <lb ed="#S" n="90"/>infirmitatem: sed nesciens monstrum solere generari, quando non 
+      <lb ed="#S" n="91"/>erat facturus, si sciret, etiam non peccat: maxime 
+       mortali<lb ed="#S" break="no" n="92"/>ter: quia quod contingit praeter spem ex aliquo, etiam si dat 
+      <lb ed="#S" n="93"/>operam rei illicitae non imputatur sibi ad culpam, nec ad 
+      <lb ed="#S" n="94"/>poenam, quae dolum requirit: licet imputetur ad poenam, quae 
+      <lb ed="#S" n="95"/>respicit defectum. Nam ebrius occidens, vel mutilans 
+       cleri<lb ed="#S" break="no" n="96"/>cum est irregularis, non autem excommunicatus, quamuis cul 
+      <lb ed="#S" n="97"/>pa sua inebriatus fuerit. Et sic etiam videtur dicendum de 
+      <lb ed="#S" n="98"/>furioso, quia si culpa sua incidit in furiam, irregularis 
+      <lb ed="#S" n="99"/>est, sed non excommunicatus, si sine culpa neutrum, nisi 
+      <lb ed="#S" n="100"/>ex praecedenti rancore continuato hoc accidisset: sicut in 
+      <lb ed="#S" n="101"/>illo, qui consueuerat ambulare dormiendo, cum 
+       conten<lb ed="#S" break="no" n="102"/>disset de die cum clerico: nocte dormiens cum ense 
+       egres<lb ed="#S" break="no" n="103"/>sus occidit eum somnians se occidere qum: &amp; rediens cum 
+      <lb ed="#S" n="104"/>euigilasset recoluit de somno, &amp; inuenit ensem 
+       sangui<lb ed="#S" break="no" n="105"/>nolentum, &amp; fugit, hic irregularis est: quia licet non 
+       fue<lb ed="#S" break="no" n="106"/>rit in culpa dormiendo: fuit tamen in culpa litigando, ex quo 
+      <lb ed="#S" n="107"/>continuata phantasiatione a vigilia ad somnum hoc con 
+      <lb ed="#S" n="108"/>tingit, sed non fuit excommunicatus, quia iniectio 
+       violen<lb ed="#S" break="no" n="109"/>ta dolum requirit, sed irregularitas non, imo nec culpam: 
+      <lb ed="#S" n="110"/>vnde facilius fit quis irregularis, quam teneatur lege Aquilia. 
+      <lb ed="#S" n="111"/>Quarto, sciens non generari, vel probabiliter credens, 
+      <lb ed="#S" n="112"/>vt quia sterilis, vel quia non consueuit tunc concipere: 
+      <lb ed="#S" n="113"/>quia viri cognoscunt melius conditiones vxorum, &amp; econ 
+      <lb ed="#S" n="114"/>uerso per experientiam, similiter non peccat saltem mortall 
+      <lb ed="#S" n="115"/>ter. Quinto, si credens, quod probabiliter conceptura sit eti 
+      <lb ed="#S" n="116"/>am monstrum, non peccat mortaliter, sicut in leprosa: in 
+      <lb ed="#S" n="117"/>qua est maius periculum, &amp; in menstruata naturaliter. Cir 
+      <lb ed="#S" n="118"/>cunstantia enim, quae non mutat speciem, nunquam facit de 
+      <lb ed="#S" n="119"/>veniali mortale. Circunstantia autem temporis nunquam fa 
+      <lb ed="#S" n="120"/>cit aliam speciem: vnde cum hoc nonunt mortale: si sit nisi 
+      <lb ed="#S" n="121"/>propter prolem, &amp; est idem, &amp; non maius periculum in 
+       lepro<lb ed="#S" break="no" n="122"/>sa, quam in menstruosa. ergo &amp;c. Quod autem ibi haberet 
+       ni<lb ed="#S" break="no" n="123"/>mis continere: puta per totam vitam: hic autem per 
+       pauco<lb ed="#S" break="no" n="124"/>dies, non variat speciem luxuriae: quia cognoscere 
+       quando<lb ed="#S" break="no" n="125"/>cunque eam, quae paritura est monstrum semper, &amp; cogno 
+      <lb ed="#S" n="126"/>scere, nunc illam, quae nunc paritura est monstrum, non dif 
+      <lb ed="#S" n="127"/>fert specie in genere moris. Et omnis causa quae prohibet 
+      <lb ed="#S" n="128"/>ad tempus accedere, quando est temporalis, prohibet in 
+       per<lb ed="#S" break="no" n="129"/>petuum, qum est perpetua: quia praecepta negatiua obligant 
+      <lb ed="#S" n="130"/>semper, &amp; ad semper: vnde si esset prohibitum accedere ad 
+      <lb ed="#S" n="131"/>parituram monstrum ad semper obligaret. quando autem 
+      <lb ed="#S" n="132"/>lex prohibet accedere ad menstruatam est iudiciale: vnde 
+      <lb ed="#S" n="133"/>non ligat, vel loquitur non de sua, sed de aliena. Et aliud 
+      <lb ed="#S" n="134"/>est scienter vti libidine in praeiudicium prolis iam conce- 
+      <!--0371.xml-->
+      <pb ed="#S" n="371"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ptae, vbi pro certo, vel probabiliter timeretur: aliud 
+       ra<lb ed="#S" break="no" n="2"/>tione dubij, quod raro contingit aliquem prohibere vti 
+       lu<lb ed="#S" break="no" n="3"/>re suo. Nam raro contingit, quod tunc mulier tale quid 
+       con<lb ed="#S" break="no" n="4"/>cipiat. Nam saepius non concipit. Consulendum est 
+       igi<lb ed="#S" break="no" n="5"/>tur mulieri: quia aut scit, vel probabiliter credit virum se 
+      <lb ed="#S" n="6"/>exosam habiturum: &amp; tunc non tenetur reuelare, sed red 
+      <lb ed="#S" n="7"/>dit sine peccato: &amp; ille propter ignorantiam non peccat, 
+      <lb ed="#S" n="8"/>aut non. sed credit, quod non propter hoc dimitteret eam 
+      <lb ed="#S" n="9"/>cognoscere: &amp; tunc etiam non debet dicere, ne eum grauius 
+      <lb ed="#S" n="10"/>faciat peccare: sed adhuc vterque excusatur a mortali: &amp; 
+      <lb ed="#S" n="11"/>hoc vxor potest perpendere ex aliis vicibus, quibus 
+       renu<lb ed="#S" break="no" n="12"/>enti non acquieuit, aut neutrum, sed credit, quod 
+       adultera<lb ed="#S" break="no" n="13"/>bitur, vel peius faciet, &amp; nec tunc non debet dicere, sed 
+      <lb ed="#S" n="14"/>reddere, aut nihil horum, sed credit, quod abstinebit: &amp; tunc 
+      <lb ed="#S" n="15"/>sibi dicat, quod si audiens non acquiescat, reddens enim 
+       pec<lb ed="#S" break="no" n="16"/>cat, sed petens sic, non tamen mortaliter.
+    </p>
+            <p xml:id="khj78y-r15321-d1e947" n="14">
+      <!-- 14 -->Quantum ad 
+      <lb ed="#S" n="17"/>quartum articulum de tempore nuptiarum, sunt septem conclu 
+      <lb ed="#S" n="18"/>siones. Prima, quod tribus temporibus celebritas nuptiarum 
+      <lb ed="#S" n="19"/>interdicta est. scilicet ab Aduentu vsque ad octauam Epiphaniae: 
+      <lb ed="#S" n="20"/>a septu agesima vsque ad octa. Paschae: tribus hebdomadis 
+      <lb ed="#S" n="21"/>ante festum Ioannis i. Dominica ante ascensionem, vsque ad 
+       o<lb ed="#S" break="no" n="22"/>ctauam Pentecostes: vnde versus. 
+      <lb ed="#S" n="23"/>
+               <quote xml:id="khj78y-r15321-Qd1e966">Aspiciens, veterem, circun, quasi, quis, benedicta.</quote>
+               <lb ed="#S" n="24"/>Aspiciens, Dominica prima aduentus, cuius primum 
+       respon<lb ed="#S" break="no" n="25"/>sorium incipit, Aspiciens. Veterem, octa. Epiphaniae, 
+       cu<lb ed="#S" break="no" n="26"/>ius prima Antiphona in laudibus incipit, Veterem. Cir 
+      <lb ed="#S" n="27"/>run. Dominiea in septuagesima, cuius introitus incipit Cir 
+      <lb ed="#S" n="28"/>cundederunt. Quasi, Dominica in Albis, cuius introitus, Qua 
+      <lb ed="#S" n="29"/>si modo incipit. Quis, dies prima Rogationum, cuius 
+       Euan<lb ed="#S" n="30" break="no"/>gelium incipit, Quis ex vobis habebit amicum. Benedi 
+      <lb ed="#S" n="31"/>sta, Dominica Trinitatis in octa. Pentecostes, cuius 
+       introl<lb ed="#S" break="no" n="32"/>tus incipit Benedicta sit &amp;c.
+    </p>
+            <p xml:id="khj78y-r15321-d1e989" n="15">
+      <!-- 15 -->secunda conclusio est, 
+      <lb ed="#S" n="33"/>quod prima duo tempora intelliguntur inclusiue quo ad dies 
+      <lb ed="#S" n="34"/>extremos: quia dies extremi pertinent ad tempus medium: vn 
+      <lb ed="#S" n="35"/>de pari modo interdicuntur. Dominica tamen prima Aduentus 
+      <lb ed="#S" n="36"/>pertinet ad tempus sequens, octaua Epiphaniae ad tempus prae 
+      <lb ed="#S" n="37"/>cedens: fimiliter Dominica in septuagesima pertinet ad 
+       tem<lb ed="#S" break="no" n="38"/>pus sequens non praecedens: octaua vero Paschae ad prae 
+      <lb ed="#S" n="39"/>udeeisie outi ute t eufitsiprtiut t tigutes 
+      <lb ed="#S" n="40"/>tempus sequens: vnde a diebus tribus ante ascensionem 
+       pro<lb ed="#S" break="no" n="41"/>hibentur: item Pentecoste non habet octauam, sed 
+       octa<lb ed="#S" break="no" n="42"/>uas: vnde Dominica de Trinitate non est de tempore praeteri 
+      <lb ed="#S" n="43"/>to, sed de futuro: in quo non prohibentur: vnde Dominica an 
+      <lb ed="#S" n="44"/>te Ascensionem, &amp; prima Dominica post Pentec. licet nuptias 
+      <lb ed="#S" n="45"/>celebrare: &amp; quidem in tertio tempore secundum omnes non 
+      <lb ed="#S" n="46"/>computatur Dominica ante Ascensionem: quia est temporis 
+       prae<lb ed="#S" break="no" n="47"/>cedentis: sed Dominica Trinitatis secundum Host. sic alias de 
+      <lb ed="#S" n="48"/>esset vnus dies de tribus septimanis: vnde not. de feriis. 
+      <lb ed="#S" n="49"/>Capellanus. quod violant Canones, qui Dominica in Albis, &amp; Tri 
+      <lb ed="#S" n="50"/>nitatis celebrant: quod non videtur ad minus de Dominica 
+      <lb ed="#S" n="51"/>Trinitatis: quia ipsa, vt dictum est, non pertinet ad tempus prae 
+      <lb ed="#S" n="52"/>cedens, sed ad sequent, quod non est interdictum, nec obstat, 
+      <lb ed="#S" n="53"/>quod vna diesdeest: quia minutiae non computant in scriptu 
+      <lb ed="#S" n="54"/>ra: vnde in dict. c. Capellanus. sic dicitur: vsque post. 7. diem 
+      <lb ed="#S" n="55"/>festi Pentecostes: quod caret octauis, nuptiae suspendan 
+      <lb ed="#S" n="56"/>tur in Dominica, quae sequitur: &amp; deinceps possunt nuptiae 
+      <lb ed="#S" n="57"/>licitae celebrari. Aut ergo loquit de Dominica, quae est 
+      <lb ed="#S" n="58"/>octaua dies Pentecostes, in qua fitfestum Trinitatis: &amp; sic 
+      <lb ed="#S" n="59"/>habetur propositum: aut de Dominica, quae est in quindena: 
+      <lb ed="#S" n="60"/>&amp; tunc persecundam septimanam post Penteco. non posset 
+      <lb ed="#S" n="61"/>celebrari: quod esset eas extremis interdicere quatuor septi 
+      <lb ed="#S" n="62"/>manis, quod nullus dicit: vnde quantum est de iure nuptiae 
+      <lb ed="#S" n="63"/>possunt celebrari in die Trinitatis. sed quia nuptiae 
+       su<lb ed="#S" break="no" n="64"/>spenduntur vsque post. 7. diem, qui est sabbatum, &amp; durat 
+      <lb ed="#S" n="65"/>vsque ad solis occasum secundum viym computationem, vel 
+      <lb ed="#S" n="66"/>vsque ad mediam noctem secundum aliam: vel vsque ad sequem 
+      <!--0371.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="67"/>mane secundum aliam: inde est, quod non a primis vesperis 
+      <lb ed="#S" n="68"/>Trinitatis, licet nuptias contrahere: sed a principio 
+       no<lb ed="#S" break="no" n="69"/>ctis, vel a media nocte: vel sicut verius puto, non a primis 
+      <lb ed="#S" n="70"/>vesperis Trinitatis, sed a mane in antea. Et licet ita sit de 
+      <lb ed="#S" n="71"/>iuris subtilitate: quia tamen consuetudo est optima legum 
+       in<lb ed="#S" break="no" n="72"/>terpres: ideo sequenda est terrae consuetudo a praelatis diu 
+      <lb ed="#S" n="73"/>scita, &amp; dissimulata, siue de celebrando nuptias in diebus 
+      <lb ed="#S" n="74"/>illis, siue de abstinendo.
+    </p>
+            <p xml:id="khj78y-r15321-d1e1089" n="16">
+      <!-- 16 -->Tertia conclusio est, quod festa 
+      <lb ed="#S" n="75"/>secundum nouam, &amp; veterem legem a Vespera vsque in 
+       Vespe<lb ed="#S" break="no" n="76"/>ram celebrantur: tamen in septuagesima officium sibi proprium, 
+      <lb ed="#S" n="77"/>quod abdicat cantica laetitiae non incipit in Vesperis, sed 
+      <lb ed="#S" n="78"/>in Completorio, quando primo intermittitur Alleluia: vnde 
+      <lb ed="#S" n="79"/>vsque ad Completorium exclusiue licet contrahere: sed 
+       offi<lb ed="#S" break="no" n="80"/>cium Aduentus proprium perfecte incipit a Vesperis sab 
+      <lb ed="#S" n="81"/>bati praecedentis: vnde ex tunc non licet contrahere: in 
+      <lb ed="#S" n="82"/>dlebus vero vltimis non solum Vesperae: imo 
+       Completo<lb ed="#S" break="no" n="83"/>rium sunt de tempore praecedente per se loquendo: licet per 
+      <lb ed="#S" n="84"/>accidens superueniente maiori festo nihil fiat de illo in 
+      <lb ed="#S" n="85"/>Completorio, vel solum memoria in Vesperis: sicut apud 
+       il<lb ed="#S" break="no" n="86"/>los, qui faciunt festum Trinitatis in octaua Pentecostes, 
+      <lb ed="#S" n="87"/>perdit Vesperas, &amp; Completorium. similiter quando celebre fe 
+      <lb ed="#S" n="88"/>stum euenit in octaua Epiphaniae, &amp; octaua Paschae: nec 
+      <lb ed="#S" n="89"/>tamen propter hoc licet in illa Vespera: sed sicut dictum est in 
+      <lb ed="#S" n="90"/>secunda conclusione in talibus consuetudo est seruanda. 
+       Vn<lb ed="#S" break="no" n="91"/>de in multis terris etiam de nocte profunda in vigilia Ad 
+      <lb ed="#S" n="92"/>uentus, &amp; septuagesimae nuptias faciunt: sed post 
+       me<lb ed="#S" break="no" n="93"/>diam noctem si facerent, esset corruptela: quia a media no 
+      <lb ed="#S" n="94"/>cte more Romano dies incipit: vt dicit. ff. de feriis. l. mo 
+      <lb ed="#S" n="95"/>re. vnde sicut nulla consuetudo excusaret celebrare in 
+       ma<lb ed="#S" break="no" n="96"/>ne diei: sic nec post mediam noctem, si certum esset: quia 
+      <lb ed="#S" n="97"/>contra Canones sanctorum Patrum est.
+    </p>
+            <p xml:id="khj78y-r15321-d1e1144" n="17">
+      <!-- 17 -->Quarta 
+       con<lb ed="#S" break="no" n="98"/>clusio est, quid de nuptiis tunc prohibeatur. Et quidem 
+       be<lb ed="#S" break="no" n="99"/>nedictio nuptialis est illis temporibus interdicta: secundo 
+      <lb ed="#S" n="100"/>festum conuiuij nuptialis propter lasciuias, quae tunc fi 
+      <lb ed="#S" n="101"/>unt: &amp; pari ratione videtur traductio solemnis: quae 
+       aliquan<lb ed="#S" n="102" break="no"/>do post nuptias fit de domo parentum ad domum viri vi 
+      <lb ed="#S" n="103"/>detur interdici: in qua &amp; multae insolentiae fiunt istis 
+       tem<lb ed="#S" n="104" break="no"/>poribus discordantes.
+    </p>
+            <p xml:id="khj78y-r15321-d1e1164" n="18">
+      <!-- 18 -->Quinta conclusio est, quid 
+      <lb ed="#S" n="105"/>istis temporibus de nuptiis permittatur. Et quidem 
+       contra<lb ed="#S" break="no" n="106"/>here per verba de futuro non est prohibitum, ergo est con 
+      <lb ed="#S" n="107"/>cessum. Item secundum quosdam contrahere per verba de 
+      <lb ed="#S" n="108"/>praesenti: sed illud non videtur, quia iste constractus non 
+      <lb ed="#S" n="109"/>debet fieri clandestine, sed in facie ecclesiae: in facie autem 
+      <lb ed="#S" n="110"/>ecclesiae non videtur faciendum, sicut nec benedictio 
+       nu<lb ed="#S" break="no" n="111"/>ptialis: redditio autem, vel petitio debiti quomodo sit lici 
+      <lb ed="#S" n="112"/>ta, vel illicita, dictum est in prima conclusione tertij 
+       articu<lb ed="#S" break="no" n="113"/>li.
+    </p>
+            <p xml:id="khj78y-r15321-d1e1188" n="19">
+      <!-- 19 -->sexta conclusio est, quomodo contrahentes nuptias 
+      <lb ed="#S" n="114"/>istis temporibus puniantur. Et dicendum, quod debent 
+       separa<lb ed="#S" break="no" n="115"/>ri ad tempus in poenam: vt in eo puniantur, in quo delique 
+      <lb ed="#S" n="116"/>runt: sed si sit periculum incontinentiae, alia poenitentia 
+       im<lb ed="#S" break="no" n="117"/>ponatur, &amp; in ista dispensetur. sacerdos vero, qui 
+       bene<lb ed="#S" break="no" n="118"/>dictionem istis temporibus dederit graui poena, licet arbi 
+      <lb ed="#S" n="119"/>traria puniendus est, nec ignorantia excusat: quia debet sci 
+      <lb ed="#S" n="120"/>reea quae ad officium suum pertinent.
+    </p>
+            <p xml:id="khj78y-r15321-d1e1209" n="20">
+      <!-- 20 -->septima con 
+      <lb ed="#S" n="121"/>clusio est, quod nec festum Omnium sanctorum, nec 
+       Assum<lb ed="#S" break="no" n="122"/>ptionis Virginis, nec quodcunque aliud tempus 
+       ieiunio<lb ed="#S" break="no" n="123"/>rum, processionum, festorum, nec annus post mortem viri in 
+      <lb ed="#S" n="124"/>terdicit: licet iure ciuili interdicatur sub poena infamiae. 
+      <lb ed="#S" n="125"/>extra de secundis nuptiis. c. vlti. sed tantum interdicuntur 
+      <lb ed="#S" n="126"/>tria tempora supradicta. Vnde aliis temporibus sacramentis esset 
+      <lb ed="#S" n="127"/>peccatum saltem veniale petere debitum: sed non esset 
+       venia<lb ed="#S" break="no" n="128"/>le, nec mortale contrahere, cum non sit expresse 
+       prohibi<lb ed="#S" break="no" n="129"/>tum: sed his tribus temporibus esset mortale nuptias 
+       cele<lb ed="#S" break="no" n="130"/>brare propter expressam prohibitionem: licet non esset 
+      <lb ed="#S" n="131"/>mortale debitum petere a coniuge prius rite benedicta. 
+    </p>
+            <p xml:id="khj78y-r15321-d1e1238" n="21">
+               <lb ed="#S" n="132"/>
+               <!-- 21 -->Ad argumentum est dicendum, quod aliud est priuare vsum 
+      <lb ed="#S" n="133"/>rationis actualem, quod aliquando eligibile est secundum 
+      <!--0372.xml-->
+      <pb ed="#S" n="372"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>rationem rectam, sicut somnus. Aliud est facere contra 
+      <lb ed="#S" n="2"/>rationem rectam, siue contra eius dictamen, quod 
+       nun<lb ed="#S" break="no" n="3"/>quam est faciendum. Actus autem ille licet de se priuet 
+      <lb ed="#S" n="4"/>actum rationis: non tamen est contra dictamen rationis, 
+      <lb ed="#S" n="5"/>cum sit necessarius ad multiplicationem prolis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

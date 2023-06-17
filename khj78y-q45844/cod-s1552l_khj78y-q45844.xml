@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="169"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q45844"><!-- l4d14-q4 -->
+            <head xml:id="khj78y-q45844-Hd1e101">Quaestio 4</head>
+            <head xml:id="khj78y-q45844-Hd1e103" type="question-title">
+     de subiecto poenitentiae
+   </head>
+            <p xml:id="khj78y-q45844-d1e106">
+               <lb ed="#S" n="95"/>QVAESTIO QVARTA. 
+      <lb ed="#S" n="96"/>De subiecto poenitentiae.
+    </p>
+            <p xml:id="khj78y-q45844-d1e113">
+               <lb ed="#S" n="97"/>Toom. 3. q. 65. arxi  4 
+    </p>
+            <p xml:id="khj78y-q45844-d1e118">
+               <lb ed="#S" n="98"/>QVARTO Quaeritur de subiecto 
+       poe<lb ed="#S" break="no" n="99"/>nitentiae. Et videtur quod poenitentia sit in 
+      <lb ed="#S" n="100"/>omnipotentia animae: quia contraria na 
+      <lb ed="#S" n="101"/>ta sunt fieri circa idem: sed poenitentia op 
+      <lb ed="#S" n="102"/>ponit omni peccato, quod potest  esse in qua 
+      <lb ed="#S" n="103"/>libet potentia anime ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q45844-d1e135" n="2">
+      <!-- 2 -->CONTRA, 
+      <lb ed="#S" n="104"/>virtus vna est in vnica potentia: quia vna est, &amp; non est 
+      <lb ed="#S" n="105"/>essentia, quia virtus est: sed poenitentia est virtus vna, &amp; spe 
+      <lb ed="#S" n="106"/>cialis, vt dictum est. ergo non est in essentia, nec in pluri 
+      <lb ed="#S" n="107"/>bus potentiis: sed in vna tantum.
+    </p>
+            <p xml:id="khj78y-q45844-d1e148" n="3">
+      <!-- 3 -->
+       RESPON<lb ed="#S" break="no" n="108"/>DEO, hic sunt quinque conclusiones. Prima, quod poeniten 
+      <lb ed="#S" n="109"/>tia est in voluntate: quia est pars iustitiae, quae est in 
+       vo<lb ed="#S" break="no" n="110"/>luntate: quia eligere est actus voluntatis: &amp; pari ratione ra 
+      <lb ed="#S" n="111"/>tione respuere, fugere, &amp; detestari: quod est poenitentiae 
+      <lb ed="#S" n="112"/>proprius actus.
+    </p>
+            <p xml:id="khj78y-q45844-d1e164" n="4">
+      <!-- 4 -->secunda conclusio est, quod est in 
+       in<lb ed="#S" break="no" n="113"/>nocentibus, &amp; puris hominibus, etiam in beata Virgine, qe 
+      <lb ed="#S" n="114"/>&amp; si nunquam peccauit: tamen ante conceptionem filij peccare 
+      <lb ed="#S" n="115"/>potuit, &amp; qui paruuli mortui sunt ex natura peccare po 
+      <lb ed="#S" n="116"/>tuerunt, sicut &amp; viuere vsque ad tempus peccaudi.
+    </p>
+            <p xml:id="khj78y-q45844-d1e177" n="5">
+               <lb ed="#S" n="117"/>
+               <!--5 -->TERTIA conclusio est, quod est beatis hominibus 
+      <lb ed="#S" n="118"/>non quo ad actum dolendi: sed quo ad actum 
+       gauden<lb ed="#S" break="no" n="119"/>di de dolore praeterito, non presenti: sicut alium actum 
+      <lb ed="#S" n="120"/>habet graue, quando est sursum tendere. scilicet deorsum, &amp; alium, 
+      <lb ed="#S" n="121"/>quando est deorsum. scilicet quiescere: sic virtutes morales haben 
+      <lb ed="#S" n="122"/>actum tendentem in via quietem in patria in fine. 
+    </p>
+            <p xml:id="khj78y-q45844-d1e195" n="6">
+               <lb ed="#S" n="123"/>
+               <!-- 6 -->Quarta conclusio est, quod non fuit in Christo: quia pec 
+      <lb ed="#S" n="124"/>care nunquam potuit, eo quod semper humanitas diuinitati 
+       con<lb ed="#S" break="no" n="125"/>iuncta fuit, ex quo, &amp; quandiu fuit.
+    </p>
+            <p xml:id="khj78y-q45844-d1e206" n="7">
+      <!-- 7 -->Quinta 
+       con<lb ed="#S" break="no" n="126"/>clusio est, quod non est in angelis, prout est virtus, vel actus 
+      <lb ed="#S" n="127"/>virtutis: quia angelus nunquam potuit peccare expiabiliter. 
+      <lb ed="#S" n="128"/>sic autem &amp; non aliter est peccatum obiectum poenitentiae, vt 
+      <lb ed="#S" n="129"/>est virtus, &amp; etiam actus eius. sed poenitere vitiosum, quod 
+      <lb ed="#S" n="130"/>est dolere de peccato, non vt est contra Deum: sed vt est contra se 
+      <!--0170.xml-->
+      <pb ed="#S" n="170"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ipsum, &amp; sui voluntatem est in damnatis omnibus. 
+    </p>
+            <p xml:id="khj78y-q45844-d1e231" n="8">
+               <lb ed="#S" n="2"/>
+               <!-- 8 -->Ad argumentum dicendum, quod poenitentia est spiritualis virtus. 
+      <lb ed="#S" n="3"/>vnde opponit per se, &amp; directe vnico vitio. scilicet 
+       impoeniten<lb ed="#S" break="no" n="4"/>tiae, vel ostinationi: quae est in voluntate. Aliis autem 
+       oppo<lb ed="#S" break="no" n="5"/>nitur non formaliter, &amp; directe, sed effectiue, &amp; indirecte. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

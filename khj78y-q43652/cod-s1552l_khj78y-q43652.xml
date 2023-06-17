@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="163"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q43652"><!-- l4d14-q1 -->
+            <head xml:id="khj78y-q43652-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-q43652-Hd1e103" type="question-title">
+     utrum poenitentia sit sacramentum
+   </head>
+            <p xml:id="khj78y-q43652-d1e106">
+               <lb ed="#S" n="57"/>DISTINCTIO. I4 QVAESTIO. I.
+    </p>
+            <p xml:id="khj78y-q43652-d1e111">
+               <lb ed="#S" n="58"/>CIrca. I4. Dist. quaeruntur septem. Primo, vtrum 
+      <lb ed="#S" n="59"/>poenitentia sit sacramentum. secundo, qualiter est 
+      <lb ed="#S" n="60"/>virtus. Tertio, de poenitentia in comparatione ad alias vis 
+      <lb ed="#S" n="61"/>tutes. Quarto de subuecto poenitentiae. Quinto, de 
+       conti<lb ed="#S" break="no" n="62"/>nuatione poenitentiae. sexto, de solenni poexitentia. septi 
+      <lb ed="#S" n="63"/>mo de effectu poenitentiae. 
+    </p>
+            <p xml:id="khj78y-q43652-d1e127">
+      <!--0163.xml-->
+               <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>De sacramento po 
+      <lb ed="#S" n="65"/>
+               <!-- line coord error; extra linebreak -->mitentiae. 
+      <lb ed="#S" n="66"/>Thom. 3. q. s4. arti. 1. 
+    </p>
+            <p xml:id="khj78y-q43652-d1e144">
+               <lb ed="#S" n="67"/>PRIMO Ergo quaeritur, vtrum 
+      <lb ed="#S" n="68"/>poenitentia sit sacramentum. Et videtur 
+      <lb ed="#S" n="69"/>quod non, quia illud, quod est virtus 
+      <lb ed="#S" n="70"/>moralis, non est sacramentum: quia virtus 
+      <lb ed="#S" n="71"/>est quid naturale, sacim quid 
+      <lb ed="#S" n="72"/>supernaturale, sed poenitentia 
+      <lb ed="#S" n="73"/>est virtus. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q43652-d1e162" n="2">
+      <!-- 2 -->IN 
+      <lb ed="#S" n="74"/>contrarium sunt sancti, &amp; 
+       Magi<lb ed="#S" break="no" n="75"/>ster in litera.
+    </p>
+            <p xml:id="khj78y-q43652-d1e171" n="3">
+      <!--3-->RESPODEO: tria videnda 
+      <lb ed="#S" n="76"/>sunt. Primo illud, quod principaliter quaeritur. scilicet quod 
+       poe<lb ed="#S" break="no" n="77"/>nitentia est sacramentum. secundo, ouomodo in poenitentia est 
+      <lb ed="#S" n="78"/>aliud, quod est res, &amp; sacramentum. Tertio, quomodo in isto, &amp; 
+      <lb ed="#S" n="79"/>in aliis sacramentis non characterizantibus est aliquis ornatus 
+      <lb ed="#S" n="80"/>loco characteris.
+    </p>
+            <p xml:id="khj78y-q43652-d1e187" n="4">
+      <!-- 4 -->CIRCA primum articulum 
+      <lb ed="#S" n="81"/>sunt tres conclusiones. Prima, quod est sacramentum. secunda, quod 
+       ha<lb ed="#S" break="no" n="82"/>bet illa tria, quae inueniuntur in aliis: quod melius 
+       decla<lb ed="#S" break="no" n="83"/>rabitur in secundo articulo. Tertia, quod non habet 
+       mate<lb ed="#S" break="no" n="84"/>riam exteriorem, &amp; quare.
+    </p>
+            <p xml:id="khj78y-q43652-d1e200" n="5">
+      <!-- 5 -->Prima conclusio est, 
+      <lb ed="#S" n="85"/>quod poenitentia est sacramentum, quam conclusionem probant 
+       ali<lb ed="#S" break="no" n="86"/>qui sic. Omne remedium extrinsecum sensibiliter appositum 
+      <lb ed="#S" n="87"/>ad effectum curationis spiritualis est sacramentum: sed poenitentia 
+      <lb ed="#S" n="88"/>est huiusmodi. ergo &amp;c. Maior patet ex principio huius 
+       quar<lb ed="#S" break="no" n="89"/>ti. Minor etiam patet, quia forma absolutionis significat ab 
+      <lb ed="#S" n="90"/>solutionem a morbospirituali. scilicet Ego te absoluo &amp;c. &amp; hic 
+      <lb ed="#S" n="91"/>sufficiunt, quod signant, quia Quorum remiseritis peccata. ideo 
+      <lb ed="#S" n="92"/>&amp;c.
+    </p>
+            <p xml:id="khj78y-q43652-d1e222" n="6">
+      <!-- 6 -->sed haec ratio est defectuosa. Non enim 
+       om<lb ed="#S" break="no" n="93"/>ne exterius sensibiliter appositum ad effectum spiritualis 
+       san<lb ed="#S" break="no" n="94"/>tificationis est sacramentum, sed illud, quod ad hoc a Deo est 
+       insti<lb ed="#S" n="95" break="no"/>tutum, &amp; quod habet hoc ex opere operato: aliter non est 
+       sa<lb ed="#S" break="no" n="96"/>cramentum novae legis Multa enim remedia corporalia inuenta sunt 
+      <lb ed="#S" n="97"/>ab hominibus contra peccatum, vt toncia pectoris, ieiunium, re 
+      <lb ed="#S" n="98"/>ligio, &amp; paupertas, &amp; huiusmodi multa, quae nec sunt 
+       sa<lb ed="#S" break="no" n="99"/>cramenta, nec sacramentalia, nec etiam pars sacri: quando non sunt in 
+      <lb ed="#S" n="100"/>poenitentiam iniuncta: quia nec sunt a Deo immediate 
+       in<lb ed="#S" break="no" n="101"/>stituta, nec habent effectum expiationis peccati ex 
+       oper<lb ed="#S" n="102" break="no"/>operato. similiter est a Deo aliquod remedium sensibile 
+      <lb ed="#S" n="103"/>inuentum contra peccatum, quod tamen non est sacramentum: puta oratio 
+      <lb ed="#S" n="104"/>Dominica, &amp; multa huiusmodi, quae non habent effectum contra peccatum, 
+      <lb ed="#S" n="105"/>nisi ex opere operante. sed quando illa duo concurrunt, quorum 
+      <lb ed="#S" n="106"/>primum potest esse sine vltimo, sed non econuerso, tunc est 
+      <lb ed="#S" n="107"/>sacramentum. sed poenitentia habet illa duo: quia est remedium 
+      <lb ed="#S" n="108"/>institutum a Deo dicente. Poenitentiam agite &amp;c. Et per Ia. 
+      <lb ed="#S" n="109"/>Confitemini alterutrum. Et habet mundare ex opere 
+       opera<lb ed="#S" n="110" break="no"/>to, quia quorum remiseritis peccata &amp;c. Nec sufficit ad 
+      <lb ed="#S" n="111"/>suppletionem maioris addere, quod sit significans curationem, 
+      <lb ed="#S" n="112"/>nisi praedicta duo concurrant: quia etiam absolutio generalis 
+      <lb ed="#S" n="113"/>non sacramentalis significat remissionem omni illo modo, quo 
+      <lb ed="#S" n="114"/>sacramentalis: nec tamen propter hoc est sacramentum: quia desunt alia duo, 
+      <lb ed="#S" n="115"/>quamuis habeat &amp; formam deprecatiuam, &amp; indicatiuam. sic 
+      <lb ed="#S" n="116"/>igitur supplenda est, vt dicat sic. Omne remedium 
+       sensibi<lb ed="#S" n="117" break="no"/>le a Deo institutum ad representandum, &amp; causandum ex 
+       ope<lb ed="#S" n="118" break="no"/>re opere operato sanitatem contra morbum peccati est 
+       sacra<lb ed="#S" n="119" break="no"/>mentum, poenitentia est huiusmodi. ergo. &amp;c.
+    </p>
+            <p xml:id="khj78y-q43652-d1e286" n="7">
+      <!-- 7 -->
+       secun<lb ed="#S" break="no" n="120"/>cunda conclusio est, quod in poenitentia sunt tria, quae in aliis 
+      <lb ed="#S" n="121"/>sacramentis inueniuntur. scilicet quod est sacramentum tantum. scilicet illud, quod 
+       ex<lb ed="#S" break="no" n="122"/>terius geritur, vt est absolutio pro forma: confesio pro 
+      <lb ed="#S" n="123"/>materia, &amp; satisfactio: item illud, quod est res tantum, vt 
+       re<lb ed="#S" break="no" n="124"/>missio peccatorum. Et id, quod est res, &amp; sacramentum. scilicet ornatus, 
+      <lb ed="#S" n="125"/>&amp; interior poenitentia.
+    </p>
+            <p xml:id="khj78y-q43652-d1e304" n="8">
+      <!-- 8 -->Tertia conclusio est, quod poe 
+      <lb ed="#S" n="126"/>nitentiae non habet pro sacramento materiam exteriorem aliam a 
+      <lb ed="#S" n="127"/>suscipiente, sed solum actus verborum. Ratio huius triplex 
+      <lb ed="#S" n="128"/>est: prima, quam Tho. tangit, quia sicut sunt diuersae 
+       medi<lb ed="#S" break="no" n="129"/>cinae, quaedam, quae consistunt in sola passione, &amp; receptio- 
+      <!--0164.xml-->
+      <pb ed="#S" n="164"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ne curati: vt sectio vulneris, vel appositioemplastri: quae 
+      <lb ed="#S" n="2"/>dam vero, quae consistunt in actu laborantis, vt 
+       exercita<lb ed="#S" break="no" n="3"/>ciones, &amp; huiusmodi: ita in sacramentis quaedam non requirunt actum 
+      <lb ed="#S" n="4"/>eius, quq sanctificatur quantum ad substantiam sacramenti, nisi 
+      <lb ed="#S" n="5"/>per accidens, &amp; sicut remouens prohibens, vt apparet in 
+      <lb ed="#S" n="6"/>baptismo, &amp; confirmatione, &amp; huiusmodi: quaedam vero sunt, 
+      <lb ed="#S" n="7"/>quae essentialiter, &amp; per se requirunt actum eius, qui recipit 
+      <lb ed="#S" n="8"/>sacramentum, vt patet in matrimonio, &amp; poenitentia. In illis ergo 
+      <lb ed="#S" n="9"/>sacramentis, quae sine actu nostro complentur, est materia, quae causat, 
+      <lb ed="#S" n="10"/>&amp; significat, vt medicina exterius apposita. In illis autem 
+      <lb ed="#S" n="11"/>sacramentis, quae actum nostrum requirunt, non est talis materia, sed 
+      <lb ed="#S" n="12"/>ipsi actus exterius apparentes hoc idem faciunt, quod 
+       ma<lb ed="#S" break="no" n="13"/>teria in alliis sacramentis.
+    </p>
+            <p xml:id="khj78y-q43652-d1e352" n="9">
+      <!-- 9 -->secundo, aliqui reddunt cau 
+      <lb ed="#S" n="14"/>sam huius, quod alia materia non requiritur: quia non manci 
+      <lb ed="#S" n="15"/>pat ad aliquod sacrum, sicutetiam matrimonium. 
+    </p>
+            <p xml:id="khj78y-q43652-d1e361" n="10">
+               <lb ed="#S" n="16"/>
+               <!-- 10 -->sed haec ratio non est bona, quia extrema vnctio 
+      <lb ed="#S" n="17"/>cum non imprimat characterem non mancipat ad aliquod 
+      <lb ed="#S" n="18"/>sacrum, nec eucharistia mancipat ad aliquod sacrum: &amp; tamen 
+      <lb ed="#S" n="19"/>praeter verba requirunt aliquid aliud pro materia. 
+    </p>
+            <p xml:id="khj78y-q43652-d1e374" n="11">
+               <lb ed="#S" n="20"/>
+               <!-- 11 -->Item videmus econuerso aliquid mancipari ad ali 
+      <lb ed="#S" n="21"/>quod sacrum per sola verba sine alia materia. Praeter illa, 
+      <lb ed="#S" n="22"/>quae deputantur ad sacramentum: sicut per solam benedictionem sine 
+      <lb ed="#S" n="23"/>vnctione consecrantur aliqua, vt vestes, &amp; huiusmodi. ideo &amp;c. 
+    </p>
+            <p xml:id="khj78y-q43652-d1e387" n="12">
+               <lb ed="#S" n="24"/>
+               <!-- 12 -->Et ideo potest alia ratio assignari, &amp; est tertia, quod cum 
+      <lb ed="#S" n="25"/>sacramentum requirat materiam ad representandum, &amp; efficiendum, 
+      <lb ed="#S" n="26"/>quando per sola verba sufficienter repraesentat, &amp; efficit 
+       effe<lb ed="#S" break="no" n="27"/>ctus sacramenti nulla alia materia requirit, alias sic. Vnde in 
+      <lb ed="#S" n="28"/>baptismo requiritur aqua abluens praeter verba: quia non 
+      <lb ed="#S" n="29"/>perfecte significaret ablutionem, vel mederei, si non realiter 
+      <lb ed="#S" n="30"/>ablueret animam, dicenpo: Ego baptizo te, &amp; sic de aliis. 
+      <lb ed="#S" n="31"/>sed quando dicitur: ego absoluo te ab omnibus peccatis tuis, 
+      <lb ed="#S" n="32"/>&amp; peccata prius dicuntur in speciali, &amp; in generali sacer ef 
+      <lb ed="#S" n="33"/>fectus representatur. ideo &amp;c. si ergo in omni sacramento, 
+       cu<lb ed="#S" break="no" n="34"/>ius essentia consistit in vsu materiae, aut verba sine 
+       ma<lb ed="#S" break="no" n="35"/>teria non sufficienter significarent, aut falsa essent. Nisi 
+      <lb ed="#S" n="36"/>enim chrismate signaret, aut inungeret, quando hoc dicit episcopi 
+      <lb ed="#S" n="37"/>scopus, vel sacerdos, vt in forma confirmationis, &amp; 
+       extre<lb ed="#S" break="no" n="38"/>mae vnctionis falsum diceret, &amp; sic de aliis. sed in poeni 
+      <lb ed="#S" n="39"/>tentia, &amp; in matrimonio verba sufficienter, &amp; veraciter re 
+      <lb ed="#S" n="40"/>presentant totum effectum. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q43652-d1e430" n="13">
+      <!-- 13 -->
+       sECVN<lb ed="#S" break="no" n="41"/>DVs articulus est de re, &amp; sacramento, vbi sunt duae 
+       conclu<lb ed="#S" break="no" n="42"/>siones. Prima de eo, quod est res, &amp; sacramentum secunda de eo 
+      <lb ed="#S" n="43"/>quod est restantum.
+    </p>
+            <p xml:id="khj78y-q43652-d1e441" n="14">
+      <!-- 14 -->Circa primum, primo 
+       po<lb ed="#S" break="no" n="44"/>netur opinio contraria: secundo arguetur contra eam pro ve 
+      <lb ed="#S" n="45"/>sa conclusione: &amp; tertio respondebitur ad rationes 
+       contra<lb ed="#S" break="no" n="46"/>rias. Dicunt ergo quidam, quod sola sacramenta, quae imprimunt cha 
+      <lb ed="#S" n="47"/>racterem habent in suscipiente illud medium interrem, &amp; 
+      <lb ed="#S" n="48"/>sacramentum, quod est res, &amp; sacramentum. scilicet ipsum characterem: alia vero 
+      <lb ed="#S" n="49"/>omnia non habent aliquid tale, vt poenitentia, 
+       matrimo<lb ed="#S" break="no" n="50"/>nium, &amp; extrema vnctio, vel si habent, illud non est in 
+      <lb ed="#S" n="51"/>suscipiente aliquid inhaerens: sed in materia ipsa, sicut in 
+      <lb ed="#S" n="52"/>eucharistia.
+    </p>
+            <p xml:id="khj78y-q43652-d1e465" n="15">
+      <!-- 15 -->Quia autem in istis quatuor nul 
+      <lb ed="#S" n="53"/>lus ornatus imprimatur per ipsorum susceptionem in ipso 
+       su<lb ed="#S" break="no" n="54"/>scipiente, &amp; quod in istosacro poenitentia interior non possit 
+      <lb ed="#S" n="55"/>dici res, &amp; sacim probant hoc ipsi multipliciter: primo, 
+      <lb ed="#S" n="56"/>quia ista dispositio, vel ornatus esset potentia, vel habitus: 
+      <lb ed="#S" n="57"/>non potest esse potentia: quia per talem ornatum non producitur 
+      <lb ed="#S" n="58"/>nouus actus: potentia autem respicit actum, &amp; noua nouum, 
+      <lb ed="#S" n="59"/>nec habitus: quia per habitum habemus nos bene, vel male 
+      <lb ed="#S" n="60"/>ad actum: bene quidem per bonum, &amp; male per malu: sed per 
+      <lb ed="#S" n="61"/>talem ornatum non habemus nos ad aliquem actum bene, nec 
+      <lb ed="#S" n="62"/>male. ergo non est habitus.
+    </p>
+            <p xml:id="khj78y-q43652-d1e491" n="16">
+      <!-- 16 -->secundo sic, illa 
+       dis<lb ed="#S" break="no" n="63"/>positio, vel ornatus, aut remanet amissa gratia, &amp; sic esset 
+      <lb ed="#S" n="64"/>indelebilis, &amp; multiplicaret solo nmmero in eodem cum 
+      <lb ed="#S" n="65"/>contingat eundem pluries recipere sacramentum poenitentiae, aut 
+      <lb ed="#S" n="66"/>non remaneret amissa gratia, sed cum ea daretur, &amp; cum 
+      <lb ed="#S" n="67"/>ea admitteretur. Hoc autem esset frustra: quia cum non po- 
+      <!--0164.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>natur nisi propter ornatum animae, &amp; non propter 
+       opera<lb ed="#S" break="no" n="69"/>tionem, vel modum operandi, vt dictum est: gratia autem satis 
+      <lb ed="#S" n="70"/>ornatanimam sine illo alio videtur, quod frustra ponatur. 
+    </p>
+            <p xml:id="khj78y-q43652-d1e517" n="17">
+               <lb ed="#S" n="71"/>
+               <!-- 17 -->sed quod illi de prima opinione dicunt alibi, quod 
+       il<lb ed="#S" break="no" n="72"/>lud, quod est sacramentum, &amp; res in poenitentia, quae est sacramentum, est 
+      <lb ed="#S" n="73"/>poenitentia intentior, quae est actus virtutis. ideo isti tertio 
+      <lb ed="#S" n="74"/>arguunt contra hoc: quia illud, quod est simul res, &amp; sacramentum 
+      <lb ed="#S" n="75"/>supponit illud, quod est sacramentum tantum, tanquam causam instru 
+      <lb ed="#S" n="76"/>mentalem, vel causam, sine qua non: sed poenitentia interior 
+      <lb ed="#S" n="77"/>non supponit illud, quod exterius agit in sacramento 
+       poeniten<lb ed="#S" break="no" n="78"/>tiae: imo vt communiter praecedit. ergo non est res, &amp; sacramentum. 
+    </p>
+            <p xml:id="khj78y-q43652-d1e539" n="18">
+               <lb ed="#S" n="79"/>
+               <!-- 18 -->secundo arguendum est contra opinionem pro veri 
+      <lb ed="#S" n="80"/>tate sic: quia homo quandoque perfecte conterii de pctoncum pro 
+      <lb ed="#S" n="81"/>posito confitendi, &amp; fatisfaciendi: &amp; tunc est sufficienter dis 
+      <lb ed="#S" n="82"/>positus ad gratiam. vnde &amp; statim suscipit eam sine 
+       orna<lb ed="#S" break="no" n="83"/>tu medio: sicut per baptismum flaminis sine charactere ali 
+      <lb ed="#S" n="84"/>quo: aliquando vero est attritus, non contritus, sed super 
+      <lb ed="#S" n="85"/>ueniens confessio, &amp; satisfacio, vt clauium facit attritionem 
+      <lb ed="#S" n="86"/>contritionem, vt recipiat gratiam. Cum igitur secundum legem 
+      <lb ed="#S" n="87"/>communem nulli detur gratia, nisi intus sufficienter dispo 
+      <lb ed="#S" n="88"/>sito, ex quo ipse non est sufficienter dispositus per actum 
+      <lb ed="#S" n="89"/>suum intrinsecus, vt supponitur. ergo est sufficienter 
+       dis<lb ed="#S" break="no" n="90"/>positus per aliquid aliud, &amp; istud vocamus ornatum. 
+       Vn<lb ed="#S" break="no" n="91"/>de res, &amp; sacramentum in poenitentia est aliquando poenitentia 
+       inte<lb ed="#S" break="no" n="92"/>rior, vt quando sufficienter de se conteritur: quia est 
+       dispositione<lb ed="#S" break="no" n="93"/>cessitans ad gratiam, vt character: aliqum est ornatus a 
+       sa<lb ed="#S" break="no" n="94"/>cramento impressus: vt quando non est actus contritionis de se 
+       per<lb ed="#S" break="no" n="95"/>fectus, &amp; ipse submittit se clauibus. Et secundum hoc non 
+      <lb ed="#S" n="96"/>simul concurrunt istae duae res, &amp; variatur res sacramenti, &amp; non 
+      <lb ed="#S" n="97"/>semper imprimitur ornatus·
+    </p>
+            <p xml:id="khj78y-q43652-d1e586" n="19">
+      <!-- 19 -->si autem dicamus 
+      <lb ed="#S" n="98"/>quod gratia sacramentalis est alia gratia gratum faciente: tunc 
+      <lb ed="#S" n="99"/>diceret, quod semper imprimit ornatus etiam cum contritione. 
+      <lb ed="#S" n="100"/>Nec superfluit, quia contritio est dispositio, &amp; res, &amp; sacramentum 
+      <lb ed="#S" n="101"/>respectu gratiae gratum facientis: ornatus vero respectu gratia 
+      <lb ed="#S" n="102"/>tiae sacramentalis. sic igitus dici potest, quod licet sacramenta 
+       impri<lb ed="#S" break="no" n="103"/>mentia characterem ipsum imprimantsemper, siue 
+       reci<lb ed="#S" break="no" n="104"/>piens sit dispositus sufficienter ad gratiam per contritionem, 
+      <lb ed="#S" n="105"/>siue non: quia de aliodeseruit character. scilicet quod deputatur ad 
+      <lb ed="#S" n="106"/>aliquid sacrum, &amp; consignificat, &amp; distinguit: tamen sacramenta impri 
+      <lb ed="#S" n="107"/>mentia ornatum, tunc solum imprimunt, quando in suscipiente desi 
+      <lb ed="#S" n="108"/>cit sufficiens dispositio. Vel potest dici, quod semper 
+       impri<lb ed="#S" break="no" n="109"/>munt illa characterem: ista ornatum propter dispositionem 
+      <lb ed="#S" n="110"/>ad gratiam sacramentalem, &amp; si non propteraliam, quia ad vtranque 
+      <lb ed="#S" n="111"/>disponunt. Verius tamen videtur, quod non solum attritus, sed etiam 
+      <lb ed="#S" n="112"/>contritus, licet non ita egeat, recipiat ornatum: ꝗᷓa ex quo 
+      <lb ed="#S" n="113"/>non ponit obicem, non est causa, vt priuer effectu sacramenti: &amp; 
+      <lb ed="#S" n="114"/>tunc maior gratia infundetur propter duplicem 
+       dispositio<lb ed="#S" break="no" n="115"/>nem scilicet sacri, &amp; liberi arbitrij. quando autem sic est fictus, quod non 
+      <lb ed="#S" n="116"/>concurrit essentia sacramenti: puta in matrimonio, quia inten 
+      <lb ed="#S" n="117"/>dit decipere, noncontrahere, vel in poenitentia: quia nullo 
+      <lb ed="#S" n="118"/>modo poenitet, vel caelat aliquid: aut in aliis, quando habes 
+      <lb ed="#S" n="119"/>contrariam dispositionem, sicut in receptione eucharistiae, 
+      <lb ed="#S" n="120"/>&amp; extremae vnctionis, si habet conscientiam mortalis, de 
+      <lb ed="#S" n="121"/>quo non poenitet, nullum ornatum recipit, in quo differt or 
+      <lb ed="#S" n="122"/>natus a charactere: quia characterem recipit contritus 
+       attri<lb ed="#S" break="no" n="123"/>tus, &amp; fictus: dum tamen velit verum sacramentum recipere. Ornatum 
+      <lb ed="#S" n="124"/>vero non recipit nisi contritus, vel attritus.
+    </p>
+            <p xml:id="khj78y-q43652-d1e649" n="20">
+      <!-- 20 -->
+       Ter<lb ed="#S" break="no" n="125"/>tio respondendum est ad argumenta opinionis. Ad primum 
+      <lb ed="#S" n="126"/>dicendum, quod ornatus non est potentia, nec habitus: 
+       seddis<lb ed="#S" break="no" n="127"/>positio non ad agendum, sed ad recipiendi. sicut enim per 
+      <lb ed="#S" n="128"/>actum contritionis. est homo dispositus naturaliter ad 
+      <lb ed="#S" n="129"/>habendum gratiam gratum facientem: sic per ornatum a sacramento im 
+      <lb ed="#S" n="130"/>pressum est dispositus super naturaliter ad recipiendum 
+      <lb ed="#S" n="131"/>gratiam gratum facientem, &amp; sacramentalem, &amp; per istum 
+       orna<lb ed="#S" break="no" n="132"/>tum habemus nos bene non ad agendum, sed ad 
+       recipien<lb ed="#S" break="no" n="133"/>dum gratiam: &amp; est dispositio necessaria, &amp; necessitans non 
+      <lb ed="#S" n="134"/>simpliciter, sed sub conditione, supposito enim, quod in su- 
+      <!--0165.xml-->
+      <pb ed="#S" n="165"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>sciplente sacramentum non sit contritio, tunc est necessaria haec 
+      <lb ed="#S" n="2"/>dispositio ad gratiam gratum facientem: alias non est neces 
+      <lb ed="#S" n="3"/>saria, nisi ad gratiam sacramentalem si differant. similites 
+      <lb ed="#S" n="4"/>supposito, quod suscipiens sacramentum non sit fictus, est 
+       disposi<lb ed="#S" break="no" n="5"/>tio necessitas: non quod ipsum Deum necessitet, sed quia ex 
+      <lb ed="#S" n="6"/>Dei voluntate necesse est gratia infundi.
+    </p>
+            <p xml:id="khj78y-q43652-d1e695" n="21">
+      <!-- 21 -->Ad 
+      <lb ed="#S" n="7"/>secundum dicendum: quod non solum iste ornatus non manet 
+      <lb ed="#S" n="8"/>admissa gratia: sed nec manet, quandiu manet gratia: quia 
+      <lb ed="#S" n="9"/>cum non imprimatur, nisi vt sit dispositio ad 
+       recoptio<lb ed="#S" break="no" n="10"/>nem gratiae non ad retentionem, vel receptionem intentionis 
+      <lb ed="#S" n="11"/>gratiae recepta gratia, vel intensa enanescit. Vnde non 
+      <lb ed="#S" n="12"/>est habitus de difficili mobilis, sed est dispositio 
+       transi<lb ed="#S" break="no" n="13"/>toria, sicut est ipse actis contritionis: ius supplementum 
+      <lb ed="#S" n="14"/>maxime est hicornatus: quo supposito non est necessarius 
+      <lb ed="#S" n="15"/>ad salutem: quamuis esset necessarius ad gratiam sacramenta 
+      <lb ed="#S" n="16"/>lem: quia sola gratia gratum faciens sufficit ad salutem: quod autem 
+      <lb ed="#S" n="17"/>subdit, quodgratia ornat animam. ergo frustra ponitur: dicen 
+      <lb ed="#S" n="18"/>dum, quod praeter gratiammulta alia ponuntur ad ornatum ani 
+      <lb ed="#S" n="19"/>mae: tamen iste ornatus dicitur ornare animam dispositiue: quia 
+      <lb ed="#S" n="20"/>disponit ad gratiam, quae est nitor animae: &amp; praecedit eam 
+      <lb ed="#S" n="21"/>in fieri, &amp; esse naturaliter, siue duret instanti, siue tempore 
+      <lb ed="#S" n="22"/>imperceptibili: quia sicut virtus sacramentorum transitoria est, sic &amp; 
+      <lb ed="#S" n="23"/>iste ornatus, in quo differt a charactere, sed tamen non 
+       super<lb ed="#S" break="no" n="24"/>fluit quamdiu est, sicut medicina non superfluit disponendo ad 
+      <lb ed="#S" n="25"/>sanitatem.
+    </p>
+            <p xml:id="khj78y-q43652-d1e741" n="22">
+      <!-- 22 -->Ad tertium, quo probat poenitentiam 
+       interio<lb ed="#S" break="no" n="26"/>rem non esserem sacramenti, quia praecedit, dicendum, quod sicut lices 
+      <lb ed="#S" n="27"/>in omni sacro fintista tria, non tamen vniformiter: ꝗain qui 
+      <lb ed="#S" n="28"/>busdam sacramentis id, quod est sacramentum tantum, sunt sola verba, ali 
+      <lb ed="#S" n="29"/>quando res alia, &amp; similiter id, quod est res tantum, non est 
+       v<lb ed="#S" break="no" n="30"/>num in omnibus sacramentis: ita res, &amp; sacramentum non est idem: nec 
+      <lb ed="#S" n="31"/>eodem modo se habens in omnibus sacramentis: quia in sacramentis 
+       im<lb ed="#S" break="no" n="32"/>primentibus charactherem res, &amp; sacramentum sequit sacramentum nonso 
+      <lb ed="#S" n="33"/>lum in proposito: sed in facto. Etsimiliter in sacro eucha 
+      <lb ed="#S" n="34"/>ristiae. In aliis vero non sequitur, vel causatur ab eo, vel actu, 
+      <lb ed="#S" n="35"/>vel in proposito, sicut hic. Vel potest dici, quod poenitentia inte 
+      <lb ed="#S" n="36"/>rior non est sacramentum, nisi qum coniungitur confessioni, &amp; 
+       ab<lb ed="#S" n="37" break="no"/>solutioni, a quibus habet complementum: maxime quando est at 
+      <lb ed="#S" n="38"/>tritio, &amp; fit contritio: quia sic sequit exteriorem, vt effectus can 
+      <lb ed="#S" n="39"/>sam. De his autem tractat Tho. 22. di. qᷓrti.
+    </p>
+            <p xml:id="khj78y-q43652-d1e776" n="23">
+      <!-- 23 -->
+       Ter<lb ed="#S" break="no" n="40"/>tia conclusio est de hoc, quod est res tantum in hoc sacramento, 
+      <lb ed="#S" n="41"/>quod est remissio peccatorum, quam consequitur vinificatio 
+      <lb ed="#S" n="42"/>mortificatorum. Vbi primo poner adaptatio quorundam. 
+      <lb ed="#S" n="43"/>secundo declaratio illius. Tertio tanget, &amp; soluei 
+       quae<lb ed="#S" break="no" n="44"/>dam difficultas. Hanc ergo vinificationem quidam 
+       decla<lb ed="#S" break="no" n="45"/>rant sic praemittentes quandam deductionem, quod opera nostra 
+      <lb ed="#S" n="46"/>dicuntur viua, &amp; mortua, &amp; viuificata, &amp; mortificata per 
+      <lb ed="#S" n="47"/>comparationem ad ea, quae viuunt in naturalibus. Illa 
+      <lb ed="#S" n="48"/>enim dicuntur viua, quae non solum habent principium vitae, 
+      <lb ed="#S" n="49"/>sed operationem, vt oculus videndo, pes ambulando. 
+       Mor<lb ed="#S" break="no" n="50"/>tua vero, quae neutrum habent: mortificata vero, quae 
+       ha<lb ed="#S" break="no" n="51"/>bent principium vitae, sed non operationem propter aliquod  
+      <lb ed="#S" n="52"/>impedimentum, vt membrum stupidum, vel paraliticum. 
+       Viui<lb ed="#S" break="no" n="53"/>ficata vero, quae per amotionem impedimenti operationis 
+      <lb ed="#S" n="54"/>vitae redeunt ad suas operationes. similiter opera nostra 
+      <lb ed="#S" n="55"/>spiritualiterdicuntur viua, quia procedunt a charitate: quae 
+      <lb ed="#S" n="56"/>est principlum spiritualis vitae, &amp; per meritum possunt perduc 
+      <lb ed="#S" n="57"/>re ad vitam gloriae, quae est vera vita. Iste autem est finalis 
+      <lb ed="#S" n="58"/>actus operum nostrorum: Mortua vero dicunt, quando fiunt ex 
+      <lb ed="#S" n="59"/>tra charitatem. Mortificata vero, quae facta sunt in charita 
+      <lb ed="#S" n="60"/>te, quae est principium vitae, sed per meritum non potest 
+       effica<lb ed="#S" break="no" n="61"/>citer ducere ad vitam gloriaepropter impedimentum pecca 
+      <lb ed="#S" n="62"/>ti mortalis superuenientis. Viuificantautem cum impedi 
+      <lb ed="#S" n="63"/>mentum mortificationis amouet. Et hoc est peccatum 
+       mor<lb ed="#S" break="no" n="64"/>tale sequens: cum quo nullus potest venire ad vitam gloriae. 
+      <lb ed="#S" n="65"/>Hoc supposito sic arguunt. Illud viuificat opus mortuum, 
+      <lb ed="#S" n="66"/>per quod amouetur impedimentum mortificans ipsum: sed 
+      <lb ed="#S" n="67"/>per poenitentiam amouei peccatum  mertale mortificans opus 
+      <!--0165.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>praecedens meritorium. ergo per poenitentiam viuificatur opus 
+      <lb ed="#S" n="69"/>mortificatum.
+    </p>
+            <p xml:id="khj78y-q43652-d1e850" n="24">
+      <!-- 24 -->Et si quis haesitaret, vt dicunt, quo 
+      <lb ed="#S" n="70"/>modo opera praecedentia, quae non sunt, iam viuificantur. 
+      <lb ed="#S" n="71"/>Respondent, quod opera bona manent, ex quo sunt in 
+       acce<lb ed="#S" break="no" n="72"/>ptatione per modum meriti, &amp; sic possunt viuificari: sicus 
+      <lb ed="#S" n="73"/>opera mala transeunte actum, manent in reatu: 
+    </p>
+            <p xml:id="khj78y-q43652-d1e864" n="25">
+               <lb ed="#S" n="74"/>
+               <!-- 25 -->sed licet ista adoptatio sit pulchra, tamen est dubia. 
+      <lb ed="#S" n="75"/>Primo, quo ad hoc, quod opus mortuum dicatur, quod nunquam 
+      <lb ed="#S" n="76"/>fuit viuum: quia proprie mors non est nisi viuentis. 
+    </p>
+            <p xml:id="khj78y-q43652-d1e875" n="26">
+               <lb ed="#S" n="77"/>
+               <!-- 26 -->sed sicut dicitur caecum non solum, quod aliquando 
+      <lb ed="#S" n="78"/>vidit, sed etiam caecus natus, qui nunquam actu vidit ex visio 
+      <lb ed="#S" n="79"/>ne aptitudinali: sic potest dici opus mortuum ex hoc solo, quod 
+      <lb ed="#S" n="80"/>natum fuit esse viuum: sicut dicitur puer nasci mortuus: etiam 
+      <lb ed="#S" n="81"/>si nunquam fuit viuus: dum tamen habeat organicum corpus, 
+      <lb ed="#S" n="82"/>quod natum sit animari.
+    </p>
+            <p xml:id="khj78y-q43652-d1e893" n="27">
+      <!-- 27 -->secundo dubium est, 
+      <lb ed="#S" n="83"/>quod dicunt mortificatum illud, quod est cum principio vitae. 
+      <lb ed="#S" n="84"/>Charitas enim quandiu est in homine, non sinit 
+       mortifi<lb ed="#S" break="no" n="85"/>tari aliquod operum suorum. Vnde dicitur mortificatum, non 
+      <lb ed="#S" n="86"/>quod est coniunctum principio vitae: sed quod fuit coniun 
+      <lb ed="#S" n="87"/>ctum, &amp; non est, sed adhuc esse potest, vt mortuum dicat, quod 
+      <lb ed="#S" n="88"/>non est, nec esse pont: sicut diceretur membrum non mortuum, sed 
+      <lb ed="#S" n="89"/>mortificatum, quod actum suum amisit, &amp; recuperare potest, &amp; sana 
+      <lb ed="#S" n="90"/>ri.
+    </p>
+            <p xml:id="khj78y-q43652-d1e915" n="28">
+      <!-- 28 -->si arguatur contra hoc sic: quia uon oportet poe 
+      <lb ed="#S" n="91"/>nitentem resurgere in aequali, vel maiori charitate, sod po 
+      <lb ed="#S" n="92"/>test resurgere cum minori. Ponat ergo, quod homo, qui per 
+       mul<lb ed="#S" break="no" n="93"/>tos actus charitatis meruit augmentum charitatis, &amp; habuit: 
+      <lb ed="#S" n="94"/>peccet mortaliter, &amp; poenitendo resurgat in minori, &amp; in 
+      <lb ed="#S" n="95"/>illa moriat: quaero, vtrum habe bit praemium corresponden 
+      <lb ed="#S" n="96"/>charitati perditae, vel recuperatae: si dicas, qui secundum gratia 
+      <lb ed="#S" n="97"/>dum charitatis perditae. Contra, quia secundum gradum 
+       cha<lb ed="#S" break="no" n="98"/>ritatis, cum quo moritur, debet remunerari. si dicas, quod 
+       se<lb ed="#S" break="no" n="99"/>cundum gradum charitatis recuperatae tantum. Contra ergo 
+      <lb ed="#S" n="100"/>mortificata merita non reuiuiscunt: quia ipse meruit 
+       prae<lb ed="#S" break="no" n="101"/>mium correspondens charitati perditae: cuius augmentum 
+      <lb ed="#S" n="102"/>meruerat. Dicendum, quod per poenitentiam reuiuiscere 
+       meri<lb ed="#S" break="no" n="103"/>ta potest intelligi dupliciter. Vno modo quantum ad prae 
+      <lb ed="#S" n="104"/>mium accidentale. Alio modo quantum ad essentiale. si 
+      <lb ed="#S" n="105"/>quantum ad accidentale, sic reuiuiscunt, nisi illius praemij 
+      <lb ed="#S" n="106"/>sit talis conditio, quae requirat continuitatem, &amp; perpetuitatem: 
+      <lb ed="#S" n="107"/>sicut est aureola virginum: quia si virgo corrumpitur, &amp; poeni 
+      <lb ed="#S" n="108"/>teat, non recuperat aureolam, quae non debet eligenti 
+       vir<lb ed="#S" break="no" n="109"/>ginitatem, &amp; seruanti ad horam, sed vsque ad mortem. si autem 
+      <lb ed="#S" n="110"/>quaeratur quantum ad praemid essentiale, sic per se 
+       loquen<lb ed="#S" break="no" n="111"/>do reuiuiscunt: per accidens autem potest esse ex 
+       indisposi<lb ed="#S" break="no" n="112"/>tione recipientis, quod non ren iuiscunt quo ad integritatem 
+      <lb ed="#S" n="113"/>Verbi gratia, habens charitatem meretur per opus virtutis 
+       vi<lb ed="#S" break="no" n="114"/>tam beatam in morte, nisi per eum steterit. scilicet quod non habeat 
+      <lb ed="#S" n="115"/>charitatem: quia illa non datur nisi habenti charitatem, quamuis eam 
+      <lb ed="#S" n="116"/>meruerit, &amp; dat habenti, etiam si eam non meruit, vt paruu 
+      <lb ed="#S" n="117"/>lo. si autem perdat charitatem, &amp; postea poenitendo eam 
+       re<lb ed="#S" break="no" n="118"/>cuperet: adhuc recuperat, quod perdidit, vt. scilicet eam babeat 
+      <lb ed="#S" n="119"/>ex priori merito, nisi perdat eam: ita est in proposito 
+       ha<lb ed="#S" break="no" n="120"/>bens maiorem charitatem meret maius praepium supposito, quod 
+      <lb ed="#S" n="121"/>in morte habeat maiorem charitatem: quia sicut charitas est 
+      <lb ed="#S" n="122"/>necessaria dispositio ad recipiendum gloriam: sic maior cha 
+      <lb ed="#S" n="123"/>ritas ad maiorem gloriam. si ergo poenitens non recuperet 
+      <lb ed="#S" n="124"/>maiorem charitatem ante mortem per accidens est ex indispo 
+      <lb ed="#S" n="125"/>sitione sua, quod moriens non habet maius praemium: quia si poe 
+      <lb ed="#S" n="126"/>nitendo haberet minimum gradum charitatis, &amp; moriendo 
+      <lb ed="#S" n="127"/>intendisset charitatem suam, quanta erat illa, quam perdiderat: 
+      <lb ed="#S" n="128"/>haberet vtique tantam gloriam nontantum ex merito vltimo, 
+      <lb ed="#S" n="129"/>sed ex merito primo per se, &amp; ex poenitentia, sicut ex remo 
+      <lb ed="#S" n="130"/>nente prohibens, &amp; ex vltima charitate, sicut ex materia 
+      <lb ed="#S" n="131"/>li dispositione necessaria.
+    </p>
+            <p xml:id="khj78y-q43652-d1e1009" n="29">
+      <!-- 29 -->TERTIVs 
+       arti<lb ed="#S" break="no" n="132"/>culus habet quatuor conclusiones. Prima conclusio est, 
+      <lb ed="#S" n="133"/>quod illa tria etiam inueniuntur in sacramentum non imprimentibus 
+      <lb ed="#S" n="134"/>characterem, vt in eucharistia, vbi res, &amp; sacramentum est cor 
+      <!--0166.xml-->
+      <pb ed="#S" n="166"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>pus Christi verum: &amp; in matrimonio, vbi interior consen 
+      <lb ed="#S" n="2"/>sus. vel vinculum, &amp; in extrema vnctione, vt infra 
+       videbi<lb ed="#S" break="no" n="3"/>tur dist. 23. sic igitur in omni sacramento no. leg. imprimitur 
+      <lb ed="#S" n="4"/>aliquid praeter actu suscipientis: quod est sufficiens 
+       dis<lb ed="#S" break="no" n="5"/>positio ad gratiam etiam gratum facientem, siue illud sit 
+       chara<lb ed="#S" break="no" n="6"/>cter, vt intribus, siue simplex ornatus, vt in aliis: ita quod in 
+      <lb ed="#S" n="7"/>eucharistia praeter illud, quod est res, &amp; sacramentum extra 
+       suscipien<lb ed="#S" break="no" n="8"/>tem, &amp; antequam suscipiatur. i. corpus Christi verum in 
+       susci<lb ed="#S" break="no" n="9"/>piente sit etiam ornatus, qui est res, &amp; sacramentum. Et sic sicut 
+      <lb ed="#S" n="10"/>quaedam sacra habent vnum sacramentum tantum: puta sola verba, 
+       si<lb ed="#S" break="no" n="11"/>cut poenitentia, &amp; matrimonium, si ita est, &amp; alia res, simul 
+      <lb ed="#S" n="12"/>&amp; verba, vt omnia alia: sic sunt quaedam sacramenta, quae habent 
+      <lb ed="#S" n="13"/>prore, &amp; sacro vnum tantum: sicut illa, quae non requirunt per 
+      <lb ed="#S" n="14"/>se actum suscipientis: alia vero pro re, &amp; sacramento habent duo 
+      <lb ed="#S" n="15"/>diuersa. Et haec adhuc differenter: quia vel vtrunque est in su 
+      <lb ed="#S" n="16"/>scipiente, sicut actus interior estvna res, &amp; sacramentum in 
+       ma<lb ed="#S" break="no" n="17"/>trimonio, &amp; poenitentia, alia est ornatus: &amp; sic vtrunque est 
+      <lb ed="#S" n="18"/>in suscipiente: in eucharistia autem vna res est in suscipien 
+      <lb ed="#S" n="19"/>te, alia in materia.
+    </p>
+            <p xml:id="khj78y-q43652-d1e1068" n="30">
+      <!-- 30 -->secunda conclusio est, quod non 
+      <lb ed="#S" n="20"/>solum in istis, sed quod in omni sacro imprimaturornatus: quod 
+      <lb ed="#S" n="21"/>patet sic. Vbicunq, secundum legem communem est remisiio 
+      <lb ed="#S" n="22"/>peccati actualis mortalis, &amp; per consoquens gratiae 
+       infu<lb ed="#S" break="no" n="23"/>sio, ibi est aliadispositio sufficiens praeter motu liberi ar 
+      <lb ed="#S" n="24"/>bitrij: quia vbicunq, est motus liberi arbitrij sufficienter 
+      <lb ed="#S" n="25"/>disponens ad gratiam, ibi statim est gratia, nec per 
+       conse<lb ed="#S" break="no" n="26"/>quens est pecratum mortale. Gratia autem non iufunditus 
+      <lb ed="#S" n="27"/>secundu legem communem, nisi sufficienter disposito: quia Deus 
+      <lb ed="#S" n="28"/>dat vnicuique secundum suam virtutem· sed omne sacramentum no. 
+      <lb ed="#S" n="29"/>le. si digne suscipiat, remittit peccatum mortale si inuenit: 
+      <lb ed="#S" n="30"/>&amp; si nunquam inueniret, nunquam tolleret. si ergo quodlibes 
+      <lb ed="#S" n="31"/>sacim aliquando ponttollere peccatum  mortale, igituraliquan 
+      <lb ed="#S" n="32"/>do inuenire potest. Tunc autem non est dispositio sufficiens 
+      <lb ed="#S" n="33"/>ex parte liberi arbitrij, cum qua non stat peccatum  mortale:qa 
+      <lb ed="#S" n="34"/>illa est contritio: igitur ex opore operato alia dispositio 
+      <lb ed="#S" n="35"/>infunditur. Propter quod videt, quod ad hoc, quod sacim 
+       confe<lb ed="#S" break="no" n="36"/>rat gratimnon requirit aliquis actus respectu effectus sa 
+      <lb ed="#S" n="37"/>cramenti in suscipiente, vel qui gerit personam eius: sed tan 
+      <lb ed="#S" n="38"/>tum respectu sacri, quod. scilicet ipse velit suscipere sacramentum, si sit ad ul 
+      <lb ed="#S" n="39"/>tus, &amp; habeat vsum liberi arbitrij, vel alius pro eo, vel quod 
+      <lb ed="#S" n="40"/>ipse voluerit. sed respectu effectus sacramenti solu requiritur, 
+      <lb ed="#S" n="41"/>quod non ponat obicem, &amp; quod faciat, quod susceptio sacri 
+       requi<lb ed="#S" break="no" n="42"/>rit: puta in matrimonio, quod intendat contrahere, licet non 
+      <lb ed="#S" n="43"/>recolat de peccatis.
+    </p>
+            <p xml:id="khj78y-q43652-d1e1126" n="31">
+      <!-- 31 -->Tertia conclusio est, quod or 
+      <lb ed="#S" n="44"/>natus posset esse aliquid manens: licet videamur superius 
+      <lb ed="#S" n="45"/>dixisse contrarium. Nec propter hoc sequit, quod poenitentia non 
+      <lb ed="#S" n="46"/>possit iterari sine iniuria sacramenti: sicut baptismus, quia quando 
+      <lb ed="#S" n="47"/>sacramentum imprimit talem dispositionem, quod per illam statim natus 
+      <lb ed="#S" n="48"/>est sequi totalis, &amp; plenus effectus sacri: tunc sine iniuria 
+      <lb ed="#S" n="49"/>non potest tale sacramentum iterari: sicut in baptismo, cuius 
+       cha<lb ed="#S" break="no" n="50"/>tater disponit ad remissionem omnis culpae, &amp; poenae, quam 
+      <lb ed="#S" n="51"/>tum est de se. Et similiter est de aliis imprimentibus 
+       cha<lb ed="#S" break="no" n="52"/>racterem suo modo. Non sic autem de aliis, puta poenitentia: 
+      <lb ed="#S" n="53"/>quia per vnam confessionem non sequit perfecta remissio, quo 
+      <lb ed="#S" n="54"/>ad poenam, &amp; sequelam. Vnde quia de propiciatu actualium non 
+      <lb ed="#S" n="55"/>debet homo esse sine metu sine iniuria repetitur 
+       poenite<lb ed="#S" break="no" n="56"/>tia. sed de originali non debemus esse in motu post ba 
+      <lb ed="#S" n="57"/>ptismum. vnde &amp;ci Vnde quando de eodem aliquis bis 
+       confi<lb ed="#S" break="no" n="58"/>tetur non alius ornatus numero imprimir: sed primus 
+      <lb ed="#S" n="59"/>intenditur: &amp; forte est vnus ornatus specie in vno sacramento: 
+      <lb ed="#S" n="60"/>qui intenditur per illis iterationem, &amp; pari ratione 
+       remitti<lb ed="#S" break="no" n="61"/>tur per illius tardationem: &amp; forte corrunpitur per nimiam 
+      <lb ed="#S" n="62"/>tardationem, sicut est habitus, qui acquirit ex actibus prin 
+      <lb ed="#S" n="63"/>cipaliter ipsis ex toto cessantibus corrumpitur: ita &amp; orna 
+      <lb ed="#S" n="64"/>tus, qui acquiritur ex susceptione sacramenti instrumentaliter et 
+      <lb ed="#S" n="65"/>cessatione, vel nimia retardatione corrumpitur. Vnde cha 
+      <lb ed="#S" n="66"/>racter, qui non potest amitti, &amp; deleri per consequem: 
+       fi<lb ed="#S" break="no" n="67"/>cut non potest corrumpti, ita nec remitti: quia remistio 
+      <!--0166.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>est via ad corruptionem, nec per consequens intendi. sed 
+      <lb ed="#S" n="69"/>ornatus potest intendi, &amp; remitti, &amp; etiam corrumpi, &amp; iterum 
+      <lb ed="#S" n="70"/>acquiri.
+    </p>
+            <p xml:id="khj78y-q43652-d1e1194" n="32">
+      <!-- 32 -->Quarta conclusio est, quod poenitentia 
+       in<lb ed="#S" break="no" n="71"/>terior ipsa est res, &amp; sacramentum, quod probar sic, quia illud, qdi 
+      <lb ed="#S" n="72"/>causai, &amp; significatur abactu exteriore: qui est sacramentum, &amp; vlto 
+      <lb ed="#S" n="73"/>rius causat, &amp; significat alium effectum vltimum, &amp; principalem 
+      <lb ed="#S" n="74"/>dicitur esse res, &amp; sacramentum: sed huiusmodi est poenitentia interior: 
+      <lb ed="#S" n="75"/>quia conficiens significat se poenitere: &amp; cum hoc ipsa 
+       confes<lb ed="#S" break="no" n="76"/>sio, &amp; absolutio habita inre, &amp; in voto est causa illius 
+       in<lb ed="#S" break="no" n="77"/>tentionis non secundum essentiam, sed magis econuerso, sed 
+       se<lb ed="#S" break="no" n="78"/>cundum efficientiam: quia ab illa habet virtutem sacramentalem 
+      <lb ed="#S" n="79"/>sine qua non valeret. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q43652-d1e1218" n="33">
+      <!-- 33 -->Quod autem con 
+      <lb ed="#S" n="80"/>tra hoc dicitur, quod res sacramenti non est de iure naturali, sicut 
+      <lb ed="#S" n="81"/>est poenitere, cu sit actus virtutis, dicendum, quod 
+       poenite<lb ed="#S" break="no" n="82"/>re de peccato ad expiationem, vt videtur gehenna, &amp; 
+       ha<lb ed="#S" break="no" n="83"/>beatur gloria, &amp; cum proposito confitendi non est de 
+      <lb ed="#S" n="84"/>iure naturali: quo haec sunt ignota: sed diuino, quo haec 
+      <lb ed="#S" n="85"/>sunt reuelata. Et per hoc patet responsio ad argumentum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

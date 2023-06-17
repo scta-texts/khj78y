@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="96"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q19825"><!-- l4d6-q3 -->
+            <head xml:id="khj78y-q19825-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-q19825-Hd1e103" type="question-title">
+     An fides requiratur in baptismo
+   </head>
+            <p xml:id="khj78y-q19825-d1e106">
+               <lb ed="#S" n="57"/>QVAESTIO TERTIA.
+      <lb ed="#S" n="58"/>
+               <!-- possible line coord error in coords file -->De fide in baptismo requisita.
+    </p>
+            <p xml:id="khj78y-q19825-d1e115">
+               <lb ed="#S" n="59"/>Thom. 3. q. 68. art. scilicet &amp;. 64. art. 9.
+    </p>
+            <p xml:id="khj78y-q19825-d1e120">
+               <lb ed="#S" n="60"/>TERTIO, Quaeritur, an fides requiratur in 
+       ba<lb ed="#S" break="no" n="61"/>ptismo. Et videt, quod sic, quia est sacramentum fidei.
+    </p>
+            <p xml:id="khj78y-q19825-d1e128" n="2">
+      <!-- 2 -->IN 
+      <lb ed="#S" n="62"/>contrarium est, quia haereticus potest baptizare, &amp; paptrari, vt    
+      <!--0096.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="63"/>habet in litera.
+    </p>
+            <p xml:id="khj78y-q19825-d1e141" n="3">
+      <!-- 3 -->RESPONDEO, hic sunt 
+      <lb ed="#S" n="64"/>tria videnda. Primo de fide baptizati. secundo de fide 
+      <lb ed="#S" n="65"/>baptizanti. Tertio vtrum ab haeretico liceat baptismum 
+       pe<lb ed="#S" break="no" n="66"/>tere.
+    </p>
+            <p xml:id="khj78y-q19825-d1e152" n="4">
+      <!-- 4 -->Quantum ad primum sciendum est, quod si est 
+       par<lb ed="#S" break="no" n="67"/>uulus, qui baptizandus est, non requirit, fides, nec quantum 
+      <lb ed="#S" n="68"/>ad secim, nec quantum ad rem sacri, sed sufficit ei fides pa 
+      <lb ed="#S" n="69"/>rentum, vel offerentium, aut baptizantis, aut si omnes isti essent 
+      <lb ed="#S" n="70"/>haeretici sufficit ei fides ecclesiae, quae nunquam tota deficit, 
+      <lb ed="#S" n="71"/>quod si deficeret: adhuc visio in triumphante ecclesia fidei 
+       suc<lb ed="#S" break="no" n="72"/>cedens: paruulo subueniret. In adulto autem fides 
+       requi<lb ed="#S" break="no" n="73"/>ritur: non quo ad sacramentum, sed quo ad rem sacramenti, qui aliter 
+      <lb ed="#S" n="74"/>est fictus.
+    </p>
+            <p xml:id="khj78y-q19825-d1e174" n="5">
+      <!-- 5 -->Quantum ad secundum sciendum est, quod 
+       fi<lb ed="#S" break="no" n="75"/>des baptizantis non requiritur, nec quo ad sacramentum, nec quo 
+      <lb ed="#S" n="76"/>ad rem sacri: respectu paruuli, qui peccare non potest in 
+      <lb ed="#S" n="77"/>patiendo, sed respectu adulti: non requirit etiam quo ad sa 
+      <lb ed="#S" n="78"/>cramentum, sed quo ad rem sacramenti requirit per accidens, quia 
+      <lb ed="#S" n="79"/>si contra praeceptum ecclesiae ab haeretico sacramentum recipiat: 
+      <lb ed="#S" n="80"/>aliter celebrat, &amp; fit fictus, &amp; peccat.
+    </p>
+            <p xml:id="khj78y-q19825-d1e192" n="6">
+      <!-- 6 -->Quantum 
+      <lb ed="#S" n="81"/>ad tertium est sciendum, quod si haereticus est occultus, &amp; tolera 
+      <lb ed="#S" n="82"/>tur ab ecclesia, licet petere &amp; pro se, &amp; pro alio. si autem 
+      <lb ed="#S" n="83"/>praecisus est, non licet pro alio petere, etiam in necessitate, 
+      <lb ed="#S" n="84"/>nisi ipse, qui petit, nesciret paruulum baptizare, nec alium 
+      <lb ed="#S" n="85"/>scientem posset habere. tunc tamen mulier potius deberet 
+       ba<lb ed="#S" break="no" n="86"/>ptizare: &amp; ille potius deberet facere a muliere 
+       baptiza<lb ed="#S" break="no" n="87"/>ri, quam ab haeretico, vel excommunicato, quia participando in di 
+      <lb ed="#S" n="88"/>uinis cum eo sine necessitate, mortaliter peccaret, &amp; cum 
+      <lb ed="#S" n="89"/>hoc inccurreret minorem excommunicationem: imo &amp; 
+       maio<lb ed="#S" break="no" n="90"/>rem participando in crimine criminoso: si ille haereticus 
+      <lb ed="#S" n="91"/>in forma aliquid erroneum admisceret, sicut communiter 
+      <lb ed="#S" n="92"/>faciunt haeretici. si autem sit occultus, potest se, vel alium 
+      <lb ed="#S" n="93"/>offerre ei. quamdiu ab ecclesia toleratur. Et idem est de peccatore, 
+      <lb ed="#S" n="94"/>nisi sit simoniacus in ordine, qui habet characterem vitio 
+      <lb ed="#S" n="95"/>sum, &amp; est suspensus quo ad se, &amp; alios. Vnde non deberent 
+      <lb ed="#S" n="96"/>ab eo recipi ecclesiastica sacramenta. Non tamen ab eo recipiens 
+      <lb ed="#S" n="97"/>baptismum est irregularis: quia non est iure cautum, sicut qui 
+       scien<lb ed="#S" break="no" n="98"/>ter ab haeretico manifesto, vel praeciso recipit baptismum, est 
+      <lb ed="#S" n="99"/>irregularis: nisi in necessitate. vt habetur. 50. dist. 
+       confirma<lb ed="#S" break="no" n="100"/>tum. &amp;. 1. q. 1. ventum. in fine. &amp;. q. 7. qui in qualibet. non sic 
+      <lb ed="#S" n="101"/>autem de illo, qui paruulum sibi praesentat baptizandum: quia non 
+      <lb ed="#S" n="102"/>est expressum. Et per hoc patet solutio ad oppositum. 
+    </p>
+            <p xml:id="khj78y-q19825-d1e244">
+               <lb ed="#S" n="103"/>QVAESTIO QVARTA. 
+      <lb ed="#S" n="104"/>De exorcismo, &amp; cathecismo. 
+    </p>
+            <p xml:id="khj78y-q19825-d1e252">
+               <lb ed="#S" n="105"/>Tho. 3. q. 71. 
+    </p>
+            <p xml:id="khj78y-q19825-d1e257">
+               <lb ed="#S" n="106"/>QVARTO, Quaeritur, an ad 
+      <lb ed="#S" n="107"/>baptismum requiratur cathecismus, 
+      <lb ed="#S" n="108"/>&amp; exorcismus. Et videt, quod non 
+      <lb ed="#S" n="109"/>quia sine talibus vetula, vel obste 
+      <lb ed="#S" n="110"/>trix vere baptizat, nec est puer 
+      <lb ed="#S" n="111"/>iterum baptizandus.
+    </p>
+            <p xml:id="khj78y-q19825-d1e273" n="2">
+      <!-- 2 -->
+       CON<lb ed="#S" break="no" n="112"/>TRA est Magister in litera. 
+    </p>
+            <p xml:id="khj78y-q19825-d1e280" n="3">
+               <lb ed="#S" n="113"/>
+               <!-- 3 -->RESPONDEO, hic 
+      <lb ed="#S" n="114"/>sunt tria videnda. Primo, de vnitate baptismi. secundo, 
+      <lb ed="#S" n="115"/>de cathecismo. Tertio, de exorcismo.
+    </p>
+            <p xml:id="khj78y-q19825-d1e291" n="4">
+      <!-- 4 -->
+       QVAN<lb ed="#S" break="no" n="116"/>TVM ad primum sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-q19825-d1e298" n="5">
+      <!--5-->Prima 
+      <lb ed="#S" n="117"/>quod baptismus non est iterandus: tum quia imprimit 
+       chara<lb ed="#S" break="no" n="118"/>cterem: tum quia est contra originale: quod non bis contrahitur: 
+      <lb ed="#S" n="119"/>tum quia configuratur morti Christi, qui tantum semel mortuus 
+      <lb ed="#S" n="120"/>est: tum quia est quaedam generatio, quae tantum semel est. si igi 
+      <lb ed="#S" n="121"/>tur certum est: omnia, quae sunt de subuantia sacramenti con 
+      <lb ed="#S" n="122"/>currisse: licet caetera, quae sunt de solemnitate, defuerint: 
+      <lb ed="#S" n="123"/>puta, quod vetula verba debita protulerit, &amp; in veram aquam im 
+      <lb ed="#S" n="124"/>merserit, quamuis chatecismus, &amp; exorcismus defuerint, 
+      <!--0097.xml-->
+      <pb ed="#S" n="97"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>nullo modo, nec simpliciter, nec sub conditione 
+       reba<lb ed="#S" break="no" n="2"/>ptizandus est: sed caute supplendum est, quod pro 
+       necessi<lb ed="#S" break="no" n="3"/>tate, vel incaute fuerat praetermissum. si autem constet 
+      <lb ed="#S" n="4"/>aliquid de substantialibus defuisse: tunc omnia 
+       substantia<lb ed="#S" break="no" n="5"/>lia, quae simul oportet concurrere, sunt iteranda: quae iam 
+      <lb ed="#S" n="6"/>fuerant adhibita, &amp; etiam alia, quae sunt de solentitate secum 
+      <lb ed="#S" n="7"/>dum thelogos: quia quando verum sacim conferi, &amp; tempus pa 
+      <lb ed="#S" n="8"/>titur: debita solemnitas est adhibenda, &amp; nihil de 
+       concur<lb ed="#S" break="no" n="9"/>rentibus est omittendum. Nec est vis, si repetunt, quae 
+       sa<lb ed="#S" break="no" n="10"/>cramenta non sunt, &amp; etiam quae de substantia sunt: quando 
+      <lb ed="#S" n="11"/>nihil fuit factum: &amp; per consequens non sacramentum fuit: nec sic 
+      <lb ed="#S" n="12"/>fit iniuria sacramento·
+    </p>
+            <p xml:id="khj78y-q19825-d1e354" n="6">
+      <!-- 6 -->Iuristae vero dicunt, quod nihil est 
+      <lb ed="#S" n="13"/>iterandum, sed solum est supplendum, quod fuerat praetermis 
+      <lb ed="#S" n="14"/>sum. sed secundum hoc pari ratione, nec si aliquid de sub 
+      <lb ed="#S" n="15"/>stantialibus fuisset adhibitum, illud non esset repetendum. 
+      <lb ed="#S" n="16"/>Hoc autem modo non esset verum sacramentum secunda vice: propter 
+      <lb ed="#S" n="17"/>omissionem eius, quod non est adhibitu, sicut non fuerat 
+      <lb ed="#S" n="18"/>prima vice propter omissionem cius: quod nunc est 
+       supple<lb ed="#S" break="no" n="19"/>tum. si autem sit probabiliter dubium, vt quia puer in nemo 
+      <lb ed="#S" n="20"/>re expositus inuenitur, baptizandus est sub conditione, quae 
+      <lb ed="#S" n="21"/>habetur extra eod. 2. praemissa negatiua. si tu es 
+       bapti<lb ed="#S" break="no" n="22"/>zatus, ego te non baptizo &amp;c. De illo autem, qui ex 
+       Chri<lb ed="#S" break="no" n="23"/>stianis natus est, &amp; inter Christianos conuersatus, non 
+      <lb ed="#S" n="24"/>est in dubium reuocandum, nisi non baptizatus euidentissime 
+      <lb ed="#S" n="25"/>probaret, extra de presbyte. non baptizato. c. vlti. si 
+       au<lb ed="#S" break="no" n="26"/>tem vno teste: puta ipsa obstetrice asserente baptizatus 
+      <lb ed="#S" n="27"/>probetur credendum est, sicut &amp; de ecclesia consecrata. si 
+      <lb ed="#S" n="28"/>tamen ageretur ad depositionem rebaptizantis, vel rebaptizati, 
+      <lb ed="#S" n="29"/>&amp; vno solo teste probaretur alter baptismus non sufficerent. 
+    </p>
+            <p xml:id="khj78y-q19825-d1e396" n="7">
+               <lb ed="#S" n="30"/>
+               <!-- 7 -->secunda conclusio est de poena rebaptizantis, qui si 
+      <lb ed="#S" n="31"/>scienter, vel per ignorantiam iuris hoc fecerit, vel etiam in 
+      <lb ed="#S" n="32"/>faciendo inuenit, irregularis est: nisi cum eo 
+       dispense<lb ed="#S" break="no" n="33"/>tur. C. ne sacrum baptismum. l. 1. &amp; extra de apostatis. c. 2. si 
+      <lb ed="#S" n="34"/>autem per ignorantiam facti probabilem hoc fecerit, 
+       excusa<lb ed="#S" break="no" n="35"/>tur per regulam generalem: quia error facti non nocet in 
+      <lb ed="#S" n="36"/>damnis vitandis. Alias legis authoritate deciperet, &amp; 
+       con<lb ed="#S" break="no" n="37"/>filio, qui baptizat illos, de quibus dubium est. Vbi tamen 
+       ad<lb ed="#S" break="no" n="38"/>uertendum est, quod si probabiliter credat, quod non fuerint 
+       bapti<lb ed="#S" break="no" n="39"/>2ati, &amp; non sit aliquod argumentum, quod fuerint baptizati: 
+      <lb ed="#S" n="40"/>tunc debent simpliciter baptizari. sed vbi dubiu est, an 
+      <lb ed="#S" n="41"/>fuerint, vel non fuerint, tunc sub conditione sunt 
+       bapti<lb ed="#S" break="no" n="42"/>zandi.
+    </p>
+            <p xml:id="khj78y-q19825-d1e429" n="8">
+      <!-- 8 -->sed quid est de illo, qui bis baptiratur: 
+      <lb ed="#S" n="43"/>Dicunt quidam, quod suscipiens secundo baptismu, quamuis 
+      <lb ed="#S" n="44"/>ignoraret se fuisse prius baptizatum irregularis est. Vnde 
+      <lb ed="#S" n="45"/>de consec. dist. 4. Qui bis dicitur: qui bis ignoranter baptiza 
+      <lb ed="#S" n="46"/>ti sunt, non indigent pro eo poenitere: nisi quod secundum 
+       ca<lb ed="#S" break="no" n="47"/>nones ordinari non possunt: nisi aliqua magna necessitas 
+      <lb ed="#S" n="48"/>cogat: quod ideo additum est: quia imminente necessitate cum 
+      <lb ed="#S" n="49"/>tali dispensandum est per episcopum. Cum illo tamen, qui scien 
+      <lb ed="#S" n="50"/>ter se faceret rebaptizare, non posset episcopus dispensa 
+      <lb ed="#S" n="51"/>re. Fuit autem hoc statutum propter sacramenti reuerentiam, &amp; in de 
+      <lb ed="#S" n="52"/>testationem iniuriantium sacramento.
+    </p>
+            <p xml:id="khj78y-q19825-d1e455" n="9">
+      <!-- 9 -->Alij dicunt, 
+      <lb ed="#S" n="53"/>quod talis non esset irregularis: quia quamuis hoc olim fuerit ob 
+      <lb ed="#S" n="54"/>seruatum in odium rebaptirantium: modo tamen possunt promo 
+      <lb ed="#S" n="55"/>ueri: quia ignorantia facti excusat eos. Alij dicunt praedictum 
+      <lb ed="#S" n="56"/>decretum intelligi de ignorantia iuris, quae non excusat. Et 
+      <lb ed="#S" n="57"/>haec sumpta sunt ex glosa super locum praedictum. 
+    </p>
+            <p xml:id="khj78y-q19825-d1e471" n="10">
+               <lb ed="#S" n="58"/>
+               <!-- 10 -->sed contra hauc vltimam opi. vider esse, quod ibi 
+      <lb ed="#S" n="59"/>dicit: non indigent pro ea poenitere, quod non esset 
+       ve<lb ed="#S" break="no" n="60"/>rum: si cum ignorantia iuris haberent scientiam facti, vt potest 
+      <lb ed="#S" n="61"/>probari per ea, quae dicuntur in. c. immediate seq. 
+    </p>
+            <p xml:id="khj78y-q19825-d1e484" n="11">
+               <lb ed="#S" n="62"/>
+               <!-- 11 -->Qui vult tenere primam opi. quae magis videtur 
+      <lb ed="#S" n="63"/>consona textui: potest dicere ad illud, quod posset opp 
+      <lb ed="#S" n="64"/>ni. Primo sic opponi potest, pro eodem facto illicito magis 
+      <lb ed="#S" n="65"/>debet puniri agens, quam patiens, sed non inuenitur iure cautum, 
+      <lb ed="#S" n="66"/>quod baptizans eum, quem nescit baptizatum sit irregularis. er 
+      <lb ed="#S" n="67"/>go &amp;c.
+    </p>
+            <p xml:id="khj78y-q19825-d1e503" n="12">
+      <!-- 12 -->solutio maior intelligenda est de poe- 
+      <!--0097.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>na, quae infligitur pro peccato. Irregularis autem in casu 
+      <lb ed="#S" n="69"/>praedicto non infligitur pro peccato, vt patet per textum praealle 
+      <lb ed="#S" n="70"/>gati decreti: sed propter sacramenti reuerentiam: &amp; vt homines sint 
+      <lb ed="#S" n="71"/>diligentiores in sollicite cauando: in his, quae sunt in 
+       in<lb ed="#S" break="no" n="72"/>i uriam sacramenti. In talibus autem poenis quandoque magis fauetur 
+       su<lb ed="#S" break="no" n="73"/>perioribus, quae inferioribus: eo quod irregularitas periculosior 
+      <lb ed="#S" n="74"/>est in eis. extra de sententia excommuni. c. Quam periculosum. 
+    </p>
+            <p xml:id="khj78y-q19825-d1e527" n="13">
+               <lb ed="#S" n="75"/>
+               <!-- 13 -->secundo arguitur sic. Nullus debet esse irregularis 
+      <lb ed="#S" n="76"/>propter alienum factum: ad quod ipse non cooperatur: nec auxi 
+      <lb ed="#S" n="77"/>lio, nec consilio, nec fauore, sed hoc non esset verum, si secundo 
+      <lb ed="#S" n="78"/>baptizatus ignorans fieret irregularis: quia petens 
+       baptis<lb ed="#S" break="no" n="79"/>mum potest ab aliquo dormiens baptizari. Vnde si dio 
+      <lb ed="#S" n="80"/>crastina post petitionem baptismi dormiens baptizatus foret 
+      <lb ed="#S" n="81"/>ex hoc irregularis: hoc esset occasione facti, ad quod non es 
+      <lb ed="#S" n="82"/>set cooperatus.
+    </p>
+            <p xml:id="khj78y-q19825-d1e549" n="14">
+      <!-- 14 -->solutio, aliquando punitur quis propter 
+      <lb ed="#S" n="83"/>factum alienum, ad quod nihil est cooperatus: vt habet. 1. 
+       q<lb ed="#S" break="no" n="84"/>5. c. 1. vt patet etiam in spuriis, qui non possunt ordinari. 
+      <lb ed="#S" n="85"/>Et praeterea per hoc, quod petit baptizari vigilans, cooperatus 
+      <lb ed="#S" n="86"/>est ad secundam baptismi susceptionem factam etiam in somno. 
+    </p>
+            <p xml:id="khj78y-q19825-d1e562" n="15">
+               <lb ed="#S" n="87"/>
+               <!-- 15 -->Qui autem vult tenere contrariam opi. potest 
+       respon<lb ed="#S" break="no" n="88"/>dere ad argumentum, quod consueuit fieri in oppositum: cum 
+      <lb ed="#S" n="89"/>dicitur: Magis cauetur episcopis, quantum ad tuta: per quorum 
+      <lb ed="#S" n="90"/>transgressionem incurrit sententia suspensionis ipso facto, quae 
+      <lb ed="#S" n="91"/>inferius. extra de sen, excommunicationis Quam periculosum. ergo 
+       simi<lb ed="#S" break="no" n="92"/>liter magis debet caueri irregularitati eorum, quae inferiorum. 
+      <lb ed="#S" n="93"/>sed. C ne sacrum baptis. iteretur. l. 1. dicit: Antistitem, qui 
+       san<lb ed="#S" break="no" n="94"/>ctitatem baptismatis illicita vsurpatione geminauerit: 
+       sa<lb ed="#S" break="no" n="95"/>cerdotio indignum esse censemus ergo multo fortius 
+       sub<lb ed="#S" break="no" n="96"/>ditus, in quo iteratur, est irregularis.
+    </p>
+            <p xml:id="khj78y-q19825-d1e588" n="16">
+      <!--16. -->solutio, 
+      <lb ed="#S" n="97"/>lex illa loquit de rebaptizante scienter. Et praeterea non 
+       li<lb ed="#S" break="no" n="98"/>gat. Non em pertinet ad Imperatorem poenam irregularita 
+      <lb ed="#S" n="99"/>tis infligere. scienter tamen rebaptizantem esse irregularem, si 
+       pu<lb ed="#S" break="no" n="100"/>blicum est, probari potest per illud, quod habet extra de apost. 
+      <lb ed="#S" n="101"/>c. Ex literarum.
+    </p>
+            <p xml:id="khj78y-q19825-d1e604" n="17">
+      <!-- 17 -->Ad decretum autem, quod adducitur 
+      <lb ed="#S" n="102"/>pro parte alia, potest dici, vt dictum est, quod intelligitur de illis, 
+      <lb ed="#S" n="103"/>qui postea quam sciuerunt, ratum habent.
+    </p>
+            <p xml:id="khj78y-q19825-d1e614" n="17">
+      <!-- 17 -->Tertia 
+       con<lb ed="#S" break="no" n="104"/>clusio est de illo monstro: quod habet geminata membra: 
+      <lb ed="#S" n="105"/>vtrum in illo debeat geminari baptismus? Et dicunt do 
+      <lb ed="#S" n="106"/>ctores, quod si membra pricipalia in eo geminent: &amp; perfecte 
+      <lb ed="#S" n="107"/>distinguantur: puta, quod habet duo capita, duo pectora, duos 
+      <lb ed="#S" n="108"/>ventres: &amp; per consequens duo corila: quia visum est vnum 
+      <lb ed="#S" n="109"/>mortuum per annum, &amp; aliud remansisse viuum: dicunt, quod duo 
+      <lb ed="#S" n="110"/>funt homines, &amp; per consequens duo baptismata 
+       requiren<lb ed="#S" break="no" n="111"/>tes. si autem econuerso vnum est caput: sed caetera 
+       geminan<lb ed="#S" break="no" n="112"/>tur: sicut vidi de pectore vnius hominis alium egredi: vbi 
+      <lb ed="#S" n="113"/>nates, &amp; crura, &amp; tibiae solum erant duplicia: vnus homo vi 
+      <lb ed="#S" n="114"/>detur ex materia superflua. Vnde vnicus debet esse 
+       ba<lb ed="#S" break="no" n="115"/>ptismus. si autem esset vnum caput perfectum, &amp; aliud imper 
+      <lb ed="#S" n="116"/>fectum: &amp; similiter de aliis membris principalibus: tunc vno 
+      <lb ed="#S" n="117"/>baptismo simpliciter esset baptizandum corpus illud, in 
+      <lb ed="#S" n="118"/>quo membra principalia apparent perfecta: aliud autem, in 
+      <lb ed="#S" n="119"/>quo apparent imperfecta esset sub conditione baptiaandum. 
+      <lb ed="#S" n="120"/>Videret tamen aliter distinguendum: quia si in illo toto 
+       corpo<lb ed="#S" break="no" n="121"/>re monstruoso non est aliqua pars, qua lesa, vel puncta 
+      <lb ed="#S" n="122"/>non transeat dolor ad aliud caput, videtur vnum continuum, 
+      <lb ed="#S" n="123"/>&amp; per consequens non nisi vnus homo: cum in eadem parte ma 
+      <lb ed="#S" n="124"/>teriae non sint plures animae eiusdem rationis, nec potest ibi 
+      <lb ed="#S" n="125"/>sentire, vbi anima non est. si autem sit aliqua pars, qua pun 
+      <lb ed="#S" n="126"/>cta, vel lesa vnus sentiat, alius non sentiat, videt contigua, 
+      <lb ed="#S" n="127"/>non continua: sicut foetus matri, &amp; sic duo homines, quam 
+      <lb ed="#S" n="128"/>uis aliquis diceret, quod etiam in vno continuo sunt partes 
+       in<lb ed="#S" break="no" n="129"/>sensibiles, sicut capilli, &amp; dentes, &amp; vngues. sed tunc non 
+      <lb ed="#S" n="130"/>esset ratio, quare magis vni esset illa pars insensibilis, quam 
+      <lb ed="#S" n="131"/>alij.
+    </p>
+            <p xml:id="khj78y-q19825-d1e679" n="18">
+      <!-- 18 -->QVANTVM ad secundum sunt qua 
+      <lb ed="#S" n="132"/>tuor conclusiones. Prima, quod cathecismus, qui est 
+       instru<lb ed="#S" break="no" n="133"/>ctio circa fidei rudimenta. i. circa generalia fidei: debet 
+      <lb ed="#S" n="134"/>praecedere in adultis, vt sciant ad quid se obligant: sicut 
+      <!--0098.xml-->
+      <pb ed="#S" n="98"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>mulieribus secundum leges debet exponi tenor Velleia 
+      <lb ed="#S" n="2"/>ni: vt sciant cur renunciant, &amp; nouiciis puncta religionis, 
+      <lb ed="#S" n="3"/>vt sciant, ad quid se obligant. sic samuel exposuit ius re 
+      <lb ed="#S" n="4"/>gni, vt petentes regem scirent, quid peterent. 1. Reg. 8. sic a 
+      <lb ed="#S" n="5"/>quibus exigitur iurare statuta: debent, si possunt praeuidere 
+      <lb ed="#S" n="6"/>ea. Alias non intendant iurare nisi licita, &amp; honesta: nec te 
+      <lb ed="#S" n="7"/>nentur ad alia, ut dicit de iureiuram. lib. 6. c. 1.
+    </p>
+            <p xml:id="khj78y-q19825-d1e712" n="19">
+      <!-- 19 -->Et 
+      <lb ed="#S" n="8"/>tamen ista ratio parum valet, quia siue adulto exprimatur, siue non: 
+      <lb ed="#S" n="9"/>nihilominus obligatur: quia ista sunt necessaria: quia cum 
+      <lb ed="#S" n="10"/>quaedam sit obligatio necessaria: quaedam voluntaria: de 
+       vo<lb ed="#S" break="no" n="11"/>luntaria verum est, quod nemo obligatur, nisi sciens, &amp; volens. 
+      <lb ed="#S" n="12"/>Vnde iustum est, quod obligando exponitur. Alia autem est, quae 
+      <lb ed="#S" n="13"/>est necessaria: ad quam nesciens, &amp; inuitus obligatur: sicut 
+      <lb ed="#S" n="14"/>quilibet obligatur ad ea, quae sunt iuris naturalis, &amp; diuini, 
+      <lb ed="#S" n="15"/>&amp; etiam humani, velit, nolit. Vnde licet expediat ei ista 
+      <lb ed="#S" n="16"/>scire: tamen si ista exponantur ei, hoc non est ad hoc, quod per hanc 
+      <lb ed="#S" n="17"/>expressionem obligatur. Et talia sunt articuli fidei: ad quos 
+      <lb ed="#S" n="18"/>credendos omnis  homo obligat, siue velit, siue nolit: licet pl 
+      <lb ed="#S" n="19"/>fidelis, quam infidelis. Vnde non est simile de pueris 
+       religio<lb ed="#S" break="no" n="20"/>nem intrantibus, quibus quae sunt religionis exponuntur, &amp; 
+      <lb ed="#S" n="21"/>de mulieribus fide iubentibus, quia ad illa non nisi volens ob 
+      <lb ed="#S" n="22"/>ligatur aliquis: &amp; quia non consentiunt, qui errant: ideo tenor, 
+      <lb ed="#S" n="23"/>Velleiani eis exponendus est &amp; omnia: vt sciant, ad quid se ob 
+      <lb ed="#S" n="24"/>ligant per votum voluntatis: sed votum baptismi est votum 
+      <lb ed="#S" n="25"/>necessitatis: vnde non est simile.
+    </p>
+            <p xml:id="khj78y-q19825-d1e756" n="20">
+      <!-- 20 -->Praeterea si 
+       id<lb ed="#S" break="no" n="26"/>eo exprimuntur, vt sciat, ad quid obligatur: cum ipse ad omnia, quae 
+      <lb ed="#S" n="27"/>sunt fidei obliget, omnia exprimi deberent. Compellit enim 
+      <lb ed="#S" n="28"/>stare in fide etiam quantum ad omnia non expressa: non minus, 
+      <lb ed="#S" n="29"/>quam quantum ad expressa, imo compellitur credere omnia, quae sunt 
+       fi<lb ed="#S" break="no" n="30"/>dei: omnia, quae sunt in Biblia, vel per ecclesiam 
+       determina<lb ed="#S" break="no" n="31"/>ta. Alias tanquam haereticus iudicatur.
+    </p>
+            <p xml:id="khj78y-q19825-d1e774" n="21">
+      <!-- 21 -->secunda 
+      <lb ed="#S" n="32"/>conclusio est, quod similiter paruuli sunt cathecizandi, vt sic 
+      <lb ed="#S" n="33"/>nihil minus obligentur per alium ad bonum suum, quam per Adam 
+      <lb ed="#S" n="34"/>ad malum. Et hoc quantum ad votum: quod est necessitatis: non 
+      <lb ed="#S" n="35"/>quantum ad volum voluntatis, vt si mater pro sanitate 
+       peri<lb ed="#S" break="no" n="36"/>clitantis quicquam voluerit: non propter hoc ipse, nisi voluerit, 
+      <lb ed="#S" n="37"/>est ad illud obligatur. Et ideo non valet ratio dicentium, 
+      <lb ed="#S" n="38"/>quod ideo paruulus est cathecizandus, quia per alium potest 
+       ob<lb ed="#S" break="no" n="39"/>ligare, etiam si nihil ei exprimeret: quando enim in necessitate 
+      <lb ed="#S" n="40"/>baptizat, tunc enim substantia non solemnitas seruatur. Et si 
+      <lb ed="#S" n="41"/>postea, quod omissumest, non suppleai, nihilominus, nec 
+      <lb ed="#S" n="42"/>plus, nec minus ad illa obligatur: igitur nec in adulto, nec 
+      <lb ed="#S" n="43"/>in paruulo: propter hoc requiritur cathecismus, vt ipse 
+       ob<lb ed="#S" break="no" n="44"/>ligetur: cum siue fiat, siue non, aequaliter obligetur. 
+    </p>
+            <p xml:id="khj78y-q19825-d1e807" n="22">
+               <lb ed="#S" n="45"/>
+               <!-- 22 -->Praeterea si nullus patrinus esset, qui pro puero 
+      <lb ed="#S" n="46"/>responderet, nihilominus puer obligatur. ideo &amp;c. sed 
+       for<lb ed="#S" break="no" n="47"/>te propter hoc, quia sacramentum istud est ianua sacramentorum: &amp; fides 
+      <lb ed="#S" n="48"/>est ianua prima, &amp; ex fide ecclesiae habent efficaciam sacramenta 
+      <lb ed="#S" n="49"/>congruum est, vt ea, quae sunt in fide principalia in hoc sa 
+      <lb ed="#S" n="50"/>cramento exponantur, &amp; proponantur.
+    </p>
+            <p xml:id="khj78y-q19825-d1e826" n="23">
+      <!-- 23 -->Tertia 
+       con<lb ed="#S" break="no" n="51"/>clusio est de ritu cathecismi. Vbi sciendum est, quod ibi debet 
+      <lb ed="#S" n="52"/>esse patrinus, qui sit baptizatus, non monachus, quia non 
+      <lb ed="#S" n="53"/>baptiaatus non debet suscipere de sacro fonte: similiter 
+       mo<lb ed="#S" break="no" n="54"/>nachi non debent habere commatres. Debet etiam esse vnus, 
+      <lb ed="#S" n="55"/>non plures: sicut est vna mater, non plures: quamuis nunc de 
+      <lb ed="#S" n="56"/>facto non seruetur. Non debet etiam patrinus in confirmatio 
+      <lb ed="#S" n="57"/>no ille, qui fuit patrinus in baptismo: quia idem non 
+       gene<lb ed="#S" break="no" n="58"/>rat bis eundem: quamuis episcopus possit confirmare, quem 
+       ba<lb ed="#S" break="no" n="59"/>ptizauit: quia non est prohibitum: primum autem est prohibitum, nisi 
+      <lb ed="#S" n="60"/>propter necessitatem·
+    </p>
+            <p xml:id="khj78y-q19825-d1e852" n="24">
+      <!-- 24 -->Quarta conclusio est de 
+       ef<lb ed="#S" break="no" n="61"/>fectu cathecismi. Vbi sciendum, quod in eo spiritualis cognatio 
+      <lb ed="#S" n="62"/>contrahitur imperfecta. scilicet qua matrimonium impedit contra 
+      <lb ed="#S" n="63"/>hendum: sed non dirimit post contractum, sicut illa, quae est 
+      <lb ed="#S" n="64"/>ex vero baptismo, &amp; confirmatione: vt habetur de cogna. spi 
+      <lb ed="#S" n="65"/>rituali. c. 1. 2. &amp;. 6. Et quis non debeant esse plures 
+       patri<lb ed="#S" break="no" n="66"/>ni: sed omnes tamen contrahitur: licet non inter cos ad inuicem, nec 
+      <lb ed="#S" n="67"/>ad baptizantem, nec ad cathecizantem: sed ad parentes carna 
+      <!--0098.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>les baptizati, vel cathecizati, &amp; ad ipsummet baptizatum, 
+      <lb ed="#S" n="69"/>vel cathetizatum. quando ergo puer ab obstetrice baptizat po 
+      <lb ed="#S" n="70"/>stea a sacerdote cathetizat, &amp; exorcizatur solemniter perfecta 
+      <lb ed="#S" n="71"/>cognatio in primo contrahitur: vbi est verum sacramentum: sed im 
+      <lb ed="#S" n="72"/>perfecta in scd'o: vbi est sacramentale tantum.
+    </p>
+            <p xml:id="khj78y-q19825-d1e887" n="25">
+      <!-- 25 -->
+       QVAN<lb ed="#S" break="no" n="73"/>TVM ad tertium sunt tres conclusiones. Prima, quod exorcis 
+      <lb ed="#S" n="74"/>mus debet praecedere baptismum, nisi necessitas occurrat, 
+      <lb ed="#S" n="75"/>nec est sacramentum, cum praecedat baptismum, qui est ianua 
+       sacra<lb ed="#S" break="no" n="76"/>mentorum. Vnde nec confert gratiam, nec aufert originalem 
+      <lb ed="#S" n="77"/>culpam: vnde cathetizatus, &amp; exorcizatus paruulus moriens 
+      <lb ed="#S" n="78"/>ante baprismum nihilominus damnat: quia non est renatus 
+      <lb ed="#S" n="79"/>ex aqua, &amp; spiritusancto.
+    </p>
+            <p xml:id="khj78y-q19825-d1e907" n="26">
+      <!-- 26 -->secunda conclusio est 
+      <lb ed="#S" n="80"/>de ritu exorcismi. Vbi sciendum est, quod sicut in cathecismo 
+      <lb ed="#S" n="81"/>est manus impositio: ita in exorcismo, &amp; neutra est con 
+      <lb ed="#S" n="82"/>firmatio: tum quia a simplici sacerdote est: nam sine 
+       episco<lb ed="#S" break="no" n="83"/>po est vtrunque: tum quia ante baptismum, ante quem non est 
+      <lb ed="#S" n="84"/>confirmatio, nec aliud sacramentum. Cum autem fit vnctio ad 
+       ca<lb ed="#S" break="no" n="85"/>thecumenos in cathecismo debet esse de oleo eodem an 
+      <lb ed="#S" n="86"/>no consecrato: quod a suo episcopo debet presbyter per se 
+      <lb ed="#S" n="87"/>ipsum petere. non est autem vnctio chrismatis in 
+       exorcis<lb ed="#S" break="no" n="88"/>mo: quia chrima soli competit Christiano: &amp; post baptisma 
+      <lb ed="#S" n="89"/>in vertice chrismate perungitur. sic igitur exorcismus cum sit 
+      <lb ed="#S" n="90"/>adiuratio, per quam demonis potestas arcet, nec impediat 
+      <lb ed="#S" n="91"/>baptizandum a susceptione sacramenti conuenienter praemittitur. 
+       si<lb ed="#S" break="no" n="92"/>cut enim in generatione naturali: primo remouentur 
+       dispo<lb ed="#S" break="no" n="93"/>sitiones contrariae impedientes susceptionem formae, antequam 
+      <lb ed="#S" n="94"/>introducatur forma sic, &amp; in generatione spirituali: quae est per 
+      <lb ed="#S" n="95"/>baptismum: primo remouenda sunt impedimenta vitae spiritu
+       a<lb ed="#S" break="no" n="96"/>lis, vt est daemonis potestas: quam ipse accepit ex peccato 
+      <lb ed="#S" n="97"/>primorum parentum: quam introducatur vita spiritualis. Et quia hoc fit 
+      <lb ed="#S" n="98"/>per exorcismum. ideo praecedit baptismum. Et hoc est, quod 
+      <lb ed="#S" n="99"/>dicit Rabanus de institutione clericorum, &amp; recitatur de con 
+      <lb ed="#S" n="100"/>secra. dist. 4. vbi dicitur sic: Postquam se baptizandus per con 
+      <lb ed="#S" n="101"/>fessionem verae fidei in alterius commendauerit dominium, &amp; 
+      <lb ed="#S" n="102"/>per abrenunciationem prioris posterioris se alienaueris 
+      <lb ed="#S" n="103"/>seruitio: exsufslatur baptizando potestas sceua: vt per pium 
+      <lb ed="#S" n="104"/>ministerium sacerdotis spirituisancto cedat fugiens malignus 
+      <lb ed="#S" n="105"/>spiritus.
+    </p>
+            <p xml:id="khj78y-q19825-d1e968" n="27">
+      <!-- 27 -->Tertia conclusio est de effectu 
+       exor<lb ed="#S" break="no" n="106"/>cismi. Vbi sciendum, quod quaeda sunt in exorcismo: quae solum 
+      <lb ed="#S" n="107"/>significant. Et illa consistunt in factis, &amp; non in verbis, vt 
+      <lb ed="#S" n="108"/>sal in ore positum, &amp; linitio aurium, &amp; narium cum sputo, &amp; 
+       vn<lb ed="#S" break="no" n="109"/>ctio olei in pectore, &amp; inter spatulas. Primum significat 
+      <lb ed="#S" n="110"/>discretionem diuinae sapientiae. scilicet sal in ore positum. secundum 
+      <lb ed="#S" n="111"/>significat aptitudinem respectu fidei discendae, &amp; 
+       approban<lb ed="#S" n="112" break="no"/>dae. scilicet linitio aurium, &amp; narium. Auditus enim maxime proficit 
+      <lb ed="#S" n="113"/>ad doctrinam. Nares vero de odore indicant. Tertiu vero 
+      <lb ed="#S" n="114"/>s. linitio olei, significat expositionem ad pugnam contra ho 
+      <lb ed="#S" n="115"/>stem. sed tria adhuc pertinentia ad exorcismum, sequuntur 
+      <lb ed="#S" n="116"/>baptismum. scilicet chrismatio in vertice: quae significat gratiam 
+      <lb ed="#S" n="117"/>Christi descendisse in baptizatum: secundum traditio caerei 
+      <lb ed="#S" n="118"/>accensi in signum claritatis fidei, &amp; candida vestis in signum 
+      <lb ed="#S" n="119"/>innocentiae restitutae.
+    </p>
+            <p xml:id="khj78y-q19825-d1e1003" n="28">
+      <!-- 28 -->Alia vero efficiunt, quod 
+      <lb ed="#S" n="120"/>significant ex opere operato, &amp; consistunt in factis simul, 
+      <lb ed="#S" n="121"/>&amp; verbis: vt insufflatio cum verbis ad hoc institutis, quae sunt 
+      <lb ed="#S" n="122"/>maledictae exi ab eo &amp;c, &amp; manuum impositio cum benedi 
+      <lb ed="#S" n="123"/>ctione. Primum enim significat, quod efficit expulsionem daemo 
+      <lb ed="#S" n="124"/>nis ne impediat baptizandum a susceptione baptismi. 
+       se<lb ed="#S" break="no" n="125"/>cundum autem praecludit ei viam redeundi. Et quod ita sit, patet 
+      <lb ed="#S" n="126"/>ratione, &amp; authoritate. Ratione, quia in ritu ecclesiae, quae 
+      <lb ed="#S" n="127"/>regitur spiritusancto, nihil efficit frustra, vel falso, sed 
+      <lb ed="#S" n="128"/>nisi praedicta efficerent, quod significant maxime illa, quae 
+      <lb ed="#S" n="129"/>profuruntur imperatiue, vt adiuratio daemonis frustra profer 
+      <lb ed="#S" n="130"/>rentur. ergo habent efficaciam in illud, quod significant. Ad 
+      <lb ed="#S" n="131"/>idem est authoritas Augu. de symbolo lib. 1. &amp; recitatur de 
+      <lb ed="#S" n="132"/>consec dist. 4. sicut nostris. vdi dicit. sic paruuli ex 
+       suf<lb ed="#S" break="no" n="133"/>flantur, &amp; exorcizant, vt pellatur ab eis potestas Diaboli 
+      <lb ed="#S" n="134"/>inimica, &amp; idem dicit. c. Ad hoc iterum. tum non propter hoc 
+      <!--0099.xml-->
+      <pb ed="#S" n="99"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>exorcismus est sacramentum, quia eius virtus non efficit 
+       spiri<lb ed="#S" break="no" n="2"/>tualem effectum, qui sit amotio culpae, vel poenae debitae pro 
+      <lb ed="#S" n="3"/>culpa, sed est solum ad remouendu impedimentum, quod 
+      <lb ed="#S" n="4"/>posset accidere susceptioni sacri.
+    </p>
+            <p xml:id="khj78y-q19825-d1e1056" n="29">
+      <!-- 29 -->Circa hoc tamen 
+      <lb ed="#S" n="5"/>sunt diuersae opi. scilicet circa modum expellendi: quia quidam 
+       di<lb ed="#S" break="no" n="6"/>cunt, quod exorcismus naturali virtute expellere habet dia 
+      <lb ed="#S" n="7"/>bolicam potestatem: &amp; hanc opi. tangit Magister in historiis. 
+      <lb ed="#S" n="8"/>Quam opi. nituntur probare authoritate. I. Reg. 16. vbi di 
+      <lb ed="#S" n="9"/>citur, quod Dauid quasi citharizando reprimebat potestatem 
+      <lb ed="#S" n="10"/>mali spiritus a vexatione saulis. Virtuosior aut est vox 
+      <lb ed="#S" n="11"/>prolata ab homine, quae vox citharae.
+    </p>
+            <p xml:id="khj78y-q19825-d1e1076" n="30">
+      <!-- 30 -->Ratione 
+      <lb ed="#S" n="12"/>etiam arguunt sic. Oens effectus participant aliquid de 
+       vir<lb ed="#S" break="no" n="13"/>tute suae causae: causa autem vocis humanae est, quid com 
+      <lb ed="#S" n="14"/>positum ex corpore, &amp; anima. ergo in voce hominis est aliquid, 
+      <lb ed="#S" n="15"/>&amp; de virtute corporis, &amp; de virtute animae. Vnde vna &amp; 
+      <lb ed="#S" n="16"/>eadem vox plata ab vno est virtuosior, quam plata ab alio: 
+      <lb ed="#S" n="17"/>sicut dicit Hiero. in epistola ad Paulinum: habet aliquid 
+       la<lb ed="#S" break="no" n="18"/>tentis energiae viuae vocis actus. Dicunt ergo, quod quamuis ex 
+      <lb ed="#S" n="19"/>orcismus non possit artare potestatem daemonis ratione 
+      <lb ed="#S" n="20"/>corporalis virtutis: tamen potest ratione virtutis animae, &amp; 
+      <lb ed="#S" n="21"/>faciendo in baptizando aliquam dispositionem, quae magis est 
+      <lb ed="#S" n="22"/>indispositus ad patiendum a daemone, &amp; etiam directe agen 
+      <lb ed="#S" n="23"/>do in ipsum daemonem: non obstante, quod fortior sit 
+       natura<lb ed="#S" break="no" n="24"/>lis eius virtus, quam virtus animae naturalis: sicut enim ignis, 
+      <lb ed="#S" n="25"/>qᷓuis potentior sit terra: tamen agens in eam debilitatur ab eius 
+      <lb ed="#S" n="26"/>virtute inquantum ratione suae materiae inferior est forma 
+      <lb ed="#S" n="27"/>terrae. sic, &amp; daemon ratione sui passibilis potest pati a 
+       vir<lb ed="#S" break="no" n="28"/>tute vocis, quae est in ea ab actiuo ipsius animae. Et ideo 
+      <lb ed="#S" n="29"/>etiam si per naturalem virtutem vocis non possit totaliter 
+       vin<lb ed="#S" break="no" n="30"/>ci potestas daemonis, potest tamen debilitari per eam. 
+    </p>
+            <p xml:id="khj78y-q19825-d1e1122" n="31">
+               <lb ed="#S" n="31"/>
+               <!-- 31 -->Contra tamen hanc opi. arguitur sic: Anima exorcizan 
+      <lb ed="#S" n="32"/>tis per naturalem virtutem non potest facere aliquam impressio 
+      <lb ed="#S" n="33"/>nem in animam intellectiuam paruuli, nec in sensitiua, q 
+      <lb ed="#S" n="34"/>in articulo excommunicato a domino episcopo Parisiensi 
+       con<lb ed="#S" break="no" n="35"/>tinet. quia intelligentiae superiores imprimunt in inferiores, 
+      <lb ed="#S" n="36"/>sicut anima vna intellectiua in aliam, &amp; in animam 
+       sensiti<lb ed="#S" break="no" n="37"/>uam error. Vt enim dictum est in lib. 2. dist. 7. Diabolus per 
+      <lb ed="#S" n="38"/>suam naturalem virtutem non potest immediate transmutare res 
+      <lb ed="#S" n="39"/>istas naturales, nisi ad situm, &amp; ad formam artificialem. Non 
+      <lb ed="#S" n="40"/>potest ergo exorcismus per naturalem virtutem animae exorci 
+      <lb ed="#S" n="41"/>zantis aliquam dispositionem causare in paruulo: per quam 
+      <lb ed="#S" n="42"/>magis sit dispositus ad suscipiendam daemonis actionem. 
+      <lb ed="#S" n="43"/>Et si haec virtus non potest agere in paruulum: multo minus 
+      <lb ed="#S" n="44"/>in daemonem.
+    </p>
+            <p xml:id="khj78y-q19825-d1e1157" n="32">
+      <!-- 32 -->Praeterea exorcismus potest plus 
+      <lb ed="#S" n="45"/>ratione significationis, quam ratione vocum: significatio cm̃ 
+      <lb ed="#S" n="46"/>dictionis est forma, vox materia. Dictio enim est vox 
+       si<lb ed="#S" break="no" n="47"/>gnificatiua, sed significatio vocis non potest naturaliter 
+       a<lb ed="#S" break="no" n="48"/>gere in alium, nisi mediante apprehensione illius. Cum 
+       er<lb ed="#S" break="no" n="49"/>go paruulus significationes non apprehendat, voces ex, 
+      <lb ed="#S" n="50"/>orcizantis nihil agere possunt uaturaliter in paruulum. 
+      <lb ed="#S" n="51"/>Non potest etiam significatio vocum naturaliter mouere 
+      <lb ed="#S" n="52"/>motione coactiua voluntatem epprehendentis, quia ipsam 
+      <lb ed="#S" n="53"/>non mouet, nisi mediante vi cognitiua, quae non possunt cogere 
+      <lb ed="#S" n="54"/>voluntatem, &amp; ex consequenti nec virtutem executiuam: igitur si 
+      <lb ed="#S" n="55"/>gnificatio vocum, quae dicuntur in exorcizado, non potest 
+       na<lb ed="#S" break="no" n="56"/>turaliter artare daemonis operatiuam potestatem. Et ideo est 
+      <lb ed="#S" n="57"/>alia opi. quod non virtute naturali, nec virtute supernaturali, 
+      <lb ed="#S" n="58"/>sicut in subiecto existento in exorcismo: sed ex virtute di 
+      <lb ed="#S" n="59"/>uina sibi ex decreto diuinae misericordiae assistente 
+       po<lb ed="#S" break="no" n="60"/>testas ab applicante expellitur, sic intelligo, quod 
+       po<lb ed="#S" break="no" n="61"/>testas Diaboli arctat per comparationem ad illum, ne caeteris 
+      <lb ed="#S" n="62"/>paribus possit de caetero tantum contra illum, quantum posset, si 
+      <lb ed="#S" n="63"/>exorcizatus non esset. Et maxime impediendo baptizandum 
+      <lb ed="#S" n="64"/>a susceptione baptismi, &amp; eius effectu.
+    </p>
+            <p xml:id="khj78y-q19825-d1e1205" n="33">
+      <!-- 33 -->sed 
+       cir<lb ed="#S" break="no" n="65"/>ca ea, quae dicta sunt, est dubitatio, quomodo  ex opere opato 
+       ex<lb ed="#S" break="no" n="66"/>orcismus habeat aliquem effectum, quia aut per modum causae, 
+      <lb ed="#S" n="67"/>per quam: sicut dicimus de sacramentum no. le. Et hoc est impos- 
+      <!--0099.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>sibile: quia est institutus ab ecclesia. Constat autem pes hoc, 
+      <lb ed="#S" n="69"/>quod aliquid ab homine ordinatur ad aliquid, non propter 
+       hoc<lb ed="#S" break="no" n="70"/>aliqua realis forma, vel virtus in eo sit, quam prius non 
+       ha<lb ed="#S" break="no" n="71"/>beret, sed solum relatio rationis. Et sicut verba consecratio 
+      <lb ed="#S" n="72"/>nis nihil ponunt in calice, nec verba incantatorum quicquam 
+      <lb ed="#S" n="73"/>efficiunt in serpente, sic nec exorcismus salomonis in dae 
+      <lb ed="#S" n="74"/>mone. si autem dicat, sicut videntur dicere, quod ex pactione 
+      <lb ed="#S" n="75"/>Dei hoc non videtur, cum in scriptura Deus non pepigerit. 
+    </p>
+            <p xml:id="khj78y-q19825-d1e1238" n="34">
+               <lb ed="#S" n="76"/>
+               <!-- 34 -->sed potest dici, quod vbi Christus dicit: Qui vos 
+      <lb ed="#S" n="77"/>audit, me audit, &amp; dedit vobis potestatem calcandi super 
+      <lb ed="#S" n="78"/>omnem virtutem inim ici, dedit hanc potestatem ecclesiae, quod 
+      <lb ed="#S" n="79"/>quando diceretur id, quod per eam ad hoc institutum est, Deus 
+       arce<lb ed="#S" break="no" n="80"/>ret potestatem illius: ita, quod ex opere operato, hic fit, quod 
+       ni<lb ed="#S" break="no" n="81"/>si baptizandus impedimentum apponat etiam si exorcizans 
+      <lb ed="#S" n="82"/>sit malus sine opere oponte sequitur hic effectus exorcismi, 
+      <lb ed="#S" n="83"/>ficuta causa sine qua non: sicut olim in sacramentis ve. le. 
+      <lb ed="#S" n="84"/>&amp; plus: quia ibi requirebatur opus operans, nisi in circum
+       cisio<lb ed="#S" break="no" n="85"/>ne. si autem ratio prima est bona: tunc aqua benedicta ex 
+      <lb ed="#S" n="86"/>opere operato expelleret daemonem, quia ibi dicitur, siat aqua 
+      <lb ed="#S" n="87"/>exo, cizata ad effugandum &amp;c. Et esset mendacium, &amp; falsum, 
+      <lb ed="#S" n="88"/>nisi fugaret.
+    </p>
+            <p xml:id="khj78y-q19825-d1e1272" n="35">
+      <!-- 35 -->Vel dicendum, quod ex opere 
+       operan<lb ed="#S" break="no" n="89"/>te, id est, fide ecclesiae per modum orationis, &amp; meriti, &amp; suf 
+      <lb ed="#S" n="90"/>fragij non ex opere operato habent istum effectum exorcism 
+      <lb ed="#S" n="91"/>&amp; aqua benedicta, &amp; tunc saluatur veritas verborum. Potest 
+      <lb ed="#S" n="92"/>igitur dici, quod exorcimus habet effectum spiritualem ex ope 
+      <lb ed="#S" n="93"/>re operante, non ex opere operato, vel quod habet ex opere 
+       o<lb ed="#S" break="no" n="94"/>perato ex pactione sola, vel ex virtute inhaerente, sed non 
+      <lb ed="#S" n="95"/>talem, qui sit dispositio sufficiens ad gratiam. Et quocumque 
+      <lb ed="#S" n="96"/>talium detur: hoc sufficit ad saluandum veritatem verborum, &amp; 
+      <lb ed="#S" n="97"/>ad distinguendum ipraem ab omni sacramento no. le. secundum opi 
+      <lb ed="#S" n="98"/>nionem, quae supraposita est de sacramentis, quod sint causa per se dispo 
+      <lb ed="#S" n="99"/>sitiua ad gratiam, Et per haec patet responsio ad oppositum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="237"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q70012"><!-- l4d18-q5 -->
+            <head xml:id="khj78y-q70012-Hd1e101">Quaestio 5</head>
+            <head xml:id="khj78y-q70012-Hd1e103" type="question-title">
+     de absolutione ab excommunicatione
+   </head>
+            <p xml:id="khj78y-q70012-d1e106">
+               <lb ed="#S" n="31"/>QVAESTIO QVINTA. 
+      <lb ed="#S" n="32"/>De absolutione ab excommunicatione. 
+    </p>
+            <p xml:id="khj78y-q70012-d1e113">
+               <lb ed="#S" n="33"/>Tho. 4d. i8. q.2.ar. 5.
+    </p>
+            <p xml:id="khj78y-q70012-d1e118">
+               <lb ed="#S" n="34"/>QVAERITVR quinto de 
+       absolu<lb ed="#S" break="no" n="35"/>tione ab excommunicatione: &amp; videtur quod solus 
+      <lb ed="#S" n="36"/>Papa possit absoluere: quia causae 
+       maio<lb ed="#S" break="no" n="37"/>res Ecclesiae sibi soli reseruantur: sed excommuni 
+      <lb ed="#S" n="38"/>catio est maius quod Ecclesia possit. 
+       Er<lb ed="#S" break="no" n="39"/>go. &amp;c.
+    </p>
+            <p xml:id="khj78y-q70012-d1e135" n="2">
+      <!-- 2 -->Contra videtur, quod quilibet sacerdos possit: 
+      <lb ed="#S" n="40"/>quia cuilibet dicit: quodcunque solueris super terram. &amp;c. 
+    </p>
+            <p xml:id="khj78y-q70012-d1e142" n="3">
+               <lb ed="#S" n="41"/>
+               <!-- 3 -->Respondeo, circa hanc quaestionem tria videnda sunt. 
+      <lb ed="#S" n="42"/>Primo, in speciali de sententia iuris. secundo, de senten 
+      <lb ed="#S" n="43"/>tia hominis. Tertio, in generali &amp; in communi de vtroq- 
+    </p>
+            <p xml:id="khj78y-q70012-d1e153" n="4">
+               <lb ed="#S" n="44"/>
+               <!-- 4 -->QVANTVM ad primum est regula: qab omni 
+       sen<lb ed="#S" break="no" n="45"/>tentia iuris canonici: quam conditor non sibi reseruauit, 
+       po<lb ed="#S" break="no" n="46"/>test absoluere proprius epraes. extra. e. Nuper. secundo 
+       di<lb ed="#S" break="no" n="47"/>co, quod proprius epraes vel ratione domicilij, vel ratione 
+       de<lb ed="#S" break="no" n="48"/>licti, nisi sit exomptus: quia non subditum non potest 
+       ab<lb ed="#S" break="no" n="49"/>soluere. Dicunt etiam quidam: quod proprius sacerdos etiam 
+      <lb ed="#S" n="50"/>non epraes potest, quod tenet Inno. &amp; Host. Alij vero dicunt, 
+      <lb ed="#S" n="51"/>quod licet a minori excommunicatione possit quilibet proprius 
+      <lb ed="#S" n="52"/>sacerdos absoluere: tamen ab excommunicatione maiori iuris: 
+      <lb ed="#S" n="53"/>nec archidiacon', nec plebanus, nec curatus, nec abbas, 
+      <lb ed="#S" n="54"/>aut prior potest, nisi quando sibi expresse conceditur: sicut 
+      <lb ed="#S" n="55"/>abbati de leui iniectione manuum. Quod probat 
+      <name xml:id="khj78y-q70012-Nd1e183">Biter<lb ed="#S" break="no" n="56"/>rensis</name>, z, quia plus est excommunicatio quam interdictum, sed nullus 
+      <lb ed="#S" n="57"/>inferior epraeo potestrelaxare interdictum iuris: quia nec 
+       re<lb ed="#S" break="no" n="58"/>conciliare Ecclesiam pollutam, quod minus est. Ergo. &amp;c. sed 
+      <lb ed="#S" n="59"/>ista ratio habet instantiam, quia epraes non consecratus potest 
+      <lb ed="#S" n="60"/>amouere interdictum: quia tamen non potest reconciliare 
+      <lb ed="#S" n="61"/>Ecclesiam. secundo hoc probat: quia sententiam canonis 
+      <lb ed="#S" n="62"/>potest amouero ille solus, qui potest canones condlere: nul 
+      <lb ed="#S" n="63"/>lus inferior episcopo hoc potest: ideo, &amp;c. si dicatur 
+       po<lb ed="#S" break="no" n="64"/>test excommunicare: ergo &amp; absoluere.
+    </p>
+            <p xml:id="khj78y-q70012-d1e206" n="5">
+      <!-- 5 -->solutio: ve 
+      <!--0237.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="65"/>rum est ab illa sua excommunicatione canonis. sicut non 
+       po<lb ed="#S" break="no" n="66"/>test excommunicare canonem condendo. sciendum tamen, quod a 
+       sen<lb ed="#S" break="no" n="67"/>tentia haeresis quilibet inquisitor potest absoluere: sed 
+      <lb ed="#S" n="68"/>hoc est ex speciali commissione iuris: quae habetur de 
+       hae<lb ed="#S" break="no" n="69"/>re. c. Vt offi. li. 6. Item sciendum, quod si excommunicatus a ca 
+      <lb ed="#S" n="70"/>none Parisijs: quia ibi percussit clericum, vel alias vadas 
+      <lb ed="#S" n="71"/>ad terram suam, ibi a suo episcopo poterit absolui. Idem 
+      <lb ed="#S" n="72"/>videtur de sententia lata per statutum legati: &amp; per con 
+      <lb ed="#S" n="73"/>cilium prouinciale, quando non est alicui reseruata, quod 
+      <lb ed="#S" n="74"/>solus episcopus posset. De sententia vero lata per 
+       statu<lb ed="#S" break="no" n="75"/>tum episcopi synodale, vel archiepiscopi, nisi sit 
+       reserua<lb ed="#S" break="no" n="76"/>ta: videtur quod quilibet proprius sacerdos posset 
+       absolue<lb ed="#S" break="no" n="77"/>re: quia videtur inferioribus concedere, quando sibi non 
+      <lb ed="#S" n="78"/>retinet. sunt autem decem casus in quibus sententia 
+       ca<lb ed="#S" break="no" n="79"/>nonis est reseruata contenti in his versibus. Cardinis &amp; 
+      <lb ed="#S" n="80"/>flamma, nomina, tim, regula, bulla. Grauans, senatus, 
+       la<lb ed="#S" break="no" n="81"/>nians, crimen, violentus. seruantur summo, nouem 
+       pe<lb ed="#S" break="no" n="82"/>nultimus imo. Primo igitur videbitur de istis decem 
+       bre<lb ed="#S" break="no" n="83"/>uiter. secundo, circa decimum casum ponetur prima re 
+      <lb ed="#S" n="84"/>gula, de excommunicatione cum suis exceptionibus. 
+      <lb ed="#S" n="85"/>Tertio ponetur secunda regula cum suis 
+       exceptioni<lb ed="#S" break="no" n="86"/>bus: de absolutione. Est igitur sensus Praedictorum 
+       ver<lb ed="#S" break="no" n="87"/>suum, quod nouem reseruantur absoluendi Papae 
+       regulari<lb ed="#S" break="no" n="88"/>ter, sed penultimus primo excommunicatori: qui imo, 
+      <lb ed="#S" n="89"/>id est, infimus est respectu Papae. Pyratae vero &amp; 
+       peda<lb ed="#S" break="no" n="90"/>gia leuantes noua, &amp; praedantes Romipetas, qui non con 
+      <lb ed="#S" n="91"/>tinentur in his versibus, non sententia iuris: sed ore 
+       Pa<lb ed="#S" break="no" n="92"/>pae excommunicati sibi reseruantur: quia est sententia 
+      <lb ed="#S" n="93"/>hominis &amp; non iuris: alias non ferretur saepius in anno, 
+      <lb ed="#S" n="94"/>&amp; scriberetur cum lex sit sanctio scripta. Primus igitur 
+       ca<lb ed="#S" break="no" n="95"/>sus Papae reseruatus tangitur cum dicitur. Cardinis. Qui 
+      <lb ed="#S" n="96"/>enim insequitur cardinalem cum fautoribus est excom 
+      <lb ed="#S" n="97"/>municatus, &amp; absolutio Papae reseruata. de poenis. 
+       Foe<lb ed="#S" break="no" n="98"/>licis lib. 6. secundus: flamma. Nam incendiarius, &amp; 
+       ef<lb ed="#S" break="no" n="99"/>fringens Ecclesiam, vel aedem sacram: qui postquam 
+       fue<lb ed="#S" break="no" n="100"/>rit denunciatus specialiter &amp; nominatim: vel etiam in 
+      <lb ed="#S" n="101"/>generali &amp; sine nomine, siue ab episcopo, siue ab 
+       archi<lb ed="#S" break="no" n="102"/>diacono: dum tamen ad illum pertineat denunciare 
+       ex<lb ed="#S" break="no" n="103"/>communicatos a canone, ex tunc non potest absolui 
+       ci<lb ed="#S" break="no" n="104"/>tra curiam Romanam. de sententia ex. Tua nos. &amp;. ca. Conquesti. 
+      <lb ed="#S" n="105"/>secus de alijs incendiarijs, etiam si essent excommunicati 
+      <lb ed="#S" n="106"/>ab episcopo &amp; per eum denunciati. Item secus de istis 
+       an<lb ed="#S" break="no" n="107"/>te denunciationem. sed simplices poenitentiarij Papae 
+      <lb ed="#S" n="108"/>istos absoluunt, &amp; multomagis summus poenitentiarius. 
+      <lb ed="#S" n="109"/>De legato autem non legi, quod ratione legationis possis 
+      <lb ed="#S" n="110"/>aliquid in isto casu. Tertius, nominatim: clerici 
+       partici<lb ed="#S" break="no" n="111"/>pantes in diuinis, &amp; in suis officijs recipientes illos qui 
+      <lb ed="#S" n="112"/>fuerint a Papa excommunicati nominatim: ad Papam solum 
+      <lb ed="#S" n="113"/>sunt remittendi. de sententia ex. significabit. Et ratio est: quia 
+      <lb ed="#S" n="114"/>participant in crimine criminoso: &amp; propter hoc 
+       remit<lb ed="#S" break="no" n="115"/>tuntur ad excommunicatorem. de sen excommunicationis Nuper. quia illud 
+      <lb ed="#S" n="116"/>babet locum etiam si essent excommunicati propter aliud, quae quia 
+      <lb ed="#S" n="117"/>immiscent se diuinis. Quartus, regula. Glossantes vel expo 
+      <lb ed="#S" n="118"/>nentes nisi grammaticaliter constitutionem exponentem regulam 
+      <lb ed="#S" n="119"/>beati Fran. doctores &amp; lectores dum docent in publico, ex 
+      <lb ed="#S" n="120"/>certa sclentia &amp; determinate intellectum deprauantes, &amp; fa 
+      <lb ed="#S" n="121"/>cientes commentum, vel libellos, vel scripturas, aut ex cer 
+      <lb ed="#S" n="122"/>ta scientia determinantes in scholis, seu praedicantes non 
+       ali<lb ed="#S" break="no" n="123"/>quid de illis, quae in illa constitutione praemittuntur, excommuni 
+      <lb ed="#S" n="124"/>cati sunt, &amp; per solum Romanum pontificem absoluendi. de verb. 
+      <lb ed="#S" n="125"/>si. Exijt. li. 6. Quintus, bulla. Falsarij bullae papalis, vel q 
+      <lb ed="#S" n="126"/>scienter vtuntur falsata, vel ante viginti dies non cancellant: 
+      <lb ed="#S" n="127"/>vel iustitiae reddunt, excommunicati sunt: ad Papam sunt 
+       reuerten<lb ed="#S" break="no" n="128"/>di. de cri. fal. c. Ad falsariorum. &amp;. c. Graui. tum summus 
+       poe<lb ed="#S" break="no" n="129"/>nitentiarius absoluit illos, qui addidissent vnam literam defi 
+      <lb ed="#S" n="130"/>cientem errore scriptoris, vel rasissent vnam literam 
+       supera<lb ed="#S" break="no" n="131"/>bundantem. Et nisi per ipsas literas non esset factus aliquis 
+      <!--0238.xml-->
+      <pb ed="#S" n="238"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>processus vel habitus: nec praeiudicium aliquod 
+       subse<lb ed="#S" break="no" n="2"/>cutum. si tamen falsatio vel rasura sit modicat&amp; hoc 
+       peni<lb ed="#S" break="no" n="3"/>tus sit occultum, &amp; dispensare cum eis in foro poenitentiae sine testi 
+      <lb ed="#S" n="4"/>bus, &amp; literis hoc idem potest committere proabsente qui le 
+      <lb ed="#S" n="5"/>gitimo impedimento detentus, non praet sedem Apostolicam 
+       visi<lb ed="#S" break="no" n="6"/>tare. sextus: Grauans, Quicunque pro eo quod in aliquem est lata 
+      <lb ed="#S" n="7"/>sententia excommunicationis, suspensionis, vel interdicti, grauat 
+      <lb ed="#S" n="8"/>quocumquemodo ferentem, vel seruantem, vel mandat, nisi reuo 
+      <lb ed="#S" n="9"/>cet re integra, vel nisi bona intra mensem sint restituta, 
+      <lb ed="#S" n="10"/>est excommunicatus. Et si per duorum mensium spatium in eadem sen 
+      <lb ed="#S" n="11"/>tentia perdurauerit: ex tunc non potest absolui nisi per 
+       Pa<lb ed="#S" break="no" n="12"/>pam. de sententia ex. Quicumque . li. 6. Vnde praepositum vel balliuum 
+      <lb ed="#S" n="13"/>quae temporalia epraei arrestauit, propter hoc quia officialis 
+      <lb ed="#S" n="14"/>eius eum excommunicauit: &amp; vltra duos menses sic stetit: non praet epraes 
+      <lb ed="#S" n="15"/>absoluere nec alius, nisi Papa. septimus: senatus: &amp; est 
+      <lb ed="#S" n="16"/>casus de elec. fundamenta. li. 6. Quicumque Romanus eligit 
+      <lb ed="#S" n="17"/>in senatorem, vel alium rectorem vrbis aliquem notabilis 
+       praee<lb ed="#S" break="no" n="18"/>minentiae non manentem Romae, nec in Romano districtu, 
+      <lb ed="#S" n="19"/>vel quemcunque vltra annum: vel qui assentit electioni, vel 
+      <lb ed="#S" n="20"/>fauet assentienti: nisi de licentia Papae factum fuerit est excommuni 
+      <lb ed="#S" n="21"/>catus, nec praet absolui extra mortis periculum, nisi a Papa, 
+      <lb ed="#S" n="22"/>vel de ipsius petita licentia &amp; obtenta specialiter: propter 
+      <lb ed="#S" n="23"/>quod legatus etiam a latere nec summus poenitentiarius, &amp; 
+       mul<lb ed="#S" break="no" n="24"/>to minus simplex hoc praet: tamen summo poenitentario fuit commissa 
+      <lb ed="#S" n="25"/>absolutio Romanorum: qui regem siciliae in senatorem elege 
+      <lb ed="#S" n="26"/>runt. Octauus, Lanians: octauus casus Papae reseruatus: de 
+      <lb ed="#S" n="27"/>sepultu. Detestande. extrauagans Bonifacij. Qui enim 
+       hu<lb ed="#S" break="no" n="28"/>manum corpus: diuidit, exenterat, coquit: vt sepeliat indi 
+      <lb ed="#S" n="29"/>uersis locis excommunicatus est: nec praet nisi per Papam absolui: 
+      <lb ed="#S" n="30"/>&amp; corpus sic laniatum caret Ecclesiastica sepultura. 
+       No<lb ed="#S" break="no" n="31"/>nus: crimen: Qui participat in crimine reseruatur non 
+      <lb ed="#S" n="32"/>Papae, sed illi qui sententiam tulit. de sententia ex. Nuper. 
+       Deci<lb ed="#S" break="no" n="33"/>mus, violenter: Qui manus inijcit in clericum vel 
+       religio<lb ed="#S" break="no" n="34"/>sum reseruatur Papae, nisi quod legatus a latere. i. cardinalis 
+      <lb ed="#S" n="35"/>statim cum egressus est vrbem tales vbicunque, &amp; vndecunque 
+      <lb ed="#S" n="36"/>fint, potest absoluere: &amp; hoc quousq, redierit siue eundo, 
+      <lb ed="#S" n="37"/>siue stando, siue redeundo, a legato a non latere non possunt 
+      <lb ed="#S" n="38"/>absolui, nisi de prouincia sibi decreta oriundi. Et dum 
+      <lb ed="#S" n="39"/>est ibi. de offi. delega. quod translationem. extra. e. Ad eminen 
+      <lb ed="#S" n="40"/>tiam: sed legati locales vt archiepraes Cantuarien, nihil 
+       pos<lb ed="#S" break="no" n="41"/>sunt ratione legationis circa hanc absolutionem. de 
+       pri<lb ed="#S" break="no" n="42"/>uile. Porro. de sententia ex. excommunicatus. summus etiam poeniten 
+      <lb ed="#S" n="43"/>tiarius absoluit etiam interfectores &amp; mutilatores, si sunt 
+      <lb ed="#S" n="44"/>raesentes, &amp; non occiderint, vel mutilauerint praelatos. 
+      <lb ed="#S" n="45"/>simplices autem Papae poenitentiarij citra mortem &amp; 
+       muti<lb ed="#S" break="no" n="46"/>lationem absoluunt, nisi fuerit manus iniectio in episcopum, 
+      <lb ed="#S" n="47"/>vel abbatem, vel alium praelatum.
+    </p>
+            <p xml:id="khj78y-q70012-d1e469" n="6">
+      <!-- 6 -->sed notandum quod circa 
+      <lb ed="#S" n="48"/>casum vltimum de percussoribus clerici secundum 
+       canoni<lb ed="#S" break="no" n="49"/>stas sunt duae regulae. Prima, quod percutiens clericum, vel reli 
+      <lb ed="#S" n="50"/>giosum est excommunicatus, quae fallit in casibus compraehenfis 
+      <lb ed="#S" n="51"/>in istis versibus. Officium, scelusq́, pater, doctorq́, propin 
+      <lb ed="#S" n="52"/>quus. Affectus, dominus, vis, &amp; correctio, ludus. Quisque sit 
+       exem<lb ed="#S" break="no" n="53"/>ptus: si sit moderamine rectus. Primo: Officiu. scilicet praelati 
+      <lb ed="#S" n="54"/>est clericos delinquentes capere facere: vnde si per laicos 
+      <lb ed="#S" n="55"/>eos capere faciat, &amp; incarcerari: noc praelatus, nec 
+       man<lb ed="#S" break="no" n="56"/>dans, nec laici obedientes incidunt. de sententia ex. c. si clericos. 
+      <lb ed="#S" n="57"/>li. 6. similiter iustitia laica de nocte cum armis, vel alias 
+      <lb ed="#S" n="58"/>in praesenti delicto capiens clericum intentione 
+       redden<lb ed="#S" break="no" n="59"/>di iudici suo, quando alias pericalum est de fuga, &amp; 
+       ex<lb ed="#S" break="no" n="60"/>cusatur. Et similiter etiam priuatus si clericum 
+       malefacto<lb ed="#S" break="no" n="61"/>rem caperet intentione ducendi eum ad officialem: dum ta 
+      <lb ed="#S" n="62"/>men esset delictum notoriumt vel quod ipse est paratus 
+       pro<lb ed="#S" break="no" n="63"/>bare, vbi prohabiliter mora fugae est periculum allatura: 
+      <lb ed="#S" n="64"/>si iret ad quaerendum seruiontos. Omnes isti 
+       auctorita<lb ed="#S" break="no" n="65"/>te illius ad cuius officium hoc pertinetfacere videntur, 
+      <lb ed="#S" n="66"/>&amp; excusantur. de sententia ex. Vni uersi. secundus: scelus. de 
+      <lb ed="#S" n="67"/>sen. excommunicationis veniens. Ille qui Ecclesiam officiabat monia 
+      <!--0238.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>lem cum clerico ludentem, diuinum officium 
+       perturban<lb ed="#S" break="no" n="69"/>tem violenter eiecit: &amp; non incurrit 
+       excommunicatio<lb ed="#S" break="no" n="70"/>nem. Tertius, pater: qui filium clericum corrigendo per 
+      <lb ed="#S" n="71"/>cutit, non incurrit: etiam si esset in maioribus 
+       constitu<lb ed="#S" break="no" n="72"/>tus: licet quidam contradicant, quia est a potestate libe 
+      <lb ed="#S" n="73"/>ratus. sed ista ratio non cogit, quia etiam filium 
+       eman<lb ed="#S" break="no" n="74"/>cipatum habet pater corrigere. Quartus, doctor, qui cau 
+      <lb ed="#S" n="75"/>sa disciplinae discipulum clericum verberat: dum tamen 
+      <lb ed="#S" n="76"/>non excedat, quia praeceptoris nimia saeuitia in culpa 
+      <lb ed="#S" n="77"/>est. Quintus, propinquus. de hoc sic dicitur. de sententia ex. 
+      <lb ed="#S" n="78"/>c. Cum voluntate. si quis vero ratione officij quod in 
+      <lb ed="#S" n="79"/>Ecclesia obtinent, aut alij clerici seniores zelo 
+       deuotio<lb ed="#S" break="no" n="80"/>nis pueros, vel adolescentes in minoribus ordinibus con 
+      <lb ed="#S" n="81"/>stitutos turbantes diuinum officium: &amp; hi qui obtentu 
+      <lb ed="#S" n="82"/>praelationis vel magisterij subditos, &amp; scholares 
+       corre<lb ed="#S" break="no" n="83"/>ctionis causa leuiter percusserint excommunicationis 
+      <lb ed="#S" n="84"/>sententiam non incurrunt. Quod de his etiam 
+       dicen<lb ed="#S" break="no" n="85"/>dum est, qui aliquos de familia sua, vel propinquos infe 
+      <lb ed="#S" n="86"/>riorum graduum simili modo vt cohibeantur a suis 
+       in<lb ed="#S" break="no" n="87"/>solentijs, &amp; scientia bonisquemoribus informentur: duxe 
+      <lb ed="#S" n="88"/>rint corrigendos. sextus: affectus. de sententia ex. si vero. 6. 
+      <lb ed="#S" n="89"/>Nec ille qui in clericum cum vrore, matre, vel sorore, 
+      <lb ed="#S" n="90"/>vel filia turpiter inuentum manus inijcit, non incidit, 
+      <lb ed="#S" n="91"/>vt ibidem dicitur: cum remotiore autem sic: vt ibidem 
+      <lb ed="#S" n="92"/>dicitur.
+    </p>
+            <p xml:id="khj78y-q70012-d1e576" n="7">
+      <!-- 7 -->septimus: dominus, familiam corrigens non 
+      <lb ed="#S" n="93"/>incidit: vt ibidem dicitur. Vnde non oportet quod sit 
+       ser<lb ed="#S" break="no" n="94"/>uus: quia nec seruus debet esse clericus, sed quod sit seruiens 
+      <lb ed="#S" n="95"/>&amp; de familia. Octauus: vis. Vim vi repellens cum 
+       mode<lb ed="#S" break="no" n="96"/>ramine inculpatae tutelae, non incidit: siue repellat a se, 
+      <lb ed="#S" n="97"/>siue ab alio, propinquo vel extraneo: quia &amp; illum lices 
+      <lb ed="#S" n="98"/>defendere: siue ob tutelam sui hoc faciat, siue rem suam 
+      <lb ed="#S" n="99"/>vel sibi creditam, quam clericus vult sibi auferre: eum 
+      <lb ed="#S" n="100"/>percutiat quantum pro defensione rei necesse est: aut si 
+      <lb ed="#S" n="101"/>antequam ad locum destinatum portauerit, sibi eam 
+       aufe<lb ed="#S" break="no" n="102"/>rat non incidit. secus si diu ex interuallo eam sibi reau 
+      <lb ed="#S" n="103"/>ferat. Idem si mulier se defendendo, clericum volentem 
+      <lb ed="#S" n="104"/>se opprimere percutiat. Plus enim castitatem quam rem 
+      <lb ed="#S" n="105"/>alienam defendere licet. Nonus: correctio. Primo, postquam 
+      <lb ed="#S" n="106"/>clericus trina admonitione ab inhonestate vel laicali 
+      <lb ed="#S" n="107"/>vita non corrigitur. Dico autem si a suo praelato 
+       moni<lb ed="#S" break="no" n="108"/>tus est, perdit priuilegium clericale. extra. ca. contingit. 
+      <lb ed="#S" n="109"/>In audientia. Item secundo, si in officio goliardi per an 
+      <lb ed="#S" n="110"/>num steterit. de vi &amp; honest. cleric. cap. 1. libro. 6. 
+       Ter<lb ed="#S" break="no" n="111"/>tio, si bigami sunt. de bigamis, cap. 1. libro. 6. Quarto, si 
+      <lb ed="#S" n="112"/>etiam cum vnica &amp; virgine contraxerint: nisi tonsuram 
+      <lb ed="#S" n="113"/>&amp; vestes clericales portent. de cleric. conlug. ca. libro. 6. 
+      <lb ed="#S" n="114"/>Quinto, si ex officio exercuerint saeua: puta si factus 
+       mi<lb ed="#S" break="no" n="115"/>les in bello occiderit, vel mutllauerit: aut si factus 
+       iu<lb ed="#S" break="no" n="116"/>dex ad mortem vel mutilationem condemnauerit: vel 
+      <lb ed="#S" n="117"/>si factus latro occiderit. secus autem si semel per 
+       infor<lb ed="#S" break="no" n="118"/>tunium ex ira, vel rixa occiderit: aut si tantum haec 
+       of<lb ed="#S" break="no" n="119"/>ficia assumpserit, nec trina monitio secuta fuerit: &amp; sic 
+      <lb ed="#S" n="120"/>intellige extra. ca. Perpendimus. &amp; cap. Cum non ab 
+       ho<lb ed="#S" break="no" n="121"/>mine. q. in articulo. sexto, si non contraxerit matrimo 
+      <lb ed="#S" n="122"/>nium, sed negotiatur vt laicus: corona &amp; veste dimissa, 
+      <lb ed="#S" n="123"/>talia soluit vt laicus: in nullo allegans fori 
+       priuile<lb ed="#S" break="no" n="124"/>gium. septimo, si etiam conuentus coram iudice 
+       Ec<lb ed="#S" break="no" n="125"/>clesiastico dicit se renunciare clero. Octauo, si 
+       tradi<lb ed="#S" break="no" n="126"/>tus iustitiae saeculari: secus si degradatus tantum. de hae 
+      <lb ed="#S" n="127"/>reticis, ad abolendam. 6. primo. Nono, si ignorabat 
+       pro<lb ed="#S" break="no" n="128"/>babiliter esse clericum: puta quia non nouerat eum, 
+      <lb ed="#S" n="129"/>&amp; inuenit eum in veste radiata sine corona. secus 
+       au<lb ed="#S" break="no" n="130"/>tem si cognoscens Titium clericum: &amp; Martinum 
+       lai<lb ed="#S" break="no" n="131"/>cum: verberauit Titium credens Martinum: quia non 
+      <lb ed="#S" n="132"/>fuit probabilis ignorantia: quando vtrunque 
+       habi<lb ed="#S" break="no" n="133"/>tu nouerat: sed actu noluit aduertere quem 
+       verbera<lb ed="#S" break="no" n="134"/>bat. sic intellige. extra. eodem cap. si vero in principio. 
+      <!--0239.xml-->
+      <pb ed="#S" n="239"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Decimus casus in versu. Ludus. clerici si plene aetatis non 
+      <lb ed="#S" n="2"/>odio, vel inuidia, vel indignatione, sed leuitate iocosa 
+      <lb ed="#S" n="3"/>se adinuicem percutiunt non incidunt: sic solet intelligi. 
+      <lb ed="#S" n="4"/>extra. e. c. 1.
+    </p>
+            <p xml:id="khj78y-q70012-d1e688" n="8">
+      <!-- 8 -->Tertius versus. Quisque sit exemptus, si sit 
+      <lb ed="#S" n="5"/>moderamine rectus. Quia tantus posset esse excessus, quod 
+      <lb ed="#S" n="6"/>ista non excusarent, nec aliter correctio vel ludus 
+       excu<lb ed="#S" break="no" n="7"/>sarent.
+    </p>
+            <p xml:id="khj78y-q70012-d1e699" n="9">
+      <!-- 9 -->sed hic solet quaeri, vtrum clericus seipsum 
+      <lb ed="#S" n="8"/>irato animo percutiens sit excommunicatus? Et videtur quod sic: quia 
+      <lb ed="#S" n="9"/>seipsum mutilans est irregularis. Et sicut arguit August. 
+      <lb ed="#S" n="10"/>non alium quam hominem occidit, qui seipsum occidit: &amp; sic 
+      <lb ed="#S" n="11"/>est homicida. similiter clericus se percutiens non alium 
+      <lb ed="#S" n="12"/>percutit quam clericum. Nec obstat quod seipsum non excommunicat: 
+      <lb ed="#S" n="13"/>quia est sententia iuris, non hominis. sciendum est etiam, quod licet 
+      <lb ed="#S" n="14"/>percutiens nouitium sit excommunicatus: nihilominus si ille 
+       ha<lb ed="#S" break="no" n="15"/>bens tantum coronam monachalem, non clericalem: quam 
+       episco<lb ed="#S" break="no" n="16"/>pus potest imponere, vel abbas qui habet super hoc 
+       pri<lb ed="#S" break="no" n="17"/>uilegium, exeat ante professionem, percutiens eum non est 
+       ex<lb ed="#S" break="no" n="18"/>communicatus: quia non est clericus, nec religiosus, nec 
+       noui<lb ed="#S" break="no" n="19"/>tius.
+    </p>
+            <p xml:id="khj78y-q70012-d1e730" n="10">
+      <!-- 10 -->secunda regula est, quod percutiens clericum, vel 
+      <lb ed="#S" n="20"/>religiosum, si fiat excommunicatus non potest absolui nisi a Pa 
+      <lb ed="#S" n="21"/>pa, nisi in casibus qui in his versibus qui sequuntur 
+       con<lb ed="#S" break="no" n="22"/>tinentur. Regula, mors, sexus, hostis, puer, officialis. 
+       De<lb ed="#S" break="no" n="23"/>liciosus, inopsq,, senex, aegerq́;, sodalis. Ianitor astrictus, 
+      <lb ed="#S" n="24"/>dubius, causa, leuis, ictus. Debilis, absolui sine summa 
+      <lb ed="#S" n="25"/>sede merentur. Atroces vero soli Papae retinentur. Primus 
+      <lb ed="#S" n="26"/>casus. Religiosus percutiens religiosum eiusdem ordinis, 
+      <lb ed="#S" n="27"/>potest absolui a suo praelato, vel ab vtroque, quando sunt 
+      <lb ed="#S" n="28"/>diuersorum ordinum vel diuersorum conuentuum, qui tamen 
+      <lb ed="#S" n="29"/>possent a communi superiore si quem habent: &amp; tunc vel 
+      <lb ed="#S" n="30"/>ambo absoluant, vel tertio committant: extra. e. Cum 
+       illo<lb ed="#S" break="no" n="31"/>rum seruos. c. Canonica nuper. q. penul. si autem percusse 
+      <lb ed="#S" n="32"/>rit clericum saecularem episcopus eius, siue sit exemptus siue 
+      <lb ed="#S" n="33"/>non, potest eum absoluere ac si esset saecularis extra. e. 
+      <lb ed="#S" n="34"/>Religloso. i. responso. lib. 5. si autem regulares non habeant 
+      <lb ed="#S" n="35"/>praelatum sacerdotem: imo nec apud quem possint esse claues 
+      <lb ed="#S" n="36"/>iurisdictionis, quae solae ad hoc sufficiunt, sicut sunt 
+       mo<lb ed="#S" break="no" n="37"/>niales: tunc ab episcopis absoluentur. extra. c. Monacha. 
+      <lb ed="#S" n="38"/>&amp;. c. de monialibus. secundus, Mors, in articulo mortis 
+      <lb ed="#S" n="39"/>quilibet potest absolui a quolibet, nisi quod a peccato solus 
+      <lb ed="#S" n="40"/>sacerdos, &amp; omnis tunc potest omnem absoluere. sed ab 
+      <lb ed="#S" n="41"/>excommunicatione videtur quod tunc non possit absoluere, nisi sa 
+      <lb ed="#S" n="42"/>cerdos, vt tunc possit absoluere a peccato: vel qui alias 
+      <lb ed="#S" n="43"/>potest cum absoluere ab excommunicatione: licet non illa, 
+      <lb ed="#S" n="44"/>quia non est tanta necessitas, cum possit absolui post mor 
+      <lb ed="#S" n="45"/>tem. Tertius, sexus. Mulieres citra sedem Apostolicam 
+      <lb ed="#S" n="46"/>possunt absolui. extra. c. Mulieres: etiam saeculares: quia 
+      <lb ed="#S" n="47"/>non decet eas caetibus virorum se immiscere. Quartus: 
+      <lb ed="#S" n="48"/>hostis, qui habet inimicitias capitales potest citra sedem 
+      <lb ed="#S" n="49"/>Apostolicam absolui: quod intellige semper ab 
+       episco<lb ed="#S" break="no" n="50"/>po non minore: nisi ipsius auctoritate. Quintus, puer: 
+      <lb ed="#S" n="51"/>impuberes si antequam vsum rationis habeant non 
+       incur<lb ed="#S" break="no" n="52"/>runt: si postea antequam plenum intra pupillarem aetatem, quae 
+      <lb ed="#S" n="53"/>est duodecim annorum in puella: &amp; quatuordecim in 
+      <lb ed="#S" n="54"/>puero: ab episcopo possunt absolui. extra. e. cap. 1. vl. l. 
+      <lb ed="#S" n="55"/>quamuis. sextus, officialis: scilicet iudex vel apparitor ali 
+      <lb ed="#S" n="56"/>cuius potestatis, vel principis turbam arcendo irruentem, 
+      <lb ed="#S" n="57"/>non ex deliberatione, sed fortuito casu clericum laedat, 
+      <lb ed="#S" n="58"/>episcopus potest eum absolueret extra. eo. c. iij. 6. 
+       officia<lb ed="#S" break="no" n="59"/>lis. secus si scienter quasi in subditum animaduertat in 
+      <lb ed="#S" n="60"/>eum: quia nulli laico in clericum tanta datur 
+       auctori<lb ed="#S" break="no" n="61"/>tas, vt ibidem. septimus, Deliciosus: quia prae 
+       teneritu<lb ed="#S" break="no" n="62"/>dine corporis, non posset tanti itineris sufferre laborem. 
+      <lb ed="#S" n="63"/>extra eo. Mulieres. Octauus: Inops, cui verecundum est 
+      <lb ed="#S" n="64"/>hostiatim quaerere panem suum. extra. eo. Cum de his. 
+      <lb ed="#S" n="65"/>Nonus: senex, qui propter antiquitatis debilitatem ire 
+      <lb ed="#S" n="66"/>non potest. extra. e. Cum de his. &amp; cap. Ea noscitur. 
+       De<lb ed="#S" break="no" n="67"/>cimus: aegerquesi est mortis periculum, etiam aliter quam per 
+      <!--0239.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>aegritudinem: vt quia debet intrare iustum bellum mor 
+      <lb ed="#S" n="69"/>tale, vel est in naufragio. sed quando est infirmitas 
+       chro<lb ed="#S" break="no" n="70"/>nica, de qua &amp; licet non timeatur ad statim de morte, ta 
+      <lb ed="#S" n="71"/>men ad magnum tempus non speratur de 
+       conualescen<lb ed="#S" break="no" n="72"/>tia tanta quod possit ire: vnde Papa tunc non vult, eum 
+       in<lb ed="#S" break="no" n="73"/>uitum tamdiu beneficio absolutionis carere. 
+       Vndeci<lb ed="#S" break="no" n="74"/>mus. sodalis, quando sub eodem tecto morantur: quia 
+      <lb ed="#S" n="75"/>frequenter ex ludis veniunt ad turbationem aliquam: 
+      <lb ed="#S" n="76"/>de vi. &amp; ho. cleri. Qui.. vl. &amp; extra. eo. ex tenore. 
+       Duo<lb ed="#S" break="no" n="77"/>decimus: Ianitor, extra. e. c. 3. si vero alicuius principis 
+      <lb ed="#S" n="78"/>hostiarius sub praetextu officij sui, malignanter clericum 
+      <lb ed="#S" n="79"/>percusserit, ab episcopo suo poterit absolui: nisi forte 
+      <lb ed="#S" n="80"/>eundem clericum grauiter vulnerauerit. 
+       Tertiusdeci<lb ed="#S" break="no" n="81"/>mus: Astrictus: quia non sui iuris sunt, vt filii &amp; serui: de 
+      <lb ed="#S" n="82"/>quorum absentia parentes &amp; domini laederentur: ab episcopi 
+      <lb ed="#S" n="83"/>scopo possunt absolui. extra. e. Mulieres. 
+       Quartusdeci<lb ed="#S" break="no" n="84"/>mus: Dubius. extra. e. Residens. ca. 2. quia quando 
+       du<lb ed="#S" break="no" n="85"/>bium est vtrum sit excommunicatus, vel non, vel 
+       quo<lb ed="#S" break="no" n="86"/>modocunque aliter non sit certum, potest ab episcopo 
+       ab<lb ed="#S" break="no" n="87"/>solui. Quintusdecimus. Causa quoque : quia iusta causa ar 
+      <lb ed="#S" n="88"/>bitrio episcopi si non potest sedem adire: potest per 
+       epi<lb ed="#S" break="no" n="89"/>scopum absolui. extra. e. Quod de his. &amp;. ca. De caetero. &amp; 
+      <lb ed="#S" n="90"/>ca. qᷓuis. sextusdecimus: Leuisqueictus. extra eo. Leuis 
+       in<lb ed="#S" break="no" n="91"/>iectio pertinet ad episcopum, sed non leuis ad Papam: 
+      <lb ed="#S" n="92"/>nisi in casibus supradictis. In quibus etiam posset esse 
+      <lb ed="#S" n="93"/>ita grauis: puta mors &amp; mutilatio, quod ad Papam 
+       pertine<lb ed="#S" break="no" n="94"/>ret: vnde sequitur. Atroces vero soli Papae retinentur: 
+      <lb ed="#S" n="95"/>supple nisi in mortis articulo. extra. eo. Cum illorum. 6. 
+      <lb ed="#S" n="96"/>Nos tamen. &amp; ca. Relatum.
+    </p>
+            <p xml:id="khj78y-q70012-d1e906" n="11">
+      <!-- 11 -->secundo, videndum est 
+      <lb ed="#S" n="97"/>de sententia hominis: vbi considerandum est primo: quae est 
+      <lb ed="#S" n="98"/>differentia inter sententiam hominis  &amp; iuris. Et prima differem 
+      <lb ed="#S" n="99"/>tia est, quia sententia hominis fertur pro praeterito, vel 
+      <lb ed="#S" n="100"/>praesenti, aut futuro contra vnum, vel si contra plures 
+      <lb ed="#S" n="101"/>ad certum terminum: puta qui non fecerit hocvel illud 
+      <lb ed="#S" n="102"/>sit excommunicatus vsque ad certum tempus: vt tales qui non 
+      <lb ed="#S" n="103"/>habent crucem, nisi infra tale tempus transfretauerins 
+      <lb ed="#S" n="104"/>sint excommunicati. sed statutum siue sententia iuris 
+       sta<lb ed="#S" break="no" n="105"/>bilitatem, &amp; generaliter importat &amp; respicit futura: 
+       vn<lb ed="#S" break="no" n="106"/>de est per modum statuti, quando in scriptis semel non 
+      <lb ed="#S" n="107"/>pluries fertur sententia pro tempore futuro &amp; perpetuo, 
+      <lb ed="#S" n="108"/>vt si dicatur. Quicunque imperpetuum fecerit hoc vel 
+       il<lb ed="#S" break="no" n="109"/>lud sit excommuuicatus. secunda differentia est, quia 
+      <lb ed="#S" n="110"/>mortuo statuente vel amoto, durat sententia iuris 
+       quo<lb ed="#S" break="no" n="111"/>usque per successorem, vel superiorem sit reuocata. si 
+       au<lb ed="#S" break="no" n="112"/>tem esset sententia hominis, eo ipso cossaret quod mortuus 
+      <lb ed="#S" n="113"/>esset, vel amotus: nisi iam incepisset habere effectum. Igi 
+      <lb ed="#S" n="114"/>tur a sententia hominis ille qui tulit, &amp; successor &amp; 
+       su<lb ed="#S" break="no" n="115"/>perior possunt absoluere: quia omnis res per quascunque 
+      <lb ed="#S" n="116"/>causas nascitur, per easdem dissoluitur. de regulis iuris. 
+      <lb ed="#S" n="117"/>ca. 1. In hoc enim excommunicatio comparatur sententiae 
+       inter<lb ed="#S" break="no" n="118"/>locutoriae, quam qui tulit potest reuocare, non diffinitiuae: 
+      <lb ed="#S" n="119"/>quam non potest reuocare qui eam tulit, si habet superiorem: 
+      <lb ed="#S" n="120"/>quia functus est semel officio suo, siue bene siue male. ff. 
+      <lb ed="#S" n="121"/>de re iudi. l. Iudex. &amp;. l. quod iussit. Fallit autem primo, 
+      <lb ed="#S" n="122"/>quando postquam tulit sententiam perdidit iurisdictionem, &amp; 
+      <lb ed="#S" n="123"/>desijt esse iudex: vel quia perdidit dignitatem cuius 
+       ratio<lb ed="#S" break="no" n="124"/>ne iudicabat: quia si erat delegatus, aut subdelegatus, su 
+      <lb ed="#S" n="125"/>perior ad se reuocauit causam in casu in quo potuit, quia 
+      <lb ed="#S" n="126"/>fact' non iudex iam non praet soluere, sicut nec modo ligare: quia 
+      <lb ed="#S" n="127"/>snia a non suo iudice, lata non tenet, siue sit absolutoria 
+       fi<lb ed="#S" break="no" n="128"/>ue condemnatoria. secundo, quando non perdidit iurisdictionem, 
+      <lb ed="#S" n="129"/>sed perdidit vsum rationis iurisdictionis: vt quia factus est 
+       ex<lb ed="#S" break="no" n="130"/>communicatus maiori excommunicatione, vel suspensus a iurisdictione: 
+      <lb ed="#S" n="131"/>Tunc enim non praet soluere yel ligare, quia sunt actus &amp; vsus iu 
+      <lb ed="#S" n="132"/>risdictiois. sec' autem si esset suspensus ab ingressu Ecclesiae 
+      <lb ed="#S" n="133"/>vt de sententia ex. sacro: vel ligatus minori excommunicatione vt. c. 
+      <lb ed="#S" n="134"/>ca. Duobus. Tertio, quando erat merus executor: tunc 
+      <!--0240.xml-->
+      <pb ed="#S" n="240"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>em̃ potuit ligare: quia illud solum ei erat commissum, non au 
+      <lb ed="#S" n="2"/>tem absoluere, quod non erat commissum ne excedat fines 
+      <lb ed="#S" n="3"/>mandati. Quarto, in delegato Papae, qui post annum non praes 
+      <lb ed="#S" n="4"/>absoluere a sententia quam tulit. de offi. dele. c. Quaerenti. 
+    </p>
+            <p xml:id="khj78y-q70012-d1e1008" n="12">
+               <lb ed="#S" n="5"/>
+               <!-- 12 -->secundo, potest absoluere eius successor qui. scilicet succe 
+      <lb ed="#S" n="6"/>dit in officio iurisdicendi, quia fungitur vice eius: sicut epraes 
+      <lb ed="#S" n="7"/>a sententia praedecessoris: &amp; officialis a sententia 
+       praedeces<lb ed="#S" break="no" n="8"/>soris: &amp; sic de alijs. Et similiter ille qui est vicarius simpli 
+      <lb ed="#S" n="9"/>citer &amp; in omnibus: quia iste reputatur eadem perfona. Non 
+      <lb ed="#S" n="10"/>fic autem officialis, qui est inferior, potest absoluere a snia 
+      <lb ed="#S" n="11"/>epi sui vel archidiaconi, nisi sit ei specialiter commissum. 
+    </p>
+            <p xml:id="khj78y-q70012-d1e1028" n="13">
+               <lb ed="#S" n="12"/>
+               <!-- 13 -->Tertio, superior praet absoluere inquantum huiusmodi: vnde 
+      <lb ed="#S" n="13"/>Papa, qui est superior omni alio, potest absoluere a sententia 
+      <lb ed="#S" n="14"/>ois hominis, vel cui ipse commiserit. Propter quod 
+       poenitentia<lb ed="#S" break="no" n="15"/>rij eius saepe absoluunt a sententijs diuersorum iudicum. Item 
+      <lb ed="#S" n="16"/>archiepraes in casibus in quibus fit superior, potest absolue 
+      <lb ed="#S" n="17"/>re a sententijs suffraganeorum, non autem simpliciter, quia ne 
+      <lb ed="#S" n="18"/>mo qui condemnare non potest, absoluere potest. Vnde cum 
+      <lb ed="#S" n="19"/>ipse non pofiit excommunicare subditos suffraganeorum, nisi in 
+      <lb ed="#S" n="20"/>tertis casibus, per consequens nec absoluere extra illos 
+       ca<lb ed="#S" break="no" n="21"/>fus. Episcopus similiter a sententijs Archidiaconorum, qui 
+      <lb ed="#S" n="22"/>de consuetudine cum eo habent parem iurisdictionem, ita quod ab 
+      <lb ed="#S" n="23"/>ipsis non appelletur ad eum, sed immediate ad archiepraem 
+      <lb ed="#S" n="24"/>vel Papam, non praet absoluere ab illorum sententijs, quia non est 
+      <lb ed="#S" n="25"/>superior. similiter quando ab illis appellatur ad eum, quia 
+       li<lb ed="#S" break="no" n="26"/>cet alias possit excommunicare lllos, si habuisset praeuentionem, 
+      <lb ed="#S" n="27"/>quia tamen illo praeueniente esse desinit superior, nisi 
+       appel<lb ed="#S" break="no" n="28"/>latio ad ipsum negotium deuoluat: inde est quod sine appella 
+      <lb ed="#S" n="29"/>tione &amp; querimonia nec debet, nec potest absoluere. De 
+      <lb ed="#S" n="30"/>officialibus autem proprijs quos pro libito ponunt &amp; 
+       depo<lb ed="#S" break="no" n="31"/>nunt, certum est quod perfecte sunt superiores, &amp; ideo possunt 
+      <lb ed="#S" n="32"/>ab eorum sententijs, sicut a proprijs absoluere.
+    </p>
+            <p xml:id="khj78y-q70012-d1e1079" n="14">
+      <!-- 14 -->De 
+       de<lb ed="#S" break="no" n="33"/>canis autem ruralibus, &amp; decanis collegiorum si habent curiam 
+      <lb ed="#S" n="34"/>&amp; iurisdictionem, idem videtur quod de archidiaconibus. 
+    </p>
+            <p xml:id="khj78y-q70012-d1e1088" n="15">
+               <lb ed="#S" n="35"/>
+               <!-- 15 -->De abbatibus autem quia non ad libitum eos ponunt nec 
+      <lb ed="#S" n="36"/>eponunt, &amp; quia illi iure suo ordinario sententias ferunt: 
+      <lb ed="#S" n="37"/>videtur quod nisi per appellationem, aut alias legitime ad 
+      <lb ed="#S" n="38"/>eos negotium deuoluatur, non habent potestatem 
+       absoluendi<lb ed="#S" break="no" n="39"/>De curatis autem simplicibus, qui non habent curiam &amp; non 
+      <lb ed="#S" n="40"/>excommunicant, nisi de consuetudine, quasi vicarij episcopi,  qui vbique 
+      <lb ed="#S" n="41"/>adesse non possunt, prohabilius videtur quod epraes per se vel per 
+      <lb ed="#S" n="42"/>alium possit absoluere.
+    </p>
+            <p xml:id="khj78y-q70012-d1e1110" n="16">
+      <!-- 16 -->Tertio videndum est de 
+       abso<lb ed="#S" break="no" n="43"/>lutione, ab vtroque in communi, vbi sunt sex conclusiones. 
+    </p>
+            <p xml:id="khj78y-q70012-d1e1117" n="17">
+               <lb ed="#S" n="44"/>
+               <!-- 17 -->Prima conclusio est, quod inuitus praet absolui ab 
+       excommunica<lb ed="#S" break="no" n="45"/>tione: licet non a peccato, sicut inuitus praet ligari vlnculo, no 
+      <lb ed="#S" n="46"/>cto actuali, &amp; licet non debeat absolui: manente causa 
+       ex<lb ed="#S" n="47" break="no"/>communicationis. de praeben. c. pro illorum: tum vbi apparet, quod 
+       ex<lb ed="#S" break="no" n="48"/>communicatus sit deterior, nec dignatur petere absolutionem 
+      <lb ed="#S" n="49"/>humiliando se, nec si offerretur: nec ex opposito est timor 
+      <lb ed="#S" n="50"/>scandali laudabiliter sibi offertur etiam non petenti.
+    </p>
+            <p xml:id="khj78y-q70012-d1e1137" n="18">
+      <!-- 18 -->
+       se<lb ed="#S" break="no" n="51"/>cunda, quod homo praet absolui ab vna excommunicatione, sine hoc quod 
+      <lb ed="#S" n="52"/>absoluatur ab alia. sed tunc verum est, quod non est restitutus 
+      <lb ed="#S" n="53"/>ad sacramenta, nec ad conionem quousque sit absolutus ab omni. Et 
+       ra<lb ed="#S" n="54" break="no"/>tio huius est, quia non sunt connexae excommunicationes, sicut 
+       pec<lb ed="#S" n="55" break="no"/>cata mortalia quo ad remissionem.
+    </p>
+            <p xml:id="khj78y-q70012-d1e1153" n="19">
+      <!-- 19 -->Tertia, quod si homo 
+      <lb ed="#S" n="56"/>est irretitus pluribus excommunicationibus plurium hominum, vnius 
+      <lb ed="#S" n="57"/>absolutio non sufficit, nisi alij consenserit sibi vices 
+       commit<lb ed="#S" break="no" n="58"/>tendo, aut nisi aliter superior fuerit, vel illorum quilibet in 
+      <lb ed="#S" n="59"/>solidum, quia nemo pe a sententia paris absoluere, nec 
+       alte<lb ed="#S" break="no" n="60"/>rius qui sit eo maior simpliciter. sed quando sunt duo 
+       iudi<lb ed="#S" break="no" n="61"/>ces vnius causae, quilibet insolidum, vna est iurisdictio in 
+      <lb ed="#S" n="62"/>duobus numero: quia idem ens rationis potest esse in 
+       pluri<lb ed="#S" break="no" n="63"/>bus, &amp; tunc vnus potest absoluere a sententia alterius: 
+       si<lb ed="#S" break="no" n="64"/>eut patet in pluribus officialibus ei usdem sedis epalis, &amp; 
+      <lb ed="#S" n="65"/>hoc est verum, nisi quando vno praeoccupante, alius postea non 
+      <lb ed="#S" n="66"/>habet se intromittere, ita vt possit excommunicare, quia nemo 
+      <lb ed="#S" n="67"/>qui eondemnare non praet, absoluere potest. 20. Quaria, quod si 
+      <!--0240.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>ille qui absoluit, potuit ab omni sententia &amp; noluit: tunc suffi 
+      <lb ed="#S" n="69"/>cit: quod si noluit ab oi: sed a quibusdam absoluere, tunc nunquam 
+      <lb ed="#S" n="70"/>valet absolutio quo ad sententiam de qua absoluens non co 
+      <lb ed="#S" n="71"/>gita uit, nec absoluisset si cogitasset. de sententia ex. Ex parte. &amp; 
+      <lb ed="#S" n="72"/>c. officij. si autem absolutus credat, quod si ille sciuisset quod 
+      <lb ed="#S" n="73"/>nesciuit, nihilominus absoluisset eum, debet se reputare 
+      <lb ed="#S" n="74"/>absolutum ab omni.
+    </p>
+            <p xml:id="khj78y-q70012-d1e1204" n="21">
+      <!-- 21 -->Quinta, si homo suppressa veritate 
+      <lb ed="#S" n="75"/>vel expressa falsitate obtinuit absolutionem, quam alias non 
+      <lb ed="#S" n="76"/>obtinuisset, videtur esse non absolutus. de sententia excommunicationis c. 
+      <lb ed="#S" n="77"/>officij. &amp; ca. ex parte. vbi dicit, quod per fraudem &amp; surreptio 
+      <lb ed="#S" n="78"/>nem obtenta non prodest.
+    </p>
+            <p xml:id="khj78y-q70012-d1e1217" n="22">
+      <!-- 22 -->sexta de quodam casu. Quidam 
+      <lb ed="#S" n="79"/>fuit excommunicatus cum omnibus secum nominatis &amp; monitis prius 
+       si<lb ed="#S" break="no" n="80"/>gillatim, postea absolutus cum omnibus participantibus non 
+      <lb ed="#S" n="81"/>nominatis, quaeritur vtrum illi sint absoluti. Et dicendum, quod se 
+      <lb ed="#S" n="82"/>cundum veritatem ipsi sint absoluti, si absoluent hoc intende 
+      <lb ed="#S" n="83"/>bat: aliter non. sed si de mente non constat, ex quo sine 
+       exce<lb ed="#S" break="no" n="84"/>ptione &amp; distinctione absoluit omnes participantes, videtur 
+      <lb ed="#S" n="85"/>quod tam nominati quam non noiati sint absoluti. Non enim scriptum 
+      <lb ed="#S" n="86"/>est, quod in absoluendo participantes, oporteat ipsos nominatim 
+      <lb ed="#S" n="87"/>exprimere, alias non valeat: sicut scriptum est de 
+       excommunican<lb ed="#S" break="no" n="88"/>do participantes, quod aliter non possint maiori excommunicatione 
+      <lb ed="#S" n="89"/>ligari, nisi prius fuerint nominatim moniti. de sententia ex. c. sta 
+      <lb ed="#S" n="90"/>tuimus. li. 6.
+    </p>
+            <p xml:id="khj78y-q70012-d1e1248" n="23">
+      <!-- 23 -->Ad primum argumentum est dicendum, quod. 
+      <lb ed="#S" n="91"/>maiores causae Ecclesiae, quae suut rarae &amp; tangunt conitatem, 
+      <lb ed="#S" n="92"/>sicut de vno articulo tangente fidem vniuersalis Ecclesiae, 
+      <lb ed="#S" n="93"/>circa quam omnes possunt errare, reseruatur Papae. de baptismo. 
+      <lb ed="#S" n="94"/>c. Malores. sed illae quae sunt frequentes, &amp; tangunt 
+       singu<lb ed="#S" break="no" n="95"/>lares personas, propter vtilitatem communem alijs 
+       committun<lb ed="#S" break="no" n="96"/>tur: sicut inquisitio haereticorum in hac vniuersali illa pro 
+      <lb ed="#S" n="97"/>uincia. Et talis est excommunicatio huius vel illius.
+    </p>
+            <p xml:id="khj78y-q70012-d1e1268" n="24">
+      <!-- 24 -->Ad 
+      <lb ed="#S" n="98"/>argumentum in oppositum est dicendum, quod illud verbum 
+       pri<lb ed="#S" break="no" n="99"/>mo dictum est Petro, postea vero dictum est omnibus simul: in 
+      <lb ed="#S" n="100"/>quo non est reuocatum quod erat Petro concessum. Vnde in 
+      <lb ed="#S" n="101"/>telligitur posterior concessio salua prima. Quicquid enim 
+      <lb ed="#S" n="102"/>Petrus soluit vel ligat, simpliciter est ligatu &amp; solutum. 
+      <lb ed="#S" n="103"/>Quod autem inferiores soluunt vel ligant, secundum ordinem 
+      <lb ed="#S" n="104"/>Petri est validum: aliter non, quia in priuilegijs papalibus 
+      <lb ed="#S" n="105"/>&amp; regalibus, secundum intelligitur saluo primo, &amp; parum 
+      <lb ed="#S" n="106"/>post alteri acquisito, maxime quia soli Petro primo est 
+      <lb ed="#S" n="107"/>dictum. super hanc petram aedificabo Ecclesiam meam: &amp; tibi da 
+      <lb ed="#S" n="108"/>bo claues. &amp;c. Matth. 18. Quae duo nulli alij, nec de alio 
+      <lb ed="#S" n="109"/>dicta sunt. sed postea dictum est. Quaecunque 
+       alligaueri<lb ed="#S" break="no" n="110"/>tis. &amp;c. &amp; post resurrectionem. Quorum remiseritis. Ioam. vlti. 
+      <lb ed="#S" n="111"/>Quicquid autem aedificatur non superfundamentum, non est 
+      <lb ed="#S" n="112"/>solidum. Item sine claulgero non potest aliquis claudere, vel 
+      <lb ed="#S" n="113"/>aperire: nisi cum ipse clauem tradiderit: ideo. &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

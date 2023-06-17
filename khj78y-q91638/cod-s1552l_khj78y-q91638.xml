@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="299"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q91638"><!-- l4d24-q4 -->
+            <head xml:id="khj78y-q91638-Hd1e101">Quaestio 4</head>
+            <head xml:id="khj78y-q91638-Hd1e103" type="question-title">
+     utrum distincti 
+     ordines habeant distinctos actus
+   </head>
+            <p xml:id="khj78y-q91638-d1e106">
+               <lb ed="#S" n="56"/>QVAESTIO QVARTA. 
+      <lb ed="#S" n="57"/>De distinctis actibus ordinum. 
+    </p>
+            <p xml:id="khj78y-q91638-d1e113">
+               <lb ed="#S" n="58"/>Thom. 4. distin. a4.q. 1. 
+    </p>
+            <p xml:id="khj78y-q91638-d1e118">
+               <lb ed="#S" n="59"/>QVAERITVR quarto vtrum distincti 
+       or<lb ed="#S" break="no" n="60"/>dines habeant distinctos actus. Et videtur 
+      <lb ed="#S" n="61"/>quod non: quia sacerdos habet omnem actum 
+      <lb ed="#S" n="62"/>ordinis.
+    </p>
+            <p xml:id="khj78y-q91638-d1e130" n="2">
+      <!-- 2 -->Contra, quia potentiae distin 
+      <lb ed="#S" n="63"/>gnuntur per actui: sed sunt ia fingulis or 
+      <!--0299.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>dinibus singulae potestates, &amp; distinctae. i. characteres. 
+      <lb ed="#S" n="65"/>ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q91638-d1e146" n="3">
+      <!-- 3 -->Respondeo, licet proprie non sint nisi 
+       se<lb ed="#S" break="no" n="66"/>ptem ordines, vt dictum est, tamen large loquendo sunt 
+       no<lb ed="#S" break="no" n="67"/>uem. Nam est duplex ordo. scilicet triumphantis ecclesiae, &amp; mi 
+      <lb ed="#S" n="68"/>litantis. 89. dist. Adhuc. sunt autem in ecclesia 
+       triumpham<lb ed="#S" n="69" break="no"/>te nouem ordines angelorum, sub nouem generibus 
+       lapi<lb ed="#S" break="no" n="70"/>dum designati. de poe. di. 5. Quod ergo. sicut dicit Gre. 
+      <lb ed="#S" n="71"/>in Omeli. de dragma. &amp; Isi. de sum. bono. lib. 1.c. 10. Et 
+      <lb ed="#S" n="72"/>secundum hoc, quia militans est exemplar ad imaginem trium 
+      <lb ed="#S" n="73"/>phantis, dicunt iuristae esse. 9. ordines. Primus psalmista 
+      <lb ed="#S" n="74"/>tus, vel clericatus nonus, episcopatus, alij septem 
+       commu<lb ed="#S" break="no" n="75"/>nes. dis. 21. Cleros. de episcopatu autem postea videbitur: 
+      <lb ed="#S" n="76"/>nunc autem de istis. 8. per ordinem videamus.
+    </p>
+            <p xml:id="khj78y-q91638-d1e175" n="4">
+      <!-- 4 -->Primo, 
+      <lb ed="#S" n="77"/>de ordine clericatus, qui non est ordo nisi aequiuoce, &amp; 
+      <lb ed="#S" n="78"/>est idem, de quo sunt conclusiones. 3.
+    </p>
+            <p xml:id="khj78y-q91638-d1e184" n="5">
+      <!-- 5 -->Prima, quod 
+       se<lb ed="#S" break="no" n="79"/>ptem annos habentes possunt tonsurari in clericos: &amp; be 
+      <lb ed="#S" n="80"/>neficia ecclesiastica per consequens recipere. 28. 
+       distin<lb ed="#S" break="no" n="81"/>cap. de his. sed non habent vocem in electionibus: cum 
+      <lb ed="#S" n="82"/>discretione careant. extra de elect. c. Ex eo. lib. 6. Et pari 
+      <lb ed="#S" n="83"/>ratione. nec in aliis tractatibus.
+    </p>
+            <p xml:id="khj78y-q91638-d1e200" n="6">
+      <!-- 6 -->secunda, quod nullus 
+      <lb ed="#S" n="84"/>debet tonsurari in clericum, quousque sit confirmatus: quia 
+      <lb ed="#S" n="85"/>confirmatio est communis omnibus Christianis, sed 
+       cle<lb ed="#S" break="no" n="86"/>ricalis ordo est immediata dispositio, &amp; propria ad alios 
+      <lb ed="#S" n="87"/>ordines.
+    </p>
+            <p xml:id="khj78y-q91638-d1e213" n="7">
+      <!-- 7 -->Tertia, quod omni die dari potest, quia de ipsa non 
+      <lb ed="#S" n="88"/>exprimunt canones certum diem. Et quia sic de 
+       genera<lb ed="#S" break="no" n="89"/>li consuetudine obseruatur: alia sunt dicta de hac 
+       quae<lb ed="#S" break="no" n="90"/>stione proxima.
+    </p>
+            <p xml:id="khj78y-q91638-d1e225" n="8">
+      <!-- 8 -->secundo, videndum est, de primo or 
+      <lb ed="#S" n="91"/>dine proprie dicto, qui est hostiarius. Huius autem actus 
+      <lb ed="#S" n="92"/>describuntur. 21. distinct. Cleros. in fin. &amp; melius hic in 
+      <lb ed="#S" n="93"/>litera: sed ex hoc, quod dicitur in litera, quod hostiarij inter 
+      <lb ed="#S" n="94"/>bonos, &amp; malos habent iudicium, quia bonos recipiunt, 
+      <lb ed="#S" n="95"/>&amp; malos respuunt, videtur, quod sacramentista, qui habet officium 
+      <lb ed="#S" n="96"/>hostiarij, non prohibendo excommunicatum ab 
+       ingres<lb ed="#S" break="no" n="97"/>su, ex hoc ipso recipiat ipsum ad diuina magis, quam 
+       il<lb ed="#S" break="no" n="98"/>le cuius missam audit, ad quem non sic pertinet expelle 
+      <lb ed="#S" n="99"/>re: &amp; per consequens est suspensus ab ingressu ecclesiae: 
+      <lb ed="#S" n="100"/>secundum illud, quod habetur extra de priui. episc oporum. 
+    </p>
+            <p xml:id="khj78y-q91638-d1e251" n="9">
+               <lb ed="#S" n="101"/>
+               <!-- 9 -->secundus, qui tertius est, large est ordo lectorum. 
+       Hu<lb ed="#S" break="no" n="102"/>ius autem actus describunt praedicto: c. Cleros. &amp; melius in 
+      <lb ed="#S" n="103"/>litera. Quod autem in litera dicit, quod ad lectores pertinens 
+      <lb ed="#S" n="104"/>ea, quae prophetae narrauerunt populis praedicare, 
+       intelli<lb ed="#S" n="105" break="no"/>git legendo simpliciter, non praedicando: &amp; tum licet nullus 
+      <lb ed="#S" n="106"/>debeat praedicare, nisi ad minus sit diaconus, vt post die 
+      <lb ed="#S" n="107"/>cetur: nihil tamen prohibet, vt videt, quin aliquis, vt bac 
+      <lb ed="#S" n="108"/>calarius, vel magister in theologia possit in cathedra per 
+      <lb ed="#S" n="109"/>modum lectionis, vetus, &amp; nouum Testamentum 
+       expo<lb ed="#S" break="no" n="110"/>ponere: quia ex quo magister est, authoritatem docendi 
+      <lb ed="#S" n="111"/>habet: sed non praedicandi.
+    </p>
+            <p xml:id="khj78y-q91638-d1e280" n="10">
+      <!-- 10 -->Tertius, qui est 
+       quar<lb ed="#S" break="no" n="112"/>tus est exorcistatus: quorum actus simpliciter ponuntur 
+      <lb ed="#S" n="113"/>in dicto. c. in litera. sed quod dicitur ibi de exorcismis 
+       salo<lb ed="#S" break="no" n="114"/>monis, quibus daemones pellebantur, certum est, quod verba 
+      <lb ed="#S" n="115"/>illa virtute inhaerente non fugabant daemonem, sicut nec 
+      <lb ed="#S" n="116"/>aliqua alia, nisi forte sint sacramenta, nec iterum ex ope 
+      <lb ed="#S" n="117"/>re operato per idem. Et si ab homine fuerit inuenta nul 
+      <lb ed="#S" n="118"/>lo modo daemonem expellebant: nisi forte voluntarium, sicus 
+      <lb ed="#S" n="119"/>verba Magica. si autem inspirante Deo illos exorcismos 
+       in<lb ed="#S" break="no" n="120"/>nenit, sicut ecclesia suos: sic poterat daemon expelli per 
+      <lb ed="#S" n="121"/>illos, sicut per istos: nisi quod non ita efficaciter, sicut nec sa 
+      <lb ed="#S" n="122"/>cramenta illa ita erant efficacia, sicut nostra: maxime quia 
+      <lb ed="#S" n="123"/>exorcista no. test. habet realem potestatem spiritualem, 
+      <lb ed="#S" n="124"/>quam non habebat exarcista salomonis: vnde ecce plus 
+      <lb ed="#S" n="125"/>quam salomon hic.
+    </p>
+            <p xml:id="khj78y-q91638-d1e315" n="11">
+      <!--11-->Quartus, qui quitus est ordo, est or 
+      <lb ed="#S" n="126"/>do acolythorum superior, cuius actus similiter 
+       ponun<lb ed="#S" break="no" n="127"/>tur in praeallegato cap. &amp; in litera. Potest autem epistola 
+      <lb ed="#S" n="128"/>dioi per acolythum, de vita, &amp; honestateclerico. cap. 3. &amp; 
+      <lb ed="#S" n="129"/>actus omnium minorum ordinum possunt fieri licite, 
+       eti<lb ed="#S" break="no" n="130"/>sam a non habente ordinem: quia sic habet generalis ec- 
+      <!--0300.xml-->
+      <pb ed="#S" n="300"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>clesiae consuetudo. Ex quo videtur, quod non fiat irregularis 
+      <lb ed="#S" n="2"/>excommunicatus, vel suspensus, si ingerat se diuinis 
+       exer<lb ed="#S" break="no" n="3"/>cens actum illum solum, qui sine ordine licite fieri posset, 
+      <lb ed="#S" n="4"/>de iure, vel de consuetudine: puta actus minorum ordinum, 
+      <lb ed="#S" n="5"/>vel subdiaconus, aut sine manipulo: vbi hoc habet 
+       consue<lb ed="#S" break="no" n="6"/>tudo: quia non est in suo agens officio sicut prius. si au 
+      <lb ed="#S" n="7"/>tem inciperet in choro, Deus in adiutorium: solenniter 
+      <lb ed="#S" n="8"/>vbi hoc non solet fieri speci aliter a constituto in sacramentis 
+      <lb ed="#S" n="9"/>non incurrit: cum &amp; laici ibi psalmodicent. secus si de 
+      <lb ed="#S" n="10"/>consuetudine illud pertinet ad sacerdotem: quia alias 
+       eti<lb ed="#S" break="no" n="11"/>am moniales hoc faciunt.
+    </p>
+            <p xml:id="khj78y-q91638-d1e361" n="12">
+      <!-- 12 -->Quintus, qui est sextus, 
+      <lb ed="#S" n="12"/>est ordo subdiaconatus, cuius actus similiter in litera 
+      <lb ed="#S" n="13"/>describuntur. Quaedam autem manus impositio fit 
+       sub<lb ed="#S" break="no" n="14"/>diacono: sed non talis, qualis est illa: quae est propria dia 
+      <lb ed="#S" n="15"/>coni: de sacramentis ite. c. 1. &amp;. c. vlt. Hic est primus ordo 
+      <lb ed="#S" n="16"/>de sacramentis ordinibus: quia sacra vasa habet tangere nuda 
+      <lb ed="#S" n="17"/>manu: sicut &amp; diaconus, quod nulli inferiorum 
+       permitti<lb ed="#S" break="no" n="18"/>tur. &amp; ideo sibi sanctitas continentiae indicitur: propter 
+      <lb ed="#S" n="19"/>hoc sacer ordo vocat. de aeta, &amp; quali. ordi. c. a multis de 
+      <lb ed="#S" n="20"/>ser. non ordi. Miramur. etiam est secunda differentia inter 
+      <lb ed="#S" n="21"/>ordinem sacrum, &amp; non sacrum: quia existens in sacramentis est 
+      <lb ed="#S" n="22"/>eligibilis: non autem tantum iu minoribus ordinibus 
+       con<lb ed="#S" break="no" n="23"/>stitutus. de aeta. &amp; quali. ordi. c. a multis. sed episcopus 
+      <lb ed="#S" n="24"/>potest dispensare: non sic. scilicet quod possit confirmare electum: cum 
+      <lb ed="#S" n="25"/>sit electio nulla: sed potest eis dare postulatum: ita. scilicet vt non 
+      <lb ed="#S" n="26"/>sit necesse ipsum postulare a Papa. Dicunt autem iuristae, 
+      <lb ed="#S" n="27"/>quod subdiaconatus tempore apostolorum non erat sacer ordo. 
+      <lb ed="#S" n="28"/>dist. 21. c. 1. in fi. di. 60. Innouamus. &amp;. c. Nullus in epraem. 
+      <lb ed="#S" n="29"/>sed tempore sancti Greg. &amp; Vrbani fuit sacer ordo, Vnde 
+      <lb ed="#S" n="30"/>subdiaconus, &amp; diaconus eodem priuilegio gaudent, 
+       quan<lb ed="#S" n="31" break="no"/>tum ad libertatem. de ser. non ordi. Miramur. quod non 
+      <lb ed="#S" n="32"/>sic est intelligendum, quasi ceclesia, vel Papa nouum 
+       sa<lb ed="#S" break="no" n="33"/>cramentu instituerint, sed quia sacramento instituto de nouo 
+      <lb ed="#S" n="34"/>in suo officio distincte vti coepit: subdiaconus autem 
+       Pa<lb ed="#S" break="no" n="35"/>pae prae aliis habet praerogatiuam: quia per epos ad alios 
+       or<lb ed="#S" break="no" n="36"/>dines recipiendos non potest compelli, nec nisi per summum 
+      <lb ed="#S" n="37"/>Pontificem debet vlterius ordinari, nisi de licentia Papae. 
+      <lb ed="#S" n="38"/>de tempo. ordi. cum distribuendis: de modo autem 
+       ordinan<lb ed="#S" n="39" break="no"/>ni in subdiaconum habetur dist. 29 subdiaconui. 
+       Ordi<lb ed="#S" break="no" n="40"/>natus autem, &amp; praesentatus ab aliquo ad subdiaconatum: &amp; 
+      <lb ed="#S" n="41"/>supra debet ab eis promoueri, &amp; de victu ei prouideri. de 
+      <lb ed="#S" n="42"/>aeta. &amp; quali. ordi. c. Accepimus. si autem tali pacto fuerit 
+      <lb ed="#S" n="43"/>praesentatus, vel ordinatus, quod super prouisione sua non 
+      <lb ed="#S" n="44"/>molestet praesentem, vel ordinantem, ex hoc ipso est 
+       suspen<lb ed="#S" break="no" n="45"/>sus tanquam simoniace ordinatus. de simo. ca. Pertuas. &amp; 
+      <lb ed="#S" n="46"/>cap. si quis ordi.
+    </p>
+            <p xml:id="khj78y-q91638-d1e442" n="13">
+      <!-- 13 -->sextus, qui est septimus, est ordo 
+      <lb ed="#S" n="47"/>diaconatus: cuius est actus praedicare: non quia 
+       exordi<lb ed="#S" break="no" n="48"/>ne habeat authoritatem, sed solum habilitatem. soli enim 
+      <lb ed="#S" n="49"/>diacono non inferiori committi debet. Vnde nec <name xml:id="khj78y-q91638-Nd1e452">
+       bea<lb ed="#S" break="no" n="50"/>tus stephanus</name> ante diaconij ordinationem legitur 
+       prae<lb ed="#S" break="no" n="51"/>dicasse: tamen simplicem exhortationem faciebant antiqui pa 
+      <lb ed="#S" n="52"/>tres ad monachos nullum ordinem habentes: imo quia 
+      <lb ed="#S" n="53"/>vbi spiritus Domini ibi libertas: beatus Equitius nullum 
+      <lb ed="#S" n="54"/>habens ordinem sine hominis licentia a Deo missus publi 
+      <lb ed="#S" n="55"/>ce praedicabat, primo dialogo: cum alias laicus non debeat 
+      <lb ed="#S" n="56"/>praedicare, nec mulier.  24 dist. Mulier. Archidiaconum 
+      <lb ed="#S" n="57"/>tamen, qui non debet esse, nisi sit diaconus. 6o. dist. uullus 
+      <lb ed="#S" n="58"/>epus. habet ex officio praedicare, sicut <name xml:id="khj78y-q91638-Nd1e475">beatus 
+       Lauren<lb ed="#S" break="no" n="59"/>tius</name>, &amp; <name xml:id="khj78y-q91638-Nd1e480">beatus Vincentius</name>, &amp; similiter curatus, qui 
+       ha<lb ed="#S" break="no" n="60"/>bet curam animarum. Qui vero simplex sacerdos, aut 
+      <lb ed="#S" n="61"/>diaconus est, non nisi de licentia episcopi. de sententia excommunicationis 
+      <lb ed="#S" n="62"/>26. q. 1. Aduertimus. de haereticis. Ex iniunsto. &amp; cap. si 
+      <lb ed="#S" n="63"/>cut. &amp;. c. excommunicamus. β. quia vero. Itom diaconus habet 
+      <lb ed="#S" n="64"/>ex officio dispensare sanguinem, sed non corpus Domini: nisi 
+      <lb ed="#S" n="65"/>s. in necessitate, quando infirmus moritur, &amp; presbyter non 
+      <lb ed="#S" n="66"/>est praesens, vel quando presbyter mandat ei, &amp; est impe 
+      <lb ed="#S" n="67"/>ditus, vel ga est infirinus, vel quia in Pasehate non suffi 
+      <!--0300.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>cit omnibus ministrare, vnde in Paschate, Iosiae, &amp; 
+       Eze<lb ed="#S" break="no" n="69"/>chiae Leuitae adiuuerunt sacerdotes. Laicus autem in 
+       nul<lb ed="#S" break="no" n="70"/>la necessitate, nec se, nec alium communicare debet. 
+    </p>
+            <p xml:id="khj78y-q91638-d1e512" n="14">
+               <lb ed="#S" n="71"/>
+               <!-- 14 -->septimus, qui est octanut, est ordo sacerdotij, de eu 
+      <lb ed="#S" n="72"/>ius actibus dicetur aliquid in sequenti quaestione. Est 
+      <lb ed="#S" n="73"/>autem sciendum, quod absoluere in foro poenitentiae est actus 
+      <lb ed="#S" n="74"/>sacerdotis ratione ordinis principaliter, non ratione 
+       iu<lb ed="#S" break="no" n="75"/>risdictionis, sed illa per accidens aliquando concurrit: quia 
+      <lb ed="#S" n="76"/>oportet esse subditum: sed subditus est, qui vult se subiice 
+      <lb ed="#S" n="77"/>re, nisi alij sit astrictus. Et tunc de sola licentia eius potest 
+      <lb ed="#S" n="78"/>se ei subiicere, vt dictum fuit supra. di. L9. nec tunc dat el 
+      <lb ed="#S" n="79"/>potestatem absoluendi: sed renuncians iuri suo dat isti 
+      <lb ed="#S" n="80"/>licentiam se illi subiiciendi, propter hoc, quod, qui absolue 
+      <lb ed="#S" n="81"/>re non pont: vt puta, quia est non sacerdos: dum tamen sit 
+      <lb ed="#S" n="82"/>curatus: potest vicarium adnocare, qui desua licentia 
+       sub<lb ed="#S" break="no" n="83"/>ditos absoluat. Et similiter vider, quod de licentia curati ex 
+      <lb ed="#S" n="84"/>communicati, vel suspensi ab officio, vel iurisdictione, 
+      <lb ed="#S" n="85"/>possit alius parochianos eius audire. Et si excusatur poe 
+      <lb ed="#S" n="86"/>nitentiarius episcopi excommunicati, qui confessiones 
+       au<lb ed="#S" break="no" n="87"/>diebat officiali cessante. Absoluere enim ab 
+       excommuni<lb ed="#S" break="no" n="88"/>catione non poterat poenitentiarius plusquam officialis 
+      <lb ed="#S" n="89"/>excommunicare: puta, si vterque post excommunicationem episcopi 
+      <lb ed="#S" n="90"/>scopi fuisset positus: quia excommunicatus, vel a 
+       iurisdicti<lb ed="#S" break="no" n="91"/>ne suspensus, non potest delegare: sed in foro conscientiae 
+      <lb ed="#S" n="92"/>secus: quemadmodum de licentia episcopi excommunicati, 
+      <lb ed="#S" n="93"/>vel suspensi, vicarius eius vocatus celebrat ordines in 
+       e<lb ed="#S" break="no" n="94"/>ius dicec. quia hoc facit lure suo, nec requiritur commis 
+      <lb ed="#S" n="95"/>sio potestatis, sed solum renunciatio iuris sui, &amp; licentia 
+       pa<lb ed="#S" break="no" n="96"/>rochiani. Vnde dicitur extra de poe. &amp; remis. Omnis 
+       v<lb ed="#S" break="no" n="97"/>triusque sexus: quod sine licentia proprij sacerdotis, alius non 
+      <lb ed="#S" n="98"/>valet eum soluere, nec ligare, non dicit sine authoritate, 
+      <lb ed="#S" n="99"/>nec sine commissione elus. Item notandum, quod suspensus a 
+       di<lb ed="#S" break="no" n="100"/>uinis, vbicunq, actum ordinis celebrat proprium fit 
+       ir<lb ed="#S" break="no" n="101"/>regularis. secus autem si suspensus ab ingressu ecclesiae, vt 
+      <lb ed="#S" n="102"/>supra dictum est.
+    </p>
+            <p xml:id="khj78y-q91638-d1e586" n="15">
+      <!-- 15 -->Iuxta quod quaesitum fuit, vtrum 
+      <lb ed="#S" n="103"/>sacerdos suscipiens ad oblationem altaris illum, qui fuis 
+      <lb ed="#S" n="104"/>manifeste vsurarius, sed esse desiit, sit suspensus, secundum 
+      <lb ed="#S" n="105"/>illud de vsuris, quia in omnibus.
+    </p>
+            <p xml:id="khj78y-q91638-d1e597" n="16">
+      <!-- 16 -->Et dicendum, quod non: quia 
+      <lb ed="#S" n="106"/>aliud est hominem esse ligatum, aliud alios prohiberi sibi parti 
+      <lb ed="#S" n="107"/>cipare. Primo enim casu quamuis cesset causa, quare 
+       ho<lb ed="#S" break="no" n="108"/>mo fuit ligatus, nihilominus est vitandum, sicut qui cleri 
+      <lb ed="#S" n="109"/>cum percussit, post satisfactionem ante absolutionem vitan 
+      <lb ed="#S" n="110"/>dum est. secundo autem casu cessante causa, &amp; conditione 
+      <lb ed="#S" n="111"/>prohibitionis, cessat prohibitio: vt si praesente tali locus 
+      <lb ed="#S" n="112"/>est interdictus: eo recedente, desinit esse interdistus: ita est 
+      <lb ed="#S" n="113"/>in propositodicendum, quod si curatus fuit notorius fornica 
+      <lb ed="#S" n="114"/>tor, vel simoniacus quamuis esset poenitem, quousque esses 
+      <lb ed="#S" n="115"/>absolutus a suspensione, non sunt ab eo recipienda 
+       sacra<lb ed="#S" break="no" n="116"/>sed si meretrix publica poeniteat, antequam fitab ecomma 
+      <lb ed="#S" n="117"/>nicatione, uel suspensione absoluta: quia neutrum 
+       incar<lb ed="#S" break="no" n="118"/>rit, potest recipi adaltate, quamuis quandiu est talis propter 
+      <lb ed="#S" n="119"/>scandalum, non sit admittenda, iti &amp; hic cum vsorarij non 
+      <lb ed="#S" n="120"/>sint excommunicati, nec ligati, sed tantum prohibiti: possunt 
+       sa<lb ed="#S" break="no" n="121"/>nerdotes vsurarib publicu recipere ad altare, &amp; reciplen 
+      <lb ed="#S" n="122"/>do istum vsurarium, qui suit, &amp; nonest, faceros nullam poe 
+      <lb ed="#S" n="123"/>nam incurrit: licet ille non sit absolutus a suia, quam bon 
+      <lb ed="#S" n="124"/>incurrit. sed si reciperpt ad sepulturf, antequam 
+       restituis<lb ed="#S" break="no" n="125"/>set, vel donec cauisset, bene incurreret suspensionem, quia hoc 
+      <lb ed="#S" n="126"/>est expressum, de vsu.c. 2. lib. 6.
+    </p>
+            <p xml:id="khj78y-q91638-d1e647" n="17">
+      <!-- 17 -->Ad argumentum di 
+      <lb ed="#S" n="127"/>cendum, quod omnes ordines differunt in proprlo per se, &amp; princi 
+      <lb ed="#S" n="128"/>pali actu: sed possunt in aliquo secundario conuenire. ideo &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

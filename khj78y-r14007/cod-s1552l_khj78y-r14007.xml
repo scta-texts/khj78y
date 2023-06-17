@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="365"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r14007"><!-- l4d31-q2 -->
+            <head xml:id="khj78y-r14007-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-r14007-Hd1e103" type="question-title">
+      utrum propter 
+      bona matrimonij excusentur coniuges a peccato
+    </head>
+            <p xml:id="khj78y-r14007-d1e106">
+      <!--0365.xml-->
+               <pb ed="#S" n="365"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>QVAESTIO SECVNDA. 
+      <lb ed="#S" n="2"/>De tribus bonis matrimonium a peccato excusantibus 
+    </p>
+            <p xml:id="khj78y-r14007-d1e119">
+               <lb ed="#S" n="3"/>s. Iho. dijt. 3i. q. 2.rs. 1.
+    </p>
+            <p xml:id="khj78y-r14007-d1e124">
+               <lb ed="#S" n="4"/>SECVNDO quaerit, vtrum propter 
+       bo<lb ed="#S" break="no" n="5"/>na matrimonij excusentur coniuges a peccato. 
+      <lb ed="#S" n="6"/>Et videtur quod non: quia verecundia non est 
+      <lb ed="#S" n="7"/>nisi de turpi, secundum Damascenum: &amp; 
+       Phi<lb ed="#S" break="no" n="8"/>lo. 4. Ethi. sed praedicta bona non tollunt 
+      <lb ed="#S" n="9"/>a matrimonio praedictam verecundiam: ergo nec turpitudi 
+      <lb ed="#S" n="10"/>nem, quae videt includere culpam: mala enim poenae sunt 
+      <lb ed="#S" n="11"/>tristia: sed mala culpae turpia. ergo &amp;c. Item vbicumque est 
+      <lb ed="#S" n="12"/>passio inordinata, ibi est peccatum: sed haec tria bona non pos 
+      <lb ed="#S" n="13"/>sunt tollere ab actu matrimonij inordinationem passio 
+      <lb ed="#S" n="14"/>nis: semper enim ibi est superabundantia passionis 
+       ab<lb ed="#S" break="no" n="15"/>sorbens rationem. ergo semper est ibi peccatum.
+    </p>
+            <p xml:id="khj78y-r14007-d1e154" n="2">
+      <!-- 2 -->In 
+       con<lb ed="#S" break="no" n="16"/>trarium est, quia vsus matrimonij ad id, quod est 
+       matri<lb ed="#S" break="no" n="17"/>monium concessum, videtur esse bonum, &amp; licitum: sed 
+       ma<lb ed="#S" break="no" n="18"/>trimonium est concessum ad vitationem fornicationis: vt pa 
+      <lb ed="#S" n="19"/>tet per Apostolum. 1. ad Cor. 7. Vnusquisque propter 
+       forni<lb ed="#S" break="no" n="20"/>cationem suam habeat: ergo vsus matrimonij ad vitandum 
+      <lb ed="#S" n="21"/>fornicationem est licitus: sed tunc non concurrit aliquod 
+      <lb ed="#S" n="22"/>de praedictis bonis: ergo absqque his actus matrimonij 
+      <lb ed="#S" n="23"/>est licitus.
+    </p>
+            <p xml:id="khj78y-r14007-d1e176" n="3">
+      <!-- 3 -->Respondeo, hic sunt tria facienda. Primo, 
+      <lb ed="#S" n="24"/>ponetur illud, quod est certum, &amp; in quo omnes conueniunt. 
+      <lb ed="#S" n="25"/>secundo, ponetur illud, quod est dubium, &amp; accordabuntur 
+      <lb ed="#S" n="26"/>opiniones contrariae. Tertio, tangentur quaedam instantiae 
+      <lb ed="#S" n="27"/>contra dictum commune, &amp; soluentur.
+    </p>
+            <p xml:id="khj78y-r14007-d1e189" n="4">
+      <!-- 4 -->Quantum ad 
+      <lb ed="#S" n="28"/>primum sunt tres conclusiones ab omnibus concessae 
+       se<lb ed="#S" break="no" n="29"/>cundum tria bona excusantia.
+    </p>
+            <p xml:id="khj78y-r14007-d1e198" n="5">
+      <!-- 5 -->Prima conclusio est de 
+      <lb ed="#S" n="30"/>excusatione per bonum sacri, per quod matrimonium 
+       excu<lb ed="#S" break="no" n="31"/>satur aliter, quam per alia bona: per bonum enim sacramenti excusatur: 
+      <lb ed="#S" n="32"/>ga cum ex aliis habeat rationem boni, liciti, &amp; honesti, per hoc 
+      <lb ed="#S" n="33"/>etiam, quod est signum coniunctionis Christi &amp; ecclesia, habes 
+      <lb ed="#S" n="34"/>rationem sancti, &amp; Deo sacrati: sed ex caeteris bonis pro 
+       fi<lb ed="#S" break="no" n="35"/>ne intentis actus excusatur: quia vnum bonum est finis 
+       prin<lb ed="#S" break="no" n="36"/>cipalis: alterum secundariui: non sic autem de isto, quia si conue 
+      <lb ed="#S" n="37"/>uenirent, non causa prolis, nec debiti reddendi: sed causa 
+      <lb ed="#S" n="38"/>significandi coniunctionem Christi tantum peccarent. Nec 
+       ob<lb ed="#S" break="no" n="39"/>stat, quod est etiam institutum propter id significandum: quia cum 
+      <lb ed="#S" n="40"/>in omni sacro sit duplex finis, vnus intrinsecus, alius ex 
+      <lb ed="#S" n="41"/>trinsecus: vsus sacramenti debet ordinari ex intentione su 
+      <lb ed="#S" n="42"/>mentis, &amp; conferentis ad finem intrinsecum: nam ad extrinse 
+      <lb ed="#S" n="43"/>cum sufficit ordinatio ex intentione instituentis: sicut si 
+      <lb ed="#S" n="44"/>aliquis baptizaret, vel baptizaret principaliter ad signi 
+      <lb ed="#S" n="45"/>ficandu sepulturam Christi, &amp; non ablutionem animae, pecca 
+      <lb ed="#S" n="46"/>ret: ita &amp; id propter id, quod matrimonium efficit, &amp; non 
+      <lb ed="#S" n="47"/>propter illud extrinsecum, quod fignificat, vtendum est 
+      <lb ed="#S" n="48"/>matrimonio.
+    </p>
+            <p xml:id="khj78y-r14007-d1e244" n="6">
+      <!-- 6 -->secunda conclusio est de excusatione per 
+      <lb ed="#S" n="49"/>bonum prolis: bonum enim prolis excusat actum matrimo 
+      <lb ed="#S" n="50"/>nialem: quia concurrentibus aliis debitis circumstantiis. i. tempore, 
+      <lb ed="#S" n="51"/>loco debitis, &amp; huiusmodi: si propter intentionem prolis non 
+       vo<lb ed="#S" break="no" n="52"/>luptatem conueniant: quamuis non sit sine voluptate rationem 
+      <lb ed="#S" n="53"/>absorbente, nullum peccatum est, nec veniale, nec mortale: quia 
+      <lb ed="#S" n="54"/>quod a Deo praeceptum est, nullum peccatum  est: sed ipse hoc 
+       prae<lb ed="#S" break="no" n="55"/>cepit, cum dixit, Crescite, &amp; multiplicamini &amp;c. Est tamen ma 
+      <lb ed="#S" n="56"/>lus actus malitia poenae, quia ex culpa processit, quod habet 
+       ve<lb ed="#S" break="no" n="57"/>recundiam annexam: sicut egestia, &amp; multa, quae constat 
+      <lb ed="#S" n="58"/>culpam non esse: cum sint necessaria ad bonum 
+       indiui<lb ed="#S" break="no" n="59"/>dui, sicut illud ad conseruationem speciei: propter quod cum 
+      <lb ed="#S" n="60"/>bonum sit speciem esse &amp; conseruari, non malus est actus 
+      <lb ed="#S" n="61"/>sine quo non potest conseruari. Et tamen sciendum, quod vbicunq, est 
+      <lb ed="#S" n="62"/>possibilis procreatio prolis, quae ast principalis finis: nisi 
+      <lb ed="#S" n="63"/>principaliter intendatur, semper est actus inordinatus, &amp; 
+       vi<lb ed="#S" break="no" n="64"/>tiosus, quia non fit, prout debet: quando non fit propter illud, quod 
+      <!--0365.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="65"/>est, cum fieri possit.
+    </p>
+            <p xml:id="khj78y-r14007-d1e290" n="7">
+      <!-- 7 -->Tertia conclusio est de excusatio 
+      <lb ed="#S" n="66"/>ne per bonum fidei: bonum enim fidei excusat ab omni 
+       pec<lb ed="#S" break="no" n="67"/>cato: quando aliquis pro nullius voluptate sui reddit debitum 
+      <lb ed="#S" n="68"/>coniugi petenti, malens continere, quando scit inde prolem non 
+      <lb ed="#S" n="69"/>posse sequi: propter sterilitatem alterius, vel impraegnatio 
+      <lb ed="#S" n="70"/>nem, vel huiusmodi: &amp; in hoc casu reddendo non peccat, sed 
+      <lb ed="#S" n="71"/>reddere tenet, quia nullus peccat faciendo id, ad quod tene 
+      <lb ed="#S" n="72"/>tur: alias peccaret, &amp; non peccaret: sed tener reddere, nisi 
+      <lb ed="#S" n="73"/>aliud obsistat, ergo reddendo non peccaucum &amp; hoc apo 
+      <lb ed="#S" n="74"/>stolus praecipiat dicens. Vir vxori debitum reddat, 
+       simili<lb ed="#S" break="no" n="75"/>ter &amp; vxor viro: vnde &amp; ecclesia ad hoc compellit, si 
+       peta<lb ed="#S" break="no" n="76"/>tur: non peccat autem, qui legis authoritate petit: &amp; ad hoc 
+      <lb ed="#S" n="77"/>redpcit, si quis cognoscat vxorem, causa vitandi in eam 
+      <lb ed="#S" n="78"/>fornicationem, vel turpiorem actum.
+    </p>
+            <p xml:id="khj78y-r14007-d1e324" n="8">
+      <!-- 8 -->Quantum ad 
+       se<lb ed="#S" break="no" n="79"/>cundum de hoc, quod est hic dubium circa excusationem 
+      <lb ed="#S" n="80"/>per bonum fidei, quando coniunx petit debitum a coniuge non 
+      <lb ed="#S" n="81"/>propter prolis generationem: nec propter hoc, quod illum retra 
+      <lb ed="#S" n="82"/>hat ab adulterio: sed propter hoc, quod seipsum retrahat ab 
+      <lb ed="#S" n="83"/>adulterio, vel peiori, &amp; sic propter vitandam fornicatio 
+      <lb ed="#S" n="84"/>nem in seipso non in altero.
+    </p>
+            <p xml:id="khj78y-r14007-d1e342" n="9">
+      <!-- 9 -->Circa hoc sunt duae 
+      <lb ed="#S" n="85"/>opiniones: vna quod sic petere semper est peccatum: quia omnis 
+       su<lb ed="#S" break="no" n="86"/>per abundantia passionis est peccatum: sed omnis  petitio, quae est 
+      <lb ed="#S" n="87"/>propter hanc causam, semper est superabudantia 
+       passio<lb ed="#S" break="no" n="88"/>nis. ergo &amp;c. Alij dicunt appositu, propter quod sic videt 
+      <lb ed="#S" n="89"/>distinguendum: vt siut duae conclusiones. Quia aut ipse co 
+      <lb ed="#S" n="90"/>gnoscit vxorem causa vitandi in se fornicationem: quamuis 
+      <lb ed="#S" n="91"/>possit aliter vitare: sed magis vult isto modo delectabili 
+      <lb ed="#S" n="92"/>vitare, quam alio non delectabili: puta, quia domando carnem, 
+      <lb ed="#S" n="93"/>vel fugiendo aliarum consortia, vel non loquendo solus cum 
+      <lb ed="#S" n="94"/>sola: &amp; sic posset faciliter euitare: sed magis vult cum vo 
+      <lb ed="#S" n="95"/>luptate, quam sine illa, &amp; tunc peccat venialiter: quia praefert 
+      <lb ed="#S" n="96"/>voluptatem carnis absorbentem rationem ei, quod seruat 
+       v<lb ed="#S" break="no" n="97"/>sum rationis, &amp; aeque attingit ad finem: sicut si homo 
+       siti<lb ed="#S" break="no" n="98"/>ens aeque potest saturare, vel satisfacere necessitati naturae 
+      <lb ed="#S" n="99"/>bibens vinum limphatum minus delectabile, quod non 
+       lae<lb ed="#S" break="no" n="100"/>detur caput: &amp; eligit statim extinguere sitim cum vino for 
+      <lb ed="#S" n="101"/>ti, quod est magis delectabile, quod inebriabit eum, vel 
+      <lb ed="#S" n="102"/>in toto, vel in parte. Peccat enim non ratione finis, sed 
+      <lb ed="#S" n="103"/>ratione medij incompetentis, &amp; haec est prima conclusio, &amp; 
+      <lb ed="#S" n="104"/>in isto sensu vera est prima opinio.
+    </p>
+            <p xml:id="khj78y-r14007-d1e390" n="10">
+      <!-- 10 -->secunda 
+       conclu<lb ed="#S" break="no" n="105"/>sio est, quod si ipse ideo actum illum exercet ad vitandum in 
+       se<lb ed="#S" break="no" n="106"/>ipso fornicationem, non quia delectabilior, sed quia non 
+      <lb ed="#S" n="107"/>potest pro tunc alio modo melius eam vitare: ita quod 
+       volu<lb ed="#S" break="no" n="108"/>ptas in nullo mouet eum, sed solum amor vitandae fornica 
+      <lb ed="#S" n="109"/>tionis, quam pro tunc non potest melius vitare: quia necesse 
+      <lb ed="#S" n="110"/>habet loqui diu in secreto, &amp; loco suspecto alij mulieri: 
+      <lb ed="#S" n="111"/>&amp; expertus est de ea se saepe tentatum: sed quando semel vsus 
+      <lb ed="#S" n="112"/>est actu illo ad multosdies refrigeratus nontentatur: tunc 
+      <lb ed="#S" n="113"/>nullum peccatum est, si non proles speratur: quia tunc illa sem 
+      <lb ed="#S" n="114"/>per praemittenda esset: hoc autem reducitur ad bonum fidei, 
+      <lb ed="#S" n="115"/>quo continetur non solum debitum reddere, sed etiam ad 
+       ali<lb ed="#S" break="no" n="116"/>am non accedere. Nam si semper petitum debitum 
+       redde<lb ed="#S" break="no" n="117"/>ret: &amp; cum hoc ad aliam accederet, contra bonum fidei 
+      <lb ed="#S" n="118"/>nihilominus faceret: vnde si propter hoc petit debitum 
+      <lb ed="#S" n="119"/>a sua, ne indebitum exigat ab extranea propter fidelitatem 
+      <lb ed="#S" n="120"/>hoc facit, &amp; bono fidei deseruit. &amp; haec est secunda 
+       conclu<lb ed="#S" break="no" n="121"/>sio: &amp; in hoc sensu vera est secunda opinio. Et per istam 
+      <lb ed="#S" n="122"/>Distinctionem potest responderi ad omnes rationes secundae opi 
+      <lb ed="#S" n="123"/>nionis contra primam: sicut patebit in sequenti articulo, vbi 
+      <lb ed="#S" n="124"/>illae ponentur.
+    </p>
+            <p xml:id="khj78y-r14007-d1e438" n="11">
+      <!--11 -->Quantum ad tertium de instantiis, 
+      <lb ed="#S" n="125"/>sciendum, quod illi de secunda opinione contra primam vi 
+      <lb ed="#S" n="126"/>dentur adducere sex rationes, quae recitando soluentur. 
+      <lb ed="#S" n="127"/>Primo, ergo arguunt sic, plus tenetur quis sibi, quam aliis, sed in 
+      <lb ed="#S" n="128"/>distincte propter vitandam fornicationem in coniuge petens 
+      <lb ed="#S" n="129"/>debitum non peccat: ergo multo minus propter vitandam 
+      <lb ed="#S" n="130"/>in se.
+    </p>
+            <p xml:id="khj78y-r14007-d1e456" n="12">
+      <!-- 12 -->Dicendum, quod homo tenetur plus peccatum vita 
+      <lb ed="#S" n="131"/>re, quam alium a peccato retrahere: sed pluribus modis potest 
+      <!--0366.xml-->
+      <pb ed="#S" n="366"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>se a peccato retrahere, quae allum: vnde sicut vir, qui potens 
+      <lb ed="#S" n="2"/>est aliter seipsum cohibere, magiseligit ad hoc 
+       volupta<lb ed="#S" break="no" n="3"/>tem absorbentem, quam aliud sobrium reddens peccati sic si mu 
+      <lb ed="#S" n="4"/>lierem, quam includendo, vel aliter poterat cohibere, ma 
+      <lb ed="#S" n="5"/>gis vult cum sua voluptate cohibere: non est dubium, quod 
+      <lb ed="#S" n="6"/>peccat: quia non nisi propter voluptatem praefert hoc medi 
+      <lb ed="#S" n="7"/>um, alij medio magis consonorationi, &amp; aeque valenti ad 
+      <lb ed="#S" n="8"/>finem: sed si vir timens in vxore etiam inclusa, alias 
+       da<lb ed="#S" break="no" n="9"/>mnabiles corruptelas, non putans eam aliter melius cohi 
+      <lb ed="#S" n="10"/>beri, quae per actum, quem non ipsa petit, propter hoc solum 
+      <lb ed="#S" n="11"/>debitum petit, non peccat, sicut nec in seipso: &amp; similiter 
+      <lb ed="#S" n="12"/>qa vxor non habet virum corrigere, si virum de aliis 
+       tenta<lb ed="#S" break="no" n="13"/>tum, &amp; inter alias debentem conuersari: propter hoc solum 
+      <lb ed="#S" n="14"/>debitum petat, vt ipsum cohibeat simpliciter excusatur. 
+    </p>
+            <p xml:id="khj78y-r14007-d1e500" n="13">
+               <lb ed="#S" n="15"/>
+               <!-- 13 -->secundo dicunt, quod non potest dici, quod vitare fornica 
+      <lb ed="#S" n="16"/>tionem in alio pertineat ad redditionem debiti, plusquam 
+       vi<lb ed="#S" break="no" n="17"/>tare in seipso, quia reddere debitum est, quando petitur 
+       ex<lb ed="#S" break="no" n="18"/>presie, vel interpretatiue, quando scit illam tentari de 
+       se<lb ed="#S" break="no" n="19"/>ipso: sed quando non petit debitum ab isto, nec 
+       tenta<lb ed="#S" break="no" n="20"/>tur de isto: sed specialiter de alio: tunc si cognoscatur non 
+      <lb ed="#S" n="21"/>est redditio, sed pure petitio, sicut &amp; si pro se petat. 
+    </p>
+            <p xml:id="khj78y-r14007-d1e521" n="14">
+               <lb ed="#S" n="22"/>
+               <!-- 14 -->Dicendi, quod verum est, quod non plus debet homo 
+       vita<lb ed="#S" break="no" n="23"/>re in alio, quam in seipso, nec ad redditionem pertinet hoc, vel 
+      <lb ed="#S" n="24"/>illud, nisi prout reddere large bonum fidei respicit. Ad bo 
+      <lb ed="#S" n="25"/>num enim fidei pertinet, quod neuter aliam copulam 
+       requi<lb ed="#S" break="no" n="26"/>rat, &amp; mutuam copulam non respuat. si ergo mutua 
+       co<lb ed="#S" break="no" n="27"/>pula alias non quaeratur, sed ne alia requiratur, ista 
+       ex<lb ed="#S" break="no" n="28"/>petitur, vel pro se, vel pro alio in casu, quo non apparet 
+      <lb ed="#S" n="29"/>melius vitanda, quam per istum modum, tunc fidelitas excu 
+      <lb ed="#S" n="30"/>sat.
+    </p>
+            <p xml:id="khj78y-r14007-d1e545" n="15">
+      <!-- 15 -->Tertio sic, passio non est peccatum, nisi 
+       deordi<lb ed="#S" break="no" n="31"/>net rationem, sed quando ratio eam ordinat, &amp; eam prae 
+      <lb ed="#S" n="32"/>uenit, &amp; reprimit, tunc ipsa non deordinat: vnde cum ra 
+      <lb ed="#S" n="33"/>tio hunc actum eligat, ne passio ad illicitum impellat, 
+      <lb ed="#S" n="34"/>peccatum non est.
+    </p>
+            <p xml:id="khj78y-r14007-d1e558" n="16">
+      <!-- 16 -->solutio maior est vera, &amp; minor 
+      <lb ed="#S" n="35"/>falsa, quia passio rationem deordinat: quando finem po 
+      <lb ed="#S" n="36"/>terat aeque habere non perdendo vsum rationis, si 
+       pro<lb ed="#S" break="no" n="37"/>pter voluptatem actum eligit absorbentem rationem, non 
+      <lb ed="#S" n="38"/>plus conferentem ad debitum finem.
+    </p>
+            <p xml:id="khj78y-r14007-d1e571" n="17">
+      <!-- 17 -->Quarto sic, qu 
+      <lb ed="#S" n="39"/>si passio praecedens fuit vitlosa, quia forte tentatio de aliena 
+      <lb ed="#S" n="40"/>praeuenit iudicium rationis: tamen non sequitur, qui actus 
+      <lb ed="#S" n="41"/>sequens sit vitiosus, qui non sequitur ex passione, sed 
+       im<lb ed="#S" break="no" n="42"/>peratur a ratione volente corrigere, quod amisit.
+    </p>
+            <p xml:id="khj78y-r14007-d1e584" n="18">
+      <!-- 18 -->
+       so<lb ed="#S" break="no" n="43"/>lutio, verum est, si ratio non posset defectum corrigere 
+      <lb ed="#S" n="44"/>aeque bene aliquo alio modo, quam absorbente rationem. 
+      <lb ed="#S" n="45"/>Dicunt enim sic aliquae moniales, volumus multum dor 
+      <lb ed="#S" n="46"/>mire, quia quandiu dormimus nihil mali cogitamus: &amp; 
+      <lb ed="#S" n="47"/>quando vigilamus multis malis cogitationibus occupa 
+      <lb ed="#S" n="48"/>mur. Et bene dicerent, si non meliori modo vigilando, &amp; 
+      <lb ed="#S" n="49"/>orando Diabolo resisterent, quam delectatione somni, qua 
+      <lb ed="#S" n="50"/>caro fota fortior resurgit: &amp; iterum sicut nihil mali cogi 
+      <lb ed="#S" n="51"/>eant, sic nihil boni faciunt, &amp; forte tempus orandi tunc tran 
+      <lb ed="#S" n="52"/>sit, ita &amp; hic. si quis enim tentatus obdormiret, vt 
+       dor<lb ed="#S" break="no" n="53"/>miens sine peccato pollutione delectaretur, certum est, 
+      <lb ed="#S" n="54"/>quod peccaret: quia vigilando potius, &amp; orando 
+       tentatio<lb ed="#S" break="no" n="55"/>nem debuit reprimere, quam dormiendo in duello se facere 
+      <lb ed="#S" n="56"/>impotentem resistere, quomodo impotentem se facit, qui 
+      <lb ed="#S" n="57"/>illi actui consentit. Quinto sic. Actus, qui non est de se 
+      <lb ed="#S" n="58"/>malus, &amp; ordinatur in bonum finem, non fit male, sed 
+       a<lb ed="#S" break="no" n="59"/>ctus matrimonij, de quo quaeritur, est huiusmodi. ideo &amp;c. 
+    </p>
+            <p xml:id="khj78y-r14007-d1e626" n="19">
+               <lb ed="#S" n="60"/>
+               <!-- 19 -->Dicendum, quod verum est, quando finis non potest melius 
+      <lb ed="#S" n="61"/>aliter, &amp; conuenientius haberi: vnde licet eligere minus 
+      <lb ed="#S" n="62"/>bonum, non semper sit peccatum: alias non esse 
+       virgi<lb ed="#S" break="no" n="63"/>nem, &amp; eligere matrimonium esset peccatum: tamen quod ad vnum 
+      <lb ed="#S" n="64"/>finem consequendum omissio aeque bono medio non 
+       lae<lb ed="#S" break="no" n="65"/>dente bonum rationis eligatur voluntas cum 
+       detrimen<lb ed="#S" break="no" n="66"/>to rationis, semper est peccatum, quia contra dictamen 
+      <lb ed="#S" n="67"/>rectae rationis, &amp; sic est hic.
+    </p>
+            <p xml:id="khj78y-r14007-d1e649" n="20">
+      <!-- 20 -->sed per hoc vidoi, quod qui- 
+      <!--0366.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>cunque consentit in matrimonium, peccat, quia si eligit ma 
+      <lb ed="#S" n="69"/>trimonium non propter salutem suam: certum est, quod caret 
+       de<lb ed="#S" break="no" n="70"/>bito fine: si autem eligit matrimonium, vt saluetur: poteras 
+      <lb ed="#S" n="71"/>melius laluari per virginitatem non autordetem vium 
+      <lb ed="#S" n="72"/>rationis. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r14007-d1e669" n="21">
+      <!-- 21 -->Dicendum est, quod spse eligens 
+       ma<lb ed="#S" break="no" n="73"/>trimonium potius, quae virginitatem, vt sic non peccat: quia 
+      <lb ed="#S" n="74"/>non tenetur eligere illam, nisi velit. sed si dicatur, quod pec 
+      <lb ed="#S" n="75"/>cat, quia eligit parti detrimentum in bonis rationis, 
+       di<lb ed="#S" break="no" n="76"/>cendum, quod excusatur, quia si hoc fecit intentione prolis 
+      <lb ed="#S" n="77"/>quam sperat, recompensatur illud damnum per hoc 
+       bo<lb ed="#S" break="no" n="78"/>num: si autem facit hoc intentione vitande 
+       fornicatio<lb ed="#S" break="no" n="79"/>nis, quam propter fragilitatem suam probabiliter timet 
+      <lb ed="#S" n="80"/>aliter se vitare non posse, &amp; non voluptatem: cum qua 
+      <lb ed="#S" n="81"/>magis vult vitare, quam aliter, sed non quaerens voluptatem 
+      <lb ed="#S" n="82"/>solum propter hoc, vt sic melius vincat, hoc facit, non 
+       pec<lb ed="#S" break="no" n="83"/>cat, &amp; sic intelligit Apostolus, quod melius est nubere, quam 
+      <lb ed="#S" n="84"/>vri.
+    </p>
+            <p xml:id="khj78y-r14007-d1e700" n="22">
+      <!-- 22 -->sexto sic, quando principalis finis non est pos 
+      <lb ed="#S" n="85"/>sibilis, licitum est intendere finem secundarium: sed finis 
+      <lb ed="#S" n="86"/>principalis matrimonij est liberorum procreatio: 
+       secund<lb ed="#S" n="87" break="no"/>darius autem est vitatio fornicationis magis in seipso, quam 
+      <lb ed="#S" n="88"/>in alio: vnde Apostolus: Propter fornicationem vitandam 
+      <lb ed="#S" n="89"/>habeat vnusquisque suam, &amp; vnaquaeque virum suumtvnde 
+      <lb ed="#S" n="90"/>si senes, &amp; steriles, qui prolem habere non possunt 
+       pro<lb ed="#S" break="no" n="91"/>pter tornicationem vitandam contrahunt, non peccant: lices 
+      <lb ed="#S" n="92"/>autem ad illum finem conuenire, ad quem licet contrahere: 
+      <lb ed="#S" n="93"/>ergo sicut licet contrahere, &amp; per consequens pe 
+      <lb ed="#S" n="94"/>tere debitum 
+      <lb ed="#S" n="95"/>propter prolem, vbi est possibilis: sic vbi illa non est possi 
+      <lb ed="#S" n="96"/>bilis: sicut licet contrahere propter fornicationem vitandam 
+      <lb ed="#S" n="97"/>in seipso, propter hoc licet conuenire, &amp; debitum petere:- 
+      <lb ed="#S" n="98"/>non sic autem licet conuenire propter sanitatem, quia 
+       illa<lb ed="#S" break="no" n="99"/>non est finis matrimonij, nec principalis, nec secundari 
+      <lb ed="#S" n="100"/>us: vnde si etiam aliter non posset homo sanari nisi cogno 
+      <lb ed="#S" n="101"/>scendo vxorem, non propter hoc deberet cognoscere: quia 
+      <lb ed="#S" n="102"/>quamuis finis esset bonus, sed non bonus huius actus: quia 
+      <lb ed="#S" n="103"/>ista cauda non est, sicut vulgo dicitur, de isto vitulo, 
+       si<lb ed="#S" break="no" n="104"/>cut nec propter noc iceret oaptizari.
+    </p>
+            <p xml:id="khj78y-r14007-d1e748" n="23">
+      <!-- 23 -->Dicendum, 
+      <lb ed="#S" n="105"/>quod propter finem secundarium licet conuenire, quando principalis 
+      <lb ed="#S" n="106"/>non sperai, nec secundarius melius aliter haberi potest. 
+      <lb ed="#S" n="107"/>Nam si aliter potest haberi sine detrimento rationis, &amp; quae 
+      <lb ed="#S" n="108"/>ritur cum detrimento rationis propter voluptatem, culpa 
+      <lb ed="#S" n="109"/>est.
+    </p>
+            <p xml:id="khj78y-r14007-d1e764" n="24">
+      <!-- 24 -->Ad rationes in oppositum principales.
+    </p>
+            <p xml:id="khj78y-r14007-d1e769" n="25">
+      <!-- 25 -->Ad 
+      <lb ed="#S" n="110"/>primam dicendum, quod verecundia est non solum de turpita 
+      <lb ed="#S" n="111"/>dine pertinente ad culpam, sed de ea, quae habet speciem 
+      <lb ed="#S" n="112"/>culpae: talis autem est actus matrimonij, eo quod est eiusdem 
+      <lb ed="#S" n="113"/>naturae in specie cum actu fornicationis: erubescentia 
+      <lb ed="#S" n="114"/>etiam non solum est de talibus: sed etiam de omnibus 
+      <lb ed="#S" n="115"/>effectibus naturalibus.
+    </p>
+            <p xml:id="khj78y-r14007-d1e788" n="26">
+      <!-- 26 -->Ad secundum dicendum, 
+      <lb ed="#S" n="116"/>quod superabundantia passionis non facit vitium secundum 
+      <lb ed="#S" n="117"/>absolutam intentionem ipsius, sed secundum proportio 
+      <lb ed="#S" n="118"/>nem ad rationem: vnde tunc solum passio reputatur 
+       immo<lb ed="#S" break="no" n="119"/>derata, quando limites rationis sibi praefixos excedit. 
+       Delecta<lb ed="#S" break="no" n="120"/>tio autem, quae est in actu matrimonij, quamuis sit intentissima 
+      <lb ed="#S" n="121"/>secundum se, tamen non excedit limites rationis sibi praefixos: 
+      <lb ed="#S" n="122"/>cum non quaeratur nisi in coniuge, &amp; propter debitum. 
+    </p>
+            <p xml:id="khj78y-r14007-d1e808" n="27">
+               <lb ed="#S" n="123"/>
+               <!-- 27 -->Ad argumentum in oppositum patet solutio per dicta. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="102"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q21829"><!-- l4d7-q2 -->
+            <head xml:id="khj78y-q21829-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q21829-Hd1e103" type="question-title">
+     Utrum confirmatio characterem imprimat
+   </head>
+            <p xml:id="khj78y-q21829-d1e106">
+               <lb ed="#S" n="5"/>QVAESTIO SECVNDA. 
+    </p>
+            <p xml:id="khj78y-q21829-d1e111">
+               <lb ed="#S" n="6"/>De materia confirmationis. 
+      <lb ed="#S" n="7"/>Thom. 3. q. 72 art. 5. 6. &amp;. 7. 
+    </p>
+            <p xml:id="khj78y-q21829-d1e118">
+               <lb ed="#S" n="8"/>SECVNDO Quaeritur, vtrum 
+      <lb ed="#S" n="9"/>confirmatio characterem 
+       impri<lb ed="#S" break="no" n="10"/>mat. Et videt, quod non: quia per hoc 
+      <lb ed="#S" n="11"/>quod olim eligebantur fortes a 
+       timi<lb ed="#S" break="no" n="12"/>dit, vt praeliarent in deserto, &amp; 
+      <lb ed="#S" n="13"/>in aliis bellis Domini non imprime 
+      <lb ed="#S" n="14"/>bar eis character. ergo nec nunc. 
+    </p>
+            <p xml:id="khj78y-q21829-d1e137" n="2">
+               <lb ed="#S" n="15"/>
+               <!-- 2 -->CONTRA, quia 
+       pro<lb ed="#S" break="no" n="16"/>pter hoc negatur hoc sacim interari.
+    </p>
+            <p xml:id="khj78y-q21829-d1e146" n="3">
+      <!-- 3 -->AD Eui 
+      <lb ed="#S" n="17"/>dentiam huius quaestionis tria sunt videnda secundum 
+      <lb ed="#S" n="18"/>tres effectus huius sacramenti, qui sunt character, gratia, &amp; 
+       co<lb ed="#S" break="no" n="19"/>gnatio spiritualis.
+    </p>
+            <p xml:id="khj78y-q21829-d1e157" n="4">
+      <!-- 4 -->QVANTVM ad primum 
+      <lb ed="#S" n="20"/>sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-q21829-d1e164" n="5">
+      <!-- 5 -->Prima, quod primus effectus 
+      <lb ed="#S" n="21"/>confirmationis est character. Cum enim confirmatio sit 
+       sa<lb ed="#S" n="22" break="no"/>cramentum, quo homo deputatur ad aliquid sacrum: puta ad 
+       confes<lb ed="#S" break="no" n="23"/>sionem fidei, &amp; constantem eius defentionem, ideo 
+       characte<lb ed="#S" n="24" break="no"/>rem imprimit. sic enim videmus, quod his, qui ad mundi 
+       mi<lb ed="#S" break="no" n="25"/>litiam eligunt, imprimit aliquod signum permanens: 
+       pu<lb ed="#S" break="no" n="26"/>ta, quod aureis paramentis vtuntur in armis, &amp; equestribus 
+       in<lb ed="#S" break="no" n="27"/>strumentis ad differentiam aliorum. In bellis etiam certa signa 
+      <lb ed="#S" n="28"/>portantur ante eos, &amp; olim militibus in brachio, vel alibi 
+      <lb ed="#S" n="29"/>cauterium imprimebatur. ergo conueniens est milites Christi 
+      <lb ed="#S" n="30"/>aliquo spirituali charactere distingui, &amp; consignari. Nec 
+      <lb ed="#S" n="31"/>obstat, quod arguit, quia in ve. le. illa distinctio non erat 
+      <lb ed="#S" n="32"/>sacramentum: &amp; sacramentum, quod ibi erat distinctiuum, vt circuncisio si 
+      <lb ed="#S" n="33"/>gnum sensibile imprimebat, vnde inuisibili non egebant. 
+    </p>
+            <p xml:id="khj78y-q21829-d1e197" n="6">
+               <lb ed="#S" n="34"/>
+               <!-- 6 -->secunda conclusio est, quod confirmatio imprimit 
+      <lb ed="#S" n="35"/>characterem distinctum a baptisinali, &amp; ordinis, quia 
+       diuer<lb ed="#S" break="no" n="36"/>farum causarum suut diuersi effectus immediati. Vnde cum 
+      <lb ed="#S" n="37"/>character sit immediatus sacramenti effectus characterem imprimentis 
+      <lb ed="#S" n="38"/>tria sacramenta no. le. characterem imprimentia tres diuersos cha 
+      <lb ed="#S" n="39"/>racteres imprimunt. Propter quod nullum horum trium est ite 
+      <lb ed="#S" n="40"/>rabile.
+    </p>
+            <p xml:id="khj78y-q21829-d1e217" n="7">
+      <!-- 7 -->Hic tamen est dubium, vtrum sit irregularis 
+      <lb ed="#S" n="41"/>reconfirmans, sicut rebaptizans scienter, &amp; reconfirmatus, 
+      <lb ed="#S" n="42"/>sicut rebaptizatus ignoranter. Nam de rebaptizante, vel mi 
+      <lb ed="#S" n="43"/>nisterium praebente: habetur extra de aposta. c. 2. de rebapti 
+      <lb ed="#S" n="44"/>zato. de consec. dist. 4. Qui bis. De reconfirmante non sic 
+      <lb ed="#S" n="45"/>expressum est, nec de reconfirmato, nisi quod dicit de consec. 
+      <lb ed="#S" n="46"/>dist. 5. Dictum est nobis bis, vel ter, vel amplius 
+       baptiza<lb ed="#S" break="no" n="47"/>tos, aut confirmatos, non seculo, sed soli Deo sub habitu 
+      <lb ed="#S" n="48"/>regulari, vel clericali religiosissime famulari decretum 
+      <lb ed="#S" n="49"/>est. Ex quo posset videri, quod aequaliter vterque esset 
+       irregu<lb ed="#S" break="no" n="50"/>laris: sed glo. intelligit ad oppositum propter id, quod dicit 
+      <lb ed="#S" n="51"/>in habitu. Ex quo videt, quod in clericatu possit remanere, 
+      <lb ed="#S" n="52"/>&amp; promoueri. Vnde significat contrarium decretum. c. qui bis. 
+      <lb ed="#S" n="53"/>vbi dicitur, quod est irregularis. Et respondet, quod in casu necessi 
+      <lb ed="#S" n="54"/>tatis remanent in habitu clericari dispesatiue, vel in ha 
+      <lb ed="#S" n="55"/>bitu clericali, sed sine ordine, &amp; dignitate, per quod nihil 
+      <lb ed="#S" n="56"/>habet, de reconfirmato, si istud capitulum, quod dictum est non 
+      <lb ed="#S" n="57"/>imponit irregularitatem: quia illud. c. qui bi. non loquitur 
+       ni<lb ed="#S" break="no" n="58"/>si de rebaptizato. Et licet aequaliter prohibeantur reiterari: 
+      <lb ed="#S" n="59"/>quia tamen poena, quae de vno exprimitur, in alio tacetur, 
+      <lb ed="#S" n="60"/>non est extendenda maxime ista paena, quia nullus 
+       iudican<lb ed="#S" break="no" n="61"/>dus est irregularis, nisi sit iure expressum de sententia ex. Isꝗ 
+      <lb ed="#S" n="62"/>in ecclesia. lib. 6.
+    </p>
+            <p xml:id="khj78y-q21829-d1e270" n="8">
+      <!-- 8 -->Tertia conclusio est, quod chara- 
+      <!--0102.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="63"/>cter confirmationis praesupponit characterem baptismalem, 
+      <lb ed="#S" n="64"/>non illu ordinis cuiuscumque. Primum patet, quia baptismus 
+      <lb ed="#S" n="65"/>est ianua sacramentorum, sine quo nullum sacramentum recipi potest, nisi 
+      <lb ed="#S" n="66"/>forte matrimonium. Vnde &amp; presbyter non baptizatus ba 
+      <lb ed="#S" n="67"/>ptizandus est, &amp; per omnia ordinandus, &amp; pari ratione con 
+      <lb ed="#S" n="68"/>firmandus, si prius fuisset de facto confirmatus: de presby 
+      <lb ed="#S" n="69"/>tero non baptizato. c. 1. secundum patet, quod licet apostoli 
+      <lb ed="#S" n="70"/>prius fuerint ordinati, quam confirmati, quia non fuerunt confir 
+      <lb ed="#S" n="71"/>mati ipsi, nec aliquis alius hoc sacramento ante Penthe. quia nec 
+      <lb ed="#S" n="72"/>ante debuit dari spiritus robur. &amp; plenitudo: qui tamen ante 
+       fue<lb ed="#S" break="no" n="73"/>rant sacerdotes, non sic tamen debet fieri in nobis. Prius enim 
+      <lb ed="#S" n="74"/>debet recipi sacramentum, quod est commune, quam id, quod est 
+       spe<lb ed="#S" break="no" n="75"/>ciale. Vnde de congruitate character ordinis 
+       praesuppo<lb ed="#S" break="no" n="76"/>nit characterem confirmationis, &amp; non econuerso. Nam &amp; si 
+      <lb ed="#S" n="77"/>apostoli prius comederunt agnum, postea conicauerunt, 
+      <lb ed="#S" n="78"/>non propter hoc nos sic facere debemus.
+    </p>
+            <p xml:id="khj78y-q21829-d1e314" n="9">
+      <!-- 9 -->De ite 
+      <lb ed="#S" n="79"/>ratione autem confirmationis prohibita habet. 1. q. 1. 
+       ma<lb ed="#S" break="no" n="80"/>nus impositio: vbi glo. dicit, quod est quaedam manus 
+       imposi<lb ed="#S" break="no" n="81"/>tio reconciliatiua: qua reconciliantur ab haeresi reuertentes, quae 
+      <lb ed="#S" n="82"/>potest iterari. Alia est curatoria, super egros manus 
+       im<lb ed="#S" break="no" n="83"/>ponent, &amp; bene habebunt. Et haec etiam iterat, quod potest 
+      <lb ed="#S" n="84"/>intelligi de extrema vntione. Tertia est absolutoria in 
+      <lb ed="#S" n="85"/>sacramento poenitentiae, quae etiam iterat, nisi solemnis. Quarta est con 
+      <lb ed="#S" n="86"/>firmatoria. Quinta ordinatoria. Haeae duae non repetun 
+      <lb ed="#S" n="87"/>tur, quia per eas characteres imprimunt.
+    </p>
+            <p xml:id="khj78y-q21829-d1e338" n="10">
+      <!-- 10 -->
+       CIR<lb ed="#S" break="no" n="88"/>CA secundum sciendum est, quod secundus effectus confirmatio 
+      <lb ed="#S" n="89"/>nis est gratia. Vbi sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-q21829-d1e347" n="11">
+      <!-- 11 -->
+       Pri<lb ed="#S" break="no" n="90"/>ma, quod sacramentum confirmationis confert gratiam, &amp; non solum coni 
+      <lb ed="#S" n="91"/>ratione, quia est sacramentum no le. sed speciali ratione, quia 
+       depu<lb ed="#S" break="no" n="92"/>tat ad aliquid sacrum: quod digne sine gratia fieri non potest, 
+      <lb ed="#S" n="93"/>quia non est speciosa laus in ore peccatoris. Item quia 
+       depu<lb ed="#S" break="no" n="94"/>tat ad opus ardussimum, &amp; maxime charitatis, vt animam 
+      <lb ed="#S" n="95"/>suam ponat quis pro Christo. Vnde quia Deus non deficis 
+      <lb ed="#S" n="96"/>in necessariis. ideo in hoc sacramento dat gratiam, &amp; etiam 
+       pleni<lb ed="#S" break="no" n="97"/>tudinem gratiae: vt dicitur in litera. Et habet de conse. dist. 
+      <lb ed="#S" n="98"/>5. c. Nouissime. vbi dicit, quod in hoc sacramento datur spiritus sancti 
+      <lb ed="#S" n="99"/>gratia septiformis cum omni plenitudine sanctificatis. 
+    </p>
+            <p xml:id="khj78y-q21829-d1e373" n="12">
+               <lb ed="#S" n="100"/>
+               <!-- 12 -->secunda conclusio est, quod gratia confirmationis 
+       dif<lb ed="#S" break="no" n="101"/>fert a gratia baptismi, non quidem gratum faciente: quae est vna 
+      <lb ed="#S" n="102"/>in omnibus sacramentis: sed gratia sacramentalis, quae differens est in dif 
+      <lb ed="#S" n="103"/>ferentibus sacramentis: vt declaratum est supra dist. 2. 
+       Nihilomi<lb ed="#S" break="no" n="104"/>nus tamen quia &amp; haec gratia sacramentalis fluit ab illa, quae est in essen 
+      <lb ed="#S" n="105"/>tia ad eam debet adultus per liberum arbitrium se praeparare. 
+      <lb ed="#S" n="106"/>Inde est, quod illi, qui perfectae aetatis sunt, monentur 
+       confes<lb ed="#S" break="no" n="107"/>sionem facere prius: vt mundi donum spirituss. valeant 
+       ac<lb ed="#S" break="no" n="108"/>cipere, de conse. dist. 5. c. Vt ieiuni. quod etiam in omni so 
+      <lb ed="#S" n="109"/>sceptione sacramenti post baptismum obseruandum est 
+      <lb ed="#S" n="110"/>ei: qui post baptismum mortaliter peccauit: quia sicus 
+      <lb ed="#S" n="111"/>baptismus est ianua sacramentorum ante quod nullum 
+      <lb ed="#S" n="112"/>sacramentum recipi potest, aut debet, sic penitentia est 
+      <lb ed="#S" n="113"/>secunda tabula post naufragium. Vnde post 
+       naufra<lb ed="#S" break="no" n="114"/>gium ad eam prius, quam ad aliud est recurrendum. Vnde contri 
+      <lb ed="#S" n="115"/>tus antequam confessus, si commode potest, nec eucharistiam, nec 
+      <lb ed="#S" n="116"/>ordinem, nec extremam vnctionem, nec confirmationem 
+       accipe<lb ed="#S" break="no" n="117"/>re debet ante confessionem.
+    </p>
+            <p xml:id="khj78y-q21829-d1e417" n="13">
+      <!-- 13 -->Tertia conclusio est, 
+      <lb ed="#S" n="118"/>quod gratia confirmationis perficit gratiam baptismalem, sed 
+       dif<lb ed="#S" break="no" n="119"/>ferenter: quia gratia sacramentalis confirmationis perficit 
+       sacramenta<lb ed="#S" break="no" n="120"/>lem baptismum: sicut vna virtus perficit aliam a se 
+       differen<lb ed="#S" break="no" n="121"/>tem: sicut fortior minus fortem: vnde perfectio earum requi 
+      <lb ed="#S" n="122"/>rit connexionem. Vnde de conse. di. 5. c. De his. in fi. vnum 
+       si<lb ed="#S" break="no" n="123"/>ne altero perfici non pont: sicut nec liberalitas sine 
+       ma<lb ed="#S" break="no" n="124"/>gnificentia, nec aliqua virtus sine magnanimitate. Gratia 
+      <lb ed="#S" n="125"/>vero gratum faciens in baptismo collata, si perseuerat per 
+      <lb ed="#S" n="126"/>confirmationem perficit, quia &amp; essentialiter auget, vt 
+       au<lb ed="#S" break="no" n="127"/>cta mereat perfici. Vnde de conse. dist. 5. c. 1. Omnes 
+       fide<lb ed="#S" break="no" n="128"/>les per manus impositionem episcoporum post baptismum 
+      <lb ed="#S" n="129"/>spiritum sanctum accipe debent, vt pleni Christiani inueniant.
+    </p>
+            <p xml:id="khj78y-q21829-d1e449" n="14">
+      <!--0103.xml-->
+               <pb ed="#S" n="103"/>
+               <!--TODO: still needs column order correction in Ocr4all system -->
+               <!-- TODO: needs line numbers -->
+               <cb ed="#S" n="a"/>
+               <lb ed="#S"/>
+               <!--14 -->CJRCA Tertium sciendum est, quod tertius effectus 
+      <lb ed="#S"/>Spiritus sancti est cognatio spiritualis. Circa quam sunt 
+      <lb ed="#S"/>tres conclusiones.
+    </p>
+            <p xml:id="khj78y-q21829-d1e471" n="15">
+      <!--15--> Prima, quod confirmatio indu- 
+      <lb ed="#S"/>cit spiritualem cognationem, sicut baptismus. 30. q.4. Si q- 
+      <lb ed="#S"/>vnus. Vnde sicut inter baptizantem, &amp; vxorem eius matri- 
+      <lb ed="#S"/>monio consummato, &amp; omnes filios eius ex vna parte, &amp; ba- 
+      <lb ed="#S"/>ptizatum, &amp; patrem, &amp; matrem eius ex altera: &amp; similiter inter 
+      <lb ed="#S"/>leuantem de sacro fonte, &amp; vxorem eius matrimonio consum 
+      <lb ed="#S"/>mato ex vna parte cum filiis suis, &amp; baptizatum ex alia cum 
+      <lb ed="#S"/>patre, &amp; matre eius contrahitur cognatio spiritualis: quae matri 
+      <lb ed="#S"/>monium impedit, &amp; dirimit omnibus illis modis est de con- 
+      <lb ed="#S"/>firmato, &amp; tenente eum, &amp; vxoribus, &amp; liberisde cognatione 
+      <lb ed="#S"/>spirituali. c. 1. lib. 6.
+    </p>
+            <p xml:id="khj78y-q21829-d1e497">
+      <!--16 -->Secunda conclusio est, quodsicut 
+      <lb ed="#S"/>non debent plures leuare baptizatum: si tum fiat spiritualis co- 
+      <lb ed="#S"/>gnatio ad omnes contrahitur: non quidem inter illos adinui 
+      <lb ed="#S"/>cem: sed inter quemlibet eorum ex vna parte, &amp; baptizatum, 
+      <lb ed="#S"/>&amp; parentes eius ex altera: sic per omnia est de tenentibus 
+      <lb ed="#S"/>confirmationem: de conse. di. 4. Non plures. &amp; de cognatio- 
+      <lb ed="#S"/>ne spirituali. c. 2. lib. 6.
+    </p>
+            <p xml:id="khj78y-q21829-d1e515" n="17">
+      <!--17 -->Tertia conclusio est, quodsi 
+      <lb ed="#S"/>cut vir non debet tenere vxorem, nec filiu eius in baptis- 
+      <lb ed="#S"/>mo: quod siscienter fecerit, priuat se iure suo in petendo 
+      <lb ed="#S"/>debitum: si autem ignoranter, non propter hoc separan- 
+      <lb ed="#S"/>tur: sic per omnia est de confirmatione. 30. q. 1. de his. &amp; 
+      <lb ed="#S"/>infra de cognatione spirituali. q. 2. dist. Et per haec pa- 
+      <lb ed="#S"/>tet responsio ad oppositum, quia non est simile. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

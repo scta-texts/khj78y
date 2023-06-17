@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="104"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q22585"><!-- l4d7-q4 -->
+            <head xml:id="khj78y-q22585-Hd1e101">Quaestio 4</head>
+            <head xml:id="khj78y-q22585-Hd1e103" type="question-title">
+     Utrum episcopus sit proprius minister huius sacramenti
+   </head>
+            <p xml:id="khj78y-q22585-d1e106">
+      <!--0104.xml-->
+               <pb ed="#S" n="104"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>QVAESTIO QVARTA. 
+      <lb ed="#S" n="2"/>De confirmato, &amp; confirmante pro tempore, &amp; loco. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e119">
+               <lb ed="#S" n="3"/>Thom. 3. q. 72 art. ii. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e124">
+               <lb ed="#S" n="4"/>QVARTO Quaeritur, vtrum 
+      <lb ed="#S" n="5"/>episcopus sit proprius minister 
+      <lb ed="#S" n="6"/>huius sacramenti. Et videtur, quod non, 
+      <lb ed="#S" n="7"/>quia plus est minores ordines 
+      <lb ed="#S" n="8"/>conferre, quam confirmare: sed illos 
+      <lb ed="#S" n="9"/>potest conferre, non episcopus: pu 
+      <lb ed="#S" n="10"/>ta praeibyter, cardinalis. ergo &amp;c. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e143" n="2">
+               <lb ed="#S" n="11"/>
+               <!-- 2 -->CONTRA, quia 
+       con<lb ed="#S" break="no" n="12"/>firmare est proprium eporum: vt dicit dist. 68. quaeuis. Et di. 
+      <lb ed="#S" n="13"/>95. Presbyteros.
+    </p>
+            <p xml:id="khj78y-q22585-d1e154" n="3">
+      <!-- 3 -->Ad euidentiam huius quaestionis sci 
+      <lb ed="#S" n="14"/>endum est, quod cum tres personae conueniant in confirmatione. scilicet con 
+      <lb ed="#S" n="15"/>firmans confirmatus, &amp; tenens: primae duae. scilicet confirmans, &amp; 
+      <lb ed="#S" n="16"/>confirmatus: sunt de necessitate: quia idem non potest seipsum 
+      <lb ed="#S" n="17"/>confirmare, sicut nec baptizare extra de bap. c. Debitum. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e167" n="4">
+               <lb ed="#S" n="18"/>
+               <!-- 4 -->Tertia est de congruitate, &amp; de necessitate non sim 
+      <lb ed="#S" n="19"/>pliciter, sed praecepti: si adsit facultas. secundum haec 
+       igi<lb ed="#S" break="no" n="20"/>tur circa quaestionem istam tria sunt videnda. Primo, de per 
+      <lb ed="#S" n="21"/>sona tenente. secundo, de confirmata. Tertio, de 
+       confir<lb ed="#S" break="no" n="22"/>mante.
+    </p>
+            <p xml:id="khj78y-q22585-d1e183" n="5">
+      <!-- 5 -->QVANTVM ad primum sunt. 5. 
+      <lb ed="#S" n="23"/>conclusiones. Prima, quod ideo tenens conuenit huic sacramento: 
+      <lb ed="#S" n="24"/>quia ille, vt infirmus petit confirmari, &amp; ideo alio est, vt 
+      <lb ed="#S" n="25"/>baculo substentandus. Propter quod dicunt aliqui, quod 
+       mu<lb ed="#S" break="no" n="26"/>lier tenere virum non debet: quia repugnat significationi. 
+      <lb ed="#S" n="27"/>Vider tamen, quod mulier possit tenere, sicut &amp; in baptismo: quia 
+      <lb ed="#S" n="28"/>non significat, quod ipsa teneat, sed quod ille ab alio teneri 
+       in<lb ed="#S" break="no" n="29"/>diget.
+    </p>
+            <p xml:id="khj78y-q22585-d1e203" n="6">
+      <!-- 6 -->secunda conclusio est, quod non plures vno 
+      <lb ed="#S" n="30"/>tenere debent, sicut nec in baptismo, in quo tamen contraria 
+      <lb ed="#S" n="31"/>consuetudo forte excusat: de conse. dist. 4. Non plures. Et 
+      <lb ed="#S" n="32"/>qumos erat, crimen non erat.
+    </p>
+            <p xml:id="khj78y-q22585-d1e214" n="7">
+      <!-- 7 -->Tertia conclusio 
+      <lb ed="#S" n="33"/>est, quod sicut in baptismo non baptizatus non debet tenere 
+      <lb ed="#S" n="34"/>baptizatum, sic nec in confirmatione non confirmatus non 
+       de<lb ed="#S" break="no" n="35"/>bet tenere confirmandum: de conse. dist. 4. In baptismate. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e226" n="8">
+               <lb ed="#S" n="36"/>
+               <!-- 8 -->Quarta conclusio est, quod nec qui leuauit in 
+       baptis<lb ed="#S" break="no" n="37"/>mo, debet tenere in confirmatione, nisi in necessitate. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e235" n="9">
+               <lb ed="#S" n="38"/>
+               <!-- 9 -->Quinta conclusio est, quod non debent se mutuo 
+       tene<lb ed="#S" break="no" n="39"/>re consanguinei, vel affines: quia ad amicitiam sufficit eis vin 
+      <lb ed="#S" n="40"/>culum naturale, &amp; carnale.
+    </p>
+            <p xml:id="khj78y-q22585-d1e246" n="10">
+      <!-- 10 -->CIRCA secun 
+      <lb ed="#S" n="41"/>dum sunt quatuor conclusiones. Prima, quod omnis homo 
+      <lb ed="#S" n="42"/>qui fuit capax bapt ismi, debet, &amp; potest confirmari. Vnde 
+      <lb ed="#S" n="43"/>de conse. di. 5. Oens fideles per manus impositionem &amp;c. spiritum 
+      <lb ed="#S" n="44"/>sancti post baptismum recipere debent. Qui dicit omne 
+       ni<lb ed="#S" break="no" n="45"/>hil excepit, &amp; concipit foemininum: quia in Christo Iesu non 
+      <lb ed="#S" n="46"/>est masculus, nec foemina: quia &amp; mulieres pro Christo di 
+      <lb ed="#S" n="47"/>micauerunt. Et sic non solum masculi, sed foeminae, &amp; 
+       her<lb ed="#S" break="no" n="48"/>mofroditi, &amp; monstruosi quicumque ex quo Christiani sunt 
+      <lb ed="#S" n="49"/>possunt confirmari.
+    </p>
+            <p xml:id="khj78y-q22585-d1e270" n="11">
+      <!-- 11 -->secunda conclusio est, que 
+      <lb ed="#S" n="50"/>non solum adulti, sed etiam paruuli possunt confirmari: quia &amp; 
+      <lb ed="#S" n="51"/>si nunc non habeant, tamen forte postea habebunt confiteri: &amp; 
+      <lb ed="#S" n="52"/>tunc magis parati sunt, inquantum minus ficti. Christus 
+      <lb ed="#S" n="53"/>etiam paruulis manus imposuit. Tamen quia hoc sacramentum ite 
+      <lb ed="#S" n="54"/>rari non debet: nec sic praesumit de conuersato inter 
+       Chri<lb ed="#S" break="no" n="55"/>stianos, quod fuerit confirmatus: sicut, quod fuerit baptizatus 
+      <lb ed="#S" n="56"/>ideo non expedit, quod paruuli confirment, quousque sint 
+       cir<lb ed="#S" break="no" n="57"/>ca septennium, vt magis recolere possint, quibus &amp; propter 
+      <lb ed="#S" n="58"/>hoc solet dari alapa. Et in illa aetate non ante debet 
+       da<lb ed="#S" break="no" n="59"/>ri tonsura clericalis: de tempore ordi. c. vlti. lib. 6. licet 
+       se<lb ed="#S" break="no" n="60"/>cundum legem Moysi ad militiam non ascribantur, nisi a. 24. 
+       an<lb ed="#S" break="no" n="61"/>nis, &amp; supra: quia statim armabantur ad bella. sed licet 
+       sa<lb ed="#S" break="no" n="62"/>cramentum confirmationis aequaliter det paruulis, &amp; adul 
+      <lb ed="#S" n="63"/>tis: non tamen praeceptum eius, quod ecclesia facit, ligat nisi adul 
+      <!--0104.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>tos. Vnde baptizari paruuli morientes sine distinctione 
+      <lb ed="#S" n="65"/>saluantur ante confirmationem: non sic adulti, si 
+       neglexe<lb ed="#S" break="no" n="66"/>rint, vel contempserint.
+    </p>
+            <p xml:id="khj78y-q22585-d1e316" n="12">
+      <!-- 12 -->Tertia conclusio est, quod 
+      <lb ed="#S" n="67"/>surdi, &amp; muti, &amp; huiusmodi possunt confirmari, quia &amp; istos Chri 
+      <lb ed="#S" n="68"/>stus tetigit. Vnde expuens tetigit linguam, &amp; misit digitos 
+      <lb ed="#S" n="69"/>in aures: vt dicit in Marco.
+    </p>
+            <p xml:id="khj78y-q22585-d1e327" n="13">
+      <!-- 13 -->Quarta 
+       conclu<lb ed="#S" break="no" n="70"/>sio est est, quod infirmi, &amp; morientes debent, &amp; possunt confirma 
+      <lb ed="#S" n="71"/>ri, quia tunc imminet pugna inuisibilis contra hostem. Et si 
+      <lb ed="#S" n="72"/>dicatur, quod contra illam non est confirmatio: potest dici, quod si 
+      <lb ed="#S" n="73"/>nobiles imminentibus conflictibus mortalibus facium 
+      <lb ed="#S" n="74"/>se fieri milites, ne moriantur non milites: multo magis vt 
+      <lb ed="#S" n="75"/>morientes annumerentur militiae Christi, &amp; nobilitentur: non 
+      <lb ed="#S" n="76"/>solum vt agricolae de simplici familia debent se si possunt fa 
+      <lb ed="#S" n="77"/>cere confirmari. Christo autem, qui omnia portabat, &amp; portat 
+      <lb ed="#S" n="78"/>verbo virtusis suae non competebat confirmatio. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e352" n="14">
+               <lb ed="#S" n="79"/>
+               <!-- 14 -->QVANTVM ad tertium sunt tres 
+       conclusio<lb ed="#S" break="no" n="80"/>nes.
+    </p>
+            <p xml:id="khj78y-q22585-d1e361" n="15">
+      <!-- 15 -->Prima, quod solus episcopus habet ex officio 
+      <lb ed="#S" n="81"/>confirmare, sicut &amp; chrisma conficere: licet non sequat: 
+      <lb ed="#S" n="82"/>solus habet materiae consecrationem. ergo solus habet vsum 
+      <lb ed="#S" n="83"/>quia oleum ad cathecumenos, &amp; ad infirmos solus consecrat: 
+      <lb ed="#S" n="84"/>qui tamen non solus vtitur: sed etiam simplex sacerdos. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e374" n="16">
+               <lb ed="#S" n="85"/>
+               <!-- 16 -->si autem episcopus quencumque hominem, siue subdi 
+      <lb ed="#S" n="86"/>tum, siue non subditum confirmet, est confirmatus, quamuis 
+      <lb ed="#S" n="87"/>non debeat, non subditum confirmare, sicut nec ordinare. 
+      <lb ed="#S" n="88"/>Non tamen confirmans alienum suspensus est a collatione con 
+      <lb ed="#S" n="89"/>firmationis, sicut ille a collatione ordinum, &amp; tonsurae: de 
+      <lb ed="#S" n="90"/>tempore ordi. c. 2. &amp; lib. 6. quia hoc non est expressum: sed 
+      <lb ed="#S" n="91"/>generaliter prohibitum est: ne exteris sacramenta ministrent. 16. q. 
+      <lb ed="#S" n="92"/>1. Interdicimus.
+    </p>
+            <p xml:id="khj78y-q22585-d1e396" n="17">
+      <!-- 17 -->Archiepiscopus autem lices 
+      <lb ed="#S" n="93"/>possit dare indulgentias per totam prouinciam: de poe. &amp; re. c. 
+      <lb ed="#S" n="94"/>Cum ex eo. licet etlam possit audire confessiones subdito 
+      <lb ed="#S" n="95"/>rum suffraganeorum, quando visitat diccesim eorum: de cen 
+      <lb ed="#S" n="96"/>sibus. c. vlt. lib. 6. Non tamen licite potest confirmare subditos 
+      <lb ed="#S" n="97"/>eorum: quia non habet potestatem, nec iurisdictionem in eos: vi 
+      <lb ed="#S" n="98"/>sitans, nec non visitans: nisi in casibus in iure concessis, &amp; ex 
+      <lb ed="#S" n="99"/>pressis. Ille autem non est de illis. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q22585-d1e416" n="18">
+      <!-- 18 -->
+       Ele<lb ed="#S" break="no" n="100"/>ctus autem, &amp; confirmatus, sed non consecratus etiam 
+       subdi<lb ed="#S" break="no" n="101"/>tos non solum non debet: sed non potest confirmare: sed 
+      <lb ed="#S" n="102"/>alius eps de voluntate eius potest: quia ea, quae sunt iurisdi 
+      <lb ed="#S" n="103"/>ctionis, cum sit confirmatus: non autem ea, quae sunt 
+       conse<lb ed="#S" break="no" n="104"/>crationis: quia non est consecratus. Vnde potest demandare, 
+      <lb ed="#S" n="105"/>quod est iurisdictionis, sed non potest per se conferre, quod 
+      <lb ed="#S" n="106"/>est consecrationis. Non tamen esset irregularis, si 
+       confirma<lb ed="#S" break="no" n="107"/>ret: licet exercens ea, quae sunt ordinis sacerdotalis non 
+       ha<lb ed="#S" break="no" n="108"/>bens ipsum sit irregularis: quia non est expressum de illo, 
+      <lb ed="#S" n="109"/>sicut de isto.
+    </p>
+            <p xml:id="khj78y-q22585-d1e442" n="19">
+      <!-- 19 -->Idem de archiepiscopo ante 
+       ob<lb ed="#S" break="no" n="110"/>tentum pallium consecrationis, sicut de episcopo 
+       confir<lb ed="#S" break="no" n="111"/>mato, sed non consecrato dictum est.
+    </p>
+            <p xml:id="khj78y-q22585-d1e452" n="20">
+      <!-- 20 -->secunda 
+      <lb ed="#S" n="112"/>conclusio est, quod simplex sacerdos excommissione Papae potest 
+      <lb ed="#S" n="113"/>confirmare, &amp; minores ordines conferre: quando Papa conse 
+      <lb ed="#S" n="114"/>cratus sit, non autem maiores. Nec ex commissione 
+       cuius<lb ed="#S" break="no" n="115"/>cunque inferioris potest praedicta. Ratio est, quia cum 
+       episcopa<lb ed="#S" break="no" n="116"/>tus non addat aliquid supra sacramentum per relationem ad 
+       cor<lb ed="#S" break="no" n="117"/>pus Christi verum, sed solum per relationem ad corpus 
+       mysti<lb ed="#S" break="no" n="118"/>cum Papa per hoc, quod est episcopus summus episcoporum, 
+      <lb ed="#S" n="119"/>non dicit habere plenitudinem potestatis per relationem 
+      <lb ed="#S" n="120"/>ad corpus Christi verum, sed ad mysticum. Potestas autem 
+      <lb ed="#S" n="121"/>perfecta super corpus Christi mysticum supponit, &amp; 
+       re<lb ed="#S" break="no" n="122"/>quirit potestatem super verum: quia ab ea descendit. Vnde 
+      <lb ed="#S" n="123"/>solus sacerdos potest absoluere in foro poenitentiali, &amp; ba 
+      <lb ed="#S" n="124"/>ptizare ex officio. Et ideo promouere ad illas 
+       perfectio<lb ed="#S" break="no" n="125"/>nes, quae non respiciunt corpus Christi verum: sed corpus 
+      <lb ed="#S" n="126"/>mysticum potest Papa, qui habet plenitudinem 
+       pontifica<lb ed="#S" break="no" n="127"/>lis potestatis sacerdoti committere, qui habet actum suum 
+      <lb ed="#S" n="128"/>super corpus Domini verum: non autem diacono, nec alteri 
+      <lb ed="#S" n="129"/>inferiori: qui non habet potestatem super corpus Christi 
+      <lb ed="#S" n="130"/>verum. simplici etiam sacerdoti non potest committere, quod pro 
+      <!--0105.xml-->
+      <pb ed="#S" n="105"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>moneat ad perfectionem, quae respicit corpus Christi 
+       ve<lb ed="#S" break="no" n="2"/>rum, sicut sunt sacri ordines. secus autem est de minori 
+      <lb ed="#S" n="3"/>bus ordinibus, &amp; confirmatione, quae respiciunt corpus 
+      <lb ed="#S" n="4"/>Christi mysticum: supra quod est plenitudo potestatis com 
+      <lb ed="#S" n="5"/>mittentis. Et commissarius est capax potestatis perfectae 
+       su<lb ed="#S" break="no" n="6"/>per corpus mysticum, cum habeat potostatem super verum. 
+       su<lb ed="#S" break="no" n="7"/>pra ordines vero maiores, quae immeliate respiciunt eor 
+      <lb ed="#S" n="8"/>pus Christi verum non habet Papa plenitudinem potestatis 
+      <lb ed="#S" n="9"/>vt possit eorum collationem committere simplici sacerdoti: li 
+      <lb ed="#S" n="10"/>cet sit capax. Quia vero diaconus, &amp; caeteri inferiores sa 
+      <lb ed="#S" n="11"/>cerdotes non sint capaces potestati perfectae super corp 
+      <lb ed="#S" n="12"/>mysticum, ad quam pertinet confirmare, &amp; ordinare, cum non 
+      <lb ed="#S" n="13"/>habeant perfectam potestatem super corpus Christi verum. 
+      <lb ed="#S" n="14"/>ideo Papa non potest eis committere hoc: licet non fit 
+       defe<lb ed="#S" break="no" n="15"/>ctus committendis, qui habet talem pertectam. Item inferior 
+       Pa<lb ed="#S" break="no" n="16"/>pae non posset committere sacerdoti confirmationem: quis 
+      <lb ed="#S" n="17"/>ipse non habet plenitudinem potestatis. Item dico, quod Papa 
+      <lb ed="#S" n="18"/>non posset confirmare siue chrismate: quia non potest 
+      <lb ed="#S" n="19"/>mutare formam, vel materiam sacri.
+    </p>
+            <p xml:id="khj78y-q22585-d1e546" n="21">
+      <!-- 21 -->sed contra 
+    </p>
+            <p xml:id="khj78y-q22585-d1e551">
+               <lb ed="#S" n="20"/>ea, quae dicta sunt, arguunt aliqui multipliciter. Primo, quod 
+      <lb ed="#S" n="21"/>Papa non possit mutare ministrum sacramenti confirmationis: quia 
+      <lb ed="#S" n="22"/>de integritate cuiuslibet facii sunt materia, forma, &amp; mi 
+      <lb ed="#S" n="23"/>nister: sed Papa nihil potest immutare circa materiam, &amp; 
+      <lb ed="#S" n="24"/>formam sacramentorum. ergo nec circa ministrum. Aut ergo 
+      <lb ed="#S" n="25"/>sacerdos simplex ex institutione diuina est minister con 
+      <lb ed="#S" n="26"/>firmationis: &amp; tunc absque commissione Papae potest cam 
+      <lb ed="#S" n="27"/>conferre, aut non est minister, sed solus episcopus, &amp; tunc 
+      <lb ed="#S" n="28"/>ex quacunque commissione non potest.
+    </p>
+            <p xml:id="khj78y-q22585-d1e573" n="22">
+      <!-- 22 -->sed 
+       for<lb ed="#S" break="no" n="29"/>te ad hoc dicet, quod minister non sit de integritate sacri, si 
+      <lb ed="#S" n="30"/>cut materia, &amp; format quia materia, &amp; forma sunt 
+       intrinse<lb ed="#S" break="no" n="31"/>ca sacramento: minister autem extrinsece se habet ad ipsum pro 
+      <lb ed="#S" n="32"/>pter quod aliqua variatio potest fieri circa ministrum: 
+      <lb ed="#S" n="33"/>non autem circa materiam, vel formam, quod patet in sacramento 
+      <lb ed="#S" n="34"/>poenitentiae, in quo potest fieri per Papam circa ministrum 
+       va<lb ed="#S" break="no" n="35"/>riatio: sicut quando Papa dat aliquibus priuilegium absoluen 
+      <lb ed="#S" n="36"/>di, qui prius absoluere non poterant: &amp; ab eis aufert. quan 
+      <lb ed="#S" n="37"/>do vult, vel etiam ab aliis, qui prius habebant potestatem. Nus 
+      <lb ed="#S" n="38"/>quam autem potest mutare materiam, &amp; formam sacti poeniten 
+      <lb ed="#S" n="39"/>tiae. Et similiter videt, quod possit facere circa alia sacra mu 
+      <lb ed="#S" n="40"/>tando ministrum, non autem materiam, vel formam.
+    </p>
+            <p xml:id="khj78y-q22585-d1e604" n="23">
+      <!-- 23 -->sed 
+      <lb ed="#S" n="41"/>hoc non valet. Primo, quia Papa circa sacramentum poenitentiae 
+      <lb ed="#S" n="42"/>non mutat ministrum: quia minister eius est omnis sacerdos: 
+      <lb ed="#S" n="43"/>cum omni sacerdoti dicatur in sua ordinatione. Accipite 
+       spi<lb ed="#S" n="44" break="no"/>ritum sanctum, quorum remise. pec. &amp;c. sed subtrahit materiam 
+      <lb ed="#S" n="45"/>isti, vel illi, sicut sibi placet, &amp; alteri tribuit. Quod est pro 
+      <lb ed="#S" n="46"/>tanto: quia cum sacim poenitentiae sit iudiciale materia 
+       hu<lb ed="#S" break="no" n="47"/>ius est peccator subditus. Potest autem Papa facere, quod 
+       sub<lb ed="#S" break="no" n="48"/>ditus isti sacerdoti sibi amplius non sit subditus: &amp; sic sub 
+      <lb ed="#S" n="49"/>trahit materiam absoluendi: qua subtracta non potest absol 
+      <lb ed="#S" n="50"/>uere, vel ligare: sicut si sacerdoti subtraheretur panis, &amp; 
+      <lb ed="#S" n="51"/>vinum non posset conficere. similiter Papa potest 
+       ali<lb ed="#S" break="no" n="52"/>cui subdere subditum, qui prius ei subditus non erat: &amp; 
+      <lb ed="#S" n="53"/>tunc potetit eum absoluere, qui prius poterat ex 
+       defe<lb ed="#S" break="no" n="54"/>ctu materiae. Non mutat ergo Papa ministrum poenitentiae 
+      <lb ed="#S" n="55"/>sicut nec in aliis sacramentis, sed dat materiam, vel subtrait. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e641" n="24">
+               <lb ed="#S" n="56"/>
+               <!-- 24 -->Vel potest alio modo dici, quod Papa ministrum 
+       ali<lb ed="#S" break="no" n="57"/>cuius sacramenti mutare non potest: potest tamen 
+       praeci<lb ed="#S" break="no" n="58"/>pere, quod nullus sacramenta recipiat a tali, vel tali 
+       mini<lb ed="#S" break="no" n="59"/>stro. Et tunc recipiens contra inhibitionem Papae peccat, 
+      <lb ed="#S" n="60"/>nec recipit gratiam. Et quantum ad sacramentum 
+       poeniten<lb ed="#S" break="no" n="61"/>tiae, aut nihil omnino recipit, nec sacramentum, nec rem sa 
+      <lb ed="#S" n="62"/>cramenti: non quia sacerdos non sit minister, sed quia con 
+      <lb ed="#S" n="63"/>fessio non est integra, quando tacet peccatum, quod actu commit 
+      <lb ed="#S" n="64"/>tit contra inhibitionem Papae faciens, &amp; sic est defectus in 
+      <lb ed="#S" n="65"/>materia: aut si non tacet, nihilominus non recipit rem sa 
+      <lb ed="#S" n="66"/>cramenti. scilicet gratiam cum actu committat culpam: est tamen verum sa 
+      <lb ed="#S" n="67"/>cramentum. sed quia totus effectus poenitentiae est remissio 
+      <!--0105.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>culpaei. ideo sacramentum est in tali iterandum: sicut esset aliud sa 
+      <lb ed="#S" n="69"/>cim, per quod nihil penitus est factum.
+    </p>
+            <p xml:id="khj78y-q22585-d1e681" n="25">
+      <!-- 25 -->Non va 
+      <lb ed="#S" n="70"/>letetiam, quod dicit, quod minister extrinsece se habet ad sacramentum: 
+      <lb ed="#S" n="71"/>materia vero, &amp; forma intrinsece: quia sicut minister 
+       con<lb ed="#S" break="no" n="72"/>ferens se habet extrinsece ad sacramentum, sic &amp; suscipiens ipsum. 
+      <lb ed="#S" n="73"/>sed vbi suscipiens aliquod sacramentum determinatus est: sicus 
+      <lb ed="#S" n="74"/>in extrema vnctione infirmus, vel in ordine masculus 
+      <lb ed="#S" n="75"/>per Papam mutari non possunt: &amp; tamen si fiat, verum est 
+       sa<lb ed="#S" n="76" break="no"/>cramentum: vt si sanus inungatur, vel mulie rordinetur. ergo 
+       si<lb ed="#S" break="no" n="77"/>militer circa ministrum facientam nihil omnino mutari po 
+      <lb ed="#S" n="78"/>test absque eu acuatione sacri, quamuis extrinsece se habeat 
+      <lb ed="#S" n="79"/>ad sacramentum.
+    </p>
+            <p xml:id="khj78y-q22585-d1e707" n="26">
+      <!-- 26 -->Tertio, patet idem principaliter sic: 
+      <lb ed="#S" n="80"/>dispensare sacramenta, quorum actus respiciunt corpus Christi 
+      <lb ed="#S" n="81"/>mysticum non connenit Papae, &amp; episcopis ratione iurisdi 
+      <lb ed="#S" n="82"/>ctionis: quia cum Papa electus, &amp; episcopus confirmatus habeant 
+      <lb ed="#S" n="83"/>plenariam iurisdictionem, antequam sint consecrati, possent tunc 
+      <lb ed="#S" n="84"/>sacra conferre, seu dispensare quod falsum est. ergo non con 
+      <lb ed="#S" n="85"/>uenit eis ratione iurisdictionis: sed ratione 
+       consecratio<lb ed="#S" break="no" n="86"/>nis: sed ea, quae consecrationem respiciunt non consecrato 
+      <lb ed="#S" n="87"/>committi non possunt: vt habei extra de conse. ec. vel al. c. 
+      <lb ed="#S" n="88"/>vlt. ergo Papa, vel epraes non possunt committere non cpoo q 
+      <lb ed="#S" n="89"/>possit talia sacra conferre.
+    </p>
+            <p xml:id="khj78y-q22585-d1e733" n="27">
+      <!-- 27 -->Quarto sic. Papa 
+      <lb ed="#S" n="90"/>non habet maiorem potestatem, quam epraes, nisi in foro causarum. 
+      <lb ed="#S" n="91"/>fi ergo ex commissione Papae simplex sacerdos potest confir 
+      <lb ed="#S" n="92"/>mationem, vel minores ordines conferre: idem poterit sacer 
+      <lb ed="#S" n="93"/>dos quilibet ex commifsione proprij episcopi, quod a nullo 
+      <lb ed="#S" n="94"/>concedit.
+    </p>
+            <p xml:id="khj78y-q22585-d1e749" n="28">
+      <!-- 28 -->Quinto sic. sicut in baptismo con 
+      <lb ed="#S" n="95"/>fertur potestas suscipiendi sacramenta, sic in ordine confert 
+       po<lb ed="#S" break="no" n="96"/>testas dispensandi ea: sed Papa non potest facere, quod non 
+       ba<lb ed="#S" break="no" n="97"/>ptizatus suscipiat verum sacramentum. ergo non potest facere, quod non 
+      <lb ed="#S" n="98"/>ordinatus illa ordinatione, qua quis recipit potestatem 
+      <lb ed="#S" n="99"/>dispensatiuam confirmationis, vel ordinis possit haec sacramenta 
+      <lb ed="#S" n="100"/>conferre.
+    </p>
+            <p xml:id="khj78y-q22585-d1e767" n="29">
+      <!-- 29 -->sexto, quia mirum esset, si aliquis posset 
+      <lb ed="#S" n="101"/>in actum, respectu cuius non habet potentiam: sed secun 
+      <lb ed="#S" n="102"/>dum istos character ordinis, vel baptismi sunt potestas 
+      <lb ed="#S" n="103"/>suscipiendi, &amp; conferendi sacramenta: nullus autem pote st habe 
+      <lb ed="#S" n="104"/>re characterem ordinis, vel baptismi ex commissione Papae: 
+      <lb ed="#S" n="105"/>sed requiritur susceptio sacramentorum. ergo non habenti cha 
+      <lb ed="#S" n="106"/>racterem ordinis per susceptionem sacramenti non potest per 
+       quen<lb ed="#S" break="no" n="107"/>cunque committi actus illius sacramenti. Tunc deducat, vt prius, 
+      <lb ed="#S" n="108"/>quia minister confirmationis aut est ordinatus 
+       ordina<lb ed="#S" break="no" n="109"/>tione episcopali: aut simplicis sacerdotij: si episcopali, 
+      <lb ed="#S" n="110"/>committi non potest non episcopo, si simplicis sacerdotij 
+      <lb ed="#S" n="111"/>non est necessaria commissio: nisi forte propter prohibitio 
+      <lb ed="#S" n="112"/>nem ecclesiae ad vitandum culpam inobedientiae. Ex his pa 
+      <lb ed="#S" n="113"/>tet, quod ex commissione cuiuscumque nullus posset conferre 
+       sa<lb ed="#S" break="no" n="114"/>crm, quod non posset conferre ex se.
+    </p>
+            <p xml:id="khj78y-q22585-d1e802" n="30">
+      <!-- 30 -->septimo, 
+       ra<lb ed="#S" break="no" n="115"/>tio praecedentis opinionis non videtur concludere. Cum enim 
+      <lb ed="#S" n="116"/>dicit, quod Papa habet plenitudinem potestatis super corpus 
+      <lb ed="#S" n="117"/>mysticum: verum est illam, qua potest sacramenta dispensare, sed 
+      <lb ed="#S" n="118"/>non committere: cum haec sit potestas consecrationis, in qua 
+      <lb ed="#S" n="119"/>cum ipso communicant omnes episcopi.  Aliam potestatem habet, quae est 
+      <lb ed="#S" n="120"/>iurisdictionis, quae est in statuendo, citando, excommunicam 
+      <lb ed="#S" n="121"/>do, suspendendo, in qua nullus ei aequat. Et hanc potest 
+      <lb ed="#S" n="122"/>committere, cui vult, vel in toto, vel in parte. sed de hoc 
+      <lb ed="#S" n="123"/>nihil ad propositum: sed solum de potentia, quae committi non 
+      <lb ed="#S" n="124"/>potest.
+    </p>
+            <p xml:id="khj78y-q22585-d1e829" n="31">
+      <!-- 31 -->Octauo, quod dicitur, quod illa commissio 
+      <lb ed="#S" n="125"/>non potest fieri nisi sacerdoti, qui habet potestatem super 
+       cor<lb ed="#S" break="no" n="126"/>pus Domini verum non videt cogere: quia a corpore Domini, vt con 
+      <lb ed="#S" n="127"/>sideratur per se, vel in se: puta passo vel mortuo fluit gratia 
+      <lb ed="#S" n="128"/>in corpus mysticum, &amp; non ab ipso solum, vt est in sacramen 
+      <lb ed="#S" n="129"/>to· sacerdos autem non habet potestatem super corpus Domini 
+      <lb ed="#S" n="130"/>verum, vt est in se: sed solum prout est in sacramento. Et ideo 
+      <lb ed="#S" n="131"/>quantum est de virtute rationis, non est necesarium, quod sibi 
+      <lb ed="#S" n="132"/>soli competat dispensatio sacramentorum: per quae effluit gratia 
+      <lb ed="#S" n="133"/>in corpus Chri mysticum.
+    </p>
+            <p xml:id="khj78y-q22585-d1e853" n="32">
+      <!-- 32 -->Quod etiam patet, quia 
+      <lb ed="#S" n="134"/>alius a sacerdote potest conferre baptismum: quantum est de ra- 
+      <!--0106.xml-->
+      <pb ed="#S" n="106"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>tione sacramenti: licet ex institutione ecclesiae solus 
+       sa<lb ed="#S" break="no" n="2"/>cerdos habeat authoritatem ministrandi.
+    </p>
+            <p xml:id="khj78y-q22585-d1e871" n="31">
+      <!-- 31 -->Ad 
+      <lb ed="#S" n="3"/>primum argumentum contra id, quod dicit, quod presbyteri 
+       cardi<lb ed="#S" break="no" n="4"/>nales conferunt minores ordines: dicendum, quod aeque dubium 
+      <lb ed="#S" n="5"/>est de minoribus ordinibus, sicut de confirmatione. 
+       No<lb ed="#S" break="no" n="6"/>enim claret, quomodo  possint a non episcopo conferri si solus episcopi 
+      <lb ed="#S" n="7"/>scopus ex ordinatione Christi sit horum sacrorum mini 
+      <lb ed="#S" n="8"/>ster. si vero omnis sacerdos sit minister, si ex 
+       ordinbtio<lb ed="#S" break="no" n="9"/>ne ecclesiae tescruat solis episcopis: tunc quilibet sacerdos 
+      <lb ed="#S" n="10"/>potest vere confirmaro, &amp; minores ordines conferre: licet 
+      <lb ed="#S" n="11"/>peccet conferendo, faciens contra praeceptum ecclesiae. Eccle 
+      <lb ed="#S" n="12"/>sia enim potest ministrum sacramenti suo statuto ligare: sed non 
+      <lb ed="#S" n="13"/>potest irritare sacramentum concurrantibus his, quae sunt de 
+       ne<lb ed="#S" break="no" n="14"/>cessitate sacramenti. Et si hoc est verum:tunt Greg. potuit 
+       con<lb ed="#S" break="no" n="15"/>ferre sacerdotibus, quod licite confirmarent: quia alias 
+       pec<lb ed="#S" break="no" n="16"/>cassent confirmando, licet vere confirmassent. si autem non 
+      <lb ed="#S" n="17"/>est ita, sed solus episcopus est minister: nescio cur non pos 
+      <lb ed="#S" n="18"/>sit dici, quod Greg. cum fuerit homo, &amp; non Deus, errare po 
+      <lb ed="#S" n="19"/>tuerit. Et per hoc patet ad secundum.
+    </p>
+            <p xml:id="khj78y-q22585-d1e913" n="32">
+      <!-- 32 -->Videtur 
+      <lb ed="#S" n="20"/>autem, quod proprius minister confirmationis sit episcopl: per 
+      <lb ed="#S" n="21"/>id, quod dicit: de cons. di. 5. c. Manus. Minister autem mino 
+      <lb ed="#S" n="22"/>rum ordinum videt esse simplex sacerdos: vt patet per 
+       il<lb ed="#S" n="23" break="no"/>lud, quod dicitur extra de ordinato ab episcopo, qui renuncia 
+      <lb ed="#S" n="24"/>uit episcopatui. c. 1.
+    </p>
+            <p xml:id="khj78y-q22585-d1e929" n="33">
+      <!-- 33 -->sustinendo autem communem 
+      <lb ed="#S" n="25"/>opinionem potest responderi ad ista per ordinem. Ad 
+       pri<lb ed="#S" break="no" n="26"/>mum dicendum, quod cum sacerdos fiat episcopus, &amp; minister 
+      <lb ed="#S" n="27"/>huius sacramenti sit sacerdos episcopus, quia nec potest esse 
+       epi<lb ed="#S" break="no" n="28"/>scopus, nisi sit sacerdos, imo non videi alius character, 
+      <lb ed="#S" n="29"/>sed idem vtriusque : plenior tamen episcopi committere sacerdoti 
+      <lb ed="#S" n="30"/>simplici est non mutare ministrum quo ad substantiam: 
+    </p>
+            <p xml:id="khj78y-q22585-d1e947" n="34">
+               <lb ed="#S" n="31"/>
+               <!-- 34 -->Ad cuius euidentiam est sciendum, quod forte ex 
+       dispen<lb ed="#S" break="no" n="32"/>satione Papae ex chrismate non consecrato: &amp; de oleo non 
+      <lb ed="#S" n="33"/>benedicto possent sani confirmari, &amp; morientes inungi, &amp; 
+      <lb ed="#S" n="34"/>esset eadem materia: quia consecratio illa nihil reale addit, 
+      <lb ed="#S" n="35"/>sed puram relationem rationis dicit. Vnde Christns mate 
+      <lb ed="#S" n="36"/>riam instituit, sed sanctificationem ecclesiae commisit. vnde 
+      <lb ed="#S" n="37"/>Papa, qui est super totam ecclesiam, non potest quidem 
+       mate<lb ed="#S" break="no" n="38"/>riam mutare, sed eius consecrationem potest mutare, vel 
+      <lb ed="#S" n="39"/>omittere, quia sic Christus instituit, quod oleum, vel chrisma sit 
+      <lb ed="#S" n="40"/>materia: eodem modo, quo fuerit per ecclesiam 
+       determina<lb ed="#S" break="no" n="41"/>tum. Vnde forte non idem modus est consecrandi apud 
+       om<lb ed="#S" break="no" n="42"/>nes. Et quia consecratio illa non est sacim, sed aliquid 
+      <lb ed="#S" n="43"/>sacramentale. ideo videtur esse in dispositione ecclesiae. 
+      <lb ed="#S" n="44"/>sicut autem nullum est matrimonium inter personas, quas ec 
+      <lb ed="#S" n="45"/>clesia reddit illegitimas, sic non esset confirmatio, nec vn 
+      <lb ed="#S" n="46"/>ctio, si fieret de materia contra ritum ecclesiae praeparata. 
+      <lb ed="#S" n="47"/>ergo a simili si consecratio episcopi non sit sacramentum, sed 
+       sacra<lb ed="#S" break="no" n="48"/>mentale, videtur, quod Papa possit circa illud dispensare: vt 
+      <lb ed="#S" n="49"/>s. minister conferens illa sacramenta, quibus aliquis 
+       praefici<lb ed="#S" break="no" n="50"/>tur corpori Christi mystico, sic sit a Christo determina 
+      <lb ed="#S" n="51"/>tus, quod scilicet sit sacerdos, secundum quod placuerit ecclesiae ipsum 
+      <lb ed="#S" n="52"/>consecrare. Vnde qui praeest toti ecclesiae, potest ei commit 
+      <lb ed="#S" n="53"/>tere sine hac consecratione. sed quia generaliter statuit, 
+      <lb ed="#S" n="54"/>quod non episcopus hoc non faciat. ideo qui contra hoc agit 
+      <lb ed="#S" n="55"/>nihil facit. Determinationem enim sacerdotis Christus ec 
+      <lb ed="#S" n="56"/>clesiae commisit, sed quod sacerdos esset, hoc determinauit. Vn 
+      <lb ed="#S" n="57"/>de forte Papa facere posset, quod simplices sacerdotes 
+       epi<lb ed="#S" break="no" n="58"/>scopum consecrarent. sed respectu aliorum sacramentorum, 
+      <lb ed="#S" n="59"/>quae respiciunt corpus Christi verum, Christus determina 
+      <lb ed="#S" n="60"/>uit non solum, quod esset sacerdos: sed etiam qualis sacerdos: 
+      <lb ed="#S" n="61"/>quia episcopus. scilicet secundum ritum ecclesiae consecratus. Vnde 
+      <lb ed="#S" n="62"/>modo consecrandi ecclesiae commisit: sed eum consecratum 
+       no<lb ed="#S" break="no" n="63"/>luit esse vlteriori ritu, quae simplicem sacerdotem. Et quamuis ista 
+      <lb ed="#S" n="64"/>non probentur: tamen isto modo esse potuit. Et isto modo sal 
+      <lb ed="#S" n="65"/>nari potest, quod ecclesia Romana facit: de qua 
+       suppo<lb ed="#S" break="no" n="66"/>nendum est, quod non errat.
+    </p>
+            <p xml:id="khj78y-q22585-d1e1031" n="35">
+      <!-- 35 -->Ad illud, quod dicunt 
+      <lb ed="#S" n="67"/>de suscipiente, &amp; conferente: dicendum, quod actio transiens non 
+      <!--0106.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>solum essentialiter, sed etiam subiectiue differt ab agente, 
+      <lb ed="#S" n="69"/>sed patiens est idem subiecto cum ea. Vnde essentialius se 
+      <lb ed="#S" n="70"/>habet patiens ad actionem transeuntum, quam agens. Vnde 
+       dis<lb ed="#S" break="no" n="71"/>simile est de vtroque.
+    </p>
+            <p xml:id="khj78y-q22585-d1e1051" n="36">
+      <!-- 36 -->Vel dicendum, quod sicut 
+       Pa<lb ed="#S" break="no" n="72"/>pa non potest mutare subiectum a Deo determinatum: sic 
+      <lb ed="#S" n="73"/>nec agens a Deo detorminatu. sed subiectu quidem est 
+      <lb ed="#S" n="74"/>nque a Deo determinatum totaliter, &amp; simpliciter, &amp; tunc 
+      <lb ed="#S" n="75"/>Papa nihil pont: aliquando conditionaliter. scilicet sopposita ordina 
+      <lb ed="#S" n="76"/>cione ecclesiae, sicut in matrimonio vir, &amp; mulier. Vnde 
+      <lb ed="#S" n="77"/>ibi potest Papa facere personas illegitimas, &amp; legitimas. 
+      <lb ed="#S" n="78"/>Et similiter est ex parte ministri, quando est determi natus 
+       to<lb ed="#S" break="no" n="79"/>taliter, &amp; simpliciter Papa nihil potest: puta sacerdos est 
+      <lb ed="#S" n="80"/>determinatus ad inungendum, &amp; ad absoluendum. quando 
+      <lb ed="#S" n="81"/>autem est determinatus sub conditione, cuius impletio ost 
+      <lb ed="#S" n="82"/>in potestate ecclesiae, tunc Papa potest. Et sic supponitur 
+      <lb ed="#S" n="83"/>esse hic: sicut econtrario supponitur in suscipiente omnia 
+       ia<lb ed="#S" break="no" n="84"/>cramenta praetor baptismum, &amp; matrimonium, quod baptizatus 
+      <lb ed="#S" n="85"/>est susceptiuus, &amp; non alius. Vnde nec Papa facere potest, 
+      <lb ed="#S" n="86"/>quod non baptizatus possit aliquod sacramentum recipere: quia sic 
+      <lb ed="#S" n="87"/>Christus ordinauit. si autem simpliciter ordinauit, quod 
+       fo<lb ed="#S" break="no" n="88"/>lus sacerdos sit susceptiuus episcopalis consecrationis: tunc 
+      <lb ed="#S" n="89"/>Papa non potest dispensare. Vnde quia supponimus, quod 
+       ec<lb ed="#S" break="no" n="90"/>clesia non errat in his, quibus ecclesia dispensatiue vtitur: 
+      <lb ed="#S" n="91"/>supponendum est a Christo determinationem vltimam 
+       eo<lb ed="#S" break="no" n="92"/>clesiae commissam esse. In quibus vero nondum attemptauit 
+      <lb ed="#S" n="93"/>supponendum est a Christo determinationem factam esse. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e1103" n="37">
+               <lb ed="#S" n="94"/>
+               <!-- 37 -->Ad tertium dicendum, quod non est simile: quia licet episcopi 
+      <lb ed="#S" n="95"/>scopus non possit committere non consecrato in episcopum 
+      <lb ed="#S" n="96"/>ea, quae sunt episcopalis consecrationis: puta dedicare ec 
+      <lb ed="#S" n="97"/>clesias, &amp; huiusmodi: Papa tamen posset non episcopo, imo etiam 
+      <lb ed="#S" n="98"/>non sacerdoti: nisi illa, quae includunt missae celebratio 
+      <lb ed="#S" n="99"/>nem committere, quia talia sunt de iure positiuo. De his 
+       ve<lb ed="#S" break="no" n="100"/>ro, quae sunt de iure diuino, nihil licet inferiori Papa, 
+      <lb ed="#S" n="101"/>sed Papae sic, secundum distinctionem factam.
+    </p>
+            <p xml:id="khj78y-q22585-d1e1125" n="38">
+      <!-- 38 -->Vel 
+      <lb ed="#S" n="102"/>Potest dici, quod non consecrato non possit committit etiam a 
+      <lb ed="#S" n="103"/>Papa, sed consecrato in sacerdotem, licet non sit consecratus 
+      <lb ed="#S" n="104"/>in episcopum, possunt aliqua committi a Papa, &amp; non ab 
+      <lb ed="#S" n="105"/>alio, sicut illa, de quibus agitur. Vnde Decretalis illa: de 
+      <lb ed="#S" n="106"/>consec. eccle. non est ad propositum, quia loquit de episcopo, 
+      <lb ed="#S" n="107"/>qui ea, quae sunt consecrationis non potest non epraeo com 
+      <lb ed="#S" n="108"/>mittere, imo nec tonsuram conferre: cum tamen constet, quod 
+      <lb ed="#S" n="109"/>huiusmodi Papa committat: quia cum habeat plenitudinem 
+      <lb ed="#S" n="110"/>pontificatus: ea, quae sunt pontificum etiam non pontifici 
+      <lb ed="#S" n="111"/>amittit: quod non potest facere particularis pontifex. 
+       Per<lb ed="#S" break="no" n="112"/>fectum enim est, quod potest sibi simile generare. Et quandoque 
+       v<lb ed="#S" break="no" n="113"/>nus episcopus alteri committit, quod ordines in sua diccesi 
+      <lb ed="#S" n="114"/>teneat, vel huiusmodi: ille, qui ordines confert iure suo, &amp; 
+      <lb ed="#S" n="115"/>authoritate sua confert, non committentis: quia etiam non con 
+      <lb ed="#S" n="116"/>secratus committere potest. Propter quod oportet, quod is, cui 
+      <lb ed="#S" n="117"/>committit: qui iure suo hoc facere habet, sit consecratus 
+      <lb ed="#S" n="118"/>illa consecratione, ad quam hoc pertinet. sed quando ex 
+       commis<lb ed="#S" break="no" n="119"/>sione Papae confirmat, vel dat minores ordines: non sua 
+      <lb ed="#S" n="120"/>authoritate, sed vice Papae hoc facit, quia si potest facere 
+      <lb ed="#S" n="121"/>perfectum episcopum, sicut vult. scilicet mutando materiam, &amp; 
+       for<lb ed="#S" break="no" n="122"/>mam: potest &amp; partialem episcopum facere. i. in parte dare 
+       ali<lb ed="#S" break="no" n="123"/>cui potestatem episcopi, vt epraes est, non: quam habet, vt eps, 
+      <lb ed="#S" n="124"/>&amp; sacerdos. i. collationem maiorum ordinum, quae respiclunt 
+       cor<lb ed="#S" break="no" n="125"/>pus Christi verum.
+    </p>
+            <p xml:id="khj78y-q22585-d1e1182" n="39">
+      <!-- 39 -->Ad quartum dicendum, quod 
+       li<lb ed="#S" break="no" n="126"/>cet Papa non habeat maiorem potestatem in conferendo 
+       sa<lb ed="#S" break="no" n="127"/>cramenta per se, quam episcopus: tamen habet maiorem potestatem in 
+       confe<lb ed="#S" break="no" n="128"/>rendo ea per alium: quia conferre est consecrationis, sed 
+       commit<lb ed="#S" n="129" break="no"/>tere est iurisdictionis. Est autem Papa maior in 
+       iurisdictio<lb ed="#S" break="no" n="130"/>ne, quam alius epraes: sed aequalis est in consecratione: quia 
+       aequa<lb ed="#S" break="no" n="131"/>lis est vtriusque consecratio. cum sit eadem. Vnde episcopus factus 
+      <lb ed="#S" n="132"/>Papa non amplius consecratur. Et potest poni exemplum in 
+       epi<lb ed="#S" break="no" n="133"/>scopo, &amp; in inquisitore: quia non habet epraes maiorem pote 
+      <lb ed="#S" n="134"/>statem in cognoscendo de crimine haeresis per se: imo 
+      <!--0107.xml-->
+      <pb ed="#S" n="107"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>de pari currunt: sed episcopus cum sit ordinarius, habet 
+      <lb ed="#S" n="2"/>maiorem in comittendo, quam inꝗsitor, qui committere non potest. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e1217" n="40">
+               <lb ed="#S" n="3"/>
+               <!-- 40 -->Praeterea, consequentia apparet falsa in omnibus 
+      <lb ed="#S" n="4"/>consecrationibus, quae sunt sacramentales, &amp; non sacramenta: quia ita 
+      <lb ed="#S" n="5"/>potest episcopus per se in illis, sicut Papa: sed Papa potest eas 
+      <lb ed="#S" n="6"/>committere non episcopo: non autem hoc potest simplex episco 
+      <lb ed="#S" n="7"/>pus. Vnde in Decretali aliqua, Papa dissimulando ratam 
+      <lb ed="#S" n="8"/>habet consecrationem factam a simplicibus sacerdotibus, ad 
+      <lb ed="#S" n="9"/>quod ratihabitio inferioris nihil faceret.
+    </p>
+            <p xml:id="khj78y-q22585-d1e1238" n="41">
+      <!-- 41 -->Ad 
+      <lb ed="#S" n="10"/>quintum dicendum, quod sicut Papa non potest facere, quod non 
+       ba<lb ed="#S" break="no" n="11"/>ptizatus suscipiat alia sacramenta: quia character baptismi est sim 
+      <lb ed="#S" n="12"/>pliciter potentia passiua ad alia sacramenta: &amp; nemo recipit 
+       il<lb ed="#S" break="no" n="13"/>Iud, cuius non habet potentiam receptiuam: sic non potest 
+       fa<lb ed="#S" break="no" n="14"/>cere Papasq non ordinatus, qui caret charactere ordinis 
+      <lb ed="#S" n="15"/>possit conferre confirmationem, vel minorem ordinem: quia cha 
+      <lb ed="#S" n="16"/>racter ordinis est potestas actiua ad conferendum ea. 
+       Vn<lb ed="#S" break="no" n="17"/>de bene oportet, quod characterem sacerdotalem habeat: cui Pa 
+      <lb ed="#S" n="18"/>pa hoc committit: sed non, quod habeat ordinem episcopalem, 
+       si<lb ed="#S" break="no" n="19"/>cut diceret, quod character ordinum inferiorum est potestas fa 
+      <lb ed="#S" n="20"/>ciendi ex officio: quod sine illis homo ex se facere non po 
+      <lb ed="#S" n="21"/>test, sed ex commissione. Ita etiam ordo episcopalis est prans 
+      <lb ed="#S" n="22"/>conferendi ordines ex se, sine quo ex se: &amp; ex proprio officio 
+      <lb ed="#S" n="23"/>nullus potest conferre. sed ex commissione Papae sacerdos 
+      <lb ed="#S" n="24"/>potest illud, quod episcopus potest ex se in talibus: quasi non 
+      <lb ed="#S" n="25"/>fit ordo potestas conferendi, sicut character baptismalis 
+      <lb ed="#S" n="26"/>recipiendi. sed aliquis ordo est potestas faciendi, quod ali 
+      <lb ed="#S" n="27"/>ter fieri non potest, vt sacerdotium conficiendi, &amp; ligandi, &amp; 
+      <lb ed="#S" n="28"/>absoluendi, &amp; episcopatus ad maiores ordines 
+       ordinan<lb ed="#S" break="no" n="29"/>di, quod alius non potest. Est autem potestas in aliis faciendi 
+      <lb ed="#S" n="30"/>ex officio ordinare, quod alius non pont: nisi ex commisso, 
+      <lb ed="#S" n="31"/>&amp; vice alterius. Et sic ordo inferiorum ad suos actus, &amp; episcopi 
+      <lb ed="#S" n="32"/>scopatus ad minorum collationem, &amp; consecrationem 
+       propor<lb ed="#S" break="no" n="33"/>tionaliter, &amp; conformiter se habent.
+    </p>
+            <p xml:id="khj78y-q22585-d1e1295" n="42">
+      <!-- 42 -->Ad sextum di 
+      <lb ed="#S" n="34"/>cendum, quod minister est duplex: vnus simpliciter, qui sic 
+      <lb ed="#S" n="35"/>potest facere hoc, quod nullus alius, &amp; talis per Papam non 
+      <lb ed="#S" n="36"/>potest poni, nec amoueri, sicut sacerdos est minister 
+       confi<lb ed="#S" break="no" n="37"/>ciendi: quia nec prohibitio Papae impedit, quin sacerdos 
+      <lb ed="#S" n="38"/>possit conficere, nec facit eius commissio, quod non sacerdos 
+      <lb ed="#S" n="39"/>conficiat. Et sic nullus est minister consirmandi, vel 
+       ordi<lb ed="#S" break="no" n="40"/>nandi minores ordines. secundo, est alius minister non 
+      <lb ed="#S" n="41"/>simpliciter, sed ex officio: qui. scilicet potest aliquid ex officio 
+      <lb ed="#S" n="42"/>suo, quasi ordinarie, quod alius iure suo non potest, sed tam 
+      <lb ed="#S" n="43"/>tum ex commisso: &amp; talis minister per potentiam poni pont: 
+      <lb ed="#S" n="44"/>licet per Papam ille, qui ex se hoc habet, amoueri non pos 
+      <lb ed="#S" n="45"/>sit, sicut confiteri fidem pertinet ad confirmatum, &amp; ad mino 
+      <lb ed="#S" n="46"/>res ordines actus illi: quos tamen superior alteri potest 
+       commit<lb ed="#S" break="no" n="47"/>tere: vt fiant ab alio licite: authoritate etiam minoris 
+       prae<lb ed="#S" break="no" n="48"/>lati, quam sit papa. sed non potest facere, quin ad istos ex 
+       offi<lb ed="#S" break="no" n="49"/>cio istud pertineat: licet possit prohibere, quod officium suum 
+      <lb ed="#S" n="50"/>non exerceant. Et sic minister confirmationis, &amp; 
+       collatio<lb ed="#S" break="no" n="51"/>nis minorum ordinum est episcopus, vt ad ipsum solum per 
+      <lb ed="#S" n="52"/>tineat ex officio, quod Papa sibi auferre non potest: licet 
+      <lb ed="#S" n="53"/>possit eum ab executione suspendere. sed hoc ipsum potest 
+      <lb ed="#S" n="54"/>Papa non episcopo committere: tum tamen sit sacerdos: quia 
+       il<lb ed="#S" break="no" n="55"/>le est minister simpliciter, &amp; imperfectus de se, nisi 
+       ma<lb ed="#S" break="no" n="56"/>ior consecratio, vel superioris commissio suppleat. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e1350" n="43">
+               <lb ed="#S" n="57"/>
+               <!-- 43 -->Ad septimum, in quo innuunt talem rationem. Quia 
+      <lb ed="#S" n="58"/>aut intelligitur Papam habere plenitudinem potestatis 
+       ratio<lb ed="#S" break="no" n="59"/>ne consecrationis, vel ratione iurisdictionis, non ratione 
+      <lb ed="#S" n="60"/>consecrationis: quia quantum ad istam omnes episcopi sunt sibi 
+      <lb ed="#S" n="61"/>aequales. si ratione iurisdictionis sic est verum: sed ad illam 
+      <lb ed="#S" n="62"/>non pertinet commissio talis. ergo Papa non potest committe 
+      <lb ed="#S" n="63"/>re sacerdoti confirmationem, &amp; minores ordines conferre. Di 
+      <lb ed="#S" n="64"/>cendum, quod Papa habet plenitudinem potestatis etiam quantum 
+      <lb ed="#S" n="65"/>ad consecrationem: in qua etiam alij episcopi sibi non 
+       aequan<lb ed="#S" break="no" n="66"/>tur: quia licet omnia sacra possint alij episcopi conferre, sicue 
+      <lb ed="#S" n="67"/>ipse: tamen in sacramentis conferendis alij tenent ad modos consecraui 
+      <!--0107.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>di, ad quod ipse non tenetur. Item in multis consecrationi 
+      <lb ed="#S" n="69"/>bus ipse habet potestatem excellentiae: quia sine illis potest res 
+      <lb ed="#S" n="70"/>consecrare, ex quo consecratio est per institutionem ecclesiae. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e1389" n="44">
+               <lb ed="#S" n="71"/>
+               <!-- 44 -->Item quod dicunt, quod ad plenitudinem iurisdictio 
+      <lb ed="#S" n="72"/>nis: in qua nullus ei aequatur, non pertinet commissio, 
+       fal<lb ed="#S" break="no" n="73"/>sum est. Omnis enim commissio ad iurisdictionem pertinet: 
+      <lb ed="#S" n="74"/>quia in iurisdictione continetur iudicis dandi licentia. ff. de iu 
+      <lb ed="#S" n="75"/>re omni. Iud. lib. 1. Et licet per se ordinare, &amp; 
+       confirma<lb ed="#S" break="no" n="76"/>re sit consecrationis: tamen hoc committere est iurisdictionis. 
+      <lb ed="#S" n="77"/>Vude non sacerdos curatus potest commitere audientiam 
+      <lb ed="#S" n="78"/>confessionum sacerdoti, &amp; non consecratus episcopus 
+       com<lb ed="#S" break="no" n="79"/>mittit episcopo ordines conferre in sua dioecesi. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e1413" n="45">
+               <lb ed="#S" n="80"/>
+               <!-- 45 -->Ad octauum dicendum, quod licet gratia fluat a 
+       Chri<lb ed="#S" break="no" n="81"/>sto non solum prout est in hoc sacramento, sed etiam prout est in se, &amp; 
+      <lb ed="#S" n="82"/>prout est in aliis sacramentis, quamuis sacerdos non habeat 
+       po<lb ed="#S" break="no" n="83"/>testatem super ipsum, prout est in se: habet tamen potestatem 
+       su<lb ed="#S" break="no" n="84"/>per ipsum: prout est in hoc sacramento, &amp; in aliis: quia omnia alia 
+      <lb ed="#S" n="85"/>ordinantur quodam modo ad istud. Et ideo llle, qui ex 
+       offi<lb ed="#S" break="no" n="86"/>cio habet potestatem in istud sacramentum. scilicet eucharistiam ex hoc 
+      <lb ed="#S" n="87"/>ipso aptus est, vt habeat potestatem in alia ex commisso. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e1435" n="46">
+               <lb ed="#S" n="88"/>
+               <!-- 46 -->Potuit tamen Deus aliter ordinare: sed supponimus, 
+      <lb ed="#S" n="89"/>quod sic ordinauerit: ex quo ecclesia Romana sic facit. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e1445" n="47">
+               <lb ed="#S" n="90"/>
+               <!-- 47 -->Quod autem dicit, quod non sacerdos potest baptizare: 
+      <lb ed="#S" n="91"/>&amp; sic confert sacramentum gratiae, qui non habet potestatem super 
+      <lb ed="#S" n="92"/>corpus Christi verum: dicendum, quod hoc est ex ordinatione 
+      <lb ed="#S" n="93"/>Christi, &amp; non Papae. Et similiter matrimonium contrahunt, 
+      <lb ed="#S" n="94"/>in quo dat gratia non sacerdotes, quod non est ex 
+       commissio<lb ed="#S" break="no" n="95"/>ne Papae, sed ex ordinatione Dei. sed ex commissione 
+       Pa<lb ed="#S" break="no" n="96"/>pae fieri non potest, quod ille conferat sacramentum gratiae, qui nec est 
+      <lb ed="#S" n="97"/>sacerdos, nec alias sine ordinatione Papae illud conferre 
+      <lb ed="#S" n="98"/>posset. Tunc enim Papa haberet potestatem excellentiae in 
+      <lb ed="#S" n="99"/>sacramentis, si ad libitum posset ministrum statuere, vel destituere. 
+    </p>
+            <p xml:id="khj78y-q22585-d1e1471" n="48">
+               <lb ed="#S" n="100"/>
+               <!-- 48 -->Ad argumentum dicendum, quod aliqua sunt episcopi 
+      <lb ed="#S" n="101"/>vt episcopus est quantum ad posse simpliciter, &amp; totaliter, 
+      <lb ed="#S" n="102"/>quae non possunt committi non episcopo, sicut illa non 
+       pres<lb ed="#S" n="103" break="no"/>bytero, sicut conferre maiores ordines, aliqua autem sunt 
+      <lb ed="#S" n="104"/>episcopi: vt episcopus est non quantum ad posse simpliciter 
+      <lb ed="#S" n="105"/>sed quantum ad posse ex officio, sicut confirmare, &amp; ad 
+       mi<lb ed="#S" break="no" n="106"/>nores ordinare. Et ista a solo Papa possunt committi non 
+      <lb ed="#S" n="107"/>episcopo: vt fiant authoritate summi epi.
+    </p>
+            <p xml:id="khj78y-q22585-d1e1493" n="49">
+      <!-- 49 -->Ad 
+      <lb ed="#S" n="108"/>illud de Greg. non bene dicit: quia extra de consue. c. 4. ex 
+      <lb ed="#S" n="109"/>presse dicitur, quod si simplex sacerdos sine commissione con 
+      <lb ed="#S" n="110"/>firmat, non solum peccat, sed inaniter confert, &amp; veritas sa 
+      <lb ed="#S" n="111"/>cramenti non subest, &amp; multo magis de minoribus ordini 
+      <lb ed="#S" n="112"/>bus. ergo illud membrum, quod dicit sacerdotibus compete 
+      <lb ed="#S" n="113"/>re, sed superioribus reseruatum non valet. Aliud vero, quo 
+      <lb ed="#S" n="114"/>dicit Gregorium errasse, est peius.
+    </p>
+            <p xml:id="khj78y-q22585-d1e1513" n="50">
+      <!-- 50 -->Ad 
+       secun<lb ed="#S" break="no" n="115"/>dum cum dicit, quod simplex sacerdos est minister minorum 
+      <lb ed="#S" n="116"/>ordinum: dicendum, quod verum est ex commissione iuris: 
+      <lb ed="#S" n="117"/>vt abbates lectoratus secundum quosdam antiquitus, vel ex 
+      <lb ed="#S" n="118"/>commissione Papae, vt presbyteri cardinales aliter non. 
+      <lb ed="#S" n="119"/>Vnde dicitur de ordinatis ab illo, qui renun. episcopi.  qui tales 
+      <lb ed="#S" n="120"/>ordines quandoque a non episcopis conferuntur: quando. scilicet cis 
+       commit<lb ed="#S" break="no" n="121"/>titur, &amp; non ex officio, vt de aetate, &amp; quali. Cum 
+       contin<lb ed="#S" break="no" n="122"/>gat. 70. dist. Qm̃ videntur. Et si diceremus subdiaconatum, 
+      <lb ed="#S" n="123"/>&amp; minores ordines ab ecclesia institutos propria autho 
+      <lb ed="#S" n="124"/>ritate: tunc Papa pro libito posset horum collationem 
+       con<lb ed="#S" break="no" n="125"/>mittere, etiam non sacerdoti, sicut consecrationes alias, 
+      <lb ed="#S" n="126"/>quae non sunt sacramenta.
+    </p>
+            <p xml:id="khj78y-q22585-d1e1544" n="51">
+      <!-- 51 -->Tertia conclusio 
+      <lb ed="#S" n="127"/>est, quod ex commissione electi in Papam, &amp; nondum 
+       consecra<lb ed="#S" break="no" n="128"/>ti non potest hoc simplex sacerdos: licet posset episcopus 
+      <lb ed="#S" n="129"/>electus in Papam ante coronationem, per quam quidem non 
+      <lb ed="#S" n="130"/>recipit consecrationem. Et si presbyteri cardinales Papae 
+      <lb ed="#S" n="131"/>non electo, vel electo: nondum tamen consecrato conferant 
+      <lb ed="#S" n="132"/>minores ordines: hoc est ex iuris concessione, vel ex con 
+      <lb ed="#S" n="133"/>suetudine, quae iuri aequipollet, si sit per Romanam 
+       eccle<lb ed="#S" break="no" n="134"/>siam approbata. sed Papa non consecratus conferre mi- 
+      <!--0108.xml-->
+      <pb ed="#S" n="108"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>nores ordines committere sacerdoti non potest: quia cum 
+      <lb ed="#S" n="2"/>oporteat principale agens, vel instrumentale esse tale for 
+      <lb ed="#S" n="3"/>maliter, vel virrualiter, quod est nobilius, &amp; ordo, vel or 
+      <lb ed="#S" n="4"/>dinatus sit altior status in ecclesia non ordinato, vel non 
+      <lb ed="#S" n="5"/>ordine, cum sacerdos iure suo hoc non possit, videtur 
+    </p>
+            <p xml:id="khj78y-q22585-d1e1583">
+               <lb ed="#S" n="6"/>necesse. quod committens iure suo hoc possit. Vnde cum iure 
+      <lb ed="#S" n="7"/>suo nullus non ordinatus hoc possit: quia est inferior or 
+      <lb ed="#S" n="8"/>dinato: imo cum nullus nisi episcopus iure suo hoc 
+       pos<lb ed="#S" break="no" n="9"/>sit videtur necesse: quod Papa hoc committens sit in Papam con 
+      <lb ed="#S" n="10"/>secratus: ita, quod ista commissio est simul, &amp; iurisdictionis, &amp; 
+      <lb ed="#S" n="11"/>ordinis: quam solus Papa potest facere non consecrato 
+      <lb ed="#S" n="12"/>episcopaliter: dum tamen sit consecratus sacerdotaliter. 
+      <lb ed="#S" n="13"/>Nec hoc aliter probari potest, nisi quia ecclesia Romana 
+      <lb ed="#S" n="14"/>sic vtitur, &amp; creditur non errare. Ipsa etiam tenet, quod si sim 
+      <lb ed="#S" n="15"/>plex sacerdos sine Papae commissione confirmet, vel 
+       ordi<lb ed="#S" break="no" n="16"/>net, quod nihil agit.
+    </p>
+            <p xml:id="khj78y-q22585-d1e1610" n="52">
+      <!-- 52 -->Ex his patet ad 
+       argumen<lb ed="#S" break="no" n="17"/>tum in oppositum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

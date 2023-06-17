@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="148"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q38734"><!-- l4d12-q4 -->
+            <head xml:id="khj78y-q38734-Hd1e101">Quaestio 4</head>
+            <head xml:id="khj78y-q38734-Hd1e103" type="question-title">
+     utrum 
+     species in sacramento altaris possint 
+     aliquid immutare
+   </head>
+            <p xml:id="khj78y-q38734-d1e106">
+      <!--0148.xml-->
+               <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>QVAESTIO QVARTA 
+      <lb ed="#S" n="69"/>De immutatione specierum actiua, &amp; passiua. 
+    </p>
+            <p xml:id="khj78y-q38734-d1e117">
+               <lb ed="#S" n="70"/>Thom. 3. q. 77. art. 3. &amp;. 4. vsq ad. 7. 
+    </p>
+            <p xml:id="khj78y-q38734-d1e122">
+               <lb ed="#S" n="71"/>QVAERITVR Quarto, vtrum 
+      <lb ed="#S" n="72"/>species in sacramento altaris possint 
+       a<lb ed="#S" break="no" n="73"/>liquid immutare. Et videtur quod non, 
+      <lb ed="#S" n="74"/>a pari ratione possent immuta 
+      <lb ed="#S" n="75"/>bili quia agens naturale agendo 
+      <lb ed="#S" n="76"/>compatit, primo de generatione 
+      <lb ed="#S" n="77"/>non autem possunt immutari 
+       na<lb ed="#S" break="no" n="78"/>turaliter, nec annihilando: quia 
+       na<lb ed="#S" break="no" n="79"/>tura sicut non agit ex nihilo, sic nec redigit in nihil, nec 
+      <lb ed="#S" n="80"/>cedendo in potentiam materiae, quae ibi non est. ergo &amp;c. 
+    </p>
+            <p xml:id="khj78y-q38734-d1e147" n="2">
+               <lb ed="#S" n="81"/>
+               <!-- 2 -->IN Coutrarium est sensus: quia omni illo modo 
+       ap<lb ed="#S" break="no" n="82"/>parent immutare, &amp; immutari, quo prius faciebant. 
+    </p>
+            <p xml:id="khj78y-q38734-d1e156" n="3">
+               <lb ed="#S" n="83"/>
+               <!-- 3 -->REsPONDEO, circa haec duo sunt 
+       viden<lb ed="#S" break="no" n="84"/>da. Primo, quomodo possum immutare. secundo, 
+       quo<lb ed="#S" break="no" n="85"/>modo immutari.
+    </p>
+            <p xml:id="khj78y-q38734-d1e167" n="4">
+      <!-- 4 -->QVANTVM ad primum 
+      <lb ed="#S" n="86"/>sunt tres conclusiones. Prima, quod species remanentes in 
+       sa<lb ed="#S" break="no" n="87"/>cro altaris possunt immutare accidentaliter, &amp; non minus 
+      <lb ed="#S" n="88"/>quam prius, siue generando tantum, vt est in mutatione 
+       inten<lb ed="#S" break="no" n="89"/>tionali, quae est secundum passionem animae, quae est salus, 
+      <lb ed="#S" n="90"/>&amp; perfectio, secundum quam dicunturpassibiles qualitates, 
+      <lb ed="#S" n="91"/>quae ex se pasiionem inferunt sensibus, siue corrumpendo, 
+      <lb ed="#S" n="92"/>&amp; generando, sicut est in mutatione reali, quae est 
+       secun<lb ed="#S" break="no" n="93"/>dum passionem naturae, quae magis facta abiicit a substan 
+      <lb ed="#S" n="94"/>tia. Primum patet quo ad qualitates, quae sunt primo sen 
+      <lb ed="#S" n="95"/>fibiles, &amp; non habent a substantia: sed a se seusus immedia 
+      <lb ed="#S" n="96"/>te mouere. Vnde cum habeant idem esse, quod prius, per 
+      <lb ed="#S" n="97"/>consequens idem agere. De quantitate vero dicunt quidam, 
+      <lb ed="#S" n="98"/>quod licet si per se sensibile: hoc tum non est, quia agat aliquid 
+      <lb ed="#S" n="99"/>in sensum, sed quia percipitur a sensu, sicutecontrario substan 
+      <lb ed="#S" n="100"/>tia dicitur per accidens sensibile: quia non percipitur a sensu, 
+      <lb ed="#S" n="101"/>licet agat in sensum: &amp; tunc quod quantitas careat subiecto: 
+      <lb ed="#S" n="102"/>non mutat actionem qualitatum sensibilium, quae existentes 
+      <lb ed="#S" n="103"/>in ea subiectiue agunt sine ea. si autem dicatur quantitas 
+       es<lb ed="#S" break="no" n="104"/>se per se sensibile pro tanto, quod agat etiam ad sensationem sim 
+      <lb ed="#S" n="105"/>pliciter: cum secundum ea, quae sunt quantitatis: puta 
+       ma<lb ed="#S" break="no" n="106"/>gnitudinem, paruitatem, &amp; figuram, &amp; distantiam, &amp; huiusmodi 
+       se<lb ed="#S" break="no" n="107"/>quatur variatio in immutando sensum a qualitate, quae 
+      <lb ed="#S" n="108"/>est primo sensibilis, &amp; quod est causa magis, &amp; minus, est 
+      <lb ed="#S" n="109"/>causa simpliciter nihiloninus hoc ipsum potest saluari in 
+      <lb ed="#S" n="110"/>quantitate sublata substantia, quia hoc non habet quantitas a 
+      <lb ed="#S" n="111"/>substantia, in qua est, sed a qualitate, cui subest nunc, 
+       si<lb ed="#S" break="no" n="112"/>cut prius. vnde &amp;c.
+    </p>
+            <p xml:id="khj78y-q38734-d1e230" n="5">
+      <!-- 5 -->Item secundo hoc idem 
+       pa<lb ed="#S" break="no" n="113"/>tet de immutatione naturali, quia qualitates habent idem 
+      <lb ed="#S" n="114"/>esse, quod prius. ergo idem agere, quia agere sequitur esse: quan 
+      <lb ed="#S" n="115"/>titas vero nihil ad hot coagit. Vnde in Mathematicis 
+      <lb ed="#S" n="116"/>non est motus. Licet autem sensus indicet hanc 
+       immuta<lb ed="#S" break="no" n="117"/>tionem realem: ratio tamen haesitat, quia vbi non est principale acti 
+      <lb ed="#S" n="118"/>uum, nec aliud: sed principale actiuum non potest esse nisi 
+      <lb ed="#S" n="119"/>principale ens, quod solum est substantia, quae hic non est. 
+      <lb ed="#S" n="120"/>ideo &amp;c. Et ad hoc dici potest, quod actio, quae est ad principa 
+      <lb ed="#S" n="121"/>lem effectum, qui est substantia, non est sine principali 
+      <lb ed="#S" n="122"/>actiuo, quod est substantia: nisi vt in sequenti articulo 
+       di<lb ed="#S" break="no" n="123"/>cetur: sed actio, quae est ad effectum non principalem, sed 
+       se<lb ed="#S" break="no" n="124"/>cundarium, qui est accidens, potest esse a solo accidente, cum in 
+      <lb ed="#S" n="125"/>actione vniuoca non oporteat agens excedere effectum. 
+    </p>
+            <p xml:id="khj78y-q38734-d1e263" n="6">
+               <lb ed="#S" n="126"/>
+               <!-- 6 -->secunda conclusio est, quod possunt immutare substan 
+      <lb ed="#S" n="127"/>tialiter corrumpendo: puta, quod species vini potest corrumpere 
+      <lb ed="#S" n="128"/>guttam aequae impositam: quia quicquid est causa causae, est 
+      <lb ed="#S" n="129"/>causa causati: sed alteratio est causa corruptionis, &amp; spe 
+      <lb ed="#S" n="130"/>cies alterant per se, &amp; primo. ergo ex consequenti corrum 
+      <!--0149.xml-->
+      <pb ed="#S" n="149"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>punt: sicut quod est alterans hominem ad mortem est causa 
+       mor<lb ed="#S" break="no" n="2"/>tis, &amp; iudicatur irregularis, qui facit illud, ad quod mors 
+       se<lb ed="#S" break="no" n="3"/>quitur, ac si immediate occideret. Nec dico, quod quicquid 
+      <lb ed="#S" n="4"/>est causa antecedentis, sit causa consequentis semper in posi 
+      <lb ed="#S" n="5"/>tiuis, sed vbi est effectus priuatiuus, sicut est corruptio: 
+      <lb ed="#S" n="6"/>quia aut requirit propter se causam, aut propter antecedens: 
+      <lb ed="#S" n="7"/>propter se non, quia non est ens. ergo solum propter antecedens. 
+      <lb ed="#S" n="8"/>Et sic quod potest in antecedens, potest in consequens tale: propter 
+      <lb ed="#S" n="9"/>quod in omnibus sequit, quod quicquid est causa sufficiens 
+       alte<lb ed="#S" break="no" n="10"/>rationis, ad quam de necessitate sequitur corruptio ex hoc 
+      <lb ed="#S" n="11"/>ipso est causa sufficiens corruptionis. sed vbi est effectus 
+      <lb ed="#S" n="12"/>positiuus, non oportet. Non enim quicquid alterat ad 
+       ge<lb ed="#S" break="no" n="13"/>nerationem sufficit ad productionem formae: sicut homo 
+       ge<lb ed="#S" break="no" n="14"/>nerat hominem, &amp; sol alterando, sed solus Deus creat ani 
+      <lb ed="#S" n="15"/>mam infundendo. Vnde etiam in artificialibus inferior ars 
+      <lb ed="#S" n="16"/>praeparat materiam, &amp; superior inducit formam.
+    </p>
+            <p xml:id="khj78y-q38734-d1e320" n="8">
+      <!-- 8 -->Sed 
+      <lb ed="#S" n="17"/>contra hoc videt, quia natura non potest corrumpere, nisi quod 
+      <lb ed="#S" n="18"/>potest generare. Vnde materiam primam, &amp; animam rationalem, 
+      <lb ed="#S" n="19"/>&amp; formam coeli, quam non potest generare, nec ponc corrumpere. 
+      <lb ed="#S" n="20"/>Item quia corruptio non est nisi proptergenerationem, nisi pos 
+      <lb ed="#S" n="21"/>sit generare, non intendit corruptionem.
+    </p>
+            <p xml:id="khj78y-q38734-d1e337" n="9">
+      <!-- 9 -->Dicendum 
+      <lb ed="#S" n="22"/>ad primum, quod forma, quae secundum suam speciem non est a natu 
+      <lb ed="#S" n="23"/>ra producibilis: ipsa nec est a natura corruptibilis. Vnde 
+      <lb ed="#S" n="24"/>&amp; si corruptio huius sequatur ad opus naturae, hoc non est 
+      <lb ed="#S" n="25"/>effectiue, sed meritorie, vel demeritorie, sicut in formis 
+      <lb ed="#S" n="26"/>gratum facientibus: ad quarum productionem, &amp; destructionem 
+      <lb ed="#S" n="27"/>liberum arbitrium non agit nisi dispositiue, &amp; meritorie, non 
+      <lb ed="#S" n="28"/>actiue. Dico autem de his, ad quae attingit naturali virtu 
+      <lb ed="#S" n="29"/>te: quae est ad generandum, &amp; corrumpendum: secus de his, ad 
+      <lb ed="#S" n="30"/>quae supernaturali virtute, sicut sacramenta habent virtutem 
+       cha<lb ed="#S" break="no" n="31"/>racterem producendi, non corrumpendi.
+    </p>
+            <p xml:id="khj78y-q38734-d1e363" n="10">
+      <!-- 10 -->Ad 
+       secun<lb ed="#S" break="no" n="32"/>dum dicendum, quod natura corrumpit dupliciter, vno modo 
+      <lb ed="#S" n="33"/>per substractionem conseruantis, &amp; hoc facit non generando, 
+      <lb ed="#S" n="34"/>sicut per motum coeli corrumpitur lux, &amp; nihil inde 
+       genera<lb ed="#S" break="no" n="35"/>tur: quia intendit alibi generare. &amp; ideo cessat ibi, quia simul 
+      <lb ed="#S" n="36"/>non potest vbique : alio modo per actionem, &amp; sic natura ni 
+      <lb ed="#S" n="37"/>hil corrumpit, nisi sit nata inde generare, sed quandoque ipsa 
+      <lb ed="#S" n="38"/>non generat nisi partem: sicut in embrionis corruptiono: 
+      <lb ed="#S" n="39"/>quae est a natura accidentaliter, multa generantur a 
+       natu<lb ed="#S" break="no" n="40"/>ra, &amp; alia forma naturalis generari potuit: licet non illa, 
+      <lb ed="#S" n="41"/>quae infusa est. Et similiter spens possunt corrumpere, quia 
+       in<lb ed="#S" break="no" n="42"/>degenerant formam accidentalem, &amp; si non substantialem, quam 
+      <lb ed="#S" n="43"/>tamen apte natae essent generare: licet forte hoc impediatur 
+      <lb ed="#S" n="44"/>per accidens ex parte subiecti propter defectum eius. 
+    </p>
+            <p xml:id="khj78y-q38734-d1e396" n="11">
+               <lb ed="#S" n="45"/>
+               <!-- 11 -->Et ex hoc sequit tertia conclusio, quae est, quod possunt 
+      <lb ed="#S" n="46"/>generare formam substantialem, cuius contrarium dicunt 
+       qui<lb ed="#S" break="no" n="47"/>dam, quia nec virtute propria: quia tunc agerent vltra suam spe 
+      <lb ed="#S" n="48"/>ciem, nec virtute substantiae, cui insunt, quia sunt sine subie 
+      <lb ed="#S" n="49"/>cto: nec virtute substantiae, cui infuerunt: quia secundum 
+       ordi<lb ed="#S" break="no" n="50"/>nem naturae nullum instrumentum potest agere virtute 
+       prin<lb ed="#S" break="no" n="51"/>cipalis agentis, nisi sit actualiter coniunctum, vel nisi reci 
+      <lb ed="#S" n="52"/>piat ab eo formam immanentem, vt patet in decisione semi 
+      <lb ed="#S" n="53"/>nis. sed spens sunt actu separatae a substantia, nec repiunt 
+      <lb ed="#S" n="54"/>ab ea aliquam formam immanentem: per quam agant. ideo &amp; c. 
+      <lb ed="#S" n="55"/>sed ista ratio est contra eos, vt videtur: quia sicut nihil produ 
+      <lb ed="#S" n="56"/>cit nobilius se in virtute propria: sic vt videtur in virtute 
+      <lb ed="#S" n="57"/>sua nihil corrumpit nobilius se: quia nihil corrumpit nisi a 
+       for<lb ed="#S" break="no" n="58"/>tiori, &amp; digniori. Quod enim corrumpit, aliud dominatur illi. 
+      <lb ed="#S" n="59"/>Vnde videi extrancum, quod species possint substantiam corrum 
+      <lb ed="#S" n="60"/>pere, vt dicit, &amp; non substantiam generare.
+    </p>
+            <p xml:id="khj78y-q38734-d1e435" n="12">
+      <!-- 12 -->Et di 
+      <lb ed="#S" n="61"/>cendum, quod ad generationem oportet dare generans 
+       vniuo<lb ed="#S" break="no" n="62"/>cum: quod est aeque nobile, vel aequiuocum principale, quod 
+      <lb ed="#S" n="63"/>est nobilius effectu. sed ad corruptionem, quae potest esse 
+      <lb ed="#S" n="64"/>per solam substractionem influentiae conseruantis: quia 
+       conser<lb ed="#S" break="no" n="65"/>uans influit mediantibus dispositionibus accidentalibus: 
+      <lb ed="#S" n="66"/>sufficit corrumpens dominari illis dispositionibus, quibus 
+      <lb ed="#S" n="67"/>destructis subiectum corrumpitur. 
+      <!--0149.xml-->
+      <cb ed="#S" n="b"/>
+            </p>
+            <p xml:id="khj78y-q38734-d1e459" n="13">
+               <lb ed="#S" n="68"/>
+               <!-- 13 -->Et sic propria virtute species possunt corrumpere, 
+      <lb ed="#S" n="69"/>&amp; non genercre. Cum enim non habeant, plusquam ante con 
+      <lb ed="#S" n="70"/>uersionem, sicut tunc propria virtute non generabunt, ita nec 
+      <lb ed="#S" n="71"/>nunc. sed quod postea dicitur, quod nec etiam alterius virtute 
+      <lb ed="#S" n="72"/>generant, videt falsum. Et quod dicitur, quod non virtute sub 
+      <lb ed="#S" n="73"/>stantiae, cui insunt, verum est, quia sunt sine substantia. Et 
+       vl<lb ed="#S" break="no" n="74"/>tra quod non virtute substuntiae, cui infuerunt, posset concedi, 
+      <lb ed="#S" n="75"/>sed virtute Dei substentantis. Potest enim Deus accidentia 
+      <lb ed="#S" n="76"/>sustentare inaequali vigore in quanto cum substantia 
+       substen<lb ed="#S" break="no" n="77"/>tabantur. Vnde si tunc generabant in virtute substantiae crea 
+      <lb ed="#S" n="78"/>tae substentantis, &amp; nunc generabunt virtute Dei 
+       substentan<lb ed="#S" break="no" n="79"/>tis.
+    </p>
+            <p xml:id="khj78y-q38734-d1e490" n="14">
+      <!-- 14 -->Potest etia dici, quod in virtute substatiae 
+       con<lb ed="#S" break="no" n="80"/>uersae, sicut semen decisum: quia licit non habeant formam 
+      <lb ed="#S" n="81"/>aliam sibi impressam: tamen totum id, quod sunt, &amp; totam naturam ha 
+      <lb ed="#S" n="82"/>buerunt in subiecto, &amp; a subiecto, saltem sicut a causa mate 
+      <lb ed="#S" n="83"/>riali. Et ideo quandiu seruatur in eis esse quale in subiecto 
+      <lb ed="#S" n="84"/>habebant: per consequens habent tale agere omnino, sicut 
+      <lb ed="#S" n="85"/>prius habebant: &amp; in tantum dicuntur agere in virtute 
+       sub<lb ed="#S" break="no" n="86"/>stantiae conuersae: ex quo illud, quod in ea habuerunt, illud 
+      <lb ed="#S" n="87"/>idem numero cis seruat.
+    </p>
+            <p xml:id="khj78y-q38734-d1e513" n="15">
+      <!-- 15 -->Ex his ergo paret, quod 
+      <lb ed="#S" n="88"/>triplici virtute generare possunt primo virtute Dei: quia 
+      <lb ed="#S" n="89"/>cum generare non sit magis aptus substantiae, quam subsistere: 
+      <lb ed="#S" n="90"/>cum omnis prima substantia subsistat secundum naturam, non 
+      <lb ed="#S" n="91"/>autem generet: sicut illis accidentibus virtute Dei competit 
+      <lb ed="#S" n="92"/>subsistere: pari ratione generare: cum Deus possit 
+       commu<lb ed="#S" break="no" n="93"/>nicare superriaturaliter vni creaturae, licet inferiori illud 
+      <lb ed="#S" n="94"/>quod  conuenit superiori naturaliter, sicut coelo generare 
+      <lb ed="#S" n="95"/>animam: quod conuenit animali naturaliter, sic &amp; generare 
+      <lb ed="#S" n="96"/>substantiam, quod conuenit substantiae, naturaliter Deus potest 
+      <lb ed="#S" n="97"/>communicare accidenti supernaturaliter· secundo, virtute 
+      <lb ed="#S" n="98"/>substantiae, quae fuit vibi, vt dictum est. Tertio, virtute 
+       coe<lb ed="#S" break="no" n="99"/>li. sicut enim cum mus generat murem hoc facit 
+       immedia<lb ed="#S" break="no" n="100"/>te potentia generatiua muris in virtute ipsius muris 
+       par<lb ed="#S" break="no" n="101"/>ticularis agentis: &amp; cum hoc in virtute coeli: quando autem 
+      <lb ed="#S" n="102"/>mus per putrefactionem generatur: hoc est totaliter a 
+       virtu<lb ed="#S" break="no" n="103"/>te coeli: sic quando coelum conseruat vinum ante consecratio 
+      <lb ed="#S" n="104"/>nem: qualitas vini in virtute ipsius, &amp; coeli generat ex gut 
+      <lb ed="#S" n="105"/>ta aquae appositae vinum. sed quando spens sunt separatae post 
+      <lb ed="#S" n="106"/>consecrationem: tunc ipsae virtute coeli, &amp; conseruantis in 
+      <lb ed="#S" n="107"/>eodem vigore generant idem, quod prius: sicut Deus se 
+      <lb ed="#S" n="108"/>paret quantitate ignis cum calore: ille calor conburendo ac 
+      <lb ed="#S" n="109"/>rem generat ignem, sicut prius in virtute coeli: quia coelum 
+      <lb ed="#S" n="110"/>non imprimit accidentibus mediante subiecto, sed 
+       ccon<lb ed="#S" break="no" n="111"/>uerso. Vnde non cessat influere, &amp; conseruare accidens 
+      <lb ed="#S" n="112"/>substantia corrupta.
+    </p>
+            <p xml:id="khj78y-q38734-d1e572" n="16">
+      <!-- 16 -->CIRCA secundum sunt 
+      <lb ed="#S" n="113"/>etiam tres conclusiones. Prima, quod qualitates possunt na 
+      <lb ed="#S" n="114"/>turaliter corrumpi: quia habent suiectu: &amp; potest iterum adhiberi 
+      <lb ed="#S" n="115"/>contraria qualitas praedominans.
+    </p>
+            <p xml:id="khj78y-q38734-d1e583" n="17">
+      <!-- 17 -->sed hoc 
+       vide<lb ed="#S" break="no" n="116"/>tur esse contra Philosophum. 2. Metha. dicentem in omni remota 
+      <lb ed="#S" n="117"/>imaginandam materiam proprie dictam, si sit proprius motus, &amp; 
+      <lb ed="#S" n="118"/>maxime ad formam. Vnde cum alteratio sit motus proprie 
+      <lb ed="#S" n="119"/>dictus, videt, quod species, siue qualitates, quibus non 
+       sub<lb ed="#S" break="no" n="120"/>stantiae materia, nec forma substantialis non possint corrum 
+      <lb ed="#S" n="121"/>pi, nec alterari: puta intendi, &amp; remitti, &amp; multo minus ex 
+      <lb ed="#S" n="122"/>toto corrumpi.
+    </p>
+            <p xml:id="khj78y-q38734-d1e603" n="18">
+      <!-- 18 -->Ad quod dicendum, quod in omni re 
+      <lb ed="#S" n="123"/>mota oportet esse materiam actu, vel aptitudine. Ex quo 
+      <lb ed="#S" n="124"/>em̃ qualitas remanet, &amp; tale esse, quale prius habebat in 
+      <lb ed="#S" n="125"/>materia, potest agere, &amp; pati, sicut poterat prius: quia habet 
+      <lb ed="#S" n="126"/>materiam aptitudine.
+    </p>
+            <p xml:id="khj78y-q38734-d1e616" n="19">
+      <!-- 19 -->Vel dicendum, quod oportet 
+      <lb ed="#S" n="127"/>esse materiam. i. subiectum: sed non oportet esse materiam pri 
+      <lb ed="#S" n="128"/>mam, sicut aliqui in coelo ponunt motum: &amp; tamen non ponunt 
+      <lb ed="#S" n="129"/>in eo materiam, sed solu subiectum quantum: sic &amp; hic: quia 
+       om<lb ed="#S" break="no" n="130"/>ne quantum eo ipso, quod quantum videtur mobile. sic igitur 
+      <lb ed="#S" n="131"/>realiter possunt immutari, sed non intentionaliter: quia non 
+      <lb ed="#S" n="132"/>sunt capaces mutationis intentionalis, nec vt extremum 
+      <lb ed="#S" n="133"/>sensus, nec vt medium sensus: quia nec sunt medium coniun 
+      <lb ed="#S" n="134"/>ctum, nec separatum.
+    </p>
+            <p xml:id="khj78y-q38734-d1e638" n="20">
+      <!-- 20 -->secunda conclusio est de 
+      <!--0150.xml-->
+      <pb ed="#S" n="150"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>quantitate vtrum naturaliter possit corrumpi. Et dicunt 
+      <lb ed="#S" n="2"/>quidum, quod non: quia non ratione materiae cum ipsam non ha 
+      <lb ed="#S" n="3"/>beat, nec propter contrarium: cum quantitati nihil sit contrarium: 
+      <lb ed="#S" n="4"/>nec perdiuisionem: quia diuisio, quae facit ad corruptionem sub 
+      <lb ed="#S" n="5"/>iecti: oportet, quod habeat terminum in minus, sed hoc non ha 
+      <lb ed="#S" n="6"/>bet quantitas, quia secundum se est diuisibilis in infinitum. 
+      <lb ed="#S" n="7"/>ergo &amp;c. sed contra hoc sic arguit: quia secundum eos, &amp; secum 
+      <lb ed="#S" n="8"/>dum nos quicquid potest ab aliquo alterari, potest ab illo 
+      <lb ed="#S" n="9"/>torrumpi: vt fuit dictu in primo articulo in prima conclu 
+      <lb ed="#S" n="10"/>fione: quando est talis corruptio, q naturaliter sequitur ad 
+       alte<lb ed="#S" break="no" n="11"/>rationem. Vnde cum naturaliter quantitas non separetur a 
+       qua<lb ed="#S" break="no" n="12"/>litatibus quicquid potest illas corrumpere directe, potest cor 
+      <lb ed="#S" n="13"/>rumpere quantitatem ex consequenti: ita quod sicut ipsi 
+       conclu<lb ed="#S" break="no" n="14"/>dunt, quod spens vini corrumpendo qualitates aquae 
+       corrum<lb ed="#S" break="no" n="15"/>punt formam aquae: quia non est sine suis dispositionibus, sic 
+      <lb ed="#S" n="16"/>&amp; aqua nimia apposita paruis speciebus vini corrupen 
+      <lb ed="#S" n="17"/>do qualitates specierum corrumpit quantitatem.
+    </p>
+            <p xml:id="khj78y-q38734-d1e687" n="21">
+      <!-- 21 -->
+       Ar<lb ed="#S" break="no" n="18"/>gumentum autem, vt videtur in omnibus tribus membris 
+       defi<lb ed="#S" break="no" n="19"/>cit, quae assumit primo, quia corrumpitur per contrarium: quia 
+      <lb ed="#S" n="20"/>sicut substantia non habet contrariu: est tamen susceptibilis 
+       con<lb ed="#S" break="no" n="21"/>trariorum ratione quorum omnis passio magis facta abiicit 
+      <lb ed="#S" n="22"/>a substantia, &amp; corrumpitur substantia aquae per 
+       corruptio<lb ed="#S" break="no" n="23"/>nemfrigiditatis a suo contrario calido; sic licet quantitati: 
+      <lb ed="#S" n="24"/>nihil sit contrarium: quia tamen est susceptibilis contrariorum, 
+      <lb ed="#S" n="25"/>quorum vnum est sibi connaturale, &amp; conseruatiuum: aliud 
+      <lb ed="#S" n="26"/>contrarium, ex quo retinet tale esse, &amp; talis naturae, quale 
+      <lb ed="#S" n="27"/>prius. Licet enim quantitas de se sit indifferens ad calorem, &amp; 
+      <lb ed="#S" n="28"/>frigus: tamen quantitas, vt est ignis, determinat sibi calorem, vt 
+      <lb ed="#S" n="29"/>est aquae, determinat sibi frigus: &amp; per corruptionem qua 
+      <lb ed="#S" n="30"/>litatis connaturalis, &amp; per aduentum contrarie naturaliter 
+      <lb ed="#S" n="31"/>corrumpitur.
+    </p>
+            <p xml:id="khj78y-q38734-d1e722" n="22">
+      <!-- 22 -->secundo, potest dici, quod <sic>corrupitur</sic>
+               <lb ed="#S" n="32"/>corruptione materiae, siue subiecti, non actuali, sed aptitu 
+      <lb ed="#S" n="33"/>dinali: quia subiectum suum fuit corruptum, quando fuit 
+       conuer<lb ed="#S" break="no" n="34"/>sum: &amp; nihilominus quantitas mansit. sed quia quantitati 
+       ser<lb ed="#S" break="no" n="35"/>uaturidem esse, quod prius: quia esse est terminus corruptio 
+      <lb ed="#S" n="36"/>nis: omnibus modis, quibus prius poterat corrumpi, &amp; 
+      <lb ed="#S" n="37"/>nunc. Vnde omnis alteratio, quae corrumpisset subiectu, si 
+      <lb ed="#S" n="38"/>mansisset: corrupit ea, q manent, quia posset videri alicui, qui 
+      <lb ed="#S" n="39"/>sicut substatia est prior generatione, sic est posterior cor 
+      <lb ed="#S" n="40"/>ruptione. Cum enim accidens non sit naturaliter sine subie 
+      <lb ed="#S" n="41"/>cto: oportet prius esse substantiam, quae accidens. Alias esset an 
+      <lb ed="#S" n="42"/>te substantiam. Item oportet prius corrupi accides, quam 
+       subie<lb ed="#S" break="no" n="43"/>ctum. Alias remaneret post subiectum, &amp; sine subiecto. Di 
+      <lb ed="#S" n="44"/>citurautem accides corrumpi corruptione subiecti non sicut 
+      <lb ed="#S" n="45"/>per causam efficientem: qui praecedit effectum, sed sicut propter 
+      <lb ed="#S" n="46"/>finalem, quae sequit: vt sit sensus, quod quandocumque subiectum est 
+       corrum<lb ed="#S" n="47" break="no"/>pendum: prius omne accidens eis corrumpatur, quia haec est dis 
+      <lb ed="#S" n="48"/>positio ad corruptionem substantiae. Vnde accidens corrum 
+      <lb ed="#S" n="49"/>pitur propter substantiam corrumpendam, sicut generatur propter 
+      <lb ed="#S" n="50"/>generandam.
+    </p>
+            <p xml:id="khj78y-q38734-d1e770" n="23">
+      <!-- 23 -->Tertio, potest dici, quod corrumpitur per 
+      <lb ed="#S" n="51"/>diuisionem: quia licet quantitas, vt quantitas est, sit diuisibilis 
+      <lb ed="#S" n="52"/>in infinitum: tamen, vt naturalis est, habet minimum. Et quia per 
+      <lb ed="#S" n="53"/>naturam potest quantitas ab omni qualitate naturali 
+       separa<lb ed="#S" break="no" n="54"/>ri: quia per diuisionem fieri potest, vt nulla qualitas naturalis 
+      <lb ed="#S" n="55"/>remaneat: quia in omni tali est dare minimum: per conse 
+      <lb ed="#S" n="56"/>quens corrupta omni qualitate corrupitur quantitas: quae 
+      <lb ed="#S" n="57"/>a qualitate omni separari non pont: quia omnium natura con 
+      <lb ed="#S" n="58"/>stantium est terminus. Et ideo per idem quarto dici potest, 
+      <lb ed="#S" n="59"/>quod corrumpitur per augmentationem. Quia enim quantitas 
+      <lb ed="#S" n="60"/>retinet idem esse, &amp; eiusdem naturae, quod prius habuit: quia 
+      <lb ed="#S" n="61"/>secundum quod erat talis, &amp; talium qualitatum erat 
+       diminuibi<lb ed="#S" break="no" n="62"/>lis, &amp; augmentabilis vsque ad certum terminum, vltra quem non 
+      <lb ed="#S" n="63"/>poterat manere in illo subiecto, nec cum illis qualitatib 
+      <lb ed="#S" n="64"/>naturalibus: sed corrumpitur: ita nunc per augmentum, &amp; 
+       di<lb ed="#S" break="no" n="65"/>minutionem perdens qualitates, perderet, &amp; perdidisset 
+       na<lb ed="#S" break="no" n="66"/>turale subiectum, &amp; sic corrumperetur.
+    </p>
+            <p xml:id="khj78y-q38734-d1e809" n="24">
+      <!-- 24 -->Tertia con 
+      <lb ed="#S" n="67"/>clusio est, quod ex eis potest aliquid generari, &amp; nutriri: licet 
+      <!--0150.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>quidam dicant, quod sola virtute diuina potest ex eis aliquid 
+      <lb ed="#S" n="69"/>generari. Et sine dubio non sic potest poni, quod natura ex eis 
+      <lb ed="#S" n="70"/>generet, sicut quod natura per eas generet. In his em̃, in qui 
+      <lb ed="#S" n="71"/>bus natura inferior, &amp; particularis defieit: natura supe 
+      <lb ed="#S" n="72"/>rior, &amp; vniuersalis subuenit, ne sit monstrum in natura. 
+      <lb ed="#S" n="73"/>Vnde quia esse corruptionem sie generatione, nisi in nutri 
+      <lb ed="#S" n="74"/>trione, est monstrum in natura maius, quam esse vacuum: cum ad 
+      <lb ed="#S" n="75"/>illud sequat, vel materiam esse sine forma, vl'ipsam annul 
+      <lb ed="#S" n="76"/>lari, &amp; corrumpi. Ideo postquam species corrumpunt illud, in 
+      <lb ed="#S" n="77"/>quod agebantur pata species vini modicam quantitatem aquae 
+      <lb ed="#S" n="78"/>natura superior, vel ipsae species in virtute naturae 
+       supe<lb ed="#S" break="no" n="79"/>rioris creatae inducunt formam vini materiam: sicut graue 
+      <lb ed="#S" n="80"/>moueret sursum, ne esset vacuum. sed vbi natura creata 
+      <lb ed="#S" n="81"/>non potest, oportet ad Deum recurrere. sic autem est in pro 
+      <lb ed="#S" n="82"/>ductione materiae. Vnde cum ex his speciebus aliquid 
+       ge<lb ed="#S" break="no" n="83"/>neratur: materia, quae est in genito autem per creationem, &amp; 
+      <lb ed="#S" n="84"/>sic est a solo Deo: aut per conuersionem specieru in 
+       mate<lb ed="#S" break="no" n="85"/>riam, &amp; nec hoc potest natura: sed si Deus potest annihi 
+      <lb ed="#S" n="86"/>latum idem numero reparare: cum minus sit conuerti, quam 
+       an<lb ed="#S" break="no" n="87"/>nihilari: potest multo magis materiam conuersam candem 
+      <lb ed="#S" n="88"/>numero facere redire Nec oportet propter hoc corpus 
+      <lb ed="#S" n="89"/>Christi conuerti in panem: quia materia non fuit ipsi 
+       addi<lb ed="#S" break="no" n="90"/>ta, sicut fit in nutritione, imo etiam in nutritione Deus 
+      <lb ed="#S" n="91"/>posset materiam extrahere, quae fuit vnita, &amp; aquam de vi 
+      <lb ed="#S" n="92"/>no limphato.
+    </p>
+            <p xml:id="khj78y-q38734-d1e874" n="25">
+      <!-- 25 -->Vel posset dici, quod in omnibus 
+       ge<lb ed="#S" break="no" n="93"/>neratis ex speciebus esset forma substantialiscum 
+       acciden<lb ed="#S" break="no" n="94"/>tibus sine materia prima: quamuis melius videat, quod sit sta 
+      <lb ed="#S" n="95"/>tus in miraculis: nec vltra hoc sacramentum sit aliquid miracu 
+      <lb ed="#S" n="96"/>losum, sed redeatur ad statu naturae: Deo. scilicet materiam 
+       crean<lb ed="#S" break="no" n="97"/>te, vel reparante, vel in eam accidentia conuertente: 
+       quo<lb ed="#S" break="no" n="98"/>rum omnium creatio viderrationabilior, quia ad eam nihil 
+      <lb ed="#S" n="99"/>nouum sequitur: quod Deus nonfecerit alias: cum omnis ma 
+      <lb ed="#S" n="100"/>teria sit a Deo percreationom.
+    </p>
+            <p xml:id="khj78y-q38734-d1e896" n="26">
+      <!-- 26 -->Item de nutri 
+      <lb ed="#S" n="101"/>tione illi idem dicunt, quod de generatione, quia vel Deus 
+      <lb ed="#S" n="102"/>materiam creat, vel reparat, vel in eam accidentia 
+       conuer<lb ed="#S" break="no" n="103"/>tit. sed non oportet, quod virtute diuina fiant sub forma nu 
+      <lb ed="#S" n="104"/>tritioni:: sicut oportet, quod fiant simpliciter, quia materiam 
+      <lb ed="#S" n="105"/>de nouo creari, vel conuersam, vel annihilatam reparari 
+      <lb ed="#S" n="106"/>excedit virtutes naturae, &amp; plus creatio, quam reparatio. sed 
+      <lb ed="#S" n="107"/>quod materia facta fiat sub forma nutriti, naturale est, nec 
+      <lb ed="#S" n="108"/>excedit naturam formae, quod informet potentiam omnem suae 
+      <lb ed="#S" n="109"/>materiae coniunctam. Item non est imaginandum, quod prius 
+      <lb ed="#S" n="110"/>fiat materia sub speciebus, quam sub forma nutriti: quia tunc 
+      <lb ed="#S" n="111"/>desineret ibi esse torpus Christi manentibus speciebus, quod 
+      <lb ed="#S" n="112"/>non dicitur: quia si posset ibi esse manente materia, nulla 
+      <lb ed="#S" n="113"/>necessitas esset materiam conuerti propter praesentiam corpo 
+      <lb ed="#S" n="114"/>ris Christi. Nec iterum materia posset esse sub accidetibus 
+      <lb ed="#S" n="115"/>sine forma substantiali. Vnde cum sola materia necessa 
+      <lb ed="#S" n="116"/>ria sit ad hoc, quod ex speciebus fiat generatio, &amp; nutritio 
+      <lb ed="#S" n="117"/>ipsa sola redit: &amp; non prius, quam fiat sua forma nutriti, vel 
+      <lb ed="#S" n="118"/>geniti. Quod autem Tho. hic dicit non posse redire 
+       sub<lb ed="#S" break="no" n="119"/>stantiam panis, nec in toto, nec in parte: veru est per 
+       na<lb ed="#S" break="no" n="120"/>turam, vel per diuinam potentiam supposito, quod non possit idem 
+      <lb ed="#S" n="121"/>numero reparare annihillatu, ex quo principio hic 
+       pro<lb ed="#S" break="no" n="122"/>cedit. Alibi vero probat contrarium. Et secundu illud 
+       di<lb ed="#S" break="no" n="123"/>cendum est, quod multo magis potest reparare conuersum, quam 
+      <lb ed="#S" n="124"/>annihilatum, &amp; sicut productio characteris potest 
+       commu<lb ed="#S" break="no" n="125"/>nicari creature: non autem productio gratiae, sic &amp; 
+       restau<lb ed="#S" break="no" n="126"/>ratio conuersi: non reparatio annihilati: quia ex quo est 
+      <lb ed="#S" n="127"/>annihilatum est factum nihil. Ex nihilo aute creatura non 
+      <lb ed="#S" n="128"/>agit: sed quod est conuersum, &amp; non annihilatum non est 
+      <lb ed="#S" n="129"/>factum omnino nihil: sed est redactu in esse potentia 
+       obe<lb ed="#S" break="no" n="130"/>dientiali, &amp; si non naturuli: vnde forte potest communica 
+      <lb ed="#S" n="131"/>ri. Et sic illud, quod corrumpit species virtute Dei repa 
+      <lb ed="#S" n="132"/>rat ex eis materiam: quae in eis impossibili obedientiali 
+      <lb ed="#S" n="133"/>remansit. Nam si dicat, quod illud esse potetiale, in quo ma 
+      <lb ed="#S" n="134"/>teria remansit, est in corpore Christi, non in speciebus, 
+      <!--0151.xml-->
+      <pb ed="#S" n="151"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>cum corpus Christi a corrumpente species non attingat, 
+      <lb ed="#S" n="2"/>tunc a solo Deo fit illa reparatio. sed quando Thom. dicit, quod 
+      <lb ed="#S" n="3"/>species conuertuntur in materiam quantitati interminatae 
+      <lb ed="#S" n="4"/>datur natura materiae. scilicet potentia: videt sentire, quod esse istud 
+      <lb ed="#S" n="5"/>potentiale obedientiale remanet in speciebus: &amp; esse 
+       po<lb ed="#S" break="no" n="6"/>tentiale, naturale transit: quia quamuis esse potentiale 
+       natu<lb ed="#S" break="no" n="7"/>rale sit essentia materiae: nihil tamen prohibet esse aliquod 
+      <lb ed="#S" n="8"/>esse potentiale obedientiale, &amp; supernaturale: quod est alia 
+      <lb ed="#S" n="9"/>essentia a materia secundum hanc opinionem, quae ponit 
+      <lb ed="#S" n="10"/>formam, &amp; accidentia posse conuerti in materiam. 
+    </p>
+            <p xml:id="khj78y-q38734-d1e1003" n="27">
+               <lb ed="#S" n="11"/>
+               <!-- 27 -->Ad argumentum in oppositum dicendum, quod qualitas 
+      <lb ed="#S" n="12"/>corrupta non cedit in nihil, sed cedit in potentiam quantita 
+      <lb ed="#S" n="13"/>tis: &amp; illa corrupta in potentiam materiae creatae, vel rede 
+      <lb ed="#S" n="14"/>untis, aut in quam conuertit, &amp; sic non annihilatur. 
+    </p>
+            <p xml:id="khj78y-q38734-d1e1016" n="38">
+               <lb ed="#S" n="15"/>
+               <!-- 38 -->Quanuis etiam posset dici, quod licet natura forte 
+      <lb ed="#S" n="16"/>non agat ex nihilo: potest tamen per accidens annihilare, id 
+      <lb ed="#S" n="17"/>est facere corruptionem, ad quam sequitur annihilatio: vt 
+      <lb ed="#S" n="18"/>si pugillus terrae virtute stellae condensaretur maiori 
+       con<lb ed="#S" break="no" n="19"/>densatione, quam patiatur forma terre sequeretur corruptio: nec 
+      <lb ed="#S" n="20"/>sequeretur generatio: quia non potest esse corpus minus terra, 
+      <lb ed="#S" n="21"/>&amp; per consequens sequeretur annihilatio secundum  quosdam. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

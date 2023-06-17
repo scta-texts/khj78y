@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="210"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q60327"><!-- l4d17-q4 -->
+            <head xml:id="khj78y-q60327-Hd1e101">Quaestio 4</head>
+            <head xml:id="khj78y-q60327-Hd1e103" type="question-title">
+     an confessio 
+     possit fieri alieno sacerdoti, de licentia 
+     proprii sacerdotis
+   </head>
+            <p xml:id="khj78y-q60327-d1e106">
+      <!--0210.xml-->
+               <pb ed="#S" n="210"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>QVAESTIO QVARTA. 
+      <lb ed="#S" n="2"/>De confessione alieno sacerdoti facienda. 
+    </p>
+            <p xml:id="khj78y-q60327-d1e119">
+               <lb ed="#S" n="3"/>1Do. 4ar7. q.3. ar.3. ꝗ. 5.
+    </p>
+            <p xml:id="khj78y-q60327-d1e124">
+               <lb ed="#S" n="4"/>QVAERITVR quarto an confessio 
+      <lb ed="#S" n="5"/>possit fieri alieno sacerdoti, de licentia 
+       pro<lb ed="#S" break="no" n="6"/>prij sacerdotis: Et videtur quod non: quia 
+       pro<lb ed="#S" break="no" n="7"/>prius sacerdos est curatus, sed multi 
+       di<lb ed="#S" break="no" n="8"/>cunt, quod ipse non potest aduocare vicatium 
+      <lb ed="#S" n="9"/>nisi de licentia opi expressa vel interpretatiua. ergo. &amp;et 
+      <lb ed="#S" n="10"/>In contrarium est decre. Ois vtriusquesexus. a Respondeo: 
+      <lb ed="#S" n="11"/>circa hanc quaestionem, primo videndum est quis sit proprius 
+      <lb ed="#S" n="12"/>sacerdos, qui potest committere audientiam confessionum. 
+       secun<lb ed="#S" n="13" break="no"/>do supposito quod solus ordinarius sit huiusmodi, videndum 
+      <lb ed="#S" n="14"/>est quis sit ordinarius. Tertio du effectu commissionis. 
+    </p>
+            <p xml:id="khj78y-q60327-d1e151" n="3">
+               <lb ed="#S" n="15"/>
+               <!--3-->Quantum ad primum sunt tres conclusiones. Prima, quod 
+       om<lb ed="#S" n="16" break="no"/>nis proprius sacerdos qui lure ordinario potest audire 
+      <lb ed="#S" n="17"/>confessiones, potest hoc ipsum alterlcommittere: quia licet 
+      <lb ed="#S" n="18"/>causam meri imperij, qui eam habet iure ordinario, non 
+      <lb ed="#S" n="19"/>possit alteri committere, nisi quando absentare se habet. ff. 
+      <lb ed="#S" n="20"/>de off.eius cui mandata est iuris. l. i. tamen non solum 
+       modi<lb ed="#S" break="no" n="21"/>ca peccata sed quaecunque grauissima, quae quis iure ort 
+      <lb ed="#S" n="22"/>nario potest audire, potest alij committere, sicut &amp; absolu 
+      <lb ed="#S" n="23"/>tionem a leui iniectione. de offi. ordi. c. vlt. vbi dicitur, q 
+      <lb ed="#S" n="24"/>quibus ex officio competit absoluere ab iniectione, 
+       pos<lb ed="#S" break="no" n="25"/>sunt hoc alijs committere, quando sibi videbitur expedire. 
+      <lb ed="#S" n="26"/>vocat autem ex officio, quando iure ordinario:: quod patet 
+      <lb ed="#S" n="27"/>ex rubrica.
+    </p>
+            <p xml:id="khj78y-q60327-d1e184" n="4">
+      <!-- 4 -->secunda conclusio est. quod qui est proprius 
+      <lb ed="#S" n="28"/>sacerdor solum ex commissione, nunquam potest audientiam com 
+      <lb ed="#S" n="29"/>mittere, etiam in illo casu vbi inforo exteriori potest sub 
+      <lb ed="#S" n="30"/>delegare, puta quando est datus ad vniuersitatem 
+       causa<lb ed="#S" break="no" n="31"/>rum. ff. quis &amp; a quo appel. l. 2. sicut officialis vel 
+       qui<lb ed="#S" break="no" n="32"/>cunquealius delegatus: quia dubium est de officiali vtrum 
+      <lb ed="#S" n="33"/>sit ordinarius, potest vnam de illis committere. Et similiter 
+      <lb ed="#S" n="34"/>delegatus principis potest subdelegare. C. de iudicijs. l. 
+      <lb ed="#S" n="35"/>A iudice. 6. a principe. sed qui habet confessiones 
+       audi<lb ed="#S" break="no" n="36"/>re tantum ex commissione, siue sit ad vniuersitatem causarum, si 
+      <lb ed="#S" n="37"/>cut episcopus dat alicui potestatem suam per totam dicces. 
+      <lb ed="#S" n="38"/>extri de of. or. Inter caetera. vbi dicitur, quod episcopus debet 
+       vi<lb ed="#S" break="no" n="39"/>ros idoneos mittere ad praedicandum, cum auctoritate con 
+      <lb ed="#S" n="40"/>fessiones audiendi, isti inquam non possunt nec vnius 
+       confes<lb ed="#S" break="no" n="41"/>sionis audientiam delegare: similiter si Papa alicui 
+       commit<lb ed="#S" break="no" n="42"/>tat, quod possit confessiones audire, si potest ille alteri commit 
+      <lb ed="#S" n="43"/>tere. Et sic intelligitur de offi. deleg. c. vlt. vbi inter alia 
+      <lb ed="#S" n="44"/>quae delegatus non potest subdelegare, numeratur poenitentias 
+      <lb ed="#S" n="45"/>iniungere.
+    </p>
+            <p xml:id="khj78y-q60327-d1e228" n="5">
+      <!-- 5 -->Tertia conclusio est de signo &amp; exemplo 
+      <lb ed="#S" n="46"/>secundae conclusionis: quod apparet: quia legatus eo quod est 
+      <lb ed="#S" n="47"/>ordinarius habet suos poenitentarios: sicut in exterioribus datiu 
+      <lb ed="#S" n="48"/>dices delegatos: quia ipse est ordiuarius in vtroqueforo, 
+      <lb ed="#S" n="49"/>sed summus poenitentiarius est etiam ordinarius, sed tantum in spiritu
+       a<lb ed="#S" break="no" n="50"/>libus. Vnde habet poenitentiarios suos, &amp; dat licentiam eli 
+      <lb ed="#S" n="51"/>gendi confessores: sed simplices poenitentiarij Pape, quamuis sint de 
+      <lb ed="#S" n="52"/>legati Papae: qui solus ponit eos non summus poenitentarius: &amp; 
+      <lb ed="#S" n="53"/>quamuis sint ad vniuersitatem confessionum totius mundi, non 
+      <lb ed="#S" n="54"/>tamen sibi ipsi possunt assumere coadiutores: nec dant licentiam 
+      <lb ed="#S" n="55"/>eligendi confessorem.
+    </p>
+            <p xml:id="khj78y-q60327-d1e254" n="6">
+      <!-- 6 -->Circa secundum quis est ordina 
+      <lb ed="#S" n="56"/>rius: sunt septem conclusiones. Prima conclusio est, quod quicumque 
+      <lb ed="#S" n="57"/>per electionem habet curam animarum est ordinarius, &amp; per con 
+      <lb ed="#S" n="58"/>sequens potest sententiare quemlibet suae curae alteri confiteri. 
+    </p>
+            <p xml:id="khj78y-q60327-d1e265" n="7">
+               <lb ed="#S" n="59"/>
+               <!-- 7 -->secunda conclusio est, quod ordinarius quicumque ex officio 
+      <lb ed="#S" n="60"/>sibi annexo hoc habet: licet non sit per electionem. Tertia 
+      <lb ed="#S" n="61"/>conclusio est, quod qui vicem curati gerit per legem vel 
+       consuetudi<lb ed="#S" break="no" n="62"/>nem, sicut prior qui viuente abbate erat delegatus non potens 
+      <lb ed="#S" n="63"/>subdelegare, eo mortuo vel amoto vices eius in omnibus 
+       ob<lb ed="#S" break="no" n="64"/>tinens: est quasi ordinarius quantum ad hoc. C. de eo qui 
+       vi<lb ed="#S" break="no" n="65"/>cem. l. 2.
+    </p>
+            <p xml:id="khj78y-q60327-d1e285" n="8">
+      <!-- 8 -->Quarta conclusio est in speciali: qui archidia- 
+      <!--0210.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="66"/>conus licent sitludex ordinarius de consuetudine, tamen non in 
+      <lb ed="#S" n="67"/>foro conscientie: etium si sacerdos, quia hoc accidit suae 
+       po<lb ed="#S" break="no" n="68"/>testati, vnde si potest audiret hoc est ex commissione &amp; sic non praes 
+      <lb ed="#S" n="69"/>subdelegare.
+    </p>
+            <p xml:id="khj78y-q60327-d1e304" n="9">
+      <!-- 9 -->Quinta conclusio est de 
+       archipresbyte<lb ed="#S" break="no" n="70"/>ro ciuitatis de quo iura loquuntur, quia videtur quod sit 
+       ordi<lb ed="#S" break="no" n="71"/>narius: sicut si esset vna praebenda sacerdotalis: cui ex 
+       offi<lb ed="#S" break="no" n="72"/>tio esset annexum officium audiendi confessiones illorum de 
+      <lb ed="#S" n="73"/>dicec. extra ciuitatem, &amp; multo magis si de ciuitate. sed fi 
+      <lb ed="#S" n="74"/>poenitentarius non habet officium ex sua praebenda: sed solum ex 
+       con<lb ed="#S" break="no" n="75"/>missione viuae vocis episcopi,  qui reuocat quando vult, quia 
+       iudi<lb ed="#S" break="no" n="76"/>cium soluitur vetante eo qui iudicare iussit: talis est delegat: 
+      <lb ed="#S" n="77"/>licet ad vniuersitatem causarum.
+    </p>
+            <p xml:id="khj78y-q60327-d1e326" n="10">
+      <!-- 10 -->sexta conclusio est, quod 
+      <lb ed="#S" n="78"/>decanus ruralis qui &amp; archipresbyter vocat, si iste decana 
+      <lb ed="#S" n="79"/>tus sit annexus alicui curae speciali: repusatur ordinarius in 
+      <lb ed="#S" n="80"/>parochijs sui decanatus post episcopum supra curatos etiam vide 
+      <lb ed="#S" n="81"/>tur esse ordinarius curatorum, &amp; sic curati de licentia eius non 
+      <lb ed="#S" n="82"/>solum episcopi possunt confiteri. si autem epraes vel archidiaconus confers 
+      <lb ed="#S" n="83"/>illum decanatum modo huic curato, modo illit videi delega 
+      <lb ed="#S" n="84"/>tio, &amp; hoc resoectu casuum communium. Nam respectu casuum 
+      <lb ed="#S" n="85"/>epalium tam de curato quae de decano, quibus ex spidi gratia 
+       con<lb ed="#S" break="no" n="86"/>mittit absoluere, de illis videt distineuendi, an sint 
+       reten<lb ed="#S" break="no" n="87"/>ti de iure vel de consuetudine, &amp; tunc in illis de se nullum 
+      <lb ed="#S" n="88"/>ius habet inforidr epo. Vnde cuicunqueillos committit, po 
+      <lb ed="#S" n="89"/>testate delegata absoluit. si autem ipse illos casus sibi reti 
+      <lb ed="#S" n="90"/>nuit generaliter ab alijs amouens, sed quibusdam curatis aut 
+      <lb ed="#S" n="91"/>decanis illos committens videtur ordinarie de illis casibus 
+      <lb ed="#S" n="92"/>cognoscere. sed si postquam ab dibus amouisset, postea 
+       fin<lb ed="#S" break="no" n="93"/>gulariter aliqulbus eficoderet, videretur mera delegatio- 
+    </p>
+            <p xml:id="khj78y-q60327-d1e365" n="11">
+               <lb ed="#S" n="94"/>
+               <!-- 11 -->septima conclusio corollaria est, quod quando ordinarius 
+       con<lb ed="#S" break="no" n="95"/>tra exemptos in haeresi procedit, quamuis sint exempti ab homine 
+      <lb ed="#S" n="96"/>non a iure, dicitur in auctoritate Pape quasi delegat hoc 
+      <lb ed="#S" n="97"/>facere de haereticis. Ad abolendam. in fi. quamuis diceces. 
+       pu<lb ed="#S" break="no" n="98"/>dent in hoc facto: se iure ordinario procedere. Circa ter 
+      <lb ed="#S" n="99"/>tium de effectu commissionis sunt septem conclufiones.
+    </p>
+            <p xml:id="khj78y-q60327-d1e383" n="12">
+      <!-- 12 -->
+       Pri<lb ed="#S" break="no" n="100"/>ma: quino: sunt effectus commissionis. Vnde primus 
+       effe<lb ed="#S" break="no" n="101"/>ctus commissionis &amp; delegationis est, quod potest commissarius 
+      <lb ed="#S" n="102"/>absoluere licentia alterius minime requisita indifferenter, 
+      <lb ed="#S" n="103"/>siue sit superior siue inferior. sic ci curatus si est 
+       ordi<lb ed="#S" break="no" n="104"/>narius, potest committere audientiam confessionum sine 
+       licen<lb ed="#S" break="no" n="105"/>tia epraei, sicut econuerso: quia omnis  iurisdictio ordinaria potest 
+      <lb ed="#S" n="106"/>alteri committi ab eo qui habet eam in solidum, siue assensu 
+       con<lb ed="#S" break="no" n="107"/>paris: licet secus sit iti ea quae habetur in coni.
+    </p>
+            <p xml:id="khj78y-q60327-d1e405" n="13">
+      <!-- 13 -->Vbi 
+       scien<lb ed="#S" break="no" n="108"/>dum, quod quando potestas iurisdictionis est apud plures vna, &amp; 
+      <lb ed="#S" n="109"/>non apud quemlibet in solidum, tunc non potest quilibet per se eam 
+      <lb ed="#S" n="110"/>committere sine consensu aliorum: sed quod omnes tangit ab 
+       omni<lb ed="#S" n="111" break="no"/>bus debet approbari: vt si capitulum vacunte sede gerat 
+       vi<lb ed="#S" break="no" n="112"/>ces episcopi in tpalibus, nullus de capitulo etiam decanus sine 
+      <lb ed="#S" n="113"/>alijs praet ponere officialem: sed capitulum de cosensu maioris 
+      <lb ed="#S" n="114"/>partis. Quod autem iurisdictio perfecte &amp; insolidum residet 
+      <lb ed="#S" n="115"/>apud quemlibet, ita quod vnus sine alio potest per seipsum de 
+      <lb ed="#S" n="116"/>causa cognoscere, tunc vnus sine alio potest cui vult 
+       commit<lb ed="#S" n="117" break="no"/>tere: etiam minor sine maiore, &amp; multomagis econuerso. 
+       si<lb ed="#S" break="no" n="118"/>cut epraes ponit officialem sine archidiacono, &amp; econuerso. 
+      <lb ed="#S" n="119"/>Nunc aut potestas absoluendi a peccatis vna &amp; eadem potest 
+      <lb ed="#S" n="120"/>esse apud plures, vt sunt vnum: sicut penes capitulum, sede 
+      <lb ed="#S" n="121"/>vacante: quando habet potestatem eius in spiritualibus: dico quantum 
+      <lb ed="#S" n="122"/>ad commissionem, non quantum ad executionem: quia confessio 
+      <lb ed="#S" n="123"/>facienda est soli. Vnde totum capitulum non vnus canonicu 
+      <lb ed="#S" n="124"/>ponet poenitentiarium. sed potestas absoluendi quae est apud 
+       cu<lb ed="#S" break="no" n="125"/>ratum, Papam, epraem, non est vna, sed quilibet potest per se 
+       audi<lb ed="#S" break="no" n="126"/>re: &amp; per consequens per se sine consensu alterius committere. 
+      <lb ed="#S" n="127"/>Vnde vicarius curati sine licentia episcopi potest audire confessio 
+      <lb ed="#S" n="128"/>nes, &amp; multomagis econuerso. De hoc autem extat bullata 
+      <lb ed="#S" n="129"/>declaratio clemem. Alex. post cuius bullationem nullus 
+       Pa<lb ed="#S" n="130" break="no"/>risijs dixit contrarium: quia disputare de principali iudicio 
+      <lb ed="#S" n="131"/>non oportet, &amp; iniuriam facit iudicio reuerendissimae 
+       syno<lb ed="#S" break="no" n="132"/>di, qui semel diffinita retractare praesumit. Vnde quidam 
+      <!--0211.xml-->
+      <pb ed="#S" n="211"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>magister determinaturus contrarium, audita declaratione 
+      <lb ed="#S" n="2"/>hac dimisit.
+    </p>
+            <p xml:id="khj78y-q60327-d1e475" n="14">
+      <!-- 14 -->Ad idem est declaratio Benedicti per 
+       con<lb ed="#S" n="3" break="no"/>stitutionem quae incipit. Inter cunctas. Vbi dicit, quod fratres 
+      <lb ed="#S" n="4"/>electi auctoritate apostolica, possunt confessiones audire 
+      <lb ed="#S" n="5"/>absque licentia dicecesanorum &amp; inferiorum.
+    </p>
+            <p xml:id="khj78y-q60327-d1e487" n="15">
+      <!-- 15 -->Ad idem est 
+      <lb ed="#S" n="6"/>extra de priuilegijs. c. In his quae ad culpam. Vbi Papa 
+       re<lb ed="#S" break="no" n="7"/>praehendit illos, qui priuilegium concessum a Papa fratribus, 
+      <lb ed="#S" n="8"/>de celebrando vbicunque cum altari portatili, 
+       interpretaban<lb ed="#S" n="9" break="no"/>tur quod praeter affensum praelatorum fratres hoc non possent. 
+      <lb ed="#S" n="10"/>Tunc enim intelligentia Papae nihil eis valeret: cum sine ea 
+      <lb ed="#S" n="11"/>solo assensu praelatorum idem possent. Et ideo vt 
+       indulgen<lb ed="#S" break="no" n="12"/>tia eis aliquid valeat declarat Papa, quod sine praelatorum 
+       li<lb ed="#S" break="no" n="13"/>centia possunt celebrare: ita quod ex dicta intelligentia 
+       vi<lb ed="#S" break="no" n="14"/>deantur aliquam gratiam consecuti. Ita &amp; in proposito 
+       dicen<lb ed="#S" break="no" n="15"/>dum, quod habentes auctoritatem superiorum, possunt audire 
+       si<lb ed="#S" break="no" n="16"/>ne licentia inferiorum. Aliter ex concessione superioris 
+       nul<lb ed="#S" n="17" break="no"/>lam essent gratiam consecuti: cum sine illa possent audire de li 
+      <lb ed="#S" n="18"/>eencla inferiorum. Et per hoc potest responderi ad 
+       decreta<lb ed="#S" break="no" n="19"/>lem in eo ti. Pastoralis: quae videtur esse ad oppositum. Ibi 
+      <lb ed="#S" n="20"/>em̃ dicitur, quod religiosi quibus est a Papa concessum, quod Ec 
+      <lb ed="#S" n="21"/>clesias suas possunt in alios vsus conuertere, decedentibus 
+      <lb ed="#S" n="22"/>personis earum, nisi plus exprimatur: non punt intrare 
+       pos<lb ed="#S" break="no" n="23"/>sessionem epo inconsulto: quia per indulgentiam istam non in 
+      <lb ed="#S" n="24"/>telligitur iuri epali derogari. Ita &amp; in proposito, per con 
+      <lb ed="#S" n="25"/>cessionem factam in superiore confessiones audiendi, non est 
+      <lb ed="#S" n="26"/>derogatum inferiori: imo eo inconsulto non debet suus 
+       pa<lb ed="#S" break="no" n="27"/>rochianus audiri. Et dicendum, quod non est simile, quia ibi 
+      <lb ed="#S" n="28"/>indu lgentia Pape habet gratiam, &amp; effectum que ad proprie 
+      <lb ed="#S" n="29"/>tatem: licet in possesaionem non debeat intrare sine episcopi assen 
+      <lb ed="#S" n="30"/>su: qui solus assensus non daret eis ius illud. sed in propo 
+      <lb ed="#S" n="31"/>sito aliter est, vt dictum est.
+    </p>
+            <p xml:id="khj78y-q60327-d1e548" n="16">
+      <!-- 16 -->Per idem potest responderi 
+      <lb ed="#S" n="32"/>ad id quod habetur de Iudeis, quae sit laudabile, vbi Papa 
+      <lb ed="#S" n="33"/>concedit epraeo eunti ad praedicandum paganis, quod quicunque 
+      <lb ed="#S" n="34"/>clerici vel religiosi sibi voluerit adhaerere, quod possunt cum 
+      <lb ed="#S" n="35"/>eo praedicare. sed ibidem dicitur requisita &amp; habita praela 
+      <lb ed="#S" n="36"/>torum suorum licentia. Ibi enim praelatorum licentia fine 
+       au<lb ed="#S" break="no" n="37"/>ctoritate Papae non sufficiebat, ad praedicandum extra 
+       dice<lb ed="#S" break="no" n="38"/>ces. eorum paganis: sed requiritur auctoritas Papae cuius 
+      <lb ed="#S" n="39"/>dicece. est tota terra. Ex alia parte licentia praedicandi 
+      <lb ed="#S" n="40"/>data a Papa inferiori, non eximit eum a suo superiori, sine 
+      <lb ed="#S" n="41"/>cuius licentia non debet peregrinari de iure coni. Et est 
+      <lb ed="#S" n="42"/>bonum argumentum, quod religiosus non debet audire confessio 
+      <lb ed="#S" n="43"/>nem. nec praedicare sine licentia sui abbatis vel prioris, 
+      <lb ed="#S" n="44"/>quantumcunque habet potestatem ab epo vel Papa. sed econ 
+      <lb ed="#S" n="45"/>uerso sine licentia praelati inferioris illorum, quibus 
+       prae<lb ed="#S" break="no" n="46"/>dicat &amp; quorum confessiones audit hoc potest facere. Et ista 
+      <lb ed="#S" n="47"/>est secunda solutio bona.
+    </p>
+            <p xml:id="khj78y-q60327-d1e587" n="17">
+      <!-- 17 -->Nec obstat, quod debet agno 
+      <lb ed="#S" n="48"/>scere vultum, pecoris sui, nec poterit reddere rationem de pe 
+      <lb ed="#S" n="49"/>coribus sibi commissis: quia dico quod multo melius quam de 
+       au<lb ed="#S" break="no" n="50"/>ditis a se vel suo vicario. Nam vultum exteriorem ita potest 
+      <lb ed="#S" n="51"/>intueri, &amp; agnoscere sicut prius, &amp; corrigere fraterna cor 
+      <lb ed="#S" n="52"/>rectione, &amp; paterna admonitione, sicut prius: &amp; quantum 
+      <lb ed="#S" n="53"/>ad exteriorem vultum attinet, non minus honeste viuunt qui 
+      <lb ed="#S" n="54"/>confitentur fratribus quam qui curatis. secundo quantum ad 
+      <lb ed="#S" n="55"/>interiorem melius, quia de interiori vultu parochianorum 
+      <lb ed="#S" n="56"/>nui se respuerunt, &amp; sine licentia sui vicarij, Papae, vel episcopi 
+      <lb ed="#S" n="57"/>elegerunt: non habent reddere rationem: quia per eos non 
+       ste<lb ed="#S" break="no" n="58"/>tit, quo minus eos audirent &amp; instruerent, sed per 
+       superio<lb ed="#S" break="no" n="59"/>rem qui coadiutores eis dedit. Et per parochianum qui eos 
+      <lb ed="#S" n="60"/>elegit: sicut si dominus mandat pastori, vt admittat extraneum 
+      <lb ed="#S" n="61"/>ad custodiam ouium. ouas ipse sibi elegit, &amp; quae eum sen 
+       nolue<lb ed="#S" break="no" n="62"/>runt: &amp; fecerit, ab illorum custodia absolutus est pastor, &amp; 
+      <lb ed="#S" n="63"/>tenetur ille qui suscipit. sed si curatus dedit licentiam 
+       pa<lb ed="#S" break="no" n="64"/>rochiano ad libitum confessorem eligend i, imputatur ei qui 
+      <lb ed="#S" n="65"/>ouem permisit errare libere, si praecipitium elegerit, nisi 
+       for<lb ed="#S" break="no" n="66"/>te esset talis persona, quae discreta &amp; bona appareret. si 
+      <lb ed="#S" n="67"/>etiam nominauit sibi indiscretum vel minus bonum, aut minus 
+      <!--0211.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>bonum vicarium sibi instituit, quod qui parum diligenti socio rem 
+      <lb ed="#S" n="69"/>suam custodiendam commisit, suae facilitati imputare debet. 
+      <lb ed="#S" n="70"/>Institu. quibus modis re contrahitur ob. 6. penul &amp; de 
+       so<lb ed="#S" break="no" n="71"/>cietate. 6. vlti. similiter de eo qui sibi cofessus est, si 
+       pla<lb ed="#S" break="no" n="72"/>gis sauciati nesciunt vinum &amp; oleum infundere: imperitia 
+      <lb ed="#S" n="73"/>culpae annumeranda est. Et sicut medico casus 
+       facilita<lb ed="#S" break="no" n="74"/>tis imputari non debet, sic sibi imputat si omisit aliquid 
+      <lb ed="#S" n="75"/>de contingentibus. si ergo parochianus petit licentiam 
+       al<lb ed="#S" break="no" n="76"/>teri confitendi indeterminate: non det, nisi sit verisimileque 
+      <lb ed="#S" n="77"/>petens non eligeret nisi aeque bonum vel meliorem. si autem 
+      <lb ed="#S" n="78"/>nominet sibi aliquem: de quo verisimile est, quod sit aeque bo 
+      <lb ed="#S" n="79"/>nus vel melior ad confessionem audienda, non neget: quia 
+      <lb ed="#S" n="80"/>forte habet peccatum quod erubescit confiteri, &amp; prius 
+       mo<lb ed="#S" break="no" n="81"/>reretur sine confestione. si vero apparet, quod non est aeque 
+      <lb ed="#S" n="82"/>bonus, aut per famam aut per visum suae personae: aut per 
+      <lb ed="#S" n="83"/>conuersationem personarum sibi confitentium: quae minus re 
+      <lb ed="#S" n="84"/>ligiose conuersantur: tunc simpliciter debet negare, inno 
+      <lb ed="#S" n="85"/>tescendo quod ille non potest absoluere, &amp; dicere quod est 
+       para<lb ed="#S" break="no" n="86"/>tus audire, vel vnum de vicarijs dare, vel extraneum dum ta 
+      <lb ed="#S" n="87"/>mem idoneum. si autem ille petitus est diffamantus &amp; habet 
+      <lb ed="#S" n="88"/>potestatem superioris non est prohibendum simpliciter: quia 
+      <lb ed="#S" n="89"/>iudex malus ordinarius vel delegatus non perdit 
+       iurisdi<lb ed="#S" break="no" n="90"/>ctionem suam, sed debet dicere petenti, non expedit tibi quod 
+       va<lb ed="#S" break="no" n="91"/>das ad illum: nec ibis de voluntate mea, nec de licentia: li 
+      <lb ed="#S" n="92"/>cet non possim te prohibere: quia potestatem habet a maio 
+      <lb ed="#S" n="93"/>re. sum autem paratus te audire vel alium vicarium dare. 
+      <lb ed="#S" n="94"/>Et hoc modo soluitur illud dictum, quod non potest esse 
+       pasto<lb ed="#S" break="no" n="95"/>ris excusatio: si lupus oues comedit, &amp; pastor nescit: 
+       ve<lb ed="#S" break="no" n="96"/>rum est quando pastor scire debet &amp; potest. Et licet aliquis debeat 
+      <lb ed="#S" n="97"/>semper reputare alium meliorem se simpliciter, non tamen quantum 
+      <lb ed="#S" n="98"/>ad omnia, puta quantum ad officium hoc vel illud. Iterum suspitiones 
+      <lb ed="#S" n="99"/>nos habere possumus: non ad iudicandum proximum: sed ad 
+      <lb ed="#S" n="100"/>nobis cauendum: vt videre canes, videre malos operarios. 
+      <lb ed="#S" n="101"/>si video pauperem non iudicabo furem: tamen ne forte sit fur 
+      <lb ed="#S" n="102"/>custodiam rem meam ab ipso, sic est in proposito. Tamem nisi 
+      <lb ed="#S" n="103"/>contrarium appareat, plus debet hoc praesumere de his 
+       quo<lb ed="#S" break="no" n="104"/>Papa vel epa per totam dicece. praeficit, quae de se qui ad vnam 
+      <lb ed="#S" n="105"/>paruam parochiam deputatur.
+    </p>
+            <p xml:id="khj78y-q60327-d1e722" n="18">
+      <!-- 18 -->sciendum autem, quod in ab 
+      <lb ed="#S" n="106"/>solutione poenitentiali principaliter consideratur potestas 
+      <lb ed="#S" n="107"/>ordinis: secundario potestas iurisdictionis. Vnde siue de 
+      <lb ed="#S" n="108"/>tur confessori licentia audiendi: siue confitenti licentia con 
+      <lb ed="#S" n="109"/>fitendi, vel confessorem eligendi, sufficit quia tunc quasi 
+       ce<lb ed="#S" break="no" n="110"/>dit alijs ius suum. Et hunc modum tradit consilium. Omnis 
+      <lb ed="#S" n="111"/>vtriusquesexus. secus autem est in foro exteriori, vbi tantum 
+      <lb ed="#S" n="112"/>consideratur potestas iurisdictionis. Vnde si epraesdaret 
+       li<lb ed="#S" break="no" n="113"/>centiam clerico litigandi coram quocunque vellet, &amp; eligeres 
+      <lb ed="#S" n="114"/>priuatum, non propter hoc haberet ille iurisdicttionem, sed so 
+      <lb ed="#S" n="115"/>lum remittit ius suum, in quo sine eius consensu non potest 
+       pro<lb ed="#S" break="no" n="116"/>rogare iurisdictionem alterius in se. Vnde hoc facto est 
+       li<lb ed="#S" break="no" n="117"/>ber sicut laicus. Priuatorum autem consensus iudicem non facis 
+      <lb ed="#S" n="118"/>illum, qui nulli praeest iurisdictioni: licet possit facere 
+       ar<lb ed="#S" break="no" n="119"/>bitrium. secundus effectus huius commissionis &amp; delegatio 
+      <lb ed="#S" n="120"/>nis est, quod commissarius potest audire contra prohibitionem 
+      <lb ed="#S" n="121"/>alterius praelati: in quo est differentia inter superiorem &amp; 
+      <lb ed="#S" n="122"/>inferiorem. Nam inferior contra inhibitionem superioris non 
+      <lb ed="#S" n="123"/>potest alij committere, sicut nec per seipsum audire, cum ita 
+      <lb ed="#S" n="124"/>possit eum suspendere ab audientia per alium, sicut per seip 
+      <lb ed="#S" n="125"/>sum: econuerso autem contra inhibitionem inferioris superior 
+      <lb ed="#S" n="126"/>potest committere: quia sicut eo inuito potest per se 
+       audi<lb ed="#S" break="no" n="127"/>re: ita &amp; committere. similiter si essent duo curati de pari: 
+      <lb ed="#S" n="128"/>&amp; vtriquein solidum vnus contra inhibitionem alterius potest 
+      <lb ed="#S" n="129"/>audire &amp; committere: quia par in parem non habet imperium. 
+      <lb ed="#S" n="130"/>ff. de arbi. l. Nam &amp; magistratus. Vtrum autem praelatus pos 
+      <lb ed="#S" n="131"/>sit inhibere, ne sine licentia sua subditus confiteatur alte 
+      <lb ed="#S" n="132"/>ri: dicendum quod non, nisi ille praelatus qui non habet superio 
+      <lb ed="#S" n="133"/>rem: quia nullus potest imponere legem superiori, sed bene 
+      <lb ed="#S" n="134"/>econuerso: imo etiam si Papa faceret hanc prohibitionem, esset 
+      <!--0212.xml-->
+      <pb ed="#S" n="212"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>intolerabilis error expressus: quod de toto mundo omnes 
+       habe<lb ed="#S" break="no" n="2"/>rentad ipsum recurrere de omnibus. Vnde inferior qui 
+       pro<lb ed="#S" break="no" n="3"/>hibet, ne subditus confiteatur cuicunquesine licentia sua: 
+      <lb ed="#S" n="4"/>debet excipere nisi superiori, vel eius vicario: alias teme 
+      <lb ed="#S" n="5"/>re agit: nisi loqueretur talibus, qui bene sciunt, quod non 
+       inten<lb ed="#S" break="no" n="6"/>dit vel non potest prohibere subditum: qui confiteatur si vult 
+      <lb ed="#S" n="7"/>superlori vel vicario superioris: sicut in religionibus 
+      <lb ed="#S" n="8"/>prior conuentualis inhibet, ne quis confiteatur de tali pec 
+      <lb ed="#S" n="9"/>cato sine licentia sua: certum est omnibus, quod non intendit quin 
+      <lb ed="#S" n="10"/>possit quilibet confiteri prouinciali, &amp; magistro ordinis, 
+      <lb ed="#S" n="11"/>&amp; eorum vicarijs: quod si prohiberet, spueremus sibi in fa 
+      <lb ed="#S" n="12"/>ciem. Et multo magis superior qui non potest dare licentiam 
+      <lb ed="#S" n="13"/>alteri confitendi: cum sit vicarius hominis, quandiu prior viuit. 
+      <lb ed="#S" n="14"/>si inhiberet ne quis sine licentia sua confiteretur alteri, 
+      <lb ed="#S" n="15"/>derideretur. sed priore amoto vel mortuo, vices eius ge 
+      <lb ed="#S" n="16"/>rit per constitutiones. Vnde reputatur ordinarius. Vnde 
+      <lb ed="#S" n="17"/>sic prohibentes faciunt contra declarationem Papae. Inter cun 
+      <lb ed="#S" n="18"/>ctas: quod est haereticum: ex quo est semel declaratum: sicut 
+      <lb ed="#S" n="19"/>de notionibus. &amp;c. Vnde curatus sic prohibens debet exci 
+      <lb ed="#S" n="20"/>pere epm: legatum, Papam, summum poenitentiarium &amp; 
+       archi<lb ed="#S" break="no" n="21"/>episcopum, dum visitat, &amp; habentes ab eis potestatem. Epraes vero 
+       prae<lb ed="#S" break="no" n="22"/>dictos: nisi seipsum. Et sic oportet quod quilibet excipiat su 
+      <lb ed="#S" n="23"/>os superiores. Vbi sciendum est, quod ante constitutionem. Inter 
+      <lb ed="#S" n="24"/>cunctas, fratres auctoritate eporum poterant audire 
+       confes<lb ed="#S" break="no" n="25"/>siones religiosorum, contra inhibitionem abbatum &amp; abbatissa 
+      <lb ed="#S" n="26"/>rum, si erant non exemptae, vel auctoritate Papae si erant exemptae: 
+      <lb ed="#S" n="27"/>sicut enim non potest prohibere abbas vel abbatissa 
+       mo<lb ed="#S" break="no" n="28"/>nacho vel moniali confiteri Papae, vel epo, sic nec eius 
+       vi<lb ed="#S" break="no" n="29"/>cario. sed per illam constitutionem fratres prohibentur audi 
+      <lb ed="#S" n="30"/>re religiosorum confessiones, contra illorum statuta vel inhibi 
+      <lb ed="#S" n="31"/>tione superiorum.
+    </p>
+            <p xml:id="khj78y-q60327-d1e863" n="19">
+      <!-- 19 -->Tertius effectus est, quod tenetur cu 
+      <lb ed="#S" n="32"/>ratus Eucharistiam ministrare: &amp; alia sacramenta, ex quo 
+      <lb ed="#S" n="33"/>dicit se confessum illi, qui potuit eum absoluere.
+    </p>
+            <p xml:id="khj78y-q60327-d1e872" n="20">
+      <!-- 20 -->sed 
+      <lb ed="#S" n="34"/>videtur absurdum, quod teneatur dare Eucharistiam ei, cuius 
+      <lb ed="#S" n="35"/>ignorat conscientiam. sic enim vteretur claue 
+       dispensan<lb ed="#S" break="no" n="36"/>di, omissa claue discernendi, admittendo forte indignum. 
+    </p>
+            <p xml:id="khj78y-q60327-d1e884">
+               <lb ed="#S" n="37"/>Et repellendo dignum. sed dico quod non, sed cum aeque bona 
+      <lb ed="#S" n="38"/>&amp; secura conscientia: imo tutiori potest eum communicare, qui 
+       con<lb ed="#S" break="no" n="39"/>fessus est fine licentia sua habenti potestatem: sicut illi qui 
+      <lb ed="#S" n="40"/>confessus est de licentia sua vel sibi: quia vicarius curati 
+      <lb ed="#S" n="41"/>non reuelat sibi confessionem. Vnde equaliter scit conscientiam 
+      <lb ed="#S" n="42"/>confessi vicario epitsicut confessi vicario suo. Item plus prae 
+      <lb ed="#S" n="43"/>sumitur de co, qui factus est epraes per prouisionem Papae, quae 
+      <lb ed="#S" n="44"/>per electionem canonicorum: quia sacrilegij instar est, dubi 
+      <lb ed="#S" n="45"/>tare vtrum dignus fit quem elegerit Imperator. Vnde 
+       cura<lb ed="#S" break="no" n="46"/>tus debet praesumere, quod melius est confessus qui confessus 
+      <lb ed="#S" n="47"/>ei, quem Papa vel epraes elegit confessorem per totum mundum, vel 
+      <lb ed="#S" n="48"/>dicece. prouidendo de ipso suis subditis: cum epraes non debeat 
+      <lb ed="#S" n="49"/>hoc committere, nisi viris potentibus in opere &amp; sermone. 
+      <lb ed="#S" n="50"/>de offi. ordi. Inter caetera, quam qui confessus est illi, quem 
+       ele<lb ed="#S" break="no" n="51"/>git ipse proprio arbitrio de licentia generali curati. Item 
+      <lb ed="#S" n="52"/>magis praesumitur de idoneitate eius quem superior 
+       praela<lb ed="#S" break="no" n="53"/>tus praeficit, quae quem inferior. Vnde lex Iulia ambitus cessat 
+      <lb ed="#S" n="54"/>in vrbe, in qua omnes praebendas vacantes confert Petrus, qui 
+      <lb ed="#S" n="55"/>pecuniam simonis abiecit. sed Giezi donum petijt, quod 
+      <lb ed="#S" n="56"/>magister repulit. Vnde curatus magis debet reputare be 
+      <lb ed="#S" n="57"/>ne confessum parochianum suum, qui est confessus poenitentiario 
+      <lb ed="#S" n="58"/>epi, quae vicario suo proprio. Et hoc verum est quando constat quod est 
+      <lb ed="#S" n="59"/>confessus. sed dicit Tho. quod debet sibi credere. Hostiem. autem 
+      <lb ed="#S" n="60"/>quod imo oportet probare. sed ea quae domi fiunt, non possunt 
+      <lb ed="#S" n="61"/>probari nisi per eos qui domi sunt. Confessio vero fit a 
+       so<lb ed="#S" break="no" n="62"/>lo soli. Et si testes vocarentur: non tamen possent testificari de 
+      <lb ed="#S" n="63"/>confessione: quia forte loco confessionis confabulabantur. 
+      <lb ed="#S" n="64"/>Vnde si esset persona minus fide digna, oporteret quod 
+       con<lb ed="#S" break="no" n="65"/>fessor testificaretur: sed plus non requiritur: si autem fide 
+       di<lb ed="#S" break="no" n="66"/>gna, credendum esset sibi de confessione sicut de peccatis. si 
+      <lb ed="#S" n="67"/>militer qum confitendo dicit: due non habeo quod ego sciam mor 
+      <!--0212.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>talia: nec placet mihi de venialibus confiteri: peto Eucha 
+      <lb ed="#S" n="69"/>ristiam, potest sibi dare Eucharistiam bona conscientia: imo 
+       te<lb ed="#S" break="no" n="70"/>netur. Ergo a simili, quando dicit domine non habeo mortale de 
+      <lb ed="#S" n="71"/>quo non sim confessus potenti absoluere: &amp; tanto plus 
+       quan<lb ed="#S" n="72" break="no"/>to credibilius est hoc quam illud: vnde aeque vel tutius potest 
+      <lb ed="#S" n="73"/>communicare confessum, sine licentia sua habenti potestatem episcopi,  
+       si<lb ed="#S" break="no" n="74"/>cut confessum sibi vel alteri de licentia sua speciali vel ge 
+      <lb ed="#S" n="75"/>nerali: nominatim vel indistincte. Et vtrumquedeclaratum est per 
+      <lb ed="#S" n="76"/>constituta. Inter cunctas: quod. scilicet confesso huiusmodi tenetur 
+       cura<lb ed="#S" break="no" n="77"/>tus dare sacramenta, &amp; ei credere: nisi in duobus casibus 
+      <lb ed="#S" n="78"/>s. quando est excommunicatus, vel notorius peccator. a1. 
+       Quar<lb ed="#S" break="no" n="79"/>tus effectus est, quod non tenetur eadem confiteri iterum: sicut in 
+      <lb ed="#S" n="80"/>eandem decretali dicitur. Et licet quantum ad alia, puta quod te 
+      <lb ed="#S" n="81"/>neatur credere vel ministrare sacramenta, videatur specia. 
+      <lb ed="#S" n="82"/>le in fratribus: tamen quantum ad hoc quod non tenetur iterare est. 
+      <lb ed="#S" n="83"/>ius commune: non obstante constitutione. Ois vtriusque sexus. 
+      <lb ed="#S" n="84"/>Vnde in constitutis. inter cunctas sic dicitur. Nec confessi 
+      <lb ed="#S" n="85"/>fratribus peccata illa, de quibui eis confessi sunt, &amp; 
+       abso<lb ed="#S" break="no" n="86"/>Iuti poenitentes de illis sacerdotibus proprijs teneantur: 
+       si<lb ed="#S" break="no" n="87"/>cut &amp; alijs non tenentur iterum confiteri, non obstante 
+       genera<lb ed="#S" break="no" n="88"/>lis concilij constitutione: quae sano intellectu, ne sequatur 
+      <lb ed="#S" n="89"/>quod per poenitentiam. dimissa peccata quis confiteri debeat: 
+      <lb ed="#S" n="90"/>&amp; quod liberat debitor adhuc ad soluendum remaneat obli 
+      <lb ed="#S" n="91"/>gatus, intelligenda est. De illis autem, intelligit, qui pecca 
+      <lb ed="#S" n="92"/>ta sua alijs confiteri saluberrime neglexerunt.
+    </p>
+            <p xml:id="khj78y-q60327-d1e1012" n="22">
+      <!-- 22 -->
+       Quin<lb ed="#S" break="no" n="93"/>tus effectus est: quod per hanc commissionem fit iudex, qui non 
+      <lb ed="#S" n="94"/>erat. Cum enim ad absoluendum requiratur potestas 
+       ordi<lb ed="#S" break="no" n="95"/>nis, &amp; iurisdictionis: licet ab habēte ordinem &amp; iurisdictio 
+      <lb ed="#S" n="96"/>nem, vel tantum iurisdictionem, possit haec audientia committi 
+       ha<lb ed="#S" break="no" n="97"/>benti ordinem, licet non habeat iurisdictionem: puta simplici 
+      <lb ed="#S" n="98"/>sacerdonti non curato, sicut curato, non tum econuerso 
+       sacer<lb ed="#S" break="no" n="99"/>dos non curatus potest hoc committere, vel curato vel sacer 
+      <lb ed="#S" n="100"/>doti. Et ratio diuersitatis est, quia non aequaliter hae duae 
+      <lb ed="#S" n="101"/>potestates transfunduntur. Habens enim ordinem sola 
+       commis<lb ed="#S" break="no" n="102"/>sione, non transfert ordinem: sed solum ordinando 
+       sacramentali<lb ed="#S" break="no" n="103"/>ter, fiue sit iudex fiue non. sed iurisdictio ab habente eam 
+      <lb ed="#S" n="104"/>ordinarie, sola commissione transfertur indifferenter priua 
+      <lb ed="#S" n="105"/>to: qui nullam habebat: &amp; ei qui habebat aliquam, sed non 
+      <lb ed="#S" n="106"/>istam: vel respectu istius. Vnde. ff. de offi. eius cui mandata 
+      <lb ed="#S" n="107"/>est iur. Et si praetor sit is cui mandata est iurisdictio, non tamen 
+      <lb ed="#S" n="108"/>vice sua fungitur, sed illius qui mandauit: vnde omnino 
+      <lb ed="#S" n="109"/>accidit quod sit praetor, ita &amp; in proposito. Vnde qui potest 
+       eli<lb ed="#S" break="no" n="110"/>gere confessorem indifferenter, quicunq, sacerdotem potest 
+      <lb ed="#S" n="111"/>accipere: nisi quod si est religiosus, cum sme suo superiore non 
+      <lb ed="#S" n="112"/>habeat velle nec nolle, sine licentia sui superioris non 
+       de<lb ed="#S" break="no" n="113"/>bet audire, nisi auctoritate superioris specialiter, &amp; nomina 
+      <lb ed="#S" n="114"/>tim sibi concedatur, qui vellet &amp; posset eum in hoc 
+       exime<lb ed="#S" break="no" n="115"/>re. sicut est Papa. si enim religiosus potest iure 
+       ordina<lb ed="#S" break="no" n="116"/>rio esse auditor confessionum saecularium: sicut quando fit curatus 
+      <lb ed="#S" n="117"/>in parochia: multo magis ex commistione: cum hoc sit 
+       mi<lb ed="#S" break="no" n="118"/>noris dignitatis: &amp; minus per hoc se immisceat saeculo, 
+      <lb ed="#S" n="119"/>quamuis &amp; haec sit eleemosyna spiritualis, &amp; ad religionem 
+      <lb ed="#S" n="120"/>pertinens. Quis autem religiosus auctoritate inferioris qui 
+      <lb ed="#S" n="121"/>non potest eum eximere, non debeat confessiones audire sine 
+       li<lb ed="#S" break="no" n="122"/>centia sui immediate, patet per simile de electione. c. si 
+      <lb ed="#S" n="123"/>religiosus. vbi dicitur. Electio de se facta non potest, nec de 
+      <lb ed="#S" n="124"/>bet assentire sinc eius licentia. secus autem si per Papam 
+       es<lb ed="#S" break="no" n="125"/>set de ipso nominatim prouisum. Quod autem dictum est, quod 
+      <lb ed="#S" n="126"/>auctoritate Papae potest: videtur contra illa decre. de 
+       Iu<lb ed="#S" break="no" n="127"/>deis. Quod sit laudabile.
+    </p>
+            <p xml:id="khj78y-q60327-d1e1093" n="23">
+      <!-- 23 -->sed dicendum, quod quando ro 
+      <lb ed="#S" n="128"/>ligiosus sub generalitate incerta accipit auctoritatem 
+       Pa<lb ed="#S" break="no" n="129"/>pae, requiritur de mente Papae assensus praelati, sicut fuit 
+      <lb ed="#S" n="130"/>ibi quando Papa omnibus religiosis, qui vellent adhaerere illi prae 
+      <lb ed="#S" n="131"/>dicanti paganis dabat, auctoritatem. sed quia merita non 
+      <lb ed="#S" n="132"/>nouerat: ideo coexigit assensum praelatorum. Vbi autem Pa 
+      <lb ed="#S" n="133"/>pa nominatim eligit religiosum ad aliquod officium, 
+       prae<lb ed="#S" break="no" n="134"/>sumitur industriam personae nosse. Vnde non requiritur al 
+      <!--0213.xml-->
+      <pb ed="#S" n="213"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>terius licentia, fiue pro inquisitione, siue pro 
+       praedicatio<lb ed="#S" break="no" n="2"/>ne, siue audientia confessionum, siue pro praelatione, siue pro 
+      <lb ed="#S" n="3"/>epatu, siue pro alio quocumque;.
+    </p>
+            <p xml:id="khj78y-q60327-d1e1126" n="24">
+      <!-- 24 -->sexta conclusio est, quod 
+      <lb ed="#S" n="4"/>istos effectus non habet commissio in personis reprobatorum 
+      <lb ed="#S" n="5"/>ordinum, de quibus dicitur de reli. do. c. i. li. 6. Personis autem 
+      <lb ed="#S" n="6"/>praedictorum ordinum interdicimus quo ad extraneos 
+       offi<lb ed="#S" break="no" n="7"/>cium praedicationis, sepulturam, &amp; confessionum audientiam. 
+      <lb ed="#S" n="8"/>Vnde quia nec praedicant, nec ad sepulturam recipiunt, mirum 
+      <lb ed="#S" n="9"/>est quomodo confessiones audiunt, nisi forte dicatur, quod 
+       auctori<lb ed="#S" break="no" n="10"/>tate episcopi,  qui sicut potest absoluere a sententia iuris 
+       excommunica<lb ed="#S" break="no" n="11"/>tionis &amp; suspensionis, &amp; interdictum relaxare, vel amouere, 
+      <lb ed="#S" n="12"/>vbi iuris conditor non retinuit: ita potest cum illis dispensa 
+      <lb ed="#S" n="13"/>re absoluendo ab illa suspensione, vel amouendo 
+       interdi<lb ed="#S" break="no" n="14"/>ctum quo ad certas personas, non minus quam ab vna tota ciui 
+      <lb ed="#S" n="15"/>tate. Tamem cum manente causa maneat effectus, cum sit eis 
+      <lb ed="#S" n="16"/>interdictum quandiu in illo statu manerent, audire: videtur 
+      <lb ed="#S" n="17"/>epo esse indispensabile cum eis statu manente. Quicquid tamen 
+      <lb ed="#S" n="18"/>epraes possit, inferior cpraeo non potest sententiam iuris 
+       relaxa<lb ed="#S" break="no" n="19"/>re, nisi sibi expresse committatur. Et sic de licentia 
+       simpli<lb ed="#S" break="no" n="20"/>cium curatorum sacramenti, non poterant nec possunt 
+       confessio<lb ed="#S" break="no" n="21"/>nes audire.
+    </p>
+            <p xml:id="khj78y-q60327-d1e1170" n="25">
+      <!-- 25 -->septima conclusio est, quod qui audit con 
+      <lb ed="#S" n="22"/>fessiones ex commissione non iure suo prodidit potestatem 
+      <lb ed="#S" n="23"/>suam delegante mortuo vel amoto. Et idem forte est ipso 
+       ex<lb ed="#S" break="no" n="24"/>communicato vel suspenso, nisi confessione iam inchoata: in qua 
+      <lb ed="#S" n="25"/>audit ex tunc quasi iure suo: sic vt etiam perdit potestatem il 
+      <lb ed="#S" n="26"/>lo reuocante: quia soluitur iudicium, vetante illo qui 
+       iu<lb ed="#S" break="no" n="27"/>dicare iussit. Vnde sicut epo mortuo vel translato, 
+       officia<lb ed="#S" break="no" n="28"/>lis cessat in causis: sic debet cessare poenitentarius in 
+       confessio<lb ed="#S" break="no" n="29"/>nibus audiendis, nisi quod potest absoluere de peccatis iam audi 
+      <lb ed="#S" n="30"/>tis. de off. dele. c. Gratum. &amp;. c. Relatum: quia morte 
+       mandato<lb ed="#S" break="no" n="31"/>ris expirat mandatum. similiter si dedit confessorem 
+       moniali<lb ed="#S" break="no" n="32"/>bus, expirat prans, nisi esset rector earum, cui ex officio quasi 
+      <lb ed="#S" n="33"/>prioratus vel rectoriae esset audientia annexa. Et tunc esset 
+      <lb ed="#S" n="34"/>quasi ordinarius.
+    </p>
+            <p xml:id="khj78y-q60327-d1e1203" n="26">
+      <!-- 26 -->Videret tamen, quod non similiter 
+       expira<lb ed="#S" break="no" n="35"/>ret ptans delegati: delegante excommunicato vel suspenso, sicut 
+      <lb ed="#S" n="36"/>mortuo vel amoto, quia i primo casu retinet delegans iuris 
+      <lb ed="#S" n="37"/>dictionem, licet non vsum: in secundo autem neutrum. Ad hoc autem 
+      <lb ed="#S" n="38"/>per delegat' vtai iurisdictione, requirit, delegans in delegan 
+      <lb ed="#S" n="39"/>do quidem habeat &amp; iurisdictionem &amp; vsum ei', quia 
+       delega<lb ed="#S" break="no" n="40"/>re est vsus iurisdictionis. sed postquam delegauit, non requiritur 
+      <lb ed="#S" n="41"/>quod habeat vsum, quia vsus eius nihil facit. ergo. &amp;c.
+    </p>
+            <p xml:id="khj78y-q60327-d1e1224" n="27">
+      <!-- 27 -->sed 
+      <lb ed="#S" n="42"/>posset dici probabiliter, quod si epraes non existens excommunicatus vel 
+      <lb ed="#S" n="43"/>suspensus instituit officialem, &amp; poenitentarium, &amp; postea excommunicet, 
+      <lb ed="#S" n="44"/>nihilominus vterque potest procedere in suo officio, quia vtit 
+       vi<lb ed="#S" break="no" n="45"/>ce eius qui iurisdictionem habet, licet non vsum per se. si autem iam 
+      <lb ed="#S" n="46"/>crat excommunicatus, officialis quidem nihil agit, quia institutio vel 
+      <lb ed="#S" n="47"/>commissio non tenuit. Et sic intelligi potest de off. vica. c. i. 
+      <lb ed="#S" n="48"/>q. vl. li. 6. De poenitentario autem videtur secus, quia etiam non sacerdos vel 
+      <lb ed="#S" n="49"/>non consecratus, qui minus habet quam excommunicatus, committere praet, 
+      <lb ed="#S" n="50"/>quia non est tam commissio quam promissio: quia iure suo sacerdos au 
+      <lb ed="#S" n="51"/>dit confessionem, &amp; committens tantum est causa sine qua non, pro 
+      <lb ed="#S" n="52"/>pter parochiarum diuisionem, &amp; ecclesiae prohibitionem. quando au 
+      <lb ed="#S" n="53"/>tem committens morit vel amouet, non est differentia inter com 
+      <lb ed="#S" n="54"/>missarium in foro poenitentiali &amp; iudiciali, quia vtriusque ptans expi 
+      <lb ed="#S" n="55"/>rat, quantum ad negotia non cepta. sed nos habemus 
+       pri<lb ed="#S" n="56" break="no"/>uilegium, quod episcopis mortuis qui nobis potestatem suam commiserunt 
+      <lb ed="#S" n="57"/>vel concesserunt, possumus illa vti vsque ad confirmationem 
+      <lb ed="#S" n="58"/>successorum. Et multo magis secundum constitutionem nouam. 
+      <lb ed="#S" n="59"/>Inter cunctas: si fratres vtantur auctoritate Papae facta 
+       prae<lb ed="#S" n="60" break="no"/>sentatione epo illo mortuo, possunt vti vsque ad 
+       confirmatio<lb ed="#S" break="no" n="61"/>nem noui, cui est noua praesentatio facienda. similiter 
+       priuile<lb ed="#S" break="no" n="62"/>gium habent inquisitores haereticae prauitatis a Papa positi, quod 
+      <lb ed="#S" n="63"/>mortuo mandatore non expiret mandatum: etiam quo ad ne 
+      <lb ed="#S" n="64"/>gotia non inchoata in iudicio, &amp; nondum emersa: de 
+       hae<lb ed="#S" break="no" n="65"/>ret. c. Non aliqui. li. 6.
+    </p>
+            <p xml:id="khj78y-q60327-d1e1281" n="28">
+      <!-- 28 -->Ad argumentum dicendum, 
+      <lb ed="#S" n="66"/>quod illa est opinio falsa, quia curatus est ordinarius, ideo 
+      <lb ed="#S" n="67"/>potest vicarium ad libitum aduocare. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

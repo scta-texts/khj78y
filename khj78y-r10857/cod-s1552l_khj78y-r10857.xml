@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="356"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r10857"><!-- l4d29-q2 -->
+            <head xml:id="khj78y-r10857-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-r10857-Hd1e103" type="question-title">
+     an conditio 
+     impossibilis apposita sponsalibus, vel 
+       matrimonio vitiet, aut vitietur
+   </head>
+            <p xml:id="khj78y-r10857-d1e106">
+               <lb ed="#S" n="14"/>QVAESTIO SECVNDA. 
+    </p>
+            <p xml:id="khj78y-r10857-d1e111">
+               <lb ed="#S" n="15"/>De conditionibus contractui 
+       matrimo<lb ed="#S" break="no" n="16"/>niali appositis. 
+    </p>
+            <p xml:id="khj78y-r10857-d1e118">
+               <lb ed="#S" n="17"/>SECVNDO quaeritur, an conditio 
+       im<lb ed="#S" break="no" n="18"/>possibilis apposita sponsalibus, vel 
+       matri<lb ed="#S" break="no" n="19"/>monio vitiet, aut vitietur, &amp; videtur quod 
+       ha<lb ed="#S" break="no" n="20"/>beatur pro non adiecta, sicut in legatis, &amp; 
+      <lb ed="#S" n="21"/>aliis fauorabilibus, &amp; est expressum. de 
+      <lb ed="#S" n="22"/>condi. appo. c. vlt.
+    </p>
+            <p xml:id="khj78y-r10857-d1e135" n="2">
+      <!-- 2 -->Contra, non est matrimonium sine 
+      <lb ed="#S" n="23"/>consensu: non est autem consensus conditionalis consensus 
+      <lb ed="#S" n="24"/>conditione non extante: propter quod sponsalia 
+       conditiona<lb ed="#S" break="no" n="25"/>lia conditione pendente, vel deficiente, non causant pu 
+      <lb ed="#S" n="26"/>blicae honestatis iustitiam, quasi nulla ppter defectum 
+       con<lb ed="#S" break="no" n="27"/>sensus: ergo si ista conditio deficiat, per consequens 
+       defi<lb ed="#S" break="no" n="28"/>cit consensus.
+    </p>
+            <p xml:id="khj78y-r10857-d1e153" n="3">
+      <!-- 3 -->Respondeo, quia quaedam conditio est 
+      <lb ed="#S" n="29"/>large dicta, quaedam stricte, &amp; proprie. Prima autem quadru 
+      <lb ed="#S" n="30"/>plex est, sicut dies, demonstratio, causa, modus: secundum 
+      <lb ed="#S" n="31"/>illos versus Iuristarum, 
+    </p>
+            <p xml:id="khj78y-r10857-d1e164">
+               <lb ed="#S" n="32"/>scito, quod vt modus est, si conditio, quia causa, 
+      <lb ed="#S" n="33"/>Demonstratio, quam sed &amp; adiectiua subacta. 
+      <lb ed="#S" n="34"/>Idcirco videnda sunt quinque principaliter. Primo, de 
+       de<lb ed="#S" break="no" n="35"/>monstratione. secundo, de causa. Tertio, de modo. 
+       Quar<lb ed="#S" break="no" n="36"/>to, de die. Quinto, de conditione stricte, &amp; proprie dicta. 
+    </p>
+            <p xml:id="khj78y-r10857-d1e177" n="4">
+               <lb ed="#S" n="37"/>
+               <!-- 4 -->Circa primum de demonstratione sint quinque 
+       conclu<lb ed="#S" break="no" n="38"/>siones.
+    </p>
+            <p xml:id="khj78y-r10857-d1e186" n="5">
+      <!-- 5 -->Prima, quod demonstratio nunquam impedit, 
+      <lb ed="#S" n="39"/>nec suspendit per se: sed semper habetur pro non 
+       adie<lb ed="#S" break="no" n="40"/>cta, siue sit honesta, siue sit inhonesta, siue contraria matri 
+      <lb ed="#S" n="41"/>monio, siue non: verbi gratia, accipio, vel accipiam filiam 
+      <lb ed="#S" n="42"/>tuam, quae procurauit venena sterilitatis, vel quae est ste 
+      <lb ed="#S" n="43"/>rilis, quia habeo nimis multos filios. Vnde non quaero 
+       pro<lb ed="#S" break="no" n="44"/>lem, sed solum vitare fornicationem, vel quae est virgo, aut 
+      <lb ed="#S" n="45"/>quam audiui esse diuitem, vel filiam tuam virginem. Nam fal 
+      <lb ed="#S" n="46"/>sa demonstratio non vitiat legatum. ff. de conditionibus, &amp; de 
+      <lb ed="#S" n="47"/>monstrationibus. l. falsa. nec per consequens 
+       matrimoni<lb ed="#S" break="no" n="48"/>um, quod est fauorabilius.
+    </p>
+            <p xml:id="khj78y-r10857-d1e212" n="6">
+      <!-- 6 -->secunda conclusio est, 
+      <lb ed="#S" n="49"/>quod si demonstratio fieret de futuro: puta fillam tuam, quae 
+      <lb ed="#S" n="50"/>dabit mihi hoc, vel illud, non est demonstratio, sed 
+       con<lb ed="#S" break="no" n="51"/>ditio: vnde idem videtur, sicut de conditione.
+    </p>
+            <p xml:id="khj78y-r10857-d1e224" n="7">
+      <!-- 7 -->
+       Ter<lb ed="#S" break="no" n="52"/>tia conclusio est, quod si demonstratio ferat ad conditionem, 
+      <lb ed="#S" n="53"/>impedit non ratione demonstrationis, sed erroris: vt si di 
+      <lb ed="#S" n="54"/>cat, accipio, vel accipiam filiam tuam liberam, si sciret eam 
+      <lb ed="#S" n="55"/>ancillam, nihilominus valeret matrimonium, sed si 
+       igno<lb ed="#S" break="no" n="56"/>raret: tunc non valeretmatrimonium ratione erroris: etiam 
+      <lb ed="#S" n="57"/>si demonstratio fuisset omissa.
+    </p>
+            <p xml:id="khj78y-r10857-d1e242" n="8">
+      <!-- 8 -->Quarta conclusio est, 
+      <lb ed="#S" n="58"/>quod idem est si demonstratio refertur ad substantiam: quia error 
+      <lb ed="#S" n="59"/>substantiae, vel conditionis impedit, non autem qualitatis. 
+    </p>
+            <p xml:id="khj78y-r10857-d1e251" n="9">
+               <lb ed="#S" n="60"/>
+               <!-- 9 -->Quinta conclusio est, quod appositio demonstrationis ad 
+      <lb ed="#S" n="61"/>nihil seruit, nisi ad transferendum forte onus probationis: 
+      <lb ed="#S" n="62"/>vnde contraho cum te libera, ex hoc praesumit, quod 
+       crede<lb ed="#S" break="no" n="63"/>bam te liberam, nisi probes contrarium.
+    </p>
+            <p xml:id="khj78y-r10857-d1e264" n="10">
+      <!-- 10 -->secundus 
+       ar<lb ed="#S" break="no" n="64"/>ticulus est de causa: vbi sunt quatuor conclusiones. 
+      <!--0356.xml-->
+      <cb ed="#S" n="b"/>
+            </p>
+            <p xml:id="khj78y-r10857-d1e275" n="11">
+               <lb ed="#S" n="65"/>
+               <!-- 11 -->Prima, quod causa habetur pro non adiecta: vnde 
+       siue<lb ed="#S" break="no" n="66"/>fit vera, siue sit falsa, pure intelliguntur contracta 
+       matrimo<lb ed="#S" break="no" n="67"/>nium, &amp; sponsalla: vt si dicam, accipio, vel accipiam te: quia 
+      <lb ed="#S" n="68"/>patertuus desponsauit te mihi, vel me tibi: &amp; nolo venire 
+      <lb ed="#S" n="69"/>contra consilium eius, etiam si illud non est verum, 
+       nihilomi<lb ed="#S" break="no" n="70"/>nus est verum matrimonium, vel sponsalia.
+    </p>
+            <p xml:id="khj78y-r10857-d1e293" n="12">
+      <!-- 12 -->
+       secun<lb ed="#S" break="no" n="71"/>da conclusio est, quod si ponatur in futuro: accipio te, vel 
+       ac<lb ed="#S" break="no" n="72"/>cipiam te: quia dabis mihi decem pro dote, non est proprie 
+      <lb ed="#S" n="73"/>causa: cum causa sit prior effectu: vnde est quasi modus 
+      <lb ed="#S" n="74"/>de quo statim dicetur.
+    </p>
+            <p xml:id="khj78y-r10857-d1e307" n="13">
+      <!-- 13 -->Tertia conclusio est, quod 
+       vtri<lb ed="#S" break="no" n="75"/>usque ratio est, quia demonstratio, &amp; causa non respiciunt 
+       es<lb ed="#S" break="no" n="76"/>sentiam contractus: sed solum causam extrinsecam contrahen 
+      <lb ed="#S" n="77"/>di, vel motiuum: vnde simpliciter consentit in contrahendo 
+      <lb ed="#S" n="78"/>hoc, vel illud, sed erat forte in motiuo ad contrahendum, 
+      <lb ed="#S" n="79"/>sicut is, qui per errorem indebitum soluit, etiam si dicat, 
+      <lb ed="#S" n="80"/>soluo tibi decem, quae vel quia mutuasti mihi, nihilominus 
+      <lb ed="#S" n="81"/>transfert dominium: quod non esset, nisi consentiret in 
+       trans<lb ed="#S" break="no" n="82"/>lationem: ergo &amp; hic est purus consensus, si sit falsa 
+       cau<lb ed="#S" break="no" n="83"/>sa adiecta, vel demonstratio.
+    </p>
+            <p xml:id="khj78y-r10857-d1e331" n="14">
+      <!-- 14 -->Quarta conclusio est, 
+      <lb ed="#S" n="84"/>quod licet in debito soluto per errorem habeat locum 
+       repeti<lb ed="#S" break="no" n="85"/>tio: tamen hic non habet locum repetitio, sicut nec restitutio: 
+      <lb ed="#S" n="86"/>quia res prorsus statum immutat ad minus in 
+       matrimo<lb ed="#S" break="no" n="87"/>nio: vt notatur de resti. sporc. Ex parte.
+    </p>
+            <p xml:id="khj78y-r10857-d1e344" n="15">
+      <!-- 15 -->Tertius ar 
+      <lb ed="#S" n="88"/>elculus de modo habet septem conclusiones.
+    </p>
+            <p xml:id="khj78y-r10857-d1e351" n="16">
+      <!-- 16 -->Prima, 
+      <lb ed="#S" n="89"/>quod si modus est contrarius matrimonio: tunc vitiat, sicut 
+      <lb ed="#S" n="90"/>&amp; conditio: vt si dicam, accipio, vel accipiam te, vt 
+       procu<lb ed="#S" break="no" n="91"/>res venena sterilitatis, vl' huiusmodi, &amp; huiusmodi ratio post dicetur. 
+    </p>
+            <p xml:id="khj78y-r10857-d1e362" n="17">
+               <lb ed="#S" n="92"/>
+               <!-- 17 -->secunda conclusio est, quod aliud est, quando contrarium 
+       ap<lb ed="#S" break="no" n="93"/>ponitur per modum pacti quantuncanque in continenti: quia tunc 
+      <lb ed="#S" n="94"/>non vitiat matrimonium praecedens quantumcunque contra 
+      <lb ed="#S" n="95"/>eius substantiam: quia eodem momento, quo verba complentur a 
+      <lb ed="#S" n="96"/>Deo coniungit, &amp; perficitur: vnde pactum sine interu allo non 
+      <lb ed="#S" n="97"/>potest dissoluere, quia nec consensus directus dissolueret: vt 
+      <lb ed="#S" n="98"/>si statim post matrimonium dicat vnus, volo, quod procures 
+      <lb ed="#S" n="99"/>venena &amp;c. alias non sit matrimonium, &amp; alius consentit: 
+      <lb ed="#S" n="100"/>nihil valet hoc pactum: sicut si statim vnus diceret, ego 
+       poe<lb ed="#S" break="no" n="101"/>niteo, &amp; quito te, &amp; similiter allus, nihilomin' manieres 
+      <lb ed="#S" n="102"/>matrimonium.
+    </p>
+            <p xml:id="khj78y-r10857-d1e391" n="18">
+      <!-- 18 -->Tertia conclusio est, quod esset idem do 
+      <lb ed="#S" n="103"/>sponsalibus si per mutuum dissensum non soluerentur sine 
+      <lb ed="#S" n="104"/>iudicis authoritate: quia nec per consequens per consensum 
+      <lb ed="#S" n="105"/>turpem: sed quia secundum veritatem sponsalia per disfensum 
+      <lb ed="#S" n="106"/>tolluntur: ideo per pactum turpe contrarium in continenti 
+      <lb ed="#S" n="107"/>appositum similiter dissoluunt.
+    </p>
+            <p xml:id="khj78y-r10857-d1e408" n="19">
+      <!--19.-->Quarta conclusio 
+      <lb ed="#S" n="108"/>est, quod aliud est, quando hoc adiicit sub nomine modi, quia 
+       mo<lb ed="#S" break="no" n="109"/>dus non est pactum nouum, vel diuersum: sed est de 
+       essen<lb ed="#S" break="no" n="110"/>tia contractus, cui addit, vt si vendo tibi rem pro. 10. vt 
+      <lb ed="#S" n="111"/>des mihi codicem, non sunt duo contractus distincti, sed 
+      <lb ed="#S" n="112"/>vnus: vnde quando modus est contrarius matrimonio in ipso 
+      <lb ed="#S" n="113"/>sui initio contractus vitium habet: vnde vitiat.
+    </p>
+            <p xml:id="khj78y-r10857-d1e426" n="20">
+      <!-- 20 -->
+       Quin<lb ed="#S" break="no" n="114"/>ta conclusio est, quod sic etiam videret distinguendum in 
+       profes<lb ed="#S" break="no" n="115"/>sione, quando apponit pactum contra essentiam religionis: quia si 
+      <lb ed="#S" n="116"/>per modum pacti valet professio, si sequat: quia statim est, vbi 
+      <lb ed="#S" n="117"/>vinculum diuinum, quod per homines, inter quos agit, non po 
+      <lb ed="#S" n="118"/>test solui. si autem praecedat pactum contrarium in continenti, 
+      <lb ed="#S" n="119"/>vel concomitet modus contrarius, vitiat.
+    </p>
+            <p xml:id="khj78y-r10857-d1e444" n="21">
+      <!-- 21 -->sexta 
+       con<lb ed="#S" break="no" n="120"/>clusio est, quod non est simile de contractibus rerum ad 
+       con<lb ed="#S" break="no" n="121"/>tractus personarum, quantum ad pactum in continenti sequens: 
+      <lb ed="#S" n="122"/>quia contrario consensu totaliter tollit contractus rerum 
+      <lb ed="#S" n="123"/>solo consensu contractus. C. quando lic. ab emp. dis. l.. 2. Insti. 
+      <lb ed="#S" n="124"/>quibus mo. tol. ob. 5. vlt. vnde per pactum in continenti 
+      <lb ed="#S" n="125"/>sequens, si est contra naturam contractus vitiatur. ff. de contra 
+      <lb ed="#S" n="126"/>hen. emp. l. pacta nouissima. secus autem de contractu 
+       per<lb ed="#S" break="no" n="127"/>sonarum indissolubili, qui est matrimonium, vt dictum est, sed 
+      <lb ed="#S" n="128"/>quo ad modum concomitantem contrarium, &amp; quo ad pactum 
+      <lb ed="#S" n="129"/>praecedens est simile: quia quicquid impedit factum faciendum, 
+      <lb ed="#S" n="130"/>impedit matrimonium contrahendum, &amp; sponsalia, quae 
+       fo<lb ed="#S" break="no" n="131"/>lo consensu fiunt: &amp; sic de modo contrario matrimonio idem 
+      <!--0357.xml-->
+      <pb ed="#S" n="357"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>est, sicut de conditione infra dicetur.
+    </p>
+            <p xml:id="khj78y-r10857-d1e483" n="22">
+      <!-- 22 -->septima 
+       con<lb ed="#S" break="no" n="2"/>clusio est, quod si modus non contrarietur matrimonio, tunc aut 
+      <lb ed="#S" n="3"/>est impossibile: vt si dicam, accipio, vel accipiam te, vt 
+       cele<lb ed="#S" break="no" n="4"/>bres missam, vel coelum digito tangas: &amp; tunc haber pro non 
+      <lb ed="#S" n="5"/>adiecto, sicut &amp; eonditio, &amp; pure, &amp; simpliciter tenet 
+       con<lb ed="#S" break="no" n="6"/>tractus in foro exteriori: aut est necessarius, vt si dicat, ac 
+      <lb ed="#S" n="7"/>cipio te, vt moriaris, vel aliquid huiusmodi: &amp; tunc habet pro 
+      <lb ed="#S" n="8"/>impleto: aut est possibilis tantum, &amp; tunc aut inhonestus non 
+      <lb ed="#S" n="9"/>tamen contrarius matrimonio, &amp; habei pro non adiecto sicut 
+      <lb ed="#S" n="10"/>in legatis: aut honestus possibilis, &amp; tunc non suspendit obli 
+      <lb ed="#S" n="11"/>gationem, quia natura modi est, vt posterius impleatur, sed si 
+      <lb ed="#S" n="12"/>est fauore apponentis tenet implere aliud matrimonio ce 
+      <lb ed="#S" n="13"/>lebrato, vt si dixit, accipio te, vt des centum nomine dotis: 
+      <lb ed="#S" n="14"/>non autem si est gratia sui, vt accipio te cum. 10. libris, vt 
+      <lb ed="#S" n="15"/>habeas, vnde emas tibi fundum: non tenetur nec ante, nec 
+      <lb ed="#S" n="16"/>post emere. f. de condi. &amp; dem. l. Titio centum.
+    </p>
+            <p xml:id="khj78y-r10857-d1e520" n="23">
+      <!-- 23 -->
+       Quar<lb ed="#S" break="no" n="17"/>tus articulus est de sponsalibus, &amp; matrimonio contractis 
+      <lb ed="#S" n="18"/>in diem certum. Et videt, quod sponsalia, vel matrimonium con 
+      <lb ed="#S" n="19"/>tracta in diem nullum effectum habeant ante illum diem: 
+      <lb ed="#S" n="20"/>quamuis si certum illum diem futurum non solum vt agi non pos 
+      <lb ed="#S" n="21"/>sit: imo nec vt obligatio contrahai, nec affinitas, nec pu 
+      <lb ed="#S" n="22"/>blicae honestatis iustitia: quia licet diet, quae non habet taci 
+      <lb ed="#S" n="23"/>tam conditionem annexam, non suspendat obligationem: sed 
+      <lb ed="#S" n="24"/>tantum actionem, vel effectum. Insti. de verb. obli. 5. Id autem 
+      <lb ed="#S" n="25"/>quod in diem stipulatur, debetur quidem statim: sed priusquam 
+       ve<lb ed="#S" break="no" n="26"/>niat dies, peti non pont: tamen dies, quae habet tacitam 
+       condi<lb ed="#S" break="no" n="27"/>tionem annexam suspendit obligationem, &amp; si non ratione 
+      <lb ed="#S" n="28"/>sui, tamen ratione conditionis: vnde in legato annuo, in quo 
+      <lb ed="#S" n="29"/>sunt plura legata: &amp; quodlibet habet tacitam conditionem, 
+      <lb ed="#S" n="30"/>si vixerit: puta, lego tibi. 10. libras quolibet anno: perin 
+      <lb ed="#S" n="31"/>de habetur, ac si dixisset, quolibet anno lego tibi. 10. 
+       li<lb ed="#S" break="no" n="32"/>bras post mortem meam, si vixeris. Item lego tibi. 1o. libr. 
+      <lb ed="#S" n="33"/>prima die secundi anni, si tunc vixeris, &amp; sic de aliis: vnde 
+      <lb ed="#S" n="34"/>obligatio secundi anni non cedit ante primam diem secun 
+      <lb ed="#S" n="35"/>di anni: nec tertij ante primam diem tertij, &amp; sic de 
+       singu<lb ed="#S" break="no" n="36"/>lis: quia conditio tacita suspendit eam: si enim moritur, non 
+      <lb ed="#S" n="37"/>transmittit legatum ad haeredem. sed in stipulatione annua 
+      <lb ed="#S" n="38"/>non intelligit tacita conditio, si virerit, cum transmittitur 
+      <lb ed="#S" n="39"/>ad haeredem: imo siue moriat, siue viuat, habet effectum suum: 
+      <lb ed="#S" n="40"/>vnde ibi obligatio non differi, sed tantum petitio, sed in 
+      <lb ed="#S" n="41"/>sponsalibus contrastis in diem tacita conditio intelligit, si 
+       vi<lb ed="#S" break="no" n="42"/>xerit: quia sponsalia non transeunt ad haeredem, sicut nec le 
+      <lb ed="#S" n="43"/>gatum annuum: vude obligatio suspenditur vsque ad diem: 
+      <lb ed="#S" n="44"/>&amp; si non ratione dici, quae certa est: tum ratione conditionis, 
+      <lb ed="#S" n="45"/>quae incerta est. Nam incertum est, vtrum tunc viuat. Igit 
+      <lb ed="#S" n="46"/>si promisi alicui, quod ducam eam in Paschate, medio tempo 
+      <lb ed="#S" n="47"/>re si contraho cum sanguinea tenet.
+    </p>
+            <p xml:id="khj78y-r10857-d1e592" n="24">
+      <!-- 24 -->sed secundum 
+       vo<lb ed="#S" break="no" n="48"/>ritatem non videt, quod suspendat: quia dies, quae habet 
+       condi<lb ed="#S" break="no" n="49"/>tionem annexam tacitam voluntariam, quae potest apponi, &amp; non 
+      <lb ed="#S" n="50"/>apponi, bene suspendit obligationem, sicut in casu 
+       contra<lb ed="#S" break="no" n="51"/>rio. Poterat enim testator legare illi, &amp; haeredibus suis 
+      <lb ed="#S" n="52"/>in perpetuum: vnde conditio si vixerit, voluntaria fuit: sed 
+      <lb ed="#S" n="53"/>in sponsalibus, &amp; matrimonlo conditio, si vixerit, necessa 
+      <lb ed="#S" n="54"/>ria est. Non enim potest quis stipulari sibi vxorem, &amp; haeredi 
+      <lb ed="#S" n="55"/>bus: vnde conditlo si vixero, intelligit necessario tacite: ta 
+      <lb ed="#S" n="56"/>sis autem conditio non facit conditionale illud, quod agit: 
+      <lb ed="#S" n="57"/>vnde etiam si dicai, accipio te in vxorem, si vixero, talis 
+       con<lb ed="#S" break="no" n="58"/>ditio non suspendit obligationem. Et similiter si dicerem, ac 
+      <lb ed="#S" n="59"/>cipiam te die Dominico, si vixero, sicut patet per simile, 
+       promit<lb ed="#S" break="no" n="60"/>to tibi, quod faciam tibi domum in Pascha per meipsum, 
+       taci<lb ed="#S" break="no" n="61"/>ta conditio intelligit, si vixero: quia impossibile est, quod 
+       mor<lb ed="#S" break="no" n="62"/>tuus faciam per meipsum: &amp; tamen non suspenditur obligatio: 
+      <lb ed="#S" n="63"/>ga generaliter dies appositus promistioni inter terminos 
+      <lb ed="#S" n="64"/>non suspendit obligationem. Et sic sponsalia in diem 
+       inte<lb ed="#S" break="no" n="65"/>rim causant publicae honestatis iustitiam.
+    </p>
+            <p xml:id="khj78y-r10857-d1e637" n="25">
+      <!-- 25 -->Quintus 
+      <lb ed="#S" n="66"/>articulus de conditione proprie dicta octo habet 
+       conclu<lb ed="#S" break="no" n="67"/>siones.
+    </p>
+            <p xml:id="khj78y-r10857-d1e646" n="26">
+      <!-- 26 -->Prima, quia aut est de praeterito, aut de prae- 
+      <!--0357.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>senti, &amp; tune si ita est, statim valet: si non, non. Quod enim 
+      <lb ed="#S" n="69"/>non mutat, quare stare prohibei: vnde cum non inueniat 
+      <lb ed="#S" n="70"/>contrarium specialiter statutum in matrimonio, sequendum est 
+      <lb ed="#S" n="71"/>ius commune, quod habei Insti. de verb. obli. 5. 
+       conditio<lb ed="#S" break="no" n="72"/>nes quae ad praeteritum tempus, vel ad praesens referuntur: aut 
+      <lb ed="#S" n="73"/>statim infirmant obligationem, aut omnino non differunt: ve 
+      <lb ed="#S" n="74"/>luti si Titius consul fuit, vel Maeuius viuit, date spondes? 
+      <lb ed="#S" n="75"/>nam si non sunt ea ita, nihil valet stipulatio: si autem ita 
+      <lb ed="#S" n="76"/>se habent, statim valet: quae enim per rerum naturam certa 
+      <lb ed="#S" n="77"/>sunt non morantur obligationem, licet apud nos incerta 
+      <lb ed="#S" n="78"/>sint: vnde si dicat, accipio, vel accipiante, si vsa fuisti 
+       ve<lb ed="#S" break="no" n="79"/>nenis sterilitatis, vel vteris modo: si hoc est verum, erit ma 
+      <lb ed="#S" n="80"/>trimonium: si non, non.
+    </p>
+            <p xml:id="khj78y-r10857-d1e683" n="27">
+      <!-- 27 -->sed contra hoc argui potest 
+       du<lb ed="#S" break="no" n="81"/>pliciter. Primo sic, conditio contraria matrimonio vitiat: 
+      <lb ed="#S" n="82"/>sed tonditio vtendi veneno est contraria matrimonio. ergo 
+      <lb ed="#S" n="83"/>&amp;c. solutio, verum est, qum est de futuro, aliter non est 
+       pro<lb ed="#S" break="no" n="84"/>prie conditio, quia etiam si esset de futuro, non contraria huic 
+      <lb ed="#S" n="85"/>matrimonio, vt si priuaret foetu aliam, quam scipsam, nihilo 
+      <lb ed="#S" n="86"/>minus esset matrimonium, si esset vera, quia non esset 
+       contra<lb ed="#S" break="no" n="87"/>ria matrimonio contrahendo, licet sit contraria alij, &amp; nihil 
+      <lb ed="#S" n="88"/>corrumpiem nisi a suo contrario. Nam caecitas sortis non pri 
+      <lb ed="#S" n="89"/>uat visum Platonis: quod autem est praeteritum, vel praesens 
+      <lb ed="#S" n="90"/>non est contrarium ei, quod futurum est: vnde si sic poneretur con 
+      <lb ed="#S" n="91"/>ditio, vel de praeterito, vel de praesenti, quod tangeret 
+       futu<lb ed="#S" break="no" n="92"/>rum: puta, si inuenisti, vel habes venena sterilitatis ad 
+       vten<lb ed="#S" break="no" n="93"/>dum in matrimonio nostro, impediret, non ratione 
+       con<lb ed="#S" break="no" n="94"/>ditionis de praeterito, vel de futuro, sed de ratione modi 
+      <lb ed="#S" n="95"/>de futuro.
+    </p>
+            <p xml:id="khj78y-r10857-d1e720" n="28">
+      <!-- 28 -->Item contra, quia conditio turpis non 
+       con<lb ed="#S" break="no" n="96"/>traria, &amp; impossibilis pro non adiecta habet. Cum autem 
+      <lb ed="#S" n="97"/>dicit, contraho tecum, si occidisti virum tuum est inhonesta, 
+      <lb ed="#S" n="98"/>&amp; si dicatur, si pater meus desponsabit me tibi, aut despon 
+      <lb ed="#S" n="99"/>sauit: &amp; sic tenet, aut non: &amp; tunc est impossibile despon 
+      <lb ed="#S" n="100"/>sasse, &amp; sic habei pro non adiecta. solutio, conditio 
+       im<lb ed="#S" break="no" n="101"/>possibilis de futuro, quae est simplicitur impossibilis, &amp; per 
+      <lb ed="#S" n="102"/>se habetur pro non adiecta: &amp; similiter conditio de praete 
+      <lb ed="#S" n="103"/>rito forte, vtpote si dicatur, si sol non fuit ortus heri:sed 
+      <lb ed="#S" n="104"/>contingens non est necessaria nisi per accidens. Nam absolu 
+      <lb ed="#S" n="105"/>te, &amp; per se possibile fuit patrem meum desponsasse me: sed 
+      <lb ed="#S" n="106"/>supposito, quod non fecerit, impossibile est fecisset &amp; iura, 
+      <lb ed="#S" n="107"/>quae hoc dicunt, loquunt de conditione in futuro. simili 
+      <lb ed="#S" n="108"/>ter conditio turpis de futuro, quae incitat ad peccandum, 
+      <lb ed="#S" n="109"/>habei pro non adiecta, non sic autem de praeterito, vel 
+       prae<lb ed="#S" break="no" n="110"/>senti. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r10857-d1e757" n="29">
+      <!-- 29 -->secunda conclusio est, quando conditio de 
+      <lb ed="#S" n="111"/>futuro necessaria de iure: vt quia dicit iudaeae, aut sarracae 
+      <lb ed="#S" n="112"/>nae accipiam te, si fueris Christiana, &amp; tunc existente con 
+      <lb ed="#S" n="113"/>ditione taenet, quodactum est, deficiente nihil est actum, nec 
+      <lb ed="#S" n="114"/>etiam potest ab hac conditione recedi per carnalem copulam 
+      <lb ed="#S" n="115"/>vel consensum de praesenti, quia non est matrimonium cum 
+       in<lb ed="#S" break="no" n="116"/>fidelibus: imo si haec conditio omittat, nihil agitur: 
+       ho<lb ed="#S" break="no" n="117"/>nesta enim est, &amp; necessaria. 28. q. 1. non oportet.
+    </p>
+            <p xml:id="khj78y-r10857-d1e777" n="30">
+      <!-- 30 -->
+       Ter<lb ed="#S" break="no" n="118"/>tia conclusio est, quando conditio est necessaria defacto, &amp; 
+       na<lb ed="#S" break="no" n="119"/>turatvt si sol cras oriei, &amp; tunc habetur pro impleta, nec su 
+      <lb ed="#S" n="120"/>spendit obligationem, nec exactionem.
+    </p>
+            <p xml:id="khj78y-r10857-d1e789" n="31">
+      <!-- 31 -->sed contra, dies 
+      <lb ed="#S" n="121"/>minus suspendit obligationem, quam conditio: sed si dicam, ac 
+      <lb ed="#S" n="122"/>cipiam te Dominica dic in ortu solis, non teneor ta 
+       accipe<lb ed="#S" break="no" n="123"/>re ante illam horam: ergo a simili si dicam, accipiam te, si sol 
+      <lb ed="#S" n="124"/>oriatur die Dominica, vsque tunc debes expectare: quia etium hic 
+      <lb ed="#S" n="125"/>subintelligit tacita conditio, fi vixerit. solutio, diet non 
+      <lb ed="#S" n="126"/>plus suspendit obligationem, quam conditio caeteris paribus; 
+      <lb ed="#S" n="127"/>sed quando dies ponitur ad suspendendum non conditios 
+      <lb ed="#S" n="128"/>tunc secus est, &amp; sic est hic. Cum enim dico, promitto 
+       ti<lb ed="#S" break="no" n="129"/>bi decem cras, quando solorietur, sensus est, cras quando 
+       ve<lb ed="#S" break="no" n="130"/>rum erit dicere, sol oritur. sed cum dico, si sol &amp;c. 
+       sen<lb ed="#S" break="no" n="131"/>sus est. i. si verum est dicere, sol oritur, quod pro nunc est 
+      <lb ed="#S" n="132"/>verum. sed si sit necessaria, &amp; incerta nobis, vt de eclipsi, 
+      <lb ed="#S" n="133"/>desponsabo te, si Luna eclipsetur tali nocte futura, videtur 
+      <lb ed="#S" n="134"/>statim contrabi. Insti. de verb. obli. ☿. conditiones. Quae 
+      <!--0358.xml-->
+      <pb ed="#S" n="358"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>enim per rerum naturam certa sunt, non morantur 
+       obligatie<lb ed="#S" break="no" n="2"/>nem, quamuis nobis incerta sint: sed illud in conditione de 
+      <lb ed="#S" n="3"/>praesenti, &amp; de praeterito, forte secus in futuro: tamen si quis 
+      <lb ed="#S" n="4"/>per verba de praesenti contraheret matrimonium sub 
+       con<lb ed="#S" break="no" n="5"/>ditione, quae omnino extitura est: puta, contraho tecum, si 
+      <lb ed="#S" n="6"/>mortuus fuero: statim est matrimonium, nec possum cum 
+      <lb ed="#S" n="7"/>alia contrahere, quamuis quidam dicunt contra. ff. de conditio 
+      <lb ed="#S" n="8"/>nibus, &amp; demonstrationibus. l. quod si ea conditio.
+    </p>
+            <p xml:id="khj78y-r10857-d1e848" n="32">
+      <!-- 32 -->Quar 
+      <lb ed="#S" n="9"/>ta conclusio est incidentalis, quam ponit Hosti. accipio te, si 
+      <lb ed="#S" n="10"/>inueniaris virgo: &amp; dicit, quod est matrimonium, quamuis 
+       in<lb ed="#S" break="no" n="11"/>ueniat corrupta. ar. ff. de contrahen. emp. l. alioquin. 5. 1. 
+      <lb ed="#S" n="12"/>&amp;. 29. q. 5. 1. &amp; ita esse vider per praedicta. Quia aut est 
+      <lb ed="#S" n="13"/>virgo, &amp; sic extat conditio, aut non, &amp; tunc impossibile est, 
+      <lb ed="#S" n="14"/>&amp; tunc pro impleta habet.
+    </p>
+            <p xml:id="khj78y-r10857-d1e866" n="33">
+      <!-- 33 -->sed aliud est de futura 
+      <lb ed="#S" n="15"/>necessaria per se, aliud per accidens. Nec obstat 
+       Decre<lb ed="#S" break="no" n="16"/>tum, quod inducit: quia aliquid per modum conditionis 
+      <lb ed="#S" n="17"/>appositum vitiat in fui defectum, quod non vitiat per modum 
+      <lb ed="#S" n="18"/>erroris. si enim contraham sub conditione, si placeat paren 
+      <lb ed="#S" n="19"/>tibus meis: ipsis contradicentibus nihil est actum. si autem 
+       si<lb ed="#S" break="no" n="20"/>ne conditione credam eis placere, vel placiturum, nihilomi 
+      <lb ed="#S" n="21"/>nus valet ipsis contradicentibus. similiter error 
+       virginita<lb ed="#S" break="no" n="22"/>tis non impedit, sed defectus conditionis, quae nec est inho 
+      <lb ed="#S" n="23"/>nesta, nec impossibilis per naturam: vnde si cum dicit: si 
+       in<lb ed="#S" break="no" n="24"/>ueniaris virgo, intelligit, quandocumque voluero contrahere: tunc 
+      <lb ed="#S" n="25"/>est contingens, si ipsa est virgo tunc, quia cras poterit corrum 
+      <lb ed="#S" n="26"/>pi: si autem iam est corrupta, tunc est impossibile per 
+       acci<lb ed="#S" break="no" n="27"/>dens. si autem intelligatur, si inueniaris virgo statim: tunc est 
+      <lb ed="#S" n="28"/>bene, vel necessaria, vel impossibilis, sed hoc accidit. 
+    </p>
+            <p xml:id="khj78y-r10857-d1e901" n="34">
+               <lb ed="#S" n="29"/>
+               <!-- 34 -->Quinta conclusio est de impossibili de facto, &amp; 
+       na<lb ed="#S" break="no" n="30"/>tura, quae haber pro non adiecta. de condi. appo. c. 1. &amp; vlt. 
+      <lb ed="#S" n="31"/>vt si coelum digito tetigeris, &amp; est satis mirabile, quia videtur 
+      <lb ed="#S" n="32"/>deridere potius, quam consentire: &amp; idem in foro conscientiae si 
+      <lb ed="#S" n="33"/>diceret se non consensisse, iudicaretur non esse matrimonium 
+      <lb ed="#S" n="34"/>tontractum: sed contrahendum propter ecclesiae praeceptum, 
+      <lb ed="#S" n="35"/>&amp; idem si est impossibile de iure diuino, vt si missam ce 
+      <lb ed="#S" n="36"/>lebraueris: quia indistinctae conditiones impossibiles 
+       haben<lb ed="#S" break="no" n="37"/>tur pro non adiectis.
+    </p>
+            <p xml:id="khj78y-r10857-d1e925" n="35">
+      <!-- 35 -->sexta conclusio, de conditione 
+      <lb ed="#S" n="38"/>contra substantiam coniugij, vt si generationem prolis 
+       eui<lb ed="#S" break="no" n="39"/>tes, vel donec inueniam digniorem, aut si pro quaestu 
+       adul<lb ed="#S" break="no" n="40"/>terandante tradas, quia ista vitiat. de condi. appo. c. fi. 
+    </p>
+            <p xml:id="khj78y-r10857-d1e936" n="46">
+               <lb ed="#S" n="41"/>
+               <!-- 36 -->septima conclusio est de inhonesta, quae non 
+       repu<lb ed="#S" break="no" n="42"/>gnat naturae matrimonij: vt contraho tecum, si furtum 
+       fe<lb ed="#S" break="no" n="43"/>teris, aut homicidium: hoc si apponat pro non adiecta ha 
+      <lb ed="#S" n="44"/>betur: &amp; nihilominus matrimonium, vel sponsalia contra 
+      <lb ed="#S" n="45"/>huntur: quia verum sub conditione quantumcunque turpi contra 
+      <lb ed="#S" n="46"/>ctum: dummodo non sit contra substantiam mattimonij va 
+      <lb ed="#S" n="47"/>let: de condi. app. c. vl. &amp; est speciale in matrimonio: vt est 
+      <lb ed="#S" n="48"/>institutionib', &amp; legatis. Insti. de lega 4. vlt.
+    </p>
+            <p xml:id="khj78y-r10857-d1e959" n="37">
+      <!-- 37 -->
+       Octa<lb ed="#S" break="no" n="49"/>ua conclusio est, quam ponit Host. in summa. si conditio 
+       ho<lb ed="#S" break="no" n="50"/>nesta, &amp; possibilis apponatur in sponsalibus, &amp; matrimo 
+      <lb ed="#S" n="51"/>nio: vel contraham tecum, vel contraho, si dederis mihi c. 
+      <lb ed="#S" n="52"/>vel si pater tuus, aut patrinus consenserit: quia suspenditur 
+      <lb ed="#S" n="53"/>consensus, siue sponsalia, quousque conditio extiterit, vel 
+       ex<lb ed="#S" break="no" n="54"/>tet, si tamen post talem confensum conditionalem alius consensus 
+      <lb ed="#S" n="55"/>interueniat per verba de praesenti, vel carnalis copul 
+      <lb ed="#S" n="56"/>sit sequuta, videtur recessum a conditione: vnde statim est 
+      <lb ed="#S" n="57"/>matrimonium, quamuis conditio non extet: adeo quod ex quo con 
+      <lb ed="#S" n="58"/>stat de carnali copula post sponsalia, quamuit probet, quod ille 
+      <lb ed="#S" n="59"/>dissenserit: si tamen non probetur expresse, quod contradixerit ante 
+      <lb ed="#S" n="60"/>carnalem copulum, in dubio pro matrimonio iudicabitur: de 
+      <lb ed="#S" n="61"/>condi. appo. de illis. c. super eo.c. per tuas. ff de contrahen. 
+      <lb ed="#S" n="62"/>empt. &amp; vendi. l. si Celsus. scilicet vle. Neo refert, vtrum in 
+       arbi<lb ed="#S" break="no" n="63"/>trium parentum, an aliorum conferatur. extra. eo. per tuas. In 
+      <lb ed="#S" n="64"/>omnibus supradictis idem dicunt Iuristae in sponsalibus, 
+      <lb ed="#S" n="65"/>&amp; matrimonio, licet Theologi distinguant. Et quod 
+       di<lb ed="#S" break="no" n="66"/>cit Tho. matrimonium contractum sub conditione de futuro 
+      <lb ed="#S" n="67"/>possi bili, &amp; honesta, comparari sponsalibus de futuro, non 
+      <!--0358.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>valet secundum Iuristas, quia aut intelligit pro nunc, &amp; est 
+      <lb ed="#S" n="69"/>falsum, quia non sunt sponsalia, sicut nec matrimonium: quia id 
+      <lb ed="#S" n="70"/>quod impedit matrimonium, impediret sponsalia. scilicet defect 
+      <lb ed="#S" n="71"/>conditionis: tunc autem duntaxat matrimonium valet, vt 
+       spon<lb ed="#S" n="72" break="no"/>salia: cum in sponsalibus cessat causa, quae matrimonium 
+      <lb ed="#S" n="73"/>impediebat: aut, intelligit protunc, &amp; hoc non valet: 
+      <lb ed="#S" n="74"/>ga tunc est verum matrimonium, cum existentia conditionis 
+      <lb ed="#S" n="75"/>aequiparet contractui puro: vnde matrimonium 
+       contra<lb ed="#S" break="no" n="76"/>ctum sub conditione de futuro illa existente est 
+       matrimo<lb ed="#S" break="no" n="77"/>nium, &amp; non sponsalia: quia quando conditio existit, ita est, ac si 
+       si<lb ed="#S" break="no" n="78"/>ne conditione pro tunc esset contractus habitus. si enim do 
+      <lb ed="#S" n="79"/>tibi, vel trado rem meam sub conditione, si nauis ex Asia ve 
+      <lb ed="#S" n="80"/>nerit, naue veniente non est promissio tantum dandi: sed est 
+      <lb ed="#S" n="81"/>transatio dominij, ita &amp; hic. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-r10857-d1e1040" n="38">
+      <!-- 38 -->Ad argumentum 
+      <lb ed="#S" n="82"/>dicendum, quod ecclesia bene potest facere, quod consensus non 
+       fa<lb ed="#S" break="no" n="83"/>ciat matrimonium, sed veritatem, quia potest facere inhabiles. 
+      <lb ed="#S" n="84"/>Et ideo secundum veritatem conditio turpis contraria matri 
+      <lb ed="#S" n="85"/>monio, quae est de futuro, facit matrimonium non esse quan 
+      <lb ed="#S" n="86"/>tumcunque consentiant, sed ecclesia non potest facere, quod sine 
+      <lb ed="#S" n="87"/>consensu sit verum matrimonium: vnde si conditionem 
+       quan<lb ed="#S" break="no" n="88"/>cunque apponentes non intendebant consentire, nisi illa extan 
+      <lb ed="#S" n="89"/>te: non est matrimonium, si nunquam extat, vel non est antequam 
+      <lb ed="#S" n="90"/>extet, si extitura est: sed ecclesia praesumit consensum ex 
+      <lb ed="#S" n="91"/>hoc ipso, quod conditio turpis, vel impossibilis, aut 
+       necessa<lb ed="#S" break="no" n="92"/>ria apponatur: quia ex quo sic statuit, quod huiusmodi habeantur pro 
+      <lb ed="#S" n="93"/>non appositis, vel impletis, quicumque eas apponunt, videren 
+      <lb ed="#S" n="94"/>tur eas velle habere pro impletis: vnde caueat sibi, quomodo  
+      <lb ed="#S" n="95"/>contrahunt: quia ecclesia iudicabit pro matrimonio in 
+       fo<lb ed="#S" break="no" n="96"/>ro exteriori: secus autem in foro couscientiae, vt dictum est.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

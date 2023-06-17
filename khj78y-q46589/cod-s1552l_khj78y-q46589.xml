@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="171"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q46589"><!-- l4d14-q7 -->
+            <head xml:id="khj78y-q46589-Hd1e101">Quaestio 7</head>
+            <head xml:id="khj78y-q46589-Hd1e103" type="question-title">
+     de effectu poenitentiae, utrum sit necessaria ad salutem
+   </head>
+            <p xml:id="khj78y-q46589-d1e106">
+               <lb ed="#S" n="88"/>QVAESTIO SEPTIMA. 
+    </p>
+            <p xml:id="khj78y-q46589-d1e111">
+               <lb ed="#S" n="89"/>De effectu poenitentiae. 
+      <lb ed="#S" n="90"/>Thom. 3. q. s4. art. 5. &amp;. q. s9. 
+    </p>
+            <p xml:id="khj78y-q46589-d1e118">
+               <lb ed="#S" n="91"/>SEPTIMO Quaeritur de effectu 
+       poe<lb ed="#S" break="no" n="92"/>nitentiae, vtrum sit necessaria ad salutem? 
+      <lb ed="#S" n="93"/>Et videtur quod non: quia sine ea potest esse 
+      <lb ed="#S" n="94"/>salus: vt patet in paruulis baptizatis. 
+    </p>
+            <p xml:id="khj78y-q46589-d1e130" n="3">
+               <lb ed="#S" n="95"/>
+               <!-- 3 -->CONTRA, nisi poenitentiam 
+      <lb ed="#S" n="96"/>habueritis, omnes fimul peribitis.
+    </p>
+            <p xml:id="khj78y-q46589-d1e139" n="3">
+      <!-- 3 -->
+       REsPON<lb ed="#S" break="no" n="97"/>DEO: circa istam quaestionem sunt videnda quatuor. 
+      <lb ed="#S" n="98"/>Primo, quomodo delet peccatum. secundo quomodo 
+      <lb ed="#S" n="99"/>restituit virtutes. Tertio, quomodo viuificat opera 
+       mor<lb ed="#S" break="no" n="100"/>tua per peccatum. Quarto, de hoc, quod quaeritur. 
+    </p>
+            <p xml:id="khj78y-q46589-d1e152" n="4">
+               <lb ed="#S" n="101"/>
+               <!-- 4 -->CIRCA primum sunt tres conclusiones. Prima, 
+      <lb ed="#S" n="102"/>quod delet omnem actualem culpam tam mortalem, quam 
+       venia<lb ed="#S" break="no" n="103"/>lem, cui specialiter applicat. sed potest delere mortalia 
+      <lb ed="#S" n="104"/>sine venialibus, &amp; vnum veniale sine alio: sed non vnum 
+      <lb ed="#S" n="105"/>mortale siue alio.
+    </p>
+            <p xml:id="khj78y-q46589-d1e168" n="5">
+      <!-- 5 -->secunda conclusio est, quod 
+      <lb ed="#S" n="106"/>omnem poenam aeternam in temporalem commutat, &amp; 
+      <lb ed="#S" n="107"/>omnem temporalem minuit, &amp; si sit perfecta, totaliter 
+       tol<lb ed="#S" break="no" n="108"/>lit.
+    </p>
+            <p xml:id="khj78y-q46589-d1e179" n="6">
+      <!-- 6 -->Tertia conclusio est, quod sequela ad 
+       pec<lb ed="#S" break="no" n="109"/>catum, quae est trahere ad malum, &amp; retrahere a bono, si 
+      <lb ed="#S" n="110"/>poenitentia, quae est virtus, &amp; sacramentum, sit perfecta 
+      <lb ed="#S" n="111"/>totaliter delet istam sequaelam, &amp; istas reliquias. si 
+       au<lb ed="#S" break="no" n="112"/>tem esset completa poenitentia, quae est sacramentum, &amp; 
+      <lb ed="#S" n="113"/>non quae est virtus, esset quidem deleta poena: sed non 
+      <lb ed="#S" n="114"/>sequela: cum in momento posset esse, deleta omnis 
+       poe<lb ed="#S" break="no" n="115"/>na: non autem habitus male acquisitus. sed econuerso, 
+      <lb ed="#S" n="116"/>si esset virtus poenitentiae perfecta non sacramentum: 
+      <lb ed="#S" n="117"/>tunc sequela esset deli: quia vbi habitus virtuosus est 
+      <lb ed="#S" n="118"/>perfectus habitus oppositus est totaliter corruptus: sed 
+      <lb ed="#S" n="119"/>non propter hoc esset poena omnis ex soluta: cum 
+       perfe<lb ed="#S" break="no" n="120"/>cte virtuosus possit esse debitor poenae.
+    </p>
+            <p xml:id="khj78y-q46589-d1e210" n="7">
+      <!-- 7 -->
+       CIR<lb ed="#S" break="no" n="121"/>CA secundum sunt tres conclusiones. Prima, quod per 
+       poeni<lb ed="#S" break="no" n="122"/>tentiam restituuntur omnes virtutes pertinentes ad 
+       ne<lb ed="#S" break="no" n="123"/>cessitatem salutis: quia amouendo obstaculum restituit gratia 
+      <lb ed="#S" n="124"/>tiam, cum qua virtutes infundant, sed necessitas ad digni 
+      <lb ed="#S" n="125"/>tatem: vt virginitatem, &amp; innocentiam non restituit. Restituit 
+      <lb ed="#S" n="126"/>autem in maiori, vel minori, vel aequali gradu secundum di 
+      <lb ed="#S" n="127"/>uersam dispositionem.
+    </p>
+            <p xml:id="khj78y-q46589-d1e231" n="8">
+      <!-- 8 -->secunda conclusio est 
+      <lb ed="#S" n="128"/>Quia non restituit impunitatem in foro contentioso: imo 
+      <lb ed="#S" n="129"/>habens bullam de absolutione ab homicidio nihilomi- 
+      <!--0172.xml-->
+      <pb ed="#S" n="172"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>nus suspenderetur, &amp; luste: sicut Iudaeus homicida si 
+       ba<lb ed="#S" break="no" n="2"/>ptizaretur: non propter hoc euadit supplicium: quia 
+       sa<lb ed="#S" break="no" n="3"/>tisfacit quo ad Deum, non ad homines: quia ciuilis actio 
+      <lb ed="#S" n="4"/>crimininali non praeiudicat. Fur enim pecunialiter, quod ci 
+      <lb ed="#S" n="5"/>uiliter conuictus nihilominus postea criminaliter 
+       accu<lb ed="#S" break="no" n="6"/>sabitur.
+    </p>
+            <p xml:id="khj78y-q46589-d1e260" n="10">
+      <!-- 10 -->Tertia conclusio est, quod nec ab irregu 
+      <lb ed="#S" n="7"/>laritate liberat: sicut nec baptismus quo ad bigamiam: poe 
+      <lb ed="#S" n="8"/>nitentia vero nec quo ad homicidium, nec aliquam erregula 
+      <lb ed="#S" n="9"/>ritatem proprie dictam amouet: quia quo ad irregularitatem 
+       poe<lb ed="#S" break="no" n="10"/>nitentia nemo desinit esse nocens: de tempore ordic. vlti. 
+    </p>
+            <p xml:id="khj78y-q46589-d1e273" n="11">
+               <lb ed="#S" n="11"/>
+               <!-- 11 -->CIRCA tertium sunt duae conclusiones. Prima, 
+      <lb ed="#S" n="12"/>quod opera dicuntur viua, quae sunt facta a viuente vita gratiae: 
+      <lb ed="#S" n="13"/>&amp; sunt meritoria vitae aeternae, quandiu non impediuntur: 
+      <lb ed="#S" n="14"/>sed dicuntur mortua illa: quae facta sunt a carente vita 
+       gra<lb ed="#S" break="no" n="15"/>tiae: vel quae non sunt meritoria vitae eternae propter de 
+      <lb ed="#S" n="16"/>fectum debite circumstantiae, quae tamen sunt bona ex genere: 
+      <lb ed="#S" n="17"/>&amp; per consequens nata viuere. Quae vero sunt mala ex ge 
+      <lb ed="#S" n="18"/>nere, non sunt mortua priuatiue: quia nunquam sunt nata 
+      <lb ed="#S" n="19"/>viuere. Quae autem a principio erant meritoria, &amp; postea 
+      <lb ed="#S" n="20"/>superuenit mortale, dicuntur mortificata.
+    </p>
+            <p xml:id="khj78y-q46589-d1e299" n="12">
+      <!-- 12 -->secum 
+      <lb ed="#S" n="21"/>da conclusio est, quod nulla reuiuiscunt, quae mortua facta 
+      <lb ed="#S" n="22"/>fuerunt: sed illa sola rouiuiscunt, quae mortificata fuerunt. 
+      <lb ed="#S" n="23"/>De hoc autem plenius discussum fuit. 1. q. huius dist. in 
+       fi<lb ed="#S" break="no" n="24"/>ne secundi arti.
+    </p>
+            <p xml:id="khj78y-q46589-d1e312" n="13">
+      <!-- 13 -->CIRCA quartum sunt tres 
+       con<lb ed="#S" break="no" n="25"/>clusiones. Prima, quod habentibus peccatum mortale 
+       poeni<lb ed="#S" break="no" n="26"/>tentia sacramentum est necessaria quo ad contritionem in 
+      <lb ed="#S" n="27"/>hac vita simpliciter: &amp; quo ad confessionem si possit habe 
+      <lb ed="#S" n="28"/>ri: sed quo ad satisfactionem, vel hic, vel alibi. sed quo ad 
+      <lb ed="#S" n="29"/>bentem venialia non necessaria est: quia possunt dimitti 
+      <lb ed="#S" n="30"/>post hanc vitam. Non habenti autem aliqua nullo modo 
+      <lb ed="#S" n="31"/>necessaria est, nec quo ad actum exteriorem, nec quo ad 
+      <lb ed="#S" n="32"/>interiorem.
+    </p>
+            <p xml:id="khj78y-q46589-d1e334" n="14">
+      <!-- 14 -->secunda conclusio est, quod 
+       poeni<lb ed="#S" break="no" n="33"/>tentia, quae est virtus acquisita nulli est necessaria ad sa 
+      <lb ed="#S" n="34"/>lutem, cum vltimo vitae possit homo poenitere: quando 
+      <lb ed="#S" n="35"/>non potest actu vno habitum virtutis in se generare. sed 
+      <lb ed="#S" n="36"/>quo ad actum, aptitudine necessaria est in hac vita 
+       ha<lb ed="#S" break="no" n="37"/>benti mortale, quod occurrit memoriae, non autem non 
+      <lb ed="#S" n="38"/>habenti.
+    </p>
+            <p xml:id="khj78y-q46589-d1e353" n="15">
+      <!-- 15 -->Tertia conclusio est, quod poenitentia, 
+      <lb ed="#S" n="39"/>quae est virtus infusa, necessaria est omni puro homini 
+      <lb ed="#S" n="40"/>ad salutem, non autem propter se innocentibus: sed propter 
+      <lb ed="#S" n="41"/>connexionem eius cum charitate: sine qua non est salus: 
+      <lb ed="#S" n="42"/>quae non potest esse nisi cum ista, &amp; aliis. Actus vero eius 
+      <lb ed="#S" n="43"/>actus est necessarius omni habenti mortale cognitum. 
+      <lb ed="#S" n="44"/>Dico actus interior: quia exterior hic, vel alibi expleri 
+      <lb ed="#S" n="45"/>potest. Et per hoc patet solutio ad oppositum. Quod 
+      <lb ed="#S" n="46"/>pluribus irretitus peccatis non potest poenitere de vno 
+      <lb ed="#S" n="47"/>vere, nisi de omnibus poeniteat.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

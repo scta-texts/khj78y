@@ -1,0 +1,1802 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="1"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q10001"><!-- l4d1-q1 -->
+            <head xml:id="khj78y-q10001-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-q10001-Hd1e103" type="question-title">
+     Utrum sacramenta nouae Legis causent gratiam. 
+   </head>
+            <p xml:id="khj78y-q10001-d1e106"><!--0001.xml-->
+               <pb ed="#S" n="1"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>CLARIssIMI 
+      <lb ed="#S" n="2"/>DOCTORIs 
+      FRA<lb ed="#S" n="3" break="no"/>TRIS PETRI DE PALVDE, 
+      <lb ed="#S" n="4"/>Patriarchae Hierosolymitani, 
+       Ordi<lb ed="#S" break="no" n="5"/>nis praedicatorum, in Quartum 
+      <lb ed="#S" n="6"/>sententiarum scriptum 
+      <lb ed="#S" n="7"/>foeliciter 
+       in<lb ed="#S" break="no" n="8"/>cipit. 
+   </p>
+            <p xml:id="khj78y-q10001-d1e131">
+               <lb ed="#S" n="9"/>CIrca Quartum sententiarum, quo ad primam 
+       di<lb ed="#S" break="no" n="10"/>stinctionem quaeruntur sex. Primum est de 
+       sacra<lb ed="#S" break="no" n="11"/>mentorum nouae Legis virtute, &amp; operatione. 
+       se<lb ed="#S" break="no" n="12"/>cundum, de sacramentorum diffinitione. Tertium, 
+      <lb ed="#S" n="13"/>de ipsorum institutione. Quartum, de ipsorum 
+       con<lb ed="#S" break="no" n="14"/>stitutione. Quintum, de circuncisione. sextum, de 
+      <lb ed="#S" n="15"/>legalium virtute, &amp; cessatione. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e149">
+               <lb ed="#S" n="16"/>QVAESTIO PRIMA. 
+      <lb ed="#S" n="17"/>Vtrum sacramenta nouae Legis causent gratiam. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e157">
+               <lb ed="#S" n="18"/>Thom. 3. q. 62. art. I. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e162">
+               <lb ed="#S" n="19"/>PRimo ergo quaeritur. Vtrum 
+       sa<lb ed="#S" break="no" n="20"/>cramenta. nouae Legis causent 
+      <lb ed="#S" n="21"/>gratiam dispositiue per virtutem 
+      <lb ed="#S" n="22"/>inhaerentem. Et arguitur quod 
+      <lb ed="#S" n="23"/>non, quia sicut se habet Lex 
+       ve<lb ed="#S" break="no" n="24"/>tus ad Legem nouam: sic 
+       sacramen<lb ed="#S" break="no" n="25"/>tum veteris Legis ad 
+       sacramen<lb ed="#S" break="no" n="26"/>tum nouae Legis. sed Lex vetus 
+      <lb ed="#S" n="27"/>sic se habet ad Legem nouam, quod 
+      <lb ed="#S" n="28"/>illud, quod promittebatur in Lege veteri, soluitur in 
+       no<lb ed="#S" break="no" n="29"/>na: non per Legem, sed a Deo in Lege: ergo similiter est, 
+      <lb ed="#S" n="30"/>quod gratia in sacramentis veteris Legis promissa, vel 
+       fi<lb ed="#S" break="no" n="31"/>gurata exhibetur in sacramentis nouae Legis: non quidem 
+      <lb ed="#S" n="32"/>per ipsa, sed a Deo in ipsis.
+    </p>
+            <p xml:id="khj78y-q10001-d1e195" n="2">
+     <!-- 2 -->Praeterea est 
+       baptis<lb ed="#S" break="no" n="33"/>mus in effectu maior, quam cetera sacramenta: sed baptismus 
+      <lb ed="#S" n="34"/>nihil efficit. ergo &amp;c. Probo minorem: primo quidem, quia 
+      <lb ed="#S" n="35"/>idem remediu afferebat circuncisio, quae characterem non 
+      <lb ed="#S" n="36"/>causabat: secundo, quia veritas respondet figurae. sed 
+       a<lb ed="#S" break="no" n="37"/>qua Iordanis nihil causauit in Naaman, vt sanaret, nec 
+      <lb ed="#S" n="38"/>dispositionem: ergo nec baptismus, quem significabat. Et 
+      <lb ed="#S" n="39"/>idem est de baptismo Ioannis.
+    </p>
+            <p xml:id="khj78y-q10001-d1e215" n="3">
+     <!-- 3 -->CONTRA 
+      <lb ed="#S" n="40"/>sacramenta perfecta debent aliquid agere ad sanctifica 
+      <lb ed="#S" n="41"/>tionem non solum significare: quia sacramentum dicitur a 
+      <lb ed="#S" n="42"/>sacrando actiue. Vnde nisi agat aliquid ad sacrandum, 
+      <lb ed="#S" n="43"/>non est perfectum sacramentum, sed sacramenta nouae legis 
+      <lb ed="#S" n="44"/>sunt perfectissima omnium, quae fuerunt, &amp; futura sunt. 
+      <lb ed="#S" n="45"/>ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q10001-d1e233" n="4">
+     <!-- 4 -->secundo, quia eadem ratio est de 
+       baptis<lb ed="#S" break="no" n="46"/>mo, &amp; de aliis: sed baptismus non esset lauacrum 
+       rege<lb ed="#S" break="no" n="47"/>nerationis, nisi renasceret ut homo denuo ex aqua: &amp; 
+      <lb ed="#S" n="48"/>nisi esset in eo vis regeneratiua, per quam saltem 
+       dispo<lb ed="#S" break="no" n="49"/>neret ad gratiam, sicut nec homo generat hominem, 
+       ni<lb ed="#S" break="no" n="50"/>si per potentiam generatiuam attingentem saltem ad 
+       dis<lb ed="#S" break="no" n="51"/>positionem ad animam. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q10001-d1e251" n="5">
+     <!-- 5 -->Tertio, quia 
+      <lb ed="#S" n="52"/>eadem est ratio de poenitentia, &amp; de reliquis: sed 
+       poeni<lb ed="#S" break="no" n="53"/>tentia est causa gratiae: quia alias esset mendacium in 
+       do<lb ed="#S" break="no" n="54"/>cesiiaut emaitet. 
+      <!--0001.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="55"/>quidem non te soluo, sed me dicente verba ista falsa, 
+      <lb ed="#S" n="56"/>Deus falsus testis te soluit: cuius forte opinionis Graeci 
+      <lb ed="#S" n="57"/>dicunt: Baptizetur seruus Christi &amp;c. Probatio consequen 
+      <lb ed="#S" n="58"/>tiae: quia non possunt dici, soluere vinculum, nisi qui 
+       ip<lb ed="#S" break="no" n="59"/>sum per se amouet, vel ad amotionem disponit: vel ille, 
+      <lb ed="#S" n="60"/>cuius authoritate, &amp; mandato hoc fit, vel cuius meritis 
+      <lb ed="#S" n="61"/>aut precibus alius mouetur ad soluendum, sacerdos autem 
+      <lb ed="#S" n="62"/>non soluit per authoritatem, sed per ministerium, nec per me 
+      <lb ed="#S" n="63"/>ritum, aut orationem suam, cum sit aliquando peccator: 
+      <lb ed="#S" n="64"/>quem Deus non audit.
+    </p>
+            <p xml:id="khj78y-q10001-d1e289" n="6">
+     <!-- 6 -->Et si dicatur, quod hoc est 
+      <lb ed="#S" n="65"/>per merita ecclesiae: hoc non valet: quia tunc in persona 
+      <lb ed="#S" n="66"/>ecclesiae, non sua deberet dicere: Ecclesia te absoluit, 
+       er<lb ed="#S" break="no" n="67"/>go per hoc, quod dicit absoluo te, nisi mentiatur, 
+       dispo<lb ed="#S" break="no" n="68"/>nit. ergo &amp;c,
+    </p>
+            <p xml:id="khj78y-q10001-d1e302" n="7">
+     <!-- 7 -->REsPONsIO. De ista 
+       quae<lb ed="#S" break="no" n="69"/>stione sunt quatuor opiniones, quarum secundam 
+       susti<lb ed="#S" break="no" n="70"/>nebo ad praesens.
+    </p>
+            <p xml:id="khj78y-q10001-d1e311" n="8">
+     <!-- 8 -->Circa primam opinionem: 
+       pri<lb ed="#S" n="71" break="no"/>mo declarabitur ipsa opinio. secundo arguetur contra 
+      <lb ed="#S" n="72"/>eam. Tertio recitabuntur tres rationes ad 
+       confirmatio<lb ed="#S" break="no" n="73"/>nem opinionis, &amp; soluentur.
+    </p>
+            <p xml:id="khj78y-q10001-d1e322" n="9">
+     <!-- 9 -->Opinio ergo 
+       anti<lb ed="#S" break="no" n="74"/>qua prima est, quod in sacramentis non est aliqua virtus 
+       cau<lb ed="#S" n="75" break="no"/>satiua gratiae, nec characteris, vel cuiuscunque 
+       dispositio<lb ed="#S" break="no" n="76"/>nis, seu ornatus existentis in anima: sed sunt sacramenta 
+      <lb ed="#S" n="77"/>causa, sine qua non confertur gratia: quia ex diuina pactio 
+      <lb ed="#S" n="78"/>ne, vel ordinatione sic fit, quod recipiens sacramentum recipit, 
+      <lb ed="#S" n="79"/>&amp; gratiam: nisi ponat obicem: &amp; recipit gratiam non a 
+       sacra<lb ed="#S" n="80" break="no"/>mento, sed a Deo: qui solus pertingit ad characterem, &amp; 
+      <lb ed="#S" n="81"/>gratiam, &amp; quemcunque ornatum, qui fit in anima: hoc autem 
+       de<lb ed="#S" break="no" n="82"/>claratur per simile, &amp; per authoritatem. Per simile de 
+       il<lb ed="#S" n="83" break="no"/>lo, qui recipit denarium plumbeum facta tali ordinatione, 
+      <lb ed="#S" n="84"/>vt qui recipit vnum de illis, recipiat cleemosynam Regis: 
+      <lb ed="#S" n="85"/>non quod denarius sit causa eleemosynae: sed solum Rex. 
+       de<lb ed="#S" break="no" n="86"/>narius autem est signum, &amp; causa sine qua non: sic est id 
+       pro<lb ed="#S" break="no" n="87"/>posito de sacramentis respectu gratiae, vel characteris, vel 
+      <lb ed="#S" n="88"/>cuiuscumque alterius effectus spiritualis. Ad idem est 
+       authori<lb ed="#S" n="89" break="no"/>tas Bernardi in sermone de coena Domini, qui dicit sic: 
+       si<lb ed="#S" break="no" n="90"/>cut canonicus inuestitur per librum, abbas per baculum, 
+      <lb ed="#S" n="91"/>Episcopus per annulum: sic diuersae gratiae sunt traditae 
+      <lb ed="#S" n="92"/>sacramentis.
+    </p>
+            <p xml:id="khj78y-q10001-d1e368" n="10">
+     <!-- 10 -->sed ista opinio non valet propter 
+      <lb ed="#S" n="93"/>duo. Primo, quia videtur absurdum, quod Deus non aliter 
+       a<lb ed="#S" break="no" n="94"/>gat in sacramentis ad iustificandum, quam Diabolus in 
+       sor<lb ed="#S" n="95" break="no"/>tilegiis ad maleficiendum. scilicet ex pactione, herba, vel charta 
+      <lb ed="#S" n="96"/>posita sub lecto, vel limine, &amp; nihil penitus agente, aut quod 
+      <lb ed="#S" n="97"/>verba sacramentalia nihil plus facient: nec minister, quam 
+       ver<lb ed="#S" n="98" break="no"/>ba incantatoris: aut ipse incantator: sed sicut illis dictis 
+      <lb ed="#S" n="99"/>ex pactione Demon agit in serpente trahendo, vel 
+       vene<lb ed="#S" n="100" break="no"/>num mortificando, vel aliquid huiusmodi sic in 
+       proposi<lb ed="#S" break="no" n="101"/>to.
+    </p>
+            <p xml:id="khj78y-q10001-d1e392" n="11">
+     <!-- 11 -->secundo, quia secundum hoc sequeretur, quod 
+      <lb ed="#S" n="102"/>sacramenta veteris legis, &amp; quaedam ve. &amp; novae legis non 
+       sacra<lb ed="#S" n="103" break="no"/>menta sint magis causa gratiae, quam sacramenta novae legis. 
+      <lb ed="#S" n="104"/>vel quam aliqua alia: aut quod non nisi duo aut tria sacramenta 
+      <lb ed="#S" n="105"/>no. le. sint huiusmodi: quia illud est causa, sine qua non 
+      <lb ed="#S" n="106"/>gratiae potissima, quo solo posito in funditur gratia 
+       aliun<lb ed="#S" break="no" n="107"/>de, &amp; quo solo remoto nullo alio posito infundit: sicut 
+      <lb ed="#S" n="108"/>quantitas humana est causa, sine qua non hominis: quia 
+      <lb ed="#S" n="109"/>homo nunquam est sine quantitate, nec econuerso: sed 
+       nun<lb ed="#S" break="no" n="110"/>quam est infusio gratiae in adulto sine impletione 
+       praece<lb ed="#S" break="no" n="111"/>ptorum: nec econuerso: iuxta illud: si vis ad vitam ingredi, 
+      <lb ed="#S" n="112"/>serua mandata. ergo cum omnia sacramenta veteris legis vel fere 
+      <lb ed="#S" n="113"/>omnia caderent sub praecepto, &amp; de vtraque le. multa non 
+      <lb ed="#S" n="114"/>sacramenta cadant sub praecep. de sacramentis autem no. 
+      <lb ed="#S" n="115"/>le. non nisi duo sint sub praecepto Dei. scilicet baptismus, &amp; poene 
+      <lb ed="#S" n="116"/>nitentia: quae sunt necessitatis, &amp; eucharistia sub 
+       praece<lb ed="#S" n="117" break="no"/>pto ecclesiae. ergo sacramenta vete. le. fere omnia, &amp; 
+       mul<lb ed="#S" break="no" n="118"/>ta ve. ac no. le. non sacramenta sunt magis causa sine qua 
+      <lb ed="#S" n="119"/>non gratiae, quam quatuor sacramenta no. le. &amp; solum tria sacra 
+      <lb ed="#S" n="120"/>menta no. le. sunt isto modo causa, sine qua non quod vide 
+      <lb ed="#S" n="121"/>tur absurdum.
+    </p>
+            <p xml:id="khj78y-q10001-d1e441" n="12">
+     <!-- 12 -->NEC valet solutio, quam isti 
+      <!--0002.xml-->
+      <pb ed="#S" n="2"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>dant ad diffinitionem, &amp; ad authoritates sanctorum de 
+       sa<lb ed="#S" break="no" n="2"/>cramentis dicentes, quod quaudo dicunt, quod sunt causa, verum 
+      <lb ed="#S" n="3"/>est intelligendo de causa, sine qua non: quia licet in 
+       de<lb ed="#S" break="no" n="4"/>scriptionibus, &amp; notificationibus ponantur aliqua, quae 
+      <lb ed="#S" n="5"/>non sunt causa diffiniti: sicut substantia notificatur per 
+      <lb ed="#S" n="6"/>accidens: &amp; causa per effectum. Tamen in nulla 
+       descri<lb ed="#S" break="no" n="7"/>ptione vera dicitur, quod illud sit causa diffiniti, vel 
+       e<lb ed="#S" break="no" n="8"/>conuerso quod non est causa nec intrinseca, nec 
+       extrin<lb ed="#S" break="no" n="9"/>seca, nec principalis, nec instrumentalis, nec effectiua, 
+      <lb ed="#S" n="10"/>net dispositiua. Alioquin diffinitio esset falsa, &amp; non 
+       ve<lb ed="#S" n="11" break="no"/>ra: &amp; non solum non propria. In diffinitione autem 
+       si<lb ed="#S" break="no" n="12"/>ue descriptione sacramenti dicitur, quod causa existit gratia 
+      <lb ed="#S" n="13"/>tiae, &amp; non solum, quod est cum gratia, vel aliquid 
+       huius<lb ed="#S" break="no" n="14"/>modi. Causa autem sine qua non, non est causa: sicut nec 
+      <lb ed="#S" n="15"/>homo mortuus est homo, si nihil faciat ad causalitatem. 
+      <lb ed="#S" n="16"/>Vnde si diceretur, sors est homo, verum est, mortuus non 
+      <lb ed="#S" n="17"/>esset bona expositio. similiter non esset bona diffinitio 
+      <lb ed="#S" n="18"/>caloris dicere, quod est causa frigiditatis fontium in 
+       aes<lb ed="#S" break="no" n="19"/>tate, quanuis sit causa, sine qua non, &amp; per accidens. 
+      <lb ed="#S" n="20"/>sic nec sacramentum bene diffinitur per hoc, quod 
+       di<lb ed="#S" break="no" n="21"/>citur causa gratiae, si non est aliter causa, quam per 
+       acci<lb ed="#S" n="22" break="no"/>dens, &amp; sine qua non, nisi forte diceretur, quod hoc est 
+      <lb ed="#S" n="23"/>ideo, quia sacramentum ad nihil aliud est ordinatum. 
+      <lb ed="#S" n="24"/>sed hoc ipsum est inconueniens. scilicet aliquid per se 
+       ordina<lb ed="#S" n="25" break="no"/>ri ad aliquid, &amp; nihil ad illud facere.
+    </p>
+            <p xml:id="khj78y-q10001-d1e506" n="11">
+      <!--11-->NEC 
+      <lb ed="#S" n="26"/>est instantia de sacramentis veteris legis quia non ordinabantur 
+      <lb ed="#S" n="27"/>ad iustificandum, sicut ista, sed solum ad significandum, nisi 
+      <lb ed="#S" n="28"/>gforte circuncisio, vt dicetur infra.
+    </p>
+            <p xml:id="khj78y-q10001-d1e517" n="12">
+     <!-- 12 -->Authoritas 
+      <lb ed="#S" n="29"/>autem Magistri, quam inducunt, quia data sunt sacramenta, 
+      <lb ed="#S" n="30"/>vt homo quaerat salutem non ab illis, sed a Deo in illis, non 
+      <lb ed="#S" n="31"/>obstat, quia non ab illis quaeritur principaliter, sed 
+       in<lb ed="#S" break="no" n="32"/>strumentaliter. Nec valet solutio, qua dicunt, quod in 
+       sacra<lb ed="#S" break="no" n="33"/>mentis est vis ablutiua, vel regeneratiua, aut 
+       huiusmo<lb ed="#S" break="no" n="34"/>di, quod. scilicet est in eis non inhaerens, sed assistens, quia hic 
+       mo<lb ed="#S" break="no" n="35"/>dus non est aliquis de modis essendi, in quos ponit <ref xml:id="khj78y-q10001-Rd1e536">
+       phi<lb ed="#S" n="36" break="no"/>losophus. 4. Phi.</ref> nisi sit ibi, sicut causa in effectu, vt 
+       cau<lb ed="#S" break="no" n="37"/>sans ibi virtutem, &amp; sic habet ad propositum.
+    </p>
+            <p xml:id="khj78y-q10001-d1e544" n="13">
+     <!-- 13 -->Ad 
+      <lb ed="#S" n="38"/>confirmationem autem huius positionis ponunt tres rationes 
+      <lb ed="#S" n="39"/>praeter illas, quae positae sunt arguendo, quae hic similiter 
+      <lb ed="#S" n="40"/>ponendae sunt, &amp; spluendae. Prima ostendit, quod non sit ibi 
+      <lb ed="#S" n="41"/>aliqua virtus actiua, quia omnis forma actiua praeter 
+       actio<lb ed="#S" break="no" n="42"/>nem instrumentalem habet aliam naturalem, sicut calor 
+      <lb ed="#S" n="43"/>praeter generare ignem, vt est instrumentum ignis, &amp; praeter 
+      <lb ed="#S" n="44"/>generare carnem, vt est instrumentum animae, habet 
+       calefa<lb ed="#S" break="no" n="45"/>cere ex propria natura, &amp; a tota specie, sed virtus, quae 
+       es<lb ed="#S" break="no" n="46"/>set in sacramentis praeter actionem instrumentalem, quae 
+       es<lb ed="#S" break="no" n="47"/>set ad gratiam disponere, nihil aliud ageret. ergo frustra, 
+      <lb ed="#S" n="48"/>&amp; male ponitur.
+    </p>
+            <p xml:id="khj78y-q10001-d1e573" n="14">
+     <!-- 14 -->REsPONDEO 
+       dicen<lb ed="#S" break="no" n="49"/>dum, quod maior est vera de forma, quae non solum est propter 
+      <lb ed="#S" n="50"/>agere instrumentale: sed propter perfectionem absolutam 
+      <lb ed="#S" n="51"/>subiecti, sicut calor, qui non frustra erit in igne post 
+       re<lb ed="#S" break="no" n="52"/>surrectionem, quando non solum nullam substantiam genera 
+      <lb ed="#S" n="53"/>bit, sed nec calefaciet, sed ignem inesse absoluto perficiet. se 
+      <lb ed="#S" n="54"/>cus autem est de forma, quae non est nisi propter agere in 
+      <lb ed="#S" n="55"/>strumentale, sicut aliquae formae artificiales ad nihil ali 
+      <lb ed="#S" n="56"/>ud imprimuntur rebus naturalibus: nisi, vt sint 
+       instru<lb ed="#S" break="no" n="57"/>menta ad determinatas operationes, praeter quas ex 
+       na<lb ed="#S" break="no" n="58"/>tura sua nullam penitus habent operationem, sicut acuties 
+      <lb ed="#S" n="59"/>securis nihil agit, nisi diuidere, &amp; scindere ab alio mota. 
+      <lb ed="#S" n="60"/>Et idem est de virtute qualibet non solum sit propter ope 
+      <lb ed="#S" n="61"/>rationem, vel operari, sed propter perfectionem substantiae 
+      <lb ed="#S" n="62"/>non absolutam, sed relatam ad opus, est enim virtus, quae 
+      <lb ed="#S" n="63"/>habentem perficit, &amp; opus eius bonum redit: nullam tamen 
+      <lb ed="#S" n="64"/>operationem habet, nisi quam potentia per eum 
+       instru<lb ed="#S" break="no" n="65"/>mentaliter exercet. Nec potentia ipsa, quia est propter 
+       ope<lb ed="#S" break="no" n="66"/>rationem, aliquam actionem habet, nisi quem anima per 
+      <lb ed="#S" n="67"/>ipsam exercet. Ita &amp; virtus, quae a Deo datur sacramen- 
+      <!--0002.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>to non propter se, sed solum propter animam disponendam 
+      <lb ed="#S" n="69"/>nihil aliud operatur. Alias Deus non ipsam 
+       sufficien<lb ed="#S" break="no" n="70"/>ter ordinasset in finem, si ipsa haberet aliam operationem, 
+      <lb ed="#S" n="71"/>quam istam, propter quam solam, eam Deut fecit. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e632">
+    </p>
+            <p xml:id="khj78y-q10001-d1e635" n="15">
+               <lb ed="#S" n="72"/>
+               <!-- 15 -->secunda ratio talis est. sicut albedo separata a 
+      <lb ed="#S" n="73"/>quantitate non posset immutare visum, qui est quantus 
+      <lb ed="#S" n="74"/>etiam in virtute Dei sic econuerso qualitas extensa, quia 
+      <lb ed="#S" n="75"/>recipitur in quanto multo minus immutabit spiritum 
+      <lb ed="#S" n="76"/>etiam virtute diuina.
+    </p>
+            <p xml:id="khj78y-q10001-d1e651" n="16">
+      <!-- 16 -->sOLVTIO, dicen 
+      <lb ed="#S" n="77"/>dum, quod dissimile est ex vtraque parte. Primo, quia albedo 
+      <lb ed="#S" n="78"/>non est apta nata immutare visum, nisi ipsa sit quanta 
+      <lb ed="#S" n="79"/>econuerso autem qualitas extensa nata est immutare 
+      <lb ed="#S" n="80"/>spiritum coniunctum in virtute tamen qualitatis 
+       spiri<lb ed="#S" break="no" n="81"/>tualis, sicut fantasma in virtute intellectus agentis, sicut 
+      <lb ed="#S" n="82"/>probatum fuit lib. 1. dist. 27. de causalitate verbi, &amp; di. 6. 
+      <lb ed="#S" n="83"/>de intellectu agente.
+    </p>
+            <p xml:id="khj78y-q10001-d1e671" n="17">
+      <!-- 17 -->sECVNDO, quia 
+       vi<lb ed="#S" break="no" n="84"/>sus non est natus immutari a quali, non quanto 
+       econuer<lb ed="#S" n="85" break="no"/>so autem spiritus coniunctus natus est immutari a 
+       quan<lb ed="#S" n="86" break="no"/>to coniuncto, vt vbi supra Propter hoc est in anima vni 
+      <lb ed="#S" n="87"/>tur corpori, vt perficiatur. Vnde sicut sensibilia 
+       median<lb ed="#S" n="88" break="no"/>te corpori coniuncto immutant animam ad sciondam, &amp; 
+      <lb ed="#S" n="89"/>virtutes propter quod dicunt phy. scientiam nostram 
+      <lb ed="#S" n="90"/>causari a rebus in virtute tamen intellectus agentis, 
+      <lb ed="#S" n="91"/>qui est omnia facere, quae possibile est fieri naturaliter: 
+      <lb ed="#S" n="92"/>sic sensibilia eodem corpore coniuncto mediante 
+       immu<lb ed="#S" break="no" n="93"/>tant animam ad formam supernaturalem, in virtute 
+       ta<lb ed="#S" n="94" break="no"/>men Dei, qui est omnia facere supernaturaliter. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e700" n="18">
+               <lb ed="#S" n="95"/>
+               <!-- 18 -->TERTIA ratio est, quia virtus corporea, licet 
+      <lb ed="#S" n="96"/>formam, ad quam disponit introducat in instanti, vel si 
+      <lb ed="#S" n="97"/>ab alio introducatur, disponit tamen in tempore non in 
+      <lb ed="#S" n="98"/>instanti, sicut calor alterat quidem in tempore, licet 
+       gene<lb ed="#S" break="no" n="99"/>ret in instanti, sed character ita subito introducit, sicut 
+      <lb ed="#S" n="100"/>gratia, qui est dispositio ad eam igitur non fit a corpore, 
+       si<lb ed="#S" break="no" n="101"/>cut nec illa. Et concludit ista ratio, quod si aliquid aliud face 
+      <lb ed="#S" n="102"/>ret in anima, quod illud non esset dispositio ad gratiam. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e722" n="19">
+               <lb ed="#S" n="103"/>
+               <!-- 19 -->sECVNDA vero ratio concludebat, quod nihil 
+      <lb ed="#S" n="104"/>penitus facere posset in anima.
+    </p>
+            <p xml:id="khj78y-q10001-d1e731" n="20">
+      <!-- 20 -->sOLVTIO 
+      <lb ed="#S" n="105"/>tunc solum corpus disponit in tempore, quando inuenit 
+      <lb ed="#S" n="106"/>dispositionem in subiecto positiuam contrariam forma 
+      <lb ed="#S" n="107"/>lem non solum virtualem. Alias disponit in instanti, 
+       si<lb ed="#S" break="no" n="108"/>cut sol disponit in instanti per lucem aerem ad calorem, 
+      <lb ed="#S" n="109"/>quia tenebra praeexistens est pura priuatio. Et dicunt 
+      <lb ed="#S" n="110"/>aliqui, quod habens habitum appetitiuum, vel 
+       intelle<lb ed="#S" break="no" n="111"/>ctiuum per actum quemlibet contrarium disponitur 
+       su<lb ed="#S" break="no" n="112"/>bito ad contrarium habitum, sic quod simul sunt vtrique 
+      <lb ed="#S" n="113"/>habitus in gradibus remissis, &amp; quocunque actu primus 
+      <lb ed="#S" n="114"/>remittitur, secundus intenditur quousque primus, si sit 
+      <lb ed="#S" n="115"/>corruptus, quia non est inter eos contrarietas formalis, 
+      <lb ed="#S" n="116"/>sicut inter album, &amp; nigrum, quemadmodum nec inter 
+      <lb ed="#S" n="117"/>visionem albi, &amp; nigri: sed solum virtualis, quia ad 
+       con<lb ed="#S" n="118" break="no"/>trarium nata sunt inclinare. ideo possunt simul stare, 
+       si<lb ed="#S" break="no" n="119"/>cut in ferro grauitas inclinatiua deorsum, &amp; qualitas 
+      <lb ed="#S" n="120"/>impressa a magnete superposito inclinatiua sursum. sed 
+      <lb ed="#S" n="121"/>quicquid sit de hoc saltem habitus infusus simul stat cum 
+      <lb ed="#S" n="122"/>habitu acquisito contrario, quia non est contrarius 
+       for<lb ed="#S" break="no" n="123"/>maliter, quia differunt genere, sed solum virtualiter. 
+       Vn<lb ed="#S" n="124" break="no"/>de manente habitu vitioso intemperantiae subito per 
+       li<lb ed="#S" n="125" break="no"/>berum arbitrium homo ad gratiam disponitur, &amp; 
+       subi<lb ed="#S" break="no" n="126"/>to temperantia supernaturalis infunditur. Ita &amp; 
+       susci<lb ed="#S" break="no" n="127"/>piens sacramentum, si habet peccatum solum, quo ad 
+      <lb ed="#S" n="128"/>maculam, quae est pura priuatio in instanti recipit 
+       dis<lb ed="#S" break="no" n="129"/>positionem ad gratiam, sicut aer lucem. si autem habet 
+      <lb ed="#S" n="130"/>habitum peccati acquisitum, adhuc ille non est 
+       contra<lb ed="#S" break="no" n="131"/>rius. nisi virtualiter. Vnde cum illo potest recipi 
+       dispo<lb ed="#S" break="no" n="132"/>sitio ad gratiam, sicut sine illo, &amp; per consequens in 
+       in<lb ed="#S" break="no" n="133"/>stanti.
+    </p>
+            <p xml:id="khj78y-q10001-d1e800" n="21">
+      <!-- 21 -->secunda opinio est Tho. &amp; habet tres 
+       con<lb ed="#S" break="no" n="134"/>clusiones. Quarum prima est, quod non sunt sic causa gratiae, 
+      <!--0003.xml-->
+      <pb ed="#S" n="3"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>quod attingant ad ipsam essentiam gratiae producendam. 
+      <lb ed="#S" n="2"/>secunda, quod attingunt ad dispositionem, quae est 
+       cha<lb ed="#S" n="3" break="no"/>racter, vel ornatus. Tertia, quod per virtutem 
+       inhaeren<lb ed="#S" break="no" n="4"/>tem. Circa quas sic proceditur, quia primo ponetur 
+       pri<lb ed="#S" n="5" break="no"/>ma conclusio: &amp; confirmabitur tribus rationibus, &amp; 
+       ar<lb ed="#S" break="no" n="6"/>guetur contra eam tripliciter, &amp; soluetur, secundo eodem 
+      <lb ed="#S" n="7"/>modo ponetur, confirmabitur, &amp; impugnabitur secunda 
+      <lb ed="#S" n="8"/>conclusio, tertio eisdem modis deducetur, tertia 
+       conclu<lb ed="#S" n="9" break="no"/>sio.
+    </p>
+            <p xml:id="khj78y-q10001-d1e833" n="21">
+      <!-- 21 -->PRIMA ergo conclusio est, quod non 
+       attin<lb ed="#S" n="10" break="no"/>gunt immediate: ad productionem gratiae propter tria. 
+      <lb ed="#S" n="11"/>Primo, quia Aug. dicit lib. 8 3. q. 53. Quaedam est Deus 
+      <lb ed="#S" n="12"/>faciens per seipsum: quae illo solo digna sunt, eique soli 
+       con<lb ed="#S" n="13" break="no"/>ueniunt, sicuti illuminare animas, sed suprema illumi- 
+    </p>
+            <p xml:id="khj78y-q10001-d1e846">
+               <lb ed="#S" n="14"/>natio, quae est in hac vita, est per gratiam, &amp; charitatem, sine 
+      <lb ed="#S" n="15"/>quibus homo est in tene bris. 1. Io. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q10001-d1e853" n="22">
+      <!-- 22 -->Et 
+      <lb ed="#S" n="16"/>confirmatur ratione sic: quia alias gratia non esset 
+       gra<lb ed="#S" break="no" n="17"/>tia. Nam sicut dicitur &amp; bene: effectus necessarius, vel 
+      <lb ed="#S" n="18"/>contingens accipitur per comparationem ad causam pro 
+      <lb ed="#S" n="19"/>piuquam, &amp; immediatam, non remotam: etiam si illa non 
+      <lb ed="#S" n="20"/>sit principalis, sed instrumentalis. sicut dicitur vnum 
+      <lb ed="#S" n="21"/>coelum moueri ab alio necessario, quanuis non moueat 
+      <lb ed="#S" n="22"/>nisi motum ab angelo mouente contingenter, &amp; libere, 
+      <lb ed="#S" n="23"/>quia mouet per suum motum, qui est motus necessario 
+      <lb ed="#S" n="24"/>agens: sic in proposito: si gratia immediate causaretur a 
+      <lb ed="#S" n="25"/>sacramento, licet per virtutem a Deo sibi gratis 
+       colla<lb ed="#S" break="no" n="26"/>tam: quia tamen illa virtus necessario ageret. ergo 
+       gra<lb ed="#S" break="no" n="27"/>tia non gratis, nec libere: sed necessario daretur. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e884" n="23">
+               <lb ed="#S" n="28"/>
+               <!-- 23 -->sECVNDO, quia creatori debetur 
+       adora<lb ed="#S" break="no" n="29"/>tio latriae ratione creationis, sed creaturae non debetur 
+      <lb ed="#S" n="30"/>latria: igitur ipsa non est creatiuat quod tamen esset si 
+      <lb ed="#S" n="31"/>sacramentum produceret gratiam, quae non producitur, nisi per 
+      <lb ed="#S" n="32"/>creationem. si dicatur, quod latria debetur soli creato 
+      <lb ed="#S" n="33"/>ri principaliter, non autem instrumentaliter. Contra, 
+      <lb ed="#S" n="34"/>quia quicquid sit de potentia Dei, tamen de facto esse, 
+      <lb ed="#S" n="35"/>vt communiter tenetur virtus creandi etiam 
+       instrumen<lb ed="#S" n="36" break="no"/>taliter non est communicata creaturae: sed secundum 
+      <lb ed="#S" n="37"/>omnes gratia non producitur, nisi per creationem. ergo 
+      <lb ed="#S" n="38"/>ipsa non producitur a sacramento, quod est creatura. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e913" n="25">
+               <lb ed="#S" n="39"/>
+               <!-- 25 -->TERTIO, quia Christus secundum, quod 
+      <lb ed="#S" n="40"/>homo per potestatem excellentiae de qua dicitur. Hic est 
+      <lb ed="#S" n="41"/>qui baptizat, potest conferre effectum sacramenti sine 
+      <lb ed="#S" n="42"/>sacramento: sed secundum quod homo non potest 
+       con<lb ed="#S" break="no" n="43"/>ferre gratiam, quia non potest dare spiritum. si ergo 
+       gra<lb ed="#S" break="no" n="44"/>tia non est effectus sacramenti: sic quod ab illo 
+       essentia<lb ed="#S" break="no" n="45"/>liter producatur, imo sicut Christus dicens paralitico: 
+      <lb ed="#S" n="46"/>Remittuntur tibi peccata tua. per haec verba causauit 
+      <lb ed="#S" n="47"/>in ipso dispositionem ad gratiam, quam non habebat, quae 
+      <lb ed="#S" n="48"/>rens magis salutem corporis, quam animae, sed per 
+       Dei<lb ed="#S" break="no" n="49"/>tatem causauit gratiam, per quam formaliter peccatum 
+      <lb ed="#S" n="50"/>dimisit, &amp; sic filius hominis habet potestatem in terra 
+      <lb ed="#S" n="51"/>dimittend. &amp;c. sic per absolutionem sacerdotis disponi 
+      <lb ed="#S" n="52"/>tur confitens, &amp; a Deo gratia infunditur
+    </p>
+            <p xml:id="khj78y-q10001-d1e949" n="26">
+      <!-- 26 -->
+       se<lb ed="#S" break="no" n="53"/>cundum hoc intelligendae sunt authoritates, quae dicunt 
+      <lb ed="#S" n="54"/>facramenta causare gratiam, scilicet dispositiue: sicut 
+       ho<lb ed="#S" n="55" break="no"/>mo est causa hominis disponendo, &amp; secundum quod 
+       di<lb ed="#S" n="56" break="no"/>cimus, quod humanitas Christi viuificat animas, vel 
+       ali<lb ed="#S" n="57" break="no"/>quid huiusmodi, nisi quod humanitas Christi non solum 
+      <lb ed="#S" n="58"/>dispositiue, vt sacramenta, sed etiam meritorie est causa 
+      <lb ed="#S" n="59"/>gratiae.
+    </p>
+            <p xml:id="khj78y-q10001-d1e969" n="27">
+      <!-- 27 -->CONTRA hoc arguitur 
+       triplici<lb ed="#S" break="no" n="60"/>ter. Primo quia illa, quae sunt aequaliter in potentia 
+       pas<lb ed="#S" break="no" n="61"/>siua, &amp; actiua aequaliter inde educuntur, seu per 
+       crea<lb ed="#S" break="no" n="62"/>tionem, vt virtutes infusae, &amp; dona, siue per 
+       generatio<lb ed="#S" break="no" n="63"/>nem, vt formae corporales, licet vna sit perfectior altera: sed 
+      <lb ed="#S" n="64"/>gratia, &amp; character sunt huiusmodi, quia neutrum est 
+      <lb ed="#S" n="65"/>in potentia actiua naturae, nec per consequens in 
+       po<lb ed="#S" break="no" n="66"/>tentia passiua materiae. ergo aequaliter causantur, vel 
+      <lb ed="#S" n="67"/>generantur, &amp; aequaliter possunt a creatura produci, 
+      <!--0003.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>vel non produci.
+    </p>
+            <p xml:id="khj78y-q10001-d1e998" n="28">
+      <!-- 28 -->sOLVTIO. dicendum, 
+      <lb ed="#S" n="69"/>quod quantum ad potentiam passiuam maior est vera, 
+      <lb ed="#S" n="70"/>&amp; minor est falsa: quia dissimiliter sunt in potentia 
+       pas<lb ed="#S" n="71" break="no"/>siua: quia sicut in potentia passiua naturali simpliciter 
+      <lb ed="#S" n="72"/>praeexistit aliquid respectu primi coeli: quod potest 
+       pro<lb ed="#S" n="73" break="no"/>duci virtute ipsius propria, sicut forma non viuens: 
+       ali<lb ed="#S" break="no" n="74"/>quid aut praeexistit minus in potentia: quod potest 
+       pro<lb ed="#S" n="75" break="no"/>duci a coelo in virtute Dei, sicut anima corruptibilis, 
+      <lb ed="#S" n="76"/>&amp; aliquid in sola potentia materiae obedienti: quod 
+      <lb ed="#S" n="77"/>non potest produci aliqualiter, nisi a sola virtute Dei, 
+      <lb ed="#S" n="78"/>sicut anima rationalis, sic aliquid simpliciter est in 
+       po<lb ed="#S" break="no" n="79"/>tentia naturali animae: vt quae naturaliter acquiruntur. 
+      <lb ed="#S" n="80"/>Aliquid vero totaliter simpliciter in sola potentia 
+       o<lb ed="#S" break="no" n="81"/>bedientiali: sicut illa, quae a solo Deo recipit: sicut 
+       gra<lb ed="#S" break="no" n="82"/>tia, &amp; gloria, quae debentur proprie creari, vel 
+       concrea<lb ed="#S" break="no" n="83"/>ri: alia modo medio, quae possunt produci a natura 
+       vir<lb ed="#S" n="84" break="no"/>tute Dei supernaturaliter collata, vt character, &amp; 
+       orna<lb ed="#S" break="no" n="85"/>tus, vt processus gratiae respondeat processui naturae: 
+      <lb ed="#S" n="86"/>quo supremum est a Deo solo principaliter: infimum 
+      <lb ed="#S" n="87"/>a utem a natura principaliter, &amp; instrumentaliter: 
+       me<lb ed="#S" break="no" n="88"/>dium a natura instrumentaliter, &amp; a Deo principaliter. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e1046" n="29">
+               <lb ed="#S" n="89"/>
+               <!-- 29 -->Quamtum ad aliam partem de potentia actiua 
+      <lb ed="#S" n="90"/>dicendum, quod maior est vera de his, quae sunt 
+       aequa<lb ed="#S" n="91" break="no"/>liter in potentia principali, &amp; instrumentali non de 
+       al<lb ed="#S" break="no" n="92"/>tera tantum. Minor autem sub hoc sensu est falsa, quia 
+      <lb ed="#S" n="93"/>licet gratia, &amp; character sint aequaliter extra potentiam 
+      <lb ed="#S" n="94"/>principalem creaturae, non tamen supra potentiam 
+       in<lb ed="#S" break="no" n="95"/>strumentalem.
+    </p>
+            <p xml:id="khj78y-q10001-d1e1066" n="30">
+      <!-- 30 -->Et ratio huius est, quia quod 
+      <lb ed="#S" n="96"/>non excedit limites creaturae, potest communicari 
+       crea<lb ed="#S" n="97" break="no"/>turae, &amp; quod competit vtil creaturae per naturam 
+       prin<lb ed="#S" break="no" n="98"/>cipaliter, si communicetur alteri instrumentaliter non 
+      <lb ed="#S" n="99"/>dicitur creari: sed vel naturaliter produci: si ordo natu 
+      <lb ed="#S" n="100"/>rae hoc commiserit, sicut producere animam 
+       vegetati<lb ed="#S" break="no" n="101"/>uam, &amp; sensitiuam competit naturaliter, &amp; 
+       principali<lb ed="#S" break="no" n="102"/>ter plantae, &amp; animali: quia est secundum suam speciem. 
+      <lb ed="#S" n="103"/>Vnde quia communicatum est caelo sine planta, &amp; sine 
+      <lb ed="#S" n="104"/>animali quasdam animas huiusmodi producere 
+       inquan<lb ed="#S" n="105" break="no"/>tum semen Dei est in natura non propter hoc animae 
+      <lb ed="#S" n="106"/>illae creantur, quanuis sine semine producantur. Illud 
+      <lb ed="#S" n="107"/>autem, quod excedit limites creaturae, nec competit 
+       ali<lb ed="#S" n="108" break="no"/>tui creaturae naturaliter, &amp; principaliter, nec in se, nec 
+      <lb ed="#S" n="109"/>in suo simili non est ei communicabile, etiam 
+       instrumen<lb ed="#S" n="110" break="no"/>taliter. Vnde cum producere gratiam sit excedat 
+       limi<lb ed="#S" break="no" n="111"/>tes creaturae: vt nulli competat per naturam 
+       principa<lb ed="#S" break="no" n="112"/>liter, nec in se. nec in simili, vel maiori: nulli etiam est 
+      <lb ed="#S" n="113"/>tommunicabile, vel saltem nulli est communicatum et 
+      <lb ed="#S" n="114"/>iam instrumentaliter. Econtrario autem cum libero 
+       ar<lb ed="#S" break="no" n="115"/>bitrio comperat principaliter se ad gratiam disponere, 
+      <lb ed="#S" n="116"/>&amp; facere illud, quod est immediata dispositio ad 
+       gra<lb ed="#S" break="no" n="117"/>tiam: si dispositionem ad gratiam facere committatur 
+      <lb ed="#S" n="118"/>sacramento instrumentaliter, nec hoc erit creare, nec 
+      <lb ed="#S" n="119"/>hoc erit creaturam extra limites suos ponere, verum est 
+      <lb ed="#S" n="120"/>quod in hoc est dissimile, quia anima, quae per 
+       putre<lb ed="#S" break="no" n="121"/>factionem generatur a coelo est eiusdem rationis: cum 
+      <lb ed="#S" n="122"/>illa, quae per semen generatur a particulari agente 
+       quan<lb ed="#S" n="123" break="no"/>doque: quanuis aliqui dixerint oppositum. Dispositio 
+      <lb ed="#S" n="124"/>autem, quae est character non est aliquid vniur 
+       ratio<lb ed="#S" break="no" n="125"/>nis per essentiam cum dispositione, quae est actus 
+       libe<lb ed="#S" break="no" n="126"/>ti arbitrij: quanuis sit vnius rationis per efficaciam, 
+       et<lb ed="#S" break="no" n="127"/>iam si sit alia gratia in sacramentis ab illa, quae est in 
+       vir<lb ed="#S" break="no" n="128"/>tutibus, &amp; donis, quia character, &amp; ornatus sacramenta 
+      <lb ed="#S" n="129"/>lis principaliter disponunt ad gratiam gratum 
+       facien<lb ed="#S" break="no" n="130"/>tem, quae est vna in omnibus. sed nec illa 
+       dissimilitu<lb ed="#S" break="no" n="131"/>do obstat: quia etiam sunt animae aliquae imperfectae, 
+      <lb ed="#S" n="132"/>quae a solo coelo producuntur: sed non creantur, quia 
+      <lb ed="#S" n="133"/>nobilior ab animato producuntur. Et sic etiam est in 
+      <lb ed="#S" n="134"/>propositio si dispositio, quae est per liberum arbitrium
+      <!-- TODO: update reading order in ocr 4all  -->
+      <!--0004.xml-->
+      <pb ed="#S" n="4"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>est nobilior, quam illa, quae est per sacramentum, &amp; 
+       effi<lb ed="#S" break="no" n="2"/>cacior. Tunc enim si dispositio nobilior competit per 
+      <lb ed="#S" n="3"/>naturam principaliter vni creaturae: alia, quae est 
+       infe<lb ed="#S" break="no" n="4"/>rior, poterit instrumentaliter alij creaturae inferiori 
+       com<lb ed="#S" n="5" break="no"/>municari. Si autem dispositio sacrametalis est nobilior, 
+      <lb ed="#S" n="6"/>quam actualis liberi arbitrij adhuc sequitur idem: sicut 
+      <lb ed="#S" n="7"/>consequenter probabitur.
+    </p>
+            <p xml:id="khj78y-q10001-d1e1179" n="31">
+        <!--31 -->Praeterea, quod est 
+        <lb ed="#S" n="8"/>supernaturale secundum genus suum, totum illud 
+       crea<lb ed="#S" n="9" break="no"/>tur: nec eius productio aliquo modo creaturae 
+       commu<lb ed="#S" n="10" break="no"/>nicatur: sed quod non est supernaturale secundum 
+       ge<lb ed="#S" break="no" n="11"/>nus suum, licet secundum esse speciei sit supernaturale, 
+        <lb ed="#S" n="12"/>potest quidem communicari creaturae producendum 
+        <lb ed="#S" n="13"/>saltem instrumentaliter, sicut aliqui dicunt, quod 
+       chari<lb ed="#S" break="no" n="14"/>tas, quae secundum totum genus suum est 
+       supernatura<lb ed="#S" break="no" n="15"/>lis, &amp; gratia, non possunt produci virtute creata: sed 
+       di<lb ed="#S" n="16" break="no"/>ligere Deum super omnia est naturale secundum genus 
+        <lb ed="#S" n="17"/>suum, diligere autem meritorie super naturale 
+       secun<lb ed="#S" break="no" n="18"/>dum speciem suam, siue quo ad efficaciam, siue quo ad 
+        <lb ed="#S" n="19"/>substantiam: vt quidam dicunt: tamen hoc potest 
+       crea<lb ed="#S" break="no" n="20"/>tura per virtutem Dei: vel manentem, sicut charitas, vel 
+        <lb ed="#S" n="21"/>in motu, sicut Magister dicit.
+    </p>
+            <p xml:id="khj78y-q10001-d1e1215" n="32">
+      <!--32--> Ex his igitur 
+        <lb ed="#S" n="22"/>patet id, quod ex natura sui generis principaliter 
+       com<lb ed="#S" break="no" n="23"/>petit alicui creaturae, potest supernaturaliter 
+       communi<lb ed="#S" n="24" break="no"/>cari, alij etiam inferiori iustrumentaliter, vel idem 
+       spe<lb ed="#S" break="no" n="25"/>cie, sicut coelum in virtute Dei producit animam 
+       perfe<lb ed="#S" n="26" break="no"/>ctam corporalem, quam animal perfectum producit ex 
+        <lb ed="#S" n="27"/>natura, vel differentem specie, siue excellentiorem, vt in 
+        <lb ed="#S" n="28"/>exemplo dictum est de dilectione meritoria: vel inferio 
+        <lb ed="#S" n="29"/>ris speciei sicut coelum in virtute Dei animam animalis 
+        <lb ed="#S" n="30"/>imperfecti, quod generare non potest natura, nisi per 
+       pu<lb ed="#S" n="31" break="no"/>trefactionem. Et huius ratio est, quia sicut videmus in 
+        <lb ed="#S" n="32"/>naturalibus, quod aliquis effectus est in virtute vnius 
+        <lb ed="#S" n="33"/>causae naturaliter vniuoce, qui tamen est in virtute 
+       su<lb ed="#S" break="no" n="34"/>perioris aequiuoce, sicut calefacere est a calore vniuoce, 
+        <lb ed="#S" n="35"/>&amp; a Sole aequiuoce: non vtique nisi ordinatione Dei, sic 
+        <lb ed="#S" n="36"/>nulla contradictio apparet, si illud, quod vna creatura 
+        <lb ed="#S" n="37"/>habet naturaliter, &amp; est perfectionis virtute Dei, detur 
+        <lb ed="#S" n="38"/>alteri creaturae supernaturaliter: propter quod cum 
+       Chri<lb ed="#S" n="39" break="no"/>stus dicat: Data est mihi omnis potestas in coelo, &amp; in 
+        <lb ed="#S" n="40"/>terra: nullum inconuenieus videtur, si omnem 
+       poten<lb ed="#S" break="no" n="41"/>tiam alteratiuam: quam habet corpus: quodcunque 
+       ha<lb ed="#S" break="no" n="42"/>buerit corpus Christi: vt sic tactu suo curaret omnem 
+        <lb ed="#S" n="43"/>morbum: quem herba, vel gemma curaret suo tactu: &amp; 
+        <lb ed="#S" n="44"/>fimbriis vestis eius, aut vmbrae Petri: haec virtus potuit 
+        <lb ed="#S" n="45"/>communicari, si eam aliqua vmbra habuerit, vel corpus 
+        <lb ed="#S" n="46"/>Vnde de Christo dicitur: Virtus de illo exibat, &amp; 
+       sana<lb ed="#S" break="no" n="47"/>bat omnes. Et sic verificatur verbum Greg. secundo 
+       dia<lb ed="#S" n="48" break="no"/>logorum dicentis, quod sancti viri aliorum miracula ex 
+        <lb ed="#S" n="49"/>potestate faciunt. Et similiter anima Christi omnem 
+       vir<lb ed="#S" n="50" break="no"/>tutem. motiuam coeli, &amp; corporis supernaturaliter 
+       ha<lb ed="#S" break="no" n="51"/>buit, quam habet quicunque angelus naturaliter.
+      </p>
+            <p xml:id="khj78y-q10001-d1e1285" n="33">
+               <lb ed="#S" n="52"/>
+               <!--33. -->Item si illam virtutem, quam habet vna 
+       creatu<lb ed="#S" break="no" n="53"/>ra naturaliter potest alia a Deo obtinere 
+       supernaturali<lb ed="#S" break="no" n="54"/>ter multo magis aliam minus perfectam · Vnde cum 
+       libe<lb ed="#S" break="no" n="55"/>rum arbitrium ex natura sua se possit disponere ad 
+       gra<lb ed="#S" break="no" n="56"/>tiam perfectius, &amp; nobilius, quam sit illa dispositio, quae 
+        <lb ed="#S" n="57"/>atur cum sacramento: siue sit ab eo, siue non, propter 
+        <lb ed="#S" n="58"/>quod nobilius proprio motu dicitur adultus saluari per 
+        <lb ed="#S" n="59"/>dispositionem a se factam, quam paruulus per dispositio 
+        <lb ed="#S" n="60"/>nem a se susceptam· ergo sic disponere potest 
+       communica<lb ed="#S" break="no" n="61"/>ti sacramento, cum melius disponere sit naturale libero 
+        <lb ed="#S" n="62"/>arbitrio: imo etiam si dispositio habitualis 
+       sacramenti<lb ed="#S" break="no" n="63"/>esset nobilior, quam actualis liberi arbitrij propter hoc, 
+        <lb ed="#S" n="64"/>quod ipsa manet, alia non adhuc ex similitudine 
+       gene<lb ed="#S" break="no" n="65"/>rum supradicta illa potest communicari, sicut de 
+       dile<lb ed="#S" break="no" n="66"/>ctione meritoria dicitur, quae nobilior est. Sed 
+       simpli<lb ed="#S" break="no" n="67"/>citer loquendo dispositio liberi arbitrij est melior: quia 
+        <!--0004.xml-->
+        <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>illa posita non potest esse obex ad gratiam, sicut potest 
+        <lb ed="#S" n="69"/>esse cum charactere. Forma autem, quae est dispositio, &amp; 
+        <lb ed="#S" n="70"/>cuius a natura finis est disponere, tanto simpliciter 
+       me<lb ed="#S" break="no" n="71"/>lior est quanto dispositio efficacior, &amp; infalibilior.
+      </p>
+            <p xml:id="khj78y-q10001-d1e1337" n="34">
+               <lb ed="#S" n="72"/>
+               <!--34 -->SECVNDO principaliter arguitur contra 
+        <lb ed="#S" n="73"/>primam conclusionem sic. Contraria nata sunt fieri 
+       cir<lb ed="#S" n="74" break="no"/>ca idem, &amp; pari uirtute causari: vnde si vnum 
+       contra<lb ed="#S" break="no" n="75"/>riori est in virtute passiua, vel actiua naturae, &amp; 
+       reli<lb ed="#S" break="no" n="76"/>quum: sed homo per semen transfundit dispositionem 
+        <lb ed="#S" n="77"/>non solum ad peccatum sicut homo malae complexionis, &amp; 
+        <lb ed="#S" n="78"/>pronae ad peccatum quandoque generat filium 
+       consimi<lb ed="#S" break="no" n="79"/>liter pronum, &amp; ad idem peccatum: sed etiam 
+       transfun<lb ed="#S" n="80" break="no"/>dit ipsum peccatum originale. ergo minister per 
+       sacra<lb ed="#S" break="no" n="81"/>montum non solum transfundit dispositionem ad 
+       gra<lb ed="#S" break="no" n="82"/>tiam, sed etiam ipsam gratiam.
+      </p>
+            <p xml:id="khj78y-q10001-d1e1366" n="35">
+        <!--35 -->SOLVTIO, 
+        <lb ed="#S" n="83"/>homo potest ex se esse Deo ingratus per peccatu, quod 
+        <lb ed="#S" n="84"/>complote, &amp; perfecte potest perpetrare, &amp; non solum ad 
+        <lb ed="#S" n="85"/>ingratitudinem, seu ad peccatum se disponere, sed non 
+        <lb ed="#S" n="86"/>potest ex se Deo gratus esse, sed tantum potest ad 
+       gra<lb ed="#S" break="no" n="87"/>tiam se disponere. Vnde potest transfundere originale, 
+        <lb ed="#S" n="88"/>quod est culpa, &amp; dispositio ad culpam, non autem 
+       gra<lb ed="#S" break="no" n="89"/>tiam, sed tantum dispositionem ad eam.
+      </p>
+            <p xml:id="khj78y-q10001-d1e1386" n="36">
+        <!--36 -->
+       Ter<lb ed="#S" break="no" n="90"/>tio arguitur sic. Carentia subiecti non impedit, cum 
+        <lb ed="#S" n="91"/>gratia non subsistat, nec distantia terminorum, cum 
+       tan<lb ed="#S" n="92" break="no"/>tum differant gratia, &amp; priuatio eius, quantum lux, &amp; 
+       te<lb ed="#S" n="93" break="no"/>nebra, nec plus, nec modus producendi: cum sit vera 
+        <lb ed="#S" n="94"/>mutatio, nec dignitasformae, cum virtus instrumentalis 
+        <lb ed="#S" n="95"/>producat dignius se: vt virtus coeli, animam bouis. ergo 
+        <lb ed="#S" n="96"/>&amp;c.
+      </p>
+            <p xml:id="khj78y-q10001-d1e1406" n="37">
+        <!--37 -->SOLVTIO. Carentia subiectum non 
+        <lb ed="#S" n="97"/>est in anima rationali actu, quae creando infunditur, 
+        <lb ed="#S" n="98"/>quae tamen actu creatur, &amp; non est ibi vera mutatio, 
+       sic<lb ed="#S" n="99" break="no"/>cut in generatione, sed est ibi tantim distantia termino 
+        <lb ed="#S" n="100"/>rum, &amp; dignitas formae: quia naturalis cius prod actio 
+        <lb ed="#S" n="101"/>excedit omnem virtutem naturae: vnde nec ali. ui com 
+        <lb ed="#S" n="102"/>municata est eius productio supernaturaliter, &amp; simile 
+        <lb ed="#S" n="103"/>est de gratia. Secus autem est de luce, quae non tantum 
+        <lb ed="#S" n="104"/>distat a tenebra respectu subiecti quantum gratia a 
+       pri<lb ed="#S" n="105" break="no"/>uatione sua respectu animae, quia Deus plus distat ab 
+        <lb ed="#S" n="106"/>anima, quam luminosum ab illuminabili: quia in 
+       infi<lb ed="#S" break="no" n="107"/>nitum. Et cum passionem non recipiat perfectiorem, 
+       ni<lb ed="#S" n="108" break="no"/>si mediante actiuo, tantum quodammodo distat a 
+       rece<lb ed="#S" break="no" n="109"/>pribili quatu a producto, &amp; plus. ideo &amp;c.
+      </p>
+            <p xml:id="khj78y-q10001-d1e1440" n="38">
+        <!--38 -->
+       Se<lb ed="#S" break="no" n="110"/>cunda conclusio est, quod sacramenta attingunt ad 
+       pro<lb ed="#S" n="111" break="no"/>ductionem dispositionis ad gratiam, quae est character, 
+        <lb ed="#S" n="112"/>vel ornatus, &amp; pari ratione ad gratiam sacramentale n, 
+        <lb ed="#S" n="113"/>si diseratab alia gratia, &amp; hoc propter tria.
+      </p>
+            <p xml:id="khj78y-q10001-d1e1453">
+        <!--39 -->
+       Pri<lb ed="#S" break="no" n="114"/>mo, quia sicut per quae peccat quis: per haec, &amp; 
+       torque<lb ed="#S" break="no" n="115"/>tur, sic quia homo peccat per sensibilia, torquetur per 
+        <lb ed="#S" n="116"/>sensibilia in inferno, &amp; humiliatur, vt per illa 
+       iustifice<lb ed="#S" break="no" n="117"/>tur poenitens in mundo: sed sensibilia fuerunt causa 
+       pec<lb ed="#S" break="no" n="118"/>cati noo solum sine qua non, sed instrumentaliter: quia 
+        <lb ed="#S" n="119"/>vidit mulier lignum, quod esset pulchrum visu, &amp; 
+       sua<lb ed="#S" break="no" n="120"/>ue &amp;c, ita quod fructus visus mouit sensum, &amp; per illum 
+        <lb ed="#S" n="121"/>intellectum, &amp; cum hoc appetitum, qui est mouens 
+       mo<lb ed="#S" break="no" n="122"/>tum ab appetibili, licet in virtute intellectus 
+       agen<lb ed="#S" break="no" n="123"/>tis, vt dicitur tertio de Anima. ergo &amp; in iustificatione 
+        <lb ed="#S" n="124"/>ipsa sensibilia actiue se habent, licet in virtute Dei.
+      </p>
+            <p xml:id="khj78y-q10001-d1e1482">
+               <lb ed="#S" n="125"/>
+               <!--40.--> Secundo, quia non fuit alius modus reparatio, 
+        <lb ed="#S" n="126"/>nis nostrae miseriae conuenientior, quam ille, quo Deus 
+        <lb ed="#S" n="127"/>vtitur ad iustificationem nostram: sed homo aptus 
+       na<lb ed="#S" break="no" n="128"/>tus est mediantibus sensibus ab ipsis sensibilibus 
+       acqui<lb ed="#S" n="129" break="no"/>rere perfectionem: ita, vt ab illis perficiatur scientia, &amp; 
+        <lb ed="#S" n="130"/>virtutibus mediante corpore coniuncto actiue: sed non 
+        <lb ed="#S" n="131"/>principaliter, sed in virtute intellectus agentis, vt saepe 
+        <lb ed="#S" n="132"/>dictum est. ergo sic debet acquirere perfectiones 
+       super<lb ed="#S" break="no" n="133"/>naturales, vt per sensibilia ad illas disponat. Vnde &amp; f. les 
+        <lb ed="#S" n="134"/>q est virtus theologica infusa est ex auditu: inquantuau 
+      <!--0005.xml-->
+      <pb ed="#S" n="5"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>diendo homo disponitur, vt ei fides infundatur, ad quam 
+      <lb ed="#S" n="2"/>dispositionem illa sensatio agit: quanuis illa sit actus 
+      <lb ed="#S" n="3"/>liberi arbitrij. Ista autem non: quae est in sacramentis: 
+      <lb ed="#S" n="4"/>sed sit habitus quidam.
+    </p>
+            <p xml:id="khj78y-q10001-d1e1523" n="40">
+      <!-- 40 -->Tertio, quia cum 
+      <lb ed="#S" n="5"/>gratia non detur secundum legem communem, nisi 
+       di<lb ed="#S" break="no" n="6"/>sposito, oportet, quod recepturus gratiam, vel disponat 
+      <lb ed="#S" n="7"/>se per liberum arbitrium, vel disponatur ab alio: sed par 
+      <lb ed="#S" n="8"/>uulus non disponit se. ergo disponitur a sacramento. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e1536" n="41">
+               <lb ed="#S" n="9"/>
+               <!-- 41 -->Item in sacramentis nouae legis, in quibus da 
+      <lb ed="#S" n="10"/>tur gratia, nisi homo ponat obicem: non per se 
+       requi<lb ed="#S" break="no" n="11"/>ritur, quod homo se disponat: sed solum quod se non 
+      <lb ed="#S" n="12"/>opponat. ergo per ipsum sacramentum disponitur. Et 
+      <lb ed="#S" n="13"/>sic est probabile in omni sacramento nouae legis, quod 
+      <lb ed="#S" n="14"/>iustificat ex opere operato, &amp; quod conferat dispositio 
+      <lb ed="#S" n="15"/>nem ad gratiam. In sacramentis autem veteris 
+       legi<lb ed="#S" break="no" n="16"/>non solum promittebatur gratia: sed dabatur in illis a 
+      <lb ed="#S" n="17"/>Deo, sed requirebatur dispositio, quam sacramenta non 
+      <lb ed="#S" n="18"/>faciebant, nisi circuncisio: sed ipsemet suscipiens. 
+       Vn<lb ed="#S" break="no" n="19"/>de iustificabant ex opere operante, non ex opere ope 
+      <lb ed="#S" n="20"/>to. Cum igitur ista iustificent ex opere operato: sicut 
+      <lb ed="#S" n="21"/>illa ex opere operante: sicut opus operans ibi 
+       formali<lb ed="#S" break="no" n="22"/>ter causabat dispositionem, vtita hic opus operatum, 
+      <lb ed="#S" n="23"/>vt sicut ibi homo suscipiens sacramentum, se dispone 
+      <lb ed="#S" n="24"/>bat ad gratiam, sic nunc ipsa susceptio sacramenti, vel 
+      <lb ed="#S" n="25"/>sacramentum susceptum ipsum disponit. Et tamen dif 
+      <lb ed="#S" n="26"/>ferentia inter hanc dispositionem, &amp; illam: sicut inter 
+      <lb ed="#S" n="27"/>actum, &amp; habitum, quantum ad hoc, quod illa transit, 
+      <lb ed="#S" n="28"/>hec manet: &amp; ista etiam inclinat ad illam, sicut 
+       habitu<lb ed="#S" break="no" n="29"/>ad actum. Ista etiam potest esse immediata dispositio 
+      <lb ed="#S" n="30"/>in illo, qui non habet vsum liberi arbitrij: &amp; est in illo, 
+      <lb ed="#S" n="31"/>qui habet ista dispositio per se: illa solum per accidens 
+      <lb ed="#S" n="32"/>ad remouendum prohibens. Nec iste habitus 
+       causa<lb ed="#S" break="no" n="33"/>tur ab actibus, ad quod disponit: sicut nec habitus 
+       in<lb ed="#S" break="no" n="34"/>fusus. Et si dicatur, quod opus operatum est quaedam 
+      <lb ed="#S" n="35"/>dispositio: sed non est opus operatum a sacramento: sed 
+      <lb ed="#S" n="36"/>a Deo in sacramento, vel cum sacramento: sicut &amp; 
+       gra<lb ed="#S" break="no" n="37"/>tia ipsa, &amp; in hoc erit praeeminentia, quod in 
+       sacra<lb ed="#S" break="no" n="38"/>mentis illis nec a Deo, nec a sacramento: sed a 
+       suscipi<lb ed="#S" break="no" n="39"/>ente fiebat dispositio: vnde non magis iustificabant, 
+      <lb ed="#S" n="40"/>quam alia opera virtutum, imo minus effectiue: quia 
+      <lb ed="#S" n="41"/>non erant bona ex genere, sicut moralia: sed solum per 
+      <lb ed="#S" n="42"/>obedientiam erant actus latriae: sed solum 
+       significati<lb ed="#S" break="no" n="43"/>ne magis iustificabant: quia significabant magis 
+       Chri<lb ed="#S" break="no" n="44"/>stum, &amp; alias causas iustificationis, quam alia in lege 
+      <lb ed="#S" n="45"/>consulta, vel praecepta: quia ad hoc principaliter erant 
+      <lb ed="#S" n="46"/>cerimonialia: non sic autem moralia, sed propter se in 
+      <lb ed="#S" n="47"/>sacramentis vero nouae legis a Deo disponitur homo, 
+      <lb ed="#S" n="48"/>si iniquam ita dicatur, istud non valet: quia 
+       sacramen<lb ed="#S" break="no" n="49"/>ta nouae legis praeeminent in iustificando omnibus 
+       anti<lb ed="#S" break="no" n="50"/>quis. sed sacramentum, quo originale in mulieribus 
+      <lb ed="#S" n="51"/>delebatur, in lege, &amp; ante circuncisionem in masculis 
+      <lb ed="#S" n="52"/>non poterat aliquid causare in eis: quia ab eis non 
+       su<lb ed="#S" break="no" n="53"/>scipiebatur: quia fides parentum, vel oblatio facta pro 
+      <lb ed="#S" n="54"/>eis ipsos non contingebat. Et secundum illos, qui sunt 
+      <lb ed="#S" n="55"/>contrariae opinionis certum est, quod per illa nihil age 
+      <lb ed="#S" n="56"/>batur a sacramentis. Oportebat autem paruulam, vel 
+      <lb ed="#S" n="57"/>paruulum, in quibus non erat vsus liberi arbitrij, &amp; 
+       e<lb ed="#S" break="no" n="58"/>rat dispositio, ad gratiam disponi a sacramento, vel a 
+      <lb ed="#S" n="59"/>Deo: sed non a sacramento, ergo a Deo. ergo nihil plus 
+      <lb ed="#S" n="60"/>habet sacramentum nouae legis, si in eo solus Deus 
+       dis<lb ed="#S" break="no" n="61"/>ponit, &amp; gratiam infundit: a sacramentis veteris legis, 
+      <lb ed="#S" n="62"/>&amp; ante legem contra originale praeter circuncisionem: 
+      <lb ed="#S" n="63"/>in quibus similiter Deus vtrunque, faciebat, quod est 
+       ab<lb ed="#S" break="no" n="64"/>surdum. Quare relinquitur: quod sacramenta nouae le 
+      <lb ed="#S" n="65"/>gis saltem alterum faciant: sed non causant gratiam. 
+       er<lb ed="#S" break="no" n="66"/>go causant dispositionem ad eam.
+    </p>
+            <p xml:id="khj78y-q10001-d1e1666" n="42">
+      <!--42--> sed 
+       con<lb ed="#S" break="no" n="67"/>tra istam conclusionem arguitur tripliciter. primo quia 
+      <!--0005.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>virtus in sacramentis agens de necessitate naturae aequa 
+      <lb ed="#S" n="69"/>liter agit characterizando, disponendo in voluntarium 
+      <lb ed="#S" n="70"/>&amp; in non voluntarium: in dormientem, &amp; vigilantem: 
+      <lb ed="#S" n="71"/>sicut ferrum candens adhibitum vtriusque, vel cauterium 
+      <lb ed="#S" n="72"/>aequaliter imprimit suam figuram, sed hoc est falsum. ergo 
+      <lb ed="#S" n="73"/>&amp;c.
+    </p>
+            <p xml:id="khj78y-q10001-d1e1691" n="43">
+      <!-- 43 -->Dicendum, quod virtus sacramentalis 
+       a<lb ed="#S" break="no" n="74"/>git de necessitate naturae: sed volens, &amp; nolens: vigilans, 
+      <lb ed="#S" n="75"/>&amp; dormiens non sunt aequaliter dispositi respectu 
+       illi<lb ed="#S" break="no" n="76"/>us actionis: quae licet sit necessaria quo ad 
+       instrumen<lb ed="#S" break="no" n="77"/>tum: est tamen voluntaria quo ad principale agens. 
+      <lb ed="#S" n="78"/>Vnde quia Deus non vult characterem imprimi 
+       nolen<lb ed="#S" break="no" n="79"/>ti, sicut volenti: quia non vult hominem cogere. ideo 
+      <lb ed="#S" n="80"/>non est aequaliter dispositus. Et praeterea, sicut ignis 
+      <lb ed="#S" n="81"/>non calefacit aequaliter calefactibile: quando Deus non 
+      <lb ed="#S" n="82"/>vult, quanuis agat de necessitate naturae, sic nec 
+       sacra<lb ed="#S" break="no" n="83"/>mentum, cum sacramenta non habeant virtutem, nisi 
+      <lb ed="#S" n="84"/>quando Deus eam dat eis, quod non est nisi 
+       concurren<lb ed="#S" n="85" break="no"/>tibus illis, quae sunt dessentia sacramenti. vnde sicut de 
+      <lb ed="#S" n="86"/>ficiente intentione dandi ex parte ministri, qui vult 
+       lu<lb ed="#S" break="no" n="87"/>dere, non est ibi virtus, sic deficiente intentione 
+       susce<lb ed="#S" break="no" n="88"/>ptiui, qui non vult suscipere nec per se, nec per alium, 
+      <lb ed="#S" n="89"/>qui ipsum representat, non est ibi virtus: quia nec est 
+      <lb ed="#S" n="90"/>sacramentum. secus autem est de cauterio ignito, in 
+      <lb ed="#S" n="91"/>quo est virtus: sed si esset refrigeratum, tunc esset 
+       fimi<lb ed="#S" break="no" n="92"/>le. Et quod dicitur, quod velle non disponit, nec 
+       nol<lb ed="#S" break="no" n="93"/>le impedit, verum est respectu effectus sacramenti: sed 
+      <lb ed="#S" n="94"/>bene impedit respectu ipsius sacramenti. siue enim ve 
+      <lb ed="#S" n="95"/>lit characterizari, siue nolit: dum tamen velit suscipere 
+      <lb ed="#S" n="96"/>id, quod ecclesia vult dare, sequetur effectus: sed si 
+       no<lb ed="#S" break="no" n="97"/>lit illud recipere, nec istud recipiet: nec per consequem 
+      <lb ed="#S" n="98"/>effectum.
+    </p>
+            <p xml:id="khj78y-q10001-d1e1750" n="44">
+      <!-- 44 -->sECVNDO principaliter 
+       ar<lb ed="#S" break="no" n="99"/>guitur contra eandem conclusionem, sic instrumentum 
+      <lb ed="#S" n="100"/>non agit in virtute principalis agentis, nisi exercendo 
+      <lb ed="#S" n="101"/>suam actionem propriam: sed anima non est susceptiua 
+      <lb ed="#S" n="102"/>vnctionis, vel ablutionis. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q10001-d1e1763" n="45">
+      <!-- 45 -->si 
+       dica<lb ed="#S" break="no" n="103"/>tur, quod circa totum exercet eam, in partem aliam non 
+      <lb ed="#S" n="104"/>valet: quia hoc est verum de parte, prout est pars, &amp; non 
+      <lb ed="#S" n="105"/>aliter. vnde ignis conburens hominem attingit animam 
+      <lb ed="#S" n="106"/>inquantum est forma separans eam per mortem: &amp; 
+       po<lb ed="#S" break="no" n="107"/>tentias organicas per accidens corrumpit: sed non 
+       at<lb ed="#S" break="no" n="108"/>ringit eam secundum essentiam, vt ipsam corrumpat: 
+      <lb ed="#S" n="109"/>nec secundum aliquam potentiam abstractam. ergo cum 
+      <lb ed="#S" n="110"/>character in essentia, vel in potentia abstracta 
+       recipia<lb ed="#S" break="no" n="111"/>tur, hoc non est per sacramentum, quod corporaliter 
+      <lb ed="#S" n="112"/>non attingit nisi compositum.
+    </p>
+            <p xml:id="khj78y-q10001-d1e1789" n="46">
+      <!-- 46 -->sOLVTIO: 
+      <lb ed="#S" n="113"/>dicendum, quod imo corpus, quod exterius attingit com 
+      <lb ed="#S" n="114"/>positum agit eo mediante etiam in partem separatam 
+      <lb ed="#S" n="115"/>actionem, quam sequitur passio: quae est salus, &amp; 
+       perfe<lb ed="#S" n="116" break="no"/>ctio: quia intellectus intelligit corpus per tactum sensa 
+      <lb ed="#S" n="117"/>tum: &amp; voluntas dolet, vel gaudet. sed actionem, 
+       cu<lb ed="#S" break="no" n="118"/>ius passio sit, quae magis facta abiiciat a substantia non: 
+      <lb ed="#S" n="119"/>tum quia anima illius capax non est: tum quia anima 
+      <lb ed="#S" n="120"/>vnitur corpori propter sui perfectionem, &amp; non propter 
+      <lb ed="#S" n="121"/>sui corruptionem. Et similiter sacramentum per 
+       cor<lb ed="#S" break="no" n="122"/>pus, quod attingit, agit intellectum characterem, qui est 
+      <lb ed="#S" n="123"/>salus, &amp; perfectio, non aliquid aliud.
+    </p>
+            <p xml:id="khj78y-q10001-d1e1818" n="47">
+      <!-- 47 -->TER. 
+      <lb ed="#S" n="124"/>TIO arguitur principaliter contra eandem conclusio 
+      <lb ed="#S" n="125"/>nem, sic: Corpus non agit in illud, quod non tangit, sed 
+      <lb ed="#S" n="126"/>verum matrimonium contrahitur inter absentes per 
+       nun<lb ed="#S" n="127" break="no"/>cios, vel per epistolam, vbi non potest esse contactus. er 
+      <lb ed="#S" n="128"/>go saltem sacramentum matrimonij tunc nihil agit in contra 
+      <lb ed="#S" n="129"/>hentibus.
+    </p>
+            <p xml:id="khj78y-q10001-d1e1836" n="48">
+      <!-- 48 -->sOLVTIO, dicendum quod 
+      <lb ed="#S" n="130"/>in baptismo, &amp; confirmatione, &amp; vnctione, &amp; ordine, ni 
+      <lb ed="#S" n="131"/>si esset contactus verus, non esset sacramentum. In 
+       ma<lb ed="#S" break="no" n="132"/>trimonio autem nisi esset auditus verborum, vel 
+       vi<lb ed="#S" break="no" n="133"/>sus nutuum, nec esset mutua intellectio, nec mutuus 
+      <lb ed="#S" n="134"/>consensus, &amp; per consequens nihil esset actum, nec in 
+      <!--0006.xml-->
+      <pb ed="#S" n="6"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>poenitentia secundum quosdam, nisi esset auditus 
+       ab<lb ed="#S" break="no" n="2"/>solutionis. Et in eucharistia posset dici similiter: quod 
+      <lb ed="#S" n="3"/>nifi sonus perueniret ad quemlibet hostiam non 
+       conse<lb ed="#S" break="no" n="4"/>craret. Nec obstat si sint multae vna super aliam, quia 
+      <lb ed="#S" n="5"/>quaecunque in aere se contingunt aer medius est, per quem 
+      <lb ed="#S" n="6"/>faciliter sonus spiritualiter diffunditur. sed quia 
+       sur<lb ed="#S" break="no" n="7"/>dus potest absolui, &amp; potest matrimonium 
+       contrahe<lb ed="#S" break="no" n="8"/>re, &amp; similiter caecus. Ideo aliter, &amp; melius est 
+       dicen<lb ed="#S" break="no" n="9"/>dum, quod licet naturaliter, quod non tangit, non 
+       a<lb ed="#S" break="no" n="10"/>gat tamen supernaturaliter, &amp; in virtute Dei, qui 
+       con<lb ed="#S" break="no" n="11"/>tulit spiritibus per naturam agere sine tactu molis: 
+       po<lb ed="#S" break="no" n="12"/>test hoc dari corporibus a Deo per gratiam. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e1885" n="49">
+               <lb ed="#S" n="13"/>
+               <!-- 49 -->Posset etiam Deus conseruare lumen solis in 
+       Lu<lb ed="#S" break="no" n="14"/>na annullato lumine medio, &amp; nihilominus esset illud 
+      <lb ed="#S" n="15"/>lumen a sole, &amp; non esset per medium. Et sic 
+       media<lb ed="#S" break="no" n="16"/>te ageret, quod immediate non tangeret, quanuis 
+       du<lb ed="#S" break="no" n="17"/>bium sit, vtrum tunc conseruaretur a sole. sed sicut 
+      <lb ed="#S" n="18"/>Deus potest agere sine omni medio, sic potest agere 
+      <lb ed="#S" n="19"/>mediate, vno medio subtracto, sicut ergo potest lucem 
+      <lb ed="#S" n="20"/>conseruare in Luna sine alio lumine, ita mediate solo 
+      <lb ed="#S" n="21"/>lumine solis, videtur etiam quod posset Deus facere, 
+      <lb ed="#S" n="22"/>quod ignis combureret stupam distantem in vacuo. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e1911" n="50">
+               <lb ed="#S" n="23"/>
+               <!-- 50 -->Et praeterea si tactus requiritur hoc est magis 
+       si<lb ed="#S" break="no" n="24"/>gnum, quod sacramenta agant, quam quod sint solum 
+      <lb ed="#S" n="25"/>signa, &amp; causa, sine qua non ex pactione: quia 
+       merel<lb ed="#S" break="no" n="26"/>lus, qui ex pacto est signum, &amp; causa, sine qua non 
+       ha<lb ed="#S" break="no" n="27"/>bendi prandium potest recipi per se, vel per alium, vel 
+      <lb ed="#S" n="28"/>cum cirotheca: sine hoc, quod tangatur manu nuda, &amp; 
+      <lb ed="#S" n="29"/>pater recipit pro se, &amp; filio. sic igitur mater baptizabi 
+      <lb ed="#S" n="30"/>tur pro se, &amp; filio, maxime quem gestat in vtero, nec 
+       o<lb ed="#S" break="no" n="31"/>ortebit, quod tangatur ab aqua. Et cum larua, &amp; 
+       ve<lb ed="#S" break="no" n="32"/>ste poterit baptizari sine hoc, quod attingatur caro. Et 
+      <lb ed="#S" n="33"/>si homo sic consequitur gratiam per sacramentum: 
+       si<lb ed="#S" break="no" n="34"/>cut clericus de praebenda inuestitus per librum, &amp; non 
+      <lb ed="#S" n="35"/>aliter: tunc poterit per procuratorem baptizari, confir 
+      <lb ed="#S" n="36"/>mari, inungi, &amp; huiusmodi, sicut potest de praebenda 
+      <lb ed="#S" n="37"/>inuestiri. Contra quod dicit Augustinus, quae est ista 
+      <lb ed="#S" n="38"/>vis aquae: vt corpus tangat, &amp; cor abluat: Nisi ergo 
+       tan<lb ed="#S" break="no" n="39"/>geretur corpus non ablueretur spiritus. Et ideo in 
+       con<lb ed="#S" break="no" n="40"/>tactu materiae, &amp; suscipientes in baptismo 
+       confirmatio<lb ed="#S" break="no" n="41"/>ne, vnctione, &amp; ordine, &amp; in vsu eucharistiae, quia 
+       su<lb ed="#S" break="no" n="42"/>scipere sacramentaliter eucharistiam est non solum 
+       tan<lb ed="#S" n="43" break="no"/>gere sed gustare, &amp; manducare in his est euidens 
+       con<lb ed="#S" break="no" n="44"/>tactus tamen materia eucharistiae non oportet, quod 
+      <lb ed="#S" n="45"/>tangatur a conficiente: quia inquantum huiusmodi non 
+      <lb ed="#S" n="46"/>est suscipiens, sed est efficiens sacramentum, sed oportet 
+      <lb ed="#S" n="47"/>quod contingatur a verbo, id est, ab aere subiecto soni 
+      <lb ed="#S" n="48"/>si ibi debet aliquid agere: sed si ibi nihil ageret, sed 
+       De<lb ed="#S" break="no" n="49"/>us: totum adhuc haberetur propositum, quia sufficit, 
+      <lb ed="#S" n="50"/>quod sacramentum agat dispositionem in suscipiente 
+      <lb ed="#S" n="51"/>ad gratiam, quod faciunt species susceptae. sed tunc 
+      <lb ed="#S" n="52"/>non esset adhuc virtus in forma: sed tantum in 
+       mate<lb ed="#S" break="no" n="53"/>ria, si verba nihil agerent ad conuersionem. Vnde me 
+      <lb ed="#S" n="54"/>lius dicitur, quod verba ad hostiam attingunt: &amp; ad 
+      <lb ed="#S" n="55"/>conuersionem disponunt. In confessione vero non 
+      <lb ed="#S" n="56"/>oportet, quod sit contactus materiae si materia est 
+       con<lb ed="#S" break="no" n="57"/>fessio, quae est magis in agendo, quam in patiendo: sed 
+      <lb ed="#S" n="58"/>si materia est peccator: ipse attingitur verbis absolutio 
+      <lb ed="#S" n="59"/>nis: vt infra dicetur. In matrimonio autem, vbi 
+       mate<lb ed="#S" break="no" n="60"/>ria sunt contrahentes: nullus contactus requiritur. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e1998">
+               <lb ed="#S" n="61"/>Sed in omni sacramento requiritur per se contactus 
+      <lb ed="#S" n="62"/>formae: puta, quod sonus verborum veniat vsque ad 
+       su<lb ed="#S" break="no" n="63"/>scipientem: quando consistit in vsu, vel vsque ad 
+       mate<lb ed="#S" break="no" n="64"/>riam, quando in consecratione materiae. sed non 
+       re<lb ed="#S" break="no" n="65"/>quiritur, quod suscipiens sacramentum intelligat 
+       ver<lb ed="#S" break="no" n="66"/>ba: cum aliquando sit paruulus, vel laicus, nec etiam 
+      <lb ed="#S" n="67"/>quod audiat sonum. cum aliquando sit surdus: quia 
+      <!--0006.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>non ex opere operante suscipientis: sed ex opere 
+       ope<lb ed="#S" break="no" n="69"/>rato a se, &amp; a Deo, &amp; a passione suscipientis operantur 
+      <lb ed="#S" n="70"/>verba ipsa absolutionis. Vude in sacramento altaris 
+      <lb ed="#S" n="71"/>vi verborum fit conuersio dispositiue ipsius panis &amp; 
+       vi<lb ed="#S" break="no" n="72"/>ni: in quibus non est auditus, nec intellectus. 
+       Quan<lb ed="#S" break="no" n="73"/>do igitur puer baptizatur, sicut aqua secundum 
+       natu<lb ed="#S" break="no" n="74"/>ralem virtutem, affligit eum, si est nimis frigida. Vel de 
+      <lb ed="#S" n="75"/>lectat, si est tepida, &amp; forte vsque ad voluntatem 
+       per<lb ed="#S" break="no" n="76"/>uenit haec passio ex quadam intellectione confusa, sic 
+      <lb ed="#S" n="77"/>posset imaginari, quod mediante tali intellectione con 
+      <lb ed="#S" n="78"/>fusa, transfunderetur character a sono verborum 
+       me<lb ed="#S" break="no" n="79"/>diante intellectione, vel specie sine intellectione. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e2046">
+               <lb ed="#S" n="80"/>Hoc tamen non per se requiritur, sed accidit: quia 
+      <lb ed="#S" n="81"/>sicut sol non illuminat, sed tantum calefacit illud, quod 
+      <lb ed="#S" n="82"/>est calefactibilie, &amp; non illuminabile: vt profundae 
+       ter<lb ed="#S" break="no" n="83"/>rae, quod quidem non illuminat, sed solum superficiem 
+      <lb ed="#S" n="84"/>terrae ipsius: sic in aqua, &amp; aere subiecto verborum est 
+      <lb ed="#S" n="85"/>virtus: quam si suum subiectum sentiatur mediante illa 
+      <lb ed="#S" n="86"/>fensatione operatur. si autem non sentiatur, 
+       nihilo<lb ed="#S" break="no" n="87"/>minus operatur. Non enim, quia sentitur a 
+       suscipien<lb ed="#S" break="no" n="88"/>te: ideo operatur, sed quia a Deo applicatur, In matri 
+      <lb ed="#S" n="89"/>monio autem, quod inter absentes contrahitur ipsa ver 
+      <lb ed="#S" n="90"/>ba nuncij audiuntur, vel literae leguntur: &amp; sic aliquis 
+      <lb ed="#S" n="91"/>contactus sensuum inuenitur. si tamen sacramentum 
+      <lb ed="#S" n="92"/>modo ordinato a Deo ministratur, &amp; desit contactus 
+      <lb ed="#S" n="93"/>materiae, vel formae: verum sit, quod corporale non 
+       pos<lb ed="#S" break="no" n="94"/>sit agere etiam Dei virtute, si tangat: tunc Deus ex 
+       pa<lb ed="#S" break="no" n="95"/>ctione illud supplet, sicut quando apostoli duo, vel tria 
+      <lb ed="#S" n="96"/>milia simul baptizabant. Tunc enim forte non 
+       quili<lb ed="#S" break="no" n="97"/>bet aquis est tactus. ergo cum dicitur: Nisi quis natus 
+      <lb ed="#S" n="98"/>fuerit ex aqua, &amp; spiritu &amp;c. posset intelligi ex aere, qui 
+      <lb ed="#S" n="99"/>dicitur spiritus, quia aer est subiectum formae, quae 
+       at<lb ed="#S" break="no" n="100"/>tingit baptizatum, sicut aqua, nisi quod in quibusdam 
+      <lb ed="#S" n="101"/>libris additur ex aqua, &amp; spiritu sancto, quanuis possit 
+      <lb ed="#S" n="102"/>intelligi sancto, quia est subiectum verbi sanctificantis. 
+      <lb ed="#S" n="103"/>sed longe est hoc ab expositione sanctorum. Ideo illa 
+      <lb ed="#S" n="104"/>expositio nullo modo est tenenda.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2103" n="51">
+      <!-- 51 -->Tertia 
+       con<lb ed="#S" break="no" n="105"/>clusio est, quod sacramenta habent hunc effectum per 
+      <lb ed="#S" n="106"/>virtutem inhaerentem, quod patet tripliciter. Primo quia 
+      <lb ed="#S" n="107"/>non minus potest corpus, vt instrumentum diuinae 
+       mi<lb ed="#S" break="no" n="108"/>sericordiae, quam vt instrumentum diuinae iustitiae: sed 
+      <lb ed="#S" n="109"/>ignis purgatorij, vel inferni propter hoc habet vim 
+       af<lb ed="#S" break="no" n="110"/>fligendi spiritum, quod est instrumentum diuinae iusti 
+      <lb ed="#S" n="111"/>tiae, ergo sacramentum habet vim instituendi: quia est 
+      <lb ed="#S" n="112"/>instrumentum diuinae misericordiae.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2125" n="52">
+      <!-- 52 -->Nec va 
+      <lb ed="#S" n="113"/>let solutio distinguens de actione immissiua, &amp; 
+       detenti<lb ed="#S" break="no" n="114"/>ua, quod scilicet corpus potest agere in spiritum 
+       deti<lb ed="#S" break="no" n="115"/>nendo, &amp; non immittendo, quia sicut est supra naturam 
+       corpo<lb ed="#S" n="116" break="no"/>ris aliquid immittere in spiritum: sic spiritum detinere, &amp; plus 
+      <lb ed="#S" n="117"/>quia in immittendo corpus praeualet spiritui creato, quia 
+      <lb ed="#S" n="118"/>omne corpus habet virtutem aliquam immissiuam 
+       ali<lb ed="#S" break="no" n="119"/>cuius formae: realis, spiritus autem nullam. sed in 
+       mo<lb ed="#S" n="120" break="no"/>uendo localiter, vel in detinendo in loco spiritus 
+       prae<lb ed="#S" break="no" n="121"/>ualet corpori: quod sibi obedit ad nutum in motu, &amp; 
+      <lb ed="#S" n="122"/>quiete. Nec est contra naturam spiritus recipere, sicut 
+      <lb ed="#S" n="123"/>detineri inuitum in loco. si igitur corpus inquantum 
+      <lb ed="#S" n="124"/>est instrumentum diuinae iustitiae, potest spiritum deti 
+      <lb ed="#S" n="125"/>nere in loco, multo magis inquantum est 
+       instrumen<lb ed="#S" break="no" n="126"/>tum diuinae misericordiae potest in spiritum immittere. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e2161" n="53">
+               <lb ed="#S" n="127"/>
+               <!-- 53 -->Item potest dici, quod &amp; si corpus separatum nihil 
+      <lb ed="#S" n="128"/>immittit in spiritum nihilominus corpus coniunctum 
+      <lb ed="#S" n="129"/>secundum esse immittere potest: sicut econuerso spiritus 
+       se<lb ed="#S" break="no" n="130"/>pararus non immittit formam, nec immediate mouet 
+      <lb ed="#S" n="131"/>ad formam spiritus dico creatus. Ad nullam enim 
+       voli<lb ed="#S" break="no" n="132"/>tionem angeli, sequitur immediate calefactio, aut 
+       affe<lb ed="#S" break="no" n="133"/>ctio, vel passio quaecunque in corpore humano, sine 
+       mo<lb ed="#S" break="no" n="134"/>tu locali. spiritus autem coniunctus corpori immittis 
+      <!--0007.xml-->
+      <pb ed="#S" n="7"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>formam: quia ad solam voli tionem animae coniunctae 
+      <lb ed="#S" n="2"/>sine omnimotu locali sequitur affectio, passio alteratio, 
+      <lb ed="#S" n="3"/>in appetitu sensitiuo. ergo similiter econuerso: 
+       maxi<lb ed="#S" break="no" n="4"/>me, quia totus homo, qui est praestantior qualibet sui 
+       par<lb ed="#S" break="no" n="5"/>te mouet vnam per aliam. Et sic mouens principale est 
+      <lb ed="#S" n="6"/>nobilius moto. Non oportet autem de instrumentali: 
+       si<lb ed="#S" break="no" n="7"/>cut animal per potentiam generatiuam generat potentiam 
+      <lb ed="#S" n="8"/>sensitiuam, quae nobilior est.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2207" n="54">
+      <!-- 54 -->si autem dicatur, quod potentia 
+      <lb ed="#S" n="9"/>actiua, secundum quod huiusmodi est nobilior passiua: dicen 
+      <lb ed="#S" n="10"/>dum, quod est bene verum: licet non simpliciter, &amp; semper, 
+      <lb ed="#S" n="11"/>qa sensus exterior secundum quod habet actu especiem: quam in 
+      <lb ed="#S" n="12"/>terior habet tamen in potentia est nobilior: &amp; sic mouet. Et si 
+      <lb ed="#S" n="13"/>militer potentia calefactiua respectu tactus est actiua, 
+      <lb ed="#S" n="14"/>&amp; ignobilior simpliciter: sed nobilior secundum quid: quia 
+      <lb ed="#S" n="15"/>habet virtute: quod illud, potentia. Et tunc dicam, quod 
+      <lb ed="#S" n="16"/>corpus mouetur a sacramento secundum qualitatem 
+      <lb ed="#S" n="17"/>corporalem, quam habet in potentia: &amp; sensus, seu 
+       sen<lb ed="#S" break="no" n="18"/>sibile in virtute naturali intellectus agentis mouet 
+       in<lb ed="#S" break="no" n="19"/>intellectum ad speciem, in virtute autem 
+       supernatura<lb ed="#S" break="no" n="20"/>li sacramentali mouet ad characterem, vel ornatum: 
+       in<lb ed="#S" break="no" n="21"/>tellectus autem agens est nobilior omni potentia 
+       ani<lb ed="#S" break="no" n="22"/>mae secundum communem opinionem.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2242" n="55">
+      <!-- 55 -->Item cum 
+      <lb ed="#S" n="23"/>vnus spiritus agat in alium saltem illuminando: potest 
+      <lb ed="#S" n="24"/>communicari corpori supernaturaliter, quod agat in 
+       spi<lb ed="#S" break="no" n="25"/>ritum, vt videtur: ita quod afflictio, &amp; dolor, qui est in 
+      <lb ed="#S" n="26"/>damnatis positiue: sit effectiue, licet instrumentaliter, 
+      <lb ed="#S" n="27"/>&amp; supernaturaliter ab igne.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2258" n="56">
+      <!-- 56 -->Item cum ignis sit 
+      <lb ed="#S" n="28"/>natus causare dolorem in spiritu coniuncto: licet medi 
+      <lb ed="#S" n="29"/>ante corpore potest ei Deus conferre, vt sine tali medio 
+      <lb ed="#S" n="30"/>agat: quia in virtute Dei non minus potest, quam 
+       pote<lb ed="#S" break="no" n="31"/>rat in virtutem intellectus agentis. Et in virtute Dei po 
+      <lb ed="#S" n="32"/>test sine corpore medio, quod de se non poterat sine 
+       il<lb ed="#S" break="no" n="33"/>lo: &amp; sic in inferno est immissio: &amp; non solum detentio. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e2276" n="57">
+               <lb ed="#S" n="34"/>
+               <!-- 57 -->secundo, quia non minus potest secundus Adam 
+      <lb ed="#S" n="35"/>per regenerationem, quam primus per carnalem 
+       gene<lb ed="#S" break="no" n="36"/>rationem: sed ille transfundisset originalem iustitiam, 
+      <lb ed="#S" n="37"/>quae erat dispositio ad gratiam per virtutem seminis. er 
+      <lb ed="#S" n="38"/>go hic est talis virtus in sacramentis dispositiua: quia 
+      <lb ed="#S" n="39"/>sunt sacramenta gratiae, &amp; regeneratiua in spem viuam. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e2294" n="58">
+               <lb ed="#S" n="40"/>
+               <!-- 58 -->Nec valet solutio dicentium, quod solum 
+       trans<lb ed="#S" break="no" n="41"/>fusum fuisset illud, quod erat ex parte corporis: quia 
+      <lb ed="#S" n="42"/>secundum eos tota ecclesia originalis iustitiae 
+       transfu<lb ed="#S" break="no" n="43"/>sa fuisset ab homnine, &amp; per hominem. Et tamen licet 
+      <lb ed="#S" n="44"/>subiectio virium inferiorum ad superiores esset 
+       corpora<lb ed="#S" break="no" n="45"/>lis subiectiue: erat tamen supernaturalis. Non autem 
+      <lb ed="#S" n="46"/>ex hoc, quod aliquid est spirituale supergreditur virtu 
+      <lb ed="#S" n="47"/>tem creaturae: cum quicquid est intellectu, &amp; 
+       volunta<lb ed="#S" break="no" n="48"/>te: siue sit habitus, siue actus sit spirituale: quorum 
+       ta<lb ed="#S" break="no" n="49"/>men omnia naturalia producuntur virtute nature. sed 
+      <lb ed="#S" n="50"/>ex hoc, quod est supernaturale, siue sit corporale, siue 
+      <lb ed="#S" n="51"/>spirituale supergreditur virtutem naturae: sicut ipsum 
+      <lb ed="#S" n="52"/>nomen sonat: sicut gloria corporalis non potest esse in 
+      <lb ed="#S" n="53"/>creatura virtute naturae: nsi forte instrumentaliter a glo 
+      <lb ed="#S" n="54"/>ria animae redundet gloria corporis, vt corpus 
+       perficia<lb ed="#S" break="no" n="55"/>tur ab anima in esse supernaturali per eius supernatura 
+      <lb ed="#S" n="56"/>litatem: sicut perficitur ab animae natura in esse natura 
+      <lb ed="#S" n="57"/>li: secundum quem modum aliqui dicunt virtutes flue 
+      <lb ed="#S" n="58"/>re a gratia, sicut potentias ab anima.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2341" n="59">
+      <!-- 59 -->si igitur iu 
+      <lb ed="#S" n="59"/>stitia originalis, non obstante natura, supernaturaliter 
+      <lb ed="#S" n="60"/>potuit a corpore transfundi pari ratione character. 
+      <lb ed="#S" n="61"/>si autem consideremus dominium, &amp; virtutem virium 
+      <lb ed="#S" n="62"/>superiorum animae, quae sic subiiciebant sibi inferiores 
+      <lb ed="#S" n="63"/>dispositiue, quod rebellare non possent: illud erat 
+       qui<lb ed="#S" break="no" n="64"/>dem spirituale subiectiue, &amp; supernaturale: &amp; tamen 
+      <lb ed="#S" n="65"/>transfusum fuisset ab anima in animam mediantibus 
+      <lb ed="#S" n="66"/>corporibus: ita &amp; hic ab anima baptizantis, ordinantis, 
+      <lb ed="#S" n="67"/>&amp; confirmantis mediante sacramento transfunditur cha 
+      <!--0007.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>racter in in animam baptizati, confirmati, &amp; ordinati, 
+       ni<lb ed="#S" break="no" n="69"/>si quod ibi erat causa vniuoca, hic potest esse 
+       aequiuo<lb ed="#S" break="no" n="70"/>ca: vt quando non baptizatus baptizat: vel impoenitens 
+      <lb ed="#S" n="71"/>absoluit poenitentem: vel non inunctus inungit 
+       mo<lb ed="#S" break="no" n="72"/>rientem. Quia enim subiecto corporalis ad animam 
+      <lb ed="#S" n="73"/>naturalis est: licet non in tanta perfectione: ideo 
+       po<lb ed="#S" break="no" n="74"/>test communicari eius productio rei naturali. Et simi 
+      <lb ed="#S" n="75"/>liter quia dispositio ad gratiam est naturalis: licet non 
+      <lb ed="#S" n="76"/>talis eius productio potest communicari, &amp; est commu 
+      <lb ed="#S" n="77"/>nicata in reparatione gratiae: sicut illa erat in statu naturae 
+      <lb ed="#S" n="78"/>non lapsae: quia illa originalis iustitia ita erat dispositio 
+      <lb ed="#S" n="79"/>necessitans ad gratiam: sicut nunc character. Vnde 
+       si<lb ed="#S" break="no" n="80"/>cut per circuncisionem, &amp; baptismum puer ad gratiam 
+      <lb ed="#S" n="81"/>disponitur, &amp; recipit gratiam, sic tunc per iustitiam trans 
+      <lb ed="#S" n="82"/>fundendam disponendus erat secundum habitus. Et 
+      <lb ed="#S" n="83"/>illud sufficit in illo, qui non potest habere actum: vnde 
+      <lb ed="#S" n="84"/>In hora, qua anima in vtero infunderetur, iste iustitia 
+      <lb ed="#S" n="85"/>transfunderetur, quasi dispositio, &amp; gratia a Deo 
+       infu<lb ed="#S" break="no" n="86"/>sa fuisset: &amp; sic omnes fuissent concepti sancti, sicut Chri 
+      <lb ed="#S" n="87"/>stus, &amp; non solum in vtero sanctificati. Et hoc erat ne 
+      <lb ed="#S" n="88"/>cesse in paruulo: tunc sicut nunc, non quia esset 
+       puri<lb ed="#S" break="no" n="89"/>culum de morte sed quia non habebat vsum liberi 
+       ar<lb ed="#S" break="no" n="90"/>bitrij, sicut nunc. Vnde ille status requirebat, quod 
+      <lb ed="#S" n="91"/>quandiu vires inferiores essent subiectae viribus superio 
+      <lb ed="#S" n="92"/>ribus tandiu superiores essent subiectae Deo: &amp; per con 
+      <lb ed="#S" n="93"/>sequens non poterat transfundi antecedens, quin trans 
+      <lb ed="#S" n="94"/>funderetur concequens. subiectio autem mentis ad 
+      <lb ed="#S" n="95"/>Deum, vel actualis, vel habitualis erat spiritualis, &amp; 
+       su<lb ed="#S" break="no" n="96"/>pernaturalis saltem illa habitualis: prout pertinebat ad 
+      <lb ed="#S" n="97"/>originalem iustitiam.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2435" n="60">
+      <!-- 60 -->Item licet paruulus 
+      <lb ed="#S" n="98"/>non conciperetur in originali peccato: nec per 
+       conse<lb ed="#S" break="no" n="99"/>quens haberet oppositam dispositionem ad gratiam, hoc 
+      <lb ed="#S" n="100"/>tamen non sufficiebat ad ipsam infundendam, sicut ho 
+      <lb ed="#S" n="101"/>mini in puris naturalibus existenti, nisi se disponeret per 
+      <lb ed="#S" n="102"/>liberum arbitrium, Deus gratiam non infunderet quia 
+      <lb ed="#S" n="103"/>bonus vsus naturalium debet esse dispositio media ad su 
+      <lb ed="#S" n="104"/>pernaturalia dona. ergo vel paruulus non habuisset gratia 
+      <lb ed="#S" n="105"/>tiam quousq, habuisset vsum liberi arbitrij, &amp; se 
+       dispo<lb ed="#S" break="no" n="106"/>suisset, &amp; sic esset sibi melius quo ad corpus, quam quo ad ani 
+      <lb ed="#S" n="107"/>mam, quod videtur absurdum: vel aliqua dispositio sibi in 
+      <lb ed="#S" n="108"/>fundebatur, imo transfundebatur. &amp; sic habetur 
+       pro<lb ed="#S" break="no" n="109"/>positum.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2466" n="61">
+      <!-- 61 -->Tertio, quia omne instrumentum dum 
+      <lb ed="#S" n="110"/>mouetur a principali agente recipit aliquam virtutem 
+      <lb ed="#S" n="111"/>ab eo, per quam potest in aliquem effectum, in quem 
+      <lb ed="#S" n="112"/>prius non poterat: vel alio modo quam prius: sicut 
+       coe<lb ed="#S" break="no" n="113"/>lum per hoc, quod ab angelo mouetur, aliter operatur, 
+      <lb ed="#S" n="114"/>quam si staret: sed sacramenta dum adhibentur, sunt in 
+      <lb ed="#S" n="115"/>strumenta Dei sanctificantis: ergo accipiunt virtutem ab 
+      <lb ed="#S" n="116"/>eo ad aliquid agendum ad sanctificationem.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2486" n="62">
+      <!-- 62 -->Nec 
+      <lb ed="#S" n="117"/>obstat, quod instrumentum coniunctum nihil recipit. 
+       sepa<lb ed="#S" break="no" n="118"/>ratum vero solum motum localem: quia hoc est falsum: 
+      <lb ed="#S" n="119"/>imo ex hoc ipso, quod aliquid est, instrumentum potest 
+      <lb ed="#S" n="120"/>ab alio habere virtutem, quam ex se non haberet: sicut 
+      <lb ed="#S" n="121"/>coelum, vt dictum est. Et iterum eo ipso quod instrumen 
+      <lb ed="#S" n="122"/>tum ab alio mouetur, aliquid efficit, quod prius non 
+      <lb ed="#S" n="123"/>efficeret: sed quia ars creata non est principiu factiuum 
+      <lb ed="#S" n="124"/>formae realis per motum artificis hominis, vel angeli: non 
+      <lb ed="#S" n="125"/>consequitur corpus, quod agat nisi formam artificialem: 
+      <lb ed="#S" n="126"/>quae non est realis: sed ars diuina est factiua, vel factrix 
+      <lb ed="#S" n="127"/>omnium rerum: vnde ex hoc, quod corpus motum est a 
+      <lb ed="#S" n="128"/>Deo: potest attingere ad formam realem conceptam a 
+      <lb ed="#S" n="129"/>Deo proportionalem virtuti creaturae, sicut est 
+       disposi<lb ed="#S" break="no" n="130"/>tio ad gratiam: non autem ipsa gratia.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2521" n="63">
+      <!-- 63 -->Item in 
+       iu<lb ed="#S" break="no" n="131"/>strumentum separatum, quod est ab alio decisum: ex hoc 
+      <lb ed="#S" n="132"/>ipso potest aliquid vltra suam speciem agere sine motu 
+      <lb ed="#S" n="133"/>locali in virtute eius, cuius est: quae est sua forma natu 
+      <lb ed="#S" n="134"/>ralis sicut, semen animalis. Et quia omnis creatura a 
+      <!--0008.xml-->
+      <pb ed="#S" n="8"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Deo est: ex hoc ipso potest aliquid vltra suam speciem: 
+      <lb ed="#S" n="2"/>sed hoc non nisi secundum diuinam ordinationem: contra 
+      <lb ed="#S" n="3"/>quam non potest illud, quod est infra speciem: virtus er 
+      <lb ed="#S" n="4"/>go aptitudinalis, quae est in corpore ex hoc, quod est a Deo 
+      <lb ed="#S" n="5"/>reducta est ad actum ex hoc quod a Deo ordinatum est ad 
+       san<lb ed="#S" break="no" n="6"/>ctificandum animam: vel reducitur ad actum: aut accipit 
+      <lb ed="#S" n="7"/>virtutem ex hoc quod accedit verbum ad elementum, &amp; fit sa 
+      <lb ed="#S" n="8"/>cramentum. Et sic a ministro instrumentaliter: a Deo au 
+      <lb ed="#S" n="9"/>tem principaliter mouetur, &amp; applicatur ad sanctifican 
+      <lb ed="#S" n="10"/>dum. Et ideo licet ex hoc ipso quod res sacramentorum sunt, 
+      <lb ed="#S" n="11"/>a Deo habeant potentiam remotam ad aliquid agendum 
+      <lb ed="#S" n="12"/>vltra suam speciem, &amp; potentiam propinquam ex 
+       diui<lb ed="#S" break="no" n="13"/>na ordinatione, &amp; Christi contactu, &amp; institutione: 
+       ta<lb ed="#S" break="no" n="14"/>men in actu non habent hanc virtutem nisi simul concur 
+      <lb ed="#S" n="15"/>rentibus omnibus, quae sunt de essentia sacramenti. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e2573" n="64">
+               <lb ed="#S" n="16"/>
+               <!-- 64 -->sED contra hoc arguitur tripliciter. primo quia 
+      <lb ed="#S" n="17"/>non potest esse virtus spiritualis: quia aut haberent esse 
+      <lb ed="#S" n="18"/>manens, aut in fluxu, &amp; fieri: non primo modo: quia si 
+      <lb ed="#S" n="19"/>cut corpus est constans ex materia, &amp; corporeitate: &amp; cor 
+      <lb ed="#S" n="20"/>porale est, quod est in corpore subiectiue. sic spiritus est 
+      <lb ed="#S" n="21"/>qui per essentiam: &amp; spirituale est, quod in spiritu subie 
+      <lb ed="#S" n="22"/>ctiue. Nam etiam in fluxu, quia nihil est subiectum rube 
+      <lb ed="#S" n="23"/>dinis in transitu, sicut rubescunt verecundati: nisi quod 
+      <lb ed="#S" n="24"/>est in esse permanenti.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2598" n="65">
+      <!-- 65 -->REsPONDEO secun 
+      <lb ed="#S" n="25"/>dum veritatem illa virtus est corporalis qualitas 
+       essentia<lb ed="#S" break="no" n="26"/>liter, &amp; formaliter non nata esse in spiritu subiectiue: 
+      <lb ed="#S" n="27"/>tamen ratio non cogit: quia non sequitur, est forma in 
+      <lb ed="#S" n="28"/>corpore. ergo est corporalis: quia anima rationalis est 
+      <lb ed="#S" n="29"/>actus corporis: &amp; tamen est non solum spiritualis, sed 
+      <lb ed="#S" n="30"/>etiam spiritus per essentiam, &amp; per efficaciam: quia habet 
+      <lb ed="#S" n="31"/>operationes, &amp; habitus spirituales.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2618" n="66">
+      <!-- 66 -->si dicatur, quod 
+      <lb ed="#S" n="32"/>hoc est: quia ipsa forma spiritualis substantialis, qua tra 
+      <lb ed="#S" n="33"/>hit ad se, &amp; non trahitur a materia, &amp; natura praecedit es 
+      <lb ed="#S" n="34"/>se corporeum. Dicendum, quod etiam dona, &amp; virtutes mo 
+      <lb ed="#S" n="35"/>rales infusae, imo etiam acquisitae videntur esse spirituales effecti 
+      <lb ed="#S" n="36"/>ue: licet sint corporales subiectiue: quia faciunt obedire 
+      <lb ed="#S" n="37"/>ratione, quae spiritualis est.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2636" n="67">
+      <!-- 67 -->Et ad illud de fluxu 
+      <lb ed="#S" n="38"/>dicendum est, quod non cogit: quia non est intentio dicere, quod 
+      <lb ed="#S" n="39"/>sit vna virtus specie spiritualis, quae possit manere in cor 
+      <lb ed="#S" n="40"/>pore ad horam, &amp; non diu: sed sicut forma scanni est in 
+      <lb ed="#S" n="41"/>dolabra, in fluxu non formaliter, sed virtute, &amp; in fluxu 
+      <lb ed="#S" n="42"/>non nisi quandiu mouetur: sic etiam character, qui 
+       ma<lb ed="#S" break="no" n="43"/>net in amina, est etiam in sacramento virtute solum, 
+       quan<lb ed="#S" break="no" n="44"/>diu sacramentum est in vsu. i. in coniunctione materiae ad 
+      <lb ed="#S" n="45"/>formam a ministrante applicante suscipienti.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2658" n="68">
+      <!-- 68 -->si 
+      <lb ed="#S" n="46"/>militer ad aliam ratione, qua dicitur, sicut in spiritu non 
+      <lb ed="#S" n="47"/>potest esse virtus corporalis subiectiue, sic nec econuerso 
+      <lb ed="#S" n="48"/>spiritualis in corpore,
+    </p>
+            <p xml:id="khj78y-q10001-d1e2669" n="69">
+      <!-- 69 -->Dicendum, quod sicut virtus 
+      <lb ed="#S" n="49"/>corporalis formaliter non potest esse in spiritu 
+       subiecti<lb ed="#S" break="no" n="50"/>ue, vt quantitas in angelo: sic nec virtus spiritualis 
+       for<lb ed="#S" break="no" n="51"/>maliter potest esse in corpore subiectiue: nisi, vt dictum 
+      <lb ed="#S" n="52"/>est prius. sed sicut virtus spiritualis potest agere 
+       corpo<lb ed="#S" break="no" n="53"/>rale, &amp; in corpus, sic econuerso virtus corporalis potest 
+      <lb ed="#S" n="54"/>agere spirituale, &amp; in spiritu. sed in hoc est differentia, 
+      <lb ed="#S" n="55"/>quod illa in propria virtute: quia hoc est infra, &amp; non 
+       su<lb ed="#S" break="no" n="56"/>pra speciem: hic autem in aliena.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2691" n="70">
+      <!-- 70 -->sECVNDO, 
+      <lb ed="#S" n="57"/>arguitur, quod non possit esse virtus corporalis: quia 
+       a<lb ed="#S" break="no" n="58"/>git in spiritum
+    </p>
+            <p xml:id="khj78y-q10001-d1e2701" n="71">
+      <!-- 71 -->Dicendum, quod falsum est, imo 
+       vir<lb ed="#S" break="no" n="59"/>tus in corpore potest agere in spiritum, &amp; aliquid 
+       spiritua<lb ed="#S" n="60" break="no"/>le, sicut fantasma in intellectum possibilem: quia ab agente 
+      <lb ed="#S" n="61"/>vniuersali, &amp; in determinato in passiuum indeterminatum 
+      <lb ed="#S" n="62"/>non sequitur actio determinata, nisi concurrente agente 
+      <lb ed="#S" n="63"/>particulari. Vnde cum intellectus agens sit potens 
+       om<lb ed="#S" break="no" n="64"/>nia facere: quae possibilis est potens fieri: nisi fantasma 
+      <lb ed="#S" n="65"/>determinatum concurrat agendo: quia non potest 
+       concur<lb ed="#S" break="no" n="66"/>rere patiendo, ne sequeretur determinata intellectio. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e2723" n="72">
+               <lb ed="#S" n="67"/>
+               <!-- 72 -->Propterea sicut fantasia est motus factus a sensu 
+      <!--0008.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>secundum actum: sic videtur intellectio, mutatio facta a 
+      <lb ed="#S" n="69"/>fantasmate secundum actum, Et sic falium est, quod 
+       assu<lb ed="#S" break="no" n="70"/>mitur: cum etiam ignis inferni agat in spiritum, &amp; coelum 
+      <lb ed="#S" n="71"/>in virtute Dei producat animam sensitiuam: quam Grego. 
+      <lb ed="#S" n="72"/>vocat spiritum, qui carne tegitur: cum carne moritur. &amp; 
+      <lb ed="#S" n="73"/>cum calor aliquid possit in virtute animae: quod non 
+      <lb ed="#S" n="74"/>potest in virtute ignis: vel alicuius inferioris, puta 
+       ge<lb ed="#S" break="no" n="75"/>nerare carnem, sic quod aliquod corpus non plus possit in vir 
+      <lb ed="#S" n="76"/>tute Dei, quam in vir tute sua, vel alterius corporis, vel crea 
+      <lb ed="#S" n="77"/>turae non videtur probabile. sed vtrum sit realis virtus, &amp; 
+      <lb ed="#S" n="78"/>qualis posset quidem imaginari: quod virtus sacramentalis su 
+      <lb ed="#S" n="79"/>pra virtutem naturae non est aliqua vera res: sicut nec vir 
+      <lb ed="#S" n="80"/>tus in fantasmate, per quam dicitur mou ere possibilem in 
+      <lb ed="#S" n="81"/>virtute agentis est aliqua res addita naturae propriae: 
+       si<lb ed="#S" break="no" n="82"/>cut etiam virtus in coelo, qua generatur viuum in virtu 
+      <lb ed="#S" n="83"/>te Dei, non est aliud a sua forma naturali: ergo sicut 
+      <lb ed="#S" n="84"/>Deus secundum cursum naturae aliquibus corporibus ab 
+      <lb ed="#S" n="85"/>origine praestitit, vt in virtute sua aliquid faciant, quod 
+      <lb ed="#S" n="86"/>in virtute propria non possunt: sic non est 
+       inconueni<lb ed="#S" break="no" n="87"/>ens, quod in cursu gratiae supernaturaliter aliquibus rebus in 
+      <lb ed="#S" n="88"/>casu hoc faciat. Quis enim calor calefaciat: hoc non ha 
+      <lb ed="#S" n="89"/>bet nisi a diuina voluntate, quando Deus voluit calor non 
+      <lb ed="#S" n="90"/>combussit tres pueros in camino ignis · si ergo Deus, 
+      <lb ed="#S" n="91"/>vel frigus calefaceret. Quamuis enim ad actionem 
+       princi<lb ed="#S" break="no" n="92"/>palis agentis oporteat in agente esse proprium principium 
+      <lb ed="#S" n="93"/>formam absolutam, non tamen ad actionem instrumenti 
+       opor<lb ed="#S" break="no" n="94"/>tet in eo esse illam formam, per quam producitur forma 
+      <lb ed="#S" n="95"/>ad quam attingit, vt instrumentum. Et sicut de creatura 
+      <lb ed="#S" n="96"/>fit quicquid Deus vult passiue: sic quicquid vult, fit a 
+      <lb ed="#S" n="97"/>creatura actiue: dum tamen non excedat limites creatu 
+      <lb ed="#S" n="98"/>rae.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2801" n="73">
+      <!-- 73 -->sed istud non videtur: quia nihil agit, nisi se 
+      <lb ed="#S" n="99"/>cundum quod est in actu. Vnde sicut Deus non potest face 
+      <lb ed="#S" n="100"/>re aliquid esse de nouo per nouam formam: sic non 
+       po<lb ed="#S" break="no" n="101"/>test realiter agere, quod prius non poterat nisi per nouam 
+      <lb ed="#S" n="102"/>formam. Nec est simile de instrumento coniuncto secun 
+      <lb ed="#S" n="103"/>dum esse: sicut &amp; fantasma, quod est idem subiecto cum 
+      <lb ed="#S" n="104"/>intellectu agente, vel saltem idem supposito: &amp; de 
+       sacramen<lb ed="#S" break="no" n="105"/>to, quod non est coniunctum secundum esse Deo, vt est 
+       in<lb ed="#S" break="no" n="106"/>strumentum.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2823" n="74">
+      <!-- 74 -->Item non est simile de forma coeli, quae 
+      <lb ed="#S" n="107"/>a principio habuit illam formam. quae est illa virtus, &amp; de 
+      <lb ed="#S" n="108"/>sacramento, quod de nouo incipit habere illam virtutem 
+      <lb ed="#S" n="109"/>non vtiq, per nihil.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2834" n="75">
+      <!-- 75 -->Nec est simile de potentia pas 
+      <lb ed="#S" n="110"/>siua, quae ab alio transmutatur, &amp; de actiua, quae est ex se 
+      <lb ed="#S" n="111"/>transmutatiua. Vnde non ita facit creatura, quicquid Deus 
+      <lb ed="#S" n="112"/>vult eam facere sine virtute addita, sicut fit ex creatura, 
+      <lb ed="#S" n="113"/>quod Deus vult ex ea, vel in ea fieri sine additione 
+       ali<lb ed="#S" break="no" n="114"/>cuius praecedentis factionem illam.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2850" n="76">
+      <!-- 76 -->Item quando 
+      <lb ed="#S" n="115"/>sacramentum applicatur: ipse motus non est formaliter illa 
+      <lb ed="#S" n="116"/>virtus, quae causat: quia cum sit idem motus in ludente, si 
+      <lb ed="#S" n="117"/>cut in baptizante, esset eadem virtus in vtroque. Et quod non 
+      <lb ed="#S" n="118"/>idem faceret Deus, impediret, sicut eadem virtus in 
+       cami<lb ed="#S" break="no" n="119"/>no puerorum, quod est absurdum: vnde nihil habet realem 
+      <lb ed="#S" n="120"/>virtutem ad aliquid agendum, quod prius non agebat, nisi 
+      <lb ed="#S" n="121"/>accipiat formam realem de nouo, quam prius non habe 
+      <lb ed="#S" n="122"/>bat, quae est illa virtus per essentiam: vel nisi per 
+       essen<lb ed="#S" break="no" n="123"/>tiam ipsa forma fiat perfectio, quam prius per 
+       intentio<lb ed="#S" break="no" n="124"/>nem suiipsius: sicut forma intensa aliquid potest, quod 
+      <lb ed="#S" n="125"/>non potest remissa: quod non habet locum in sacramento. 
+      <lb ed="#S" n="126"/>Vnde illa virtus non est ipsa motio sacramenti, prout 
+      <lb ed="#S" n="127"/>est a Deo: sed aliquid aliud. Et magis credo, quod est 
+      <lb ed="#S" n="128"/>alia aliqua forma: quia si calor per essentiam est potentia 
+      <lb ed="#S" n="129"/>calefactiua quicquid habet calorem, habet potentiam ca 
+      <lb ed="#S" n="130"/>lefaciendi, seu virtutem. Vnde cum in ludente sit idem motus 
+      <lb ed="#S" n="131"/>specie, qui non ludente, &amp; vterque a Deo aequaliter 
+       effecti<lb ed="#S" break="no" n="132"/>ue: ita esset ibi virtus, sicut hic. quod non videtur. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e2895" n="77">
+               <lb ed="#S" n="133"/>
+               <!-- 77 -->Tertia ratio est: quia qua ratione, esset in verbis, ea 
+      <lb ed="#S" n="134"/>dem ratione esset in aliis rebus sacramentalibus, &amp; in 
+      <!--0009.xml-->
+      <pb ed="#S" n="9"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ministro: quia omnia haec sunt de necessitate 
+       sacramen<lb ed="#S" break="no" n="2"/>ti: sed hoc non potest esse, vt probabitur. ergo &amp;c. 
+       Pro<lb ed="#S" break="no" n="3"/>bo minorem. Primo quantum ad hoc, quod non possit 
+       es<lb ed="#S" break="no" n="4"/>se talis virtus in ministro, &amp; in aliis rebus 
+       sacramentali<lb ed="#S" break="no" n="5"/>bus, aut illa virtus esset in eis vnius rationis, aut 
+       diuer<lb ed="#S" break="no" n="6"/>sarum rationum. Non vnius: quia quae non conueniunt 
+      <lb ed="#S" n="7"/>in vna potentia receptiua, non conueniunt in forma 
+       re<lb ed="#S" break="no" n="8"/>cepta: sed res sacramentales cum sint corporales, &amp; 
+       mi<lb ed="#S" break="no" n="9"/>nister quantum ad animam, vel potentiam spiritualem ipsius 
+      <lb ed="#S" n="10"/>animae non conueniunt in aliqua potentia receptiua, cum 
+      <lb ed="#S" n="11"/>corpus, &amp; spiritus nullam communem potentiam receptiuam 
+       ha<lb ed="#S" break="no" n="12"/>beant. ergo non possunt conuenire in aliqua vna 
+       for<lb ed="#S" break="no" n="13"/>ma recepta: sed virtus, si qua sit in ministro respectu 
+       ef<lb ed="#S" break="no" n="14"/>fectus sacramenti est, vel in aliqua eius potentia spiritua 
+      <lb ed="#S" n="15"/>li, vel in essentia animae, siue sit character, siue quodcun 
+      <lb ed="#S" n="16"/>que aliud. ergo ipsa non potest esse vnius rationis cum 
+       vir<lb ed="#S" break="no" n="17"/>tute, quae est in aliis rebus sacramentalibus, quae sunt cor 
+      <lb ed="#S" n="18"/>porales.
+    </p>
+            <p xml:id="khj78y-q10001-d1e2950" n="78">
+      <!-- 78 -->Item nec possunt istae duae virtutes esse 
+      <lb ed="#S" n="19"/>diuersarum rationum: quia impossibile est, quod plures virtu 
+      <lb ed="#S" n="20"/>tes diuersarum rationum ordinentur immediate: &amp; in eodem 
+      <lb ed="#S" n="21"/>genere causae ad eundem effectum, sicut ostensum fuit li. 
+      <lb ed="#S" n="22"/>1. d. 3. ergo non possunt esse diuersarum rationum. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e2963" n="79">
+               <lb ed="#S" n="23"/>
+               <!-- 79 -->Item non videtur conueniens, quod talis virtus sit 
+      <lb ed="#S" n="24"/>in rebus, &amp; verbis per idem, quod statim dictum est: quia 
+      <lb ed="#S" n="25"/>non eadem, cum non appareat in eisdem ea virtus recepti 
+      <lb ed="#S" n="26"/>ua. Nec alia, cum ordinentur ad eundem effectum. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e2976" n="80">
+               <lb ed="#S" n="27"/>
+               <!-- 80 -->Item nec in ipsis verbis videtur esse talis virtus, quia 
+      <lb ed="#S" n="28"/>cum oratio sit quantitas discreta impossibile est vnam 
+      <lb ed="#S" n="29"/>virtutem numero esse in tota oratione. Oportet ergo, quod 
+      <lb ed="#S" n="30"/>sint vel tot virtutes, quod sunt syllabae in oratione, vel 
+      <lb ed="#S" n="31"/>quod solum in vltima sit virtus illa. non potest dici, quod 
+      <lb ed="#S" n="32"/>in qualibet syllaba sit virtus specialis, quia cum sacramen 
+      <lb ed="#S" n="33"/>ta non habeant efficaciam suam, nisi in vltimo instanti, 
+      <lb ed="#S" n="34"/>quo verba complentur, ante quod instans praecedentes syl 
+      <lb ed="#S" n="35"/>labae desierunt, &amp; per consequens virtutes existentes in eis: 
+      <lb ed="#S" n="36"/>sequitur, quod illae virtutes nihil faciunt ad effectum sacramen 
+      <lb ed="#S" n="37"/>ti: non quidem inducendo ipsum: quia tunc non sunt nec 
+      <lb ed="#S" n="38"/>disponendo, sicut dicitur de guttis praecedentibus caua 
+      <lb ed="#S" n="39"/>tionem lapidis, quae disponunt ad illud, quod vltima per 
+      <lb ed="#S" n="40"/>ficit: quia ante characterem, vel ornatum quem sacramen 
+      <lb ed="#S" n="41"/>ta efficiunt, nulla dispositio praecedit in anima, quae fiat 
+      <lb ed="#S" n="42"/>sacramenta.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3015" n="81">
+      <!-- 81 -->Item nec talis virtus est solum in 
+       vlti<lb ed="#S" break="no" n="43"/>ma syllaba: quia per eandem rationem virtus, quae est in aqua 
+      <lb ed="#S" n="44"/>baptismi, esset solum in vltima parte, quae tangit corpus 
+      <lb ed="#S" n="45"/>baptizati, quod satis assimilatur fictioni.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3026" n="82">
+      <!-- 82 -->Item illa 
+      <lb ed="#S" n="46"/>virtus, si qua esset, ageret ex necessitate naturae, &amp; non ex 
+      <lb ed="#S" n="47"/>aliqua electione: cum non esset cognitiua. ergo aequali 
+      <lb ed="#S" n="48"/>ter ageret in eo de omne illud, quod natum esset effectum 
+      <lb ed="#S" n="49"/>eius recipere: sed character, qui ponitur proprius 
+       ef<lb ed="#S" break="no" n="50"/>fectus talis virtutis aequaliter potest recipere animam dor 
+      <lb ed="#S" n="51"/>mientis, sicut animam vigilantis: &amp; volentis, sicut nolentis: 
+      <lb ed="#S" n="52"/>quia solum velle nunquam disponit, vel impedit actionem 
+      <lb ed="#S" n="53"/>quae est ex necessitate naturae: ergo aequaliter posset cha 
+      <lb ed="#S" n="54"/>racterem ordinis recipere nolens, sicut volens: dormiens, 
+      <lb ed="#S" n="55"/>sicut vigilans: quod est inconueniens.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3053" n="83">
+      <!-- 83 -->sOLVTIO 
+      <lb ed="#S" n="56"/>primo potest dici, quod est eadem virtus specie: quia li 
+      <lb ed="#S" n="57"/>cet proprium accidens habeat vnam propriam potentiam 
+      <lb ed="#S" n="58"/>receptiuam: tamen accidens non proprius non oportet 
+      <lb ed="#S" n="59"/>non solum habere remotam, sicut eadem albedo specie est in 
+      <lb ed="#S" n="60"/>cigno, &amp; in niue: nec etiam immediatam: cum lux sit in coe 
+      <lb ed="#S" n="61"/>lo, &amp; in aere, &amp; non sit eadem diaphanitas specie hic &amp; ibi: 
+      <lb ed="#S" n="62"/>saltem de accidente supernaturalis certum est: quia non est 
+      <lb ed="#S" n="63"/>eiusdem speciei anima, &amp; suae potentiae cum substantia ange 
+      <lb ed="#S" n="64"/>li, &amp; suis potentiis per eandem rationem: quia si sunt idem, quod 
+      <lb ed="#S" n="65"/>essentia certum est: quod essentiae differunt specie. si vero dif 
+      <lb ed="#S" n="66"/>ferunt, differunt propria susceptiua, &amp; proprietates 
+       na<lb ed="#S" break="no" n="67"/>turales. Et tamen constat, quod virtutes infusae viae, &amp; 
+      <!--0009.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>patriae non differunt specie in hominibus, &amp; angelis. 
+       A<lb ed="#S" break="no" n="69"/>lias non possent aequari homines angelis. Vnde cum 
+       vir<lb ed="#S" break="no" n="70"/>tus, quae est in sacramentis, sit supernaturalis, nihil prohi 
+      <lb ed="#S" n="71"/>bet ipsam eiusdem rationis: etiam in diuersis concurrenti 
+      <lb ed="#S" n="72"/>bus ad sacramentum: quamuis differant specie, vel genere. 
+      <lb ed="#S" n="73"/>similiter potest dici, quod sunt diuersarum rationum: 
+    </p>
+            <p xml:id="khj78y-q10001-d1e3101" n="84">
+               <lb ed="#S" n="74"/>
+               <!-- 84 -->Nec obstat, quod habent vnum effectum: quia 
+       si<lb ed="#S" break="no" n="75"/>cut conueniunt quatuor elementa ad vnum mixtum, &amp; qua 
+      <lb ed="#S" n="76"/>litates primae ad medias, &amp; sicut multa, &amp; diuersa 
+       instru<lb ed="#S" n="77" break="no"/>manta concurrunt ad effectum vnum sic, &amp; hic: vna enim 
+       con<lb ed="#S" break="no" n="78"/>stellatio, quae producit vnum effectum est ex concursu 
+      <lb ed="#S" n="79"/>diuersarum virtutum: &amp; in eodem generum causae. Tamen 
+      <lb ed="#S" n="80"/>potest dici, quod non est virtus in ministro: nisi inquan 
+      <lb ed="#S" n="81"/>tum adhibet res virtutem habentes, nisi in Christo, qui sine 
+      <lb ed="#S" n="82"/>rebus hoc poterat. Et ideo in eo erat virt', quae in rebus, 
+      <lb ed="#S" n="83"/>&amp; maior. Tamen virtus est in ministro, si quem specialem 
+      <lb ed="#S" n="84"/>sacramentum requirit: quae est alterius rationis, sicut cha 
+      <lb ed="#S" n="85"/>racter sacerdotalis in vnctione: poenitentia, &amp; 
+       euchari<lb ed="#S" break="no" n="86"/>stia: &amp; episcopalis in confirmatione, &amp; ordine: licet ista 
+      <lb ed="#S" n="87"/>causa mediante agat.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3136" n="85">
+      <!-- 85 -->Est ergo virtus non in om 
+      <lb ed="#S" n="88"/>nibus, quae sunt de essentia sacramenti: quia in baptismo 
+      <lb ed="#S" n="89"/>non est virtus in ministro plus, quam in homine 
+       adhi<lb ed="#S" break="no" n="90"/>bente ignem ad conburendum domum. Net est in 
+       suscipi<lb ed="#S" break="no" n="91"/>ente, qui per naturam est susceptiuus, sed est in verbis, &amp; 
+      <lb ed="#S" n="92"/>aqua. In confirmatione autem est virtus in ministro, scili 
+      <lb ed="#S" n="93"/>cet, character episcopalis, &amp; in verbis, &amp; materia, 
+       simili<lb ed="#S" break="no" n="94"/>ter in ordine. In suscipiente autem est potentia passiua 
+       cha<lb ed="#S" break="no" n="95"/>racter baptismalis. In poenitentia tota virtus est in 
+       mini<lb ed="#S" break="no" n="96"/>stris, &amp; verbis absolutionis: potentia receptiua, vt prius 
+      <lb ed="#S" n="97"/>character baptismalis, non confessio, quae esse desinit, quam 
+      <lb ed="#S" n="98"/>do incipit absolutio. Potest tamen dici etiam in 
+       satisfa<lb ed="#S" break="no" n="99"/>ctione, prout est a sacerdote iniuncta esse virtutem. Quod 
+      <lb ed="#S" n="100"/>tamen non videtur: quia vna pars satisfactionis est elee 
+      <lb ed="#S" n="101"/>mosyna, quae consistit in agendo in aliud, non in recipi 
+      <lb ed="#S" n="102"/>endo. In extrema vnctione similiter, in ministro, verbis, 
+      <lb ed="#S" n="103"/>&amp; vnctione, &amp; oleo est virtus potentia receptiua characte 
+      <lb ed="#S" n="104"/>ris baptismalis. In matrimonio autem est vna potentia 
+       re<lb ed="#S" break="no" n="105"/>ceptiua etiam in non baptizato, si est verum sacramentum. 
+      <lb ed="#S" n="106"/>sed tamen forte licet sit verum matrimonium sine 
+       chara<lb ed="#S" break="no" n="107"/>ctere baptismali non est verum sacramentum, cum 
+       baptis<lb ed="#S" break="no" n="108"/>mus sit ianua sacramentorum: sed virtus est in forma, quae 
+      <lb ed="#S" n="109"/>fit per verba, vel signa aliqua, ita quod cum sacramentum 
+      <lb ed="#S" n="110"/>consistat in suscipiendo non in agendo verba viri 
+       cau<lb ed="#S" break="no" n="111"/>sant in muliere illam dispositionem, &amp; econuerso. In cu 
+      <lb ed="#S" n="112"/>charistia vero est virtus in verbis, &amp; materia, &amp; ministro 
+      <lb ed="#S" n="113"/>ad conuersionem: sed virtus immediate dispositiua ad gratia 
+      <lb ed="#S" n="114"/>tiam est in solis speciebus post consecrationem. Vnde vir 
+      <lb ed="#S" n="115"/>tus sacramentalis quandoq, est in sola forma, sicut in ma 
+      <lb ed="#S" n="116"/>trimonio. quandoque in sola materia, sicut post consecra 
+      <lb ed="#S" n="117"/>tionem in speciebus remanet virtus disponens ad gratiam 
+      <lb ed="#S" n="118"/>suscipiendam: quandoque est in sola forma, &amp; ministro: 
+       si<lb ed="#S" break="no" n="119"/>cut in poenitentia: quandoque in forma, materia, &amp; 
+       mini<lb ed="#S" break="no" n="120"/>stro, sicut in aliis, nisi quod ex commissione Papae alius 
+       con<lb ed="#S" break="no" n="121"/>firmat, vel ordinat. Tunc enim commissio Papae non 
+       po<lb ed="#S" break="no" n="122"/>test talem virtutem in commissario causare.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3217" n="86">
+      <!-- 86 -->Tertia 
+       opi<lb ed="#S" break="no" n="123"/>nio est, quod sunt causa non per virtutem inhaerentem, 
+      <lb ed="#S" n="124"/>nec solum per assistentem ex pactione, sed per 
+       inexisten<lb ed="#S" break="no" n="125"/>tem modo speciali.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3228" n="87">
+      <!-- 87 -->Primo, quia sicut Deus 
+       vte<lb ed="#S" break="no" n="126"/>batur carne, sicut instrumento in his, quae per se agebat, 
+      <lb ed="#S" n="127"/>sic in his, quae per ministros agit, vtitur sacramentis, vt in 
+      <lb ed="#S" n="128"/>strumentis: sed ibi quando leprosum curabat, erat 
+       dei<lb ed="#S" break="no" n="129"/>tas speciali modo non solum in curato a lepra propter no 
+      <lb ed="#S" n="130"/>uum effectum, sed etiam in manu tangente. ergo &amp; hic. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e3244" n="88">
+               <lb ed="#S" n="131"/>
+               <!-- 88 -->secundo, quia hoc sonat authoritas magistri in li 
+      <lb ed="#S" n="132"/>tera, quod homo quaerit salutem non ab istis, sed a Deo 
+      <lb ed="#S" n="133"/>in ipsis.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3256" n="89">
+      <!-- 89 -->Tertio, per diffinitionem sacramenti, que 
+      <lb ed="#S" n="134"/>est, quod est in quo sub tegumento rerum diuina virtus 
+      <!--0010.xml-->
+      <pb ed="#S" n="10"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>salutem secretius operatur, quasi sit ibi inexistens non 
+      <lb ed="#S" n="2"/>solum assistens non tamen inhaerens.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3274" n="90">
+      <!-- 90 -->Nec obstat 
+      <lb ed="#S" n="3"/>quod quidam dicunt, quod Deus praeter communes 
+       mo<lb ed="#S" break="no" n="4"/>dos essendi in rebus per essentiam, praesentiam &amp;, potentiam non 
+      <lb ed="#S" n="5"/>est modo speciali, nisi vel in sanctis per gratiam adoptionis, 
+      <lb ed="#S" n="6"/>vel in Chhristo per gratiam vnionis: quia hoc est falsum: 
+      <lb ed="#S" n="7"/>cum sit speciali reali, &amp; differenti modo in sacramento 
+      <lb ed="#S" n="8"/>altaris, &amp; in sacramentis ve. le. sicut in signo, &amp; in aliis 
+       sa<lb ed="#S" n="9" break="no"/>cramentis no. le. erit speciali modo: vt puta sicut in pro 
+      <lb ed="#S" n="10"/>prio instrumento. similiter non obstat secundo, quod 
+      <lb ed="#S" n="11"/>noua relatio non aduenit alicui, nisi propter nouum 
+      <lb ed="#S" n="12"/>absolutum adueniens sibi, vel alteri. Vnde cum Deo 
+      <lb ed="#S" n="13"/>nihil nouum possit aduenire non poterit incipere esse 
+      <lb ed="#S" n="14"/>nouo modo in sacramentis: nisi eis aliquid absolutum 
+      <lb ed="#S" n="15"/>influat: quia Deum esse in creatura non est nisi 
+       deter<lb ed="#S" break="no" n="16"/>minata habitudo Dei ad creaturam rationis, &amp; econuer 
+      <lb ed="#S" n="17"/>so realis.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3311" n="91">
+      <!-- 91 -->Dicendum enim, quod ex motu reali re 
+      <lb ed="#S" n="18"/>fertur mobile ad mouens, Vnde ex hoc, quod sacramen 
+      <lb ed="#S" n="19"/>ta a Deo cum ministro mouentur: ad Deum realiter re 
+      <lb ed="#S" n="20"/>feruntur.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3322" n="92">
+      <!-- 92 -->NEC obstat, quod dicunt tertio, quod 
+      <lb ed="#S" n="21"/>Deus si est in sacramentis specialiter: aut gratiam 
+       cau<lb ed="#S" break="no" n="22"/>sando in illis: aut de illis, Non primo modo: quia non 
+      <lb ed="#S" n="23"/>sunt capacia. Nec secundo modo: quia ly, de, aut 
+       deno<lb ed="#S" break="no" n="24"/>tat terminum a quo, aut causam. Non terminum, quia 
+      <lb ed="#S" n="25"/>tunc desineret: nec maneret sacramentum causata gratia, 
+      <lb ed="#S" n="26"/>sicut quando de albo fit nigrum: nec causam materialem 
+      <lb ed="#S" n="27"/>ex qua, quia gratia non est quid compositum, nec in qua: 
+      <lb ed="#S" n="28"/>quia non est aptum natum, nec efficientem principalem, nec 
+      <lb ed="#S" n="29"/>instrumentalem, quia hoc est contra ipsos. ergo est in illis 
+      <lb ed="#S" n="30"/>tanquam per illa agens, &amp; hoc non est nisi instrumenta 
+      <lb ed="#S" n="31"/>liter. ergo habent in se virtutem inhaerentem.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3351" n="93">
+      <!-- 93 -->
+       RE<lb ed="#S" break="no" n="32"/>sPONDERENT, quod Deus sic est in ipsis tanquam 
+      <lb ed="#S" n="33"/>agens de ipsis, sicut sol illuminat nos de coelo, quia est 
+      <lb ed="#S" n="34"/>in coelo, non quod coelum aliquid agat ad illuminandum, 
+      <lb ed="#S" n="35"/>sic Deus est in aqua, tanquam de aqua baptizans. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e3364" n="94">
+               <lb ed="#S" n="36"/>
+               <!-- 94 -->Nihilominus tamen non videtur opinio probabi 
+      <lb ed="#S" n="37"/>lis. Primo quidem, quod dicunt Deum esse modo 
+       specia<lb ed="#S" break="no" n="38"/>li in sacramentis, quia bene scitur, quod est speciali mo 
+      <lb ed="#S" n="39"/>do in sacramento eucharistiae: sed ille consequitur 
+       mo<lb ed="#S" break="no" n="40"/>dum, quo est in homine Christo per gratiam vnionis, quia 
+      <lb ed="#S" n="41"/>solum corpus Christi, &amp; sanguis sunt ibi ex vi sacramen 
+      <lb ed="#S" n="42"/>ti, caetera autem Christi, &amp; maxime deitas sunt ibi ex com 
+      <lb ed="#S" n="43"/>comittantia sola propter vnionem. sed ille modus non fa 
+      <lb ed="#S" n="44"/>cit ad causandum gratiam, quia tunc solus filius, qui 
+       so<lb ed="#S" break="no" n="45"/>lus est, ibi causaret eam sine patre, &amp; spiritusancto. Nos 
+      <lb ed="#S" n="46"/>autem quaerimus de tota Trinitate, cuius opera sunt in 
+      <lb ed="#S" n="47"/>diuisa quomodo specialiter habeat esse in sacramentis, 
+      <lb ed="#S" n="48"/>quae non est in cucharistia quo ad propria patris, &amp; spi 
+      <lb ed="#S" n="49"/>ritussancti plus, quam in aliis, nec in aliis plus, quam in 
+      <lb ed="#S" n="50"/>non sacramentis, nisi specialem virtutem det cis, quia quan 
+      <lb ed="#S" n="51"/>do ludicre vel a non debito ministro eadem materia, &amp; ca 
+      <lb ed="#S" n="52"/>dem forma adhiberetur, Deus ibi mouet, sicut quando 
+      <lb ed="#S" n="53"/>concurrunt essentialia. Vnde nec absolutum, nec relatum 
+      <lb ed="#S" n="54"/>est in vno plus, quam in alio. vnde sicut bene 
+       conclu<lb ed="#S" break="no" n="55"/>dit secunda ratio, non plus erit ibi, nec aliter in vno, 
+      <lb ed="#S" n="56"/>quam in alio.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3415" n="95">
+      <!-- 95 -->Praeterea nihil dicitur esse causa 
+       a<lb ed="#S" break="no" n="57"/>licuius, quod nihil per se facit causaliter ad illud, nisi 
+      <lb ed="#S" n="58"/>quando est coniunctum supposito, cum illo, quod est cau 
+      <lb ed="#S" n="59"/>sa per se, &amp; tunc in concreto. &amp; non in abstracto. sicut 
+      <lb ed="#S" n="60"/>dicitur ille homo creasse stellas, non autem humanitas 
+      <lb ed="#S" n="61"/>eius. Vnde cum sacramenta Deus non assumat in vnita 
+      <lb ed="#S" n="62"/>te personae quantuncunque speciali modo essendi esset in 
+      <lb ed="#S" n="63"/>eis, nunquam propter hoc sacramenta possent dici esse 
+      <lb ed="#S" n="64"/>causa gratiae: per hoc, quo Deus, qui non est in ipsa, est 
+      <lb ed="#S" n="65"/>in eis. sicut sanctus quisque, in quo Deus est per gratiam 
+      <lb ed="#S" n="66"/>adoptionis, non propter hoc ipse est gratiae causa in alio. 
+      <lb ed="#S" n="67"/>similiter nec species eucharistiae, per hoc, quod Deus 
+      <!--0010.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>speciali modo est in eis, dicuntur causa gratiae, si nihil 
+      <lb ed="#S" n="69"/>agant in communicante, quia non sunt vnum in esse cum 
+      <lb ed="#S" n="70"/>Deo.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3454" n="96">
+      <!-- 96 -->Ad primum dicendum, quod Christus erat 
+      <lb ed="#S" n="71"/>modo speciali in manu tangente leprosum, quia erat pars 
+      <lb ed="#S" n="72"/>humanitatis assumptae. Non sic autem sacramentum est 
+       as<lb ed="#S" break="no" n="73"/>sumptum, nec par assumpti, sicut in fimbriis vestimenti sui 
+      <lb ed="#S" n="74"/>non erat ipse modo illo. Vnde nec fimbriae possunt dici 
+      <lb ed="#S" n="75"/>causa restrictionis fluxus sanguinis, nec etiam sua caro, 
+      <lb ed="#S" n="76"/>nisi esset virtus in eis, ad hoc agens aliquid. sed in con 
+      <lb ed="#S" n="77"/>creto potest dici, ille homo, vel ille vestitus sanauit. Et si 
+      <lb ed="#S" n="78"/>militer in sacramento altaris posset dici, quod operatus 
+      <lb ed="#S" n="79"/>nebula gratificat. Non sic autem de aliis sacramentis, in 
+      <lb ed="#S" n="80"/>quibus non sic est, vt ille modus essendi ipsum de nomi 
+      <lb ed="#S" n="81"/>net, quemadmodum ex veste accidens, quod est habitus, 
+      <lb ed="#S" n="82"/>causatur in vestimento realiter, quod nec de speciebus 
+      <lb ed="#S" n="83"/>potest dici. Et multo minus in aliis sacramentis. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e3487" n="97">
+               <lb ed="#S" n="84"/>
+               <!-- 97 -->Ad secundum supra solutum fuit, quod homo nou 
+      <lb ed="#S" n="85"/>quaerit salutem ab eis principaliter, sed a Deo in illis, &amp; 
+      <lb ed="#S" n="86"/>per illa instrumentaliter.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3498" n="98">
+      <!-- 98 -->Ad tertium dicendum, 
+      <lb ed="#S" n="87"/>quod authoritas dicit Deum salutem nostram operari sub 
+      <lb ed="#S" n="88"/>illis, sed non negat quin etiam per illa.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3507" n="99">
+      <!-- 99 -->Quarta 
+      <lb ed="#S" n="89"/>opinio posset imaginari, quod sacramenta essent causa 
+      <lb ed="#S" n="90"/>gratiae exemplaris. &amp; nullo modo effectiua, nec 
+       instru<lb ed="#S" break="no" n="91"/>mentalis similiter dicit, albedo causa exemplaris, quando 
+      <lb ed="#S" n="92"/>albus generat album, &amp; non sicut pictor depingit vnum 
+      <lb ed="#S" n="93"/>adexemplar alterius: quia tunc illud exemplar mouet 
+      <lb ed="#S" n="94"/>ad cognitionem, qua mediante est causa effectiua artifi 
+      <lb ed="#S" n="95"/>clati: sed sicut resurrectio Christi est causa 
+       resurrectio<lb ed="#S" break="no" n="96"/>nis nostrae. Quia ergo Deus effectum omnem 
+       proportio<lb ed="#S" break="no" n="97"/>naliter causat in anima, quem per sacramentum 
+       represen<lb ed="#S" break="no" n="98"/>tat extra, ideo dicitur causa. Et hoc sonat diffinitio: ita, 
+      <lb ed="#S" n="99"/>vt imaginem generat, &amp; causa existat. q. d. per hoc est 
+       cau<lb ed="#S" break="no" n="100"/>sa, quae est representatiua non aliter. sed in hoc 
+       diffe<lb ed="#S" break="no" n="101"/>runt sacramenta no. le. a sacramentis ve. le. quia illa 
+       re<lb ed="#S" break="no" n="102"/>presentabant effectum futurum, &amp; gratiam sanctificantem 
+       es<lb ed="#S" break="no" n="103"/>fectiue. i. Christum: ista effectum praesentem, sicut 
+       ver<lb ed="#S" break="no" n="104"/>bum absoluendi, realem absolutionem, &amp; ablutio exterior 
+      <lb ed="#S" n="105"/>interiorem &amp;c.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3549" n="100">
+      <!-- 100 -->sed ista opinio non valet, quia 
+      <lb ed="#S" n="106"/>cum non sint nisi quatuor causae. 2. Phisic. &amp;, 5. Metha. 
+      <lb ed="#S" n="107"/>exemplaris non est causa, nisi incidat in aliquam istarum. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e3559" n="101">
+               <lb ed="#S" n="108"/>
+               <!-- 101 -->si dicatur. quod imo, quia causa exemplaris est 
+      <lb ed="#S" n="109"/>quinta causa per se ab aliis distincta, quia si angelus ad 
+      <lb ed="#S" n="110"/>effigiandum mortuum assumat corpus consimile, quamuis 
+      <lb ed="#S" n="111"/>ab illo, quod vult effigiare, non accipiat cognitionem, 
+      <lb ed="#S" n="112"/>tamen illud habet rationem causae exemplaris. 
+    </p>
+            <p xml:id="khj78y-q10001-d1e3575" n="102">
+               <lb ed="#S" n="113"/>
+               <!-- 102 -->Dicendum, quod in casu illo effigiatum est cau 
+      <lb ed="#S" n="114"/>sa exemplaris, &amp; est causa finalis. sed hic non potest 
+       di<lb ed="#S" break="no" n="115"/>ci, quod sacramentum sit causa finalis, sed magis econuer 
+      <lb ed="#S" n="116"/>so, representatio sacramenti est propter representatum 
+      <lb ed="#S" n="117"/>interius. Et sic inuisibilis gratia est magis exemplar visi 
+      <lb ed="#S" n="118"/>bilis formae, &amp; visibilis forma magis est imago, quam 
+      <lb ed="#S" n="119"/>econuerso, sicut &amp; diffinitio sonat. Et per hoc patet 
+       so<lb ed="#S" break="no" n="120"/>lutio ad argumenta.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3597" n="103">
+      <!-- 103 -->Ad primum dicendum, 
+      <lb ed="#S" n="121"/>quod non est simile, quia legis non est facere, sed 
+       doce<lb ed="#S" break="no" n="122"/>re. Vnde legis perfectioris non est facere, quod imperfe 
+      <lb ed="#S" n="123"/>ctior non facit, sed perfectiora praecepta, aut consilia da 
+      <lb ed="#S" n="124"/>re, &amp; imperfecta mutare, &amp; sic se habet lex noua ad vete 
+      <lb ed="#S" n="125"/>rem. sed sacramentum dicitur a sacrando: vnde imperfe 
+      <lb ed="#S" n="126"/>ctum est sacramentum quod sanctitatem significat: &amp; non 
+      <lb ed="#S" n="127"/>causat, perfectum autem debet aliquo modo causare, ideo 
+      <lb ed="#S" n="128"/>&amp;c.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3619" n="104">
+      <!-- 104 -->Vel dicendum, quod aliqua promissa in le. 
+      <lb ed="#S" n="129"/>ve. soluuntur in noua per ipsammet legem nouam, sicut 
+      <lb ed="#S" n="130"/>declaratio veritatis gratiae. Quod enim lex vetus 
+       dice<lb ed="#S" break="no" n="131"/>bat obscure, &amp; promittebat docendum clare, hoc clare do 
+      <lb ed="#S" n="132"/>cet lex noua, sicut articulos de humanitate Christi, &amp; hu 
+      <lb ed="#S" n="133"/>iusmodi. Aliqua vero Deus exhibet in ea, sicut quae sunt 
+      <lb ed="#S" n="134"/>gratiae aliqua post eam, sed per eam, sicut q sunt gloriael 
+      <!--0011.xml-->
+      <pb ed="#S" n="11"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Et similiter est de sacramentis, quia gratiam, quam ve 
+      <lb ed="#S" n="2"/>tera promitrebant, Deus exhibet in nouis. scilicet per ea 
+       di<lb ed="#S" break="no" n="3"/>spositionem ad gratiam.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3650" n="105">
+      <!-- 105 -->Ad secundum 
+       dicen<lb ed="#S" break="no" n="4"/>dum, quo licet circuncisio non imprimeret characterem, 
+      <lb ed="#S" n="5"/>tamen dispositionem imprimebat: quia secundum 
+       Be<lb ed="#S" break="no" n="6"/>dam agebat ad originale tollendum: quia erat perfectius, 
+      <lb ed="#S" n="7"/>quam quodcunque aliud sacramentum.
+    </p>
+            <p xml:id="khj78y-q10001-d1e3663" n="106">
+      <!-- 106 -->Ad tertium 
+      <lb ed="#S" n="8"/>dicendum, quod sic veritas respondet figurae, vt nihil 
+       mi<lb ed="#S" break="no" n="9"/>nus sit in veritate realiter, quam praecessit in figura figu 
+      <lb ed="#S" n="10"/>raliter: non autem quod non sit plus realiter in veritate, 
+      <lb ed="#S" n="11"/>quam in figura. Alias non esset corpus Christi realiter 
+      <lb ed="#S" n="12"/>in eucharistia, sicut nec fuit in manna, nec in agno 
+       Pa<lb ed="#S" break="no" n="13"/>scali, nec in oblatione Melchisedech, quae fuerunt signa, 
+      <lb ed="#S" n="14"/>nec esset peccatorum remissio in baptismo Christi, sicut 
+      <lb ed="#S" n="15"/>nec in baptismo Ioannis · Ita etiam in baptismo est rea 
+      <lb ed="#S" n="16"/>lis virtus disponens ad gratiam, licet non fuerit in 
+       ali<lb ed="#S" break="no" n="17"/>qua eius figura, nisi forte in circuncisione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

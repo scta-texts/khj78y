@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="419"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r33031"><!-- l4d39-q1 -->
+            <head xml:id="khj78y-r33031-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-r33031-Hd1e103" type="question-title">
+     de 
+     dispari cultu, utrum impediat 
+     matrimonium
+   </head>
+            <p xml:id="khj78y-r33031-d1e106">
+               <lb ed="#S" n="12"/>DIsTINCTIO. 39. QVAESTIO I. 
+    </p>
+            <p xml:id="khj78y-r33031-d1e111">
+               <lb ed="#S" n="13"/>De dispari cultu. 
+    </p>
+            <p xml:id="khj78y-r33031-d1e116">
+               <lb ed="#S" n="14"/>Thom. hac ipsa Dist. 4. 
+    </p>
+            <p xml:id="khj78y-r33031-d1e122">
+               <lb ed="#S" n="15"/>CIRCA. 39. Dist quaeritur de 
+      <lb ed="#S" n="16"/>dispari cultu, vtrum impediat 
+      <lb ed="#S" n="17"/>matrimonium. Et videtur quod non, quia 
+      <lb ed="#S" n="18"/>disparitas cultus erat in Moyse, 
+      <lb ed="#S" n="19"/>&amp; loseph ex vna parte, &amp; 
+       vxori<lb ed="#S" break="no" n="20"/>bus corum ex parte alia, &amp; tamen fuit 
+      <lb ed="#S" n="21"/>verum matrimonium non 
+       forni<lb ed="#S" break="no" n="22"/>catio. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r33031-d1e142" n="2">
+      <!-- 2 -->Contra in li 
+      <lb ed="#S" n="23"/>tera.
+    </p>
+            <p xml:id="khj78y-r33031-d1e149" n="3">
+      <!-- 3 -->Respondeo, ic sunt tria videnda. Primo, de 
+       ma<lb ed="#S" break="no" n="24"/>trimonio inter fidelem &amp; infidelem. secundo, de matrimo 
+      <lb ed="#S" n="25"/>nio inter infideles. Tertio, de aliis impedimentis. 
+    </p>
+            <p xml:id="khj78y-r33031-d1e158" n="4">
+               <lb ed="#S" n="26"/>
+               <!-- 4 -->Quantum ad primum sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-r33031-d1e165" n="5">
+      <!-- 5 -->Prima, 
+      <lb ed="#S" n="27"/>de tepore ante legem, vbi videntur multa ante legem 
+       inspi<lb ed="#S" break="no" n="28"/>rata patribus &amp; reuelata, q postea fuerunt in lege scripta, 
+      <lb ed="#S" n="29"/>sicut de circumcisione &amp; pluralitate vxorum. Ita etiam nihil 
+      <lb ed="#S" n="30"/>prohibet patriarchis quibus facta est terrae Chanaan pro 
+      <lb ed="#S" n="31"/>missio, inspiratum ne cum illis inirent connubia, nisi 
+       transi<lb ed="#S" break="no" n="32"/>rent ad ipsorum ritum: vnde nec Abraham permisit quod ibi Isaac 
+      <lb ed="#S" n="33"/>vxorem duceret, nec Isaac Iacob. Iacob vero de Dyna con 
+      <lb ed="#S" n="34"/>sensit danda illis qui circuncidi volebant, &amp; secundum hoc 
+      <lb ed="#S" n="35"/>Esau peccauit contrahens cum illis de terra Chanaan, quod 
+      <lb ed="#S" n="36"/>ideo contra voluntatem patris &amp; matris erat, quasi reputa 
+      <lb ed="#S" n="37"/>rent fornicationem non verum matrimonium. Quod autem 
+      <lb ed="#S" n="38"/>arguitur de Moyse &amp; Ioseph vel dispensatiue hoc 
+       fece<lb ed="#S" break="no" n="39"/>runt, vel non erant de Chananaeis. Alij vero dicunt, quod an 
+      <lb ed="#S" n="40"/>te legem licuit.
+    </p>
+            <p xml:id="khj78y-r33031-d1e200" n="6">
+      <!-- 6 -->secunda conclusio est, quod tempore 
+       le<lb ed="#S" break="no" n="41"/>gis non licebat cum Chananaeis contrahere nec esse poterat, 
+      <lb ed="#S" n="42"/>nisi transirent ad ritum eorum rasis vnguibus &amp; capillis &amp; 
+      <lb ed="#S" n="43"/>huiusmodi: &amp; sic Naason duxit Raab de Ierico: sed cum 
+      <lb ed="#S" n="44"/>aliis licebat: sicut Booz Ruth Moabitidem duxit: &amp; Hester 
+      <lb ed="#S" n="45"/>nupfit Assuero. Primum autem matrimonium Esdras 
+       sepa<lb ed="#S" break="no" n="46"/>rauit.
+    </p>
+            <p xml:id="khj78y-r33031-d1e219" n="7">
+      <!-- 7 -->Tertia conclusio est, quod tempore gratiae 
+       baptiza<lb ed="#S" break="no" n="47"/>tus cum non baptizata vel econtram, quamuis catechumena 
+      <lb ed="#S" n="48"/>non potest inire matrimonium, quod si fiat nullum est partim 
+      <lb ed="#S" n="49"/>lure diuino: quia ante baptismum nullum est sacramentum: vnde 
+      <lb ed="#S" n="50"/>vinculum matrimonij talo quale esset post baptismum, 
+       an<lb ed="#S" break="no" n="51"/>te baptismum esse non potest. Cuius signum est, quod 
+       matrimo<lb ed="#S" break="no" n="52"/>nium post baptismum celebratum &amp; consummatum non 
+      <lb ed="#S" n="53"/>potest solui, propter quod dicitur ratum: sed ante 
+       baptis<lb ed="#S" break="no" n="54"/>mum sic: vnde dicitur non ratum, quasi aliquod reale 
+       vin<lb ed="#S" break="no" n="55"/>culum habet post, quod non ante. Et quia matrimonium 
+      <lb ed="#S" n="56"/>non claudicat si vinculum non fit in non baptizato: &amp; 
+      <lb ed="#S" n="57"/>per consequens nec in baptizato: sed cum hoc est statutum 
+      <lb ed="#S" n="58"/>ecclesiae sine quo licet non esset sacramentum, esset tamen verum 
+       ma<lb ed="#S" break="no" n="59"/>trimonium: nunc autem non est reddente ecclesia tales 
+       per<lb ed="#S" break="no" n="60"/>sonas inhabiles. Vbi autem vterque est baptizatus, licet 
+       al<lb ed="#S" break="no" n="61"/>ter vel vterque sit infidelis verum est matrimonium: sed contra 
+      <lb ed="#S" n="62"/>here nom debet quis cum infideli, Nihilominus 
+       haereti<lb ed="#S" break="no" n="63"/>cus baptiaatus sicut alia sacramenta vera confert &amp; recipit, sic 
+      <!--0419.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>&amp; istud.
+    </p>
+            <p xml:id="khj78y-r33031-d1e267" n="8">
+      <!-- 8 -->Quantum ad secundum de matrimonio 
+       infi<lb ed="#S" break="no" n="65"/>delium, suntetiam tres conclusiones.
+    </p>
+            <p xml:id="khj78y-r33031-d1e274" n="9">
+      <!-- 9 -->Prima 
+       conclu<lb ed="#S" break="no" n="66"/>sio est, quod prout est in officium naturae est verum matrimo 
+      <lb ed="#S" n="67"/>nium inter eos, in quibus est natura integra maxime quam 
+      <lb ed="#S" n="68"/>tum ad causas essentiales, quia &amp; consensus &amp; expressio 
+       e<lb ed="#S" break="no" n="69"/>ius est in eis sicut in aliis: dum tamen sint personae habiles se 
+      <lb ed="#S" n="70"/>cundum legem naturae &amp; diuinam. Nam in gradu ab 
+       ec<lb ed="#S" break="no" n="71"/>clesia prohibito possunt contrahere: cum ecclesia non pos 
+      <lb ed="#S" n="72"/>sit aut nolult in hoc his qui foris sunt legem imponere. Vi 
+      <lb ed="#S" n="73"/>deretur autem alicui quod si soli lege naturae pater &amp; mater 
+      <lb ed="#S" n="74"/>a matrimonio excluduntur, quod inter fideles non Iudaeos 
+      <lb ed="#S" n="75"/>nulla alia persona a matrimonio excluderetur: quia 
+       prae<lb ed="#S" break="no" n="76"/>cepta quae non sunt moralia, nec de lege naturae erant ce 
+      <lb ed="#S" n="77"/>rimonialia quae non ligabant, nisi Iudaeos qui se obligaue 
+      <lb ed="#S" n="78"/>runt sicut de circuncisione: vnde dicendum, quod omnes 
+       per<lb ed="#S" break="no" n="79"/>sonae lege diuina prohibitae, lege naturae prohibentur. sed 
+      <lb ed="#S" n="80"/>Deo dispensante a principio humani generis &amp; post 
+       di<lb ed="#S" break="no" n="81"/>Iuuium vt multiplicaretur: licet fratri habere sororem 
+       ali<lb ed="#S" break="no" n="82"/>ter multiplicari non potuissent, sicut &amp; de pluralitate 
+       vxo<lb ed="#S" break="no" n="83"/>rum fuit dispensatum.
+    </p>
+            <p xml:id="khj78y-r33031-d1e318" n="10">
+      <!-- 10 -->secunda conclusio est quomodo  conuersus ha 
+      <lb ed="#S" n="84"/>beat commanere cum non conuersa: quia si ille non vult 
+       cohabi<lb ed="#S" break="no" n="85"/>tare sine contumelia creatoris, vel quin ipse pertrahat ad 
+      <lb ed="#S" n="86"/>infidelitatem, iste non debet commanere: si autem velit iste potest 
+      <lb ed="#S" n="87"/>commanere si vult vel discedere si mauult: sicut &amp; cum 
+       alte<lb ed="#S" break="no" n="88"/>ra potest non commanere, sed continere vel religionem intrare: 
+      <lb ed="#S" n="89"/>aut votum continentiae emitteret quo facto etiam si alius postea 
+      <lb ed="#S" n="90"/>conuertatur non ei redder. Rationem huius Doc. assignant, quia 
+      <lb ed="#S" n="91"/>mortuus alicui vitae liberatur ab obligationibus illius 
+       vi<lb ed="#S" break="no" n="92"/>tae: sicut religiosus mortuus mundo non est obligatus ad 
+      <lb ed="#S" n="93"/>vota promissa mundo.
+    </p>
+            <p xml:id="khj78y-r33031-d1e344" n="11">
+      <!--11--> sed contra hoc arguunt qui 
+      <lb ed="#S" n="94"/>dam, quia baptizatus moritur culpae &amp; poenae, sed non 
+       ob<lb ed="#S" break="no" n="95"/>ligationi quae nec est culpa nec poena: vnde si deberet 
+       pe<lb ed="#S" break="no" n="96"/>cuniam deberet eam reddere &amp; teneret: ergo cum 
+       matri<lb ed="#S" break="no" n="97"/>monium non sit culpa, nec poena, quia erat ante peccatum, 
+       bapti<lb ed="#S" break="no" n="98"/>zatus tenetur reddere debitum coniugale. Et dicendum est 
+      <lb ed="#S" n="99"/>ad hoc, quod quia mortuus est infidelitati: inde est quod non 
+       te<lb ed="#S" break="no" n="100"/>netur reddere debitum, quod posset ad infidelitatem perdu 
+      <lb ed="#S" n="101"/>cere prolem inde conceptam: quia vnusquisque parentum ni 
+      <lb ed="#S" n="102"/>titur prolem trahere ad sectam suam, sicut de beato 
+       Au<lb ed="#S" break="no" n="103"/>gu. habetur, quod hortante fideli matre vt baptizaretur 
+       con<lb ed="#S" break="no" n="104"/>tradicente gentili patre baptisma eius dilatum est: ergo pro 
+      <lb ed="#S" n="105"/>pter periculum prolis quae inde posset generari, &amp; est educan 
+      <lb ed="#S" n="106"/>da ad cultum Dei quod infidelis credii verisimiliter impe 
+      <lb ed="#S" n="107"/>dire, licet dimittere: sicut in casu propter seipsum, quando nol 
+      <lb ed="#S" n="108"/>let cohabitare nisi ad infidelitatem protrahendo: vnde ꝗ
+       a<lb ed="#S" break="no" n="109"/>hodie est maius periculum peruertendi fidelem quam spes conuer 
+      <lb ed="#S" n="110"/>tendi infidelem ex conuictu, non permittitur.
+    </p>
+            <p xml:id="khj78y-r33031-d1e386" n="12">
+      <!--12.--> 
+       Ter<lb ed="#S" break="no" n="111"/>tia conclusio est, an liceat contrahere. Et dicendum quod non 
+      <lb ed="#S" n="112"/>illo nolente cohabitare sine contumelia &amp; periculo: 
+       ali<lb ed="#S" break="no" n="113"/>ter autem sic. sed infideli diuertente, liberi apud 
+       conuer<lb ed="#S" break="no" n="114"/>sam sunt alendi nisi habeant vsum rationis, vt eligant 
+      <lb ed="#S" n="115"/>quem sequi volunt: de contrahendo autem matrimonium 
+      <lb ed="#S" n="116"/>sunt duo dubia. Primo, quo ad conuersum quando soluatur. 
+      <lb ed="#S" n="117"/>Quidam enim dicunt, quod statim quando non vult cohabitare si 
+      <lb ed="#S" n="118"/>ne contumelia secundum illos versus: spernas spernentem. 
+      <lb ed="#S" n="119"/>vel blasphemare volentem. Nam sunt absq, mora sic 
+       vin<lb ed="#S" break="no" n="120"/>cola rupta priora. Quod autem si conuertatur tenetur prius 
+      <lb ed="#S" n="121"/>conuersus ante votum &amp; matrimonium, ipsam recipere, hoc 
+      <lb ed="#S" n="122"/>est, quia licet habet vinculum solutum adhuc tamen retinet 
+       vin<lb ed="#S" break="no" n="123"/>culum sponsaliorum, &amp; sic tenet contrahere, vel quia blasphe 
+      <lb ed="#S" n="124"/>mia creatoris soluit si est perpetua, aliter non. Quando 
+      <lb ed="#S" n="125"/>autem ante votum vel matrimonium tollitur perpetua non 
+       vi<lb ed="#S" break="no" n="126"/>detur. Alia opinio est, quod non soluitur quousque contrahat 
+      <lb ed="#S" n="127"/>secuudum matrimonium. Possetenim imaginari, quod in ma 
+      <lb ed="#S" n="128"/>trimonio infidelium non est aliquod reale vinculum 
+       diri<lb ed="#S" break="no" n="129"/>mendum plus quam in sponsalibus: cum non fit sacim aliquod - 
+      <lb ed="#S" n="130"/>ante baptismum: vnde ante baptismum vtriusq, vel alte. 
+      <!--0420.xml-->
+      <pb ed="#S" n="420"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>rius ex statuto ecclesiae, potest illud matrimonium solui, sicus 
+      <lb ed="#S" n="2"/>sponsalia in multis casibussoluuntur, vel tolluntur 
+       sta<lb ed="#S" break="no" n="3"/>tuto ecclesiae. Vnde sicut per matrimonium sequens soluun 
+      <lb ed="#S" n="4"/>tur sponsalia praecedentia, sic per sequens matrimonium 
+       tol<lb ed="#S" break="no" n="5"/>litur praecedens non ratum sponsalibus comparatum. 
+    </p>
+            <p xml:id="khj78y-r33031-d1e452" n="13">
+               <lb ed="#S" n="6"/>
+               <!-- 13 -->Quantum ad tertium an propter aliud possit coniunx 
+      <lb ed="#S" n="7"/>dimitti, sunt tres conclusiones.
+    </p>
+            <p xml:id="khj78y-r33031-d1e461" n="14">
+      <!-- 14 -->Prima, quod licet non 
+      <lb ed="#S" n="8"/>sit fornicatio carnalis superueniens nec infidelis: si tamen sit 
+      <lb ed="#S" n="9"/>tale crimen quod timet coiunx corpori suo, nec potest sibi 
+       se<lb ed="#S" break="no" n="10"/>cure aliter prouideri, licet dimittere, sicut vxor in cuius 
+      <lb ed="#S" n="11"/>vtero vir per per saeuitiam tres pueros occiderat: quia si non 
+      <lb ed="#S" n="12"/>tenetur debitum reddere cum periculo corporis, multo 
+      <lb ed="#S" n="13"/>minus cohabitare, de resti. spo. c. Ex transmissa. &amp;. c. Lite 
+      <lb ed="#S" n="14"/>ras. in fl. vbi dicitur quod vxor non est reddenda viro vbi 
+       ti<lb ed="#S" break="no" n="15"/>metur tanta saeuitia viri, quod nulla cautione potest ei succur 
+      <lb ed="#S" n="16"/>ri secure. Vnde falsa est gloss. de diuor. c. 2. quod non est 
+       di<lb ed="#S" break="no" n="17"/>mittenda vxor etiam si vitae viri fuerit insidiata, nec hoc 
+      <lb ed="#S" n="18"/>dicit Decretalis quam allegat: vnde &amp; quaedam alia de 
+       fa<lb ed="#S" n="19" break="no"/>cto dicebat virum suum latrociniis deditum non posse 
+      <lb ed="#S" n="20"/>corrigi, propter quod &amp; ipsa periclitabatur omni hora, de 
+      <lb ed="#S" n="21"/>qua consultum est quod dimitteret virum: quod generaliter 
+      <lb ed="#S" n="22"/>verum est, quod vbi coniunx non potest aliter prouidere 
+       securita<lb ed="#S" n="23" break="no"/>ti suae vitae nisi coniugem dimittendo, non tenetur ei debitum 
+      <lb ed="#S" n="24"/>reddere, nec cohabitare cum periculo corporis sui. 
+    </p>
+            <p xml:id="khj78y-r33031-d1e503" n="15">
+               <lb ed="#S" n="25"/>
+               <!-- 15 -->secunda conclusio est, quod idem videtur quando coniunx 
+      <lb ed="#S" n="26"/>non vult aliter cohabitare, nisi permittat eum peccare &amp; est 
+      <lb ed="#S" n="27"/>incorrigibilis, &amp; pertrahit ipsum ad crimen: ita quod licet 
+      <lb ed="#S" n="28"/>non cogatur peccare: tamen propter periculum suae 
+       fragilita<lb ed="#S" break="no" n="29"/>tis ne coniugalis societas ipsum pertrahat ad peccatum: tene 
+      <lb ed="#S" n="30"/>at illud: si oculus tuus dexter scandalizat te, erue eum, 
+      <lb ed="#S" n="31"/>&amp; proiice abste: sicut in litera dicitur. si enim cum 
+       pericu<lb ed="#S" n="32" break="no"/>lo corporis non tenet manere, multo minus cum 
+       pericu<lb ed="#S" n="33" break="no"/>lo animae. Et sicut non tenetur propter infidelitatem: ita nec 
+      <lb ed="#S" n="34"/>propter periculum aliorum criminum, licet ad nullum possit 
+       co<lb ed="#S" n="35" break="no"/>gi. Et licet istud sit grauius quam alia, tamen minimum periculum 
+      <lb ed="#S" n="36"/>peccati mortalis praeponderat maximo periculo 
+       corpo<lb ed="#S" break="no" n="37"/>ris. Et licet in hoc sit dissimile quam inuito aufert vita 
+       cor<lb ed="#S" break="no" n="38"/>poris non animae: tamen ita dissimilitudo ita tenet in 
+      <lb ed="#S" n="39"/>crimine infidelitatis: sicut in alio, quia nullum peccatum  
+       ca<lb ed="#S" n="40" break="no"/>dit in inuitum.
+    </p>
+            <p xml:id="khj78y-r33031-d1e542" n="16">
+      <!-- 16 -->Tertia conclusio est, quod propter alia 
+      <lb ed="#S" n="41"/>crimina in quibus coniunx non timet probabiliter ani 
+      <lb ed="#S" n="42"/>mae suae nec corpori, non debet derelinquere coniugem 
+      <lb ed="#S" n="43"/>etiam si sit incorrigibilis: nisi sit fornicatio carnalis, in 
+      <lb ed="#S" n="44"/>qua propter vnicum actum potest dimitti, aut 
+       spiritua<lb ed="#S" break="no" n="45"/>lis propter quem incorrigibilem potest dimittere: &amp; sic 
+      <lb ed="#S" n="46"/>intelligitur, de diuor. c. 2.
+    </p>
+            <p xml:id="khj78y-r33031-d1e560" n="17">
+      <!-- 17 -->Argumentum in 
+       oppo<lb ed="#S" break="no" n="47"/>situm solutum est. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

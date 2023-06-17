@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="23"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q10081"><!-- l4d2-q2 -->
+            <head xml:id="khj78y-q10081-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q10081-Hd1e103" type="question-title">
+     de baptismo Ioannis
+   </head>
+            <p xml:id="khj78y-q10081-d1e106">
+               <lb ed="#S" n="98"/>QVAESTIO sECVNDA. 
+      <lb ed="#S" n="99"/>Baptismus Ioannis.
+    </p>
+            <p xml:id="khj78y-q10081-d1e113">
+               <lb ed="#S" n="100"/>Thom. 3. q. 38. art. 3. &amp;. q. 39. art. 1. 
+    </p>
+            <p xml:id="khj78y-q10081-d1e118">
+               <lb ed="#S" n="101"/>SECVNDO Quaerit de 
+       baptis<lb ed="#S" break="no" n="102"/>mo Ioannis. Et videtur, quod Christus 
+      <lb ed="#S" n="103"/>non debuerit illo baptizari, quia 
+      <lb ed="#S" n="104"/>nobilior est baptismus Christi, 
+      <lb ed="#S" n="105"/>quam baptismus Ioan. sed ipse non 
+      <lb ed="#S" n="106"/>fuit baptizatus baptismo suo. 
+      <lb ed="#S" n="107"/>ergo multo minus alieno. 
+      <lb ed="#S" n="108"/>a CONTRA est 
+       authori<lb ed="#S" break="no" n="109"/>tas Euangelij.
+    </p>
+            <p xml:id="khj78y-q10081-d1e141" n="3">
+      <!-- 3 -->RESPONDEO, hic sunt 
+       quin<lb ed="#S" break="no" n="110"/>que articuli.
+    </p>
+            <p xml:id="khj78y-q10081-d1e148" n="4">
+      <!-- 4 -->Primus est de forma huius 
+       baptis<lb ed="#S" break="no" n="111"/>mi, quae erat, quod baptizabat in nomine venturi. Quia em erat ex 
+      <lb ed="#S" n="112"/>pressior figura, quam sacra antiqua, quae expressio maior est in 
+      <lb ed="#S" n="113"/>forma, quam in materia, non tamen debuit communicare in mate 
+      <lb ed="#S" n="114"/>ria cum baptismo Christi, sicut oblatio. Melchisedech cum 
+      <lb ed="#S" n="115"/>sacro altaris, sed etiam est hoc in forma, vt aliquam formam 
+       ver<lb ed="#S" break="no" n="116"/>borum haberet. Et illa fuit similis illi, quam apostoli 
+       serua<lb ed="#S" break="no" n="117"/>bant baptizantes in nomine Iesu.
+    </p>
+            <p xml:id="khj78y-q10081-d1e168" n="5">
+      <!-- 5 -->sED Contra hoc 
+      <lb ed="#S" n="118"/>argnunt quidam primo probantes, quod ex textu Act. 19. vbi di 
+      <lb ed="#S" n="119"/>oit Paulus ad illos, qui erant baptizati baptismo Ioan. 
+      <lb ed="#S" n="120"/>Ioannes baptizauit baptismo poenitentiae populil. d. in eum 
+      <lb ed="#S" n="121"/>qui venturus esset post ipsum, vt crederent hoc est in Iesum 
+      <lb ed="#S" n="122"/>per quem communiter probar, quod haec fuerit forma, quod haec non sit sus 
+      <lb ed="#S" n="123"/>ficiens probatio. Videt enim intentio beati Pauli fuisse, quod 
+       il<lb ed="#S" break="no" n="124"/>la essent verba Ioan. docentis, non forma baptizantis, 
+      <lb ed="#S" n="125"/>quod patet ex solo textu verborum. Dicit enim primo, quod 
+      <lb ed="#S" n="126"/>baptizabat baptismo poenitiae, deide, quod dicebat, vt crederet 
+      <lb ed="#S" n="127"/>in Christum venturum. Constat em̃, quod de forma baptismi non 
+      <lb ed="#S" n="128"/>erat poenitia, sed solum de doctrina. ergo similiter de forma 
+      <lb ed="#S" n="129"/>baptismi, non erat, quod crederet in nomen venturi, sed 
+      <!--0024.xml-->
+      <pb ed="#S" n="24"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>solum de doctrina.
+    </p>
+            <p xml:id="khj78y-q10081-d1e207" n="6">
+      <!-- 6 -->secundo, sic Ioannes bapti 
+      <lb ed="#S" n="2"/>zauit Christum, &amp; constat, quod non in forma venturi. 
+       er<lb ed="#S" break="no" n="3"/>go &amp;c·
+    </p>
+            <p xml:id="khj78y-q10081-d1e216" n="7">
+      <!-- 7 -->Et ideo tertio dicut, quod Ioannes non ba 
+      <lb ed="#S" n="4"/>ptizabat sub aliqua determinata forma verborum, quia 
+       ba<lb ed="#S" break="no" n="5"/>ptismus Ioannis fuit medius inter sacramenta ve. &amp; 
+       no<lb ed="#S" break="no" n="6"/>le. Conueniebat enim cum sacramento no. le. &amp; maxime cum 
+      <lb ed="#S" n="7"/>baptismo Christi in materia, vel in expressa significatia 
+      <lb ed="#S" n="8"/>cum sacramentis vero ve. le. in insufficientia: quia non confe 
+      <lb ed="#S" n="9"/>rebat gratiam, vt dicetur. Cum ergo efficantia sacramenti 
+       for<lb ed="#S" break="no" n="10"/>mae atribuatur, sicut in rebus naturalibus tota virtus, &amp; 
+      <lb ed="#S" n="11"/>actio est a forma, ideo potest dicit probabiliter: quod non vte 
+      <lb ed="#S" n="12"/>batur Io. aliqua forma verborum.
+    </p>
+            <p xml:id="khj78y-q10081-d1e240" n="8">
+      <!-- 8 -->sed ad primum 
+      <lb ed="#S" n="13"/>argumentum istorum dicendum, quod sicut Euangelistae tractan 
+      <lb ed="#S" n="14"/>tes de sacramento altaris ponunt quaedam verba, quae perti 
+      <lb ed="#S" n="15"/>nent ad narrationem historiae: &amp; quaedam, quae pertinent ad 
+      <lb ed="#S" n="16"/>substantiam formae, sicut hoc est corpus meum, &amp; hic est san 
+      <lb ed="#S" n="17"/>guis meus &amp;c. quae pertinent ad formam: sed hoc facite in 
+      <lb ed="#S" n="18"/>meam commemorationem &amp;c. pertinet ad doctrinam, sic in acti 
+      <lb ed="#S" n="19"/>bus, quaedam recitat Paulus pertinentia ad doctrinam 
+       bapti<lb ed="#S" break="no" n="20"/>zantis, &amp; quaedam ad baptismi formam.
+    </p>
+            <p xml:id="khj78y-q10081-d1e263" n="9">
+      <!-- 9 -->Ad 
+       secun<lb ed="#S" break="no" n="21"/>dum potest dici, quod sicut Christus quando vsus est sacramentis, 
+      <lb ed="#S" n="22"/>vel in persona sua, vel in aliis, non semper formam expressit, 
+      <lb ed="#S" n="23"/>quia in se quidam non eguit, &amp; sine forma effectum sacramen 
+      <lb ed="#S" n="24"/>ti aliis tribuere potuit, nihilominus tamen sacramentis suis 
+      <lb ed="#S" n="25"/>certam formam indidit, quam communiter seruari voluit, 
+       li<lb ed="#S" break="no" n="26"/>cet quandoquedispensauerit, sicut forma baptismi mutata fuit 
+      <lb ed="#S" n="27"/>de nomine Trinitatis in nomen Iesu: ita &amp; in baptismo 
+      <lb ed="#S" n="28"/>Ioannis certa illa forma fuit, quae tamen in baptismo 
+       Chri<lb ed="#S" break="no" n="29"/>sti seruata non fuit, quia non eadem in ipso, &amp; in aliis 
+       ra<lb ed="#S" break="no" n="30"/>tio: sed contraria fuit.
+    </p>
+            <p xml:id="khj78y-q10081-d1e289" n="10">
+      <!-- 10 -->Ad tertium dicendum, quod 
+      <lb ed="#S" n="31"/>licet cum antiquis sacramentis conuenerit in non 
+       haben<lb ed="#S" break="no" n="32"/>do efficaciam, quae principaliter est forma: conueniebat tamen 
+      <lb ed="#S" n="33"/>cum nouis in expressiore significantia, quae etiam est a for 
+      <lb ed="#S" n="34"/>ma. Vnde &amp; si non eguit forma proter inefficaciam: indiguit 
+      <lb ed="#S" n="35"/>tamen forma propter significantiam. Nam quo ad materiam, 
+      <lb ed="#S" n="36"/>ita expressa figura fuit in mari Rubro, &amp; in diluuio, &amp; 
+      <lb ed="#S" n="37"/>plus. Quare quod baptismus Ioannis fuerit figura scripta 
+      <lb ed="#S" n="38"/>tanonis non exprimit, sicut facit apostolus de aliis dicit: 
+      <lb ed="#S" n="39"/>Omnes in Moyse baptizati &amp;c. Et. 1. Pe. 3. Noe, &amp; 
+       Dilu<lb ed="#S" break="no" n="40"/>uio. similis formae saluos facit baptisma.
+    </p>
+            <p xml:id="khj78y-q10081-d1e315" n="11">
+      <!-- 11 -->sE 
+      <lb ed="#S" n="41"/>CVNDVs articulus est, quod fuit sacrameutum, vt figura, 
+      <lb ed="#S" n="42"/>sacramentale, vt praeparatorium. concilium non praeceptum. Fuit 
+      <lb ed="#S" n="43"/>ergo sacramentum, eo modo, quo fuit sacraerei signum, ad sa 
+      <lb ed="#S" n="44"/>crandum ahibitum ex opere operante, non ex opere operato, 
+      <lb ed="#S" n="45"/>sicut sacramenta ve. le. non sic tamen quod esset de necessitate sa 
+      <lb ed="#S" n="46"/>lutis, sed erat in consilio. Et commendantur publicani, &amp; 
+      <lb ed="#S" n="47"/>meretrices baptizati ab eo, quia per illud ad poenitentiam 
+      <lb ed="#S" n="48"/>sunt conuersi cooperante eius doctrina.
+    </p>
+            <p xml:id="khj78y-q10081-d1e337" n="12">
+      <!-- 12 -->Nihilo 
+      <lb ed="#S" n="49"/>minus tamen videtur tunc fuisse sub percepto, quia reprehendun 
+      <lb ed="#S" n="50"/>tur Pharisaei, q voluerunt baptizari ab eo, nisi dicatur, quod 
+      <lb ed="#S" n="51"/>sicut sacramenta aliqua no. le. non sunt necessitatis: tamen eo 
+      <lb ed="#S" n="52"/>rum contemptus est mortalis, sicut forte confirmatio, &amp; 
+       ex<lb ed="#S" break="no" n="53"/>trema vnctio, sic Pharisaei mortaliter peccauerunt, non quia 
+      <lb ed="#S" n="54"/>illo baptismo baptizati non fuerunt, sed quia illum 
+       baptis<lb ed="#S" break="no" n="55"/>mum, qui a Deo erat inspiratus contempserunt, &amp; 
+       despe<lb ed="#S" break="no" n="56"/>xerunt dicentes: Quid ergo baptizas, si tu non es Christus? 
+    </p>
+            <p xml:id="khj78y-q10081-d1e359" n="13">
+               <lb ed="#S" n="57"/>
+               <!--13-->TERTIVs articulus est de eius effectu. Vbi. 
+      <lb ed="#S" n="58"/>sciendum, quod con conferebat gratiam ex opere operato: sed 
+      <lb ed="#S" n="59"/>ex opere operante, nisi quod debet distingui ex opere 
+       opera<lb ed="#S" break="no" n="60"/>to, quia cum nihil creatum conferat gratiam, nisi dispositiue, 
+      <lb ed="#S" n="61"/>secundum quod opus operatum tripliciter disponit, dicit aliud 
+      <lb ed="#S" n="62"/>ex opere opatotripliciter conferre gratiam.
+    </p>
+            <p xml:id="khj78y-q10081-d1e377" n="14">
+      <!-- 14 -->Vno 
+      <lb ed="#S" n="63"/>modo causando effectiue dispositionem ad eam, quae dici 
+      <lb ed="#S" n="64"/>tur character, vel ornatus. Et sic sola sacramenta no. le. 
+       cau<lb ed="#S" break="no" n="65"/>sant gratiam, &amp; ferte circuncisio.
+    </p>
+            <p xml:id="khj78y-q10081-d1e389" n="15">
+      <!-- 15 -->secundo modo 
+      <lb ed="#S" n="66"/>sicut causa, sine qua non, sufficiens tamen per se sine opere 
+      <lb ed="#S" n="67"/>operante ex parte gratiam suscipientis, &amp; sic omne sacramen 
+      <!--0024.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>tum, quod fuit principaliter institutum contra originale 
+      <lb ed="#S" n="69"/>in pueris, nisi circuncisio conferebat gratiam ex opere 
+       ope<lb ed="#S" break="no" n="70"/>rato, non quod aliquid efficeret in puero: sed quia ex hoc 
+       ip<lb ed="#S" break="no" n="71"/>so, quod exhibebatur puero, vel pro puero, sine aliquo 
+      <lb ed="#S" n="72"/>alio: Deus infundebat gratiam puero. Et sic sacramenta an 
+      <lb ed="#S" n="73"/>tiqua pro adultis instituta gratiam non conferebant ex 
+      <lb ed="#S" n="74"/>opere operato, sed tamen ex opere operante per se requisi 
+      <lb ed="#S" n="75"/>to, quia quanuis sine peccato mortali essent, nisi cum hoc 
+      <lb ed="#S" n="76"/>motum liberi arbitrij in Deum actu haberent illa sacra 
+      <lb ed="#S" n="77"/>menta suscipiendo nihil gratiae recipiebant.
+    </p>
+            <p xml:id="khj78y-q10081-d1e424" n="16">
+      <!-- 16 -->
+       Ter<lb ed="#S" break="no" n="78"/>tio modo ex opere operato non excludendo opus operans.  
+      <lb ed="#S" n="79"/>Et sic dicitur ex opere operato conferre gratiam id, quod 
+      <lb ed="#S" n="80"/>de se est bonum moraliter: sine hoc, quod accipiat bonitatem 
+      <lb ed="#S" n="81"/>ex operante, sicut diceretur dare eleemosynam, &amp; quodcumque 
+      <lb ed="#S" n="82"/>quod est de genere bonorum conferre gratiam ex opere ope 
+      <lb ed="#S" n="83"/>rato, inquantum ipsum opus de se est natum disponere ad 
+      <lb ed="#S" n="84"/>gratiam. Et sicut diceretur illud, quod est de genere malorum 
+      <lb ed="#S" n="85"/>auferre gratia ex opere operato, quia de natura sua est 
+      <lb ed="#S" n="86"/>contrarium gratiae. Illa autem, quae sunt indifferentia 
+       dicun<lb ed="#S" break="no" n="87"/>tur, nec auferre, nec conferre gratiam ex opere operato, sed 
+      <lb ed="#S" n="88"/>solum ex opere operante, ex quo habent, quod sint bona, vel 
+      <lb ed="#S" n="89"/>mala: cum possint bene, &amp; male fieri, vt leuare festucam, 
+      <lb ed="#S" n="90"/>nec aufert, nec consert gratiam ex opere operato, sed ex ope 
+      <lb ed="#S" n="91"/>re operante: si eleuetur ad edificandum ecclesiam confert 
+       gra<lb ed="#S" break="no" n="92"/>tiam, si ad conburendum ecclesiam aufert gratiam. Quia er 
+      <lb ed="#S" n="93"/>go omne opus virtutis isto modo potest dici conferre gratia 
+      <lb ed="#S" n="94"/>tiam ex opere operato: ideo sacramenta ve. le. quae quia erant 
+      <lb ed="#S" n="95"/>a Deo praecepta ad Dei cultum iam erant actus virtutis obe 
+      <lb ed="#S" n="96"/>dientiae, &amp; latriae: ideo ex opere operato, prout erant a 
+      <lb ed="#S" n="97"/>Deo praecepta, &amp; si non ex sua natura considerata absolute 
+      <lb ed="#S" n="98"/>poterant dici conferre gratiam ex opere operato, non exclu 
+      <lb ed="#S" n="99"/>dendo tamen opus operans, quia ex iussu diuino habebant bo 
+      <lb ed="#S" n="100"/>nitatem materialem, quam genus naturae negauit. sed ex 
+       ope<lb ed="#S" break="no" n="101"/>re operante habebant bonitatem formalem. Et sic materialiter 
+      <lb ed="#S" n="102"/>
+               <!-- line coord error -->
+               <lb ed="#S" n="103"/>ex opere operato, sed formaliter ex opere operante iustifi 
+      <lb ed="#S" n="104"/>cabant. Et isto modo baptismus Ioan. quia ex Dei manda 
+      <lb ed="#S" n="105"/>to, &amp; inspiratione institutus erat: ex hoc erat bonus, &amp; 
+      <lb ed="#S" n="106"/>sanctus, &amp; de se meritorius aptitudine: cuius actus, &amp; 
+       for<lb ed="#S" break="no" n="107"/>ma erat ex opere operante. Vnde non erat pro paruulis. 
+    </p>
+            <p xml:id="khj78y-q10081-d1e496" n="17">
+               <lb ed="#S" n="108"/>
+               <!-- 17 -->sED Contra hoc arguunt quidam. Primo quod au 
+      <lb ed="#S" n="109"/>thoritas illa Ioannes baptizauit aqua &amp;c. non proba 
+      <lb ed="#S" n="110"/>quod baptismus Christi conferat gratiam, &amp; non baptismus Io. 
+      <lb ed="#S" n="111"/>nec illa similiter ego baptizo in aqua &amp;c. quia quando 
+       dici<lb ed="#S" break="no" n="112"/>tur: Vos autem baptizabimini &amp;c. intelligitur de 
+       missio<lb ed="#S" break="no" n="113"/>ne spiritussancti in die Pentecostes super apostolos, qui 
+      <lb ed="#S" n="114"/>tunc baptizati non sunt. Item Io. subiungit: Ipse bapti 
+      <lb ed="#S" n="115"/>zabit vos in spiritu, &amp; igne. i. in spiritu sancto in specie 
+      <lb ed="#S" n="116"/>ignis. Vnde illae authoritates loquuntur de baptismo 
+       me<lb ed="#S" break="no" n="117"/>taphorice non proprie de baptismo Christi, quod probant, 
+      <lb ed="#S" n="118"/>quia ex illis authoritatibus habetur, quod in baptismo 
+       Io<lb ed="#S" break="no" n="119"/>non dabatur spiritussanctus, per quem fit remissio pecca 
+      <lb ed="#S" n="120"/>torum, &amp; gratiae infusio. ideo non videtur, quod conferret gratia 
+      <lb ed="#S" n="121"/>tiam.
+    </p>
+            <p xml:id="khj78y-q10081-d1e531" n="18">
+      <!-- 18 -->secundo ratione sic, quia sacramenta non 
+      <lb ed="#S" n="122"/>efficiunt, nisi ad quod instituta sunt, sed baptismus Io. 
+      <lb ed="#S" n="123"/>non fuit institutus, nisi ad praefigurandum baptismum Chri 
+      <lb ed="#S" n="124"/>sti etiam ad praeparandu homines ad baptismum Christi, &amp; 
+      <lb ed="#S" n="125"/>ad disponendum materiam pro baptismo Christi. ergo solum 
+      <lb ed="#S" n="126"/>hoc, &amp; non gratiam conferebat.
+    </p>
+            <p xml:id="khj78y-q10081-d1e547" n="19">
+      <!-- 19 -->sed primum. 
+      <lb ed="#S" n="127"/>non valet de methaphorico, quia statim sequitur: Vos 
+       au<lb ed="#S" break="no" n="128"/>tem baptizabimini spiritussancto non post multos hos 
+      <lb ed="#S" n="129"/>dies, quia in diebus Pentecostes, non solum fuit baptismus 
+      <lb ed="#S" n="130"/>flaminis super. 120. &amp; super alios particulares, sed 
+      <lb ed="#S" n="131"/>etiam baptismus fluminis, quia tria milia, &amp; multo plura 
+      <lb ed="#S" n="132"/>tunc baptizati sunt aqua. Vnde non solum de baptisino 
+      <lb ed="#S" n="133"/>methaphorico, sed magis de proprie dicto, &amp; de vtroque 
+      <lb ed="#S" n="134"/>intelligi potest magis, quam de altero tantum 
+       spirituali<lb ed="#S" break="no" n="135"/>ter metha. similiter propria authoritas, quia sequitur: 
+      <!--0025.xml-->
+      <pb ed="#S" n="25"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Baptizabit vos spiritu sancto, &amp; igne: potest intelligi 
+      <lb ed="#S" n="2"/>de vtroque baptismo, quia ante Christi passionem apostoli ba 
+      <lb ed="#S" n="3"/>ptizabant in aqua baptismo Christi, in quo dabatur gratia 
+      <lb ed="#S" n="4"/>ria spiritussancti, &amp; postea in die Pentecostes in igne eum 
+      <lb ed="#S" n="5"/>susceperunt. sic ergo illae duae authoritates, aut 
+       intelli<lb ed="#S" break="no" n="6"/>guntur de vtroque baptismo, aut si de altero magis de 
+       il<lb ed="#S" break="no" n="7"/>lo, qui est in aqua: cu sit proprie dictus, quam de illo, qui 
+       di<lb ed="#S" break="no" n="8"/>citur solum translatiue, sicut ridere per se sumptum, magis 
+      <lb ed="#S" n="9"/>debet stare pro actu oris, quam pro floritione prati. 
+    </p>
+            <p xml:id="khj78y-q10081-d1e597" n="20">
+               <lb ed="#S" n="10"/>
+               <!-- 20 -->Et ratio sua potius est ad oppositum, quia si sacra 
+      <lb ed="#S" n="11"/>mentum efficit id. ad quod institutum est, alias est frustra: 
+      <lb ed="#S" n="12"/>cum nec praeparari ad Christum, nec penitere possit 
+       ho<lb ed="#S" break="no" n="13"/>mo, nisi per gratiam, baptismus poenitentiae, &amp; 
+       praeparato<lb ed="#S" break="no" n="14"/>rius Christi gratiam continebat. sed hoc verum est eo 
+       mo<lb ed="#S" break="no" n="15"/>do, quo dictu est. scilicet meritorie, non effectiue: itam ex opere 
+      <lb ed="#S" n="16"/>operante non ex opere operato.
+    </p>
+            <p xml:id="khj78y-q10081-d1e618" n="21">
+      <!-- 21 -->Ad 
+       authorita<lb ed="#S" break="no" n="17"/>tes posset dici, quod in baptismo Ioan. dabatur 
+       spiritussan<lb ed="#S" break="no" n="18"/>ctus ex opere operato, sed non solo, sicut in baptismo 
+       Chri<lb ed="#S" break="no" n="19"/>sti. sed quia loquendum est, vt plures: ideo proprie loquen 
+      <lb ed="#S" n="20"/>do nihil confert gratiam ex opere operato, nisi illud, quod 
+      <lb ed="#S" n="21"/>non coexigit per se opus operans.  Et sic solummodo 
+       sacra<lb ed="#S" break="no" n="22"/>menta no. le. omnia. etiam sacramenta antiqua contra 
+       ori<lb ed="#S" break="no" n="23"/>ginale conferebant gratiam ex opere operato. Baptismus 
+      <lb ed="#S" n="24"/>autem Io. per se requirebat opus operans: ideo non 
+       confere<lb ed="#S" break="no" n="25"/>bat gratiam ex opere operato, sicut nec sacramenta vetera 
+      <lb ed="#S" n="26"/>adultorum.
+    </p>
+            <p xml:id="khj78y-q10081-d1e644" n="22">
+      <!-- 22 -->QVARTVs articulus est de 
+      <lb ed="#S" n="27"/>subiecto huius baptismi, quia non paruuli, sed magni 
+       vi<lb ed="#S" break="no" n="28"/>ri, &amp; mulieres, quibus aequaliter poenitentia conuenit hoc 
+      <lb ed="#S" n="29"/>baptismo baptizari debuerunt. Vnde meretrices cum 
+       pu<lb ed="#S" break="no" n="30"/>blicanis leguntur baptizati. Christus etiam hoc baptismo 
+      <lb ed="#S" n="31"/>debuit baptizari propter multas causas, quae tanguntur in 
+      <lb ed="#S" n="32"/>glo. Matt. 1. scilicet propter humilitatem implendam, vt ipsemet 
+      <lb ed="#S" n="33"/>dicit Matt. 3. vt baptismum Ioan. approbaret, &amp; vt aquas 
+      <lb ed="#S" n="34"/>consecraret suae carnis tactu, &amp; sic baptismum suum 
+       insti<lb ed="#S" break="no" n="35"/>tueret. Quartam causam tangit Aug. in lib. de Natura 
+       bo<lb ed="#S" break="no" n="36"/>ni, vt. scilicet ostenderet non interesse quis a aquo baptizaretur. 
+      <lb ed="#S" n="37"/>Quintam causam tangit in lib. quaestionum no. &amp; ve. testa 
+      <lb ed="#S" n="38"/>menti. scilicet ad exemplum baptismi proponendum his, qui erant 
+      <lb ed="#S" n="39"/>futuri filij Dei per fidem. sextam tangit Cryso. scilicet vt in 
+       baptis<lb ed="#S" break="no" n="40"/>mo miracula ostendens euacuaret illorum errorem, qui Ioan 
+      <lb ed="#S" n="41"/>nem maiorem Christo credebant.
+    </p>
+            <p xml:id="khj78y-q10081-d1e681" n="23">
+      <!-- 23 -->Ad 
+       argumen<lb ed="#S" break="no" n="42"/>tum in contrarium dicendum, quod verum est, quod Christus non 
+      <lb ed="#S" n="43"/>fuit baptizatus baptismo suo, &amp; ad hoc assignantur ab 
+       a<lb ed="#S" break="no" n="44"/>liqui bus aliquas rationes. Primo, quia si fuisset baptiza 
+      <lb ed="#S" n="45"/>tus baptismo suo, aut propter characterem, aut propter 
+       au<lb ed="#S" break="no" n="46"/>gmentum gratiae hoc fuisset, sed nihil istorum competebat 
+      <lb ed="#S" n="47"/>Christo, ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q10081-d1e699" n="24">
+      <!-- 24 -->sed ista ratio non cogit, quia 
+      <lb ed="#S" n="48"/>nec effectus circuncisionis, nec communionis sibi 
+       compete<lb ed="#S" break="no" n="49"/>bant, &amp; tamen circuncidi voluit, vt illam approbaret, &amp; con 
+      <lb ed="#S" n="50"/>municare voluit, vt nos instrueret, quia coepit Iesus 
+       face<lb ed="#S" break="no" n="51"/>re, &amp; docere. Ita diceret aliquis, quod baptizatus fuit suo 
+      <lb ed="#S" n="52"/>baptismo, vt facto nos doceret non solum verbo. Tamen 
+      <lb ed="#S" n="53"/>creditur, quod nec ipse baptizauit suo baptismo aliquem, nec 
+      <lb ed="#S" n="54"/>illo baptizatus est lo. quamuis Christus non baptizar et, sed 
+      <lb ed="#S" n="55"/>discipuli eius.
+    </p>
+            <p xml:id="khj78y-q10081-d1e721" n="25">
+      <!-- 25 -->Alia ratio est, quam qui dam 
+       as<lb ed="#S" break="no" n="56"/>signant. scilicet quod sicut nullus generatur a seipso inesse 
+       natu<lb ed="#S" break="no" n="57"/>rae, sic nec regenerari debet a seipso inesse gratiae. sed 
+       ba<lb ed="#S" break="no" n="58"/>ptisinus est quaedam regeneratio. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q10081-d1e732" n="26">
+      <!-- 26 -->sed 
+      <lb ed="#S" n="59"/>nec hoc valet, quia sicut ipse secundum quod homo 
+       genera<lb ed="#S" break="no" n="60"/>tur a seipso secundum quod Deus: sic potuit regenerari, 
+      <lb ed="#S" n="61"/>&amp; fuit regeneratus, quia &amp; sanctificatus. Vnde dicit. Ego 
+      <lb ed="#S" n="62"/>pro ipsis sanctifico meipsu. sicut enim de virgine se 
+       genera<lb ed="#S" break="no" n="63"/>uit, sic &amp; de massa Adae se regenerauit, quia se sanctum fecit, 
+      <lb ed="#S" n="64"/>cum se sanctum facere non sit aliud nisi se regenerare nisi dicat, 
+      <lb ed="#S" n="65"/>quod regenerare est de filio irae filium gratiae facere, &amp; sic sibi non 
+      <lb ed="#S" n="66"/>competit regenerari. sed tunc hoc non est propter identitatem 
+      <lb ed="#S" n="67"/>agentis, &amp; patientis.
+    </p>
+            <p xml:id="khj78y-q10081-d1e757" n="27">
+      <!-- 27 -->Praeterea Christus potuit 
+      <!--0025.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>s Petro facere se baptizari baptismo suo, sicut fuit bapti 
+      <lb ed="#S" n="69"/>zatus a Ioan. baptismo alieno. Quod autem dicit Ioam. de 
+      <lb ed="#S" n="70"/>eo: Hic est qui baptizat, verum est baptismo interiori. Et 
+      <lb ed="#S" n="71"/>ideo alia ratio est, quia Christus confiteri peccata non 
+       po<lb ed="#S" break="no" n="72"/>tuit, quia ea non habuit, &amp; mentiri non potuit, &amp; quia qui 
+      <lb ed="#S" n="73"/>bapti eatur, peccatorem se fatetur. ideo &amp;c. sed si ista 
+       ra<lb ed="#S" break="no" n="74"/>tio est: bona, tunc in baptismo Io. non debuit baptizari, 
+      <lb ed="#S" n="75"/>qa scriptum est Baptizabantur ab eo confitentes peccata sua. 
+      <lb ed="#S" n="76"/>Et id eo rationem sufficientem ignoro, nisi suam voluntatem. 
+    </p>
+            <p xml:id="khj78y-q10081-d1e786" n="28">
+               <lb ed="#S" n="77"/>
+               <!-- 28 -->QVINTVs articulus est, quod baptizati baptis 
+      <lb ed="#S" n="78"/>mo Io. in omnem euentum baptizari debuerunt baptismo 
+      <lb ed="#S" n="79"/>Christi.
+    </p>
+            <p xml:id="khj78y-q10081-d1e797" n="29">
+      <!-- 29 -->Primo, quia apostoli baptizatifuerunt 
+      <lb ed="#S" n="80"/>baptismo Christi, vt dicit glo. super illud: Qui lotus est 
+      <lb ed="#S" n="81"/>non indiget, nisi vt pe. la. Et de consecra. dist. 4 Quando 
+      <lb ed="#S" n="82"/>a Hierosolymis. &amp;. c. sequenti. quorum tamen aliqui 
+       bapti<lb ed="#S" break="no" n="83"/>zati fuerunt baptismo Ioan. vt illi, qui fuerant Io. 
+       disci<lb ed="#S" break="no" n="84"/>puli: de quibus verissimile est, quod crediderunt in 
+       ventu<lb ed="#S" break="no" n="85"/>rum, nec spem suam ibi posuerunt.
+    </p>
+            <p xml:id="khj78y-q10081-d1e815" n="30">
+      <!-- 30 -->secundo, 
+      <lb ed="#S" n="86"/>quia licet fides, &amp; deuotio faciant ad rem sacramenti, 
+      <lb ed="#S" n="87"/>nihil tamen faciunt ad substantiam sacramenti, quae est 
+      <lb ed="#S" n="88"/>sine illis, &amp; non est illis solis positis, sicut decretalis di 
+      <lb ed="#S" n="89"/>cit de Iudaeo, qui ex fide, &amp; deuotione baptismo 
+       Chri<lb ed="#S" break="no" n="90"/>sti saliua se baptizare voluit. d. Ego me baptizo &amp;c. quia 
+      <lb ed="#S" n="91"/>saluus fuit baptismo flaminis non fluminis. Vnde in 
+       ci<lb ed="#S" break="no" n="92"/>miterio benedicto sepeliendus non fuit: sicut nec excommu 
+      <lb ed="#S" n="93"/>nicatus, qui in morte penituit, quousque absolutus sit, qui 
+      <lb ed="#S" n="94"/>tamen post mortem potuit absolui, sed non baptizari. 
+       Vn<lb ed="#S" break="no" n="95"/>de baptizati baptismo Io. ex fide, &amp; deuotione ad Iesum 
+      <lb ed="#S" n="96"/>&amp; eius baptismum, non susceperunt substantiam sacramenti 
+      <lb ed="#S" n="97"/>baptismi Christi. Propter quod indigebant baptizari, 
+       li<lb ed="#S" break="no" n="98"/>cet haberent rem sacramenti, sicut &amp; ille Iudaeus, de quo 
+      <lb ed="#S" n="99"/>dictum est, &amp; habet extra de bap. c. debitum.
+    </p>
+            <p xml:id="khj78y-q10081-d1e850" n="31">
+      <!-- 31 -->Et 
+      <lb ed="#S" n="100"/>quanuis ille Iudaeus videat mortuus fuisse haereticus, 
+      <lb ed="#S" n="101"/>qui credebat posse baptizari sine aqua, &amp; a seipso, quae 
+      <lb ed="#S" n="102"/>duo sunt haeretica: tamen non fuit, quia vel non credebat 
+       il<lb ed="#S" break="no" n="103"/>lud esse baptismum verum, sed aliquid in illius signum, &amp; 
+       me<lb ed="#S" break="no" n="104"/>moriale faciebat, sicut qui non audent communicare, 
+       su<lb ed="#S" break="no" n="105"/>munt panem benedictum loco illius, &amp; Rolandus moriens 
+      <lb ed="#S" n="106"/>herbam pro communione accepit, vel si errauit tunc 
+       hae<lb ed="#S" break="no" n="107"/>reticus non fuit, quia baptismum, credebat implicite, sed ex 
+      <lb ed="#S" n="108"/>plicite nesciens illud opinabatur, paratus tamen aliter crede 
+      <lb ed="#S" n="109"/>re, si sciret ecclesiam aliter sentire. Nec tenebatur explicite 
+      <lb ed="#S" n="110"/>scire, quia non poterat scire. Vnde non peccabat veram mate 
+      <lb ed="#S" n="111"/>riam, &amp; ministrum ignorando, nec falsum arbitrando, quia non 
+      <lb ed="#S" n="112"/>pertinaciter, &amp; ideo non fuit haereticus, sed fidelis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

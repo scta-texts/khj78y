@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="311"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q95970"><!-- l4d25-q3 -->
+            <head xml:id="khj78y-q95970-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-q95970-Hd1e103" type="question-title">
+     de impedimento 
+     ordinis
+   </head>
+            <p xml:id="khj78y-q95970-d1e106">
+               <lb ed="#S" n="116"/>QVAESTIO TERTIA. 
+    </p>
+            <p xml:id="khj78y-q95970-d1e111">
+               <lb ed="#S" n="117"/>De impedimentis ordinis. 
+    </p>
+            <p xml:id="khj78y-q95970-d1e116">
+               <lb ed="#S" n="118"/>Ioom. 4. distin. 25. q. 2.
+    </p>
+            <p xml:id="khj78y-q95970-d1e122">
+               <lb ed="#S" n="119"/>QVAERITVR tertio de impedimento 
+      <lb ed="#S" n="120"/>ordinis. Et videtur, quod ordo non debeat 
+       ha<lb ed="#S" break="no" n="121"/>bere impedimentum: quia in entibus illa, 
+      <lb ed="#S" n="122"/>quae sunt maioris dignitatis, sunt 
+       mino<lb ed="#S" break="no" n="123"/>ris impedimenti, vt corpora coelestia: sed 
+      <lb ed="#S" n="124"/>ordo, inter caetera sacramenta post eucharistiam, est maioris 
+      <lb ed="#S" n="125"/>dignitatis. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q95970-d1e140" n="2">
+      <!-- 2 -->Contra impedimenta, quae 
+       iu<lb ed="#S" break="no" n="126"/>ra ponunt.
+    </p>
+            <p xml:id="khj78y-q95970-d1e147" n="3">
+      <!-- 3 -->Respondeo, tria sunt hic videnda. Primo, 
+      <lb ed="#S" n="127"/>de impedimento naturae. secundo, de impedimento 
+       for<lb ed="#S" break="no" n="128"/>tunae. Tertio, de impedimento maculae.
+    </p>
+            <p xml:id="khj78y-q95970-d1e156" n="4">
+      <!-- 4 -->Quantum 
+      <lb ed="#S" n="129"/>ad primum de impedimento naturae, sunttres 
+       conclusio<lb ed="#S" break="no" n="130"/>nes. Prima, quod mulier non potest ordinari, nec de iure, nec 
+      <!--0312.xml-->
+      <pb ed="#S" n="312"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>de facto, etiam Papa dispensante, qui non potest mutare 
+       ma<lb ed="#S" break="no" n="2"/>teriam sacri, posset sibi dare coronam: quia id est positiuum. 
+      <lb ed="#S" n="3"/>Omnis autem ordo est sacramentum, &amp; non tantum sacramentale. Vnde si ve 
+      <lb ed="#S" n="4"/>ra esset opinio dicentium, quod omnes ordines praeter sacerdotium 
+      <lb ed="#S" n="5"/>essent solum sacramentalia, &amp; dispositiue non essentialiter ad 
+       sa<lb ed="#S" break="no" n="6"/>cramenta pertinentia, videret Papa posse &amp; formam, &amp; 
+       mate<lb ed="#S" break="no" n="7"/>riam, &amp; suscipientem mutare, sicut potest in aliis sacramentalibus, 
+      <lb ed="#S" n="8"/>vt in catechismo, &amp; exorcismo: nisi quis dicat, quod non est si 
+      <lb ed="#S" n="9"/>mile: quia ista sacramentalia sunt a Deo instituta, &amp; non illa. Est 
+      <lb ed="#S" n="10"/>igitur sexus virilis de necessitate sacramenti, cuius causa 
+       prin<lb ed="#S" break="no" n="11"/>cipalis est institutio Christi, tam quo ad ministrantes, quam 
+      <lb ed="#S" n="12"/>quo ad suscipientes. Christus autem non ordinauit nisi tantum 
+      <lb ed="#S" n="13"/>viros in coena, quando potestatem consecrandi eis tribuit, &amp; post 
+      <lb ed="#S" n="14"/>resurrectionem, quando spiritum sanctum eis dedit, dicens: Quorum 
+      <lb ed="#S" n="15"/>remiseritis peccatam &amp;c nec matrem suam, quamuis omnium 
+       mu<lb ed="#S" break="no" n="16"/>lierum sactissimam ad aliquem gradum ordinis promouerit. 
+       Apo<lb ed="#S" n="17" break="no"/>stolus etiam qui tradidit nobis, quod a Domino accepit, vt 
+       ha<lb ed="#S" n="18" break="no"/>betur. 1. ad Cor. 11. innuit mulieres non debere ordina 
+      <lb ed="#S" n="19"/>ri, nec haberegradum doctrinae in ecclesia, qui competit 
+       or<lb ed="#S" break="no" n="20"/>dinatis dicens. Mulierem in ecclesia loqui non permitto. Nec 
+      <lb ed="#S" n="21"/>potest dici, quod illud solum sit ex ordinatione apostolorum, &amp; non 
+      <lb ed="#S" n="22"/>ex statuto Christi: quia offerre alicui sibi vtile ad salut, &amp; 
+      <lb ed="#S" n="23"/>concessum a Christo, non potest esse sine 
+       praeiudiciodifla<lb ed="#S" break="no" n="24"/>xime in rebus spiritualibus: sed dignitas ordinis vtilis est 
+      <lb ed="#S" n="25"/>ad promotionem salutis in recte vtentibus. ergo si fuisset 
+       con<lb ed="#S" break="no" n="26"/>cessum a Christo, quod mulieres potuissent ordinari, non pero 
+      <lb ed="#S" n="27"/>tuisset sine praeiudicio eis auferri. Tenendum est igitur, quod 
+      <lb ed="#S" n="28"/>mulieres non possunt ordinari ex Christi institutione, nec 
+      <lb ed="#S" n="29"/>praedicare, nec confessiones audire, etiam abbatissae. de poe. 
+      <lb ed="#S" n="30"/>&amp; re. c. Noua. Ratio autem congruentiae est: quia per ordinem 
+      <lb ed="#S" n="31"/>aliquis ponitur in gradu excellentiae, super alios non ordina 
+      <lb ed="#S" n="32"/>tos: sed talis gradus non competit mulieribus super viros: 
+      <lb ed="#S" n="33"/>sed potius status subiectionis, propter infirmitatem 
+       corpo<lb ed="#S" break="no" n="34"/>ris, &amp; imperfectionem rationis: propter illud Gene. 3. sub 
+      <lb ed="#S" n="35"/>viri potestate eris. ergo &amp;c. sic ergo sexus mulieris 
+       impe<lb ed="#S" n="36" break="no"/>dit susceptionem ordinis: quia oppositum est de necessitate 
+       sa<lb ed="#S" n="37" break="no"/>cri. Nec est simile de ordine, &amp; aliis sacramentis: potissime quo 
+      <lb ed="#S" n="38"/>ad mulieres: quia alia sacramenta ordinam contra defectum conem 
+      <lb ed="#S" n="39"/>viris, &amp; mulieribus, vt baptismus, eucharistia, poenitentia, 
+      <lb ed="#S" n="40"/>extrema vnctio, vel ad actum conem vtrisque, vt confirmatio, 
+      <lb ed="#S" n="41"/>qua ordinatur ad confessionem fidei, ad quem ordinentur tam 
+      <lb ed="#S" n="42"/>viri, um mulieres. sacim ante ordinis consistit in gradu 
+       ex<lb ed="#S" break="no" n="43"/>cessentiae super alios: &amp; doctrinc, quae no competit 
+       musie<lb ed="#S" break="no" n="44"/>ribus, vt dictu est. Nec obstat, quod dicit. 27. q. 1. Diaconis 
+      <lb ed="#S" n="45"/>sa. nec. 33. dist. c Presbyter. quia canones vocant diaconis 
+      <lb ed="#S" n="46"/>sam non ab ordine diaconatus: sed a benedictione, qua 
+      <lb ed="#S" n="47"/>competiteis legere homelias in matutinis: non autem 
+       Euan<lb ed="#S" n="48" break="no"/>gelium in missa, vel ministrare circa altare in missa, vt 
+       dia<lb ed="#S" n="49" break="no"/>cono conuenit: presbyterissam vero vocat canon viduam, 
+      <lb ed="#S" n="50"/>quae habet custodire res ecclesiae, sicut apparet ex sequem. 
+      <lb ed="#S" n="51"/>c. si mulieres. seu presbyterissa vxor sacerdotis Graeci, 
+      <lb ed="#S" n="52"/>vel hebdomaria, quae dicit orationes.
+    </p>
+            <p xml:id="khj78y-q95970-d1e284" n="5">
+      <!-- 5 -->secunda 
+       conclu<lb ed="#S" break="no" n="53"/>sio est, quod Hermaphroditus ordinari non debet: cum sit 
+      <lb ed="#S" n="54"/>monstrum in natura, &amp; corpore vitiatus, &amp; est opprobrium 
+      <lb ed="#S" n="55"/>clero, &amp; propter periculum: quia nescii, vtrum sit vir, aut 
+       mu<lb ed="#S" break="no" n="56"/>lier. Oportet tamen, quod sit alterum tantum, quia in praelatis possunt 
+      <lb ed="#S" n="57"/>communiungi vis masculina, &amp; foeminina perfecte: sed nunquam 
+      <lb ed="#S" n="58"/>in animalibus perfectis, &amp; maxime hominibus. si ergo 
+       se<lb ed="#S" break="no" n="59"/>xus virilis praeualet, est homo, &amp; non mulier: &amp; sic potest 
+      <lb ed="#S" n="60"/>ordinari, sed non debet: si autem econuerso, sic est mulier, 
+      <lb ed="#S" n="61"/>&amp; sic nec de facto ordinari potest. ff. de sta. ho. l. cum 
+       Herma<lb ed="#S" break="no" n="62"/>phroditum.
+    </p>
+            <p xml:id="khj78y-q95970-d1e310" n="6">
+      <!-- 6 -->Tertia conclusio est, quod aetas impedit: quia 
+      <lb ed="#S" n="63"/>non debet quis ordinari nisi temporibus supradictis. Aetas 
+      <lb ed="#S" n="64"/>lgitur puerilis impedit a susceptione maiorum ordinum: 
+      <lb ed="#S" n="65"/>quia oppositum est de necessitate praecepti, sed non a susce 
+      <lb ed="#S" n="66"/>ptione minorum, nisi de congruitate tantum. Ratio primi est, 
+      <lb ed="#S" n="67"/>quia maioribus ordinibus est annexum votum continentiae 
+      <!--0312.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>ex statuto ecclesiae: sed ad id nullus potest se obligare, nisi 
+      <lb ed="#S" n="69"/>habens vsum rationis, &amp; discretionis: igitur nullus debes 
+      <lb ed="#S" n="70"/>secundum statutum ecclesiae ad maiores ordines promoueri 
+      <lb ed="#S" n="71"/>ante annos discretionis. Ratio secundi est, quia congruum est, 
+      <lb ed="#S" n="72"/>vt nulli detur gradus, cuius actum exercere non potest: sed 
+      <lb ed="#S" n="73"/>actus quorumcunque ordinum etiam minorum non potest debite 
+      <lb ed="#S" n="74"/>exerceri, nisi ab habentibus vsum rationis, &amp; discretionis. 
+      <lb ed="#S" n="75"/>ergo non est congruum, quod ante hoc tempus aliqui promouean 
+      <lb ed="#S" n="76"/>tur, etiam ad minores ordines: nisi forte adsit necessitas, &amp; 
+      <lb ed="#S" n="77"/>spes profectus. Veruntamen aetas puerilis non impedit a su 
+      <lb ed="#S" n="78"/>sceptione ordinum, quantum est ex necestitate sacramenti, vt 
+       vide<lb ed="#S" break="no" n="79"/>tur quibusdam: quia aliquis potest habere potestatem, cuius non 
+      <lb ed="#S" n="80"/>habet vsum. &amp; ideo licet pueri carentes vsu rationis non 
+      <lb ed="#S" n="81"/>possint habere executionem ordinum: possunt tamen potestatem 
+      <lb ed="#S" n="82"/>recipere, &amp; processu temporis actus eorum exercere.
+    </p>
+            <p xml:id="khj78y-q95970-d1e363" n="7">
+      <!-- 7 -->sed 
+      <lb ed="#S" n="83"/>contra hoc arguunt quidam probabiliter, &amp; subtiliter, si per 
+      <lb ed="#S" n="84"/>paruulos intelliguntur pueri, qui omnino carent vsu 
+       ra<lb ed="#S" break="no" n="85"/>tionis. Primo, quia satis videtur absurdum, quod talis paruulus 
+      <lb ed="#S" n="86"/>possit sacerdos fieri, vel episcopus ordinari. secundo, quia ad 
+       su<lb ed="#S" break="no" n="87"/>sceptionem cuiuslibet sacri requirit intentio suscipiendi pro 
+      <lb ed="#S" n="88"/>pria, si sit adultus, vel interpretatiua, si sit paruulus: sed 
+      <lb ed="#S" n="89"/>in paruulo si ordinei de sacramento non potest esse propria 
+       volun<lb ed="#S" break="no" n="90"/>tas suscipiendi ordinem, cum non habeat vsum rationis: nec 
+      <lb ed="#S" n="91"/>interpretatiua: quia licet voluntas parentum, vel eorum qui 
+      <lb ed="#S" n="92"/>vicem gerunt parentum, possit esse voluntas interpretatiua 
+      <lb ed="#S" n="93"/>paruulorum, quantum ad ea, quae sunt de necessitate salutis 
+      <lb ed="#S" n="94"/>paruulorum corporalis, vel spiritualis, propter quod intentio 
+      <lb ed="#S" n="95"/>parentum eos offerentium ad baptismum, sufficit ad susceptio 
+      <lb ed="#S" n="96"/>nem baptismi salutaris: tamen voluntas parentum non videtur 
+      <lb ed="#S" n="97"/>sufficere ad hoc, quod suscipiant ordinis sarim, quod non est 
+      <lb ed="#S" n="98"/>de necessitate salutis, sed est supererogationis, &amp; 
+       consti<lb ed="#S" break="no" n="99"/>tuit in gradu dignitatis: quia quo ad hoc non bene patet, 
+      <lb ed="#S" n="100"/>quomodo voluntas parentum sit interpretatiua paruulorum: 
+      <lb ed="#S" n="101"/>cum paruuli licite possint talibus dissentire, postquam ad 
+      <lb ed="#S" n="102"/>annos discretionis peruenerint. Et iterum quia baptismus 
+      <lb ed="#S" n="103"/>ordinatur ad deletionem peccati originalis, quod 
+       contra<lb ed="#S" break="no" n="104"/>hit paruulus ex actu parentum: congruum est, quod voluntas pa 
+      <lb ed="#S" n="105"/>rentum sufficiat eis ad suscipiendum baptismum: sed haec cau 
+      <lb ed="#S" n="106"/>sa in aliis sacramentis non habet locum.
+    </p>
+            <p xml:id="khj78y-q95970-d1e420" n="8">
+      <!-- 8 -->sed licet ista sint 
+      <lb ed="#S" n="107"/>probabiliter dicta: conis tamen opinio Theo. &amp; Canonistarum 
+      <lb ed="#S" n="108"/>est in contrarium. potest ergo dici, quod pueri non deberent or 
+      <lb ed="#S" n="109"/>dinari. Iq. I. c Pueri. si tamen puer ordinarei, valeret quo 
+      <lb ed="#S" n="110"/>ad characterem, dum tamen haberet vsum rationis. si vero 
+       v<lb ed="#S" break="no" n="111"/>su rationis careret, puta, quia est puer in cunis, illo casu, in 
+      <lb ed="#S" n="112"/>quo baptitari non posset, puta inuitis parentibus gentili 
+      <lb ed="#S" n="113"/>bus non posset ordinari, sicut nec baptizari: quia nisi prius 
+      <lb ed="#S" n="114"/>reciperet baptismum, non reciperet ordinem. sed 
+       supposito<lb ed="#S" break="no" n="115"/>quod puer esset baptizatus, si parentes nostae oramani, quem 
+      <lb ed="#S" n="116"/>volunt baptizari, adhuc non puto, quod posset ordinari: quia 
+      <lb ed="#S" n="117"/>plus iuris habent parentes impediendo puerum ab his, quae non 
+      <lb ed="#S" n="118"/>sunt necessaria ad salutem, quam in necessariis. si ergo in 
+      <lb ed="#S" n="119"/>uitis parentibus non potest puer baptizari, quod est 
+       necessa<lb ed="#S" break="no" n="120"/>rium ad salutem: multominus ordinari, quod non est neces 
+      <lb ed="#S" n="121"/>sarium. si dicat, quod non est simile, quia ex quo baptizatus est 
+      <lb ed="#S" n="122"/>ecclesiae subditus est: quae potest de eo in spiritualibus facere, 
+      <lb ed="#S" n="123"/>quod vult, &amp; auferre parentibus, si in haeresi vellent eum 
+      <lb ed="#S" n="124"/>nutrire, non valet: quia haec non sic potest esse iusta causa au 
+      <lb ed="#S" n="125"/>ferendi parentibus. sed quid si consentientibus parentibus 
+      <lb ed="#S" n="126"/>ordinet. De epatu quidem quo ad obligationem, quae fit per 
+      <lb ed="#S" n="127"/>assensum, &amp; acceptationem, quae dicit sponsus ecclesiae: cer 
+      <lb ed="#S" n="128"/>tum est, quod non est sponsus quousque habens vsum rationis 
+      <lb ed="#S" n="129"/>assentiat, nec est curatus, nec abbat, nec prior, nec huiusmodi: 
+      <lb ed="#S" n="130"/>quia quamuis iure ciuili legatum acquirat ignoranti: tamen iure 
+      <lb ed="#S" n="131"/>canonico nullum beneficium ecclesiasticum acquirit homini 
+      <lb ed="#S" n="132"/>quousque assentiat. Vnde de praeben. c. si tibi absenti. lib. 
+      <lb ed="#S" n="133"/>6. dicit, quod quando absenti beneficium conferi, quousque ratum 
+      <lb ed="#S" n="134"/>habeat sibi nullum ius acquirit: licet epraes dare non possit in- 
+      <!--0313.xml-->
+      <pb ed="#S" n="313"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>terim alicui: multo magis in beneficio habente curam ani 
+      <lb ed="#S" n="2"/>marum: quia nisi ex suo consensu nemo obligatur ad illud. 
+      <lb ed="#S" n="3"/>sed de ipsa consecratione in epraem videt idem, quod de cae 
+      <lb ed="#S" n="4"/>teris ordinibus: quod. scilicet parentibus consentientibus, vel ipsis 
+      <lb ed="#S" n="5"/>non extantibus, de voluntate illorum, qui sunt loco parentum 
+      <lb ed="#S" n="6"/>si ordinaret, reciperet characterem.
+    </p>
+            <p xml:id="khj78y-q95970-d1e505" n="9">
+      <!-- 9 -->Ad primum 
+       argu<lb ed="#S" break="no" n="7"/>mentum istorum potest responderi ad maiorem, quod requirit vo 
+      <lb ed="#S" n="8"/>luntas suscipiendi expressa, vel interpretatiua, potest negari 
+      <lb ed="#S" n="9"/>in paruulo: quia vbi non esset parens in mundo, nec nisi par 
+      <lb ed="#S" n="10"/>nulus, &amp; alius, nec pater, nec mater, adhuc posset 
+       paruu<lb ed="#S" break="no" n="11"/>lum baptizare, &amp; sic ex parte baptizati nulla intentio, nul 
+      <lb ed="#S" n="12"/>la volutas cocurreret, &amp; sufficeret sola volutas 
+       conferen<lb ed="#S" break="no" n="13"/>tis sacramentum, ita &amp; in proposito: sed in illo, qui habet vsum 
+      <lb ed="#S" n="14"/>rationis, qui iam sibi a domino commissus est, propria voluntas 
+      <lb ed="#S" n="15"/>requirit In paruulo autem, quem adhuc Deus in manu 
+       con<lb ed="#S" n="16" break="no"/>silij fo reliquit, nulla voluntas requirit. potest etiam dici ad 
+      <lb ed="#S" n="17"/>minorem, quod voluntas parentum est etiam voluntas filij, non solum 
+      <lb ed="#S" n="18"/>in his, quae sunt necessitatis salutis, sed etiam In aliis: vnde 
+      <lb ed="#S" n="19"/>voluntate parentis offerentis potest paruulus confirmari: quia 
+      <lb ed="#S" n="20"/>&amp; paruulis Christus manus imponebat benedicens, &amp; de 
+      <lb ed="#S" n="21"/>voluntate patris potest acquiri paruulo, sicut per tutorem. 
+    </p>
+            <p xml:id="khj78y-q95970-d1e542" n="10">
+               <lb ed="#S" n="22"/>
+               <!-- 10 -->Ad illud, quod puer potest postea licite resilire, &amp; dissenti 
+      <lb ed="#S" n="23"/>re. si pater, aut mater pro ipso fecerunt votum, verum est: 
+       vn<lb ed="#S" break="no" n="24"/>de etiam ordinatus in sacerdotem in cunis, veniens ad annos 
+      <lb ed="#S" n="25"/>discretionis non tenet continere, sed verus sacerdos exi 
+      <lb ed="#S" n="26"/>stens poterit contrahere, quia non potuit nescius obligari. 
+    </p>
+            <p xml:id="khj78y-q95970-d1e558" n="11">
+               <lb ed="#S" n="27"/>
+               <!-- 11 -->Quod dicunt, quod ideo in baptismo sufficit voluntas 
+      <lb ed="#S" n="28"/>parentum: quia ordinatur ad deletionem peccati a paren 
+      <lb ed="#S" n="29"/>tibus contracti: dicendum, quod imo sufficit voluntas tutorum 
+      <lb ed="#S" n="30"/>in defectu parentis: sed etiam solius baptizantis, vbi alius 
+      <lb ed="#S" n="31"/>non apparet: &amp; tamen a tutoribus puer illud peccatum 
+      <lb ed="#S" n="32"/>non contraxit: imo certum est, quod sufficit voluntas proxi 
+      <lb ed="#S" n="33"/>morum parentum, a quibus nullum peccatum contraxit, nec 
+      <lb ed="#S" n="34"/>forte etia ipsum originale. si dicatur, ducatus minus con 
+      <lb ed="#S" n="35"/>nenit pueris, quam mulieribus: quia nihil habent de vsu ratio 
+      <lb ed="#S" n="36"/>nis, &amp; minus roboris: igitur si mulier non potest ordinari 
+      <lb ed="#S" n="37"/>etiam de facto, nec puer.
+    </p>
+            <p xml:id="khj78y-q95970-d1e587" n="12">
+      <!-- 12 -->solutio, non est simile, 
+      <lb ed="#S" n="38"/>quia principatus minus conuenit pueris actu, sed plus 
+      <lb ed="#S" n="39"/>aptitudine.
+    </p>
+            <p xml:id="khj78y-q95970-d1e597" n="13">
+      <!-- 13 -->Quantum ad secundum. scilicet quantum ad 
+       im<lb ed="#S" break="no" n="40"/>pedimentum fortunae. scilicet homicidium, sunt tres conclusiones 
+      <lb ed="#S" n="41"/>Prima, quid per homicidium intelligit. Et quidem prout 
+      <lb ed="#S" n="42"/>causat irregularitatem, requirit mortem hominis, vel 
+       muti<lb ed="#S" break="no" n="43"/>lationem: &amp; tantum valet mutilatio, quantum occisio. de 
+      <lb ed="#S" n="44"/>cle. percus. c. 1. 55. dist. c. vlt. Dicitur autem Mors hominis 
+      <lb ed="#S" n="45"/>habentis animam rationalem, sine qua non est homo, propter 
+      <lb ed="#S" n="46"/>quod occidens in ventre foetum ante animationem istam, vel 
+      <lb ed="#S" n="47"/>suspendens iam mortuum cadauer, aut mutilans, non est 
+       ir<lb ed="#S" break="no" n="48"/>regularis. Dicit autem mutilatio membrorum proprie dicto 
+      <lb ed="#S" n="49"/>rum, quae amputata non crescunt: secus de aliis, vt si 
+       ca<lb ed="#S" break="no" n="50"/>pillos raserit, vel vngues sciderit: imo etiam si talia 
+       auulse<lb ed="#S" break="no" n="51"/>rit: ideo de his non intelligitur, sed de aliis: non solum 
+      <lb ed="#S" n="52"/>de membris principalibus: quia non solum si pedem, aut 
+       ma<lb ed="#S" break="no" n="53"/>num amputa uerit: imo etiam si digitum, vel articulunt nec 
+      <lb ed="#S" n="54"/>solum totum digitum, vel oculum, aut nasum: sed si partem 
+      <lb ed="#S" n="55"/>notabilem, quae redire non possit, siue sibi, siue alij 
+       am<lb ed="#S" break="no" n="56"/>putauerit. distin. 55. si quis semetipsum. c. Qui partem. 
+      <lb ed="#S" n="57"/>Non sic autem, si pellem, vel carnem, quae redeunt per 
+       na<lb ed="#S" break="no" n="58"/>turam quantumcunque etiam vulnerauerit, vel sanguinem 
+       fude<lb ed="#S" break="no" n="59"/>rit: quia sanguis deperditus restituitur per naturam, non fit 
+      <lb ed="#S" n="60"/>irregularis: aut etiam si sic in capite vulnera uerit: quod de 
+       os<lb ed="#S" break="no" n="61"/>se capitis multum extractum fuerit: quia de membris 
+       exterio<lb ed="#S" break="no" n="62"/>ribus intelligitur, &amp; poenae semper sunt restringendae. 
+    </p>
+            <p xml:id="khj78y-q95970-d1e652" n="14">
+               <lb ed="#S" n="63"/>
+               <!-- 14 -->secunda conclusio, quis est homicida in ista 
+       mate<lb ed="#S" break="no" n="64"/>ria? Et dicendum, quod ille consilio, auxilio, facto, vel 
+       quo<lb ed="#S" break="no" n="65"/>cunque modo causae est causa homicidij: dum tamen redu 
+      <lb ed="#S" n="66"/>catur ad genus causae efficientis. Vnde de cle. pug. in duel 
+      <lb ed="#S" n="67"/>lo. cap. 2. dicitur homicidiu tam facto, quam praecepto, 
+      <!--0313.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>quam consilio, aut defensione, non est dubium perpetra 
+      <lb ed="#S" n="69"/>ri. Vnde in eodem cap. sacerdos. qui posuit pugilem, qui 
+      <lb ed="#S" n="70"/>reum ictibus mactauit, irregularis est, ac si per se fecisset. 
+      <lb ed="#S" n="71"/>si autem se prohibente factum est, non est irregularis. de 
+      <lb ed="#S" n="72"/>homici. cap. 1. Petrus diaconus. Item si solum modum fi 
+      <lb ed="#S" n="73"/>nis est causa: vt puta: quia propter ipsum vindicandum 
+      <lb ed="#S" n="74"/>interfectus est homo: ipso nec mandante, necratum 
+       ha<lb ed="#S" break="no" n="75"/>bente irregularis non est symoniacus, id est, persymoniam 
+      <lb ed="#S" n="76"/>promotus dicatur etiam qui ignorante ipso propter ipsum 
+      <lb ed="#S" n="77"/>symonia contracta est. Est autem causa efficiens 
+       eti<lb ed="#S" break="no" n="78"/>am qui non tangit: sed associans illum defendere 
+       para<lb ed="#S" break="no" n="79"/>tus est si oportet: sicut Paulus seruans vestes lapidantium 
+      <lb ed="#S" n="80"/>stephanum: sed in eius promotione dispensauit 
+       Chri<lb ed="#S" break="no" n="81"/>stus, qui dixit: Vas electionis est mihi iste. &amp; spiritus san 
+      <lb ed="#S" n="82"/>ctus, qui dixit: segregate mihi Paulum, &amp; Barnabam. Vn 
+      <lb ed="#S" n="83"/>de de homi. c. sicut dignum. dicitur, constat illos non esse 
+      <lb ed="#S" n="84"/>immunes a reatu homicidij, qui licet non occidunt, tamen 
+      <lb ed="#S" n="85"/>occisoribus opem ferunt. si autem mors non sequat, nec 
+      <lb ed="#S" n="86"/>mutilatio, quicquid fecerit, non est irregularis, quia lex 
+      <lb ed="#S" n="87"/>promotionis factum requirit. Vnde iudex, notarius, &amp; 
+       o<lb ed="#S" break="no" n="88"/>mnes huiusmodi, nisi sequatur mors, aut mutilatio, quicquid di 
+      <lb ed="#S" n="89"/>xerint, vel scripserint in causa sanguinis, non sunt 
+       irregu<lb ed="#S" break="no" n="90"/>lares: sicut nec is, qui cum telo ambulauit, &amp; vulnerauit, 
+      <lb ed="#S" n="91"/>&amp; fecit, quod potuit ad mortem, si non sit sequuta, quamuis 
+      <lb ed="#S" n="92"/>quidam scribant conrarium de iudice, &amp; alio, qui hoc facit 
+      <lb ed="#S" n="93"/>ex officio: sed non est probabile, quod caeteris paribus plus 
+      <lb ed="#S" n="94"/>incurrat irregularitatem innocens, quam delinquens, nisi vbi 
+      <lb ed="#S" n="95"/>ratio, quae est in vno, cessat in alio: sicut est in bigamia, 
+      <lb ed="#S" n="96"/>quae contrahitur ex actu matrimoniali non fornicario: sed 
+      <lb ed="#S" n="97"/>clericus, qui in duello pugnauit licet non sit sequuta mors, 
+      <lb ed="#S" n="98"/>nec mutilatio, est deponendus, nisi episcopus cumuo 
+       dispensabe<lb ed="#S" break="no" n="99"/>rit. similiter dicunt quidam elericum, qui fuit minister 
+      <lb ed="#S" n="100"/>causae sanguinisesse irregularam: sed posse episcopum cum eo di 
+      <lb ed="#S" n="101"/>spensare, nisi mor autem mutilatio fuerit subsequuta. 23. 
+      <lb ed="#S" n="102"/>q. vlt. c. saepe. &amp;. c. seq. sed istud non est verum, quia non 
+       in<lb ed="#S" break="no" n="103"/>uenitur scriptum expresse, nec aliter est iudicanda 
+       irregu<lb ed="#S" break="no" n="104"/>laritas. Nec refert, vtrum paganum quis occideret, aut 
+       Chri<lb ed="#S" break="no" n="105"/>stianum, quia ille homo est sicut iste. Vnde dicitur extra de 
+      <lb ed="#S" n="106"/>homi. c. Petitio. Clerici contra saracenos pugnantes si de 
+      <lb ed="#S" n="107"/>homicidio cuiusquam dubitant, a sacerdotio abstinebunt. 
+      <lb ed="#S" n="108"/>dist. 50. Miros. Et propter hoc sunt irregulares, qui ligna 
+      <lb ed="#S" n="109"/>subiiciunt haereticis conburendis: si illa ligna per sui com 
+      <lb ed="#S" n="110"/>bustionem ad mortem aliquid agant, licet indulgentiam con 
+      <lb ed="#S" n="111"/>sequant.
+    </p>
+            <p xml:id="khj78y-q95970-d1e767" n="15">
+      <!-- 15 -->Tertia conclusio est ex his, quomodo  contrahi 
+      <lb ed="#S" n="112"/>tur irregularitas propter homicidium. Et dicendum, quod tantum 
+      <lb ed="#S" n="113"/>in duobus casibus. Primus est, quando aliquis est 
+       homi<lb ed="#S" break="no" n="114"/>cida ex scientia, id est, intentione, siue licite, siue illicite: 
+      <lb ed="#S" n="115"/>vt patet in iudice: vnde ille, qui interficit hominem 
+       se<lb ed="#S" break="no" n="116"/>ipsum defendendo licite, sed ex intentione est 
+       irregula<lb ed="#S" break="no" n="117"/>ris. Non enim excusatur, quia licite fecit cum iudex lici 
+      <lb ed="#S" n="118"/>te faciat: nec quia ex necessitate hoc fecit: quia maior 
+      <lb ed="#S" n="119"/>est necessitas vitandi mortale, quam mortem, &amp; vitandi 
+      <lb ed="#S" n="120"/>mortem multorum, quam vnius, &amp; damnum reip. quam vnius perso 
+      <lb ed="#S" n="121"/>nae: iudex autem non potest vitare mortale, nec mortem multo 
+      <lb ed="#S" n="122"/>rum aliquando, nec damnum reip. nisi condemnet ad mortem istum 
+      <lb ed="#S" n="123"/>publicum homicidam: &amp; nihilominus fit irregularis. ergo 
+      <lb ed="#S" n="124"/>multo magis iste, qui ob tutelam fui corporis hominem interse 
+      <lb ed="#S" n="125"/>cit, ad quod non tenei. Et hoc verum est quantum ad 
+       promouen<lb ed="#S" break="no" n="126"/>dum vlteri': sed quantum ad ministrandum in susceptis, homi 
+      <lb ed="#S" n="127"/>eidium ineuitabile non deiicit ab ordine, nec a beneficio: 
+      <lb ed="#S" n="128"/>sicut deiicit homicidium ex officio: quia videtur abdicare 
+       cle<lb ed="#S" break="no" n="129"/>ricum, qui ex proposito offin sanguinis suscipit: non sic autem, 
+      <lb ed="#S" n="130"/>qui ex inopinato ad sui defensionem aggressorem interficit 
+      <lb ed="#S" n="131"/>50. di. De his clericis, pro quibus extra de homi. c. Interfeci 
+      <lb ed="#S" n="132"/>sti. 51. di. Aliquantos. Quod autem Petrus mutilans 
+       auricu<lb ed="#S" break="no" n="133"/>lam serui est promotus: Christus dispensauit, qui posted dixit 
+      <lb ed="#S" n="134"/>sibi, Pasce oues meas: vel nondum erat prohibitio ecclesiae. 
+      <!--0314.xml-->
+      <pb ed="#S" n="314"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Nec ob. quod Dauid vir sanguinum est prohibitus aedi 
+      <lb ed="#S" n="2"/>ficare, quia etiam salomon vir sanguinum aedificauit: 
+      <lb ed="#S" n="3"/>qui Ioab, &amp; alios ad mortem condemnauit. Tunc etiam 
+      <lb ed="#S" n="4"/>Finees occidendo sacerdotium promeruit: &amp; 
+       Maccha<lb ed="#S" break="no" n="5"/>baei bellatores fuerunt sacerdotes. De Dauid autem 
+       di<lb ed="#S" break="no" n="6"/>ctum est propter figuram, vel si tunc erat prohibitum, 
+      <lb ed="#S" n="7"/>iudiciale fuit: &amp; post mortem Christi non ligauit, nisi quam 
+      <lb ed="#S" n="8"/>tum ecclesia hoc idem statuit dicente Apostolo. Non 
+       per<lb ed="#S" break="no" n="9"/>cussorem. secundus casus est, quando praeter intentionem 
+      <lb ed="#S" n="10"/>aliquis casu occiditur, vel mutilatur, per culpam tamen 
+      <lb ed="#S" n="11"/>suam, vtpote quia dabat operam rei illicitae: vt si vadens 
+      <lb ed="#S" n="12"/>ad lupanat cum armis non intentione pugnandi, &amp; prae 
+      <lb ed="#S" n="13"/>ter intentionem bello orto, inde homicidium fecerit, vel 
+      <lb ed="#S" n="14"/>huiusmodi, vel si non medicus de medicando se 
+       intro<lb ed="#S" break="no" n="15"/>miserit, &amp; mors sequuta fuerit, irregularis est. Item si 
+       da<lb ed="#S" break="no" n="16"/>bat operam rei licitae, non tamen debitam diligentiam 
+      <lb ed="#S" n="17"/>adhibuit: vt quia medicus aliquid de contingentibus 
+       o<lb ed="#S" break="no" n="18"/>misit, vel si putator ex arbore ramum deiecit in publico 
+      <lb ed="#S" n="19"/>nec clamauit, sed aliquem occidit irregularis est. 
+       Medi<lb ed="#S" break="no" n="20"/>cus vero, qui membrum amputat secundum regulas 
+       ar<lb ed="#S" break="no" n="21"/>tis non videtur irregularis: quia hoc non est mutilare, sed 
+      <lb ed="#S" n="22"/>corpus saluare. si autem praeter intentionem, &amp; culpam 
+      <lb ed="#S" n="23"/>mors, vel mutilatio accidat alterius, irregularitatem non 
+      <lb ed="#S" n="24"/>incurrit. Vbi considerandum est, quod aliquid vni est culpa 
+      <lb ed="#S" n="25"/>quod alteri non est. Vnde casus ponebat de puero, qui 
+      <lb ed="#S" n="26"/>iaciens sagittam, ea inuersa casu praeter intentionem 
+       per<lb ed="#S" break="no" n="27"/>cussit in oculo socium retro stantem, &amp; exoculauit: quod 
+      <lb ed="#S" n="28"/>etiam fuit mirabile. Et dixi, quod dato, quod adultus 
+       fuis<lb ed="#S" break="no" n="29"/>set irregularis ex illa <sic>exoculatione</sic>: quia raro sine eius cul 
+      <lb ed="#S" n="30"/>pa potuisset accidere, puer tamen non, quia in culpa non 
+      <lb ed="#S" n="31"/>fuit: quia non tenebatur adhibere diligentiam, quam 
+       ad<lb ed="#S" break="no" n="32"/>hibere nesciebat: alias teneretur ad impossibile: ideo 
+       ir<lb ed="#S" break="no" n="33"/>regularis non est.
+    </p>
+            <p xml:id="khj78y-q95970-d1e902" n="16">
+      <!-- 16 -->In casu autem dubij probabilis 
+      <lb ed="#S" n="34"/>tenet quis abstinere, sicut in casu certi. sed vbi est 
+       con<lb ed="#S" break="no" n="35"/>scientia irrationabiliter meticulosa, est deponenda, quod 
+      <lb ed="#S" n="36"/>si non possit deponi, interim est a ministerio, &amp; 
+       promo<lb ed="#S" break="no" n="37"/>tione cessandum, de tempori. or. ad Aures. 50. distin. de 
+      <lb ed="#S" n="38"/>bis.
+    </p>
+            <p xml:id="khj78y-q95970-d1e918" n="17">
+      <!-- 17 -->Quantum ad tertium, scilicet, de 
+       impedimen<lb ed="#S" break="no" n="39"/>to corporalis vitij: dicendum, quod impedit in tribus 
+       ca<lb ed="#S" break="no" n="40"/>sibus. Primus, quando tale est vitium, quod causat 
+       peri<lb ed="#S" break="no" n="41"/>culum, quod sine periculo homo non potest actum ordi 
+      <lb ed="#S" n="42"/>nis exercere: vt si non possit facere fractionem, vel ita 
+      <lb ed="#S" n="43"/>tremulus est manibus, quod non sine periculo 
+       effusio<lb ed="#S" break="no" n="44"/>nis sanguinis potest tenere calicem. secundus casus quan 
+      <lb ed="#S" n="45"/>do generatur scandalum: vt quia habet nasum 
+       amputa<lb ed="#S" break="no" n="46"/>tum, vel aliquid huiusmodi. Tertius est, quando perfa 
+      <lb ed="#S" n="47"/>ctum, &amp; culpam suam. Quod autem sanctus Marcus fer 
+      <lb ed="#S" n="48"/>tur sibi amputasse pollicem, vt sacerdotio reprobus 
+       ha<lb ed="#S" break="no" n="49"/>beretur: qui nihilominus postea fuit patriarcha Alexan 
+      <lb ed="#S" n="50"/>drinus, fuit ex dispensatione spiritus sancti, vel Petri, 
+      <lb ed="#S" n="51"/>qua erat Papa: &amp; per consequens in omni tali defectu po 
+      <lb ed="#S" n="52"/>terat dispensare: quia nec tantum erat amputatum, quin 
+      <lb ed="#S" n="53"/>posset facere fractionem.
+    </p>
+            <p xml:id="khj78y-q95970-d1e955" n="18">
+      <!-- 18 -->Ad argumentum 
+       dicen<lb ed="#S" break="no" n="54"/>dum, quod nobiliora in entibus sunt minoris 
+       impedibilita<lb ed="#S" break="no" n="55"/>tis in se: sed sunt maximae impedibilitatis in participatio 
+      <lb ed="#S" n="56"/>ne sui ab aliis, &amp; in appropinquatione ad ipsa. Quae enim 
+      <lb ed="#S" n="57"/>perfectiora sunt, illa sunt immediate propinqua, &amp; partici 
+      <lb ed="#S" n="58"/>pantia perfectissime, caetera vero remota: &amp; similiter 
+       sa<lb ed="#S" break="no" n="59"/>cramentum ordinis non est in se impedibile, positis suis 
+      <lb ed="#S" n="60"/>causis: sed perfectissimi debent esse, qui ei appropinqua 
+      <lb ed="#S" n="61"/>bant suscitando, vel exequendo: &amp; ab hoc multipliciter 
+      <lb ed="#S" n="62"/>impediuntur imperfecti. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

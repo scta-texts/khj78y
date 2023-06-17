@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="192"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q54002"><!-- l4d16-q1 -->
+            <head xml:id="khj78y-q54002-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-q54002-Hd1e103" type="question-title">
+     de remissione 
+     venialium, utrum possint remitti sine 
+     mortalibus
+   </head>
+            <p xml:id="khj78y-q54002-d1e106">
+               <lb ed="#S" n="56"/>DIsTINCTIOIs. QVAESTIO. I. 
+      <lb ed="#S" n="57"/>DE tribiis, quae in poenitentia consideranda sunt. Circa 
+      <lb ed="#S" n="58"/>distinctionem. I6. quaeritur quatuor. Primo, de 
+       remis<lb ed="#S" break="no" n="59"/>sione venialium. secundo, do impedimentis poenitentiae. Ter 
+      <lb ed="#S" n="60"/>tio, de circunstamiis. Quarto, de partibus poenitentiae. 
+    </p>
+            <p xml:id="khj78y-q54002-d1e119">
+               <lb ed="#S" n="61"/>De venialium remissione.
+    </p>
+            <p xml:id="khj78y-q54002-d1e124">
+               <lb ed="#S" n="62"/>Thom. 3. q. 87.
+    </p>
+            <p xml:id="khj78y-q54002-d1e130">
+      <!--0192.xml-->
+               <cb ed="#S" n="b"/>
+               <lb ed="#S" n="63"/>QVAERTTVR ergo primum de remissione 
+      <lb ed="#S" n="64"/>venialium, vtrum possint remitti sine 
+       mortali<lb ed="#S" break="no" n="65"/>bus: Et videtur quod sic, quia cum veniale possit fieri 
+      <lb ed="#S" n="66"/>mortale, &amp; ecouerso, videt non plus depen 
+      <lb ed="#S" n="67"/>dere remissio venialium am remissione 
+       morta<lb ed="#S" break="no" n="68"/>lium, quae econuerso: sed mortale potest remitti sine veniali, ergo 
+      <lb ed="#S" n="69"/>&amp; econuerso.
+    </p>
+            <p xml:id="khj78y-q54002-d1e152" n="2">
+      <!-- 2 -->Contra, quia sine gratia non est remissio 
+       pec<lb ed="#S" break="no" n="70"/>catl: ergo cum illa non sit cum mortali, veniale non potest remit 
+      <lb ed="#S" n="71"/>rl sine mortali.
+    </p>
+            <p xml:id="khj78y-q54002-d1e161" n="3">
+      <!-- 3 -->Respondeo, circa istam quaestionem tria 
+      <lb ed="#S" n="72"/>sunt videnda. Primo, de modo remissionis venialium. 
+       secun<lb ed="#S" n="73" break="no"/>do. de causa remissionis. Tertio, de eo quod in argumento 
+      <lb ed="#S" n="74"/>implicatur. scilicet quomodo  veniale fiat mortale.
+    </p>
+            <p xml:id="khj78y-q54002-d1e172" n="4">
+      <!-- 4 -->Quantum ad 
+       pri<lb ed="#S" break="no" n="75"/>mum santtres conclusiones. Prima, quod veniale non potest 
+       remit<lb ed="#S" break="no" n="76"/>ti voluntate manente ad illud actu, vel habitu. Et de actu pla 
+      <lb ed="#S" n="77"/>num est. na cum velle peccare sit peccatum: remitti autem peccatum sit 
+      <lb ed="#S" n="78"/>non habere peccatum: quandiu homo vult peccare vel peccalle, 
+      <lb ed="#S" n="79"/>non potest sibi illud dimirti. sed ista ratio non directe 
+       conclu<lb ed="#S" break="no" n="80"/>dit, quin ipsum peccatum volitum, quod non est in actu, possit 
+       re<lb ed="#S" break="no" n="81"/>mitti, sed de ipso velle. Vnde dicendum, quod de ipso peccato, quod 
+      <lb ed="#S" n="82"/>est velle peccasse, est pofsibile de potetia absoluta, vt ratio 
+      <lb ed="#S" n="83"/>concludit. De ipso autem peccato praeter leo est inconueniens de 
+       po<lb ed="#S" n="84" break="no"/>tentia ordinata, quod remittat, quandiu voluntas in ipso 
+       compla<lb ed="#S" break="no" n="85"/>cer sibi, cum per hoc committat: &amp; manete causa, debet manem. 
+      <lb ed="#S" n="86"/>re effectus. si autem voluntas sit ad illud habitu: sic. scilicet q si 
+       a<lb ed="#S" break="no" n="87"/>ctus recoleret, q in eo sibi complaceret, nec quandiu sic est 
+       re<lb ed="#S" break="no" n="88"/>mitti potest, quia saltem implicite displicere debet. si vero sic 
+       es<lb ed="#S" break="no" n="89"/>set in habitu, quod ex frequentia ipfius esset habitus generatus: 
+      <lb ed="#S" n="90"/>dum tamen de hoc poeniteret, remitti posset etiam durante 
+       habi<lb ed="#S" break="no" n="91"/>tu acquisito, etiam mortale, sed difficilius est de tali 
+       poenite<lb ed="#S" break="no" n="92"/>re.
+    </p>
+            <p xml:id="khj78y-q54002-d1e216" n="5">
+      <!--5 -->secunda conclusio est, quod potest remitri vnum veniale sine 
+      <lb ed="#S" n="93"/>also, vel de mille vnum, nullo alio remisso: quia ad 
+       venialisre<lb ed="#S" break="no" n="94"/>missionem sufficit displicentia de ipso cum proposito 
+       abstinen<lb ed="#S" break="no" n="95"/>di, &amp; satisaciendi gratia informata: hoc autem potest essede vno 
+      <lb ed="#S" n="96"/>sie alio: ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q54002-d1e229">
+      <!--6--> Tertia conclusio est, quod non potest remit 
+      <lb ed="#S" n="97"/>tralio uod veniale habeti mortase actuale: nisi illo mortali 
+      <lb ed="#S" n="98"/>temisio oriui. vel simul. Et hoc boter tres tatides. 
+       Primo<lb ed="#S" break="no" n="99"/>da remoto priori remouet posterrus, nec posterlus restituitur 
+      <lb ed="#S" n="100"/>hisi priori restituto. Feruot autem charitatis, cui vensale 
+       op<lb ed="#S" break="no" n="101"/>ponrt, est posterior ipsa charltate: vnde qᷓdiu neccharitas 
+      <lb ed="#S" n="102"/>restituii, nec feruor charitatis reparari potest, in qua 
+       repara<lb ed="#S" break="no" n="103"/>Hone cosistit veniass peccati remistio:ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q54002-d1e250" n="7">
+      <!-- 7 -->Et 
+       fir<lb ed="#S" break="no" n="104"/>mat Parto, ua quamuis non fit hic oppositio formalis, vt 
+       qui<lb ed="#S" break="no" n="105"/>dam obiiciut: tamen prout feruor charitatis dicitur actus charita 
+      <lb ed="#S" n="106"/>tis petiilactu detestantis, sic certum est, quod act peri ventalis est 
+      <lb ed="#S" n="107"/>tontrarius formaliter feruori tharitatis: quia secundum illum 
+      <lb ed="#S" n="108"/>actum, quo tendit inpcim̃ non tendit in Deum. Vnde feruor 
+      <lb ed="#S" n="109"/>charitatis stat cum reatu pereccati venialis: sed non cum actu, quia 
+      <lb ed="#S" n="110"/>quando actu peccatur venialiter, numferrot feruor charitatis in De 
+      <lb ed="#S" n="111"/>um actu perfecto: sicut enliti pectenstortaliter recedit a cha 
+      <lb ed="#S" n="112"/>ritate, sic peccans venialr in hbe ipstrecedit a charitatisfer 
+      <lb ed="#S" n="113"/>vore.
+    </p>
+            <p xml:id="khj78y-q54002-d1e276" n="8">
+      <!--8 -->Si dicat, vt isti dicunt, quod sine feruore per solam con 
+      <lb ed="#S" n="114"/>tritionem remittit veniale: dicendum, quod contritio est quida 
+       fer<lb ed="#S" break="no" n="115"/>uor, eum sit actus charitatis. Et sicut vn um peccatum veniale neti 
+      <lb ed="#S" n="116"/>remit tamen per contritionem de alio, non de isto: sed per cor. 
+       tri<lb ed="#S" break="no" n="117"/>cionem de isto sine alio: sic propter feruorem charitatis super hoc 
+      <lb ed="#S" n="118"/>peccatum detestandum propter Deum, non superaliud remit. 
+      <lb ed="#S" n="119"/>titur veniale, &amp; propter feruorem in generali, &amp; implicite 
+       de<lb ed="#S" break="no" n="120"/>lentur venialia generaliter, non autem mortalia. Vnde nunquam 
+      <lb ed="#S" n="121"/>sine feruore remittit veniale: sed non per omnem feruorem, 
+       ls<lb ed="#S" break="no" n="122"/>tet mortale per dem charitatem: quia potest esse feruor, qui nullum 
+      <lb ed="#S" n="123"/>octm̃ respicit, nec recolit.
+    </p>
+            <p xml:id="khj78y-q54002-d1e302" n="9">
+      <!-- 9 -->secundo sic, poena non est 
+       satisfa<lb ed="#S" break="no" n="124"/>ctoria, nisi sit Deo grata &amp; accepta: sed quicquid fiat ab existen 
+      <lb ed="#S" n="125"/>te in mortali, non acceptat a Deo, cum sit eius inimic? ideo 
+      <lb ed="#S" n="126"/>&amp;c.
+    </p>
+            <p xml:id="khj78y-q54002-d1e313" n="10">
+      <!--10 -->si dicat, quod est Deo accepta, ex quo est talis, qualis 
+      <lb ed="#S" n="127"/>est ab eo taxata, sicut illa inferni est taxata: ideo vlterior 
+      <lb ed="#S" n="128"/>non requirit, licet maior possit infligi.
+    </p>
+            <p xml:id="khj78y-q54002-d1e322" n="11">
+      <!--11--> Dicendum quod non 
+      <lb ed="#S" n="129"/>valet, quia licet illa inferni sit a Deo taxata, non tamen est culpae 
+      <lb ed="#S" n="130"/>expiatiua, &amp; est Deo accepta, quo ad hoc, quod non vult accipe 
+      <!--0193.xml-->
+      <pb ed="#S" n="193"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>re maIOrc: nO quO ad IiOL, D per IDa remittaL CuIpA. DICaD 
+      <lb ed="#S" n="2"/>tem taxata est poena finita, supposito quod fiat in gratia, &amp; volum 
+      <lb ed="#S" n="3"/>tas reordinet, quod non est sine gratia, vel saltem quandiu est in 
+      <lb ed="#S" n="4"/>TArPali
+    </p>
+            <p xml:id="khj78y-q54002-d1e346" n="12">
+      <!--12. -->Tertio. quia veniale obicurat mentem: 
+       ooicurr<lb ed="#S" break="no" n="5"/>tas autem non tollitur nisi per lucem: ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q54002-d1e354" n="13">
+      <!-- 13 -->Vbi sciendum 
+      <lb ed="#S" n="6"/>quod licet veniale non minuat Iucem orariae nnum rAllir vnorr-
+       ll<lb ed="#S" break="no" n="7"/>cum ex minori defectu rationis procedat, quam mortale, 
+       nihilo<lb ed="#S" break="no" n="8"/>iιne vn sicut dicit obscurari sol per nube, que actu impe 
+      <lb ed="#S" n="9"/>dit, ne illuminet aerem, qui tamen in se non obscuratur: sic dicit 
+       ob<lb ed="#S" break="no" n="10"/>scurari lux gratiae per veniale, per quod pro tunc non exit in actum: 
+      <lb ed="#S" n="11"/>&amp; sicut sole subtracto non potest claritas restitui aeri per amo 
+      <lb ed="#S" n="12"/>tionem nubis, nisi sol redeat, sic est in proposito. ideo &amp;c. 
+    </p>
+            <p xml:id="khj78y-q54002-d1e374" n="14">
+               <lb ed="#S" n="13"/>
+               <!-- 14 -->Sed contra arguit quinque ronious. TrimO nc, quia Iicur 
+       v<lb ed="#S" break="no" n="14"/>num sine alio: duta mortale sine veniali: ita ecouerio. Et inta 
+      <lb ed="#S" n="15"/>ratio fuit tacta in opponendo.
+    </p>
+            <p xml:id="khj78y-q54002-d1e385" n="15">
+      <!-- 15 -->Dicendum, quod non est fimi 
+      <lb ed="#S" n="16"/>IC, quIAIIIuVI, quVICIMILLII MLIIIVCIIIAIC. I. ICIVOI CIIAIILALIs 
+      <lb ed="#S" n="17"/>supponit illud, quo remittir mortale. f. charitatem, non econuer 
+      <lb ed="#S" n="18"/>si vel si istod neget. saltem remissio omnis  peccati est per gratia 
+      <lb ed="#S" n="19"/>Dei: non ex operibus hominis: alifs Gentilis posset fatisfacere 
+      <lb ed="#S" n="20"/>Ae ViM A sana frle · ·inr n irririnscihela ost Hlccrr 
+       TA<lb ed="#S" break="no" n="21"/>non aute remittii nisi ei, qui sibi placet: gratia autem non da 
+      <lb ed="#S" n="22"/>tur cum mortali. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q54002-d1e405" n="16">
+      <!-- 16 -->16 secundo sic, quia poena pro venia 
+      <lb ed="#S" n="23"/>li est finita simpliciter, &amp; non sub conditione: sicut de poena 
+      <lb ed="#S" n="24"/>debita mortali confesso. eraeo pot solut.
+    </p>
+            <p xml:id="khj78y-q54002-d1e414" n="17">
+      <!-- 17 -->sed dicendum. 
+      <lb ed="#S" n="25"/>quod licet sit finita, requirit tamen, que sit Deo accepta, quod non est 
+      <lb ed="#S" n="26"/>quandiu persona est Deo exosa.
+    </p>
+            <p xml:id="khj78y-q54002-d1e423" n="18">
+      <!-- 18 -->Tertio sic, quia non est 
+      <lb ed="#S" n="27"/>ibi offensa, sicut in mortali: sed solum deordinatio voluntatis, 
+      <lb ed="#S" n="28"/>&amp; poena finita. ergo sufficidt duo opposita. ergo &amp;c:
+    </p>
+            <p xml:id="khj78y-q54002-d1e433" n="19">
+      <!-- 19 -->
+               <lb ed="#S" n="29"/>Dicendum, quod licet homo ex le possit deordinari, &amp; ad poenit 
+      <lb ed="#S" n="30"/>obligari, non tamen potest se ex pulis nilibus reordinare: maxime 
+      <lb ed="#S" n="31"/>quando est deordinatus per mortale. Contritio enim est moto? 
+      <lb ed="#S" n="32"/>Iiderr aroitrij, non ioru in petm ueteitandu umpnciter: sed 
+      <lb ed="#S" n="33"/>in peccatum  detestandum propter Deum, &amp; motus liberi arbitrij in 
+      <lb ed="#S" n="34"/>Deum super omnia diligendum: quorum neutrum facit, qui est 
+      <lb ed="#S" n="35"/>in mortali, quia nec Deum ciligit iuper ora, quia tunc non 
+      <lb ed="#S" n="36"/>adhaeret ei, quod est contra Deum: nec detestatur peccatum 
+      <lb ed="#S" n="37"/>bure vropter Deum, quia tunc magis detestaret, quod est ma 
+      <lb ed="#S" n="38"/>gis contra Deum. ideo &amp;c. Nos potest etia homo se liberam a 
+      <lb ed="#S" n="39"/>reato poenae, nisi a Deo per gratiam remittat.
+    </p>
+            <p xml:id="khj78y-q54002-d1e462" n="20">
+      <!-- 20 -->Quafto, 
+      <lb ed="#S" n="40"/>quia quod non tollit actu &amp; aptitudine per peccatum, non 
+       po<lb ed="#S" break="no" n="41"/>test restirui adremissionem peccatiised per veniale non tol. 
+      <lb ed="#S" n="42"/>atur gratia acru, ncut per peccatu mortale, nec aptitudine 
+      <lb ed="#S" n="43"/>sicut persecundum, ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q54002-d1e475" n="21">
+      <!--21 -->Dicendum, quod illud quod 
+      <lb ed="#S" n="44"/>nec tollit, nec praesupponitur ad restitntionem elus quod 
+      <lb ed="#S" n="45"/>Ip e bo spiy ti 
+       A<lb ed="#S" break="no" n="46"/>prae sopponitur sic, sicut per peccatum quodcumq, in moribus 
+      <lb ed="#S" n="47"/>nec tollitur fides, nec spes: quia peccator, &amp; tredere, &amp; spe. 
+      <lb ed="#S" n="48"/>TaICDOICII: &amp; LIIVCMuLO pCCCuIO pOICIIIIOIHOIIDCIAII 
+       II<lb ed="#S" break="no" n="49"/>ne fide, &amp; spe: quia sine fide impossibile est placere Deo: &amp; sit 
+      <lb ed="#S" n="50"/>praesupponiturad omnem reordinationem, &amp; similiter est de cha 
+      <lb ed="#S" n="51"/>ritate, &amp; gratia.
+    </p>
+            <p xml:id="khj78y-q54002-d1e497" n="22">
+      <!-- 22 -->Quinto, qui puer non baptizatiss in 
+      <lb ed="#S" n="52"/>originali existens: si quando venit ad aetatem, in qua primo potest 
+      <lb ed="#S" n="53"/>PmATAr at i alitar var siinnrisitia non lx Piir l-c-.
+       lA<lb ed="#S" break="no" n="54"/>aut tunt puer eririn inferno, &amp; punietur pro peccato 
+       ve<lb ed="#S" break="no" n="55"/>4ia li neέns finita. vel infinita, si hnita, fortiori ratione 
+       po<lb ed="#S" break="no" n="56"/>tuit eam in hoc seculo soluere, si vixisset, non obstante origi 
+      <lb ed="#S" n="57"/>nali: cum quo non stat gratia: si infinita, videt inconueniens, cum 
+      <lb ed="#S" n="58"/>secundum taxationem diuinam peccato vensali non debeatur nisi 
+      <lb ed="#S" n="59"/>DoeDAHDIIa.
+    </p>
+            <p xml:id="khj78y-q54002-d1e519" n="23">
+      <!-- 23 -->OCO AV IOL DILCIIH,,IIO CIL IIIIIIIC, Qd 
+      <lb ed="#S" n="60"/>ille qui in solooriginali, &amp; veniali est, potest ex puris 
+       natura<lb ed="#S" break="no" n="61"/>libus Deum super omnia diligere: &amp; sic voluntatem habere 
+       ordi<lb ed="#S" break="no" n="62"/>Aam· N Pst oratus Deo ad bona naturae habeda, &amp; ad maia 
+      <lb ed="#S" n="63"/>oenae sensus euadenda: quae non debet peto originali, licet 
+      <lb ed="#S" n="64"/>non sit gratus quo ad habendam gloria, &amp; vitandam poenam damni. 
+      <lb ed="#S" n="65"/>DCO IIIC, QuI CIIIn norIaAs nu DeI VVIunIALC GCGTCIRaC.TIM 
+      <lb ed="#S" n="66"/>pliciter, &amp; cit reus poenae aeternt uami, &amp; ienius: vn non pos 
+      <lb ed="#S" n="67"/>PAOrAInOri · vnele Drs VeA ia li cnj · rriqjrt ali morio in · meerrib 
+      <lb ed="#S" n="68"/>punietur: non nc aute or pe originan, &amp; veniaii. Vnde al- 
+      <!--0193.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="69"/>co, quod sine gratia posset remitti venialae in non habente morta 
+      <lb ed="#S" n="70"/>Ie actuale: non tn nne mortali: quauisaliqui uicant etiam, 
+      <lb ed="#S" n="71"/>quod nec sine gratia simpliciter.
+    </p>
+            <p xml:id="khj78y-q54002-d1e554" n="24">
+      <!-- 24 -->Quantum ad secundu de 
+      <lb ed="#S" n="72"/>cauia remisionis veniaisu iunt quatuor conciuuones. CA 
+      <lb ed="#S" n="73"/>ma, quod veniale potest remitti iine gratiae intutione, cetia unc 
+      <lb ed="#S" n="74"/>augmento. rrimu patet, quia no priuat gratisicur morta 
+      <lb ed="#S" n="75"/>le. Vnde con illa potest committi: &amp; ipsa manente remitti de 
+      <lb ed="#S" n="76"/>augmeto etiapatet: quia cum cnaritas no augmeterur. nil. g 
+      <lb ed="#S" n="77"/>Illum actu, qui est cu ornatu per leue displicentia, sinc 
+       co<lb ed="#S" break="no" n="78"/>natu Ieuis coplacetia postet tor:1.
+    </p>
+            <p xml:id="khj78y-q54002-d1e575" n="25">
+      <!--25--> Si dicatur, quod venia 
+      <lb ed="#S" n="79"/>le non remittitur nisi per teruore cnaritatis, qui no potenae 
+      <lb ed="#S" n="80"/>sinc augmento: dicendu, quod aequiuocatio eit dc teruore 
+       in<lb ed="#S" break="no" n="81"/>tendete cnaritate: quia accipitur pro actu cu conatu-&amp; ue 
+      <lb ed="#S" n="82"/>reruore remittete veniaie: qui accipitur pro iimpiici accu, 
+      <lb ed="#S" n="83"/>in quem prorumpit charitas etia tepide detestado.
+    </p>
+            <p xml:id="khj78y-q54002-d1e591" n="26">
+      <!-- 26 -->
+       secu<lb ed="#S" break="no" n="84"/>da cociuno cit, quod peccatu ven iaic no remiciq. 
+      <lb ed="#S" n="85"/>ne, saltem implicita: quia contraria contrariis curantur: si autem, 
+      <lb ed="#S" n="86"/>non committitur, nisi voluntate explicita, vel interpretatiua: 
+      <lb ed="#S" n="87"/>puta, quia potuit praeuenire, &amp; impedire, nec fecit: sic ad de 
+      <lb ed="#S" n="88"/>renou TequITIIuT CIIpIICCIIa, Ia: Impiicita, &amp; InLCI PCCLRa, 
+      <lb ed="#S" n="89"/>ua: puta, quod in gnaii uupiicet uui actu, quicquiu recit Lcp. 
+      <lb ed="#S" n="90"/>cotrariu, verauipio retaruatiup, in qua cu gnalrcontritu-. 
+      <lb ed="#S" n="91"/>ne veniut ea, dc quiuus doleret: iractu recoseret: non aitq, 
+      <lb ed="#S" n="92"/>quae optime Deus nouit.
+    </p>
+            <p xml:id="khj78y-q54002-d1e615" n="27">
+      <!-- 27 -->sed vtru conttitiordeleat. 
+      <lb ed="#S" n="93"/>enectiueventale, dato quod no deleat mortale nih dilpositiue:: 
+      <lb ed="#S" n="94"/>Dicont quidam, quod licet anima nullo modo sit causa efficies 
+       re<lb ed="#S" break="no" n="95"/>IiIVIIIa PELLALs MiVILOIP.MLILaIMuiM ILsaLI, V.AC sQ. 
+      <lb ed="#S" n="96"/>gruo per attritione, ver de con igno per. cutritone tecunnu, 
+      <lb ed="#S" n="97"/>ilros, qui dicut, quod rormatio actus poenit eia praecedit pecca 
+      <lb ed="#S" n="98"/>ti remilslone: tn anima sub Deo est causa efficies 
+       remissio<lb ed="#S" break="no" n="99"/>nis peccati venians. Quoo tripiiciter declarant, Primo ic. 
+      <lb ed="#S" n="100"/>quod potest maius, potest minus in habentibus ordinem: sed voluntas. 
+      <lb ed="#S" n="101"/>cu cnaritate por in actu cotritionis, quiest nobilissimus, 
+      <lb ed="#S" n="102"/>&amp; prius remusione peccati: ergo &amp; iniiia.
+    </p>
+            <p xml:id="khj78y-q54002-d1e641" n="28">
+      <!--28. -->secundo 
+      <lb ed="#S" n="103"/>sit, sicut peccatu mortale remittitur, quatu ad offenlam pex 
+      <lb ed="#S" n="104"/>gratiae infusionem: ita peccatu ven lale remittit per contri 
+       tio<lb ed="#S" break="no" n="105"/>nis motu: sed si esset possibile, quod anima ellet caula ertis ao 
+      <lb ed="#S" n="106"/>intunois grauae: ipta intunone gratiae mediate euet, ve esle 
+      <lb ed="#S" n="107"/>pontet cauia epicies remusiois peccati mortaiis: culn ergo 
+      <lb ed="#S" n="108"/>anima charitate informata, sit causa efficiens mot, us 
+       contri<lb ed="#S" break="no" n="109"/>tionis: quia iplum clicit: videtur, quod anima char, tate furma 
+      <lb ed="#S" n="110"/>ra mediante moru cotritionis ut cauta emcies remissionis 
+      <lb ed="#S" n="111"/>pectati venialis.
+    </p>
+            <p xml:id="khj78y-q54002-d1e665" n="29">
+      <!-- 29 -->Praeterea in peccat orae non existente, 
+      <lb ed="#S" n="112"/>a e ninu aupq cups 
+      <lb ed="#S" n="113"/>caretia latistactionis debitae pro a-. u peccati venialis: 
+       in<lb ed="#S" break="no" n="114"/>quantu peutatu veLsMIsVMqa aupolitio ad oiun, op 
+      <lb ed="#S" n="115"/>fenisam: seu obligatio a duuiia, amicitia. Destructio aute ca 
+      <lb ed="#S" n="116"/>retiae debitae latisractionis eit per latistactions 
+       potutonem<lb ed="#S" break="no" n="117"/>illa aute iatisracuo ei notus cotritiois, vel per ipsum uu 
+      <lb ed="#S" n="118"/>tum causata. Cum er go anima charitate infurmata sit 
+       cau<lb ed="#S" break="no" n="119"/>ia ciiitjonis: videtur, quod meclate motu con 
+      <lb ed="#S" n="120"/>tritionis effect iue destruat veniale peccatum. sed qui a hoc 
+      <lb ed="#S" n="121"/>IOPOLCLT AALCICIIII MICVI.IgRAQILVgnasscaLD, CMIMsMP. 
+      <lb ed="#S" n="122"/>De eit cauia ericies: iueo aja cnaritate intormata peccatu 
+      <lb ed="#S" n="123"/>veniaie no rem iLciL cIiui, niii in plonia, veIi viI,uie Det. 
+    </p>
+            <p xml:id="khj78y-q54002-d1e696" n="30">
+               <lb ed="#S" n="124"/>
+               <!-- 30 -->Aliis aut videt dicedu, quod quauis anima int armata cha 
+      <lb ed="#S" n="125"/>ritate mereat per contritionem remissionem veni alis peccati: 
+      <lb ed="#S" n="126"/>tu iii remiisionis no debet oici cauia enicies: ialte 
+       loquan<lb ed="#S" n="127" break="no"/>do ue caura per ierqa motus cotritiois no eit caula remissio 
+      <lb ed="#S" n="128"/>nis venians peccati emicies: per noc iotu, quod cotntioura 
+       me<lb ed="#S" break="no" n="129"/>niatC CIILIL AYMEMLM e AaaREts taa vi i taz ieu eit pemcrpa 
+      <lb ed="#S" n="130"/>nus per noc, quod iua cotritio eit ipui Det unmediatus effectus. 
+    </p>
+            <p xml:id="khj78y-q54002-d1e717" n="31">
+               <lb ed="#S" n="131"/>
+               <!-- 31 -->Vnde ad primam rationem aliorum dicitur, quod licet anima 
+      <lb ed="#S" n="132"/>charitate intormata possit elle causa efficiens illius actus, 
+      <lb ed="#S" n="133"/>qui formatus est: non tamen potest esse car: sa efficiens charitatis, per 
+      <lb ed="#S" n="134"/>qua tormatur. Actus aute inie rone ellentiae actus non est no 
+      <lb ed="#S" n="135"/>bilior remissione peccati: sed est quaedam congrua disposiio 
+      <lb ed="#S" n="136"/>ad cauca roe cnaritatis, qua tormatur, dicitur ea nobilior. 
+    </p>
+            <p xml:id="khj78y-q54002-d1e735" n="30">
+      <!--0194.xml-->
+               <pb ed="#S" n="194"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>
+               <!-- 32 -->Per idem potest dici ad secundum.
+    </p>
+            <p xml:id="khj78y-q54002-d1e748" n="33">
+      <!-- 33 -->Ad tertium dicendum, 
+      <lb ed="#S" n="2"/>quod anima non est causa efficiens satisfactloss, seu reconciliationis 
+      <lb ed="#S" n="3"/>quantum est offesa, seu dispositio ad offensam, sed solum De. 
+      <lb ed="#S" n="4"/>si qs autem vellet sustinere primam opinionem posset respondere 
+      <lb ed="#S" n="5"/>ad duas rationes sec undae opinionis, quarum prima talis est. Per 
+      <lb ed="#S" n="6"/>authoritatem glo. Matth. 9. dimittunitibi petn. solus Deus 
+      <lb ed="#S" n="7"/>ctam dimittere nouit. solutio principal'r, vel loquit de mor 
+      <lb ed="#S" n="8"/>talibus.
+    </p>
+            <p xml:id="khj78y-q54002-d1e768" n="34">
+      <!-- 34 -->Ad secundam, quae talis est: tale remittere peccatum  
+      <lb ed="#S" n="9"/>quantum ad offensam, non tantum est remouere a peccatore deformi 
+      <lb ed="#S" n="10"/>tatem, propter quam Deo displicebat: sed etiam ipsam Dei 
+       displi<lb ed="#S" break="no" n="11"/>centiam remouere, quia anima, quae ante peccati remissionem Deo 
+      <lb ed="#S" n="12"/>displicebati posteius remissionem Deo non displicet: sed 
+       nul<lb ed="#S" break="no" n="13"/>la creatura potest esse causa efficiens remotionis diuinae displi 
+      <lb ed="#S" n="14"/>centiae: sicut nulla creatura potest esse causa diuinae placentiae, seu 
+      <lb ed="#S" n="15"/>acceptationis efficiens, quia placentia diuia est actus voluntatis dei 
+      <lb ed="#S" n="16"/>g est realrandem quod ipse: ergo cum contritio sit creatura, non potest 
+      <lb ed="#S" n="17"/>esse causa efficiens remissionis peti.
+    </p>
+            <p xml:id="khj78y-q54002-d1e792" n="35">
+      <!-- 35 -->solutio, remouere 
+      <lb ed="#S" n="18"/>diuinam displicentiam: non est remouere aliquem actum diuinae vo 
+      <lb ed="#S" n="19"/>luntatis, sed remouere defectum animae propter quem 
+       displice<lb ed="#S" break="no" n="20"/>bat deo ante: quo defectu remoto, anima quae ante deo 
+       di<lb ed="#S" break="no" n="21"/>splicebat sibi non displicet: non per aliquam mutationem factam in 
+      <lb ed="#S" n="22"/>voluntate dei, sed ex parte animae. Et secundum hoc potest 
+       ho<lb ed="#S" break="no" n="23"/>mo in hora saepe a veniali quo ad culpam liberari, quia saepe est 
+      <lb ed="#S" n="24"/>dispositus, quod in generali de omnibus doleat, &amp; in speciali de 
+      <lb ed="#S" n="25"/>occorrentibus, &amp; sic etiam doleret de omnibus in speciali, &amp; in spam 
+      <lb ed="#S" n="26"/>li occurrerent: sed statim reincidit homo. Non autem quaecumque 
+       di<lb ed="#S" break="no" n="27"/>splicentia sufficit ad remissionem poenae sicut culpae, sed requiritur. 
+      <lb ed="#S" n="28"/>pfecta satifactio.
+    </p>
+            <p xml:id="khj78y-q54002-d1e821" n="36">
+      <!-- 36 -->Tertia conclusio est, quod sine confessio 
+      <lb ed="#S" n="29"/>ne remittipont veniale. sacramentum enim non est de 
+       ne<lb ed="#S" break="no" n="30"/>cessitate salutis, sine quo potest haberi gratia, nec per consequens 
+       re<lb ed="#S" break="no" n="31"/>spectu illius effectus tollendi qui non tollit gratiam dei, quae est vi 
+      <lb ed="#S" n="32"/>ta aeterna: vnde cum veniale sit huiusmodi, de veniali non est neces 
+      <lb ed="#S" n="33"/>seconfiteri ratione sacri vel praecepti diuini: sed forte ratione 
+      <lb ed="#S" n="34"/>praeceptiecclesiae tenet quis semel in anno, si non habet 
+       mor<lb ed="#S" n="35" break="no"/>tale: sicut Papa praecipit recipere eucharistiam sacramentaliter, quod 
+      <lb ed="#S" n="36"/>non erat necesse, sed solum spiritualiter.
+    </p>
+            <p xml:id="khj78y-q54002-d1e844" n="37">
+      <!-- 37 -->Et si dicatur, ergo 
+      <lb ed="#S" n="37"/>ad plus tener carens mortali, quam habens mortale, quia ille non 
+      <lb ed="#S" n="38"/>tenei ad confessionem venialium: Dicendum, quod hoc est per 
+       acci<lb ed="#S" break="no" n="39"/>dem. Alij vero dicunt, quod non est intentio Papae ligare ad con 
+      <lb ed="#S" n="40"/>sesiionem annuam, nisi de illis, de quib' homo alias tenet con 
+      <lb ed="#S" n="41"/>fiteri. Alij dicunt, quod nec Papa potest obligare ad confessionem 
+       ve<lb ed="#S" break="no" n="42"/>nialium, sicut nec ad matrimonium, quia hoc esset immutare sacra 
+      <lb ed="#S" n="43"/>s. facere illud necessitatis, quod est voluntatis.
+    </p>
+            <p xml:id="khj78y-q54002-d1e864" n="38">
+      <!-- 38 -->Quarta 
+      <lb ed="#S" n="44"/>conclusio est de modis inspeciali, quib' venialia 
+       dimittun<lb ed="#S" break="no" n="45"/>tur. Vbi sciendum est, quod per illos modos, plus quam per alia bo 
+      <lb ed="#S" n="46"/>na opera dimittuntur: licet nec per hos dimittant nisi cum di 
+      <lb ed="#S" n="47"/>splicetia voluntatis. Primo, quia isti modi plus incitant homi 
+      <lb ed="#S" n="48"/>nem ad motum liberi arbitrij detestantis petam. secundo, quia plus 
+      <lb ed="#S" n="49"/>valent adremissionem poenae ex merito, &amp; precibus totius 
+       ec<lb ed="#S" break="no" n="50"/>clesiae. Tertio, quia plus sufficit generalis contritio hic, quae 
+       ali<lb ed="#S" break="no" n="51"/>bi:ita tamen quod homo vtatur istis hac intentione. Vnde versus: 
+      <lb ed="#S" n="52"/>
+               <quote xml:id="khj78y-q54002-Qd1e887">Orans, tinctus, edens, confessus, dans, benedicens.</quote>
+               <lb ed="#S" n="53"/>Orans oratione Dominica, Dimitte nobis debita nostra. Item tusio 
+      <lb ed="#S" n="54"/>ne pectoris. Publicanus pcutiebat pectus suundicens, Deus 
+      <lb ed="#S" n="55"/>propitius esto mihi pctori. Ite in ecclesia consecrata. 3. Reg. 
+      <lb ed="#S" n="56"/>4. Quroraueriti domo hac propitiaberis. Tinctus. i. a qua 
+       benedi<lb ed="#S" break="no" n="57"/>cta, quae inquinatos sanctificat, &amp; purgat. Edens. i. conicans, imo 
+      <lb ed="#S" n="58"/>ois digna sacramenti sumptio, &amp; etiam sacralis vnctio, vt 
+       epi<lb ed="#S" break="no" n="59"/>fcoporum, &amp; regum. 1. Reg. 16. Cum vnxisset Dauid, spiritus Domini 
+      <lb ed="#S" n="60"/>crenit in eum. non autem illa qua vngunt pugiles, quae omnino 
+      <lb ed="#S" n="61"/>eamalis est: sed qua vngunt baptizati, &amp; sacerdotum manus. 
+      <lb ed="#S" n="62"/>Confessus, sioe sit confessio generalis, siue specialis: sacramentalis, 
+      <lb ed="#S" n="63"/>vel non. Dans, eleemosynas corporales, vel spirituales. 
+       Benedi<lb ed="#S" n="64" break="no"/>cens. i. Pane benedicto in Dominica per sacerdotem: non dico de 
+       pa<lb ed="#S" n="65" break="no"/>ne coni, qui cum benedictione sumit. Item benedictio monialium 
+      <lb ed="#S" n="66"/>&amp; huiusmodi: quae omnia cum contritione remittunt, &amp; benedictio 
+       epi<lb ed="#S" n="67" break="no"/>scopalis: non autem indulgentiae, quae solum poenam non culpam etiam 
+      <lb ed="#S" n="68"/>venialem remittut: dico autem, quod minor dolor cum his suf- 
+      <!--0194.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="69"/>ficit ad remissionem venialium, quae sine his. Vnde non frustra 
+       adhi<lb ed="#S" break="no" n="70"/>bentur. Quod autem per orationem, &amp; praecipue Dominicam huiusmodi 
+       re<lb ed="#S" n="71" break="no"/>mittantur: probai de poe. di. 3. de quotidianis, leuibusque 
+       pec<lb ed="#S" n="72" break="no"/>catis, quotidiana oratio fidelium sufficit, Pater noster &amp;c. Item 
+      <lb ed="#S" n="73"/>quod per aquam benedictam, probatur: de conse. di. 3. Aquam sale 
+      <lb ed="#S" n="74"/>cospersam populis benedicim', vt ea contacti aspersi 
+       sancti<lb ed="#S" break="no" n="75"/>ficentur. Cuius ratio subditur. si enim salis aspersione per 
+      <lb ed="#S" n="76"/>Helisaeum prophetam sterilitas aquae sanata est: quanto magis 
+      <lb ed="#S" n="77"/>diuinis precibus sacratus sal sterilitatem aufert rerum 
+       huma<lb ed="#S" break="no" n="78"/>narum, &amp; coinquinatos sanctificat &amp; purgat, &amp; cuncta bona 
+      <lb ed="#S" n="79"/>opera multiplicat, &amp; insidias diaboli auertit, &amp; a phantasma 
+      <lb ed="#S" n="80"/>tibus, &amp; versutiis defenditur: supple, quia sicut cinis vitulae asper 
+      <lb ed="#S" n="81"/>sus. i. aqua lustrationis &amp; expiationis inquinatos 
+       sanctifi<lb ed="#S" break="no" n="82"/>cat ad emundationem carnis: sic ista ad emundationem mentis. 
+      <lb ed="#S" n="83"/>Item quod perdignam sumptionem encharistiae, pbatur, de conse. 
+      <lb ed="#S" n="84"/>dist. 2. Cum omne crimem &amp;c. si quotiens. vbi dicitur, &amp; 
+       habe<lb ed="#S" break="no" n="85"/>tur dist. 12. Quarti sententiarum. Qui semper pecco, semper 
+      <lb ed="#S" n="86"/>debeo accipere medicinam. scilicet corpus Domini. Item de confessione 
+      <lb ed="#S" n="87"/>probatur: de poeni. d. 3. c. De quotidianis. Item quod per 
+       elar<lb ed="#S" break="no" n="88"/>gitionem eleemosynarum probat: de poeni. dist. 1. Medicinam. c. 
+      <lb ed="#S" n="89"/>Quamobrem, vbi Hiero. inducit Illud Danielis. 4. Peccata tua 
+      <lb ed="#S" n="90"/>eleemosynis redime. Item, quodper benedictionem episcopalem, 
+      <lb ed="#S" n="91"/>abbatum, &amp; monialium, probat. 1. q. 1. dictum. c. Benedictio. nume 
+      <lb ed="#S" n="92"/>ri. 6. Vos ponite nomem meum super filios Israel, &amp; ego 
+       benedi<lb ed="#S" break="no" n="93"/>cameis. Hos quatuor modos ponit Hostiem. de poe. &amp; re. c. Omni
+       s<lb ed="#S" break="no" n="94"/>Item, quod tusio pectoris, probatur: de poe. dist. 1. Tres actiones. 
+      <lb ed="#S" n="95"/>dict. 2. sicut, inquit. Item, quod extrema vnctio, probatur: de 
+      <lb ed="#S" n="96"/>sacra vnctione. c. Nuper. 5. Vbi prids. imo &amp; omnis sacramen 
+      <lb ed="#S" n="97"/>ti digna susceptio: verum est quod ad quintum modum consueuis 
+      <lb ed="#S" n="98"/>addi parientia flagellorum.
+    </p>
+            <p xml:id="khj78y-q54002-d1e994" n="39">
+      <!-- 39 -->Circa tertium. scilicet quomodo ve 
+      <lb ed="#S" n="99"/>niale fiat mortale, est sciendum, quod veniale peccatum dicitur 
+      <lb ed="#S" n="100"/>quatuor modis. scilicet ex causa, ex euentu, ex genere, &amp; ex modo 
+      <lb ed="#S" n="101"/>seu imperfectione. Duobus primis modis idem numero act 
+      <lb ed="#S" n="102"/>interior &amp; exteriorem venialis, &amp; mortalis simul. Primo 
+       mo<lb ed="#S" break="no" n="103"/>do successiue. secundo, qui fuit venialis, fit mortalis. Tertio 
+      <lb ed="#S" n="104"/>modo idem numero actus exterior potest esse venialis, &amp; 
+       mor<lb ed="#S" break="no" n="105"/>talis: sicut bonus, &amp; malus: non autem interior, sed idem specie 
+      <lb ed="#S" n="106"/>tripliciter. Primo propter conscientiam erroneam, quae iudicas 
+      <lb ed="#S" n="107"/>mortale, quod est veniale. secundo propter contemptum. 
+       Ter<lb ed="#S" break="no" n="108"/>tio, propter finem ibi constitutum: cuius signum est, qum faceret, 
+      <lb ed="#S" n="109"/>etiam si esset prohibitum. Quarto modo, est idem numero inte 
+      <lb ed="#S" n="110"/>rior, &amp; exterior: puta motus carnis superueniente 
+       consen<lb ed="#S" break="no" n="111"/>su deliberatiuo incipit esse mortale: sed dispositiue 
+       venia<lb ed="#S" break="no" n="112"/>le fit mortale. vnde periculosum est venialia multiplicare: 
+      <lb ed="#S" n="113"/>quia quidam dicunt ea sic posse multiplicari, vt homo non pos 
+      <lb ed="#S" n="114"/>sit postea peccare nisi mortaliter primo peccato: 
+       periculo<lb ed="#S" break="no" n="115"/>sum etiam est vnum peccatum veniale nimis assuescere: quia 
+       fa<lb ed="#S" break="no" n="116"/>cillimum est agere secundum habitum firmiter radicatum, &amp; dii 
+      <lb ed="#S" n="117"/>ficillimum est agere contra: quia consuetudofacit necessitatem. 
+      <lb ed="#S" n="118"/>Vnde homo assuetus verbis otiosis, si occurrat sibi tentatio 
+      <lb ed="#S" n="119"/>quid faceret, si a Deo esset prohibitum? sentiet facere illud: 
+      <lb ed="#S" n="120"/>Et ideo ne habitualiter in homine confirmentur, frequenter 
+      <lb ed="#S" n="121"/>confitenda sunt, &amp; sic nunquam radicabitur habitus. Ad 
+       ar<lb ed="#S" break="no" n="122"/>gumentum dicendum, quod veniale idem numero non fit 
+       mor<lb ed="#S" break="no" n="123"/>tale: nisi denominatione extrinseca, quando super motum 
+      <lb ed="#S" n="124"/>primum superuenit deliberatus consensus rationis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

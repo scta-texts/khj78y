@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="128"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q31577"><!-- l4d11-q1 -->
+            <head xml:id="khj78y-q31577-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-q31577-Hd1e103" type="question-title">
+     utrum 
+     panis, et vinum sit conueniens 
+     mateteri huius sacramenti
+   </head>
+            <p xml:id="khj78y-q31577-d1e106">
+               <lb ed="#S" n="110"/>DISTINCTIO 11. QVAESTIO. I. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e111">
+               <lb ed="#S" n="111"/>CIrca vndecimam distinctionem quaeruntur quatuor. 
+      <lb ed="#S" n="112"/>Primo, de materia eucharistiae. secundo, de 
+       conuer<lb ed="#S" break="no" n="113"/>sione, vtrum sit tota, &amp; praecisa ratio essendi corpus 
+       Chri<lb ed="#S" break="no" n="114"/>sti in sacramento. Tertio, vtrum Deus posset conuerte 
+      <lb ed="#S" n="115"/>omnem creaturam in corpus suum. Quarto, vtrum poscis 
+      <lb ed="#S" n="116"/>conuertere vnum corpus in plura corpora. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e127">
+               <lb ed="#S" n="117"/>De materia eucharistiae.
+    </p>
+            <p xml:id="khj78y-q31577-d1e133">
+               <lb ed="#S" n="118"/>Thom. q. B7. art. I. &amp;. q. so. arti. n. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e138">
+               <lb ed="#S" n="119"/>DE Materia eucharistiae, vtrum 
+       pa<lb ed="#S" break="no" n="120"/>nis, &amp; vinum sit conueniens 
+       mate<lb ed="#S" break="no" n="121"/>teri huius sacramenti. Et videtur quod non, 
+      <lb ed="#S" n="122"/>quia in aliis sacramentis non est nisi 
+       v<lb ed="#S" break="no" n="123"/>na materia simplex: puta aqua, 
+      <lb ed="#S" n="124"/>vel oleum, aut si est duplex ipsa 
+      <lb ed="#S" n="125"/>est composita, vt chrisma, vel 
+       con<lb ed="#S" break="no" n="126"/>iuncta respectu vnius formae, vt 
+      <lb ed="#S" n="127"/>calix cum pane, &amp; vino in sacramento sacerdotij: hic au-
+      <!--0129.xml-->
+      <pb ed="#S" n="129"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>tem sunt diuersae materiae respectu diuersarum 
+       forma<lb ed="#S" break="no" n="2"/>rum. ergo male.
+    </p>
+            <p xml:id="khj78y-q31577-d1e171" n="3">
+      <!-- 3 -->IN Contrarium est Christus, 
+       ec<lb ed="#S" break="no" n="3"/>clesia, &amp; Magister.
+    </p>
+            <p xml:id="khj78y-q31577-d1e178" n="4">
+      <!-- 4 -->REsPONDEO, circa 
+      <lb ed="#S" n="4"/>istam quaestionem sunt septem articuli declarandi. Primus 
+      <lb ed="#S" n="5"/>de materia in generali. secundus de materia in 
+       specia<lb ed="#S" break="no" n="6"/>li. Tertius de quantitate materiae. Quartus de materia pa 
+      <lb ed="#S" n="7"/>nis in generali. Quintus de materia sanguinis. sext' de aqua 
+      <lb ed="#S" n="8"/>quae ibi missei. septimus de forma, qua Christus celebrauit, &amp; 
+      <lb ed="#S" n="9"/>communicauit,
+    </p>
+            <p xml:id="khj78y-q31577-d1e196" n="5">
+      <!-- 5 -->Quantum ad primu sunt quinque 
+       conclu<lb ed="#S" break="no" n="10"/>siones.
+    </p>
+            <p xml:id="khj78y-q31577-d1e203" n="6">
+      <!-- 6 -->Prima, quod duplex debet esse materia 
+       hu<lb ed="#S" break="no" n="11"/>ius sacri. scilicet materia cibi, &amp; potus: quia effectus sacri debet 
+      <lb ed="#S" n="12"/>perfecte representari per materiam modo conuenienti 
+       na<lb ed="#S" break="no" n="13"/>turalibus: quia sacramenta efficiunt, quod figurant: sed huius 
+       sa<lb ed="#S" n="14" break="no"/>cramenti effectus est perfecta animae refectio. ergo materia 
+       re<lb ed="#S" n="15" break="no"/>presentans debet esse per perfectam corporis refectionem: 
+      <lb ed="#S" n="16"/>quae non est nisi per cibum, quod potum. Et ideo cibus, &amp; 
+       po<lb ed="#S" n="17" break="no"/>tus sunt materia huius sacramenti.
+    </p>
+            <p xml:id="khj78y-q31577-d1e224" n="7">
+      <!-- 7 -->secunda 
+       con<lb ed="#S" break="no" n="18"/>clusio est, quod non debet sub vtraque specie dari populo, sed 
+      <lb ed="#S" n="19"/>solum sub specie panis propter periculum effusionis: sicut 
+       o<lb ed="#S" break="no" n="20"/>lim offerentes edebant de sacrificiis, &amp; oblationibus, quae 
+      <lb ed="#S" n="21"/>erant in materia solida, sed soli ministri de libaminibus 
+      <lb ed="#S" n="22"/>quae erant in materia liquida. Graeci tamen communicant car 
+      <lb ed="#S" n="23"/>ni, &amp; sangu ini. Et in quibusdam ecclesiis est consuetudo, 
+      <lb ed="#S" n="24"/>quod communicant sub vtraque specie. Nec est peccatum: quia 
+      <lb ed="#S" n="25"/>quando mos erat, crimen non erat. Et ita caute in illis eccle 
+      <lb ed="#S" n="26"/>siis, siue monasteriis faciunt, quod nihil effundut. sed si 
+       vul<lb ed="#S" break="no" n="27"/>go indifferenter daret, esset maius periculu.
+    </p>
+            <p xml:id="khj78y-q31577-d1e250" n="8">
+      <!-- 8 -->
+       Ter<lb ed="#S" break="no" n="28"/>tia conclusio est, quod non debet celebrari, nisi sub vtraque ma 
+      <lb ed="#S" n="29"/>teria. Et si altera deest, melius est dimittere 
+       celebratio<lb ed="#S" break="no" n="30"/>nem, quae sacramentum mutare, vel diuidere. Et celebrans etiam 
+       de<lb ed="#S" break="no" n="31"/>bet vtramque sumere, nisi mors, aut infirmitas ipsum 
+       impe<lb ed="#S" break="no" n="32"/>diat: de conse. dist. 11. c. Relatum. &amp;. c. Comperimus. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e266" n="9">
+               <lb ed="#S" n="33"/>
+               <!-- 9 -->Quarta conclusio est, quid sit faciendu, si postquam ali 
+      <lb ed="#S" n="34"/>quis missam inchoauerit, occurrat sibi peccatum mortale, 
+      <lb ed="#S" n="35"/>aut quod non est ieiunus, aut quod est suspensus, vel irregularis. 
+      <lb ed="#S" n="36"/>Hic distinguendum est, quia aut consecrauit vtramque, materiam, 
+      <lb ed="#S" n="37"/>vel alteram: &amp; tunc debet cosummare celebrationem· Et hoc 
+      <lb ed="#S" n="38"/>propter generalem prohibitionem, quod sacramenta non remaneant 
+       im<lb ed="#S" break="no" n="39"/>perfecta. Et propter hanc necessitatem excusatur a culpa: 
+      <lb ed="#S" n="40"/>alias esset perplexus. sed forte non excusatur a poena irre 
+      <lb ed="#S" n="41"/>gularitatis, quam incidit celebrando excommunicatus: maxi 
+      <lb ed="#S" n="42"/>me si nondum consecrauerat sanguinem, licet vsque tunc non in 
+      <lb ed="#S" n="43"/>currisset: quia forte habuerat ignorantiam excusantem: sicut 
+      <lb ed="#S" n="44"/>homo, qui susciperet officium iudicandi vsque ad annum cum 
+      <lb ed="#S" n="45"/>iuramento non dimittendi vsque ad annum: si interim occur 
+      <lb ed="#S" n="46"/>rat latro iudicandus condemnando ipsum, quem propter iu 
+      <lb ed="#S" n="47"/>ramentum non potest non condemnare, nihilominus efficitur 
+      <lb ed="#S" n="48"/>irregularis.
+    </p>
+            <p xml:id="khj78y-q31577-d1e305" n="10">
+      <!-- 10 -->Vel forte necessitas hic excusat, 
+      <lb ed="#S" n="49"/>qa legis authoritate hoc facit. sed aliud est de celebran 
+      <lb ed="#S" n="50"/>te legis authoritate simpliciter aliud de celebrante legis 
+      <lb ed="#S" n="51"/>authoritate sub conditione, sicut est hic, quia lex permittit 
+      <lb ed="#S" n="52"/>hic excommunicatum celebrare supposito, quod iam 
+       consecra<lb ed="#S" break="no" n="53"/>uerit, quia hoc est minus malum, sed non simpliciter. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e321" n="11">
+               <lb ed="#S" n="54"/>
+               <!-- 11 -->si autem ante omnem consecrationem, aut est 
+       impe<lb ed="#S" break="no" n="55"/>dimentum, quod sola contritione deler: puta culpa, &amp; tunc con 
+      <lb ed="#S" n="56"/>teratur, &amp; cepta finiat cum proposito confitendi: &amp; sufficit 
+      <lb ed="#S" n="57"/>etiam si sine scandalo dimittere posset, aut est tale impedi 
+      <lb ed="#S" n="58"/>mentum, quod per contritionem non deletur: puta, quia 
+       occur<lb ed="#S" break="no" n="59"/>rit ei, quod non est ieiunus, vel quod est suspensus: aut excommu 
+      <lb ed="#S" n="60"/>nicatus maiori, vel minori excommunicatione: &amp; tunc fi 
+      <lb ed="#S" n="61"/>sine scandalo dimittere potest, omnino dimittat. si autem 
+       si<lb ed="#S" break="no" n="62"/>ne scandalo dimittere non potest, tunc videt, quod potest cepta 
+      <lb ed="#S" n="63"/>perficere. Et quod non ieiunus, aut ligatus prohibetur cele 
+      <lb ed="#S" n="64"/>brare, intelligitur non incipere, non autem postquam 
+       inchoa<lb ed="#S" break="no" n="65"/>uerit consummare.
+    </p>
+            <p xml:id="khj78y-q31577-d1e352" n="12">
+      <!-- 12 -->Vel forte non licet 
+       prose<lb ed="#S" break="no" n="66"/>qui: quia om nia, quae sunt ante consecrationem, sunt praepa 
+      <lb ed="#S" n="67"/>rationes quaedam, &amp; non inchoationes intrinsecae. Nullo 
+      <!--0129.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>autem scandalo debet dimitti veritas vitae, &amp; conscientiae: 
+      <lb ed="#S" n="69"/>sicut non debet celebrare, si non inchoasset, &amp; esset sibi 
+      <lb ed="#S" n="70"/>conscius, quis scandalu nascerct.
+    </p>
+            <p xml:id="khj78y-q31577-d1e373" n="13">
+      <!-- 13 -->Quinta 
+       con<lb ed="#S" break="no" n="71"/>clusio est, si ipse in sanguine venenum inspiceret, non 
+       de<lb ed="#S" break="no" n="72"/>bet sumere, nec sumendum dare: quia alias esset homicida 
+      <lb ed="#S" n="73"/>sui, aut alterius, aut etiam temtaret Deum. sed illo ad 
+       par<lb ed="#S" break="no" n="74"/>tem posito, &amp; reuerenter conseruato faciat, sicut faceret, 
+       v<lb ed="#S" break="no" n="75"/>bi materia vini sibi deesset: vt dicct in sequenti articulo. 
+      <lb ed="#S" n="76"/>si autem musca, vel aranea ceciderit, debet bestia, si potest 
+      <lb ed="#S" n="77"/>capi, &amp; lauari: &amp; postea conburi, &amp; lotio, &amp; cineres in 
+       pi<lb ed="#S" break="no" n="78"/>cisnam poni: in qua ponuntur, quae contigerunt corpus, aut 
+      <lb ed="#S" n="79"/>sanguinem mediate, vel immediate: in quibus tamen nihil est 
+      <lb ed="#S" n="80"/>de corpore, aut sanguine, sicuit rasura tabulae, &amp; terrae: 
+      <lb ed="#S" n="81"/>super quam stillauit de sanguine, qui lambi debet, &amp; potest 
+      <lb ed="#S" n="82"/>etiam a non ieiuno sumi. Non sic autem particula corporis, 
+      <lb ed="#S" n="83"/>quae leuari potest, vt in crastinum seruetur sumenda a 
+       iciu<lb ed="#S" break="no" n="84"/>no stomacho. si autem timet sanguinem veneno iufectum 
+      <lb ed="#S" n="85"/>non sumat ratione dicta: sed faciat seruari, sicut dictum est 
+      <lb ed="#S" n="86"/>de veneno. Nec istam bestiam venenosam sumere debet. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e412" n="14">
+               <lb ed="#S" n="87"/>
+               <!-- 14 -->Fertur autem quidam sacerdos simplex ex 
+       deuo<lb ed="#S" break="no" n="88"/>tione, nesciens quid facere araneam cum sanguine sumpsil 
+      <lb ed="#S" n="89"/>se: &amp; postea sibi minuens eam cum sanguine primitus emi 
+      <lb ed="#S" n="90"/>sisse: quod fuit miraculum maximum Dei, siue simplicitati 
+      <lb ed="#S" n="91"/>compatientis.
+    </p>
+            <p xml:id="khj78y-q31577-d1e428" n="15">
+      <!-- 15 -->QVANTVM ad secundum 
+      <lb ed="#S" n="92"/>sunt quinque conclusiones.
+    </p>
+            <p xml:id="khj78y-q31577-d1e435" n="16">
+      <!-- 16 -->Prima, qualis sit 
+       il<lb ed="#S" break="no" n="93"/>la materia: quia panis, &amp; vinum, sicut Christus instituit: qui 
+      <lb ed="#S" n="94"/>tamen in alia quacunque similiter potuit, sed congruentius 
+      <lb ed="#S" n="95"/>fuit, quantum ad nobis apparentia: quia communius in cibum 
+      <lb ed="#S" n="96"/>&amp; potu sumuntur a valentibus habere. sed in defectum isto 
+      <lb ed="#S" n="97"/>rum alia pro istis sumuntur. Vbi autem haec adsunt, haec 
+       con<lb ed="#S" break="no" n="98"/>muniter in cibum, &amp; potum sumuntur per se, aut cum aliis, 
+      <lb ed="#S" n="99"/>nec propter alia respuuntur, &amp; haec magis sine aliis suffi 
+      <lb ed="#S" n="100"/>ciunt, quae econuerso.
+    </p>
+            <p xml:id="khj78y-q31577-d1e457" n="17">
+      <!-- 17 -->secunda conclusio est, q 
+      <lb ed="#S" n="101"/>non debuit institui in materia mellis, quamuis sit dulce: quia 
+      <lb ed="#S" n="102"/>est inflatiuum. Vnde nec in aliquo sacrificio ve. le. 
+       pone<lb ed="#S" break="no" n="103"/>bant.
+    </p>
+            <p xml:id="khj78y-q31577-d1e468" n="18">
+      <!-- 18 -->Tertia conclusio est, quod nec in lacte: quia 
+      <lb ed="#S" n="104"/>est cibus paruulorum: hic autem est cibus, &amp; si paruulorum 
+      <lb ed="#S" n="105"/>humilitate tamen est solidus, &amp; magnorum charitate, propter 
+      <lb ed="#S" n="106"/>quod dictum est Aug. Cibus sum grandium, cresce, &amp; 
+       man<lb ed="#S" break="no" n="107"/>ducabis me
+    </p>
+            <p xml:id="khj78y-q31577-d1e482" n="19">
+      <!-- 19 -->Quarta conclusio, quid si 
+       sacer<lb ed="#S" break="no" n="108"/>dos inueniat indebitam materia panis ministratam: Et siqui 
+      <lb ed="#S" n="109"/>dem ante consecratione sanguinis, quia adhuc nihil est 
+      <lb ed="#S" n="110"/>de essentia sacramenti actum: si posset habere materiam panis 
+       ve<lb ed="#S" break="no" n="111"/>ram: adhibeat, &amp; reincipat canonem a capite, adhibita 
+       a<lb ed="#S" break="no" n="112"/>lia materia vini: si eam habet in promptu, &amp; tunc nulla re 
+      <lb ed="#S" n="113"/>petitio fiat super idem. si autem non habet in promptu 
+       a<lb ed="#S" break="no" n="114"/>liam materiam vini: similiter idem faciat, nec materiam 
+       vi<lb ed="#S" break="no" n="115"/>ni segreget timore reiterationis: quia non est aliquid, quod 
+      <lb ed="#S" n="116"/>non liceat repeti sicut si aliqua oratio canonis bis 
+       dica<lb ed="#S" break="no" n="117"/>tur, non est magnum periculum, nec similiter si cruces 
+       iteren<lb ed="#S" break="no" n="118"/>tur, quamuis numerus habeat certum mysterium: quia tunc non 
+      <lb ed="#S" n="119"/>tollitur mysterium, sed repetitur. si autem non possit habe 
+      <lb ed="#S" n="120"/>re materiam panis, vltra non procedat, nec sacramentum diuidat, si 
+      <lb ed="#S" n="121"/>cut nec a principio debet inchorare, si non potest vtramque, 
+      <lb ed="#S" n="122"/>materiam habere. si autem post consecrationem sanguinis: 
+      <lb ed="#S" n="123"/>ante perceptionem: tunc si potest habere materiam pauis 
+       debi<lb ed="#S" break="no" n="124"/>tam, reincipat a capite canonis: quia non debet consecrare 
+      <lb ed="#S" n="125"/>materiam nisi praecedentibus cerimoniis solitis super eam. 
+      <lb ed="#S" n="126"/>Et si in promptu habeat vinum vtranque nouam materiam 
+       adhi<lb ed="#S" break="no" n="127"/>beat, &amp; vltra procedat, &amp; sanguinem primo consecratum, 
+      <lb ed="#S" n="128"/>post consecrationem misceat, vel ante finem missae, &amp; ante 
+      <lb ed="#S" n="129"/>sumptionem ablutionis cum alio, vel post alium sumat.
+    </p>
+            <p xml:id="khj78y-q31577-d1e534" n="20">
+               <lb ed="#S" n="130"/>
+               <!--20--> si autem non habet vinum in promptu, non oportet, 
+      <lb ed="#S" n="131"/>quod sanguinem segreget: dum tamen verba consecrationis non 
+       ite<lb ed="#S" break="no" n="132"/>ret super sanguinem: sed omnia alia sine iniuria sacramenti 
+       ite<lb ed="#S" break="no" n="133"/>rare potest. Nec erit mendacium cum dicetur: Corpus, &amp; fan 
+      <lb ed="#S" n="134"/>guis Domini nostri Iesu Christi fiat &amp;c. quia refertur ad hoc, quod 
+      <!--0130.xml-->
+      <pb ed="#S" n="130"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>vtrunque est sub forma panis, licet differenter. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e558" n="21">
+               <lb ed="#S" n="2"/>
+               <!-- 21 -->Quinta conclusio est, quid facere debeat, si 
+       de<lb ed="#S" break="no" n="3"/>prehendat materiam vini indebitam
+    </p>
+            <p xml:id="khj78y-q31577-d1e567" n="22">
+      <!-- 22 -->
+       Distinguen<lb ed="#S" break="no" n="4"/>dum est, vt prius, quia aut ante consecrationem omnem, &amp; 
+      <lb ed="#S" n="5"/>tunc sicut de pane dictum est, si potest habere vtramque mate 
+      <lb ed="#S" n="6"/>riam nouam adhibeat. si solam materiam vini nouam 
+       rein<lb ed="#S" break="no" n="7"/>cipiat a capite canonis. si autem possit habere, dimittat 
+      <lb ed="#S" n="8"/>totum. si vero post consecrationem ante perceptionem hoc 
+      <lb ed="#S" n="9"/>percipiat: tunc sicut prius vtramque nouam materiam 
+       adhi<lb ed="#S" break="no" n="10"/>beat, corpore separatim imposito, postea cum alio sumendo. 
+      <lb ed="#S" n="11"/>si vero non possit habere nisi nouum vinum: cum ipso, &amp; cor 
+      <lb ed="#S" n="12"/>pore a capite canonem reincipiat, ne diuidat sacramentum omnia 
+      <lb ed="#S" n="13"/>repetendo praeter verba consccrationis corporis: quae sine 
+      <lb ed="#S" n="14"/>iniuria sacri non possunt super eandem materiam repeti, 
+       si<lb ed="#S" break="no" n="15"/>cut nec baptismus debet iterari. Et licet non sit poena 
+       ir<lb ed="#S" break="no" n="16"/>regularitatis hic, sicut ibi: est tamen grauis culpa vtrobique. 
+      <lb ed="#S" n="17"/>si autem non possit habere vinum: vltra procedat faciendo, 
+      <lb ed="#S" n="18"/>quod  potest. s corpus sumendo, &amp; caetera complendo. Quod 
+      <lb ed="#S" n="19"/>si post sumptionem materiae panis inuenit non fuisse 
+       pa<lb ed="#S" break="no" n="20"/>nem frumenti: debet secundum Tho. licet non iciunus 
+       ma<lb ed="#S" break="no" n="21"/>teria adhibita reincipere: quia maius est praeceptum 
+       vnita<lb ed="#S" break="no" n="22"/>tis, quod a Dei institutione habet ortum, quam ecclesiae de 
+       ie<lb ed="#S" break="no" n="23"/>iunio. Vel quia nunquam permittitur pranso celebrare, sed 
+       so<lb ed="#S" break="no" n="24"/>lum communicare, iste non debet consecrare, sed vltra 
+       san<lb ed="#S" break="no" n="25"/>guinem sumere, licet non ieiunus. Quamuis alicui videret, 
+      <lb ed="#S" n="26"/>quod sicut volens lauare os, si praeter intentionem gutta 
+       trans<lb ed="#S" break="no" n="27"/>eat, reputatur ieiunus: sic quia non intendebat sumere 
+       ali<lb ed="#S" break="no" n="28"/>quid soluens ieiunium, si praeter intentionem hoc fecit, ieiu 
+      <lb ed="#S" n="29"/>nus reputari potest. si autem post consecrationem, &amp; sumptio 
+      <lb ed="#S" n="30"/>nem corporis, deprehendit non esse vinum antequam illum 
+       li<lb ed="#S" break="no" n="31"/>quorem sumpserit, cum adhuc sit iciunus, adhibeat vtramque 
+      <lb ed="#S" n="32"/>materiam nouam, si habere potest. si autem solum panem nihil 
+      <lb ed="#S" n="33"/>agat, sed vltra procedat. si vero solum vinum: quia iam conse 
+      <lb ed="#S" n="34"/>crauit corpus, &amp; sumpsit, procedat reincipiens canonem: 
+      <lb ed="#S" n="35"/>omissis verbis corporis, &amp; pertinentibus ad illud solum. 
+      <lb ed="#S" n="36"/>si autem post sumptionem vtriusque deprehendit, functus 
+      <lb ed="#S" n="37"/>est officio suo, licet male nihil repetat, sed vltra procedat. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e645" n="25">
+               <lb ed="#S" n="38"/>
+               <!-- 25 -->QVANTVM ad tertium sunt quinque 
+       conclu<lb ed="#S" break="no" n="39"/>siones. Prima est de quantitate materiae.
+    </p>
+            <p xml:id="khj78y-q31577-d1e654" n="24">
+      <!--24 -->Vbi 
+      <lb ed="#S" n="40"/>sciendum est, quod cum virtus finita non possit agere simul in 
+      <lb ed="#S" n="41"/>quantancumque materiam, sed finitam, &amp; determinatam: ille tamen 
+      <lb ed="#S" n="42"/>terminus non semper est notus homini, sicut nescimus vsque 
+      <lb ed="#S" n="43"/>ad quam distantiam lux solis simul se extendat: sed scimus, quod 
+      <lb ed="#S" n="44"/>non in infinitum, sed vsque ad certam, &amp; determinatam 
+       distan<lb ed="#S" break="no" n="45"/>tiam quaecumque sit illa. Virtus autem Dei licet non sit ad in 
+      <lb ed="#S" n="46"/>finitum simul: est tamen ad finitum, simul &amp; indeterminatum: quia 
+      <lb ed="#S" n="47"/>non est dare etiam ab ipso aliqua certa, in qua sic agere 
+      <lb ed="#S" n="48"/>possit praecise, quod non in plura. Vnde cum in consecratione 
+      <lb ed="#S" n="49"/>concurrat virtus Dei, &amp; creaturae. scilicet verborum, &amp; characte 
+      <lb ed="#S" n="50"/>ris sacerdotalis: licet respectu Dei non sit simpliciter de 
+      <lb ed="#S" n="51"/>terminata quantitas, quam possit conuertere: sed quacumque 
+      <lb ed="#S" n="52"/>data adhuc plus potest: tamen respectu virtutum 
+       creata<lb ed="#S" break="no" n="53"/>rum est apud notitiam Dei dare determinatam quantitatem, 
+      <lb ed="#S" n="54"/>&amp; certa: vltra quam simul non posset, sed non est ab homi 
+      <lb ed="#S" n="55"/>ne determinata.
+    </p>
+            <p xml:id="khj78y-q31577-d1e694" n="25">
+      <!-- 25 -->secunda conclusio est, quod quam 
+      <lb ed="#S" n="56"/>uis ratione maleficij, aut veneficij intendat quis 
+       consecra<lb ed="#S" break="no" n="57"/>re: est tamen vera consecratio, siue etiam irrisionem fidelium 
+       inten<lb ed="#S" break="no" n="58"/>dat: vel aliquid huiusmodi: dum tamen intendat facere, quod facit eccl'ia: 
+      <lb ed="#S" n="59"/>sicut ille, qui vult contrahere propter voluptatem, aut lucrum 
+      <lb ed="#S" n="60"/>facere, vere contrahit matrimonium. Et Iudaeus etiam, q vult 
+      <lb ed="#S" n="61"/>baptizari propter quaestum est vere baptizatus, vt dicitur 
+      <lb ed="#S" n="62"/>de consec. dist. 4. Non illud te moueat. Ita &amp;c hic. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e714" n="26">
+               <lb ed="#S" n="63"/>
+               <!-- 26 -->Tertia conclusio est, quod non potest consecrare, nisi 
+      <lb ed="#S" n="64"/>materiam praesentem, &amp; ante se positam. Alias esset falsitas in 
+      <lb ed="#S" n="65"/>sacramento veritatis propter pronomen demonstratiuum, hoc vel 
+      <lb ed="#S" n="66"/>hic. Cum demonstratiuo non sit nisi rei praesentis. Vnde exi 
+      <lb ed="#S" n="67"/>stens in ecclesia non potest consecrare panem, qui est in foro, 
+      <!--0130.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>nec vinum, quod est in cellario.
+    </p>
+            <p xml:id="khj78y-q31577-d1e736" n="27">
+      <!-- 27 -->Quarta con 
+      <lb ed="#S" n="69"/>clusio est, quod de materia, quam habet in sua praesentia, non 
+      <lb ed="#S" n="70"/>est hobis determinata quantitas: verbi gratia, vtrum existens 
+      <lb ed="#S" n="71"/>in ore clibani magni, vel in foro maximo pleno 
+       pani<lb ed="#S" break="no" n="72"/>bus, vel existens in cellario pleno vino, aut in nauibus 
+      <lb ed="#S" n="73"/>plenis doliis vini: vtrum possit consecrare haec omnia simul, 
+      <lb ed="#S" n="74"/>nescio de hoc. sed si requiritur talis praesentia, quod simul 
+      <lb ed="#S" n="75"/>possit tangere omnia: tunc non posset simul centum hostias 
+      <lb ed="#S" n="76"/>consecrare, quas sigillatim simul attingere non potest. 
+      <lb ed="#S" n="77"/>sed si sufficit praesentia visus, non qua actu videat: cum caecus 
+      <lb ed="#S" n="78"/>conficiat: sed qua sit visibile, tunc aerem plenum vsque ad 
+      <lb ed="#S" n="79"/>coelum posset simul conficere. Vnde ista distantia, &amp; 
+       praesep<lb ed="#S" break="no" n="80"/>tia, &amp; quantitas non sunt apud homines determinata. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e767" n="28">
+               <lb ed="#S" n="81"/>
+               <!-- 28 -->Quinta conclusio est, quod si praeter intentienem 
+      <lb ed="#S" n="82"/>sacerdotis est aliqua materia, de qua non cogitauit, illa 
+      <lb ed="#S" n="83"/>non est consecrata, vt si gutta vini ministrando cecidit super 
+      <lb ed="#S" n="84"/>pedem calicis, vel hostia in pixide ibi remansit, non est con 
+      <lb ed="#S" n="85"/>secratum: quia de quo non est excogitatum, nec implicite, 
+      <lb ed="#S" n="86"/>nec explicite: actu, nec habitu, non potest esse consecratum. 
+      <lb ed="#S" n="87"/>Dico autem excogitatum, nec quantum ad effectum, nec 
+       quan<lb ed="#S" break="no" n="88"/>tum ad verba. scilicet non intendebat illud consecrare, nec super 
+      <lb ed="#S" n="89"/>illud verba proferre, nec ad illud verba referre: quasi super 
+      <lb ed="#S" n="90"/>debitam materiam intenderet verba proferre, &amp; proferret: licet 
+      <lb ed="#S" n="91"/>nollet sequi consecrationem, sed irrisionem: forte consecratum 
+      <lb ed="#S" n="92"/>esset, cum virtus sacramenti operetur secundum voluntatem 
+      <lb ed="#S" n="93"/>Dei non ministri: secundu vnam opinionem, quae 
+       tracta<lb ed="#S" break="no" n="94"/>ta fuit supra distinct. 6. de intentione ministri. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e802" n="29">
+               <lb ed="#S" n="95"/>
+               <!-- 29 -->CIRCA quartum sunt sex conclusiones: Prima 
+      <lb ed="#S" n="96"/>quod materia panis secundum quod omnes dicunt, debet esse de 
+      <lb ed="#S" n="97"/>grano frumenti: cui Christus se comparat: &amp; de quo creditur 
+      <lb ed="#S" n="98"/>Christus confessisse, quia ille est panis proprie per se dictus. 
+      <lb ed="#S" n="99"/>Caeteri autem in supplementum istius. Vnde &amp; vulgo dicit, 
+      <lb ed="#S" n="100"/>iste quaerit panem meliorem, quae de frumento.
+    </p>
+            <p xml:id="khj78y-q31577-d1e820" n="30">
+      <!-- 30 -->
+       se<lb ed="#S" break="no" n="101"/>cunda conclusio est de spelta, &amp; farre pane facto, potest 
+      <lb ed="#S" n="102"/>in eo confici: non quidem per rationem quorundam: quae est 
+      <lb ed="#S" n="103"/>quia frumentum est genus ad triticum far, &amp; speltam. ideo 
+      <lb ed="#S" n="104"/>indifferenter in quolibet istorum potest confici, licet 
+       diffe<lb ed="#S" break="no" n="105"/>rant specie. Nam licet ad vnum sacramentum concurrant 
+       mate<lb ed="#S" break="no" n="106"/>riae specie differentes per modum totius integralis respectu 
+      <lb ed="#S" n="107"/>vnius formae, siue commixtae, vt in chrismate oleum, &amp; balsa 
+      <lb ed="#S" n="108"/>mum, siue contigue, vt in sacerdotio, calix, &amp; panis, &amp; 
+       vi<lb ed="#S" break="no" n="109"/>num, &amp; respectu diuersarum formarum, vt in hoc sacramento 
+       pa<lb ed="#S" break="no" n="110"/>nis, &amp; vinum: tamen quod respectu eiusdem formae concurrant ad 
+      <lb ed="#S" n="111"/>mondum partium subiectiuarum diuersae materiae specie: non 
+      <lb ed="#S" n="112"/>est probabile: quia in illa materia conficiendum est, in qua 
+      <lb ed="#S" n="113"/>Christus confecit, qui non in tribus, sed in vna tantum con 
+      <lb ed="#S" n="114"/>fecit.
+    </p>
+            <p xml:id="khj78y-q31577-d1e856" n="31">
+      <!-- 31 -->Et si dicat, quod licet in vna confecerit: quia 
+      <lb ed="#S" n="115"/>tamen sciuit illam non vbique esse: puta triticum. ideo voluit, 
+      <lb ed="#S" n="116"/>quod illis possit confici, non valet: quia pari ratione posset 
+      <lb ed="#S" n="117"/>dici de vino, quod non solum de vite, sed de pomis, &amp; cera 
+      <lb ed="#S" n="118"/>sis posset confici: quia vinum vitis in paucioribus locis cre 
+      <lb ed="#S" n="119"/>scit, quam triticum.
+    </p>
+            <p xml:id="khj78y-q31577-d1e872" n="32">
+      <!-- 32 -->Alia ergoratio potest dari: quia 
+      <lb ed="#S" n="120"/>ista tria sunt vnius specici, quia compertum est, quod in eadem ter 
+      <lb ed="#S" n="121"/>ra triticum seminatum vno anno, generabat speltam, &amp; far: in 
+      <lb ed="#S" n="122"/>alio triticum, vt in territorio Leodiensi, Palmensi monaste 
+      <lb ed="#S" n="123"/>rio Pomposiano, vt ipsi dicunt. Licet autem asinus generet 
+      <lb ed="#S" n="124"/>extra speciem suam mulum de equa: non tamen de asina 
+       gene<lb ed="#S" break="no" n="125"/>rat nisi asinum: quia diuersitas effectus est ex diuersitate 
+      <lb ed="#S" n="126"/>agentis, vel materiae. 9. Metha. Et similiter si triticum in 
+      <lb ed="#S" n="127"/>vna terra generet speltam in alia triticum: non probatur iden 
+      <lb ed="#S" n="128"/>titas speciei secundum quosdam, sed ad minus probatur: quando 
+      <lb ed="#S" n="129"/>in eadem parte terrae generatur vtrunque, imo etiam si in diuer 
+      <lb ed="#S" n="130"/>sis pro tanto: quia in grano vis generationis masculina, &amp; 
+      <lb ed="#S" n="131"/>foeminina sunt vnita: &amp; planta est generans vniuocum pro 
+      <lb ed="#S" n="132"/>ter quod cum natura sit determinata ad vnum, videntur esse vnius 
+      <lb ed="#S" n="133"/>speciei ista, quae ex vno. grano specici generantur. Et si di 
+      <lb ed="#S" n="134"/>catur, quod spelta nunquam generat triticum, licet econuerso: 
+      <!--0131.xml-->
+      <pb ed="#S" n="131"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>non obstat: quia forte hoc est propter impertam virtutem 
+      <lb ed="#S" n="2"/>in spelta. Et similiter quod triticum generet speltam, vel far, 
+      <lb ed="#S" n="3"/>non triticum, est ex debilitate virtutis: sicut aliqui mascu 
+      <lb ed="#S" n="4"/>li non possunt generare nisi foeminas, nec aliquae foemi 
+      <lb ed="#S" n="5"/>nae nisi foeminas. sed sicut masculus, &amp; foemina non dif 
+      <lb ed="#S" n="6"/>ferunt specie sic nec frumentum, far, &amp; spelta.
+    </p>
+            <p xml:id="khj78y-q31577-d1e929" n="33">
+      <!-- 33 -->si 
+      <lb ed="#S" n="7"/>dicatur, quod alicubi tritico seminato crescit ordeum, alibi si 
+      <lb ed="#S" n="8"/>ligo, alibi lolium, nec tamen propter hoc sunt vnius speciei: di 
+      <lb ed="#S" n="9"/>cendum, quod verum est, nec de ipsis potest confici. Et ratio 
+       di<lb ed="#S" break="no" n="10"/>uersitatis est, quia huiusmodi tria ex tritico generantur per 
+       ac<lb ed="#S" break="no" n="11"/>cidens: &amp; via corruptionis, sicut ex viuo generatur cada 
+      <lb ed="#S" n="12"/>uer, &amp; ex vino acetum, vel magis, sicut ex sudore 
+       anima<lb ed="#S" break="no" n="13"/>lis perfecti generatur animal imperfectum: puta vermis, 
+      <lb ed="#S" n="14"/>quae est generatio aequiuoca. sed far, &amp; spelta ex tritico 
+      <lb ed="#S" n="15"/>via generationis generant, sicut per seminationom 
+       ani<lb ed="#S" break="no" n="16"/>mal producit animal, &amp; oliua oliuam.
+    </p>
+            <p xml:id="khj78y-q31577-d1e955" n="34">
+      <!-- 34 -->Licet 
+      <lb ed="#S" n="17"/>autem ista sunt probabilia: magis tamen tenendum est id, quod 
+      <lb ed="#S" n="18"/>facit authoritas multarum ecclesiarum de spelta 
+       celebran<lb ed="#S" break="no" n="19"/>tium, quam rationibus praedictis, quia de eodem grano, &amp; in 
+       ea<lb ed="#S" break="no" n="20"/>dem terra potest generari diuersis temporibus granum 
+       diuer<lb ed="#S" break="no" n="21"/>sarum specierum propter diuersos aspectus coeli, &amp; constel 
+      <lb ed="#S" n="22"/>lationum, &amp; virtutum earum, sicut etiam de semine hominis 
+      <lb ed="#S" n="23"/>aliquando virtute coeli per viam corruptionis generantur 
+      <lb ed="#S" n="24"/>alia, quae homo.
+    </p>
+            <p xml:id="khj78y-q31577-d1e977" n="35">
+      <!-- 35 -->Tertia conclusio est de mixtio 
+      <lb ed="#S" n="25"/>ne: vbi dicendum, qui sola mixtio granorum adinuicem cum 
+      <lb ed="#S" n="26"/>sint solida, non tollit speciem. sed sic non est ad propositum, 
+      <lb ed="#S" n="27"/>cum in granis non possit confici, nisi sit inde confectus pa 
+      <lb ed="#S" n="28"/>nis, sed quando grana simul in molendino terunt, &amp; postea 
+      <lb ed="#S" n="29"/>farina simul cum aqua mixta compaginatur, &amp; coagulata 
+      <lb ed="#S" n="30"/>coquitur, potest mutari spens, &amp; si fuerit mutata: ita quod 
+       fue<lb ed="#S" break="no" n="31"/>rit facta tertia spens: vel aliud granum traxit istud ad suam 
+      <lb ed="#S" n="32"/>speciem: ita quod substantia istius panis sit altera specie a 
+       sub<lb ed="#S" break="no" n="33"/>stantia panis, qui esset factus de puro frumento non potest 
+      <lb ed="#S" n="34"/>confici, alias sic. Propter quod si pro ore Regis eligitur an 
+      <lb ed="#S" n="35"/>nona multo magis speciali diligentia eligenda essent grana 
+      <lb ed="#S" n="36"/>frumenti, &amp; ab aliis discernenda pro pane altaris 
+       conficien<lb ed="#S" n="37" break="no"/>do ratione periculi.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1010" n="36">
+      <!-- 36 -->Quarta conclusio est de 
+      <lb ed="#S" n="38"/>corruptione panis: quia si tanta est, vt spens substantiae non 
+      <lb ed="#S" n="39"/>maneat, confici non pont: alias sic, sed non debet, puta de 
+      <lb ed="#S" n="40"/>hostia muscida: adhuc tamen continua, quia vbi apparet 
+       con<lb ed="#S" break="no" n="41"/>tinuitas soluta, non violentia, sed natura, &amp; vetustate: 
+       vi<lb ed="#S" break="no" n="42"/>detur corruptio substantialis facta, &amp; per consequens spens 
+      <lb ed="#S" n="43"/>mutata, quia generatum, &amp; corruptum naturaliter differunt 
+      <lb ed="#S" n="44"/>specie, vt vinum, &amp; acetum. 3. Metha. vt in granis 
+       semina<lb ed="#S" break="no" n="45"/>tis.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1033" n="37">
+      <!-- 37 -->Quinta conclusio de amido, cum sit 
+       pa<lb ed="#S" break="no" n="46"/>sta, &amp; nondum panis, confici non pont: sed si inde fiat panis, 
+      <lb ed="#S" n="47"/>cum sit farina tritici purgatissima, magis potest de ipso, &amp; 
+      <lb ed="#S" n="48"/>in ipso confici, quae de alio.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1044" n="38">
+      <!-- 38 -->sexta conclusio est, 
+      <lb ed="#S" n="49"/>quod indifferenter de omni pane de frumento potest confici, &amp; 
+      <lb ed="#S" n="50"/>in azimo, &amp; fermentato: sicut &amp; in vino albo, &amp; rubeo: quia 
+      <lb ed="#S" n="51"/>specie non differunt. sed Latini in azimo conficiunt, sicut 
+      <lb ed="#S" n="52"/>Christus confecit: Graeci vero in fermentato, vocantes nos 
+       azi<lb ed="#S" break="no" n="53"/>mitas, &amp; Iudaizantes: quia cum ecclesia prius conficeret in 
+      <lb ed="#S" n="54"/>azimo contra errorem Ebyonitarum statuit in fermentato 
+      <lb ed="#S" n="55"/>confici: ne cum illis videretur legem cum Euangelio seruare: 
+      <lb ed="#S" n="56"/>quo errore cessante, rediit ad foeliciorem consuetudinem. 
+      <lb ed="#S" n="57"/>Graecia vero de dispensatione fecit legem communem, &amp; de 
+      <lb ed="#S" n="58"/>hoc scismate venerunt ad haeresim, quod Christus iu 
+       fermen<lb ed="#S" break="no" n="59"/>tato confecerit. Latinus ergo in fermentato conficiens: 
+       con<lb ed="#S" n="60" break="no"/>ficit quidem, sed grauiter delinquit extra eo. c. vlt. vbi 
+       de<lb ed="#S" break="no" n="61"/>ponitur, qui confecerat in fermentato, licet aliae causae 
+       assi<lb ed="#S" n="62" break="no"/>gnentur: sed quaelibet erat sufficiens. Econtrario dicunt 
+       ali<lb ed="#S" break="no" n="63"/>qui peccare Graecum, si conficiat in azimo: quia Cum fueris 
+      <lb ed="#S" n="64"/>Romae, Romano viu ito more. sed quia illi sunt 
+       scismati<lb ed="#S" break="no" n="65"/>ci: nullus etiam ipsorum debet eis adhaerere, &amp; sicut in 
+       to<lb ed="#S" n="66" break="no"/>to, sic &amp; in parte potest ab eis discordare, non tenetur quisquam 
+      <lb ed="#S" n="67"/>eorum: illorum statutis, vel consuetudinibus: ꝗaab obe- 
+      <!--0131.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>dientia scismaticorum, &amp; haereticorum omnis homoest abso 
+      <lb ed="#S" n="69"/>lutus.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1099" n="39">
+      <!-- 39 -->QVANTVM ad quintum sunt octo 
+      <lb ed="#S" n="70"/>conclusiones. Prima, quod materia sanguinis est vinum de vi 
+      <lb ed="#S" n="71"/>te, in quo Christus confecit. Vnde &amp; dixit: Amodo non 
+      <lb ed="#S" n="72"/>bibam de genimine vitis &amp;c. Ipse etiam se comparat viti, 
+       si<lb ed="#S" break="no" n="73"/>cut &amp; grano fr.amenti. Et quia istud est proprie vinum, alia non: 
+      <lb ed="#S" n="74"/>nisi aequiuoce, sic ut pomaticum, aut quod de cerasis, vel de 
+      <lb ed="#S" n="75"/>malogranatis exprin it, seu prunis, &amp; ceruisia, &amp; huiusmodi: 
+      <lb ed="#S" n="76"/>ga non sunt vere vinum. &amp; ideo in eis confici non potest. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e1119" n="40">
+               <lb ed="#S" n="77"/>
+               <!-- 40 -->secunda conclusio est, quod nec etiam in balsamo, 
+      <lb ed="#S" n="78"/>quamuis dicantur vineae Engadi, &amp; vineae Balsami, quia non 
+      <lb ed="#S" n="79"/>est vinum. &amp; ideo confici non pont.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1130" n="41">
+      <!--41. -->sed vinum 
+      <lb ed="#S" n="80"/>Vernacinum Graecum, Cretense su'ut vina proprie dicta, 
+      <lb ed="#S" n="81"/>imo anthonomatice. ideo in eis conh.ci potest. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e1139" n="42">
+               <lb ed="#S" n="82"/>
+               <!-- 42 -->Tertia conclusio est de clareto, u? quo est 
+       dicen<lb ed="#S" n="83" break="no"/>dum, quod si propter virtutem specierum, &amp; melis a. dmixti, spens 
+      <lb ed="#S" n="84"/>vini mutata est, confici non potest, aliss sic, sed non debet, 
+      <lb ed="#S" n="85"/>qa sola admixtio aquae, &amp; non alterius liquoris, freri non 
+      <lb ed="#S" n="86"/>debet.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1156" n="43">
+      <!-- 43 -->Quarta conclusio est de aceto, de quo 
+      <lb ed="#S" n="87"/>est communis opinio, quod si est perfecte acetum, quod non est 
+       vi<lb ed="#S" break="no" n="88"/>num. ideo nec in eo confici potest. sed si solum vergat ad ace 
+      <lb ed="#S" n="89"/>dinem potest, sed non debet, sicut nec de pane muscido. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e1167" n="44">
+               <lb ed="#S" n="90"/>
+               <!-- 44 -->Quinta conclusio est de musto: de quo dicitur 
+      <lb ed="#S" n="91"/>communiter, quod est vinum. Vnde potest confici, sed non debet. 
+      <lb ed="#S" n="92"/>propter impuritatem, nisi aliud defecatum haberi non 
+       pos<lb ed="#S" break="no" n="93"/>sit. Tunc enim licet. Vnde Decretum dicit vuas posse 
+       ex<lb ed="#S" break="no" n="94"/>primi in calicem, &amp; sic celebrari: de conse. di. 2. si necesse. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e1183" n="45">
+               <lb ed="#S" n="95"/>
+               <!-- 45 -->sexta conclusio est de agresta, de qua dicit com 
+      <lb ed="#S" n="96"/>muniter, quod nec est, nec vnquam fuit vinum, sed differt ab eo 
+      <lb ed="#S" n="97"/>specie, quamuis sit argumentum contram, de pomo: quia pomum 
+      <lb ed="#S" n="98"/>viride, &amp; maturum non differt specie, nec puer, &amp; senex. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e1196" n="46">
+               <lb ed="#S" n="99"/>
+               <!-- 46 -->sed dicendum, quod licet vna acerba, &amp; matura non 
+      <lb ed="#S" n="100"/>differant specie: possunt tamen humor vuae acerbae, &amp; matu 
+      <lb ed="#S" n="101"/>rae differet specie.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1207" n="47">
+      <!-- 47 -->septima conclusio est de 
+      <lb ed="#S" n="102"/>vineta, quae post vinum expressum de torculari 
+       superposi<lb ed="#S" break="no" n="103"/>ta aqua exprimit, &amp; est liquor habens colorem vini, &amp; 
+       ali<lb ed="#S" break="no" n="104"/>qualem saporem: de qua dicendum, quod non est vinum purum, sed 
+      <lb ed="#S" n="105"/>propter aquam nimiam quandoque reducitur ad speciem aquae, vel si non 
+      <lb ed="#S" n="106"/>nimia: saltem in tanta quantitate supponit, quod ad tertiam 
+       spe<lb ed="#S" break="no" n="107"/>ciem trahit. &amp; ideo in ea confici non pont.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1225" n="48">
+      <!-- 48 -->Octa 
+      <lb ed="#S" n="108"/>ua conclusio, quod si similiter super feces vegetis aqua 
+       pro<lb ed="#S" break="no" n="109"/>iiciatur: eodem modo non est vinum propter eandem rationem: 
+      <lb ed="#S" n="110"/>licet colorem, &amp; aliquem saporem retineat. Et similiter de 
+       a<lb ed="#S" break="no" n="111"/>qua rubefacta ex pamno rubeo immisso, &amp; huiusmodi, in quo 
+      <lb ed="#S" n="112"/>multo minus potest confici, quia etiam huius consuetudinem 
+      <lb ed="#S" n="113"/>reprobat decretum.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1244" n="49">
+      <!-- 49 -->QVANTVM ad sextum 
+      <lb ed="#S" n="114"/>sunt quinque conclusiones. Prima, quod aqua admiscenda est 
+      <lb ed="#S" n="115"/>vino, quam Christus creditur admiscuisse: vtpote cum tam for 
+      <lb ed="#S" n="116"/>tia vina ibidem a nullo sobrio nisi temperata bibantur. Et pro 
+      <lb ed="#S" n="117"/>pter mysterium. Ideo qui scienter non apponit, 
+       mortali<lb ed="#S" break="no" n="118"/>ter delinquit. Et similiter qui ignoranter, licet minus, 
+       ni<lb ed="#S" break="no" n="119"/>si sit talis ignorantia inuincibilis, &amp; facti, quae excuset. 
+      <lb ed="#S" n="120"/>Nam iuris ignorantia non excusat: quia in artifice 
+       igno<lb ed="#S" break="no" n="121"/>rantia culpae annumeratur: non debet officium sacerdotis 
+      <lb ed="#S" n="122"/>exercere, nisi sciat ea, quae sacerdos debet facere: secundu 
+      <lb ed="#S" n="123"/>illud: Quia tu scientiam repulisti, repellam te, ne tu sacerdo 
+      <lb ed="#S" n="124"/>tio fungaris mihi, sicut filij Heli: nescientes Dominum, nec offi 
+      <lb ed="#S" n="125"/>cium sacerdotum. 1. Reg. 3. Et extra de cel. mis. c. literas 
+      <lb ed="#S" n="126"/>deponitur, qui in fermen:a, &amp; lineo cipho sine aqua, &amp; 
+      <lb ed="#S" n="127"/>igne celebrabat: quia aut malitia, aut nimia insipientia fuit 
+      <lb ed="#S" n="128"/>&amp;c. Et ideo in talibus insipientia non excusat, sed accu 
+      <lb ed="#S" n="129"/>sat.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1283" n="50">
+      <!-- 50 -->secunda conclusio est, quod si aqua omittat, 
+      <lb ed="#S" n="130"/>nihilominus est sacramentum, quia nec ipsa manet, sed con 
+      <lb ed="#S" n="131"/>uertitur. Et Graeci etiam non apponunt, qui tamen confi 
+      <lb ed="#S" n="132"/>ciunt. Et etiam si quis aquam non apponens intendat indu- 
+    </p>
+            <p xml:id="khj78y-q31577-d1e1294">
+               <lb ed="#S" n="133"/>cere errorem: dum tamen formam non mutet: quia materia 
+      <lb ed="#S" n="134"/>remanet: nihilominus conficit, quamuis in litera videatur 
+      <!--0132.xml-->
+      <pb ed="#S" n="132"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Magister contrarium innuere. sed subaudiendum est ibi 
+      <lb ed="#S" n="2"/>maxime.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1312" n="51">
+      <!-- 51 -->sed si aliquis formae addit, vel 
+       detra<lb ed="#S" break="no" n="3"/>hit intendens inducere errore: quia mutatur sensus 
+       ora<lb ed="#S" break="no" n="4"/>tionis, &amp; si non de virtute sermonis: saltem secundum inten 
+      <lb ed="#S" n="5"/>tionem proferentis: per consequens mutatur etiam forma 
+       sub<lb ed="#S" break="no" n="6"/>stantialiter, &amp; si non materialiter, salte formaliter nihil 
+      <lb ed="#S" n="7"/>agitur: vt dictum est supra distin. 3. de mutatione formae. 
+      <lb ed="#S" n="8"/>secus autem est de mutatione materiae: quae ex naturali. 
+      <lb ed="#S" n="9"/>proprietate representat: &amp; non ex intentione applicantis, 
+      <lb ed="#S" n="10"/>sicut verba ex intentione proferentis: quia voces sunt animae 
+      <lb ed="#S" n="11"/>passionum notae. Vnde quamuis intendat ex parte materiae 
+       in<lb ed="#S" break="no" n="12"/>ducere errorem: nihilominus si ex se est sufficiens materia 
+      <lb ed="#S" n="13"/>sufficit. Et ista opinio de mutatione formae est 
+       commu<lb ed="#S" break="no" n="14"/>nior, &amp; verior, quam illa, quae posita est supram distin. 3. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e1343" n="52">
+               <lb ed="#S" n="15"/>
+               <!-- 52 -->Tertia conclusio est, quod debet apponi aqua vera: 
+      <lb ed="#S" n="16"/>qa si apponatur aqua roseacea, vel alia, quae non est 
+       ve<lb ed="#S" break="no" n="17"/>re, &amp; proprie aqua erit quidem verum sacramentum: sicut &amp; si 
+       pul<lb ed="#S" break="no" n="18"/>la esset aqua, sed tamen incurritur peccatum: &amp; aequale, ac si 
+      <lb ed="#S" n="19"/>nulla aqua poneretur, nisi homo non posset habere aliam 
+      <lb ed="#S" n="20"/>aquam, &amp; iam processisset vsque ad offertorium, &amp; non posset 
+      <lb ed="#S" n="21"/>dimittere sine scandalo: tunc forte liceret miscere aquam 
+      <lb ed="#S" n="22"/>artificialem pro naturali. Alias si a principio non habet 
+      <lb ed="#S" n="23"/>aquam: non ponat se ad celebrandu, sicut nec si non 
+       ha<lb ed="#S" break="no" n="24"/>beret ignem, aut debitum calicem, vel altare, vel huiusmodi, quae 
+      <lb ed="#S" n="25"/>sunt de necessitate praecepti, licet non de necessitate 
+       sa<lb ed="#S" break="no" n="26"/>cramenti.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1374" n="53">
+      <!-- 53 -->Quarta conlusio est, quod licet aqua non 
+      <lb ed="#S" n="27"/>sit de necessitate sacramenti ex parte sanguinis: est tamen de 
+       ne<lb ed="#S" break="no" n="28"/>cessitate sacramenti ex parte corporis: quia est verum vinum si non 
+      <lb ed="#S" n="29"/>sit ibi aqua: ac si ibi esset: &amp; ita etiam si sit ibi aqua 
+       rosca<lb ed="#S" break="no" n="30"/>cea, sicut si esset naturalis: sed non est verus panis, si non 
+      <lb ed="#S" n="31"/>sit vera aqua in commixtione posita, sicut nec si non sit de 
+      <lb ed="#S" n="32"/>farina frumenti, cum vtrunque sit de substantia panis: vnde si 
+      <lb ed="#S" n="33"/>de vino esset factus panis, nihil esset actum.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1395" n="54">
+      <!-- 54 -->Quin 
+      <lb ed="#S" n="34"/>ta conclusio est, quod debet apponi in modica quantitate, &amp; 
+      <lb ed="#S" n="35"/>ita diu ante consecrationem, quod fuerit conuersa in vinum: quia 
+      <lb ed="#S" n="36"/>aliter ipsa manens aqua non est materia sacramenti, sed effecta 
+      <lb ed="#S" n="37"/>vinu: vnde ponere plus de aqua, quam de vino tanquam 
+       per<lb ed="#S" break="no" n="38"/>niciosum reprobatur: extra de cele, mi. c. perniciosus. Et de 
+      <lb ed="#S" n="39"/>bet apponi simul cum vino: quia simul de latere Christi exi 
+      <lb ed="#S" n="40"/>uerunt sanguis, &amp; aqua vno impetu. Et non sufficit 
+       pluis<lb ed="#S" break="no" n="41"/>se in vineam: nec posuisse aquam in dolio, aut in ciato 
+      <lb ed="#S" n="42"/>cum vino, quod sic dicit mixtum, sed in calice est cu vino po 
+      <lb ed="#S" n="43"/>nenda, &amp; specialiter benedicenda, quia nihil venit in hoc sa 
+      <lb ed="#S" n="44"/>crm, nisi benedictum: sed super vinum restant benedictiones 
+      <lb ed="#S" n="45"/>multae, sicut super panem. Vnde ista non benedicuntur in 
+      <lb ed="#S" n="46"/>principio, quando ponunt, quia adhud mansiua sunt secundum 
+      <lb ed="#S" n="47"/>se ad tempus: sed aqua statim transit in vinum. ideo tunc bene 
+      <lb ed="#S" n="48"/>dicitur in principio. &amp; sola illa, quae imponii, quae venit ad 
+       sa<lb ed="#S" break="no" n="49"/>crm: &amp; sacerdos quando vadit ad abluendum digitos post 
+       offer<lb ed="#S" break="no" n="50"/>torium, malefacit, si calicem signet: quia tollit mysterium, quod est 
+      <lb ed="#S" n="51"/>in numero crucum.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1439" n="55">
+      <!-- 55 -->QVANTVM ad 
+       septi<lb ed="#S" break="no" n="52"/>mum sunt sex conclusiones. Prima, quod Christus in coena 
+      <lb ed="#S" n="53"/>celebrauit, &amp; seipsum communicauit, doces omnes 
+       celebran<lb ed="#S" break="no" n="54"/>tes debere communicare versus. Rex sedet in coena turba 
+      <lb ed="#S" n="55"/>cinctus duodena. se tenet in manibus, se cibat ipse 
+       ci<lb ed="#S" break="no" n="56"/>bus. Et tunc fuit impletum illud. 1. Reg. 21. Dauid 
+       fere<lb ed="#S" break="no" n="57"/>batur manibus suis. Et illud Iob. Animam meam in 
+       ma<lb ed="#S" break="no" n="58"/>nibus meis porto. Non manducauit autem se 
+       sacramentali<lb ed="#S" break="no" n="59"/>ter per fidem, cum haberet visionem, nec spiritualiter quo ad 
+      <lb ed="#S" n="60"/>augmentum charitatis: quod non poterat vltra suscipere, sed 
+      <lb ed="#S" n="61"/>sacrametalites, quia verum sacramentum, &amp; spiritualiter, quia 
+       dele<lb ed="#S" break="no" n="62"/>ctabatur ·
+    </p>
+            <p xml:id="khj78y-q31577-d1e1468" n="56">
+      <!-- 56 -->secunda conclusio est, quod communicauit 
+      <lb ed="#S" n="63"/>Iuda: quia sicut noluit ipsum, qui erat occultus peccator 
+      <lb ed="#S" n="64"/>prodere verbo, sed in communi dixit: Vnus ex vobis me 
+      <lb ed="#S" n="65"/>tradet, dans exemplum, vt si iudex, vt priuatus scit 
+       alicu<lb ed="#S" break="no" n="66"/>ius delictum non debet ipsum nominatim excommunicare, 
+      <lb ed="#S" n="67"/>sed corripere inter se, &amp; ipsum solum. Matth. 18. in commu 
+      <!--0132.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>ni autem, &amp; instante illo, qui passus est damnum, potest 
+       excommu<lb ed="#S" break="no" n="69"/>nicare quemcumq, qui fecit illud, etiam si in confessione sciat 
+      <lb ed="#S" n="70"/>illum, qui fecit: ita Christus noluit diffamare facto a con 
+      <lb ed="#S" n="71"/>munione publica prohibendo: quia nec pro crimine 
+       occul<lb ed="#S" break="no" n="72"/>to est neganda eucharistia: extra da offic. ordi. c. 2. Post 
+      <lb ed="#S" n="73"/>communionem autem dedit ei bucellam intictam, quae fuit panis 
+      <lb ed="#S" n="74"/>purus.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1503" n="57">
+      <!-- 57 -->Tertia conclusio est, quod dedit corpus pas 
+      <lb ed="#S" n="75"/>sibile, quia tale habuit: non tamen quando manducabatur in 
+       sa<lb ed="#S" n="76" break="no"/>ccramento, patiebat, quia passio, quae est diuisio, vel tritio, &amp; 
+       huius<lb ed="#S" n="77" break="no"/>modi, non recipitur nisi in quanto, &amp; modo quantitatiuo. 
+      <lb ed="#S" n="78"/>Vnde cum quantitas Christi, vel non sit in sacramento, vel est 
+      <lb ed="#S" n="79"/>ibi modo non quantitatiuo: nulla passio potest esse in eo 
+       se<lb ed="#S" n="80" break="no"/>cundum esse, quod habet ibi: sicut enim angelus in igne non 
+      <lb ed="#S" n="81"/>combureret ibi: sic nec homo carens quantitate: quia corpus 
+      <lb ed="#S" n="82"/>Christi non potest tangi tactu phisico ab alio corpore: 
+      <lb ed="#S" n="83"/>nisi prius tangeretur tactu mathematico, quo non potest 
+      <lb ed="#S" n="84"/>tangi, nisi quantum, &amp; a quanto.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1529" n="58">
+      <!-- 58 -->Quarta 
+       conclu<lb ed="#S" break="no" n="85"/>sio est, quod passione, quae est ab intra, patiebatur vbicunque es 
+      <lb ed="#S" n="86"/>set: sicut enim anima in quacumque parte sit, dolet, vbicuque 
+      <lb ed="#S" n="87"/>laedatur pars corporis. vnde anima etiam prout est in 
+       ca<lb ed="#S" break="no" n="88"/>pite dolet quando spina intra pedem: licet caput non 
+       pun<lb ed="#S" break="no" n="89"/>gatur: sic in pixide seruato poteris copulare dolorem inna 
+      <lb ed="#S" n="90"/>tum, sed non illatus conuenit ei. Vnde si fuisset in sacramento 
+      <lb ed="#S" n="91"/>dum erat in cruce etiam in sacro doluisset, &amp; mortuus 
+       fuis<lb ed="#S" break="no" n="92"/>set: sed non in sacramento punctus fuisset, vel occisus. 
+       Econtra<lb ed="#S" break="no" n="93"/>rio autem si hostia consecretur, &amp; proitciatur in ignem, ipse spe 
+      <lb ed="#S" n="94"/>cies conburerentur, &amp; corpus Christi non lederet, etium si 
+       es<lb ed="#S" break="no" n="95"/>set possibile: quia cum non possit tangi nisi per suam quan 
+      <lb ed="#S" n="96"/>titatem, quae non est ibi modo quantitatis, nec situaliter non 
+      <lb ed="#S" n="97"/>potest tangi, nec praesentialiter, nec superficialiter, &amp; per 
+      <lb ed="#S" n="98"/>consequens nec laedi. ideo &amp;c.
+    </p>
+            <p xml:id="khj78y-q31577-d1e1564" n="59">
+      <!-- 59 -->Quinta 
+       conclu<lb ed="#S" break="no" n="99"/>sio est, quod si in triduo consecratum fuisset ibi corpus exani 
+      <lb ed="#S" n="100"/>mae, quale erat in sepulchro, &amp; non aliud: quia quamuis for 
+      <lb ed="#S" n="101"/>ma indicet, quod ibi sit corpus, quod erat tradendum, &amp; non fue 
+      <lb ed="#S" n="102"/>rit idem specie viuum, &amp; mortuum: fuit tamen idem 
+       numerosi<lb ed="#S" break="no" n="103"/>tate suppositi, non essentiae, &amp; numero materiae, quae est 
+      <lb ed="#S" n="104"/>vna numero in generato, &amp; corrupto. 1. de generatione. 
+      <lb ed="#S" n="105"/>Vnde si assumpsisset corpus Petri, non sic fuisset idem 
+       sal<lb ed="#S" break="no" n="106"/>tem ex parte materiae, sicut fuit idem viuum, &amp; mortuum. 
+    </p>
+            <p xml:id="khj78y-q31577-d1e1587" n="60">
+               <lb ed="#S" n="107"/>
+               <!-- 60 -->sexta conclusio est de sanguine: quia si est aliquid 
+      <lb ed="#S" n="108"/>discontinuum a corpore non habens eandem formam substan 
+      <lb ed="#S" n="109"/>tiale, sed aliam videt, quod idem sit specie, &amp; numero effusus, 
+      <lb ed="#S" n="110"/>&amp; non effusus, sed forte non erat assumptus, quando fuit effusus 
+      <lb ed="#S" n="111"/>sed quando in corpe erat: tunc erat vnitus forte supposito. si au 
+      <lb ed="#S" n="112"/>tem samguis coniunctus sit quid continuum corpori: tunc 
+      <lb ed="#S" n="113"/>effusus differt numero propter diuisionem a seipso prout 
+      <lb ed="#S" n="114"/>prius erat in corpore: item specie propter habere nouam 
+      <lb ed="#S" n="115"/>formam substantiale, sicut oculus erutus: sic secundu 
+       quem<lb ed="#S" break="no" n="116"/>cunque modum sanguis effusus se habeat in speciebus vini 
+      <lb ed="#S" n="117"/>consecratus in triduo fuisset, siue differret in viuo, &amp; mor 
+      <lb ed="#S" n="118"/>tuo, siue non. Per haec patet solutio ad argumentum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="496"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r59686"><!-- l4d48-q1 -->
+            <head xml:id="khj78y-r59686-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-r59686-Hd1e103" type="question-title">
+     utrum Christus iudicaturus sit in forma humana
+   </head>
+            <p xml:id="khj78y-r59686-d1e106">
+               <lb ed="#S" n="35"/>DIsTINCTIO. 48. QVAESTIO. I. 
+      <lb ed="#S" n="36"/>CIrca. 48. distin. quaeruntur duo. Primo, vtrum 
+       Chri<lb ed="#S" break="no" n="37"/>sstus iudicaturus sit in forma humana. secundo, vtrum 
+      <lb ed="#S" n="38"/>motus coeli cessabit. 
+    </p>
+            <p xml:id="khj78y-r59686-d1e117">
+               <lb ed="#S" n="39"/>De forma iudicis. 
+    </p>
+            <p xml:id="khj78y-r59686-d1e122">
+               <lb ed="#S" n="40"/>Thom. hac ipsa Distin. &amp; dist. 47. Quaest. Iar. 2. 
+    </p>
+            <p xml:id="khj78y-r59686-d1e128">
+               <lb ed="#S" n="41"/>QVANTVM ad primum videtur 
+      <lb ed="#S" n="42"/>quod Christus non sit iudicaturus in 
+      <lb ed="#S" n="43"/>forma humanitatis: quia aut 
+       iu<lb ed="#S" break="no" n="44"/>dicaret in forma infirma vel glo 
+      <lb ed="#S" n="45"/>riosa: non in infirma: quia illam de 
+      <lb ed="#S" n="46"/>cetero non habebit, nec in glorio 
+      <lb ed="#S" n="47"/>sa vt videt, quia in illa non posset 
+      <lb ed="#S" n="48"/>videri a malis, cum oculus non 
+       glo<lb ed="#S" break="no" n="49"/>rificatus non habeat proportionem cum claritate corporis 
+       glo<lb ed="#S" break="no" n="50"/>riosi: &amp; quia visio humanitatis Christi gloriose parit gau 
+      <lb ed="#S" n="51"/>dium verum, &amp; promittitur sanctis in praemium vt dicit 
+       Augu<lb ed="#S" break="no" n="52"/>super illud Io. 10. Ingredietur &amp; egredietur &amp; pascua in 
+      <lb ed="#S" n="53"/>ueniet: ergo Christus nullo modo iudicabit in forma hu 
+      <lb ed="#S" n="54"/>mana. Praeterea, iudex debet habere inuincibilem 
+       po<lb ed="#S" break="no" n="55"/>testatem secundum illud Ecclesia. Noli velle fieri iudex nisi 
+      <lb ed="#S" n="56"/>virtute valeas irrumpere iniquitates, sed potestas 
+       inuinci<lb ed="#S" break="no" n="57"/>bilis non est in Christo secundum humanitatem, sed secun 
+      <lb ed="#S" n="58"/>dum diuinitatem: ergo non iudicabit secundum quod homo. 
+    </p>
+            <p xml:id="khj78y-r59686-d1e170" n="3">
+               <lb ed="#S" n="59"/>
+               <!-- 3 -->In contrarium est, quod dicitur Io. 5. Dedit ei potestatem 
+      <lb ed="#S" n="60"/>iudicium facere, quia filius hominis est. sed est filius hominis  
+      <lb ed="#S" n="61"/>solum secundum humanam naturam: ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r59686-d1e181" n="4">
+      <!-- 4 -->Respondeo, 
+      <lb ed="#S" n="62"/>hic sunt tria videnda. Primo, de futuris iudicibus. secun- 
+      <!--0496.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="63"/>do, an Christus possit videri sine gaudio. Tertio, de 
+       in<lb ed="#S" break="no" n="64"/>nouatione mundi.
+    </p>
+            <p xml:id="khj78y-r59686-d1e197" n="5">
+      <!-- 5 -->Quantum ad primum sunt tres 
+       con<lb ed="#S" break="no" n="65"/>clusiones. Prima est, quod Christus iudicabit in forma 
+       hu<lb ed="#S" break="no" n="66"/>mana simpliciter. sed secundum formam humanam 
+       commisso<lb ed="#S" break="no" n="67"/>rie non ordinarie. Ad cuius euidentiam est sciendum, quod differt 
+      <lb ed="#S" n="68"/>quaerere vtrum sit iudicaturus in forma humana &amp; secum 
+      <lb ed="#S" n="69"/>dum formam humanam: quia ad hoc vt dicatur iudicare 
+       in<lb ed="#S" break="no" n="70"/>forma humana sufficit quod iudicet habens talem formam 
+      <lb ed="#S" n="71"/>&amp; in ea apparens. sed ad hoc quod dicatur iudicare secundum 
+      <lb ed="#S" n="72"/>formam humanam requiritur quod non solum appareat in ea: 
+      <lb ed="#S" n="73"/>sed quod sit ei causa vel ratio habendi auctoritatem iudicandi. 
+      <lb ed="#S" n="74"/>Vnde multae propositiones verificantur de Christo. Primo 
+      <lb ed="#S" n="75"/>modo, quae non verificantur de ipso. secundo modo, 
+       demon<lb ed="#S" n="76" break="no"/>strato enim Christo in humana natura verum est dicere: 
+      <lb ed="#S" n="77"/>quod ille homo creat animas &amp; gubernat mundum. sed non 
+      <lb ed="#S" n="78"/>est verum dicere, quod ipse secundum quod homo creat animas 
+      <lb ed="#S" n="79"/>vel gubernat mundum: quia humanitas non est ratio seu 
+       cau<lb ed="#S" break="no" n="80"/>sa quare tales actus ei conueniant. sic ergo si quaeratur an 
+      <lb ed="#S" n="81"/>Christus iudicabit in forma humana, non est dubium quod 
+      <lb ed="#S" n="82"/>sic, quod patet &amp; auctoritate scripturae &amp; probabili ratione. 
+      <lb ed="#S" n="83"/>Auctoritas scripturae est Ioan. 19. Videbunt in quem 
+       trans<lb ed="#S" break="no" n="84"/>fixerunt. sed illud non potest verificari nisi Christus 
+       ap<lb ed="#S" break="no" n="85"/>pareret in forma humana in qua Christus transfirus fuit: 
+      <lb ed="#S" n="86"/>ergo. &amp;c. Ratio est ad hoc, quia iudex debet principaliter 
+      <lb ed="#S" n="87"/>apparere iudicandis: maxime quando in eo praetendun 
+      <lb ed="#S" n="88"/>tur insignia iustae condemnationis malorum. sed Christus 
+      <lb ed="#S" n="89"/>secundum diuinitatem non apparebit malis, cum in eius 
+      <lb ed="#S" n="90"/>visione consistat beatitudo, vt infra patebit: ergo appare 
+      <lb ed="#S" n="91"/>bit secundum humanitatem in qua apparebunt insignia 
+       pas<lb ed="#S" break="no" n="92"/>sionis quam pro om̃ibus sustinuit: &amp; cuius beneficiis mali 
+      <lb ed="#S" n="93"/>per suam culpam se reddiderunt indignos. si vero 
+       quae<lb ed="#S" break="no" n="94"/>ratur vtrum Christo conueniat iudicare secundum humanam 
+      <lb ed="#S" n="95"/>naturam, dicendum, quod ly secundum, potest designare 
+       aucto<lb ed="#S" break="no" n="96"/>ritatem primariam respectu iudicij aut secundariam &amp; quasi 
+      <lb ed="#S" n="97"/>delegatam. si primo modo: sic non competit Christo 
+       iudi<lb ed="#S" break="no" n="98"/>care secundum humanam naturam. sed solum secundum diuinam 
+      <lb ed="#S" n="99"/>cum patre &amp; spiritu sancto. Cuius ratio est: quia illius so 
+      <lb ed="#S" n="100"/>lius est iudicare secundum primariam auctoritatem qui potest 
+      <lb ed="#S" n="101"/>efficaciter praemium roddere bonis, &amp; infligere poenam ma 
+      <lb ed="#S" n="102"/>lis: sed Christus secundum quod homo per potestatem humanae 
+      <lb ed="#S" n="103"/>naturae non potest reddere bonis praemium puta visionem beati 
+      <lb ed="#S" n="104"/>ficam, nec malis infligere poenam damnationis, quia sola diui 
+      <lb ed="#S" n="105"/>na virtute visio diuinae essentiae potest communicari intellectui 
+      <lb ed="#S" n="106"/>creato, &amp; per illam solam potest fieri quod spiritus a corpore separatus, 
+      <lb ed="#S" n="107"/>vt sunt angeli puniantur ab igne inferni: vel quod corpora dam 
+      <lb ed="#S" n="108"/>natorum semper affligunt &amp; nunquam corrumpantur: ergo secundum 
+      <lb ed="#S" n="109"/>humanam naturam non iudicabit per primariam auctoritatem: 
+      <lb ed="#S" n="110"/>sed folum secundum diuinitatem: si autem ly secundum, dicat 
+       au<lb ed="#S" break="no" n="111"/>ctoritatem secundariam &amp; quasi delegatam: sic Chro competit iu 
+      <lb ed="#S" n="112"/>dicare secundum humanam naturam: primo, quia per iudicium boni ad 
+      <lb ed="#S" n="113"/>mittentur ad regnum: mali vero repellentur, sic admissio 
+       bo<lb ed="#S" break="no" n="114"/>norum ad regnum erit meritorie per beneficium redemptionis quod 
+      <lb ed="#S" n="115"/>perceperunt &amp; tenuerunt, repulsio vero malorum a regno 
+      <lb ed="#S" n="116"/>erit per hoc quod beneficium redemptionis contempserunt, vel eo 
+      <lb ed="#S" n="117"/>abusi sunt, &amp; quia Christus est redemptor ratione humanae 
+      <lb ed="#S" n="118"/>naturae in qua opus redemptionis exercuit: ideo secundum 
+      <lb ed="#S" n="119"/>eam sibi competit secunda auctoritas iudicandi: &amp; hoc est quod 
+      <lb ed="#S" n="120"/>dicit quaedam glossa super illud Iob. 36. Causa tua quasi 
+      <lb ed="#S" n="121"/>impij iudicata est. glo. a Pylato: ideo iudicium causamque re 
+      <lb ed="#S" n="122"/>clpies. glo. vt iuste iudices. secundo, quia eodem modo 
+      <lb ed="#S" n="123"/>competit alicui legem condere &amp; secundum eam iudicare. sed 
+      <lb ed="#S" n="124"/>Christus secundum humanam naturam fuit conditor legis 
+      <lb ed="#S" n="125"/>euangelicae, non quidem primaria auctoritate, sed secun 
+      <lb ed="#S" n="126"/>daria &amp; quasi delegata: ergo eodem modo competit sibi 
+      <lb ed="#S" n="127"/>secundum eam obseruatores &amp; transgressores iudicare: 
+      <lb ed="#S" n="128"/>Et istum ordinem iudiciariae potestatis tangit expresse 
+       scri<lb ed="#S" break="no" n="129"/>ptura Dani. 7. vbi dicitur sic aspiciebam donec throni 
+      <!--0497.xml-->
+      <pb ed="#S" n="497"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>positi sunt &amp; antiquus dierum cedit: per antiquum dierum 
+      <lb ed="#S" n="2"/>intelligens Deum, &amp; maxime patrem qui est fons totius 
+      <lb ed="#S" n="3"/>Deitatis cui appropriatur primaria potestas iudicandi: 
+      <lb ed="#S" n="4"/>&amp; quia ab eo deriuatur potestas iudiciaria in filium non 
+      <lb ed="#S" n="5"/>solum ab aeterno &amp; secundum diuinam naturam: sed etiam 
+      <lb ed="#S" n="6"/>in tempore secundum humanam in qua potestatem iudicandi 
+      <lb ed="#S" n="7"/>meruit. sed non eandem nec aequalem, ideo subiungitur. 
+      <lb ed="#S" n="8"/>Aspiciebam in visu noctis &amp; ecce cum nubibus coeli 
+       qua<lb ed="#S" break="no" n="9"/>si filius hominis veniebat, &amp; vsq, ad antiquum dierum per 
+      <lb ed="#S" n="10"/>uenit &amp; dedit ei potestatem &amp; honorem &amp; regnum, in quo 
+      <lb ed="#S" n="11"/>innuitur potestas iudiciaria homini Christo delegata. 
+    </p>
+            <p xml:id="khj78y-r59686-d1e373" n="6">
+               <lb ed="#S" n="12"/>
+               <!-- 6 -->secunda conclusio est, quod Christus iudicabit in forma 
+      <lb ed="#S" n="13"/>gloriosa quod patet tripliciter. Primo, quia in ea forma veniet 
+      <lb ed="#S" n="14"/>ad iudicandum in qua ascendit in coelum: vnde Actu. 1. 
+      <lb ed="#S" n="15"/>Dixerunt angeli apostolis, Hic Christus qui assumptus 
+      <lb ed="#S" n="16"/>est a vobis in coelum sic veniet, quemadmodum vidistis 
+      <lb ed="#S" n="17"/>eum euntem in coelum. sed Christus ascendit in coelum 
+      <lb ed="#S" n="18"/>cum humanitate gloriosa: ergo in tali veniet ad 
+       iudici<lb ed="#S" break="no" n="19"/>um. secundo, quia iudicare &amp; iudicari sunt actus oppositi 
+      <lb ed="#S" n="20"/>maxime quando aliquis iudicatur iudicio condemnationis: quia 
+      <lb ed="#S" n="21"/>iudicare est potestatis: iudicari vero infirmitatis: sicut 
+      <lb ed="#S" n="22"/>autem Christus in primo aduentu venit ad iudicium 
+       passi<lb ed="#S" break="no" n="23"/>ue: sic in secundo aduentu veniet ad iudicandum actiue: er 
+      <lb ed="#S" n="24"/>go sicut venit in infirma, sic veniet in forma gloriosa. 
+      <lb ed="#S" n="25"/>Item tertio, iudex non debet esse vilioris conditionis quam 
+      <lb ed="#S" n="26"/>iudicandi: sed aliqui iudicandierunt glorificati 
+       secun<lb ed="#S" break="no" n="27"/>dum corpus. scilicet omnes boni: ergo multo magis Chr:stus. 
+      <lb ed="#S" n="28"/>Et hoc est quod dicitur Lucae. 21. Videbunt flium hominis 
+      <lb ed="#S" n="29"/>renientem cum potestate magna &amp; maiestate: potestas 
+      <lb ed="#S" n="30"/>autem &amp; maiestas ad gloriam pertinent: ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-r59686-d1e419" n="7">
+      <!-- 7 -->
+       Ter<lb ed="#S" break="no" n="31"/>tia conclusio est de coniudicibus. Vbi sciendum quod 
+       iudi<lb ed="#S" break="no" n="32"/>care potest competere alicui multipliciter. Primo, per mo 
+      <lb ed="#S" n="33"/>dum primariae authoritatis, &amp; sic competit solum Trini 
+      <lb ed="#S" n="34"/>tati. secundo, per moduprimariae delegationis: &amp; sic com 
+      <lb ed="#S" n="35"/>petit soli Christo secundum humanitatem de quibus dictum 
+      <lb ed="#S" n="36"/>est iam. Tertio, per modum assessoriae dignitatis: &amp; sic 
+       iu<lb ed="#S" break="no" n="37"/>dicabunt sancti perfecti &amp; eorum imitatores, sicut 
+       pro<lb ed="#S" break="no" n="38"/>mittitureis Matth. 10. Quarto, per modum 
+       approbatio<lb ed="#S" break="no" n="39"/>nis, &amp; sic iudicabunt omnes sancti. sapien. 3. Iudicabunt 
+      <lb ed="#S" n="40"/>sancti nationes. Quinto per modum comparationis &amp; 
+      <lb ed="#S" n="41"/>sic iudicabunt vel dicuntur minus mali iudicare magis 
+      <lb ed="#S" n="42"/>malos: inquantum eorum comparatione condemnabiliores 
+      <lb ed="#S" n="43"/>apparent: &amp; dicitur Matth. 12. Viri Niniuitae surgent in 
+      <lb ed="#S" n="44"/>iudiciocum generatione hac &amp; condemnabunt eam. sed 
+      <lb ed="#S" n="45"/>de iudicio assessorio sciendum est, quod ad illud sufficit 
+       con<lb ed="#S" break="no" n="46"/>sedere Christo in coelestibus, quia etiam beata Virgo 
+       con<lb ed="#S" break="no" n="47"/>sedebit ad dexteram, alias vel supra filium, vel infra alios: 
+      <lb ed="#S" n="48"/>non tamen ipsa vel quaecunq, foemina iudicabit, sicut nec 
+      <lb ed="#S" n="49"/>claues habent: quia non conuenit sexui nec sufficit lege 
+      <lb ed="#S" n="50"/>re in vita ipsorum sententiam, quia magis in beata 
+       Vir<lb ed="#S" break="no" n="51"/>gine perfectio scripta fuit &amp;c. sed pauperes &amp; martyres 
+      <lb ed="#S" n="52"/>ludicabunt: pauperes enim voluntarij iudicabunt &amp; si 
+      <lb ed="#S" n="53"/>non virgines vt Petrus, &amp; nec martyres vt Ioannes, nec 
+      <lb ed="#S" n="54"/>doctores vt Paulus primus heremita quem inter aposto 
+      <lb ed="#S" n="55"/>los vidit beatus Antonius sedere. similiter martyres 
+       et<lb ed="#S" break="no" n="56"/>iam si nihil aliorum habeant, quia pro Christo iudicati 
+      <lb ed="#S" n="57"/>sunt qui ditit, Qui vicerit dabo ei sedere &amp;c. Non qui 
+      <lb ed="#S" n="58"/>solum doctores nec solum virgines &amp;c. Item non angeli, 
+      <lb ed="#S" n="59"/>non quia videri non poterunt quia secundum Grego. 
+      <lb ed="#S" n="60"/>tunt nobis visibiles apparebunt, sed daemones exequen 
+      <lb ed="#S" n="61"/>tur. Vnde sciendum quod omnes angeli, &amp; omnes homines 
+      <lb ed="#S" n="62"/>apparebunt ante tribunal Christi. De angelis dicitur, 
+      <lb ed="#S" n="63"/>quod omnes angeli eius cum eo: de hominibus, quia omnes 
+      <lb ed="#S" n="64"/>stabimus ante tribunal Christi: etiam pueri: vt in nomi 
+      <lb ed="#S" n="65"/>ne Iesu omne genu flectatur coelestium terrestrium &amp; 
+      <lb ed="#S" n="66"/>infernorum.
+    </p>
+            <p xml:id="khj78y-r59686-d1e503" n="8">
+      <!-- 8 -->Quantum ad secundum de gaudio 
+       visio<lb ed="#S" break="no" n="67"/>nis Dei sunt tres conclusiones. Prima, quod Deitas potest 
+      <!--0497.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>videri sine gaudio de potentia absoluta Dei non autem 
+      <lb ed="#S" n="69"/>ex natura rei nec de potentia ordinata. Deus enim de 
+      <lb ed="#S" n="70"/>potentia absoluta potest facere quod intellectus creatus vi 
+      <lb ed="#S" n="71"/>deret ipsum nude &amp; aperte: &amp; tamen voluntas nec dele 
+      <lb ed="#S" n="72"/>ctaretur nec gauderet: cuius ratio est: quia quando duo 
+      <lb ed="#S" n="73"/>actus sunt subordinati in ratione prioris &amp; posterioris, 
+      <lb ed="#S" n="74"/>prior actus potest esse sine posteriore absque aliqua 
+       con<lb ed="#S" break="no" n="75"/>tradictione. sed visio diuinae essentiae &amp; quaecunque 
+       co<lb ed="#S" break="no" n="76"/>gnitio: se habet ad gaudium seu delectationem 
+       volunta<lb ed="#S" n="77" break="no"/>tis, vt prior, quia voluntas non potest delectari in aliquo 
+      <lb ed="#S" n="78"/>vel gaudere nisi praecognito: ergo non implicat contra 
+      <lb ed="#S" n="79"/>dictionem ponere visionem sine gaudio &amp; 
+       delectatio<lb ed="#S" break="no" n="80"/>ne: sed Deus potest facere quicquid non implicat 
+       con<lb ed="#S" break="no" n="81"/>tradictionem. quare &amp;c. si autem quaeratur de natura 
+      <lb ed="#S" n="82"/>rei sic dicendum est, quod ad visionem diuinae essentiae 
+       nu<lb ed="#S" break="no" n="83"/>dam &amp; apertam: necessario sequitur gaudium seu 
+       dele<lb ed="#S" break="no" n="84"/>ctatio: cuius ratio est: quia summum bonum praesens &amp; 
+      <lb ed="#S" n="85"/>cognitum &amp; nihil habens admixtum necessario 
+       delectas<lb ed="#S" break="no" n="86"/>loquendo de necessitate rei siue ordinis naturalis in 
+       re<lb ed="#S" break="no" n="87"/>bus creatis: vnde &amp; definitur delectatio per causam 
+       su<lb ed="#S" break="no" n="88"/>am, quod est coniunctio conuenientis cum conuenienti, cum 
+      <lb ed="#S" n="89"/>perceptione eius. sed Deus visus est summum bonum 
+      <lb ed="#S" n="90"/>nihil habens de admixtione mali: cum ipse in essentia 
+      <lb ed="#S" n="91"/>sua sit bonitas, &amp; eius visio sitsumma &amp; 
+       conuenientissi<lb ed="#S" break="no" n="92"/>ma hominis perfectio, vt infra patebit: ergo ipse sic 
+       co<lb ed="#S" break="no" n="93"/>gnitus necessario causat delectationem in 
+       cognoscen<lb ed="#S" break="no" n="94"/>te. Et secundum hanc intentionem dicitur, quod visio Del 
+      <lb ed="#S" n="95"/>est beatitudo ad quam necessario sequitur gaudium seu 
+      <lb ed="#S" n="96"/>delectatio. Quamuis quidam dicunt, quod per illud quod 
+      <lb ed="#S" n="97"/>dicitur Ioan. 17. Haec est vita aeterna &amp;c. non 
+       intelligi<lb ed="#S" break="no" n="98"/>tur quod visio Dei sit beatitudo vel pertinens ad 
+       beatitudi<lb ed="#S" n="99" break="no"/>nem, sed sicut dicunt actio intellectus est quaedam vita 
+      <lb ed="#S" n="100"/>vt dicitur. 12. Meta. &amp; per consequens actio intellectus 
+      <lb ed="#S" n="101"/>si sit aeterna est vita aeterna: sed non oportet quod sit 
+       beati<lb ed="#S" break="no" n="102"/>tudo, quia nomine vitae aeternae solum designatur ibi 
+       ope<lb ed="#S" break="no" n="103"/>ratio vitalis aeterna. sed istud non solum est absurdum, 
+      <lb ed="#S" n="104"/>sed valde periculosum. si enim nomen vitae aeternae non 
+      <lb ed="#S" n="105"/>designatur: nisi actio vitalis aeterna &amp; non beatitudo ipsa, 
+      <lb ed="#S" n="106"/>tunc potest dici quod damnati habebunt vitam aeternam: 
+      <lb ed="#S" n="107"/>quia habebunt. aliquam operationem vitalem aeternam, 
+      <lb ed="#S" n="108"/>puta dolorem, vel tristitiam mentalem de amissione 
+       bea<lb ed="#S" break="no" n="109"/>titudinis, &amp; dolorem sensualem de afflictione ignis siue 
+       cor<lb ed="#S" n="110" break="no"/>poris per ignem, quod nullus dicit. scriptura etiam dicis 
+      <lb ed="#S" n="111"/>quae vitam aeternam promittit solum bonis, Matth. 25. 
+      <lb ed="#S" n="112"/>ibi, hi. scilicet mali in supplicium aeternum: boni autem in 
+       vi<lb ed="#S" n="113" break="no"/>tam aeternam. in loco etiam praealleg. Io. 17. Vita aeterna 
+      <lb ed="#S" n="114"/>iustis promittit in praemium. Vnde as verba praedicta 
+       praemit<lb ed="#S" n="115" break="no"/>titur. Dedisti ei potestatem omnis carnis, vt omne quod de 
+      <lb ed="#S" n="116"/>disti ei det eis vitam aeternam: &amp; statim subiungitur, haec 
+      <lb ed="#S" n="117"/>est autem vita aeterna &amp;c. Constat autem quod praemium bonorum 
+      <lb ed="#S" n="118"/>est beatitudo vel pertinet ad beatitudinem.
+    </p>
+            <p xml:id="khj78y-r59686-d1e625" n="9">
+      <!-- 9 -->secunda 
+      <lb ed="#S" n="119"/>conclusio est de visione humanitatis, quia non est simila 
+      <lb ed="#S" n="120"/>de visione humanitatis &amp; deitatis, quia visio humanitatis 
+      <lb ed="#S" n="121"/>non est summa perfectio hominis: potest etiam aliquid 
+       secun<lb ed="#S" break="no" n="122"/>dum se habere adiunctum ratione cuius est magis tristabilis 
+      <lb ed="#S" n="123"/>quam delectabilis. sicut cum videi aliquid excellens 
+       sen<lb ed="#S" break="no" n="124"/>sibile quod laedit organum: &amp; isto modo nihil prohibet 
+       hu<lb ed="#S" n="125" break="no"/>manitatem Christi esse damnatis tristabilem inquantum eius 
+       ex<lb ed="#S" break="no" n="126"/>cellens claritas esset laesiua dispositionis organi non 
+       glori<lb ed="#S" break="no" n="127"/>ficati, vel si lux illa non contristat, sed demulcet visum 
+       sal<lb ed="#S" n="128" break="no"/>tem inquantum est visio sui inimici &amp; nocentis est ei 
+       tristabi<lb ed="#S" break="no" n="129"/>lis. sed visio Deitatis est summa perfectio hominis, nec habet ad 
+      <lb ed="#S" n="130"/>iunctum aliquid quod causet tristitiam propter quod impossi 
+      <lb ed="#S" n="131"/>bile est quod talem visionem non sequatur delectatio de lege coni. 
+    </p>
+            <p xml:id="khj78y-r59686-d1e658">
+    </p>
+            <p xml:id="khj78y-r59686-d1e660" n="10">
+               <lb ed="#S" n="132"/>
+               <!-- 10 -->Tertia conclusio est de tristitia damnatorum, quia 
+       in<lb ed="#S" break="no" n="133"/>ter tristitias &amp; delectationes illa quae est maior 
+       expel<lb ed="#S" break="no" n="134"/>lit aliam vel saltem minuit: delectatio enim quae conse- 
+      <!--0498.xml-->
+      <pb ed="#S" n="498"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>quitur diuinam visionem: maior est quam quaecunque 
+       tristi<lb ed="#S" break="no" n="2"/>tia damnatorum, propter quod si viderent Deum 
+       tristi<lb ed="#S" break="no" n="3"/>tia non excluderet delectationem. sed delectatio tanum 
+      <lb ed="#S" n="4"/>maior absorberet tristitiam: quia superabundans delecta 
+      <lb ed="#S" n="5"/>tio excludit tristitiam non solam oppositam, sed contin 
+      <lb ed="#S" n="6"/>gentem, vt patet. 10. Ethic.
+    </p>
+            <p xml:id="khj78y-r59686-d1e691" n="11">
+      <!-- 11 -->Quantum ad tertium de 
+      <lb ed="#S" n="7"/>mundi innouatione dantur isti versus: 
+      <lb ed="#S" n="8"/>Terra superficie vitro similabitur: vnda 
+      <lb ed="#S" n="9"/>Crystallo, coelis aer lucis aequabitur: ignis 
+      <lb ed="#S" n="10"/>sideribus, Luna soli, septempliciter sol. 
+      <lb ed="#S" n="11"/>Primo dicitur quod terra superficie vitro similabitur. praes. 
+      <lb ed="#S" n="12"/>Renouabis faciem terrae, non metaphorice 
+       indiuisibili<lb ed="#S" break="no" n="13"/>ter: sed in profundo forte ad limbum puerorum 
+       inclusi<lb ed="#S" break="no" n="14"/>ue, quia tenebrae essent poena corporibus eorum, licet 
+       mo<lb ed="#S" break="no" n="15"/>do non sit poena Apoc. 21. Plateae ciuitatis cius tanquam 
+      <lb ed="#S" n="16"/>vitrum perlucidum. Vnda crystallo soliditate, quia fluxus 
+      <lb ed="#S" n="17"/>maris cessabit. Apoc. Ostendit mihi fluuium aquae viuae 
+      <lb ed="#S" n="18"/>splendidum tanquam crystallum. Coelis aer aequabitur lucens: 
+      <lb ed="#S" n="19"/>sed non illuminans, sed perpetuo, quia nox non erit 
+       vl<lb ed="#S" break="no" n="20"/>tra. Apoc. penult. Et ignis sideribus vt non solum luceat 
+      <lb ed="#S" n="21"/>sic modo, sed etiam illuminet sicut stellae. Nam columna 
+      <lb ed="#S" n="22"/>ignis lucebat per noctem. Alij contra, quia coelum 
+       em<lb ed="#S" break="no" n="23"/>pyreum radios non emittit. Luna soli, &amp; similiter alia 
+      <lb ed="#S" n="24"/>sidera augebuntur. septempliciter sol, sicut primis sex 
+      <lb ed="#S" n="25"/>diebus ante peccatum, vel ad literam secundum Magistrum, 
+      <lb ed="#S" n="26"/>vel secundum quosdam. i. perfecte &amp; plus quam modo: corpus au 
+      <lb ed="#S" n="27"/>tem sancti septies, licet simpliciter dicatur, Fulgebunt 
+       iu<lb ed="#S" break="no" n="28"/>sti sicut sol lucet, quia propter quod vnumquodque tale 
+      <lb ed="#S" n="29"/>&amp; illud magis.
+    </p>
+            <p xml:id="khj78y-r59686-d1e746" n="12">
+      <!-- 12 -->Ad argumentum in contrarium, ad pri 
+      <lb ed="#S" n="30"/>mum dicendum, quod Christus iudicabit in forma humana 
+      <lb ed="#S" n="31"/>gloriosa: &amp; cum dicitur quod oculus non glorificatus non 
+      <lb ed="#S" n="32"/>potest videre claritatem corporis gloriosi dicendum, quod omnis 
+      <lb ed="#S" n="33"/>oculus potest videre omnem claritatem eiusdem generis cum 
+      <lb ed="#S" n="34"/>claritate naturali: nisi sit defectus ex parte complexionis 
+      <lb ed="#S" n="35"/>organi, quae propter sui debilitatem resoluitur ab excel 
+      <lb ed="#S" n="36"/>lenti claritate: ita vt non possit fixe in eam intendere: 
+      <lb ed="#S" n="37"/>pont tamen eam in transitu percipere. Et secundum hoc potest dici, 
+      <lb ed="#S" n="38"/>quod cum oculus damnati post resurrectionem sit incorruptibi 
+      <lb ed="#S" n="39"/>lis quamuis sit passibilis, poterit in quodam transitu 
+       perpen<lb ed="#S" break="no" n="40"/>dere claritatem corporis Christi, licet non possit in eam 
+      <lb ed="#S" n="41"/>fixe intendere. Vel potest dici, quod corpus gloriosum 
+       pro<lb ed="#S" break="no" n="42"/>pter diuinam virtutem sibi ad nutum assistentem potest mode 
+      <lb ed="#S" n="43"/>rari actionem claritatis suae in visum, ita vt possit 
+       perpen<lb ed="#S" break="no" n="44"/>di ab oculo tam non glorificato quae glorificato. Quod 
+       au<lb ed="#S" break="no" n="45"/>tem subditur quod damnati de tali visione gauderent, 
+       Di<lb ed="#S" break="no" n="46"/>cendum quod non, quia sicut gloria amici est delectabilis: 
+      <lb ed="#S" n="47"/>ita potestas &amp; gloria eius qui odio habetur est maxime 
+      <lb ed="#S" n="48"/>contristatiua: propter quod sicut visio humanitatis 
+       Chri<lb ed="#S" break="no" n="49"/>sti erit beatis in praemium, ita erit damnatis ad supplici 
+      <lb ed="#S" n="50"/>um.
+    </p>
+            <p xml:id="khj78y-r59686-d1e797" n="13">
+      <!-- 13 -->Ad secundum dicendum, quod procedit de illo 
+      <lb ed="#S" n="51"/>qui habet primariam potestatem, quam non habet Chri 
+      <lb ed="#S" n="52"/>stus secundum quod homo, sed quod Deus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

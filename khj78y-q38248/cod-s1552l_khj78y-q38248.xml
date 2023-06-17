@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="147"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q38248"><!-- l4d12-q3 -->
+            <head xml:id="khj78y-q38248-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-q38248-Hd1e103" type="question-title">
+     utrum 
+     in sacramento altaris sint accidentia 
+     sine subiecto
+   </head>
+            <p xml:id="khj78y-q38248-d1e106">
+               <lb ed="#S" n="17"/>QVAESTIO TERTIA. 
+      <lb ed="#S" n="18"/>De modo, quo accidentia in hoc sacramento existum 
+    </p>
+            <p xml:id="khj78y-q38248-d1e113">
+               <lb ed="#S" n="19"/>
+               <!-- line coord error here -->Thom. 3. part. q. 77.
+    </p>
+            <p xml:id="khj78y-q38248-d1e120">
+               <lb ed="#S" n="20"/>QVAERITVR Tertio, vtrum 
+      <lb ed="#S" n="21"/>in sacramento altaris sint accidentia 
+       si<lb ed="#S" break="no" n="22"/>ne subiecto? Et videtur, quod non: quia 
+      <lb ed="#S" n="23"/>eucharistia est quoddam sacramentum, 
+       si<lb ed="#S" break="no" n="24"/>cut &amp; alia: &amp; alia supernaturalia 
+      <lb ed="#S" n="25"/>sicut istud: sed in aliis non 
+       po<lb ed="#S" break="no" n="26"/>nunt accidentia sine subiecto. 
+       er<lb ed="#S" break="no" n="27"/>lgo nec in isto poni debent. 
+    </p>
+            <p xml:id="khj78y-q38248-d1e141" n="2">
+               <lb ed="#S" n="28"/>
+               <!-- 2 -->CONTRA, quia si essent in subiecto, aut in cor 
+      <lb ed="#S" n="29"/>pore Christi, aut in substantia panis, aut in aere, sed non 
+      <lb ed="#S" n="30"/>in corpore Christi: in quo sunt alia eiusdem rationis. 
+       Ite<lb ed="#S" break="no" n="31"/>rum nec est Christus ita paruus, sicut hostia, nec ita 
+       co<lb ed="#S" break="no" n="32"/>loratus. Nec in substantia panis, &amp; vini, quae non manet. 
+      <lb ed="#S" n="33"/>Nec in aere, quia est locus specierum, qui differt supposito,
+      <lb ed="#S" n="34"/>
+               <!-- line coord error here -->&amp; subiecto a locato. Et iterum sunt ibi aliae dimensiones
+      <lb ed="#S" n="35"/>eiusdem speciei.
+    </p>
+            <p xml:id="khj78y-q38248-d1e165" n="3">
+      <!-- 3 -->Et si dicatur, quod Deus potest face 
+      <lb ed="#S" n="36"/>re duo accidentia eiusdem speciei in eodem subiecto non 
+      <lb ed="#S" n="37"/>videtur: quia quaecumque sunt vnum subiecto, sunt vnum per 
+       acci<lb ed="#S" break="no" n="38"/>dens: sed sicut ipse non potest facere vnum per se ex duobus 
+      <lb ed="#S" n="39"/>actibus, nisi vnum sit actu, &amp; aliud in potentia: ita videt, quod 
+      <lb ed="#S" n="40"/>nonpossit facere vnum per accidens ex duobus actibus 
+      <lb ed="#S" n="41"/>aequalibus, nisi vnum sit potentialius, &amp; aliud actualius: 
+      <lb ed="#S" n="42"/>quod non est in his, quae non differunt specie nisi per 
+       ac<lb ed="#S" break="no" n="43"/>cidens, quando differunt gradu.
+    </p>
+            <p xml:id="khj78y-q38248-d1e187" n="4">
+      <!-- 4 -->REsPONDEO, 
+      <lb ed="#S" n="44"/>communis opinio omnium catholicorum est hic esse acciden 
+      <lb ed="#S" n="45"/>tia fine subiecto. Circa hoc tamen est triplex modus dicendi. 
+    </p>
+            <p xml:id="khj78y-q38248-d1e196" n="5">
+               <lb ed="#S" n="46"/>
+               <!--5-->PRIMVS, quod sunt hic naturaliter, nec proprie 
+      <lb ed="#S" n="47"/>subsistunt, quia sunt in alio. Dicunt enim, quod sicut 
+       qua<lb ed="#S" break="no" n="48"/>litas remanet hic naturaliter: quia remanet suum 
+       immedia<lb ed="#S" break="no" n="49"/>tum subiectum, quod est quantitas: licet tollatur suum remo 
+      <lb ed="#S" n="50"/>tum, quod est substantia, &amp; sic ipsa qualitas non subsistit, 
+      <lb ed="#S" n="51"/>sed inhaeret: sic etiam quantitas caret quidem suo subiecto 
+      <lb ed="#S" n="52"/>remoto: quod est essentia substantiae, quae conuertit: sed 
+      <lb ed="#S" n="53"/>habet suum subiectum proprium, &amp; propinquum: quod esse sub 
+      <lb ed="#S" n="54"/>stantiae, quo mediante inest substantiae: quia illud esse 
+       pos<lb ed="#S" break="no" n="55"/>sibile est remanere essentia non remanente, imo necesse est 
+      <lb ed="#S" n="56"/>ipsum remanere considerato modo, quo desinit hic esse, 
+    </p>
+            <p xml:id="khj78y-q38248-d1e225" n="6">
+               <lb ed="#S" n="57"/>
+               <!-- 6 -->Et quidem, quod hoc sit possibile, patet: quia licet 
+       essen<lb ed="#S" break="no" n="58"/>tia sit prior ipso esse ex quo videtur, cum prius possit 
+       sepa<lb ed="#S" break="no" n="59"/>rari a posteriori, quod magis possit separari, &amp; fieri essentia 
+      <lb ed="#S" n="60"/>sine esse, quam econuerso: tamen considerando ex alia parte, q 
+      <lb ed="#S" n="61"/>essentia se habet ad esse, sicut potentia ad actum, &amp; sicut ma 
+      <lb ed="#S" n="62"/>teria ad formam, quia actus minus dependet a potentia, quam 
+      <lb ed="#S" n="63"/>econuerso: sicut Deus magis potest facere formam sine 
+      <!--0147.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="64"/>materia, quam econuerso: imo illud potest, &amp; istud non pont: 
+      <lb ed="#S" n="65"/>sic videtur magis factibile esse sine essentia, quam 
+       econuer<lb ed="#S" break="no" n="66"/>so: sed Deus in incartione verbi fecit essentiam 
+       humani<lb ed="#S" break="no" n="67"/>tatis sine suo esse. ergo multo magis hic potest facere 
+       es<lb ed="#S" break="no" n="68"/>se substantiae panis sine essentia, vt sicut est ibi assumpta 
+      <lb ed="#S" n="69"/>essentia, &amp; manet: non autem esse &amp; non manet: sic 
+       econ<lb ed="#S" break="no" n="70"/>uerso hic conuersa potest esse essentia, &amp; non manet, &amp; 
+      <lb ed="#S" n="71"/>non conuersum esse manebit.
+    </p>
+            <p xml:id="khj78y-q38248-d1e267" n="7">
+      <!-- 7 -->secundo, 
+       osten<lb ed="#S" break="no" n="72"/>dunt, quod non solum istud sit possibile, sed necesse, quia nihil 
+      <lb ed="#S" n="73"/>creatum potest conuerti in increatum, sed vnum creatum 
+       po<lb ed="#S" break="no" n="74"/>test conuerti in aliud, quando communicant in materia, &amp; in ge 
+      <lb ed="#S" n="75"/>nere, aliter non: sicut accidens non conuertitur in substan 
+      <lb ed="#S" n="76"/>tiam, nec in accidens alterius praedicamenti secundum 
+       com<lb ed="#S" break="no" n="77"/>munem opinionem: essentia autem panis cum essentia 
+       corpo<lb ed="#S" break="no" n="78"/>ris Christi conuenit in materia, &amp; in genere. Vnde vna 
+       po<lb ed="#S" break="no" n="79"/>test cooerti in aliam etiam per naturam, si corpus esset 
+       mor<lb ed="#S" break="no" n="80"/>tale: sed esse panis non communicat in materia, nec in 
+       ge<lb ed="#S" break="no" n="81"/>nere cum esse corporis Christi substantiali: cum illud sit 
+       in<lb ed="#S" break="no" n="82"/>creatum diuinum, quod est suppositi diuini, cum in Christo 
+      <lb ed="#S" n="83"/>non sit nisi vnum esse actualis existentiae substantialis. ergo 
+      <lb ed="#S" n="84"/>impossibile est esse panis conuerti, &amp; necesse est ipsum 
+       re<lb ed="#S" break="no" n="85"/>manere.
+    </p>
+            <p xml:id="khj78y-q38248-d1e303" n="8">
+      <!-- 8 -->sed contra hanc opinionem arguitur 
+      <lb ed="#S" n="86"/>primo, quod non necesse sit ipsum remanere: tum quia si non 
+      <lb ed="#S" n="87"/>posset conuerti: potest tamen annihilari, vel potest 
+       corrum<lb ed="#S" break="no" n="88"/>pi cedendo in potentiam materiae: ita quod sicut humanitas 
+      <lb ed="#S" n="89"/>potuit assumi non assumpto esse, sed manente in potentia 
+      <lb ed="#S" n="90"/>materiae: sic essentia potest conuerti non conuerso esse, sed 
+      <lb ed="#S" n="91"/>redacto in potentia essentiae. Item licet esse panis non 
+       pos<lb ed="#S" break="no" n="92"/>sit conuerti in esse increatum: potest tamen conuerti in essentiam 
+      <lb ed="#S" n="93"/>creatam: quia quae communicat in materia, sunt adinuicem 
+      <lb ed="#S" n="94"/>transmutabilia: dato quod non communicent in materia 
+       pro<lb ed="#S" break="no" n="95"/>pinqua, sed solum in remota: sicut elementum potest conuerti 
+      <lb ed="#S" n="96"/>in animatum, &amp; econuerso: esse autem panis, &amp; esse corporis 
+      <lb ed="#S" n="97"/>Christi conueniunt in materia prima, quae est vtriusq, po 
+      <lb ed="#S" n="98"/>tentia remota, licet non conueniant in propinqua, quia 
+       ma<lb ed="#S" break="no" n="99"/>teria est pura potentia: essentia autem est potentia cum actur 
+      <lb ed="#S" n="100"/>imo etiam ratio contraria si aliquid valeret: concluderet, quod 
+      <lb ed="#S" n="101"/>de omni cibo, quem Christus ante passionem sumpsit: sola 
+      <lb ed="#S" n="102"/>essentia in ipsum conuersa fuit, &amp; non esse, sed remansit, 
+      <lb ed="#S" n="103"/>vel aliter, quae per conuersionem corruptum fuit, quia esse sub 
+      <lb ed="#S" n="104"/>stantiale Christi erat increatum ante resurrectionem, sicut 
+      <lb ed="#S" n="105"/>post.
+    </p>
+            <p xml:id="khj78y-q38248-d1e351" n="9">
+      <!-- 9 -->Praeterea, sicut dicimus, quod aqua, quae de 
+       po<lb ed="#S" break="no" n="106"/>tentia ordinata non potest conuerti in sanguinem Christi: 
+      <lb ed="#S" n="107"/>prius conuertitur in vinum, &amp; postea totum in sanguinem: sic es 
+      <lb ed="#S" n="108"/>se si non potest de potentia absoluta conuerti in aliquid Chri 
+      <lb ed="#S" n="109"/>sti: prius natura conuertir in suam essentiam transiens in eam: 
+      <lb ed="#S" n="110"/>sicut forma, quae cedit in potentiam materiae, &amp; post illa es 
+      <lb ed="#S" n="111"/>esse remanere, vt probat vltima ratio, quae per hoc est so 
+      <lb ed="#S" n="112"/>luta.
+    </p>
+            <p xml:id="khj78y-q38248-d1e371" n="10">
+      <!-- 10 -->secundo etiam videt, quod non sit possibile 
+      <lb ed="#S" n="113"/>ipsum manere: quia impossibile est, quod Deus faciat effectum 
+      <lb ed="#S" n="114"/>formalem sine causa formali sua: puta esse album sine 
+       albe<lb ed="#S" break="no" n="115"/>dine. vnde cum esse panis sit effectus formalis essentiae 
+      <lb ed="#S" n="116"/>panis, videtur impossibile, quod Deusfaciat esse panis sine 
+      <lb ed="#S" n="117"/>essetia panis.
+    </p>
+            <p xml:id="khj78y-q38248-d1e387" n="11">
+      <!-- 11 -->Et ad argumentum est dicendum, quod Deus 
+      <lb ed="#S" n="118"/>non potest facere essentiam sine omni esse: quia tunc esset, &amp; 
+      <lb ed="#S" n="119"/>non esset: sed bene potest facere essentiam sine suo esse natura 
+      <lb ed="#S" n="120"/>li, communicando sibi esse perfectius. sic etiam non potest 
+       fa<lb ed="#S" break="no" n="121"/>cere esse panis sine essentia panis, vel aliquid nobiliore: 
+      <lb ed="#S" n="122"/>ergo non potest manere esse panis nisi cum aliqua essentia 
+      <lb ed="#S" n="123"/>substantiae, quae vel sit panis, vel alia nobilior, quae sit idem 
+      <lb ed="#S" n="124"/>supposito, &amp; per se cum ipso esse. ergo cum haec non sit 
+       essen<lb ed="#S" break="no" n="125"/>tia corporis Christi: oportet ibi aliam esse, cum qua non 
+      <lb ed="#S" n="126"/>plus ibi esset corpus Christi, sicut nec erat ante 
+       conuer<lb ed="#S" break="no" n="127"/>sionem, sicut fit quando ex speciebus alia substantia 
+       genera<lb ed="#S" break="no" n="128"/>tur.
+    </p>
+            <p xml:id="khj78y-q38248-d1e416" n="12">
+      <!-- 12 -->sECVNDVs modus dicendi est, quod 
+      <lb ed="#S" n="129"/>sentia tota conuertitur in essentiam. Et sic non necesse est 
+      <lb ed="#S" n="130"/>quae sit vnum cum ea: haec autem non est essentia accidentis. 
+      <!--0148.xml-->
+      <pb ed="#S" n="148"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>ibi subsistunt accidentia supernaturaliter per virtutem 
+       su<lb ed="#S" break="no" n="2"/>peradditam: quia quod aliquid habeat actu illud, quod 
+       de<lb ed="#S" break="no" n="3"/>betur suae naturae, potest esse non per aliquid additum, sed 
+      <lb ed="#S" n="4"/>solum per conseruationem naturae, &amp; per remotionem 
+       prohi<lb ed="#S" break="no" n="5"/>bentis, si quod est. sicut quod leue ferat sursum, ad quod est 
+       tan<lb ed="#S" break="no" n="6"/>tum in potentia accidentali: sufficit tantum generans 
+       conser<lb ed="#S" break="no" n="7"/>uans in esse, &amp; remouens prohibens: ad hoc autem, quod non 
+       le<lb ed="#S" break="no" n="8"/>ue possit sursum ferri, cum sit in potentia essentiali: oportet 
+      <lb ed="#S" n="9"/>sibi addi actum primum: vt dicit. 2. de anima, &amp;. 8. Physi. quia 
+      <lb ed="#S" n="10"/>nihil potest aliquid, cum prius non posset, nisi per aliquod 
+       si<lb ed="#S" break="no" n="11"/>bi additum. sic igitur, quia substantiae naturale est subsistere 
+      <lb ed="#S" n="12"/>non oportet aliquid superaddere sibi ad subsistendum: 
+      <lb ed="#S" n="13"/>sed sufficit ipsam cum seruare. Vnde substantia per nihil 
+      <lb ed="#S" n="14"/>sibi additum subsistit: &amp; si ipsa prohibeatur subsistere 
+       ali<lb ed="#S" break="no" n="15"/>quo alio sufficit illud amouere, nec oportet aliquid 
+       ad<lb ed="#S" break="no" n="16"/>dere, sicut humanitas Christi sola de positione a deitate 
+      <lb ed="#S" n="17"/>sibi derelicta nullo addito subsisteret. sed accidens non 
+      <lb ed="#S" n="18"/>habet per naturam subsistere, sed magis inhaerere: vnde 
+      <lb ed="#S" n="19"/>non potest subsistere nisi per aliquid sibi additum, sicut nec 
+      <lb ed="#S" n="20"/>vapor sursum stare, nisi per calorem incorporatum. 
+    </p>
+            <p xml:id="khj78y-q38248-d1e475" n="13">
+               <lb ed="#S" n="21"/>
+               <!-- 13 -->sed nec ista opinio valet: quia illud additum, aut 
+      <lb ed="#S" n="22"/>esset essentia, aut esse, id est, aut esset principium 
+       subsisten<lb ed="#S" break="no" n="23"/>di, aut ipsum subsistere. Non primum: quia tunc inter essen 
+      <lb ed="#S" n="24"/>tiam quantitatis, &amp; suum esse caderet medium, quod est absur 
+      <lb ed="#S" n="25"/>dum. Et iterum esset vnicum esse duplicis essentiae, quod non 
+      <lb ed="#S" n="26"/>est nisi materiae, &amp; formae. Non etiam secundum, quia illud 
+      <lb ed="#S" n="27"/>subsistere cum esse preexistente essent duo esse vnius essen 
+      <lb ed="#S" n="28"/>tiae, quod est inconueniens. Et iterum illi subsistere inesset 
+       es<lb ed="#S" break="no" n="29"/>se primum, &amp; inhaeret: &amp; per consequens essentia sua, &amp; sic 
+      <lb ed="#S" n="30"/>non subsisteret quantitas, sed inhaeret, aut si non inhaereret, 
+      <lb ed="#S" n="31"/>per consequens subsisteret: &amp; sic non essent duo 
+       subsiste<lb ed="#S" break="no" n="32"/>re. Et quod dicitur de posse, quod prius non poterat, 
+       dicen<lb ed="#S" break="no" n="33"/>dum, quod ad hoc, quod aliquid possit per se, &amp; de se intrinsece, 
+      <lb ed="#S" n="34"/>quod prius non poterat indiget aliquo sibi addito: sicut 
+      <lb ed="#S" n="35"/>graue ad hoc, quod ab intra sursum feratur, requirit aliquid 
+      <lb ed="#S" n="36"/>sibi impressum a coelo, vel ab adamante. sed ad hoc, quod ex 
+      <lb ed="#S" n="37"/>alio, &amp; per aliud non indiget, sicut ad hoc, quod graue aliquo 
+      <lb ed="#S" n="38"/>substentet sursum, non oportet aliud sibi addere: sed per 
+      <lb ed="#S" n="39"/>aliud separatum illic potest teneri, vel violenter ab agente par 
+      <lb ed="#S" n="40"/>ticulari: puta columna, vel supernaturaliter a natura vni 
+      <lb ed="#S" n="41"/>uersali supplente vacuum: ita accidentia non ex se subsistunt, 
+      <lb ed="#S" n="42"/>sed diuina virtute, quae portat omnia verbo virtutis suae, 
+      <lb ed="#S" n="43"/>&amp; lapidem posset substentare sursum nullo ei addito, quamuis 
+      <lb ed="#S" n="44"/>natura eius tendat deordum: sic &amp; accidenti, quod natum est 
+      <lb ed="#S" n="45"/>inhaerere alteri tribuit subsistere in se, non per additum. 
+    </p>
+            <p xml:id="khj78y-q38248-d1e535" n="14">
+               <lb ed="#S" n="46"/>
+               <!-- 14 -->Et ideo est tertius modus dicendi, quod per nihil ad 
+      <lb ed="#S" n="47"/>ditum, sed per solam diuinam virtutem subsistunt, nec per hoc 
+      <lb ed="#S" n="48"/>quod est ibi corpus Christi, sine cuius poenitentia idem 
+       pos<lb ed="#S" break="no" n="49"/>set fieri, &amp; hoc patet: quia illud additum, aut esset substantia, 
+      <lb ed="#S" n="50"/>aut accidens non accidens: quia pari ratione indigeret 
+       ali<lb ed="#S" break="no" n="51"/>quo alio substentante. cum aequaliter omni accidenti abso 
+      <lb ed="#S" n="52"/>luto esse sit in esse: non minus naturali, quam supernaturali, 
+      <lb ed="#S" n="53"/>nec minus corporali, quam spirituali, nec econuerso, nec 
+       sub<lb ed="#S" break="no" n="54"/>stantia: quia aut illa esset affecta illa quantitate subiectiue, 
+      <lb ed="#S" n="55"/>aut non. Non primo modo, quia tunc non esset ibi corpus 
+      <lb ed="#S" n="56"/>Christi, ex quo est ibi alia substantia, quae succederet loco 
+      <lb ed="#S" n="57"/>primae: quia corpus Christi non est ibi, nisi quia succedit sub 
+      <lb ed="#S" n="58"/>stantiae prius existenti: aut non esset affecta, &amp; tunc non 
+      <lb ed="#S" n="59"/>posset substentare illam, cum hoc sit proprium virtutis 
+       infi<lb ed="#S" break="no" n="60"/>nitae. scilicet posse substentare aliquid in se a se distinctum 
+       na<lb ed="#S" break="no" n="61"/>tura, vel subiecto: quod non potest virtus finita per 
+       ali<lb ed="#S" break="no" n="62"/>quod medium.
+    </p>
+            <p xml:id="khj78y-q38248-d1e577" n="15">
+      <!-- 15 -->Ad argumentum in oppositum 
+      <lb ed="#S" n="63"/>dicendum, quod non est simile de eucharistia, &amp; aliis sacramentis: 
+      <lb ed="#S" n="64"/>quia in eucharistia debet esse Christus realiter, &amp; non in 
+      <lb ed="#S" n="65"/>aliis sacramentis, nisi virtualiter. ideo hic oportet substantiam 
+      <lb ed="#S" n="66"/>in ipsum conuerti, cum alius modus sufficiens nondum sit 
+      <lb ed="#S" n="67"/>inuentus, per quem possit hoc esse, non autem in aliis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

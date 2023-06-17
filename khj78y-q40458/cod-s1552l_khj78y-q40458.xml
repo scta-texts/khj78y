@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="154"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q40458"><!-- l4d13-q1 -->
+            <head xml:id="khj78y-q40458-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-q40458-Hd1e103" type="question-title">
+     Utrum non sacerdos possit conficere
+   </head>
+            <p xml:id="khj78y-q40458-d1e106">
+               <lb ed="#S" n="61"/>DIsTINCTIO. 13. QVAESTIO. I. 
+    </p>
+            <p xml:id="khj78y-q40458-d1e111">
+               <lb ed="#S" n="62"/>Si haeretici, &amp; excommunicati hoc sacramentum 
+       confi<lb ed="#S" break="no" n="63"/>Dciant. Circa. I3. distinctionem quaeruntur quatuor. 
+      <lb ed="#S" n="64"/>Primo, vtrum non sacerdos possit conficere. secundo, 
+      <!--0154.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="65"/>vtrum sacerdos teneatur celebrare. Tertio, de haereticis. 
+      <lb ed="#S" n="66"/>Quarto, vtrum plures sacerdotes possint eandem 
+       ho<lb ed="#S" break="no" n="67"/>stiam consecrare. 
+    </p>
+            <p xml:id="khj78y-q40458-d1e131">
+               <lb ed="#S" n="68"/>De saceraore ac conniciencum requijiro. 
+    </p>
+            <p xml:id="khj78y-q40458-d1e137">
+               <lb ed="#S" n="69"/>Thom. 3. q. s4. arti. 1. 
+    </p>
+            <p xml:id="khj78y-q40458-d1e142">
+               <lb ed="#S" n="70"/>PRIMO Ergo quaeritur, vtrum 
+      <lb ed="#S" n="71"/>non sacerdos possit conficere. 
+      <lb ed="#S" n="72"/>Et videtur quod sic: quia omnis 
+       san<lb ed="#S" break="no" n="73"/>ctus est sacerdos secundum Chry 
+      <lb ed="#S" n="74"/>sostomum.
+    </p>
+            <p xml:id="khj78y-q40458-d1e155" n="2">
+      <!-- 2 -->CONTRA, 
+      <lb ed="#S" n="75"/>non licet non sacerdoti corpus 
+      <lb ed="#S" n="76"/>Christi dispensare. ergo multo 
+      <lb ed="#S" n="77"/>minus celebrare.
+    </p>
+            <p xml:id="khj78y-q40458-d1e166" n="3">
+      <!-- 3 -->
+       RE<lb ed="#S" break="no" n="78"/>SPONDEO, circa istam quaestionem sunt quatuor 
+      <lb ed="#S" n="79"/>videnda. Primo, de hoc, quod quaeritur. secundo, vtrum 
+      <lb ed="#S" n="80"/>Papa prohibente possit sacerdos celebrare. Tertio, vtrum 
+      <lb ed="#S" n="81"/>plus valeat missa boni, vel mali sacerdotis. Quarto, de 
+      <lb ed="#S" n="82"/>hoc, quod tangitur in argumento.
+    </p>
+            <p xml:id="khj78y-q40458-d1e182" n="4">
+      <!-- 4 -->
+       QVAN<lb ed="#S" break="no" n="83"/>TVM ad primum sunt quinque conclusiones. Prima, quod 
+      <lb ed="#S" n="84"/>non sacerdos propter quancumque sanctitatem, aut potestatem 
+      <lb ed="#S" n="85"/>a Papa commissum non potest corpus, &amp; sanguinem Chri 
+      <lb ed="#S" n="86"/>sti consecrare: quia cuius non est potentia illius, illius 
+      <lb ed="#S" n="87"/>non est actus. Vnde sicut Papa non posset facere, quod 
+      <lb ed="#S" n="88"/>caecus videret, qui non habet potentiam videndi: sic 
+      <lb ed="#S" n="89"/>non potest facere, quod non sacerdos conficiat, aut ab 
+      <lb ed="#S" n="90"/>soluat: quia non habet characterem, qui est proprie potentia 
+      <lb ed="#S" n="91"/>conficiendi, &amp; ligandi, &amp; soluendi. Nam quod est episcopi, non 
+      <lb ed="#S" n="92"/>potest non episcopiscus: nec quod est sacerdotis, non potest 
+      <lb ed="#S" n="93"/>non sacerdos. Actus vero inferiorum ordinum etiam non 
+      <lb ed="#S" n="94"/>habens ordinem pont: quia non sunt ad posse simpliciter, sed 
+      <lb ed="#S" n="95"/>ad posse ex officio.
+    </p>
+            <p xml:id="khj78y-q40458-d1e215" n="5">
+      <!-- 5 -->secunda conclusio est, quod 
+       for<lb ed="#S" break="no" n="96"/>te exorcistae officium non posset non exorcista: cum habeat 
+      <lb ed="#S" n="97"/>specialem potestatem ad expellendum daemones, quod alius 
+      <lb ed="#S" n="98"/>non potest: nisi forte per gratiam gratis datam: &amp; tunc inter 
+      <lb ed="#S" n="99"/>miracula computatur, &amp; non inter sacramenta. sed quod 
+      <lb ed="#S" n="100"/>exorcista per exorcismum daemonem expellat, videtur 
+      <lb ed="#S" n="101"/>non esse miraculum: sed de lege communi, sicut quod 
+       sacer<lb ed="#S" break="no" n="102"/>dos conficiat. sed quia illud non experimur, videtur 
+      <lb ed="#S" n="103"/>magis actus exorcistae exorcismos dicere, quam daemones 
+       ex<lb ed="#S" break="no" n="104"/>pellere. Vnde quod beatus Martinus a beato Hylario factus 
+      <lb ed="#S" n="105"/>exorcista mox daemoniacum liberauit: miraculo non sa 
+      <lb ed="#S" n="106"/>cramento attribuitur: quia non sic est de aliis 
+       exorci<lb ed="#S" break="no" n="107"/>stis.
+    </p>
+            <p xml:id="khj78y-q40458-d1e247" n="6">
+      <!-- 6 -->Tertia conclusio est osanctitas facit homi 
+      <lb ed="#S" n="108"/>nem sacerdotem dupliciter. Primo, quasi sacrum ducem 
+      <lb ed="#S" n="109"/>aliorum exemplo, &amp; forte verbo. secundo, quia offert seip 
+      <lb ed="#S" n="110"/>sum Deo hostiam viuentem: non autem, quod possit conficere, 
+      <lb ed="#S" n="111"/>vel absoluere, vt dicunt haeretici: contra quod dicitur: 
+       ex<lb ed="#S" break="no" n="112"/>tra de summa Trini. c. 1. q. vna vero. vers. Et hoc vtique sa 
+      <lb ed="#S" n="113"/>cramentum nemo potest conficere nisi sacerdos: qui ad 
+      <lb ed="#S" n="114"/>hoc rite fuerit ordinatus secundum claues ecclefiae: quas 
+      <lb ed="#S" n="115"/>ipse concessit apostolis, eorumque successoribus Iesus Chri 
+      <lb ed="#S" n="116"/>stus.
+    </p>
+            <p xml:id="khj78y-q40458-d1e271" n="7">
+      <!-- 7 -->Quarta conclusio est, quod qui non 
+       sacer<lb ed="#S" break="no" n="117"/>dos de facto celebrare praesumit irregularitatem 
+       incur<lb ed="#S" break="no" n="118"/>rit: vt dicitur de clerico non ordinato ministrante. cap. 
+      <lb ed="#S" n="119"/>primo, &amp; secundo.
+    </p>
+            <p xml:id="khj78y-q40458-d1e282">
+      Quinta conclusio est, quod 
+       ar<lb ed="#S" break="no" n="120"/>chidiaconus, qui visitans confessiones audiebat: dicens 
+      <lb ed="#S" n="121"/>se per manus impositionem recepisce spiritum sanctum: in 
+      <lb ed="#S" n="122"/>quo dat remissio peccatorum, errabat, quia licet diacono de 
+      <lb ed="#S" n="123"/>tur spiritussanctus cum manus impositione: non tamen ei 
+       da<lb ed="#S" break="no" n="124"/>tur eum manus impositione sicut sacerdoti, cui dicit, quo 
+      <lb ed="#S" n="125"/>rum remiseritis peccata, re. &amp;c, Et sic, quia vt sacerdos 
+       ab<lb ed="#S" break="no" n="126"/>foluebat. ideo irregularitatem incurrit: sicut ille, qui non sa 
+      <!--0155.xml-->
+      <pb ed="#S" n="155"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>rdos solemniter baptizabat: extra de cle. non ordi. c. 1.
+    </p>
+            <p xml:id="khj78y-q40458-d1e308" n="9">
+               <lb ed="#S" n="2"/>
+               <!--9-->QVANTVM ad secundum sunt etiam quinque 
+      <lb ed="#S" n="3"/>conclusiones. Prima, quod sacerdos etiam Papa prohibente 
+       po<lb ed="#S" break="no" n="4"/>test consecrare, licet non sit episcopus: quia in 
+       consecratio<lb ed="#S" break="no" n="5"/>ne corporis, &amp; sanguinis veri tantum potest minimus 
+       sacer<lb ed="#S" break="no" n="6"/>dos, quantum summus pontifex, etiam Petrus apostolus: quia 
+      <lb ed="#S" n="7"/>ita habet potentiam, quae est character, sicut aeque potest 
+      <lb ed="#S" n="8"/>videre seruus, sicut Rex: si habet aeque potentiam visiuam. 
+      <lb ed="#S" n="9"/>In consecratione autem corporis Christi mystici, sicut 
+       ab<lb ed="#S" break="no" n="10"/>batum, virginum, episcoporum, &amp; huiusmodi: plus potest episcopus, 
+      <lb ed="#S" n="11"/>quam simplex sacerdos: imo tantum per se, quantum Papa, licet 
+      <lb ed="#S" n="12"/>non ita committere. Vnde consecrationem ecclesiarum non potest 
+      <lb ed="#S" n="13"/>epraes non episcopo committere: quod Papa potest, quia habet pleni 
+      <lb ed="#S" n="14"/>tudinem potestatis. Vnde Greg. extra de conse. eccle. c. poe. 
+      <lb ed="#S" n="15"/>ratam habuit consecrationem factam per simplices 
+       presbyte<lb ed="#S" break="no" n="16"/>ros, quod non potuisset, si a principio committere non posset. 
+      <lb ed="#S" n="17"/>sed quia ratihabitio retrotrahitur, &amp; mandato comparatur. 
+      <lb ed="#S" n="18"/>ideo ratihabitione consecratio facta est, quae prius 
+       com<lb ed="#S" break="no" n="19"/>missione fieri potuit. Et ideo non sequit, quod si Papa potest 
+      <lb ed="#S" n="20"/>committere confirmationem, &amp; mi nores ordines, quod propter 
+      <lb ed="#S" n="21"/>hoc inferior episcopus possit. Nec tum Papa potest habere ra 
+      <lb ed="#S" n="22"/>tam confirmationem, vel collationem minorum ordinum 
+       fa<lb ed="#S" break="no" n="23"/>ctam de facto a non episcopo: sicut consecrationem: quia 
+      <lb ed="#S" n="24"/>illud est sacramentum, istud autem est sacramentale. Non potest 
+      <lb ed="#S" n="25"/>autem Papa dare effectum sacramenti sine sacramento: quia non 
+       ha<lb ed="#S" break="no" n="26"/>bet potestatem excellentiae in sacramentis, sicut Christus. Vnde 
+      <lb ed="#S" n="27"/>cum absolutio in foro poenitentiae, &amp; confirmatio, &amp; ordi 
+      <lb ed="#S" n="28"/>natio sint sacramenta: si a principio nihil actum est, sacramentum non 
+      <lb ed="#S" n="29"/>est. Nec potest ratihabitio Papae facere illud sacramentum, quod 
+      <lb ed="#S" n="30"/>a principio fuit non sacramentum quicquam valere. sed in sacramenta 
+      <lb ed="#S" n="31"/>libus ipse habet plenitudinem potestatis: cum sacramentalia per 
+      <lb ed="#S" n="32"/>ecclesiam instituta ab ipso habeant robur, per quae etiam 
+      <lb ed="#S" n="33"/>sola relatio rationis acquiritur. Potest igitur Papae rati 
+      <lb ed="#S" n="34"/>habitio facere, quod ecclesia sit consecrata, id est, quod licite pos 
+      <lb ed="#S" n="35"/>sit in ea ita celebrari missa, &amp; ordines, &amp; chrisma, ac si 
+       es<lb ed="#S" break="no" n="36"/>set perepiscopum consecrata. sed non tantum valebunt 
+      <lb ed="#S" n="37"/>orationes in ea factae, quantum si propter orationes fuis 
+      <lb ed="#S" n="38"/>set sanctificata.
+    </p>
+            <p xml:id="khj78y-q40458-d1e393" n="10">
+      <!-- 10 -->secunda conclusio est, quod si 
+       es<lb ed="#S" break="no" n="39"/>set pessimus homo: puta Iudas conficeret nihilominus: 
+      <lb ed="#S" n="40"/>dummodo sacerdos esset: non illa ratione, quam ponunt 
+      <lb ed="#S" n="41"/>quidam, scilicet, quia quae sunt de essentia sacramenti, 
+      <lb ed="#S" n="42"/>debent esse nota ministranti saltem: alias nesciretur esse 
+      <lb ed="#S" n="43"/>sacramentum: bonitas autem non potest esse sibi nota: quia nescit 
+      <lb ed="#S" n="44"/>homo, vtrum amore dignus sit &amp;c. ideo. &amp;c. Haec enim 
+       ra<lb ed="#S" break="no" n="45"/>tio non valet. Impossibile enim est ea scire, quae sunt de 
+      <lb ed="#S" n="46"/>essentia sacramenti: si intentio est de essentia: quia tunc 
+       ordi<lb ed="#S" break="no" n="47"/>nans nescit se conferre ordinem: quia nescit, vtrum ille 
+       in<lb ed="#S" break="no" n="48"/>tendat recipere: quia nemo scit, quae sunt hominis, nisi 
+      <lb ed="#S" n="49"/>spiritus hominis, qui est in ipso. Et similiter econuerso. 
+      <lb ed="#S" n="50"/>Vnde sacerdos non potest scire per euidentiam, vtrum con 
+      <lb ed="#S" n="51"/>ficiat: quia nescit, vtrum fit sacerdos: quia nescit vtrum 
+       fue<lb ed="#S" break="no" n="52"/>rit ipse, vel qui ordinauit baptizatus: &amp; vtrum ille 
+       in<lb ed="#S" break="no" n="53"/>tenderit ordinari, vel ordinare: vel vtrum fuerit 
+       episco<lb ed="#S" break="no" n="54"/>pus, &amp; multa huiusmodi. Vnde est alia ratio: quia pote 
+      <lb ed="#S" n="55"/>stas artis sine bonitate morali nihil minus potest 
+       opera<lb ed="#S" break="no" n="56"/>ri, sicut est bonus artifex, qui est malus homo. Et 
+       simili<lb ed="#S" break="no" n="57"/>ter etiam qui habet characterem sacerdotalem: licet sit 
+      <lb ed="#S" n="58"/>malus homo: est tamen aeque potens conficere, sicut 
+       bo<lb ed="#S" break="no" n="59"/>nus: sicut etiam sequitur proles ex adulterio, &amp; ex actu 
+      <lb ed="#S" n="60"/>debito, sic &amp; in proposito.
+    </p>
+            <p xml:id="khj78y-q40458-d1e445">
+      <!--11 -->Tertia conclusio 
+      <lb ed="#S" n="61"/>est, quod etiam haereticus conficit, &amp; scismaticus: quia 
+      <lb ed="#S" n="62"/>quanuis de ordinatis ab haereticis posset magis 
+       dubita<lb ed="#S" break="no" n="63"/>ri: quia illud facit episcopus ratione consecrationis episcopi 
+      <lb ed="#S" n="64"/>scopalis: quae quia non est sacramentum: sed 
+       sacramen<lb ed="#S" break="no" n="65"/>tale, quod videretur magis subi acere potestati Papae, vt 
+      <lb ed="#S" n="66"/>potestatem acquisitam per eam posset aufferre: tamen de 
+      <lb ed="#S" n="67"/>haereticis, &amp; ordinatis a catholicis certum est, quod confi- 
+      <!--0155.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>ciunt: quia cum potestas conficiendi fundetur in chara 
+      <lb ed="#S" n="69"/>ctere impresso per sacramentum: super quod Papa nihil 
+      <lb ed="#S" n="70"/>potest: aeque conficit haereticus, sicut catholiculus: dum 
+      <lb ed="#S" n="71"/>tamen non mutet formam, neque materiam. 
+    </p>
+            <p xml:id="khj78y-q40458-d1e479" n="12">
+               <lb ed="#S" n="72"/>
+               <!-- 12 -->Quarta conclusio est, quod suspensus, &amp; excom 
+      <lb ed="#S" n="73"/>municatus, licet non habeat executionem clauium 
+       iu<lb ed="#S" break="no" n="74"/>risdictionis: habet tamen executionem clauium ordinis. 
+      <lb ed="#S" n="75"/>Vnde conficere potest, sed absoluere non potest: quia ab 
+      <lb ed="#S" n="76"/>solutio requirit characterem hinc, &amp; subiectionem inde, 
+      <lb ed="#S" n="77"/>&amp; sic vtranque clauem, siue potestatem requirit: quia sicus 
+      <lb ed="#S" n="78"/>Papa non potest impedire hominem, quin videat, si 
+       ha<lb ed="#S" break="no" n="79"/>bet visibile, &amp; potentian visiuam: nisi amoueat sibi 
+       ob<lb ed="#S" break="no" n="80"/>iectum, vel claudat ei oculum: sic non potest impedire, 
+      <lb ed="#S" n="81"/>quin sacerdos conficiat, nisi amoueat sibi materiam, vel 
+      <lb ed="#S" n="82"/>praescindat sibi linguam.
+    </p>
+            <p xml:id="khj78y-q40458-d1e508" n="13">
+      <!-- 13 -->Quinta conclusio 
+      <lb ed="#S" n="83"/>est, quod si est degradatus, vel simoniacus in ordine, quod etiam 
+      <lb ed="#S" n="84"/>conficit: quia licet iste habeat characterem vitiosum: ita 
+      <lb ed="#S" n="85"/>quod non licet ei celebrare. Ex quo tamen habet sacramen 
+      <lb ed="#S" n="86"/>tum absolute, siue ordinem quantum ad posse absolute: 
+      <lb ed="#S" n="87"/>posset conficere degradatus, brachio seculari expositus: 
+      <lb ed="#S" n="88"/>in scala existens ad suspendium, si materiam haberet: 
+      <lb ed="#S" n="89"/>quia manente tota causa, manet totus effectus. 
+    </p>
+            <p xml:id="khj78y-q40458-d1e528" n="14">
+               <lb ed="#S" n="90"/>
+               <!-- 14 -->QVANTVM ad tertium. sciendum, quod 
+      <lb ed="#S" n="91"/>istis non obstantibus, melius valet missa boni 
+       sacerdo<lb ed="#S" break="no" n="92"/>tis, quam mali, &amp; melius est audienti: &amp; mellus est ei pro 
+      <lb ed="#S" n="93"/>quo dicitur: quia licet sit idem sacramentum: &amp; ex 
+       ope<lb ed="#S" break="no" n="94"/>re operato aequalis sit valor: tamen quia missa non dicit 
+      <lb ed="#S" n="95"/>solum sacramentum: sed includit omnia, quae procedunt 
+      <lb ed="#S" n="96"/>ab exordio confessionis vsque in finem gratiarum 
+       actio<lb ed="#S" break="no" n="97"/>nis, vel saltem ab introitu missae, vbi sunt multae 
+       oratio<lb ed="#S" break="no" n="98"/>nes: &amp; Deus peccatores non audit: sed iustos, inde est, quod 
+      <lb ed="#S" n="99"/>ex opere operante plus valet missa boni, quam mali 
+       sa<lb ed="#S" break="no" n="100"/>cerdotis. Dico autem opus operantis, personae, non 
+       ec<lb ed="#S" break="no" n="101"/>clesiae: quia ex quo sacerdos malus non est ab ecclesia 
+      <lb ed="#S" n="102"/>praecisus: aeque gerit personam ecclesiae celebrando 
+       bo<lb ed="#S" break="no" n="103"/>nus, sicut malus. Vnde ex parte meriti ecclesiae est etiam 
+      <lb ed="#S" n="104"/>aequalis valoris.
+    </p>
+            <p xml:id="khj78y-q40458-d1e565" n="15">
+      <!-- 15 -->CIRCA quartum, scilicet, 
+      <lb ed="#S" n="105"/>circa id, quod arguitur, sunt sex conclusiones. Prima, quod 
+      <lb ed="#S" n="106"/>solus sacerdos est dispensator huius sacramenti, sicut &amp; 
+      <lb ed="#S" n="107"/>celebrator. Nullus enim inferior sacerdote habet ex 
+       of<lb ed="#S" break="no" n="108"/>ficio aliquod sacramentum ministrare. Diaconus autem 
+      <lb ed="#S" n="109"/>ex officio per partem eucharistiae habet dare. scilicet sanguinem: 
+      <lb ed="#S" n="110"/>sicut beatus l. aurentius dicit. Cui commisisti Dominici 
+      <lb ed="#S" n="111"/>sanguinis dispensationem, non autem corpus: quia 
+       san<lb ed="#S" break="no" n="112"/>guis mediante calice sacrato dispensatur. Vnde non 
+       opor<lb ed="#S" break="no" n="113"/>tet manus dispensantes esse sacratas: corpus autem cum di 
+      <lb ed="#S" n="114"/>spensatur: dispensatur immediate manibus 
+       contrectan<lb ed="#S" break="no" n="115"/>tibus. Vnde ab illo solo debet dispensari, cuius digiti sunt 
+      <lb ed="#S" n="116"/>sacrati, &amp; manus. scilicet sacerdotis, qui etiam non debet 
+       tan<lb ed="#S" break="no" n="117"/>gere, nisi duobus digitis.
+    </p>
+            <p xml:id="khj78y-q40458-d1e598" n="16">
+      <!-- 16 -->secunda conclusio 
+      <lb ed="#S" n="118"/>est, quod eadem ratione inferior diacono vasa sacra non de 
+      <lb ed="#S" n="119"/>bet tangere, quando in eis est corpus, &amp; sanguis 
+       Domi<lb ed="#S" break="no" n="120"/>ni: quia diaconi est sanguinem Domini dispensare, &amp; 
+      <lb ed="#S" n="121"/>corpus ad sacerdotem deferre. Quando autem non est 
+      <lb ed="#S" n="122"/>in eis corpus, aut sanguis subdi aconus tangit ministrans: 
+      <lb ed="#S" n="123"/>quia &amp; tangit, quando ordinatur: vasa autem 
+       reliquia<lb ed="#S" break="no" n="124"/>rum, &amp; huiusmodi, acoliti, non alij. Nec acolitorum est 
+      <lb ed="#S" n="125"/>tangere calicem consecratum, nec laicorum vasa 
+       reli<lb ed="#S" break="no" n="126"/>quiarum, siue reliquias portare: quantuncunque sint 
+      <lb ed="#S" n="127"/>nobiles, nec etiam in choro stare: cum etiam 
+       Ambro<lb ed="#S" break="no" n="128"/>Imperatorem inde expelleret, quod modo nullus facit 
+      <lb ed="#S" n="129"/>De istis habetur. 21. distinctio. c. sacer. &amp;. c. Non 
+       opor<lb ed="#S" break="no" n="130"/>tet. &amp;. c. sequenti. licite. &amp; dis. 24. nullus.
+    </p>
+            <p xml:id="khj78y-q40458-d1e631" n="17">
+      <!-- 17 -->
+       Ter<lb ed="#S" break="no" n="131"/>tia conclusio est, quod propter necessitatem presbytero 
+       infir<lb ed="#S" break="no" n="132"/>mo, &amp; non valente, vel etiam absente, licet diacono 
+       in<lb ed="#S" break="no" n="133"/>firmo eucharistiam portare: non autem inferioribus, cu 
+      <lb ed="#S" n="134"/>ius tamen contrarium legitur in occlesiastica historia. 6. vel 
+      <!--0156.xml-->
+      <pb ed="#S" n="156"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>36. c. de serapione, qui moriens misit puerum ad 
+       sacer<lb ed="#S" break="no" n="2"/>dotem petens viaticum: &amp; ille, qui infirmus erat, partem eu 
+      <lb ed="#S" n="3"/>charistiae misit ei, &amp; per eundem puerum. Nec est verisimi 
+      <lb ed="#S" n="4"/>le, quod ille puer fuerit diaconus. sed non, quod fit Romae, 
+      <lb ed="#S" n="5"/>sed quod fieri debet spectandum est.
+    </p>
+            <p xml:id="khj78y-q40458-d1e663" n="18">
+      <!-- 18 -->Quarta 
+      <lb ed="#S" n="6"/>conclusio est, quod licet laico non liceat corpus Christi dispen 
+      <lb ed="#S" n="7"/>sare: licet tamen inuentum eleuare reuerenter: vt ad locum 
+       debi<lb ed="#S" break="no" n="8"/>tum per sacerdotem portet, licet non habeat manus 
+       sacra<lb ed="#S" break="no" n="9"/>tas: quia hoc non est ad consecrandum, vel dispensandum: sed 
+      <lb ed="#S" n="10"/>ad custodiendum. Illa autem, quibus secundum legem commu 
+      <lb ed="#S" n="11"/>nem tangitur consecrandum, vel dispensandum, debent esse 
+      <lb ed="#S" n="12"/>consecrata, vel benedicta, vt corporale, &amp; calix. Non sic 
+      <lb ed="#S" n="13"/>autem piscis: in qua est in tabernaculo reseruandum. 
+    </p>
+            <p xml:id="khj78y-q40458-d1e685" n="19">
+               <lb ed="#S" n="14"/>
+               <!-- 19 -->Quinta conclusio est de haereticis, scismaticis, 
+       ex<lb ed="#S" break="no" n="15"/>communicatis. &amp; caeteris ab ecclesia praecisis. Et de 
+       haereti<lb ed="#S" break="no" n="16"/>cis est regula generalis, quod siue sint publici, siue occulti: 
+      <lb ed="#S" n="17"/>ab eis non est eucharistia recipienda, nec alia ecclesiasti 
+      <lb ed="#S" n="18"/>ca sacramenta: imo melius est mori, quam de manu haeretici 
+       eucha<lb ed="#S" break="no" n="19"/>ristiam recipere, etiam in morte, 24. q. 2. Coepit. vbi 
+       Er<lb ed="#S" break="no" n="20"/>migildum regem martyrem facit Grego. quia in festo 
+       Pa<lb ed="#S" break="no" n="21"/>schae maluit securi interire, quam mandato patris de manu 
+      <lb ed="#S" n="22"/>Arriani episcopi eucharistiam suscipere. sed quia occul 
+      <lb ed="#S" n="23"/>te excommunicatus, &amp; multo magis occulte simoniacus 
+      <lb ed="#S" n="24"/>non debet vitari publice, sed tantum occulte: extra de 
+      <lb ed="#S" n="25"/>senten. excommuni. Cum non ab homine. ideo 
+       intelli<lb ed="#S" break="no" n="26"/>gendum est, quod ab istis non debent talia recipi occulte, 
+      <lb ed="#S" n="27"/>nec etiam publice si sit manifestum, vel etiam si 
+       occul<lb ed="#S" break="no" n="28"/>tum: dum tamen sine proditione occulti possint talia 
+      <lb ed="#S" n="29"/>omitti.
+    </p>
+            <p xml:id="khj78y-q40458-d1e724" n="20">
+      <!-- 20 -->sexta conclusio est, quod de criminibus 
+      <lb ed="#S" n="30"/>est distinguendum: quia si est fornicarius, vel simoniacus, 
+      <lb ed="#S" n="31"/>non in ordine occultus, &amp; non notorius: vel si est irreti 
+      <lb ed="#S" n="32"/>tus, quocunque alio crimine occulto, vel publico: dum ta 
+      <lb ed="#S" n="33"/>men non sit irregularis, qui per consequens est suspensus 
+      <lb ed="#S" n="34"/>sicut homicida: ab omni, inquam, tali licet recipere 
+       eu<lb ed="#S" break="no" n="35"/>charistiam, &amp; missam audire. sed si est fornicarius noto 
+      <lb ed="#S" n="36"/>rius per confessionem in iure, aut sententiam, &amp; facti 
+       eui<lb ed="#S" break="no" n="37"/>dentiam, non licet talis missam audire, nec per 
+       conse<lb ed="#S" break="no" n="38"/>quens ab eo sacramenta recipere publice, vel occulte. 
+      <lb ed="#S" n="39"/>si autem non est notorius, tunc licet. Et idem est de 
+       si<lb ed="#S" break="no" n="40"/>moniaco, non in ordine. simoniacus vero in ordine 
+       est<lb ed="#S" break="no" n="41"/>suspensus quo ad se, &amp; quo ad alios, sicut &amp; 
+       excommu<lb ed="#S" break="no" n="42"/>nicatus maiori excommunicatione. Vnde etiam si isti 
+      <lb ed="#S" n="43"/>sunt occulti in occulto non in publico sunt vitandi. 
+      <lb ed="#S" n="44"/>sed in omnibus talibus si quis in occulto, vt ruborem 
+      <lb ed="#S" n="45"/>ad poenitentiam sacerdoti peccanti incutiat, non recipien 
+      <lb ed="#S" n="46"/>do sacramenta, vel missam eius non audiendo: si hoc ex 
+      <lb ed="#S" n="47"/>despectu non faciat, bene facit. Et sic intelliguntur de 
+      <lb ed="#S" n="48"/>cleri. excommunicationis mi. c. Nostra. &amp;. c. vlti. Ad argumentum 
+      <lb ed="#S" n="49"/>dicendum, quod omnis sanctus est sacerdos ad 
+       immolan<lb ed="#S" break="no" n="50"/>dum se, non Christi corpus conficiendum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

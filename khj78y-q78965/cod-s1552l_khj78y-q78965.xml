@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="263"/>
+            <cb ed="#S" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q78965"><!-- l4d20-q3 -->
+            <head xml:id="khj78y-q78965-Hd1e101">Quaestio 3</head>
+            <head xml:id="khj78y-q78965-Hd1e103" type="question-title">
+     utrum vnos pro alio possit satisfacere
+   </head>
+            <p xml:id="khj78y-q78965-d1e106">
+      <!--0263.xml-->
+               <cb ed="#S" n="b"/>
+               <lb ed="#S" n="67"/>QVAESTIO TERTIA. 
+      <lb ed="#S" n="68"/>De poenitentia in morte. 
+    </p>
+            <p xml:id="khj78y-q78965-d1e117">
+               <lb ed="#S" n="69"/>Tho. ai dno. q. a.q. 3.
+    </p>
+            <p xml:id="khj78y-q78965-d1e122">
+               <lb ed="#S" n="70"/>TERTIO quaeritur: vtrum vnos pro 
+      <lb ed="#S" n="71"/>alio possit satisfacere? Et videtur quod non: 
+      <lb ed="#S" n="72"/>quia satisfactio est pars poenitentiae: sicut 
+      <lb ed="#S" n="73"/>contritio &amp; confessio. sed vnus non potest 
+      <lb ed="#S" n="74"/>pro alio poenitere confitendo vel 
+       conteren<lb ed="#S" n="75" break="no"/>do. ergo nec satisfaciendo. sed vnusquisque onus suum 
+       por<lb ed="#S" break="no" n="76"/>tabit.
+    </p>
+            <p xml:id="khj78y-q78965-d1e141" n="2">
+      <!-- 2 -->Contra ture humano soluendo quis pro alio 
+      <lb ed="#S" n="77"/>ipsum liberat, &amp; iure diuino. Alter alterius onera 
+       porta<lb ed="#S" break="no" n="78"/>te, &amp; sic adimplebitis legem Christi. qui peccata nostra per 
+      <lb ed="#S" n="79"/>tulit super lignum. ergo. &amp;c.
+    </p>
+            <p xml:id="khj78y-q78965-d1e152" n="3">
+      <!-- 3 -->Respondeo. hic sunt tria 
+      <lb ed="#S" n="80"/>videnda. Primo in speciali: quomodo inter viuantes viuus 
+      <lb ed="#S" n="81"/>pro alio possit satisfacere. secundo in speciali: quomodo 
+      <lb ed="#S" n="82"/>viuus pro mortuo possit. &amp;v. Tertio in communi. 
+       quomo<lb ed="#S" break="no" n="83"/>do vnus pro alio.
+    </p>
+            <p xml:id="khj78y-q78965-d1e165" n="4">
+      <!-- 4 -->Quantum ad primum sunt quinque 
+      <lb ed="#S" n="84"/>conclusiones. Prima, quod si hoc haberet forma 
+       iniunctio<lb ed="#S" break="no" n="85"/>nis nulla esset quaestio: quia in alternatiuis electio est 
+       de<lb ed="#S" break="no" n="86"/>bitoris. vnde si sacerdos imposuit ieiunare per se, vel per 
+      <lb ed="#S" n="87"/>allumtire vltra mare vel mittere: nulli dubium est, quod po 
+      <lb ed="#S" n="88"/>test se per alium aeque sicut per se liberare: nec oportes 
+      <lb ed="#S" n="89"/>quod illeplus faciat, nec propter hoc quod illud non est 
+       reme<lb ed="#S" break="no" n="90"/>dium impeditur isti quitatio.
+    </p>
+            <p xml:id="khj78y-q78965-d1e185" n="5">
+      <!-- 5 -->secunda conclusiorquod si 
+      <lb ed="#S" n="91"/>est omnimoda indifferentia, idem est. verbi gratia. si imposi 
+      <lb ed="#S" n="92"/>tum est ei ieiunare vel dare eleemosynam: non idem est quod alius 
+      <lb ed="#S" n="93"/>pro ipso ieiunet: &amp; quod ipse per se ipsum: siue quod ipse det de 
+      <lb ed="#S" n="94"/>proprio: &amp; alius det de non proprio istius, sed suo. sed quod 
+      <lb ed="#S" n="95"/>ipse de sua substantia faciat eleemosynam per se: vel per alium 
+      <lb ed="#S" n="96"/>non refert. vnde si mittat per famulum: ita satisfacit sicut si 
+      <lb ed="#S" n="97"/>daret per scipsum: quia &amp; hic est voluntas praesumpta im 
+      <lb ed="#S" n="98"/>ponentis intantum: quod etiam si nuncius esset in mortali 
+       pec<lb ed="#S" break="no" n="99"/>cato nihilominus eslet illa eleemosyna fatisfactoria. quia 
+      <lb ed="#S" n="100"/>sicut dare eleemosynam per manum peccatoris non diminuit 
+      <lb ed="#S" n="101"/>in actu rationem merendi: ita nec satisfaciendi. Non enim 
+      <lb ed="#S" n="102"/>plus requiritur quod actus sit a Deo acceptus ad satisfacien 
+      <lb ed="#S" n="103"/>dum quam ad merendum.
+    </p>
+            <p xml:id="khj78y-q78965-d1e218" n="6">
+      <!-- 6 -->Tertia conclusio, quod si non po 
+      <lb ed="#S" n="104"/>test sacere per seipsum, potest facere per alium. quia ista 
+      <lb ed="#S" n="105"/>videtur fuisse voluntas imponentis: qui noluit ad 
+       impos<lb ed="#S" break="no" n="106"/>sibile obligare, necvoluit ad purgatorium mittere. vnde 
+      <lb ed="#S" n="107"/>cum dicitur iciunes: verum est si potes per te ipsum: alias per 
+      <lb ed="#S" n="108"/>alium. vnde quia homo non poterat satisfacere peccato na 
+      <lb ed="#S" n="109"/>turae per seipsum: iustum fuit quod haec satisfactio posset fieri, 
+      <lb ed="#S" n="110"/>&amp; fieret per alium: sicut &amp; facta est per Christum: &amp; haec tria 
+      <lb ed="#S" n="111"/>omnes concedunt.
+    </p>
+            <p xml:id="khj78y-q78965-d1e240" n="7">
+      <!-- 7 -->Quarta, quando potest satisfacere 
+      <lb ed="#S" n="112"/>per seipsum. &amp; quidem quando poenitentia est data in reme 
+      <lb ed="#S" n="113"/>dium, si nec ipse alio modo recompenset, certum est quod non suffi 
+      <lb ed="#S" n="114"/>cit: vt si ieiunium est impositum ad domandum carnem: &amp; ipse 
+      <lb ed="#S" n="115"/>illud ieiunium alij imponit: &amp; vult carnem suam nutrire: nec 
+      <lb ed="#S" n="116"/>aliquo alio aequipollent modo domare: non potest se sic 
+      <lb ed="#S" n="117"/>aquitare, &amp; hoc etia omnes concedunt.
+    </p>
+            <p xml:id="khj78y-q78965-d1e259" n="8">
+      <!-- 8 -->Quinta 
+       con<lb ed="#S" break="no" n="118"/>clusio, quod si sit potens facere per seipsum etiam prout cedit. 
+      <lb ed="#S" n="119"/>in solutum, dicunt aliqui quod non potest satisfacere per alium. 
+      <lb ed="#S" n="120"/>quia poenitentia quae non est accepta: non est Deo satisfacto 
+      <lb ed="#S" n="121"/>ria. mutatio autem poenae vel emendae quae non procedis 
+      <lb ed="#S" n="122"/>de voluntate iudicis: vel partis expressa praesumpta non 
+      <lb ed="#S" n="123"/>est accepta. ergo. &amp;c.
+    </p>
+            <p xml:id="khj78y-q78965-d1e277" n="9">
+      <!-- 9 -->Et confirmatur: quia licet de 
+       con<lb ed="#S" break="no" n="124"/>tractu possit indifferenter vnus pro alio satisfacere, &amp; de 
+      <lb ed="#S" n="125"/>delicto quando est obligatio ad pecunia, tamen de delicto 
+      <lb ed="#S" n="126"/>quo ad poenam corporalem vnus pro alio satisfacere non 
+       po<lb ed="#S" break="no" n="127"/>test: imo &amp; poenae suos tenent auctores. &amp; lanctius est no 
+      <lb ed="#S" n="128"/>centem absoluere, quam innocentem condenare. ff. de poe. l. 
+      <lb ed="#S" n="129"/>Absentem. vnde si pro homicida se offerret amicus vel 
+      <lb ed="#S" n="130"/>filius ad mortem: non esset iustus iudex qui innocentem 
+       pu<lb ed="#S" break="no" n="131"/>alret: &amp; nocentem dimittteret.
+    </p>
+            <p xml:id="khj78y-q78965-d1e299" n="10">
+      <!-- 10 -->Adhuc etiam si peo 
+      <!--0264.xml-->
+      <pb ed="#S" n="264"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>emenda iustitiae ex delicto ad pecuniam obligatus liber 
+      <lb ed="#S" n="2"/>tur alio pro se soluente: non sic videtur in emenda 
+       recon<lb ed="#S" n="3" break="no"/>ciliatiua, in qua homo vult sibi emendari &amp; satisfieri ab 
+      <lb ed="#S" n="4"/>iniuria, per viam pacis &amp;reconciliationis. Nam si arbiter commu 
+      <lb ed="#S" n="5"/>nis pro pace reformanda: iudicauit quod iste genu 
+       flecten<lb ed="#S" break="no" n="6"/>do se humilict, veniam petens ab illo quem superbe dehone 
+      <lb ed="#S" n="7"/>stauit: &amp; non dignaretur hoc facere per se: sed per 
+       famu<lb ed="#S" break="no" n="8"/>lum: non esset illi acceptum: si etiam iussus dare de suo 
+       di<lb ed="#S" break="no" n="9"/>ceret, nunquam sibi dabo de meo. sed qui vult de amicis 
+      <lb ed="#S" n="10"/>meis det de suo pro me: non esset gratum nisi de proprio 
+      <lb ed="#S" n="11"/>amoueret. sic est in propsito.
+    </p>
+            <p xml:id="khj78y-q78965-d1e334" n="11">
+      <!--11-->sed contra hoc est quia si 
+      <lb ed="#S" n="12"/>homo nisi per se potest: &amp; nunquam potest per alium satisfacere, 
+      <lb ed="#S" n="13"/>tunc gratia Dei in baptismo requireret planctum &amp; gemitum, 
+      <lb ed="#S" n="14"/>&amp; esset illi qui ante baptismum nulla peccatam fecit poenitentia iniun 
+      <lb ed="#S" n="15"/>genda: sicut in sacramento poenitentiae quia Christus est alius homo 
+      <lb ed="#S" n="16"/>a baptizato. &amp; sic non potuit pro isto satisfacere: cum iste 
+      <lb ed="#S" n="17"/>possit satis facere. sicut pro paruulis sufficit meritum Christi, 
+      <lb ed="#S" n="18"/>qa non possunt mereri. sed adultis non sufficit meritum Christi 
+      <lb ed="#S" n="19"/>cum baptismo: sed tenentur addere meritum proprium. Et 
+       quam<lb ed="#S" n="20" break="no"/>uis in hoc sit dissimile: quia homo etiam impotens non potest 
+      <lb ed="#S" n="21"/>mereri per alium, nisi soli paruuli, vel non habentesvsum 
+       ratio<lb ed="#S" n="22" break="no"/>nis per solum Christum. non sic autem sine baptismo saluaretur: 
+      <lb ed="#S" n="23"/>per cuiuscumque alterius meritum: tamen in hoc constat virtus 
+      <lb ed="#S" n="24"/>argumenti. quod si potens per se satisfacere, non potest per alium 
+      <lb ed="#S" n="25"/>ergo nec per Christum.
+    </p>
+            <p xml:id="khj78y-q78965-d1e369" n="12">
+      <!--12. -->Dicendum est igitur ad rationem, q 
+      <lb ed="#S" n="26"/>si aliquis propter nimium amorem carnis suaevellet facere per allum 
+      <lb ed="#S" n="27"/>quod esset sibi impositum, vel per se de alio faciendum: non 
+      <lb ed="#S" n="28"/>siberaretur. sed si occupat se in illis quae sunt Deo magis 
+      <lb ed="#S" n="29"/>accepta quam sit illud, &amp; sunt maiora remedia contra peccatum 
+      <lb ed="#S" n="30"/>quae illud: &amp; nihilominus illud quod sibi est Impositum vult 
+       fa<lb ed="#S" break="no" n="31"/>cere per alium, videtur quod sit plena satisfactio apud Deum: quia 
+      <lb ed="#S" n="32"/>etiam videtur praesumpta voluntas imponentis: vt puta si pu 
+      <lb ed="#S" n="33"/>gnando contra hostes fidei, vel praedicando aut 
+       peregri<lb ed="#S" break="no" n="34"/>nando, vel alijs pijs operibus aeque domet carnem para 
+      <lb ed="#S" n="35"/>tui nihilominus illud facere per se vel de suo quod ali 
+      <lb ed="#S" n="36"/>vult pro se: &amp; de suo: &amp; mallet per se quam per alium: nisi quia 
+       cre<lb ed="#S" break="no" n="37"/>dit istud magis Deo acceptum: tunc omnino videtur aquitare 
+      <lb ed="#S" n="38"/>seipsum. verbi gra: in exemplis de quibus arguitur. si satisfa 
+      <lb ed="#S" n="39"/>clens sciret aliquid aliud offenso acceptum magis, quam 
+       il<lb ed="#S" break="no" n="40"/>lud quod est impositum pro emenda: si &amp; illud vellet facere 
+      <lb ed="#S" n="41"/>per alium &amp; seruitio magis grato illi amico offenso se 
+       oc<lb ed="#S" break="no" n="42"/>cupare: non est dubium quod satisfaceret.
+    </p>
+            <p xml:id="khj78y-q78965-d1e411" n="13">
+      <!-- 13 -->Ad illud autem 
+      <lb ed="#S" n="43"/>quod dicitur de delicto, manifestum est, quod illa iuris regula 
+      <lb ed="#S" n="44"/>non habet locum inter homines &amp; Deum. quia tunc Christus innocens 
+      <lb ed="#S" n="45"/>non aquitasset genus humanum de debito originalis pcti: 
+      <lb ed="#S" n="46"/>onando tamen fecit. sed de hoc videtur in tertio articulo.
+    </p>
+            <p xml:id="khj78y-q78965-d1e425" n="14">
+               <lb ed="#S" n="47"/>
+               <!--14 -->Quantum ad secundum art. quomodo viuus possit satisfacere 
+      <lb ed="#S" n="48"/>pro mortuo: sunt quinque conclusiones. Prima. quod si mo 
+      <lb ed="#S" n="49"/>riens imponat viuo pro se satisfacere, &amp; ille suscipiat, &amp; 
+      <lb ed="#S" n="50"/>satisfaciat: prodest mortuo: quia si vluus potest satisfacere 
+      <lb ed="#S" n="51"/>pro vino secundum oens, quando ille non potest satisfacere pro seipso 
+      <lb ed="#S" n="52"/>ergo cum moriens non posait fatisfacere per scipsum: potest 
+      <lb ed="#S" n="53"/>hoc imponere alij quem adhuc inuenit voluntarium: sed 
+      <lb ed="#S" n="54"/>hoc quidem de cruce solent facere morientes: vt filio: vel 
+      <lb ed="#S" n="55"/>amico lmponant q per se non feceront, non sic autem de 
+      <lb ed="#S" n="56"/>alijs &amp; tamen est eadem ratio. vum expediret morienti &amp; debet 
+      <lb ed="#S" n="57"/>ei consulere sacerdos, quod quaerat si est quis voluntarius ad 
+       fa<lb ed="#S" break="no" n="58"/>elendum pro eo poenitentiam: vt euadat purgatorium.
+    </p>
+            <p xml:id="khj78y-q78965-d1e456" n="15">
+      <!-- 15 -->secunda 
+      <lb ed="#S" n="59"/>conclusio: quod si aliquiss pro mortuo faceret poenitentiam quam ille non 
+      <lb ed="#S" n="60"/>imposuisset: non ei prodesset per modum sacramenti: sicut si 
+      <lb ed="#S" n="61"/>per se fecisset: sed solum per modum suffragij. sicut 
+       pro<lb ed="#S" break="no" n="62"/>sunt suffragia defunctis, licet ab eis postulata non 
+       fue<lb ed="#S" break="no" n="63"/>rint, sicut nec prodest viuo ad aquitandum si alius secis 
+      <lb ed="#S" n="64"/>a ipse non imposuit.
+    </p>
+            <p xml:id="khj78y-q78965-d1e474" n="16">
+      <!-- 16 -->Tertia conclusio: quod si ille cui mor 
+      <lb ed="#S" n="65"/>auus imposuit pam, facere non possit eam, sed alteri 
+       com<lb ed="#S" break="no" n="66"/>miserit: tantum valet. quia verisimile est quod si defunctus 
+       aduer<lb ed="#S" break="no" n="67"/>tisset hoc: etiam voluisset vt faceret per alium si per scipraem non 
+      <!--0264.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>posset: nec onus reincideret super ipsum a quo se ex 
+       to<lb ed="#S" break="no" n="69"/>to exonerare voluit: imo etiam si Iste nolit pro illo 
+       satis<lb ed="#S" break="no" n="70"/>facere per seipsum sed per alium. quia hoc ipsum maluisses 
+      <lb ed="#S" n="71"/>defunctus. scilicet quod fieret por alium quam per nullum: &amp; pro eodem ha 
+      <lb ed="#S" n="72"/>betur. sed non debet committere alij, qum potest facere per se, nisi 
+      <lb ed="#S" n="73"/>forte magis de illius bonitate confidat: &amp; per consequens quod sis 
+      <lb ed="#S" n="74"/>magis acceptum Deo:&amp; sic magis satisfactorium.
+    </p>
+            <p xml:id="khj78y-q78965-d1e505" n="17">
+      <!-- 17 -->
+       Quar<lb ed="#S" break="no" n="75"/>ta conclusio: quodsi ille qui pro mortuo suscipit non implet: 
+      <lb ed="#S" n="76"/>mortuus torqᷓbitur in purgatorio quantum misercordia Dei requirit: 
+      <lb ed="#S" n="77"/>nec impositio sibi valebit ad satiefaciendum, licet valueris 
+      <lb ed="#S" n="78"/>ad merendum.
+    </p>
+            <p xml:id="khj78y-q78965-d1e518" n="18">
+      <!-- 18 -->Quinta conclusio: quod qui absoluis 
+       mo<lb ed="#S" break="no" n="79"/>rientem quando sibi poenitentiam innotescit: debet sibi imponere omnia 
+      <lb ed="#S" n="80"/>bona quae per ipsum fuerint procurata: &amp; omnia suffragia 
+      <lb ed="#S" n="81"/>quae sibi fuerint impensa: &amp; hortari vt haeredibus &amp; 
+       exe<lb ed="#S" break="no" n="82"/>cutoribus imponat quaerere quanto plura poterit.
+    </p>
+            <p xml:id="khj78y-q78965-d1e531" n="19">
+      <!-- 19 -->
+               <lb ed="#S" n="83"/>Quantum ad tertium sunt etiam quinque conclusiones. Prima 
+      <lb ed="#S" n="84"/>quod hoc commune est vtrique satisfactioni, quae fit pro viuo &amp; 
+      <lb ed="#S" n="85"/>mortuo, qui fiat ab existente in charitate: quia actus qui non est 
+      <lb ed="#S" n="86"/>Deo acceptus non potest esse satisfactorius pro faciente, nec 
+      <lb ed="#S" n="87"/>pro alio. vnde &amp; q vult poenitentiam suam alij imponere nisi velit 
+      <lb ed="#S" n="88"/>se periculo exponere, debet quaerere hominem de quo 
+       confi<lb ed="#S" break="no" n="89"/>dat quod simul in charitate viuens abstinens a mortali.
+    </p>
+            <p xml:id="khj78y-q78965-d1e552" n="20">
+      <!-- 20 -->
+               <lb ed="#S" n="90"/>secunda conclusio: quod non oportet illum qui pro alio satisfacit plus 
+      <lb ed="#S" n="91"/>aliquid addere: nec obstat quod dicitur: quod poena est minus 
+       sa<lb ed="#S" break="no" n="92"/>tisfactoria, quae minus demit de voluntario, quia hoc est 
+      <lb ed="#S" n="93"/>verum: sed minor est falsa. Nam qui non potest per se satisfacere 
+      <lb ed="#S" n="94"/>cum vellet, tantum demit sibi de voluntario quantum si faceret: 
+      <lb ed="#S" n="95"/>licet non tantum demat de exteriori bono. similiter em de illo qui 
+      <lb ed="#S" n="96"/>posset si vellet se occupare in meliori voluntarius magis 
+      <lb ed="#S" n="97"/>per se facere, si crederet tantum Deo placere. sed hoc est 
+      <lb ed="#S" n="98"/>verum quod opus quanto magis est acceptum de caeteris 
+       pari<lb ed="#S" break="no" n="99"/>bus, tanto est magis satisfactorium. Est autem tanto magis 
+      <lb ed="#S" n="100"/>acceptum, quanto in maiori charitate factum. Et licet 
+       vi<lb ed="#S" break="no" n="101"/>deatur ex maiori charitate, quod homo pro alio satisfacias 
+      <lb ed="#S" n="102"/>quam pro se, tamen quantum ad habitum, si ille pro quo 
+      <lb ed="#S" n="103"/>fit est in maiori charitate, istud est minus satisfactorium 
+      <lb ed="#S" n="104"/>quam si per se fecisset: licet aeque liberatorium. si autem 
+      <lb ed="#S" n="105"/>econtra: iste qui facit est in maiori charitate quo ad habi 
+      <lb ed="#S" n="106"/>tum: tunc est magis satisfactorium. a1 Ideo tertia con 
+      <lb ed="#S" n="107"/>clusio est: quod ille qui puiam suam alij imponit, debet satagere 
+      <lb ed="#S" n="108"/>quod non solum ille sit bonus, sed quod sit melior se vt non solum 
+      <lb ed="#S" n="109"/>sit satiefactoria: sed etiam magis: &amp; haec est tertia causa 
+       pro<lb ed="#S" break="no" n="110"/>pter quam licet alij imponere: etiam vbi homo est potens per se 
+      <lb ed="#S" n="111"/>facere, &amp; non vult melioribus occupari. sed non propter 
+       amo<lb ed="#S" break="no" n="112"/>rem carnis quam vult bene alias domare. sed quia per 
+       ma<lb ed="#S" break="no" n="113"/>gis harum Deo vult eam facere.
+    </p>
+            <p xml:id="khj78y-q78965-d1e609" n="22">
+      <!-- 22 -->Quarta conclusio: quod 
+      <lb ed="#S" n="114"/>consulendum est diuitibus &amp; nobilibus, quod quaerant 
+       parti<lb ed="#S" break="no" n="115"/>cipium bonorum quae in religionibus fiunt: vbi &amp; iam 
+      <lb ed="#S" n="116"/>sunt plures poenalitates quam alibi &amp; magis acceptae Deo 
+      <lb ed="#S" n="117"/>quam alibi. &amp; quod in poenitentiam imponatur eis non solum 
+      <lb ed="#S" n="118"/>bona quae facient per seipsos: sed quae per alios vel ab 
+      <lb ed="#S" n="119"/>alijs procurabunt. &amp; omnia quorum speciales participes erunt 
+      <lb ed="#S" n="120"/>&amp; hmondi.
+    </p>
+            <p xml:id="khj78y-q78965-d1e629" n="23">
+      <!-- 23 -->Quinta conclusio: quod quicunque pro alio 
+      <lb ed="#S" n="121"/>satisfacit vino, vel mortuo: sibi semiper meretur: sed non pro 
+      <lb ed="#S" n="122"/>se: sed pro illo tantum satisfacit. vum pro se ita tenetur ac si nihil 
+      <lb ed="#S" n="123"/>fecisset: quia qui soluit pro alio coni creditori, illum solum libe 
+      <lb ed="#S" n="124"/>rat non se ipsum, nisi suo nomine illi soluat: licet apud illum d 
+      <lb ed="#S" n="125"/>amicitia laudem habeat.
+    </p>
+            <p xml:id="khj78y-q78965-d1e645" n="24">
+      <!-- 24 -->Ad argumentum dicendum: 
+      <lb ed="#S" n="126"/>non est simile de contritione &amp; confessione: respectu quorum 
+      <lb ed="#S" n="127"/>homo debet se habere actiue: &amp; nisi agat illos act' per se: 
+      <lb ed="#S" n="128"/>non dicitur conteri nec confiteri. ad satisfaciendum vero non 
+      <lb ed="#S" n="129"/>oportet quod homo agat illa quibus satisfacit: sed quod solum 
+       acce<lb ed="#S" break="no" n="130"/>ptet ea. sicut homo accaeptando pro suis peccatis flagella a 
+      <lb ed="#S" n="131"/>Deo vel homine illata satisfacit: maxime quando ex intentione 
+      <lb ed="#S" n="132"/>faclentis ad ipsum applicantur. propter opiniones autem 
+      <lb ed="#S" n="133"/>tutum est, quod poenitenti imponatur quod per se vel per alium faciat. 
+      <lb ed="#S" n="134"/>tunc sine haesitatione praet per alium satisfacere.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

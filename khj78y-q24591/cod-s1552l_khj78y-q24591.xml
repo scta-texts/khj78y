@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="109"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q24591"><!-- l4d8-q2 -->
+            <head xml:id="khj78y-q24591-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q24591-Hd1e103" type="question-title">
+      Utrum eucharistia fit tantum sumenda a ieiunis
+    </head>
+            <p xml:id="khj78y-q24591-d1e106">
+               <lb ed="#S" n="75"/>QVAESTIO SECVNDA. 
+      <lb ed="#S" n="76"/>Quomodo sit sumenda Eucharistia. 
+    </p>
+            <p xml:id="khj78y-q24591-d1e113">
+               <lb ed="#S" n="77"/>Thom. 3.9. so. arti. scilicet 
+    </p>
+            <p xml:id="khj78y-q24591-d1e118">
+               <lb ed="#S" n="78"/>ECVNDO quaeritur, vtrum 
+      <lb ed="#S" n="79"/>eucharistia fit tantum sumenda a 
+      <lb ed="#S" n="80"/>ieiunis? Et videtur quod non: quia 
+      <lb ed="#S" n="81"/>apostolus dicit: Imitatores mei 
+      <lb ed="#S" n="82"/>estore, situt &amp; ego Christi: sed iam 
+      <lb ed="#S" n="83"/>Christus, quam apostoli 
+       commu<lb ed="#S" break="no" n="84"/>nitauerunt in coena sumpto 
+       ag<lb ed="#S" break="no" n="85"/>no Pasthali. ergo &amp; caerer. 
+    </p>
+            <p xml:id="khj78y-q24591-d1e139" n="2">
+               <lb ed="#S" n="86"/>
+               <!-- 2 -->CONTRA, quia confirmatio sumenda est, an 
+      <lb ed="#S" n="87"/>a ieiunis? de confecra. dist. 5. c. Vt ieiuni. ergo multo 
+       ma<lb ed="#S" break="no" n="88"/>gis cucharistia.
+    </p>
+            <p xml:id="khj78y-q24591-d1e150" n="3">
+      <!-- 3 -->Ad euidentiam huius 
+       quaestio<lb ed="#S" break="no" n="89"/>nis sunt tria declaranda. Primo, in generali 
+       declarabi<lb ed="#S" break="no" n="90"/>tur, quod quaeritur. secundo, hoc idem fiet magis in 
+       spe<lb ed="#S" break="no" n="91"/>ciali. Et tertio, declarabitur, vtrum post communionem sit 
+      <lb ed="#S" n="92"/>ieinnandum.
+    </p>
+            <p xml:id="khj78y-q24591-d1e163" n="4">
+      <!-- 4 -->QVANTVM ad primum sunt 
+      <lb ed="#S" n="93"/>tres conclusiones. prima; quod eucharistia non debet 
+       sumi<lb ed="#S" break="no" n="94"/>nisi ieiuno stomacho, uifi in necessitatis articulo: vt qfi 
+      <lb ed="#S" n="95"/>timetur, quod infirmus pransus non possit crastinum 
+       expe<lb ed="#S" break="no" n="96"/>ctare, quin moriatur, vel quin quadat in frenesim, vel 
+      <lb ed="#S" n="97"/>in alium grauem casum ipsum pritantem a 
+       communio<lb ed="#S" break="no" n="98"/>nis perceptione: nam aliqua conueniunt rei quantum 
+      <lb ed="#S" n="99"/>ad initlum, quae non conueniunt ei, quo ad progressum: 
+      <lb ed="#S" n="100"/>sicut aliud est de puero in vtero matris, vbi 
+       respiratio<lb ed="#S" break="no" n="101"/>ne non indiget: allud quando natus est: quia tune nisi 
+      <lb ed="#S" n="102"/>respiraret, fuffocaret. Ita huic sacramento debebatur in 
+      <lb ed="#S" n="103"/>fui exordio, quod post comestionem agni in die coenae 
+       some<lb ed="#S" break="no" n="104"/>retur propter causas dictas lii fine praecedentis articuli: 
+      <lb ed="#S" n="105"/>postea vero propter huhismodi sacramenti omnimodam 
+      <lb ed="#S" n="106"/>reuerentiam debetur, vt a icili sumatur: de conse. dist. 2. 
+      <lb ed="#S" n="107"/>Liquido apparet. Quia autem dicit de cons. dist. r. c. sacramenta. 
+      <lb ed="#S" n="108"/>stitramenta aiciunis sumantur excepto die coenae: 
+       expo<lb ed="#S" break="no" n="109"/>ni posset de sumentibus spiritnaliter, sed non 
+       sacramenta<lb ed="#S" break="no" n="110"/>liter: quia etiam non ieiuno licetastrre misse, &amp; audire 
+       mis<lb ed="#S" break="no" n="111"/>sam, quod est spiritualiter manducate, sed telebrare, aut 
+      <lb ed="#S" n="112"/>obmenicare non licet: quod est saeramentaliter 
+       manduca<lb ed="#S" break="no" n="113"/>re/ sed tunc non deberet excipi dies coenae magis, quamus 
+      <lb ed="#S" n="114"/>alia dies, sed minus: quia licet illa·lie, quando missa fnit 
+       insti<lb ed="#S" break="no" n="115"/>tuta, magis debeat audiri: non tn minus debet alidiri E 
+      <lb ed="#S" n="116"/>itianis, quam alio dic: quia dies est ielunij: nec vstz post 
+      <lb ed="#S" n="117"/>missam, &amp; vesperas est comedendum: sicut in alis diebos 
+      <lb ed="#S" n="118"/>quadragesimae, nisi quod quidam religiosi tune habent 
+       de<lb ed="#S" break="no" n="119"/>consuetudine refectorium intrare ante missam, &amp; 
+       ali<lb ed="#S" break="no" n="120"/>quid gustare: vt in sancto Matroi
+    </p>
+            <p xml:id="khj78y-q24591-d1e228" n="5">
+      <!-- 5 -->Potest ergo 
+      <lb ed="#S" n="121"/>aliter dici, quod in primitiua etelesta in 
+       reprefentatio<lb ed="#S" break="no" n="122"/>nem Dominicae coenae celebrabatur post · prandibir 
+       il<lb ed="#S" break="no" n="123"/>lo die: sed per contrariam consuetudinem est abogato, nec 
+      <lb ed="#S" n="124"/>modo est obseruandum.
+    </p>
+            <p xml:id="khj78y-q24591-d1e241" n="6">
+      <!-- 6 -->secunda conclusio est, quod 
+      <lb ed="#S" n="125"/>communicare post prandium non est malum de se: quid 
+      <lb ed="#S" n="126"/>tile nulla necefsitate posset benefieri: nisi forte Deo 
+       tis<lb ed="#S" break="no" n="127"/>pensare, sicut illud, quod secundum leges tempotules: &amp; 
+       ta<lb ed="#S" break="no" n="128"/>tionem inferiorem est malum, vt fornicari, &amp; occidere in. 
+      <lb ed="#S" n="129"/>nocentem: qᷓratio humana iudicat per se mala Deo dispperr 
+      <!--0110.xml-->
+      <pb ed="#S" n="110"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>sante sunt licita: qui in praeceptis secundae tabulae dispensare 
+      <lb ed="#S" n="2"/>potest, vt de immolatione Isaac, expoliatione Aegyptiorum, 
+      <lb ed="#S" n="3"/>vxore fornicationi, sed no homine dispensante. Vnde quod 
+      <lb ed="#S" n="4"/>apostoli communicaterunt in die coenae post esum agni si 
+      <lb ed="#S" n="5"/>de se fuisset malum, fuisset excusatum: quia hoc fecerunt 
+       Chri<lb ed="#S" break="no" n="6"/>sto dispensante, &amp; corpus suum eis tradente, &amp; dicente: 
+       Accipi<lb ed="#S" n="7" break="no"/>te, &amp; comedite &amp;c. sicut excusani, quod sabbato euellebant 
+      <lb ed="#S" n="8"/>spicas: quia filius hominis Dominus est etiam sabbati, quamuis nec 
+      <lb ed="#S" n="9"/>illud esset malum de se.
+    </p>
+            <p xml:id="khj78y-q24591-d1e283" n="9">
+      <!--9. -->sed nunc quia Christus non 
+      <lb ed="#S" n="10"/>dispensat si etiam Papa dispensaret, non videt eius dispensatio, 
+      <lb ed="#S" n="11"/>nec aliqua consuetudo excusare infirmos, communicare in 
+      <lb ed="#S" n="12"/>necessitate post prandium, si esset malum de se: quia in his, quae 
+      <lb ed="#S" n="13"/>sunt de se mala nulla consuetudo excusat: de consuet. c. cum 
+      <lb ed="#S" n="14"/>tanto. Nec seruui potest tollere legem Domini sui, nec Papa 
+       dis<lb ed="#S" break="no" n="15"/>pensare in praeceptis Dei. Vnde de poeuitetiis, &amp; remis. 
+      <lb ed="#S" n="16"/>c. cum infirmitas. in fine prohibetur medicis ne propter 
+      <lb ed="#S" n="17"/>quodcumque periculum corporalis vitae suadeant infirmis ali 
+      <lb ed="#S" n="18"/>quid, quod sit contrarium animae: puta satrilegiu, &amp; forni 
+      <lb ed="#S" n="19"/>cationem, &amp; hmondi. Cum igitur sit licitum pranso in 
+       ne<lb ed="#S" break="no" n="20"/>cessitate communicare: licet nunquam sit licitum pranso 
+       cele<lb ed="#S" break="no" n="21"/>brare etiam pro communicatione morientis. ergo illud non 
+      <lb ed="#S" n="22"/>est de se malum, sed solum malum: quia ab ecclesia prohibitum. 
+      <lb ed="#S" n="23"/>Nec atiam tenendum est, quod notauit Hugo. d. 75. Quia a 
+       pa<lb ed="#S" n="24" break="no"/>tribus, quod cum caetera sacramenta possint confici a pransis, licet 
+      <lb ed="#S" n="25"/>non debeant eucharistia, tamen nec debet, nec potest confici 
+      <lb ed="#S" n="26"/>post prandium, quia imo potest sicut ante, sed non debet, quia &amp; 
+      <lb ed="#S" n="27"/>Christus post prandium confecit, &amp; positis illis, quae sunt 
+      <lb ed="#S" n="28"/>de substantia, est verum sacramentum. Cum ergo character, &amp; in 
+      <lb ed="#S" n="29"/>tentio sacerdotis, &amp; verba, &amp; materia possint ita 
+       concur<lb ed="#S" n="30" break="no"/>rere post, sicut ante: ita esset verum sacramentum post, sicut ante. 
+      <lb ed="#S" n="31"/>sed non licet pro necessitate celebrare non ieiuno, sicut 
+      <lb ed="#S" n="32"/>licet non communicare: quia cum vtrunque sit a Papa, &amp; 
+       vniuersa<lb ed="#S" n="33" break="no"/>li consuetudine ecclesiae prohibitu solus Papa, vel 
+       gene<lb ed="#S" n="34" break="no"/>ralis consuetudo potest dispensare. Inuenitur autem de 
+       communio<lb ed="#S" n="35" break="no"/>ne in necessitate permissum, &amp; dispensatum a Papa, &amp; a 
+      <lb ed="#S" n="36"/>generali consuetudine: non sic autem de celebratione: imo 
+      <lb ed="#S" n="37"/>quando licet plures celebrare: in prima non est sumenda 
+      <lb ed="#S" n="38"/>lotio, quae soluit ieiunium. ergo in nulla necessitate 
+       cele<lb ed="#S" break="no" n="39"/>brare licet non ieiuno.
+    </p>
+            <p xml:id="khj78y-q24591-d1e354" n="10">
+      <!-- 10 -->Tertia conclusio est, 
+      <lb ed="#S" n="40"/>quod huiusmodi iciunium, quo debent esse iciuni sumentes 
+       cu<lb ed="#S" break="no" n="41"/>charistiam intelligendum est de ieiunio naturae, non 
+       eccle<lb ed="#S" break="no" n="42"/>siae, quia non solu in iciuniis ecclesiae, sed etiam aliis 
+       die<lb ed="#S" break="no" n="43"/>bus licet communincare, &amp; celebrare: vt Dominicis diebus 
+      <lb ed="#S" n="44"/>quibus ecclesia non consueuit iciunare. Vnde nec post pram 
+      <lb ed="#S" n="45"/>dium in. 40. licet communicare: quando tamen homo est ieiunus ieiuno 
+      <lb ed="#S" n="46"/>ecclesiae, quod durat ante prandium, &amp; post: quia non soluitur nisi 
+      <lb ed="#S" n="47"/>per secundam comestionem, Ieiunio igitur naturae, quod solui 
+      <lb ed="#S" n="48"/>tur per omnem cibi, &amp; potus sumptionem qualemcuque debet 
+      <lb ed="#S" n="49"/>esse iciunus, qui digne vult communicare, vel celebrare. 
+      <lb ed="#S" n="50"/>Vnde. 7. q. 1. Nihil. Nullus post sumptum cibum, potumque 
+      <lb ed="#S" n="51"/>quantumlibet minimum missas facere praesumat. Excipit 
+       ca<lb ed="#S" break="no" n="52"/>sus, quando licet secundo celebrare. secundo enim celebrans non 
+      <lb ed="#S" n="53"/>est iciunus ieiunio nature, quia species sumptae nutriunt, 
+      <lb ed="#S" n="54"/>&amp; sic soluunt ieiunium naturae: sed non soluunt ieiunium 
+      <lb ed="#S" n="55"/>ecclesiae. Aliter in diebus iciuniorum, vel non liceret 
+       coni<lb ed="#S" break="no" n="56"/>care semel comedenti: vel non liceret communicanti etiam 
+      <lb ed="#S" n="57"/>semel comedere: quia communio. cum alio cibo est duplex 
+       co<lb ed="#S" n="58" break="no"/>mestio, &amp; nutritio. Et secundum hoc intelligenda est 
+       conclu<lb ed="#S" n="59" break="no"/>sio prima sequenti articuli.
+    </p>
+            <p xml:id="khj78y-q24591-d1e402" n="11">
+      <!--11. -->QVANTVM, 
+      <lb ed="#S" n="60"/>ad secundum sunt tres conclusiones. Prima, quod omnis 
+       pota<lb ed="#S" break="no" n="61"/>tio, vel cibatio proprie dicta quocumque fine fuerit facta 
+       im<lb ed="#S" break="no" n="62"/>pedit dignam eucharistiae sumptionem: etiam si fiat causa me 
+      <lb ed="#S" n="63"/>dendi tantum, non nutriedi: sicut in electuariis, &amp; 
+       potio<lb ed="#S" break="no" n="64"/>nibus, quae tantum causa medicinae comedunt, &amp; bibunt, 
+      <lb ed="#S" n="65"/>sicut dicit glo. in. d. c. Nihil. 6. Nullus. &amp; extta de 
+       cele<lb ed="#S" break="no" n="66"/>bratione missarum. c. Ex parte. quia ibi dicit, quod sacerdos 
+      <lb ed="#S" n="67"/>debet facere post communionem, &amp; sumere vini perfusio- 
+      <!--0110.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>nem: nisi sit secundo celebraturuss: ne illa perfusio 
+       impe<lb ed="#S" break="no" n="69"/>diat, quasi diceret, si sumeret illud vinum, quod tamen non 
+       su<lb ed="#S" n="70" break="no"/>meret animo nutriendi nihilominus ieiunium solueret, &amp; 
+      <lb ed="#S" n="71"/>secundo celebrare non posset. ergo licet non causa 
+       nu<lb ed="#S" break="no" n="72"/>triendi: sed metendi biberet, vel comederet postea 
+       commu<lb ed="#S" break="no" n="73"/>nicare non debet.
+    </p>
+            <p xml:id="khj78y-q24591-d1e441" n="12">
+      <!-- 12 -->Quidam autem adducunt vnam 
+      <lb ed="#S" n="74"/>talem rationem ad probandum, quod talis qui sumit medicinam 
+      <lb ed="#S" n="75"/>ante communionem, sit fraudator praecepti ecclesiae, quia quod hoc 
+      <lb ed="#S" n="76"/>sacramentum debet sumi ante sumptionem cuiuscumque ad nutritio 
+      <lb ed="#S" n="77"/>nem pertiuentis per se, vel commixtim est institutum in 
+       ho<lb ed="#S" break="no" n="78"/>norem, &amp; reuerentiam sacramenti, vt patet de conse. di. 2. c. Liqui 
+      <lb ed="#S" n="79"/>do. sed sicut est irreuerentia sacramento proferre alium 
+       ci<lb ed="#S" break="no" n="80"/>bum, sic &amp; praeferre aliam medicinam hoc enim sacramentum non 
+      <lb ed="#S" n="81"/>solum est spiritualis cibus: sed &amp; spiritualis medicina. ergo sumens 
+      <lb ed="#S" n="82"/>eucharistiam post medicinam eum transgressori praecepti 
+       ec<lb ed="#S" break="no" n="83"/>clesiae. Hoc verum est si medicina sumatur per modum cebi, 
+      <lb ed="#S" n="84"/>&amp; potus: non autem si per modum alium: sicut sumitur 
+      <lb ed="#S" n="85"/>clistere, vel vnctio: &amp; sicut fit minutio, &amp; huiusmodi, quae 
+      <lb ed="#S" n="86"/>ante communionem sumpta: communionem non impediunt. 
+    </p>
+            <p xml:id="khj78y-q24591-d1e474" n="13">
+               <lb ed="#S" n="87"/>
+               <!-- 13 -->sed contra hoc est alia opinio, quae dicit, quod licet 
+      <lb ed="#S" n="88"/>post huiusmodi communicare: quod probant 
+       multiplici<lb ed="#S" break="no" n="89"/>rer: primo, quia praeceptum ecclesiae de ieiunio 
+       accipien<lb ed="#S" break="no" n="90"/>dum est, secundum quod ecclesia interpretatur ieiunium. 
+       er<lb ed="#S" break="no" n="91"/>go praeceptum Decletalis, quod hoc sacramentum sumatur a 
+      <lb ed="#S" n="92"/>ieiuno, debet intelligi de ieiunis ieiunio ecclesiae: sed 
+      <lb ed="#S" n="93"/>electuaria non soluunt leiunium ecclesiae, nec etiam 
+       me<lb ed="#S" break="no" n="94"/>dicinae. ergo post talia potest licite sumi hoc 
+       sacramen<lb ed="#S" break="no" n="95"/>tum.
+    </p>
+            <p xml:id="khj78y-q24591-d1e498" n="14">
+      <!-- 14 -->secundo, quia quando prohibetur 
+       abso<lb ed="#S" break="no" n="96"/>lute vsus alicuius rei, intelligendum est de vsu principali, 
+      <lb ed="#S" n="97"/>&amp; non de aliis. Cum ergo prohibetur sumptio cibi ante 
+      <lb ed="#S" n="98"/>sumptionem eucharistiae: intelligendum est quantum ad 
+       prin<lb ed="#S" n="99" break="no"/>cipalem vsum, qui est nutritio, siue ad nutriendum, &amp; sic 
+      <lb ed="#S" n="100"/>sumitur per modum cibi: non autem de vsu eius solum ad alte 
+      <lb ed="#S" n="101"/>randum, quia sic sumitur solum per modum medicinae. sic 
+      <lb ed="#S" n="102"/>igitur sumendo cibum ante sacramentum non est transgressio prae 
+      <lb ed="#S" n="103"/>cepti.
+    </p>
+            <p xml:id="khj78y-q24591-d1e520" n="15">
+      <!-- 15 -->Et confirmatur hoc: quia quando pluries ce 
+      <lb ed="#S" n="104"/>lebratur sumere species in prima celebratione non 
+       im<lb ed="#S" break="no" n="105"/>pedit secundam celebrationem, quamuis nutriant, &amp; hoc 
+       id<lb ed="#S" break="no" n="106"/>eo quia non sumuntur propter corpraeorale alimentum: sed pro 
+      <lb ed="#S" n="107"/>pter aliud: quia propter spirituale. Ita licet medicinalia nutriant 
+      <lb ed="#S" n="108"/>si non nutrimentum, sed aliud intendatur postea sumpta 
+       po<lb ed="#S" break="no" n="109"/>terit communicari.
+    </p>
+            <p xml:id="khj78y-q24591-d1e539" n="16">
+      <!-- 16 -->Item Christus, &amp; apostoli con 
+      <lb ed="#S" n="110"/>municauerunt post esum agni: eo quod non propter nutrimen 
+      <lb ed="#S" n="111"/>tum comederunt illum, sed propter misterium. Et quod non propter 
+      <lb ed="#S" n="112"/>alimentum probai, quia Christus nunquam legitur alias 
+       comedis<lb ed="#S" break="no" n="113"/>fe carnes. Item sub appellatione nutrimentorum non 
+       intel<lb ed="#S" break="no" n="114"/>liguni medicamenta. ff. de penu. leg. l. Nam omne. sed haec 
+      <lb ed="#S" n="115"/>non valet.
+    </p>
+            <p xml:id="khj78y-q24591-d1e557" n="17">
+      <!-- 17 -->Vnde ad primum dicendum, quod 
+       ieiu<lb ed="#S" break="no" n="116"/>nium, quod requirit ecclefia ad communicandum, &amp; 
+       celebran<lb ed="#S" break="no" n="117"/>dum non est ieiunium ecclesiae, vt dictum est, sed naturae: quia si 
+      <lb ed="#S" n="118"/>leiunium ecclesiae solum requirerei, quando non est ieiunium, non 
+      <lb ed="#S" n="119"/>posset communicari, &amp; etiam posset, vt dictum est supra licite 
+      <lb ed="#S" n="120"/>sumi post prandium in quadragesima. sic igitur interpre 
+      <lb ed="#S" n="121"/>tatio ecclesiae sumenda est, tam ex consuetudine 
+       eccle<lb ed="#S" break="no" n="122"/>siae, quam ex verbis. c. praeallegati. Liquido. &amp; ibidem. 
+      <lb ed="#S" n="123"/>c. placuit.
+    </p>
+            <p xml:id="khj78y-q24591-d1e579" n="18">
+      <!-- 18 -->Ad secundam dicendum est, quod quando 
+      <lb ed="#S" n="124"/>prohibetur principalis vsus alicuius rei prohibetur etiam 
+      <lb ed="#S" n="125"/>omnis alius, in quo est principalis inclusus, praecipue si 
+      <lb ed="#S" n="126"/>subest eadem causa prohibitionis. Nam autem sumere cibum per 
+      <lb ed="#S" n="127"/>modum medicinae includit principalem vsum cibi, qui est 
+      <lb ed="#S" n="128"/>nutrire. semper enim sumptus cibus nutrit, vel aptps est 
+       nu<lb ed="#S" n="129" break="no"/>trire de se. Et causa prohibitionis in proposito est 
+       itre<lb ed="#S" break="no" n="130"/>uerentia sacramenti, quae vtrobique commitritur. ideo &amp;c. 
+      <lb ed="#S" n="131"/>Et ideo non est simile de duplici vsu cibi: licet 
+       secun<lb ed="#S" break="no" n="132"/>dus includatur in primo, quando est eadem prohibitio 
+      <lb ed="#S" n="133"/>nis.
+    </p>
+            <p xml:id="khj78y-q24591-d1e605" n="19">
+      <!-- 19 -->Nec est simile, quo dicitur de speciebus: 
+      <lb ed="#S" n="134"/>quia non est prohibitum ante communionem sumere aliquid 
+      <!--0111.xml-->
+      <pb ed="#S" n="111"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>nisi quod est aliquod separatum ab ipsa eucharistia: 
+       spe<lb ed="#S" n="2" break="no"/>cies autem non sunt separatae ab cucharistia: nec vna 
+       eu<lb ed="#S" break="no" n="3"/>charistia est alius cibus absalia: sed vnus, &amp; idem 
+       nume<lb ed="#S" break="no" n="4"/>ro: quo ad rem contentam: &amp; eiusdem rationis 
+       sacramen<lb ed="#S" break="no" n="5"/>talis quo ad rem continentem. Vnde non est ad propositum. 
+    </p>
+            <p xml:id="khj78y-q24591-d1e629" n="19">
+               <lb ed="#S" n="6"/>
+               <!-- 19 -->Non fuit etiam causa, quod Christus, &amp; apostoli com 
+      <lb ed="#S" n="7"/>municauerunt post esum agni, vt dicunt, propter sacramentum, 
+      <lb ed="#S" n="8"/>sed propter causam dictam in primo artic.
+    </p>
+            <p xml:id="khj78y-q24591-d1e640" n="20">
+      <!-- 20 -->Item 
+      <lb ed="#S" n="9"/>appellatione cibi, &amp; potus continetur, quicquid 
+       come<lb ed="#S" break="no" n="10"/>ditur, &amp; bibitur: siue nutriat, siue sumatur ad nutriendum 
+      <lb ed="#S" n="11"/>siue ad quodcunque aliud: communicaturo autem, siue 
+       cele<lb ed="#S" break="no" n="12"/>braturo non prohiber alimentum, nec nutrimentum, sed 
+       ci<lb ed="#S" break="no" n="13"/>bus, &amp; potus quantumlibet minimus, nec distinguit, quo 
+      <lb ed="#S" n="14"/>fine sumatur.
+    </p>
+            <p xml:id="khj78y-q24591-d1e659" n="21">
+      <!-- 21 -->secunda conclusio est de reliquiis 
+      <lb ed="#S" n="15"/>cibi, quae remanent in ore causaliter traiiciuntur: quia 
+       hu<lb ed="#S" n="16" break="no"/>iusmodi non impediunt communionem: tum quia 
+       traiiciun<lb ed="#S" break="no" n="17"/>tur per modum saliuae: tum quia non sumuntur de nouo. 
+      <lb ed="#S" n="18"/>Verum est, quod si ex proposito traiiciuntur, quamuis illo die 
+      <lb ed="#S" n="19"/>non intrent in os de nouo, non propter hoc impedit quin 
+      <lb ed="#S" n="20"/>ieiunium soluant, vt si quis zucharum ab heri in ore posuit, 
+      <lb ed="#S" n="21"/>&amp; hodie traiiciat, ieiunus non est. Vnde quandocunque 
+      <lb ed="#S" n="22"/>sumptum sit illud cibi, &amp; potus, quod traiicitur de nouo ex 
+      <lb ed="#S" n="23"/>intentione, &amp; proposito, dum tamen non sit saliua, videtur 
+       im<lb ed="#S" break="no" n="24"/>pedire sumptionem. si quis autem sale, &amp; aceto perfunderet 
+      <lb ed="#S" n="25"/>dentes, &amp; quicquid faceret, siue medendo, siue lauando, 
+      <lb ed="#S" n="26"/>dum tamen non deglutiret, non esset comestio, nec bibitio. 
+      <lb ed="#S" n="27"/>ideo non impediret, quia stomachus ast ieiunus. licet os 
+      <lb ed="#S" n="28"/>non sit ieiunum.
+    </p>
+            <p xml:id="khj78y-q24591-d1e694" n="22">
+      <!-- 22 -->De reliquiis autem aquae, ex quo 
+      <lb ed="#S" n="29"/>casu aliter non ex proposito osabluendo traiiciuntur: licet non 
+      <lb ed="#S" n="30"/>sint conuersae in saliuam, dicendum est, quod non impediunt: quia 
+      <lb ed="#S" n="31"/>nec per modum cibi, nec per modum potus sumunt: quia 
+       neu<lb ed="#S" break="no" n="32"/>trum intenditur. secus autem est de medicina, quae ex 
+       inten<lb ed="#S" break="no" n="33"/>tione bibit, vel comedit, licet non ex intentione 
+       nutrimen<lb ed="#S" break="no" n="34"/>ti. Nutrimentum autem ante communionem non prohibet, cum 
+      <lb ed="#S" n="35"/>tunc maxime fiat nutritio, cum homo est ieiunus cibo 
+       dige<lb ed="#S" n="36" break="no"/>sto: sed cibus, &amp; potus prohibentur, non autem curatio dentium, 
+      <lb ed="#S" n="37"/>nec ablutio oris, nec transglutio, nisi prout est pars 
+       come<lb ed="#S" break="no" n="38"/>stionis. Vnde si id, quod positum est per modum cibi, &amp; 
+       po<lb ed="#S" break="no" n="39"/>tio: quandoque per modum cibi transglutiat, comestio reputatur, 
+      <lb ed="#S" n="40"/>&amp; non solum ieiunium naturae, sed etiam ecclesiae soluit. Nec 
+      <lb ed="#S" n="41"/>debet esse homo, vt animal ruminans, aut canis lingens 
+      <lb ed="#S" n="42"/>labia. sumptum autem non ad cibum, nec potum, si 
+       transglu<lb ed="#S" n="43" break="no"/>tiatur animo potus idem est, ac si sic a principio sumptum 
+       es<lb ed="#S" break="no" n="44"/>set. sed si casualiter transglutitur, nullum ieiunium soluit, ac 
+      <lb ed="#S" n="45"/>si nunquam fuerit comestio, vel bibitio.
+    </p>
+            <p xml:id="khj78y-q24591-d1e736" n="23">
+      <!-- 23 -->Tertia 
+      <lb ed="#S" n="46"/>conclusio est de his, quae sumunt per modum gustationis, 
+      <lb ed="#S" n="47"/>sicut tabernarij, &amp; coqui faciunt, qui cibum, vel potum super 
+      <lb ed="#S" n="48"/>linguam ponunt solum ad probandum, &amp; statim proiiciunt, quia 
+      <lb ed="#S" n="49"/>non videt, quod impediant, sicut si aliquis ad probandum vtrum 
+      <lb ed="#S" n="50"/>sit aqua, vel vinum album, hoc facit. Non enim est cibus, &amp; 
+       po<lb ed="#S" n="51" break="no"/>tus: quia ex quo non glutitur, nec per se, nec per accidens 
+      <lb ed="#S" n="52"/>potest nutrire. Et de Christo dicit, quod cum gustasset, 
+       no<lb ed="#S" break="no" n="53"/>luit bibere. i. glutire. ergo gustare non est comedere, vel 
+      <lb ed="#S" n="54"/>bibere. Tabernarius tamen, &amp; coquus, qui debent 
+       communi<lb ed="#S" break="no" n="55"/>care ex decentia debent a talibus abstinere. Et ille, qui 
+       ce<lb ed="#S" n="56" break="no"/>lebrat, si odorem vini non discernit, facit alium non 
+       commu<lb ed="#S" break="no" n="57"/>nicaturum gustare. si autem deglutiret ex proposito: licet 
+       sta<lb ed="#S" n="58" break="no"/>tim euomeret non alteratum in aliquo: nihilominus 
+       impe<lb ed="#S" n="59" break="no"/>diret: quia vera comestio, vel bibitio fuit. si autem in 
+       con<lb ed="#S" break="no" n="60"/>ductum anhelitus intrasset illa comestio, vel bibitio, &amp; 
+       eie<lb ed="#S" n="61" break="no"/>cisset illa deglutio non fuisset, nec pertineret ad 
+       comestio<lb ed="#S" n="62" break="no"/>nem, quia nec ex illo nutritio, sed potius suffocatio sequi 
+      <lb ed="#S" n="63"/>posset. si vero ad gustandum sumeretur, &amp; praeter 
+       intentio<lb ed="#S" break="no" n="64"/>nem descenderet: idem videtur dicendum, quod de reliquiis 
+      <lb ed="#S" n="65"/>aquae quando os lauatur: quia neutrum intentione cibi, vel potus 
+       su<lb ed="#S" n="66" break="no"/>mitur. ideo non impediunt.
+    </p>
+            <p xml:id="khj78y-q24591-d1e786" n="24">
+      <!-- 24 -->CIRCA 
+       ter<lb ed="#S" break="no" n="67"/>tium sunt tres conclusiones. Prima, quod oportet gratias age 
+      <!--0111.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>re de tanto beneficio. Non tamen necesse est illud tempus 
+       serua<lb ed="#S" n="69" break="no"/>re, quod ponitur de consecra. di. 2. c. tribus gradibus. 
+       pu<lb ed="#S" break="no" n="70"/>ta, quod communicans mane ieiunet vsque ad sextam 
+       communi<lb ed="#S" break="no" n="71"/>cans tertia, vel quarta hora iciunet vsque ad vesperam: quia 
+       si<lb ed="#S" n="72" break="no"/>cut dicit Tho. illud erat quando raro celebrabant: quod tunc 
+       ma<lb ed="#S" break="no" n="73"/>xima reuerentia exhibebatur ad sacramentum ante, &amp; post. sicut 
+      <lb ed="#S" n="74"/>Dio. in epistolis de Gayo narrat, quod non celebrat, nisi 
+       di<lb ed="#S" break="no" n="75"/>uina reuelatione sibi facta.
+    </p>
+            <p xml:id="khj78y-q24591-d1e815" n="25">
+      <!-- 25 -->Et hoc fuit post 
+      <lb ed="#S" n="76"/>primitiuam ecclesiam, sicut &amp; tempore heremitarum Aegypti in 
+      <lb ed="#S" n="77"/>ter quos paucissimi audebant fieri sacerdotes. Nam in 
+       pri<lb ed="#S" n="78" break="no"/>mitiua ecclesia tempore apostolorum propter maximum 
+       fer<lb ed="#S" break="no" n="79"/>uorem omni die communicabant etiam non sacerdotes, &amp; 
+      <lb ed="#S" n="80"/>multo magis sacerdotes. Vel potest dici, quod illud. c. per 
+      <lb ed="#S" n="81"/>contrariam consuetudinem est abrogatum. &amp; ideo nunc non 
+      <lb ed="#S" n="82"/>est obligatorium: sicut dicitur: dist. 4. c. in istis temporibus. 
+       A<lb ed="#S" break="no" n="83"/>ctualis ergo deuotio praecedere debet, &amp; etiam sequi 
+       aliquam<lb ed="#S" n="84" break="no"/>diu: quia nec est possibile, quod semper duret, sed sufficit, quod 
+       ha<lb ed="#S" n="85" break="no"/>bitualis perseueret: sicut ad hoc, quod caera figuret, oportet, 
+      <lb ed="#S" n="86"/>quod actu molescat, sed postquam figurata eum, si indurescat, 
+      <lb ed="#S" n="87"/>nihilominus character perdurat. sumenda est tamen iterum ea 
+      <lb ed="#S" n="88"/>charistia: ne cor nimis induretur, quia cum diu 
+       euchari<lb ed="#S" n="89" break="no"/>stia non percipit, cor induratur 2. dist. Presbyter. circa 
+      <lb ed="#S" n="90"/>medium.
+    </p>
+            <p xml:id="khj78y-q24591-d1e852" n="26">
+      <!-- 26 -->secunda conclusio est propter 
+       euiden<lb ed="#S" break="no" n="91"/>tiam eorum, quae dicta sunt, quod ieiunium naturae est, quando homo 
+      <lb ed="#S" n="92"/>illo die a media nocte nihilcibi, aut potus sumpsit ex 
+       in<lb ed="#S" break="no" n="93"/>tentione: quia media nocte quo ad hoc dies incipit, quando sol 
+      <lb ed="#S" n="94"/>de sub terra ad nos redire incipit. ff. de fer. l. More 
+       Ro<lb ed="#S" break="no" n="95"/>mano. Dies a media nocte incipit. Et ita nota. glo. 7. q. 1
+      <lb ed="#S" n="96"/>nihil. 6. Nullus. &amp; de cele. mis. ex parte. Vnde si aliquis 
+      <lb ed="#S" n="97"/>post mediam noctem aliquid cibi, vel potus sumpserit: licet 
+      <lb ed="#S" n="98"/>postea vsque ad sextam dormierit, &amp; optime digestus sit, nec 
+      <lb ed="#S" n="99"/>celebrare, nec communicare debet, quia ieiunus non est. 
+       Econ<lb ed="#S" n="100" break="no"/>tra si post matutinas in sero dictas, biberet ante mediam 
+      <lb ed="#S" n="101"/>noctem: licet Te Deum dicatur dignare Domine die isto: non 
+      <lb ed="#S" n="102"/>propter hoc impedir celebrare, vel communicare die 
+       sequen<lb ed="#S" break="no" n="103"/>ti: quia dies non incipit ab officio matutinarum, quae 
+       pos<lb ed="#S" break="no" n="104"/>sunt dici diuersis temporibus: &amp; de die, &amp; ante diem, sed a 
+      <lb ed="#S" n="105"/>media nocte temporis: quae non mutatur: licet illud non 
+      <lb ed="#S" n="106"/>multum deceat. scilicet bibere post matutinas, &amp; multo minus 
+      <lb ed="#S" n="107"/>comedere, nisi necessitas vrgeat.
+    </p>
+            <p xml:id="khj78y-q24591-d1e895" n="27">
+      <!-- 27 -->Tertia 
+       con<lb ed="#S" break="no" n="108"/>clusio est de illo, qui ante mediam noctem bibit, vel 
+       come<lb ed="#S" break="no" n="109"/>dit aliquid, sed post mediam noctem, nec bibit, nec comedit, 
+      <lb ed="#S" n="110"/>nec dormiuit: vtrum celebrare, aut communicare possit. 
+      <lb ed="#S" n="111"/>Dicendum, quod non impeditur a celebratione, vel 
+       communio<lb ed="#S" break="no" n="112"/>ne: quia dormitio nihil facit ad hoc: quia multi ducunt 
+       no<lb ed="#S" break="no" n="113"/>ctes insomnes, vel propter orationem, vel quia non possunt 
+      <lb ed="#S" n="114"/>dormire. Et quod dicitur de accusationibus. c. constiterit. 
+      <lb ed="#S" n="115"/>intelligitur de illo, qui in taberna, vbi continue vinum 
+       appo<lb ed="#S" break="no" n="116"/>nitur per totam noctem pernoctauit sine somno. Et sic est 
+      <lb ed="#S" n="117"/>verisimile, quod post mediam noctem bibit: &amp; postea 
+       celebra<lb ed="#S" break="no" n="118"/>uit. Ideo ab ecclesia priuat, quasi non ieiunus celebraue 
+      <lb ed="#S" n="119"/>rit praesumptione iuris, &amp; de iure: contra quam non 
+       admit<lb ed="#S" break="no" n="120"/>titur probatio, vel saltem praesumptione iuris, cui stat, 
+       quan<lb ed="#S" n="121" break="no"/>do contrarium non probatur: quia ille, qui vigilans stetit a 
+       me<lb ed="#S" break="no" n="122"/>dia nocte in taberna vsque ad diem non tam diu stetit, quin 
+      <lb ed="#S" n="123"/>biberit, vel dato, quod non bibisset: sed ieiunus esset post 
+       tan<lb ed="#S" n="124" break="no"/>tam deordinationem, &amp; dissolutionem, qua per totam 
+       no<lb ed="#S" break="no" n="125"/>ctem in taberna fuerat, celebrare magnae irreuerentiae, 
+      <lb ed="#S" n="126"/>&amp; indeuotionis fuit, propter quod solum priuari 
+       me<lb ed="#S" break="no" n="127"/>ruit: sicut in lupanari pernoctasset, cum illa vitia, &amp; 
+       lo<lb ed="#S" break="no" n="128"/>ca sint vicina, &amp; coniuncta.
+    </p>
+            <p xml:id="khj78y-q24591-d1e945" n="28">
+      <!-- 28 -->Argumentum in 
+      <lb ed="#S" n="129"/>oppositum est solutum ex dictis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

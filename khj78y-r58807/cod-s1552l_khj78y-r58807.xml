@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="493"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-r58807"><!-- l4d47-q1 -->
+            <head xml:id="khj78y-r58807-Hd1e101">Quaestio 1</head>
+            <head xml:id="khj78y-r58807-Hd1e103" type="question-title">
+     utrum generale iudicium sit 
+     futurum
+   </head>
+            <p xml:id="khj78y-r58807-d1e106">
+               <lb ed="#S" n="97"/>DIsTINCIIO. 47. QVAESTIO. I. 
+      <lb ed="#S" n="98"/>De generali indicio futuro. 
+    </p>
+            <p xml:id="khj78y-r58807-d1e113">
+               <lb ed="#S" n="99"/>Thom. 4. Distin. 47. Quaest. I. &amp;. 2. dittin. 
+       43<lb ed="#S" break="no" n="100"/>quaest. Lar. 5. 
+    </p>
+            <p xml:id="khj78y-r58807-d1e120">
+               <lb ed="#S" n="101"/>CIRCA. 47. Distin. quaeritur 
+      <lb ed="#S" n="102"/>vtrum generale iudicium sit 
+       fu<lb ed="#S" break="no" n="103"/>turum: &amp; videtur quod non, quia exe 
+      <lb ed="#S" n="104"/>cutio sententiae non praecedit 
+       iu<lb ed="#S" break="no" n="105"/>dicium: sed sententia omnium tam 
+      <lb ed="#S" n="106"/>bonorum quam malorum 
+       dece<lb ed="#S" break="no" n="107"/>dentium statim mandatur execu 
+      <lb ed="#S" n="108"/>tioni: ergo isti amplius non iudi 
+      <lb ed="#S" n="109"/>cabuntur.
+    </p>
+            <p xml:id="khj78y-r58807-d1e143" n="2">
+      <!-- 2 -->Praeterea Naum primo dicitur: quod non. iudi 
+      <lb ed="#S" n="110"/>cabit Deus bis in idipsum: sed iudicat quemlibet in morte 
+      <lb ed="#S" n="111"/>infligendo ei pro meritis praemia vel poenas: ergo. &amp;c. 
+    </p>
+            <p xml:id="khj78y-r58807-d1e152" n="3">
+               <lb ed="#S" n="112"/>
+               <!-- 3 -->Item, si iudicium generale esset futurum, tunc in eo omnes 
+      <lb ed="#S" n="113"/>iudicatentur: alioquin non esset generale, sed non omnes 
+      <lb ed="#S" n="114"/>nec boni nec mali iudicabuntur: ergo. &amp;c. Minor 
+       pro<lb ed="#S" break="no" n="115"/>batur: &amp; primo de bonis: quia Matth. 19. dicit Christus 
+      <lb ed="#S" n="116"/>de apostolis. sedebitis super sedes iudicantes. &amp;c. ipsi er 
+      <lb ed="#S" n="117"/>go iudicabunt &amp; non iudicabuntur. De malis vero 
+       di<lb ed="#S" break="no" n="118"/>citur in Psal. Non resurgent impij in iudicio. &amp;c. 
+    </p>
+            <p xml:id="khj78y-r58807-d1e172" n="4">
+               <lb ed="#S" n="119"/>
+               <!-- 4 -->Contra Ioan. 5. Procedent qui bona fecerunt in 
+       re<lb ed="#S" break="no" n="120"/>surrectionem vitae, qui vero mala egerunt, in 
+       resurre<lb ed="#S" n="121" break="no"/>ctionem iudicij.
+    </p>
+            <p xml:id="khj78y-r58807-d1e183" n="5">
+      <!-- 5 -->Item <ref xml:id="khj78y-r58807-Rd1e187">Augustin. 20. de ciuitate Dei</ref>
+               <lb ed="#S" n="122"/>dicit, quod tota ecclesia expectat generale iudicium 
+       fu<lb ed="#S" break="no" n="123"/>turum. Est etiam articulus fidei: ideo. &amp;c.
+    </p>
+            <p xml:id="khj78y-r58807-d1e194" n="6">
+      <!-- 6 -->
+       Respon<lb ed="#S" break="no" n="124"/>deo: ad euidentiam huius quaestionis tria in generali 
+       vi<lb ed="#S" break="no" n="125"/>denda sunt. Primo est, de iudicio generali futuro. secun 
+      <lb ed="#S" n="126"/>do, de cognitione peccatorum suorum in illo. Tertio, de 
+      <lb ed="#S" n="127"/>igne flagratiouis qui praecedet iudicium.
+    </p>
+            <p xml:id="khj78y-r58807-d1e207" n="7">
+      <!-- 7 -->Quantum 
+      <lb ed="#S" n="128"/>ad primum sunt tres conclusiones. Prima, quod generale 
+       iu<lb ed="#S" break="no" n="129"/>dicium omnium est futurum secundum fidem, iuxta illud 
+      <!--0494.xml-->
+      <pb ed="#S" n="494"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>apossoli. Omnes stabimus ante tribunal Christi. Item 
+      <lb ed="#S" n="2"/>Matth. 26. Cum venerit filius hominis in sede maiestatis 
+      <lb ed="#S" n="3"/>suae. &amp; c. vbi manifeste describitur figura iudicij. Item, 
+       si<lb ed="#S" break="no" n="4"/>cut alibi dicitur: non est nouum vt quibusdum enumeratis 
+      <lb ed="#S" n="5"/>subsequatur generalis clausula quae omnia compraehendat. 
+      <lb ed="#S" n="6"/>sicut ergo plura particularia iudicia sequuntur conclu 
+      <lb ed="#S" n="7"/>siones Assisiae &amp; parlamenta regum pro omnibus coniter, sic 
+      <lb ed="#S" n="8"/>post particularia iudicia morientium successiue erit gene 
+      <lb ed="#S" n="9"/>rale iudicium simul resurgentium omnium.
+    </p>
+            <p xml:id="khj78y-r58807-d1e243" n="8">
+      <!-- 8 -->secunda 
+       con<lb ed="#S" break="no" n="10"/>clusio est dubia qualiter fiet: quia quidam dicunt quod totum 
+      <lb ed="#S" n="11"/>erit mentaliter, alij quod totum vocaliter. Tertia opinio me 
+      <lb ed="#S" n="12"/>dia est probabilior, quod Deus &amp; homo iudicabit animas 
+      <lb ed="#S" n="13"/>in corporibus quod fiet vtroque modo. i. spirituali &amp; 
+       di<lb ed="#S" break="no" n="14"/>uino quantum ad discussionem meritorum. Esuriui. &amp;c. quod 
+      <lb ed="#S" n="15"/>erit conscientia accusante &amp; excusante. Item modo huma 
+      <lb ed="#S" n="16"/>no &amp; corporeo. i. vocaliter quo ad sententiae prolationem: 
+      <lb ed="#S" n="17"/>quae cito erit prolata, dicendo, venite benedicti. ite 
+       male<lb ed="#S" break="no" n="18"/>dicti. vnde versus: Mortis vel vitae brenis est vox: ite, 
+       ve<lb ed="#S" break="no" n="19"/>nite. Quod autem discussio sit mentalis potest aliter 
+       pro<lb ed="#S" break="no" n="20"/>bari: quia non solum fiet de operibus misericordiae quae 
+      <lb ed="#S" n="21"/>multi pauperes non gesserunt &amp; saluabuntur: &amp; econuerso 
+      <lb ed="#S" n="22"/>multi praedones habuerunt &amp; damnabuntur: quia scriptum est, 
+      <lb ed="#S" n="23"/>si distribuero omnes facultates meas in cibos pauperum. &amp; c. 
+      <lb ed="#S" n="24"/>sed de omnibus quae quis gessit in corpore quod non posset 
+      <lb ed="#S" n="25"/>subito fieri: quia non posset fieri in coni, cum aliqui laborent 
+      <lb ed="#S" n="26"/>contrariis peccatis ideo. &amp;c.
+    </p>
+            <p xml:id="khj78y-r58807-d1e285" n="9">
+      <!-- 9 -->Tertia conclusio est, 
+       quam<lb ed="#S" n="27" break="no"/>do &amp; vbi fiet. si quidem de die illa &amp; hora nemo scit, neque 
+      <lb ed="#S" n="28"/>angeli neq, apostoli: &amp; multo minus credendum est reuelatum 
+      <lb ed="#S" n="29"/>vel reuelandum esse alicui alij. Et quamuis Deus reuelauerit 
+      <lb ed="#S" n="30"/>principium mundi non tamen finem: quia peccatum magis est 
+      <lb ed="#S" n="31"/>natum sciri quam futurum.
+    </p>
+            <p xml:id="khj78y-r58807-d1e301" n="10">
+      <!-- 10 -->Probabilius autem est vt fiat 
+      <lb ed="#S" n="32"/>in ortu solis vt sic sol stet in perpetuum, quam media nocte 
+      <lb ed="#S" n="33"/>vel alias. De loco autem iudicij tenetur, quod dominus descendet su 
+      <lb ed="#S" n="34"/>per vallem Iosaphat quae est inter montem syon &amp; Oliueti 
+      <lb ed="#S" n="35"/>posita, non quidem vsque ad terram: sed nec prope terram, sed 
+      <lb ed="#S" n="36"/>vsque ad locum vbi amiserunt apostoli aspectum eius quando 
+      <lb ed="#S" n="37"/>ascendit in coelum, &amp; nubes suscepit eum ab oculis corum vt 
+      <lb ed="#S" n="38"/>dicitur ast. 1. sed boni rapientur obuiam Christo in aera 
+       do<lb ed="#S" break="no" n="39"/>te agilitatis, mali io terra scribentur. i. manebunt circa 
+       lo<lb ed="#S" break="no" n="40"/>ca illa: sic quod omnes poterunt videre in quem compunxerunt. 
+       Vide<lb ed="#S" break="no" n="41"/>bit enim eum omnis oculus, vel per hoc quod compressi stabunt 
+       si<lb ed="#S" break="no" n="42"/>mul in eodem loco, vel per hoc quod ad quantamcumque distantiam 
+      <lb ed="#S" n="43"/>virtute diu ina ad singulorum oculos species corporis defe 
+      <lb ed="#S" n="44"/>rentur, sine stent super mare Deo sustentante, siue compressi 
+      <lb ed="#S" n="45"/>vt dictum est in terra promissionis in qua Deus iudicatus 
+      <lb ed="#S" n="46"/>iterum iudicabit.
+    </p>
+            <p xml:id="khj78y-r58807-d1e338" n="11">
+      <!--II -->Quantum ad secundum de coguitione 
+      <lb ed="#S" n="47"/>bonorum &amp; malorum, sunt tres conclusiones. Prima concors 
+      <lb ed="#S" n="48"/>omnium, quod quilibet sciet propria mala &amp; bona actu de cis 
+      <lb ed="#S" n="49"/>recolendo: cuius ratio est, quia sicut se habet humanum 
+       iu<lb ed="#S" break="no" n="50"/>dicium ad testimonium exterius, ita se habebit diuinum 
+       iu<lb ed="#S" break="no" n="51"/>dicium ad testimonium interioris conscientiae. Nam sicut 
+      <lb ed="#S" n="52"/>dictum est cogitationes vniuscuiusque in generali 
+       iudi<lb ed="#S" break="no" n="53"/>cio tenebunt · locum testium accusantium vel defendent ium, 
+      <lb ed="#S" n="54"/>vt tangit apostolus. Rom. 2. sed in iudicio humano si se 
+      <lb ed="#S" n="55"/>eundum veritatem debeat proferri sententia: oportet quod 
+      <lb ed="#S" n="56"/>testes omnia cognoscant de quibus est sententialiter 
+       iu<lb ed="#S" break="no" n="57"/>dicandum, siue ad absolutionem siue ad condemnationem, 
+      <lb ed="#S" n="58"/>ergo in inditio diuino quod est perfectissimum &amp; in quo 
+      <lb ed="#S" n="59"/>nullus poterit esse error oportebit quod conscientiae 
+       singu<lb ed="#S" break="no" n="60"/>lorum, qui tenebunt locum testium, cognoscant omnia 
+      <lb ed="#S" n="61"/>pro quibus feretur iudicium absolutio: is quo ad bonos: 
+      <lb ed="#S" n="62"/>vel condemnationis quo ad malos: sed illa erunt omnia merita 
+      <lb ed="#S" n="63"/>&amp; demerita singulorum: quare. &amp;c.
+    </p>
+            <p xml:id="khj78y-r58807-d1e380" n="12">
+      <!--12 -->secunda conclusio 
+      <lb ed="#S" n="64"/>ust de modo cognitionis. Certum est enim, quod ista non 
+       co<lb ed="#S" break="no" n="65"/>gnoscuntur naturaliter: quia omne quod cognoscimus 
+       natu<lb ed="#S" break="no" n="66"/>raliter vel accipimus de nouo per sensum, vel deducitur 
+      <lb ed="#S" n="67"/>de thesauro memoriae: sed post resurrectionem nullus po 
+      <!--0494.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>terit per sensum accipere cognitionem meritorum vel 
+       de<lb ed="#S" break="no" n="69"/>meritorum quae praeterlerunt, nec cognitio omnium 
+       pote<lb ed="#S" break="no" n="70"/>rit haberi naturatiter per modu reminiicetiae, quae multa 
+      <lb ed="#S" n="71"/>eorum totaliter a memoria exciderunt. quare. &amp;c. Item, non 
+      <lb ed="#S" n="72"/>cognoscentur cognitione beata: non solum propter illud quod 
+      <lb ed="#S" n="73"/>prius dictum fuit, quando quaerebatur an sancti cognoscant 
+      <lb ed="#S" n="74"/>orationes nostras secundum vnam opinionem, sed propter 
+      <lb ed="#S" n="75"/>aliud: scilicet quod talis cognitio erit communis bonis &amp; 
+       ma<lb ed="#S" break="no" n="76"/>lis vt iam dictum est. Cognitio autem beata non erit conis: qua 
+      <lb ed="#S" n="77"/>re. &amp;c. Relinquitur ergo quod hoc fiet per modum 
+       reuelatio<lb ed="#S" break="no" n="78"/>nis, nec est inconueniens quod malis reuelentur multa ad 
+       eo<lb ed="#S" break="no" n="79"/>rum poenam: nam etiam malis angelis credibile est multa per 
+      <lb ed="#S" n="80"/>bonos angelos reuelari. Potest tamen dici quod boni in ver 
+      <lb ed="#S" n="81"/>bo hoc videbunt: mali vero de hoc reuelationem habebunt. 
+    </p>
+            <p xml:id="khj78y-r58807-d1e428" n="13">
+               <lb ed="#S" n="82"/>
+               <!-- 13 -->Tertia conclusio est, de cognitione meriti &amp; demeri 
+      <lb ed="#S" n="83"/>ti aliorum: vbi est duplex modus dicendi. Vnus quod 
+       quili<lb ed="#S" break="no" n="84"/>bet cognoscet omnia merita &amp; demerita aliorum, quia illud 
+      <lb ed="#S" n="85"/>iudicium cum sit finale &amp; generale debet esse 
+       perfectissi<lb ed="#S" break="no" n="86"/>mum, ad perfectionem autem iudicij maxime facit quod ap 
+      <lb ed="#S" n="87"/>pareat omnibus esse iustum, non posset autem apparere 
+      <lb ed="#S" n="88"/>omnibus esse iustum: nisi cuilibet causa condemnationis vel 
+      <lb ed="#S" n="89"/>remunerationis apparet tam bonorum quam malorum, cum 
+      <lb ed="#S" n="90"/>igitur ista causa sit singulorum merita vel demerita, 
+       vi<lb ed="#S" break="no" n="91"/>detur quod singuli cognoscant non solum merita bona vel 
+       ma<lb ed="#S" break="no" n="92"/>la quae ipsi fecerunt, sed etiam omnium aliorum. Alius 
+       mo<lb ed="#S" break="no" n="93"/>dus est, quod non oportet ad hoc vt sententia iudicis 
+       appa<lb ed="#S" break="no" n="94"/>reat iusta quod quilibet sigillatim cognoscat merita vel 
+       de<lb ed="#S" break="no" n="95"/>merita aliorum, sed sufficit quod cognoscat illos qui erunt a 
+      <lb ed="#S" n="96"/>dextris esse bonos &amp; iustos quibus dicetur: venite 
+       bene<lb ed="#S" break="no" n="97"/>dicti. illos autem qui erunt a sinistris cognoscat esse 
+      <lb ed="#S" n="98"/>malos &amp; iniustos quibus dicetur, ite maledicti. 
+    </p>
+            <p xml:id="khj78y-r58807-d1e471" n="14">
+               <lb ed="#S" n="99"/>
+               <!-- 14 -->Quantum ad tertium de igne conflagrationis sunt 
+      <lb ed="#S" n="100"/>tres conclusiones.
+    </p>
+            <p xml:id="khj78y-r58807-d1e480" n="15">
+      <!-- 15 -->Prima quod mundus purgabitur &amp; 
+      <lb ed="#S" n="101"/>innouabitur circa tempus iudicij: &amp; istud magis tenetur 
+      <lb ed="#S" n="102"/>auctoritate scripturae &amp; sanctorum qua ratione, 
+       nihilo<lb ed="#S" break="no" n="103"/>minus tamen potest ad hoc talis persuasio adhiberi, quia 
+      <lb ed="#S" n="104"/>finis &amp; ea quae sunt ad finem debent proportionari: sed 
+      <lb ed="#S" n="105"/>homo est quodammodo finis omnium corporalium saltem 
+       ge<lb ed="#S" break="no" n="106"/>nerabilium &amp; corruptibilium. ergo illa debent homini 
+      <lb ed="#S" n="107"/>proportionari, sed homo in resurrectione innouabitur 
+      <lb ed="#S" n="108"/>&amp; immutabitur in meliorem &amp; in puriorem &amp; nobiliorem 
+      <lb ed="#S" n="109"/>dispensationem: ergo congruum est vt mundus corruptibilis 
+      <lb ed="#S" n="110"/>qui factus est propter hominem innouetur &amp; immutetur in 
+      <lb ed="#S" n="111"/>meliorem, puriorem &amp; nobiliorem statum: haec autem put 
+      <lb ed="#S" n="112"/>gatio vocatur innouatio mundi, quae consistit in duobus se 
+      <lb ed="#S" n="113"/>cundum duplicem impuritatem quae reperitur in rebus cor 
+      <lb ed="#S" n="114"/>poralibus. Vna impuritas est commixtionis per mutuam 
+      <lb ed="#S" n="115"/>actionem clementorum &amp; aliarum rerum adinuicem: &amp; 
+      <lb ed="#S" n="116"/>hic est impuritas naturae. Alia est impuritas proueniens ex 
+      <lb ed="#S" n="117"/>culpa, quammuis enim res corporales non possint esse sub 
+      <lb ed="#S" n="118"/>iectum infectionis culpae: tamen ex culpa relinquitur in 
+      <lb ed="#S" n="119"/>rebus corporalibus quaedam incongruitas ad hoc vt spiri 
+      <lb ed="#S" n="120"/>tualibus dedicentur: vnde videmus, quod loca in quibus ali 
+      <lb ed="#S" n="121"/>qua crimina sunt commissa non reputantur idonea ad 
+       ali<lb ed="#S" break="no" n="122"/>qua sacra in eisexercenda, nisi quadam purgatione 
+       prae<lb ed="#S" break="no" n="123"/>misia, &amp; secundum hoc pars mundi quae cedit in vsum nostrum 
+      <lb ed="#S" n="124"/>ex peccatis nostris contraxit quandam inidoneitatem respectu 
+      <lb ed="#S" n="125"/>sacrorum propter quod indiget purgari non solum a prima 
+      <lb ed="#S" n="126"/>impuritate: sed a secunda. Ex quo patet quod non purgabitur 
+      <lb ed="#S" n="127"/>totus mundus quantum ad quamlibet sui partem, sed solum 
+      <lb ed="#S" n="128"/>quantum ad illam quae cessit in vsum hominum, vel ad quam 
+      <lb ed="#S" n="129"/>facta hominum quoquo modo pertingere potuerunt, &amp; haec 
+      <lb ed="#S" n="130"/>pars est illa ad quam aquae diluuij attigerunt propter eandem 
+      <lb ed="#S" n="131"/>cau sam: &amp; coeli superiores non purgabuntur nec sphaera 
+      <lb ed="#S" n="132"/>ignis nec superior pars aeris: sed tantum inferior. vnde quod di 
+      <lb ed="#S" n="133"/>citur in psal. quod coeli peribunt. &amp;. 2. Petri. 3. quod coeli ardentes 
+      <lb ed="#S" n="134"/>soluentur: intelligendum est de coelo aereo: vnde beatus 
+      <!--0495.xml-->
+      <pb ed="#S" n="495"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Petrus exponit se de quibus coelis intelligat, praemittit 
+      <lb ed="#S" n="2"/>enim ante verba inducta quod coeli prius &amp; terra per aquam 
+      <lb ed="#S" n="3"/>perierunt, qui nunc sunt in eodem verbo repositi igni 
+       re<lb ed="#S" break="no" n="4"/>seruati in die iudicij. Illi igitur coeli per ignem 
+       purgabun<lb ed="#S" n="5" break="no"/>tur qui prius per aquam diluuij sunt purgati. scilicet coeli aerei. 
+    </p>
+            <p xml:id="khj78y-r58807-d1e576" n="16">
+               <lb ed="#S" n="6"/>
+               <!-- 16 -->secunda conclusio est, quod illa purgatio fiet per ignem 
+      <lb ed="#S" n="7"/>conuenientissime: quia per illud quod est purius debent 
+       im<lb ed="#S" break="no" n="8"/>puriora purgari: sed ignis inter omnia corporalia est pu 
+      <lb ed="#S" n="9"/>rior puritate opposita duplici impuritati in elementis 
+      <lb ed="#S" n="10"/>purgandae: ergo per ignem dobent alia purgari. Minor 
+      <lb ed="#S" n="11"/>declaratur: quia ignis non recipit permixtionem 
+       contra<lb ed="#S" break="no" n="12"/>rij propter suam maximam virtutem actiuam sicut caete 
+      <lb ed="#S" n="13"/>ra elementa: &amp; sphaera ignis est maxime remota ab 
+       habi<lb ed="#S" break="no" n="14"/>tatione nostra: &amp; si apud nos inueniatur, vsus tamen eius 
+      <lb ed="#S" n="15"/>non est ita communis sicut aquae, aeris &amp; tetrae: &amp; ideo non 
+      <lb ed="#S" n="16"/>tantum inficitur propter quod per ipsum congruentissi 
+      <lb ed="#S" n="17"/>me purgatio fit caeterorum. Qualis autem debeat esse ille 
+      <lb ed="#S" n="18"/>ignis: aduertendum est quod si est verus ignis compositus ex 
+       ma<lb ed="#S" break="no" n="19"/>teria &amp; forma: tunc de nouo creabitur vel ex praeiacente 
+      <lb ed="#S" n="20"/>materia generabitur: &amp; quicquid horum detur oportet 
+       di<lb ed="#S" break="no" n="21"/>cere quod vel duo corpora tunc sintsimul. s ignis &amp; aer, vsque 
+      <lb ed="#S" n="22"/>ad locum ad quem aquae diluuij ascenderunt, scilicet. 15. 
+       cu<lb ed="#S" break="no" n="23"/>bitis, super altitudinem montium: vel quod tantum de aere corrum 
+      <lb ed="#S" n="24"/>patur, &amp; quicquid sit de primo, secundum conceditur ab 
+      <lb ed="#S" n="25"/>omnibus tanquam possi bile, veruntamen non concordat cum 
+      <lb ed="#S" n="26"/>auctoritatibus sanctorum. Dicitur enim in glo. super illud 
+      <lb ed="#S" n="27"/>1. ad Corinth. 7. Praeterit figura mundi huius, quod pulchritu 
+      <lb ed="#S" n="28"/>do mundi huius praeterit non perfectio, sed substantia 
+       ele<lb ed="#S" break="no" n="29"/>mentorum pertinet ad perfectionem mundi, ergo elementa non 
+      <lb ed="#S" n="30"/>consumentur quantum ad suam essentiam. Et iterum sicut purga 
+      <lb ed="#S" n="31"/>bitur aer per ignem, ita aqua &amp; terra: sed constat quod 
+       sub<lb ed="#S" break="no" n="32"/>stantia aquae &amp; terrae non peribit in aliqua sui parte: ergo 
+      <lb ed="#S" n="33"/>nec aeris. Propter quod videtur qui busdam rationabiliter, quod 
+      <lb ed="#S" n="34"/>illa conflagratio non erit nisi quaedam ignitio elementi 
+       pur<lb ed="#S" break="no" n="35"/>gandi, sicut ferrum ignitur non recipiendo formam 
+       substantia<lb ed="#S" break="no" n="36"/>lem in se, sed vehementem calorem qui est quaedam eius 
+      <lb ed="#S" n="37"/>ignitio. Et hoc videtur declarare frater Tho. communis 
+      <lb ed="#S" n="38"/>doctor, qui dicit quod manebunt elementa quantum ad 
+       sub<lb ed="#S" break="no" n="39"/>stantiam nec efficienter materia ignis: ita vt a propria spe 
+      <lb ed="#S" n="40"/>cie corrumpantur, sicut patet in ferro ignito. si autem 
+       te<lb ed="#S" break="no" n="41"/>neatur quod sit verus ignis &amp; non solum ignitio: oportet 
+       dice<lb ed="#S" break="no" n="42"/>re quod siteiusdem speciei cum igne nostro: quod persuadetur 
+      <lb ed="#S" n="43"/>sic, futura purgatio mundi erit per ignem, sicut prima fuit 
+      <lb ed="#S" n="44"/>per aquam. Et haec operantur adinuicem. 2. Petri. 1. sed aqua 
+      <lb ed="#S" n="45"/>illa fuit eiusdem speciei cum aqua elementari. ergo &amp; ignis 
+      <lb ed="#S" n="46"/>ille erit eiusdem speciei cum igne nostro.
+    </p>
+            <p xml:id="khj78y-r58807-d1e670" n="17">
+      <!-- 17 -->De hac 
+       pur<lb ed="#S" break="no" n="47"/>gatione dicit sybilla vt refert Aug. in sermone de natali 
+      <lb ed="#S" n="48"/>Domini qui incipit, legimus sanctum Moysen. Exuret terram 
+      <lb ed="#S" n="49"/>ignis pontumque polumque : Et postea, fontes externa flamma 
+       cre<lb ed="#S" n="50" break="no"/>mabit: &amp; postea, sic pariter fontes torrentur fluminaque 
+      <lb ed="#S" n="51"/>igni. Et postea, decidet e coelo ignisque &amp; sulphuris amnis. 
+    </p>
+            <p xml:id="khj78y-r58807-d1e686" n="18">
+               <lb ed="#S" n="52"/>
+               <!-- 18 -->Tertia conclusio est, quod ista purgatio praecedet 
+      <lb ed="#S" n="53"/>iudicium secundum illud psalmi, Ignis ante ipsum 
+       praece<lb ed="#S" break="no" n="54"/>det, &amp; inflammabit in circuitu inimicos eius. &amp;c. Et hoc 
+      <lb ed="#S" n="55"/>etiam patet sic. Resurrectio mortuorum praecedet 
+       iudi<lb ed="#S" break="no" n="56"/>cium: simul autem erit resurrectio mortuorum &amp; 
+       glori<lb ed="#S" break="no" n="57"/>ficatio sanctorum corporum, resurgent enim cum 
+       corpori<lb ed="#S" break="no" n="58"/>bus gloriosis simul etiam glorificabuntur corpora sancto 
+      <lb ed="#S" n="59"/>rum &amp; renouabuntur elementa: cum ergo purgatio 
+       mun<lb ed="#S" break="no" n="60"/>di per ignem sit dispositio vel actio ad praedictam 
+       reno<lb ed="#S" break="no" n="61"/>uationem, manifeste sequitur quod haec purgatio praecedet 
+      <lb ed="#S" n="62"/>iudicium: quid autem fiet de illo igne dicitur, quod 
+       termina<lb ed="#S" break="no" n="63"/>to iudicio reuoluet reprobos &amp; descendet cum eis in 
+       in<lb ed="#S" break="no" n="64"/>fernum. sed hoc est mirum valde, quia secundum hoc 
+       opor<lb ed="#S" break="no" n="65"/>tet dicere quod duret ab ante iudiclum vsque post: &amp; cum oc 
+      <lb ed="#S" n="66"/>cupet totum spacium terrae habitabilis, &amp; vicinam partem 
+      <lb ed="#S" n="67"/>aeris vsque ad altitudinem. 25. cubitorum super montes, 
+      <!--0495.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>consequens est vt videtur quod omnes iudicandi qui erunt in 
+      <lb ed="#S" n="69"/>inferiori parte aeris erunt in illo igne: quod licet non sit 
+      <lb ed="#S" n="70"/>Deo impossibile: non apparet tamen qualiter sit 
+       conue<lb ed="#S" break="no" n="71"/>niens.
+    </p>
+            <p xml:id="khj78y-r58807-d1e738" n="19">
+      <!-- 19 -->Dicerent tamen aliqui, quod non est aliquod in 
+      <lb ed="#S" n="72"/>conueniens si iam incipiant illo igne ardere mali, qui 
+       sta<lb ed="#S" break="no" n="73"/>tim post sunt illo igne perpetuo inuoluendi, boni vero in 
+      <lb ed="#S" n="74"/>feriores in aere per dotem impassibilitatis non laedentur: 
+      <lb ed="#S" n="75"/>vel ignis condensatus poterit ad aliam partem stare ad 
+       ho<lb ed="#S" break="no" n="76"/>ram illam, sicut congregatae sunt aquae in mari propter 
+      <lb ed="#S" n="77"/>terrae nascentia vsque ad finem mundi. De notitia autem 
+      <lb ed="#S" n="78"/>meritorum &amp; demeritorum praedicit sibylla: vbi supra sic, 
+      <lb ed="#S" n="79"/>Occultos actus detegens: tunc quisque loquetur, secreta sic 
+      <lb ed="#S" n="80"/>que Deus reserabit pectora luci. &amp;. 1. ad Corinth. 4. 
+       Mani<lb ed="#S" break="no" n="81"/>festabit consilia cordium. sciendum est etiam, quod boni 
+       re<lb ed="#S" break="no" n="82"/>colentes de malis suis non habebunt complacentiam in eis: 
+      <lb ed="#S" n="83"/>quia charitas non gaudet super iniquitatem sed displicem 
+      <lb ed="#S" n="84"/>tiam, quam tamen non sequetur tristitia nec poena aliqua 
+      <lb ed="#S" n="85"/>sicut in via: quia causa impeditur a suo effectu producem 
+      <lb ed="#S" n="86"/>do propter contrariam causam efficaciorem ad oppositum 
+      <lb ed="#S" n="87"/>effectum, sicut paruum frigefactiuum cadit magno calefacti 
+      <lb ed="#S" n="88"/>uo: tunc autem visio Dei causabit continuum gaudium in 
+      <lb ed="#S" n="89"/>voluntate. vnde fugiet dolor &amp; gemitus, non solum con 
+      <lb ed="#S" n="90"/>trarius de eodem: sed etiam disparatus &amp; contingens de 
+      <lb ed="#S" n="91"/>quocunque. sciendum est etiam de igne ꝗper ipsum non 
+      <lb ed="#S" n="92"/>purgabitur coelum empyreum: quia ibi non est corruptio 
+      <lb ed="#S" n="93"/>naturae: sed fuit tantum corruptio culpae, sed illa fuit spi 
+      <lb ed="#S" n="94"/>ritualis quae non contaminat locum, sicut cogitatio adulterij 
+      <lb ed="#S" n="95"/>vel homicidij non contaminat ecclesiam siue polluit: &amp; 
+      <lb ed="#S" n="96"/>statim fuerunt expulsi. nec coelum Crystallinum &amp; sydereum: 
+      <lb ed="#S" n="97"/>cum careant corruptione naturae &amp; culpae: vnde non 
+       in<lb ed="#S" break="no" n="98"/>digent purgatione: coelum vero olympium. i. concaua pars 
+      <lb ed="#S" n="99"/>ignis &amp; coelum aethereum. i. conuexa &amp; suprema pars 
+       ae<lb ed="#S" break="no" n="100"/>ris corruptionem naturae &amp; impuritatem admixtam 
+       ha<lb ed="#S" break="no" n="101"/>bent: quia elementa non sunt pura in suis 
+       extremitati<lb ed="#S" break="no" n="102"/>bus: sed propter illam solam non fit purgatio. Paradisus 
+      <lb ed="#S" n="103"/>autem terrestris non purgabitur: quia ibi non est 
+       impu<lb ed="#S" break="no" n="104"/>ritas naturae propter temperiem aeris. impuritas autem 
+      <lb ed="#S" n="105"/>culpae fuit purgata per eiectionem hominum &amp; serpentis 
+      <lb ed="#S" n="106"/>&amp; diaboli, vel quia cum sit mons quidam erit redactus 
+      <lb ed="#S" n="107"/>ad debitum situm ante aduentum illius ignis. Quomodo 
+      <lb ed="#S" n="108"/>autem illo igne homines purgabuntur: dicendum quod ma 
+      <lb ed="#S" n="109"/>li quidem nondum mortui illo affligentur, sicut natura 
+      <lb ed="#S" n="110"/>requirit: boni vero purgandi affligentur quantum 
+       cul<lb ed="#S" break="no" n="111"/>pa exigit: non habentes vero foenum, lignum, stipulam, 
+       pur<lb ed="#S" break="no" n="112"/>ganda, non affligentur nisi forte quantum pro peccato 
+      <lb ed="#S" n="113"/>originali: etiam mors naturalis aliquem dolorem habet 
+      <lb ed="#S" n="114"/>sensibilem, vel si affliguntur plus sicut martyres proderit 
+      <lb ed="#S" n="115"/>eis ad praemium.
+    </p>
+            <p xml:id="khj78y-r58807-d1e839" n="20">
+      <!-- 20 -->Ad argumenta in oppositum. 
+    </p>
+            <p xml:id="khj78y-r58807-d1e844" n="21">
+               <lb ed="#S" n="116"/>
+               <!-- 21 -->Ad primum dicendum, quod sententia vniuersalis iudicij 
+      <lb ed="#S" n="117"/>erit vniuersalis separatio bonorum a malis: &amp; 
+       remunera<lb ed="#S" break="no" n="118"/>tio bonorum &amp; punitio malorum: non solum in anima, 
+      <lb ed="#S" n="119"/>sed in corpore: sed executio huius sententiae non fit modo 
+      <lb ed="#S" n="120"/>sed fiet post generale iudicium: nunc tamen fit executio 
+      <lb ed="#S" n="121"/>particularis iudicij, quo quilibet iudicatur in morte per 
+      <lb ed="#S" n="122"/>praemium vel poenam pertinentem ad solam animam. 
+    </p>
+            <p xml:id="khj78y-r58807-d1e864" n="22">
+               <lb ed="#S" n="123"/>
+               <!-- 22 -->Ad secundum dicendum, quod neminem Deus iudicabit 
+      <lb ed="#S" n="124"/>bis in idipsum: quia non infliget pro vno peccato duas 
+      <lb ed="#S" n="125"/>poenas: quarum quaelibet sit proportionata culpae: poena 
+      <lb ed="#S" n="126"/>enim quae infertur in iudicio particulari, non est aequata 
+      <lb ed="#S" n="127"/>culpae: sed est pars poenae totalis: quae postea erit in 
+       ani<lb ed="#S" break="no" n="128"/>ma &amp; in corpore: quamuis in duplici indicio hae poenae 
+      <lb ed="#S" n="129"/>determinentur &amp; rationabiliter: quia quilibet homo &amp; est 
+      <lb ed="#S" n="130"/>quaedam singularis persona: &amp; est pars communitatis &amp; ob 
+      <lb ed="#S" n="131"/>hoc debetur ei duplex iudicium, vnum singulare quod de 
+      <lb ed="#S" n="132"/>quolibet fit in morte: aliud vniuersale quando finaliter 
+      <lb ed="#S" n="133"/>totum humanum genuscuius quilibet est pars iudicabitur. 
+    </p>
+            <p xml:id="khj78y-r58807-d1e893" n="23">
+               <lb ed="#S" n="134"/>
+               <!-- 23 -->Ad tertium dicendum, quod ad iudicium duo pertinent. scilicet 
+      <!--0496.xml-->
+      <pb ed="#S" n="496"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>discussio meritorum, &amp; retributio praemiorum vel 
+       poena<lb ed="#S" break="no" n="2"/>rum. Et secundum hoc duplex dicitur esse iudicium, vnum 
+      <lb ed="#S" n="3"/>disceptationis, alterum retributionis. Iudicioretributionis 
+      <lb ed="#S" n="4"/>oens iudicabuntur, quia omnes punientur vel praemiabum 
+      <lb ed="#S" n="5"/>tur: sed iudicio discussionis non omnes iudicabuntur: sed 
+      <lb ed="#S" n="6"/>solum illi quorum merita sunt permixta demeritis vel 
+      <lb ed="#S" n="7"/>econuerso, propter quod sic dicitur communiter, quod quidam 
+      <lb ed="#S" n="8"/>sunt quorum mala sunt impermixta bonis meritorijs, sicut 
+      <lb ed="#S" n="9"/>sunt illi qui caruerunt fide sine qua non est meritum: &amp; ideo 
+      <lb ed="#S" n="10"/>isti non iudicabuntur iudicio discussionis: sed sine discui 
+      <lb ed="#S" n="11"/>sione damnabuntur, de quibus intelligitur illud psal. non re 
+      <lb ed="#S" n="12"/>surgent impij in iudicio. &amp;c. scilicet disceptationis. Alij sunt 
+       quo<lb ed="#S" break="no" n="13"/>rum bona merita sunt impermixta malis: vt sancti perfecti 
+      <lb ed="#S" n="14"/>quemadmodum fuerunt apostoli &amp; pauperes eorum 
+       imitato<lb ed="#S" break="no" n="15"/>res, &amp; isti non iudicabuntur: sed regnabunt &amp; alios 
+       iudica<lb ed="#S" break="no" n="16"/>bunt aliquo modo: vt infra dicetur: &amp; de his proceditar. in 
+      <lb ed="#S" n="17"/>hoc sensu. Alij vero sunt quorum merita permixta sunt cum 
+      <lb ed="#S" n="18"/>demeritis, quia quandoque peccauerunt mortaliter vel 
+       ve<lb ed="#S" break="no" n="19"/>nialiter, &amp; tamen in charitate decesserunt &amp; isti 
+       iudicabun<lb ed="#S" break="no" n="20"/>tur propter permixtionem bonorum cum malis: 
+       verunta<lb ed="#S" break="no" n="21"/>men saluabuntur. Alij vero sunt quorum mala permixta 
+      <lb ed="#S" n="22"/>sunt cum bonis: sed decesserunt cum malis &amp; extra 
+       charita<lb ed="#S" break="no" n="23"/>tem, &amp; hi iudicabuntur per eandem rationem: sed damnabum 
+      <lb ed="#S" n="24"/>tur propter defectum charitatis. Et haec est quadrimembris 
+      <lb ed="#S" n="25"/>distinctio quam ponit magister in litera.
+    </p>
+            <p xml:id="khj78y-r58807-d1e961" n="24">
+      <!-- 24 -->sed 
+       scien<lb ed="#S" break="no" n="26"/>dum est hic, quod ista euidentia non refertur ad tempus illud 
+      <lb ed="#S" n="27"/>quando omnia omnium opera aequaliter apparebunt, imo 
+      <lb ed="#S" n="28"/>magis ad praesens tempus: quia illorum qui non habuerunt 
+      <lb ed="#S" n="29"/>mala admixta erit euidens iustitia: aliorum vero scilicet 
+      <lb ed="#S" n="30"/>hostium fidei, euidens malitia.
+    </p>
+            <p xml:id="khj78y-r58807-d1e977" n="27">
+      <!-- <sic>27</sic> -->Tertio, angeli non 
+      <lb ed="#S" n="31"/>ludicabuntur, nec discussione, nec condennatione: quia 
+      <lb ed="#S" n="32"/>a principio mundi non singulare solum, sed vniuersale 
+      <lb ed="#S" n="33"/>in eis iudicium praecessit: sed indirecte iudicabuntur, quia 
+      <lb ed="#S" n="34"/>illorum augebitur gaudium, horum autem supplicium. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

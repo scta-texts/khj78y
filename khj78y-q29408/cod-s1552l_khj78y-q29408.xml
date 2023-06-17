@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#PetrusDePalude">Petrus Palude</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-06-17">June 17, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="S" n="cod-s1552l">Salamanca 1552</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-17" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#S" n="122"/>
+            <cb ed="#S" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="khj78y-q29408"><!-- l4d10-q2 -->
+            <head xml:id="khj78y-q29408-Hd1e101">Quaestio 2</head>
+            <head xml:id="khj78y-q29408-Hd1e103" type="question-title">
+     utrum 
+     Christus sit in altari totaliter
+   </head>
+            <p xml:id="khj78y-q29408-d1e106">
+               <lb ed="#S" n="114"/>QVAESTIO SECVNDA. 
+      <lb ed="#S" n="115"/>De corpore Christi in sacramento totaliter existenti
+    </p>
+            <p xml:id="khj78y-q29408-d1e113">
+               <lb ed="#S" n="116"/>
+               <!-- line coord likely out of place in coord file -->Thom. 3. q. 76. art. 1.
+    </p>
+            <p xml:id="khj78y-q29408-d1e120">
+               <lb ed="#S" n="117"/>SECVNDO quaeritur vtrum 
+      <lb ed="#S" n="118"/>Christus sit in altari totaliter. Et 
+      <lb ed="#S" n="119"/>videt, &amp; non sit ibi secundum 
+       diui<lb ed="#S" break="no" n="120"/>nitatem, quia cum brutum manducet cor 
+      <lb ed="#S" n="121"/>pus Christi manducaret diuinitatem, 
+      <lb ed="#S" n="122"/>quod videt absurdum.
+    </p>
+            <p xml:id="khj78y-q29408-d1e137" n="2">
+      <!-- 2 -->
+       CON<lb ed="#S" break="no" n="123"/>TRAsi vbicunque est Christus 
+       mo<lb ed="#S" break="no" n="124"/>do indiuisibili ibi est totus, &amp; 
+      <lb ed="#S" n="125"/>totum quicquid Christi, sic est in proposito. ergo &amp;c. 
+    </p>
+            <p xml:id="khj78y-q29408-d1e148" n="3">
+               <lb ed="#S" n="126"/>
+               <!-- 3 -->Respondeo, dicendum, quod Christus totus est hic, &amp; 
+      <lb ed="#S" n="127"/>totum, quod est in Christo: totum, quod est personae naturae diui 
+      <lb ed="#S" n="128"/>nae, &amp; humanae: substantialis, &amp; accidentalis: sed solum cor 
+      <lb ed="#S" n="129"/>pus Christi est sub specie panis ex vi sacramenti, &amp; solus 
+      <lb ed="#S" n="130"/>sanguis sub specie vini. Reliqua vero vtrobique sunt ex 
+      <!--0123.xml-->
+      <pb ed="#S" n="123"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>naturali concomitantia. Primum patet: quia quicquid signifi 
+      <lb ed="#S" n="2"/>catur per verba formae, est in sacramento ex vi sacramenti: 
+      <lb ed="#S" n="3"/>aliter essent falsa, &amp; nihil plus, quia non agunt, nisi sipnifi 
+      <lb ed="#S" n="4"/>cando. Vnde directe non plus agunt, quam significent. 
+       se<lb ed="#S" break="no" n="5"/>cundum patet, quia quae abinuicem non separant, vbi est vnum 
+      <lb ed="#S" n="6"/>ibi est reliquum ex naturali concomitantia: saltem vbi est 
+      <lb ed="#S" n="7"/>illud, quod non excedit, &amp; reliquum, quod dico, quia non vbi 
+      <lb ed="#S" n="8"/>cunque est Deus, est homo assumptus, sed econuerso, sed sic 
+      <lb ed="#S" n="9"/>est in proposito. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q29408-d1e190" n="4">
+      <!-- 4 -->De quantitate autem 
+      <lb ed="#S" n="10"/>quomodo sit, hic est vna singularis opinio, quae primo 
+       recita<lb ed="#S" break="no" n="11"/>bitur cum suis annexis. secundo inquiretur de his, quae 
+      <lb ed="#S" n="12"/>opinio implicat.
+    </p>
+            <p xml:id="khj78y-q29408-d1e201" n="5">
+      <!-- 5 -->CIRCA primum primo 
+       po<lb ed="#S" break="no" n="13"/>netur opinio cum suis motiuis. secundo ponentur rationes 
+      <lb ed="#S" n="14"/>ad principale, quas faciunt pro, &amp; contra. Tertio ponei 
+      <lb ed="#S" n="15"/>responsio ipsorum.
+    </p>
+            <p xml:id="khj78y-q29408-d1e212" n="6">
+      <!-- 6 -->Quantum ad primum dicunt 
+      <lb ed="#S" n="16"/>isti, quod corpus Christi potest esse in hoc sacramento sine quantitate, 
+      <lb ed="#S" n="17"/>quamuis substantia. &amp; quantitas non separentur secundum 
+       inhae<lb ed="#S" n="18" break="no"/>rentiam vnius ad alterum, quia difficile videt, quod quantitas sit 
+      <lb ed="#S" n="19"/>alicubi, nisi modo quantitatiuo.
+    </p>
+            <p xml:id="khj78y-q29408-d1e225" n="7">
+      <!-- 7 -->Probant autem 
+      <lb ed="#S" n="20"/>hoc multipliciter. Primo sic: quia non sequitur, quantitas 
+       Chri<lb ed="#S" n="21" break="no"/>sti non separatur a corpore suo. ergo est cum corpore in 
+       sa<lb ed="#S" break="no" n="22"/>cramento per concomitantiam. sicut enim locus coeli non 
+       sepa<lb ed="#S" n="23" break="no"/>ratur ab eo secundum contactum, qui tamen propter hoc non est 
+      <lb ed="#S" n="24"/>in sacro, sic videtur &amp; hic.
+    </p>
+            <p xml:id="khj78y-q29408-d1e242" n="8">
+      <!-- 8 -->secundo sic 
+       cessan<lb ed="#S" break="no" n="25"/>te causa, cessat effectus. &amp; ideo cum corpus Christi, sic hic 
+      <lb ed="#S" n="26"/>propter ordinem, quem habet ad species, vt substantia, non vt 
+      <lb ed="#S" n="27"/>quanta. ergo est hic substantia, &amp; non quantitas.
+    </p>
+            <p xml:id="khj78y-q29408-d1e253" n="9">
+      <!-- 9 -->
+       Ter<lb ed="#S" break="no" n="28"/>tio arguitur, quod non sequat, Deus facit, quod calidum praesens ca 
+      <lb ed="#S" n="29"/>lefactibili non comparetur ei in ratione calefacientis 
+       su<lb ed="#S" break="no" n="30"/>spendendo actionem, &amp; retinendo calorem. ergo licet non 
+       fa<lb ed="#S" break="no" n="31"/>ciat quantitatem corporis Christi in se indiuisibilem: quia 
+      <lb ed="#S" n="32"/>esset contradictio, potest tamen facere ipsam comparari ad 
+       spe<lb ed="#S" break="no" n="33"/>ecies, quae sunt extra modo indiuisibili, hoc non sequitur, 
+      <lb ed="#S" n="34"/>quia non est simile, quia quod sequitur ad approximationem 
+      <lb ed="#S" n="35"/>agentis ad patiens est aliquid absolutum, quod Deus 
+       po<lb ed="#S" break="no" n="36"/>test impedire. sed sicut non potest facere, quod qualitates 
+      <lb ed="#S" n="37"/>vnius rationis adinuicem comparatae vna non sit inferior 
+      <lb ed="#S" n="38"/>alia, vel aequalis, sic etiam nec quantitates adinuicem quio 
+      <lb ed="#S" n="39"/>vna sit maior, vel minor, aut aequalis. Quo facto, non com 
+      <lb ed="#S" n="40"/>paretur similiter ad totum, &amp; ad partem.
+    </p>
+            <p xml:id="khj78y-q29408-d1e286" n="10">
+      <!-- 10 -->Quarto 
+      <lb ed="#S" n="41"/>sic, impossibile est, quod quantitas comparetur quantitati, modo 
+      <lb ed="#S" n="42"/>naturae incompossibili, sed modus naturae quantitatis est 
+      <lb ed="#S" n="43"/>diuisibilitas. ergo impossibile est, quod quantitas comparetur 
+      <lb ed="#S" n="44"/>modo indiuisibili. sed si quantias corporis Christi prae 
+      <lb ed="#S" n="45"/>sens esset speciebus modo substantiae, comparetur ad eas 
+      <lb ed="#S" n="46"/>modo indiuisibili. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q29408-d1e304" n="11">
+      <!-- 11 -->His visis 
+       ponen<lb ed="#S" break="no" n="47"/>dae sunt ratione:, quae fiunt ad quaestionem pro, &amp; contra. 
+      <lb ed="#S" n="48"/>Contra, sunt duae. Prima talis. Idem non potest esse 
+       ma<lb ed="#S" break="no" n="49"/>ius, &amp; minus alio: sed hoc sequaeretur, si Christus esset to 
+      <lb ed="#S" n="50"/>tus in hoc sacro. ergo &amp;c. probatur minor, quia Christus 
+       se<lb ed="#S" break="no" n="51"/>cundu veritatem maior est in propria quantitate 
+       dimensio<lb ed="#S" break="no" n="52"/>nibus specierum, sed si esset corpus sub speciebus, non esset 
+      <lb ed="#S" n="53"/>maior: imo minor, quia contentum non excedit continens: 
+      <lb ed="#S" n="54"/>imo exceditur. ergo &amp;c.
+    </p>
+            <p xml:id="khj78y-q29408-d1e326" n="12">
+      <!-- 12 -->secuda est talis, 
+       cor<lb ed="#S" break="no" n="55"/>pus ratione suae quantitatis comparatur ad locum circunscri 
+      <lb ed="#S" n="56"/>ptiue, sed corpus Christi non est in hoc sacramento circum
+       scripti<lb ed="#S" break="no" n="57"/>ue. ergo non est ibi quantum ad quantitatem.
+    </p>
+            <p xml:id="khj78y-q29408-d1e337" n="13">
+      <!-- 13 -->Ra 
+      <lb ed="#S" n="58"/>tio prob. est ista. Vbi est pars, ibi est totum, nisi adinuicem 
+      <lb ed="#S" n="59"/>separentur: sed corpus Christi, quod est pars totius 
+       suppo<lb ed="#S" break="no" n="60"/>siti, est in hoc sacramento, nec separatur a quantitate sua, 
+      <lb ed="#S" n="61"/>nec ab aliis, quae sunt in Christo. ergo omnia illa sunt in 
+      <lb ed="#S" n="62"/>sacramento.
+    </p>
+            <p xml:id="khj78y-q29408-d1e354" n="14">
+      <!-- 14 -->Respondent ad primam, contra. 
+      <lb ed="#S" n="63"/>quando dicitur, quod Christus est maior speciebus sacramenti, ve 
+      <lb ed="#S" n="64"/>rum est secundum se. quando autem dicitur, quod non est maior, quia 
+      <lb ed="#S" n="65"/>contentum &amp;c. dicunt, quod hic est mala imaginatio. Non enim 
+      <lb ed="#S" n="66"/>Christus continetur a speciebus, quasi species sint concauae, 
+      <lb ed="#S" n="67"/>infra quas contineatur corpus Christi, sed sic est ibi, vt 
+      <!--0123.xml-->
+      <cb ed="#S" n="b"/>
+               <lb ed="#S" n="68"/>nec eis commensuretur, nec excedat, nec excedat per con 
+      <lb ed="#S" n="69"/>sequens, sed solum praesens est speciebus absque 
+       commensura<lb ed="#S" break="no" n="70"/>tione sui ad eas.
+    </p>
+            <p xml:id="khj78y-q29408-d1e380" n="15">
+      <!-- 15 -->Ad secundum dicunt, quodlicet 
+      <lb ed="#S" n="71"/>Christus fit in hoc sacramento, non tamen est ibi ratione quantitatis, 
+      <lb ed="#S" n="72"/>quia sic esset ibi circumscriptiue, sed solum ratione substan 
+      <lb ed="#S" n="73"/>tiae, &amp; per accidens est ibi quantitas, secundum modum substam 
+      <lb ed="#S" n="74"/>tiae.
+    </p>
+            <p xml:id="khj78y-q29408-d1e393" n="16">
+      <!-- 16 -->Ad argumentum pro. dicunt, tenendo modum 
+      <lb ed="#S" n="75"/>istum, quod sicut non est separatum corpus Christi a loco suo, 
+      <lb ed="#S" n="76"/>per hoc, quod est in hoc sacramento: cui tamen proprius locus Christi 
+      <lb ed="#S" n="77"/>non est praesens, ita non oportet corpus Christi separari 
+      <lb ed="#S" n="78"/>a sua quantitate realiter, licet corpus Christi sit praesens 
+      <lb ed="#S" n="79"/>huic, &amp; non sua quantitas. Cum ergo arguitur, vbi est pars, ibi 
+      <lb ed="#S" n="80"/>est totum, nisi abinuicem separentur, verum est de his, quae sunt 
+      <lb ed="#S" n="81"/>in loco localiter. Quae autem sunt in loco per solam habitu 
+      <lb ed="#S" n="82"/>dinem ad locum, licet sint inseparata in essendo in se: 
+       po<lb ed="#S" break="no" n="83"/>sunt tamen separatim, &amp; seorsum alteri praesentia esse: si vnum 
+      <lb ed="#S" n="84"/>sine alio habeat habitudinem, quemadmodum corpus Christi 
+      <lb ed="#S" n="85"/>praesens est speciebus propter habitudinem conuersionis in 
+      <lb ed="#S" n="86"/>ipsum: nihil autem alterum eorum, quae sunt coniuncta ei reali 
+      <lb ed="#S" n="87"/>ter: oportet habere habitudinem ad locum talem, nec per con 
+      <lb ed="#S" n="88"/>sequens fieri ei praesens.
+    </p>
+            <p xml:id="khj78y-q29408-d1e428" n="17">
+      <!-- 17 -->secundo, inquirendum 
+      <lb ed="#S" n="89"/>est de istis dupl'r. Primo, respondendo ad rationes 
+       qua<lb ed="#S" break="no" n="90"/>tuor istius opinionis. secundo inquirendo de solutionibus, 
+      <lb ed="#S" n="91"/>quas dant ad alias tres rationes.
+    </p>
+            <p xml:id="khj78y-q29408-d1e439" n="18">
+      <!-- 18 -->sustinendo 
+      <lb ed="#S" n="92"/>igitur opinionem commurem. scilicet quod sit ibi quantitas modo indi 
+      <lb ed="#S" n="93"/>uisibili, quia per modum substantiae, non ex vi sacramenti: sed 
+      <lb ed="#S" n="94"/>ex naturali concomitantia, ad rationes eorum est responden, 
+      <lb ed="#S" n="95"/>dum.
+    </p>
+            <p xml:id="khj78y-q29408-d1e452" n="19">
+      <!-- 19 -->Ad primam dicendum, quod non est simile de 
+      <lb ed="#S" n="96"/>contiguis, quorum non ipsa sunt simul, sed eorum vltima 
+      <lb ed="#S" n="97"/>sunt simul, nec vnum locatur per aliud. Vnde ignis, &amp; aer 
+      <lb ed="#S" n="98"/>non separant secundum contactum: tamen ignis est in coelo, 
+       si<lb ed="#S" break="no" n="99"/>cut in loco immediato: aer autem non, sed in ipso igne. 
+      <lb ed="#S" n="100"/>Aliud est de accidente, &amp; sobiecto, quorum vnum peraliud 
+      <lb ed="#S" n="101"/>est in loco, &amp; quorum vnumcum alio facit vnam naturam: ita quod il 
+      <lb ed="#S" n="102"/>lud, quod conuenit vni perse, conuenit alteri per accidens. 
+      <lb ed="#S" n="103"/>Et est consequentia talis: quantitas Christi non separaturab es 
+      <lb ed="#S" n="104"/>sentia, &amp; natura corporis Christi, sicut nec albedo a quam 
+      <lb ed="#S" n="105"/>titate. ergo cum corpus Christi sit in sacramento per se: ibi eris 
+      <lb ed="#S" n="106"/>quantitas per accidens, sicut vbi est quantitas perse, ibi est &amp; 
+      <lb ed="#S" n="107"/>eius color per accidens. Nec est simile de loco, &amp; locante: 
+      <lb ed="#S" n="108"/>quae differunt per essentiam, &amp; naturam, &amp; subiecto, &amp; 
+       suppo<lb ed="#S" break="no" n="109"/>sito, &amp; vnum est extra aliud, &amp; separatum, vt dicitur. 4. Physi 
+      <lb ed="#S" n="110"/>corum.
+    </p>
+            <p xml:id="khj78y-q29408-d1e490" n="20">
+      <!-- 20 -->Ad secundum potest dici, quod consequentia 
+      <lb ed="#S" n="111"/>est nulla, quia licet cessante causa, cesset effectus inquantum 
+      <lb ed="#S" n="112"/>huiusmodi: tum quia aliquid est causa vnius per se, &amp; alterius per 
+      <lb ed="#S" n="113"/>accidens: imo etiam calidum, quod est causa calefaciendi per se 
+      <lb ed="#S" n="114"/>est causa oppositi. scilicet frigefaciendi per accidens. ideo non se 
+      <lb ed="#S" n="115"/>quitur, cessat a caliditate per se. ergo cessat a causando. 
+      <lb ed="#S" n="116"/>Constat enim, quod substantia non est in loco causaliter, vt 
+      <lb ed="#S" n="117"/>substantia est: sed, vt quanta: ita, quod quantitas est causa 
+       es<lb ed="#S" break="no" n="118"/>sendi in loco: non tamen propter hoc sequitur, quod sola quam 
+      <lb ed="#S" n="119"/>titas substantiae sit in loco: imo ipsa quidem quantitas est 
+      <lb ed="#S" n="120"/>in loco perse: substantia vero per accidens. Et similiter, 
+      <lb ed="#S" n="121"/>quia substantia est in sacramento, vt substantia est, non 
+      <lb ed="#S" n="122"/>vt quanta est, propter hoc sequitur, quod quantitas non est 
+      <lb ed="#S" n="123"/>hic per se, &amp; directe ex vi sacramenti, sed solum 
+       substan<lb ed="#S" break="no" n="124"/>tia. Non tamen sequitur, quin quantitas sit hic cum 
+       sub<lb ed="#S" break="no" n="125"/>stantia ex naturali concomitantia: imo sequitur, quod sit, ex 
+      <lb ed="#S" n="126"/>quo est idem subiecto.
+    </p>
+            <p xml:id="khj78y-q29408-d1e529" n="21">
+      <!-- 21 -->Ad tertium dicendum, 
+      <lb ed="#S" n="127"/>quod Deus non potest facere quin quantitas corporis Chri 
+      <lb ed="#S" n="128"/>sti alteri comparata, non fit maior, vel minor, vel aequalis. 
+      <lb ed="#S" n="129"/>Vnde quantitas corporis Christi est multo maior, quam quan 
+      <lb ed="#S" n="130"/>titas hostiae. sed quia quantitas corporis Christi non est in 
+      <lb ed="#S" n="131"/>hostia per se: sed per hoc, quod ipsa est in subiecto corporis 
+      <lb ed="#S" n="132"/>Christi. ideo cum substantia corporis Christi sit in altari, 
+      <lb ed="#S" n="133"/>solum infra circunferentiam hostiae, sicut &amp; substantia con 
+      <lb ed="#S" n="134"/>uersa erat. ideo solum ibi, &amp; non extra est quantitas corpis 
+      <!--0124.xml-->
+      <pb ed="#S" n="124"/>
+               <cb ed="#S" n="a"/>
+               <lb ed="#S" n="1"/>Christi sacramentaliter. Et sicut anima coniuncta est in 
+      <lb ed="#S" n="2"/>loco per accidens ratione. scilicet quantitatis sui corporis: nec tamen 
+      <lb ed="#S" n="3"/>propter hoc ei commensurat: quia ei repugnat, sic quantitas 
+      <lb ed="#S" n="4"/>est in hostia per necessariam concomitantiam corporis: non 
+      <lb ed="#S" n="5"/>tamen commensuratur quantitati hostiae: quia repugnat 
+       quan<lb ed="#S" break="no" n="6"/>titati secundum esse non quantitatiuum conmensurari 
+       quanti<lb ed="#S" break="no" n="7"/>tati, prout habet modum quantitatis, vel sicut anima, cui re 
+      <lb ed="#S" n="8"/>pugnat per se circumscribi, est tamen circunscriptiue in loco 
+      <lb ed="#S" n="9"/>per quantitatem, non quod ipsa mediante circunscribatur: sed 
+      <lb ed="#S" n="10"/>quia sua quantitas circumscribitur: &amp; ipsa immediate est in 
+       lo<lb ed="#S" break="no" n="11"/>co circuscribente. sic econuerso quantitas, cui repugnat 
+       es<lb ed="#S" break="no" n="12"/>se indiuisibile: est tamen modo indiuisibili in sacramento 
+      <lb ed="#S" n="13"/>per substantiam indiuisibilem: non quod ipsa ipse habeat modum 
+      <lb ed="#S" n="14"/>indiuisibilem, sed quia substantia, in qua est, vt sic, habet 
+       mo<lb ed="#S" break="no" n="15"/>dum indiuisibile: quia sicut punctus tangit lineam modo 
+       in<lb ed="#S" break="no" n="16"/>diuisibili. scilicet secundum modum suum, non illius sic 
+       substan<lb ed="#S" break="no" n="17"/>tia, quae sine quantitate conuertitur, &amp; per consequens, vt 
+      <lb ed="#S" n="18"/>indiuisibilis, comparatur ad suum terminum indiuisibiliter: 
+       li<lb ed="#S" break="no" n="19"/>cet ille sit diuisibilis inquantum quantitati coniunctus. Et 
+      <lb ed="#S" n="20"/>sicut anima erat in loco per diuisibile, modo diuisibili: 
+      <lb ed="#S" n="21"/>qa mediante sua quantitate occupabat locum diuisibilem, 
+      <lb ed="#S" n="22"/>&amp; diuisibiliter, sic econuerso quantitas Christi, per eius 
+      <lb ed="#S" n="23"/>substantiam succedentem modo indiuisibili substantiae 
+       con<lb ed="#S" break="no" n="24"/>uersae infra species, erit ibi modo indiuisibili: quia per suam 
+      <lb ed="#S" n="25"/>substantiam erit ibi praesens mediante indiuisibili. Non 
+      <lb ed="#S" n="26"/>enim plus repugnat diuisibili esse in loco 
+       indiuisibili<lb ed="#S" break="no" n="27"/>ter, quam econuerso indiuisibili esse in loco diuisibiliter. Nec 
+      <lb ed="#S" n="28"/>obstat, si dicat, potentia visiua inhaeret animae, nec propter 
+      <lb ed="#S" n="29"/>hoc est in pede, vbi est anima, quia anima excedit potentiam 
+      <lb ed="#S" n="30"/>visiuam, nec per eam tota terminatur: sed corpus Christi, 
+      <lb ed="#S" n="31"/>quod ratione corporeitatis est in sacramento, non excedit 
+      <lb ed="#S" n="32"/>suam quantitatem, vt possit esse alicubi sine illa, quae est 
+      <lb ed="#S" n="33"/>suus terminus, &amp; totalis.
+    </p>
+            <p xml:id="khj78y-q29408-d1e629" n="22">
+      <!-- 22 -->Ad quartum dicendum, 
+      <lb ed="#S" n="34"/>quod verum est Deum non posse facere de aliquo aliquid 
+       il<lb ed="#S" break="no" n="35"/>li incompossibile, quia contradictio esset. Item bene est 
+      <lb ed="#S" n="36"/>incompossibile id, quod est diuisibile inquantum huiusmodi es 
+      <lb ed="#S" n="37"/>se indiuisibile, &amp; econuerso. sed id, quod intrinsece est 
+      <lb ed="#S" n="38"/>diuisibile: comparari ad aliquid extra modo 
+       indiuisibi<lb ed="#S" break="no" n="39"/>li videtur possibile etiam per naturam: secundum quod dicunt 
+      <lb ed="#S" n="40"/>perspectiui speciem visibilem, quae diuisibilis est, vt ad 
+      <lb ed="#S" n="41"/>oculum apparet, modo indiuisibili comparari ad specu 
+      <lb ed="#S" n="42"/>lum: tum quia, vt dicunt, recipitur in puncto: tum quia 
+      <lb ed="#S" n="43"/>ad diuisionem speculi multiplicatur in tanta quantitate, 
+      <lb ed="#S" n="44"/>situt prius sic punctus ad diuisionem lineae. Multo magis 
+      <lb ed="#S" n="45"/>hoc est possibile diuina virtute. Item sicut quando sphe 
+      <lb ed="#S" n="46"/>ricum tangit in puncto planum, vel vnum sphericum 
+       a<lb ed="#S" break="no" n="47"/>liud in connexo, vtrunque est diuisibile: &amp; tamen adinui 
+      <lb ed="#S" n="48"/>cem comparata commensurantur modo indiuisibili: quia 
+      <lb ed="#S" n="49"/>illud, secundum quod se contingunt, est indiuisibile: ita 
+      <lb ed="#S" n="50"/>quantitas hostiae, &amp; corporis Christi: licet sint duo in se 
+      <lb ed="#S" n="51"/>diuisibilia: quia tamen adinuicem comparantur median 
+      <lb ed="#S" n="52"/>tibus duobus indiuisibilibus, scilicet substantia panis, &amp; vini: 
+      <lb ed="#S" n="53"/>quae conuersa est, &amp; substantia corporis Christi: in quam 
+      <lb ed="#S" n="54"/>conuersa est, quae primae successit, quorum comparatio 
+       ad<lb ed="#S" break="no" n="55"/>inuicem habuit modum indiuisibilem. ideo &amp; ista mediata 
+      <lb ed="#S" n="56"/>modo indiuisibili adinuicem comparantur.
+    </p>
+            <p xml:id="khj78y-q29408-d1e684" n="23">
+      <!-- 23 -->
+       se<lb ed="#S" break="no" n="57"/>cundo, inquirendum est de solutionibus, quas dant ad tres 
+      <lb ed="#S" n="58"/>alias rationes. solutio, quam dant ad primum argumentum, 
+      <lb ed="#S" n="59"/>est bona: quia non sequit, quod Christus sit maius, &amp; non 
+       mi<lb ed="#S" break="no" n="60"/>nus: sed sequit, quod secundu quod est in coelo, est maior hostia: 
+      <lb ed="#S" n="61"/>secundum autem quod est in hostia, nec est maior, nec minor, nec 
+      <lb ed="#S" n="62"/>aequalis: quia non est ibi modo quantitatis per 
+       circunscri<lb ed="#S" break="no" n="63"/>ptionem: sed per conuersionem, nec est in concauitate aliqua. 
+      <lb ed="#S" n="64"/>Praeterea cum duo corpora sint maiora, quam vnum: cum Deus 
+      <lb ed="#S" n="65"/>possit facere duo corpora esse in eodem loco: pari ratio 
+      <lb ed="#S" n="66"/>ne, &amp; maius corpus esse in minori loco. Et si potest hoc 
+      <lb ed="#S" n="67"/>localiter, multo magis non localiter: sed sacramentaliter. 
+      <!--0124.xml-->
+      <cb ed="#S" n="b"/>
+            </p>
+            <p xml:id="khj78y-q29408-d1e717" n="24">
+               <lb ed="#S" n="68"/>
+               <!-- 24 -->Ad secundum etiam bene soluunt: quia non sequitur 
+      <lb ed="#S" n="69"/>si non est circunscriptiue. ergo non est hic eius quantitas: 
+      <lb ed="#S" n="70"/>sed tantum quod non est hic quantitas per se, sed per concomi 
+      <lb ed="#S" n="71"/>tantiam ad corpus, quod est hic conuersiue. Non autem potest 
+       di<lb ed="#S" break="no" n="72"/>ci, quod sicut quantitas Christi est hic per conuersionem factam 
+      <lb ed="#S" n="73"/>in suum subiectum, quod sic econuerso quantitas hostiae sit in 
+      <lb ed="#S" n="74"/>coeli per conuersionem sui subiecti in illud, quod est in 
+       coe<lb ed="#S" break="no" n="75"/>lo: quia quantitas hostiae separatur a suo subiecto, &amp; fit sine 
+      <lb ed="#S" n="76"/>subiecto. Et similiter si quantitas Christi, quando in eius 
+       sub<lb ed="#S" break="no" n="77"/>stantiam substantia panis conuertitur, separaretur a 
+       subie<lb ed="#S" break="no" n="78"/>cto Christi, non esset in hoc sacramento: sicut nec anima fuisset 
+      <lb ed="#S" n="79"/>in triduo, quando erat separata, quamuis in hoc sit dissimile de 
+      <lb ed="#S" n="80"/>anima, &amp; de quantitate: quia anima non determinat sibi lo 
+      <lb ed="#S" n="81"/>cum, sicut quantitas: Vnde sicut in praecedenti quaestione 
+      <lb ed="#S" n="82"/>dictum est: vbi est anima, ibi sunt potentiae abstractae, quae 
+      <lb ed="#S" n="83"/>non determinant sibi locum: non autem organice, quae 
+       de<lb ed="#S" break="no" n="84"/>terminant: sic etiam facile est dicere de omnibus, non quan 
+      <lb ed="#S" n="85"/>tis, quae sunt vnum subiecto cum corpore Christi, quod sint in 
+      <lb ed="#S" n="86"/>sacramento per concomitantiam. sed de quantitate, quae determi 
+      <lb ed="#S" n="87"/>nat sibi situm, est difficilius. Dissimile tamen est, vt supra 
+       di<lb ed="#S" break="no" n="88"/>ctum est de potentia, quam anima excedit: &amp; de quantitate, 
+      <lb ed="#S" n="89"/>quae est talis terminus corporeitatem intra se includens, 
+      <lb ed="#S" n="90"/>vt nisi separetur nusquam possit esse sine ea.
+    </p>
+            <p xml:id="khj78y-q29408-d1e772" n="25">
+      <!--25 -->Ad 
+      <lb ed="#S" n="91"/>argumentum in contrarium, prout est contra suam singularem 
+      <lb ed="#S" n="92"/>opinionem non bene respondet. Verum est tamen, quod forma 
+       argu<lb ed="#S" break="no" n="93"/>endi non valet: quia etiam loquendo de essendo in localiter 
+      <lb ed="#S" n="94"/>maior est falsa. si enim brachium meum, quod est pars mei, 
+      <lb ed="#S" n="95"/>sit in aqua: non sum per hoc totus in aqua: sed tantum 
+       se<lb ed="#S" break="no" n="96"/>cundum illam partem: &amp; tamen non sum separatus a parte illa. 
+      <lb ed="#S" n="97"/>sic posset dixi, quod Christus non est separatus a suo corpo 
+      <lb ed="#S" n="98"/>re. nec tamen totus est, vbi est suum corpus, secundum 
+       a<lb ed="#S" break="no" n="99"/>lias sui partes: licet sit ibi secundum partem, quae est corpus: 
+      <lb ed="#S" n="100"/>sicut totus Christus est vbiq,, non tamen totum corpus 
+      <lb ed="#S" n="101"/>Christi, nec ipse secundum totum sui, sed solum secundum dei 
+      <lb ed="#S" n="102"/>tatem.
+    </p>
+            <p xml:id="khj78y-q29408-d1e804" n="26">
+      <!-- 26 -->sed sua solutio non videtur valere: quia 
+      <lb ed="#S" n="103"/>licet coniunctorum secundum rem: vnum possit habere 
+       ha<lb ed="#S" break="no" n="104"/>bitudinem realem ad aliquid extrinsecum: ad quod aliud 
+      <lb ed="#S" n="105"/>non habet: imo nullam, vel contrariam: sicut quantitas 
+       ho<lb ed="#S" break="no" n="106"/>minis, &amp; quantitas rei inanimatae sunt aequales: substan 
+      <lb ed="#S" n="107"/>tiae vero sunt inaequales: tamen coniunctorum secundum 
+      <lb ed="#S" n="108"/>rem inseparabiliter secundum quanlibet partem sui, quod vnum 
+      <lb ed="#S" n="109"/>sit realiter: vbi aliud non est realiter, &amp; sit realiter 
+       prae<lb ed="#S" break="no" n="110"/>sens: vbi aliud realiter est absens, &amp; distans, quando sunt aequa 
+      <lb ed="#S" n="111"/>lis'ambitus, &amp; maxime, quod contentum sit extra continens 
+      <lb ed="#S" n="112"/>idem supposito, &amp; vbi non est ipsum continens, videtur 
+      <lb ed="#S" n="113"/>absurdum. Et sic est in proposito: quia si corpus Christi 
+      <lb ed="#S" n="114"/>non haberet habitudinem ad species, nisi sicut signatum 
+      <lb ed="#S" n="115"/>ad signum, &amp; non esset ibi nisi sicut in signo, nullum 
+       incon<lb ed="#S" break="no" n="116"/>ueniens esset, ibi esse corpus Christi sine quantitate: 
+       si<lb ed="#S" break="no" n="117"/>cut species aliqua representat substantiam, quae non 
+       re<lb ed="#S" break="no" n="118"/>presentat eius quantitatem, &amp; species intelligibilis vniuer 
+      <lb ed="#S" n="119"/>sale sine singularibus, a quibus tamen non separatur. sed 
+      <lb ed="#S" n="120"/>quod corpus realiter contentum infra suam quantitatem, &amp; 
+       li<lb ed="#S" break="no" n="121"/>mitatum, &amp; terminatum per eam, illa non derelicta, sed 
+      <lb ed="#S" n="122"/>manens sic ea affectum infra eam inclusum, &amp; diffinitum 
+      <lb ed="#S" n="123"/>possit esse reallter presens alicubi extra eam, quod sine ea vi 
+      <lb ed="#S" n="124"/>detur simile Idaeis Platonis, qui posuit vniuersalia sepa 
+      <lb ed="#S" n="125"/>rata secundum esse, quae tamen ponebat esse substantiam 
+       corpo<lb ed="#S" break="no" n="126"/>ralium. Et ideo non valet.
+    </p>
+            <p xml:id="khj78y-q29408-d1e861" n="27">
+      <!-- 27 -->Ad argumentum in 
+      <lb ed="#S" n="127"/>oppositum dicendum, quod non sequitur, quia etiam Deus est in 
+      <lb ed="#S" n="128"/>foeno, quod asinus comedit per essentiam, praesentiam, &amp; 
+       po<lb ed="#S" break="no" n="129"/>tentiam, &amp; tamen Deus ab asino non comeditur. ideo &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
