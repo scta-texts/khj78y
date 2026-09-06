@@ -1,0 +1,840 @@
+{
+  "khj78y-q10001": {
+    "khj78y-q10001-d1e1215": [
+      {
+        "candidate_id": "mt28_18",
+        "intersectionCount": 7,
+        "status": "encoded",
+        "note": "explicit citation 'propter quod cum Christus dicat'"
+      }
+    ],
+    "khj78y-q10001-d1e1453": [
+      {
+        "candidate_id": "sap11_17",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "direct verbatim allusion to Sap 11:17"
+      }
+    ]
+  },
+  "khj78y-q10051": {
+    "khj78y-q10051-d1e858": [
+      {
+        "candidate_id": "io3_5",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit 'per Euangelium clamat', paraphrase close to Io 3:5"
+      },
+      {
+        "candidate_id": "gen17_14",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "quoted via Bede, paraphrase, range omitted due to reordering"
+      }
+    ]
+  },
+  "khj78y-q10081": {
+    "khj78y-q10081-d1e168": [
+      {
+        "candidate_id": "act19_4",
+        "intersectionCount": 10,
+        "status": "encoded",
+        "note": "explicit citation 'ex textu Act. 19.'"
+      }
+    ],
+    "khj78y-q10081-d1e337": [
+      {
+        "candidate_id": "io1_25",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "direct quote attributed to Pharisees, Io 1:25"
+      }
+    ]
+  },
+  "khj78y-q10101": {
+    "khj78y-q10101-d1e361": [
+      {
+        "candidate_id": "Icor1_23",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "explicit 'vt dicit apostolus. 1. Cor. 1.'"
+      }
+    ],
+    "khj78y-q10101-d1e1002": [
+      {
+        "candidate_id": "mt28_19",
+        "intersectionCount": 5,
+        "status": "not_found",
+        "note": "discusses variations of the baptismal formula itself, not a citation of the Matthean text"
+      }
+    ],
+    "khj78y-q10101-d1e1127": [
+      {
+        "candidate_id": "mt28_19",
+        "intersectionCount": 5,
+        "status": "not_found",
+        "note": "discusses variations of the baptismal formula itself, not a citation of the Matthean text"
+      }
+    ]
+  },
+  "khj78y-q12023": {
+    "khj78y-q12023-d1e190": [
+      {
+        "candidate_id": "act2_38",
+        "intersectionCount": 7,
+        "status": "encoded",
+        "note": "explicit citation 'quod dicitur Actu. 2.'"
+      }
+    ]
+  },
+  "khj78y-q16229": {
+    "khj78y-q16229-d1e135": [
+      {
+        "candidate_id": "mt9_6",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "explicit 'in Matth. legitur'"
+      }
+    ],
+    "khj78y-q16229-d1e260": [
+      {
+        "candidate_id": "Icor4_1",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit citation 'I Co. 4.'"
+      },
+      {
+        "candidate_id": "is40_13",
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "explicit citation 'In Isa.'"
+      }
+    ]
+  },
+  "khj78y-q21019": {
+    "khj78y-q21019-d1e845": [
+      {
+        "candidate_id": "Icor11_23",
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "explicit citation '1. Corin. 11.'"
+      }
+    ]
+  },
+  "khj78y-q21829": {
+    "khj78y-q21829-d1e347": [
+      {
+        "candidate_id": "sir15_9",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "direct verbatim quote of Sir 15:9"
+      }
+    ]
+  },
+  "khj78y-q26323": {
+    "khj78y-q26323-d1e753": [
+      {
+        "candidate_id": "Icor10_4",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit 'quod ergo dicit', paraphrase omitting 'spiritali'"
+      }
+    ]
+  },
+  "khj78y-q28532": {
+    "khj78y-q28532-d1e158": [
+      {
+        "candidate_id": "lc22_19",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit 'quod dixit Christus'"
+      }
+    ],
+    "khj78y-q28532-d1e574": [
+      {
+        "candidate_id": "mt28_18",
+        "intersectionCount": 7,
+        "status": "encoded",
+        "note": "explicit citation 'In matthae.'"
+      }
+    ]
+  },
+  "khj78y-q33079": {
+    "khj78y-q33079-d1e1119": [
+      {
+        "candidate_id": "lc22_19",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "close paraphrase, 'tradetur' for 'datur'"
+      }
+    ]
+  },
+  "khj78y-q36336": {
+    "khj78y-q36336-d1e461": [
+      {
+        "candidate_id": "iac1_21",
+        "intersectionCount": 7,
+        "status": "encoded",
+        "note": "explicit citation 'iuxta illud Iac.'"
+      }
+    ]
+  },
+  "khj78y-q41129": {
+    "khj78y-q41129-d1e230": [
+      {
+        "candidate_id": "iac5_14",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit 'Vnde Iacovlti.' (Iac. ult. = James final chapter)"
+      }
+    ]
+  },
+  "khj78y-q42034": {
+    "khj78y-q42034-d1e380": [
+      {
+        "candidate_id": "mt12_30",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "verbatim allusion to Mt 12:30, recurring maxim in canon law discussion"
+      }
+    ]
+  },
+  "khj78y-q48171": {
+    "khj78y-q48171-d1e1357": [
+      {
+        "candidate_id": "Icor4_3",
+        "intersectionCount": 7,
+        "status": "encoded",
+        "note": "close verbal quote of 1 Cor 4:3, no explicit citation but verbatim match"
+      }
+    ]
+  },
+  "khj78y-q49499": {
+    "khj78y-q49499-d1e449": [
+      {
+        "candidate_id": "Itim5_8",
+        "intersectionCount": 10,
+        "status": "encoded",
+        "note": "explicit citation '1. Thi. 5.'"
+      }
+    ],
+    "khj78y-q49499-d1e508": [
+      {
+        "candidate_id": "ps36_24",
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "direct verbatim quote of Ps 36:24"
+      }
+    ],
+    "khj78y-q49499-d1e1026": [
+      {
+        "candidate_id": "lc5_30",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "attributed to Pharisees speaking to disciples, Lc 5:30"
+      }
+    ]
+  },
+  "khj78y-q54954": {
+    "khj78y-q54954-d1e504": [
+      {
+        "candidate_id": "lc6_5",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "verbatim allusion to Lc 6:5"
+      }
+    ]
+  },
+  "khj78y-q56743": {
+    "khj78y-q56743-d1e603": [
+      {
+        "candidate_id": "rom13_8",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit 'dicit apostolus'"
+      }
+    ]
+  },
+  "khj78y-q67123": {
+    "khj78y-q67123-d1e297": [
+      {
+        "candidate_id": "mt12_30",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "verbatim allusion to Mt 12:30, recurring maxim in canon law discussion"
+      }
+    ],
+    "khj78y-q67123-d1e336": [
+      {
+        "candidate_id": "mt12_30",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "verbatim allusion to Mt 12:30, recurring maxim in canon law discussion"
+      }
+    ],
+    "khj78y-q67123-d1e1766": [
+      {
+        "candidate_id": "rom1_32",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "explicit citation 'Ad Roma. 1.'"
+      }
+    ]
+  },
+  "khj78y-q70012": {
+    "khj78y-q70012-d1e1268": [
+      {
+        "candidate_id": "mt16_18",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "direct quote of Christ's words to Peter, Mt 16:18"
+      }
+    ]
+  },
+  "khj78y-q71215": {
+    "khj78y-q71215-d1e536": [
+      {
+        "candidate_id": "Icor8_13",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit 'vnde Apostolus'"
+      }
+    ]
+  },
+  "khj78y-q77618": {
+    "khj78y-q77618-d1e266": [
+      {
+        "candidate_id": "ier48_10",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "direct verbatim quote of Jer 48:10b"
+      }
+    ]
+  },
+  "khj78y-q77917": {
+    "khj78y-q77917-d1e156": [
+      {
+        "candidate_id": "mt18_15",
+        "intersectionCount": 7,
+        "status": "encoded",
+        "note": "explicit citation 'illud Enangelij'"
+      }
+    ]
+  },
+  "khj78y-q78965": {
+    "khj78y-q78965-d1e141": [
+      {
+        "candidate_id": "gal6_2",
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "direct verbatim quote of Gal 6:2"
+      }
+    ]
+  },
+  "khj78y-q79535": {
+    "khj78y-q79535-d1e231": [
+      {
+        "candidate_id": "mt25_9",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "direct quote of the wise virgins' words, Mt 25:9"
+      }
+    ],
+    "khj78y-q79535-d1e287": [
+      {
+        "candidate_id": "IItim2_10",
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "explicit citation 'sicot Paulus dicit'"
+      }
+    ]
+  },
+  "khj78y-q81035": {
+    "khj78y-q81035-d1e250": [
+      {
+        "candidate_id": "ps65_12",
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "explicit citation 'dicitur in vs.' (psalmo)"
+      }
+    ]
+  },
+  "khj78y-q92194": {
+    "khj78y-q92194-d1e517": [
+      {
+        "candidate_id": "mt18_3",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "explicit 'de quo Christus dixit'"
+      }
+    ]
+  },
+  "khj78y-q93085": {
+    "khj78y-q93085-d1e410": [
+      {
+        "candidate_id": "tit1_5",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "explicit citation 'ad Titum. 1.', two consecutive verses quoted"
+      },
+      {
+        "candidate_id": "tit1_6",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "explicit citation 'ad Titum. 1.', two consecutive verses quoted"
+      }
+    ]
+  },
+  "khj78y-q97944": {
+    "khj78y-q97944-d1e524": [
+      {
+        "candidate_id": "prov3_15",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit citation 'illud Prouer. 3.'"
+      },
+      {
+        "candidate_id": "Icor4_1",
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "explicit citation '1. Cor. 4.'"
+      },
+      {
+        "candidate_id": "Ipetr4_10",
+        "intersectionCount": 7,
+        "status": "encoded",
+        "note": "explicit citation 'primae canonicae suae. c. 4.'"
+      }
+    ]
+  },
+  "khj78y-r00531": {
+    "khj78y-r00531-d1e190": [
+      {
+        "candidate_id": "Icor7_25",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit 'sequens Apostolus'"
+      }
+    ]
+  },
+  "khj78y-r01198": {
+    "khj78y-r01198-d1e495": [
+      {
+        "candidate_id": "Ith4_4",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "close paraphrase of Ith 4:4, omits 'vestrum'"
+      }
+    ]
+  },
+  "khj78y-r02229": {
+    "khj78y-r02229-d1e1926": [
+      {
+        "candidate_id": "prov11_13",
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "explicit citation 'Prouer.'"
+      }
+    ]
+  },
+  "khj78y-r09952": {
+    "khj78y-r09952-d1e353": [
+      {
+        "candidate_id": "rom7_23",
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "close verbal quote, minor omission of 'autem'"
+      }
+    ]
+  },
+  "khj78y-r12122": {
+    "khj78y-r12122-d1e677": [
+      {
+        "candidate_id": "mt1_25",
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "explicit citation 'expresse dicit. Matth. 1.'"
+      }
+    ],
+    "khj78y-r12122-d1e807": [
+      {
+        "candidate_id": "eph5_31",
+        "intersectionCount": 5,
+        "status": "not_found",
+        "note": "text identical across gen2_24/mt19_5/eph5_31 but attribution 'Adam prophetizans dixit' points to Genesis, not this NT parallel"
+      },
+      {
+        "candidate_id": "gen2_24",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "attributed 'Adam prophetizans dixit' -- Genesis is the correct source"
+      },
+      {
+        "candidate_id": "mt19_5",
+        "intersectionCount": 5,
+        "status": "not_found",
+        "note": "text identical across gen2_24/mt19_5/eph5_31 but attribution 'Adam prophetizans dixit' points to Genesis, not this NT parallel"
+      }
+    ]
+  },
+  "khj78y-r16484": {
+    "khj78y-r16484-d1e170": [
+      {
+        "candidate_id": "Icor7_5",
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "explicit citation '1. ad Cor. 7.'"
+      }
+    ]
+  },
+  "khj78y-r17316": {
+    "khj78y-r17316-d1e328": [
+      {
+        "candidate_id": "gen16_2",
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "explicit citation 'Gen. 16.', quoted directly"
+      }
+    ],
+    "khj78y-r17316-d1e1261": [
+      {
+        "candidate_id": "Ith4_3",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit '1 Ad Thessa. 4'"
+      }
+    ]
+  },
+  "khj78y-r18837": {
+    "khj78y-r18837-d1e309": [
+      {
+        "candidate_id": "lc24_39",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "verbatim allusion to Lc 24:39, no explicit citation marker"
+      }
+    ],
+    "khj78y-r18837-d1e1668": [
+      {
+        "candidate_id": "ap7_9",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit citation 'Apoc. 7.'"
+      }
+    ]
+  },
+  "khj78y-r22394": {
+    "khj78y-r22394-d1e750": [
+      {
+        "candidate_id": "sir5_5",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit 'quia scriptum est'"
+      }
+    ]
+  },
+  "khj78y-r23609": {
+    "khj78y-r23609-d1e152": [
+      {
+        "candidate_id": "Icor7_10",
+        "intersectionCount": 11,
+        "status": "encoded",
+        "note": "explicit citation '1. ad Cor. 7.', multi-verse quote spanning Icor7_10-11"
+      },
+      {
+        "candidate_id": "Icor7_11",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "explicit citation '1. ad Cor. 7.', multi-verse quote spanning Icor7_10-11"
+      }
+    ]
+  },
+  "khj78y-r24339": {
+    "khj78y-r24339-d1e502": [
+      {
+        "candidate_id": "gen3_16",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "explicit citation 'quo dicitur Gen. 3.'"
+      }
+    ]
+  },
+  "khj78y-r26446": {
+    "khj78y-r26446-d1e182": [
+      {
+        "candidate_id": "ps65_14",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "explicit 'praes' [psalm] quoting Ps 65:14; preceding 'Reddam tibi vota mea' belongs to Ps 65:13, not a candidate here"
+      }
+    ]
+  },
+  "khj78y-r31942": {
+    "khj78y-r31942-d1e341": [
+      {
+        "candidate_id": "IIcor11_2",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit citation (mis-numbered '2. ad. Cor. 12.'), actually 2 Cor 11:2"
+      }
+    ]
+  },
+  "khj78y-r33031": {
+    "khj78y-r33031-d1e503": [
+      {
+        "candidate_id": "mt5_29",
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "explicit 'sicut in litera dicitur', quoting Mt 5:29"
+      }
+    ]
+  },
+  "khj78y-r39517": {
+    "khj78y-r39517-d1e135": [
+      {
+        "candidate_id": "Icor15_19",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "explicit '1. ad Cor. 11.' (misnumbered, actually 1 Cor 15:19)"
+      }
+    ]
+  },
+  "khj78y-r41523": {
+    "khj78y-r41523-d1e2265": [
+      {
+        "candidate_id": "iob19_27",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "explicit 'cum dicat Iob', quote fragments rearranged for exegesis, encoded as three spans"
+      }
+    ]
+  },
+  "khj78y-r43860": {
+    "khj78y-r43860-d1e185": [
+      {
+        "candidate_id": "mt24_31",
+        "intersectionCount": 10,
+        "status": "encoded",
+        "note": "explicit citation 'apparet Mat. 24.'"
+      }
+    ],
+    "khj78y-r43860-d1e841": [
+      {
+        "candidate_id": "Ith4_17",
+        "intersectionCount": 10,
+        "status": "encoded",
+        "note": "explicit citation 'ad Thessa. 4.', multi-verse quote spanning Ith4_16-17"
+      },
+      {
+        "candidate_id": "Ith4_16",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit citation 'ad Thessa. 4.', multi-verse quote spanning Ith4_16-17"
+      }
+    ],
+    "khj78y-r43860-d1e918": [
+      {
+        "candidate_id": "Ith4_16",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit 'vnde dicit', quote continues abbreviated into Ith4_17"
+      }
+    ]
+  },
+  "khj78y-r44732": {
+    "khj78y-r44732-d1e1192": [
+      {
+        "candidate_id": "eph4_13",
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "explicit citation 'Ephe. 4.'; quote abridges middle clause, so range omitted"
+      }
+    ]
+  },
+  "khj78y-r51025": {
+    "khj78y-r51025-d1e118": [
+      {
+        "candidate_id": "ap9_6",
+        "intersectionCount": 14,
+        "status": "encoded",
+        "note": "explicit citation 'habetur. Apoc. 9.'"
+      }
+    ]
+  },
+  "khj78y-r52716": {
+    "khj78y-r52716-d1e216": [
+      {
+        "candidate_id": "mt25_41",
+        "intersectionCount": 8,
+        "status": "encoded",
+        "note": "explicit citation (mis-numbered 'Matt. 17.') actually Mt 25:41, close paraphrase"
+      }
+    ],
+    "khj78y-r52716-d1e545": [
+      {
+        "candidate_id": "Icor3_15",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit 'dictum Apostoli ad Corin. 3.'"
+      }
+    ]
+  },
+  "khj78y-r55278": {
+    "khj78y-r55278-d1e165": [
+      {
+        "candidate_id": "IImac12_46",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit citation (mis-numbered '1. Machab. 12.'), actually 2 Mac 12:46"
+      }
+    ],
+    "khj78y-r55278-d1e450": [
+      {
+        "candidate_id": "iob42_10",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "close paraphrase of Job 42:10"
+      }
+    ]
+  },
+  "khj78y-r58807": {
+    "khj78y-r58807-d1e172": [
+      {
+        "candidate_id": "io5_29",
+        "intersectionCount": 11,
+        "status": "encoded",
+        "note": "explicit citation 'Contra Ioan. 5.', direct quote"
+      }
+    ],
+    "khj78y-r58807-d1e285": [
+      {
+        "candidate_id": "mt24_36",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "close paraphrase of Mt 24:36"
+      }
+    ],
+    "khj78y-r58807-d1e686": [
+      {
+        "candidate_id": "ps96_3",
+        "intersectionCount": 7,
+        "status": "encoded",
+        "note": "explicit citation 'secundum illud psalmi'"
+      }
+    ]
+  },
+  "khj78y-r59686": {
+    "khj78y-r59686-d1e197": [
+      {
+        "candidate_id": "dan7_9",
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "explicit citation 'scriptura Dani. 7.' -- two direct quotes (Dan 7:9 and 7:13)"
+      },
+      {
+        "candidate_id": "dan7_13",
+        "intersectionCount": 8,
+        "status": "encoded",
+        "note": "explicit citation 'scriptura Dani. 7.' -- two direct quotes (Dan 7:9 and 7:13)"
+      }
+    ],
+    "khj78y-r59686-d1e373": [
+      {
+        "candidate_id": "act1_11",
+        "intersectionCount": 10,
+        "status": "encoded",
+        "note": "explicit citation 'vnde Actu. 1. Dixerunt angeli apostolis'"
+      }
+    ],
+    "khj78y-r59686-d1e503": [
+      {
+        "candidate_id": "io17_2",
+        "intersectionCount": 11,
+        "status": "encoded",
+        "note": "explicit citation 'Vnde as verba praedicta praemittitur.' quoting Io 17"
+      }
+    ]
+  },
+  "khj78y-r60391": {
+    "khj78y-r60391-d1e160": [
+      {
+        "candidate_id": "is60_20",
+        "intersectionCount": 7,
+        "status": "encoded",
+        "note": "explicit citation 'quod dicitur Isa. 6o.'"
+      }
+    ],
+    "khj78y-r60391-d1e300": [
+      {
+        "candidate_id": "deut4_19",
+        "intersectionCount": 22,
+        "status": "encoded",
+        "note": "explicit citation 'vt patet Deut. a.' introducing Deut 4:19"
+      }
+    ]
+  },
+  "khj78y-r64040": {
+    "khj78y-r64040-d1e1488": [
+      {
+        "candidate_id": "deut6_5",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "closest verbal match (ex toto corde, no 'tuo' variant); chosen among 4 near-identical synoptic/OT parallels"
+      },
+      {
+        "candidate_id": "lc10_27",
+        "intersectionCount": 4,
+        "status": "not_found",
+        "note": "text identical across deut6_5/mt22_37/mc12_30/lc10_27; no explicit citation to disambiguate, deut6_5 encoded as closest match"
+      },
+      {
+        "candidate_id": "mc12_30",
+        "intersectionCount": 4,
+        "status": "not_found",
+        "note": "text identical across deut6_5/mt22_37/mc12_30/lc10_27; no explicit citation to disambiguate, deut6_5 encoded as closest match"
+      },
+      {
+        "candidate_id": "mt22_37",
+        "intersectionCount": 4,
+        "status": "not_found",
+        "note": "text identical across deut6_5/mt22_37/mc12_30/lc10_27; no explicit citation to disambiguate, deut6_5 encoded as closest match"
+      }
+    ]
+  },
+  "khj78y-r68352": {
+    "khj78y-r68352-d1e120": [
+      {
+        "candidate_id": "io17_3",
+        "intersectionCount": 8,
+        "status": "encoded",
+        "note": "direct quote, close verbal match to Io 17:3"
+      }
+    ],
+    "khj78y-r68352-d1e145": [
+      {
+        "candidate_id": "Icor13_12",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit citation 'primae ad Corinthios. 13.'"
+      }
+    ]
+  },
+  "khj78y-r73042": {
+    "khj78y-r73042-d1e214": [
+      {
+        "candidate_id": "ps10_7",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit 'Vnde dicitur'"
+      }
+    ],
+    "khj78y-r73042-d1e488": [
+      {
+        "candidate_id": "mt26_24",
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit 'quod dicitur de Iuda'"
+      }
+    ]
+  }
+}

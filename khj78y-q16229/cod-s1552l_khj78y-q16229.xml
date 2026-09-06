@@ -78,10 +78,10 @@
                <cb ed="#S" n="b"/>
                <!-- TODO mising column B in OCR4all -->
                <lb ed="#S" n="62"/>AD Primum arguitur. &amp; videtur 
-      <lb ed="#S" n="63"/>quod sic, quia in Matth. legitur: Vt 
+      <lb ed="#S" n="63"/>quod sic, quia in Matth. legitur: <quote source="http://scta.info/resource/mt9_6@1-15">Vt
        au<lb ed="#S" break="no" n="64"/>tem sciatis, quod filius hominis ha-
-      bet potestatem in terra 
-       dimitten<lb ed="#S" break="no" n="65"/>di peccata: tunc ait paralytico
+      bet potestatem in terra
+       dimitten<lb ed="#S" break="no" n="65"/>di peccata: tunc ait paralytico</quote>
       &amp;c
     </p>
             <p xml:id="khj78y-q16229-d1e153" n="2">
@@ -144,9 +144,9 @@
        effe<lb ed="#S" break="no" n="100"/>ctum principalis agentis suscipiendum. Primis ergo duobus 
       <lb ed="#S" n="101"/>modis in nulla actione aliquid Deo cooperetur propeter 
       <lb ed="#S" n="102"/>perfectam eius potentiam, quae nullo auxilio indiget, &amp; 
-       pro<lb ed="#S" break="no" n="103"/>pter perfectam eius sapientiam, quae nullius consilio eget. In 
-      <lb ed="#S" n="104"/>Isa. Quis adiuuit Spiritum Domini, aut quis consiliarius eius 
-      <lb ed="#S" n="105"/>fuit? Sed terio modo cooperatur aliqua creatura Deo in 
+       pro<lb ed="#S" break="no" n="103"/>pter perfectam eius sapientiam, quae nullius consilio eget. In
+      <lb ed="#S" n="104"/>Isa. <quote source="http://scta.info/resource/is40_13@1-9">Quis adiuuit Spiritum Domini, aut quis consiliarius eius
+      <lb ed="#S" n="105"/>fuit?</quote> Sed terio modo cooperatur aliqua creatura Deo in 
       <lb ed="#S" n="106"/>eius actione, non tamen in omnibus. Cum enim Deus sit 
        pri<lb ed="#S" break="no" n="107"/>mum agens naturalium actionum: quicquid natura agit: hoc 
       <lb ed="#S" n="108"/>efficit quasi instrumentale agens cooperans primo agenti. 
@@ -164,8 +164,8 @@
       <lb ed="#S" n="120"/>vel ex opere operato, sicut qui conferunt sacramenta, quae 
       <lb ed="#S" n="121"/>ad gratiam disponunt, per quam sit remissio peccatorum. Et hic 
       <lb ed="#S" n="122"/>est cooperatio ministerij, quae ministris ecclesiae competit: 
-      <lb ed="#S" n="123"/>de quibus dicit I Co. 4. Sic nos existimet homo, vt 
-       mini<lb ed="#S" break="no" n="124"/>stros Christi &amp;c Verum est, quod iste vltimus modus 
+      <lb ed="#S" n="123"/>de quibus dicit I Co. 4. <quote source="http://scta.info/resource/Icor4_1@1-7">Sic nos existimet homo, vt
+       mini<lb ed="#S" break="no" n="124"/>stros Christi</quote> &amp;c Verum est, quod iste vltimus modus 
        coopera<lb ed="#S" break="no" n="125"/>tionis ministerij est duplex: quia in quibusdam sacramentis 
       <lb ed="#S" n="126"/>requiritur minister specialis, sic, quod ab alio nihil ageretur.
       <!--0047.xml-->
