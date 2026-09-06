@@ -87,7 +87,7 @@
     </p>
             <p xml:id="khj78y-r60391-d1e160" n="3">
       <!-- 3 -->In contrarium est quod dicitur Isa. 6o.
-      <lb ed="#S" n="68"/><quote source="http://scta.info/resource/is60_20@1-10">Non occidet vltra sol tuus, &amp; Luna tua non minuetur.</quote> 
+      <lb ed="#S" n="68"/><quote xml:id="khj78y-r60391-Qd1e166" source="http://scta.info/resource/is60_20@1-10">Non occidet vltra sol tuus, &amp; Luna tua non minuetur.</quote> 
       <lb ed="#S" n="69"/>sed si motus coeli duraret, sol tenderet ad occasum, &amp; Lu 
       <lb ed="#S" n="70"/>na minueretur quo ad nos secundum maiorem &amp; minorem 
       <lb ed="#S" n="71"/>approximationem ad solem: ergo motus coeli cessabit. 
@@ -266,7 +266,7 @@
       <lb ed="#S" n="85"/>co substantia coeli sit nobilior istis inferioribus: &amp; ob 
       <lb ed="#S" n="86"/>noc non sit propter ea tanquam propter finem: conclusio 
       <lb ed="#S" n="87"/>enim falsa est, vt patet Deut. a. vbi dicitursic, Custodite 
-      <lb ed="#S" n="88"/>animan vesras: &amp; subditur, <quote source="http://scta.info/resource/deut4_19@1-30">ne forte oculis eleuatis ad 
+      <lb ed="#S" n="88"/>animan vesras: &amp; subditur, <quote xml:id="khj78y-r60391-Qd1e543" source="http://scta.info/resource/deut4_19@1-30">ne forte oculis eleuatis ad 
       <lb ed="#S" n="89"/>coelum videas solem &amp; Lunam &amp; omnia astra coeli, &amp; 
       <lb ed="#S" n="90"/>errore deceptus adores ea &amp; colas quae creauit 
        Domi<lb ed="#S" break="no" n="91"/>nus Deus in ministerium cunctis getibus.</quote> Medium etiam 
